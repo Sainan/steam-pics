@@ -1,10 +1,9 @@
 {
   "appid": "3296910",
-  "public_only": "1",
   "common": {
     "name": "Stash",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "58cc16e8a20662fbbf27e081683cea92aaa9ccd1",
     "clienticon": "5eca60fb54ee5c8faa2cf4cb4fac26a383a198e3",
     "clienttga": "b8220e5c0a7f4670da5d027705a27890476816f1",
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758492110",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3296910",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1084988",
@@ -129,6 +129,36 @@
       "17": "6276",
       "18": "3859",
       "19": "4305"
+    }
+  },
+  "extended": {
+    "developer": "WheeGaming",
+    "publisher": "WheeGaming"
+  },
+  "config": {
+    "installdir": "Stash",
+    "launch": {
+      "0": {
+        "executable": "StashACardLooter.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3296911": {
+      "manifests": {
+        "public": {
+          "gid": "1568348629144419310",
+          "size": "1124006768",
+          "download": "374580160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20068289",
+        "timeupdated": "1758487500"
+      }
     }
   }
 }
