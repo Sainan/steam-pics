@@ -1,0 +1,113 @@
+{
+  "appid": "728470",
+  "common": {
+    "name": "ASTRONEER Dedicated Server",
+    "type": "Tool",
+    "parent": "361420",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "clienttga": "136ef74f5485c687ab9185c1fb9c63624fdd07ef",
+    "clienticon": "29a46bb1cc0cae5076b66b9915c1c170c3696080",
+    "icon": "18ef632a152a69a8fb4f62c074cd50aa15d3bf33",
+    "logo": "baf5219a4a1add9497e81c1ed4b513949c8e51a7",
+    "logo_small": "baf5219a4a1add9497e81c1ed4b513949c8e51a7_thumb",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "728470"
+  },
+  "config": {
+    "installdir": "ASTRONEER Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "AstroServer.exe",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AstroServer.exe",
+        "description": "Accept connections",
+        "type": "server",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "728471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "791769216875413138",
+          "size": "2405317504",
+          "download": "2287509168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19308073",
+        "timeupdated": "1753906120"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
