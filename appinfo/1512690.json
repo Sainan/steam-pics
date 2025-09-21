@@ -1,0 +1,152 @@
+{
+  "appid": "1512690",
+  "common": {
+    "name": "Renown Dedicated Server",
+    "section_type": "ownersonly",
+    "type": "Tool",
+    "parent": "1488310",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1512690"
+  },
+  "config": {
+    "installdir": "Renown Dedicated Server",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "Renown_CombatServer.exe",
+        "arguments": "-stat -log -newconsole -ini:Engine:[EpicOnlineServices]:DedicatedServerClientId=xyza78917DzEE5Ey0isciVt66QDm5IzM -ini:Engine:[EpicOnlineServices]:DedicatedServerClientSecret=m/mrnywFCdeA1mW3ZSvv3qcVlQlfwi1a+7Z63Q44EGU",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Dedicated Server"
+        },
+        "description": "Launch Dedicated Server"
+      },
+      "1": {
+        "executable": "Renown_CombatServer.sh",
+        "arguments": "-stat -log -newconsole -ini:Engine:[EpicOnlineServices]:DedicatedServerClientId=xyza78917DzEE5Ey0isciVt66QDm5IzM -ini:Engine:[EpicOnlineServices]:DedicatedServerClientSecret=m/mrnywFCdeA1mW3ZSvv3qcVlQlfwi1a+7Z63Q44EGU",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1512691": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7648028235543096744",
+          "size": "9056005975",
+          "download": "3317734192"
+        },
+        "beta": {
+          "gid": "5838330059914065576",
+          "size": "9056052036",
+          "download": "3317643008"
+        }
+      }
+    },
+    "1512692": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6334644094648881191",
+          "size": "11463580334",
+          "download": "3725366432"
+        },
+        "beta": {
+          "gid": "6471370929355356059",
+          "size": "11463616319",
+          "download": "3725378544"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20062171",
+        "timeupdated": "1758406163"
+      },
+      "beta": {
+        "buildid": "20063670",
+        "description": "beta branch",
+        "timeupdated": "1758426035"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
