@@ -1,0 +1,144 @@
+{
+  "appid": "920720",
+  "common": {
+    "name": "Last Oasis - Dedicated Server",
+    "type": "Tool",
+    "parent": "903950",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "logo": "2f69a51d8bae1b2ef232fd581d117f42593423b6",
+    "logo_small": "2f69a51d8bae1b2ef232fd581d117f42593423b6_thumb",
+    "icon": "77d0de7f7f808287b334ff34c3591f1f6f9b16fc",
+    "clienticon": "b8ac6f3a5533070804d3264f48f11a0be14bf294",
+    "clienttga": "3d94db27a0855769b2bd97cb9bdfea3d239b67e4",
+    "freetodownload": "1",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {
+      "category_62": "1"
+    },
+    "steam_release_date": "1627563022",
+    "gameid": "920720"
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=920720"
+  },
+  "config": {
+    "installdir": "Last Oasis - Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "MistServer.exe",
+        "arguments": "-OpenFolder",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "920721": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2594778504443219360",
+          "size": "7438078810",
+          "download": "1346033728"
+        },
+        "classic": {
+          "gid": "1066263781797053033",
+          "size": "5578105247",
+          "download": "1024879328"
+        }
+      }
+    },
+    "920722": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1119851460714009067",
+          "size": "7645490339",
+          "download": "1326165456"
+        },
+        "classic": {
+          "gid": "1229449101651237669",
+          "size": "5929391951",
+          "download": "1043690416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18581644",
+        "timeupdated": "1748001991"
+      },
+      "classic": {
+        "buildid": "9193201",
+        "description": "Classic S4",
+        "timeupdated": "1658846235"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
