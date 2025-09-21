@@ -1,0 +1,108 @@
+{
+  "appid": "3289190",
+  "common": {
+    "name": "Startron Demo",
+    "type": "Demo",
+    "parent": "662000",
+    "releasestate": "released",
+    "icon": "114f2ef008dbfec1649f8818da37a4e357c40c43",
+    "clienticon": "6b111bd0a74ba68045ed6098c412b0906fb2b887",
+    "clienttga": "ecce425e5127004c5c5d765096f28eb7147183a3",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "f9dd664371ab8a2f8126b3ed2340994f2e2ca521/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1728638546",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Rogo Darius"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Rogo Digital"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "steam_release_date": "1729705326",
+    "gameid": "3289190",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rogo Darius",
+    "publisher": "Rogo Digital"
+  },
+  "config": {
+    "installdir": "Startron Demo",
+    "launch": {
+      "0": {
+        "executable": "Startron.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Startron.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3289192": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4409349869995999837",
+          "size": "136341886",
+          "download": "76994352"
+        }
+      }
+    },
+    "3289193": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1144651972299678562",
+          "size": "134220530",
+          "download": "75070544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "17534002",
+        "timeupdated": "1740673374"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "25000000",
+    "maxnumfiles": "25",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Startron_Data/StreamingAssets/sav",
+        "pattern": "*.cms"
+      }
+    }
+  }
+}
