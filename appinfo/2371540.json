@@ -1,0 +1,251 @@
+{
+  "appid": "2371540",
+  "common": {
+    "name": "贪婪大地 Demo",
+    "type": "Demo",
+    "parent": "2218400",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "faae8a233b7fc6445bcb6dd5dce0decc6864cee1",
+    "clienttga": "3f66a82fe80d3fc0db8e4251ccb277c7c71e6a01",
+    "clienticon": "329d9032ec94376042be8f1706953882695c2610",
+    "name_localized": {
+      "schinese": "贪婪大地 试玩版",
+      "english": "Greedland Demo"
+    },
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg",
+      "schinese": "capsule_231x87_schinese.jpg",
+      "koreana": "capsule_231x87_koreana.jpg",
+      "japanese": "capsule_231x87_japanese.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg",
+      "schinese": "header_schinese.jpg",
+      "koreana": "header_koreana.jpg",
+      "japanese": "header_japanese.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en,zh-cn,ko,ja",
+      "library_hero": "en",
+      "library_logo": "en,zh-cn,ko,ja"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg",
+          "schinese": "library_600x900_schinese.jpg",
+          "koreana": "library_600x900_koreana.jpg",
+          "japanese": "library_600x900_japanese.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg",
+          "schinese": "library_600x900_schinese_2x.jpg",
+          "koreana": "library_600x900_koreana_2x.jpg",
+          "japanese": "library_600x900_japanese_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png",
+          "schinese": "logo_schinese.png",
+          "koreana": "logo_koreana.png",
+          "japanese": "logo_japanese.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png",
+          "schinese": "logo_schinese_2x.png",
+          "koreana": "logo_koreana_2x.png",
+          "japanese": "logo_japanese_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1686649280",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "VaMP He"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Gamersky Games"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Gamersky Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1681272722",
+    "gameid": "2371540",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "demoofappid": "2218400",
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "VaMP He",
+    "publisher": "Gamersky Games"
+  },
+  "config": {
+    "installdir": "Greedland Demo",
+    "launch": {
+      "0": {
+        "executable": "NewGreedland.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "NewGreedland.exe",
+        "arguments": "-DX12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Greedland Demo(DX12)",
+          "schinese": "贪婪大地 Demo（DX12）"
+        },
+        "description": "Greedland Demo(DX12)"
+      },
+      "2": {
+        "executable": "NewGreedland.exe",
+        "arguments": "-vulkan",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Greedland Demo(Vulkan)",
+          "schinese": "贪婪大地 Demo（Vulkan）"
+        },
+        "description": "Greedland Demo(Vulkan)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2218401": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5209974604063299967",
+          "size": "4858990288",
+          "download": "4417000032"
+        }
+      },
+      "depotfromapp": "2218400"
+    },
+    "2371541": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "749395057138396694",
+          "size": "4858992336",
+          "download": "4421726576"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20058093",
+        "timeupdated": "1758357680"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "NewGreedland/Saved/SaveGames",
+        "pattern": "GLGameSaveDemo.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "NewGreedland/Saved/SaveGames",
+        "pattern": "GLGameSaveFormal.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "NewGreedland/Saved/SaveGames",
+        "pattern": "GLPlayerStatistics.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
+}
