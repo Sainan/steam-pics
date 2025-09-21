@@ -1,0 +1,193 @@
+{
+  "appid": "3683840",
+  "common": {
+    "name": "Boba Cafe Simulator Demo",
+    "type": "Demo",
+    "parent": "3683770",
+    "releasestate": "released",
+    "icon": "b046051bca244a07e526397bd13e58f4ebeeddb6",
+    "clienticon": "06936b4d532936d886a4aa0d81af4260c98f22f9",
+    "clienttga": "4fc47815b3180134f8077b9ef1f706d25b8f7e4f",
+    "name_localized": {
+      "english": "Boba Cafe Simulator Demo",
+      "schinese": "奶茶店模拟器 - 重生之我在冰堡甜城当店长 Demo",
+      "tchinese": "奶茶店模拟器 - 重生之我在冰堡甜城当店长 Demo"
+    },
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "koreana": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "russian": "1",
+      "japanese": "1",
+      "portuguese": "1"
+    },
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "564e856c39fd155a171441db82cfab764b48d5e1/capsule_231x87.jpg",
+      "schinese": "bb7054fc5623f1d3f43e098d4b538d2695e75836/capsule_231x87_schinese.jpg"
+    },
+    "header_image": {
+      "english": "374f41cac9399e5d4c98e49751b4282d40888f8f/header.jpg",
+      "schinese": "a5852d61cd18aecc920b1f9684e12565cd83b341/header_schinese.jpg"
+    },
+    "store_screenshot": "4c635cb260421e4e5b2a4b39019839dbaa8ffa02/ss_4c635cb260421e4e5b2a4b39019839dbaa8ffa02.jpg",
+    "store_asset_mtime": "1757442597",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "yangyiming"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Löwenzahn"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Löwenzahn"
+      },
+      "3": {
+        "type": "publisher",
+        "name": "yangyiming"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "4",
+      "1": "3",
+      "2": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_23": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_79": "1",
+      "category_18": "1"
+    },
+    "supported_languages": {
+      "schinese": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1757037388",
+    "community_visible_stats": "1",
+    "gameid": "3683840",
+    "exfgls": "6",
+    "review_score": "6",
+    "review_percentage": "71"
+  },
+  "extended": {
+    "developer": "yangyiming",
+    "publisher": "Löwenzahn"
+  },
+  "config": {
+    "installdir": "BobaCafeSimulatorDemo",
+    "launch": {
+      "0": {
+        "executable": "BobaCafeSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BobaCafeSimulator.exe",
+        "arguments": " -dx11",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX11"
+        },
+        "description": "DX11"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3683841": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6747565137071923777",
+          "size": "1369730091",
+          "download": "1147323904"
+        },
+        "dev0": {
+          "gid": "2254191905848461399",
+          "size": "1369986803",
+          "download": "1147550704"
+        }
+      }
+    },
+    "3683842": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20001653",
+        "timeupdated": "1758034981"
+      },
+      "dev0": {
+        "buildid": "20061251",
+        "description": "dev0",
+        "timeupdated": "1758393695"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BobaCafeSimulator",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
+  }
+}
