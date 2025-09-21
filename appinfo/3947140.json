@@ -1,6 +1,5 @@
 {
   "appid": "3947140",
-  "public_only": "1",
   "common": {
     "name": "Voidwatch Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienttga": "7677e63299a20708b5323ea726c6373b8bfdb7d2",
     "clienticon": "78b62b405b0b5aba82706e9aadbde425302241c9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "380a6e300bf4dad1d611167b2067d9f9a94392ce/capsule_231x87.jpg"
     },
@@ -96,5 +95,80 @@
     },
     "gameid": "3947140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dusk Blossom Games",
+    "publisher": "Dusk Blossom Games"
+  },
+  "config": {
+    "installdir": "Voidwatch Demo",
+    "launch": {
+      "0": {
+        "executable": "Voidwatch Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Voidwatch Demo.app/Contents/MacOS/Voidwatch Demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Voidwatch Demo",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3947141": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4636132935280090100",
+          "size": "204557947",
+          "download": "91605744"
+        }
+      }
+    },
+    "3947142": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7133703574068482627",
+          "size": "187931224",
+          "download": "83317952"
+        }
+      }
+    },
+    "3947143": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6911088819882057322",
+          "size": "185849203",
+          "download": "81762192"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20068584",
+        "timeupdated": "1758490248"
+      }
+    }
   }
 }
