@@ -1,0 +1,195 @@
+{
+  "appid": "507320",
+  "common": {
+    "name": "The Bus - Dedicated Server",
+    "type": "Tool",
+    "parent": "491540",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienttga": "43a9cba30e2586c17ea91f3cc101e655f76a5be4",
+    "clienticon": "0db44fd4dabaae33027fdada264e07d76c932699",
+    "icon": "87f699b25bef8356ebc7d5a7cce4485bb902d52b",
+    "releasestate": "released",
+    "freetodownload": "1",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {
+      "category_1": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "finnish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1734623100",
+    "gameid": "507320"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "TheBusDedicatedServer",
+    "launch": {
+      "0": {
+        "executable": "TheBus/Binaries/Win64/TheBusServer.exe",
+        "arguments": "-log -newconsole -useperfthreads"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "507321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1435410907839391915",
+          "size": "2685694238",
+          "download": "1768670080"
+        },
+        "beta": {
+          "gid": "8266208063866485252",
+          "size": "2867406953",
+          "download": "1969153888"
+        }
+      }
+    },
+    "507322": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4727197065856658314",
+          "size": "2499639470",
+          "download": "1610299568"
+        },
+        "beta": {
+          "gid": "7151532094978749067",
+          "size": "2735992261",
+          "download": "1847152896"
+        }
+      }
+    },
+    "507323": {
+      "manifests": {
+        "public": {
+          "gid": "5295692764013554727",
+          "size": "495158142",
+          "download": "447726192"
+        },
+        "beta": {
+          "gid": "3995334832509476374",
+          "size": "495167241",
+          "download": "447694352"
+        }
+      }
+    },
+    "3544251": {
+      "manifests": {},
+      "dlcappid": "3544250",
+      "depotfromapp": "3544250"
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19781327",
+        "timeupdated": "1756448089"
+      },
+      "beta": {
+        "buildid": "20048746",
+        "description": "Public Beta",
+        "timeupdated": "1758290645"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
