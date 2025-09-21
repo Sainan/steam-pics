@@ -1,0 +1,116 @@
+{
+  "appid": "412680",
+  "common": {
+    "name": "The Isle Dedicated Server",
+    "type": "Tool",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "logo": "a07e3f238fda819658e0662530aeeceb5f54b56d",
+    "logo_small": "a07e3f238fda819658e0662530aeeceb5f54b56d_thumb",
+    "icon": "7ae88c1923dbcdee670769fca9c89cc0e540ab46",
+    "clienttga": "a25c7e5766e615588f7eb45df5d97d67438d6ca4",
+    "clienticon": "dcc409f581316cdb0deb73f8bcc5202d32edaee8",
+    "osarch": "64",
+    "clienticns": "53533f9475efe72df68bb319c5efc5907ff491a3",
+    "linuxclienticon": "3222a9de0598172781a707686044eb194d98e855",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "412680"
+  },
+  "extended": {
+    "gamedir": "theisle"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "The Isle Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "TheIsleServer.exe",
+        "arguments": "-log",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "TheIsleServer.sh",
+        "arguments": "-log",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {}
+  },
+  "depots": {
+    "412681": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2602016430604302144",
+          "size": "2324743012",
+          "download": "593198128"
+        },
+        "promotional": {
+          "gid": "8450962309860220137",
+          "size": "2304778154",
+          "download": "568756976"
+        },
+        "spiro0.11.59.04": {
+          "gid": "6019984741479392759",
+          "size": "1677359313",
+          "download": "1048626048"
+        },
+        "evrima": {
+          "gid": "652813692100740218",
+          "size": "1217993588",
+          "download": "989557696"
+        }
+      }
+    },
+    "412682": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "spiro0.11.59.04": {
+          "gid": "3175858647194091748",
+          "size": "3508277151",
+          "download": "1268531152"
+        },
+        "evrima": {
+          "gid": "3564156711574598529",
+          "size": "1122508756",
+          "download": "855248336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "8170223",
+        "timeupdated": "1644385904"
+      },
+      "promotional": {
+        "buildid": "3728268",
+        "description": "Promotional and Marketing Branch",
+        "timeupdated": "1556985533"
+      },
+      "spiro0.11.59.04": {
+        "buildid": "12380465",
+        "description": "evrima spiro branch",
+        "timeupdated": "1699983388"
+      },
+      "evrima": {
+        "buildid": "19028044",
+        "description": "evrima servers",
+        "timeupdated": "1751036334"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
