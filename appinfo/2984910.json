@@ -1,0 +1,198 @@
+{
+  "appid": "2984910",
+  "common": {
+    "name": "Lo-Fi Room Demo",
+    "type": "Demo",
+    "parent": "2980020",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "icon": "3b4474f34d5128a3bbac0c9c347ec52f2fd99978",
+    "clienticon": "153498c03a1eed9a78eae2568be525623bc34406",
+    "clienttga": "0265047a05107963c8c41fa55522d9bdb2a3af1f",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "699bda3a2dbdc7fd3298a2bc5520396db6c5e3a6/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "2280d9c2218af46048d7552902150f3e8808d98a/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero_blur": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "45.92549476135041",
+        "height_pct": "99.01303095966043"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "7a56fc8c90bb5d7477cf2aff88a1678fb6a4a7cb/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "7a56fc8c90bb5d7477cf2aff88a1678fb6a4a7cb/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "c11dc6e3d6c5dc15ea39588d52175fb367cc3349/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "45.92549476135041",
+          "height_pct": "99.01303095966043"
+        }
+      }
+    },
+    "store_asset_mtime": "1756641174",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Bearmask"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Bearmask"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_68": "1",
+      "category_74": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1756735211",
+    "gameid": "2984910",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bearmask",
+    "publisher": "Bearmask",
+    "homepage": "https://bearmask.io"
+  },
+  "config": {
+    "installdir": "Lo-Fi Room Demo",
+    "launch": {
+      "0": {
+        "executable": "Lo-Fi Room.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Lo-Fi Room.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Lo-Fi Room",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2984911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1417159399881682875",
+          "size": "385948373",
+          "download": "111561504"
+        }
+      }
+    },
+    "2984912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3880083394686737345",
+          "size": "410677601",
+          "download": "121811616"
+        }
+      }
+    },
+    "2984913": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5656570430117992603",
+          "size": "428936971",
+          "download": "113022464"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20065878",
+        "timeupdated": "1758459762"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "appidredirect": "2980020",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Bearmask/Lo-Fi Room",
+        "pattern": "*.json"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Bearmask/Lo-Fi Room",
+            "replace": "com.Bearmask.Lo-FiRoom"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Bearmask/Lo-Fi Room",
+            "replace": ".config/unity3d/Bearmask/Lo-Fi Room"
+          }
+        }
+      }
+    }
+  }
+}
