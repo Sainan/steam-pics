@@ -1,0 +1,186 @@
+{
+  "appid": "3804090",
+  "common": {
+    "name": "HOVERDRIVE Playtest",
+    "type": "Beta",
+    "parent": "3074590",
+    "clienticon": "943533f2d6594bcc8fa711be59cbd0dad7cde44a",
+    "clienttga": "917c999ff1226f2b46564935695141f3b989a20b",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "icon": "ee75bd8256517c16882c51d55b527909d151b060",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "3293489d0245fd336638db9245cf85fd86bc0630/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "8571b20c0830c9abe8f7ae8f4d6a286010b4f512/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "48.112560054907334",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "3ef947f2f33926d0f3306938a3eea1bd395451fb/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "3ef947f2f33926d0f3306938a3eea1bd395451fb/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "ad6c32333ca37fa3b5b48ee029f3aeb270ef36be/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "ad6c32333ca37fa3b5b48ee029f3aeb270ef36be/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "ad6c32333ca37fa3b5b48ee029f3aeb270ef36be/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "f4e0cf9a7ad37f5ff5d3c5e2b9f983c1dfb9df96/logo.png"
+        },
+        "image2x": {
+          "english": "f4e0cf9a7ad37f5ff5d3c5e2b9f983c1dfb9df96/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "48.112560054907334",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "8571b20c0830c9abe8f7ae8f4d6a286010b4f512/library_header.jpg"
+        },
+        "image2x": {
+          "english": "8571b20c0830c9abe8f7ae8f4d6a286010b4f512/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1749200615",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1758354932",
+    "community_hub_visible": "1",
+    "gameid": "3804090",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "0",
+    "playtestinvitecount": "2",
+    "playtestinviteendtime": "1767139200",
+    "deckresolutionoverride": "1920x1080",
+    "playtestinvitecutofftime": "1758240000"
+  },
+  "config": {
+    "installdir": "HOVERDRIVE Playtest",
+    "launch": {
+      "0": {
+        "executable": "HOVERDRIVE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "hoverdrive.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3804091": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8390673343760695456",
+          "size": "631150827",
+          "download": "108157424"
+        }
+      }
+    },
+    "3804092": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3026604897675662098",
+          "size": "636885953",
+          "download": "110381008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19905504",
+        "timeupdated": "1757388038"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "2": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "1bitlime/HOVERDRIVE"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "unity3d/1bitlime/HOVERDRIVE"
+          }
+        }
+      }
+    }
+  }
+}
