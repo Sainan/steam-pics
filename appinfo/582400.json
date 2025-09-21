@@ -1,0 +1,112 @@
+{
+  "appid": "582400",
+  "common": {
+    "name": "Alien Swarm: Reactive Drop Dedicated Server",
+    "type": "Tool",
+    "parent": "563560",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "icon": "ebb7491e0400dacd15f6d09b4226ca8ee71dc1b7",
+    "logo": "22eb8626af99c447b422df3a28f2b4c395e94576",
+    "logo_small": "22eb8626af99c447b422df3a28f2b4c395e94576_thumb",
+    "clienticon": "b38c50b6c3dea460c3d50f19f65deacee9a63aa9",
+    "clienttga": "020b464639e70c25a8a9024e1101caf17bc26964",
+    "osextended": "",
+    "name_localized": {
+      "russian": "Alien Swarm: Reactive Drop - Выделенный сервер",
+      "brazilian": "Alien Swarm: Reactive Drop - Servidor Dedicado"
+    },
+    "freetodownload": "1",
+    "metacritic_name": "Alien Swarm: Reactive Drop Dedicated Server",
+    "associations": {},
+    "steam_release_date": "1492708020",
+    "gameid": "582400"
+  },
+  "config": {
+    "installdir": "Alien Swarm Reactive Drop",
+    "launch": {
+      "0": {
+        "executable": "srcds_console.exe",
+        "arguments": "-console -game reactivedrop +exec server +map lobby",
+        "type": "server",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "582401": {
+      "manifests": {
+        "public": {
+          "gid": "6942055620073268713",
+          "size": "2736178291",
+          "download": "802716976"
+        },
+        "beta": {
+          "gid": "3671214517397281753",
+          "size": "2736478482",
+          "download": "803270144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19880868",
+        "timeupdated": "1757149408"
+      },
+      "beta": {
+        "buildid": "20061307",
+        "description": " Latest changes. Probably broken.",
+        "timeupdated": "1758394348"
+      }
+    }
+  }
+}
