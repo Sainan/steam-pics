@@ -1,0 +1,57 @@
+{
+  "appid": "2089300",
+  "common": {
+    "name": "Icarus Dedicated Server",
+    "section_type": "ownersonly",
+    "type": "Tool",
+    "parent": "1149460",
+    "releasestate": "released",
+    "gameid": "2089300"
+  },
+  "config": {
+    "installdir": "Icarus Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "IcarusServer.exe"
+      }
+    }
+  },
+  "depots": {
+    "2089301": {
+      "manifests": {
+        "public": {
+          "gid": "6559006707490077450",
+          "size": "9989166502",
+          "download": "6962272928"
+        },
+        "2.2.57": {
+          "gid": "5833021094036883719",
+          "size": "9971412515",
+          "download": "6921760928"
+        },
+        "experimental": {
+          "gid": "2531895197989877521",
+          "size": "9991295590",
+          "download": "6961957408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20044272",
+        "timeupdated": "1758271763"
+      },
+      "2.2.57": {
+        "buildid": "18602851",
+        "description": "Pre-Ring Lake Change",
+        "timeupdated": "1749247949"
+      },
+      "experimental": {
+        "buildid": "20056639",
+        "description": "Predeployment Testing",
+        "timeupdated": "1758347713"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
