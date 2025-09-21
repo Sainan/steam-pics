@@ -1,6 +1,5 @@
 {
   "appid": "3379590",
-  "public_only": "1",
   "common": {
     "name": "I found myself in a strange house and I'm scared",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "9fce4879884a35f452d0b218f559408584c3b992",
     "clienttga": "43e0634857ec269fad038301766caf399e8ff03a",
     "icon": "bdb138feb1df320c8a594ae3052cfb5d7c70a179",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -132,9 +131,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758470429",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3379590",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "5900",
@@ -156,6 +156,61 @@
       "17": "597",
       "18": "5716",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Quiet River",
+    "publisher": "Quiet River"
+  },
+  "config": {
+    "installdir": "I found myself in a strange house and I'm scared",
+    "launch": {
+      "0": {
+        "executable": "izba.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3379591": {
+      "manifests": {
+        "public": {
+          "gid": "1354729599253986734",
+          "size": "4406422886",
+          "download": "4128944736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20065506",
+        "timeupdated": "1758454507"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "izba/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
