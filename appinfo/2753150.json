@@ -1,0 +1,161 @@
+{
+  "appid": "2753150",
+  "common": {
+    "name": "Sanatorium - A Mental Asylum Simulator Demo",
+    "type": "Demo",
+    "parent": "2059090",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macosapplesilicon",
+    "icon": "151dd504b54de92c1eacb23e8ea38a19d508724b",
+    "clienticns": "50a5cffb4c500cc31a2f0314eb7b78c0c5c865c1",
+    "clienttga": "533d4c87b82bd0e6f6cd5cfe1e6ef737880be8e2",
+    "clienticon": "f064eb59bf26e8b16e5973e1704f4bf98477f77d",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1711210516",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Zeitglas"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Zeitglas"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1707084764",
+    "gameid": "2753150",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Zeitglas",
+    "publisher": "Zeitglas",
+    "homepage": "https://sanatoriumgame.com/"
+  },
+  "config": {
+    "installdir": "Sanatorium Demo",
+    "launch": {
+      "0": {
+        "executable": "Sanatorium - A Mental Asylum Simulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Sanatorium.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3568384376": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "4"
+  },
+  "depots": {
+    "2753151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "997469705454267042",
+          "size": "787094503",
+          "download": "561962592"
+        }
+      }
+    },
+    "2753152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6419046914398300305",
+          "size": "793917790",
+          "download": "563666960"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20012208",
+        "timeupdated": "1758109157"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Zeitglas/SanatoriumAMSDemo/Saves",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      }
+    }
+  }
+}
