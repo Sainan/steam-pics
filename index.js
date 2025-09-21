@@ -15,5 +15,10 @@ user.on("appUpdate", (appId, data) => {
 	console.log(`Change ${data.changenumber}`);
 	fs.writeFileSync("appinfo/" + appId + ".json", JSON.stringify(data.appinfo, null, 2));
 	child_process.execSync(`git add appinfo/${appId}.json`);
-	child_process.execSync(`git commit -m "Change ${data.changenumber} (missingToken=${data.missingToken})"`)
+	try {
+		child_process.execSync(`git commit -m "Change ${data.changenumber} (missingToken=${data.missingToken})"`)
+	}
+	catch (e) {
+		console.log(e);
+	}
 });
