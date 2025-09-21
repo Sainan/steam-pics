@@ -1,0 +1,118 @@
+{
+  "appid": "581330",
+  "common": {
+    "name": "Insurgency: Sandstorm Dedicated Server",
+    "type": "Tool",
+    "parent": "581320",
+    "releasestate": "released",
+    "oslist": "linux",
+    "osarch": "",
+    "clienticon": "df54c9719cb2383dbbb29ec6b89b108c9dbe9f22",
+    "clienttga": "8eba259c22e90df29fd2f5f157b4394cd7074a9e",
+    "icon": "018d8f1d991e46846a25dd01cfd5b13b4ddfb26e",
+    "logo": "2d12877271f99129c04ac0cab8625b5abe7768a8",
+    "logo_small": "2d12877271f99129c04ac0cab8625b5abe7768a8_thumb",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "581330"
+  },
+  "config": {
+    "installdir": "sandstorm_server",
+    "launch": {
+      "0": {
+        "executable": "InsurgencyServer.exe",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "581332": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6093198283918183405",
+          "size": "4809889330",
+          "download": "4116235328"
+        }
+      }
+    },
+    "581333": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1237745673074878280",
+          "size": "4770776067",
+          "download": "4032212368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "17873971",
+        "timeupdated": "1745337258"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
