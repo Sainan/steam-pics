@@ -1,0 +1,146 @@
+{
+  "appid": "3557020",
+  "common": {
+    "name": "Team Fortress 2 Classic Dedicated Server",
+    "type": "Tool",
+    "parent": "3545060",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "07d5b6b2cdbcb421ef2175648e396e2b70c7c3ca",
+    "clienttga": "11b01db654a8b9fd7e2b6585001097962a097342",
+    "clienticon": "07b188d3448d645e3f77522dfdc51c7a294e3f23",
+    "gameid": "3557020"
+  },
+  "extended": {
+    "gamedir": "tf2classic",
+    "serverbrowsername": "Team Fortress 2 Classic"
+  },
+  "config": {
+    "installdir": "Team Fortress 2 Classic Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "tf2classic_win64.exe",
+        "arguments": "-steam",
+        "type": "server",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "tf2classic.sh",
+        "arguments": "-steam",
+        "type": "server",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3545061": {
+      "manifests": {
+        "public": {
+          "gid": "7669525678081100311",
+          "size": "5513152957",
+          "download": "1977738736"
+        },
+        "nightly": {
+          "gid": "6512252859296169775",
+          "size": "5840385938",
+          "download": "2152541104"
+        }
+      },
+      "depotfromapp": "3545060"
+    },
+    "3545062": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6023448390247928297",
+          "size": "208506839",
+          "download": "78113776"
+        },
+        "nightly": {
+          "gid": "2510985205881205560",
+          "size": "212508611",
+          "download": "80002832"
+        }
+      },
+      "depotfromapp": "3545060"
+    },
+    "3545063": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7131589349327884978",
+          "size": "186021557",
+          "download": "47759280"
+        },
+        "nightly": {
+          "gid": "8810848369513116358",
+          "size": "197325173",
+          "download": "50780592"
+        }
+      },
+      "depotfromapp": "3545060"
+    },
+    "3545064": {
+      "manifests": {
+        "public": {
+          "gid": "3526559183498241973",
+          "size": "1893088",
+          "download": "270560"
+        },
+        "nightly": {
+          "gid": "4296666419972911517",
+          "size": "51856449",
+          "download": "16327024"
+        }
+      },
+      "depotfromapp": "3545060"
+    },
+    "3557022": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "3557023": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5094129373823940443",
+          "size": "15828608",
+          "download": "5845024"
+        },
+        "nightly": {
+          "gid": "8398284826539681613",
+          "size": "15829072",
+          "download": "5845456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18773006",
+        "timeupdated": "1749252384"
+      },
+      "nightly": {
+        "buildid": "20062794",
+        "description": "Automated builds every day",
+        "timeupdated": "1758413105"
+      }
+    }
+  }
+}
