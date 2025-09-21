@@ -1,11 +1,10 @@
 {
   "appid": "3974310",
-  "public_only": "1",
   "common": {
     "name": "A Love Without Limits: Beyond Monogamy Demo",
     "type": "Demo",
     "parent": "3938160",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8d8a26b2af41e8b56f347dbf6dd6fa2ba833c932",
     "clienticon": "8d8a26b2af41e8b56f347dbf6dd6fa2ba833c932",
     "oslist": "windows,macos",
@@ -105,6 +104,78 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "FiTB Games",
+    "publisher": "FiTB Games"
+  },
+  "config": {
+    "installdir": "A Love Without Limits Beyond Monogamy Demo",
+    "launch": {
+      "0": {
+        "executable": "ALWL.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ALWL.app/Contents/MacOS/ALWL",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3974311": {
+      "config": {
+        "oslist": "windows,macos",
+        "language": "english",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6689999780324956307",
+          "size": "477021594",
+          "download": "385371008"
+        },
+        "demodefault1": {
+          "gid": "6067906625387053992",
+          "size": "475874473",
+          "download": "384614064"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19920220",
+        "timeupdated": "1757472971"
+      },
+      "demodefault1": {
+        "buildid": "20061110",
+        "description": "New build",
+        "timeupdated": "1758391811"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "500",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "RenPy/FitB_Games/ALWL/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
