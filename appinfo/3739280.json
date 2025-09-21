@@ -6,7 +6,7 @@
     "icon": "36776358f067d23dd105b1ee37784e90826ce336",
     "clienticon": "16d74ffdd93b583302e73e42701a452c963c2aea",
     "clienttga": "c9d55d9f695a61eb8332ef7f16dd3ae6162d42e2",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
     "releasestate": "released",
@@ -141,6 +141,14 @@
         "type": "default",
         "config": {
           "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "run.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
           "osarch": "64"
         }
       }
