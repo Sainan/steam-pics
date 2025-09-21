@@ -1,10 +1,9 @@
 {
   "appid": "3975380",
-  "public_only": "1",
   "common": {
     "name": "PunchIt!",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -156,9 +155,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758467868",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3975380",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -180,6 +180,49 @@
       "17": "5752",
       "18": "4747",
       "19": "6730"
+    }
+  },
+  "extended": {
+    "developer": "ChillomousGames",
+    "publisher": "ChillomousGames"
+  },
+  "config": {
+    "installdir": "PunchIt!",
+    "launch": {
+      "0": {
+        "executable": "PunchIt.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3975381": {
+      "manifests": {
+        "public": {
+          "gid": "4719419068865278012",
+          "size": "453846787",
+          "download": "304010928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20066444",
+        "timeupdated": "1758466762"
+      }
     }
   }
 }
