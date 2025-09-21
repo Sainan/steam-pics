@@ -1,6 +1,5 @@
 {
   "appid": "3047090",
-  "public_only": "1",
   "common": {
     "name": "Drive Out",
     "type": "Game",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg",
@@ -116,7 +115,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3047090",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "3859",
@@ -132,6 +130,72 @@
       "11": "5613",
       "12": "10808",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "RisingMoon",
+    "publisher": "RisingMoon"
+  },
+  "config": {
+    "installdir": "Drive Out",
+    "launch": {
+      "0": {
+        "executable": "DriveOut.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3047091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "207039339784448447",
+          "size": "6248019441",
+          "download": "2743662016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20062991",
+        "timeupdated": "1758415573"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5120",
+    "maxnumfiles": "20",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "RisingMoon\\DriveOut\\{64BitSteamID}\\",
+        "pattern": "game_config.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "RisingMoon\\DriveOut\\{64BitSteamID}\\",
+        "pattern": "*.savedata",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
