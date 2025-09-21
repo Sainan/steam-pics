@@ -148,11 +148,17 @@
     "launch": {
       "0": {
         "executable": "Cooking Time!.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
       },
       "1": {
         "executable": "Cooking Time!.app",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
