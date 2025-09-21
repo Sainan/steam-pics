@@ -1,0 +1,225 @@
+{
+  "appid": "2189970",
+  "common": {
+    "name": "Exhibitors",
+    "type": "Game",
+    "icon": "2c8da21348b45b941c39e4afe65571d5ae0fa95e",
+    "clienticon": "1df026517870f5f014e4c90a184b1d7344fc6f88",
+    "clienttga": "8637d7c1ed595b04a23e74085917fc08b5537292",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      }
+    },
+    "store_asset_mtime": "1680926703",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Suncats"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Suncats"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "4",
+      "3": "37",
+      "4": "23",
+      "5": "28",
+      "6": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_27": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1680929731",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2189970",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "7332",
+      "1": "255534",
+      "2": "1695",
+      "3": "8945",
+      "4": "599",
+      "5": "3810",
+      "6": "597",
+      "7": "1702",
+      "8": "9",
+      "9": "4520",
+      "10": "12472",
+      "11": "1643",
+      "12": "3942",
+      "13": "1673",
+      "14": "3834",
+      "15": "916648",
+      "16": "87918",
+      "17": "3871",
+      "18": "22602",
+      "19": "3964"
+    },
+    "review_score": "6",
+    "review_percentage": "70"
+  },
+  "extended": {
+    "developer": "Suncats",
+    "publisher": "Suncats",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Exhibitors",
+    "launch": {
+      "0": {
+        "executable": "Exhibitors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Exhibitors.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2189971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7103742707396568925",
+          "size": "276391641",
+          "download": "139452240"
+        },
+        "testing": {
+          "gid": "7651594770509216146",
+          "size": "276391641",
+          "download": "139451104"
+        }
+      }
+    },
+    "2189972": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5909995868303335709",
+          "size": "300068153",
+          "download": "146503744"
+        },
+        "testing": {
+          "gid": "797412004620074852",
+          "size": "300068153",
+          "download": "146503904"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "18743093",
+        "timeupdated": "1749085813"
+      },
+      "testing": {
+        "buildid": "11183078",
+        "description": "testing",
+        "timeupdated": "1741990328"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SunCats/Exhibitors-of-Life/SteamSave",
+        "pattern": "*.sce"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SunCats/Exhibitors-of-Life/SteamSave",
+            "replace": "com.SunCats.Exhibitors-of-Life/SteamSave"
+          }
+        }
+      }
+    }
+  }
+}
