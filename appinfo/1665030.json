@@ -1,0 +1,104 @@
+{
+  "appid": "1665030",
+  "common": {
+    "name": "Nova-Life_GameServer",
+    "type": "Tool",
+    "parent": "885570",
+    "releasestate": "released",
+    "logo": "e250c36afaa2e4b6eef3355fd2fd715b7fcf3012",
+    "logo_small": "e250c36afaa2e4b6eef3355fd2fd715b7fcf3012_thumb",
+    "icon": "585165aa06238fd6eef2ea89ecc376b5e0fc7fb6",
+    "clienttga": "62a53125e6472eb25830966475ac9c5d3d368cec",
+    "clienticon": "04c7348af12222ddc524b49b6801397dd588a675",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1665030"
+  },
+  "extended": {
+    "gamedir": "Nova-Life"
+  },
+  "config": {
+    "installdir": "Nova-Life Game Server",
+    "launch": {
+      "0": {
+        "executable": "nova-life.x86_64",
+        "arguments": "-batchmode -nographics",
+        "type": "server",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1665031": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3209073597089649605",
+          "size": "8797582567",
+          "download": "3247464624"
+        },
+        "test-update": {
+          "gid": "5080067753680448940",
+          "size": "4505822587",
+          "download": "1035446032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19376614",
+        "timeupdated": "1753643979"
+      },
+      "test-update": {
+        "buildid": "11201842",
+        "description": "Update Test Branch",
+        "timeupdated": "1683746128"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
