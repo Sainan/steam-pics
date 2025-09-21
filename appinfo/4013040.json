@@ -1,6 +1,5 @@
 {
   "appid": "4013040",
-  "public_only": "1",
   "common": {
     "name": "Be King Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "861e7551cc7f81667bf5dff428691724412b52d5/capsule_231x87.jpg"
@@ -360,7 +359,47 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4013040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wending Studio",
+    "publisher": "Wending Studio"
+  },
+  "config": {
+    "installdir": "Be King Demo",
+    "launch": {
+      "0": {
+        "executable": "BeKing.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4013041": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1644799402428828355",
+          "size": "123291760",
+          "download": "54291856"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19868393",
+        "timeupdated": "1757062635"
+      }
+    }
   }
 }
