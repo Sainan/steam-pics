@@ -104,7 +104,17 @@
     "launch": {
       "0": {
         "executable": "Terminal_Descent.exe",
-        "arguments": "-windowed"
+        "arguments": "-windowed",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Terminal_Descent",
+        "arguments": "-windowed",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
