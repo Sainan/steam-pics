@@ -1,6 +1,5 @@
 {
   "appid": "3931290",
-  "public_only": "1",
   "common": {
     "name": "MangaCo",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "261a27f57be4fdad57e408dbd47538998f38e3da/capsule_231x87.jpg"
@@ -127,9 +126,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3931290",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "615955",
@@ -144,6 +143,49 @@
       "10": "12472",
       "11": "3871",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Metsker&amp;Co",
+    "publisher": "Metsker&amp;Co"
+  },
+  "config": {
+    "installdir": "MangaCo",
+    "launch": {
+      "0": {
+        "executable": "MangaCo.exe"
+      }
+    }
+  },
+  "depots": {
+    "3931291": {
+      "manifests": {
+        "public": {
+          "gid": "8145833738868217121",
+          "size": "127575479",
+          "download": "51638544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20067046",
+        "timeupdated": "1758474527"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Metsker_co\\MangaCo",
+        "pattern": "*.chill",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
