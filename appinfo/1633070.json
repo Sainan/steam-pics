@@ -1,6 +1,5 @@
 {
   "appid": "1633070",
-  "public_only": "1",
   "common": {
     "name": "Pulsar 174",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "4f22865b9e1d3ece4a465c3b36bdc6b30cb0a06d",
     "clienttga": "b19fa01b9d024ad6c644fc285ccdf7b76158aa72",
     "clienticon": "bea1f8ffb57380db0348a9976c41b5ec14a3f5df",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "DE",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -112,7 +111,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "1633070",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4191",
@@ -134,6 +132,59 @@
       "17": "3993",
       "18": "5765",
       "19": "1695"
+    }
+  },
+  "extended": {
+    "developer": "CBO Games",
+    "publisher": "Saeng Gang"
+  },
+  "config": {
+    "installdir": "Pulsar174",
+    "launch": {
+      "0": {
+        "executable": "UT1999Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1633071": {},
+    "1633072": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7352216321929661136",
+          "size": "5746453625",
+          "download": "5186911520"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20066076",
+        "timeupdated": "1758462063"
+      }
     }
   }
 }
