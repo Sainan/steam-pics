@@ -12,6 +12,10 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
+    "languages": {
+      "english": "1",
+      "german": "1"
+    },
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
@@ -210,7 +214,25 @@
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "Forward+ – Requires Vulkan-compatible hardware",
+          "german": "Forward+ – Erfordert Vulkan-kompatible Hardware"
+        },
+        "description": "Forward+ – Requires Vulkan-compatible hardware"
+      },
+      "1": {
+        "executable": "checkout_cashier_simulator_windows.exe",
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode – Supports low-performance hardware",
+          "german": "Kompatibilitätsmodus – Unterstützt leistungsschwache Hardware"
+        },
+        "description": "Compatibility Mode – Supports low-performance hardware"
       }
     },
     "app_mappings": {}
