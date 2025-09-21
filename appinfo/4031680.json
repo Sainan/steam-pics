@@ -1,6 +1,5 @@
 {
   "appid": "4031680",
-  "public_only": "1",
   "common": {
     "name": "One more gem Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -50,5 +49,43 @@
     },
     "gameid": "4031680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Cosmin Munteanu",
+    "publisher": "Cosmin Munteanu"
+  },
+  "config": {
+    "installdir": "One more gem Demo",
+    "launch": {
+      "0": {
+        "executable": "onemoregem.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4031682": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8897289077818998572",
+          "size": "316218320",
+          "download": "189385280"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20003474",
+        "timeupdated": "1758044773"
+      }
+    }
   }
 }
