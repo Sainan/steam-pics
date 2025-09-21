@@ -1,0 +1,781 @@
+{
+  "appid": "502570",
+  "common": {
+    "name": "Houdini Indie",
+    "type": "Application",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "clienticon": "356a5f2046db8d35db19738d711bf0e40994fd9c",
+    "clienttga": "7f9434e1f7b73679c046dcf3564e209664bec58c",
+    "icon": "b369c2c96c1001a28d6f697195ce9e37c4cb5049",
+    "logo": "ff454ed7d70cf23501dff16f67c308aee579490c",
+    "logo_small": "ff454ed7d70cf23501dff16f67c308aee579490c_thumb",
+    "releasestate": "released",
+    "eulas": {
+      "0": {
+        "id": "502570_eula_0",
+        "name": "Houdini Indie EULA",
+        "url": "https://store.steampowered.com//eula/502570_eula_0",
+        "version": "4"
+      }
+    },
+    "osextended": "macos64,macosapplesilicon",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1658534400",
+      "tested_build_id": "0",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport_Software"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Houdini Indie",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "47.08963911525029",
+        "height_pct": "96.96034196152932"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "47.08963911525029",
+          "height_pct": "96.96034196152932"
+        }
+      }
+    },
+    "store_asset_mtime": "1742850543",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "SideFX"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "SideFX"
+      }
+    },
+    "primary_genre": "51",
+    "genres": {
+      "0": "51",
+      "1": "53",
+      "2": "58",
+      "3": "60"
+    },
+    "category": {
+      "category_18": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1539200423",
+    "community_hub_visible": "1",
+    "gameid": "502570",
+    "exfgls": "6",
+    "store_tags": {
+      "0": "872",
+      "1": "13906",
+      "2": "4191",
+      "3": "84",
+      "4": "492",
+      "5": "784",
+      "6": "5125",
+      "7": "1721"
+    },
+    "review_score": "8",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "disableoverlayinjection": "1",
+    "enablegameoverlayforapp": "0",
+    "ignorechildprocesses": "1",
+    "disableoverlay": "1",
+    "developer": "SideFX",
+    "publisher": "SideFX",
+    "homepage": "http://www.sidefx.com"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Houdini Indie",
+    "launch": {
+      "2": {
+        "executable": "bin/hindie.steam.exe",
+        "workingdir": "bin",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Houdini Indie"
+        },
+        "description": "Houdini Indie"
+      },
+      "3": {
+        "executable": "bin/HARS.exe",
+        "arguments": "-n hapi --steam --auto-close",
+        "workingdir": "bin",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Houdini Engine Server (Named Pipe)"
+        },
+        "description": "Houdini Engine Server (Named Pipe)"
+      },
+      "4": {
+        "executable": "bin/HARS.exe",
+        "arguments": "-s 9090 --steam --auto-close",
+        "workingdir": "bin",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Houdini Engine Server (TCP Socket)"
+        },
+        "description": "Houdini Engine Server (TCP Socket)"
+      },
+      "5": {
+        "executable": "HoudiniIndieSteamLaunch",
+        "description": "Houdini Indie",
+        "type": "none",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "6": {
+        "executable": "Frameworks/Houdini.framework/Versions/Current/Resources/bin/hars",
+        "arguments": "-s 9090 --steam --auto-close",
+        "config": {
+          "oslist": "macos",
+          "betakey": "daily_head"
+        },
+        "description_loc": {
+          "english": "Houdini Engine Server (TCP Socket)"
+        },
+        "description": "Houdini Engine Server (TCP Socket)"
+      },
+      "7": {
+        "executable": "HARSSteamLaunch",
+        "config": {
+          "oslist": "macos",
+          "betakey": "daily_head"
+        },
+        "description_loc": {
+          "english": "SCRIPT - Houdini Engine Server (TCP Socket)"
+        },
+        "description": "SCRIPT - Houdini Engine Server (TCP Socket)"
+      },
+      "8": {
+        "executable": "Frameworks/Houdini.framework/Versions/Current/Resources/bin/hars",
+        "arguments": "-s 9090 --steam --auto-close",
+        "config": {
+          "oslist": "macos",
+          "betakey": "daily_head_apple_arm64"
+        },
+        "description_loc": {
+          "english": "Houdini Engine Server (TCP Socket)"
+        },
+        "description": "Houdini Engine Server (TCP Socket)"
+      },
+      "9": {
+        "executable": "HARSSteamLaunch",
+        "config": {
+          "oslist": "macos",
+          "betakey": "daily_head_apple_arm64"
+        },
+        "description_loc": {
+          "english": "SCRIPT - Houdini Engine Server (TCP Socket)"
+        },
+        "description": "SCRIPT - Houdini Engine Server (TCP Socket)"
+      }
+    }
+  },
+  "depots": {
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228987": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "502571": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4635087325023772307",
+          "size": "8082649679",
+          "download": "3334880592"
+        },
+        "houdini185_py3": {
+          "gid": "1746312102034644107",
+          "size": "3998396734",
+          "download": "1588213200"
+        },
+        "houdini19.0": {
+          "gid": "8593797450475842033",
+          "size": "4163856667",
+          "download": "1629098224"
+        },
+        "houdini19.5": {
+          "gid": "4153534420100914183",
+          "size": "4215061984",
+          "download": "1715895968"
+        },
+        "houdini19.5.303": {
+          "gid": "504889839198547108",
+          "size": "4382004668",
+          "download": "1744396816"
+        },
+        "houdini19.5_previous": {
+          "gid": "7760424911256607842",
+          "size": "4214170199",
+          "download": "1715384624"
+        },
+        "daily_19.5": {
+          "gid": "366372377367292613",
+          "size": "4262097931",
+          "download": "1773324480"
+        },
+        "daily_19.5_apple_arm64": {
+          "gid": "7761748776803209013",
+          "size": "4203898458",
+          "download": "1705999776"
+        },
+        "daily_20.0": {
+          "gid": "3807351755024934166",
+          "size": "5089333221",
+          "download": "2187440000"
+        },
+        "daily_20.0_apple_arm64": {
+          "gid": "7760424911256607842",
+          "size": "4214170199",
+          "download": "1715384624"
+        },
+        "daily_20.5": {
+          "gid": "1980037971404779738",
+          "size": "5677917136",
+          "download": "2310782608"
+        },
+        "daily_20.5_apple_arm64": {
+          "gid": "9221398206300116295",
+          "size": "5103131333",
+          "download": "2128987392"
+        },
+        "daily_21.0": {
+          "gid": "1410979641363651614",
+          "size": "8072842278",
+          "download": "3356316784"
+        },
+        "daily_21.0_apple_x64": {
+          "gid": "4253952990120051994",
+          "size": "5769707583",
+          "download": "2301711952"
+        },
+        "houdini_20.5_apple_arm64": {
+          "gid": "9221398206300116295",
+          "size": "5103131333",
+          "download": "2128987392"
+        },
+        "houdini_21.0": {
+          "gid": "4635087325023772307",
+          "size": "8082649679",
+          "download": "3334880592"
+        },
+        "houdini_21.0_apple_x64": {
+          "gid": "4253952990120051994",
+          "size": "5769707583",
+          "download": "2301711952"
+        },
+        "houdini20.0": {
+          "gid": "9221398206300116295",
+          "size": "5103131333",
+          "download": "2128987392"
+        },
+        "houdini20.0.653": {
+          "gid": "1874744983984135062",
+          "size": "4722114434",
+          "download": "2028916288"
+        },
+        "houdini20.0_previous": {
+          "gid": "6192595790603956213",
+          "size": "5248264211",
+          "download": "2102461536"
+        },
+        "houdini20.5": {
+          "gid": "8266098589271740891",
+          "size": "5692637760",
+          "download": "2310194416"
+        },
+        "houdini20.5.410": {
+          "gid": "486785946387958547",
+          "size": "5741762728",
+          "download": "2297101456"
+        },
+        "houdini20.5_previous": {
+          "gid": "2475746596543255006",
+          "size": "6009996993",
+          "download": "2267390336"
+        }
+      }
+    },
+    "502572": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "69945113064730923",
+          "size": "5309015485",
+          "download": "2181093872"
+        },
+        "houdini185_py3": {
+          "gid": "8406557942481531366",
+          "size": "6188413901",
+          "download": "1781104176"
+        },
+        "houdini19.0": {
+          "gid": "3081557455536245406",
+          "size": "3511009686",
+          "download": "1422472320"
+        },
+        "houdini19.5": {
+          "gid": "4477777439662271866",
+          "size": "3618575499",
+          "download": "1531254800"
+        },
+        "houdini19.5.303": {
+          "gid": "5540897734355711308",
+          "size": "3633224097",
+          "download": "1518897664"
+        },
+        "houdini19.5_previous": {
+          "gid": "2825187295223401459",
+          "size": "3618390223",
+          "download": "1530513888"
+        },
+        "daily_19.5": {
+          "gid": "2265036558159623667",
+          "size": "3621421904",
+          "download": "1531810992"
+        },
+        "daily_19.5_apple_arm64": {
+          "gid": "551357886140377105",
+          "size": "3332196557",
+          "download": "1477454928"
+        },
+        "daily_20.0": {
+          "gid": "6361507894800966576",
+          "size": "4545289106",
+          "download": "1894492400"
+        },
+        "daily_20.0_apple_arm64": {
+          "gid": "6544158945941390191",
+          "size": "4222680358",
+          "download": "1811334016"
+        },
+        "daily_20.5": {
+          "gid": "4169224656180952172",
+          "size": "4854115216",
+          "download": "2000457216"
+        },
+        "daily_20.5_apple_arm64": {
+          "gid": "1089496784978374220",
+          "size": "4556860705",
+          "download": "1926778944"
+        },
+        "daily_21.0": {
+          "gid": "19426468749643071",
+          "size": "5319021092",
+          "download": "2188728480"
+        },
+        "daily_21.0_apple_x64": {
+          "gid": "5780650572246455650",
+          "size": "5733720169",
+          "download": "2244776592"
+        },
+        "houdini_20.5_apple_arm64": {
+          "gid": "521352761344748960",
+          "size": "4556799243",
+          "download": "1918114144"
+        },
+        "houdini_21.0": {
+          "gid": "69945113064730923",
+          "size": "5309015485",
+          "download": "2181093872"
+        },
+        "houdini_21.0_apple_x64": {
+          "gid": "6225573030564341739",
+          "size": "5734765900",
+          "download": "2244675536"
+        },
+        "houdini20.0": {
+          "gid": "8007623906898872657",
+          "size": "4541956969",
+          "download": "1865077040"
+        },
+        "houdini20.0.653": {
+          "gid": "3952989985207741218",
+          "size": "4536855268",
+          "download": "1862801440"
+        },
+        "houdini20.0_previous": {
+          "gid": "5758237240126967581",
+          "size": "4539716200",
+          "download": "1863935504"
+        },
+        "houdini20.5": {
+          "gid": "6872545220515430494",
+          "size": "4865552730",
+          "download": "1989630224"
+        },
+        "houdini20.5.410": {
+          "gid": "9094213431782128293",
+          "size": "4968245203",
+          "download": "2023948912"
+        },
+        "houdini20.5_previous": {
+          "gid": "7829574537898076280",
+          "size": "4865228457",
+          "download": "1964059712"
+        }
+      }
+    },
+    "workshopdepot": "502570",
+    "branches": {
+      "public": {
+        "buildid": "19743376",
+        "timeupdated": "1756232356"
+      },
+      "houdini185_py3": {
+        "buildid": "7719048",
+        "description": "Houdini 18.5 Python 3 Production Build",
+        "timeupdated": "1637078552"
+      },
+      "houdini19.0": {
+        "buildid": "9386044",
+        "description": "Houdini 19.0 Production Build",
+        "timeupdated": "1661456197"
+      },
+      "houdini19.5": {
+        "buildid": "12762587",
+        "description": "Houdini 19.5 Production Build",
+        "timeupdated": "1700592925"
+      },
+      "houdini19.5.303": {
+        "buildid": "9157280",
+        "description": "Houdini 19.5.303",
+        "timeupdated": "1675184814"
+      },
+      "houdini19.5_previous": {
+        "buildid": "12484201",
+        "description": "Previous 19.5 Production Build",
+        "timeupdated": "1700593049"
+      },
+      "daily_19.5": {
+        "buildid": "19403689",
+        "description": "Daily Houdini 19.5 builds",
+        "timeupdated": "1753817032"
+      },
+      "daily_19.5_apple_arm64": {
+        "buildid": "19397857",
+        "description": "Daily Houdini 19.5 build (Apple Silicon)",
+        "timeupdated": "1753787772"
+      },
+      "daily_20.0": {
+        "buildid": "19996486",
+        "description": "Daily Houdini 20.0 build",
+        "timeupdated": "1758010151"
+      },
+      "daily_20.0_apple_arm64": {
+        "buildid": "19995177",
+        "description": "Daily Houdini 20.0 build (Apple Silicon)",
+        "timeupdated": "1758002232"
+      },
+      "daily_20.5": {
+        "buildid": "20042517",
+        "description": "Daily Houdini 20.5 builds",
+        "timeupdated": "1758259272"
+      },
+      "daily_20.5_apple_arm64": {
+        "buildid": "20042419",
+        "description": "Daily Houdini 20.5 build (Apple Silicon)",
+        "timeupdated": "1758258579"
+      },
+      "daily_21.0": {
+        "buildid": "20058814",
+        "description": "Daily Houdini 21.0 builds",
+        "timeupdated": "1758365416"
+      },
+      "daily_21.0_apple_x64": {
+        "buildid": "20057703",
+        "description": "Daily Houdini 21.0 build (Mac x64)",
+        "timeupdated": "1758352949"
+      },
+      "houdini_20.5_apple_arm64": {
+        "buildid": "19523147",
+        "description": "Houdini 20.5 Production Build (Apple Silicon)",
+        "timeupdated": "1754674104"
+      },
+      "houdini_21.0": {
+        "buildid": "19743376",
+        "description": "Houdini 21.0 Production Build",
+        "timeupdated": "1756227545"
+      },
+      "houdini_21.0_apple_x64": {
+        "buildid": "19742844",
+        "description": "Houdini 21.0 Production Build (Mac x64)",
+        "timeupdated": "1756224847"
+      },
+      "houdini20.0": {
+        "buildid": "14863338",
+        "description": "Houdini 20.0 Production Build",
+        "timeupdated": "1719519687"
+      },
+      "houdini20.0.653": {
+        "buildid": "13810882",
+        "description": "Houdini 20.0.653",
+        "timeupdated": "1720007079"
+      },
+      "houdini20.0_previous": {
+        "buildid": "14557657",
+        "description": "Previous 20.0 Production Build",
+        "timeupdated": "1719520400"
+      },
+      "houdini20.5": {
+        "buildid": "19529198",
+        "description": "Houdini 20.5 Production Build",
+        "timeupdated": "1754674000"
+      },
+      "houdini20.5.410": {
+        "buildid": "16328860",
+        "description": "Houdini 20.5.410",
+        "timeupdated": "1749220442"
+      },
+      "houdini20.5_previous": {
+        "buildid": "19162267",
+        "description": "Previous 20.5 Production Build",
+        "timeupdated": "1754674601"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "houdini16.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinMyDocuments",
+        "path": "houdini17.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinMyDocuments",
+        "path": "houdini17.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "4": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/18.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "5": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/17.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "6": {
+        "root": "WinMyDocuments",
+        "path": "houdini18.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "7": {
+        "root": "WinMyDocuments",
+        "path": "houdini18.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "8": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/18.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "9": {
+        "root": "WinMyDocuments",
+        "path": "houdini19.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "10": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/19.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "11": {
+        "root": "WinMyDocuments",
+        "path": "houdini19.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "12": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/19.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "13": {
+        "root": "WinMyDocuments",
+        "path": "houdini20.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "14": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/20.0",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "15": {
+        "root": "WinMyDocuments",
+        "path": "houdini20.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "16": {
+        "root": "MacHome",
+        "path": "/Library/Preferences/houdini/20.5",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      }
+    }
+  }
+}
