@@ -3,9 +3,9 @@
   "common": {
     "name": "Focus Simulator",
     "type": "Game",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64",
     "icon": "aea5a79dd8a1ef4f8caa82bd9596e816b4a2b7b3",
     "clienttga": "2c678da5ee51b15669df779e37f908d0ac81d2ae",
     "clienticon": "290e086ec3b4ff224357ba065875dac5c2c603e7",
@@ -122,7 +122,18 @@
     "installdir": "Focus Simulator",
     "launch": {
       "0": {
-        "executable": "THEONEmk1.exe"
+        "executable": "THEONEmk1.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
