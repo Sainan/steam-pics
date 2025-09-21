@@ -1,0 +1,144 @@
+{
+  "appid": "1936830",
+  "common": {
+    "name": "nanos world™ Dedicated Server",
+    "type": "Tool",
+    "parent": "1841660",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "clienttga": "2787ae7e53204b4487d8ea63795418da1c460e91",
+    "clienticon": "46dfe2e2fe3c807642088c4d6fea210fbd75f37c",
+    "icon": "8441862a40155a45c19be32d81d20c3161b4f39c",
+    "releasestate": "released",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1936830"
+  },
+  "config": {
+    "installdir": "nanos-world-server",
+    "launch": {
+      "0": {
+        "executable": "NanosWorldServer.exe",
+        "type": "server",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "NanosWorldServer",
+        "type": "server",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1936831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6856316642288643082",
+          "size": "35682805",
+          "download": "9182752"
+        },
+        "bleeding-edge": {
+          "gid": "8625777257682602972",
+          "size": "35636213",
+          "download": "9923216"
+        }
+      }
+    },
+    "1936832": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1651652510644531476",
+          "size": "415313724",
+          "download": "120145280"
+        },
+        "bleeding-edge": {
+          "gid": "2197391126460600195",
+          "size": "58123764",
+          "download": "17933280"
+        }
+      }
+    },
+    "workshopdepot": "1936830",
+    "branches": {
+      "public": {
+        "buildid": "19583761",
+        "timeupdated": "1755101083"
+      },
+      "bleeding-edge": {
+        "buildid": "20065640",
+        "description": "Constant and unstable updates",
+        "timeupdated": "1758456271"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "100"
+  }
+}
