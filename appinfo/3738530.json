@@ -1,6 +1,5 @@
 {
   "appid": "3738530",
-  "public_only": "1",
   "common": {
     "name": "无尽之潮:[潮起]",
     "type": "Demo",
@@ -29,7 +28,7 @@
       "french": "Tides of The Endless : Rising Tide",
       "schinese": "无尽之潮:[潮起]"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -152,10 +151,97 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "gameid": "3738530",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Shimmer High Sea",
+    "publisher": "Shimmer High Sea",
+    "homepage": "https://tidesoftheendless.com"
+  },
+  "config": {
+    "installdir": "Tides of The Endless",
+    "launch": {
+      "0": {
+        "executable": "Tides of The Endless/Tides of The Endless.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Tides of The Endless/Tides of The Endless.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3738531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4682000586238810221",
+          "size": "10613149190",
+          "download": "5905761200"
+        }
+      }
+    },
+    "3738532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4004591301016235440",
+          "size": "10923506851",
+          "download": "5997170560"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20067030",
+        "timeupdated": "1758474385"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "50",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "TidesofTheEndless",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "TidesofTheEndless",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
