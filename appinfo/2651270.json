@@ -94,7 +94,7 @@
     "launch": {
       "0": {
         "executable": "Coltrane/Binaries/Win64/ColtraneClient-Win64-Shipping.exe",
-        "arguments": "-UseLobby -DisableLootLockerAuthentication -UseTraceInitiative",
+        "arguments": "-UseDaggerLobby -UseLobby -DisableLootLockerAuthentication -UseTraceInitiative",
         "type": "default",
         "config": {
           "oslist": "windows",
@@ -103,7 +103,7 @@
       },
       "1": {
         "executable": "Coltrane/Binaries/Win64/ColtraneClient-Win64-Shipping.exe",
-        "arguments": "-UseLobby -EnginefallEnv=staging -DisableLootLockerAuthentication -UseTraceInitiative",
+        "arguments": "-UseDaggerLobby -UseLobby -EnginefallEnv=staging -DisableLootLockerAuthentication -UseTraceInitiative",
         "config": {
           "oslist": "windows",
           "osarch": "64"
