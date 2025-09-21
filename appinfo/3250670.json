@@ -1,6 +1,5 @@
 {
   "appid": "3250670",
-  "public_only": "1",
   "common": {
     "name": "Fake It",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "a9e49c0c0f28c384e2168351a055e71b67af2169",
     "clienticon": "575e0590ce55ad5bc83a6b6ddb6d1987f83d457f",
     "clienttga": "e471e3d595284b70236ba43dccc94b34faefa0df",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a33a17f8e818b59bd5455eb08e4e2a5503e7dbf3/capsule_231x87.jpg"
@@ -110,9 +109,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3250670",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "3859",
@@ -133,5 +133,45 @@
       "16": "3843",
       "17": "492"
     }
+  },
+  "extended": {
+    "developer": "Androbyte",
+    "publisher": "Androbyte"
+  },
+  "config": {
+    "installdir": "Fake It",
+    "launch": {
+      "0": {
+        "executable": "FakeIt.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3250672": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3312147415062443510",
+          "size": "384960693",
+          "download": "77742800"
+        }
+      }
+    },
+    "workshopdepot": "3250670",
+    "branches": {
+      "public": {
+        "buildid": "20060861",
+        "timeupdated": "1758388610"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000"
   }
 }
