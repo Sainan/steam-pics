@@ -1,0 +1,151 @@
+{
+  "appid": "3195090",
+  "common": {
+    "name": "Spellsided Playtest",
+    "type": "Beta",
+    "parent": "3088510",
+    "icon": "7be6cf1f9da2ca485ed1f6459ca043dc28bc61af",
+    "clienticon": "c50708712d6625199f53e446b9b9039168901887",
+    "clienttga": "5268e792627f790a1efc31963fe29e1787e026a4",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "82c72b3c4f686d88c5bd416906c9787335a1dd41/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "27.246207701283538",
+        "height_pct": "56.83923058655901"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "1a38300873c6a631a55b3a2227e99e0fc1bf1093/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "1a38300873c6a631a55b3a2227e99e0fc1bf1093/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "293495e8c9b6e03b70fb649b7152989a2c995792/logo.png"
+        },
+        "image2x": {
+          "english": "293495e8c9b6e03b70fb649b7152989a2c995792/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "27.246207701283538",
+          "height_pct": "56.83923058655901"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "799ce311c4deb6a7070052ff20e79420da396a81/library_header.jpg"
+        },
+        "image2x": {
+          "english": "799ce311c4deb6a7070052ff20e79420da396a81/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1731037568",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1725387240",
+    "community_hub_visible": "1",
+    "gameid": "3195090",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Spellsided Playtest",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Spellsided\\Binaries\\Win64\\Spellsided-Win64-Shipping.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3195091": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7384002298703978708",
+          "size": "511088926",
+          "download": "363599952"
+        },
+        "challenge-test": {
+          "gid": "225338646089043812",
+          "size": "460843954",
+          "download": "317265232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19409390",
+        "timeupdated": "1753856504"
+      },
+      "challenge-test": {
+        "buildid": "20043739",
+        "description": "Pre-release Challenge update",
+        "timeupdated": "1758267257"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Spellsided/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    }
+  }
+}
