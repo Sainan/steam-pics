@@ -1,11 +1,10 @@
 {
   "appid": "3894360",
-  "public_only": "1",
   "common": {
     "name": "Snapshot Aquarium Demo",
     "type": "Demo",
     "parent": "1821550",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -105,7 +104,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3894360",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Octoponx",
+    "publisher": "Octoponx"
+  },
+  "config": {
+    "installdir": "Snapshot Aquarium Demo",
+    "launch": {
+      "0": {
+        "executable": "Snapshot Aquarium.exe"
+      }
+    }
+  },
+  "depots": {
+    "1821551": {
+      "manifests": {
+        "public": {
+          "gid": "7877414689061306903",
+          "size": "2398585452",
+          "download": "2214860432"
+        }
+      },
+      "depotfromapp": "1821550"
+    },
+    "3894361": {
+      "manifests": {
+        "public": {
+          "gid": "9160432240245259453",
+          "size": "646656",
+          "download": "354048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20066799",
+        "timeupdated": "1758471641"
+      }
+    }
   }
 }
