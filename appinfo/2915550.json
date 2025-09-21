@@ -1,0 +1,111 @@
+{
+  "appid": "2915550",
+  "common": {
+    "name": "FOUNDRY: Dedicated Server",
+    "type": "Tool",
+    "parent": "983870",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "21dbca5d7e9cfee58aaa40c7ad94f3a599ddceab",
+    "clienttga": "1581594af6074ac6a3d2a3bd7a5151a90e69cde5",
+    "clienticon": "bd191f2cfd1cd1d95f2cfa8de105cbd557b486f5",
+    "releasestate": "released",
+    "freetodownload": "1",
+    "aicontenttype": "1",
+    "gameid": "2915550"
+  },
+  "extended": {
+    "gamedir": ""
+  },
+  "config": {
+    "installdir": "FOUNDRY Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "FoundryDedicatedServerLauncher.bat",
+        "description_loc": {
+          "english": "Dedicated Server"
+        },
+        "description": "Dedicated Server"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2915551": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6815425951667301509",
+          "size": "2263333276",
+          "download": "1164040096"
+        },
+        "legacy_update_1": {
+          "gid": "8096038852330380352",
+          "size": "2292217284",
+          "download": "1067599792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19385524",
+        "timeupdated": "1754918624"
+      },
+      "legacy_update_1": {
+        "buildid": "15370692",
+        "description": "Legacy Update 1",
+        "timeupdated": "1746192272"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
