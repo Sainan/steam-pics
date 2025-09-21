@@ -1,0 +1,200 @@
+{
+  "appid": "2223100",
+  "common": {
+    "name": "Wildaria Demo",
+    "type": "Demo",
+    "parent": "1965550",
+    "icon": "8ba67253c64b42f6448f4ae5ca145569082bca5d",
+    "clienttga": "10fcc8629d408b5907c470c9dd131be50f93d92d",
+    "clienticon": "7baa61894bafb2aaaec3e8eeec1ee22f0db67ec8",
+    "clienticns": "cf04155e374fa4272bbcd85d4ac687012ff025d4",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "6054cd9549338345c191ad14444fd01f31dfe5e7/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "5520ba5ad5c5b554c6aa8c7ec04ef4a5eb4d8944/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "36.931155192532096",
+        "height_pct": "67.09807646639753"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "a2a90e91730f878e4bc6383837a7bbfbbf636161/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "a2a90e91730f878e4bc6383837a7bbfbbf636161/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "8ba664b62553a6bb975f321f8e30b7588ecfdced/logo.png"
+        },
+        "image2x": {
+          "english": "8ba664b62553a6bb975f321f8e30b7588ecfdced/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "36.931155192532096",
+          "height_pct": "67.09807646639753"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "8f359fad883206b756838c7537f8b2911f96cb67/library_header.jpg"
+        },
+        "image2x": {
+          "english": "8f359fad883206b756838c7537f8b2911f96cb67/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1741247692",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Spacefudge"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Spacefudge"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "4",
+      "3": "23",
+      "4": "3"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1668973020",
+    "community_visible_stats": "1",
+    "gameid": "2223100",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1965550",
+    "developer": "Spacefudge",
+    "publisher": "Spacefudge",
+    "homepage": "https://wildaria.net/"
+  },
+  "config": {
+    "installdir": "Wildaria Demo",
+    "launch": {
+      "0": {
+        "executable": "Wildaria.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2223101": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7827368248783249575",
+          "size": "882449832",
+          "download": "463901792"
+        }
+      }
+    },
+    "2223102": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5307732893709154356",
+          "size": "876389248",
+          "download": "461922144"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20062592",
+        "timeupdated": "1758410819"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "1965550",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\SpaceFudge\\Wildaria\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Spacefudge/Wildaria/"
+      }
+    }
+  }
+}
