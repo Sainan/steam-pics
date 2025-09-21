@@ -1,0 +1,215 @@
+{
+  "appid": "3219020",
+  "common": {
+    "name": "Proverbs Demo",
+    "type": "Demo",
+    "parent": "3083300",
+    "icon": "e274bc8a8e2cd49dbf821918f289f7c380f20f49",
+    "clienticon": "776ebab4fc272af1b2896e4f0348018a6c6cdec0",
+    "clienttga": "e765068418860c991755884be7bfd6735d34d0a7",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "201a539feb7a198ea2487a4cdce3f5d809110344/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "981595dde33d34898ca111286c008db91f0d449e/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "981595dde33d34898ca111286c008db91f0d449e/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "852cf060b8aac7bddbba2c17de6e74ee6d6c95d3/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "852cf060b8aac7bddbba2c17de6e74ee6d6c95d3/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "images": {
+          "english": "852cf060b8aac7bddbba2c17de6e74ee6d6c95d3/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "0630be8b8c9e3cb560887ec5a43b562d4061e036/logo.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "db2fe2a79acc2ab016b49bda59e3637398b39588/library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1728277539",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Mark Ffrench"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Divide The Plunder"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Mega Mosaic"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1728063803",
+    "community_visible_stats": "1",
+    "gameid": "3219020",
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "developer": "Mark Ffrench",
+    "publisher": "Divide The Plunder"
+  },
+  "config": {
+    "installdir": "Proverbs Demo",
+    "launch": {
+      "0": {
+        "executable": "Proverbs.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Proverbs.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3219021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5605207760649902262",
+          "size": "287527919",
+          "download": "136697952"
+        }
+      }
+    },
+    "3219022": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3916457586361731386",
+          "size": "316065317",
+          "download": "149390960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19928215",
+        "timeupdated": "1757516206"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "50",
+    "appidredirect": "3083300",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Divide The Plunder Limited/Proverbs",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Divide The Plunder Limited/Proverbs",
+            "replace": "com.dividetheplunder.proverbs"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Divide The Plunder Limited/Proverbs",
+            "replace": ".config/com/dividetheplunder/proverbs"
+          }
+        }
+      }
+    }
+  }
+}
