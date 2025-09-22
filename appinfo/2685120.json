@@ -1,0 +1,165 @@
+{
+  "appid": "2685120",
+  "common": {
+    "name": "Nantara Adventures Playtest",
+    "type": "Beta",
+    "parent": "2456580",
+    "icon": "64d5d22cb84526249b474adc5075e133bf040efa",
+    "clienttga": "9d8fc8002274ecaf3bed1a9d5a8e208c6a70f493",
+    "clienticns": "314ef7b23d72872851e365800756acbe07bf2419",
+    "clienticon": "6225307b85b2e68baacdad9ca0982e0a326334e0",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "small_capsule": {
+      "english": "6e452767d92c5f8027d4ff7b7fda66b98eafcf40/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "db52d56932f36d719296f5c971ddaeb3e73d7e3c/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomCenter",
+        "width_pct": "100",
+        "height_pct": "43.37803059605692"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "c4990aec435568196281f93d15b53acd8f09701d/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "c4990aec435568196281f93d15b53acd8f09701d/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "5661a593bab296efb866eec48cb976d8fa423273/logo.png"
+        },
+        "image2x": {
+          "english": "5661a593bab296efb866eec48cb976d8fa423273/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomCenter",
+          "width_pct": "100",
+          "height_pct": "43.37803059605692"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "3f95239dcb688418924ba823e662ff83f930fde5/library_header.jpg"
+        },
+        "image2x": {
+          "english": "3f95239dcb688418924ba823e662ff83f930fde5/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1756283411",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1722740820",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2685120",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Nantara Adventures Playtest",
+    "launch": {
+      "0": {
+        "executable": "Nantara Adventures Playtest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "nantara_adventures_playtest.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2685121": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6770155953947680059",
+          "size": "12494083561",
+          "download": "3368000112"
+        }
+      }
+    },
+    "2685122": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1027055033291392805",
+          "size": "12547195218",
+          "download": "3378989168"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20073925",
+        "timeupdated": "1758536575"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Moredoor/Nantara Adventures",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "2": {
+        "root": "LinuxHome",
+        "path": ".config/unity3d",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
+    }
+  }
+}
