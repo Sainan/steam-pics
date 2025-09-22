@@ -1,6 +1,5 @@
 {
   "appid": "4041880",
-  "public_only": "1",
   "common": {
     "name": "KARATE ROGUE Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -108,7 +107,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4041880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "terry-do GAMES",
+    "publisher": "terry-do GAMES"
+  },
+  "config": {
+    "installdir": "KARATE ROGUE Demo",
+    "launch": {
+      "0": {
+        "executable": "KarateRogue_DemoVer0/Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4041881": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5333532826432675373",
+          "size": "543948287",
+          "download": "403964272"
+        }
+      }
+    },
+    "4041882": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2813396422421619651",
+          "size": "545128419",
+          "download": "404575408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20022790",
+        "timeupdated": "1758148633"
+      }
+    }
   }
 }
