@@ -1,6 +1,5 @@
 {
   "appid": "4014530",
-  "public_only": "1",
   "common": {
     "name": "Golftacular! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -116,7 +115,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4014530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Both Good",
+    "publisher": "Both Good"
+  },
+  "config": {
+    "installdir": "Golftacular! Demo",
+    "launch": {
+      "0": {
+        "executable": "Golftacular! Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Golftacular_MAC_demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4014531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "303673368052725810",
+          "size": "303240995",
+          "download": "153799168"
+        }
+      }
+    },
+    "4014532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8185048133396863000",
+          "size": "319441643",
+          "download": "161592416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20017806",
+        "timeupdated": "1758123055"
+      }
+    }
   }
 }
