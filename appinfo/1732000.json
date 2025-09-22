@@ -1,0 +1,164 @@
+{
+  "appid": "1732000",
+  "common": {
+    "name": "Midinous Demo",
+    "type": "Demo",
+    "parent": "1727420",
+    "releasestate": "released",
+    "eulas": {
+      "0": {
+        "id": "1732000_eula_0",
+        "name": "Midinous Demo EULA",
+        "url": "https://store.steampowered.com//eula/1732000_eula_0",
+        "version": "4"
+      }
+    },
+    "clienticon": "8ea030496ab49ad26c74d4163fe05798f785c039",
+    "clienttga": "acb39213b6e9f212f91d668f2593dab1a5dd9f2b",
+    "icon": "ec50902f9787415eac66d91110f9b47aea9c1a2f",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1629352218",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Nornec"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Nornec"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1632844444",
+    "gameid": "1732000",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1727420",
+    "developer": "Nornec",
+    "publisher": "Nornec",
+    "homepage": "https://midinous.com/"
+  },
+  "config": {
+    "installdir": "Midinous",
+    "launch": {
+      "0": {
+        "executable": "Midinous.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Midinous.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Midinous",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1727421": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "depotfromapp": "1727420",
+      "sharedinstall": "2"
+    },
+    "1727422": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "depotfromapp": "1727420",
+      "sharedinstall": "2"
+    },
+    "1727423": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "depotfromapp": "1727420",
+      "sharedinstall": "2"
+    },
+    "1732001": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7322531352571793054",
+          "size": "206144179",
+          "download": "82073632"
+        }
+      }
+    },
+    "1732002": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3456479223950046989",
+          "size": "216934971",
+          "download": "84945648"
+        }
+      }
+    },
+    "1732003": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "340639456808692328",
+          "size": "235923391",
+          "download": "91896368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20080736",
+        "timeupdated": "1758566882"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "60",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
+  }
+}
