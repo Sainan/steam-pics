@@ -1,0 +1,65 @@
+{
+  "appid": "3723520",
+  "common": {
+    "name": "BARDA Demo",
+    "type": "Demo",
+    "parent": "3664320",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "eb5de73cdbafa0d150bb4e650636a12487cbd943",
+    "icon": "eb5de73cdbafa0d150bb4e650636a12487cbd943",
+    "releasestate": "released",
+    "gameid": "3723520",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "BARDA Demo",
+    "launch": {
+      "0": {
+        "executable": "BARDA.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Barda.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3723521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "379355673692508570",
+          "size": "542299846",
+          "download": "161021824"
+        }
+      }
+    },
+    "3723522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3716801129123494072",
+          "size": "565026729",
+          "download": "180052192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20049994",
+        "timeupdated": "1758295017"
+      }
+    }
+  }
+}
