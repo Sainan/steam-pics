@@ -1,0 +1,160 @@
+{
+  "appid": "3592030",
+  "common": {
+    "name": "Mythmatch Playtest",
+    "type": "Beta",
+    "parent": "1778050",
+    "icon": "89f6dea136b11836c55869486b6ae1197a989cf0",
+    "clienticon": "cb0be5be02d7a7e0be174e3732372ba548df4949",
+    "clienttga": "16ca6ecfc935aed5060e98a6239c36ea2212f422",
+    "clienticns": "e252e58d8691dafa4827da80c46c54074238f5a4",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "78bd0a330021d796620eb42e704470e29ef844fa/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "3569912363601885ed482df7508e4a361fd3d74b/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "26.064516129032256",
+        "height_pct": "48.04756168350367"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "3bfb21b831deb6ff8af04ffc33cb8b7a324ec021/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "3bfb21b831deb6ff8af04ffc33cb8b7a324ec021/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "617dc53c7657ff33c8b4830f78698afd573b0778/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "617dc53c7657ff33c8b4830f78698afd573b0778/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "617dc53c7657ff33c8b4830f78698afd573b0778/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "ac582c980c55fcc5fc29db78cd957fe99860eccb/logo.png"
+        },
+        "image2x": {
+          "english": "ac582c980c55fcc5fc29db78cd957fe99860eccb/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "26.064516129032256",
+          "height_pct": "48.04756168350367"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "3569912363601885ed482df7508e4a361fd3d74b/library_header.jpg"
+        },
+        "image2x": {
+          "english": "3569912363601885ed482df7508e4a361fd3d74b/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1741779462",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1745311134",
+    "community_hub_visible": "1",
+    "gameid": "3592030",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Mythmatch Playtest",
+    "launch": {
+      "0": {
+        "executable": "Mythmatch.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Mythmatch.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3592031": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "608383035155155109",
+          "size": "891040027",
+          "download": "260076768"
+        }
+      }
+    },
+    "3592032": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8578521780223861122",
+          "size": "873296169",
+          "download": "254863536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19967999",
+        "timeupdated": "1758270997"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Artichoke/Mythmatch/Playtest",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
