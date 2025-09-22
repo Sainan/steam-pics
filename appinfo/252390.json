@@ -117,11 +117,14 @@
     "installdir": "DwarfCorp",
     "launch": {
       "0": {
-        "executable": "DwarfCorp.exe",
-        "description": "Launch",
+        "executable": "DCMono.exe",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
       },
       "1": {
         "executable": "DwarfCorp.app\\Contents\\MacOS\\DwarfCorpFNA",
@@ -147,6 +150,12 @@
         "config": {
           "oslist": "linux",
           "osarch": "64"
+        }
+      },
+      "4": {
+        "executable": "DwarfCorp.exe",
+        "config": {
+          "oslist": "windows"
         }
       }
     }
