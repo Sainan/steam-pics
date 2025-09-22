@@ -1,12 +1,11 @@
 {
   "appid": "3572930",
-  "public_only": "1",
   "common": {
     "name": "PiQuests",
     "type": "Game",
     "icon": "4b6723441dfb87fef5963064acbf8c0b33b58c7e",
     "clienticon": "f5b5a8b6732ebf5eb1a5be84b69caa1c0cb033ec",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,9 +110,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758553760",
     "community_hub_visible": "1",
     "gameid": "3572930",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -127,6 +126,49 @@
       "9": "493",
       "10": "1684",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "ZaNet Analytics Corporation",
+    "publisher": "ZaNet Analytics Corporation"
+  },
+  "config": {
+    "installdir": "PiQuests",
+    "launch": {
+      "0": {
+        "executable": "PiQuest Escape from Azur Island.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch the game normally."
+        },
+        "description": "Launch the game normally."
+      }
+    }
+  },
+  "depots": {
+    "3572931": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5244790296450854798",
+          "size": "2169033510",
+          "download": "879382800"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20066137",
+        "timeupdated": "1758462903"
+      }
     }
   }
 }
