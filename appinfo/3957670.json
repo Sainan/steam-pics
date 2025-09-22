@@ -1,11 +1,10 @@
 {
   "appid": "3957670",
-  "public_only": "1",
   "common": {
     "name": "Lobsterpunk Demo",
     "type": "Demo",
     "parent": "3414920",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "f1caa9b21b46713066a7745e252d5a8097bec2ae",
     "clienticon": "3f745fafcd945e8be5cadb66ce42828bedfd6bc0",
     "clienttga": "a04c0474e3ec0ffca8b94004d9fb99309f00947e",
@@ -61,10 +60,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758610740",
     "gameid": "3957670",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Carter Diaz de Leon",
+    "publisher": "Linos"
+  },
+  "config": {
+    "installdir": "Lobsterpunk Demo",
+    "launch": {
+      "0": {
+        "executable": "Lobsterpunk.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Launches main game!"
+        },
+        "description": "Launches main game!"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3957671": {
+      "manifests": {
+        "public": {
+          "gid": "8612135221515239009",
+          "size": "565054505",
+          "download": "411697504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20081513",
+        "timeupdated": "1758569609"
+      }
     }
   }
 }
