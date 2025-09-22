@@ -1,0 +1,184 @@
+{
+  "appid": "1802710",
+  "common": {
+    "name": "Momentum Mod Playtest",
+    "type": "Beta",
+    "parent": "669270",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "logo": "2d14a0e947325686c2cbdc77fc4c6bb46fc94e27",
+    "logo_small": "2d14a0e947325686c2cbdc77fc4c6bb46fc94e27_thumb",
+    "icon": "1204de67a03b5af9e0f4949c8890fc9df79f9fd6",
+    "clienticon": "45866600b3f85583d8212a336b1bdc1e9aaf498a",
+    "clienttga": "e653da63ed07795187ace086c6338f4b04f52f1c",
+    "linuxclienticon": "a69724e5f9fdba5f317b9feeefc5e82775f99d23",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "40.315052508751464",
+        "height_pct": "28.72340524211269"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "40.315052508751464",
+          "height_pct": "28.72340524211269"
+        }
+      }
+    },
+    "store_asset_mtime": "1635218857",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1637524146",
+    "community_hub_visible": "1",
+    "gameid": "1802710",
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "betaforappid": "669270"
+  },
+  "config": {
+    "installdir": "Momentum Mod Playtest",
+    "app_mappings": {
+      "1": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "comment": "sniper SLR"
+      }
+    },
+    "launch": {
+      "0": {
+        "executable": "bin/win64/momentum.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "momentum.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1802711": {
+      "manifests": {
+        "public": {
+          "gid": "3609629143836932220",
+          "size": "4026735715",
+          "download": "1879112864"
+        },
+        "0.9.x": {
+          "gid": "6191793780476827057",
+          "size": "4214362302",
+          "download": "2021048736"
+        }
+      }
+    },
+    "1802712": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8404875752635285770",
+          "size": "366338671",
+          "download": "122442240"
+        },
+        "0.9.x": {
+          "gid": "5673798725324903291",
+          "size": "374101283",
+          "download": "110663840"
+        }
+      }
+    },
+    "1802713": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1942923524901726970",
+          "size": "871014612",
+          "download": "243898048"
+        },
+        "0.9.x": {
+          "gid": "4154073843492571727",
+          "size": "855298180",
+          "download": "220675088"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "20070863",
+        "timeupdated": "1758513780"
+      },
+      "0.9.x": {
+        "buildid": "16878426",
+        "description": "Old branch, does not work with online anymore",
+        "timeupdated": "1757828595"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "momentum/cfg/",
+        "pattern": "config.cfg"
+      }
+    }
+  }
+}
