@@ -1,10 +1,9 @@
 {
   "appid": "1683750",
-  "public_only": "1",
   "common": {
     "name": "Whimsical Heroes",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "e5b3586bc384681afac82b5cabe8cfacfc738e36",
     "logo_small": "e5b3586bc384681afac82b5cabe8cfacfc738e36_thumb",
     "icon": "1f4bfe789b3e38e266f913e5724dbffd639f4305",
@@ -122,9 +121,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758567600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1683750",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "1741",
@@ -146,6 +146,49 @@
       "17": "1708",
       "18": "4182",
       "19": "1717"
+    }
+  },
+  "extended": {
+    "developer": "Whimsical Universes",
+    "publisher": "Whimsical Universes",
+    "homepage": "https://whimsicaluniverses.com/"
+  },
+  "config": {
+    "installdir": "Whimsical Heroes",
+    "launch": {
+      "0": {
+        "executable": "Whimsical Heroes.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1683751": {
+      "manifests": {
+        "public": {
+          "gid": "6661238706150755319",
+          "size": "725092319",
+          "download": "192668064"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "20076582",
+        "timeupdated": "1758546106"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Whimsical Universes/Whimsical Heroes",
+        "pattern": "*.sav"
+      }
     }
   }
 }
