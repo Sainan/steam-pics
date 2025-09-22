@@ -1,6 +1,5 @@
 {
   "appid": "3672100",
-  "public_only": "1",
   "common": {
     "name": "The Home County",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "1ad50db8925eed6e8d4cd36bf8866fd3c83af7fd",
     "clienticon": "605a6e672092104495361837a4083a7a204c599e",
     "icon": "b4d084c51e27e77fd51bbb0b21a48efbbc345f76",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,10 +112,11 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758540725",
     "steam_deck_blog_url": "https://steamcommunity.com/app/3672100/discussions/0/554627540143311804/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3672100",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "87918",
@@ -136,6 +136,108 @@
       "15": "6730",
       "16": "1742",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Swanworth",
+    "publisher": "Swanworth",
+    "homepage": "https://thehomecounty.com/"
+  },
+  "config": {
+    "installdir": "The Home County",
+    "launch": {
+      "0": {
+        "executable": "The Home County.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "The Home County.app/Contents/MacOS/The Home County",
+        "arguments": "The Home County.app/Contents/MacOS",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "The Home County.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3672103": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3448322904149398802",
+          "size": "4384823639",
+          "download": "658348560"
+        }
+      }
+    },
+    "3672104": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "712949236464720037",
+          "size": "4342049833",
+          "download": "642161904"
+        }
+      }
+    },
+    "3672105": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7917773474812441818",
+          "size": "4348499832",
+          "download": "644274368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20075430",
+        "timeupdated": "1758540637"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "12",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Studio Swanworth/The Home County/Saves",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
     }
   }
 }
