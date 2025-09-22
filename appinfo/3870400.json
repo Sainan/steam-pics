@@ -1,6 +1,5 @@
 {
   "appid": "3870400",
-  "public_only": "1",
   "common": {
     "name": "Jester: A Foolish Ritual Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -129,5 +128,42 @@
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Fire Foot Studios",
+    "publisher": "Fire Foot Studios",
+    "homepage": "https://firefootstudios.com/"
+  },
+  "config": {
+    "installdir": "Jester A Foolish Ritual Demo",
+    "launch": {
+      "0": {
+        "executable": "JesterAFR Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3870401": {
+      "manifests": {
+        "public": {
+          "gid": "6584328217263072478",
+          "size": "1266895383",
+          "download": "486231056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20073020",
+        "timeupdated": "1758529245"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
