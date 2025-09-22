@@ -1,6 +1,5 @@
 {
   "appid": "3833800",
-  "public_only": "1",
   "common": {
     "name": "Crafter's Hollow",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "5795272124383543aed369ed6ad287e15244233f",
     "clienticon": "cf520b575656b494c3a193ac76842b84e48b08df",
     "clienttga": "9fb3302b1622058205dbc720adf39b72fe9136e0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -147,9 +146,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758552250",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3833800",
-    "exfgls": "8",
     "store_tags": {
       "0": "16689",
       "1": "599",
@@ -164,5 +164,43 @@
       "10": "6276",
       "11": "4182"
     }
+  },
+  "extended": {
+    "developer": "Wylde Wisp Games",
+    "publisher": "Wylde Wisp Games",
+    "homepage": "https://wyldewispgames.com/"
+  },
+  "config": {
+    "installdir": "Crafter's Hollow",
+    "launch": {
+      "0": {
+        "executable": "Crafter's Hollow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3833801": {
+      "manifests": {
+        "public": {
+          "gid": "1494046891337018390",
+          "size": "843709507",
+          "download": "452601584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20069883",
+        "timeupdated": "1758505600"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
