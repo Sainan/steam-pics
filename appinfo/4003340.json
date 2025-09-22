@@ -1,10 +1,9 @@
 {
   "appid": "4003340",
-  "public_only": "1",
   "common": {
     "name": "Coppy Tour",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "997d64821ac2113f54a993ecfa083905ee9582a8",
     "icon": "5af21d52ab41ae049c694fccaf77ede574a1972e",
     "oslist": "windows",
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4003340",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -136,6 +136,44 @@
       "17": "3916",
       "18": "4747",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "Penguin0o Games",
+    "publisher": "Penguin0o Games"
+  },
+  "config": {
+    "installdir": "Coppy Tour",
+    "launch": {
+      "0": {
+        "executable": "Coppy Tour.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Standard Game"
+        },
+        "description": "Standard Game"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4003341": {
+      "manifests": {
+        "public": {
+          "gid": "8298411623877686373",
+          "size": "282719046",
+          "download": "49596208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070110",
+        "timeupdated": "1758507232"
+      }
     }
   }
 }
