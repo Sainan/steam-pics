@@ -1,13 +1,12 @@
 {
   "appid": "2595530",
-  "public_only": "1",
   "common": {
     "name": "Masquerade",
     "type": "Game",
     "icon": "871c3608f76ef84e5fae7e210fe76d4ecaf48b20",
     "clienttga": "1420d467eadbc570581526c31125b36d965d4e7d",
     "clienticon": "6bf17f489defc39a722707450b54d9a74a7762bd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -105,9 +104,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758560448",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2595530",
-    "exfgls": "8",
     "store_tags": {
       "0": "7178",
       "1": "1662",
@@ -129,6 +129,53 @@
       "17": "4195",
       "18": "1685",
       "19": "19"
+    }
+  },
+  "extended": {
+    "developer": "Chewa",
+    "publisher": "Chewa"
+  },
+  "config": {
+    "installdir": "Masquerade",
+    "launch": {
+      "0": {
+        "executable": "Windows\\Masquerade.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2595531": {
+      "manifests": {
+        "public": {
+          "gid": "7688916693759678728",
+          "size": "377431722",
+          "download": "264397120"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20079678",
+        "timeupdated": "1758559861"
+      }
     }
   }
 }
