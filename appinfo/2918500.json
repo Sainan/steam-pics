@@ -1,6 +1,5 @@
 {
   "appid": "2918500",
-  "public_only": "1",
   "common": {
     "name": "Cozy Island",
     "type": "Game",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -125,9 +124,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758506190",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2918500",
-    "exfgls": "8",
     "store_tags": {
       "0": "3859",
       "1": "597",
@@ -149,6 +149,62 @@
       "17": "3843",
       "18": "3834",
       "19": "3810"
+    }
+  },
+  "extended": {
+    "developer": "LazyFish Studio",
+    "publisher": "LazyFish Studio"
+  },
+  "config": {
+    "installdir": "CozyIsland",
+    "launch": {
+      "0": {
+        "executable": "CozyIsland.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CozyIsland.exe",
+        "arguments": "-logFile /dev/null",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2918501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1568005270839045514",
+          "size": "884818880",
+          "download": "192878192"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20069945",
+        "timeupdated": "1758506014"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveFiles",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
