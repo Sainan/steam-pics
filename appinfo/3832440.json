@@ -116,14 +116,15 @@
         "platforms": {
           "1": "Windows"
         }
-      },
-      "1": {
-        "root": "WinAppDataRoaming",
-        "path": "\\Godot\\app_userdata\\HungryforApplez",
-        "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "addpath": "\\hungryforapplez\\Project"
       }
     }
   }
