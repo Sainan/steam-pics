@@ -1,6 +1,5 @@
 {
   "appid": "3937800",
-  "public_only": "1",
   "common": {
     "name": "Azulejo Parejo",
     "type": "Game",
@@ -30,7 +29,7 @@
       "brazilian": "1",
       "latam": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "linuxclienticon": "7382b38a2b9957a53333f7b635ad69e7c2ace577",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -182,9 +181,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758555144",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3937800",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -206,6 +206,89 @@
       "17": "7481",
       "18": "3859",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Kepri Studios",
+    "publisher": "Kepri Studios"
+  },
+  "config": {
+    "installdir": "Azulejo Parejo",
+    "launch": {
+      "0": {
+        "executable": "Azulejo Parejo.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Version 0.9 | Windows 64-bit"
+        },
+        "description": "Version 0.9 | Windows 64-bit"
+      },
+      "1": {
+        "executable": "AzulejoParejo.x86_64",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Version 0.9 | Linux"
+        },
+        "description": "Version 0.9 | Linux"
+      },
+      "2": {
+        "executable": "Azulejo Parejo.app",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Versión 0.9 | Mac"
+        },
+        "description": "Versión 0.9 | Mac"
+      }
+    }
+  },
+  "depots": {
+    "3937801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6017916876603441414",
+          "size": "99903915",
+          "download": "36090384"
+        }
+      }
+    },
+    "3937802": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8287354424325197505",
+          "size": "98299735",
+          "download": "34103744"
+        }
+      }
+    },
+    "3937803": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3944288159983517547",
+          "size": "92551917",
+          "download": "33011168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19926685",
+        "timeupdated": "1757509265"
+      }
     }
   }
 }
