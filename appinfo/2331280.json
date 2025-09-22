@@ -1,13 +1,12 @@
 {
   "appid": "2331280",
-  "public_only": "1",
   "common": {
     "name": "Medieval Crafter: Blacksmith",
     "type": "Game",
     "icon": "9e010d3963c403d3e044af635bc5ff287e21d312",
     "clienticon": "78798c13fa50d36305f10c2b6b72124c15619623",
     "clienttga": "c708bfd2aec5b5c70bfa36d7c70f916ae2e41cf1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -211,9 +210,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758535335",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2331280",
-    "exfgls": "8",
     "store_tags": {
       "0": "16689",
       "1": "599",
@@ -236,5 +236,45 @@
       "18": "35079",
       "19": "3839"
     }
+  },
+  "extended": {
+    "developer": "Compact Core Games",
+    "publisher": "GameDev.ist",
+    "homepage": "http://www.compactcoregames.com"
+  },
+  "config": {
+    "installdir": "Medieval Crafter Blacksmith",
+    "launch": {
+      "1": {
+        "executable": "MedievalCrafterBlacksmith.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2331281": {
+      "manifests": {
+        "public": {
+          "gid": "3030810826811622675",
+          "size": "5996385813",
+          "download": "3240023664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20072891",
+        "timeupdated": "1758533631"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "30"
   }
 }
