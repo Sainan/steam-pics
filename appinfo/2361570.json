@@ -1,0 +1,232 @@
+{
+  "appid": "2361570",
+  "common": {
+    "name": "Cronous",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "51d2e82324c6f7a7b09cd2154623e1632b459640",
+    "clienticon": "ebbeabcfca83d4a5bbf023c56212a03d62d65082",
+    "clienttga": "364b785e334fe96d2412ae9e440390fcceb31b97",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1697068800",
+      "tested_build_id": "12399400",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedAntiCheat_Other"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_UnsupportedAntiCheat_Other"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-8.0-4",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "49.06651108518085",
+        "height_pct": "46.96034196152933"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "49.06651108518085",
+          "height_pct": "46.96034196152933"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1716545939",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "VALOFE"
+      },
+      "1": {
+        "type": "developer",
+        "name": "NEOWIZ"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "VALOFE"
+      }
+    },
+    "primary_genre": "29",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "29",
+      "3": "3",
+      "4": "37"
+    },
+    "category": {
+      "category_20": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_35": "1"
+    },
+    "supported_languages": {
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1689818416",
+    "community_hub_visible": "1",
+    "gameid": "2361570",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "122",
+      "1": "1754",
+      "2": "128",
+      "3": "4474",
+      "4": "4191",
+      "5": "4057",
+      "6": "4342",
+      "7": "4604",
+      "8": "19",
+      "9": "21",
+      "10": "113",
+      "11": "1695"
+    },
+    "review_score": "5",
+    "review_percentage": "51"
+  },
+  "extended": {
+    "developer": "VALOFE",
+    "publisher": "VALOFE",
+    "homepage": "https://cronous-online.valofe.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "cronous-tw online",
+    "launch": {
+      "0": {
+        "executable": "Cronous.exe",
+        "arguments": " /stage --crosteam",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32",
+          "betakey": "staging"
+        },
+        "description_loc": {
+          "english": "Stage"
+        },
+        "description": "Stage"
+      },
+      "1": {
+        "executable": "Cronous.exe",
+        "arguments": "/real --crosteam",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "Live"
+        },
+        "description": "Live"
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2361571": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3532750984756897255",
+          "size": "19693945743",
+          "download": "1909012976"
+        }
+      }
+    },
+    "baselanguages": "tchinese",
+    "branches": {
+      "public": {
+        "buildid": "19982573",
+        "timeupdated": "1757990051"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
