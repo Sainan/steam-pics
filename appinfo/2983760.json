@@ -1,13 +1,12 @@
 {
   "appid": "2983760",
-  "public_only": "1",
   "common": {
     "name": "Moon 2999",
     "type": "Game",
     "icon": "05b6d5eb2ea79103960db21b05583e6537e59166",
     "clienticon": "cb7e083648a79f84565b6cf6191c0abf9d48581a",
     "clienttga": "f996c91373fa9ec0e6f431c456163644a030e316",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -120,6 +119,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2983760",
     "exfgls": "3",
@@ -144,5 +145,47 @@
       "17": "4182",
       "18": "3859"
     }
+  },
+  "extended": {
+    "developer": "Moon 2999",
+    "publisher": "Moon 2999",
+    "homepage": "https://www.moon2999.com/index.php/fr/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Moon 2999",
+    "launch": {
+      "0": {
+        "executable": "moon2999.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2983762": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1468510053000083806",
+          "size": "3173778432",
+          "download": "1023403760"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20072011",
+        "timeupdated": "1758523438"
+      }
+    },
+    "privatebranches": "1"
   }
 }
