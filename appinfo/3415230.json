@@ -1,6 +1,5 @@
 {
   "appid": "3415230",
-  "public_only": "1",
   "common": {
     "name": "Witchy Business",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "tchinese": "魔藥小鋪",
       "schinese": "魔药小铺",
@@ -287,9 +286,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758534401",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3415230",
-    "exfgls": "8",
     "store_tags": {
       "0": "4057",
       "1": "35079",
@@ -311,6 +311,119 @@
       "17": "1698",
       "18": "6815",
       "19": "97376"
+    }
+  },
+  "extended": {
+    "developer": "Rogue Duck Interactive",
+    "publisher": "Rogue Duck Interactive",
+    "homepage": "https://rogueduck.net"
+  },
+  "config": {
+    "installdir": "Witchy Business",
+    "launch": {
+      "0": {
+        "executable": "Witchy Business.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "app.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3415231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3774966072720119001",
+          "size": "1993551277",
+          "download": "426710416"
+        }
+      }
+    },
+    "3415232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9073865837659648644",
+          "size": "2018919570",
+          "download": "434194768"
+        }
+      }
+    },
+    "3415233": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6907208968314602216",
+          "size": "1995019808",
+          "download": "426679600"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20073970",
+        "timeupdated": "1758533784"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Witchy Business",
+            "replace": "Rogue Duck Interactive/Witchy Business"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Witchy Business",
+            "replace": ".config/unity3d/Rogue Duck Interactive/Witchy Business"
+          }
+        }
+      }
+    },
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Rogue Duck Interactive/Witchy Business",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
     }
   }
 }
