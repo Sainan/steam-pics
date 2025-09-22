@@ -1,6 +1,5 @@
 {
   "appid": "3989410",
-  "public_only": "1",
   "common": {
     "name": "Shablon: Color Patterns",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienticon": "e81e292a7001dd1d50b004610cd4200d72900dd3",
     "icon": "e81e292a7001dd1d50b004610cd4200d72900dd3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e7f9c7f44cf762174631238cdd6599358a5a51a6/capsule_231x87.jpg"
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758526498",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3989410",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -128,6 +128,113 @@
       "9": "4295",
       "10": "4004",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Bojan Miros",
+    "publisher": "Bojan Miros"
+  },
+  "config": {
+    "installdir": "Shablon Color Patterns",
+    "launch": {
+      "0": {
+        "executable": "Shablon Color Patterns.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ShablonColorPatterns.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3989411": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1180726163878011718",
+          "size": "137523820",
+          "download": "60713328"
+        }
+      }
+    },
+    "3989412": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "840818108440056071",
+          "size": "196953648",
+          "download": "78823376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20001597",
+        "timeupdated": "1758034820"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "1": {
+        "root": "gameinstall",
+        "path": "save/",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "save/",
+            "replace": "BojanMiros/Shablon Color Patterns/save/"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "save/",
+            "replace": "BojanMiros/Shablon Color Patterns/save/"
+          }
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "save/",
+            "replace": ".local/share/Shablon Color Patterns/save/"
+          }
+        }
+      }
     }
   }
 }
