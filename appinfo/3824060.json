@@ -1,6 +1,5 @@
 {
   "appid": "3824060",
-  "public_only": "1",
   "common": {
     "name": "Crush The Rebellion! (Demo)",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "clienttga": "eb4dab9553eefab34610da9bb01d43a12226ad76",
     "linuxclienticon": "6d6d47ba41c5e1ab1952dbac6108bc6bebcccbc6",
     "icon": "a28934a470cbf312b00cbdda3f74449a9351b9ab",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -109,7 +108,65 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3824060",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GameBeast Productions",
+    "publisher": "GameBeast Productions"
+  },
+  "config": {
+    "installdir": "Crush The Rebellion Demo",
+    "launch": {
+      "0": {
+        "executable": "CrushTheRebellion.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CrushTheRebellion.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3824061": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8912927656495129161",
+          "size": "323261203",
+          "download": "205569808"
+        }
+      }
+    },
+    "3824062": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1822250316070634649",
+          "size": "291492171",
+          "download": "197000064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20059731",
+        "timeupdated": "1758531053"
+      }
+    }
   }
 }
