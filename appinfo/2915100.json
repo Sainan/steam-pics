@@ -1,0 +1,128 @@
+{
+  "appid": "2915100",
+  "common": {
+    "name": "Echoes of Elysium Dedicated Server",
+    "type": "Tool",
+    "parent": "2644050",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "deac3613b789436073dd3853946cce1cc829b131",
+    "clienttga": "7aefd970bcaa8fa29206a0e86786479f3e62d681",
+    "clienticon": "e97e3f482d0786b7f7eddc0677da005fd594b006",
+    "associations": {},
+    "steam_release_date": "1712093402",
+    "gameid": "2915100"
+  },
+  "extended": {
+    "gamedir": "elysium",
+    "serverbrowsername": "Echoes of Elysium"
+  },
+  "config": {
+    "installdir": "Echoes of Elysium Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "ElysiumServer",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ElysiumServer.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "2915101": {
+      "manifests": {
+        "public": {
+          "gid": "4939062503915789982",
+          "size": "505561857",
+          "download": "155776912"
+        },
+        "internal": {
+          "gid": "5349588644885391422",
+          "size": "2266536679",
+          "download": "735666208"
+        },
+        "local": {
+          "gid": "2909032919417718062",
+          "size": "3092335",
+          "download": "605600"
+        },
+        "v0.13.0": {
+          "gid": "3843458639205895169",
+          "size": "1582961587",
+          "download": "497950672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "13909059",
+        "timeupdated": "1711934293"
+      },
+      "internal": {
+        "buildid": "20075318",
+        "description": "Internal Build",
+        "timeupdated": "1758540270"
+      },
+      "local": {
+        "buildid": "14011964",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1712765583"
+      },
+      "v0.13.0": {
+        "buildid": "19561406",
+        "description": "v0.13.0 Alpha",
+        "timeupdated": "1754955009"
+      }
+    }
+  }
+}
