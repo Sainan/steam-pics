@@ -1,10 +1,9 @@
 {
   "appid": "3708530",
-  "public_only": "1",
   "common": {
     "name": "Flowerdrops",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,9 +110,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758517770",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3708530",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -134,5 +134,48 @@
       "16": "12057",
       "17": "3871"
     }
+  },
+  "extended": {
+    "developer": "Studio Cozy Zone",
+    "publisher": "Studio Cozy Zone",
+    "homepage": "https://cozyz.one/flowerdrops"
+  },
+  "config": {
+    "installdir": "Flowerdrops",
+    "launch": {
+      "0": {
+        "executable": "Flowerdrops.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3708531": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3202467452674313421",
+          "size": "1128331335",
+          "download": "1012080688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070690",
+        "timeupdated": "1758512171"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "10"
   }
 }
