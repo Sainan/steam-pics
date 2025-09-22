@@ -1,6 +1,5 @@
 {
   "appid": "3294500",
-  "public_only": "1",
   "common": {
     "name": "Dead Apples Dare",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3294500_eula_0",
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758557738",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3294500",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "5900",
@@ -137,6 +137,52 @@
       "17": "5716",
       "18": "9204",
       "19": "4064"
+    }
+  },
+  "extended": {
+    "developer": "BoxLoafEnd",
+    "publisher": "BoxLoafEnd"
+  },
+  "config": {
+    "installdir": "Dead Apples Dare",
+    "launch": {
+      "0": {
+        "executable": "RoadGame.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3294501": {
+      "manifests": {
+        "public": {
+          "gid": "3771220104873909121",
+          "size": "4314832156",
+          "download": "4007867056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070864",
+        "timeupdated": "1758513971"
+      }
     }
   }
 }
