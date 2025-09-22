@@ -167,5 +167,32 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "appidredirect": "3741860",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Vital Shell",
+        "pattern": "*.res"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Vital Shell",
+            "replace": ".local/share/Vital Shell"
+          }
+        }
+      }
+    }
   }
 }
