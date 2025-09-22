@@ -1,10 +1,9 @@
 {
   "appid": "1476400",
-  "public_only": "1",
   "common": {
     "name": "Northwind",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -40,10 +39,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "32fa422508b572177de2248950ebbf0298ee28d6/library_capsule.jpg"
+          "english": "dd6a77eaca08944532a06ae5ac159f3b0f48c403/library_capsule.jpg"
         },
         "image2x": {
-          "english": "32fa422508b572177de2248950ebbf0298ee28d6/library_capsule_2x.jpg"
+          "english": "dd6a77eaca08944532a06ae5ac159f3b0f48c403/library_capsule_2x.jpg"
         }
       },
       "library_hero": {
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757753103",
+    "store_asset_mtime": "1758173094",
     "associations": {
       "0": {
         "type": "developer",
@@ -120,9 +119,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758549575",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1476400",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "1666",
@@ -144,6 +144,73 @@
       "17": "1720",
       "18": "492",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Barking Kitten Interactive",
+    "publisher": "Barking Kitten Interactive",
+    "homepage": "https://northwindgame.com/"
+  },
+  "config": {
+    "installdir": "NorthWind",
+    "launch": {
+      "0": {
+        "executable": "CardSystem.exe",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1476401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2657303611848972030",
+          "size": "1949372633",
+          "download": "1661972272"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20076523",
+        "timeupdated": "1758545874"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1250000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "CardSystem/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
