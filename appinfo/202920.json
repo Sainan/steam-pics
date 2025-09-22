@@ -1,0 +1,85 @@
+{
+  "appid": "202920",
+  "common": {
+    "name": "Total War: Shogun 2 - TEd",
+    "type": "Tool",
+    "gameid": "202920"
+  },
+  "extended": {
+    "developer": "The Creative Assembly",
+    "gamedir": "Total War Shogun\t2",
+    "homepage": "http://www.totalwar.com/shogun2",
+    "icon": "",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "202921",
+    "serverbrowsername": "",
+    "state": "eStateTool"
+  },
+  "config": {
+    "launch": {
+      "0": {
+        "executable": "ted.exe"
+      }
+    },
+    "contenttype": "3",
+    "installdir": "Total War SHOGUN 2"
+  },
+  "depots": {
+    "34331": {
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "34330",
+      "sharedinstall": "2"
+    },
+    "34332": {
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "34330",
+      "sharedinstall": "2"
+    },
+    "34333": {
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "34330",
+      "sharedinstall": "2"
+    },
+    "201271": {
+      "optional": "1",
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "201271",
+      "depotfromapp": "34330",
+      "sharedinstall": "2"
+    },
+    "202921": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "5258272578173182993",
+          "size": "112593600",
+          "download": "0"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "17525"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000"
+  }
+}
