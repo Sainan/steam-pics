@@ -1,13 +1,12 @@
 {
   "appid": "4013640",
-  "public_only": "1",
   "common": {
     "name": "15 minutes Demo",
     "type": "Demo",
     "parent": "3387100",
     "clienticon": "92004f031fcdefd1391ac07721094daa27077b26",
     "icon": "92004f031fcdefd1391ac07721094daa27077b26",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -93,5 +92,53 @@
     },
     "gameid": "4013640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Construct Games",
+    "publisher": "Construct Games"
+  },
+  "config": {
+    "installdir": "15 minutes Demo",
+    "launch": {
+      "0": {
+        "executable": "Mineshaftanomaly.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4013641": {
+      "manifests": {
+        "public": {
+          "gid": "6856813497915756029",
+          "size": "2050196489",
+          "download": "1773828832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20077794",
+        "timeupdated": "1758551632"
+      }
+    }
   }
 }
