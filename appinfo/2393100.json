@@ -1,10 +1,9 @@
 {
   "appid": "2393100",
-  "public_only": "1",
   "common": {
     "name": "GoKaDu",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758504845",
     "community_hub_visible": "1",
     "gameid": "2393100",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -135,5 +134,76 @@
       "18": "5923",
       "19": "6730"
     }
+  },
+  "extended": {
+    "developer": "Skvoznjak",
+    "publisher": "Skvoznjak",
+    "homepage": "https://skvoznjak.ucoz.net/index/rolevaja_kartochnaja_igra_gokadu/0-4"
+  },
+  "config": {
+    "installdir": "GoKaDu",
+    "launch": {
+      "0": {
+        "executable": "GoKaDu/gokadu_linux64.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "GoKaDu/gokadu_linux32.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "32"
+        }
+      },
+      "2": {
+        "executable": "GoKaDu\\gokadu_win64.cmd",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "3": {
+        "executable": "GoKaDu\\gokadu_win32.cmd",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2393101": {
+      "manifests": {
+        "public": {
+          "gid": "1833759100584721546",
+          "size": "1208265738",
+          "download": "1170364176"
+        },
+        "beta-1": {
+          "gid": "1833759100584721546",
+          "size": "1208265738",
+          "download": "1170364176"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20025907",
+        "timeupdated": "1758168948"
+      },
+      "beta-1": {
+        "buildid": "20025907",
+        "description": " for testing game - для тестирований игры",
+        "timeupdated": "1758168984"
+      }
+    },
+    "privatebranches": "1"
   }
 }
