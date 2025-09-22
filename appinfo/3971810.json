@@ -1,6 +1,5 @@
 {
   "appid": "3971810",
-  "public_only": "1",
   "common": {
     "name": "Computer Virus Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "58a75038465db133919902fd3b83a04f89882c0c/capsule_231x87.jpg"
@@ -111,5 +110,48 @@
     },
     "gameid": "3971810",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hittable Studio",
+    "publisher": "Hittable Studio"
+  },
+  "config": {
+    "installdir": "Computer Virus Demo",
+    "launch": {
+      "0": {
+        "executable": "Hittable Studio/ComputerVirus.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Hittable Studio/ComputerVirus.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3971811": {
+      "manifests": {
+        "public": {
+          "gid": "7219835989264934493",
+          "size": "407347682",
+          "download": "63891712"
+        }
+      }
+    },
+    "3971812": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,koreana",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20018419",
+        "timeupdated": "1758125685"
+      }
+    }
   }
 }
