@@ -1,6 +1,5 @@
 {
   "appid": "2496790",
-  "public_only": "1",
   "common": {
     "name": "Beach Vacation Simulator",
     "type": "Game",
@@ -20,7 +19,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -616,9 +615,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758510027",
     "community_hub_visible": "1",
     "gameid": "2496790",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -640,6 +639,57 @@
       "17": "4136",
       "18": "4175",
       "19": "5900"
+    }
+  },
+  "extended": {
+    "developer": "Scott H.F. Dunbar",
+    "publisher": "Scott H.F. Dunbar",
+    "homepage": "https://www.scottdunbar.io"
+  },
+  "config": {
+    "installdir": "Beach Vacation Simulator",
+    "launch": {
+      "0": {
+        "executable": "PrjBeachVacationSim.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2496791": {
+      "manifests": {
+        "public": {
+          "gid": "4788193210961102295",
+          "size": "1245981973",
+          "download": "1049396400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070429",
+        "timeupdated": "1758510063"
+      }
     }
   }
 }
