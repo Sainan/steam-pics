@@ -1,0 +1,219 @@
+{
+  "appid": "2766610",
+  "common": {
+    "name": "Starwave Defender Demo",
+    "type": "Demo",
+    "parent": "2726280",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "734d8ebd2362069eb25ce74b2bd1f63d0b0ce407",
+    "clienttga": "cf3f882683ee999fdb2e5ddcc8cb7ac5726ff9bb",
+    "linuxclienticon": "727372384846d71a6e99f42e477390ef4c46f8c3",
+    "icon": "858eab95e0e9584b2d5a955124bef9ce3cbded6f",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "5265df4cdd5e3338d2857b8176bd1c5fa61cdc0a/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "33.75286041189929",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "33.75286041189929",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1724573013",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Brandon Garvin"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Brandon Garvin"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1",
+      "category_43": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1739342174",
+    "gameid": "2766610",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Brandon Garvin",
+    "publisher": "Brandon Garvin",
+    "homepage": "https://garvinized.com/portfolio/starwave-defender/"
+  },
+  "config": {
+    "installdir": "Starwave Defender Demo",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "StarwaveDefenderDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "StarwaveDefenderDemo.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steaminputmanifestpath": "game_actions.vdf",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2766611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7234184830760391794",
+          "size": "430508715",
+          "download": "305830656"
+        }
+      }
+    },
+    "2766612": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7581093296586624042",
+          "size": "430798906",
+          "download": "276961856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "17702939",
+        "timeupdated": "1741842288"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50",
+    "appidredirect": "2726280",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "StarwaveDefender/Saved/Config",
+        "pattern": "*.ini",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "StarwaveDefender/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/"
+      }
+    }
+  }
+}
