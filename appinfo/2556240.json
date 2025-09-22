@@ -1,10 +1,9 @@
 {
   "appid": "2556240",
-  "public_only": "1",
   "common": {
     "name": "Brews & Bastards",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d3d4c1a375943c013b11ae0a52352227fb48ffb1",
     "clienttga": "77f9a8699c88ef7cc1580e5c93030854096551a2",
     "clienticon": "36bfb54fef0100f801b1545d9392f997d3ceebe3",
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758250813",
+    "store_asset_mtime": "1758539797",
     "associations": {
       "0": {
         "type": "developer",
@@ -144,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758543065",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2556240",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -171,6 +171,72 @@
       "17": "7208",
       "18": "1646",
       "19": "5094"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,beta,testing",
+    "developer": "Mune Studio",
+    "publisher": "Mune Studio",
+    "homepage": "https://munestudio.net/"
+  },
+  "config": {
+    "installdir": "Brews & Bastards",
+    "launch": {
+      "0": {
+        "executable": "UnderTheTavern.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2556241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5089631947295514911",
+          "size": "5394376035",
+          "download": "1830484752"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,japanese,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20073343",
+        "timeupdated": "1758533295"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "UnderTheTavern/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
