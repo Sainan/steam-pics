@@ -1,0 +1,118 @@
+{
+  "appid": "3989770",
+  "common": {
+    "name": "Project SkyShard Demo",
+    "type": "Demo",
+    "parent": "3892910",
+    "clienticon": "bb297334adfc99b2072474aa6d84550e942d93ac",
+    "icon": "bb297334adfc99b2072474aa6d84550e942d93ac",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "29abba7eedabaca9efe6e025610ce28d04a30693/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "9677c77fa9900fa040ac5a3c7bafdcd7a63f7a62/header.jpg"
+    },
+    "store_asset_mtime": "1756454404",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "ItsBen321"
+      },
+      "1": {
+        "type": "developer",
+        "name": "RegisKillbin"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "BenBin"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_79": "1"
+    },
+    "gameid": "3989770",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ItsBen321",
+    "publisher": "BenBin"
+  },
+  "config": {
+    "installdir": "Project SkyShard Demo",
+    "launch": {
+      "0": {
+        "executable": "ProjectSkyShard.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Main launch option"
+        },
+        "description": "Main launch option"
+      },
+      "2": {
+        "executable": "ProjectSkyShard.exe",
+        "arguments": "--rendering-driver opengl3 --rendering-method gl_compatibility",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Compatibility mode if you have any issues."
+        },
+        "description": "Compatibility mode if you have any issues."
+      },
+      "3": {
+        "executable": "Project SkyShard.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3989771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5265321034710372590",
+          "size": "7276822051",
+          "download": "560135024"
+        }
+      }
+    },
+    "3989772": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6261758773802745234",
+          "size": "7250095683",
+          "download": "553417136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20076293",
+        "timeupdated": "1758544990"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
