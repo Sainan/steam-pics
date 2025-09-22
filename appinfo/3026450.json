@@ -1,6 +1,5 @@
 {
   "appid": "3026450",
-  "public_only": "1",
   "common": {
     "name": "Deadly Days: Roadtrip",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2e5e5fe9bd3fc1860909e6452a3dbac4cb58feac",
     "clienticon": "4250cffe0c6c22c503879d51cfd4484f7577230a",
     "clienttga": "2b67d4cac87f54b9f495b65a3a3c7dffafd77c29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "死亡日：狂杀末路",
       "japanese": "デッドリーデイズ：ロードトリップ",
@@ -121,7 +120,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758397721",
+    "store_asset_mtime": "1758528872",
     "associations": {
       "0": {
         "type": "developer",
@@ -161,57 +160,74 @@
     },
     "supported_languages": {
       "english": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "german": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "japanese": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "koreana": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "schinese": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "french": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "italian": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "spanish": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "polish": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "brazilian": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "portuguese": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "russian": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "latam": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "tchinese": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "turkish": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       },
       "ukrainian": {
-        "supported": "true"
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1758545772",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3026450",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "6276",
@@ -233,6 +249,146 @@
       "17": "6426",
       "18": "4305",
       "19": "4726"
+    }
+  },
+  "extended": {
+    "developer": "Pixelsplit",
+    "publisher": "Sidekick Publishing",
+    "listofdlc": "3883820"
+  },
+  "config": {
+    "installdir": "Deadly Days Roadtrip",
+    "launch": {
+      "0": {
+        "executable": "DDSurvivors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX11"
+        },
+        "description": "DirectX11"
+      },
+      "1": {
+        "executable": "DDSurvivors.exe",
+        "arguments": "-dx12",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "disabled"
+        },
+        "description_loc": {
+          "english": "Experimental DirectX12 (might require 6GB+ VRam, might crash)"
+        },
+        "description": "Experimental DirectX12 (might require 6GB+ VRam, might crash)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3026451": {
+      "manifests": {
+        "public": {
+          "gid": "1832737755528485607",
+          "size": "0",
+          "download": "0"
+        },
+        "previous_live": {
+          "gid": "1832737755528485607",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "3026452": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7037837431655978008",
+          "size": "1073377787",
+          "download": "841844576"
+        },
+        "previous_live": {
+          "gid": "203532944889357613",
+          "size": "896645778",
+          "download": "669622368"
+        }
+      }
+    },
+    "3026453": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2883322984031894706",
+          "size": "0",
+          "download": "0"
+        },
+        "previous_live": {
+          "gid": "2883322984031894706",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "3883820": {
+      "dlcappid": "3883820"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20074193",
+        "timeupdated": "1758535099"
+      },
+      "previous_live": {
+        "buildid": "18074214",
+        "description": "Previous live build",
+        "timeupdated": "1745400004"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "DDSurvivors/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "DDSurvivors/Saved/SaveGames",
+            "replace": "DDSurvivors/Saved/SaveGames"
+          }
+        }
+      }
     }
   }
 }
