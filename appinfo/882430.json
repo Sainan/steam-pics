@@ -1,0 +1,177 @@
+{
+  "appid": "882430",
+  "common": {
+    "name": "Beasts of Bermuda Dedicated Server",
+    "type": "Tool",
+    "parent": "719890",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "logo": "150d386ee1f133eefdca0d4e2a2f87a9a9038f92",
+    "logo_small": "150d386ee1f133eefdca0d4e2a2f87a9a9038f92_thumb",
+    "icon": "0d01e5847b2ab02120d9b0e2d76aadc30b8808a6",
+    "clienttga": "ff8c213f5e44fafe55a9e3ad0a44da526e74c663",
+    "clienticon": "ab60031ff804dadc474f103d0a53d6e77b4be78e",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "882430"
+  },
+  "extended": {
+    "gamedir": "BeastsOfBermuda",
+    "serverbrowsername": "Beasts Of Bermuda",
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=882430"
+  },
+  "config": {
+    "installdir": "Beasts of Bermuda Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "WindowsServer/BeastsOfBermuda/Binaries/Win64/BeastsOfBermudaServer.exe",
+        "arguments": "-log -NoVerifyGC",
+        "description": "Dedicated Server for Beasts Of Bermuda",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "WindowsServer/BeastsOfBermudaServer.exe",
+        "arguments": "-log -NoVerifyGC",
+        "description": "Dedicated Server for Beasts of Bermuda",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "LinuxServer/BeastsOfBermudaServer.sh",
+        "arguments": "-log -NoVerifyGC",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Dedicated Server for Beasts of Bermuda"
+        },
+        "description": "Dedicated Server for Beasts of Bermuda"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "882431": {
+      "manifests": {
+        "public": {
+          "gid": "1457737212673428554",
+          "size": "11029803051",
+          "download": "8221270624"
+        },
+        "tester": {
+          "gid": "7785632836288948457",
+          "size": "11029894685",
+          "download": "8216865152"
+        }
+      }
+    },
+    "882432": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2548328533493650379",
+          "size": "302925248",
+          "download": "104756416"
+        },
+        "tester": {
+          "gid": "5507832857746124127",
+          "size": "302925760",
+          "download": "104807936"
+        }
+      }
+    },
+    "882433": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1869969639904534118",
+          "size": "46036068",
+          "download": "11417648"
+        },
+        "tester": {
+          "gid": "1869969639904534118",
+          "size": "46036068",
+          "download": "11417648"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20008239",
+        "timeupdated": "1758074440"
+      },
+      "tester": {
+        "buildid": "20076746",
+        "description": "Tester branch",
+        "timeupdated": "1758546774"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
