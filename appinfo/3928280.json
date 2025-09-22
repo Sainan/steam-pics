@@ -177,7 +177,7 @@
       "0": {
         "root": "WinAppDataRoaming",
         "path": "Vital Shell",
-        "pattern": "memory_card.tres"
+        "pattern": "*.res"
       },
       "copied_from_parent": "1"
     },
@@ -186,13 +186,8 @@
         "root": "WinAppDataRoaming",
         "os": "Linux",
         "oscompare": "=",
-        "useinstead": "LinuxHome",
-        "pathtransforms": {
-          "0": {
-            "find": "Vital Shell",
-            "replace": ".local/share/Vital Shell"
-          }
-        }
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
       }
     }
   }
