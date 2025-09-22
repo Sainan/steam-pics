@@ -1,0 +1,142 @@
+{
+  "appid": "3991630",
+  "common": {
+    "name": "Curse of the Abyss Demo",
+    "type": "Demo",
+    "parent": "3678600",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "icon": "c44cda0f0017ae5011568b1bee4c14b3b5beebff",
+    "clienticon": "e52557a5ba1843792ac72d256a5b4d9fffeb69ef",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "744c763b2305a73d14d14b9cfa139058f7108670/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "d8851bb6eb90a762959b4782fde9dfd21abb2e27/header.jpg"
+    },
+    "store_asset_mtime": "1756360503",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Sprouting Potato"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Sprouting Potato"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_18": "1",
+      "category_60": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1758514748",
+    "gameid": "3991630",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sprouting Potato",
+    "publisher": "Sprouting Potato"
+  },
+  "config": {
+    "installdir": "Curse of the Abyss Demo",
+    "launch": {
+      "0": {
+        "executable": "CurseOfTheAbyssDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "hl",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "run.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "CurseOfTheAbyssDemo.exe",
+        "arguments": "hlbootdx.dat",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX"
+        },
+        "description": "DirectX"
+      }
+    }
+  },
+  "depots": {
+    "3991632": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2955700817937205699",
+          "size": "19708908",
+          "download": "12877536"
+        }
+      }
+    },
+    "3991633": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6918934429607009370",
+          "size": "16822849",
+          "download": "11419808"
+        }
+      }
+    },
+    "3991634": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6232875633928775796",
+          "size": "16256477",
+          "download": "11337200"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20027559",
+        "timeupdated": "1758180223"
+      }
+    }
+  }
+}
