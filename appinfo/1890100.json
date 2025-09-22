@@ -1,6 +1,5 @@
 {
   "appid": "1890100",
-  "public_only": "1",
   "common": {
     "name": "Ship of Heroes",
     "type": "Game",
@@ -18,7 +17,7 @@
         "version": "3"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "535685ff3b9a584bf5d1b5d2e446f0a67779c1a8/capsule_231x87.jpg"
@@ -114,9 +113,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758564810",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1890100",
-    "exfgls": "8",
     "store_tags": {
       "0": "1720",
       "1": "3834",
@@ -139,5 +139,57 @@
       "18": "128",
       "19": "122"
     }
+  },
+  "extended": {
+    "developer": "Heroic Games Corporation",
+    "publisher": "Heroic Games Corporation",
+    "homepage": "https://www.shipofheroes.com/"
+  },
+  "config": {
+    "installdir": "Ship of Heroes",
+    "launch": {
+      "0": {
+        "executable": "ShipOfHeroes.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1890101": {
+      "manifests": {
+        "public": {
+          "gid": "727747014221366334",
+          "size": "29713224600",
+          "download": "28826440400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070663",
+        "timeupdated": "1758517134"
+      }
+    },
+    "privatebranches": "1"
   }
 }
