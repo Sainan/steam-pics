@@ -1,13 +1,12 @@
 {
   "appid": "3393240",
-  "public_only": "1",
   "common": {
     "name": "Banker Simulator",
     "type": "Game",
     "clienticon": "8ee8e8a3e752025271a83fea76f2eac518800de1",
     "clienttga": "3d488c7ab1c1a062618c499873784eece535115b",
     "icon": "fb429f1030cf7e89ee6cf7ad427eb49ebd9e6005",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -216,9 +215,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758556639",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3393240",
-    "exfgls": "8",
     "store_tags": {
       "0": "9204",
       "1": "3810",
@@ -241,5 +241,53 @@
       "18": "493",
       "19": "492"
     }
+  },
+  "extended": {
+    "developer": "Soi Games",
+    "publisher": "Red Axe Games"
+  },
+  "config": {
+    "installdir": "Banker Simulator",
+    "launch": {
+      "0": {
+        "executable": "Banker Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3393241": {
+      "manifests": {
+        "public": {
+          "gid": "5515391316481168961",
+          "size": "5290143035",
+          "download": "2372094640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20078322",
+        "timeupdated": "1758556160"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50"
   }
 }
