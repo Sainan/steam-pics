@@ -1,0 +1,160 @@
+{
+  "appid": "2848110",
+  "common": {
+    "name": "Ascent: Rivals Playtest",
+    "type": "Beta",
+    "parent": "2748420",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "965ecbef62f9f4b1cece29d5ce1d38cbbbef6fbe",
+    "clienttga": "7650c9ee251b7e2a6cda7abf7e2df4140817bcd7",
+    "clienticon": "ed15e6b80c1215e644e7268d428002ef2571b248",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "46.75023226440351",
+        "height_pct": "87.46452223273411"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "46.75023226440351",
+          "height_pct": "87.46452223273411"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1708833669",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1709147286",
+    "community_hub_visible": "1",
+    "gameid": "2848110",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "1"
+  },
+  "config": {
+    "installdir": "Ascent Rivals Playtest",
+    "launch": {
+      "0": {
+        "executable": "AscentRivals.exe",
+        "arguments": "-EnableNativePlatformAuth",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AscentRivals.exe",
+        "arguments": "-EnableNativePlatformAuth -Env=dev",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "release-candidate"
+        },
+        "description_loc": {
+          "english": "Ascent: Rivals Playtest (Env=dev)"
+        },
+        "description": "Ascent: Rivals Playtest (Env=dev)"
+      },
+      "2": {
+        "executable": "AscentRivals.exe",
+        "arguments": "-EnableNativePlatformAuth -Env=dev",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "internal-dev"
+        },
+        "description_loc": {
+          "english": "Ascent: Rivals Playtest (Env=dev)"
+        },
+        "description": "Ascent: Rivals Playtest (Env=dev)"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2848111": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6163325463487038003",
+          "size": "19554529983",
+          "download": "17227381888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19489638",
+        "timeupdated": "1754437144"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
