@@ -1,6 +1,5 @@
 {
   "appid": "3749270",
-  "public_only": "1",
   "common": {
     "name": "Free Lottery",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "3db43473a9e741572d38748ce21bca9700bae98c",
     "clienttga": "1fb3cf36e837f814af1151f0d90ea7566445ace2",
     "clienticon": "ec923255d2502f13da671126de2a0bc54a5332f6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -117,6 +116,46 @@
       "8": "492",
       "9": "6276",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "tcplay",
+    "publisher": "tcplay",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Free Lottery",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "arguments": "game.pck"
+      }
+    }
+  },
+  "depots": {
+    "3749271": {
+      "manifests": {
+        "public": {
+          "gid": "3558456694282315183",
+          "size": "103606624",
+          "download": "34357008"
+        }
+      }
+    },
+    "3749272": {
+      "manifests": {
+        "public": {
+          "gid": "6702659488033808343",
+          "size": "103606592",
+          "download": "34355584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20080121",
+        "timeupdated": "1758562021"
+      }
     }
   }
 }
