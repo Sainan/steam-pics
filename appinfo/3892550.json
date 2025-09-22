@@ -1,13 +1,12 @@
 {
   "appid": "3892550",
-  "public_only": "1",
   "common": {
     "name": "Pizza Mayhem",
     "type": "Game",
     "icon": "dbfd3f4ed1a9be3ea462ae091974bbc19a683f28",
     "clienticon": "bde4befd0ca2f7c3b3eb2743e54e954788b852f7",
     "clienttga": "2edd42edc90e7adeae802def70c8c6751bffeab7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -186,9 +185,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758570872",
     "community_hub_visible": "1",
     "gameid": "3892550",
-    "exfgls": "8",
     "store_tags": {
       "0": "3920",
       "1": "3959",
@@ -210,6 +209,39 @@
       "17": "4305",
       "18": "7208",
       "19": "4094"
+    }
+  },
+  "extended": {
+    "developer": "Duigrind",
+    "publisher": "Duigrind"
+  },
+  "config": {
+    "installdir": "Pizza Mayhem",
+    "launch": {
+      "0": {
+        "executable": "PizzaMayhem.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3892551": {
+      "manifests": {
+        "public": {
+          "gid": "8278531221061894507",
+          "size": "2102790805",
+          "download": "824662848"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19963776",
+        "timeupdated": "1757713459"
+      }
     }
   }
 }
