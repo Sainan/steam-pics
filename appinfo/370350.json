@@ -1,0 +1,405 @@
+{
+  "appid": "370350",
+  "common": {
+    "name": "LOTUS-Simulator",
+    "type": "Game",
+    "oslist": "windows",
+    "languages": {
+      "english": "1",
+      "german": "1"
+    },
+    "controllervr": {
+      "kbm": "1"
+    },
+    "playareavr": {
+      "seated": "1",
+      "standing": "1"
+    },
+    "clienttga": "b50921b94a81eec768d241e4cf7b4e72548402b9",
+    "clienticon": "a81d864b766116625fb37b75f4b19011a36de72d",
+    "icon": "44ce32cf13bfe76cb1f09b35fd338592e1f1daf9",
+    "eulas": {
+      "0": {
+        "id": "370350_eula_0",
+        "name": "LOTUS-Simulator EULA",
+        "url": "https://store.steampowered.com//eula/370350_eula_0",
+        "version": "1"
+      }
+    },
+    "logo": "f466510793dcd6eda0272c4ed64d6191c194b6cc",
+    "logo_small": "f466510793dcd6eda0272c4ed64d6191c194b6cc_thumb",
+    "releasestate": "released",
+    "openvrsupport": "1",
+    "metacritic_name": "LOTUS-Simulator",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "45.92074592074593",
+        "height_pct": "72.79743528853007"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "45.92074592074593",
+          "height_pct": "72.79743528853007"
+        }
+      }
+    },
+    "store_asset_mtime": "1646437737",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Oriolus Software GmbH"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Oriolus Software GmbH"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "23",
+      "1": "28",
+      "2": "70"
+    },
+    "category": {
+      "category_2": "1",
+      "category_31": "1",
+      "category_18": "1",
+      "category_30": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_17": "1",
+      "category_45": "1",
+      "category_46": "1",
+      "category_53": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1536966995",
+    "workshop_visible": "1",
+    "community_hub_visible": "1",
+    "gameid": "370350",
+    "store_tags": {
+      "0": "599",
+      "1": "493",
+      "2": "492",
+      "3": "4175",
+      "4": "1644",
+      "5": "3859",
+      "6": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "44"
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "developer": "Oriolus Software GmbH",
+    "publisher": "Oriolus Software GmbH",
+    "homepage": "https://www.lotus-simulator.de",
+    "listofdlc": "374760,374770,374871,378460,378461,2691300",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "LOTUS-Simulator",
+    "launch": {
+      "0": {
+        "executable": "LOTUS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "LOTUS.exe",
+        "arguments": "-VRon",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "LOTUS_32.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "LOTUS (32bit)"
+        },
+        "description": "LOTUS (32bit)"
+      },
+      "3": {
+        "executable": "lotus_ng\\simulator.exe",
+        "workingdir": "lotus_ng",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "LOTUS.NG"
+        },
+        "description": "LOTUS.NG"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "370351": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "110794023726255112",
+          "size": "42601952",
+          "download": "35920416"
+        },
+        "nightlybuilds": {
+          "gid": "2650477343571466958",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "370352": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1029577725514706429",
+          "size": "17165264",
+          "download": "14608096"
+        },
+        "nightlybuilds": {
+          "gid": "6758983993261234591",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "370353": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7381961906831377916",
+          "size": "10860780201",
+          "download": "10677597584"
+        },
+        "nightlybuilds": {
+          "gid": "4056911522428930600",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "370354": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8371304709085712157",
+          "size": "18183632",
+          "download": "15638048"
+        },
+        "nightlybuilds": {
+          "gid": "4541233443002073012",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "370355": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6360635423145720968",
+          "size": "43611616",
+          "download": "35997408"
+        },
+        "nightlybuilds": {
+          "gid": "1936200617409458137",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "370356": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5236855018597226527",
+          "size": "10840480025",
+          "download": "10645741520"
+        },
+        "nightlybuilds": {
+          "gid": "3775457404993603209",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "370357": {
+      "config": {
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4339636169617614053",
+          "size": "0",
+          "download": "0"
+        },
+        "nightlybuilds": {
+          "gid": "9130769105546075712",
+          "size": "17159632",
+          "download": "14603392"
+        }
+      }
+    },
+    "370358": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3187807781250641686",
+          "size": "0",
+          "download": "0"
+        },
+        "nightlybuilds": {
+          "gid": "7144529680441050047",
+          "size": "42588128",
+          "download": "35333040"
+        }
+      }
+    },
+    "370359": {
+      "manifests": {
+        "public": {
+          "gid": "8665837779140319779",
+          "size": "0",
+          "download": "0"
+        },
+        "nightlybuilds": {
+          "gid": "647779503989463685",
+          "size": "10840481145",
+          "download": "10638737024"
+        }
+      }
+    },
+    "374861": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3596153918237603507",
+          "size": "50493800",
+          "download": "13042832"
+        }
+      }
+    },
+    "374862": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7792278138454304483",
+          "size": "50770280",
+          "download": "13101952"
+        }
+      }
+    },
+    "workshopdepot": "370350",
+    "baselanguages": "english,german",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19203697",
+        "timeupdated": "1752354795"
+      },
+      "nightlybuilds": {
+        "buildid": "19203692",
+        "description": "Nightly Builds, fixing issues or creating new ones. Get always the most recent release candidate of LOTUS.",
+        "timeupdated": "1752354762"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Config",
+        "pattern": "Options.cfg"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Config",
+        "pattern": "*.veh",
+        "recursive": "1"
+      }
+    }
+  }
+}
