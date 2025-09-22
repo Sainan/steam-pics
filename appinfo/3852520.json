@@ -1,13 +1,12 @@
 {
   "appid": "3852520",
-  "public_only": "1",
   "common": {
     "name": "Spread The Love",
     "type": "Game",
     "icon": "21148caec718f3d676a91f8296cbc978fe563780",
     "clienticon": "a31f7fdd688dd45b26d2df82fc75334c28962f57",
     "clienttga": "1ea2e5ccceeea5c631d8b54aaa88946941e2a88b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -102,6 +101,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3852520",
     "exfgls": "3",
@@ -123,5 +123,64 @@
       "14": "9204",
       "15": "4136"
     }
+  },
+  "extended": {
+    "developer": "jamms",
+    "publisher": "jamms",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "SpreadTheLove",
+    "launch": {
+      "1": {
+        "executable": "SpreadTheLove.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "SpreadTheLove.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3852521": {},
+    "3852522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "990544500808119365",
+          "size": "296791051",
+          "download": "102775584"
+        }
+      }
+    },
+    "3852523": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1886606766083048652",
+          "size": "270436736",
+          "download": "91924944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19980077",
+        "timeupdated": "1758387771"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000"
   }
 }
