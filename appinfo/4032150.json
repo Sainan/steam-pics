@@ -1,6 +1,5 @@
 {
   "appid": "4032150",
-  "public_only": "1",
   "common": {
     "name": "Free For Fall Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -66,8 +65,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758560194",
     "workshop_visible": "1",
     "gameid": "4032150",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Baboon Digital",
+    "publisher": "Baboon Digital"
+  },
+  "config": {
+    "installdir": "Free For Fall Demo",
+    "launch": {
+      "0": {
+        "executable": "Free For Fall.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FFF.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4032151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4682968012163222959",
+          "size": "823544686",
+          "download": "228258960"
+        }
+      }
+    },
+    "4032152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1863694898964988577",
+          "size": "992662308",
+          "download": "268757264"
+        }
+      }
+    },
+    "workshopdepot": "4032150",
+    "branches": {
+      "public": {
+        "buildid": "20078787",
+        "timeupdated": "1758555945"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
