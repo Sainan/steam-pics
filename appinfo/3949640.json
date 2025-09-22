@@ -92,7 +92,16 @@
     "installdir": "Star Head Playtest",
     "launch": {
       "0": {
-        "executable": "StarHead.exe"
+        "executable": "StarHead.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "StarHEAD_MAC_63.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
