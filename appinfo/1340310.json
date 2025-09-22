@@ -1,0 +1,186 @@
+{
+  "appid": "1340310",
+  "common": {
+    "name": "Nine Lives",
+    "type": "Game",
+    "logo": "d06efe54f2cee03dacb344a1dac9c7f17cd7656a",
+    "logo_small": "d06efe54f2cee03dacb344a1dac9c7f17cd7656a_thumb",
+    "icon": "66af87c91b9af6bdda3b8485c7ba288edd4400b7",
+    "clienticon": "74c6e3ba72b4280e2434c70dff45d2d34abc24df",
+    "clienttga": "927567d3a4d15c87ed7c4f2874d4b48a9b9e131d",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosnotarized",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1602161188",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Siddharth Sivaraman"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Siddharth Sivaraman"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1603820340",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "1340310",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "1664",
+      "1": "4182",
+      "2": "1732",
+      "3": "4305",
+      "4": "5851",
+      "5": "492",
+      "6": "4726",
+      "7": "5350",
+      "8": "597",
+      "9": "17894",
+      "10": "6129",
+      "11": "3834",
+      "12": "4026",
+      "13": "9",
+      "14": "21"
+    }
+  },
+  "extended": {
+    "developer": "Siddharth Sivaraman",
+    "publisher": "Siddharth Sivaraman",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "NineLives",
+    "launch": {
+      "0": {
+        "executable": "NineLives/Nine lives hero.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "NineLives.app/Contents/MacOS/Nine lives hero",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1340311": {
+      "config": {
+        "oslist": "macos",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "1387794586193890015",
+          "size": "217217284",
+          "download": "50599616"
+        }
+      }
+    },
+    "1340312": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "7039013739223624710",
+          "size": "212849796",
+          "download": "49567168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "5775185",
+        "timeupdated": "1604376933"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Siddharth Sivaraman/Nine lives hero",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Siddharth Sivaraman/Nine lives hero",
+            "replace": "Siddharth Sivaraman/Nine lives hero"
+          }
+        }
+      }
+    }
+  }
+}
