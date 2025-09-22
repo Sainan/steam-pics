@@ -1,6 +1,5 @@
 {
   "appid": "3572530",
-  "public_only": "1",
   "common": {
     "name": "LHEA and the Word Spirit",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "db8ee445890e1582778b0076736374ec5e52e4e5/capsule_231x87.jpg"
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758517087",
     "community_hub_visible": "1",
     "gameid": "3572530",
-    "exfgls": "8",
     "store_tags": {
       "0": "21725",
       "1": "14139",
@@ -128,6 +127,71 @@
       "17": "6625",
       "18": "4325",
       "19": "597"
+    }
+  },
+  "extended": {
+    "developer": "Soul Fuel Games",
+    "publisher": "Soul Fuel Games",
+    "homepage": "https://www.lheaandthewordspirit.com"
+  },
+  "config": {
+    "installdir": "LHEA",
+    "launch": {
+      "0": {
+        "executable": "LHEA.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3572531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "650790911348141486",
+          "size": "755078426",
+          "download": "400494320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20066578",
+        "timeupdated": "1758468713"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "LHEA/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
