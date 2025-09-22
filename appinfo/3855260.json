@@ -1,6 +1,5 @@
 {
   "appid": "3855260",
-  "public_only": "1",
   "common": {
     "name": "Farm Defence Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "linuxclienticon": "cef60b40a01fdc1bc17eb876181bae5a5b49f31d",
     "clienttga": "1eca76e913ce3ed22ce431badd6e3ac3271e027b",
     "clienticon": "b736a371da2ec92acc7603a51d5f932ff052846f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -114,5 +113,55 @@
     },
     "gameid": "3855260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "KEY CREATION INC.",
+    "publisher": "KEY CREATION INC."
+  },
+  "config": {
+    "installdir": "FarmDefenceDemo",
+    "launch": {
+      "0": {
+        "executable": "FarmDefence.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3855261": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6347427737916031402",
+          "size": "298052566",
+          "download": "102545456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20074238",
+        "timeupdated": "1758534958"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10024000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "KeyCreation/FarmDefence/",
+        "pattern": "*.es3"
+      }
+    }
   }
 }
