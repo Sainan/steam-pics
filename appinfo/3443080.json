@@ -1,10 +1,9 @@
 {
   "appid": "3443080",
-  "public_only": "1",
   "common": {
     "name": "Auridia",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "6f1bcf3b2a5913aad2f00284c7f0f857382fddfe",
     "clienticon": "4a0474089e27f57f40aaf2e708d1f675bdf42c9c",
     "clienttga": "3206df85b0afd891e0bcc6a183df0804350eb400",
@@ -168,9 +167,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758549765",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3443080",
-    "exfgls": "8",
     "store_tags": {
       "0": "1628",
       "1": "3834",
@@ -188,6 +188,94 @@
       "13": "4182",
       "14": "7481",
       "15": "5537"
+    }
+  },
+  "extended": {
+    "developer": "Norseboar Games",
+    "publisher": "Norseboar Games",
+    "homepage": "https://www.auridiagame.com"
+  },
+  "config": {
+    "installdir": "Auridia",
+    "launch": {
+      "0": {
+        "executable": "Auridia.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Auridia.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3443081": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4322965623647678325",
+          "size": "552562189",
+          "download": "168190160"
+        }
+      }
+    },
+    "3443082": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4567210421154917874",
+          "size": "568853132",
+          "download": "176295872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20069410",
+        "timeupdated": "1758500150"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Norseboar Games/Auridia",
+        "pattern": "SaveData-game-*.es3"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      }
     }
   }
 }
