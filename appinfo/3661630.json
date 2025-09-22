@@ -1,6 +1,5 @@
 {
   "appid": "3661630",
-  "public_only": "1",
   "common": {
     "name": "Galactic Outlaws",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "5bdc3c8f164035ad92f5328ee5394ea4442f35d9",
     "clienttga": "e4cc8bad39e3f970b7724a8fe6fa4174f55e8676",
     "clienticon": "2bcee74d1b24eb73ba4c743b23ccfc59f1252d66",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -170,9 +169,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758563700",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3661630",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -194,6 +194,58 @@
       "17": "3942",
       "18": "5363",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Square Wheel",
+    "publisher": "Square Wheel",
+    "homepage": "https://store.steampowered.com/developer/SQUARE_WHEEL"
+  },
+  "config": {
+    "installdir": "Galactic Outlaws",
+    "launch": {
+      "0": {
+        "executable": "Galactic Outlaws.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3661631": {
+      "manifests": {
+        "public": {
+          "gid": "2780599514350344040",
+          "size": "519884419",
+          "download": "465750624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20061583",
+        "timeupdated": "1758397729"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Galactic_Outlaws",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Galactic_Outlaws",
+        "pattern": "*.*"
+      }
     }
   }
 }
