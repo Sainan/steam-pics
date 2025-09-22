@@ -103,5 +103,30 @@
         "timeupdated": "1758511869"
       }
     }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\hungryforapplez\\Project",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "\\Godot\\app_userdata\\HungryforApplez",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
