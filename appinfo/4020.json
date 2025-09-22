@@ -1,0 +1,174 @@
+{
+  "appid": "4020",
+  "common": {
+    "name": "Garry's Mod Dedicated Server",
+    "type": "Tool",
+    "releasestate": "released",
+    "parent": "4000",
+    "clienticon": "8afac0a3aa137a10d95ffff016573d7eba867de9",
+    "clienttga": "1876003cc8d454acb3cee2f2e35990599d1faf9e",
+    "freetodownload": "1",
+    "gameid": "4020"
+  },
+  "extended": {
+    "checkpkgstate": "1",
+    "developer": "",
+    "gamedir": "ValveTestApp4020",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateComingSoonNoPreload",
+    "visibleonlywhensubscribed": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "GarrysModDS"
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "4021": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "2107953891666621145",
+          "size": "6597426983",
+          "download": "3417919408"
+        },
+        "dev": {
+          "gid": "5808225148172480070",
+          "size": "6614022551",
+          "download": "3427822032"
+        },
+        "prerelease": {
+          "gid": "2107953891666621145",
+          "size": "6597426983",
+          "download": "3417919408"
+        },
+        "x86-64": {
+          "gid": "3258397373557058124",
+          "size": "6612705810",
+          "download": "3427475712"
+        }
+      }
+    },
+    "4022": {
+      "config": {
+        "oslist": "windows"
+      },
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "5336478210658998759",
+          "size": "59437760",
+          "download": "20821920"
+        },
+        "dev": {
+          "gid": "1155086413129132770",
+          "size": "60897248",
+          "download": "24422752"
+        },
+        "prerelease": {
+          "gid": "5336478210658998759",
+          "size": "59437760",
+          "download": "20821920"
+        },
+        "x86-64": {
+          "gid": "2992585539220800458",
+          "size": "428723345",
+          "download": "161792864"
+        }
+      }
+    },
+    "4023": {
+      "config": {
+        "oslist": "linux"
+      },
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "7337158995001277286",
+          "size": "119508884",
+          "download": "33338032"
+        },
+        "dev": {
+          "gid": "4660304544073524801",
+          "size": "123593656",
+          "download": "37506560"
+        },
+        "prerelease": {
+          "gid": "7337158995001277286",
+          "size": "119508884",
+          "download": "33338032"
+        },
+        "x86-64": {
+          "gid": "5627800377773496824",
+          "size": "228459036",
+          "download": "70106016"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "markdlcdepots": "0",
+    "workshopdepot": "0",
+    "branches": {
+      "public": {
+        "buildid": "19330088",
+        "timeupdated": "1753282364"
+      },
+      "dev": {
+        "buildid": "20079669",
+        "description": "Development Branch",
+        "timeupdated": "1758559828"
+      },
+      "prerelease": {
+        "buildid": "19330088",
+        "description": "Pre-Release Branch",
+        "timeupdated": "1753279444"
+      },
+      "x86-64": {
+        "buildid": "20036538",
+        "description": "Testing 64-bit builds",
+        "timeupdated": "1758220558"
+      }
+    }
+  }
+}
