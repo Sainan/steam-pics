@@ -125,14 +125,22 @@
     "installdir": "Time Survivor Demo",
     "launch": {
       "0": {
-        "executable": "TimeSurvivor_v02d.exe"
+        "executable": "TimeSurvivor_v02d.exe",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
       },
       "1": {
         "executable": "Time Survivor.app",
         "type": "default",
         "config": {
           "oslist": "macos"
-        }
+        },
+        "description_loc": {
+          "english": "Mac"
+        },
+        "description": "Mac"
       }
     }
   },
