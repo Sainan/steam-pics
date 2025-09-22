@@ -1,6 +1,5 @@
 {
   "appid": "3598550",
-  "public_only": "1",
   "common": {
     "name": "Atlas Hands",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "1f6403ee5f02237e47befb2980c4457fb8327629",
     "clienticon": "0c34376321c6ef312b89b94336ca24aaf633c15c",
     "clienttga": "34c8be7872fb0997a752b4ea3b33c414c3f7978d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,9 +109,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758549494",
     "community_hub_visible": "1",
     "gameid": "3598550",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -138,6 +137,41 @@
       "17": "4191",
       "18": "4252",
       "19": "5030"
+    }
+  },
+  "extended": {
+    "developer": "Kernel Red Games",
+    "publisher": "Kernel Red Games"
+  },
+  "config": {
+    "installdir": "Atlas Hands",
+    "launch": {
+      "0": {
+        "executable": "Atlas Hands.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3598551": {
+      "manifests": {
+        "public": {
+          "gid": "6807790097653267029",
+          "size": "674384165",
+          "download": "305442880"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20077233",
+        "timeupdated": "1758549288"
+      }
     }
   }
 }
