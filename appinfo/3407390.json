@@ -1,6 +1,5 @@
 {
   "appid": "3407390",
-  "public_only": "1",
   "common": {
     "name": " ENDLESS™ Legend 2",
     "type": "Game",
@@ -16,7 +15,7 @@
       "japanese": "ENDLESS™ Legend 2 エンドレス・レジェンド 2",
       "koreana": "ENDLESS™ Legend 2 엔들리스 레전드 2"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -239,9 +238,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758546000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3407390",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "599",
@@ -263,6 +263,108 @@
       "17": "1717",
       "18": "4711",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "AMPLITUDE Studios",
+    "publisher": "Hooded Horse",
+    "homepage": "https://store.steampowered.com/publisher/AmplitudeStudios/sale/EndlessLegend2"
+  },
+  "config": {
+    "installdir": "ENDLESS Legend 2",
+    "launch": {
+      "0": {
+        "executable": "Endless Legend 2.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "steamdeck": "0"
+        }
+      },
+      "1": {
+        "executable": "Endless Legend 2.cmd",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "steamdeck": "1"
+        },
+        "description_loc": {
+          "english": "Steam Deck"
+        },
+        "description": "Steam Deck"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3407391": {
+      "manifests": {
+        "public": {
+          "gid": "8552881322856074498",
+          "size": "11310277152",
+          "download": "7357132480"
+        }
+      }
+    },
+    "3760760": {
+      "dlcappid": "3760760",
+      "manifests": {
+        "public": {
+          "gid": "1540147260025707102",
+          "size": "2127647508",
+          "download": "2042624432"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,hungarian,czech,turkish,brazilian,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20033313",
+        "timeupdated": "1758543544"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "path": "Endless Legend 2/Save Files",
+        "pattern": "*.ctr"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinMyDocuments",
+        "addpath": ""
+      }
     }
   }
 }
