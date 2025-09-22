@@ -1,13 +1,12 @@
 {
   "appid": "3909290",
-  "public_only": "1",
   "common": {
     "name": "SUSHI DELIVERY",
     "type": "Game",
     "icon": "aecbb8c445504dcd8bf6cfe94edc95ed6f51be59",
     "clienticon": "36b04129b2cd59990fbce99cdf985b59d9670433",
     "clienttga": "01fca722d9c6390434bed3ecefb2ac991583fae9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -412,9 +411,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3909290",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -433,5 +432,56 @@
       "11": "21",
       "12": "492"
     }
+  },
+  "extended": {
+    "developer": "Neruneko",
+    "publisher": "Neruneko"
+  },
+  "config": {
+    "installdir": "SUSHI DELIVERY",
+    "launch": {
+      "0": {
+        "executable": "SushiDeliveryHorror.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3909291": {
+      "manifests": {
+        "public": {
+          "gid": "5751092578452995380",
+          "size": "1584299403",
+          "download": "1433062400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070583",
+        "timeupdated": "1758511400"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
