@@ -1,6 +1,5 @@
 {
   "appid": "3915350",
-  "public_only": "1",
   "common": {
     "name": "Manairons Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "1a5c00638347fbab9374ec4bc071eca6e0ed256f",
     "clienticon": "39e5f32956b1ef3b3e8eb18b0545be8ff471fce1",
     "clienttga": "162e5a29badb0c63fe5a7e3cede1b7e0ca30077e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -131,7 +130,67 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3915350",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "JanduSoft",
+    "publisher": "JanduSoft",
+    "homepage": "https://www.manairons.com"
+  },
+  "config": {
+    "installdir": "Manairons Demo",
+    "launch": {
+      "0": {
+        "executable": "Manairons.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65532"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3915351": {
+      "manifests": {
+        "public": {
+          "gid": "7769335039502916431",
+          "size": "2314807748",
+          "download": "2150737952"
+        },
+        "develop": {
+          "gid": "1189641535364958233",
+          "size": "2418401922",
+          "download": "2254022464"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20026031",
+        "timeupdated": "1758531731"
+      },
+      "develop": {
+        "buildid": "20073088",
+        "description": "Develop Branch",
+        "timeupdated": "1758530313"
+      }
+    }
   }
 }
