@@ -281,5 +281,24 @@
     },
     "privatebranches": "1",
     "appmanagesdlc": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Crisalu Games\\Goblin Cleanup",
+        "pattern": "*.dat"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Crisalu Games\\Goblin Cleanup",
+        "pattern": "*.es3"
+      }
+    }
   }
 }
