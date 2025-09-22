@@ -1,0 +1,206 @@
+{
+  "appid": "3206640",
+  "common": {
+    "name": "JeliWave",
+    "type": "Game",
+    "clienticon": "d2f700a6892e1bb3910204b8d78887506a57f19e",
+    "clienttga": "6e9013680325c18f9f3f6a1c6d485b5bb47f0974",
+    "linuxclienticon": "da96b66abf59fd00297ef7844293909d9639010b",
+    "icon": "069d1e06dd99e02041c17d1037e82655542c76e9",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "a22d91f92d48f14b3c4d9fb6508fb33d527521a7/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "47.95539075517113",
+        "height_pct": "102.65970078366183"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "47.95539075517113",
+          "height_pct": "102.65970078366183"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        },
+        "image2x": {
+          "english": "library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1727424564",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Team Hartlock"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Team Hartlock"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Jeli"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1727392508",
+    "community_hub_visible": "1",
+    "gameid": "3206640",
+    "store_tags": {
+      "0": "5395",
+      "1": "4191",
+      "2": "1625",
+      "3": "4182",
+      "4": "7250",
+      "5": "4036",
+      "6": "3916",
+      "7": "6691",
+      "8": "21",
+      "9": "5652",
+      "10": "4195",
+      "11": "492",
+      "12": "4305",
+      "13": "4726",
+      "14": "3964",
+      "15": "7208",
+      "16": "1697"
+    }
+  },
+  "extended": {
+    "developer": "Team Hartlock",
+    "publisher": "Team Hartlock"
+  },
+  "config": {
+    "installdir": "JeliWave",
+    "launch": {
+      "0": {
+        "executable": "JeliWave.exe"
+      }
+    }
+  },
+  "depots": {
+    "3206641": {
+      "manifests": {
+        "public": {
+          "gid": "31653300912809241",
+          "size": "368588920",
+          "download": "226095024"
+        },
+        "testing": {
+          "gid": "997080187927195514",
+          "size": "392053792",
+          "download": "237698800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "16942771",
+        "timeupdated": "1736361661"
+      },
+      "testing": {
+        "buildid": "20081906",
+        "description": "testing for next patches",
+        "timeupdated": "1758571887"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "JeliWave/save",
+        "pattern": "*.res"
+      }
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      }
+    }
+  }
+}
