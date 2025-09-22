@@ -1,6 +1,5 @@
 {
   "appid": "3993640",
-  "public_only": "1",
   "common": {
     "name": "Walk this road, again",
     "type": "Game",
@@ -16,7 +15,7 @@
     "languages": {
       "english": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -131,6 +130,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3993640",
     "exfgls": "3",
@@ -151,6 +152,57 @@
       "10": "15172",
       "11": "7250",
       "12": "21"
+    }
+  },
+  "extended": {
+    "developer": "Installing something",
+    "publisher": "Installing something",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "DASI",
+    "launch": {
+      "0": {
+        "executable": "DASI.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Walk this road, again"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3993641": {
+      "config": {
+        "language": "koreana"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3768712080228065646",
+          "size": "560807525",
+          "download": "483477424"
+        }
+      }
+    },
+    "3993642": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3538901836972910831",
+          "size": "561568216",
+          "download": "489051856"
+        }
+      }
+    },
+    "baselanguages": "koreana,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20023763",
+        "timeupdated": "1758155907"
+      }
     }
   }
 }
