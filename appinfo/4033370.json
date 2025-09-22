@@ -1,6 +1,5 @@
 {
   "appid": "4033370",
-  "public_only": "1",
   "common": {
     "name": "Belts of Iron Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2b8a4c58e1b936b00cc2f19c06c1275a2a89b339/capsule_231x87.jpg"
@@ -108,7 +107,67 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758549850",
     "gameid": "4033370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Builderment LLC",
+    "publisher": "Builderment LLC",
+    "homepage": "https://beltsofiron.com"
+  },
+  "config": {
+    "installdir": "BeltsOfIronDemo",
+    "launch": {
+      "0": {
+        "executable": "BeltsOfIron.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4033371": {
+      "manifests": {
+        "public": {
+          "gid": "9010739682606394437",
+          "size": "983685439",
+          "download": "881825776"
+        },
+        "nightly": {
+          "gid": "9010739682606394437",
+          "size": "983685439",
+          "download": "881825776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20077147",
+        "timeupdated": "1758549818"
+      },
+      "nightly": {
+        "buildid": "20077147",
+        "description": "nightly dev branch",
+        "timeupdated": "1758548879"
+      }
+    }
   }
 }
