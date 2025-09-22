@@ -1,6 +1,5 @@
 {
   "appid": "3647160",
-  "public_only": "1",
   "common": {
     "name": "Sery: Into the World of Myths Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "f7c5a57ed09091699ae2f4b38358198316d5adc4",
     "icon": "f7c5a57ed09091699ae2f4b38358198316d5adc4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -104,5 +103,44 @@
     "community_hub_visible": "1",
     "gameid": "3647160",
     "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "SergamesStudio",
+    "publisher": "GoGo Games Interactive",
+    "homepage": "https://sergamesstudio.com/"
+  },
+  "config": {
+    "installdir": "Sery Into the World of Myths Demo",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "serymyths.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3647161": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7568161702640806095",
+          "size": "491735876",
+          "download": "231561264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20020413",
+        "timeupdated": "1758135318"
+      }
+    }
   }
 }
