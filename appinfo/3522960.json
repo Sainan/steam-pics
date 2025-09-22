@@ -1,6 +1,5 @@
 {
   "appid": "3522960",
-  "public_only": "1",
   "common": {
     "name": "DEN PAIN",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -116,9 +115,9 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3522960",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -148,5 +147,77 @@
       "18": "4182",
       "19": "4345"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "vrheadsetstreaming": "1",
+    "gamedir": "DEN PAIN",
+    "developer": "Toxic Developer",
+    "publisher": "Toxic Developer",
+    "homepage": "https://toxicdev.ru/games/denpain"
+  },
+  "config": {
+    "installdir": "DEN PAIN",
+    "launch": {
+      "0": {
+        "executable": "DEN_PAIN.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229033": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3522961": {
+      "manifests": {
+        "public": {
+          "gid": "8011477579826635924",
+          "size": "11895409578",
+          "download": "11293934992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20069835",
+        "timeupdated": "1758505019"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "160000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3522960"
   }
 }
