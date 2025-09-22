@@ -1,6 +1,5 @@
 {
   "appid": "3021350",
-  "public_only": "1",
   "common": {
     "name": "透明的她与真实的我",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -140,9 +139,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758556141",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3021350",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -164,5 +164,44 @@
       "13": "3871",
       "14": "5379"
     }
+  },
+  "extended": {
+    "developer": "可味玩KawayiPlay",
+    "publisher": "可味玩KawayiPlay"
+  },
+  "config": {
+    "installdir": "Transparenther",
+    "launch": {
+      "0": {
+        "executable": "TransparentHer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3021351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8274637072031284760",
+          "size": "7211652075",
+          "download": "5345769040"
+        }
+      }
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20078718",
+        "timeupdated": "1758555664"
+      }
+    },
+    "privatebranches": "1"
   }
 }
