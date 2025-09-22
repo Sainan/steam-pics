@@ -1,6 +1,5 @@
 {
   "appid": "3936820",
-  "public_only": "1",
   "common": {
     "name": "Warrior Mage or Rogue alike Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -51,7 +50,109 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758542561",
     "gameid": "3936820",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gnome Wizard Games",
+    "publisher": "Gnome Wizard Games"
+  },
+  "config": {
+    "installdir": "Warrior Mage or Rogue alike Demo",
+    "launch": {
+      "0": {
+        "executable": "WarriorMageorRoguealikeDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "WarriorMageorRoguealikeDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3936821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4334090244873752039",
+          "size": "246290160",
+          "download": "160475296"
+        }
+      }
+    },
+    "3936822": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8549134426246459547",
+          "size": "240108800",
+          "download": "157793632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20075767",
+        "timeupdated": "1758542435"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "3",
+    "appidredirect": "3892290",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
+        "pattern": "unlocks.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
+        "pattern": "skills.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
+        "pattern": "skills_unlockables.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
+            "replace": ".local/share/godot/app_userdata/Warrior Mage or Rogue alike/"
+          }
+        }
+      }
+    }
   }
 }
