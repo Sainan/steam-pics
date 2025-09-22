@@ -1,0 +1,158 @@
+{
+  "appid": "3338590",
+  "common": {
+    "name": "Everglyph Trials Demo",
+    "type": "Demo",
+    "parent": "3005840",
+    "icon": "d29ed321e647556d4d37252876d13be1f262a5db",
+    "clienticon": "ac123e00c94452a1860376a37c311e11a6542672",
+    "clienttga": "6e03185b89e22ebd94e1b28322338a546d3f259c",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "eulas": {
+      "0": {
+        "id": "3338590_eula_0",
+        "name": "Everglyph Trials Demo EULA",
+        "url": "https://store.steampowered.com//eula/3338590_eula_0",
+        "version": "10"
+      }
+    },
+    "small_capsule": {
+      "english": "a75a8175883cc5ede5ecca6c86c3ebd5c3271a06/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "bd1a616ff01ad7667e7c42c469dbf30c76d6352c/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "bd1a616ff01ad7667e7c42c469dbf30c76d6352c/library_600x900_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1737439725",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tabi Entertainment"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tabi Entertainment"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1733993881",
+    "gameid": "3338590",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tabi Entertainment",
+    "publisher": "Tabi Entertainment"
+  },
+  "config": {
+    "installdir": "Everglyph Trials Demo",
+    "launch": {
+      "0": {
+        "executable": "EverglyphTrialsDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "EverglyphTrialsDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "EverglyphTrialsDemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3338591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "264290123309283852",
+          "size": "768796993",
+          "download": "542212704"
+        }
+      }
+    },
+    "3338592": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "3338593": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
+    "branches": {
+      "public": {
+        "buildid": "18203848",
+        "timeupdated": "1745393540"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tabi Entertainment/EverglyphTrialsDemo",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Tabi Entertainment/EverglyphTrialsDemo",
+            "replace": "unity.Tabi Entertainment.EverglyphTrialsDemo"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Tabi Entertainment/EverglyphTrialsDemo",
+            "replace": ".config/unity3d/Tabi Entertainment/EverglyphTrialsDemo"
+          }
+        }
+      }
+    }
+  }
+}
