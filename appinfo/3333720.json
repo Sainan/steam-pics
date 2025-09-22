@@ -1,0 +1,127 @@
+{
+  "appid": "3333720",
+  "common": {
+    "name": "Soul Park Demo",
+    "type": "Demo",
+    "parent": "2992460",
+    "icon": "f00bcc204010f635078c3b38a9f515983a2f314d",
+    "clienttga": "6f43eec8a3f6da0d1d4221ca63624c0631dcef5c",
+    "clienticon": "8e675e0c73912462f2506338375b5e823ab7641f",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "71b9defa2cf12305c9662bc30032e229bf4fde8e/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1730759123",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "CLEDU"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "CLEDU"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_18": "1",
+      "category_55": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "3333720",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CLEDU",
+    "publisher": "CLEDU"
+  },
+  "config": {
+    "installdir": "Soul Park",
+    "launch": {
+      "0": {
+        "executable": "Soul Park.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "linux\\soul_32park",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "SOUL PARK.app\\Contents\\MacOS\\SOUL PARK",
+        "arguments": "--no-sandbox",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3333721": {
+      "manifests": {
+        "public": {
+          "gid": "5147313907649486079",
+          "size": "423421211",
+          "download": "146174064"
+        }
+      }
+    },
+    "3333722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6666106375529360726",
+          "size": "510125861",
+          "download": "264786176"
+        }
+      }
+    },
+    "3333723": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7710870686946078697",
+          "size": "425638728",
+          "download": "140810512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20071731",
+        "timeupdated": "1758521295"
+      }
+    }
+  }
+}
