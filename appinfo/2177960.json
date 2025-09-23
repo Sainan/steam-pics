@@ -1,0 +1,142 @@
+{
+  "appid": "2177960",
+  "common": {
+    "name": "Soul Dier Demo",
+    "type": "Demo",
+    "parent": "2134980",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "279648f7d8f9d8843baf978e4bfed8e9dc587570",
+    "clienttga": "1b7279711eb898da6eaa157faa3c7d17e5f8c28c",
+    "clienticon": "c7d6611ad11a37d9492af2aa8f3f5dc9f0946511",
+    "name_localized": {
+      "tchinese": "凋靈戰士 Soul Dier Demo"
+    },
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "tchinese": "1"
+    },
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "tchinese": "e81d23e9536a207dde0fd8db3b6299582b5246e0/capsule_231x87_tchinese.jpg",
+      "english": "83caeedf3c2a74e102919344637b361f595144f4/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "tchinese": "c7c02c52075af5f20b42b24766b20ce965ecdc30/header_tchinese.jpg",
+      "english": "40742b1451e8f3477b442b0575719a05de555431/header.jpg"
+    },
+    "store_asset_mtime": "1753350990",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Gawehold"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Weonix"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Ponpoppocpok Software"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1665300174",
+    "community_visible_stats": "1",
+    "gameid": "2177960",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "2134980",
+    "developer": "Gawehold",
+    "publisher": "Ponpoppocpok Software",
+    "homepage": "https://www.soul-dier.com/"
+  },
+  "config": {
+    "installdir": "Soul Dier Demo",
+    "launch": {
+      "0": {
+        "executable": "Soul-Dier.exe",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2177961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4281285557340304458",
+          "size": "2132071461",
+          "download": "1302040256"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20099329",
+        "timeupdated": "1758661429"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "appidredirect": "2134980",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Soul Dier/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Soul Dier/{64BitSteamID}",
+            "replace": ".local/share/Soul Dier/{64BitSteamID}"
+          }
+        }
+      }
+    }
+  }
+}
