@@ -1,6 +1,5 @@
 {
   "appid": "2892620",
-  "public_only": "1",
   "common": {
     "name": "Fatal Claw Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "2248ac4091a1603b12f78bfe771f24fffe2d72dc",
     "linuxclienticon": "2248ac4091a1603b12f78bfe771f24fffe2d72dc",
     "languages": {
@@ -138,7 +137,83 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "2892620",
     "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "NDEV GAMES",
+    "publisher": "NDEV GAMES",
+    "homepage": "https://www.fatalclaw.com/"
+  },
+  "config": {
+    "installdir": "Fatal Claw Demo",
+    "launch": {
+      "0": {
+        "executable": "FatalClaw.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2892621": {
+      "manifests": {
+        "public": {
+          "gid": "7779951990494214171",
+          "size": "1502158230",
+          "download": "604954864"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20092701",
+        "timeupdated": "1758628981"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "FatalClaw/Saved/SaveGames"
+          }
+        }
+      }
+    },
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
