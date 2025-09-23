@@ -1,6 +1,5 @@
 {
   "appid": "3928110",
-  "public_only": "1",
   "common": {
     "name": "Abyss Veil Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -106,11 +105,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758650778",
     "gameid": "3928110",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Zorrio",
+    "publisher": "Zorrio"
+  },
+  "config": {
+    "installdir": "Abyss Veil Demo",
+    "launch": {
+      "0": {
+        "executable": "Abyss Veil.exe",
+        "description_loc": {
+          "english": "Abyss Veil Demo"
+        },
+        "description": "Abyss Veil Demo"
+      }
+    }
+  },
+  "depots": {
+    "3928111": {
+      "manifests": {
+        "public": {
+          "gid": "8275330596437354197",
+          "size": "3543475792",
+          "download": "1903673392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20097379",
+        "timeupdated": "1758650718"
+      }
     }
   }
 }
