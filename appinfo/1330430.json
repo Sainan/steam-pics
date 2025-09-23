@@ -1,6 +1,5 @@
 {
   "appid": "1330430",
-  "public_only": "1",
   "common": {
     "name": "Celestial Empire",
     "type": "Game",
@@ -9,7 +8,7 @@
     "icon": "b6eb4ccd02b4dcafa89a15855b5a190cb9d8c272",
     "logo": "afbfccd51fc85ae576acd5f5d896ae851cf34f0e",
     "logo_small": "afbfccd51fc85ae576acd5f5d896ae851cf34f0e_thumb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -208,9 +207,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758625002",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1330430",
-    "exfgls": "8",
     "store_tags": {
       "0": "3987",
       "1": "4328",
@@ -232,6 +232,79 @@
       "17": "220585",
       "18": "1676",
       "19": "16689"
+    }
+  },
+  "extended": {
+    "developer": "President Studio",
+    "publisher": "PlayWay S.A."
+  },
+  "config": {
+    "installdir": "Celestial Empire",
+    "launch": {
+      "0": {
+        "executable": "China_Builder_06.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1330431": {
+      "manifests": {
+        "public": {
+          "gid": "6887554735229250530",
+          "size": "29427503139",
+          "download": "16381849440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20090758",
+        "timeupdated": "1758622788"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "CelestialEmpire/Saved/SaveGames/Users/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "CelestialEmpire/Saved/SaveGames/Users/",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
