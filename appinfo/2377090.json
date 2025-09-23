@@ -1,0 +1,208 @@
+{
+  "appid": "2377090",
+  "common": {
+    "name": "Willow Guard",
+    "type": "Game",
+    "icon": "e38a84232171fc9610e3922a7742759cf7bc5996",
+    "clienttga": "bd575859c881897170464be265d1f6ec051049a4",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "clienticns": "63c45ccd990066ca8bb5586e101661c42440834a",
+    "linuxclienticon": "63c45ccd990066ca8bb5586e101661c42440834a",
+    "clienticon": "86e0c307353e0e3308160fc8a7b7db2343696efc",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "1113d7bddc8821f8949d15bb9f1d227af21628b3/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "79c9a424c20319461e13c0b60f8d0b8381328b6f/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "095da9c8589879c837f684dbbab19d1d9ea31fbb/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "095da9c8589879c837f684dbbab19d1d9ea31fbb/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "7c5e0cab8b1042914d39aef9aefbcd781a973c23/library_header.jpg"
+        },
+        "image2x": {
+          "english": "7c5e0cab8b1042914d39aef9aefbcd781a973c23/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1755497382",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "MiTale"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "MiTale"
+      }
+    },
+    "primary_genre": "3",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23",
+      "3": "3"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_23": "1",
+      "category_15": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1744297260",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2377090",
+    "store_tags": {
+      "0": "3964",
+      "1": "1646",
+      "2": "4231",
+      "3": "3834",
+      "4": "1720",
+      "5": "11014",
+      "6": "3871",
+      "7": "4106",
+      "8": "122",
+      "9": "3854",
+      "10": "32322",
+      "11": "19",
+      "12": "1684",
+      "13": "4026",
+      "14": "6426",
+      "15": "1742",
+      "16": "4791",
+      "17": "21",
+      "18": "4486",
+      "19": "6815"
+    },
+    "review_score": "7",
+    "review_percentage": "91"
+  },
+  "extended": {
+    "developer": "MiTale",
+    "publisher": "MiTale",
+    "homepage": "https://www.willowguard.games/"
+  },
+  "config": {
+    "installdir": "Willow Guard",
+    "launch": {
+      "0": {
+        "executable": "Willow Guard.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "7"
+  },
+  "depots": {
+    "2377091": {
+      "manifests": {
+        "public": {
+          "gid": "70252624608090540",
+          "size": "3709526577",
+          "download": "553883216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19896484",
+        "timeupdated": "1757333181"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MiTale Oy\\Willow Guard",
+        "pattern": "slot_*.save",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "MiTale Oy\\Willow Guard",
+            "replace": "unity.MiTaleOy.WillowGuard"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "MiTale Oy\\Willow Guard",
+            "replace": ".config/unity3d/MiTale Oy/Willow Guard"
+          }
+        }
+      }
+    }
+  }
+}
