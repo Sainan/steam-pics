@@ -1,6 +1,5 @@
 {
   "appid": "3812580",
-  "public_only": "1",
   "common": {
     "name": "Butter Side Down",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -121,9 +120,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758650303",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3812580",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -148,6 +148,45 @@
       "17": "3916",
       "18": "1673",
       "19": "4018"
+    }
+  },
+  "extended": {
+    "developer": "Kalle MacDonald",
+    "publisher": "Kalle MacDonald"
+  },
+  "config": {
+    "installdir": "Butter Side Down",
+    "launch": {
+      "0": {
+        "executable": "Butter Side Down.exe",
+        "arguments": "--disable-crash-handler=true",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3812581": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4519256138690367570",
+          "size": "508999449",
+          "download": "274022752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20085399",
+        "timeupdated": "1758587084"
+      }
     }
   }
 }
