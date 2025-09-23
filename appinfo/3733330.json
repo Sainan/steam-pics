@@ -1,6 +1,5 @@
 {
   "appid": "3733330",
-  "public_only": "1",
   "common": {
     "name": "Inspiral: Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "8ae287ea6139e2b212a552bafdc7d3517c68af04",
     "clienticon": "650393cbeb031eb573df74ff1faaf1628c6fd06d",
     "clienttga": "df631ea1eb0db28d2b63cc6c470696ce114a7262",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "d9092a953632ea625e7adf913f85744444339e92/capsule_231x87.jpg"
@@ -157,7 +156,101 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758614366",
     "gameid": "3733330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PcZ Games",
+    "publisher": "PcZ Games"
+  },
+  "config": {
+    "installdir": "InspiralDemo",
+    "launch": {
+      "0": {
+        "executable": "Inspiral.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Inspiral.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3733331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8526684363921006705",
+          "size": "990118739",
+          "download": "408771328"
+        }
+      }
+    },
+    "3733332": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5168979437144874031",
+          "size": "1128755577",
+          "download": "443310368"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20088954",
+        "timeupdated": "1758611491"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "9000000000",
+    "maxnumfiles": "9000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "PengchengZhao/Inspiral",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "PengchengZhao/Inspiral",
+            "replace": "unity.PengchengZhao.Inspiral"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "PengchengZhao/Inspiral",
+            "replace": ".config/unity3d/PengchengZhao/Inspiral"
+          }
+        }
+      }
+    },
+    "appidredirect": "3638420"
   }
 }
