@@ -1,6 +1,5 @@
 {
   "appid": "3669640",
-  "public_only": "1",
   "common": {
     "name": "Bound by Bones",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -108,7 +107,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3669640",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -134,6 +132,50 @@
       "17": "4667",
       "18": "4345",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "IgnisByteStudios",
+    "publisher": "IgnisByteStudios"
+  },
+  "config": {
+    "installdir": "Bound by Bones",
+    "launch": {
+      "0": {
+        "executable": "BoundByBones.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3669641": {
+      "manifests": {
+        "public": {
+          "gid": "8058457567196200533",
+          "size": "7964699914",
+          "download": "7768684240"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20002004",
+        "timeupdated": "1758037379"
+      }
     }
   }
 }
