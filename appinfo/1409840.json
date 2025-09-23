@@ -1,10 +1,9 @@
 {
   "appid": "1409840",
-  "public_only": "1",
   "common": {
     "name": "Aztecs: The Last Sun",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "f6e7e6a66f201a177f5a1b1fa3b30500faff21d1",
     "logo_small": "f6e7e6a66f201a177f5a1b1fa3b30500faff21d1_thumb",
     "icon": "001da8c2c1b9e9cfe4c423013bbdd7927f4573d1",
@@ -166,9 +165,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758634438",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1409840",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -193,6 +193,86 @@
       "17": "13190",
       "18": "3810",
       "19": "4342"
+    }
+  },
+  "extended": {
+    "developer": "Play2Chill S.A.",
+    "publisher": "Toplitz Productions",
+    "homepage": "https://www.toplitz-productions.com/",
+    "listofdlc": "3968190,3984910,3984920",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Aztecs The Last Sun",
+    "launch": {
+      "0": {
+        "executable": "ATLS.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1409841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8387961407888144241",
+          "size": "7360061626",
+          "download": "4308349216"
+        }
+      }
+    },
+    "1409842": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "3984910": {
+      "dlcappid": "3984910",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3962811531896937147",
+          "size": "146909994",
+          "download": "139557936"
+        }
+      }
+    },
+    "3984920": {
+      "dlcappid": "3984920",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6132561784135883301",
+          "size": "39922248",
+          "download": "38735792"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20092989",
+        "timeupdated": "1758633138"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Play2ChillSA/AztecsTheLastSun/Saves",
+        "pattern": "*.atls"
+      }
     }
   }
 }
