@@ -1,10 +1,9 @@
 {
   "appid": "3891140",
-  "public_only": "1",
   "common": {
     "name": "Thrust 8",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "287778eb38f07df3f017f2af8edc1ca4cc4f3aa7",
     "clienttga": "4b5d594cfcf5193ba51c86efe77cc3637d36e8d4",
     "icon": "438935dad1b86869eb572f4c47da344818581115",
@@ -127,9 +126,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758614499",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3891140",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -157,6 +157,55 @@
       "17": "4166",
       "18": "4562",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Momentum Games",
+    "publisher": "Momentum Games"
+  },
+  "config": {
+    "installdir": "Thrust8",
+    "launch": {
+      "0": {
+        "executable": "Thrust8.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3891141": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "385397059684589618",
+          "size": "876037747",
+          "download": "433708368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20087937",
+        "timeupdated": "1758604544"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MOMENTUMGAMES/Thrust8",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
