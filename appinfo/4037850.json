@@ -1,6 +1,5 @@
 {
   "appid": "4037850",
-  "public_only": "1",
   "common": {
     "name": "My Idle Space Cruiser Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4c1ae5f7daac67bdf5e8feefeed06a215fa5f824/capsule_231x87.jpg"
@@ -122,7 +121,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758634100",
     "gameid": "4037850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Minicactus Games",
+    "publisher": "Minicactus Games"
+  },
+  "config": {
+    "installdir": "My Idle Space Cruiser Demo",
+    "launch": {
+      "0": {
+        "executable": "My Idle Space Cruiser.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037851": {
+      "manifests": {
+        "public": {
+          "gid": "6704885817639815194",
+          "size": "108081485",
+          "download": "41971824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20093744",
+        "timeupdated": "1758634059"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "appidredirect": "3948530",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Minicactus Games/My Idle Space Cruiser",
+        "pattern": "saveData.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
