@@ -1,6 +1,5 @@
 {
   "appid": "3978190",
-  "public_only": "1",
   "common": {
     "name": "Creator Chronicles Demo",
     "type": "Demo",
@@ -33,7 +32,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -207,7 +206,109 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3978190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Origin Studio",
+    "publisher": "Origin Studio",
+    "homepage": "https://sites.google.com/view/creatorchronicles"
+  },
+  "config": {
+    "installdir": "CreatorChroniclesDemo",
+    "launch": {
+      "0": {
+        "executable": "Creator Chronicles.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Creator Chronicles Demo",
+          "german": "Schöpfer-Chroniken Demo",
+          "french": "Démo de Chroniques du Créateur",
+          "italian": "Demo di Chronache del Creatore",
+          "koreana": "개발자 연대기 Demo",
+          "spanish": "Demo de Crónicas del Creador",
+          "schinese": "创作者编年史 演示版",
+          "tchinese": "創作者編年史 體驗版",
+          "russian": "Хроники Создателя Демо",
+          "japanese": "クリエイタークロニクル デモ",
+          "portuguese": "Demo de Crónicas do Criador",
+          "polish": "Demo Kroniki Twórcy",
+          "brazilian": "Demo de Crônicas do Criador"
+        },
+        "description": "Creator Chronicles Demo"
+      },
+      "1": {
+        "executable": "CreatorChroniclesDemo.app/Contents/MacOS/Creator Chronicles",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Creator Chronicles Demo",
+          "german": "Schöpfer-Chroniken Demo",
+          "french": "Démo de Chroniques du Créateur",
+          "italian": "Demo di Chronache del Creatore",
+          "koreana": "개발자 연대기 Demo",
+          "spanish": "Demo de Crónicas del Creador",
+          "schinese": "创作者编年史 演示版",
+          "tchinese": "創作者編年史 體驗版",
+          "russian": "Хроники Создателя Демо",
+          "japanese": "クリエイタークロニクル デモ",
+          "portuguese": "Demo de Crónicas do Criador",
+          "polish": "Demo Kroniki Twórcy",
+          "brazilian": "Demo de Crônicas do Criador"
+        },
+        "description": "Creator Chronicles Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3978191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3906586587231828893",
+          "size": "1672148567",
+          "download": "360974480"
+        }
+      }
+    },
+    "3978192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3823331664007262016",
+          "size": "1779410618",
+          "download": "388021104"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20094819",
+        "timeupdated": "1758638842"
+      }
+    }
   }
 }
