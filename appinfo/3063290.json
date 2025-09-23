@@ -1,6 +1,5 @@
 {
   "appid": "3063290",
-  "public_only": "1",
   "common": {
     "name": "我的同學是女優",
     "type": "Game",
@@ -12,7 +11,7 @@
     "icon": "e1ca6891baaf2a83123cba1016be28dbada74034",
     "clienticns": "11501559e80b839617b3f7829c82afe916cbb9ad",
     "clienticon": "6c294d835eab84dcedec6f0b270d2ac3e96b4713",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "My Classmate is AV Actress",
       "japanese": "私のクラスメートはAV女優です",
@@ -186,9 +185,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758589198",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3063290",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -213,6 +213,67 @@
       "14": "492",
       "15": "12472",
       "16": "379975"
+    }
+  },
+  "extended": {
+    "developer": "Matariki Studios Co., Ltd",
+    "publisher": "Alice Publication"
+  },
+  "config": {
+    "installdir": "我的同學是女優",
+    "launch": {
+      "0": {
+        "executable": "AVClassmate.exe",
+        "arguments": "-status steam"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3063291": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5640839005532480718",
+          "size": "2274678130",
+          "download": "367338464"
+        }
+      }
+    },
+    "baselanguages": "tchinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20069828",
+        "timeupdated": "1758505044"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany\\AVClassmate",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/AVClassmate/Utage/SaveGameMenu",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
