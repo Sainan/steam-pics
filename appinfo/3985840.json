@@ -1,6 +1,5 @@
 {
   "appid": "3985840",
-  "public_only": "1",
   "common": {
     "name": "Zombie City",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "0e01ee68c324bb9f23fec5027b36093a1f4f3440",
     "clienticon": "0e01ee68c324bb9f23fec5027b36093a1f4f3440",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5624bb25c7aec5f1f872a4bf1872758577745a2f/capsule_231x87.jpg"
@@ -136,9 +135,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758608272",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3985840",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -152,6 +152,66 @@
       "9": "4175",
       "10": "1659",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SkirmishGame",
+    "publisher": "SkirmishGame"
+  },
+  "config": {
+    "installdir": "Escape from Zombie City",
+    "launch": {
+      "0": {
+        "executable": "Zombi.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3985841": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "165502716052526595",
+          "size": "16024290339",
+          "download": "15333759152"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20081223",
+        "timeupdated": "1758567980"
+      }
     }
   }
 }
