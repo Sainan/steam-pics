@@ -1,10 +1,9 @@
 {
   "appid": "1557220",
-  "public_only": "1",
   "common": {
     "name": "Rip Current",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -118,9 +117,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758642945",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1557220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -139,6 +139,48 @@
       "11": "5094",
       "12": "1687",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Breaking Dimensions",
+    "publisher": "Breaking Dimensions"
+  },
+  "config": {
+    "installdir": "RipCurrent",
+    "launch": {
+      "0": {
+        "executable": "RipCurrent.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1557221": {
+      "manifests": {
+        "public": {
+          "gid": "6962936681699907177",
+          "size": "14276744658",
+          "download": "7109854544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20089341",
+        "timeupdated": "1758613876"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "RipCurrent_Data/Data/SavedGame",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
