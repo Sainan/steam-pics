@@ -1,0 +1,208 @@
+{
+  "appid": "1639880",
+  "common": {
+    "name": "Longvinter Dedicated Server",
+    "type": "Tool",
+    "parent": "1635450",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "logo": "293ccb4c7bf0f2dc60233e5109b81c0e4cd16ef0",
+    "logo_small": "293ccb4c7bf0f2dc60233e5109b81c0e4cd16ef0_thumb",
+    "icon": "e14c0741602a743c0fe7fef9ca8a9c4231fe9682",
+    "clienttga": "9ceacf0e7471c8727b3fe186a6585e7357ec5ebb",
+    "clienticon": "da2efa45135aa1923b0f003b850ffe10ee7a10a4",
+    "releasestate": "released",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1639880"
+  },
+  "config": {
+    "installdir": "Longvinter Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "Longvinter/Binaries/Win64/LongvinterServer-Win64-Shipping.exe",
+        "arguments": "-log",
+        "type": "server",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Longvinter/Binaries/Linux/LongvinterServer-Linux-Shipping",
+        "arguments": "-log",
+        "type": "server",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1639881": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6054561380038355370",
+          "size": "1356051642",
+          "download": "524803920"
+        },
+        "1.10b": {
+          "gid": "2303407881568629235",
+          "size": "641022907",
+          "download": "206679152"
+        },
+        "1.11": {
+          "gid": "1144970778157545360",
+          "size": "884000338",
+          "download": "239296160"
+        },
+        "1.0-releasebuild": {
+          "gid": "2364499812890317283",
+          "size": "1010998691",
+          "download": "317772608"
+        },
+        "1.13": {
+          "gid": "6599200428175941002",
+          "size": "992524165",
+          "download": "261701824"
+        },
+        "1.14": {
+          "gid": "743684798185910807",
+          "size": "878580486",
+          "download": "264773344"
+        },
+        "experimental": {
+          "gid": "3148172119708054748",
+          "size": "1353333684",
+          "download": "524696544"
+        }
+      }
+    },
+    "1639882": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5325921755787212447",
+          "size": "1269641184",
+          "download": "339536896"
+        },
+        "1.10b": {
+          "gid": "582378037886370378",
+          "size": "586815316",
+          "download": "154400864"
+        },
+        "1.11": {
+          "gid": "876347941046873366",
+          "size": "828749778",
+          "download": "186709856"
+        },
+        "1.0-releasebuild": {
+          "gid": "2553955375277100618",
+          "size": "992529134",
+          "download": "231716112"
+        },
+        "1.13": {
+          "gid": "3287206638975838103",
+          "size": "934344925",
+          "download": "209554400"
+        },
+        "1.14": {
+          "gid": "5063624970954339597",
+          "size": "820080197",
+          "download": "212414544"
+        },
+        "experimental": {
+          "gid": "8542746748861629351",
+          "size": "1266967266",
+          "download": "339441296"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19955489",
+        "timeupdated": "1757672196"
+      },
+      "1.10b": {
+        "buildid": "11252688",
+        "description": "For modding compatibility",
+        "timeupdated": "1684321074"
+      },
+      "1.11": {
+        "buildid": "12632155",
+        "description": "For modding compatibility",
+        "timeupdated": "1700544879"
+      },
+      "1.0-releasebuild": {
+        "buildid": "18516364",
+        "description": "For modding compatibility",
+        "timeupdated": "1751017180"
+      },
+      "1.13": {
+        "buildid": "14596040",
+        "description": "For modding compatibility",
+        "timeupdated": "1719489616"
+      },
+      "1.14": {
+        "buildid": "16899002",
+        "description": "For modding compatibility",
+        "timeupdated": "1740125808"
+      },
+      "experimental": {
+        "buildid": "20089551",
+        "description": "For testing",
+        "timeupdated": "1758614814"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
