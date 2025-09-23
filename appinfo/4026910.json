@@ -1,6 +1,5 @@
 {
   "appid": "4026910",
-  "public_only": "1",
   "common": {
     "name": "Fidget Widget Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8afc95567d55a3203103ff62dbdb7b837e8eb5e4/capsule_231x87.jpg"
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758000588",
+    "store_asset_mtime": "1758520226",
     "associations": {
       "0": {
         "type": "developer",
@@ -115,5 +114,60 @@
     },
     "gameid": "4026910",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "tatsumaki games",
+    "publisher": "tatsumaki games"
+  },
+  "config": {
+    "installdir": "Fidget Widget Demo",
+    "launch": {
+      "0": {
+        "executable": "FidgetWidget/FidgetWidget.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FidgetWidget/FidgetWidget.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4026911": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "539578693620377791",
+          "size": "97979334",
+          "download": "37218224"
+        }
+      }
+    },
+    "4026912": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4595878309570395758",
+          "size": "113186657",
+          "download": "43661552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20092416",
+        "timeupdated": "1758627674"
+      }
+    }
   }
 }
