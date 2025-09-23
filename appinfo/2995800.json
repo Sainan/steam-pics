@@ -1,0 +1,198 @@
+{
+  "appid": "2995800",
+  "common": {
+    "name": "RevoiceLive",
+    "type": "Application",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "icon": "3ea6d650cd9efab632b4432066595dacb9d8e538",
+    "clienticns": "812f6065307f3ee8bc1b2cd5ef14227da1dc5c1a",
+    "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
+    "clienticon": "f03ba9d1d960bc2f7cab18f5e0f42b1dca3876fb",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "ba824e6c02a033de021c905c8d9596333cd96a83/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "4c0feaa6559379600a6fdb8f0f6d6e7cf7f4fc9e/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "4c0feaa6559379600a6fdb8f0f6d6e7cf7f4fc9e/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "a11c32a50729ce5af72f11b825104e66491913ed/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "a11c32a50729ce5af72f11b825104e66491913ed/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "a11c32a50729ce5af72f11b825104e66491913ed/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "7fcb1c6c6d930039bf95a1c40f66b09387c57f2c/logo.png"
+        },
+        "image2x": {
+          "english": "7fcb1c6c6d930039bf95a1c40f66b09387c57f2c/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "b344044ae2c6a12e3d2103155f8a6954da207512/library_header.jpg"
+        },
+        "image2x": {
+          "english": "b344044ae2c6a12e3d2103155f8a6954da207512/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1730225360",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Balacoon"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Balacoon"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Revoice"
+      }
+    },
+    "primary_genre": "57",
+    "genres": {
+      "0": "37",
+      "1": "52",
+      "2": "57"
+    },
+    "category": {},
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1723710300",
+    "community_hub_visible": "1",
+    "gameid": "2995800",
+    "exfgls": "6",
+    "store_tags": {
+      "0": "113",
+      "1": "1027",
+      "2": "87",
+      "3": "784",
+      "4": "7926",
+      "5": "27758"
+    },
+    "review_score": "5",
+    "review_percentage": "60"
+  },
+  "extended": {
+    "developer": "Balacoon",
+    "publisher": "Balacoon",
+    "homepage": "https://balacoon.com/revoicelive/",
+    "isfreeapp": "1",
+    "listofdlc": "3348040",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "RevoiceLive",
+    "launch": {
+      "0": {
+        "executable": "RevoiceLive.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Start RevoiceLive"
+        },
+        "description": "Start RevoiceLive"
+      },
+      "1": {
+        "executable": "RevoiceLive.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Start RevoiceLive"
+        },
+        "description": "Start RevoiceLive"
+      },
+      "2": {
+        "executable": "uninstall_rad.sh",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Remove RevoiceAudioDevice from the system"
+        },
+        "description": "Remove RevoiceAudioDevice from the system"
+      }
+    }
+  },
+  "depots": {
+    "2995801": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1207373044441710848",
+          "size": "408761237",
+          "download": "348174336"
+        }
+      }
+    },
+    "2995803": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "479635300037655658",
+          "size": "368823778",
+          "download": "345832416"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "16377880",
+        "timeupdated": "1731412166"
+      }
+    }
+  }
+}
