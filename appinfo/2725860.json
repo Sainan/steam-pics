@@ -1,6 +1,5 @@
 {
   "appid": "2725860",
-  "public_only": "1",
   "common": {
     "name": "Starstrike",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "22c76b4b54173e0fce7b57dc62a874f976f0cc59",
     "clienticon": "4607f63e9335112f43424152509e727f031bc254",
     "clienttga": "20baad0a746678962bc07cef856d8258c7bf0760",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "585c4ab2b4a60aa2b6ec947ed53237b4cf4a7e48/capsule_231x87.jpg"
@@ -102,9 +101,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2725860",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -116,6 +116,47 @@
       "7": "492",
       "8": "4182",
       "9": "6730"
+    }
+  },
+  "extended": {
+    "developer": "7th Fleet Games LLC",
+    "publisher": "7th Fleet Games LLC"
+  },
+  "config": {
+    "installdir": "Lembos",
+    "launch": {
+      "0": {
+        "executable": "Starstrike.exe"
+      }
+    }
+  },
+  "depots": {
+    "2725861": {
+      "manifests": {
+        "public": {
+          "gid": "1077795088721335026",
+          "size": "327431644",
+          "download": "160555760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20099033",
+        "timeupdated": "1758659574"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Starstrike/steam_{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
