@@ -1,10 +1,9 @@
 {
   "appid": "3297420",
-  "public_only": "1",
   "common": {
     "name": "SBMFR",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64",
@@ -120,6 +119,92 @@
       "8": "493",
       "9": "4791",
       "10": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Peter Bruce",
+    "publisher": "Peter Bruce",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "SBMFR",
+    "launch": {
+      "0": {
+        "executable": "SBMFR_Mac.app/Contents/MacOS/SBMFR",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "SBMFR",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "SBMFR.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3297421": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8212030636594222297",
+          "size": "201115994",
+          "download": "92910160"
+        }
+      }
+    },
+    "3297422": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "402739293817789101",
+          "size": "192662522",
+          "download": "90168928"
+        }
+      }
+    },
+    "3297423": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1660149285978926177",
+          "size": "219545874",
+          "download": "102711056"
+        }
+      }
+    },
+    "3297424": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5548414758880958768",
+          "size": "204713711",
+          "download": "95013728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20092111",
+        "timeupdated": "1758626184"
+      }
     }
   }
 }
