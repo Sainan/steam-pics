@@ -1,11 +1,10 @@
 {
   "appid": "1695580",
-  "public_only": "1",
   "common": {
     "name": "Kingdom of Night Demo",
     "type": "Demo",
     "parent": "1094600",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "a3806cfb5a3f05806a2d0d935d2deeead0be3b66",
     "clienttga": "854dd49a7c0ccf5b708f3fcf22784e126160718a",
     "icon": "9abbad16ebd48165fe394482d16df03662762d1c",
@@ -121,11 +120,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758635985",
     "gameid": "1695580",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "demoofappid": "1094600",
+    "developer": "Black Seven Studios",
+    "publisher": "DANGEN Entertainment",
+    "homepage": "https://kingdomofnight.dangenentertainment.com/"
+  },
+  "config": {
+    "installdir": "Kingdom of Night Demo",
+    "launch": {
+      "0": {
+        "executable": "KingdomOfNight.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1695581": {
+      "manifests": {
+        "public": {
+          "gid": "4961228877241655254",
+          "size": "300043742",
+          "download": "243925264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20088331",
+        "timeupdated": "1758607724"
+      }
     }
   }
 }
