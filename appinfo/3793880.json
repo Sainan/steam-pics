@@ -1,6 +1,5 @@
 {
   "appid": "3793880",
-  "public_only": "1",
   "common": {
     "name": "Cloud Keeper: Shrine of Dal Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticns": "91da84e6d55f7c437821e7112a6003506e857741",
     "linuxclienticon": "3d8022c986b1a0a35551efe28e1f9b699bb605a7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,7 +112,117 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758666687",
+    "community_visible_stats": "1",
     "gameid": "3793880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jetpackgone",
+    "publisher": "Jetpackgone"
+  },
+  "config": {
+    "installdir": "Cloud Keeper Shrine of Dal Demo",
+    "launch": {
+      "0": {
+        "executable": "CloudKeeper.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CloudKeeper.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Cloud Keeper.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3793881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "305331586936406771",
+          "size": "84882128",
+          "download": "49352272"
+        }
+      }
+    },
+    "3793882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "582429808236116299",
+          "size": "117905945",
+          "download": "58957408"
+        }
+      }
+    },
+    "3793883": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "798917506748886261",
+          "size": "93874920",
+          "download": "51837648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20097976",
+        "timeupdated": "1758653910"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Cloud Keeper- Shrine of Dal",
+        "pattern": "*.dat",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Cloud Keeper- Shrine of Dal",
+            "replace": ".local/share/godot/app_userdata/Cloud Keeper- Shrine of Dal"
+          }
+        }
+      }
+    },
+    "appidredirect": "2065400"
   }
 }
