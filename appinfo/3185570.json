@@ -1,0 +1,180 @@
+{
+  "appid": "3185570",
+  "common": {
+    "name": "Nexus Hub Playtest",
+    "type": "Beta",
+    "parent": "3185450",
+    "clienttga": "c8f40b13220f90e0c8c97b9b0c4787fb90562ef1",
+    "clienticon": "a1685015cbca5df6e7d10a56f9c13e0d63967b3a",
+    "icon": "8d932146eb6468b192bee4562dc00109280fb481",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "032a5d747c22cd750e99830c98edccf95c880340/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "1a9290e3c6a1eb834e6bfadbb7fe74f4ee97f94a/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "125.85422614834206",
+        "height_pct": "59.35550945356604"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "6c566758a40ac166d65d3f660d53344e6bc04eec/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "6c566758a40ac166d65d3f660d53344e6bc04eec/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "6ef679b736d76eac623e09fe4ec7dab705d986ed/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "6ef679b736d76eac623e09fe4ec7dab705d986ed/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "6ef679b736d76eac623e09fe4ec7dab705d986ed/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "125.85422614834206",
+          "height_pct": "59.35550945356604"
+        },
+        "image": {
+          "english": "ab8e6d89b4b5b2ec6f7274f42ef9b87457adea10/logo.png"
+        },
+        "image2x": {
+          "english": "ab8e6d89b4b5b2ec6f7274f42ef9b87457adea10/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "1a9290e3c6a1eb834e6bfadbb7fe74f4ee97f94a/library_header.jpg"
+        },
+        "image2x": {
+          "english": "1a9290e3c6a1eb834e6bfadbb7fe74f4ee97f94a/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1744363249",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1724946240",
+    "community_hub_visible": "1",
+    "gameid": "3185570",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "NexusHub",
+    "launch": {
+      "0": {
+        "executable": "Release\\Nexus Hub.exe",
+        "workingdir": "Release",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3185571": {
+      "manifests": {
+        "public": {
+          "gid": "8775933900506944815",
+          "size": "147724080",
+          "download": "46165696"
+        },
+        "demo": {
+          "gid": "1032050853963863259",
+          "size": "147491595",
+          "download": "46097088"
+        },
+        "fix_network_failsafe": {
+          "gid": "6334676221133961893",
+          "size": "147730736",
+          "download": "46169520"
+        },
+        "main": {
+          "gid": "5776060585473189549",
+          "size": "147857675",
+          "download": "46317808"
+        },
+        "rc_branch": {
+          "gid": "4914580198530847102",
+          "size": "147730224",
+          "download": "46169168"
+        },
+        "rel1": {
+          "gid": "4914580198530847102",
+          "size": "147730224",
+          "download": "46169168"
+        },
+        "test_cv_unlock": {
+          "gid": "3300619161850937563",
+          "size": "147494660",
+          "download": "46098016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19079224",
+        "timeupdated": "1752051293"
+      },
+      "demo": {
+        "buildid": "19119864",
+        "description": "demo",
+        "timeupdated": "1751753729"
+      },
+      "fix_network_failsafe": {
+        "buildid": "19637260",
+        "description": "fix_network_failsafe",
+        "timeupdated": "1755511848"
+      },
+      "main": {
+        "buildid": "20090466",
+        "description": "unstable",
+        "timeupdated": "1758618371"
+      },
+      "rc_branch": {
+        "buildid": "19565370",
+        "description": "Release candidate",
+        "timeupdated": "1754984026"
+      },
+      "rel1": {
+        "buildid": "19565370",
+        "description": "Release 1 branch",
+        "timeupdated": "1754984213"
+      },
+      "test_cv_unlock": {
+        "buildid": "19119933",
+        "description": "Test cv_unlock script",
+        "timeupdated": "1751754589"
+      }
+    }
+  }
+}
