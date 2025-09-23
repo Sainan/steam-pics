@@ -1,6 +1,5 @@
 {
   "appid": "4049600",
-  "public_only": "1",
   "common": {
     "name": "Haggle Battle Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d34e2841b0835139239bd79cc393ccf29cde9203/capsule_231x87.jpg"
@@ -101,7 +100,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4049600",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Astero Games",
+    "publisher": "Astero Games",
+    "homepage": "https://www.astero.games/"
+  },
+  "config": {
+    "installdir": "Haggle Battle Demo",
+    "launch": {
+      "0": {
+        "executable": "haggle_battle.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Haggle Battle.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4049601": {
+      "manifests": {
+        "public": {
+          "gid": "2431156971200209368",
+          "size": "752413985",
+          "download": "114553456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20096757",
+        "timeupdated": "1758648533"
+      }
+    }
   }
 }
