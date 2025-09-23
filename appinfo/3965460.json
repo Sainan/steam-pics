@@ -1,10 +1,9 @@
 {
   "appid": "3965460",
-  "public_only": "1",
   "common": {
     "name": "One Strange School Day",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "be1720875db89c23efbda0e8660d7c973d36c5bf",
     "clienticon": "be1720875db89c23efbda0e8660d7c973d36c5bf",
     "oslist": "windows",
@@ -115,7 +114,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3965460",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "5716",
@@ -129,6 +127,52 @@
       "9": "4175",
       "10": "1667",
       "11": "1659"
+    }
+  },
+  "extended": {
+    "developer": "Petalworks",
+    "publisher": "Petalworks"
+  },
+  "config": {
+    "installdir": "One Strange School Day",
+    "launch": {
+      "0": {
+        "executable": "MyProject.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3965461": {
+      "manifests": {
+        "public": {
+          "gid": "2993945619361491081",
+          "size": "8702376708",
+          "download": "8109366960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070255",
+        "timeupdated": "1758508624"
+      }
     }
   }
 }
