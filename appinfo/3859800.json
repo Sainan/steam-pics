@@ -194,5 +194,48 @@
         "timeupdated": "1758611572"
       }
     }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "wheafun/bread_adventure/save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "wheafun/bread_adventure/save",
+            "replace": "wheafun/bread_adventure/save"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "wheafun/bread_adventure/save",
+            "replace": ".local/share/wheafun/bread_adventure/save"
+          }
+        }
+      }
+    }
   }
 }
