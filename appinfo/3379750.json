@@ -1,10 +1,9 @@
 {
   "appid": "3379750",
-  "public_only": "1",
   "common": {
     "name": "Manifest369",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "cc6bff7a0d81b8310313fa2516fa3d5d122dfb5e",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "1b7b107ed45c408d53b92aaf2af064ffd878edb6",
@@ -112,7 +111,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3379750",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -139,5 +137,54 @@
       "18": "597",
       "19": "3968"
     }
+  },
+  "extended": {
+    "developer": "ManifestStudios",
+    "publisher": "Manifest",
+    "homepage": "https://steamcommunity.com"
+  },
+  "config": {
+    "installdir": "Manifest369",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "ManiRed.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3379751": {
+      "manifests": {
+        "public": {
+          "gid": "1311366178697483981",
+          "size": "31988902043",
+          "download": "15754775472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20093981",
+        "timeupdated": "1758635237"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
