@@ -1,13 +1,12 @@
 {
   "appid": "2693240",
-  "public_only": "1",
   "common": {
     "name": "Moratorium: Don’t Beat This Game",
     "type": "Game",
     "icon": "6917195f0d43f2673b096e24f9bf9d1920158263",
     "clienticon": "3b26ca75e87c57dfc7a243da6a406f3232e2189a",
     "clienttga": "049f51a8b94ff05fd6c2fa73f5b2cdb6fc146de1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -94,6 +93,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2693240",
     "exfgls": "3",
@@ -110,6 +110,48 @@
       "9": "4182",
       "10": "31275",
       "11": "3871"
+    }
+  },
+  "extended": {
+    "developer": "O'chu",
+    "publisher": "O'chu",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Moratorium Don’t Beat This Game",
+    "launch": {
+      "0": {
+        "executable": "Moratorium_Don't_Beat_This_Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "ゲームの起動"
+        },
+        "description": "ゲームの起動"
+      }
+    }
+  },
+  "depots": {
+    "2693241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2555747506478239055",
+          "size": "327551957",
+          "download": "243612272"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20089074",
+        "timeupdated": "1758612219"
+      }
     }
   }
 }
