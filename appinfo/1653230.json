@@ -1,10 +1,9 @@
 {
   "appid": "1653230",
-  "public_only": "1",
   "common": {
     "name": "Guild & Gals",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -115,9 +114,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758646800",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1653230",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -144,6 +144,76 @@
       "17": "4195",
       "18": "6815",
       "19": "1684"
+    }
+  },
+  "extended": {
+    "developer": "Tuomo Laine",
+    "publisher": "Tuomo's Games",
+    "homepage": "https://www.tuomosgames.com"
+  },
+  "config": {
+    "installdir": "Guild & Gals",
+    "launch": {
+      "0": {
+        "executable": "nw.exe",
+        "arguments": "--in-process-gpu",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamconfigurator3rdpartynative": "65531",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1653231": {
+      "manifests": {
+        "public": {
+          "gid": "5308645854797058764",
+          "size": "512248431",
+          "download": "299506688"
+        }
+      }
+    },
+    "1653232": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4733620431133804030",
+          "size": "301346547",
+          "download": "86419232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20095391",
+        "timeupdated": "1758641507"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "700000",
+    "maxnumfiles": "23",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rmmzsave"
+      }
     }
   }
 }
