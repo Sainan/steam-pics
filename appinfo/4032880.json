@@ -1,6 +1,5 @@
 {
   "appid": "4032880",
-  "public_only": "1",
   "common": {
     "name": "Maktala Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e5600e8763bb3ca4f1605fc4a2d7eec90932b2b3/capsule_231x87.jpg"
@@ -78,7 +77,119 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758641901",
+    "community_visible_stats": "1",
     "gameid": "4032880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Samharia Studios",
+    "publisher": "Samharia Studios"
+  },
+  "config": {
+    "installdir": "Maktala Demo",
+    "launch": {
+      "0": {
+        "executable": "Release/Maktala.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Maktala.app/Contents/MacOS/Maktala",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Linux/Maktala.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4032881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2259151219707021124",
+          "size": "339120992",
+          "download": "76328736"
+        }
+      }
+    },
+    "4032882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1892070138721618156",
+          "size": "355285459",
+          "download": "84827824"
+        }
+      }
+    },
+    "4032883": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2396560127705110892",
+          "size": "335924733",
+          "download": "74286720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20093577",
+        "timeupdated": "1758633146"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Samharia Studios/Maktala",
+        "pattern": "*.su",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Samharia Studios/Maktala",
+            "replace": "Samharia Studios/Maktala"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Samharia Studios/Maktala",
+            "replace": ".config/unity3d/Samharia Studios/Maktala"
+          }
+        }
+      }
+    }
   }
 }
