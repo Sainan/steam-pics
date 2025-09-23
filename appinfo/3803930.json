@@ -1,6 +1,5 @@
 {
   "appid": "3803930",
-  "public_only": "1",
   "common": {
     "name": "Luckyest",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticon": "f74756fd7282fe6507a220c2fa499143da8bfb63",
     "clienticns": "f74756fd7282fe6507a220c2fa499143da8bfb63",
     "linuxclienticon": "f74756fd7282fe6507a220c2fa499143da8bfb63",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -109,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758648784",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3803930",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -133,6 +133,110 @@
       "17": "4182",
       "18": "5652",
       "19": "6276"
+    }
+  },
+  "extended": {
+    "developer": "Mobmonks",
+    "publisher": "Mobmonks"
+  },
+  "config": {
+    "installdir": "Luckyest",
+    "launch": {
+      "0": {
+        "executable": "Luckyest.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Luckyest_Mac.app\\Contents\\MacOS\\Luckyest",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Luckyest.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3803932": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5210087799106617205",
+          "size": "130269030",
+          "download": "40004240"
+        }
+      }
+    },
+    "3803933": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4068796525081732855",
+          "size": "169643410",
+          "download": "44467440"
+        }
+      }
+    },
+    "3803934": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2385048977224421124",
+          "size": "123737594",
+          "download": "44355296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20096961",
+        "timeupdated": "1758648323"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "25",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MobMonks/Luckyest",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "com.mobmonks.luckyest",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/MobMonks/Luckyest",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
