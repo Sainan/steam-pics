@@ -1,0 +1,180 @@
+{
+  "appid": "3596290",
+  "common": {
+    "name": "Apes Warfare Demo",
+    "type": "Demo",
+    "parent": "3266580",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "284cc74a5633e8b8be666c56f62d9224b15e9c5c",
+    "clienttga": "454ad2e5f350792462839436c084074fa370d1a1",
+    "linuxclienticon": "6abf7f63d6cab10d78ed313a21cb1276f24894af",
+    "clienticns": "8b2b87a719318c39fb3e0e361c5a155fcc93b51d",
+    "clienticon": "adca4549a9078558469e49bb7b5f9b2736e3b9b2",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "26c477b5407f742018c55b46339e7e59a84384bc/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "215a24abb81eeeb71c7bcdf66411bce6072c1e01/header.jpg"
+    },
+    "store_asset_mtime": "1755105849",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "GigaQuests"
+      },
+      "1": {
+        "type": "developer",
+        "name": "STOIC Ent."
+      },
+      "2": {
+        "type": "publisher",
+        "name": "GigaQuests"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1745200305",
+    "gameid": "3596290",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GigaQuests",
+    "publisher": "GigaQuests",
+    "homepage": "https://apeswarfare.com/"
+  },
+  "config": {
+    "installdir": "Apes Warfare Demo",
+    "launch": {
+      "0": {
+        "executable": "ApesWarfareDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ApesWarfareDemo.app",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "ApesWarFareDemo for mac"
+        },
+        "description": "ApesWarFareDemo for mac"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3596291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3951152401942686108",
+          "size": "895730031",
+          "download": "354165488"
+        }
+      }
+    },
+    "3596292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4688342522479249386",
+          "size": "898039201",
+          "download": "354310528"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "19691770",
+        "timeupdated": "1755827551"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Stoicent/ApesWarfareDemo",
+        "pattern": "audt.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "/Stoicent/ApesWarfareDemo",
+            "replace": "Stoicent/ApesWarfareDemo"
+          }
+        }
+      }
+    }
+  }
+}
