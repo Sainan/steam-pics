@@ -1,6 +1,5 @@
 {
   "appid": "4017040",
-  "public_only": "1",
   "common": {
     "name": "星息之绊 Demo",
     "type": "Demo",
@@ -25,7 +24,7 @@
     "osextended": "",
     "clienticon": "440dd70942ecae7b6fc31360b1eeba275ca9b348",
     "icon": "440dd70942ecae7b6fc31360b1eeba275ca9b348",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "fda1bea38692ea0e82a91c0026fed8a233d39883/capsule_231x87_schinese.jpg",
@@ -178,7 +177,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758613107",
     "gameid": "4017040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "十年",
+    "publisher": "十年"
+  },
+  "config": {
+    "installdir": "星息之绊 Demo",
+    "launch": {
+      "0": {
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017041": {
+      "manifests": {
+        "public": {
+          "gid": "7045195891032808872",
+          "size": "12720468638",
+          "download": "11957626928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20089188",
+        "timeupdated": "1758613021"
+      }
+    }
   }
 }
