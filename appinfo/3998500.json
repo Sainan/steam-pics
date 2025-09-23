@@ -80,10 +80,32 @@
         }
       },
       "1": {
+        "executable": "StratoDX.exe",
+        "arguments": "--rendering-method gl_compatibility --rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch in OpenGL compatibility mode"
+        },
+        "description": "Launch in OpenGL compatibility mode"
+      },
+      "2": {
         "executable": "StratoDX.x86_64",
         "config": {
           "oslist": "linux"
         }
+      },
+      "3": {
+        "executable": "StratoDX.x86_64",
+        "arguments": "--rendering-method gl_compatibility --rendering-driver opengl3",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch in OpenGL compatibility mode"
+        },
+        "description": "Launch in OpenGL compatibility mode"
       }
     }
   },
