@@ -1,10 +1,9 @@
 {
   "appid": "589050",
-  "public_only": "1",
   "common": {
     "name": "Lords and Legions",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllervr": {
       "steamvr": "1",
       "oculus": "1",
@@ -161,9 +160,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758651523",
     "community_hub_visible": "1",
     "gameid": "589050",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1646",
@@ -185,6 +184,46 @@
       "17": "1684",
       "18": "493",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Warborne Studios",
+    "publisher": "Warborne Studios",
+    "homepage": "http://www.warbornestudios.com"
+  },
+  "config": {
+    "installdir": "Lords and Legions",
+    "launch": {
+      "0": {
+        "executable": "Lords & Legion.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "589051": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2993585084431472176",
+          "size": "18032763126",
+          "download": "9127555440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20097508",
+        "timeupdated": "1758651304"
+      }
     }
   }
 }
