@@ -1,6 +1,5 @@
 {
   "appid": "3701430",
-  "public_only": "1",
   "common": {
     "name": "Fish Stick Protocol Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "1503aaec757e0d2d52a07d398342c1a31ad1fd37",
     "clienttga": "efd027ce6bb5d5353d75e95f4b068c2d10398141",
     "clienticon": "6edc53066ba4897ca27e622f2c40f1bb5b09a3a6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "0ddf1728d00462c92570df33af1c0168fb7b4d4c/capsule_231x87.jpg"
@@ -103,5 +102,40 @@
     },
     "gameid": "3701430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Maracas Studio",
+    "publisher": "Maracas Studio"
+  },
+  "config": {
+    "installdir": "Fish Stick Protocol Demo",
+    "launch": {
+      "0": {
+        "executable": "Fish Stick Protocol.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3701431": {
+      "manifests": {
+        "public": {
+          "gid": "18935132479279454",
+          "size": "934488099",
+          "download": "376240976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20079136",
+        "timeupdated": "1758558039"
+      }
+    },
+    "privatebranches": "1"
   }
 }
