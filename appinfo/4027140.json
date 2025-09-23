@@ -1,6 +1,5 @@
 {
   "appid": "4027140",
-  "public_only": "1",
   "common": {
     "name": "深渊之战 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
       "english": "Battle Of The Abyss Demo",
       "tchinese": "深淵之戰 Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -124,7 +123,54 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4027140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "1029studio",
+    "publisher": "1029studio"
+  },
+  "config": {
+    "installdir": "深渊之战 Demo",
+    "launch": {
+      "0": {
+        "executable": "BattleOfTheAbyssDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4027141": {
+      "manifests": {
+        "public": {
+          "gid": "2280961656086673677",
+          "size": "227250712",
+          "download": "153223600"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20089345",
+        "timeupdated": "1758613880"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "500",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot\\app_userdata\\BattleOfTheAbyss",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
