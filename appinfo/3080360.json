@@ -1,4 +1,67 @@
 {
   "appid": "3080360",
-  "public_only": "1"
+  "common": {
+    "name": "Tempo Punk Demo",
+    "type": "Demo",
+    "parent": "1868430",
+    "icon": "c4e1ae6cdb116d4a804858deb3fdb5573fc5787c",
+    "clienticon": "4611911212e56a42609cd1bbe8a0035506b556d9",
+    "clienttga": "1df29dfa2ad3ce71990237c4d09a186457a30764",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "3080360",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Tempo Punk Demo",
+    "launch": {
+      "0": {
+        "executable": "BL_ALPHA\\Binaries\\Win64\\BL_ALPHA-Win64-Shipping.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3080361": {
+      "manifests": {
+        "public": {
+          "gid": "3940464115426451574",
+          "size": "5189496260",
+          "download": "5039187456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20096519",
+        "timeupdated": "1758646747"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
