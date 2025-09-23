@@ -1,13 +1,12 @@
 {
   "appid": "2627370",
-  "public_only": "1",
   "common": {
     "name": "Rocklings",
     "type": "Game",
     "icon": "fbc7bf0697b9fed2889b982ecd4270f7352f8852",
     "clienticon": "34267c0e33cfb0e76d9647171c22533b42f9075f",
     "clienttga": "2a176a6885a78d9cdde103dabf8a34f2e6696e7d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -91,9 +90,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "2627370",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "3834",
@@ -108,6 +107,44 @@
       "10": "1643",
       "11": "5981",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "NDOgames",
+    "publisher": "NDOgames"
+  },
+  "config": {
+    "installdir": "Rocklings",
+    "launch": {
+      "0": {
+        "executable": "Rocklings.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Rocklings"
+        },
+        "description": "Launch Rocklings"
+      }
+    }
+  },
+  "depots": {
+    "2627371": {
+      "manifests": {
+        "public": {
+          "gid": "2495888952030628100",
+          "size": "598608764",
+          "download": "478635408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20066291",
+        "timeupdated": "1758464997"
+      }
     }
   }
 }
