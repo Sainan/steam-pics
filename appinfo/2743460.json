@@ -1,6 +1,5 @@
 {
   "appid": "2743460",
-  "public_only": "1",
   "common": {
     "name": "Granvir",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "b6911d49599113a7843988ffe37e828cb4f90b01",
     "clienttga": "24a1294ff65f7e9321c8adb0dbbaf7e79e43a70d",
     "clienticon": "d073e25b6a57398080a5301f5553ba86e1ff749b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -128,9 +127,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758628785",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2743460",
-    "exfgls": "8",
     "store_tags": {
       "0": "4821",
       "1": "3843",
@@ -152,6 +152,104 @@
       "17": "1678",
       "18": "3959",
       "19": "1774"
+    }
+  },
+  "extended": {
+    "developer": "Airborne Games",
+    "publisher": "GIGATANK 3000"
+  },
+  "config": {
+    "installdir": "Granvir",
+    "launch": {
+      "0": {
+        "executable": "Granvir.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Granvir.x64_86",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2743461": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8889758051492988520",
+          "size": "1464206295",
+          "download": "479046096"
+        },
+        "experimental": {
+          "gid": "8889758051492988520",
+          "size": "1464206295",
+          "download": "479046096"
+        }
+      }
+    },
+    "2743463": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3913928692046462394",
+          "size": "1586061928",
+          "download": "542939264"
+        },
+        "experimental": {
+          "gid": "3913928692046462394",
+          "size": "1586061928",
+          "download": "542939264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20089849",
+        "timeupdated": "1758616161"
+      },
+      "experimental": {
+        "buildid": "20089849",
+        "description": "testing branch",
+        "timeupdated": "1758616167"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Airborne Games/Granvir/Progress",
+        "pattern": "*.txt"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Airborne Games/Granvir/Progress",
+            "replace": ".config/unity3d/Airborne Games/Granvir/Progress"
+          }
+        }
+      }
     }
   }
 }
