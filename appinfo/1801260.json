@@ -1,0 +1,124 @@
+{
+  "appid": "1801260",
+  "common": {
+    "name": "Spawnworks Dedicated Server",
+    "type": "Tool",
+    "parent": "1731710",
+    "oslist": "",
+    "osarch": "",
+    "osextended": "",
+    "logo": "78fd25432cf08c10c0125d8adb01af7ae0da5817",
+    "logo_small": "78fd25432cf08c10c0125d8adb01af7ae0da5817_thumb",
+    "icon": "31576513266bc9d1313970eef667727b93340872",
+    "clienttga": "336f0e15a03ff045c63186bd494b9272f14e1c4c",
+    "clienticon": "e648b73976efdc1adcf94a865bf8a24f3ea13bec",
+    "releasestate": "released",
+    "associations": {},
+    "gameid": "1801260"
+  },
+  "config": {
+    "installdir": "Spawnworks Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "BombRunnersServer.exe",
+        "arguments": "-log",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BombRunners\\Binaries\\Linux\\BombRunnersServer",
+        "arguments": "-log",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1801261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7240643161216689531",
+          "size": "1662128989",
+          "download": "354241248"
+        },
+        "development": {
+          "gid": "4484652889011210560",
+          "size": "1673094231",
+          "download": "421875488"
+        }
+      }
+    },
+    "1801262": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5866951723365470593",
+          "size": "2581587309",
+          "download": "454384816"
+        },
+        "development": {
+          "gid": "7021024242424335356",
+          "size": "2602473455",
+          "download": "554815072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "15857357",
+        "timeupdated": "1727484366"
+      },
+      "development": {
+        "buildid": "20092865",
+        "description": "development",
+        "timeupdated": "1758629599"
+      }
+    }
+  }
+}
