@@ -1,6 +1,5 @@
 {
   "appid": "3620210",
-  "public_only": "1",
   "common": {
     "name": "Untapped",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "d7f5a3d6c0103de8af6179bae72baaa562d6cde9",
     "clienttga": "128e71bce286bba78d0ef8b24e6ab9fbf1f0623f",
     "clienticon": "c06cdd8ca637e51d01a1d803dce5e60dbbbec53f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8bab2c42013841ba46b4489a2390acc5bd50c432/capsule_231x87.jpg"
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758613055",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3620210",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -117,6 +117,63 @@
       "7": "492",
       "8": "3843",
       "9": "3859"
+    }
+  },
+  "extended": {
+    "developer": "CODEBREW SOFTWARE LTD ",
+    "publisher": "CODEBREW SOFTWARE LTD "
+  },
+  "config": {
+    "installdir": "Untapped",
+    "launch": {
+      "0": {
+        "executable": "Untapped.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "untappedlinuxdistro.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3620211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5297775050217659985",
+          "size": "2861715053",
+          "download": "394668848"
+        }
+      }
+    },
+    "3620212": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6900324295622398928",
+          "size": "2883862044",
+          "download": "417638912"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20078829",
+        "timeupdated": "1758556180"
+      }
     }
   }
 }
