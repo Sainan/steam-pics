@@ -1,6 +1,5 @@
 {
   "appid": "3806260",
-  "public_only": "1",
   "common": {
     "name": "1931-1945: Their Childhood - Tunnel Warfare/地道战",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,9 +110,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3806260",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -139,6 +138,45 @@
       "17": "7332",
       "18": "3993",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Hongji Interactive",
+    "publisher": "Hongji Interactive"
+  },
+  "config": {
+    "installdir": "Tunnel Warfare",
+    "launch": {
+      "0": {
+        "executable": "Project.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3806261": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5606646222192288584",
+          "size": "793965002",
+          "download": "392130128"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20095390",
+        "timeupdated": "1758641379"
+      }
     }
   }
 }
