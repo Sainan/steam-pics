@@ -1,6 +1,5 @@
 {
   "appid": "4017130",
-  "public_only": "1",
   "common": {
     "name": "千嶂宗师 Demo",
     "type": "Demo",
@@ -25,7 +24,7 @@
     "osextended": "",
     "clienticon": "e768551c0f96cb7a95ca4186118e48eaa3e919b0",
     "icon": "e768551c0f96cb7a95ca4186118e48eaa3e919b0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6cd1a1dd53768f55e4ca4dfa0c7d7c1b49556aaf/capsule_231x87.jpg"
@@ -168,7 +167,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4017130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "十年",
+    "publisher": "十年"
+  },
+  "config": {
+    "installdir": "千嶂宗师 Demo",
+    "launch": {
+      "0": {
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017131": {
+      "manifests": {
+        "public": {
+          "gid": "8240647111306974733",
+          "size": "4736510724",
+          "download": "4231850272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20079925",
+        "timeupdated": "1758561188"
+      }
+    }
   }
 }
