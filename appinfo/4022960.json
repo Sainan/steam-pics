@@ -1,6 +1,5 @@
 {
   "appid": "4022960",
-  "public_only": "1",
   "common": {
     "name": "光谱启示录：七色试炼 Demo",
     "type": "Demo",
@@ -28,7 +27,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -179,5 +178,48 @@
     },
     "gameid": "4022960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CJ",
+    "publisher": "CJ"
+  },
+  "config": {
+    "installdir": "光谱启示录：七色试炼 Demo",
+    "launch": {
+      "0": {
+        "executable": "QS_Demo\\QS"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4022961": {
+      "manifests": {
+        "public": {
+          "gid": "2405705199365157418",
+          "size": "2932058379",
+          "download": "2760970672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20088069",
+        "timeupdated": "1758605766"
+      }
+    }
   }
 }
