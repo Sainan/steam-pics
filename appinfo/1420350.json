@@ -251,10 +251,14 @@
       },
       "1": {
         "executable": "run.sh",
-        "type": "default",
+        "type": "option1",
         "config": {
           "oslist": "macos"
-        }
+        },
+        "description_loc": {
+          "english": "Fraymakers - Normal"
+        },
+        "description": "Fraymakers - Normal"
       },
       "2": {
         "executable": "run.sh",
@@ -276,6 +280,17 @@
           "english": "Fraymakers - SDL"
         },
         "description": "Fraymakers - SDL"
+      },
+      "4": {
+        "executable": "runnosteam.sh",
+        "type": "option2",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Fraymakers - No Steam"
+        },
+        "description": "Fraymakers - No Steam"
       }
     }
   },
