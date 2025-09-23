@@ -166,14 +166,17 @@
   "ufs": {
     "quota": "1000000000",
     "maxnumfiles": "10000",
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "sync_while_suspended": "1",
     "savefiles": {
       "0": {
         "root": "gameinstall",
         "path": "SavesDir",
         "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Stash",
+        "pattern": "*.auth"
       }
     }
   }
