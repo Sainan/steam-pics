@@ -1,6 +1,5 @@
 {
   "appid": "2644590",
-  "public_only": "1",
   "common": {
     "name": "Global Magnates: Shipping Tycoon",
     "type": "Game",
@@ -23,7 +22,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "releasestatesteamchina": "prerelease",
     "languages": {
       "english": "1",
@@ -192,9 +191,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758643117",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2644590",
-    "exfgls": "8",
     "store_tags": {
       "0": "12472",
       "1": "4845",
@@ -216,6 +216,61 @@
       "17": "1669",
       "18": "4562",
       "19": "4202"
+    }
+  },
+  "extended": {
+    "developer": "Aquila Chengdu",
+    "publisher": "Aquila Interactive"
+  },
+  "config": {
+    "installdir": "Global Magnates",
+    "launch": {
+      "0": {
+        "executable": "GlobalMagnates.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    }
+  },
+  "depots": {
+    "2644591": {
+      "manifests": {
+        "public": {
+          "gid": "2289832627250987829",
+          "size": "3088064937",
+          "download": "944493440"
+        }
+      }
+    },
+    "2644592": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "workshopdepot": "2644590",
+    "branches": {
+      "public": {
+        "buildid": "20094437",
+        "timeupdated": "1758642742"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Aquila Interactive\\Global Magnates\\JSONFiles\\Archive\\{64BitSteamID}",
+        "pattern": "*.bytes"
+      }
     }
   }
 }
