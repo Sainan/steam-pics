@@ -1,0 +1,231 @@
+{
+  "appid": "2957290",
+  "common": {
+    "name": "Starship Simulator Dev Build",
+    "type": "Beta",
+    "parent": "2947120",
+    "releasestate": "released",
+    "icon": "23f299d387eba8cf3628f721a4ed4cd5acc7bdd8",
+    "clienttga": "452973cb6d83d9910bdf09993367d4897dd83e7e",
+    "linuxclienticon": "45e8cbaebc2aafee8d5df6eb2a3adfff4e52df0e",
+    "clienticon": "aa664c4251bfafe3347fb32a49c9df3eb3ccc55c",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "small_capsule": {
+      "english": "1cd0ed02f4da630fe717c797b33711b2de49378c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "11e5429e3969e0b5b2c970aa759f1508d3d8f813/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "36.11435239206534",
+        "height_pct": "69.37781999525052"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "b125b4cd2d0bf9dc8bd3941986649452350f0c98/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "b125b4cd2d0bf9dc8bd3941986649452350f0c98/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "6d4e768053edbe9bf5d57e4acdb94de143295174/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "6d4e768053edbe9bf5d57e4acdb94de143295174/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "6d4e768053edbe9bf5d57e4acdb94de143295174/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "36.11435239206534",
+          "height_pct": "69.37781999525052"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "11e5429e3969e0b5b2c970aa759f1508d3d8f813/library_header.jpg"
+        },
+        "image2x": {
+          "english": "11e5429e3969e0b5b2c970aa759f1508d3d8f813/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1750977794",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1714187329",
+    "community_hub_visible": "1",
+    "gameid": "2957290",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Starship Simulator Dev Playtest",
+    "launch": {
+      "0": {
+        "executable": "StarshipSimulator.exe",
+        "arguments": "-nohmd",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "using DirectX 12"
+        },
+        "description": "using DirectX 12"
+      },
+      "1": {
+        "executable": "StarshipSimulator.exe",
+        "arguments": "-vulkan -nohmd",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "using Vulkan"
+        },
+        "description": "using Vulkan"
+      },
+      "2": {
+        "executable": "StarshipSimulator.exe",
+        "arguments": "-vr",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "in VR mode (DX12)"
+        },
+        "description": "in VR mode (DX12)"
+      },
+      "3": {
+        "executable": "StarshipSimulator.exe",
+        "arguments": "-vulkan -vr",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "in VR mode (Vulkan)"
+        },
+        "description": "in VR mode (Vulkan)"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2957291": {
+      "manifests": {
+        "public": {
+          "gid": "5849778051063991962",
+          "size": "7851428050",
+          "download": "5538616960"
+        },
+        "debug": {
+          "gid": "2709768066116913196",
+          "size": "8295758106",
+          "download": "5746916224"
+        },
+        "final_5.3_build": {
+          "gid": "5574414530208822958",
+          "size": "3568071520",
+          "download": "3174752288"
+        },
+        "lumen": {
+          "gid": "1459286498486941983",
+          "size": "7727372327",
+          "download": "5461709584"
+        },
+        "potato": {
+          "gid": "1455570097401894221",
+          "size": "7727353879",
+          "download": "5461749056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19980850",
+        "timeupdated": "1757920481"
+      },
+      "debug": {
+        "buildid": "19735933",
+        "description": "Debug build with the UE5 console and debugging tools enabled.",
+        "timeupdated": "1756190262"
+      },
+      "final_5.3_build": {
+        "buildid": "14261754",
+        "description": "The final 5.3 build before we upgraded to 5.4",
+        "timeupdated": "1714910206"
+      },
+      "lumen": {
+        "buildid": "19886737",
+        "description": "Full Lumen build with GI, Reflections and Shadows",
+        "timeupdated": "1757234300"
+      },
+      "potato": {
+        "buildid": "19887097",
+        "description": "Potato build with no physical lighting at all",
+        "timeupdated": "1757239863"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "StarshipSimulator\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
+}
