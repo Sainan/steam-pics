@@ -1,13 +1,12 @@
 {
   "appid": "4020910",
-  "public_only": "1",
   "common": {
     "name": "Shatterland Demo",
     "type": "Demo",
     "parent": "3721680",
     "clienticon": "c1c95d865fa5c7f8a2bc12e65ed9246aab7d8214",
     "icon": "c1c95d865fa5c7f8a2bc12e65ed9246aab7d8214",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -103,7 +102,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758671002",
     "gameid": "4020910",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "LastPulse Studio",
+    "publisher": "LastPulse Studio",
+    "homepage": "https://www.youtube.com/@Shatterland"
+  },
+  "config": {
+    "installdir": "Shatterland",
+    "launch": {
+      "0": {
+        "executable": "Shatterland\\Shatterland.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4020911": {
+      "manifests": {
+        "public": {
+          "gid": "7246200219157559528",
+          "size": "1621812805",
+          "download": "1438576400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20100793",
+        "timeupdated": "1758670641"
+      }
+    }
   }
 }
