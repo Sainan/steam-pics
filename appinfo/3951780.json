@@ -1,6 +1,5 @@
 {
   "appid": "3951780",
-  "public_only": "1",
   "common": {
     "name": "LifeDie",
     "type": "Game",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758588680",
     "community_hub_visible": "1",
     "gameid": "3951780",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -130,6 +129,58 @@
       "14": "1684",
       "15": "5186",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "DyeRay",
+    "publisher": "DyeRay"
+  },
+  "config": {
+    "installdir": "LifeDie",
+    "launch": {
+      "0": {
+        "executable": "LifeDie\\LifeDie.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3951781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7599574082837306940",
+          "size": "2112946180",
+          "download": "325072896"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20076321",
+        "timeupdated": "1758545234"
+      }
     }
   }
 }
