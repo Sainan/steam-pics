@@ -1,13 +1,12 @@
 {
   "appid": "3067160",
-  "public_only": "1",
   "common": {
     "name": "This Be Mutiny",
     "type": "Game",
     "icon": "eebc8d48261ab3179d319e4813ee1ec9fbb9b71f",
     "clienticon": "227daf201d277eb8e70e019f0a6c524d2c2e83ea",
     "clienttga": "341c0efce9f1bb23970e5135c1ecb8b7b67ce2c4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
@@ -101,9 +100,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3067160",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "21725",
@@ -125,6 +125,62 @@
       "17": "17305",
       "18": "4182",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Goodberry Games",
+    "publisher": "Goodberry Games",
+    "homepage": "https://goodberry.games"
+  },
+  "config": {
+    "installdir": "This Be Mutiny",
+    "launch": {
+      "0": {
+        "executable": "frog.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "frog.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3067161": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5911910580589046750",
+          "size": "1851905366",
+          "download": "1298156848"
+        }
+      }
+    },
+    "3067162": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5439171019019804311",
+          "size": "1877419669",
+          "download": "1307817904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20083104",
+        "timeupdated": "1758578560"
+      }
     }
   }
 }
