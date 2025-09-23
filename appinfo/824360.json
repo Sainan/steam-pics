@@ -1,0 +1,94 @@
+{
+  "appid": "824360",
+  "common": {
+    "name": "PixARK Dedicated Server",
+    "type": "Tool",
+    "parent": "593600",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "logo": "268fffacee27e8fbc3eb115b5169bc3a43351d85",
+    "logo_small": "268fffacee27e8fbc3eb115b5169bc3a43351d85_thumb",
+    "icon": "1c9fc06e134195030e476e17c0b8c948ed5fe864",
+    "clienttga": "b02dba156698720af1fd938f43d578fdfaed147e",
+    "clienticon": "4396246b6c76653d8f44339e9528438229a0f652",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "824360"
+  },
+  "config": {
+    "installdir": "PixARK Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "ShooterGame\\Binaries\\Win64\\PixARKServer.exe",
+        "workingdir": "ShooterGame\\Binaries\\Win64\\",
+        "type": "none",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "824361": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1000924979397075328",
+          "size": "2707284079",
+          "download": "944950800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18992026",
+        "timeupdated": "1750920516"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
