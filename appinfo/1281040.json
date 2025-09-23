@@ -1,6 +1,5 @@
 {
   "appid": "1281040",
-  "public_only": "1",
   "common": {
     "name": "Baby Steps",
     "type": "Game",
@@ -14,7 +13,7 @@
     "clienticon": "5d52774d8693a2800861b2786e3cafc16e29cf7f",
     "clienttga": "cfb82fa32c4473b3814d6de94a07b7d5d00c13a7",
     "icon": "786dad90ee8ffcff6afaf0d0efe44998d9f047b2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -179,9 +178,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758642197",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1281040",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -207,6 +207,90 @@
       "17": "1651",
       "18": "9551",
       "19": "12095"
+    }
+  },
+  "extended": {
+    "developer": "Gabe Cuzzillo",
+    "publisher": "Devolver Digital",
+    "homepage": "http://www.babystepsgame.com"
+  },
+  "config": {
+    "installdir": "Baby Steps",
+    "launch": {
+      "0": {
+        "executable": "BabySteps.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1281041": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6962099617086893002",
+          "size": "21086109349",
+          "download": "12288417264"
+        },
+        "beta": {
+          "gid": "6962099617086893002",
+          "size": "21086109349",
+          "download": "12288417264"
+        }
+      }
+    },
+    "1281042": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4844721271178453782",
+          "size": "21086109349",
+          "download": "13205850544"
+        },
+        "beta": {
+          "gid": "4844721271178453782",
+          "size": "21086109349",
+          "download": "13205850544"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20085715",
+        "timeupdated": "1758594646"
+      },
+      "beta": {
+        "buildid": "20085715",
+        "description": "Public beta builds",
+        "timeupdated": "1758589691"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "200000000",
+    "maxnumfiles": "1509",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/Babysteps/{64BitSteamID}/save/",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/Babysteps/{64BitSteamID}/save/",
+        "pattern": "PolaroidShot*"
+      }
     }
   }
 }
