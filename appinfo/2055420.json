@@ -1,0 +1,126 @@
+{
+  "appid": "2055420",
+  "common": {
+    "name": "DIGGERGUN Demo",
+    "type": "Demo",
+    "parent": "1968180",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "clienticon": "65a13f457f8c4da72361dc12493d8f46667ec515",
+    "clienttga": "a66e0ce0ed805b00a6128a33659fb27adad555c1",
+    "icon": "767f209be7e483cffb738b4b268dbb4b8d38eaa4",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_0a5d4695a5fd42c9a7ab0f3524ce17a488099a27.jpg",
+    "store_asset_mtime": "1654889421",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Kabloop"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Kabloop"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_18": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1655804990",
+    "gameid": "2055420",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1968180",
+    "developer": "Kabloop",
+    "publisher": "Kabloop",
+    "homepage": "http://www.kabloop.com"
+  },
+  "config": {
+    "installdir": "DIGGERGUN Demo",
+    "launch": {
+      "0": {
+        "executable": "/win64/DIGGERGUN.exe",
+        "workingdir": "win64",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DIGGERGUN Demo Windows"
+        },
+        "description": "DIGGERGUN Demo Windows"
+      },
+      "1": {
+        "executable": "/linux64/DIGGERGUN",
+        "workingdir": "linux64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DIGGERGUN Demo Linux"
+        },
+        "description": "DIGGERGUN Demo Linux"
+      },
+      "2": {
+        "executable": "/mac64/DIGGERGUN.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "/linux32/DIGGERGUN",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "32"
+        }
+      },
+      "4": {
+        "executable": "/win32/DIGGERGUN.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2055421": {
+      "manifests": {
+        "public": {
+          "gid": "7696287044170171144",
+          "size": "2097207091",
+          "download": "696021344"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20094638",
+        "timeupdated": "1758638407"
+      }
+    }
+  }
+}
