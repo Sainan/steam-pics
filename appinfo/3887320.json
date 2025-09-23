@@ -1,6 +1,5 @@
 {
   "appid": "3887320",
-  "public_only": "1",
   "common": {
     "name": "Execute Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "489bbae8f0949638247e91f0691e8cc4c71d115a",
     "clienticon": "73c04266250f13c17497298434d02e06f46c6f5e",
     "clienttga": "38a83187cec3cdd0ded7e784bb27b3381f582400",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -107,6 +106,39 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Payne Robinson",
+    "publisher": "Payne Robinson"
+  },
+  "config": {
+    "installdir": "Execute Demo",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "3887322": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "241529708489209390",
+          "size": "118496256",
+          "download": "56665840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20100238",
+        "timeupdated": "1758667133"
+      }
     }
   }
 }
