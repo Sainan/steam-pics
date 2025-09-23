@@ -305,7 +305,7 @@
       },
       "4": {
         "executable": "BeGame.exe",
-        "arguments": "-beta -serviceenv live",
+        "arguments": "-beta",
         "type": "default",
         "config": {
           "oslist": "windows",
@@ -316,6 +316,23 @@
           "english": "New Launch"
         },
         "description": "New Launch"
+      },
+      "5": {
+        "executable": "BeGame.app/Contents/MacOS/BeGame",
+        "arguments": "-beta",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "kog_test"
+        }
+      },
+      "6": {
+        "executable": "BeGame.app/Contents/MacOS/BeGame",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "behemothtest"
+        }
       }
     },
     "steamcontrollertemplateindex": "4",
