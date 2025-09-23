@@ -1,10 +1,9 @@
 {
   "appid": "2487150",
-  "public_only": "1",
   "common": {
     "name": "Deconstruction Simulator",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "32bdab4ed4c638721571fdfa1f71a30b43c0da8e",
     "clienticon": "13e393d88d459a8123070e1a50bc10db86894651",
     "icon": "0aba688ae65b72f7186c1c2be035c1606705231a",
@@ -179,9 +178,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758638746",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2487150",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "5363",
@@ -203,6 +203,71 @@
       "17": "4136",
       "18": "492",
       "19": "9204"
+    }
+  },
+  "extended": {
+    "developer": "Games Incubator",
+    "publisher": "Games Incubator",
+    "homepage": "https://games-i.com/"
+  },
+  "config": {
+    "installdir": "Deconstruction Simulator",
+    "launch": {
+      "0": {
+        "executable": "DeconstructionSim.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2487151": {
+      "manifests": {
+        "public": {
+          "gid": "4573511233513624314",
+          "size": "11116430924",
+          "download": "9721734480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20093729",
+        "timeupdated": "1758636977"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "DeconstructionSim/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
