@@ -1,6 +1,5 @@
 {
   "appid": "4017610",
-  "public_only": "1",
   "common": {
     "name": "狂刃风暴 Demo",
     "type": "Demo",
@@ -25,7 +24,7 @@
     "osextended": "",
     "clienticon": "cc849c65bac93c7d16bc63e8641d6de005490bd1",
     "icon": "cc849c65bac93c7d16bc63e8641d6de005490bd1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "6668117ca9ecc35a299b7ef2e2e144c5e100ce70/capsule_231x87_schinese.jpg",
@@ -128,7 +127,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758631427",
     "gameid": "4017610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "十年",
+    "publisher": "十年"
+  },
+  "config": {
+    "installdir": "狂刃风暴 Demo",
+    "launch": {
+      "0": {
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017611": {
+      "manifests": {
+        "public": {
+          "gid": "8430888511775411104",
+          "size": "2105962810",
+          "download": "1641440224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20087527",
+        "timeupdated": "1758601500"
+      }
+    }
   }
 }
