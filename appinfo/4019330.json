@@ -45,7 +45,16 @@
     "installdir": "Basket Bots Demo",
     "launch": {
       "0": {
-        "executable": "Basket Bots.exe"
+        "executable": "Basket Bots.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BasketBots.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
