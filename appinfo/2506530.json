@@ -1,10 +1,9 @@
 {
   "appid": "2506530",
-  "public_only": "1",
   "common": {
     "name": "It Has My Face",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "275360a9d5537bfc6a475c3dda6a4f080d612067",
     "icon": "0504a7e4cea09809b78e858f9131ead9f2b5b53d",
     "clienticon": "8fa69ec419ffef2d4af5c30c34f7e4483703b1e8",
@@ -222,9 +221,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758636085",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2506530",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -249,6 +249,119 @@
       "17": "4182",
       "18": "1716",
       "19": "3859"
+    }
+  },
+  "extended": {
+    "developer": "NightByte Games",
+    "publisher": "Behaviour Interactive Inc.",
+    "homepage": "https://www.ithasmyface.com/"
+  },
+  "config": {
+    "installdir": "It Has My Face",
+    "launch": {
+      "6": {
+        "executable": "It Has My Face.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "7": {
+        "executable": "ItHasMyFaceMac.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "8": {
+        "executable": "It Has My Face.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2506531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2731898589165370915",
+          "size": "582481233",
+          "download": "237185408"
+        }
+      }
+    },
+    "2506532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5501920084368658958",
+          "size": "566088129",
+          "download": "233309344"
+        }
+      }
+    },
+    "2506533": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2280120112786298120",
+          "size": "568027736",
+          "download": "219739904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20050172",
+        "timeupdated": "1758354764"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "NightByte Games/It Has My Face",
+        "pattern": "game.dwsave"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "NightByte Games/It Has My Face",
+            "replace": "NightByte Games/It Has My Face"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "NightByte Games/It Has My Face",
+            "replace": ".config/unity3d/NightByte Games/It Has My Face"
+          }
+        }
+      }
     }
   }
 }
