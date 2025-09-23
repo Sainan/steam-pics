@@ -1,6 +1,5 @@
 {
   "appid": "4043340",
-  "public_only": "1",
   "common": {
     "name": "Keep the Balance Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "435c3611e4951e3d7bfdaa3c6b4bb0188170aa89",
     "icon": "de3cdeaab6d5bce756fa909ea7f3089dfafa3b4e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -87,7 +86,56 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "4043340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Overload Games",
+    "publisher": "Overload Games"
+  },
+  "config": {
+    "installdir": "Keep the Balance Demo",
+    "launch": {
+      "0": {
+        "executable": "Keep the Balance.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4043341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1789255679203918729",
+          "size": "636518764",
+          "download": "258006336"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20096666",
+        "timeupdated": "1758646927"
+      }
+    }
   }
 }
