@@ -1,13 +1,12 @@
 {
   "appid": "2632240",
-  "public_only": "1",
   "common": {
     "name": "Pompeii: The Legacy",
     "type": "Game",
     "icon": "81cfa4ab1665bffd3204ba3b0e3a9409dff6a40b",
     "clienttga": "285e498bf55ef6e0de6e4db91f378bc9ceb73343",
     "clienticon": "81cfa4ab1665bffd3204ba3b0e3a9409dff6a40b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -158,9 +157,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758639847",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2632240",
-    "exfgls": "8",
     "store_tags": {
       "0": "4328",
       "1": "220585",
@@ -182,6 +182,60 @@
       "17": "8945",
       "18": "493",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Siscia Games",
+    "publisher": "Siscia Games",
+    "homepage": "https://www.sisciagames.com/"
+  },
+  "config": {
+    "installdir": "Pompeii The Legacy",
+    "launch": {
+      "0": {
+        "executable": "Pompeii.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2632241": {
+      "manifests": {
+        "public": {
+          "gid": "7918189071910855058",
+          "size": "13932848155",
+          "download": "6010217760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20093361",
+        "timeupdated": "1758633069"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "*.sgs"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "*.bmp"
+      }
     }
   }
 }
