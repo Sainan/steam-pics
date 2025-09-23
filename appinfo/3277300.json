@@ -12,6 +12,59 @@
     "clienticns": "3b7725054fe70c4bd6be9351001267994a5ee121",
     "linuxclienticon": "ed47b16be4e94a084b721a35f98f64e2853c33bf",
     "releasestate": "released",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1757548800",
+      "tested_build_id": "19403562",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7252ba27f95f86f37dd5a7b688812bb05b06daa0/capsule_231x87.jpg"
