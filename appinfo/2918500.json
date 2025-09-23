@@ -224,28 +224,21 @@
         "root": "gameinstall",
         "path": "CozyIsland_Data/SaveFiles",
         "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1"
-      },
-      "1": {
+      }
+    },
+    "rootoverrides": {
+      "0": {
         "root": "gameinstall",
-        "path": "CozyIsland.app/Contents/SaveFiles",
-        "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "recursive": "1"
-      },
-      "2": {
-        "root": "gameinstall",
-        "path": "CozyIsland_Data/SaveFiles",
-        "pattern": "*",
-        "platforms": {
-          "1": "Linux"
-        },
-        "recursive": "1"
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "pathtransforms": {
+          "0": {
+            "find": "CozyIsland_Data/SaveFiles",
+            "replace": "CozyIsland.app/SaveFiles"
+          }
+        }
       }
     }
   }
