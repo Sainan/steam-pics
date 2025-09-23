@@ -1,0 +1,163 @@
+{
+  "appid": "3132060",
+  "common": {
+    "name": "Unnatural Worlds Demo",
+    "type": "Demo",
+    "parent": "2369780",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "a42bb0424be810dde4f53ebcaad8ba31c2b73a8f",
+    "clienticon": "02968a351a007c48d93cead3de285357cc247add",
+    "clienttga": "995354a2c4c9eeec57c72f1a8e02909738e2c2cf",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1722596521",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tomáš Malý"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tomáš Malý"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_63": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_47": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_48": "1",
+      "category_27": "1",
+      "category_15": "1",
+      "category_52": "1",
+      "category_23": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "czech": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1736791217",
+    "gameid": "3132060",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Tomáš Malý",
+    "publisher": "Tomáš Malý",
+    "homepage": "https://unnaturalworlds.com/"
+  },
+  "config": {
+    "installdir": "Unnatural Worlds Demo",
+    "launch": {
+      "0": {
+        "executable": "bin/unnatural-worlds-demo.exe",
+        "workingdir": "bin",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "bin/unnatural-worlds-demo",
+        "workingdir": "bin",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {}
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3132061": {
+      "manifests": {
+        "public": {
+          "gid": "1423328407631916377",
+          "size": "5138647854",
+          "download": "5032087440"
+        }
+      }
+    },
+    "3132062": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7139578629025602659",
+          "size": "36413023",
+          "download": "10995952"
+        }
+      }
+    },
+    "3132063": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1929711349767388574",
+          "size": "22992248",
+          "download": "9292240"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20012967",
+        "timeupdated": "1758107359"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "users/{64BitSteamID}/roaming",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    }
+  }
+}
