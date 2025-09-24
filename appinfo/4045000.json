@@ -1,6 +1,5 @@
 {
   "appid": "4045000",
-  "public_only": "1",
   "common": {
     "name": "ThinkAndChoice Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c88a694e75d935aba5f55aa20d091ccdaed20ba2/capsule_231x87.jpg"
@@ -75,5 +74,58 @@
     },
     "gameid": "4045000",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "OldWilder7",
+    "publisher": "OldWilder7"
+  },
+  "config": {
+    "installdir": "思与择 Demo",
+    "launch": {
+      "0": {
+        "executable": "ThinkAndChoice_D2\\ThinkAndChoice_D2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4045001": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "903055534453868995",
+          "size": "1102448505",
+          "download": "909832688"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20064038",
+        "timeupdated": "1758432081"
+      }
+    }
   }
 }
