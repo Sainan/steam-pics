@@ -120,7 +120,16 @@
     "installdir": "MaelstromLegacyDemo",
     "launch": {
       "0": {
-        "executable": "MaelstromLegacyNextFest.exe"
+        "executable": "MaelstromLegacyNextFest.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MaelstromLegacyNextFest.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
