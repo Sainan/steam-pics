@@ -1,6 +1,5 @@
 {
   "appid": "1492090",
-  "public_only": "1",
   "common": {
     "name": "Forgotten Fragments",
     "type": "Game",
@@ -12,7 +11,7 @@
     "logo_small": "80522cb94676667aced42ed65c3e582c07f64f70_thumb",
     "clienttga": "039915f5cfea6f8f5e7b2e5130cc7e41292967a2",
     "clienticon": "8933c6aa9a20bde593267088cd2e32a1e114a636",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -153,9 +152,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758718810",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1492090",
-    "exfgls": "8",
     "store_tags": {
       "0": "5537",
       "1": "3841",
@@ -177,6 +177,69 @@
       "17": "4182",
       "18": "3877",
       "19": "3968"
+    }
+  },
+  "extended": {
+    "developer": "Binary Phoenix",
+    "publisher": "Assemble Entertainment",
+    "homepage": "https://binaryphoenixgames.com/"
+  },
+  "config": {
+    "installdir": "Forgotten Fragments",
+    "launch": {
+      "0": {
+        "executable": "Forgotten Fragments.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "1492091": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3925460379205166404",
+          "size": "1287458380",
+          "download": "164335552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20092402",
+        "timeupdated": "1758627635"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Binary Phoenix/Forgotten Fragments/game",
+        "pattern": "*.dat"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Binary Phoenix/Forgotten Fragments/slots",
+        "pattern": "*.dat"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Binary Phoenix/Forgotten Fragments/achievements",
+        "pattern": "*.dat"
+      }
     }
   }
 }
