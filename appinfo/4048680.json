@@ -1,6 +1,5 @@
 {
   "appid": "4048680",
-  "public_only": "1",
   "common": {
     "name": "WTF AM I PLAYING?! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,11 +47,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758747536",
     "gameid": "4048680",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Meka Games",
+    "publisher": "Meka Games",
+    "homepage": "https://mekagames.net"
+  },
+  "config": {
+    "installdir": "WTF AM I PLAYING Demo",
+    "launch": {
+      "0": {
+        "executable": "WTF AM I PLAYING demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Demo"
+        },
+        "description": "Demo"
+      }
+    }
+  },
+  "depots": {
+    "4048681": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5443832567659523968",
+          "size": "404764585",
+          "download": "102917312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20110441",
+        "timeupdated": "1758723548"
+      }
     }
   }
 }
