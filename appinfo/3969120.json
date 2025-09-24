@@ -1,10 +1,9 @@
 {
   "appid": "3969120",
-  "public_only": "1",
   "common": {
     "name": "Food Hell",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "476d186b9c028249506baeb096e2cc0dab6b0bfc",
     "icon": "476d186b9c028249506baeb096e2cc0dab6b0bfc",
     "oslist": "windows",
@@ -107,9 +106,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758751527",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3969120",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -127,6 +127,44 @@
       "13": "3916",
       "14": "4004",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Chispa Games",
+    "publisher": "Chispa Games"
+  },
+  "config": {
+    "installdir": "Food Hell",
+    "launch": {
+      "0": {
+        "executable": "Food Hell.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3969121": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5476027298195327356",
+          "size": "100652384",
+          "download": "36622976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20113999",
+        "timeupdated": "1758739855"
+      }
     }
   }
 }
