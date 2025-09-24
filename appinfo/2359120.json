@@ -1,10 +1,9 @@
 {
   "appid": "2359120",
-  "public_only": "1",
   "common": {
     "name": "Consume Me",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
@@ -209,9 +208,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758831600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2359120",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -237,6 +237,87 @@
       "17": "8945",
       "18": "4182",
       "19": "12057"
+    }
+  },
+  "extended": {
+    "developer": "Jenny Jiao Hsia",
+    "publisher": "Hexecutable"
+  },
+  "config": {
+    "installdir": "Consume Me",
+    "launch": {
+      "0": {
+        "executable": "ConsumeMe.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ConsumeMe.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2359121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2053014480107821267",
+          "size": "2750084419",
+          "download": "491829456"
+        }
+      }
+    },
+    "2359122": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6637673509366379063",
+          "size": "2779624582",
+          "download": "501019632"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,tchinese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20079653",
+        "timeupdated": "1758659352"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "222",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Qdork/ConsumeMe2020/",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
