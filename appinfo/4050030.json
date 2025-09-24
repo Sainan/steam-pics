@@ -1,6 +1,5 @@
 {
   "appid": "4050030",
-  "public_only": "1",
   "common": {
     "name": "SteelMechBattle Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "6e42b2545836800bfaf12d593697e29bbb969ac6",
     "icon": "6e42b2545836800bfaf12d593697e29bbb969ac6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -46,7 +45,48 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4050030",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SteelGearWorks",
+    "publisher": "SteelGearWorks"
+  },
+  "config": {
+    "installdir": "SteelMechBattle Demo",
+    "launch": {
+      "0": {
+        "executable": "SteelMechBattle_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4050031": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2110215325045034592",
+          "size": "796138984",
+          "download": "355704032"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20093167",
+        "timeupdated": "1758631194"
+      }
+    }
   }
 }
