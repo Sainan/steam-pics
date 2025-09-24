@@ -1,4 +1,128 @@
 {
   "appid": "3970490",
-  "public_only": "1"
+  "common": {
+    "name": "Pocket Gecko Demo",
+    "type": "Demo",
+    "parent": "3751430",
+    "clienticon": "22afe1e905e041bd837d4a8c252ac8d03365da1c",
+    "icon": "23acef1b7bb573f0c2bebe1505ae45c5ae0a2a5c",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "dc7b591686f846a97fd7819c64b006aca317d44c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "78311bdf324f922b2e4f84b8d19ed89fe4399dd3/header.jpg"
+    },
+    "store_screenshot": "d80b3395852fdaf31204814dbab2cc78afbbab5a/ss_d80b3395852fdaf31204814dbab2cc78afbbab5a.jpg",
+    "store_asset_mtime": "1758623157",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "riyotsa"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "riyotsa"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "28"
+    },
+    "category": {
+      "category_68": "1",
+      "category_76": "1",
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1758723975",
+    "gameid": "3970490",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "riyotsa",
+    "publisher": "riyotsa"
+  },
+  "config": {
+    "installdir": "Pocket Gecko Demo",
+    "launch": {
+      "0": {
+        "executable": "Pocket Gecko.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PocketGecko.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3970491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "158549405700899653",
+          "size": "155930189",
+          "download": "41936240"
+        }
+      }
+    },
+    "3970492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4803052818532623941",
+          "size": "172766199",
+          "download": "50097760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20078194",
+        "timeupdated": "1758553280"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "appidredirect": "3751430",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Riyotsa/Pocket Gecko/",
+        "pattern": "*.here"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
 }
