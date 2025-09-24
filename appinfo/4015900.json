@@ -1,6 +1,5 @@
 {
   "appid": "4015900",
-  "public_only": "1",
   "common": {
     "name": "Grim Pastures: Outlaws Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -36,7 +35,10 @@
       "category_49": "1",
       "category_36": "1",
       "category_9": "1",
-      "category_38": "1"
+      "category_38": "1",
+      "category_69": "1",
+      "category_75": "1",
+      "category_76": "1"
     },
     "supported_languages": {
       "english": {
@@ -126,5 +128,54 @@
     },
     "gameid": "4015900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "7hgamestudio",
+    "publisher": "7hgamestudio"
+  },
+  "config": {
+    "installdir": "Grim Pastures Outlaws Demo",
+    "launch": {
+      "0": {
+        "executable": "GrimPastures.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "default"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4015901": {
+      "manifests": {
+        "public": {
+          "gid": "6293857903793246362",
+          "size": "1351805792",
+          "download": "1194710000"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,dutch,swedish,hungarian,czech,turkish,arabic,bulgarian,ukrainian,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20112776",
+        "timeupdated": "1758733577"
+      }
+    }
   }
 }
