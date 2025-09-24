@@ -1,6 +1,5 @@
 {
   "appid": "3808550",
-  "public_only": "1",
   "common": {
     "name": "Skaldsong",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "62d8d13fa07723d1c5d0b74d86d2d46f1438a59f",
     "clienttga": "7acf35d663ce3243646bb27b1b75dd9dba68ff3c",
     "icon": "30407fa06bcbb9b807325d090d66ce9836d63c87",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -118,6 +117,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758728266",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3808550",
@@ -149,5 +150,48 @@
       "18": "113",
       "19": "599"
     }
+  },
+  "extended": {
+    "developer": "Black Wolf Pub",
+    "publisher": "Black Wolf Pub",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Skaldsong",
+    "launch": {
+      "0": {
+        "executable": "Skald.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3808551": {
+      "manifests": {
+        "public": {
+          "gid": "1347528208258219147",
+          "size": "9183421538",
+          "download": "5636166976"
+        }
+      }
+    },
+    "workshopdepot": "3808550",
+    "branches": {
+      "public": {
+        "buildid": "20111399",
+        "timeupdated": "1758727428"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "250000000",
+    "maxnumfiles": "100"
   }
 }
