@@ -1,0 +1,157 @@
+{
+  "appid": "2628410",
+  "common": {
+    "name": "Smith's Chronicles Playtest",
+    "type": "Beta",
+    "parent": "2627700",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "",
+    "icon": "e309532a36089507d9f7e50e8d9cd21498de0617",
+    "clienticon": "3fcbb00a3b9b4a3c0efb85c4cbb464e1e14a5900",
+    "clienttga": "2a493aa087e49907027e3a4a10e0ad8b85f68b0a",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1696212325",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1696382579",
+    "community_hub_visible": "1",
+    "gameid": "2628410",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "1"
+  },
+  "config": {
+    "installdir": "Smith's Chronicles Playtest",
+    "launch": {
+      "0": {
+        "executable": "Smith's Chronicles.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Public Build"
+        },
+        "description": "Public Build"
+      },
+      "1": {
+        "executable": "Smith's Chronicles.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "For Public Build"
+        },
+        "description": "For Public Build"
+      },
+      "2": {
+        "executable": "StandaloneWindows/Smith's Chronicles.exe",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Internal Build"
+        },
+        "description": "Internal Build"
+      },
+      "3": {
+        "executable": "StandaloneWindows64/Smith's Chronicles.exe",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "betakey": "releasecandidate"
+        },
+        "description_loc": {
+          "english": "Automated Release Candidate"
+        },
+        "description": "Automated Release Candidate"
+      }
+    }
+  },
+  "depots": {
+    "2628411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8999433043207110249",
+          "size": "983249944",
+          "download": "164463216"
+        }
+      }
+    },
+    "2628412": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3736064405133263880",
+          "size": "547208680",
+          "download": "86586832"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19477533",
+        "timeupdated": "1754464374"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
