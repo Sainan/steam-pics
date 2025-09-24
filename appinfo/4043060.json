@@ -1,6 +1,5 @@
 {
   "appid": "4043060",
-  "public_only": "1",
   "common": {
     "name": "Magic Regrowth Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ff5f115ae5a2e02a3241f52d6d7af6d5e6a8d9be/capsule_231x87.jpg"
     },
@@ -46,7 +45,59 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758726029",
     "gameid": "4043060",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Awesome Alpaca's Atelier",
+    "publisher": "Awesome Alpaca's Atelier",
+    "homepage": "https://www.awesome-alpacas-atelier.com/"
+  },
+  "config": {
+    "installdir": "Magic Regrowth Demo",
+    "launch": {
+      "0": {
+        "executable": "MagicRegrowth.exe",
+        "arguments": "culture=\"en-EN\"",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4043061": {
+      "manifests": {
+        "public": {
+          "gid": "7968196991255050588",
+          "size": "673900440",
+          "download": "562589824"
+        }
+      }
+    },
+    "baselanguages": "english,french,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20078173",
+        "timeupdated": "1758553270"
+      }
+    }
   }
 }
