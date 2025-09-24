@@ -1,6 +1,5 @@
 {
   "appid": "4011020",
-  "public_only": "1",
   "common": {
     "name": "Storebound Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
       "schinese": "这个商城不太对劲试玩版",
       "tchinese": "這個商城不太對勁試玩版"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -125,5 +124,65 @@
     },
     "gameid": "4011020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Embers",
+    "publisher": "Embers"
+  },
+  "config": {
+    "installdir": "Storebound Demo",
+    "launch": {
+      "0": {
+        "executable": "Storebound.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4011021": {
+      "manifests": {
+        "public": {
+          "gid": "7609372339938920267",
+          "size": "2196873494",
+          "download": "1704783856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20110513",
+        "timeupdated": "1758723815"
+      }
+    }
   }
 }
