@@ -1,4 +1,141 @@
 {
   "appid": "3887780",
-  "public_only": "1"
+  "common": {
+    "name": "Re:Night Demo",
+    "type": "Demo",
+    "parent": "2372240",
+    "name_localized": {
+      "english": "Re:Night Demo",
+      "schinese": "黑夜轮回 Demo"
+    },
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macosapplesilicon",
+    "clienttga": "4921b377feb6071f4ca3d07fa6faed7922047c14",
+    "clienticon": "bdeaae4319f0a9e651daf55e9d4d84746f67dcba",
+    "icon": "176eae96a168e1c77df8176dfc50c927fed70236",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "877df4bb6dc2fd2438bae0ac40330020f3f2f139/capsule_231x87.jpg",
+      "schinese": "955020d3afadc4b321880da6b2fdf169a9af967d/capsule_231x87_schinese.jpg"
+    },
+    "header_image": {
+      "english": "271e31bfd214ef0cb54f08ba94d169dd377c1607/header.jpg",
+      "schinese": "5653cb7be788b9b2091dba9a6c0a88f6f93938bd/header_schinese.jpg"
+    },
+    "store_asset_mtime": "1756722898",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "海马游戏屋"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "海马游戏屋"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "2P Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1759215600",
+    "gameid": "3887780",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "海马游戏屋",
+    "publisher": "海马游戏屋"
+  },
+  "config": {
+    "installdir": "ReNight Demo",
+    "launch": {
+      "0": {
+        "executable": "ReNight.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ReNight.app/Contents/MacOS/ReNight",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3887781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6209476228066140727",
+          "size": "3283997873",
+          "download": "713967568"
+        },
+        "test": {
+          "gid": "6209476228066140727",
+          "size": "3283997873",
+          "download": "713967568"
+        }
+      }
+    },
+    "3887782": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5265750060784591759",
+          "size": "3271501825",
+          "download": "688858560"
+        },
+        "test": {
+          "gid": "5265750060784591759",
+          "size": "3271501825",
+          "download": "688858560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20102360",
+        "timeupdated": "1758680830"
+      },
+      "test": {
+        "buildid": "20102360",
+        "description": "test",
+        "timeupdated": "1758680692"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "tangyangstudio/ReNight/demo",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "tangyangstudio/ReNight/demo",
+            "replace": "unity.tangyangstudio.ReNight/demo"
+          }
+        }
+      }
+    }
+  }
 }
