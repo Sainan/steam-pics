@@ -1,6 +1,5 @@
 {
   "appid": "4011440",
-  "public_only": "1",
   "common": {
     "name": "Boardlords Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "4495a791c783b534a3b1bcbf38425dc394686310",
     "icon": "a86254f29fd16af54d54b7cfb621d71f4cd305c9",
     "linuxclienticon": "20c891a4b4010df58583134a03a88395c6260698",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "92b523214377d53cd25650ccf657e2864110e56b/capsule_231x87.jpg"
@@ -104,7 +103,69 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4011440",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "EskemaGames",
+    "publisher": "EskemaGames",
+    "homepage": "https://eskemagames.es"
+  },
+  "config": {
+    "installdir": "Boardlords Demo",
+    "launch": {
+      "0": {
+        "executable": "BoardlordsDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BoardlordsDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4011441": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3495846565003934593",
+          "size": "153876165",
+          "download": "64601024"
+        }
+      }
+    },
+    "4011442": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5375680678259186462",
+          "size": "174600215",
+          "download": "64607968"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "19984345",
+        "timeupdated": "1757938131"
+      }
+    }
   }
 }
