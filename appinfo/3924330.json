@@ -1,6 +1,5 @@
 {
   "appid": "3924330",
-  "public_only": "1",
   "common": {
     "name": "Striking Wine Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "1a4ddbffb2df019354081501c8bea7a5ce9054ba",
     "clienticon": "ec90c2554c64c1bd0d082d6ad2c48d0313df9946",
     "clienttga": "971aa9cdf654cff423deeba00742b04317d08939",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "4b26bc99e2b0338b6ff806b800256e1b3a1939ba/capsule_231x87.jpg"
@@ -71,5 +70,38 @@
     },
     "gameid": "3924330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "hyacinthlet",
+    "publisher": "hyacinthlet"
+  },
+  "config": {
+    "installdir": "Striking Wine Demo",
+    "launch": {
+      "0": {
+        "executable": "StrikingWine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3924331": {
+      "manifests": {
+        "public": {
+          "gid": "6519514113085326991",
+          "size": "151157805",
+          "download": "50529472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20071657",
+        "timeupdated": "1758520830"
+      }
+    }
   }
 }
