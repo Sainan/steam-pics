@@ -1,11 +1,10 @@
 {
   "appid": "3978860",
-  "public_only": "1",
   "common": {
     "name": "Off the Text - Demo Track",
     "type": "Demo",
     "parent": "3683780",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64",
@@ -114,7 +113,78 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758673198",
     "gameid": "3978860",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "betaDrive Modes",
+    "publisher": "betaDrive Modes",
+    "homepage": "https://linktr.ee/betadrivemodes"
+  },
+  "config": {
+    "installdir": "Off the Text - Demo Track",
+    "launch": {
+      "0": {
+        "executable": "Off the Text - Demo Track.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Demo Track for Windows"
+        },
+        "description": "Launch Demo Track for Windows"
+      },
+      "1": {
+        "executable": "MacOS\\Off the Text - Demo Track",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch Demo Track for Mac"
+        },
+        "description": "Launch Demo Track for Mac"
+      }
+    }
+  },
+  "depots": {
+    "3978861": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3033987430794004567",
+          "size": "1164210960",
+          "download": "966393104"
+        }
+      }
+    },
+    "3978862": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8395776347738735695",
+          "size": "1256135422",
+          "download": "992686080"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20071736",
+        "timeupdated": "1758521418"
+      }
+    }
   }
 }
