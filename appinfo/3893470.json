@@ -1,6 +1,5 @@
 {
   "appid": "3893470",
-  "public_only": "1",
   "common": {
     "name": "The Night Crawler",
     "type": "Game",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "44fee149d1a963822440b231ddde8c0fb3a678db/capsule_231x87.jpg"
@@ -131,9 +130,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758693618",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3893470",
-    "exfgls": "8",
     "store_tags": {
       "0": "6815",
       "1": "97376",
@@ -150,6 +150,48 @@
       "12": "4182",
       "13": "10235",
       "14": "492"
+    }
+  },
+  "extended": {
+    "developer": "Monstigri",
+    "publisher": "Monstigri"
+  },
+  "config": {
+    "installdir": "The Night Crawler",
+    "launch": {
+      "0": {
+        "executable": "The Night Crawler.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3893471": {
+      "manifests": {
+        "public": {
+          "gid": "4915577144336734572",
+          "size": "209710912",
+          "download": "134593408"
+        },
+        "beta": {
+          "gid": "4915577144336734572",
+          "size": "209710912",
+          "download": "134593408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20075302",
+        "timeupdated": "1758540180"
+      },
+      "beta": {
+        "buildid": "20075302",
+        "description": "beta test",
+        "timeupdated": "1758540198"
+      }
     }
   }
 }
