@@ -1,0 +1,143 @@
+{
+  "appid": "3660450",
+  "common": {
+    "name": "Jinchou Demo",
+    "type": "Demo",
+    "parent": "3172830",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "icon": "35855ecb764a03dc8f5ce9602e2270d9b67fb225",
+    "clienttga": "df608981f41d068bbc7918d3dc868faa2eb79764",
+    "clienticon": "f2b994a17b5179e74ecf18147e9609bda376a913",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "97b22c73982178ba5e5ca65012fe2a2c26cee509/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "558f9031becb8943af5327bfbd34b7f971d99071/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "d7e7d3b74060639a21ab1cfa972c8fc813e25068/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1745434981",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Schreibhardt"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Schreibhardt"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1744872014",
+    "gameid": "3660450",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Schreibhardt",
+    "publisher": "Schreibhardt"
+  },
+  "config": {
+    "installdir": "Jinchou Demo",
+    "launch": {
+      "0": {
+        "executable": "Jinchou.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Jinchou.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3660451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4731906939752793400",
+          "size": "811852052",
+          "download": "645154240"
+        }
+      }
+    },
+    "3660452": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8716707275447445492",
+          "size": "815508834",
+          "download": "644949360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20116143",
+        "timeupdated": "1758752866"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "appidredirect": "3172830",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Jinchou/",
+        "pattern": "*"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Jinchou/",
+            "replace": ".local/share/Jinchou/"
+          }
+        }
+      }
+    }
+  }
+}
