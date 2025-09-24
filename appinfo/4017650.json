@@ -1,6 +1,5 @@
 {
   "appid": "4017650",
-  "public_only": "1",
   "common": {
     "name": "节奏末日 Demo",
     "type": "Demo",
@@ -25,7 +24,7 @@
     "osextended": "",
     "clienticon": "b28bce85ef8bf9457ebb0022927d5150b7230840",
     "icon": "b28bce85ef8bf9457ebb0022927d5150b7230840",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8808ef0b884e7a47436e57b6d86783b6cbb3de9c/capsule_231x87.jpg",
@@ -175,7 +174,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758723861",
     "gameid": "4017650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "十年",
+    "publisher": "十年"
+  },
+  "config": {
+    "installdir": "节奏末日 Demo",
+    "launch": {
+      "0": {
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017651": {
+      "manifests": {
+        "public": {
+          "gid": "6409496994584733344",
+          "size": "3201483219",
+          "download": "2732375488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20087747",
+        "timeupdated": "1758603336"
+      }
+    }
   }
 }
