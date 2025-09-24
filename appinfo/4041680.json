@@ -1,6 +1,5 @@
 {
   "appid": "4041680",
-  "public_only": "1",
   "common": {
     "name": "Nasty Zombies Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -68,11 +67,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758685262",
     "gameid": "4041680",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Con No 1",
+    "publisher": "Con No 1"
+  },
+  "config": {
+    "installdir": "Nasty Zombies Demo",
+    "launch": {
+      "0": {
+        "executable": "NastyZombies.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4041681": {
+      "manifests": {
+        "public": {
+          "gid": "2031579707350130557",
+          "size": "1123293446",
+          "download": "458073536"
+        }
+      }
+    },
+    "4041682": {},
+    "branches": {
+      "public": {
+        "buildid": "20102817",
+        "timeupdated": "1758684271"
+      }
     }
   }
 }
