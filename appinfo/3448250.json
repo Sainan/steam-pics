@@ -1,10 +1,9 @@
 {
   "appid": "3448250",
-  "public_only": "1",
   "common": {
     "name": "Jumpbound",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "28e93410d86d5069ec42cf414267ac923beab116",
     "clienttga": "6e6d059efb76608b2d32997fac1cf179b2e00fce",
     "icon": "673c8d1caf814a4fc59a12f760446875636e2678",
@@ -106,9 +105,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758707899",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3448250",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "3877",
@@ -130,6 +130,54 @@
       "17": "492",
       "18": "1756",
       "19": "4026"
+    }
+  },
+  "extended": {
+    "developer": "Another Round Entertainment",
+    "publisher": "Another Round Entertainment"
+  },
+  "config": {
+    "installdir": "Jumpbound",
+    "launch": {
+      "0": {
+        "executable": "JumpGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3448251": {
+      "manifests": {
+        "public": {
+          "gid": "4456310379099666573",
+          "size": "1449428818",
+          "download": "1202544528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20100514",
+        "timeupdated": "1758668737"
+      }
     }
   }
 }
