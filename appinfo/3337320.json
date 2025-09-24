@@ -1,6 +1,5 @@
 {
   "appid": "3337320",
-  "public_only": "1",
   "common": {
     "name": "DEMONOLITION",
     "type": "Game",
@@ -43,7 +42,7 @@
       "latam": "1",
       "indonesian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c07f544cbb855d7f2f27f29cc5fa5c6262b6df38/capsule_231x87.jpg"
@@ -258,9 +257,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758729691",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3337320",
-    "exfgls": "8",
     "store_tags": {
       "0": "9541",
       "1": "19",
@@ -282,5 +282,128 @@
       "17": "1685",
       "18": "3843"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "ХЕКС512 (HEX512)",
+    "publisher": "ХЕКС512 (HEX512)"
+  },
+  "config": {
+    "installdir": "DEMONOLITION",
+    "launch": {
+      "3": {
+        "executable": "Demonolition.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "4": {
+        "executable": "Demonolition.exe",
+        "arguments": "-steam",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DEMONOLITION(Recommended)"
+        },
+        "description": "DEMONOLITION(Recommended)"
+      },
+      "5": {
+        "executable": "Demonolition.exe",
+        "arguments": "-steam -dx12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DEMONOLITION(DirectX-12)"
+        },
+        "description": "DEMONOLITION(DirectX-12)"
+      },
+      "6": {
+        "executable": "Demonolition.exe",
+        "arguments": "-steam -dx11 -ngxdisable",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DEMONOLITION(DirectX-11)"
+        },
+        "description": "DEMONOLITION(DirectX-11)"
+      },
+      "7": {
+        "executable": "Demonolition.exe",
+        "arguments": "-steam -vulkan",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DEMONOLITION (Vulkan)"
+        },
+        "description": "DEMONOLITION (Vulkan)"
+      }
+    },
+    "app_mappings": {},
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3337321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1911992002801055084",
+          "size": "3277373209",
+          "download": "3046111008"
+        }
+      }
+    },
+    "3337322": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3659994054337619079",
+          "size": "3060442833",
+          "download": "2897229376"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20111913",
+        "timeupdated": "1758729643"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "1000"
   }
 }
