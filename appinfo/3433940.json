@@ -1,6 +1,5 @@
 {
   "appid": "3433940",
-  "public_only": "1",
   "common": {
     "name": "Forsaker:DingDing&Blade",
     "type": "Game",
@@ -15,7 +14,7 @@
       "tchinese": "棄種：叮叮與聖劍",
       "english": "Forsaker:DingDing&Blade"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -149,9 +148,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758678634",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3433940",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -178,6 +178,114 @@
       "17": "3834",
       "18": "3959",
       "19": "5716"
+    }
+  },
+  "extended": {
+    "developer": "圣剑提灯制作组 [BladeLanternStudios]",
+    "publisher": "Infini Fun"
+  },
+  "config": {
+    "installdir": "Forsaker_DingDingAndBlade",
+    "launch": {
+      "0": {
+        "executable": "Forsaker_DingDingAndBlade.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "schinese": "弃种：叮叮与圣剑"
+        }
+      },
+      "1": {
+        "executable": "Forsaker_DingDingAndBlade.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3433941": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8998832869948385004",
+          "size": "4110132477",
+          "download": "2151572880"
+        }
+      }
+    },
+    "3433942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7311139904893128237",
+          "size": "4237357204",
+          "download": "2184374288"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20095668",
+        "timeupdated": "1758642704"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Forsaker/Forsaker_DingDingAndBlade",
+        "pattern": "*.*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Forsaker/Forsaker_DingDingAndBlade",
+            "replace": "Forsaker/Forsaker_DingDingAndBlade"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Forsaker/Forsaker_DingDingAndBlade",
+            "replace": ".local/share/Forsaker/Forsaker_DingDingAndBlade"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "Forsaker/Forsaker_DingDingAndBlade",
+            "replace": "Forsaker/Forsaker_DingDingAndBlade"
+          }
+        }
+      }
     }
   }
 }
