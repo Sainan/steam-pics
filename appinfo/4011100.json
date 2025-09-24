@@ -1,6 +1,5 @@
 {
   "appid": "4011100",
-  "public_only": "1",
   "common": {
     "name": "Kingdomino Demo",
     "type": "Demo",
@@ -19,7 +18,7 @@
         "version": "2"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bf63645f6f84daa430be82134e755004fd969b4c/capsule_231x87.jpg"
     },
@@ -119,7 +118,69 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4011100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Meeple Corp",
+    "publisher": "Meeple Corp",
+    "homepage": "https://meeplecorp.com/kingdomino/"
+  },
+  "config": {
+    "installdir": "Kingdomino Demo",
+    "launch": {
+      "0": {
+        "executable": "Kingdomino.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Kingdomino.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4011101": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7138550385674459285",
+          "size": "378701310",
+          "download": "127704144"
+        }
+      }
+    },
+    "4011102": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "325147617972488141",
+          "size": "690785492",
+          "download": "187194256"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,russian,polish",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20109379",
+        "timeupdated": "1758718851"
+      }
+    },
+    "privatebranches": "1"
   }
 }
