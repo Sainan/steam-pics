@@ -1,6 +1,5 @@
 {
   "appid": "3790990",
-  "public_only": "1",
   "common": {
     "name": "TheAsterion",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -124,6 +123,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758706429",
     "community_hub_visible": "1",
     "gameid": "3790990",
     "exfgls": "3",
@@ -148,6 +148,56 @@
       "17": "4182",
       "18": "21",
       "19": "113"
+    }
+  },
+  "extended": {
+    "developer": "Luca Rinaudo",
+    "publisher": "Sodio",
+    "homepage": "https://www.lucarinaudo.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "TheAsterion",
+    "launch": {
+      "0": {
+        "executable": "TheAsterion.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "7"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3790992": {
+      "manifests": {
+        "public": {
+          "gid": "2540096279415958080",
+          "size": "1334960935",
+          "download": "1183472864"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19929165",
+        "timeupdated": "1757521004"
+      }
     }
   }
 }
