@@ -1,0 +1,168 @@
+{
+  "appid": "3543600",
+  "common": {
+    "name": "Terradune Demo",
+    "type": "Demo",
+    "parent": "3454780",
+    "icon": "6e6ddb8a31b48030115232c3cfa30dd37f4be4dd",
+    "clienticon": "a79d72e3d16fbb8ca9accd58f64e951278a4ea2d",
+    "clienttga": "1052da47ffe55ecc349dd0f8bc8059bb3f2c66ba",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "f57fc5e458755b64dc6de35284836bf0744ed507/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "00e4fb518bf35c07f0f376abd759bf5d8949c808/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "eb967329e8dfe97bea2d8b891b367115e5d58e6c/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "eb967329e8dfe97bea2d8b891b367115e5d58e6c/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "7f32c4108413cecd576874c983cd155fea13987b/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "7f32c4108413cecd576874c983cd155fea13987b/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "7f32c4108413cecd576874c983cd155fea13987b/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "00e4fb518bf35c07f0f376abd759bf5d8949c808/library_header.jpg"
+        },
+        "image2x": {
+          "english": "00e4fb518bf35c07f0f376abd759bf5d8949c808/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1754954800",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "SvanDark"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "SvanDark"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "3"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1749488428",
+    "gameid": "3543600",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SvanDark",
+    "publisher": "SvanDark"
+  },
+  "config": {
+    "installdir": "game_build",
+    "launch": {
+      "0": {
+        "executable": "Terradune.exe",
+        "arguments": "-windowed",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Terradune.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "301101"
+        }
+      },
+      "2": {
+        "executable": "Terradune.x64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64",
+          "ownsdlc": "301101"
+        }
+      },
+      "3": {
+        "executable": "Terradune.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "301101"
+        }
+      },
+      "4": {
+        "executable": "Terradune.app/Contents/MacOS/Terradune",
+        "workingdir": "Terradune.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "301101"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3543601": {
+      "manifests": {
+        "public": {
+          "gid": "7066943642522635817",
+          "size": "145731292",
+          "download": "54356752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18797389",
+        "timeupdated": "1749485348"
+      }
+    }
+  }
+}
