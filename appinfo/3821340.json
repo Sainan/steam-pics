@@ -1,6 +1,5 @@
 {
   "appid": "3821340",
-  "public_only": "1",
   "common": {
     "name": "House of Wisdom Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "08a49efb682e1a48e8615b75e6c8a7412659403e",
     "clienticon": "85ce19e81d2bce533b6200665495e985039f100b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -72,7 +71,41 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758747926",
     "gameid": "3821340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Maude Desrochers",
+    "publisher": "MGC"
+  },
+  "config": {
+    "installdir": "House of Wisdom Demo",
+    "launch": {
+      "0": {
+        "executable": "HOW.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3821341": {
+      "manifests": {
+        "public": {
+          "gid": "3877847218803801540",
+          "size": "746105433",
+          "download": "296635904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19866792",
+        "timeupdated": "1757054539"
+      }
+    }
   }
 }
