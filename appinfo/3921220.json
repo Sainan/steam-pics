@@ -1,6 +1,5 @@
 {
   "appid": "3921220",
-  "public_only": "1",
   "common": {
     "name": "Enigmas of Nona: Canaly TD Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -67,5 +66,76 @@
     },
     "gameid": "3921220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Brlin",
+    "publisher": "Brlin"
+  },
+  "config": {
+    "installdir": "Enigmas of Nona Canaly TD Demo",
+    "launch": {
+      "0": {
+        "executable": "canaconquerDEMO.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "canaconquerDEMO.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "canaconquerDEMO.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3921221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6865869191399022066",
+          "size": "331577757",
+          "download": "97204160"
+        }
+      }
+    },
+    "3921222": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3654177254317709572",
+          "size": "333054166",
+          "download": "96101840"
+        }
+      }
+    },
+    "3921223": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7225198411550394579",
+          "size": "324700576",
+          "download": "93917616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20097218",
+        "timeupdated": "1758649774"
+      }
+    }
   }
 }
