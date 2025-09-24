@@ -1,13 +1,12 @@
 {
   "appid": "3454190",
-  "public_only": "1",
   "common": {
     "name": "The Four Money Bears: Berryville",
     "type": "Game",
     "icon": "d27c5a1d12afa62591435dcca7245bbfb8ee4ef4",
     "clienticon": "0466bfa024530401ce483e4b38d05a1339e1c164",
     "clienttga": "ae1dcbb44dd1b9fe10b1867a3b9487bdb783bf1d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758690489",
     "community_hub_visible": "1",
     "gameid": "3454190",
-    "exfgls": "8",
     "store_tags": {
       "0": "1036",
       "1": "97376",
@@ -126,5 +125,46 @@
       "18": "3810",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "TFMB inc.",
+    "publisher": "TFMB inc.",
+    "homepage": "https://www.thefourmoneybears.com/"
+  },
+  "config": {
+    "installdir": "The Four Money Bears Berryville",
+    "launch": {
+      "0": {
+        "executable": "Berryville.exe"
+      }
+    }
+  },
+  "depots": {
+    "3454191": {
+      "manifests": {
+        "public": {
+          "gid": "8715705274182544423",
+          "size": "351821011",
+          "download": "128173760"
+        },
+        "internal-testing": {
+          "gid": "30076754808513219",
+          "size": "317215942",
+          "download": "122930880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20096992",
+        "timeupdated": "1758654259"
+      },
+      "internal-testing": {
+        "buildid": "18587932",
+        "description": "for internal tests only",
+        "timeupdated": "1748031393"
+      }
+    },
+    "privatebranches": "1"
   }
 }
