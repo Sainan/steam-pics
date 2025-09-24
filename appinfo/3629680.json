@@ -1,0 +1,138 @@
+{
+  "appid": "3629680",
+  "common": {
+    "name": "Tabulo Demo",
+    "type": "Demo",
+    "parent": "3538860",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "icon": "5931092515ab0eaccc5f0d703ae2c734c24982b3",
+    "clienticon": "89a839a90ce1026d6f94976aedc9851a89939d36",
+    "clienttga": "cd7ee5cecf7ccab9f95a88b43fabab787adfec02",
+    "clienticns": "8029afb7bddd0098cea65dd1ca9d5dcc116b0abb",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "8099c48ec4b5de89202b94acc23122dda3168da9/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "f25c80f1d1895173fe29a1b6087a340797eb4e05/header.jpg"
+    },
+    "store_asset_mtime": "1743257635",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Noah Waltman"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Noah Waltman"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1746710313",
+    "gameid": "3629680",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Noah Waltman",
+    "publisher": "Noah Waltman"
+  },
+  "config": {
+    "installdir": "Tabulo Demo",
+    "launch": {
+      "0": {
+        "executable": "Tabulo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Tabulo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "TabuloLinux.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3629682": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4280430844556698673",
+          "size": "136405016",
+          "download": "65946400"
+        }
+      }
+    },
+    "3629683": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5577786681019669062",
+          "size": "233047821",
+          "download": "92028016"
+        }
+      }
+    },
+    "3629684": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2908531488915576115",
+          "size": "111627280",
+          "download": "59520336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20036478",
+        "timeupdated": "1758220396"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Tabulo/",
+        "pattern": "*.ini"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    },
+    "appidredirect": "3539430"
+  }
+}
