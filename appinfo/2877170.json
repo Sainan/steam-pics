@@ -1,6 +1,5 @@
 {
   "appid": "2877170",
-  "public_only": "1",
   "common": {
     "name": "Touhou Makuka Sai ~ Fantastic Danmaku Festival Part III",
     "type": "Game",
@@ -12,7 +11,7 @@
     "icon": "90aa0059689b6545f527016e520041fc6914a44d",
     "clienttga": "91bd838e6ca2170a755709ce35fd5d2cda6c2a29",
     "clienticon": "04da6d0f109f664705bb1512b1873d5f0916e1af",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758715034",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2877170",
-    "exfgls": "8",
     "store_tags": {
       "0": "4885",
       "1": "4255",
@@ -186,6 +186,110 @@
       "17": "4182",
       "18": "492",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "东方幕华祭制作组",
+    "publisher": "东方幕华祭制作组"
+  },
+  "config": {
+    "installdir": "Touhou Makuka Sai ~ Fantastic Danmaku Festival Part III",
+    "launch": {
+      "0": {
+        "executable": "THMHJ.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2877171": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6842234429117784012",
+          "size": "1972306862",
+          "download": "737790864"
+        },
+        "media": {
+          "gid": "419529609868855686",
+          "size": "1972750150",
+          "download": "737986912"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20105763",
+        "timeupdated": "1758702632"
+      },
+      "media": {
+        "buildid": "20105507",
+        "description": "review",
+        "timeupdated": "1758702620"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Content/Data",
+        "pattern": "4.xna",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Content/Data",
+        "pattern": "5.xna",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "Content/Data",
+        "pattern": "8.xna",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "gameinstall",
+        "path": "Content/Music",
+        "pattern": "00.xna",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "4": {
+        "root": "gameinstall",
+        "path": "Replay",
+        "pattern": "*.rpy",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
