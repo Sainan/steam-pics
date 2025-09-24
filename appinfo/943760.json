@@ -1,0 +1,79 @@
+{
+  "appid": "943760",
+  "common": {
+    "name": "SteamOS Devkit Client",
+    "type": "Application",
+    "releasestate": "released",
+    "service_app": "1",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "associations": {},
+    "community_hub_visible": "1",
+    "gameid": "943760",
+    "exfgls": "6",
+    "store_tags": {}
+  },
+  "extended": {
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "SteamOSDevkitClient",
+    "launch": {
+      "0": {
+        "executable": "devkit-gui.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "windows-client/devkit-gui.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "943761": {
+      "manifests": {
+        "public": {
+          "gid": "2728125713001976787",
+          "size": "538688876",
+          "download": "136195600"
+        },
+        "beta": {
+          "gid": "2728125713001976787",
+          "size": "538688876",
+          "download": "136195600"
+        },
+        "previous_release": {
+          "gid": "3119534828306521452",
+          "size": "530398534",
+          "download": "124764944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18830520",
+        "timeupdated": "1749672097"
+      },
+      "beta": {
+        "buildid": "18830520",
+        "description": "beta release",
+        "timeupdated": "1749672072"
+      },
+      "previous_release": {
+        "buildid": "18215604",
+        "description": "previous release",
+        "timeupdated": "1749672061"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
