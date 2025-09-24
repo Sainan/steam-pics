@@ -1,6 +1,5 @@
 {
   "appid": "3019000",
-  "public_only": "1",
   "common": {
     "name": "sushininjarobot TD",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "f847b8658f8f8ca6f8f56dbe84699641b8c58449",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "icon": "c36b941438f265b40c9c5054532617edc71bfc01",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758681615",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3019000",
-    "exfgls": "8",
     "store_tags": {
       "0": "1645",
       "1": "3959",
@@ -181,5 +181,42 @@
       "12": "4182",
       "13": "492"
     }
+  },
+  "extended": {
+    "developer": "Salted Hoya",
+    "publisher": "Salted Hoya"
+  },
+  "config": {
+    "installdir": "sushininjarobot TD",
+    "launch": {
+      "0": {
+        "executable": "sushininjarobottd.exe"
+      }
+    }
+  },
+  "depots": {
+    "3019001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1572834129740364029",
+          "size": "517897254",
+          "download": "203008464"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,polish,turkish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20093066",
+        "timeupdated": "1758630664"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10"
   }
 }
