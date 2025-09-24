@@ -1,13 +1,12 @@
 {
   "appid": "4014200",
-  "public_only": "1",
   "common": {
     "name": "Evil eye Demo",
     "type": "Demo",
     "parent": "3489910",
     "icon": "5cafaa526af7c9547fca0ecf20aa3399a81fdd9b",
     "clienticon": "1336d501447a3356b8f0c9bb561833226efb1873",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
@@ -111,7 +110,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "gameid": "4014200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Котёл",
+    "publisher": "HarGrib"
+  },
+  "config": {
+    "installdir": "Evil eye Demo",
+    "launch": {
+      "0": {
+        "executable": "Evil.eye.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Evil.eye.exe",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4014201": {
+      "manifests": {
+        "public": {
+          "gid": "135357796986196466",
+          "size": "507585276",
+          "download": "399731856"
+        }
+      }
+    },
+    "baselanguages": "russian",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20106938",
+        "timeupdated": "1758708191"
+      }
+    }
   }
 }
