@@ -1,4 +1,172 @@
 {
   "appid": "4038510",
-  "public_only": "1"
+  "common": {
+    "name": "The House of Hamelin Playtest",
+    "type": "Beta",
+    "parent": "3233300",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "706985c8dab873a7d764c7c14cec78ac39011ada",
+    "icon": "706985c8dab873a7d764c7c14cec78ac39011ada",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "c6c3f761f09e004ebe708023d291f1dac755d927/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "380ec0014d9cf9ddfda76a681eb6f768aa9310b6/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "6a51c72a0402dbb4fb7ae078063ee772a1742b58/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "6a51c72a0402dbb4fb7ae078063ee772a1742b58/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "bacd58cdde0353851a0afb85ad6c423fcf9740b4/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "bacd58cdde0353851a0afb85ad6c423fcf9740b4/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "bacd58cdde0353851a0afb85ad6c423fcf9740b4/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "467efdcc40e4d0cdb5127e13827ac00a2bd77006/logo.png"
+        },
+        "image2x": {
+          "english": "467efdcc40e4d0cdb5127e13827ac00a2bd77006/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "380ec0014d9cf9ddfda76a681eb6f768aa9310b6/library_header.jpg"
+        },
+        "image2x": {
+          "english": "380ec0014d9cf9ddfda76a681eb6f768aa9310b6/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758241544",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1758749666",
+    "community_hub_visible": "1",
+    "gameid": "4038510",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "The House of Hamelin Playtest",
+    "launch": {
+      "0": {
+        "executable": "HouseOfHamelin.exe",
+        "arguments": "-force-d3d12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX12"
+        },
+        "description": "DirectX12"
+      },
+      "1": {
+        "executable": "HouseOfHamelin.exe",
+        "arguments": "-force-d3d11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX11"
+        },
+        "description": "DirectX11"
+      },
+      "2": {
+        "executable": "HouseOfHamelin.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "HouseOfHamelin.x86_64",
+        "arguments": "-screen-fullscreen 0",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4038511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6369233184495891207",
+          "size": "12242003617",
+          "download": "5037813664"
+        }
+      }
+    },
+    "4038512": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2971981116806349106",
+          "size": "12305691515",
+          "download": "5063417936"
+        }
+      }
+    },
+    "4038513": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "894642828362077388",
+          "size": "12364202043",
+          "download": "5110920608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20040927",
+        "timeupdated": "1758247846"
+      }
+    }
+  }
 }
