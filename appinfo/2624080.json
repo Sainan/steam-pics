@@ -1,6 +1,5 @@
 {
   "appid": "2624080",
-  "public_only": "1",
   "common": {
     "name": "MycoRelic",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e582978f40b52049dade51f41eb6b07cec79f2a9",
     "clienticon": "0a2ed7afcf7aa395ddeee4a15a78d3981d85173b",
     "clienttga": "634a94a6c6db8a6cd477e73b823f7fef1c4eef03",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "26b020714f0105dc0237619145bb3a793ae3459c/capsule_231x87.jpg"
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758750912",
     "community_hub_visible": "1",
     "gameid": "2624080",
-    "exfgls": "8",
     "store_tags": {
       "0": "29482",
       "1": "4231",
@@ -129,5 +128,65 @@
       "18": "6730",
       "19": "3993"
     }
+  },
+  "extended": {
+    "developer": "Sandy Dingo Games",
+    "publisher": "Sandy Dingo Games",
+    "homepage": "https://www.mycorelic.com/"
+  },
+  "config": {
+    "installdir": "MycoRelic",
+    "launch": {
+      "0": {
+        "executable": "MycoRelic.exe",
+        "arguments": "-NoVerifyGC",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2624081": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5963429412612061620",
+          "size": "665900920",
+          "download": "520756096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20115774",
+        "timeupdated": "1758750281"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "400000000",
+    "maxnumfiles": "1000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
