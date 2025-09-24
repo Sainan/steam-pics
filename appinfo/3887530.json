@@ -1,4 +1,268 @@
 {
   "appid": "3887530",
-  "public_only": "1"
+  "common": {
+    "name": "Packmates Demo",
+    "type": "Demo",
+    "parent": "3171540",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "105b1355125c84ebdf45fd97be76e55153d04218",
+    "clienticon": "fc828c857821575e7d8d0b5e2b335787e76282c8",
+    "clienttga": "143be6e4cb473bf3a838a7bb28f787140b91a511",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "5cbd72f6d506bc9188a40555c0c8aac3ee597a08/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "ee72097da2b764ba59553aaa8ff8d8d1bfd66391/header.jpg"
+    },
+    "store_asset_mtime": "1758498260",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Digital Confectioners"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Digital Confectioners"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_18": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "bulgarian": {
+        "supported": "true"
+      },
+      "czech": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "finnish": {
+        "supported": "true"
+      },
+      "greek": {
+        "supported": "true"
+      },
+      "hungarian": {
+        "supported": "true"
+      },
+      "indonesian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "romanian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "swedish": {
+        "supported": "true"
+      },
+      "thai": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "ukrainian": {
+        "supported": "true"
+      },
+      "vietnamese": {
+        "supported": "true"
+      }
+    },
+    "gameid": "3887530",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Digital Confectioners",
+    "publisher": "Digital Confectioners",
+    "homepage": "https://packmatesgame.com/"
+  },
+  "config": {
+    "installdir": "Packmates Demo",
+    "launch": {
+      "0": {
+        "executable": "PE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play Packmates"
+        },
+        "description": "Play Packmates"
+      },
+      "1": {
+        "executable": "PE.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Play Packmates"
+        },
+        "description": "Play Packmates"
+      }
+    },
+    "uselaunchcommandline": "1",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3887531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6524675399328841031",
+          "size": "2716068784",
+          "download": "1177840224"
+        }
+      }
+    },
+    "3887532": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "468109456247140020",
+          "size": "4763445381",
+          "download": "1414760032"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20102216",
+        "timeupdated": "1758680658"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PackmatesDemo/Saved",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "PackmatesDemo/Config/Windows",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "LinuxXdgDataHome",
+        "path": "PackmatesDemo/Saved",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "3": {
+        "root": "LinuxXdgDataHome",
+        "path": "PackmatesDemo/Config/Linux",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
+    }
+  }
 }
