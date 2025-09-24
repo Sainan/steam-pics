@@ -1,6 +1,5 @@
 {
   "appid": "3989040",
-  "public_only": "1",
   "common": {
     "name": "Aquaville Demo",
     "type": "Demo",
@@ -16,7 +15,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "58c918476c849b2ea2379fe9cea945d29cf21c83",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -126,5 +125,43 @@
     },
     "gameid": "3989040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Team Machiavelli",
+    "publisher": "Team Machiavelli",
+    "homepage": "https://linktr.ee/teammachiavelli"
+  },
+  "config": {
+    "installdir": "Aquaville Demo",
+    "launch": {
+      "0": {
+        "executable": "Aquaville.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Aquaville Demo"
+        },
+        "description": "Aquaville Demo"
+      }
+    }
+  },
+  "depots": {
+    "3989041": {
+      "manifests": {
+        "public": {
+          "gid": "141041145195279432",
+          "size": "901695243",
+          "download": "142440848"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20098590",
+        "timeupdated": "1758657235"
+      }
+    }
   }
 }
