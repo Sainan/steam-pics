@@ -1,6 +1,5 @@
 {
   "appid": "4012240",
-  "public_only": "1",
   "common": {
     "name": "Alex's Sketchbook World Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -49,7 +48,49 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "4012240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nociyue",
+    "publisher": "Nociyue"
+  },
+  "config": {
+    "installdir": "Alex's Sketchbook World Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4012241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6726512363556822379",
+          "size": "596320289",
+          "download": "275484064"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20115024",
+        "timeupdated": "1758745766"
+      }
+    }
   }
 }
