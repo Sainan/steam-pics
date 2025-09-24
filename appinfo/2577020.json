@@ -1,6 +1,5 @@
 {
   "appid": "2577020",
-  "public_only": "1",
   "common": {
     "name": "The Spiral",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -109,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758729600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2577020",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -132,6 +132,105 @@
       "13": "1759",
       "14": "5125",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "The New Bit, LLC",
+    "publisher": "The New Bit, LLC"
+  },
+  "config": {
+    "installdir": "The Spiral",
+    "launch": {
+      "0": {
+        "executable": "spiral.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "spiral.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2577021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7186968829383650400",
+          "size": "99844192",
+          "download": "31162000"
+        }
+      }
+    },
+    "2577022": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5017205765247922788",
+          "size": "73180640",
+          "download": "24578704"
+        }
+      }
+    },
+    "2577024": {
+      "manifests": {
+        "public": {
+          "gid": "6680175426937362059",
+          "size": "1994243296",
+          "download": "547148256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20111698",
+        "timeupdated": "1758728656"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5242880",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/The Spiral/profiles/{64BitSteamID}/",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/The Spiral/profiles/{64BitSteamID}/",
+            "replace": ".local/share/godot/app_userdata/The Spiral/profiles/{64BitSteamID}/"
+          }
+        }
+      }
     }
   }
 }
