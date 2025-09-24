@@ -1,6 +1,5 @@
 {
   "appid": "4011240",
-  "public_only": "1",
   "common": {
     "name": "Assassin Of Goblin",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "a5ea7a7fd6d75948ab748d10d30a5828751c7ec6",
     "clienticon": "e1443b2aa402821c296823338237180a4db716a0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758697263",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4011240",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -129,6 +129,61 @@
       "16": "4486",
       "17": "4172",
       "18": "492"
+    }
+  },
+  "extended": {
+    "developer": "Saylor Games",
+    "publisher": "Saylor Games"
+  },
+  "config": {
+    "installdir": "Assansin Of Goblin",
+    "launch": {
+      "0": {
+        "executable": "assansingoblin.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4011241": {
+      "manifests": {
+        "public": {
+          "gid": "6428111437512859194",
+          "size": "9898752795",
+          "download": "9664664592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19886327",
+        "timeupdated": "1757227729"
+      }
     }
   }
 }
