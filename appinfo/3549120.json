@@ -1,10 +1,9 @@
 {
   "appid": "3549120",
-  "public_only": "1",
   "common": {
     "name": "Triumvora",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "95362baf9060bbaf94b48df5f8d2e6e44806d1ae",
     "clienticon": "515c4f21bbbfb131ebeb0cd52797e01e9918060a",
     "clienttga": "3bbe3b8054888ea383427e237ead94685f4a37d4",
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758729663",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3549120",
-    "exfgls": "8",
     "store_tags": {
       "0": "3959",
       "1": "599",
@@ -135,6 +135,71 @@
       "17": "1716",
       "18": "7481",
       "19": "5125"
+    }
+  },
+  "extended": {
+    "developer": "Bliss by Bits",
+    "publisher": "Bliss by Bits",
+    "homepage": "https://triumvora.blissbybits.com"
+  },
+  "config": {
+    "installdir": "Triumvora",
+    "launch": {
+      "0": {
+        "executable": "Triumvora.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3549121": {
+      "manifests": {
+        "public": {
+          "gid": "7065071045297015067",
+          "size": "1478401589",
+          "download": "1173440832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20107368",
+        "timeupdated": "1758710175"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Triumvora/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
