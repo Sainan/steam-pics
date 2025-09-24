@@ -1,6 +1,5 @@
 {
   "appid": "4016930",
-  "public_only": "1",
   "common": {
     "name": "The Ripe Blood Anthology: This World Is Just for the Two of Us (Demo)",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -117,7 +116,85 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "gameid": "4016930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Роман Ветер-Пурпурный",
+    "publisher": "Роман Ветер-Пурпурный"
+  },
+  "config": {
+    "installdir": "The Ripe Blood Anthology This World Is Just for the Two of Us Demo",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "game.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4016931": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1156925111534496988",
+          "size": "189733216",
+          "download": "127467856"
+        }
+      }
+    },
+    "4016932": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7812654810448353120",
+          "size": "173835840",
+          "download": "123220480"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20106620",
+        "timeupdated": "1758706631"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".local/share/godot/app_userdata/This World Is Just for the Two of Us - TRBA/saves",
+        "pattern": "*.save",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WindowsHome",
+        "path": "AppData/Roaming/Godot/app_userdata/This World Is Just for the Two of Us - TRBA",
+        "pattern": "*.save",
+        "recursive": "1"
+      }
+    }
   }
 }
