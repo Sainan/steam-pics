@@ -1,6 +1,5 @@
 {
   "appid": "3595800",
-  "public_only": "1",
   "common": {
     "name": "ROAD59　A Yakuza’s Last Stand",
     "type": "Game",
@@ -12,7 +11,7 @@
       "schinese": "ROAD59 -新时代任侠特区- 摩天楼黑白抗争",
       "tchinese": "ROAD59 -新時代任俠特區 - 摩天樓黑白抗爭"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -154,9 +153,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758725982",
     "community_hub_visible": "1",
     "gameid": "3595800",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -182,6 +181,56 @@
       "17": "5716",
       "18": "1680",
       "19": "5186"
+    }
+  },
+  "extended": {
+    "developer": "株式会社ロケットスタジオ",
+    "publisher": " Bushiroad Inc.",
+    "homepage": "https://game.road59.com/"
+  },
+  "config": {
+    "installdir": "ROAD",
+    "launch": {
+      "0": {
+        "executable": "Road59Adventure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3595801": {
+      "manifests": {
+        "public": {
+          "gid": "8343723320505693482",
+          "size": "1193607061",
+          "download": "962008912"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "18673314",
+        "timeupdated": "1748605454"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "110",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Bushiroad Inc_/Road59Adventure",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
