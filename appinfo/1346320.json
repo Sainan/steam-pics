@@ -1,0 +1,196 @@
+{
+  "appid": "1346320",
+  "common": {
+    "name": "Metal Swarm Infinity",
+    "type": "Game",
+    "releasestate": "released",
+    "logo": "5a53123c10553b7a1a57870355bc692732cb3dd8",
+    "logo_small": "5a53123c10553b7a1a57870355bc692732cb3dd8_thumb",
+    "clienttga": "8b66a829543e363ac4e0f61d0dfda265399da5df",
+    "clienticon": "900f67e88659109efdf7e7c77713a3e8ecce67d5",
+    "icon": "e0091a066200f55df487475bed88478cd707fbd4",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "",
+    "clienticns": "29fcea4cacd2f38c3b1e10f0fe996350b5d63b8a",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "55.882352312621975",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "55.882352312621975",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1631029920",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Andrew Nutter666 Jaggar"
+      },
+      "1": {
+        "type": "developer",
+        "name": "George Dutton"
+      },
+      "2": {
+        "type": "publisher",
+        "name": " Andrew Nutter666 Jaggar"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_15": "1",
+      "category_25": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1631030426",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "1346320",
+    "store_tags": {
+      "0": "492",
+      "1": "1773",
+      "2": "4255",
+      "3": "19",
+      "4": "3871",
+      "5": "4182",
+      "6": "1673",
+      "7": "4195",
+      "8": "4305",
+      "9": "4791",
+      "10": "1755",
+      "11": "5125"
+    }
+  },
+  "extended": {
+    "developer": "Andrew Nutter666 Jaggar",
+    "publisher": " Andrew Nutter666 Jaggar"
+  },
+  "config": {
+    "installdir": "Metal Swarm Infinity",
+    "launch": {
+      "0": {
+        "executable": "Metal Swarm Infinity.exe",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Metal Swarm Infinity.app",
+        "type": "none",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "1346321": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3856185249681022303",
+          "size": "189886491",
+          "download": "59876720"
+        }
+      }
+    },
+    "1346322": {
+      "config": {
+        "oslist": "macos",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3421269771031491060",
+          "size": "194007609",
+          "download": "60577680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "7424046",
+        "timeupdated": "1632585553"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Nutter 666/Metal Swarm Infinity/{64BitSteamID}",
+        "pattern": "*.txt"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Nutter 666/Metal Swarm Infinity/{64BitSteamID}",
+            "replace": "unity.Nutter 666.Metal Swarm Infinity/{64BitSteamID}"
+          }
+        }
+      }
+    }
+  }
+}
