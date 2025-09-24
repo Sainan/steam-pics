@@ -1,6 +1,5 @@
 {
   "appid": "2824780",
-  "public_only": "1",
   "common": {
     "name": "TORSO TENNIS",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "697f209ceb6a3c4d825b45b2f55b0d3ee98eae40/capsule_231x87.jpg"
@@ -105,9 +104,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758726138",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2824780",
-    "exfgls": "8",
     "store_tags": {
       "0": "1716",
       "1": "492",
@@ -129,6 +129,63 @@
       "17": "4305",
       "18": "1667",
       "19": "4562"
+    }
+  },
+  "extended": {
+    "developer": "Michael Mato",
+    "publisher": "Too Much Tomato",
+    "homepage": "https://www.toomuchtomato.com/"
+  },
+  "config": {
+    "installdir": "TORSO TENNIS",
+    "launch": {
+      "0": {
+        "executable": "TORSO TENNIS.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2824781": {
+      "manifests": {
+        "public": {
+          "gid": "4734289115488179613",
+          "size": "760207057",
+          "download": "88199856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20107377",
+        "timeupdated": "1758710026"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "too much tomato/TORSO TENNIS",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".config/unity3d/too much tomato/TORSO TENNIS"
+          }
+        }
+      }
     }
   }
 }
