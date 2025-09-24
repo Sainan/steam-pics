@@ -1,6 +1,5 @@
 {
   "appid": "2730970",
-  "public_only": "1",
   "common": {
     "name": "Westland Survival",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "41870daba94d750292bf7fffbbcd2355a06db19d",
     "clienticon": "7445d393a470a4ce764f4499a49ccd76c1ba0ec1",
     "clienttga": "96dc2db9d5567120c1764ac6dc01b3599ad6692b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2730970_eula_0",
@@ -224,6 +223,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2730970",
     "exfgls": "3",
@@ -249,5 +250,80 @@
       "18": "4236",
       "19": "13190"
     }
+  },
+  "extended": {
+    "developer": "Helio Games",
+    "publisher": "Helio Games ",
+    "homepage": "https://westland-survival.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Westland Survival",
+    "launch": {
+      "0": {
+        "executable": "Westland Survival.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "Westland Survival.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2730971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3966848197539677696",
+          "size": "816316527",
+          "download": "604487856"
+        }
+      }
+    },
+    "2730972": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4929052701095912761",
+          "size": "816316527",
+          "download": "607997040"
+        }
+      }
+    },
+    "2730973": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1542954733396523081",
+          "size": "910856866",
+          "download": "449014352"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20107230",
+        "timeupdated": "1758709495"
+      }
+    },
+    "privatebranches": "1"
   }
 }
