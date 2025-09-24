@@ -1,0 +1,166 @@
+{
+  "appid": "1844950",
+  "common": {
+    "name": "Aether & Iron Playtest",
+    "type": "Beta",
+    "parent": "1836560",
+    "icon": "441da70d16d77cc52d9f12a1b76f68a9fd9691be",
+    "logo": "2b03eaaa5d964750e848c95587352a1f16b3b72a",
+    "logo_small": "2b03eaaa5d964750e848c95587352a1f16b3b72a_thumb",
+    "clienticon": "d8877a75d46d59c544b8d6b50e32e043ffd7f8d1",
+    "clienttga": "77add0395d4f4dfd1bb55decaa71d40e2d7c2909",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1639170246",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1639444688",
+    "community_hub_visible": "1",
+    "gameid": "1844950",
+    "exfgls": "6"
+  },
+  "extended": {
+    "betaforappid": "1836560"
+  },
+  "config": {
+    "installdir": "Aether Iron Playtest",
+    "launch": {
+      "0": {
+        "executable": "AetherAndIron.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AetherAndIron.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1844951": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4838545412955403364",
+          "size": "12936196107",
+          "download": "3333687008"
+        },
+        "internal": {
+          "gid": "8937555214331456543",
+          "size": "11843586893",
+          "download": "3467077552"
+        }
+      }
+    },
+    "1844952": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6487702321060170191",
+          "size": "953746832",
+          "download": "230975968"
+        },
+        "internal": {
+          "gid": "5381086335918189668",
+          "size": "11909686363",
+          "download": "3283005872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19923257",
+        "timeupdated": "1757492795"
+      },
+      "internal": {
+        "buildid": "20105561",
+        "description": "Used for internal playtesting",
+        "timeupdated": "1758701903"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "15000000",
+    "maxnumfiles": "15",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SeismicSquirrel/Aether And Iron",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "SeismicSquirrel/Aether And Iron",
+        "pattern": "*.bak",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
+}
