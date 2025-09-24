@@ -141,7 +141,7 @@
     "3208631": {
       "manifests": {
         "public": {
-          "gid": "8055645058993231380",
+          "gid": "1896247554547282775",
           "size": "50262787",
           "download": "26714688"
         },
@@ -154,8 +154,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20112613",
-        "timeupdated": "1758733518"
+        "buildid": "20116114",
+        "timeupdated": "1758752276"
       },
       "pre-release": {
         "buildid": "20116114",
@@ -166,6 +166,18 @@
   },
   "ufs": {
     "quota": "100000",
-    "maxnumfiles": "1"
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "WithMyLittleEye",
+        "pattern": "Savegame.toml",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
