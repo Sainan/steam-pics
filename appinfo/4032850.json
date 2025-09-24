@@ -1,6 +1,5 @@
 {
   "appid": "4032850",
-  "public_only": "1",
   "common": {
     "name": "Absum Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "cb1261c302d7d9d9852ffd1f0ebf2ddc7a4a8b37/capsule_231x87.jpg"
@@ -101,7 +100,52 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4032850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MixoGames",
+    "publisher": "MixoGames",
+    "homepage": "https://mixonat.com/"
+  },
+  "config": {
+    "installdir": "Absum Demo",
+    "launch": {
+      "0": {
+        "executable": "Absum Demo\\Absum Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4032851": {
+      "manifests": {
+        "public": {
+          "gid": "4618917312999966079",
+          "size": "7728974777",
+          "download": "4525357616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20038222",
+        "timeupdated": "1758230664"
+      }
+    }
   }
 }
