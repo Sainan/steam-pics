@@ -1,6 +1,5 @@
 {
   "appid": "4052650",
-  "public_only": "1",
   "common": {
     "name": "Cosmic Scramble Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df098d714399ff0b0823896af8e0613b7ad24d6c/capsule_231x87.jpg"
     },
@@ -95,5 +94,37 @@
     },
     "gameid": "4052650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nerdy Birdy Games",
+    "publisher": "Nerdy Birdy Games"
+  },
+  "config": {
+    "installdir": "Cosmic Scramble Demo",
+    "launch": {
+      "0": {
+        "executable": "Scramble the Ships.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4052651": {
+      "manifests": {
+        "public": {
+          "gid": "1868831005148145649",
+          "size": "168374294",
+          "download": "83186752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20068649",
+        "timeupdated": "1758490997"
+      }
+    }
   }
 }
