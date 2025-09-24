@@ -1,6 +1,5 @@
 {
   "appid": "3919020",
-  "public_only": "1",
   "common": {
     "name": "The Diner at the End of the Galaxy: Free Appetiser",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "fee42f2f173a247982eb7969cd978512ecbc7ff2",
     "icon": "fee42f2f173a247982eb7969cd978512ecbc7ff2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "599e86861f9355f7368c069d57d2dba2523e4466/capsule_231x87.jpg"
@@ -101,6 +100,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758719509",
     "community_hub_visible": "1",
     "gameid": "3919020",
     "exfgls": "3",
@@ -125,5 +125,55 @@
       "17": "220585",
       "18": "4182"
     }
+  },
+  "extended": {
+    "developer": "General Interactive Co.",
+    "publisher": "PlayWay S.A.",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Diner at the End of the Galaxy - Prologue",
+    "launch": {
+      "0": {
+        "executable": "The Diner at the End of the Galaxy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3919021": {
+      "manifests": {
+        "public": {
+          "gid": "8706392784114368149",
+          "size": "664191740",
+          "download": "481102160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20095906",
+        "timeupdated": "1758643473"
+      }
+    },
+    "privatebranches": "1"
   }
 }
