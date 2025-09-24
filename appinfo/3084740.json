@@ -1,6 +1,5 @@
 {
   "appid": "3084740",
-  "public_only": "1",
   "common": {
     "name": "Command Deck",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "5bcb6fb15fdd1ad35f6eca891b3b3c11d89a33de",
     "clienttga": "911eaa1057cc2f3ecec975fcf67813daee1c7d3e",
     "clienticns": "a953e71f97ca56ea2187c184243ce6c32202c101",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b776a5b314f237c92ab580aaece45503620fec36/capsule_231x87.jpg"
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758736711",
     "community_hub_visible": "1",
     "gameid": "3084740",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "3942",
@@ -126,5 +125,65 @@
       "18": "4711",
       "19": "5125"
     }
+  },
+  "extended": {
+    "developer": "k-critical",
+    "publisher": "k-critical",
+    "homepage": "https://k-critical.com/commanddeck/"
+  },
+  "config": {
+    "installdir": "Command Deck",
+    "launch": {
+      "0": {
+        "executable": "Command Deck.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Command Deck.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3084741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6432641964185106980",
+          "size": "508745725",
+          "download": "226444560"
+        }
+      }
+    },
+    "3084742": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7580563174653921182",
+          "size": "544930775",
+          "download": "236538128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20107812",
+        "timeupdated": "1758711928"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
