@@ -1,6 +1,5 @@
 {
   "appid": "3026650",
-  "public_only": "1",
   "common": {
     "name": "Master Bobber",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "eb00417f1c6dfa9c74f7be888061ec8f3a757eee",
     "clienttga": "10a3fe6afe5052e251a5c15b6023f62e10c7528e",
     "clienticon": "cece16402b330cc13db276217efd1729b41fc46b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -103,9 +102,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758747199",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3026650",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "4106",
@@ -117,6 +117,48 @@
       "7": "1695",
       "8": "3968",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Michael Medearis",
+    "publisher": "Michael Medearis",
+    "homepage": "https://meatygamer.com"
+  },
+  "config": {
+    "installdir": "Master Bobber",
+    "launch": {
+      "0": {
+        "executable": "mb_v5.exe",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Master Bobber Windows"
+        },
+        "description": "Master Bobber Windows"
+      }
+    }
+  },
+  "depots": {
+    "3026651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1395407508509257519",
+          "size": "974779888",
+          "download": "580353040"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20102264",
+        "timeupdated": "1758680021"
+      }
     }
   }
 }
