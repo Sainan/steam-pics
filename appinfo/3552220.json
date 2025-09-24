@@ -1,6 +1,5 @@
 {
   "appid": "3552220",
-  "public_only": "1",
   "common": {
     "name": "Match Shot Chimera",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "56d9b63b274cab8e0075db87bc404c3d55606bd9",
     "clienticon": "de63b73feed96f8085ac66a736b385cec22a416d",
     "clienttga": "e79ba615e7923fb2877550ec8b901453c82d618c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758733100",
     "community_hub_visible": "1",
     "gameid": "3552220",
-    "exfgls": "8",
     "store_tags": {
       "0": "4255",
       "1": "1665",
@@ -131,6 +130,117 @@
       "17": "1716",
       "18": "4182",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Floating Island Games",
+    "publisher": "Floating Island Games"
+  },
+  "config": {
+    "installdir": "Match Shot Chimera",
+    "launch": {
+      "0": {
+        "executable": "Match Shot Chimera.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MatchShotChimera.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Match Shot Chimera.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3552221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6202288439954004208",
+          "size": "196297226",
+          "download": "86355840"
+        }
+      }
+    },
+    "3552222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6583412454682649694",
+          "size": "272276145",
+          "download": "106903360"
+        }
+      }
+    },
+    "3552223": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8752645525869775553",
+          "size": "225182975",
+          "download": "89056272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19927936",
+        "timeupdated": "1757514860"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "12",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Floating Island Games/Match Shot Chimera",
+        "pattern": "*.ms*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Floating Island Games\\Match Shot Chimera",
+            "replace": "com.Floating-Island-Games.Match-Shot-Chimera"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Floating Island Games\\Match Shot Chimera",
+            "replace": ".config/unity3d/Floating Island Games/Match Shot Chimera/"
+          }
+        }
+      }
     }
   }
 }
