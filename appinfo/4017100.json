@@ -1,6 +1,5 @@
 {
   "appid": "4017100",
-  "public_only": "1",
   "common": {
     "name": "Deadline Escape Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9b386609b5ee3e7c37a1e02c332d6a013bb83ab0/capsule_231x87.jpg"
@@ -87,7 +86,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758724507",
     "gameid": "4017100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DeadlineEscape",
+    "publisher": "DeadlineEscape"
+  },
+  "config": {
+    "installdir": "Deadline Escape Demo",
+    "launch": {
+      "0": {
+        "executable": "DeadlineEscapeDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017101": {
+      "manifests": {
+        "public": {
+          "gid": "179553600502387882",
+          "size": "1705345830",
+          "download": "1395225248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20110156",
+        "timeupdated": "1758722492"
+      }
+    }
   }
 }
