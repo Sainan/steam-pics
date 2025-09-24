@@ -1,6 +1,5 @@
 {
   "appid": "3796000",
-  "public_only": "1",
   "common": {
     "name": "Only Dead",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "9a0282a2ea79a3b7a70eadf8225d3c7e90e64145",
     "clienttga": "3dc5815f4e40863abcdf0e2611f38d2ce50f743f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -102,9 +101,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758733225",
     "community_hub_visible": "1",
     "gameid": "3796000",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -129,6 +128,56 @@
       "17": "4182",
       "18": "6276",
       "19": "4325"
+    }
+  },
+  "extended": {
+    "developer": "Games For Me",
+    "publisher": "Games For Me"
+  },
+  "config": {
+    "installdir": "OnlyDead",
+    "launch": {
+      "0": {
+        "executable": "OnlyDead.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3796001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8594528692584595986",
+          "size": "3876636550",
+          "download": "3723790560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20111902",
+        "timeupdated": "1758729667"
+      }
     }
   }
 }
