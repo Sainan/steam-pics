@@ -1,6 +1,5 @@
 {
   "appid": "4028920",
-  "public_only": "1",
   "common": {
     "name": "Dystopia Girls : Countdown Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -102,6 +101,50 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "JeremyKim",
+    "publisher": "DYJ Studio"
+  },
+  "config": {
+    "installdir": "DystopiaGirlsDemo",
+    "launch": {
+      "0": {
+        "executable": "DystopiaGirls_CountDown.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DystopiaGirlsDemo"
+        },
+        "description": "DystopiaGirlsDemo"
+      }
+    }
+  },
+  "depots": {
+    "4028921": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2229130623644163208",
+          "size": "378064633",
+          "download": "134289280"
+        }
+      }
+    },
+    "baselanguages": "koreana",
+    "branches": {
+      "public": {
+        "buildid": "19944627",
+        "timeupdated": "1757608123"
+      }
     }
   }
 }
