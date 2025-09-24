@@ -1,6 +1,5 @@
 {
   "appid": "3925230",
-  "public_only": "1",
   "common": {
     "name": "GG-Party Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -127,5 +126,58 @@
     },
     "gameid": "3925230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GoraGames",
+    "publisher": "GoraGames",
+    "homepage": "https://gora.games"
+  },
+  "config": {
+    "installdir": "GG-Party Demo",
+    "launch": {
+      "0": {
+        "executable": "GGParty.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3925231": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3375279841239477258",
+          "size": "5809310661",
+          "download": "2421092368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20099501",
+        "timeupdated": "1758709907"
+      }
+    }
   }
 }
