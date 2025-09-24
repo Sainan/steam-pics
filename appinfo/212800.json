@@ -1,0 +1,242 @@
+{
+  "appid": "212800",
+  "common": {
+    "name": "Super Crate Box",
+    "type": "Game",
+    "icon": "842df7463377f931ce83d5224473b7ae68405d60",
+    "clienticon": "63b3c82fb5a6010c21e4aa2edf2cf50523af1984",
+    "clienttga": "945545b13de1a2028981739e3f7fc04f4063e7e8",
+    "logo": "edf3078d2b45a2d3520ac0375cc6875ec126ae81",
+    "logo_small": "edf3078d2b45a2d3520ac0375cc6875ec126ae81_thumb",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1658534400",
+      "tested_build_id": "1299409",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "6": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "1",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "1",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Super Crate Box",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_0d1862eea07558075d0071135e4c155a5f2a2e6c.jpg",
+    "store_asset_mtime": "1344299414",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Vlambeer"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Vlambeer"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "37"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "1",
+        "full_audio": "1"
+      }
+    },
+    "original_release_date": "1287730800",
+    "steam_release_date": "1346265960",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "212800",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "492",
+      "2": "1625",
+      "3": "3964",
+      "4": "19",
+      "5": "3871",
+      "6": "1774",
+      "7": "1773",
+      "8": "3859",
+      "9": "4182",
+      "10": "4026",
+      "11": "4004",
+      "12": "4190",
+      "13": "1649",
+      "14": "1734",
+      "15": "7481",
+      "16": "1685",
+      "17": "1756",
+      "18": "5350",
+      "19": "1716"
+    },
+    "review_score": "8",
+    "review_percentage": "89"
+  },
+  "extended": {
+    "developer": "Vlambeer",
+    "gamedir": "Super Crate Box",
+    "homepage": "http://www.vlambeer.com/",
+    "icon": "",
+    "isfreeapp": "1",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1",
+    "publisher": "Vlambeer"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "supercratebox",
+    "launch": {
+      "0": {
+        "executable": "supercratebox.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SuperCrateBox.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "runner",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "212801": {
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1649915220379187249",
+          "size": "29406749",
+          "download": "21048992"
+        }
+      }
+    },
+    "212802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8189763845518558057",
+          "size": "30675267",
+          "download": "19792928"
+        }
+      }
+    },
+    "212803": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8577027029383501411",
+          "size": "28184537",
+          "download": "19193584"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "preloadonly": "1",
+    "branches": {
+      "public": {
+        "buildid": "1299409",
+        "timeupdated": "1472133556"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": " ",
+        "pattern": "*.sav"
+      }
+    }
+  }
+}
