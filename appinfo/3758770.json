@@ -233,10 +233,39 @@
     "privatebranches": "1"
   },
   "ufs": {
-    "quota": "0",
-    "maxnumfiles": "0",
+    "quota": "200000000",
+    "maxnumfiles": "100",
     "hidecloudui": "1",
     "ignoreexternalfiles": "1",
-    "sync_while_suspended": "1"
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Linegames/EmberAndBlade/Steam/Demo/Cloud",
+        "pattern": "*.es3",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Linegames/EmberAndBlade/Steam/Demo/Cloud",
+            "replace": "com.linegames.emberandblade/Steam/Demo/Cloud"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
+    }
   }
 }
