@@ -1,6 +1,5 @@
 {
   "appid": "3616890",
-  "public_only": "1",
   "common": {
     "name": "Blade & Soul Heroes",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "a39361de45b9726b4a5a271ded8964df87c4b7a2",
     "clienticon": "a39361de45b9726b4a5a271ded8964df87c4b7a2",
     "clienttga": "17c3a53e9bdb9c363d6aaec98b99aaf164794c03",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3616890_eula_0",
@@ -160,6 +159,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758718766",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3616890",
     "exfgls": "3",
@@ -185,5 +186,72 @@
       "18": "6915",
       "19": "9"
     }
+  },
+  "extended": {
+    "developer": "NCSOFT",
+    "publisher": "NCSOFT",
+    "homepage": "https://heroes.plaync.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "B&S Heroes",
+    "launch": {
+      "0": {
+        "executable": "WIN64\\BSH.exe",
+        "arguments": "-steam_launch -local-bundle"
+      },
+      "1": {
+        "executable": "WIN64\\BSH.exe",
+        "arguments": "-steam_launch -local-bundle -RC",
+        "config": {
+          "betakey": "rc_test"
+        },
+        "description_loc": {
+          "english": "RC서버 접속"
+        },
+        "description": "RC서버 접속"
+      },
+      "2": {
+        "executable": "WIN64\\BSH.exe",
+        "arguments": "-steam_launch -local-bundle -CL",
+        "config": {
+          "betakey": "clone"
+        },
+        "description_loc": {
+          "english": "Clone서버 접속"
+        },
+        "description": "Clone서버 접속"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3616891": {
+      "manifests": {
+        "public": {
+          "gid": "7644846871424723689",
+          "size": "30522685832",
+          "download": "27942885504"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20089570",
+        "timeupdated": "1758615689"
+      }
+    },
+    "privatebranches": "1"
   }
 }
