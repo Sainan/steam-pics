@@ -1,0 +1,81 @@
+{
+  "appid": "1875500",
+  "common": {
+    "name": "Treason Dedicated Server",
+    "type": "Tool",
+    "parent": "1786950",
+    "clienttga": "32125fbac667e80197071890c550ea4e1d8f382f",
+    "clienticon": "aa57178f5ce969c469298960cdd277072f3fa81f",
+    "icon": "3f0384d2cf4e5f5cc04329273e16462ee572a0aa",
+    "logo": "631b460ea3ae4ef28501a31f404c9e3aa94a0b81",
+    "logo_small": "631b460ea3ae4ef28501a31f404c9e3aa94a0b81_thumb",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1875500"
+  },
+  "config": {
+    "installdir": "Treason Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "srcds.exe",
+        "arguments": "-game treason",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1875501": {
+      "manifests": {
+        "public": {
+          "gid": "7605192079890583418",
+          "size": "2467673696",
+          "download": "1258033008"
+        }
+      }
+    },
+    "1875502": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "1875503": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19706245",
+        "timeupdated": "1755918727"
+      }
+    }
+  }
+}
