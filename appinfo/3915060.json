@@ -1,6 +1,5 @@
 {
   "appid": "3915060",
-  "public_only": "1",
   "common": {
     "name": "Stadium VR",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienttga": "cd272a44a66470559a1ed5f4bbe85138339d36e3",
     "linuxclienticon": "f067c8eeae4b426480db3ede65fdc032f58d17d3",
     "clienticon": "f067c8eeae4b426480db3ede65fdc032f58d17d3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -119,9 +118,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758214800",
     "community_hub_visible": "1",
     "gameid": "3915060",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1773",
@@ -143,6 +142,62 @@
       "17": "492",
       "18": "597",
       "19": "599"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Madstages",
+    "publisher": "Stadium Games"
+  },
+  "config": {
+    "installdir": "Stadium_Clean",
+    "launch": {
+      "0": {
+        "executable": "Stadium_Clean.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Stadium_Clean.exe",
+        "type": "vr",
+        "description_loc": {
+          "english": "Built in headset detection will enable VR mode on start up."
+        },
+        "description": "Built in headset detection will enable VR mode on start up."
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3915061": {
+      "manifests": {
+        "public": {
+          "gid": "6333717799493858852",
+          "size": "6939509841",
+          "download": "6594788912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20054801",
+        "timeupdated": "1758323648"
+      }
     }
   }
 }
