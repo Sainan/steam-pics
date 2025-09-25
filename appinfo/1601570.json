@@ -32,22 +32,22 @@
       "0": "5"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "steamos_compatibility": "2",
-      "test_timestamp": "1752710400",
-      "tested_build_id": "19214251",
+      "test_timestamp": "1758326400",
+      "tested_build_id": "19960801",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-        },
-        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "2": {
+        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
         },
         "3": {
           "display": "4",
@@ -74,10 +74,10 @@
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "0",
-        "small_text": "1",
+        "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-9.0-4RC",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
