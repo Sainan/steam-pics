@@ -1,6 +1,5 @@
 {
   "appid": "4045260",
-  "public_only": "1",
   "common": {
     "name": "SRUSH Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d7f6e66c57b18afdd8c44f80fc6fcdb9df155327/capsule_231x87.jpg"
@@ -96,7 +95,42 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758762001",
     "gameid": "4045260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AU CREATE",
+    "publisher": "AU CREATE"
+  },
+  "config": {
+    "installdir": "SRUSH_DEMO",
+    "launch": {
+      "0": {
+        "executable": "SRUSH_DEMO/SRUSH.exe"
+      }
+    }
+  },
+  "depots": {
+    "4045261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6323528363487127815",
+          "size": "711218771",
+          "download": "148528016"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20111349",
+        "timeupdated": "1758727124"
+      }
+    },
+    "privatebranches": "1"
   }
 }
