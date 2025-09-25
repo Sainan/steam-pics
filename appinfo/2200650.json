@@ -1,0 +1,220 @@
+{
+  "appid": "2200650",
+  "common": {
+    "name": "Bits & Bops Demo",
+    "type": "Demo",
+    "parent": "1929290",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "clienticon": "4096049bfa3d7638e224da373f375bde7ace1a4e",
+    "clienttga": "0c7513bb2d57a38ec5298bb08e3d8a1f8c6ce682",
+    "icon": "bf3057953408bd3e6c4655a4b1ea6851f1cfbb78",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1749705871",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tempo Lab Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tempo Lab Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_23": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1670259000",
+    "gameid": "2200650",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1929290",
+    "developer": "Tempo Lab Games",
+    "publisher": "Tempo Lab Games",
+    "homepage": "https://bitsandbopsgame.com"
+  },
+  "config": {
+    "installdir": "Bits & Bops Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Bits & Bops.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Bits & Bops.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Bits & Bops.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2200651": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6327085731954496968",
+          "size": "448054881",
+          "download": "123803840"
+        },
+        "beta": {
+          "gid": "2717447775467875903",
+          "size": "448053726",
+          "download": "123803504"
+        }
+      }
+    },
+    "2200652": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8914093824075222041",
+          "size": "439166640",
+          "download": "121063648"
+        },
+        "beta": {
+          "gid": "6605768661681422974",
+          "size": "439165485",
+          "download": "121063312"
+        }
+      }
+    },
+    "2200653": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6938117420257468502",
+          "size": "465131147",
+          "download": "129615536"
+        },
+        "beta": {
+          "gid": "3893110397771577274",
+          "size": "465129992",
+          "download": "129615024"
+        }
+      }
+    },
+    "2200654": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4686986768591713351",
+          "size": "439802269",
+          "download": "120490208"
+        },
+        "beta": {
+          "gid": "3812729988789840332",
+          "size": "439801114",
+          "download": "120489088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19758182",
+        "timeupdated": "1756699556"
+      },
+      "beta": {
+        "buildid": "19866258",
+        "description": "Public beta branch",
+        "timeupdated": "1757221789"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10240",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tempo Lab Games/Bits _ Bops",
+        "pattern": "save.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Tempo Lab Games/Bits _ Bops",
+            "replace": "com.tempolabgames.bitsandbops"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Tempo Lab Games/Bits _ Bops",
+            "replace": ".config/unity3d/Tempo Lab Games/Bits _ Bops"
+          }
+        }
+      }
+    }
+  }
+}
