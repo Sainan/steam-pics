@@ -1,10 +1,9 @@
 {
   "appid": "3654850",
-  "public_only": "1",
   "common": {
     "name": "AQUARIUMS",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "b98c78c00ba05c9544be5b3cf1299a2c57329c19",
     "clienttga": "a59ed36ea0eb6e4ec5550989a9e2ba09972eeb1a",
     "clienticon": "071c14bde253804df87fa594bcecab1f0682b26c",
@@ -510,7 +509,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3654850",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "5900",
@@ -532,5 +530,76 @@
       "17": "3934",
       "18": "492"
     }
+  },
+  "extended": {
+    "developer": "98 REDD GAMES",
+    "publisher": "98 REDD GAMES"
+  },
+  "config": {
+    "installdir": "AQUARIUMS",
+    "launch": {
+      "0": {
+        "executable": "TheAquarium.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TheAquariumMac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3654851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "310140059385805293",
+          "size": "3252647489",
+          "download": "1585078528"
+        }
+      }
+    },
+    "3654852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4451620101433617007",
+          "size": "3615605271",
+          "download": "1581186064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19944074",
+        "timeupdated": "1757604173"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5"
   }
 }
