@@ -1,0 +1,304 @@
+{
+  "appid": "1252670",
+  "common": {
+    "name": "Logic World Dedicated Server",
+    "type": "Tool",
+    "parent": "1054340",
+    "clienticon": "57561c6c223502d47ec2cb5c7facfa68d9a2204d",
+    "clienttga": "3cd3778a9bd885de848084928498d42017aaf33a",
+    "icon": "117d0df1d872fadecaa2b163ac207860692707a1",
+    "linuxclienticon": "3d008514ef7fbb48afd5e8ba074dfb89b40fde2a",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "logo": "b4b440c5a163aef16787eeb338e91e2714b3b60c",
+    "logo_small": "b4b440c5a163aef16787eeb338e91e2714b3b60c_thumb",
+    "releasestate": "released",
+    "associations": {},
+    "gameid": "1252670"
+  },
+  "config": {
+    "installdir": "Logic World Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "net7.0/Server.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "net7.0/Server",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "net7.0/Server",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1252671": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "935264613243643626",
+          "size": "212333852",
+          "download": "61091456"
+        },
+        "older-version-0.90.0": {
+          "gid": "9001356186654937824",
+          "size": "103046989",
+          "download": "33199104"
+        },
+        "older-version-0.90.1": {
+          "gid": "2781449753208298328",
+          "size": "103067098",
+          "download": "33205536"
+        },
+        "older-version-0.90.2": {
+          "gid": "6062332651743403155",
+          "size": "103421398",
+          "download": "33280928"
+        },
+        "older-version-0.90.3": {
+          "gid": "5842543641621055641",
+          "size": "103422523",
+          "download": "33281280"
+        },
+        "older-version-0.91.0": {
+          "gid": "5588733672175018984",
+          "size": "211576907",
+          "download": "60845536"
+        },
+        "older-version-0.91.1": {
+          "gid": "6015975310731990128",
+          "size": "211654111",
+          "download": "60865328"
+        },
+        "older-version-0.91.2": {
+          "gid": "338378085811750474",
+          "size": "212080613",
+          "download": "60965968"
+        },
+        "public-previews": {
+          "gid": "1079234905332063705",
+          "size": "109077587",
+          "download": "37081136"
+        }
+      }
+    },
+    "1252672": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3710104161112842155",
+          "size": "214924049",
+          "download": "61850640"
+        },
+        "older-version-0.90.0": {
+          "gid": "7333620006893949728",
+          "size": "112043982",
+          "download": "34196000"
+        },
+        "older-version-0.90.1": {
+          "gid": "6480316553627068289",
+          "size": "112064103",
+          "download": "34202080"
+        },
+        "older-version-0.90.2": {
+          "gid": "2742987986905561132",
+          "size": "112421215",
+          "download": "34260816"
+        },
+        "older-version-0.90.3": {
+          "gid": "2077063854713287962",
+          "size": "112422340",
+          "download": "34261264"
+        },
+        "older-version-0.91.0": {
+          "gid": "1279971228749618208",
+          "size": "214348273",
+          "download": "61695168"
+        },
+        "older-version-0.91.1": {
+          "gid": "387001833466158257",
+          "size": "214410925",
+          "download": "61701456"
+        },
+        "older-version-0.91.2": {
+          "gid": "7895439881024803345",
+          "size": "214710099",
+          "download": "61764192"
+        },
+        "public-previews": {
+          "gid": "6334316340805529627",
+          "size": "110660961",
+          "download": "37263024"
+        }
+      }
+    },
+    "1252673": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "7121414239711071155",
+          "size": "212134939",
+          "download": "60901232"
+        },
+        "older-version-0.90.0": {
+          "gid": "638188199948156965",
+          "size": "106608998",
+          "download": "33542656"
+        },
+        "older-version-0.90.1": {
+          "gid": "5000997292670357776",
+          "size": "106629619",
+          "download": "33550016"
+        },
+        "older-version-0.90.2": {
+          "gid": "672653592197991436",
+          "size": "106985599",
+          "download": "33610928"
+        },
+        "older-version-0.90.3": {
+          "gid": "6971713411016983762",
+          "size": "106986724",
+          "download": "33610976"
+        },
+        "older-version-0.91.0": {
+          "gid": "2851303259498902976",
+          "size": "211605259",
+          "download": "60745744"
+        },
+        "older-version-0.91.1": {
+          "gid": "2747676708519903402",
+          "size": "211673103",
+          "download": "60760656"
+        },
+        "older-version-0.91.2": {
+          "gid": "3598158796860818679",
+          "size": "211971045",
+          "download": "60818592"
+        },
+        "public-previews": {
+          "gid": "1082983215095244841",
+          "size": "109557117",
+          "download": "36801536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "13827549",
+        "timeupdated": "1711142375"
+      },
+      "older-version-0.90.0": {
+        "buildid": "7579056",
+        "description": "Version 0.90.0, released 2021-10-22",
+        "timeupdated": "1671490530"
+      },
+      "older-version-0.90.1": {
+        "buildid": "7630366",
+        "description": "Version 0.90.1, released 2021-10-30",
+        "timeupdated": "1637444478"
+      },
+      "older-version-0.90.2": {
+        "buildid": "7747651",
+        "description": "Version 0.90.2, released 2021-11-20",
+        "timeupdated": "1637716894"
+      },
+      "older-version-0.90.3": {
+        "buildid": "7766899",
+        "description": "Version 0.90.3, released 2021-11-23",
+        "timeupdated": "1664448461"
+      },
+      "older-version-0.91.0": {
+        "buildid": "10188717",
+        "description": "Version 0.91.0, released 2022-12-20",
+        "timeupdated": "1671590639"
+      },
+      "older-version-0.91.1": {
+        "buildid": "11213470",
+        "description": "Version 0.91.1, released 2023-05-11",
+        "timeupdated": "1683850836"
+      },
+      "older-version-0.91.2": {
+        "buildid": "13013480",
+        "description": "Version 0.91.2, released 2023-12-20",
+        "timeupdated": "1703102693"
+      },
+      "public-previews": {
+        "buildid": "20118344",
+        "description": "Public previews of upcoming LW updates",
+        "timeupdated": "1758815608"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
+  }
+}
