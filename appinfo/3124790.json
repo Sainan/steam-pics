@@ -1,6 +1,5 @@
 {
   "appid": "3124790",
-  "public_only": "1",
   "common": {
     "name": "Overton",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienttga": "8212d9ebbbe90d6b678897b5127c64bae146ccc1",
     "clienticon": "1838ad61638544492c77ca2dc1c5e47994c4027e",
     "clienticns": "aa35bb5ebf6a3e8dfea81a2fe65ad9414c286025",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -95,7 +94,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3124790",
-    "exfgls": "8",
     "store_tags": {
       "0": "47827",
       "1": "599",
@@ -116,6 +114,59 @@
       "16": "1759",
       "17": "4182",
       "18": "492"
+    }
+  },
+  "extended": {
+    "developer": "Casey Blase",
+    "publisher": "SeaBlase Studios"
+  },
+  "config": {
+    "installdir": "Overton",
+    "launch": {
+      "0": {
+        "executable": "overton.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "setup_and_run.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Setup file for Linux"
+        },
+        "description": "Setup file for Linux"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3124791": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6432637014800489722",
+          "size": "48927777376",
+          "download": "34972682160"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20119462",
+        "timeupdated": "1758805589"
+      }
     }
   }
 }
