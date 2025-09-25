@@ -1,0 +1,136 @@
+{
+  "appid": "3875340",
+  "common": {
+    "name": "Groundskeeper 2",
+    "type": "Game",
+    "icon": "3c95e0ab78a96341f379986ffbbf95535e1ad2f1",
+    "clienticon": "0879b092db6da72bec920b497b8866601565a784",
+    "clienttga": "957cee9d49c12aed9639506b5395b7b003d95be6",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64",
+    "releasestate": "released",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "3875340",
+    "store_tags": {
+      "0": "19",
+      "1": "1774",
+      "2": "4255",
+      "3": "3871",
+      "4": "4195",
+      "5": "4305",
+      "6": "3964",
+      "7": "1684",
+      "8": "4136",
+      "9": "3916",
+      "10": "1673",
+      "11": "3942",
+      "12": "4295",
+      "13": "1719",
+      "14": "6691",
+      "15": "4182",
+      "16": "492",
+      "17": "4004"
+    }
+  },
+  "config": {
+    "installdir": "Groundskeeper 2",
+    "launch": {
+      "0": {
+        "executable": "Groundskeeper2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Groundskeeper2",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Groundskeeper2.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3875341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "79693289334838282",
+          "size": "89210203",
+          "download": "55723984"
+        }
+      }
+    },
+    "3875342": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8431624248507108358",
+          "size": "100804514",
+          "download": "58934032"
+        }
+      }
+    },
+    "3875343": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2201631191662648312",
+          "size": "94813848",
+          "download": "56565200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20057412",
+        "timeupdated": "1758350792"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "240000",
+    "maxnumfiles": "512",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "groundkeep2",
+        "pattern": "*.*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
