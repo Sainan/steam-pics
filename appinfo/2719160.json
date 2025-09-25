@@ -195,41 +195,24 @@
   "config": {
     "installdir": "Contractors Showdown",
     "launch": {
-      "2": {
+      "0": {
         "executable": "ContractorsShowdown.exe",
         "arguments": "-XRRuntime=SteamVR",
-        "type": "vr",
-        "config": {
-          "oslist": "windows"
-        },
-        "description_loc": {
-          "english": "Launch in SteamVR "
-        },
-        "description": "Launch in SteamVR "
+        "type": "vr"
       },
-      "3": {
+      "1": {
         "executable": "ContractorsShowdown.exe",
         "arguments": "-XRRuntime=OculusLink",
-        "type": "othervr",
-        "config": {
-          "oslist": "windows"
-        },
-        "description_loc": {
-          "english": "Launch in Oculus"
-        },
-        "description": "Launch in Oculus"
+        "type": "othervr"
       },
-      "4": {
+      "2": {
         "executable": "ContractorsShowdown.exe",
         "arguments": "-XRRuntime=VD",
         "type": "option1",
-        "config": {
-          "oslist": "windows"
-        },
         "description_loc": {
-          "english": "with VD"
+          "english": "in VD"
         },
-        "description": "with VD"
+        "description": "in VD"
       }
     }
   },
