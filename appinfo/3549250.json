@@ -1,6 +1,5 @@
 {
   "appid": "3549250",
-  "public_only": "1",
   "common": {
     "name": "Specters of the Deep",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienttga": "ce92afed0f0917ab792ac7f63001828ee314dbc7",
     "clienticns": "8ae256b553b2220965338107fcc595697d08d86b",
     "linuxclienticon": "7e5c0e83e8879a1805abc0d1ce228ea393b1627c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3549250",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "11014",
@@ -123,5 +123,83 @@
       "13": "1742",
       "14": "4182"
     }
+  },
+  "extended": {
+    "developer": "Choice of Games",
+    "publisher": "Choice of Games",
+    "homepage": "https://www.choiceofgames.com"
+  },
+  "config": {
+    "installdir": "Specters of the Deep",
+    "launch": {
+      "0": {
+        "executable": "SpectersOfTheDeep.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Specters of the Deep.app/Contents/MacOS/Specters of the Deep",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "SpectersOfTheDeep",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3549251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4750410279289283514",
+          "size": "246856113",
+          "download": "96802224"
+        }
+      }
+    },
+    "3549252": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6312990367740788732",
+          "size": "20129339",
+          "download": "7147184"
+        }
+      }
+    },
+    "3549253": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4404683407317046458",
+          "size": "249419962",
+          "download": "89824768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20127592",
+        "timeupdated": "1758811693"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10000"
   }
 }
