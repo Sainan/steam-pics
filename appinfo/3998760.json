@@ -1,10 +1,9 @@
 {
   "appid": "3998760",
-  "public_only": "1",
   "common": {
     "name": "Tempo and tempo",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "f643fcbbae562c0006992b7e68b8ced798d45887",
     "clienticns": "e15b562386ee51063816148f92a50d908a3ec0c6",
     "clienticon": "f643fcbbae562c0006992b7e68b8ced798d45887",
@@ -148,9 +147,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758761810",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3998760",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "699",
@@ -161,6 +161,73 @@
       "6": "19",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Situ Sam",
+    "publisher": "Situ Sam"
+  },
+  "config": {
+    "installdir": "Tempo and tempo",
+    "launch": {
+      "0": {
+        "executable": "Tempo and tempo\\TAT.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3998761": {
+      "manifests": {
+        "public": {
+          "gid": "118095531144718409",
+          "size": "660551875",
+          "download": "517243712"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20103356",
+        "timeupdated": "1758688057"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "TATsave",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
