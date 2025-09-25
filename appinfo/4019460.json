@@ -1,4 +1,60 @@
 {
   "appid": "4019460",
-  "public_only": "1"
+  "common": {
+    "name": "The Mystic Demo",
+    "type": "Demo",
+    "parent": "3797740",
+    "clienticon": "3b363320c113a5bdaa4c5d0fce823a0afa55a1f1",
+    "icon": "3b363320c113a5bdaa4c5d0fce823a0afa55a1f1",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "gameid": "4019460",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "The Mystic Demo",
+    "launch": {
+      "0": {
+        "executable": "Mystic.exe",
+        "description_loc": {
+          "english": "This demo is configured to work for Windows"
+        },
+        "description": "This demo is configured to work for Windows"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4019461": {
+      "manifests": {
+        "public": {
+          "gid": "852903563479134545",
+          "size": "15419866334",
+          "download": "14617560800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20099899",
+        "timeupdated": "1758724085"
+      }
+    }
+  }
 }
