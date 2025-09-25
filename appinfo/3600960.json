@@ -192,5 +192,22 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PassengerGone",
+        "pattern": "Saved/SaveGames/*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
