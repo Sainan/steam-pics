@@ -141,5 +141,49 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "12",
+    "appidredirect": "3114890",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "Dreampunk/Microvania/",
+        "pattern": "*.mvs"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Dreampunk/Microvania",
+        "pattern": "*.png"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "Dreampunk/Microvania/",
+            "replace": "Dreampunk/Microvania"
+          }
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Dreampunk/Microvania/",
+            "replace": ".config/unity3d/Dreampunk/Microvania"
+          }
+        }
+      }
+    }
   }
 }
