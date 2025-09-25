@@ -156,5 +156,66 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "SteamCloudDocuments",
+        "path": "Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinMyDocuments",
+        "path": "SwashbucklersXmas/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "SwashbucklersXmas/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "4": {
+        "root": "WinAppDataLocalLow",
+        "path": "SwashbucklersXmas/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "5": {
+        "root": "WinAppDataRoaming",
+        "path": "SwashbucklersXmas/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "6": {
+        "root": "WinSavedGames",
+        "path": "SwashbucklersXmas/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
