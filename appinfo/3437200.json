@@ -1,10 +1,9 @@
 {
   "appid": "3437200",
-  "public_only": "1",
   "common": {
     "name": "LUNA",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "342bba7807c28df2701c380b64be839667fcc596",
     "clienticon": "8c954063af735cc332e977c0b77bd71f7c49cd8d",
     "clienttga": "31fdd7db79a7c45aceaddc9a76738dceeb9710a9",
@@ -148,9 +147,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758762026",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3437200",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -179,5 +179,47 @@
       "18": "5984",
       "19": "1684"
     }
+  },
+  "extended": {
+    "developer": "Hypnosis Lab",
+    "publisher": "Alice Publication",
+    "listofdlc": "4027660",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "LUNA",
+    "launch": {
+      "0": {
+        "executable": "LUNA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3437201": {
+      "manifests": {
+        "public": {
+          "gid": "5006412039138587470",
+          "size": "6452932073",
+          "download": "2827038928"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,russian,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20116888",
+        "timeupdated": "1758757192"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000"
   }
 }
