@@ -99,15 +99,24 @@
     "launch": {
       "0": {
         "executable": "Hyperspace Deck Command.exe",
+        "type": "default",
         "config": {
           "oslist": "windows"
         }
       },
       "1": {
         "executable": "Hyperspace Deck Command.AppImage",
+        "arguments": "--appimage-extract",
+        "type": "default",
         "config": {
           "oslist": "linux"
         }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
       }
     }
   },
@@ -130,16 +139,16 @@
       },
       "manifests": {
         "public": {
-          "gid": "6984799989138890170",
-          "size": "1076926464",
-          "download": "1077142416"
+          "gid": "758914220766785974",
+          "size": "1360322098",
+          "download": "1060690400"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20076891",
-        "timeupdated": "1758547683"
+        "buildid": "20129114",
+        "timeupdated": "1758817861"
       }
     }
   }
