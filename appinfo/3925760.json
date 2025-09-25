@@ -1,13 +1,12 @@
 {
   "appid": "3925760",
-  "public_only": "1",
   "common": {
     "name": "Unfair Flips",
     "type": "Game",
     "icon": "0945f56ba20aa15472871d7ac786f569d0c4017a",
     "clienticon": "43c790d48f6a8b6e105f59e14541d2e66afc1d90",
     "clienttga": "5d7425b0b813b02d3910ab3a484d85a379089844",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -107,9 +106,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758808913",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3925760",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -128,6 +128,55 @@
       "14": "1721",
       "15": "4004",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "HEATHER FLOWERS",
+    "publisher": "HEATHER FLOWERS"
+  },
+  "config": {
+    "installdir": "Unfair Flips",
+    "launch": {
+      "0": {
+        "executable": "Unfair Flips.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3925761": {
+      "manifests": {
+        "public": {
+          "gid": "4380203370127266844",
+          "size": "89081644",
+          "download": "32175936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20080464",
+        "timeupdated": "1758564038"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Heather Flowers/Unfair Flips/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
