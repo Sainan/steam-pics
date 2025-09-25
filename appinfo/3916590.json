@@ -1,6 +1,5 @@
 {
   "appid": "3916590",
-  "public_only": "1",
   "common": {
     "name": "Unsealed Pact Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -55,7 +54,77 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "gameid": "3916590",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rockbench Studio",
+    "publisher": "Rockbench Studio"
+  },
+  "config": {
+    "installdir": "Unsealed Pact Demo",
+    "launch": {
+      "0": {
+        "executable": "unsealedpact.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "unsealedpact.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3916591": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2381147252737338513",
+          "size": "625688681",
+          "download": "175275552"
+        }
+      }
+    },
+    "3916592": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5933070329298864525",
+          "size": "642710359",
+          "download": "183711232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20125903",
+        "timeupdated": "1758804896"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
