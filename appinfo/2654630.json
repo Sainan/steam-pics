@@ -1,0 +1,235 @@
+{
+  "appid": "2654630",
+  "common": {
+    "name": "Soulmask Demo",
+    "type": "Demo",
+    "parent": "2646460",
+    "icon": "a6e8a3962f1110deb848aeb979e306c6416972fd",
+    "clienticon": "05ae5035124b03ce93caf38afa4e3b35d7b2b455",
+    "clienttga": "7c34b73e12e3b9e8cd9ab8a195193073e677be0b",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "name_localized": {
+      "schinese": "灵魂面甲(Soulmask) Demo",
+      "sc_schinese": "灵魂面甲Demo"
+    },
+    "releasestate": "released",
+    "releasestatesteamchina": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg",
+      "sc_schinese": "76d089a82e3c68da491c9cfbd09c615f7fc1c61f/capsule_231x87_sc_schinese.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg",
+      "sc_schinese": "7594fabd506607becb578431e1239aea3a8f4cb7/header_sc_schinese.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en,zh-xc",
+      "library_hero": "en",
+      "library_logo": "en,zh-xc",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "34.284051222351565",
+        "height_pct": "63.29810917510167"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg",
+          "sc_schinese": "f2bc046bedcde324d74dbc7ed28fbcd08a581abf/library_capsule_sc_schinese.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg",
+          "sc_schinese": "f2bc046bedcde324d74dbc7ed28fbcd08a581abf/library_capsule_sc_schinese_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "34.284051222351565",
+          "height_pct": "63.29810917510167"
+        },
+        "image": {
+          "english": "logo.png",
+          "sc_schinese": "8dbd3b534b432cfe8201d6d59c83a44a1631118c/logo_sc_schinese.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png",
+          "sc_schinese": "8dbd3b534b432cfe8201d6d59c83a44a1631118c/logo_sc_schinese_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1753183102",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Campfire Studio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Qooland Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_20": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1706184654",
+    "gameid": "2654630",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Campfire Studio",
+    "publisher": "Qooland Games",
+    "homepage": "http://mask.qoolandgames.com/"
+  },
+  "config": {
+    "installdir": "Soulmask Demo",
+    "launch": {
+      "0": {
+        "executable": "WS.exe",
+        "arguments": "StartMenu -game -StableNullID -online=Steam -d3d12 ",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "realm": "steamglobal"
+        },
+        "description_loc": {
+          "english": "(DirectX 12)",
+          "sc_schinese": "(DirectX 12)"
+        },
+        "description": "(DirectX 12)"
+      },
+      "1": {
+        "executable": "WS.exe",
+        "arguments": "StartMenu -game -StableNullID -online=Steam -d3d11 ",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "realm": "steamglobal"
+        },
+        "description_loc": {
+          "english": "(DirectX 11)",
+          "sc_schinese": "(DirectX 11)"
+        },
+        "description": "(DirectX 11)"
+      },
+      "2": {
+        "executable": "WS.exe",
+        "arguments": "StartMenu -game -StableNullID -online=Steam -d3d12 -cngame",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "realm": "steamchina"
+        },
+        "description_loc": {
+          "english": "(DirectX 12)",
+          "schinese": "(DirectX 12)"
+        },
+        "description": "(DirectX 12)"
+      },
+      "3": {
+        "executable": "WS.exe",
+        "arguments": "StartMenu -game -StableNullID -online=Steam -d3d11 -cngame",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "realm": "steamchina"
+        },
+        "description_loc": {
+          "english": "(DirectX 11)",
+          "schinese": "(DirectX 11)"
+        },
+        "description": "(DirectX 11)"
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2654631": {
+      "manifests": {
+        "public": {
+          "gid": "3821776781334392796",
+          "size": "11298396971",
+          "download": "10730984208"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,spanish,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20126194",
+        "timeupdated": "1758806256"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "WS/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
+  }
+}
