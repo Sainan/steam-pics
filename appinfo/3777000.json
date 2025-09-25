@@ -1,6 +1,5 @@
 {
   "appid": "3777000",
-  "public_only": "1",
   "common": {
     "name": "Letters of War",
     "type": "Game",
@@ -18,7 +17,7 @@
     "icon": "1afdda7b99d06c2034b8d9f8e07f32c6feca74ab",
     "clienttga": "6c8fff96069cb6ce38850bf52bbfeae94bd8e899",
     "clienticon": "2b8bc3ebcf762db11b19bf7631fcbfdc5a3683b7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -118,7 +117,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758761786",
+    "store_asset_mtime": "1758763226",
     "associations": {
       "0": {
         "type": "developer",
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758809470",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3777000",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1678",
@@ -185,6 +185,44 @@
       "16": "4004",
       "17": "3834",
       "18": "1664"
+    }
+  },
+  "extended": {
+    "developer": "Wood Cabin Games",
+    "publisher": "Wood Cabin Games",
+    "homepage": "https://woodcabingames.com"
+  },
+  "config": {
+    "installdir": "Letters of War",
+    "launch": {
+      "0": {
+        "executable": "Letters of war.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3777001": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6529279176221147543",
+          "size": "4077091696",
+          "download": "670735072"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20126751",
+        "timeupdated": "1758808623"
+      }
     }
   }
 }
