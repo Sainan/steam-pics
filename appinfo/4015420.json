@@ -1,6 +1,5 @@
 {
   "appid": "4015420",
-  "public_only": "1",
   "common": {
     "name": "Dark Land Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "",
     "clienticon": "3653e8d98f2e313d923dbd5e513cdbf79a12b1d4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -105,6 +104,41 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "HDGames",
+    "publisher": "HDGames"
+  },
+  "config": {
+    "installdir": "Dark Land Demo",
+    "launch": {
+      "0": {
+        "executable": "DarkLand.exe"
+      }
+    }
+  },
+  "depots": {
+    "4015421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5754086831420769443",
+          "size": "83513640",
+          "download": "53071328"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19880735",
+        "timeupdated": "1757147450"
+      }
     }
   }
 }
