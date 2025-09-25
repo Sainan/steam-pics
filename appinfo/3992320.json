@@ -1,10 +1,9 @@
 {
   "appid": "3992320",
-  "public_only": "1",
   "common": {
     "name": "WanderFlow",
     "type": "Application",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvr_action_manifest_path": "actions.json",
     "icon": "df43fa7a58a7326a7ebe01fc2fec10f8bad644fa",
     "clienticon": "df43fa7a58a7326a7ebe01fc2fec10f8bad644fa",
@@ -103,6 +102,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3992320",
     "exfgls": "6",
@@ -110,6 +110,48 @@
     "store_tags": {
       "0": "87",
       "1": "21978"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "enablegameoverlayforapp": "1",
+    "developer": "https://github.com/phjong",
+    "publisher": "https://github.com/phjong",
+    "gamemanualurl": "https://store.steampowered.com/manual/3992320/"
+  },
+  "config": {
+    "installdir": "WanderFlow",
+    "launch": {
+      "0": {
+        "executable": "WanderFlowClient.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3992321": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8543734302687472537",
+          "size": "4202333",
+          "download": "2420016"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19778632",
+        "timeupdated": "1756429159"
+      }
     }
   }
 }
