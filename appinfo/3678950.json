@@ -1,10 +1,9 @@
 {
   "appid": "3678950",
-  "public_only": "1",
   "common": {
     "name": "Idle Awakening: Mages Path",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d72e744b7aa88b56179d1a62bf0602c35ca4d949",
     "clienticon": "f49dfbbd24a34ad4d1b9c8ef14d32e95f618f3a4",
     "clienttga": "ce291f93c9d7e6e418188ba6ac9a7d84760085ef",
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758813603",
     "community_hub_visible": "1",
     "gameid": "3678950",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "615955",
@@ -128,6 +127,65 @@
       "15": "255534",
       "16": "31275",
       "17": "1654"
+    }
+  },
+  "extended": {
+    "developer": "Strange Matter Gaming",
+    "publisher": "Strange Matter Gaming"
+  },
+  "config": {
+    "installdir": "Idle Awakening Mages Path",
+    "launch": {
+      "0": {
+        "executable": "win-unpacked/IdleAwakening.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows Build"
+        },
+        "description": "Windows Build"
+      }
+    }
+  },
+  "depots": {
+    "3678951": {
+      "manifests": {
+        "public": {
+          "gid": "8303562123987933303",
+          "size": "1157888819",
+          "download": "303692000"
+        },
+        "closed-beta": {
+          "gid": "8303562123987933303",
+          "size": "1157888819",
+          "download": "303692000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20088587",
+        "timeupdated": "1758609309"
+      },
+      "closed-beta": {
+        "buildid": "20088587",
+        "description": "The branch was created for closed beta test",
+        "timeupdated": "1758609274"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "DemoSaves",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
