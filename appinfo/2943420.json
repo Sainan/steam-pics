@@ -1,6 +1,5 @@
 {
   "appid": "2943420",
-  "public_only": "1",
   "common": {
     "name": "Amelie falls over and over again ~ An endless week in Magic University",
     "type": "Game",
@@ -12,7 +11,7 @@
       "schinese": "艾蜜莉的堕落轮回～魔法学院与永无止尽的一周～",
       "japanese": "アメリ・ブランシェットは何度も堕ちる～魔法学院と繰り返す一週間～"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -143,9 +142,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758787229",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2943420",
-    "exfgls": "8",
     "store_tags": {
       "0": "4434",
       "1": "4057",
@@ -167,6 +167,96 @@
       "17": "4182",
       "18": "5611",
       "19": "5577"
+    },
+    "review_score": "7",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "developer": "AVANTGARDE",
+    "publisher": "072 Project",
+    "homepage": "https://072project.com/?source=steam_amelia&amp;utm_source=steam&amp;utm_medium=amelia&amp;utm_campaign=store_link"
+  },
+  "config": {
+    "installdir": "Amelie falls over and over again",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "2943421": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "384220186160678524",
+          "size": "875131254",
+          "download": "722208624"
+        }
+      }
+    },
+    "2943422": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "344236588593876769",
+          "size": "891162519",
+          "download": "742980736"
+        }
+      }
+    },
+    "2943423": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2460476554159737961",
+          "size": "891195825",
+          "download": "743011968"
+        }
+      }
+    },
+    "2943424": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9080160448269657288",
+          "size": "891172527",
+          "download": "743009520"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "19982476",
+        "timeupdated": "1757928413"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
