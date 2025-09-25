@@ -1,6 +1,5 @@
 {
   "appid": "3937630",
-  "public_only": "1",
   "common": {
     "name": "Glaivestorm",
     "type": "Game",
@@ -14,7 +13,7 @@
       "english": "1",
       "russian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f9eee03e402aee8e444a848677529ebbd55d5569/capsule_231x87.jpg"
@@ -113,9 +112,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758812400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3937630",
-    "exfgls": "8",
     "store_tags": {
       "0": "493",
       "1": "4231",
@@ -130,6 +130,61 @@
       "10": "5125",
       "11": "492",
       "12": "1697"
+    }
+  },
+  "extended": {
+    "developer": "Blue glass star",
+    "publisher": "Blue glass star"
+  },
+  "config": {
+    "installdir": "Glaivestorm",
+    "launch": {
+      "0": {
+        "executable": "Glaivestorm.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3937631": {
+      "manifests": {
+        "public": {
+          "gid": "4326676180520287501",
+          "size": "183905370",
+          "download": "58312064"
+        },
+        "test": {
+          "gid": "8671031013242202248",
+          "size": "183905146",
+          "download": "58309952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20117418",
+        "timeupdated": "1758760628"
+      },
+      "test": {
+        "buildid": "20117199",
+        "description": "Testing branch",
+        "timeupdated": "1758759259"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Glaivestorm_Data/Saves/",
+        "pattern": "*.txt"
+      }
     }
   }
 }
