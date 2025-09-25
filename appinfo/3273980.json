@@ -1,10 +1,9 @@
 {
   "appid": "3273980",
-  "public_only": "1",
   "common": {
     "name": "Mamorukun ReCurse!",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -168,9 +167,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758758405",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3273980",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -188,6 +188,62 @@
       "13": "1667",
       "14": "7481",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "CITY CONNECTION",
+    "publisher": "CITY CONNECTION",
+    "homepage": "https://city-connection.co.jp/mamonoro/",
+    "listofdlc": "3953180",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Mamorukun Curse!",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "launch": {
+      "0": {
+        "executable": "NoroiXP.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3273981": {
+      "manifests": {
+        "public": {
+          "gid": "4124108329709494316",
+          "size": "1649441630",
+          "download": "1323543152"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19106784",
+        "timeupdated": "1751625588"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "16777216",
+    "maxnumfiles": "32",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "MAMORUKUN RECURSE",
+        "pattern": "*.dat"
+      }
     }
   }
 }
