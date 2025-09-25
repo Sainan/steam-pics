@@ -1,6 +1,5 @@
 {
   "appid": "3711530",
-  "public_only": "1",
   "common": {
     "name": "A Flame in the Dark",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3711530",
-    "exfgls": "8",
     "store_tags": {
       "0": "3959",
       "1": "5537",
@@ -126,6 +126,45 @@
       "13": "7250",
       "14": "4191",
       "15": "4342"
+    }
+  },
+  "extended": {
+    "developer": "tornadre",
+    "publisher": "tornadre"
+  },
+  "config": {
+    "installdir": "A Flame in the Dark",
+    "launch": {
+      "0": {
+        "executable": "A Flame in the Dark.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3711531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5934783831170338314",
+          "size": "624073113",
+          "download": "152473456"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20131118",
+        "timeupdated": "1758828196"
+      }
     }
   }
 }
