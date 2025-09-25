@@ -1,6 +1,5 @@
 {
   "appid": "4032140",
-  "public_only": "1",
   "common": {
     "name": "Grandma, Is That You? Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "bfb0709d638b1d06d856c058fa3ae808195fa821/capsule_231x87.jpg"
@@ -219,7 +218,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4032140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Montee Games",
+    "publisher": "Montee Games"
+  },
+  "config": {
+    "installdir": "Grandma, Is That You Demo",
+    "launch": {
+      "0": {
+        "executable": "Grandma_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4032141": {
+      "manifests": {
+        "public": {
+          "gid": "3840787550062573707",
+          "size": "3541394614",
+          "download": "3404699568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20123981",
+        "timeupdated": "1758797707"
+      }
+    }
   }
 }
