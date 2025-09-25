@@ -1,6 +1,5 @@
 {
   "appid": "4016250",
-  "public_only": "1",
   "common": {
     "name": "A Killer Chat! Christmas Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "0b535d85c29009dc65555fbfe39fe8776beb918c",
     "clienticns": "723608fe24cc1a140f08563d6ab1fabf63ab7330",
     "linuxclienticon": "eac13c4af67db0837b98989eccf15c5c9e2017c4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0332aaaf8b8931fb73ebd7a941c08f61243fb60/capsule_231x87.jpg"
     },
@@ -50,7 +49,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4016250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "rosesrot",
+    "publisher": "angelrot games"
+  },
+  "config": {
+    "installdir": "A Killer Chat! Christmas Demo",
+    "launch": {
+      "0": {
+        "executable": "KillerChatChristmas.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "KillerChatChristmas.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "KillerChatChristmas.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4016251": {
+      "manifests": {
+        "public": {
+          "gid": "8984138228079339237",
+          "size": "367991724",
+          "download": "206932528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19949753",
+        "timeupdated": "1757636024"
+      }
+    }
   }
 }
