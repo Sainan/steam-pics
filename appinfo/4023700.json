@@ -1,6 +1,5 @@
 {
   "appid": "4023700",
-  "public_only": "1",
   "common": {
     "name": "Accelerator Operator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "cc3f69cfadbb8718c976b91de1594e2f000eb8d5/capsule_231x87.jpg"
@@ -104,7 +103,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758758586",
     "gameid": "4023700",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jacob Gislason",
+    "publisher": "Jacob Gislason"
+  },
+  "config": {
+    "installdir": "Accelerator Operator Demo",
+    "launch": {
+      "0": {
+        "executable": "Accelorator Operator.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Used to launch the game"
+        },
+        "description": "Used to launch the game"
+      }
+    }
+  },
+  "depots": {
+    "4023701": {
+      "manifests": {
+        "public": {
+          "gid": "5407790747467157092",
+          "size": "403288641",
+          "download": "83812592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20116099",
+        "timeupdated": "1758752123"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "5",
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    }
   }
 }
