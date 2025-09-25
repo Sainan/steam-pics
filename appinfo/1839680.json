@@ -1,6 +1,5 @@
 {
   "appid": "1839680",
-  "public_only": "1",
   "common": {
     "name": "Titan Isles",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienttga": "7f387ed4d9abf85f3cb230d8946b6526967249f7",
     "clienticns": "150bb6f5d2e4534cb7fb0a84d5aca34283891c00",
     "linuxclienticon": "150bb6f5d2e4534cb7fb0a84d5aca34283891c00",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openxrsupport": "1",
     "aicontenttype": "1",
     "controllertagwizard": "1",
@@ -118,9 +117,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758819614",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1839680",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "4106",
@@ -141,6 +141,68 @@
       "15": "4508",
       "16": "3859",
       "17": "3843"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Psytec Games Ltd",
+    "publisher": "Psytec Games Ltd",
+    "homepage": "https://titanisles.com"
+  },
+  "config": {
+    "installdir": "Titan Isles",
+    "launch": {
+      "0": {
+        "executable": "Titan Isles.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1839681": {
+      "manifests": {
+        "public": {
+          "gid": "7958551054296695598",
+          "size": "10987111392",
+          "download": "9362897264"
+        },
+        "preview": {
+          "gid": "7958551054296695598",
+          "size": "10987111392",
+          "download": "9362897264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20111986",
+        "timeupdated": "1758735200"
+      },
+      "preview": {
+        "buildid": "20111986",
+        "description": "Preview Build",
+        "timeupdated": "1758735191"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Psytec Games/Titan Isles/production",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
