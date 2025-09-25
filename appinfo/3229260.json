@@ -1,6 +1,5 @@
 {
   "appid": "3229260",
-  "public_only": "1",
   "common": {
     "name": "AQUAPAZZA: Aquaplus Dream Match",
     "type": "Game",
@@ -19,7 +18,7 @@
       "tchinese": "AQUAPAZZA -AQUAPLUS夢幻對決-",
       "schinese": "AQUAPAZZA -AQUAPLUS梦幻对决-"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -135,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758762006",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3229260",
-    "exfgls": "8",
     "store_tags": {
       "0": "3859",
       "1": "4085",
@@ -160,5 +160,64 @@
       "18": "4057",
       "19": "4608"
     }
+  },
+  "extended": {
+    "developer": "AQUAPLUS",
+    "publisher": "DMM GAMES"
+  },
+  "config": {
+    "installdir": "Project AP",
+    "launch": {
+      "0": {
+        "executable": "aq.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "input\\steam_input_manifest.vdf",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3229261": {
+      "manifests": {
+        "public": {
+          "gid": "6859479556652135059",
+          "size": "8552874385",
+          "download": "5650739824"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20070070",
+        "timeupdated": "1758506988"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
