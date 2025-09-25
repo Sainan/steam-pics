@@ -1,6 +1,5 @@
 {
   "appid": "3998650",
-  "public_only": "1",
   "common": {
     "name": "CHICK POP!",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "0e2af61f5d06dc5eed9037f29aebcbfd44b41c0c",
     "linuxclienticon": "4bdcff26cdbad75c806b18508e450a8341c595a8",
     "clienticon": "0e2af61f5d06dc5eed9037f29aebcbfd44b41c0c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -158,9 +157,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758824740",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3998650",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -179,6 +179,111 @@
       "14": "7926",
       "15": "4182",
       "16": "4840"
+    }
+  },
+  "extended": {
+    "developer": "ELIX INC",
+    "publisher": "ELIX INC",
+    "homepage": "https://elix.jp/app/chickpop/index.html"
+  },
+  "config": {
+    "installdir": "chickpop",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "ChickSexer/ChickSexer.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3998652": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3108354404611335657",
+          "size": "202277209",
+          "download": "86288176"
+        }
+      }
+    },
+    "3998653": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8676208776307411542",
+          "size": "214997145",
+          "download": "94837888"
+        }
+      }
+    },
+    "3998655": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "280852287377565626",
+          "size": "213706296",
+          "download": "94959504"
+        }
+      }
+    },
+    "3998656": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5711600617841148730",
+          "size": "217957673",
+          "download": "95058192"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "19996940",
+        "timeupdated": "1758012379"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": ""
+          }
+        }
+      }
     }
   }
 }
