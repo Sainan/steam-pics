@@ -1,13 +1,12 @@
 {
   "appid": "3578290",
-  "public_only": "1",
   "common": {
     "name": "VonGarland Castle : Beyond Blood",
     "type": "Game",
     "icon": "ef9727707d08ef1e67e8ac206380d341d2d0c801",
     "clienttga": "a7fb26ed4afc614b97b1a2d6eab8a20e2456eb1f",
     "clienticon": "4d37d8bf963c0eefba2a4e583f8696e25190f2b8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
@@ -163,9 +162,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758805137",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3578290",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "3978",
@@ -188,5 +188,62 @@
       "18": "5537",
       "19": "922563"
     }
+  },
+  "extended": {
+    "developer": "Ash Jackson",
+    "publisher": "Monster Robot Studios",
+    "homepage": "https://x.com/MonsterRobotGC"
+  },
+  "config": {
+    "installdir": "VonGarlandCastleBBFG",
+    "launch": {
+      "0": {
+        "executable": "VonGarlandCastleBBFG\\VonGarlandCastleBeyondBlood.exe"
+      },
+      "1": {
+        "executable": "VonGarlandCastleBeyondBloodFGmac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3578291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1904455937211954626",
+          "size": "1634366895",
+          "download": "254083552"
+        }
+      }
+    },
+    "3578292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4172517364251210508",
+          "size": "1658307983",
+          "download": "263702144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20125912",
+        "timeupdated": "1758804931"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
