@@ -1,4 +1,134 @@
 {
   "appid": "4052930",
-  "public_only": "1"
+  "common": {
+    "name": "EvoCreo Playtest",
+    "type": "Beta",
+    "parent": "3791450",
+    "clienticon": "007abb1a436d60638e631ea37bfefffaf054eb8a",
+    "icon": "007abb1a436d60638e631ea37bfefffaf054eb8a",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "ef98369c1e4bae019b68f6ae90947115f9a89acf/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "d975e2b434a0cbf9aa51b908b7ca894a3f9fcb53/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "dd8640d30b16bd6f2ceee0972c0d4d16149b2584/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "dd8640d30b16bd6f2ceee0972c0d4d16149b2584/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "91c7a55cf93690a98718fdb24ffdeecfa844a2cc/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "91c7a55cf93690a98718fdb24ffdeecfa844a2cc/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "91c7a55cf93690a98718fdb24ffdeecfa844a2cc/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "cbde54f1186717c3525e10c302da27b62a714404/logo.png"
+        },
+        "image2x": {
+          "english": "cbde54f1186717c3525e10c302da27b62a714404/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "dc6b0b23c49d3f24e932e46796d4f32f158622c9/library_header.jpg"
+        },
+        "image2x": {
+          "english": "dc6b0b23c49d3f24e932e46796d4f32f158622c9/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758505187",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1758838326",
+    "community_hub_visible": "1",
+    "gameid": "4052930",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "EvoCreo Playtest",
+    "launch": {
+      "0": {
+        "executable": "EvoCreo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "EvoCreo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4052931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2318294676533719579",
+          "size": "156228392",
+          "download": "118179120"
+        }
+      }
+    },
+    "4052932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5330349573017621254",
+          "size": "161787205",
+          "download": "119266592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20131888",
+        "timeupdated": "1758832407"
+      }
+    }
+  }
 }
