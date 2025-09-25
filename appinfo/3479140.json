@@ -1,6 +1,5 @@
 {
   "appid": "3479140",
-  "public_only": "1",
   "common": {
     "name": "Zen Aquarium",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -148,9 +147,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758816017",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3479140",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "615955",
@@ -172,6 +172,107 @@
       "17": "4166",
       "18": "5350",
       "19": "3934"
+    }
+  },
+  "extended": {
+    "developer": "Astro Cat",
+    "publisher": "Astro Cat"
+  },
+  "config": {
+    "installdir": "Zen Aquarium",
+    "launch": {
+      "0": {
+        "executable": "Zen Aquarium.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Zen Aquarium.app/Contents/MacOS/Zen Aquarium",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3479141": {
+      "manifests": {
+        "public": {
+          "gid": "2285878407609314250",
+          "size": "631154297",
+          "download": "387323296"
+        }
+      }
+    },
+    "3479142": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6839480031791119012",
+          "size": "517677284",
+          "download": "348773248"
+        }
+      }
+    },
+    "3479143": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5564350859663133628",
+          "size": "697350988",
+          "download": "390281424"
+        }
+      }
+    },
+    "3479144": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6500984702575342003",
+          "size": "878302406",
+          "download": "422899920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20073752",
+        "timeupdated": "1758548808"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Astro Cat/Zen Aquarium",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Astro Cat/Zen Aquarium",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
