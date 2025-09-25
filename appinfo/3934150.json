@@ -1,6 +1,5 @@
 {
   "appid": "3934150",
-  "public_only": "1",
   "common": {
     "name": "Shoplifter: No Escape",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "c6d947082fda67e1099f31a65cad61590fecc28f",
     "clienttga": "ef02bf2763819a55534d534cf7a1bfec6a068b44",
     "icon": "0491a60c61c322e2f238523da41d1a9b5c286f7e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -159,9 +158,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3934150",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -189,6 +189,68 @@
       "17": "13190",
       "18": "4182",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Lustful Universe",
+    "publisher": "Lustful Universe"
+  },
+  "config": {
+    "installdir": "Shoplifter No Escape",
+    "launch": {
+      "0": {
+        "executable": "Shoplifter No Escape.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3934151": {
+      "manifests": {
+        "public": {
+          "gid": "3205363244058553152",
+          "size": "1192607565",
+          "download": "1123592032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20130731",
+        "timeupdated": "1758825888"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Shoplifter/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
