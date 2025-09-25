@@ -1,11 +1,10 @@
 {
   "appid": "3988710",
-  "public_only": "1",
   "common": {
     "name": "Nightmare Circus Demo",
     "type": "Demo",
     "parent": "3227900",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "2efa8d38a9b6a9fadf09dc032bf00bbf249a0e6a",
     "oslist": "windows",
     "osarch": "64",
@@ -113,7 +112,73 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758762089",
     "gameid": "3988710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "FairPlay Studios Co. Ltd",
+    "publisher": "Red Dunes Games"
+  },
+  "config": {
+    "installdir": "Nightmare Circus Demo",
+    "launch": {
+      "0": {
+        "executable": "NightmareCircus.exe"
+      }
+    }
+  },
+  "depots": {
+    "3988711": {
+      "manifests": {
+        "public": {
+          "gid": "973059103601455435",
+          "size": "2738927050",
+          "download": "1075072176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20091030",
+        "timeupdated": "1758696257"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3227900",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "FairPlayStudios/NightmareCircus/{64BitSteamID}",
+        "pattern": "*.txt"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "FairPlayStudios/NightmareCircus/{64BitSteamID}",
+            "replace": ".local/share/Steam/steamapps/compatdata/3988710/pfx/drive_c/users/steamuser/AppData/LocalLow/FairPlayStudios/NightmareCircus/{64BitSteamID}"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/Steam/steamapps/compatdata/3227900/pfx/drive_c/users/steamuser/AppData/LocalLow/FairPlayStudios/NightmareCircus/{64BitSteamID}"
+      }
+    }
   }
 }
