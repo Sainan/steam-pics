@@ -1,0 +1,58 @@
+{
+  "appid": "3542720",
+  "common": {
+    "name": "ZDSimulator Content Editor",
+    "type": "Tool",
+    "parent": "3381120",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "86e96d5e91d9be52161ae2e71ed91d90307fb60a",
+    "clienticon": "20ce03ac96ad66103b953a0a0a1dadbb013c61e3",
+    "clienttga": "e7bc93eb5030f104b11976d4bc23c1fc2f5781d4",
+    "gameid": "3542720"
+  },
+  "config": {
+    "installdir": "ZDSimulator-ContentEditor",
+    "launch": {
+      "0": {
+        "executable": "utils/ContentEditor/ZDSimulator.ContentEditor.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3542721": {
+      "manifests": {
+        "public": {
+          "gid": "599129196292386379",
+          "size": "1683528824",
+          "download": "425664240"
+        }
+      }
+    },
+    "baselanguages": "english,russian,ukrainian",
+    "workshopdepot": "3542720",
+    "branches": {
+      "public": {
+        "buildid": "19573822",
+        "timeupdated": "1755029467"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
+  }
+}
