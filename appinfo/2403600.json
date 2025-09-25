@@ -1,13 +1,12 @@
 {
   "appid": "2403600",
-  "public_only": "1",
   "common": {
     "name": "Jamboy, a Jelly-cious Hero",
     "type": "Game",
     "icon": "633acbdd024915b064e3d15a21ed726d6a6bcc3e",
     "clienticon": "214b7d0860653340c5e3fb9a2edc58879bb6a876",
     "clienttga": "b4254309886ed7b038a30751e9fc2a24427a7de7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -156,9 +155,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758814195",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2403600",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1625",
@@ -179,5 +179,75 @@
       "16": "21",
       "17": "7481"
     }
+  },
+  "extended": {
+    "developer": "Nakama Game Studio",
+    "publisher": "Nakama Game Studio",
+    "homepage": "https://nakamagame.studio"
+  },
+  "config": {
+    "installdir": "Jamboy_Data",
+    "launch": {
+      "0": {
+        "executable": "Jamboy.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2403601": {
+      "manifests": {
+        "public": {
+          "gid": "7959807211945591464",
+          "size": "1062350691",
+          "download": "215420992"
+        },
+        "testing": {
+          "gid": "551187150495528656",
+          "size": "1063102856",
+          "download": "215435952"
+        }
+      }
+    },
+    "3864132": {
+      "manifests": {
+        "public": {
+          "gid": "8196699681066995236",
+          "size": "26405854",
+          "download": "26372960"
+        }
+      },
+      "depotfromapp": "3864130"
+    },
+    "3865210": {
+      "dlcappid": "3865210",
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "3891860": {
+      "dlcappid": "3891860",
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20128113",
+        "timeupdated": "1758813572"
+      },
+      "testing": {
+        "buildid": "20108191",
+        "description": "Rama para testing",
+        "timeupdated": "1758713697"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50"
   }
 }
