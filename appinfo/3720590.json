@@ -1,6 +1,5 @@
 {
   "appid": "3720590",
-  "public_only": "1",
   "common": {
     "name": "Sin Slayers: Meat & Greed",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "5c23647a44ab9dd21f023d76860dd5b8b3b0bf8a",
     "clienticon": "04a51ed07b993cf15c59830ab4688462a09bb9b2",
     "clienttga": "746744b9edddff8d82ac2c776c8f1bdacda37c86",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -213,9 +212,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758808151",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3720590",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "379975",
@@ -237,6 +237,73 @@
       "17": "4236",
       "18": "4559",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Goonswarm Games",
+    "publisher": "Goonswarm Games",
+    "homepage": "https://goonswarm.games/"
+  },
+  "config": {
+    "installdir": "Gemdiggers",
+    "launch": {
+      "0": {
+        "executable": "Gem Diggers.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3720591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5616283021954027639",
+          "size": "133984883",
+          "download": "51551904"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20124322",
+        "timeupdated": "1758799087"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "*.dat",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "pathtransforms": {
+          "0": {
+            "find": "Saves",
+            "replace": "Gemdiggers/Contents/Saves"
+          }
+        }
+      }
     }
   }
 }
