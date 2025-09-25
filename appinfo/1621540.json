@@ -1,6 +1,5 @@
 {
   "appid": "1621540",
-  "public_only": "1",
   "common": {
     "name": "SpookyMilkLife",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -20,6 +19,51 @@
       "3": "4"
     },
     "restricted_countries": "CN,DE,SA",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1757116800",
+      "tested_build_id": "18982594",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -154,9 +198,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758783309",
     "community_hub_visible": "1",
     "gameid": "1621540",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -184,6 +228,49 @@
       "17": "44868",
       "18": "493",
       "19": "4136"
+    },
+    "review_score": "7",
+    "review_percentage": "96"
+  },
+  "extended": {
+    "developer": "MangoMango",
+    "publisher": "Studio Ginkgo"
+  },
+  "config": {
+    "installdir": "SpookyMilkLife",
+    "launch": {
+      "0": {
+        "executable": "Spooky Milk Life.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "1621541": {
+      "manifests": {
+        "public": {
+          "gid": "8779065480884230838",
+          "size": "5138196348",
+          "download": "749396240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20078020",
+        "timeupdated": "1758552503"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Studio Ginkgo/Spooky Milk Life",
+        "pattern": "*.sav"
+      }
     }
   }
 }
