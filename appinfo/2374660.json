@@ -6,7 +6,12 @@
     "releasestate": "released",
     "name_localized": {
       "english": "Secret Archives",
-      "schinese": "绝密档案"
+      "schinese": "绝密档案",
+      "spanish": "Archivo Ultra Secreto",
+      "koreana": "급비밀문서",
+      "russian": "Совершенно Секретно",
+      "japanese": "極秘ファイル",
+      "brazilian": "Arquivo Confidencial"
     },
     "oslist": "windows",
     "osarch": "64",
@@ -16,7 +21,12 @@
     "icon": "64bf56d4732ead918439b5ec86a988434ee2042e",
     "languages": {
       "english": "1",
-      "schinese": "1"
+      "koreana": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "russian": "1",
+      "japanese": "1",
+      "brazilian": "1"
     },
     "content_descriptors": {
       "0": "1",
@@ -250,6 +260,21 @@
       "public": {
         "buildid": "20123995",
         "timeupdated": "1758797063"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SecretArchives",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
       }
     }
   }
