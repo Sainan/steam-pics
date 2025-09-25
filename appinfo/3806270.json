@@ -1,6 +1,5 @@
 {
   "appid": "3806270",
-  "public_only": "1",
   "common": {
     "name": "Container Terminal Simulator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "852f5a4fa425d23fcd03f3cfada08fb16888101a",
     "clienticon": "4aa7431f6a0042e823c97a64a8acbbfb725715aa",
     "clienttga": "88142c83e21481995f2d76e085b19009766a4fdf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -128,9 +127,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3806270",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "4328",
@@ -151,6 +150,76 @@
       "16": "1685",
       "17": "3843",
       "18": "493"
+    }
+  },
+  "extended": {
+    "developer": "Tikam Studio",
+    "publisher": "Tikam Studio",
+    "homepage": "https://ctswiki.tilda.ws/"
+  },
+  "config": {
+    "installdir": "Container Terminal Simulator",
+    "launch": {
+      "0": {
+        "executable": "CTS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3806271": {
+      "manifests": {
+        "public": {
+          "gid": "1795244091578529335",
+          "size": "836268364",
+          "download": "669693280"
+        },
+        "closetestbranch": {
+          "gid": "5221233381409900545",
+          "size": "1475377839",
+          "download": "820097632"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20123532",
+        "timeupdated": "1758794833"
+      },
+      "closetestbranch": {
+        "buildid": "19585915",
+        "description": "Close test default branch",
+        "timeupdated": "1755551919"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "CTS/Saved/SaveGames",
+        "pattern": "*.*"
+      }
     }
   }
 }
