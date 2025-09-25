@@ -1,6 +1,5 @@
 {
   "appid": "3634690",
-  "public_only": "1",
   "common": {
     "name": "Unseen Diplomacy 2",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "othervrsupport": "1",
     "othervrsupport_rift_13": "1",
@@ -144,9 +143,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758831197",
     "community_hub_visible": "1",
     "gameid": "3634690",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "19",
@@ -170,5 +169,56 @@
       "18": "3968",
       "19": "6869"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Triangular Pixels",
+    "publisher": "Triangular Pixels",
+    "homepage": "https://unseendiplomacy2.com/"
+  },
+  "config": {
+    "installdir": "Unseen Diplomacy 2",
+    "launch": {
+      "0": {
+        "executable": "UD2 SteamVR/Unseen Diplomacy 2.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Unseen Diplomacy 2"
+        },
+        "description": "Unseen Diplomacy 2"
+      },
+      "1": {
+        "executable": "UD2 NativeRift/Unseen Diplomacy 2.exe",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Unseen Diplomacy 2"
+        },
+        "description": "Unseen Diplomacy 2"
+      }
+    }
+  },
+  "depots": {
+    "3634691": {
+      "manifests": {
+        "public": {
+          "gid": "1027637045176438860",
+          "size": "15336683397",
+          "download": "2245288384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20114879",
+        "timeupdated": "1758745977"
+      }
+    },
+    "privatebranches": "1"
   }
 }
