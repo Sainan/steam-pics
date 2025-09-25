@@ -1,6 +1,5 @@
 {
   "appid": "2324290",
-  "public_only": "1",
   "common": {
     "name": "PAC-MAN WORLD 2 Re-PAC",
     "type": "Game",
@@ -38,7 +37,7 @@
     "osarch": "64",
     "osextended": "",
     "icon": "7dd4543a5728647a1af31ce3929b5fa45a1db694",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -253,9 +252,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758837599",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2324290",
-    "exfgls": "8",
     "store_tags": {
       "0": "4106",
       "1": "19",
@@ -277,6 +277,118 @@
       "17": "3841",
       "18": "1685",
       "19": "3859"
+    }
+  },
+  "extended": {
+    "developer": "NOW PRODUCTION Co., Ltd.",
+    "publisher": "Bandai Namco Entertainment Inc.",
+    "homepage": "https://pacmanworld2-repac.pacman.com/",
+    "listofdlc": "3340420,3340430"
+  },
+  "config": {
+    "installdir": "PAC-MAN WORLD 2 Re-PAC",
+    "launch": {
+      "0": {
+        "executable": "PAC-MAN WORLD 2 Re-PAC.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "PAC-MAN WORLD 2 Re-PAC"
+        },
+        "description": "PAC-MAN WORLD 2 Re-PAC"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3379094857": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,build-review,compat,dev-debug,dev-release,development,qa-debug,qa-release,usk_rating",
+        "use_action_block": "false"
+      },
+      "3379097046": {
+        "controller_type": "controller_xbox360",
+        "enabled_branches": "default,build-review,compat,dev-debug,dev-release,development,qa-debug,qa-release,usk_rating",
+        "use_action_block": "false"
+      },
+      "3379097304": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,build-review,compat,dev-debug,dev-release,development,qa-debug,qa-release,usk_rating",
+        "use_action_block": "false"
+      },
+      "3379098264": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,build-review,compat,dev-debug,dev-release,development,qa-debug,qa-release,usk_rating",
+        "use_action_block": "false"
+      },
+      "3379099207": {
+        "controller_type": "controller_steamcontroller_gordon",
+        "enabled_branches": "default,build-review,compat,dev-debug,dev-release,development,qa-debug,qa-release,usk_rating",
+        "use_action_block": "false"
+      },
+      "3389946965": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,build-review,compat,dev-debug,dev-release,development,qa-debug,qa-release,usk_rating",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2324291": {
+      "manifests": {
+        "public": {
+          "gid": "4152056852592961544",
+          "size": "9285007663",
+          "download": "4502326224"
+        }
+      }
+    },
+    "2324292": {
+      "manifests": {
+        "public": {
+          "gid": "8781474368040742796",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19228023",
+        "timeupdated": "1758693838"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "4000000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BANDAI NAMCO Entertainment\\PAC-MAN WORLD2 Re-Pac\\Saved\\SaveGames\\{Steam3AccountID}/",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
