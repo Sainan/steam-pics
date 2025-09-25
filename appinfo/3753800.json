@@ -1,6 +1,5 @@
 {
   "appid": "3753800",
-  "public_only": "1",
   "common": {
     "name": "異病偵探 Psycho-Sleuth Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -145,5 +144,57 @@
     },
     "gameid": "3753800",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PHOSEPO",
+    "publisher": "PHOSEPO"
+  },
+  "config": {
+    "installdir": "異病偵探 Psycho-Sleuth Demo",
+    "launch": {
+      "0": {
+        "executable": "Phycho Sleuth.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3753801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6728487547807030515",
+          "size": "13080304223",
+          "download": "5297466544"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20118690",
+        "timeupdated": "1758768592"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "PHOSEPO INC\\Phycho Sleuth\\Saves",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "PHOSEPO INC\\Phycho Sleuth\\Utage\\SaveDDetective",
+        "pattern": "*"
+      }
+    }
   }
 }
