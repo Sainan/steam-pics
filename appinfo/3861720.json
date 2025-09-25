@@ -1,13 +1,12 @@
 {
   "appid": "3861720",
-  "public_only": "1",
   "common": {
     "name": "Ruby's Realms",
     "type": "Game",
     "icon": "ec95ea07821c27a64901d19915cced358f689f4c",
     "clienttga": "44698312b14d138e4983ac5e50b3ce32838b9f5f",
     "clienticon": "17490b2780f1bc461bf7caab534002f5c974a56b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758835408",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3861720",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1628",
@@ -134,6 +134,91 @@
       "17": "4305",
       "18": "3964",
       "19": "4604"
+    }
+  },
+  "extended": {
+    "developer": "Chilling Moose Games",
+    "publisher": "Chilling Moose Games",
+    "homepage": "https://chillingmoose.com"
+  },
+  "config": {
+    "installdir": "Ruby's Realms",
+    "launch": {
+      "0": {
+        "executable": "Ruby.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Ruby.app/Contents/MacOS/Ruby",
+        "workingdir": "Ruby.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3861721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5880209245704948759",
+          "size": "270443123",
+          "download": "164978528"
+        }
+      }
+    },
+    "3861722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8358187315089423841",
+          "size": "421561951",
+          "download": "182932352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20132192",
+        "timeupdated": "1758833873"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "",
+        "pattern": "*.txt",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "Chilling Moose/Ruby"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Chilling Moose/Ruby"
+      }
     }
   }
 }
