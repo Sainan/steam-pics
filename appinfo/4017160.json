@@ -1,6 +1,5 @@
 {
   "appid": "4017160",
-  "public_only": "1",
   "common": {
     "name": "救済の日 体験版",
     "type": "Demo",
@@ -14,7 +13,7 @@
       "english": "The Day Of Salvation Demo",
       "schinese": "救赎之日 体验版"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6ead1d1f47a31864ea69a4eb9b0f5d0ad54c3f0f/capsule_231x87.jpg"
@@ -113,7 +112,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758812359",
     "gameid": "4017160",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nanoar",
+    "publisher": "Nanoar"
+  },
+  "config": {
+    "installdir": "救済の日 Demo",
+    "launch": {
+      "0": {
+        "executable": "TheDayOfSalvation.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017161": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4211079463141534206",
+          "size": "1054418642",
+          "download": "900207936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20102413",
+        "timeupdated": "1758681142"
+      }
+    }
   }
 }
