@@ -1,6 +1,5 @@
 {
   "appid": "4019430",
-  "public_only": "1",
   "common": {
     "name": "Elara And the Machine Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
     "languages": {
       "english": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -119,11 +118,69 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4019430",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "晦涩弗里曼",
+    "publisher": "晦涩弗里曼"
+  },
+  "config": {
+    "installdir": "Elara And the Machine Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows/elara.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4019431": {
+      "manifests": {
+        "public": {
+          "gid": "1185901401611488598",
+          "size": "1945881373",
+          "download": "1702953184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19898417",
+        "timeupdated": "1757342077"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "elara/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
