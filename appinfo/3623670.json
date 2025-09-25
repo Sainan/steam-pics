@@ -1,10 +1,9 @@
 {
   "appid": "3623670",
-  "public_only": "1",
   "common": {
     "name": "I See Me",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -112,6 +111,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3623670",
     "exfgls": "3",
@@ -127,6 +127,66 @@
       "8": "492",
       "9": "3859",
       "10": "3843"
+    }
+  },
+  "extended": {
+    "developer": "EyeBridge",
+    "publisher": "EyeBridge",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "I See Me",
+    "launch": {
+      "0": {
+        "executable": "ISeeMe.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3623671": {
+      "manifests": {
+        "public": {
+          "gid": "4990851672670620746",
+          "size": "1063690022",
+          "download": "905357168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20032188",
+        "timeupdated": "1758201834"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "ISeeMe/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
