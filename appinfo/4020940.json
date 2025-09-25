@@ -1,13 +1,12 @@
 {
   "appid": "4020940",
-  "public_only": "1",
   "common": {
     "name": "Project: Purconia Demo",
     "type": "Demo",
     "parent": "3991020",
     "clienticon": "c040b23ba3d745d1fe7a93e7a9f14224a70ed97c",
     "icon": "c040b23ba3d745d1fe7a93e7a9f14224a70ed97c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -104,10 +103,54 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "4020940",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Isco",
+    "publisher": "Isco"
+  },
+  "config": {
+    "installdir": "Project Purconia Demo",
+    "launch": {
+      "0": {
+        "executable": "Purconia.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Project: Purconia Demo!"
+        },
+        "description": "Project: Purconia Demo!"
+      }
+    }
+  },
+  "depots": {
+    "4020941": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135207712765411683",
+          "size": "135752865",
+          "download": "114360960"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20101945",
+        "timeupdated": "1758677840"
+      }
+    },
+    "privatebranches": "1"
   }
 }
