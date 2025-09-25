@@ -1,6 +1,5 @@
 {
   "appid": "3041550",
-  "public_only": "1",
   "common": {
     "name": "Electronic Market Simulator",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienttga": "4f006d03d07ce6cb83e38f928272eeb32bb18f06",
     "clienticns": "4978cd8067bbe7163d3c5d323d98e1b64c479059",
     "linuxclienticon": "4978cd8067bbe7163d3c5d323d98e1b64c479059",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -154,9 +153,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3041550",
-    "exfgls": "8",
     "store_tags": {
       "0": "9204",
       "1": "3810",
@@ -178,6 +177,55 @@
       "17": "5395",
       "18": "35079",
       "19": "4845"
+    }
+  },
+  "extended": {
+    "developer": "Lavanta Game Studios",
+    "publisher": "Lavanta Game Studios"
+  },
+  "config": {
+    "installdir": "Windows",
+    "launch": {
+      "0": {
+        "executable": "Market_Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3041552": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9183880630528243968",
+          "size": "4935424395",
+          "download": "4570719696"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20131864",
+        "timeupdated": "1758832256"
+      }
     }
   }
 }
