@@ -1,10 +1,9 @@
 {
   "appid": "3417470",
-  "public_only": "1",
   "common": {
     "name": "Jurnal Risa: Dark Destiny",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -121,9 +120,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758814188",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3417470",
-    "exfgls": "8",
     "store_tags": {
       "0": "4486",
       "1": "11014",
@@ -145,6 +145,80 @@
       "17": "492",
       "18": "4182",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Digital Happiness",
+    "publisher": "Digital Happiness",
+    "listofdlc": "3902180",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Jurnal Risa",
+    "launch": {
+      "0": {
+        "executable": "JurnalRisa.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3417471": {
+      "manifests": {
+        "public": {
+          "gid": "4957440903696389600",
+          "size": "1933295973",
+          "download": "1802969376"
+        }
+      }
+    },
+    "3902180": {
+      "dlcappid": "3902180",
+      "manifests": {
+        "public": {
+          "gid": "507280129466101644",
+          "size": "1145261340",
+          "download": "1089405792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20128026",
+        "timeupdated": "1758813368"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "JurnalRIsa/Saved/SaveGames/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
