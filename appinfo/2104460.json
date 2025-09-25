@@ -1,6 +1,5 @@
 {
   "appid": "2104460",
-  "public_only": "1",
   "common": {
     "name": "Mala Petaka",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0ae35f4fc5607301484854545b0af91547ab3ff9",
     "clienttga": "d44102f47d0604be65b7b8f2645be4a97170f392",
     "clienticon": "5947dac05910ad103fc5b0543b1eabc08597e8b8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758819734",
     "community_hub_visible": "1",
     "gameid": "2104460",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -131,6 +130,46 @@
       "17": "1023537",
       "18": "3839",
       "19": "4252"
+    }
+  },
+  "extended": {
+    "developer": "Sanditio Bayu",
+    "publisher": "Hellforge Studios",
+    "homepage": "https://linktr.ee/malapetakafps"
+  },
+  "config": {
+    "installdir": "Mala Petaka",
+    "launch": {
+      "0": {
+        "executable": "MalaPetaka.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2104461": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2443248235514502993",
+          "size": "226346229",
+          "download": "209742752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20073012",
+        "timeupdated": "1758529209"
+      }
     }
   }
 }
