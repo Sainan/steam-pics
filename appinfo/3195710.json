@@ -1,6 +1,5 @@
 {
   "appid": "3195710",
-  "public_only": "1",
   "common": {
     "name": "Geometry Shooter Pro",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "1ddc9372a7cb67bc1d5327df5340669924ebd9b4",
     "linuxclienticon": "1ddc9372a7cb67bc1d5327df5340669924ebd9b4",
     "clienticon": "1fcd59cf6be47321b49cf24f452655344ae402c8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "几何射手 增强版",
       "tchinese": "几何射手 增強版",
@@ -133,9 +132,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3195710",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -157,5 +157,84 @@
       "17": "6869",
       "18": "7368"
     }
+  },
+  "extended": {
+    "developer": "Error 300",
+    "publisher": "Error 300",
+    "homepage": "https://error300.com/"
+  },
+  "config": {
+    "installdir": "Geometry Shooter Pro",
+    "launch": {
+      "0": {
+        "executable": "Geometry Shooter Pro.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Geometry Shooter Pro.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Geometry Shooter Pro.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15"
+  },
+  "depots": {
+    "3195711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4181015126773235978",
+          "size": "248864391",
+          "download": "64327920"
+        }
+      }
+    },
+    "3195712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7841938687617142331",
+          "size": "553235526",
+          "download": "131528448"
+        }
+      }
+    },
+    "3195713": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8444060679167727621",
+          "size": "279882588",
+          "download": "66932784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20096516",
+        "timeupdated": "1758646137"
+      }
+    },
+    "privatebranches": "1"
   }
 }
