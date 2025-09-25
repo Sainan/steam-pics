@@ -1,6 +1,5 @@
 {
   "appid": "4027690",
-  "public_only": "1",
   "common": {
     "name": "Basement 66 Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
         "version": "4"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -62,11 +61,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4027690",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Venator X",
+    "publisher": "Venator X"
+  },
+  "config": {
+    "installdir": "Basement 66 Demo",
+    "launch": {
+      "0": {
+        "executable": "Basement66.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4027691": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "413953206546939936",
+          "size": "277717766",
+          "download": "113178928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20091170",
+        "timeupdated": "1758621838"
+      }
     }
   }
 }
