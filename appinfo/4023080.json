@@ -1,4 +1,64 @@
 {
   "appid": "4023080",
-  "public_only": "1"
+  "common": {
+    "name": "Duskfade Demo",
+    "type": "Demo",
+    "parent": "2542020",
+    "clienticon": "05fb45142ffa77ecc6701a9243c2bd656f05cba0",
+    "icon": "03fad8f6a65a8e14a5b265f0bb75886997da8615",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4023080",
+    "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default"
+  },
+  "config": {
+    "installdir": "Duskfade Demo",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "Duskfade.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4023081": {
+      "manifests": {
+        "public": {
+          "gid": "2125348371236091987",
+          "size": "10178027758",
+          "download": "9535661936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20128854",
+        "timeupdated": "1758816729"
+      }
+    }
+  }
 }
