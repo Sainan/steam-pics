@@ -1,0 +1,169 @@
+{
+  "appid": "2890530",
+  "common": {
+    "name": "Legacy: Steel & Sorcery Playtest",
+    "type": "Beta",
+    "parent": "2344320",
+    "clienttga": "3eb73e853698d545ea3ea6716222ef72c7c22e34",
+    "clienticon": "9a660816a18ea31f386eaf93998a4d842d3778c1",
+    "icon": "64044f557e2ab608a13caea4abe2d03aab675672",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "48.08589054451801",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "48.08589054451801",
+          "height_pct": "100"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1717633009",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1741141659",
+    "community_hub_visible": "1",
+    "gameid": "2890530",
+    "exfgls": "6",
+    "review_score": "5",
+    "review_percentage": "56"
+  },
+  "extended": {
+    "playtest_type": "0",
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=2890530"
+  },
+  "config": {
+    "installdir": "Project Honor Playtest",
+    "launch": {
+      "0": {
+        "executable": "start_protected_game.exe",
+        "arguments": "-OverrideUrl=\"ws://honoredge-dev-78b03918e2d5561a.elb.us-west-2.amazonaws.com:5064\"",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "start_protected_game.exe",
+        "arguments": "-OverrideUrl=\"ws://127.0.0.1:5064\"",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "dev-backend"
+        },
+        "description_loc": {
+          "english": "With Local Edge"
+        },
+        "description": "With Local Edge"
+      },
+      "2": {
+        "executable": "start_protected_game.exe",
+        "arguments": "-OverrideUrl=\"ws://honoredge-nlb-b30c63a-6fd9b772aeb363d5.elb.us-west-2.amazonaws.com:5064\"",
+        "type": "option1",
+        "config": {
+          "betakey": "test_server"
+        },
+        "description_loc": {
+          "english": "Test Server"
+        },
+        "description": "Test Server"
+      },
+      "3": {
+        "executable": "start_protected_game.exe",
+        "arguments": "-OverrideUrl=\"ws://honoredge-nlb-b30c63a-6fd9b772aeb363d5.elb.us-west-2.amazonaws.com:5064\"",
+        "type": "option1",
+        "config": {
+          "betakey": "test_server_test"
+        },
+        "description_loc": {
+          "english": "Test Server"
+        },
+        "description": "Test Server"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2890531": {
+      "manifests": {
+        "public": {
+          "gid": "4966807846203650957",
+          "size": "454995580",
+          "download": "254528480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "14476192",
+        "timeupdated": "1741140172"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
