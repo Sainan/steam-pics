@@ -1,6 +1,5 @@
 {
   "appid": "4026440",
-  "public_only": "1",
   "common": {
     "name": "Killer Chat! - Original Edition Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "18a93058397790f7e4aa8c0f9f17ad0da9fe0a3f/capsule_231x87.jpg"
     },
@@ -36,7 +35,55 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1767168000",
     "gameid": "4026440",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "rosesrot",
+    "publisher": "angelrot games"
+  },
+  "config": {
+    "installdir": "Killer Chat! - Original Edition Demo",
+    "launch": {
+      "0": {
+        "executable": "KillerChat_OriginalEdition.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "KillerChat_OriginalEdition.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "KillerChat_OriginalEdition.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4026441": {
+      "manifests": {
+        "public": {
+          "gid": "3804852972226764111",
+          "size": "345599575",
+          "download": "185211680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19961288",
+        "timeupdated": "1757698462"
+      }
+    }
   }
 }
