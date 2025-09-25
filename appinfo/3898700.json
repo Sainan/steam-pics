@@ -1,6 +1,5 @@
 {
   "appid": "3898700",
-  "public_only": "1",
   "common": {
     "name": "INFINITE MINEFIELD",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "6fdcb7458caf8a0fda49566ecf1cc3552bd9bc90",
     "icon": "d27a3235f4cee603fe39db90d96f67eee7285a2b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e458c5641a6a5bb0aa0233164903bc3509d9cb62/capsule_231x87.jpg"
@@ -123,9 +122,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758788940",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3898700",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "1759",
@@ -139,6 +139,54 @@
       "9": "5154",
       "10": "4182",
       "11": "492"
+    }
+  },
+  "extended": {
+    "developer": "Ishmuhter",
+    "publisher": "Ishmuhter"
+  },
+  "config": {
+    "installdir": "INFINITE MINEFIELD",
+    "launch": {
+      "0": {
+        "executable": "INFINITE MINEFIELD.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3898701": {
+      "manifests": {
+        "public": {
+          "gid": "9086356949782619200",
+          "size": "64926192",
+          "download": "26896384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20123763",
+        "timeupdated": "1758795869"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
