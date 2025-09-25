@@ -1,6 +1,5 @@
 {
   "appid": "3229160",
-  "public_only": "1",
   "common": {
     "name": "Beneath Her Gaze",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticon": "39c13cb180c1747a90b958c49c7f92b596ba6135",
     "clienticns": "39c13cb180c1747a90b958c49c7f92b596ba6135",
     "linuxclienticon": "39c13cb180c1747a90b958c49c7f92b596ba6135",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -109,6 +108,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3229160",
     "exfgls": "3",
@@ -137,6 +137,49 @@
       "17": "4559",
       "18": "1742",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Kazarinka",
+    "publisher": "Kazarinka",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Beneath Her Gaze",
+    "launch": {
+      "0": {
+        "executable": "Beneath Her Gaze.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3229161": {
+      "manifests": {
+        "public": {
+          "gid": "2972236750170751620",
+          "size": "1208704899",
+          "download": "229007024"
+        },
+        "beta": {
+          "gid": "4698252191495486217",
+          "size": "3100381356",
+          "download": "264769680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20103556",
+        "timeupdated": "1758689910"
+      },
+      "beta": {
+        "buildid": "19966630",
+        "description": "for test",
+        "timeupdated": "1757738779"
+      }
     }
   }
 }
