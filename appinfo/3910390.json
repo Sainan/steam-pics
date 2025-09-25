@@ -1,16 +1,15 @@
 {
   "appid": "3910390",
-  "public_only": "1",
   "common": {
     "name": "POLYARD",
     "type": "Game",
     "clienttga": "f5b00a6aaaf1b4c4830a962f7670ef44c6b006cd",
-    "clienticon": "04d11e4f35cf795b13872f7568a0f27e0a0d337f",
+    "clienticon": "05b468822520d25203c80433ba22004587d70757",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "icon": "59a46e0e1c9fd6f846a5139e743c603a249fd030",
-    "releasestate": "prerelease",
+    "icon": "05b468822520d25203c80433ba22004587d70757",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -107,6 +106,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758791463",
     "community_hub_visible": "1",
     "gameid": "3910390",
     "exfgls": "3",
@@ -125,5 +125,54 @@
       "7": "492",
       "8": "4667"
     }
+  },
+  "extended": {
+    "developer": "Nick",
+    "publisher": "Nick",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "POLYARD",
+    "launch": {
+      "1": {
+        "executable": "Windows/Polyard.exe",
+        "description_loc": {
+          "english": "Default render"
+        },
+        "description": "Default render"
+      },
+      "2": {
+        "executable": "Windows/Polyard.exe",
+        "arguments": "-featureleveles31",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "POLYARD DX11 Mobile Render"
+        },
+        "description": "POLYARD DX11 Mobile Render"
+      }
+    }
+  },
+  "depots": {
+    "3910391": {
+      "manifests": {
+        "public": {
+          "gid": "6731136898807669273",
+          "size": "3146391744",
+          "download": "410509952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20022194",
+        "timeupdated": "1758145226"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
