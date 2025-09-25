@@ -1,6 +1,5 @@
 {
   "appid": "2642760",
-  "public_only": "1",
   "common": {
     "name": "Back to Hearth",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "417c121eb1f57b6a4de287a31bd2c0c22d8ae70f",
     "linuxclienticon": "313e5910a081437c70ccbf876d8713fd1a958d74",
     "icon": "1c4e47a5b06a75b91ecf85d09953b6c2a56c055f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -141,9 +140,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758816000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2642760",
-    "exfgls": "8",
     "store_tags": {
       "0": "4166",
       "1": "3834",
@@ -159,6 +159,69 @@
       "11": "7208",
       "12": "1698",
       "13": "1742"
+    }
+  },
+  "extended": {
+    "developer": "Podoba Interactive",
+    "publisher": "Marevo Collective"
+  },
+  "config": {
+    "installdir": "Back to Hearth",
+    "launch": {
+      "0": {
+        "executable": "Back to Hearth.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Back to Hearth.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2642761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5959020370912609332",
+          "size": "700865648",
+          "download": "277638128"
+        }
+      }
+    },
+    "2642762": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "733156156194267848",
+          "size": "726983200",
+          "download": "287958560"
+        }
+      }
+    },
+    "2642763": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20121263",
+        "timeupdated": "1758784976"
+      }
     }
   }
 }
