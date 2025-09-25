@@ -1,6 +1,5 @@
 {
   "appid": "3993810",
-  "public_only": "1",
   "common": {
     "name": "Headspace",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "71c9d5998703940b49c8a61cc984b05a1edefcc3",
     "icon": "71c9d5998703940b49c8a61cc984b05a1edefcc3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -107,6 +106,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758783711",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3993810",
     "exfgls": "3",
@@ -137,6 +138,41 @@
       "17": "6650",
       "18": "4057",
       "19": "113"
+    }
+  },
+  "extended": {
+    "developer": "DoctorLoops",
+    "publisher": "DoctorLoops",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Headspace",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu"
+      }
+    }
+  },
+  "depots": {
+    "3993812": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8197138986125400060",
+          "size": "864824255",
+          "download": "589387648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20129205",
+        "timeupdated": "1758818413"
+      }
     }
   }
 }
