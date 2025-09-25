@@ -1,6 +1,5 @@
 {
   "appid": "4048620",
-  "public_only": "1",
   "common": {
     "name": "Throne Alone Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "a730e27edba28723f9103667637cc2d1a5c22761/capsule_231x87.jpg"
@@ -107,7 +106,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758834479",
     "gameid": "4048620",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Phase Vault",
+    "publisher": "Phase Vault"
+  },
+  "config": {
+    "installdir": "Throne Alone Demo",
+    "launch": {
+      "0": {
+        "executable": "Throne Alone.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4048622": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5071690244292618966",
+          "size": "4484843377",
+          "download": "1303808480"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20097291",
+        "timeupdated": "1758650321"
+      }
+    }
   }
 }
