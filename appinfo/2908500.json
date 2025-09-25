@@ -1,6 +1,5 @@
 {
   "appid": "2908500",
-  "public_only": "1",
   "common": {
     "name": "Buggos 2",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "552babf47c7cde96e26cf15f47948bb7bc3c2c3e",
     "clienticon": "33a6bc3a250e46000a78c7ffeb8bd7273a039181",
     "clienttga": "afdb285a185803dcbfd6173dae7d6b6de32c1eb9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -107,9 +106,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758819568",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2908500",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -127,6 +127,50 @@
       "9": "4667",
       "10": "4182",
       "11": "4345"
+    }
+  },
+  "extended": {
+    "developer": "Intrepid Marmot",
+    "publisher": "Intrepid Marmot"
+  },
+  "config": {
+    "installdir": "Buggos 2",
+    "launch": {
+      "0": {
+        "executable": "Buggos2.exe"
+      }
+    }
+  },
+  "depots": {
+    "2908502": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2047048364908819658",
+          "size": "430061383",
+          "download": "261466144"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20117378",
+        "timeupdated": "1758760415"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "6",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot\\app_userdata\\Buggos 2",
+        "pattern": "*.tres"
+      }
     }
   }
 }
