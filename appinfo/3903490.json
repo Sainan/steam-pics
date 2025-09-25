@@ -1,13 +1,12 @@
 {
   "appid": "3903490",
-  "public_only": "1",
   "common": {
     "name": "Prune",
     "type": "Game",
     "icon": "358ee5273ade924c9231a9d1f71121bd86d4d37e",
     "clienticon": "8f1e06e9227da2a81c1ab493150757c21e59a13e",
     "clienttga": "1d7ed8eb0e046e5cd492092176f10a30efe4d571",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -140,9 +139,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758812497",
     "community_hub_visible": "1",
     "gameid": "3903490",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "1654",
@@ -156,6 +155,63 @@
       "9": "4182",
       "10": "3871",
       "11": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Joel McDonald",
+    "publisher": "Joel McDonald",
+    "homepage": "https://www.prunegame.com"
+  },
+  "config": {
+    "installdir": "Prune",
+    "launch": {
+      "0": {
+        "executable": "Prune.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3903491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4223053884460674416",
+          "size": "143062229",
+          "download": "62674544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20116507",
+        "timeupdated": "1758754549"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Joel McDonald/Prune/{64BitSteamID}",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Joel McDonald/Prune/{64BitSteamID}"
+      }
     }
   }
 }
