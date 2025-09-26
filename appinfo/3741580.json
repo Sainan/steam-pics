@@ -99,18 +99,27 @@
     }
   },
   "ufs": {
-    "quota": "4000",
-    "maxnumfiles": "2",
+    "quota": "5000",
+    "maxnumfiles": "4",
     "ignoreexternalfiles": "1",
     "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "WinAppDataRoaming",
-        "path": "Godot/app_userdata/SteveIsAloneDEMO",
+        "path": "MadDev/SteveIsAloneDEMO",
         "pattern": "*.cfg",
         "platforms": {
           "1": "Windows"
         }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/"
       }
     }
   }
