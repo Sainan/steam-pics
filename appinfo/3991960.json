@@ -1,6 +1,5 @@
 {
   "appid": "3991960",
-  "public_only": "1",
   "common": {
     "name": "Q-UP Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9b5402dff60117e6f4a4c7fabf56e98fad61adef/capsule_231x87.jpg"
@@ -104,5 +103,103 @@
     },
     "gameid": "3991960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Everybody House Games",
+    "publisher": "Everybody House Games"
+  },
+  "config": {
+    "installdir": "Q-UP Demo",
+    "launch": {
+      "0": {
+        "executable": "Q-UP Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Q-UP Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3991961": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8201676313268220179",
+          "size": "1929680809",
+          "download": "429912512"
+        }
+      }
+    },
+    "3991962": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3739038361958965399",
+          "size": "2106095476",
+          "download": "450637248"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20147456",
+        "timeupdated": "1758913738"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "EHG/Q-UP Demo",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "EHG/Q-UP",
+            "replace": "com.everybodyhousegames.qup-de,p"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "EHG/Q-UP",
+            "replace": ".config/unity3d/EHG/Q-UP Demo"
+          }
+        }
+      }
+    }
   }
 }
