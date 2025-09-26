@@ -1,11 +1,10 @@
 {
   "appid": "3957630",
-  "public_only": "1",
   "common": {
     "name": "S.E.M.I. – Side Effects May Include... Demo",
     "type": "Demo",
     "parent": "3957560",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -130,7 +129,61 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758909915",
     "gameid": "3957630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Two Horn Unicorn",
+    "publisher": "Two Horn Unicorn"
+  },
+  "config": {
+    "installdir": "S.E.M.I. – Side Effects May Include Demo",
+    "launch": {
+      "0": {
+        "executable": "SEMI.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3957631": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3137930954841504120",
+          "size": "641954429",
+          "download": "487371808"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,russian,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20146552",
+        "timeupdated": "1758909005"
+      }
+    }
   }
 }
