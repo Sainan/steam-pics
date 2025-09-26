@@ -1,13 +1,12 @@
 {
   "appid": "4051480",
-  "public_only": "1",
   "common": {
     "name": "Geamana Village Demo",
     "type": "Demo",
     "parent": "3815000",
     "clienticon": "882ef492629fbbae3d580e99697a3c3d72f22945",
     "icon": "882ef492629fbbae3d580e99697a3c3d72f22945",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -58,5 +57,40 @@
     },
     "gameid": "4051480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Chainwolf Studio",
+    "publisher": "Chainwolf Studio",
+    "homepage": "https://chainwolfgamedev.com/geamana-village/"
+  },
+  "config": {
+    "installdir": "Geamana Village Demo",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "Geamana Village DEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4051481": {
+      "manifests": {
+        "public": {
+          "gid": "1233581782793253691",
+          "size": "852847418",
+          "download": "354858560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20143557",
+        "timeupdated": "1758895503"
+      }
+    }
   }
 }
