@@ -1,6 +1,5 @@
 {
   "appid": "4003520",
-  "public_only": "1",
   "common": {
     "name": "Blimblau: Kill Them All",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "6fc82722d2118dae9f62d90d9ce3adb731b993f0",
     "icon": "6fc82722d2118dae9f62d90d9ce3adb731b993f0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,9 +110,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4003520",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,6 +138,58 @@
       "17": "1667",
       "18": "5716",
       "19": "5395"
+    }
+  },
+  "extended": {
+    "developer": "MadDevStudios",
+    "publisher": "MadDevStudios"
+  },
+  "config": {
+    "installdir": "BlimblauKillThemAllBuild",
+    "launch": {
+      "0": {
+        "executable": "BlimblauKillThemAll.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4003521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "489076254379128780",
+          "size": "135906848",
+          "download": "52017488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20148636",
+        "timeupdated": "1758921018"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "4000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "MadDev/BlimblauKillThemAll",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
