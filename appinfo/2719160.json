@@ -197,22 +197,44 @@
     "launch": {
       "0": {
         "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=SteamVR",
-        "type": "vr"
+        "arguments": "-XRRuntime=SteamVR -d3d11",
+        "type": "vr",
+        "description_loc": {
+          "english": "SteamVR DirectX11"
+        },
+        "description": "SteamVR DirectX11"
       },
       "1": {
         "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=OculusLink",
+        "arguments": "-XRRuntime=OculusLink -d3d11",
         "type": "othervr"
       },
       "2": {
         "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=VD",
+        "arguments": "-XRRuntime=VD -d3d11",
         "type": "option1",
         "description_loc": {
-          "english": "with Virtual Desktop"
+          "english": "with Virtual Desktop DirectX11"
         },
-        "description": "with Virtual Desktop"
+        "description": "with Virtual Desktop DirectX11"
+      },
+      "3": {
+        "executable": "ContractorsShowdown.exe",
+        "arguments": "-XRRuntime=SteamVR -d3d12",
+        "type": "vr",
+        "description_loc": {
+          "english": "SteamVR DirectX12"
+        },
+        "description": "SteamVR DirectX12"
+      },
+      "4": {
+        "executable": "ContractorsShowdown.exe",
+        "arguments": "-XRRuntime=VD -d3d12",
+        "type": "option1",
+        "description_loc": {
+          "english": "with Virtual Desktop DirectX12"
+        },
+        "description": "with Virtual Desktop DirectX12"
       }
     }
   },
