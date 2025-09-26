@@ -1,6 +1,5 @@
 {
   "appid": "3593580",
-  "public_only": "1",
   "common": {
     "name": "Deepest Massage",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienticon": "6bd74109a528a5e6515e4cdaf866d78ef3ca1695",
     "clienttga": "714e1d016d6effcb7d103f5cf457874d98cc6613",
     "linuxclienticon": "4d8588f138dffb1c2b585d81360e6a3182ac9668",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
@@ -111,9 +110,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3593580",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -136,6 +135,99 @@
       "12": "9551",
       "13": "4747",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Erogame Sensei",
+    "publisher": "Erogame Sensei"
+  },
+  "config": {
+    "installdir": "Deepest Massage",
+    "launch": {
+      "0": {
+        "executable": "1.0_export.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Deepest Massage.app/Contents/MacOS/Deepest Massage",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "1.0_export_linux",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3593581": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8915199127111948493",
+          "size": "133701360",
+          "download": "56724400"
+        }
+      }
+    },
+    "3593582": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8779233588164432060",
+          "size": "208452137",
+          "download": "75638752"
+        }
+      }
+    },
+    "3593583": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4882451712753107791",
+          "size": "153980416",
+          "download": "61007024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142273",
+        "timeupdated": "1758889989"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
