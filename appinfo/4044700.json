@@ -1,6 +1,5 @@
 {
   "appid": "4044700",
-  "public_only": "1",
   "common": {
     "name": "Ramona Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
     "osextended": "",
     "clienticon": "017c9b3e5f0fb00a0610c8fa82d8c2b9d026b39f",
     "icon": "017c9b3e5f0fb00a0610c8fa82d8c2b9d026b39f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -142,5 +141,41 @@
     },
     "gameid": "4044700",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Daniele Doesn't Matter",
+    "publisher": "Doesn't Matter Games",
+    "homepage": "https://www.doesntmattergames.com"
+  },
+  "config": {
+    "installdir": "Ramona Demo",
+    "launch": {
+      "0": {
+        "executable": "Ramona - Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "4044701": {
+      "manifests": {
+        "public": {
+          "gid": "7911087988288324844",
+          "size": "5794907059",
+          "download": "2960043408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20143347",
+        "timeupdated": "1758894537"
+      }
+    }
   }
 }
