@@ -1,13 +1,12 @@
 {
   "appid": "3712090",
-  "public_only": "1",
   "common": {
     "name": "Overgrown",
     "type": "Game",
     "icon": "f4684363581464d8c97ac6b4ff38c36b8c77beb7",
     "clienticon": "5191b700a4102adbff3422fd51d8494af296c77c",
     "clienttga": "c5d9b5937b2120d1e4f58ee1c0a6226930d4b922",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -127,6 +126,57 @@
       "16": "7250",
       "17": "7368",
       "18": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Three Raccoons in a Trench Coat",
+    "publisher": "Three Raccoons in a Trench Coat",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Overgrown",
+    "launch": {
+      "0": {
+        "executable": "Overgrown.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3712091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8563661487082159577",
+          "size": "2775376447",
+          "download": "2590347744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19705941",
+        "timeupdated": "1755915025"
+      }
     }
   }
 }
