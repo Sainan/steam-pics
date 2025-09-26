@@ -1,10 +1,9 @@
 {
   "appid": "3045200",
-  "public_only": "1",
   "common": {
     "name": "Beatblock",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "61de6daaa081ef1e8476394d2c2e6b64a05f0ea4",
     "clienttga": "c5fc937ee629a55fdf71ecaa862ff2d794d72b8f",
     "clienticon": "e9aabdda35ff92e4baea2799ff576f7cd1d36a7c",
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758913038",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3045200",
-    "exfgls": "8",
     "store_tags": {
       "0": "1752",
       "1": "1621",
@@ -137,6 +137,118 @@
       "17": "5673",
       "18": "7481",
       "19": "4791"
+    }
+  },
+  "extended": {
+    "developer": "BubbleTabby",
+    "publisher": "SKY HOUR WORKS",
+    "homepage": "https://bubbletabby.com/"
+  },
+  "config": {
+    "installdir": "Beatblock",
+    "launch": {
+      "0": {
+        "executable": "Beatblock.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AppRun",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Beatblock.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3045201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7553967526346026184",
+          "size": "376984052",
+          "download": "367223376"
+        }
+      }
+    },
+    "3045202": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5033966112435575406",
+          "size": "402643333",
+          "download": "375412032"
+        }
+      }
+    },
+    "3045203": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7225359587508671077",
+          "size": "381667772",
+          "download": "368301472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20147023",
+        "timeupdated": "1758911774"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "1": {
+        "root": "gameinstall",
+        "path": "beatblock",
+        "pattern": "unlocks.json"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "beatblock/savedata",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/"
+      }
     }
   }
 }
