@@ -1,6 +1,5 @@
 {
   "appid": "3943520",
-  "public_only": "1",
   "common": {
     "name": "Letherfall Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "d93ca9c4d7db524f47ca39ecf702b6904c41ae2b",
     "clienttga": "2822f1e6e358e4122e85df0db22bcdd9cf034a81",
     "clienticon": "e9fa385185de84588d1974cacac6d36e2a710a50",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,11 +110,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3943520",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Mnemonic Monkey Studio",
+    "publisher": "AIV - Accademia Italiana Videogiochi"
+  },
+  "config": {
+    "installdir": "Letherfall Demo",
+    "launch": {
+      "0": {
+        "executable": "Letherfall.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3943521": {
+      "config": {
+        "oslist": "windows",
+        "language": "english",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1338303210064155068",
+          "size": "6315670901",
+          "download": "6083556240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20128254",
+        "timeupdated": "1758814254"
+      }
+    },
+    "privatebranches": "1"
   }
 }
