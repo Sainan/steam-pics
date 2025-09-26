@@ -1,10 +1,9 @@
 {
   "appid": "3259600",
-  "public_only": "1",
   "common": {
     "name": "Atelier Resleriana: The Red Alchemist & the White Guardian",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "48dd9166e7a2bf64ec3c1f1b2625db103243223b",
     "clienttga": "f2ecf5575092dfb6407268b8d7b68c3f2bfebcec",
     "icon": "bb9444ec0af665b264ca5be96cb3b34c6cd18033",
@@ -186,9 +185,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758848486",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3259600",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "122",
@@ -201,6 +201,63 @@
       "8": "597",
       "9": "4182",
       "10": "5608"
+    }
+  },
+  "extended": {
+    "developer": "KOEI TECMO GAMES CO., LTD.",
+    "publisher": "KOEI TECMO GAMES CO., LTD.",
+    "homepage": "https://atelier.games/resleriana_rw/jp/",
+    "listofdlc": "3811080,3811090,3811100,3811120,3811130,3811180",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "AtelierReslerianaRW",
+    "launch": {
+      "0": {
+        "executable": "AtelierReslerianaRW.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3259601": {
+      "manifests": {
+        "public": {
+          "gid": "6330183795806314980",
+          "size": "11312333424",
+          "download": "11136080336"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20023916",
+        "timeupdated": "1758517914"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "KoeiTecmo/AtelierReslerianaRW",
+        "pattern": "*"
+      }
     }
   }
 }
