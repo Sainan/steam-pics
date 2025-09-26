@@ -1,6 +1,5 @@
 {
   "appid": "1969370",
-  "public_only": "1",
   "common": {
     "name": "LEGO® Party!",
     "type": "Game",
@@ -25,7 +24,7 @@
     "icon": "ba523d5f33e5f92ea95de8e842fab920a7f49766",
     "clienticon": "1530e8435cc149b556e0d01fc70b4f57e53a25d6",
     "clienttga": "c782c5042fb0f4c9ea11fafca9b8dc31c608dd1d",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -235,7 +234,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "1969370",
-    "exfgls": "8",
     "store_tags": {
       "0": "7178",
       "1": "1736",
@@ -257,6 +255,83 @@
       "17": "3841",
       "18": "4195",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SMG Studio",
+    "publisher": "Fictions",
+    "homepage": "https://legoparty.com"
+  },
+  "config": {
+    "installdir": "Lego Party",
+    "launch": {
+      "0": {
+        "executable": "LEGO Party.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "LEGO Party.app",
+        "config": {
+          "oslist": "macos",
+          "betakey": "development"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "5",
+    "steaminputmanifestpath": "SteamInput/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "1969371": {},
+    "1969372": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1139364438371689385",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "1969373": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3351877192439535864",
+          "size": "8075496438",
+          "download": "6827688576"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,danish,arabic",
+    "branches": {
+      "public": {
+        "buildid": "19664197",
+        "timeupdated": "1758592970"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20971520",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SMG/LEGO® Party!/{64BitSteamID}",
+        "pattern": "userdata",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
