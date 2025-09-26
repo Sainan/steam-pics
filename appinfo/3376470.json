@@ -1,6 +1,5 @@
 {
   "appid": "3376470",
-  "public_only": "1",
   "common": {
     "name": "A Realm of Eternity",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -117,5 +116,56 @@
       "8": "113",
       "9": "4182"
     }
+  },
+  "extended": {
+    "developer": "NRKY_Games",
+    "publisher": "NRKY_Games",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "A Realm of Eternity",
+    "launch": {
+      "0": {
+        "executable": "Windows/ARealmOfEternity.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3376471": {
+      "manifests": {
+        "public": {
+          "gid": "5861325864557158585",
+          "size": "623860351",
+          "download": "199938256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20126743",
+        "timeupdated": "1758808514"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1"
   }
 }
