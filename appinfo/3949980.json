@@ -1,6 +1,5 @@
 {
   "appid": "3949980",
-  "public_only": "1",
   "common": {
     "name": "本草善食录 Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
       "english": "本草善食录 Demo",
       "schinese": "本草善食录 Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "042cb31fdb3adf2a74d6c72da097eefdd0b14ef3/capsule_231x87.jpg"
@@ -111,5 +110,39 @@
     },
     "gameid": "3949980",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "LingVision Games",
+    "publisher": "LingVision Games"
+  },
+  "config": {
+    "installdir": "win-unpacked",
+    "launch": {
+      "0": {
+        "executable": "bencaoshanshilu.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3949981": {
+      "manifests": {
+        "public": {
+          "gid": "2403600733738533260",
+          "size": "947066866",
+          "download": "594191088"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20143301",
+        "timeupdated": "1758894334"
+      }
+    }
   }
 }
