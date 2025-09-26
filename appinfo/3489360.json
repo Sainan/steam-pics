@@ -103,6 +103,32 @@
           "english": "Steamdeck version"
         },
         "description": "Steamdeck version"
+      },
+      "2": {
+        "executable": "SCB_Playtest.exe",
+        "arguments": "-eventdemomode",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "paxdemo"
+        },
+        "description_loc": {
+          "english": "Event Demo"
+        },
+        "description": "Event Demo"
+      },
+      "3": {
+        "executable": "SCB_Playtest.x86_64",
+        "arguments": "-steamdeck -eventdemomode",
+        "type": "option1",
+        "config": {
+          "oslist": "linux",
+          "betakey": "paxdemo"
+        },
+        "description_loc": {
+          "english": "Event Demo"
+        },
+        "description": "Event Demo"
       }
     },
     "steamdecktouchscreen": "5",
