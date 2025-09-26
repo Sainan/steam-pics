@@ -1,10 +1,9 @@
 {
   "appid": "3634880",
-  "public_only": "1",
   "common": {
     "name": "Western Death",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "ad5057b78fbd553c8b358ad17c0472cd7a0de15b",
     "clienttga": "50accb4af80d0c8a487b992fc14a49c781fa64b7",
     "oslist": "windows,linux",
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758902433",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3634880",
-    "exfgls": "8",
     "store_tags": {
       "0": "1720",
       "1": "6730",
@@ -129,6 +129,90 @@
       "16": "4182",
       "17": "492",
       "18": "493"
+    }
+  },
+  "extended": {
+    "developer": "Myzieks",
+    "publisher": "Myzieks"
+  },
+  "config": {
+    "installdir": "Western Death",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "Western Death.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "default"
+        }
+      },
+      "1": {
+        "executable": "Western Death.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64",
+          "betakey": "default"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3634881": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6218301742523865196",
+          "size": "96220160",
+          "download": "30380352"
+        }
+      }
+    },
+    "3634882": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2025390166206223926",
+          "size": "95479384",
+          "download": "30292992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20081328",
+        "timeupdated": "1758568386"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
