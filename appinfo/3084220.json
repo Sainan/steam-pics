@@ -1,6 +1,5 @@
 {
   "appid": "3084220",
-  "public_only": "1",
   "common": {
     "name": "Moushooter",
     "type": "Game",
@@ -15,7 +14,7 @@
     "icon": "e1c8f2f41fa1709e0cbe4e014ee6eb8ed04e428c",
     "clienttga": "95285f4473951765c45bbd28bb72c5e2ea8d1969",
     "clienticon": "0af22b68331c799bf7210742fc27a45bf1a471d4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "koreana": "마우슈터",
       "japanese": "マウシューター"
@@ -140,9 +139,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758855626",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3084220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -169,6 +169,71 @@
       "17": "6730",
       "18": "4182",
       "19": "12095"
+    }
+  },
+  "extended": {
+    "developer": "Twins Halo",
+    "publisher": "Twins Halo",
+    "homepage": "https://x.com/twins_halo"
+  },
+  "config": {
+    "installdir": "Moushooter",
+    "launch": {
+      "0": {
+        "executable": "Moushooter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3084221": {
+      "manifests": {
+        "public": {
+          "gid": "7746510965189513059",
+          "size": "9645940943",
+          "download": "9081100704"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20132998",
+        "timeupdated": "1758838160"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "7",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Moushooter\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
