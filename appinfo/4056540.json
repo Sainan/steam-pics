@@ -1,4 +1,50 @@
 {
   "appid": "4056540",
-  "public_only": "1"
+  "common": {
+    "name": "Object Impermanence Playtest",
+    "type": "Beta",
+    "parent": "3595450",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "b1cb8a09d97f12e01b229ef9bbd75e48f7d6c9ed",
+    "clienticon": "b1cb8a09d97f12e01b229ef9bbd75e48f7d6c9ed",
+    "releasestate": "released",
+    "community_hub_visible": "1",
+    "gameid": "4056540",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Object Impermanence Playtest",
+    "launch": {
+      "0": {
+        "executable": "Object Impermanence Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Base windows launch options"
+        },
+        "description": "Base windows launch options"
+      }
+    }
+  },
+  "depots": {
+    "4056541": {
+      "manifests": {
+        "public": {
+          "gid": "4002712083186381944",
+          "size": "1054538635",
+          "download": "398764864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20096599",
+        "timeupdated": "1758646586"
+      }
+    }
+  }
 }
