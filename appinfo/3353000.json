@@ -1,10 +1,9 @@
 {
   "appid": "3353000",
-  "public_only": "1",
   "common": {
     "name": "Potatogeddon",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "c14950a54a68631fffb2901ea869e5df6409c20c",
     "clienttga": "e902e98e172892aceef59ecbc376e42fdfcbb10c",
     "clienticon": "8a5169de0bee4f9cb18ad6fea45f5eae627ba121",
@@ -110,9 +109,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758863898",
     "community_hub_visible": "1",
     "gameid": "3353000",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -135,5 +134,53 @@
       "18": "21",
       "19": "493"
     }
+  },
+  "extended": {
+    "developer": "Lukad Games",
+    "publisher": "Lukad Games"
+  },
+  "config": {
+    "installdir": "Potatogeddon",
+    "launch": {
+      "0": {
+        "executable": "Potatogeddon.exe",
+        "arguments": "-fullscreen",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3353001": {
+      "manifests": {
+        "public": {
+          "gid": "1727765917910617261",
+          "size": "1061013954",
+          "download": "538575664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20127094",
+        "timeupdated": "1758810003"
+      }
+    },
+    "privatebranches": "1"
   }
 }
