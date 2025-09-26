@@ -1,6 +1,5 @@
 {
   "appid": "3961630",
-  "public_only": "1",
   "common": {
     "name": "Eidolon: Fate of Fools",
     "type": "Game",
@@ -18,7 +17,7 @@
     "icon": "f54c1c76e0d5d08f88d5a0d73ed0df231d47b5b4",
     "clienticon": "788dbff4ef1d040ef02573d7389fcaf049bb6354",
     "clienttga": "d70aeb07d09557db002ea5a6a9dcd0a90f99942e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f3be66174d91c46bf6fbc3a2c7015b81dc51c2f8/capsule_231x87.jpg"
@@ -114,6 +113,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758912938",
     "community_hub_visible": "1",
     "gameid": "3961630",
     "exfgls": "3",
@@ -137,6 +137,62 @@
       "16": "3993",
       "17": "3859",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Antechamber",
+    "publisher": "DigiPen Institute of Technology",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Eidolon Fate of Fools",
+    "launch": {
+      "0": {
+        "executable": "EidolonFateOfFools.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3961631": {
+      "manifests": {
+        "public": {
+          "gid": "4387445214306173485",
+          "size": "1379248380",
+          "download": "1222670384"
+        },
+        "local": {
+          "gid": "1062349438093911706",
+          "size": "1379230476",
+          "download": "1223746896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20120033",
+        "timeupdated": "1758778409"
+      },
+      "local": {
+        "buildid": "20039446",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758238066"
+      }
     }
   }
 }
