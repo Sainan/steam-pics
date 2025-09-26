@@ -1,6 +1,5 @@
 {
   "appid": "3083930",
-  "public_only": "1",
   "common": {
     "name": "Brentwood Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "4a14e2c7099d45c97b550e084b1b00a41d8b9b75",
     "icon": "ab2fda24ca40ac9fb4063284e68f19a88ae55296",
     "clienticns": "f19422154df9d954c1a21be7e44b1993e51a1db5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,5 +113,114 @@
     },
     "gameid": "3083930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Time Flies Studios Inc.",
+    "publisher": "Time Flies Studios Inc.",
+    "homepage": "https://www.brentwoodgame.com/"
+  },
+  "config": {
+    "installdir": "BrentwoodDemo",
+    "launch": {
+      "0": {
+        "executable": "Brentwood.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Brentwood.app/Contents/MacOS/Brentwood",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Brentwood.exe",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3568371428": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3083931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4453589946141179900",
+          "size": "385833888",
+          "download": "129233648"
+        }
+      }
+    },
+    "3083932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1401104679788846415",
+          "size": "477013393",
+          "download": "148687440"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20134388",
+        "timeupdated": "1758846549"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "BrentwoodDemo/",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "BrentwoodDemo/",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "LinuxXdgDataHome",
+        "path": "BrentwoodDemo/",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
