@@ -1,6 +1,5 @@
 {
   "appid": "3506210",
-  "public_only": "1",
   "common": {
     "name": "Apple Rabble Dazzle",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -117,6 +116,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3506210",
     "exfgls": "3",
@@ -135,5 +135,40 @@
       "11": "3859",
       "12": "4182"
     }
+  },
+  "extended": {
+    "developer": "BolHut",
+    "publisher": "BolHut",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Apple Rabble Dazzle",
+    "launch": {
+      "0": {
+        "executable": "applerabbledazzle.exe"
+      }
+    }
+  },
+  "depots": {
+    "3506211": {
+      "manifests": {
+        "public": {
+          "gid": "1705347651573794624",
+          "size": "28397866",
+          "download": "18979952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20145878",
+        "timeupdated": "1758905520"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "1000"
   }
 }
