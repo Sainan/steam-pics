@@ -1,6 +1,5 @@
 {
   "appid": "3915250",
-  "public_only": "1",
   "common": {
     "name": "Lone City Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "name_localized": {
       "schinese": "孤城 Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4bf0c839f5dcff6bc553664cfcd3746c3a5754af/capsule_231x87.jpg"
     },
@@ -38,5 +37,49 @@
     },
     "gameid": "3915250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "YangYuanJie",
+    "publisher": "YangYuanJie"
+  },
+  "config": {
+    "installdir": "孤城 Demo",
+    "launch": {
+      "0": {
+        "executable": "RAR.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3915251": {
+      "manifests": {
+        "public": {
+          "gid": "7695733190422141564",
+          "size": "4073338819",
+          "download": "3677697232"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20141647",
+        "timeupdated": "1758887365"
+      }
+    }
   }
 }
