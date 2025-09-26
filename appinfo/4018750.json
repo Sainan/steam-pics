@@ -1,6 +1,5 @@
 {
   "appid": "4018750",
-  "public_only": "1",
   "common": {
     "name": "琥珀末日 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c704ec1cbf77161f85e19d8739258bc157adeb66/capsule_231x87.jpg"
     },
@@ -105,5 +104,62 @@
     },
     "gameid": "4018750",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "酸浆果工作室",
+    "publisher": "酸浆果工作室"
+  },
+  "config": {
+    "installdir": "琥珀末日 Demo",
+    "launch": {
+      "0": {
+        "executable": "SJGGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4018753": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "761232859981679232",
+          "size": "6397631803",
+          "download": "4331254848"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20137227",
+        "timeupdated": "1758866245"
+      },
+      "9.17demo": {
+        "buildid": "20012928",
+        "description": "封版包",
+        "timeupdated": "1758104227"
+      }
+    }
   }
 }
