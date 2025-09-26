@@ -1,6 +1,5 @@
 {
   "appid": "3988970",
-  "public_only": "1",
   "common": {
     "name": "The Last Zone Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "7208e96625f7121c75dc60adb3d1968c7ab9f67b",
     "clienticon": "7208e96625f7121c75dc60adb3d1968c7ab9f67b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -115,11 +114,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758898567",
     "gameid": "3988970",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Kodobur Games",
+    "publisher": "Kodobur Games",
+    "homepage": "https://www.kodobur.com/"
+  },
+  "config": {
+    "installdir": "The Last Zone Demo",
+    "launch": {
+      "0": {
+        "executable": "TLZ.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3988971": {
+      "manifests": {
+        "public": {
+          "gid": "1252004550481217728",
+          "size": "3955670774",
+          "download": "3668166880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20144121",
+        "timeupdated": "1758897822"
+      }
     }
   }
 }
