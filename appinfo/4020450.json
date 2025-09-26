@@ -1,6 +1,5 @@
 {
   "appid": "4020450",
-  "public_only": "1",
   "common": {
     "name": "Of The Lilies Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -102,10 +101,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4020450",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Startris Studio",
+    "publisher": "Startris Studio"
+  },
+  "config": {
+    "installdir": "Of The Lilies Demo",
+    "launch": {
+      "0": {
+        "executable": "Of The Lilies.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4020451": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5623604546171106301",
+          "size": "1619984655",
+          "download": "156843792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20113795",
+        "timeupdated": "1758738814"
+      }
     }
   }
 }
