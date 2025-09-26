@@ -1,4 +1,105 @@
 {
   "appid": "2745450",
-  "public_only": "1"
+  "common": {
+    "name": "Fading Echo [Closed Alpha]",
+    "type": "Beta",
+    "parent": "2467880",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "eulas": {
+      "0": {
+        "id": "2745450_eula_0",
+        "name": "Fading Echo [Test Build] EULA",
+        "url": "https://store.steampowered.com//eula/2745450_eula_0",
+        "version": "2"
+      }
+    },
+    "icon": "0bcbcbe3c649ea966cbf3d2fd08b2289c79322ed",
+    "clienticon": "54b1b65985b41140ade7a1378edd39345a295085",
+    "community_hub_visible": "1",
+    "gameid": "2745450",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Project Ygro Playtest",
+    "launch": {
+      "0": {
+        "executable": "UE_YGRO.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2745451": {
+      "manifests": {
+        "public": {
+          "gid": "5451585053586590722",
+          "size": "5274541757",
+          "download": "4715520240"
+        },
+        "combat": {
+          "gid": "6642343708081700060",
+          "size": "2382065956",
+          "download": "2002969360"
+        },
+        "ms20": {
+          "gid": "1047116443554547878",
+          "size": "1976119008",
+          "download": "1609420400"
+        },
+        "ms21": {
+          "gid": "8889314845922864528",
+          "size": "2105008262",
+          "download": "1731621408"
+        },
+        "ms22": {
+          "gid": "4700590581434256698",
+          "size": "2294975950",
+          "download": "1916926432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20127286",
+        "timeupdated": "1758813156"
+      },
+      "combat": {
+        "buildid": "15931939",
+        "description": "combat strike team builds",
+        "timeupdated": "1728056093"
+      },
+      "ms20": {
+        "buildid": "14719327",
+        "description": "MS20 build",
+        "timeupdated": "1718371532"
+      },
+      "ms21": {
+        "buildid": "14916450",
+        "description": "ms21 builds",
+        "timeupdated": "1719996291"
+      },
+      "ms22": {
+        "buildid": "15085925",
+        "description": "MS22 build",
+        "timeupdated": "1721375217"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
