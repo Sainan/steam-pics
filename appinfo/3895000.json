@@ -1,6 +1,5 @@
 {
   "appid": "3895000",
-  "public_only": "1",
   "common": {
     "name": "Xeno's Adventure",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "a272687524e548f13412e0bc8c396edf05185b12",
     "clienticon": "f197f679c134fc5497d80413288aff2b1f66bf31",
     "clienttga": "bf0fbae30ea647cdbe49977920c0de0dbe5db1c3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "f197f679c134fc5497d80413288aff2b1f66bf31",
     "linuxclienticon": "f197f679c134fc5497d80413288aff2b1f66bf31",
     "aicontenttype": "1",
@@ -108,9 +107,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758902429",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3895000",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -126,6 +126,44 @@
       "11": "1684",
       "12": "6730",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "J.Berner",
+    "publisher": "J.Berner"
+  },
+  "config": {
+    "installdir": "Xeno's Adventure",
+    "launch": {
+      "0": {
+        "executable": "Xeno's Adventure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3895001": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "471950315759491478",
+          "size": "7974296133",
+          "download": "261743648"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20144545",
+        "timeupdated": "1758899581"
+      }
     }
   }
 }
