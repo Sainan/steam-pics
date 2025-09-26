@@ -1,4 +1,46 @@
 {
   "appid": "4057210",
-  "public_only": "1"
+  "common": {
+    "name": "Cellscape Playtest",
+    "type": "Beta",
+    "parent": "3650410",
+    "clienticon": "71f67167c97b3c2328846cb8d7a06ba35bf2ee24",
+    "icon": "71f67167c97b3c2328846cb8d7a06ba35bf2ee24",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "community_hub_visible": "1",
+    "gameid": "4057210",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Cellscape Playtest",
+    "launch": {
+      "0": {
+        "executable": "Cellscape Playtest\\Cellscape.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4057211": {
+      "manifests": {
+        "public": {
+          "gid": "334025185316709448",
+          "size": "283688060",
+          "download": "69639504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20091409",
+        "timeupdated": "1758622981"
+      }
+    }
+  }
 }
