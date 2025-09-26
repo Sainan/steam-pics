@@ -1,6 +1,5 @@
 {
   "appid": "4036340",
-  "public_only": "1",
   "common": {
     "name": "Devi5e: FEARS Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -115,11 +114,55 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758845269",
     "gameid": "4036340",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Susachiman",
+    "publisher": "Susachiman"
+  },
+  "config": {
+    "installdir": "Devi5e FEARS Demo",
+    "launch": {
+      "0": {
+        "executable": "D5Fears.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4036341": {
+      "manifests": {
+        "public": {
+          "gid": "377780017527214045",
+          "size": "2640351935",
+          "download": "2480164864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20003543",
+        "timeupdated": "1758045205"
+      }
     }
   }
 }
