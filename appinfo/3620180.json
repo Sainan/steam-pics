@@ -1,13 +1,12 @@
 {
   "appid": "3620180",
-  "public_only": "1",
   "common": {
     "name": "Nietzsche's Shadow",
     "type": "Game",
     "icon": "32001fbdfbac651fc3e9ec95b8ee998e8f07fe25",
     "clienticon": "d0ddd3456505cdc15a1fa96f56971854724686fe",
     "clienttga": "fafe5751961784d620fa2638bd34d737742e93a2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -115,9 +114,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3620180",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "21",
@@ -139,6 +138,51 @@
       "17": "5186",
       "18": "1695",
       "19": "1742"
+    }
+  },
+  "extended": {
+    "developer": "Philosophica Games",
+    "publisher": "Philosophica Games",
+    "homepage": "https://x.com/PhilosophicaG"
+  },
+  "config": {
+    "installdir": "Nietzsche's Shadow",
+    "launch": {
+      "0": {
+        "executable": "Nietzsche001.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3620181": {
+      "manifests": {
+        "public": {
+          "gid": "1083542059604262182",
+          "size": "7631346791",
+          "download": "7317687328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19931301",
+        "timeupdated": "1757530807"
+      }
     }
   }
 }
