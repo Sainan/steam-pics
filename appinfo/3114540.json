@@ -1,0 +1,132 @@
+{
+  "appid": "3114540",
+  "common": {
+    "name": "Frontier Paladin Demo",
+    "type": "Demo",
+    "parent": "2804970",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "51b98be7445bc0c57847981b1f03e99a9cb16fdc",
+    "clienttga": "b2ab896c1659dabebedbf50f13a8a199336a0295",
+    "icon": "c032ef7c231dfd59faab4fdfa21a185dd09d19c1",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "ba3ccef59c8cf506e9081de2f372f4ced4f53ac0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "6f08b1186cc5234cc40a14fc9c89b4546926b94c/header.jpg"
+    },
+    "store_screenshot": "ss_66dd1fe436a555d240cbd8f1755a8ff7f845cdc6.jpg",
+    "store_asset_mtime": "1758883072",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Singular Scheme"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Singular Scheme"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "3"
+    },
+    "category": {
+      "category_2": "1",
+      "category_18": "1",
+      "category_60": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1722272064",
+    "gameid": "3114540",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Singular Scheme",
+    "publisher": "Singular Scheme"
+  },
+  "config": {
+    "installdir": "Frontier Paladin Demo",
+    "launch": {
+      "0": {
+        "executable": "Paladin.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3114541": {
+      "manifests": {
+        "public": {
+          "gid": "9013737767948882633",
+          "size": "4002995536",
+          "download": "3686907680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19839660",
+        "timeupdated": "1756902487"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Paladin/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Paladin/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
+}
