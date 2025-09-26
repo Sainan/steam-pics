@@ -1,6 +1,5 @@
 {
   "appid": "3950120",
-  "public_only": "1",
   "common": {
     "name": "404号公寓 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "name_localized": {
       "english": "Room 404 Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -138,10 +137,58 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3950120",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Multimedium",
+    "publisher": "Multimedium"
+  },
+  "config": {
+    "installdir": "404号公寓 Demo",
+    "launch": {
+      "0": {
+        "executable": "float404_demo/Windows/float_404.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3950121": {
+      "manifests": {
+        "public": {
+          "gid": "3604749305708842035",
+          "size": "4542354943",
+          "download": "4393436624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19757014",
+        "timeupdated": "1756306945"
+      }
     }
   }
 }
