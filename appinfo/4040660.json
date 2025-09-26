@@ -1,6 +1,5 @@
 {
   "appid": "4040660",
-  "public_only": "1",
   "common": {
     "name": "Eventide Matter Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "3ca56c633b68a8b20e0bab11016fc2a05f7d098b",
     "icon": "3ca56c633b68a8b20e0bab11016fc2a05f7d098b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -134,7 +133,85 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758895260",
     "gameid": "4040660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ottropi Games",
+    "publisher": "Ottropi Games",
+    "homepage": "https://www.ottropi.com/"
+  },
+  "config": {
+    "installdir": "Eventide Matter Demo",
+    "launch": {
+      "0": {
+        "executable": "Eventide Matter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6140957670049445179",
+          "size": "211090812",
+          "download": "109715248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20128390",
+        "timeupdated": "1758814973"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "4",
+    "appidredirect": "2455780",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Ottropi Games\\Eventide Matter",
+        "pattern": "Config.xml",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Ottropi Games\\Eventide Matter",
+        "pattern": "KeyBindings.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Ottropi Games\\Eventide Matter",
+        "pattern": "SavesDemo.xml",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "Ottropi Games\\Eventide Matter",
+        "pattern": "Saves.xml",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
