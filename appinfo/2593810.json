@@ -1,6 +1,5 @@
 {
   "appid": "2593810",
-  "public_only": "1",
   "common": {
     "name": "Battle of Rebels",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f53e5007a921eb13567d162dd94b2370a0e1f675/capsule_231x87.jpg"
@@ -146,9 +145,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758870005",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2593810",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1774",
@@ -171,5 +171,68 @@
       "18": "3942",
       "19": "3993"
     }
+  },
+  "extended": {
+    "developer": "NYX Digital",
+    "publisher": "Funbox Media Ltd",
+    "homepage": "https://funboxmedia.co.uk/"
+  },
+  "config": {
+    "installdir": "Battle of Rebels",
+    "launch": {
+      "0": {
+        "executable": "BattleRebelV.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2593811": {
+      "manifests": {
+        "public": {
+          "gid": "9068505439794548160",
+          "size": "9466974698",
+          "download": "8364566448"
+        },
+        "local": {
+          "gid": "6093492741164200310",
+          "size": "10674861422",
+          "download": "9085920288"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,portuguese,czech,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "19941616",
+        "timeupdated": "1757615443"
+      },
+      "local": {
+        "buildid": "19657266",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1755622148"
+      }
+    },
+    "privatebranches": "1"
   }
 }
