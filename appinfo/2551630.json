@@ -1,6 +1,5 @@
 {
   "appid": "2551630",
-  "public_only": "1",
   "common": {
     "name": "Beyond R: Rule Ripper Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cce5dc6bc70e41aa529149acf7ebddd2c35f6c0c/capsule_231x87.jpg"
     },
@@ -111,7 +110,43 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "2551630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tohriv",
+    "publisher": "GJ Staff"
+  },
+  "config": {
+    "installdir": "Beyond R Rule Ripper Demo",
+    "launch": {
+      "0": {
+        "executable": "BeyondR.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2551631": {
+      "manifests": {
+        "public": {
+          "gid": "4330006164145712627",
+          "size": "1524006472",
+          "download": "1218208176"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20130548",
+        "timeupdated": "1758824802"
+      }
+    }
   }
 }
