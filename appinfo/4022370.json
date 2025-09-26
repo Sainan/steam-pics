@@ -1,6 +1,5 @@
 {
   "appid": "4022370",
-  "public_only": "1",
   "common": {
     "name": "RePulse-X Demo",
     "type": "Demo",
@@ -32,7 +31,7 @@
         "version": "2"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -166,7 +165,91 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758889159",
+    "community_visible_stats": "1",
     "gameid": "4022370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Stefan Amelung",
+    "publisher": "Stefan Amelung",
+    "homepage": "https://www.amelung-it.de/en/repulse-x-arcade-space-shooter-en"
+  },
+  "config": {
+    "installdir": "RePulse-X Demo",
+    "launch": {
+      "0": {
+        "executable": "RePulse-X_demo.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4022371": {
+      "manifests": {
+        "public": {
+          "gid": "7858690823846570619",
+          "size": "170735127",
+          "download": "149384832"
+        },
+        "beta": {
+          "gid": "7858690823846570619",
+          "size": "170735127",
+          "download": "149384832"
+        }
+      }
+    },
+    "4022372": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,portuguese,polish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20141930",
+        "timeupdated": "1758888598"
+      },
+      "beta": {
+        "buildid": "20141930",
+        "description": "Newest Features",
+        "timeupdated": "1758888474"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "8000",
+    "maxnumfiles": "20",
+    "appidredirect": "4002010",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "RePulse_X",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "RePulse_X",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "RePulse_X",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
