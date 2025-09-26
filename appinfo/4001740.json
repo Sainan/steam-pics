@@ -1,6 +1,5 @@
 {
   "appid": "4001740",
-  "public_only": "1",
   "common": {
     "name": "Stylite Heaven",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "edb3d75009b45274eceb527f34cde42b99835b87/capsule_231x87.jpg",
@@ -117,7 +116,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4001740",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "492",
@@ -131,6 +129,60 @@
       "9": "4231",
       "10": "4136",
       "11": "1684"
+    }
+  },
+  "extended": {
+    "developer": "PAN DANFENG",
+    "publisher": "PAN DANFENG"
+  },
+  "config": {
+    "installdir": "StyliteHeaven",
+    "launch": {
+      "0": {
+        "executable": "StyliteHeaven.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4001746": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4333127061070308794",
+          "size": "1889119663",
+          "download": "1507817152"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20047323",
+        "timeupdated": "1758283250"
+      }
     }
   }
 }
