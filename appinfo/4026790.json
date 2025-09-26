@@ -1,6 +1,5 @@
 {
   "appid": "4026790",
-  "public_only": "1",
   "common": {
     "name": "Hillshade Farm: First Harvest",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "fe462ab40b6c4a3d350039939679497c36d172cf",
     "icon": "fe462ab40b6c4a3d350039939679497c36d172cf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -56,7 +55,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758916870",
     "gameid": "4026790",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "New Acre Games",
+    "publisher": "New Acre Games"
+  },
+  "config": {
+    "installdir": "Hillshade Farm First Harvest",
+    "launch": {
+      "0": {
+        "executable": "EasyMultiplayerSurviva.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4026791": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3348183545587279723",
+          "size": "17597577621",
+          "download": "17119225920"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20147892",
+        "timeupdated": "1758916809"
+      }
+    }
   }
 }
