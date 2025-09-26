@@ -1,6 +1,5 @@
 {
   "appid": "4042630",
-  "public_only": "1",
   "common": {
     "name": "Pinball Dream Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b2556181fd991b3059277fbf47dc1c59a20ad850/capsule_231x87.jpg"
@@ -97,7 +96,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758913014",
     "gameid": "4042630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Baris Intepe",
+    "publisher": "Baris Intepe"
+  },
+  "config": {
+    "installdir": "Pinball Dream",
+    "launch": {
+      "0": {
+        "executable": "Pinball Dream Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4042631": {
+      "manifests": {
+        "public": {
+          "gid": "3369223899527121834",
+          "size": "167540907",
+          "download": "117051920"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20096411",
+        "timeupdated": "1758645951"
+      }
+    }
   }
 }
