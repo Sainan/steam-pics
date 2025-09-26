@@ -1,0 +1,199 @@
+{
+  "appid": "3767000",
+  "common": {
+    "name": "Trucker 2056 Demo",
+    "type": "Demo",
+    "parent": "3482200",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "icon": "f10784e6744c0531ab16d39db1a0c758da545aeb",
+    "clienttga": "b936fc8dce6480648190c08eecf1cbfabb38a8b2",
+    "clienticon": "19e26adebe06209f02b02bb7722de67d96d0ef45",
+    "releasestate": "released",
+    "clienticns": "3bc19b74b4cc5afd9c4d61589338951b959877cf",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "small_capsule": {
+      "english": "ca31b1d864e8c0a5635ac8187ced5b1bbf47e3eb/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "659bbfa5276ed1344a6942449736aed2ebb9288d/header.jpg"
+    },
+    "store_asset_mtime": "1748530709",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Lasse Rintakumpu"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Ratas Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_76": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1748451766",
+    "community_visible_stats": "1",
+    "gameid": "3767000",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Lasse Rintakumpu",
+    "publisher": "Ratas Games",
+    "homepage": "http://trucker2056.com/"
+  },
+  "config": {
+    "installdir": "Trucker 2056 Demo",
+    "launch": {
+      "0": {
+        "executable": "Trucker 2056.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Trucker 2056.app/Contents/MacOS/Trucker 2056",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3767001": {
+      "manifests": {
+        "public": {
+          "gid": "1430108800837855187",
+          "size": "1007419088",
+          "download": "434346240"
+        }
+      }
+    },
+    "3767004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8003016153969205262",
+          "size": "462789300",
+          "download": "381492096"
+        }
+      }
+    },
+    "3767005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1761065864660127523",
+          "size": "547132544",
+          "download": "403204000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20148799",
+        "timeupdated": "1758924567"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3482200",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savegame0",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savegame1",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savegame2",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savegame3",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "4": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savegame4",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "5": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savegame5",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "6": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/Trucker 2056/savemeta",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/Trucker 2056/",
+            "replace": "Godot/app_userdata/Trucker 2056"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/Trucker 2056/",
+            "replace": "Godot/app_userdata/Trucker 2056"
+          }
+        }
+      }
+    }
+  }
+}
