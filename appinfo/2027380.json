@@ -1,6 +1,5 @@
 {
   "appid": "2027380",
-  "public_only": "1",
   "common": {
     "name": "Lost In The Open",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "b72dc2b4c84a554ef9a6b1529fabbbbfe60787c8",
     "clienttga": "b5d77e657c57e24fda8fa9b01f6c48fd18659b3f",
     "icon": "b1afe62ec9d09245741185e0ed20ba3e19726c0e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "孤王绝境"
     },
@@ -129,9 +128,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758891582",
     "community_hub_visible": "1",
     "gameid": "2027380",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "21725",
@@ -153,6 +152,39 @@
       "17": "4166",
       "18": "4182",
       "19": "4711"
+    }
+  },
+  "extended": {
+    "developer": "Black Voyage Games",
+    "publisher": "WhisperGames"
+  },
+  "config": {
+    "installdir": "Lost In The Open",
+    "launch": {
+      "0": {
+        "executable": "LostInTheOpen.exe",
+        "arguments": "Game for Windows",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2027381": {
+      "manifests": {
+        "public": {
+          "gid": "8003254479640792086",
+          "size": "4516364695",
+          "download": "903407440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142532",
+        "timeupdated": "1758891333"
+      }
     }
   }
 }
