@@ -1,6 +1,5 @@
 {
   "appid": "2890940",
-  "public_only": "1",
   "common": {
     "name": "Cat Girl Survivor",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -137,9 +136,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758845308",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2890940",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1716",
@@ -161,6 +161,147 @@
       "17": "4637",
       "18": "4085",
       "19": "4305"
+    }
+  },
+  "extended": {
+    "developer": "Minimum Studio Corp.",
+    "publisher": "CFK Co., Ltd.",
+    "homepage": "http://www.cfk.kr"
+  },
+  "config": {
+    "installdir": "Cat Girl Survivor",
+    "launch": {
+      "0": {
+        "executable": "CatGirlSurvivor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CatGirlSurvivor.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "CatGirlSurvivor.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "2890941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6123784641168273538",
+          "size": "481519644",
+          "download": "386521472"
+        },
+        "alpha": {
+          "gid": "6123784641168273538",
+          "size": "481519644",
+          "download": "386521472"
+        }
+      }
+    },
+    "2890942": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4305398389693753396",
+          "size": "479584516",
+          "download": "383843248"
+        },
+        "alpha": {
+          "gid": "4305398389693753396",
+          "size": "479584516",
+          "download": "383843248"
+        }
+      }
+    },
+    "2890943": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2962522125552820789",
+          "size": "503200257",
+          "download": "395950496"
+        },
+        "alpha": {
+          "gid": "2962522125552820789",
+          "size": "503200257",
+          "download": "395950496"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20122829",
+        "timeupdated": "1758797961"
+      },
+      "alpha": {
+        "buildid": "20122829",
+        "description": "alpha",
+        "timeupdated": "1758791716"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Minimum Studio/Cat Girl Survivor/CGSDatabase",
+        "pattern": "*.bin"
+      }
+    },
+    "sync_while_suspended": "1",
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Minimum Studio/Cat Girl Survivor/CGSDatabase",
+            "replace": "Minimum Studio/Cat Girl Survivor/CGSDatabase"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Minimum Studio/Cat Girl Survivor/CGSDatabase",
+            "replace": "unity3d/Minimum Studio/Cat Girl Survivor/CGSDatabase"
+          }
+        }
+      }
     }
   }
 }
