@@ -1,6 +1,5 @@
 {
   "appid": "4037440",
-  "public_only": "1",
   "common": {
     "name": "Touhou Random Tower Defense Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "6cdb4f2fac5b03b219e628aa81891a75a439d5ef/capsule_231x87.jpg"
@@ -94,7 +93,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4037440",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SlowWork",
+    "publisher": "SlowWork"
+  },
+  "config": {
+    "installdir": "Touhou Random Tower Defense Demo",
+    "launch": {
+      "0": {
+        "executable": "TRTD\\Touhou Random Tower Defense.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "TRTD\\Touhou Random Tower Defense.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037441": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7437750365794198656",
+          "size": "320076022",
+          "download": "143217952"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20113440",
+        "timeupdated": "1758737004"
+      }
+    }
   }
 }
