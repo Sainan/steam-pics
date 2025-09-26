@@ -1,12 +1,11 @@
 {
   "appid": "3597180",
-  "public_only": "1",
   "common": {
     "name": "Graffism",
     "type": "Game",
     "icon": "0c7c069f8e3501d959845b872bdb758a0fa01e6a",
     "clienticon": "b8a34d145ac8c328d28209b34801f0c98ef327f8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "oslist": "windows",
     "osarch": "64",
@@ -89,8 +88,7 @@
     "genres": {
       "0": "1",
       "1": "4",
-      "2": "28",
-      "3": "70"
+      "2": "28"
     },
     "category": {
       "category_2": "1",
@@ -122,9 +120,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758900631",
     "community_hub_visible": "1",
     "gameid": "3597180",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "599",
@@ -145,6 +143,41 @@
       "15": "1702",
       "16": "4182",
       "17": "21978"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "developer": "VRiteLabs",
+    "publisher": "VRiteLabs",
+    "homepage": "https://graffism.com/"
+  },
+  "config": {
+    "installdir": "Graffism",
+    "launch": {
+      "0": {
+        "executable": "Graffism.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3597181": {
+      "manifests": {
+        "public": {
+          "gid": "6513194386501650454",
+          "size": "7395794418",
+          "download": "3559115584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142886",
+        "timeupdated": "1758892602"
+      }
     }
   }
 }
