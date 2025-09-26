@@ -1,6 +1,5 @@
 {
   "appid": "3937960",
-  "public_only": "1",
   "common": {
     "name": "QuackSquad",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienticon": "73c6f036e42d2760c8c3ea07b02ba035a510a575",
     "clienttga": "f0e4ee398f57506c8565fff2cb2121816c84eda4",
     "clienticns": "c24a2b508ff18dc44c31cee9eede30a1e21fb5a9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -110,9 +109,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3937960",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -134,6 +133,46 @@
       "17": "4106",
       "18": "1719",
       "19": "4559"
+    }
+  },
+  "extended": {
+    "developer": "Boxcutter L.A",
+    "publisher": "BoxCutter L.A",
+    "homepage": "https://www.quacksquad.es/"
+  },
+  "config": {
+    "installdir": "QuackSquad",
+    "launch": {
+      "0": {
+        "executable": "QuackSquad.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3937961": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "730935760937151714",
+          "size": "497003525",
+          "download": "289182384"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20063339",
+        "timeupdated": "1758420811"
+      }
     }
   }
 }
