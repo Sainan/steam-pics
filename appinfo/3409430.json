@@ -256,7 +256,15 @@
         "description": "Default Launcher"
       }
     },
-    "steamdecktouchscreen": "1"
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3575124962": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,testbranch",
+        "use_action_block": "true"
+      }
+    }
   },
   "depots": {
     "3409431": {
@@ -295,6 +303,11 @@
         "path": "ShrinkRoomsStudio/ShrinkRooms",
         "pattern": "*",
         "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
       }
     },
     "sync_while_suspended": "1",
