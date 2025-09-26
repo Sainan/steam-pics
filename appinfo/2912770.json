@@ -1,6 +1,5 @@
 {
   "appid": "2912770",
-  "public_only": "1",
   "common": {
     "name": "Silver Daze",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758862828",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2912770",
-    "exfgls": "8",
     "store_tags": {
       "0": "4434",
       "1": "14720",
@@ -137,6 +137,55 @@
       "17": "4305",
       "18": "7250",
       "19": "5673"
+    }
+  },
+  "extended": {
+    "developer": "Sawyer Friend",
+    "publisher": "Sawyer Friend"
+  },
+  "config": {
+    "installdir": "Silver Daze",
+    "launch": {
+      "0": {
+        "executable": "Silver Daze.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65531",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2912771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1127005430304598191",
+          "size": "552127983",
+          "download": "273084304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20136746",
+        "timeupdated": "1758862164"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "3000000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*.rpgsave"
+      }
     }
   }
 }
