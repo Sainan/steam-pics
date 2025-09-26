@@ -1,11 +1,10 @@
 {
   "appid": "3978670",
-  "public_only": "1",
   "common": {
     "name": "战斗吧！勇者学院 Demo",
     "type": "Demo",
     "parent": "3841970",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "744c6546b4047f2cc422d9305f9a5c8ecc510dcc",
     "clienticon": "b28d9a88f80c4e432ad103e2b4555a5bd4023d4e",
     "oslist": "windows",
@@ -64,5 +63,46 @@
     },
     "gameid": "3978670",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MMUnit",
+    "publisher": "MMUnit"
+  },
+  "config": {
+    "installdir": "HeroAcademyDemo",
+    "launch": {
+      "0": {
+        "executable": "HeroAcademy.exe"
+      }
+    }
+  },
+  "depots": {
+    "3978671": {
+      "manifests": {
+        "public": {
+          "gid": "9097046534433702440",
+          "size": "123714864",
+          "download": "70909856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20137187",
+        "timeupdated": "1758868619"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20971520",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "HeroAcademyDemo/saves/{64BitSteamID}",
+        "pattern": "*.mut"
+      }
+    }
   }
 }
