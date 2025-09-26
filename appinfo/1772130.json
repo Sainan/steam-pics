@@ -6,12 +6,12 @@
     "releasestate": "released",
     "logo": "f75d6313466374b92d88acc59f6edad5340a30ef",
     "logo_small": "f75d6313466374b92d88acc59f6edad5340a30ef_thumb",
-    "icon": "ffc05e58adec0f34d5ee5b47245cc2d16eda19bf",
+    "icon": "d08e44ba5eee88752504850d6fea7f6e403ede69",
     "clienttga": "ee25cba6d58a90467c09a16c143aab165cb2a5d5",
-    "clienticns": "20e211a11505baa13c9a3d33d313b8c17a51db04",
+    "clienticns": "08eae4e02c6f2b5c49cbf18d23d42fc43d9e6029",
     "linuxclienticon": "20e211a11505baa13c9a3d33d313b8c17a51db04",
-    "clienticon": "0560890a6eee227e80ba9520a4674c377740f810",
-    "oslist": "windows",
+    "clienticon": "fa0bf04ea1cb487c8645b1ea08ac73b52160bb1f",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "",
     "app_retired_publisher_request": "1",
@@ -141,8 +141,7 @@
   "depots": {
     "1772131": {
       "config": {
-        "oslist": "windows",
-        "osarch": "64"
+        "oslist": "windows"
       },
       "manifests": {
         "public": {
@@ -150,6 +149,16 @@
           "size": "922815584",
           "download": "215936544"
         }
+      }
+    },
+    "1772132": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "1772133": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
