@@ -1,6 +1,5 @@
 {
   "appid": "4012190",
-  "public_only": "1",
   "common": {
     "name": "Dig Dig Burrito! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "c9d76ca8f6ef6bb83c2f5fc52ee45df89c8da7a2",
     "icon": "c9d76ca8f6ef6bb83c2f5fc52ee45df89c8da7a2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -115,5 +114,57 @@
     },
     "gameid": "4012190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SPACEGAMESstudio",
+    "publisher": "SPACEGAMESstudio"
+  },
+  "config": {
+    "installdir": "Dig Dig Burrito! Demo",
+    "launch": {
+      "0": {
+        "executable": "\\Build\\Dig Dig Burrito.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4012191": {
+      "manifests": {
+        "public": {
+          "gid": "4118706326290901414",
+          "size": "325935235",
+          "download": "64390208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20135309",
+        "timeupdated": "1758852841"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "500",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Build\\Dig Dig Burrito_Data\\SaveData\\",
+        "pattern": "*.text"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Build\\Dig Dig Burrito_Data\\SaveData\\",
+        "pattern": "*.meta"
+      }
+    }
   }
 }
