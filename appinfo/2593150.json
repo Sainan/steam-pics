@@ -1,6 +1,5 @@
 {
   "appid": "2593150",
-  "public_only": "1",
   "common": {
     "name": "FISTAGON",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvr_action_manifest_path": "FISTAGON_Data\\StreamingAssets\\SteamVR\\actions.json",
     "openvrsupport": "1",
     "controllertagwizard": "1",
@@ -102,9 +101,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "2593150",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "19",
@@ -127,6 +126,47 @@
       "17": "5055",
       "18": "4305",
       "19": "1773"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Virtual Dawn",
+    "publisher": "Virtual Dawn Publishing",
+    "homepage": "https://virtual-dawn.com/fistagon.html"
+  },
+  "config": {
+    "installdir": "FISTAGON",
+    "launch": {
+      "0": {
+        "executable": "FISTAGON.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2593151": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1900722353106849959",
+          "size": "1308096310",
+          "download": "949393392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20146267",
+        "timeupdated": "1758907385"
+      }
     }
   }
 }
