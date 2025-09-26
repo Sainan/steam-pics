@@ -1,6 +1,5 @@
 {
   "appid": "3968330",
-  "public_only": "1",
   "common": {
     "name": "战争、冠冕与流血的动物 Demo",
     "type": "Demo",
@@ -16,7 +15,7 @@
     "osarch": "",
     "osextended": "",
     "linuxclienticon": "ce69af24144119b93f2c06dbb326d8c1a72a369c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -125,6 +124,48 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "衔",
+    "publisher": "衔"
+  },
+  "config": {
+    "installdir": "战争、冠冕与流血的动物",
+    "launch": {
+      "0": {
+        "executable": "战争、冠冕与流血的动物\\Game.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "stat game",
+          "schinese": "开始游戏"
+        },
+        "description": "stat game"
+      }
+    }
+  },
+  "depots": {
+    "3968331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4835354062126076878",
+          "size": "624286510",
+          "download": "509231296"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19803046",
+        "timeupdated": "1756647313"
+      }
     }
   }
 }
