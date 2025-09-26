@@ -1,6 +1,5 @@
 {
   "appid": "3947670",
-  "public_only": "1",
   "common": {
     "name": "Misery Nights Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -109,6 +108,49 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "DesignLab",
+    "publisher": "DesignLab"
+  },
+  "config": {
+    "installdir": "Misery Nights Demo",
+    "launch": {
+      "0": {
+        "executable": "WalkingNights.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3947671": {
+      "manifests": {
+        "public": {
+          "gid": "7695827364802969885",
+          "size": "1306137388",
+          "download": "1106923504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19974176",
+        "timeupdated": "1757840520"
+      }
     }
   }
 }
