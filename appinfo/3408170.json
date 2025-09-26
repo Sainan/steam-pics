@@ -1,6 +1,5 @@
 {
   "appid": "3408170",
-  "public_only": "1",
   "common": {
     "name": "Deadswitch Combat",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a2968fe64145d0e30022916d88a02d5514d169d9/capsule_231x87.jpg"
@@ -154,6 +153,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758891933",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3408170",
     "exfgls": "3",
@@ -178,6 +179,77 @@
       "17": "5379",
       "18": "1708",
       "19": "5711"
+    }
+  },
+  "extended": {
+    "developer": "Wilkin Games",
+    "publisher": "Wilkin Games",
+    "homepage": "https://deadswitchcombat.com",
+    "isfreeapp": "1",
+    "listofdlc": "4017250,4017260,4017270,4017280",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Deadswitch Combat",
+    "launch": {
+      "0": {
+        "executable": "deadswitch-combat.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3408171": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7887033141330993634",
+          "size": "673207379",
+          "download": "353604592"
+        }
+      }
+    },
+    "3408173": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2439390072855101562",
+          "size": "628688575",
+          "download": "344859312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20136670",
+        "timeupdated": "1758861628"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
