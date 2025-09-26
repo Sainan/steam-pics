@@ -1,6 +1,5 @@
 {
   "appid": "3952430",
-  "public_only": "1",
   "common": {
     "name": "Echoes of Light Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -57,5 +56,54 @@
     },
     "gameid": "3952430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ink Forged",
+    "publisher": "Ink Forged"
+  },
+  "config": {
+    "installdir": "Echoes of Light Demo",
+    "launch": {
+      "0": {
+        "executable": "EcheosOfLight.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "EcheosOfLight.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "EchoesOfLight.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3952431": {
+      "manifests": {
+        "public": {
+          "gid": "4749017577496770435",
+          "size": "744143576",
+          "download": "302778368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20137139",
+        "timeupdated": "1758865322"
+      }
+    }
   }
 }
