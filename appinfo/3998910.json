@@ -1,10 +1,9 @@
 {
   "appid": "3998910",
-  "public_only": "1",
   "common": {
     "name": "Creepy Fishing",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "90f58439ebbbbfe770a497c3c494d91a2f6178a5",
     "icon": "90f58439ebbbbfe770a497c3c494d91a2f6178a5",
     "oslist": "windows",
@@ -14,6 +13,7 @@
       "0": "5"
     },
     "controllertagwizard": "1",
+    "controller_support": "full",
     "small_capsule": {
       "english": "0175ec6f11ef5bba052580c4c271a8722d7b49a5/capsule_231x87.jpg"
     },
@@ -95,6 +95,9 @@
     "category": {
       "category_2": "1",
       "category_68": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -123,9 +126,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758916469",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3998910",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -145,5 +149,67 @@
       "12": "7250",
       "13": "4182"
     }
+  },
+  "extended": {
+    "developer": " Fireplay Studio",
+    "publisher": " Fireplay Studio"
+  },
+  "config": {
+    "installdir": "Creepy Fishing",
+    "launch": {
+      "0": {
+        "executable": "CreepyFishing.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3998911": {
+      "manifests": {
+        "public": {
+          "gid": "6297231588126937812",
+          "size": "1471641212",
+          "download": "1299388544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20140517",
+        "timeupdated": "1758882681"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3998910",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1"
   }
 }
