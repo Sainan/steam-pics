@@ -1,6 +1,5 @@
 {
   "appid": "3812660",
-  "public_only": "1",
   "common": {
     "name": "Cladun X3",
     "type": "Game",
@@ -18,7 +17,7 @@
     "clienticon": "37adffaaef45eddfbfafb4e33d754e40f00910ed",
     "clienttga": "388e43d0f7f25d8d24edd30f579084e57847595c",
     "icon": "368cf21c3033de1bad9803652d0d52b011cd30da",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "クラシックダンジョンX3",
       "koreana": "CLADUN X3",
@@ -160,9 +159,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758906015",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3812660",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -187,6 +187,70 @@
       "17": "4046",
       "18": "1684",
       "19": "4236"
+    }
+  },
+  "extended": {
+    "developer": "Nippon Ichi Software, Inc.",
+    "publisher": "NIS America, Inc.",
+    "homepage": "https://nisamerica.com/cladun-x3/"
+  },
+  "config": {
+    "installdir": "Cladun X3",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "CLADUN_X3.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65528"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3812661": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7037481402041706955",
+          "size": "1153212754",
+          "download": "694156352"
+        }
+      }
+    },
+    "baselanguages": "english,french,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "19836967",
+        "timeupdated": "1757524304"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "200000000",
+    "maxnumfiles": "2000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Nippon Ichi Software, Inc/ClassicDungeonX3/{Steam3AccountID}",
+        "pattern": "GameSave.*",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Nippon Ichi Software, Inc/ClassicDungeonX3/{Steam3AccountID}/SystemSave",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
