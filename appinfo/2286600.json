@@ -1,6 +1,5 @@
 {
   "appid": "2286600",
-  "public_only": "1",
   "common": {
     "name": "HOTEL BARCELONA",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0af8d9af520acb2bc52a124a1f09ec7c3f1c98d1",
     "clienttga": "3c75bc364e9815a7e510ced13e981d6f5e327e77",
     "clienticon": "19a559b24304b1ab06aed44b60dbc9dcbfbe3f4f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -153,9 +152,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758873570",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2286600",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -182,6 +182,62 @@
       "17": "1667",
       "18": "5923",
       "19": "1710"
+    }
+  },
+  "extended": {
+    "developer": "White Owls Inc.",
+    "publisher": "CULT Games"
+  },
+  "config": {
+    "installdir": "HOTEL BARCELONA",
+    "launch": {
+      "0": {
+        "executable": "HOTEL BARCELONA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Default Boot"
+        },
+        "description": "Default Boot"
+      }
+    }
+  },
+  "depots": {
+    "2286601": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6193046431843237419",
+          "size": "9376023514",
+          "download": "5225031808"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20087998",
+        "timeupdated": "1758605509"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "2000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "The Cult Games Ltd/HOTEL BARCELONA",
+        "pattern": "*.data",
+        "recursive": "1"
+      }
     }
   }
 }
