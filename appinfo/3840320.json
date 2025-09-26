@@ -1,10 +1,9 @@
 {
   "appid": "3840320",
-  "public_only": "1",
   "common": {
     "name": "Pochard Jamie",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Pochard Jamie",
       "schinese": "潜鸭杰米",
@@ -165,9 +164,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758915650",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3840320",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "3877",
@@ -181,6 +181,80 @@
       "9": "4604",
       "10": "3968",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SOLARLAKE",
+    "publisher": "SOLARLAKE"
+  },
+  "config": {
+    "installdir": "Pochard Jamie",
+    "launch": {
+      "0": {
+        "executable": "PochardJamie.exe"
+      }
+    }
+  },
+  "depots": {
+    "3840321": {
+      "manifests": {
+        "public": {
+          "gid": "2954651411119756533",
+          "size": "306119277",
+          "download": "164819536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20147700",
+        "timeupdated": "1758915546"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "24",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SolarLake/PochardJamie",
+        "pattern": "*.game"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SolarLake/PochardJamie",
+            "replace": "unity.SolarLake.PochardJamie"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SolarLake/PochardJamie",
+            "replace": ".config/unity3D/SolarLake/PochardJamie"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      }
     }
   }
 }
