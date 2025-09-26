@@ -1,13 +1,12 @@
 {
   "appid": "3997230",
-  "public_only": "1",
   "common": {
     "name": "Paddle Together Demo",
     "type": "Demo",
     "parent": "3845160",
     "icon": "dd59e6921e74d9b19b384e182d6b8b2407bf7730",
     "clienticon": "dd59e6921e74d9b19b384e182d6b8b2407bf7730",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -167,7 +166,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758902400",
     "gameid": "3997230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Glyde Games",
+    "publisher": "Glyde Games",
+    "homepage": "https://glydegames.com/games"
+  },
+  "config": {
+    "installdir": "Paddle Together Demo",
+    "launch": {
+      "0": {
+        "executable": "Paddle Together - Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3997231": {
+      "manifests": {
+        "public": {
+          "gid": "3944006665920467628",
+          "size": "830669806",
+          "download": "221851648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20146180",
+        "timeupdated": "1758907177"
+      }
+    },
+    "privatebranches": "1"
   }
 }
