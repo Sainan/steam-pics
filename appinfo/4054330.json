@@ -1,6 +1,5 @@
 {
   "appid": "4054330",
-  "public_only": "1",
   "common": {
     "name": "Paws Against the World Demo",
     "type": "Demo",
@@ -10,9 +9,105 @@
     "osextended": "macos64",
     "clienticon": "ac89fc1365a0efd5cd90aaa32e18cfedb79b1c05",
     "icon": "ac89fc1365a0efd5cd90aaa32e18cfedb79b1c05",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
+    "small_capsule": {
+      "english": "21a9cfc855a9fea48a466f46aee79510f3be2d7c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "8a004b766b56bef9364b2f4afadfdce04ae42c6b/header.jpg"
+    },
+    "store_asset_mtime": "1758551433",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "GoldenGod Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "GoldenGod Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1767168000",
     "gameid": "4054330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GoldenGod Games",
+    "publisher": "GoldenGod Games"
+  },
+  "config": {
+    "installdir": "Paws Against the World Demo",
+    "launch": {
+      "0": {
+        "executable": "PawsAgainstWorldDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PawsAgainstWorldDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "PawsAgainstWorldDemo.app/Contents/MacOS/PawsAgainstWorldDemo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1030306464534856779",
+          "size": "297791121",
+          "download": "126226832"
+        }
+      }
+    },
+    "4054332": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "484631181523233648",
+          "size": "364074730",
+          "download": "145899504"
+        }
+      }
+    },
+    "4054333": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6900902080832922655",
+          "size": "323132918",
+          "download": "130334352"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20079677",
+        "timeupdated": "1758559860"
+      }
+    }
   }
 }
