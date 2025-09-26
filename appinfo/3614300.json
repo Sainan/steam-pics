@@ -1,6 +1,5 @@
 {
   "appid": "3614300",
-  "public_only": "1",
   "common": {
     "name": "AsRPG Collection - Sales, Science & Spirits",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "940ab4bba8a60b712a0dddbf640c94a10c01505f",
     "clienticon": "118e1a378ee7c6e4d63e477041aad5cc94c8852a",
     "clienttga": "faa6c24b56cc612e8d4376ea0f8ba7dc4caf4181",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "118e1a378ee7c6e4d63e477041aad5cc94c8852a",
     "linuxclienticon": "118e1a378ee7c6e4d63e477041aad5cc94c8852a",
     "content_descriptors": {
@@ -113,9 +112,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758857983",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3614300",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -140,6 +140,41 @@
       "17": "5794",
       "18": "492",
       "19": "4106"
+    }
+  },
+  "extended": {
+    "developer": "Metal Pizza?",
+    "publisher": "Zero Point Games",
+    "homepage": "https://zeropoint.games/"
+  },
+  "config": {
+    "installdir": "ARPG - Sales, Science & Spirit",
+    "launch": {
+      "0": {
+        "executable": "runner.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Use the Launcher to start the game."
+        },
+        "description": "Use the Launcher to start the game."
+      }
+    }
+  },
+  "depots": {
+    "3614301": {
+      "manifests": {
+        "public": {
+          "gid": "2030786130103116239",
+          "size": "952740758",
+          "download": "544981568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20109160",
+        "timeupdated": "1758717776"
+      }
     }
   }
 }
