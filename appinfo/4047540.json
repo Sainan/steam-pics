@@ -1,6 +1,5 @@
 {
   "appid": "4047540",
-  "public_only": "1",
   "common": {
     "name": "怪奇酒馆 - 乱斗 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c0fa025a7fa8a463617136f93a646ebc90489f7c/capsule_231x87.jpg"
     },
@@ -107,7 +106,59 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758900904",
     "gameid": "4047540",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "UncleCheng",
+    "publisher": "UncleCheng"
+  },
+  "config": {
+    "installdir": "Stranger Tavern - Brawl_Demo",
+    "launch": {
+      "0": {
+        "executable": "StrangerTavern_Brawl.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4047541": {
+      "manifests": {
+        "public": {
+          "gid": "2403220342793133599",
+          "size": "1732611335",
+          "download": "331182352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20144831",
+        "timeupdated": "1758900848"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "999999999",
+    "maxnumfiles": "99",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "UncleCheng\\StrangerTavern_Brawl",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
