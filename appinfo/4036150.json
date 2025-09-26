@@ -1,6 +1,5 @@
 {
   "appid": "4036150",
-  "public_only": "1",
   "common": {
     "name": "Harrowlight Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "d71202fa45ca315438e1aa4bf0a7c5a093c1b1c0",
     "clienticon": "d71202fa45ca315438e1aa4bf0a7c5a093c1b1c0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,10 +41,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4036150",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Rolkus",
+    "publisher": "Rolkus"
+  },
+  "config": {
+    "installdir": "Harrowlight Demo",
+    "launch": {
+      "0": {
+        "executable": "Harrowlight.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4036151": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8289130055943331649",
+          "size": "7625778922",
+          "download": "7339551840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20137399",
+        "timeupdated": "1758867788"
+      }
     }
   }
 }
