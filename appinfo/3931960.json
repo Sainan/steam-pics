@@ -1,13 +1,12 @@
 {
   "appid": "3931960",
-  "public_only": "1",
   "common": {
     "name": "Nightcrawler",
     "type": "Game",
     "icon": "eafaa7855e2b051a435a4de5929041d5f3bdebb9",
     "clienticon": "86a536b61f902acc1fd464a18dcecb94b676e3c6",
     "clienttga": "7e24fe691fe210501c5cec1439ec92cdd85113b0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -113,9 +112,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3931960",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "597",
@@ -137,6 +136,47 @@
       "17": "198913",
       "18": "3942",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "TsuraiKuromaru",
+    "publisher": "Tsurai Productions"
+  },
+  "config": {
+    "installdir": "Nightcrawler",
+    "launch": {
+      "0": {
+        "executable": "Nightcrawler.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3931961": {
+      "manifests": {
+        "public": {
+          "gid": "456558497732700195",
+          "size": "290975184",
+          "download": "187413184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20147924",
+        "timeupdated": "1758916812"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
