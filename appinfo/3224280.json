@@ -1,13 +1,12 @@
 {
   "appid": "3224280",
-  "public_only": "1",
   "common": {
     "name": "SoulWander",
     "type": "Game",
     "icon": "70c8512c25b8f574f57dbc4aa904ef587bffb858",
     "clienticon": "0d00e18a3a7e8ab5a56fd1db9e669bcf41dfe32a",
     "clienttga": "481ed9bf19a6719e3622c8f15273e36706d936b3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -112,7 +111,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3224280",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "5379",
@@ -131,5 +129,45 @@
       "14": "597",
       "15": "493"
     }
+  },
+  "extended": {
+    "developer": "MYMEStudio",
+    "publisher": "Gonggamorecontents Inc."
+  },
+  "config": {
+    "installdir": "SoulWander",
+    "launch": {
+      "0": {
+        "executable": "SoulWander.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Main Game"
+        },
+        "description": "Main Game"
+      }
+    }
+  },
+  "depots": {
+    "3224281": {
+      "manifests": {
+        "public": {
+          "gid": "6978742357564759876",
+          "size": "1971161538",
+          "download": "267797296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20129494",
+        "timeupdated": "1758819772"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100"
   }
 }
