@@ -1,13 +1,12 @@
 {
   "appid": "3950490",
-  "public_only": "1",
   "common": {
     "name": "Cursed Hospital",
     "type": "Game",
     "icon": "50b10ba18427a5bb94313714ee167eaa1f560a2a",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "6f01b82df9a5780561f03a19145b24581debb025",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -108,7 +107,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3950490",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -133,6 +131,60 @@
       "17": "4342",
       "18": "3978",
       "19": "1695"
+    }
+  },
+  "extended": {
+    "developer": "KaashFusionStudio",
+    "publisher": "KaashFusionStudio"
+  },
+  "config": {
+    "installdir": "Cursed Hospital",
+    "launch": {
+      "0": {
+        "executable": "CursedHospital.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3950491": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6025514192045271608",
+          "size": "10877731015",
+          "download": "5399467984"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19968684",
+        "timeupdated": "1757765022"
+      }
     }
   }
 }
