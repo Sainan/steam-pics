@@ -1,6 +1,5 @@
 {
   "appid": "4015940",
-  "public_only": "1",
   "common": {
     "name": "POSSUM BOY!: The Ballad of Joey Virginia Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -110,7 +109,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758850070",
     "gameid": "4015940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Big Knife",
+    "publisher": "Big Knife"
+  },
+  "config": {
+    "installdir": "POSSUM BOY! The Ballad of Joey Virginia Demo",
+    "launch": {
+      "0": {
+        "executable": "PossumBoy.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PossumBoy.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "PossumBoy.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4015941": {
+      "manifests": {
+        "public": {
+          "gid": "5128197572856948264",
+          "size": "356378099",
+          "download": "186602928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20067242",
+        "timeupdated": "1758476489"
+      }
+    }
   }
 }
