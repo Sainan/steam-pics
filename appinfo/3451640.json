@@ -1,6 +1,5 @@
 {
   "appid": "3451640",
-  "public_only": "1",
   "common": {
     "name": "Fantasy Idle Dungeon Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
       "schinese": "梦幻地下城：放置好时光 试玩版",
       "koreana": "방치형 던전: 천층의 모험 데모 버전"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "24840cb1ba67b16b15b6f18980589eebe6840dec/capsule_231x87.jpg"
@@ -123,7 +122,85 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3451640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Leaves Games",
+    "publisher": "Leaves Games"
+  },
+  "config": {
+    "installdir": "Fantasy Idle Dungeon Demo",
+    "launch": {
+      "0": {
+        "executable": "Fantasy Idle Dungeon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "start"
+        },
+        "description": "start"
+      }
+    }
+  },
+  "depots": {
+    "3451641": {
+      "manifests": {
+        "public": {
+          "gid": "172667191185089475",
+          "size": "208199981",
+          "download": "87997568"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20089531",
+        "timeupdated": "1758614769"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "datas/",
+        "pattern": "sys.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "datas/",
+        "pattern": "storage1.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "datas/",
+        "pattern": "storage2.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "gameinstall",
+        "path": "datas/",
+        "pattern": "storage3.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
