@@ -1,6 +1,5 @@
 {
   "appid": "2963220",
-  "public_only": "1",
   "common": {
     "name": "Ruins of Endoth",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -100,9 +99,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2963220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -128,6 +128,65 @@
       "17": "4182",
       "18": "492",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "KLG Games Ltd",
+    "publisher": "N/A"
+  },
+  "config": {
+    "installdir": "Ruins of Endoth",
+    "launch": {
+      "0": {
+        "executable": "Endoth.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2963221": {
+      "manifests": {
+        "public": {
+          "gid": "1289781768549700318",
+          "size": "10600631339",
+          "download": "10278877984"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20141814",
+        "timeupdated": "1758887982"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Endoth\\Saved\\SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
