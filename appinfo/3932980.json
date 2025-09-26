@@ -1,6 +1,5 @@
 {
   "appid": "3932980",
-  "public_only": "1",
   "common": {
     "name": "Whisper Village",
     "type": "Game",
@@ -20,7 +19,7 @@
         "version": "3"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -151,9 +150,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758905983",
     "community_hub_visible": "1",
     "gameid": "3932980",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -179,5 +178,58 @@
       "18": "5186",
       "19": "7926"
     }
+  },
+  "extended": {
+    "developer": "CryVoltaStudio",
+    "publisher": "CryVoltaStudio"
+  },
+  "config": {
+    "installdir": "Whisper Village",
+    "launch": {
+      "0": {
+        "executable": "WhisperVillage.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3932981": {
+      "manifests": {
+        "public": {
+          "gid": "5858435207995589367",
+          "size": "9417384570",
+          "download": "8512597568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20133103",
+        "timeupdated": "1758838737"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "WhisperVillage/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "WhisperVillage/Saved/Config/Windows",
+        "pattern": "*.ini",
+        "recursive": "1"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
