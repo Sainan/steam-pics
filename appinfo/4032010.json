@@ -1,4 +1,68 @@
 {
   "appid": "4032010",
-  "public_only": "1"
+  "common": {
+    "name": "Gear Number Go Up Demo",
+    "type": "Demo",
+    "parent": "4027830",
+    "clienticon": "3063f9bb2eaa657fcc20b808c3946dd8d7fb3d6b",
+    "icon": "3063f9bb2eaa657fcc20b808c3946dd8d7fb3d6b",
+    "linuxclienticon": "daa9aa7c1ed76dfe91ae0cc59c0bcd9c8fb8f2fc",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4032010",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Gear Number Go Up Demo",
+    "launch": {
+      "0": {
+        "executable": "windows/gear_number_go_up.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "linux/gear_number_go_up.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4032011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8966263083093617718",
+          "size": "101522728",
+          "download": "35565328"
+        }
+      }
+    },
+    "4032012": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6620798282632580624",
+          "size": "75125312",
+          "download": "28821088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20124466",
+        "timeupdated": "1758798772"
+      }
+    }
+  }
 }
