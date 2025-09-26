@@ -6,7 +6,7 @@
     "icon": "a2043146caf12b0d9511096fe23c1c30caa173b8",
     "clienticon": "e04dde9feba9059c8ae1861ddc6b307aee62e5a9",
     "clienttga": "ce1a08c12c38d93c49d624da2fea85738dc971ee",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
     "releasestate": "released",
@@ -195,23 +195,32 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "Cats in Heat - Sunshine Resort.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
-    }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "2928951": {
       "manifests": {
         "public": {
-          "gid": "8127075187445879934",
-          "size": "298236808",
-          "download": "241733760"
+          "gid": "8648169283762540327",
+          "size": "366797328",
+          "download": "272435568"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "14059149",
-        "timeupdated": "1713199983"
+        "buildid": "20138740",
+        "timeupdated": "1758875058"
       }
     }
   },
@@ -220,12 +229,25 @@
     "maxnumfiles": "101",
     "savefiles": {
       "0": {
-        "root": "WinAppDataRoaming",
-        "path": "Godot/app_userdata/Cats in Heat - Sunshine Resort",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": "Godot/app_userdata/Cats in Heat - Sunshine Resort"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/godot/app_userdata/Cats in Heat - Sunshine Resort"
       }
     }
   }
