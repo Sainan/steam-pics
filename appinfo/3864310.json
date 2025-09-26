@@ -1,16 +1,18 @@
 {
   "appid": "3864310",
-  "public_only": "1",
   "common": {
     "name": "Mr. Prepper - Uranium Project DLC",
     "type": "DLC",
     "parent": "761830",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "准备先生 - 铀计划 DLC",
       "tchinese": "准备先生 - 铀计划 DLC",
       "russian": "Mr. Prepper - DLC «Проект Уран»"
     },
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
     "small_capsule": {
       "english": "9ea381b4e7b7faf664ba5049700a9424940b23f2/capsule_231x87.jpg"
     },
@@ -128,8 +130,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758906013",
     "gameid": "3864310",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -138,5 +140,40 @@
       "4": "597",
       "5": "599"
     }
+  },
+  "extended": {
+    "dlcforappid": "761830",
+    "mustownapptopurchase": "761830",
+    "developer": "Rejected Games",
+    "publisher": "PlayWay S.A.",
+    "dlcavailableonstore": "1"
+  },
+  "depots": {
+    "3864310": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "3864310",
+      "manifests": {
+        "public": {
+          "gid": "3026413379473579752",
+          "size": "340117876",
+          "download": "139477488"
+        }
+      }
+    },
+    "3864311": {
+      "config": {
+        "oslist": "macos"
+      },
+      "dlcappid": "3864310"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20141529",
+        "timeupdated": "1758887032"
+      }
+    },
+    "privatebranches": "1"
   }
 }
