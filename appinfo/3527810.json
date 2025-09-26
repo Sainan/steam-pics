@@ -1,6 +1,5 @@
 {
   "appid": "3527810",
-  "public_only": "1",
   "common": {
     "name": "Rudolph the Red-Nosed Reindeer",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -143,9 +142,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758902249",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3527810",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -162,6 +162,93 @@
       "12": "3841",
       "13": "4182",
       "14": "9803"
+    }
+  },
+  "extended": {
+    "developer": "Headless Chicken Games",
+    "publisher": "GameMill Entertainment",
+    "homepage": "https://www.gamemill.com"
+  },
+  "config": {
+    "installdir": "Rudolph the Red-Nosed Reindeer",
+    "launch": {
+      "0": {
+        "executable": "Rudolph The Red Nosed Reindeer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Game"
+        },
+        "description": "Launch Game"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3527811": {
+      "manifests": {
+        "public": {
+          "gid": "525533548248758399",
+          "size": "5376768595",
+          "download": "2284408400"
+        },
+        "debug-tools-release": {
+          "gid": "7593118480367968871",
+          "size": "5266239721",
+          "download": "2219676960"
+        },
+        "nightly": {
+          "gid": "5460505487492702712",
+          "size": "7386983732",
+          "download": "2615851376"
+        },
+        "steam-integration": {
+          "gid": "525533548248758399",
+          "size": "5376768595",
+          "download": "2284408400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20069213",
+        "timeupdated": "1758611786"
+      },
+      "debug-tools-release": {
+        "buildid": "19196252",
+        "description": "Debug Tools Enabled Release Builds",
+        "timeupdated": "1752266808"
+      },
+      "nightly": {
+        "buildid": "20136928",
+        "description": "nightly steam builds",
+        "timeupdated": "1758863540"
+      },
+      "steam-integration": {
+        "buildid": "20069213",
+        "description": "Testing branch for Steam integration",
+        "timeupdated": "1758498008"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Headless Chicken Games/Rudolph The Red Nosed Reindeer",
+        "pattern": "*.es3"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Headless Chicken Games/Rudolph The Red Nosed Reindeer",
+        "pattern": "*.es3.bac"
+      }
     }
   }
 }
