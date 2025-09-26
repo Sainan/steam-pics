@@ -1,6 +1,5 @@
 {
   "appid": "4029310",
-  "public_only": "1",
   "common": {
     "name": "Sledding Game Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -103,5 +102,51 @@
     },
     "gameid": "4029310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "The Sledding Corporation",
+    "publisher": "The Sledding Corporation"
+  },
+  "config": {
+    "installdir": "Sledding Game Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Sledding Game Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4029311": {
+      "manifests": {
+        "public": {
+          "gid": "7980173261112440846",
+          "size": "766444356",
+          "download": "186682000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20144602",
+        "timeupdated": "1758899833"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\The Sledding Corporation\\Sledding Game Demo",
+        "pattern": "*"
+      }
+    }
   }
 }
