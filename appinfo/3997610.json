@@ -1,10 +1,9 @@
 {
   "appid": "3997610",
-  "public_only": "1",
   "common": {
     "name": "TIMES",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "41cb63b08d5c933d0c781e888c7a408314e4ca50",
     "icon": "41cb63b08d5c933d0c781e888c7a408314e4ca50",
     "oslist": "windows",
@@ -122,9 +121,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758870804",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3997610",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -145,6 +145,77 @@
       "12": "6971",
       "13": "4182",
       "14": "4947"
+    }
+  },
+  "extended": {
+    "developer": "Angel Fox Game",
+    "publisher": "Angel Fox Game"
+  },
+  "config": {
+    "installdir": "TIMES",
+    "launch": {
+      "0": {
+        "executable": "times.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "times.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3997611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7527126578615991206",
+          "size": "9136310060",
+          "download": "1206956960"
+        }
+      }
+    },
+    "3997612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1968113617718925205",
+          "size": "9151791678",
+          "download": "1217649328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20078869",
+        "timeupdated": "1758556372"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.save"
+      }
     }
   }
 }
