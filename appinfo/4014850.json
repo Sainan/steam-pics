@@ -1,4 +1,115 @@
 {
   "appid": "4014850",
-  "public_only": "1"
+  "common": {
+    "name": "Skigill Demo",
+    "type": "Demo",
+    "parent": "3657180",
+    "icon": "2cdba495ae24fe25ef66be242c6574f81592516c",
+    "clienticon": "2cdba495ae24fe25ef66be242c6574f81592516c",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "632c6fe76f6ac26185b5f247d277fa5937ae87b6/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "4b12f8d0e0b869b194d8feb628e036076e654fb9/header.jpg"
+    },
+    "store_asset_mtime": "1757114521",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Achromi"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Achromi"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_78": "1",
+      "category_79": "1"
+    },
+    "steam_release_date": "1758853512",
+    "gameid": "4014850",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Achromi",
+    "publisher": "Achromi"
+  },
+  "config": {
+    "installdir": "Skigill Demo",
+    "launch": {
+      "0": {
+        "executable": "Skigill.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "skigill.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "skigill.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4014851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5730175644893738361",
+          "size": "122782938",
+          "download": "52941040"
+        }
+      }
+    },
+    "4014852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4847840649141408537",
+          "size": "115754811",
+          "download": "50259536"
+        }
+      }
+    },
+    "4014853": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2522915552618474402",
+          "size": "121746057",
+          "download": "51222752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20135255",
+        "timeupdated": "1758852412"
+      }
+    }
+  }
 }
