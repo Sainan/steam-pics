@@ -1,6 +1,5 @@
 {
   "appid": "3901720",
-  "public_only": "1",
   "common": {
     "name": "Mouldog Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6ace9194976e37281b1e0cf5d673fe248f851781/capsule_231x87.jpg"
@@ -55,5 +54,52 @@
     },
     "gameid": "3901720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BudderGames",
+    "publisher": "BudderGames"
+  },
+  "config": {
+    "installdir": "Mouldog Demo",
+    "launch": {
+      "0": {
+        "executable": "Mouldog Multiplayer Demo.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3901721": {
+      "manifests": {
+        "public": {
+          "gid": "1726986417048767861",
+          "size": "405158007",
+          "download": "246812016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20145676",
+        "timeupdated": "1758905194"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "10",
+    "appidredirect": "3431980",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Mouldog Multiplayer/",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
