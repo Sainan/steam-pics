@@ -1,0 +1,183 @@
+{
+  "appid": "3481200",
+  "common": {
+    "name": "Space Grunts 3 Playtest",
+    "type": "Beta",
+    "parent": "3403540",
+    "icon": "6ee0bdf33730783deffd0a7a863806b02b8914bf",
+    "clienttga": "8e62e30486341ef1fab146cbc78a6810b5a3aecf",
+    "clienticon": "089a4a267d62a5d0e528fc931611bdb71b1819ed",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "7f09381a678632fa56617c980021bff8db7077b1/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "92.32586134362185",
+        "height_pct": "51.89084327062798"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "94c08ddde74e84b70fb93cf761be78881d8f9981/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "94c08ddde74e84b70fb93cf761be78881d8f9981/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "c218876e0d8f057dc70c6b609e920af31bad5325/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "c218876e0d8f057dc70c6b609e920af31bad5325/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "c218876e0d8f057dc70c6b609e920af31bad5325/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "37ad995597e15b1681340948fe3803a991a54e8e/logo.png"
+        },
+        "image2x": {
+          "english": "37ad995597e15b1681340948fe3803a991a54e8e/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "92.32586134362185",
+          "height_pct": "51.89084327062798"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "511c93b8edf1f348828ab613af3064c65172f503/library_header.jpg"
+        },
+        "image2x": {
+          "english": "511c93b8edf1f348828ab613af3064c65172f503/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1737456774",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1739440222",
+    "community_hub_visible": "1",
+    "gameid": "3481200",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Space Grunts 3 Playtest",
+    "launch": {
+      "0": {
+        "executable": "Spacegrunts3.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Spacegrunts3",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Spacegrunts3",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3481201": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6364261073881793880",
+          "size": "107560233",
+          "download": "70401184"
+        }
+      }
+    },
+    "3481202": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "718000835394618105",
+          "size": "119129076",
+          "download": "72715968"
+        }
+      }
+    },
+    "3481203": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7768418315602980478",
+          "size": "112955157",
+          "download": "71123904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142851",
+        "timeupdated": "1758892485"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "240000",
+    "maxnumfiles": "15",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "spacegrunts3",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
