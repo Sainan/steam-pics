@@ -1,6 +1,5 @@
 {
   "appid": "3481360",
-  "public_only": "1",
   "common": {
     "name": "That Time I Found A Box",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "6ab6832725dfd3c0f5d8da3428f0733c70b9fa0b",
     "clienticon": "712f38f471cec2ba83338565821faacdd3e05173",
     "clienttga": "81bd0f138a93069966e9fc0a31ced9ae2cca9f8a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758883935",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3481360",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "1666",
@@ -131,6 +131,53 @@
       "17": "122",
       "18": "1684",
       "19": "117648"
+    }
+  },
+  "extended": {
+    "developer": "Otter Paw Press",
+    "publisher": "Otter Paw Press"
+  },
+  "config": {
+    "installdir": "That Time I Found A Box",
+    "launch": {
+      "0": {
+        "executable": "That Time I Found A Box.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3481361": {
+      "manifests": {
+        "public": {
+          "gid": "3722873259024723068",
+          "size": "921647216",
+          "download": "148577824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20126605",
+        "timeupdated": "1758807995"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Otter Paw Press/That Time I Found A Box",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
