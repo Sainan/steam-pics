@@ -1,13 +1,12 @@
 {
   "appid": "3452230",
-  "public_only": "1",
   "common": {
     "name": "Succubus of Aphrodisia: Ako's First Embrace",
     "type": "Game",
     "icon": "3cb13480fccd84b0f1866e052b1c32e30e748e4d",
     "clienttga": "f94979a6e3f493610309d7833588283fa40d5da9",
     "clienticon": "20a5534dc1a55784481fffd768e60a789dcf7edd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -170,9 +169,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758897727",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3452230",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -200,6 +200,53 @@
       "17": "7250",
       "18": "11014",
       "19": "597"
+    }
+  },
+  "extended": {
+    "developer": "Velvet Sin Lab",
+    "publisher": "Dinotonte",
+    "homepage": "https://dinotonte.com/"
+  },
+  "config": {
+    "installdir": "Succubus of Aphrodisia Ako's First Embrace",
+    "launch": {
+      "0": {
+        "executable": "AkoFirstEmbrace.exe"
+      }
+    }
+  },
+  "depots": {
+    "3452231": {
+      "manifests": {
+        "public": {
+          "gid": "5825993438688552428",
+          "size": "3173410661",
+          "download": "1153332000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20143804",
+        "timeupdated": "1758897042"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "15",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Dinotonte/AkoFirstEmbrace/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
