@@ -1,6 +1,5 @@
 {
   "appid": "3992220",
-  "public_only": "1",
   "common": {
     "name": "Starpine",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "e0fe3ea394106d206e0f810d3ffb6d7ca507f184",
     "icon": "e0fe3ea394106d206e0f810d3ffb6d7ca507f184",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -107,9 +106,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3992220",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "5537",
@@ -130,5 +129,49 @@
       "16": "3834",
       "17": "1755"
     }
+  },
+  "extended": {
+    "developer": "Chocolate Bar Games",
+    "publisher": "Chocolate Bar Games"
+  },
+  "config": {
+    "installdir": "Starpine",
+    "launch": {
+      "0": {
+        "executable": "Starpine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Starpine.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3992221": {
+      "manifests": {
+        "public": {
+          "gid": "8133695307355855763",
+          "size": "187101736",
+          "download": "66444112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20081611",
+        "timeupdated": "1758570097"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "10"
   }
 }
