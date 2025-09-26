@@ -166,5 +166,30 @@
         "timeupdated": "1758739855"
       }
     }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Food Hell",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    }
   }
 }
