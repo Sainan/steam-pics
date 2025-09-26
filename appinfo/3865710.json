@@ -1,6 +1,5 @@
 {
   "appid": "3865710",
-  "public_only": "1",
   "common": {
     "name": "Rock Island Demo",
     "type": "Demo",
@@ -25,7 +24,7 @@
       "schinese": "巨石岛 Demo",
       "polish": "Wyspa Skal Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -230,5 +229,38 @@
     },
     "gameid": "3865710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Silence Moon",
+    "publisher": "Silence Moon"
+  },
+  "config": {
+    "installdir": "RockIsland Demo",
+    "launch": {
+      "0": {
+        "executable": "RockIslandGame.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3865711": {
+      "manifests": {
+        "public": {
+          "gid": "5178348044189794632",
+          "size": "207410824",
+          "download": "94266000"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,polish,turkish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20138743",
+        "timeupdated": "1758874780"
+      }
+    }
   }
 }
