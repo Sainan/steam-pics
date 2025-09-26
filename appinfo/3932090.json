@@ -1,6 +1,5 @@
 {
   "appid": "3932090",
-  "public_only": "1",
   "common": {
     "name": "HaoWei1: Your Domineering Warlord Demo",
     "type": "Demo",
@@ -25,7 +24,7 @@
       "turkish": "HaoWei1 Demo: Sizin Zorba Lordunuz",
       "vietnamese": "HaoWei1 Demo: Chúa tể chiến tranh độc đoán của bạn"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -127,7 +126,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758888340",
     "gameid": "3932090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "琴研 Ginyan",
+    "publisher": "琴研 Ginyan"
+  },
+  "config": {
+    "installdir": "HaoWei1Demo",
+    "launch": {
+      "0": {
+        "executable": "HaoWei1Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3932091": {
+      "manifests": {
+        "public": {
+          "gid": "4576406234969212491",
+          "size": "1157190506",
+          "download": "374820976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20090576",
+        "timeupdated": "1758618982"
+      }
+    }
   }
 }
