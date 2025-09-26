@@ -1,4 +1,44 @@
 {
   "appid": "4040630",
-  "public_only": "1"
+  "common": {
+    "name": "Deadswitch Combat Multiplayer Server",
+    "type": "Tool",
+    "parent": "3408170",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "81ac5c4540a7a6de96db5512ea01d4f60c420318",
+    "icon": "81ac5c4540a7a6de96db5512ea01d4f60c420318",
+    "releasestate": "released",
+    "gameid": "4040630"
+  },
+  "config": {
+    "installdir": "Deadswitch Combat Multiplayer Server",
+    "launch": {
+      "0": {
+        "executable": "QuickStart.bat",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4040631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2160312336104606444",
+          "size": "3210642",
+          "download": "775120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20132658",
+        "timeupdated": "1758836344"
+      }
+    }
+  }
 }
