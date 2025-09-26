@@ -1,6 +1,5 @@
 {
   "appid": "3981180",
-  "public_only": "1",
   "common": {
     "name": "Who Was That ～顔神経衰弱～",
     "type": "Game",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -124,9 +123,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758848483",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3981180",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1770",
@@ -137,6 +137,61 @@
       "6": "5716",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "ギュルダンゲームズ",
+    "publisher": "ギュルダンゲームズ",
+    "homepage": "https://sites.google.com/view/guldinusgames"
+  },
+  "config": {
+    "installdir": "WhoWasThat",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "WHO_WAS_THAT.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3981181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8393114852254898358",
+          "size": "561522855",
+          "download": "418202608"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20080306",
+        "timeupdated": "1758563129"
+      }
     }
   }
 }
