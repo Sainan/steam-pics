@@ -1,11 +1,10 @@
 {
   "appid": "3639350",
-  "public_only": "1",
   "common": {
     "name": "Shan Hai : Mythic Origins Demo",
     "type": "Demo",
     "parent": "3540450",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -110,7 +109,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758190299",
+    "store_asset_mtime": "1758858270",
     "associations": {
       "0": {
         "type": "developer",
@@ -187,7 +186,51 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758790813",
     "gameid": "3639350",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Honglizi",
+    "publisher": "Honglizi"
+  },
+  "config": {
+    "installdir": "SHMO Demo",
+    "launch": {
+      "0": {
+        "executable": "ShanHaiMythicOrigins.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3639351": {
+      "manifests": {
+        "public": {
+          "gid": "6537016568153419043",
+          "size": "3706590126",
+          "download": "3420558528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20120616",
+        "timeupdated": "1758781641"
+      }
+    }
   }
 }
