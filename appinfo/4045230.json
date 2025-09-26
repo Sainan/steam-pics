@@ -1,6 +1,5 @@
 {
   "appid": "4045230",
-  "public_only": "1",
   "common": {
     "name": "Vichitra - Chakra Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -99,7 +98,52 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758878032",
     "gameid": "4045230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "The Chakra Games",
+    "publisher": "The Chakra Games",
+    "homepage": "https://vichitrachakra.com/"
+  },
+  "config": {
+    "installdir": "Vichitra - Chakra Demo",
+    "launch": {
+      "0": {
+        "executable": "Vichitra_BaseProject.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4045231": {
+      "manifests": {
+        "public": {
+          "gid": "4015208462383666319",
+          "size": "6960676871",
+          "download": "6243300608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20087742",
+        "timeupdated": "1758603421"
+      }
+    }
   }
 }
