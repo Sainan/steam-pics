@@ -1,6 +1,5 @@
 {
   "appid": "4035220",
-  "public_only": "1",
   "common": {
     "name": "Historic Helix Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     "osextended": "",
     "clienticon": "37e79ff65ed5e647f8f0dfbfcee1694fe2bde9ef",
     "icon": "37e79ff65ed5e647f8f0dfbfcee1694fe2bde9ef",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -126,7 +125,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758900385",
     "gameid": "4035220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tonkers Tinkers",
+    "publisher": "Tonkers Tinkers"
+  },
+  "config": {
+    "installdir": "Historic Helix Demo",
+    "launch": {
+      "0": {
+        "executable": "HistoricHelix_Demo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4035221": {
+      "manifests": {
+        "public": {
+          "gid": "6817165843641390152",
+          "size": "311285448",
+          "download": "117045888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20041711",
+        "timeupdated": "1758253283"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "appidredirect": "3844910",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "HHFileSave",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "HHFileSave",
+        "pattern": "*.bak"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
