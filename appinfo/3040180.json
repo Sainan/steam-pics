@@ -1,6 +1,5 @@
 {
   "appid": "3040180",
-  "public_only": "1",
   "common": {
     "name": "Holy Shot",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "01075169617092cc3f87c7d39ea920085076bb28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -182,9 +181,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758895320",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3040180",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -207,5 +207,97 @@
       "18": "5300",
       "19": "198631"
     }
+  },
+  "extended": {
+    "developer": "LoneWolf Digital Arts",
+    "publisher": "LoneWolf Digital Arts",
+    "homepage": "https://lonewolfdigitalarts.com/"
+  },
+  "config": {
+    "installdir": "Holy Shot",
+    "launch": {
+      "0": {
+        "executable": "Holy Shot.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Run game"
+        },
+        "description": "Run game"
+      },
+      "1": {
+        "executable": "HolyShot_Linux.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Run game on Linux"
+        },
+        "description": "Run game on Linux"
+      },
+      "2": {
+        "executable": "OSX_HolyShot.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Run game on Mac"
+        },
+        "description": "Run game on Mac"
+      }
+    }
+  },
+  "depots": {
+    "3040181": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4074436562265534104",
+          "size": "923219019",
+          "download": "779609424"
+        }
+      }
+    },
+    "3040182": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6959543032269781905",
+          "size": "912752267",
+          "download": "761903024"
+        }
+      }
+    },
+    "3040183": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5109010791770998533",
+          "size": "918444436",
+          "download": "758112752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142838",
+        "timeupdated": "1758892341"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
