@@ -1,13 +1,12 @@
 {
   "appid": "3610170",
-  "public_only": "1",
   "common": {
     "name": "Arcadian Days",
     "type": "Game",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "d411ac2a26f6fb74eed688de8e481027bb8afcf0",
     "icon": "d411ac2a26f6fb74eed688de8e481027bb8afcf0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758875865",
     "community_hub_visible": "1",
     "gameid": "3610170",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "4166",
@@ -123,6 +122,55 @@
       "13": "6426",
       "14": "599",
       "15": "493"
+    }
+  },
+  "extended": {
+    "developer": "IMMERSIV GAMES",
+    "publisher": "IMMERSIV GAMES",
+    "homepage": "https://immersivgames.com/"
+  },
+  "config": {
+    "installdir": "Arcadian Days",
+    "launch": {
+      "0": {
+        "executable": "Arcadian Days.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3610171": {
+      "manifests": {
+        "public": {
+          "gid": "404325596031990568",
+          "size": "11237027227",
+          "download": "10906467744"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20132969",
+        "timeupdated": "1758838017"
+      }
     }
   }
 }
