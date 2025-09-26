@@ -1,6 +1,5 @@
 {
   "appid": "3713370",
-  "public_only": "1",
   "common": {
     "name": "Megamin Quest! Teach Rotten Goddesses Their Place In This Classic RPG",
     "type": "Game",
@@ -15,7 +14,7 @@
       "tchinese": "女神任務 性格惡劣女神教訓王道RPG",
       "schinese": "女神任务 性格恶劣女神教训王道RPG"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -148,9 +147,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758873624",
     "community_hub_visible": "1",
     "gameid": "3713370",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -173,6 +172,94 @@
       "12": "4325",
       "13": "24904",
       "14": "492"
+    }
+  },
+  "extended": {
+    "developer": "銀河系スタジオ",
+    "publisher": "072 Project",
+    "homepage": "https://072project.com/?source=steam_megaminquest&amp;utm_source=steam&amp;utm_medium=megaminquest&amp;utm_campaign=store_link"
+  },
+  "config": {
+    "installdir": "Megamin Quest!",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3713371": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6288550909988573725",
+          "size": "801778984",
+          "download": "583781392"
+        }
+      }
+    },
+    "3713372": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4419003547707757859",
+          "size": "800618599",
+          "download": "582767824"
+        }
+      }
+    },
+    "3713373": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "786777937070554774",
+          "size": "800768658",
+          "download": "582866880"
+        }
+      }
+    },
+    "3713374": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7220329823012786712",
+          "size": "800737597",
+          "download": "582840032"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20070724",
+        "timeupdated": "1758512928"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
