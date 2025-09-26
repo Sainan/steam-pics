@@ -1,11 +1,10 @@
 {
   "appid": "3649550",
-  "public_only": "1",
   "common": {
     "name": "With Me: Aquatic Time Demo",
     "type": "Demo",
     "parent": "3395760",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "鱼我一起: 水愈时光 Demo",
       "tchinese": "魚我一起：水癒時光 Demo",
@@ -157,7 +156,167 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758852003",
     "gameid": "3649550",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sensory Patch Games",
+    "publisher": "Sensory Patch Games"
+  },
+  "config": {
+    "installdir": "With Me Aquatic Time Demo",
+    "launch": {
+      "0": {
+        "executable": "AquaticTime.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default"
+        },
+        "description": "Default"
+      },
+      "1": {
+        "executable": "AquaticTime.app",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Default"
+        },
+        "description": "Default"
+      },
+      "2": {
+        "executable": "demo_dev_win\\AquaticTime.exe",
+        "config": {
+          "oslist": "windows",
+          "betakey": "development"
+        },
+        "description_loc": {
+          "english": "Development Version"
+        },
+        "description": "Development Version"
+      },
+      "3": {
+        "executable": "demo_dev_mac\\AquaticTime.app",
+        "config": {
+          "oslist": "macos",
+          "betakey": "development"
+        },
+        "description_loc": {
+          "english": "Development Version"
+        },
+        "description": "Development Version"
+      },
+      "4": {
+        "executable": "AquaticTime.exe",
+        "config": {
+          "oslist": "windows",
+          "betakey": "release"
+        },
+        "description_loc": {
+          "english": "Release Version"
+        },
+        "description": "Release Version"
+      },
+      "5": {
+        "executable": "AquaticTime.app",
+        "config": {
+          "oslist": "macos",
+          "betakey": "release"
+        },
+        "description_loc": {
+          "english": "Release Version"
+        },
+        "description": "Release Version"
+      }
+    }
+  },
+  "depots": {
+    "3649552": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1007560631323782271",
+          "size": "931009791",
+          "download": "444776128"
+        }
+      }
+    },
+    "3649553": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1861296168734668500",
+          "size": "956508165",
+          "download": "454534928"
+        }
+      }
+    },
+    "3649554": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {}
+    },
+    "3649555": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "branches": {
+      "public": {
+        "buildid": "20134749",
+        "timeupdated": "1758849157"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "appidredirect": "3395760",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SensoryPatch/AquaticTime/Release",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "SensoryPatch/AquaticTime/Release",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "SensoryPatch/AquaticTime/Release/*"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "SensoryPatch/AquaticTime/Release/*"
+      }
+    }
   }
 }
