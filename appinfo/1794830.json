@@ -1,6 +1,5 @@
 {
   "appid": "1794830",
-  "public_only": "1",
   "common": {
     "name": "Macabre",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienttga": "fd1579589accbcde4d0e152f51d3ea940b559ef2",
     "clienticon": "01a57f83b1658aba7fd64c25fcbc215adbe6d410",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "1794830_eula_0",
@@ -149,9 +148,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758924094",
     "community_hub_visible": "1",
     "gameid": "1794830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -177,5 +176,66 @@
       "18": "5716",
       "19": "10808"
     }
+  },
+  "extended": {
+    "gamedir": "",
+    "developer": "Weforge Studio",
+    "publisher": "Weforge Studio",
+    "homepage": "https://www.macabregame.com/"
+  },
+  "config": {
+    "installdir": "Macabre",
+    "launch": {
+      "0": {
+        "executable": "Macabre.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1794831": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6776481535601902345",
+          "size": "12670146651",
+          "download": "10556897584"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20146664",
+        "timeupdated": "1758916081"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
