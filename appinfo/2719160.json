@@ -11,8 +11,6 @@
     "osarch": "64",
     "osextended": "",
     "openvrsupport": "1",
-    "othervrsupport": "1",
-    "othervrsupport_rift_13": "1",
     "steam_deck_compatibility": {
       "category": "1",
       "steamos_compatibility": "0",
@@ -197,19 +195,32 @@
     "launch": {
       "0": {
         "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=SteamVR -d3d11",
-        "type": "vr",
+        "arguments": "-XRRuntime=OculusLink -d3d11",
+        "type": "option1",
         "description_loc": {
-          "english": "SteamVR DirectX11"
+          "english": "With Native Oculus"
         },
-        "description": "SteamVR DirectX11"
+        "description": "With Native Oculus"
       },
       "1": {
         "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=OculusLink -d3d11",
-        "type": "othervr"
+        "arguments": "-XRRuntime=SteamVR -d3d11",
+        "type": "vr",
+        "description_loc": {
+          "english": "( DX11 - Quest Not Compatible)"
+        },
+        "description": "( DX11 - Quest Not Compatible)"
       },
       "2": {
+        "executable": "ContractorsShowdown.exe",
+        "arguments": "-XRRuntime=SteamVR -d3d12",
+        "type": "vr",
+        "description_loc": {
+          "english": "(DX12)"
+        },
+        "description": "(DX12)"
+      },
+      "4": {
         "executable": "ContractorsShowdown.exe",
         "arguments": "-XRRuntime=VD -d3d11",
         "type": "option1",
@@ -217,24 +228,6 @@
           "english": "with Virtual Desktop DirectX11"
         },
         "description": "with Virtual Desktop DirectX11"
-      },
-      "3": {
-        "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=SteamVR -d3d12",
-        "type": "vr",
-        "description_loc": {
-          "english": "SteamVR DirectX12"
-        },
-        "description": "SteamVR DirectX12"
-      },
-      "4": {
-        "executable": "ContractorsShowdown.exe",
-        "arguments": "-XRRuntime=VD -d3d12",
-        "type": "option1",
-        "description_loc": {
-          "english": "with Virtual Desktop DirectX12"
-        },
-        "description": "with Virtual Desktop DirectX12"
       }
     }
   },
