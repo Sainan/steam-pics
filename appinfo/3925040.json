@@ -1,6 +1,5 @@
 {
   "appid": "3925040",
-  "public_only": "1",
   "common": {
     "name": "Kiss and Tal: Seduced by Sorcery",
     "type": "Game",
@@ -15,7 +14,7 @@
     "clienticon": "43cab313c054a3bc709fbcef27c9f02812fd948a",
     "clienticns": "150ad0b55e2d184dbfd47eca87a1b15408007aa4",
     "linuxclienticon": "956aefe6453dabb5f6ce17ef9ddfba179adc34c0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -121,9 +120,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3925040",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -151,6 +150,116 @@
       "17": "5608",
       "18": "4562",
       "19": "3964"
+    }
+  },
+  "extended": {
+    "developer": "Onyx DreamMaker Games",
+    "publisher": "Onyx DreamMaker Games"
+  },
+  "config": {
+    "installdir": "Kiss-and-Tal_Seduced-by-Sorcery",
+    "launch": {
+      "1": {
+        "executable": "start.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "4": {
+        "executable": "Game.app/Contents/MacOS/nwjs",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3925041": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2043637009392247840",
+          "size": "340372521",
+          "download": "189087792"
+        }
+      }
+    },
+    "3925042": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4714265865060077149",
+          "size": "297591155",
+          "download": "186379248"
+        }
+      }
+    },
+    "3925043": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1246377705816622737",
+          "size": "642009971",
+          "download": "193139104"
+        }
+      }
+    },
+    "3925044": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7684467127671636256",
+          "size": "296570834",
+          "download": "185611344"
+        }
+      }
+    },
+    "3925045": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4442365141121414690",
+          "size": "297210114",
+          "download": "186244128"
+        }
+      }
+    },
+    "3925046": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1384358770744054324",
+          "size": "297210034",
+          "download": "186244064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20135552",
+        "timeupdated": "1758854250"
+      }
     }
   }
 }
