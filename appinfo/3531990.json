@@ -1,10 +1,9 @@
 {
   "appid": "3531990",
-  "public_only": "1",
   "common": {
     "name": "Tentacaliens: Making Ends Meet in a New World",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "触手星人异界创业记",
       "japanese": "異世界に来た星人が地球征服ライフ"
@@ -122,9 +121,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758945609",
     "community_hub_visible": "1",
     "gameid": "3531990",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "21",
@@ -133,6 +132,72 @@
       "4": "4182",
       "5": "12095",
       "6": "6650"
+    }
+  },
+  "extended": {
+    "developer": "Acerola",
+    "publisher": "Kagura Games",
+    "homepage": "https://www.kaguragames.com/"
+  },
+  "config": {
+    "installdir": "Tentacaliens Making Ends Meet in a New World",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3531991": {
+      "manifests": {
+        "public": {
+          "gid": "9003647461718553209",
+          "size": "168583418",
+          "download": "156997424"
+        }
+      }
+    },
+    "3531992": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7646534495964815554",
+          "size": "166691022",
+          "download": "155494112"
+        }
+      }
+    },
+    "3531993": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "844734858274353697",
+          "size": "168780755",
+          "download": "156505280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20083304",
+        "timeupdated": "1758579798"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "101",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "*.sav"
+      }
     }
   }
 }
