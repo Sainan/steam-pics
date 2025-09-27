@@ -143,14 +143,27 @@
     "publisher": "Stefaaan06"
   },
   "config": {
-    "installdir": "Mik",
+    "installdir": "Mik - Legacy",
     "launch": {
       "0": {
-        "executable": "Mik.exe",
+        "executable": "Mik-Legacy.exe",
         "type": "default",
         "config": {
-          "oslist": "windows",
-          "osarch": "64"
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mik-Legacy.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Mik-Legacy.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
