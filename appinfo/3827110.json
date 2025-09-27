@@ -1,13 +1,12 @@
 {
   "appid": "3827110",
-  "public_only": "1",
   "common": {
     "name": "Slime Way",
     "type": "Game",
     "icon": "4f3854883e695a6604b8b03734d2ea30543c837b",
     "clienttga": "6de36ea3c0467a2d1c0a68cabd8997283ae9d53f",
     "clienticon": "ff269ed6c060e13dcc5fb7b09750fb5bc5be74ab",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3827110",
-    "exfgls": "8",
     "store_tags": {
       "0": "3877",
       "1": "5395",
@@ -140,6 +140,43 @@
       "14": "4182",
       "15": "492",
       "16": "14906"
+    }
+  },
+  "extended": {
+    "developer": "Phoenix World",
+    "publisher": "Phoenix World"
+  },
+  "config": {
+    "installdir": "Slime Way",
+    "launch": {
+      "0": {
+        "executable": "Slime Way.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3827111": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5897282418475972084",
+          "size": "320830002",
+          "download": "82309152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19988606",
+        "timeupdated": "1757959188"
+      }
     }
   }
 }
