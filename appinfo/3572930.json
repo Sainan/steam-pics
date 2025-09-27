@@ -103,6 +103,7 @@
       "category_57": "1",
       "category_58": "1",
       "category_28": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -111,6 +112,7 @@
       }
     },
     "steam_release_date": "1758553760",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3572930",
     "store_tags": {
@@ -168,6 +170,32 @@
       "public": {
         "buildid": "20066137",
         "timeupdated": "1758462903"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10000",
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "ZaNet Analytics Corporation/PiQuest_ Escape from Azur Island/PiQuestSaves"
+          }
+        }
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*",
+        "recursive": "1"
       }
     }
   }
