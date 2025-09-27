@@ -1,6 +1,5 @@
 {
   "appid": "3984460",
-  "public_only": "1",
   "common": {
     "name": "Ruina Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "280d52b45b15ee25ad6ee24102f84aebcc2bffe1/capsule_231x87.jpg"
     },
@@ -42,5 +41,59 @@
     },
     "gameid": "3984460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Broken Down Software",
+    "publisher": "Broken Down Software"
+  },
+  "config": {
+    "installdir": "Ruina Demo",
+    "launch": {
+      "0": {
+        "executable": "RuinaDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Ruina Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3984461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7974494265018078502",
+          "size": "88866016",
+          "download": "40625776"
+        }
+      }
+    },
+    "3984462": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6254863991059762983",
+          "size": "159507042",
+          "download": "59848496"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20156864",
+        "timeupdated": "1759000311"
+      }
+    }
   }
 }
