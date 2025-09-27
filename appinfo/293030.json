@@ -1,0 +1,151 @@
+{
+  "appid": "293030",
+  "common": {
+    "name": "Contagion Dedicated Server",
+    "type": "Tool",
+    "releasestate": "released",
+    "parent": "238430",
+    "oslist": "windows",
+    "logo": "8ec7c8b7cced70ff7fe3de10cad80daa83a92957",
+    "logo_small": "8ec7c8b7cced70ff7fe3de10cad80daa83a92957_thumb",
+    "icon": "d483ac635feea91250e13639cfff2e74a49d4261",
+    "clienticon": "00326093e2661b0707ffa191a47db7db261da439",
+    "clienttga": "4d32ef2ac080fbfbd1de08529298ffd26d3e3130",
+    "osarch": "",
+    "osextended": "",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "293030"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Contagion Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "contagionds.exe",
+        "arguments": "-secure -steam",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "contagion_dedicated",
+        "arguments": "-secure -steam -game contagion",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "293031": {
+      "systemdefined": "1",
+      "config": {
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "614247406180620463",
+          "size": "16615368545",
+          "download": "4921959584"
+        }
+      }
+    },
+    "293032": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "800108707265796479",
+          "size": "126424618",
+          "download": "36226112"
+        }
+      }
+    },
+    "293033": {
+      "config": {
+        "oslist": "linux",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "5690845283877274724",
+          "size": "625481",
+          "download": "54544"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "19556478",
+        "timeupdated": "1755634618"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
