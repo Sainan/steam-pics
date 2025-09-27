@@ -1,6 +1,5 @@
 {
   "appid": "4032690",
-  "public_only": "1",
   "common": {
     "name": "The Office Rooms Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -45,7 +44,56 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758999489",
+    "community_visible_stats": "1",
     "gameid": "4032690",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lowkey Gamedev",
+    "publisher": "Lowkey Gamedev"
+  },
+  "config": {
+    "installdir": "TheOfficeRoomsDemo",
+    "launch": {
+      "1": {
+        "executable": "TheOfficeRooms.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4032691": {
+      "manifests": {
+        "public": {
+          "gid": "1696932346093931852",
+          "size": "3866125871",
+          "download": "3697583328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20156776",
+        "timeupdated": "1758999453"
+      }
+    }
   }
 }
