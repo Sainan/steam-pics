@@ -1,6 +1,5 @@
 {
   "appid": "3536260",
-  "public_only": "1",
   "common": {
     "name": "Dyed in White",
     "type": "Game",
@@ -15,7 +14,7 @@
       "schinese": "染色的纯白",
       "tchinese": "染色的純白"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758942885",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3536260",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -190,6 +190,89 @@
       "15": "1684",
       "16": "4057",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Sinabi Ninja Village",
+    "publisher": "Saikey Studios"
+  },
+  "config": {
+    "installdir": "Dyed in White",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3536261": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "699306846093119712",
+          "size": "1375301603",
+          "download": "779556400"
+        }
+      }
+    },
+    "3536262": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2294922673934083102",
+          "size": "1378931846",
+          "download": "782262176"
+        }
+      }
+    },
+    "3536263": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5705526840930325115",
+          "size": "1351483021",
+          "download": "780115104"
+        }
+      }
+    },
+    "3536264": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6413851608029968422",
+          "size": "1351892424",
+          "download": "782111648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20004998",
+        "timeupdated": "1758051301"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*"
+      }
     }
   }
 }
