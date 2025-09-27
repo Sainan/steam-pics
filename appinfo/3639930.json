@@ -171,5 +171,31 @@
         "timeupdated": "1758716386"
       }
     }
+  },
+  "ufs": {
+    "quota": "1000",
+    "maxnumfiles": "4",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "2048Puzzle",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxXdgDataHome",
+        "path": "2048Puzzle",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
