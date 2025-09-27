@@ -1,0 +1,143 @@
+{
+  "appid": "3454800",
+  "common": {
+    "name": "Terradune Playtest",
+    "type": "Beta",
+    "parent": "3454780",
+    "clienticon": "8dfd0efe859e50785357d7dba023a6c1a22474b0",
+    "clienttga": "e4abd9ced794ae9b2ad76a32aae23bf15f68252f",
+    "clienticns": "3fb99f0146776a428c07508ed7bf3d37a0f899c5",
+    "linuxclienticon": "a6b0e75d12d03df9c0235856dc01628aeb2312bd",
+    "icon": "0aca39cb76657ab287b44aaf0c9bd724074860c7",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "97fac67c665256a8fc9ed66e6a6b7807aadd668e/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "49.406469353561064",
+        "height_pct": "98.60898058103959"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "eb967329e8dfe97bea2d8b891b367115e5d58e6c/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "eb967329e8dfe97bea2d8b891b367115e5d58e6c/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "014d2e4fdd33eccccb1191b9b1c9777ae983ed1b/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "014d2e4fdd33eccccb1191b9b1c9777ae983ed1b/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "49.406469353561064",
+          "height_pct": "98.60898058103959"
+        },
+        "image": {
+          "english": "3623e0c2442569fe8181f3f66b89863b7a38b60d/logo.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "8ea8745d3a821b35350360af5a3a68e48178cb1c/library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1737155063",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1737571128",
+    "community_hub_visible": "1",
+    "gameid": "3454800",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "1"
+  },
+  "config": {
+    "installdir": "Terradune Build 0.7",
+    "launch": {
+      "0": {
+        "executable": "Terradune.exe",
+        "arguments": "-windowed",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Terradune.exe"
+        }
+      },
+      "1": {
+        "executable": "Terradune.exe",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "Terradune.exe"
+        }
+      },
+      "2": {
+        "executable": "Terradune.x64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64",
+          "betakey": "Terradune.exe"
+        }
+      },
+      "3": {
+        "executable": "Terradune.exe",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Terradune.exe",
+          "ownsdlc": "301101"
+        }
+      },
+      "4": {
+        "executable": "Terradune.app/Contents/MacOs/Terradune",
+        "arguments": "Terradune.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "Terradune.app/Contents/MacOS"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3454801": {
+      "manifests": {
+        "public": {
+          "gid": "3096706440573358284",
+          "size": "138425409",
+          "download": "49616928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20155215",
+        "timeupdated": "1758983918"
+      }
+    }
+  }
+}
