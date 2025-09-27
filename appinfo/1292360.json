@@ -8,9 +8,9 @@
     "clienticon": "c5bf4f507e0961c08a80fd4d40b263dbf745e46d",
     "clienttga": "c2685c8b0444e809d46588f57a78df85500ced21",
     "icon": "5b36fe7b36a2cfdc59ca9383ca67ba71e2597b72",
-    "oslist": "windows",
-    "osarch": "",
-    "osextended": "",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "logo": "965b9e5717912c4b3e94633ccff9d9d56cb7e64c",
     "logo_small": "965b9e5717912c4b3e94633ccff9d9d56cb7e64c_thumb",
     "controllertagwizard": "1",
@@ -157,21 +157,55 @@
     "launch": {
       "0": {
         "executable": "Ato.exe",
-        "type": "none",
+        "type": "default",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AtoDemo.app/Contents/MacOS/Ato",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "assets/launch.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
   },
   "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
     "1292361": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "7373998004594018219",
           "size": "346841527",
           "download": "219626224"
         }
+      }
+    },
+    "1292362": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "1292363": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
