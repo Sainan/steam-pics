@@ -1,6 +1,5 @@
 {
   "appid": "3752540",
-  "public_only": "1",
   "common": {
     "name": "PULMO",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -177,9 +176,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758992430",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3752540",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "5900",
@@ -201,6 +201,68 @@
       "17": "30358",
       "18": "1697",
       "19": "4252"
+    }
+  },
+  "extended": {
+    "developer": "Emil Ismaylov",
+    "publisher": "North Lab"
+  },
+  "config": {
+    "installdir": "PULMO",
+    "launch": {
+      "0": {
+        "executable": "Pulmo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3752541": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5780325773702516509",
+          "size": "408942313",
+          "download": "327560576"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20153686",
+        "timeupdated": "1758966671"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2048",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Pulmo_Data/save",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
