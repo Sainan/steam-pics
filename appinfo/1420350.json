@@ -250,7 +250,8 @@
         "description": "Fraymakers - DirectX (Recommended)"
       },
       "1": {
-        "executable": "run.sh",
+        "executable": "DYLD_LIBRARY_PATH=. ./hl",
+        "arguments": "hlboot-sdl.dat",
         "type": "default",
         "config": {
           "oslist": "macos"
