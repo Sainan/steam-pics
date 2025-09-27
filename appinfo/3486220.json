@@ -1,10 +1,9 @@
 {
   "appid": "3486220",
-  "public_only": "1",
   "common": {
     "name": "Cats Together",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
@@ -186,9 +185,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3486220",
-    "exfgls": "8",
     "store_tags": {
       "0": "1685",
       "1": "3841",
@@ -208,5 +207,64 @@
       "15": "5350",
       "16": "7481"
     }
+  },
+  "extended": {
+    "developer": "Alzakprod.Games",
+    "publisher": "Alzakprod.Games"
+  },
+  "config": {
+    "installdir": "Cats Together",
+    "launch": {
+      "0": {
+        "executable": "CatsTogether.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CatsTogether.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3486221": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4148587475796417953",
+          "size": "2341898672",
+          "download": "527959552"
+        }
+      }
+    },
+    "3486222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5126511571987751533",
+          "size": "2438249342",
+          "download": "553345296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20108129",
+        "timeupdated": "1758713363"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "10"
   }
 }
