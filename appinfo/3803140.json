@@ -1,11 +1,10 @@
 {
   "appid": "3803140",
-  "public_only": "1",
   "common": {
     "name": "Пацанская некромантия Demo",
     "type": "Demo",
     "parent": "3313960",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "6ac5cd00c96567c3a584ad4b2883407dc2449433",
     "clienttga": "69a98f77a1f1abf384a9e4fa40d19cccab064902",
     "clienticon": "236fd5dfab7224cb8bcb040cc76a5a4a4d8c680b",
@@ -113,11 +112,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758986266",
     "gameid": "3803140",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "йокарный бабай",
+    "publisher": "йокарный бабай",
+    "homepage": "https://vk.com/yok_bab"
+  },
+  "config": {
+    "installdir": "Пацанская некромантия Demo",
+    "launch": {
+      "0": {
+        "executable": "Necromancy.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Запуск для Windows"
+        },
+        "description": "Запуск для Windows"
+      },
+      "1": {
+        "executable": "Necromancy.sh",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Запуск для macOS"
+        },
+        "description": "Запуск для macOS"
+      }
+    }
+  },
+  "depots": {
+    "3803141": {
+      "manifests": {
+        "public": {
+          "gid": "4439991182406784902",
+          "size": "208425631",
+          "download": "106297248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19474980",
+        "timeupdated": "1754341431"
+      }
     }
   }
 }
