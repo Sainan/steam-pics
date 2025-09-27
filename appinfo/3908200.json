@@ -1,6 +1,5 @@
 {
   "appid": "3908200",
-  "public_only": "1",
   "common": {
     "name": "Back3:Spooky",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -115,6 +114,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -128,9 +128,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758946097",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3908200",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -157,5 +158,46 @@
       "18": "5608",
       "19": "1742"
     }
+  },
+  "extended": {
+    "developer": "MYSTERY CROWN",
+    "publisher": "MYSTERY CROWN"
+  },
+  "config": {
+    "installdir": "Back3：Spooky",
+    "launch": {
+      "0": {
+        "executable": "Back3：Spooky.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3908201": {},
+    "3908202": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4697209996852362681",
+          "size": "35827208859",
+          "download": "35219908992"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20120639",
+        "timeupdated": "1758781827"
+      }
+    },
+    "privatebranches": "1"
   }
 }
