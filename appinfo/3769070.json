@@ -1,10 +1,9 @@
 {
   "appid": "3769070",
-  "public_only": "1",
   "common": {
     "name": "Digging Down",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -110,9 +109,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3769070",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -126,6 +125,57 @@
       "9": "3942",
       "10": "6971",
       "11": "8945"
+    }
+  },
+  "extended": {
+    "developer": "Tharifaz",
+    "publisher": "TwoWizards"
+  },
+  "config": {
+    "installdir": "Digging Down",
+    "launch": {
+      "0": {
+        "executable": "DiggingDown.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3769071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5165450697176669798",
+          "size": "216414544",
+          "download": "124790112"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20146870",
+        "timeupdated": "1758910764"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tharifaz/DiggingDown",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
