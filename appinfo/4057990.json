@@ -1,6 +1,5 @@
 {
   "appid": "4057990",
-  "public_only": "1",
   "common": {
     "name": "Daisen Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -84,6 +83,39 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "LOYAL Studio",
+    "publisher": "LOYAL Publishing"
+  },
+  "config": {
+    "installdir": "Daisen Demo",
+    "launch": {
+      "0": {
+        "executable": "Daisen.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4057991": {
+      "manifests": {
+        "public": {
+          "gid": "6970543930806185143",
+          "size": "1837141132",
+          "download": "414402704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20155964",
+        "timeupdated": "1758991392"
+      }
     }
   }
 }
