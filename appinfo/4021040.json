@@ -1,4 +1,114 @@
 {
   "appid": "4021040",
-  "public_only": "1"
+  "common": {
+    "name": "Ramshackle Dedicated Server",
+    "type": "Tool",
+    "parent": "3800200",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "cc0b2cdb82c3ed032f19001e0406d9877a90cb16",
+    "icon": "cc0b2cdb82c3ed032f19001e0406d9877a90cb16",
+    "releasestate": "released",
+    "gameid": "4021040"
+  },
+  "config": {
+    "installdir": "Ramshackle Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "OpenFolder.bat",
+        "type": "default",
+        "description_loc": {
+          "english": "Open Directory"
+        },
+        "description": "Open Directory"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "4021042": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "988500181191300415",
+          "size": "555936220",
+          "download": "353373184"
+        },
+        "development": {
+          "gid": "988500181191300415",
+          "size": "555936220",
+          "download": "353373184"
+        }
+      }
+    },
+    "4021043": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8082829439135809238",
+          "size": "582818491",
+          "download": "347908608"
+        },
+        "development": {
+          "gid": "8082829439135809238",
+          "size": "582818491",
+          "download": "347908608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20156456",
+        "timeupdated": "1758996674"
+      },
+      "development": {
+        "buildid": "20156456",
+        "description": "the pain matrix, dedicated server",
+        "timeupdated": "1758996621"
+      }
+    }
+  }
 }
