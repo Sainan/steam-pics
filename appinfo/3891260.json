@@ -1,6 +1,5 @@
 {
   "appid": "3891260",
-  "public_only": "1",
   "common": {
     "name": "Neuter Master Demo",
     "type": "Demo",
@@ -41,7 +40,7 @@
       "vietnamese": "Bậc Thầy Triệt Sản Demo",
       "indonesian": "Master Sterilisasi Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "dfc133f426a2ec5ffce4b7e9f64606553567bf86/capsule_231x87.jpg"
@@ -187,7 +186,101 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758942476",
     "gameid": "3891260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PcZ Games",
+    "publisher": "PcZ Games"
+  },
+  "config": {
+    "installdir": "NeuterMasterDemo",
+    "launch": {
+      "0": {
+        "executable": "NeuterMaster.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "NeuterMaster.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3891261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6581974937989788059",
+          "size": "1182204719",
+          "download": "398545200"
+        }
+      }
+    },
+    "3891262": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "582162251835224822",
+          "size": "1333151238",
+          "download": "435966592"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20088990",
+        "timeupdated": "1758611684"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "9000000000",
+    "maxnumfiles": "9000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "PengchengZhao/NeuterMaster",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "PengchengZhao/NeuterMaster",
+            "replace": "unity.PengchengZhao.NeuterMaster"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "PengchengZhao/NeuterMaster",
+            "replace": ".config/unity3d/PengchengZhao/NeuterMaster"
+          }
+        }
+      }
+    },
+    "appidredirect": "3889950"
   }
 }
