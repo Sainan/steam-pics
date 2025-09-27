@@ -1,6 +1,5 @@
 {
   "appid": "2388000",
-  "public_only": "1",
   "common": {
     "name": "Nova Antarctica Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -100,5 +99,39 @@
     },
     "gameid": "2388000",
     "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "2054310",
+    "developer": "RexLabo",
+    "publisher": "PARCO GAMES"
+  },
+  "config": {
+    "installdir": "Nova Antarctica Demo",
+    "launch": {
+      "0": {
+        "executable": "Nova Antarctica.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2388001": {
+      "manifests": {
+        "public": {
+          "gid": "6478913605461969325",
+          "size": "2171839283",
+          "download": "867519344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20103883",
+        "timeupdated": "1758692039"
+      }
+    }
   }
 }
