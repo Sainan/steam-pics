@@ -1,6 +1,5 @@
 {
   "appid": "4061290",
-  "public_only": "1",
   "common": {
     "name": "Space Sim Tycoon Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "66cb17e88a8e2da4db1d29d002d55fdf02ef4b96/capsule_231x87.jpg"
@@ -57,5 +56,39 @@
     },
     "gameid": "4061290",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SuperChicken Productions LLC",
+    "publisher": "SuperChicken Productions LLC"
+  },
+  "config": {
+    "installdir": "Space Sim Tycoon Demo",
+    "launch": {
+      "0": {
+        "executable": "SpaceSimTycoon\\Space Sim Tycoon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4061291": {
+      "manifests": {
+        "public": {
+          "gid": "684524422242712632",
+          "size": "863023379",
+          "download": "714604144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20157257",
+        "timeupdated": "1759004464"
+      }
+    }
   }
 }
