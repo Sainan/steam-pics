@@ -310,5 +310,29 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "2",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "UnbridledTHG\\Saved\\SaveGames",
+        "pattern": "Unbridled_SaveGame.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "UnbridledTHG\\Saved\\SaveGames",
+        "pattern": "UTHG_Player_Data.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
