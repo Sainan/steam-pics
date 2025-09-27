@@ -1,6 +1,5 @@
 {
   "appid": "4065230",
-  "public_only": "1",
   "common": {
     "name": "Car Guys Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "748d55fb898febb6cff2670dd6453287aafcc966",
     "icon": "748d55fb898febb6cff2670dd6453287aafcc966",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -68,5 +67,39 @@
     },
     "gameid": "4065230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ruben Alcañiz",
+    "publisher": "Ruben Alcañiz",
+    "homepage": "https://www.rubenalcaniz.com"
+  },
+  "config": {
+    "installdir": "CarGuys",
+    "launch": {
+      "0": {
+        "executable": "CarGuys/Car Guys.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4065231": {
+      "manifests": {
+        "public": {
+          "gid": "1251264624390763387",
+          "size": "596875130",
+          "download": "163697200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20144325",
+        "timeupdated": "1758898717"
+      }
+    }
   }
 }
