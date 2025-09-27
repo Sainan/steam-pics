@@ -1,13 +1,12 @@
 {
   "appid": "3724650",
-  "public_only": "1",
   "common": {
     "name": "Owl Lights",
     "type": "Game",
     "icon": "6013fe46a7f73c52cde4d83024235773760cd4e9",
     "clienttga": "80a4a77a7ca4a7468c1deae9e4ac8be58e9d01ef",
     "clienticon": "6e98794dba2f332772ce81dd4a52cd9ea66d812e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -100,9 +99,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759004707",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3724650",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "3839",
@@ -118,6 +118,39 @@
       "11": "5186",
       "12": "4004",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Grumpi",
+    "publisher": "Grumpi"
+  },
+  "config": {
+    "installdir": "Owl Lights",
+    "launch": {
+      "0": {
+        "executable": "OwlLights.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3724651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8251936119318047067",
+          "size": "7273694153",
+          "download": "5011759312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20157218",
+        "timeupdated": "1759004279"
+      }
     }
   }
 }
