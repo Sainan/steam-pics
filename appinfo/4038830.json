@@ -1,6 +1,5 @@
 {
   "appid": "4038830",
-  "public_only": "1",
   "common": {
     "name": "Auto Jurassic Knights Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -88,7 +87,61 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758946814",
     "gameid": "4038830",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Proelium Games",
+    "publisher": "Proelium Games",
+    "homepage": "https://www.jurassic-knights.com"
+  },
+  "config": {
+    "installdir": "Auto Jurassic Knights Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows\\Auto_JurassicKnights.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4038831": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3217293405839715776",
+          "size": "1398375343",
+          "download": "1108473760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20072586",
+        "timeupdated": "1758527011"
+      }
+    }
   }
 }
