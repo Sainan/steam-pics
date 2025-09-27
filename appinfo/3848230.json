@@ -1,6 +1,5 @@
 {
   "appid": "3848230",
-  "public_only": "1",
   "common": {
     "name": "Little Asteroid Miner",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "320b764e29470b142edc2c0972ab931b648d4e9a",
     "clienticon": "08cf5a5203e88e09f4e04702ec87988b5108f8e6",
     "icon": "59dfd7ff96bc02e7474267dc6d3ed971f8e8a18e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9f71cda807a0028d02d0df26248638992dbfbf6d/capsule_231x87.jpg"
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758794440",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3848230",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "615955",
@@ -135,5 +135,47 @@
       "18": "8945",
       "19": "1084988"
     }
+  },
+  "extended": {
+    "developer": "TCS Developer",
+    "publisher": "TCS Developer"
+  },
+  "config": {
+    "installdir": "Little Asteroid Miner",
+    "launch": {
+      "0": {
+        "executable": "Little Asteroid Miner.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3848231": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "313912696732077544",
+          "size": "353528788",
+          "download": "80329136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20154143",
+        "timeupdated": "1758998628"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10"
   }
 }
