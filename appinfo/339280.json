@@ -1,0 +1,290 @@
+{
+  "appid": "339280",
+  "common": {
+    "name": "Strife",
+    "type": "Game",
+    "oslist": "windows,linux",
+    "clienticon": "70d37eed8c757395ebd7c8bb048c26c3ae4416d8",
+    "clienttga": "ae490b87f66fd1583d58290c92427fa7fdddd5d0",
+    "icon": "f607fac4c56f33b7f7c33604a2b30825eeba7841",
+    "logo": "50a832e871b408af39b423a7a5e1c03d68342be0",
+    "logo_small": "50a832e871b408af39b423a7a5e1c03d68342be0_thumb",
+    "eulas": {
+      "0": {
+        "id": "339280_eula_0",
+        "name": "Strife EULA",
+        "url": "http://store.steampowered.com//eula/339280_eula_0"
+      }
+    },
+    "releasestate": "released",
+    "osarch": "",
+    "osextended": "",
+    "metacritic_name": "Strife®",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_785d9f159930be80cdfd5a47f22f43638a268207.jpg",
+    "store_asset_mtime": "1429036758",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "S2 Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "S2 Games"
+      }
+    },
+    "primary_genre": "37",
+    "genres": {
+      "0": "1",
+      "1": "3",
+      "2": "2",
+      "3": "37"
+    },
+    "category": {
+      "category_1": "1",
+      "category_9": "1",
+      "category_29": "1",
+      "category_22": "1",
+      "category_15": "1",
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1432316400",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "339280",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "1718",
+      "2": "3859",
+      "3": "19",
+      "4": "9",
+      "5": "122",
+      "6": "1685",
+      "7": "1676",
+      "8": "128",
+      "9": "1684",
+      "10": "3843",
+      "11": "21",
+      "12": "597",
+      "13": "1775",
+      "14": "493",
+      "15": "1723",
+      "16": "1754",
+      "17": "1695",
+      "18": "4182",
+      "19": "1662"
+    },
+    "review_score": "6",
+    "review_percentage": "76"
+  },
+  "extended": {
+    "developer": "S2 Games",
+    "publisher": "S2 Games",
+    "homepage": "http://strife.com/",
+    "isfreeapp": "1",
+    "listofdlc": "352730,356140,360240,363830"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "strife",
+    "launch": {
+      "0": {
+        "executable": "bin/strife.exe",
+        "arguments": "-steam -masterserver \"api.playstrife.gg\" -execute \"set cl_chatAddress chat.strife.devsheep.de;set cl_chatPort 7031;set cl_chatAddressOverride true\"",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "MacOS/strife",
+        "arguments": "-steam -masterserver \"api.playstrife.gg\" -execute \"set cl_chatAddress chat.strife.devsheep.de;set cl_chatAddressOverride true\"",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "3": {
+        "executable": "bin/strife-steam.sh",
+        "arguments": "-steam -masterserver \"api.playstrife.gg\" -execute \"set cl_chatAddress chat.strife.devsheep.de;set cl_chatAddressOverride true\"",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "4": {
+        "executable": "bin/strife.exe",
+        "arguments": "editor -steam",
+        "type": "editor",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Mapeditor"
+        },
+        "description": "Mapeditor"
+      },
+      "5": {
+        "executable": "bin/strife.exe",
+        "arguments": "-steam -masterserver \"api.playstrife.gg\" -execute \"set cl_chatAddress chat.strife.devsheep.de;set cl_chatPort 17031;set cl_chatAddressOverride true\"",
+        "config": {
+          "oslist": "windows",
+          "betakey": "development"
+        },
+        "description_loc": {
+          "english": "Dev Backend"
+        },
+        "description": "Dev Backend"
+      },
+      "6": {
+        "executable": "MacOS/strife",
+        "arguments": "-steam -masterserver \"api.playstrife.gg\" -execute \"set cl_chatAddress chat.strife.devsheep.de;set cl_chatPort 17031;set cl_chatAddressOverride true\"",
+        "config": {
+          "oslist": "macos",
+          "betakey": "development"
+        },
+        "description_loc": {
+          "english": "Dev Backend"
+        },
+        "description": "Dev Backend"
+      },
+      "7": {
+        "executable": "bin/strife-steam.sh",
+        "arguments": "-steam -masterserver \"api.playstrife.gg\" -execute \"set cl_chatAddress chat.strife.devsheep.de;set cl_chatPort 17031;set cl_chatAddressOverride true\"",
+        "config": {
+          "oslist": "linux",
+          "betakey": "development"
+        },
+        "description_loc": {
+          "english": "Dev Backend"
+        },
+        "description": "Dev Backend"
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "339281": {
+      "manifests": {
+        "public": {
+          "gid": "6968107409032524827",
+          "size": "2053970143",
+          "download": "1978644240"
+        }
+      }
+    },
+    "339282": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4870855667572185940",
+          "size": "148392131",
+          "download": "41061760"
+        }
+      }
+    },
+    "339283": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8902130093816200180",
+          "size": "144271444",
+          "download": "38305648"
+        }
+      }
+    },
+    "339284": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9100571471456120369",
+          "size": "215683221",
+          "download": "75302928"
+        }
+      }
+    },
+    "339285": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "924897330405996450",
+          "size": "161700199",
+          "download": "41457712"
+        }
+      }
+    },
+    "352730": {
+      "manifests": {
+        "public": {
+          "gid": "7180258021354773971",
+          "size": "279498531",
+          "download": "247632384"
+        }
+      },
+      "dlcappid": "352730"
+    },
+    "363830": {
+      "manifests": {
+        "public": {
+          "gid": "1803174567000058049",
+          "size": "36731862",
+          "download": "35963472"
+        }
+      },
+      "dlcappid": "363830"
+    },
+    "baselanguages": "english,german,russian,thai,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "19930283",
+        "timeupdated": "1757532342"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
