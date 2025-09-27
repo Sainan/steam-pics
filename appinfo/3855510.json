@@ -1,6 +1,5 @@
 {
   "appid": "3855510",
-  "public_only": "1",
   "common": {
     "name": "Mango",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "9f3153e8d61b6bd959480d6c8be6cb93c2c933e8",
     "clienttga": "f5bf20dcb926e8e079a7cd03c6959023b1963483",
     "clienticon": "fb8ee951bdbd6152d72218ea4917ebb3a84007bb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -111,9 +110,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758964592",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3855510",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -141,6 +141,40 @@
       "17": "6129",
       "18": "1664",
       "19": "1698"
+    }
+  },
+  "extended": {
+    "developer": "Mango Anime",
+    "publisher": "Mango Anime"
+  },
+  "config": {
+    "installdir": "Mango",
+    "launch": {
+      "0": {
+        "executable": "Mango.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3855511": {
+      "manifests": {
+        "public": {
+          "gid": "5832940659269603223",
+          "size": "208258390",
+          "download": "94150752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20153317",
+        "timeupdated": "1758962713"
+      }
     }
   }
 }
