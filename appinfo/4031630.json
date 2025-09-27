@@ -1,6 +1,5 @@
 {
   "appid": "4031630",
-  "public_only": "1",
   "common": {
     "name": "戦国英雄譚-Samurai Heroes- Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "021a1a62ae5b5e4ea56fd86bbfcc0e72b2dfa641",
     "clienticon": "021a1a62ae5b5e4ea56fd86bbfcc0e72b2dfa641",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -63,7 +62,90 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758789772",
     "gameid": "4031630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "hizaniya games",
+    "publisher": "hizaniya games"
+  },
+  "config": {
+    "installdir": "戦国英雄譚-Samurai Heroes- Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65526",
+    "launch": {
+      "0": {
+        "executable": "SengokuHeroesDEMO.exe"
+      }
+    }
+  },
+  "depots": {
+    "4031631": {
+      "manifests": {
+        "public": {
+          "gid": "6667458517963741019",
+          "size": "417408655",
+          "download": "180783616"
+        },
+        "beta": {
+          "gid": "9123235715124507785",
+          "size": "418394791",
+          "download": "180817552"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20111428",
+        "timeupdated": "1758727570"
+      },
+      "beta": {
+        "buildid": "20155466",
+        "description": "Testing branch for developer",
+        "timeupdated": "1758986177"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3891910",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "hizaniya games/SengokuHeroes",
+        "pattern": "saveData*.json;saveData*.bak"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "hizaniya games/SengokuHeroes",
+            "replace": "hizaniya games/SengokuHeroes"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "hizaniya games/SengokuHeroes",
+            "replace": ".config/unity3d/hizaniya games/SengokuHeroes"
+          }
+        }
+      }
+    }
   }
 }
