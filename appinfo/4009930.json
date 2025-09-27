@@ -1,6 +1,5 @@
 {
   "appid": "4009930",
-  "public_only": "1",
   "common": {
     "name": "Soul Redemption Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "osextended": "",
     "clienticon": "6533352da52e301526a84de207c212fdfe04063c",
     "icon": "02ef76e58d7ca43dbf9cc3fce58ffba4d266f18a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "91302b0692456a7fcf351931936739037cddbf54/capsule_231x87.jpg"
@@ -120,5 +119,46 @@
     },
     "gameid": "4009930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Happy Sufferer",
+    "publisher": "Happy Sufferer"
+  },
+  "config": {
+    "installdir": "Soul Redemption Demo",
+    "launch": {
+      "0": {
+        "executable": "Soul Redemption\\Soul Redemption.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4009931": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2947179506699225605",
+          "size": "443181809",
+          "download": "124248912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20155777",
+        "timeupdated": "1758989254"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20971520",
+    "maxnumfiles": "10"
   }
 }
