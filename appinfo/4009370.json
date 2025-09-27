@@ -1,6 +1,5 @@
 {
   "appid": "4009370",
-  "public_only": "1",
   "common": {
     "name": "Pulsagon",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "3fac3aae31c4a2417bbbed4aa98bc6df1e5773be",
     "icon": "3fac3aae31c4a2417bbbed4aa98bc6df1e5773be",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -113,6 +112,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758938094",
     "community_hub_visible": "1",
     "gameid": "4009370",
     "exfgls": "3",
@@ -130,6 +130,51 @@
       "10": "8122",
       "11": "12057",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Force Arcade",
+    "publisher": "Force Arcade",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Pulsagon",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "11",
+    "launch": {
+      "0": {
+        "executable": "pulsagon.exe",
+        "arguments": "-fullscreen",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4009371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3288527581769958799",
+          "size": "281250719",
+          "download": "151131392"
+        }
+      }
+    },
+    "4009372": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19965227",
+        "timeupdated": "1757724911"
+      }
     }
   }
 }
