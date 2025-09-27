@@ -156,7 +156,7 @@
     "privatebranches": "1"
   },
   "ufs": {
-    "quota": "4000000",
+    "quota": "10000000",
     "maxnumfiles": "64",
     "ignoreexternalfiles": "1",
     "hidecloudui": "1",
@@ -165,6 +165,14 @@
         "root": "WinAppDataLocalLow",
         "path": "CodeXplore/Ojol The Game",
         "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "CodeXplore/Ojol The Game/v4",
+        "pattern": "*.dat",
         "platforms": {
           "1": "Windows"
         }
