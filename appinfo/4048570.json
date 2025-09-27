@@ -1,6 +1,5 @@
 {
   "appid": "4048570",
-  "public_only": "1",
   "common": {
     "name": "Potions of Veldenkeep Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "df39ac08f01fa69a2b41bc87d3c1c24f1ab7fcdd/capsule_231x87.jpg"
@@ -42,5 +41,57 @@
     },
     "gameid": "4048570",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Harakiwi Studio",
+    "publisher": "Harakiwi Studio"
+  },
+  "config": {
+    "installdir": "Potions of Veldenkeep Demo",
+    "launch": {
+      "0": {
+        "executable": "PotionsOfVeldenkeep.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4048571": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1086899230818809602",
+          "size": "3048600639",
+          "download": "2872747760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20153902",
+        "timeupdated": "1758998533"
+      }
+    }
   }
 }
