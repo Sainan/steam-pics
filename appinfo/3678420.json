@@ -1,10 +1,9 @@
 {
   "appid": "3678420",
-  "public_only": "1",
   "common": {
     "name": "Videonauts",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "3cc851f9f9a888ee457179dc52e595682571cc5d",
     "clienticon": "f59b1c207654a889e31aa48506016822d89f3b1a",
     "clienttga": "b9a2687527411f926214a94bca22d80519315323",
@@ -111,9 +110,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1758931267",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3678420",
-    "exfgls": "8",
     "store_tags": {
       "0": "6971",
       "1": "4726",
@@ -135,6 +135,119 @@
       "17": "4305",
       "18": "18594",
       "19": "3916"
+    }
+  },
+  "extended": {
+    "developer": "resnijars",
+    "publisher": "resnijars"
+  },
+  "config": {
+    "installdir": "Videonauts",
+    "launch": {
+      "0": {
+        "executable": "Videonauts.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Videonauts.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Videonauts",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3678421": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3071390990791225404",
+          "size": "108552723",
+          "download": "83790144"
+        }
+      }
+    },
+    "3678422": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1115607223648822642",
+          "size": "116355551",
+          "download": "85656864"
+        }
+      }
+    },
+    "3678423": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6715513342111813557",
+          "size": "146560586",
+          "download": "91355824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20149961",
+        "timeupdated": "1758930322"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "120000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Stencyl\\Videonauts",
+        "pattern": "mySave.sol"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Stencyl\\Videonauts",
+            "replace": "Stencyl/Videonauts"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Stencyl\\Videonauts",
+            "replace": ".local/share/Stencyl/Videonauts"
+          }
+        }
+      }
     }
   }
 }
