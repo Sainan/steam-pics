@@ -1,0 +1,222 @@
+{
+  "appid": "2103580",
+  "common": {
+    "name": "Rogue Blight Playtest",
+    "type": "Beta",
+    "parent": "1890310",
+    "icon": "5c8651842d4f4dc98b7971662729efea11fac6ee",
+    "linuxclienticon": "5842ff8c71884433fdb8828ea9e5d50a11f55f76",
+    "clienttga": "238840926ece606f7acd1583fabc7d669f756000",
+    "clienticon": "80077c1af6542b19fbd0cde47219f38af17542c9",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "clienticns": "7f5730f6e21aa71d161bd1f7c4a876c0e44f6245",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "64.24492458134462",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "64.24492458134462",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1659434284",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1659553128",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2103580",
+    "exfgls": "6"
+  },
+  "extended": {
+    "betaforappid": "1890310"
+  },
+  "config": {
+    "installdir": "Rogue Blight Playtest",
+    "launch": {
+      "0": {
+        "executable": "RogueBlightPlaytest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RogueBlightPlaytest.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "RogueBlightPlaytest.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "2103581": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5892640275740033904",
+          "size": "8597088287",
+          "download": "1928480432"
+        }
+      }
+    },
+    "2103582": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4104987608902619321",
+          "size": "8629372823",
+          "download": "1937073408"
+        }
+      }
+    },
+    "2103583": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1239245384531449272",
+          "size": "8596571750",
+          "download": "1926094400"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19573442",
+        "timeupdated": "1755026872"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CodeRadGames/RogueBlightPlaytest",
+        "pattern": "*.rb"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "CodeRadGames/RogueBlightPlaytest",
+        "pattern": "*.rb"
+      },
+      "2": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/CodeRadGames/RogueBlightPlaytest",
+        "pattern": "*.rb"
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "CodeRadGames/RogueBlightPlaytest",
+        "pattern": "*.kon"
+      },
+      "4": {
+        "root": "MacAppSupport",
+        "path": "CodeRadGames/RogueBlightPlaytest",
+        "pattern": "*.kon"
+      },
+      "5": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/CodeRadGames/RogueBlightPlaytest",
+        "pattern": "*.kon"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      },
+      "2": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      },
+      "3": {
+        "root": "MacAppSupport",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      },
+      "4": {
+        "root": "LinuxXdgConfigHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "5": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
