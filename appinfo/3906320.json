@@ -98,6 +98,23 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "bc_demo.exe",
+        "arguments": "--rendering-driver d3d12",
+        "type": "option1",
+        "description_loc": {
+          "english": "Biathlon Challenge D3D12 Renderer"
+        },
+        "description": "Biathlon Challenge D3D12 Renderer"
+      },
+      "2": {
+        "executable": "bc_demo.exe",
+        "arguments": "--rendering-driver opengl3",
+        "description_loc": {
+          "english": "Biathlon Challenge OpenGL Renderer (Not Recommended)"
+        },
+        "description": "Biathlon Challenge OpenGL Renderer (Not Recommended)"
       }
     }
   },
