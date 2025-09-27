@@ -1,17 +1,15 @@
 {
   "appid": "3996720",
-  "public_only": "1",
   "common": {
     "name": "A Chicken In The Office",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "6c6fd61a2beeb13819e3179cb591163909de5b50",
     "clienticon": "6c6fd61a2beeb13819e3179cb591163909de5b50",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
     "controllertagwizard": "1",
-    "controller_support": "partial",
     "small_capsule": {
       "english": "1180f5aee0b3e1900f2eb72897391d4b05374859/capsule_231x87.jpg"
     },
@@ -92,7 +90,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_18": "1",
       "category_69": "1",
       "category_74": "1",
       "category_62": "1"
@@ -146,7 +143,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3996720",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "5537",
@@ -163,6 +159,60 @@
       "12": "6971",
       "13": "4036",
       "14": "3968"
+    }
+  },
+  "extended": {
+    "developer": "ColdHandGames",
+    "publisher": "ColdHandGames"
+  },
+  "config": {
+    "installdir": "A Chicken In The Office",
+    "launch": {
+      "0": {
+        "executable": "A Chicken In The Office.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3996721": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6794203591534377626",
+          "size": "2998695450",
+          "download": "2728777072"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19898526",
+        "timeupdated": "1757342640"
+      }
     }
   }
 }
