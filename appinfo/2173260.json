@@ -1,4 +1,127 @@
 {
   "appid": "2173260",
-  "public_only": "1"
+  "common": {
+    "name": "CRETE Playtest",
+    "type": "Beta",
+    "parent": "2022610",
+    "icon": "55c15271a850b04dac72f1e1dc3adcfedc4c6632",
+    "clienticon": "fb049030884e86177142400ca9c0d243dce1be59",
+    "clienttga": "8dabea3f1285db5715cccd2086f44d163c6e6b14",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1715601319",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1759014145",
+    "community_hub_visible": "1",
+    "gameid": "2173260",
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "87"
+  },
+  "extended": {
+    "betaforappid": "2022610",
+    "playtest_type": "1",
+    "playtestinvitecount": "3",
+    "playtestinviteendtime": "1772496000"
+  },
+  "config": {
+    "installdir": "CRETE Alpha",
+    "launch": {
+      "0": {
+        "executable": "CRETE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2173261": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6193306308726405336",
+          "size": "13184062224",
+          "download": "12186802416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20157954",
+        "timeupdated": "1759014032"
+      }
+    }
+  }
 }
