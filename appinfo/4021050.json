@@ -1,6 +1,5 @@
 {
   "appid": "4021050",
-  "public_only": "1",
   "common": {
     "name": "牛马模拟器 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -100,6 +99,55 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "BossyuGames",
+    "publisher": "BossyuGames"
+  },
+  "config": {
+    "installdir": "NMMNQ",
+    "launch": {
+      "0": {
+        "executable": "NMMNQ3.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4021051": {
+      "manifests": {
+        "public": {
+          "gid": "1447813892913297849",
+          "size": "3673506428",
+          "download": "3533027264"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "19910755",
+        "timeupdated": "1757457555"
+      }
     }
   }
 }
