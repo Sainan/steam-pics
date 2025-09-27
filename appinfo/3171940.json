@@ -207,38 +207,22 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Blue Brain Games/The House of Tesla Demo/Profiles",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1"
+        "pattern": "*"
       },
       "1": {
         "root": "WinAppDataLocalLow",
         "path": "Blue Brain Games/The House of Tesla Demo/Backup",
         "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1"
-      },
-      "2": {
-        "root": "MacAppSupport",
-        "path": "Blue Brain Games/The House of Tesla Demo/Profiles",
-        "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "recursive": "1"
-      },
-      "3": {
-        "root": "MacAppSupport",
-        "path": "Blue Brain Games/The House of Tesla Demo/Backup",
-        "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
       }
     }
   }
