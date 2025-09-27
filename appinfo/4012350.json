@@ -1,6 +1,5 @@
 {
   "appid": "4012350",
-  "public_only": "1",
   "common": {
     "name": "Blind Memory Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -48,10 +47,44 @@
       "category_70": "1",
       "category_74": "1"
     },
+    "steam_release_date": "1759000427",
     "gameid": "4012350",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "OliveRoots Studio",
+    "publisher": "OliveRoots Publisher"
+  },
+  "config": {
+    "installdir": "Blind Memory Demo",
+    "launch": {
+      "0": {
+        "executable": "Blind Memory.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4012351": {
+      "manifests": {
+        "public": {
+          "gid": "7127112056621381373",
+          "size": "866037600",
+          "download": "347417088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20127542",
+        "timeupdated": "1758811447"
+      }
     }
   }
 }
