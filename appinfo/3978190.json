@@ -313,5 +313,55 @@
         "timeupdated": "1759073247"
       }
     }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WindowsHome",
+        "path": "AppData/LocalLow/Origin Studio/Creator Chronicles",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacHome",
+        "path": "Library/Application Support/Origin Studio/Creator Chronicles",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WindowsHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "AppData/LocalLow/Origin Studio/Creator Chronicles",
+            "replace": "Library/Application Support/Origin Studio/Creator Chronicles"
+          }
+        }
+      },
+      "1": {
+        "root": "MacHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WindowsHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Library/Application Support/Origin Studio/Creator Chronicles",
+            "replace": "AppData/LocalLow/Origin Studio/Creator Chronicles"
+          }
+        }
+      }
+    }
   }
 }
