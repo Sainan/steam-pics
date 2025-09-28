@@ -1,6 +1,5 @@
 {
   "appid": "3894530",
-  "public_only": "1",
   "common": {
     "name": "Rogue Cave",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "873999438bf5c480306d3e8080d05330a193fcb4",
     "linuxclienticon": "ff492cf15cc0ae323cb64b11ba92be32bc7749e7",
     "clienticns": "ce30af3624284422922d452e3537d8bc4f4ddc17",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759095374",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3894530",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1716",
@@ -134,6 +134,65 @@
       "17": "3968",
       "18": "4195",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Rogue Gecko",
+    "publisher": "Rogue Gecko"
+  },
+  "config": {
+    "installdir": "Rogue Cave",
+    "launch": {
+      "0": {
+        "executable": "RogueCave.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3894532": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3348964700252620959",
+          "size": "467258421",
+          "download": "111684080"
+        },
+        "useless": {
+          "gid": "4145637166592876766",
+          "size": "466945468",
+          "download": "111678688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19860193",
+        "timeupdated": "1757009438"
+      },
+      "useless": {
+        "buildid": "19843855",
+        "description": "garbage",
+        "timeupdated": "1756920719"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "RogueCave",
+        "pattern": "playerprefs.json",
+        "recursive": "1"
+      }
     }
   }
 }
