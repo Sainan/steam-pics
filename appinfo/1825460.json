@@ -1,0 +1,252 @@
+{
+  "appid": "1825460",
+  "common": {
+    "name": "PC Virtual LAB",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      }
+    },
+    "icon": "94f384e0085fddb5a33403779deea2e93ea8c559",
+    "clienttga": "ed785af1893989b5c8c76c1a46df5c43b1ae26dd",
+    "clienticon": "bc2fce3f12f78de4c6a4c723882ef86df359d2fe",
+    "openvrsupport": "1",
+    "othervrsupport": "1",
+    "othervrsupport_rift_13": "1",
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1700179200",
+      "tested_build_id": "10114418",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "small_capsule": {
+      "english": "4935c81648baeb1ec0e94883b8528012712ec3c3/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "50.031868527341345",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "50.031868527341345",
+          "height_pct": "100"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1725110588",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "XRAI LAB"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Universidad de Burgos"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_52": "1",
+      "category_53": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1658160362",
+    "community_hub_visible": "1",
+    "gameid": "1825460",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "599",
+      "1": "1036",
+      "2": "21978",
+      "3": "9204",
+      "4": "4191",
+      "5": "1702",
+      "6": "4175",
+      "7": "4182",
+      "8": "603297"
+    },
+    "review_score": "4",
+    "review_percentage": "35"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "XRAI LAB",
+    "publisher": "Universidad de Burgos",
+    "homepage": "https://xrailab.es/cases/pc-virtual-lab/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "PCVirtualLAB",
+    "launch": {
+      "0": {
+        "executable": "PCVirtualLAB.exe",
+        "arguments": "-noHMD",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Desktop"
+        },
+        "description": "Desktop"
+      },
+      "1": {
+        "executable": "PCVirtualLAB.exe",
+        "arguments": "-vr",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Steam VR"
+        },
+        "description": "Steam VR"
+      },
+      "2": {
+        "executable": "PCVirtualLAB.exe",
+        "arguments": "-vr",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Oculus"
+        },
+        "description": "Oculus"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1825461": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7566405662911803651",
+          "size": "1721183702",
+          "download": "1231829968"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "15595795",
+        "timeupdated": "1725487290"
+      }
+    }
+  }
+}
