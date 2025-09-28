@@ -1,6 +1,5 @@
 {
   "appid": "3610700",
-  "public_only": "1",
   "common": {
     "name": "Rose Of Wind",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "402d1336897057d40719543051a70c5ffb181ff8",
     "icon": "402d1336897057d40719543051a70c5ffb181ff8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -154,9 +153,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3610700",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "12472",
@@ -178,6 +177,67 @@
       "17": "4085",
       "18": "30358",
       "19": "1702"
+    }
+  },
+  "extended": {
+    "developer": "GSG Studio",
+    "publisher": "GSG Studio"
+  },
+  "config": {
+    "installdir": "Rose of wind",
+    "launch": {
+      "0": {
+        "executable": "RoseOfWind.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3610701": {
+      "manifests": {
+        "public": {
+          "gid": "8476754373950294262",
+          "size": "5512144370",
+          "download": "5131027168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20161551",
+        "timeupdated": "1759073473"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "RP/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
