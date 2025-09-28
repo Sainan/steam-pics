@@ -1,6 +1,5 @@
 {
   "appid": "1946930",
-  "public_only": "1",
   "common": {
     "name": "Ponster 怪武大赛",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienttga": "8cf00d41a958701fbfa5065bf6c0688ed8fb9b87",
     "icon": "cc1d3cfc18217c45ee9d3dc33f53442fb1472efe",
     "clienticns": "cd58d98ac670a8e7462b522177979c79e115c248",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -118,7 +117,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "1946930",
-    "exfgls": "8",
     "store_tags": {
       "0": "32322",
       "1": "14139",
@@ -140,6 +138,45 @@
       "17": "3993",
       "18": "1775",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "DoubleGame",
+    "publisher": "DoubleGame"
+  },
+  "config": {
+    "installdir": "Ponster",
+    "launch": {
+      "0": {
+        "executable": "ponster\\Ponster 怪武大赛.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1946931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8754501262964532873",
+          "size": "23362764",
+          "download": "12445712"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20158968",
+        "timeupdated": "1759027561"
+      }
     }
   }
 }
