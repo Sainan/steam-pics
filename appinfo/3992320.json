@@ -11,6 +11,7 @@
     "osarch": "64",
     "osextended": "",
     "openvrsupport": "1",
+    "openvroverlaysupport": "1",
     "small_capsule": {
       "english": "33b36aff163ef5777189d290c6d5b1bf95819cdc/capsule_231x87.jpg"
     },
@@ -125,6 +126,14 @@
       "0": {
         "executable": "WanderFlowClient.exe",
         "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "WanderFlowClient.exe",
+        "type": "openvroverlay",
         "config": {
           "oslist": "windows",
           "osarch": "64"
