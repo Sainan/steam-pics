@@ -1,10 +1,9 @@
 {
   "appid": "4001950",
-  "public_only": "1",
   "common": {
     "name": "Office Chug",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "7cfdcd48647692792e54cfc0f0d7f7d1555a83b6",
     "clienticon": "7cfdcd48647692792e54cfc0f0d7f7d1555a83b6",
     "oslist": "windows",
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4001950",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -138,6 +138,55 @@
       "17": "6426",
       "18": "6625",
       "19": "3978"
+    }
+  },
+  "extended": {
+    "developer": "ByteLyft",
+    "publisher": "ByteLyft",
+    "homepage": "https://www.bytelyft.io"
+  },
+  "config": {
+    "installdir": "Office Chug",
+    "launch": {
+      "0": {
+        "executable": "OfficeChug.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4001951": {
+      "manifests": {
+        "public": {
+          "gid": "2803635548697066124",
+          "size": "1942926871",
+          "download": "1668506416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070354",
+        "timeupdated": "1758509679"
+      }
     }
   }
 }
