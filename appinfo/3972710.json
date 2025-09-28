@@ -1,6 +1,5 @@
 {
   "appid": "3972710",
-  "public_only": "1",
   "common": {
     "name": "Tower Tactics 2 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f19e8bff51025edfaadbb8727a4d31c2be272c57/capsule_231x87.jpg"
     },
@@ -78,5 +77,46 @@
     "category": {},
     "gameid": "3972710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "asraworks",
+    "publisher": "asraworks"
+  },
+  "config": {
+    "installdir": "Tower Tactics 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "3972711": {
+      "manifests": {
+        "public": {
+          "gid": "4119053680517497116",
+          "size": "120581312",
+          "download": "70406288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20160807",
+        "timeupdated": "1759053726"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Tower Tactics 2",
+        "pattern": "*.save"
+      }
+    }
   }
 }
