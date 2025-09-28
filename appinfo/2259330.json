@@ -1,6 +1,5 @@
 {
   "appid": "2259330",
-  "public_only": "1",
   "common": {
     "name": "Mind Diver",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "c3ae1fb91984b2d0caa44287b0af9bb2b59e2de4",
     "clienticon": "c3ae1fb91984b2d0caa44287b0af9bb2b59e2de4",
     "clienttga": "3b79ea8f1d76fa60f6b9d3d2f1746c0b7f86912d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "Mind Diver / マインドダイバー",
       "schinese": "潜意者",
@@ -180,9 +179,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759045295",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2259330",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -207,6 +207,48 @@
       "17": "4342",
       "18": "3834",
       "19": "5984"
+    }
+  },
+  "extended": {
+    "developer": "Indoor Sunglasses",
+    "publisher": "PLAYISM",
+    "homepage": "https://playism.com/game/minddiver/"
+  },
+  "config": {
+    "installdir": "Mind Diver",
+    "launch": {
+      "0": {
+        "executable": "Mind Diver.exe"
+      }
+    }
+  },
+  "depots": {
+    "2259331": {
+      "manifests": {
+        "public": {
+          "gid": "155078480436292716",
+          "size": "3890366733",
+          "download": "3406765888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20095250",
+        "timeupdated": "1758703105"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Indoor Sunglasses/Mind Diver/",
+        "pattern": "*.sav"
+      }
     }
   }
 }
