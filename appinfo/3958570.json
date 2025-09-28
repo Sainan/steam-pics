@@ -1,11 +1,10 @@
 {
   "appid": "3958570",
-  "public_only": "1",
   "common": {
     "name": "Abyss Born Demo",
     "type": "Demo",
     "parent": "3420020",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ddb5a141551b0c1f788922abafdc023ba270d00d",
     "clienttga": "32c6edd3930a3601269843adabd8e8299f21c792",
     "clienticon": "9f8131d4e02aee33c391ed2e85588449dfe595e9",
@@ -51,11 +50,63 @@
     "category": {
       "category_2": "1"
     },
+    "steam_release_date": "1759215600",
     "gameid": "3958570",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "PolyLS",
+    "publisher": "PolyLS"
+  },
+  "config": {
+    "installdir": "Abyss Born Demo",
+    "launch": {
+      "0": {
+        "executable": "Abyss Born Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3958571": {
+      "manifests": {
+        "public": {
+          "gid": "2130676172718732098",
+          "size": "8383962699",
+          "download": "7894700864"
+        }
+      }
+    },
+    "3958572": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20163181",
+        "timeupdated": "1759080193"
+      }
     }
   }
 }
