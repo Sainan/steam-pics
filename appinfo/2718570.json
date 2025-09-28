@@ -1,0 +1,199 @@
+{
+  "appid": "2718570",
+  "common": {
+    "name": "They Came From Venus",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "cc7c6e3213000a290afa6bc3a2c3f15a705a8cd7",
+    "clienticon": "617e3a3c3eb3f324e489d6e48759020ccce03fd8",
+    "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "23.304224321198078",
+        "height_pct": "72.91666666666667"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "23.304224321198078",
+          "height_pct": "72.91666666666667"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1717993653",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "SureAI"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "SureAI"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "SureAI"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "25"
+    },
+    "category": {
+      "category_22": "1",
+      "category_2": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1721667780",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2718570",
+    "store_tags": {
+      "0": "3834",
+      "1": "4191",
+      "2": "1663",
+      "3": "1774",
+      "4": "5900",
+      "5": "7208",
+      "6": "3839",
+      "7": "1667",
+      "8": "1721",
+      "9": "4064",
+      "10": "1710",
+      "11": "19",
+      "12": "4175",
+      "13": "3942",
+      "14": "7926",
+      "15": "4166",
+      "16": "5716",
+      "17": "3978",
+      "18": "5752",
+      "19": "3916"
+    },
+    "review_score": "4",
+    "review_percentage": "33"
+  },
+  "extended": {
+    "developer": "SureAI",
+    "publisher": "SureAI",
+    "homepage": "https://sureai.net/games/they-came-from-venus/"
+  },
+  "config": {
+    "installdir": "They Came From Venus",
+    "launch": {
+      "0": {
+        "executable": "Windows\\TCFV.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2718571": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4917299623104053245",
+          "size": "13728280024",
+          "download": "13429399520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18999537",
+        "timeupdated": "1750876038"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TCFV/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": "Windows/"
+      }
+    }
+  }
+}
