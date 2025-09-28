@@ -1,13 +1,12 @@
 {
   "appid": "4041250",
-  "public_only": "1",
   "common": {
     "name": "Follow Nightmare Demo",
     "type": "Demo",
     "parent": "3799550",
     "icon": "a6946eb32f143b67ad3812071a879971e621654d",
     "clienticon": "a6946eb32f143b67ad3812071a879971e621654d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -54,7 +53,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4041250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "cr0cq",
+    "publisher": "Cr0Blood"
+  },
+  "config": {
+    "installdir": "Follow Nightmare Demo",
+    "launch": {
+      "0": {
+        "executable": "FN.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4041251": {
+      "manifests": {
+        "public": {
+          "gid": "1710467212456592884",
+          "size": "3264916441",
+          "download": "3106070320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20160064",
+        "timeupdated": "1759045390"
+      }
+    }
   }
 }
