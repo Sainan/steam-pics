@@ -1,0 +1,157 @@
+{
+  "appid": "2483800",
+  "common": {
+    "name": "Boss Fighters Demo",
+    "type": "Demo",
+    "parent": "1784650",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "75ee6f34c2a6355a239b248e62107aacc991dc06",
+    "clienttga": "1c3e81451c4f530e6bcf6a445201b8a4a397cce4",
+    "clienticon": "a34fa756a179395add380ada154354a65648e0a9",
+    "openvroverlaysupport": "1",
+    "openxrsupport": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "11.078717201166185",
+        "height_pct": "33.33333333333333"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        },
+        "image": {
+          "english": "library_600x900.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "11.078717201166185",
+          "height_pct": "33.33333333333333"
+        }
+      }
+    },
+    "store_asset_mtime": "1705053435",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Pixward Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Pixward Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_18": "1",
+      "category_52": "1",
+      "category_53": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1692983503",
+    "gameid": "2483800",
+    "exfgls": "6"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Pixward Games",
+    "publisher": "Pixward Games",
+    "homepage": "https://bossfighters.game/"
+  },
+  "config": {
+    "installdir": "Boss Fighters Demo",
+    "launch": {
+      "0": {
+        "executable": "BossFighters.exe",
+        "arguments": "-PlayerType=FS",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BossFighters.exe",
+        "arguments": "-PlayerType=VR",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "BossFighters.exe",
+        "arguments": "-PlayerType=VR",
+        "type": "openvroverlay",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "1784651": {
+      "manifests": {
+        "public": {
+          "gid": "4232894197687320021",
+          "size": "2855327006",
+          "download": "2655904352"
+        }
+      },
+      "depotfromapp": "1784650"
+    },
+    "2483801": {
+      "manifests": {
+        "public": {
+          "gid": "1925180781129191291",
+          "size": "2855327006",
+          "download": "2655342496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19783052",
+        "timeupdated": "1756484532"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
