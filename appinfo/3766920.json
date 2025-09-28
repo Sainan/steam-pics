@@ -1,10 +1,9 @@
 {
   "appid": "3766920",
-  "public_only": "1",
   "common": {
     "name": "Cry Of Monster",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "9b76b8e74ecc71208c0515670766c572599db342",
     "clienticns": "37d484cc90e792f9920773f5469f0e622770179c",
     "linuxclienticon": "37d484cc90e792f9920773f5469f0e622770179c",
@@ -116,6 +115,8 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3766920",
     "exfgls": "3",
@@ -141,6 +142,64 @@
       "15": "3978",
       "16": "7208",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "MindBreak",
+    "publisher": "MindBreak",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Cry Of Monster",
+    "launch": {
+      "0": {
+        "executable": "Cry Of Monster.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3766921": {
+      "manifests": {
+        "public": {
+          "gid": "264461389258536159",
+          "size": "402977186",
+          "download": "266776800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20071466",
+        "timeupdated": "1758525150"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
