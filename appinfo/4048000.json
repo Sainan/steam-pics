@@ -1,11 +1,10 @@
 {
   "appid": "4048000",
-  "public_only": "1",
   "common": {
     "name": "心跳大冒险：泰遇 - 4K高清视频 资源包",
     "type": "DLC",
     "parent": "3446680",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Heartbeat in Thailand - 4K HD Video Pack",
       "koreana": "태국에서의 심장 박동 - 4K HD 영상 패키지",
@@ -122,5 +121,51 @@
       "3": "597",
       "4": "599"
     }
+  },
+  "extended": {
+    "dlcforappid": "3446680",
+    "mustownapptopurchase": "3446680",
+    "optionaldlc": "1",
+    "developer": "RainbowGame",
+    "publisher": "RainbowGame",
+    "isfreeapp": "1",
+    "dlcavailableonstore": "1"
+  },
+  "depots": {
+    "4048000": {
+      "dlcappid": "4048000",
+      "config": {
+        "oslist": "windows",
+        "optionaldlc": "4048000"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4419548848859026580",
+          "size": "68020448230",
+          "download": "67322530288"
+        }
+      }
+    },
+    "4048001": {
+      "config": {
+        "oslist": "macos",
+        "optionaldlc": "4048000"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3864261331751360033",
+          "size": "68020448230",
+          "download": "67322530288"
+        }
+      },
+      "dlcappid": "4048000"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20158354",
+        "timeupdated": "1759037176"
+      }
+    },
+    "appmanagesdlc": "1"
   }
 }
