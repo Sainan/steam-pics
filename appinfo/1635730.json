@@ -1,0 +1,268 @@
+{
+  "appid": "1635730",
+  "common": {
+    "name": "VIVE Console for SteamVR",
+    "type": "Application",
+    "releasestate": "released",
+    "parent": "250820",
+    "isplugin": "1",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "cb3b85c4d490f6c796026a176c2eceddfb526dda",
+    "clienttga": "5d8594e5191ffc276b633fe78dbeabe25e79e729",
+    "icon": "2f1720a07d2e3e0cd0988796d71e80a3b44a198b",
+    "eulas": {
+      "0": {
+        "id": "1635730_eula_0",
+        "name": "VIVE Console for SteamVR EULA",
+        "url": "https://store.steampowered.com//eula/1635730_eula_0",
+        "version": "2"
+      }
+    },
+    "logo": "e474c3b14018c39aabebb6a9259980fe9b150366",
+    "logo_small": "e474c3b14018c39aabebb6a9259980fe9b150366_thumb",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1658534400",
+      "tested_build_id": "0",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport_Software"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "96.72525561824466",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        },
+        "image": {
+          "english": "library_600x900.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "96.72525561824466",
+          "height_pct": "100"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1622682568",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "HTC Corp."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "HTC Corp."
+      }
+    },
+    "primary_genre": "57",
+    "genres": {
+      "0": "57"
+    },
+    "category": {},
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "arabic": {
+        "supported": "true"
+      },
+      "czech": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "finnish": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "swedish": {
+        "supported": "true"
+      }
+    },
+    "community_hub_visible": "1",
+    "gameid": "1635730",
+    "exfgls": "6",
+    "store_tags": {
+      "0": "87"
+    },
+    "review_score": "5",
+    "review_percentage": "51"
+  },
+  "extended": {
+    "developer": "HTC Corp.",
+    "publisher": "HTC Corp.",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "VIVEDriver",
+    "launch": {
+      "0": {
+        "executable": "EZLauncher.exe",
+        "arguments": "-launchCU",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1635731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4589982208829936133",
+          "size": "1693479902",
+          "download": "613703008"
+        },
+        "backup": {
+          "gid": "1116656264355788974",
+          "size": "1695253271",
+          "download": "603821536"
+        },
+        "elite7": {
+          "gid": "6284402983186897381",
+          "size": "248154640",
+          "download": "73639344"
+        },
+        "beta": {
+          "gid": "9135986044812891088",
+          "size": "1695218680",
+          "download": "614003344"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,schinese,tchinese,japanese,arabic,latam",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "16386294",
+        "timeupdated": "1731488521"
+      },
+      "backup": {
+        "buildid": "9897519",
+        "description": "Public backup",
+        "timeupdated": "1675151560"
+      },
+      "elite7": {
+        "buildid": "7021366",
+        "description": "June 2021 final release for Win7 & Win8",
+        "timeupdated": "1626171638"
+      },
+      "beta": {
+        "buildid": "16936426",
+        "description": "VIVE Console Beta Update",
+        "timeupdated": "1736316990"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
