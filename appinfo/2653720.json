@@ -3,13 +3,13 @@
   "common": {
     "name": "Firepower Forge",
     "type": "Game",
-    "icon": "728cf51c0fe6c590f15ed265219ad9e3fb395b1a",
-    "clienticon": "5ffb232a9b9a55e3e7947432592f099a7193b4e9",
-    "clienttga": "0449c0a1ce4fc6c25ac8bbe3d619d7e6f6906d70",
-    "clienticns": "c8da2c5c88b53cdb66d58aa0485426e2d604ed8e",
-    "oslist": "windows",
+    "icon": "71092311ce6d3447f54b2a697e5d5227e1895739",
+    "clienticon": "15b4808008ecaab973031f1ec77e453e52e9217a",
+    "clienttga": "1144c9291ebcdf2cc445535931105bdbefb4a145",
+    "clienticns": "bc8695a5611442aa720cec8c9448a779f39fbc20",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -132,12 +132,23 @@
   },
   "depots": {
     "2653721": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "3717809860899263062",
           "size": "560249293",
           "download": "73388768"
         }
+      }
+    },
+    "2653722": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
       }
     },
     "branches": {
