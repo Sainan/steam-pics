@@ -126,7 +126,17 @@
     "installdir": "Firepower Forge",
     "launch": {
       "0": {
-        "executable": "Firepower Forge.exe"
+        "executable": "Firepower Forge.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Firepower Forge.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
