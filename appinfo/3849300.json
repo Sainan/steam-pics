@@ -1,6 +1,5 @@
 {
   "appid": "3849300",
-  "public_only": "1",
   "common": {
     "name": "Linkshift Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -123,7 +122,125 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3849300",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tim Overvliet",
+    "publisher": "Tim Overvliet"
+  },
+  "config": {
+    "installdir": "Linkshift Demo",
+    "launch": {
+      "0": {
+        "executable": "LinkShift-Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "LinkShift-Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "LinkShift-Demo.app\\Contents\\MacOS\\LinkShift",
+        "arguments": "LinkShift-Demo.app\\Contents\\MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3849302": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6420436640804076950",
+          "size": "349520112",
+          "download": "296162048"
+        }
+      }
+    },
+    "3849303": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6368448486050701534",
+          "size": "433494363",
+          "download": "318876224"
+        }
+      }
+    },
+    "3849304": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1434432430547686143",
+          "size": "347310192",
+          "download": "298544752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20160032",
+        "timeupdated": "1759045164"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "4096",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "\\LinkShift Demo\\user_data\\saves",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "\\LinkShift Demo\\user_data\\saves",
+            "replace": ".local/share/LinkShift Demo/user_data\\saves"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "\\LinkShift Demo\\user_data\\saves",
+            "replace": "LinkShift Demo/user_data/saves"
+          }
+        }
+      }
+    }
   }
 }
