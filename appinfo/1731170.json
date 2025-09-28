@@ -1,0 +1,215 @@
+{
+  "appid": "1731170",
+  "common": {
+    "name": "Space Defender",
+    "type": "Game",
+    "releasestate": "released",
+    "linuxclienticon": "5fdf52c26f5a11f4eef194151854797f7d4cb3ba",
+    "clienttga": "bdbe4ad79eda677f1387c2b80abdca9b57da01c4",
+    "clienticon": "831d96a2c45e1e192dab6b016c04451296543bee",
+    "icon": "f5503cec18ad0e3bb46cf869eba121425737792f",
+    "logo": "32ea51fb756b120ab6e2c635ac795c54a72d8247",
+    "logo_small": "32ea51fb756b120ab6e2c635ac795c54a72d8247_thumb",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "restricted_countries": "DE",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "fea4f207de6e1f8649a8288fc62c76596a67acf6/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en,fr",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "43.81155951687808",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "63a3548c9bcd48141106f06a5022ee71c7c95eef/logo.png",
+          "french": "63a3548c9bcd48141106f06a5022ee71c7c95eef/logo_french.png"
+        },
+        "image2x": {
+          "english": "63a3548c9bcd48141106f06a5022ee71c7c95eef/logo_2x.png",
+          "french": "63a3548c9bcd48141106f06a5022ee71c7c95eef/logo_french_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "43.81155951687808",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "fea4f207de6e1f8649a8288fc62c76596a67acf6/library_header.jpg"
+        },
+        "image2x": {
+          "english": "fea4f207de6e1f8649a8288fc62c76596a67acf6/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1756593982",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Guillaume M92"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Guillaume M92"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23",
+      "3": "3",
+      "4": "70"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1746489964",
+    "community_hub_visible": "1",
+    "gameid": "1731170",
+    "store_tags": {
+      "0": "1755",
+      "1": "3834",
+      "2": "4758",
+      "3": "4182",
+      "4": "492",
+      "5": "1773",
+      "6": "15045",
+      "7": "4255",
+      "8": "4736",
+      "9": "122",
+      "10": "4791",
+      "11": "1654",
+      "12": "3871",
+      "13": "1695",
+      "14": "19",
+      "15": "12472",
+      "16": "3942",
+      "17": "21",
+      "18": "4295",
+      "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "Guillaume M92",
+    "publisher": "Guillaume M92"
+  },
+  "config": {
+    "installdir": "Space Defender",
+    "launch": {
+      "0": {
+        "executable": "Space Defender.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch the game"
+        },
+        "description": "Launch the game"
+      },
+      "1": {
+        "executable": "content/mac/Mac.app",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch the game"
+        },
+        "description": "Launch the game"
+      },
+      "2": {
+        "executable": "content/linux/Space Defender.x86_64",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch the game"
+        },
+        "description": "Launch the game"
+      }
+    }
+  },
+  "depots": {
+    "1731171": {
+      "manifests": {
+        "public": {
+          "gid": "5040964694352716938",
+          "size": "273269505",
+          "download": "211912576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20162278",
+        "timeupdated": "1759069723"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Guillaume Merle",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "appidredirect": "1731170"
+  }
+}
