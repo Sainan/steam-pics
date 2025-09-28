@@ -150,9 +150,28 @@
     "hidecloudui": "1",
     "savefiles": {
       "0": {
-        "root": "gameinstall",
-        "path": "state",
-        "pattern": "*"
+        "root": "WinAppDataRoaming",
+        "path": "dorflstuff/middenmoon",
+        "pattern": "*.gz"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "dorflstuff/middenmoon",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "dorflstuff/middenmoon",
+            "replace": ".local/share/dorflstuff/middenmoon"
+          }
+        }
       }
     }
   }
