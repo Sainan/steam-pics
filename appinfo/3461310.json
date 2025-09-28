@@ -189,6 +189,19 @@
   },
   "ufs": {
     "quota": "300000",
-    "maxnumfiles": "1000"
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www\\save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
