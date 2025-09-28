@@ -1,0 +1,257 @@
+{
+  "appid": "232450",
+  "common": {
+    "name": "SolForge",
+    "type": "Game",
+    "releasestate": "released",
+    "clienticon": "bd5948458062484e76f6254b75c64d2803390c49",
+    "clienttga": "f4d5207a27a5e17e509351b0091b134044e65067",
+    "icon": "93268eab76abaa6739b340a6f623baf30acd5163",
+    "oslist": "windows,macos,linux",
+    "logo": "83a7800967d92968f9c355d2a3f57e282051bc63",
+    "logo_small": "83a7800967d92968f9c355d2a3f57e282051bc63_thumb",
+    "eulas": {
+      "0": {
+        "id": "232450_eula_0",
+        "name": "SolForge EULA",
+        "url": "http://store.steampowered.com/eula/232450_eula_0"
+      }
+    },
+    "osarch": "",
+    "restricted_countries": "DE",
+    "metacritic_name": "SolForge",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_ccf6de7e286955e59ea5ffa56345b5be13a4be1f.jpg",
+    "store_asset_mtime": "1372688729",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Stone Blade Entertainment"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Stone Blade Entertainment"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4",
+      "1": "37",
+      "2": "3",
+      "3": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_27": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "1",
+        "full_audio": "1"
+      }
+    },
+    "steam_release_date": "1469466720",
+    "community_hub_visible": "1",
+    "gameid": "232450",
+    "store_tags": {
+      "0": "113",
+      "1": "1666",
+      "2": "9",
+      "3": "9271",
+      "4": "597",
+      "5": "122",
+      "6": "3859"
+    },
+    "review_score": "5",
+    "review_percentage": "64"
+  },
+  "extended": {
+    "checkpkgstate": "1",
+    "developer": "Stone Blade Entertainment",
+    "gamedir": "ValveTestApp232450",
+    "homepage": "http://solforgegame.com",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateComingSoonNoPreload",
+    "visibleonlywhensubscribed": "1",
+    "publisher": "Stone Blade Entertainment",
+    "gamemanualurl": "https://store.steampowered.com/manual/232450/",
+    "listofdlc": "245340,292700,292701,292702"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "SolForge",
+    "launch": {
+      "0": {
+        "executable": "solforge.exe",
+        "description": "Launch App",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "solforge.exe",
+        "arguments": "-show-screen-selector",
+        "type": "config",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "3": {
+        "executable": "solforge_standalonelinux_Final_Live_0.x86",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "32"
+        }
+      },
+      "4": {
+        "executable": "solforge_standalonelinux_Final_Live_0.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "5": {
+        "executable": "solforge_standalonemac_Final_Live_0.app",
+        "type": "none",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "6": {
+        "executable": "kusc.exe",
+        "description": "Launch KUSC",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "kusc"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228984": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "232451": {
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2662345410977139871",
+          "size": "991121468",
+          "download": "355238224"
+        },
+        "kusc": {
+          "gid": "8164810604726657098",
+          "size": "124586333",
+          "download": "25738064"
+        },
+        "publicbeta": {
+          "gid": "2662345410977139871",
+          "size": "991121468",
+          "download": "355238224"
+        }
+      }
+    },
+    "232452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6311714053568276330",
+          "size": "1039578156",
+          "download": "368941200"
+        },
+        "kusc": {
+          "gid": "6560029291535370989",
+          "size": "1039567808",
+          "download": "368941232"
+        },
+        "publicbeta": {
+          "gid": "6311714053568276330",
+          "size": "1039578156",
+          "download": "368941200"
+        }
+      }
+    },
+    "232453": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4056456976307743399",
+          "size": "1033065218",
+          "download": "367660912"
+        },
+        "kusc": {
+          "gid": "7048058309921389919",
+          "size": "1033054922",
+          "download": "367661568"
+        },
+        "publicbeta": {
+          "gid": "4056456976307743399",
+          "size": "1033065218",
+          "download": "367660912"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "2089361",
+        "timeupdated": "1505261862"
+      },
+      "kusc": {
+        "buildid": "2102126",
+        "timeupdated": "1504848447"
+      },
+      "publicbeta": {
+        "buildid": "2089361",
+        "description": "public test area",
+        "timeupdated": "1504478090"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
