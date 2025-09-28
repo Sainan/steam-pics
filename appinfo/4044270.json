@@ -8,9 +8,9 @@
     "clienticns": "3e1c5c10f8237c0bdffb558dec0e5799fd93c2a9",
     "icon": "840552626a788b3cf57905be5ab03e3a4234783e",
     "clienticon": "840552626a788b3cf57905be5ab03e3a4234783e",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -132,6 +132,13 @@
         "type": "default",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Lady Dracula.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
