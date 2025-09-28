@@ -1,6 +1,5 @@
 {
   "appid": "4024280",
-  "public_only": "1",
   "common": {
     "name": "Wretch Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "b38f2e4700ae22ad8ecf6382d22caa9fe6dd01d7",
     "icon": "b38f2e4700ae22ad8ecf6382d22caa9fe6dd01d7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -93,10 +92,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4024280",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "51kness",
+    "publisher": "51kness"
+  },
+  "config": {
+    "installdir": "Wretch_Demo",
+    "launch": {
+      "0": {
+        "executable": "Wretch_Demo/Wretch.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4024281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4971030314075795214",
+          "size": "884515658",
+          "download": "505138720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20161938",
+        "timeupdated": "1759066133"
+      }
     }
   }
 }
