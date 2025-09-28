@@ -1,10 +1,9 @@
 {
   "appid": "3642370",
-  "public_only": "1",
   "common": {
     "name": "桃香(を)ワッショイ",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "07647ec0555e5c5423a884929192525b2196f422",
     "clienticon": "1b0c56f2033a705bf18173d3186d58c8613caffb",
     "clienttga": "ba91cd7a603d7ebbc3f78bbb38b6343b1f821d5a",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759071625",
     "community_hub_visible": "1",
     "gameid": "3642370",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "5379",
@@ -118,6 +117,55 @@
       "7": "4085",
       "8": "492",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "TOEI ANIMATION Co.,Ltd",
+    "publisher": "TOEI ANIMATION Co.,Ltd"
+  },
+  "config": {
+    "installdir": "桃香(を)ワッショイ",
+    "launch": {
+      "0": {
+        "executable": "GBC_2D_action_mo",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3642371": {
+      "manifests": {
+        "public": {
+          "gid": "3485760854925719454",
+          "size": "464896795",
+          "download": "261196624"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20072842",
+        "timeupdated": "1758528253"
+      }
     }
   }
 }
