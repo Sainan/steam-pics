@@ -1,6 +1,5 @@
 {
   "appid": "3810040",
-  "public_only": "1",
   "common": {
     "name": "Turnbound Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
       "japanese": "Turnbound - ターンバウンド Demo",
       "koreana": "Turnbound - 턴바운드 Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "480c2ecea761b4da714fd410622800e0e93b7342/capsule_231x87.jpg",
@@ -167,7 +166,81 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759077717",
     "gameid": "3810040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "1TK",
+    "publisher": "1TK",
+    "homepage": "https://www.1tk.gg/"
+  },
+  "config": {
+    "installdir": "Turnbound Demo",
+    "launch": {
+      "0": {
+        "executable": "Turnbound.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Turnbound.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Turnbound.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3810041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2474288126771140855",
+          "size": "339627208",
+          "download": "250688560"
+        }
+      }
+    },
+    "3810042": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4582401307469412691",
+          "size": "320903840",
+          "download": "244233504"
+        }
+      }
+    },
+    "3810043": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5022886060446504494",
+          "size": "426050883",
+          "download": "273257376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20145020",
+        "timeupdated": "1758902392"
+      }
+    },
+    "privatebranches": "1"
   }
 }
