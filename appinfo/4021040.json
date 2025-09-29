@@ -18,10 +18,30 @@
       "0": {
         "executable": "OpenFolder.bat",
         "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
         "description_loc": {
           "english": "Open Directory"
         },
         "description": "Open Directory"
+      },
+      "1": {
+        "executable": "OpenFolder.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Open Directory"
+        },
+        "description": "Open Directory"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
       }
     }
   },
