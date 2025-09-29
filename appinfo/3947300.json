@@ -1,6 +1,5 @@
 {
   "appid": "3947300",
-  "public_only": "1",
   "common": {
     "name": "星辰大陆",
     "type": "Game",
@@ -17,7 +16,7 @@
     "clienticon": "05c8f866f0ca502ce9da01677e7f15d077c023fd",
     "clienttga": "985261af3ffe6e82d692d19290fdf70c329f46b8",
     "icon": "e65aef9ed32ce5841a124c22e5bc7febff973218",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -121,9 +120,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759200840",
     "community_hub_visible": "1",
     "gameid": "3947300",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "5577",
@@ -145,6 +144,50 @@
       "17": "14139",
       "18": "32322",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Sora",
+    "publisher": "Sora"
+  },
+  "config": {
+    "installdir": "星辰大陆",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "EG",
+          "schinese": "CN"
+        },
+        "description": "EG"
+      }
+    }
+  },
+  "depots": {
+    "3947301": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "328659982638146741",
+          "size": "672298988",
+          "download": "378514016"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20162185",
+        "timeupdated": "1759068762"
+      }
     }
   }
 }
