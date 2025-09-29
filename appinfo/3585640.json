@@ -1,6 +1,5 @@
 {
   "appid": "3585640",
-  "public_only": "1",
   "common": {
     "name": "Lavender Field",
     "type": "Game",
@@ -15,7 +14,7 @@
     "clienticon": "8e29f510e5e23af2e08773d15ccd59fecd4c2ce2",
     "clienttga": "a3caa0d11bcb244169139a85a76e6879226d2753",
     "icon": "522e5c65891b34cf31352069c6ddc2dbd1d13fda",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -134,9 +133,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759171039",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3585640",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "3799",
@@ -156,6 +156,73 @@
       "15": "5716",
       "16": "4064",
       "17": "7208"
+    }
+  },
+  "extended": {
+    "developer": "KamilaFoxGames",
+    "publisher": "KamilaFoxGames",
+    "homepage": "https://lavenderfield.shop/"
+  },
+  "config": {
+    "installdir": "Lavender Field",
+    "launch": {
+      "0": {
+        "executable": "LavenderField.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "LavenderField.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "LavenderField.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "4"
+  },
+  "depots": {
+    "3585641": {
+      "manifests": {
+        "public": {
+          "gid": "644970108025109043",
+          "size": "372578495",
+          "download": "201613328"
+        }
+      }
+    },
+    "baselanguages": "english,german,ukrainian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20171061",
+        "timeupdated": "1759141976"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*"
+      }
     }
   }
 }
