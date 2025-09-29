@@ -1,0 +1,155 @@
+{
+  "appid": "3017590",
+  "common": {
+    "name": "Brickadia Server",
+    "type": "Tool",
+    "parent": "2199420",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "4adab91a29b05e492654ec471258ed8459a056a3",
+    "clienttga": "a8017e90b7d0db9f612175e6c2a7bc529511088a",
+    "eulas": {
+      "0": {
+        "id": "3017590_eula_0",
+        "name": "Brickadia Server EULA",
+        "url": "https://store.steampowered.com//eula/3017590_eula_0",
+        "version": "2"
+      }
+    },
+    "icon": "b03c516eaf2fcf9bd218e0cbde9896eb5ed3f887",
+    "releasestate": "released",
+    "freetodownload": "1",
+    "gameid": "3017590"
+  },
+  "config": {
+    "installdir": "BrickadiaServer",
+    "launch": {
+      "0": {
+        "executable": "Brickadia\\Binaries\\Win64\\BrickadiaServer-Win64-Shipping.exe",
+        "arguments": "-Log",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Brickadia/Binaries/Linux/BrickadiaServer-Linux-Shipping",
+        "arguments": "-Log",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3017591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7535888435529780048",
+          "size": "476402654",
+          "download": "246807440"
+        },
+        "previous-default": {
+          "gid": "3023198223981938107",
+          "size": "476372398",
+          "download": "246812208"
+        },
+        "unstable": {
+          "gid": "7535888435529780048",
+          "size": "476402654",
+          "download": "246807440"
+        }
+      }
+    },
+    "3017592": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "372807830820265260",
+          "size": "377930538",
+          "download": "184662720"
+        },
+        "previous-default": {
+          "gid": "2190924100735592732",
+          "size": "377926394",
+          "download": "184667648"
+        },
+        "unstable": {
+          "gid": "372807830820265260",
+          "size": "377930538",
+          "download": "184662720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19724332",
+        "timeupdated": "1756122247"
+      },
+      "previous-default": {
+        "buildid": "19643914",
+        "description": "Lags the default branch by one release. If we release an update that completely breaks your game, you can use this to downgrade temporarily.",
+        "timeupdated": "1756122194"
+      },
+      "unstable": {
+        "buildid": "19724332",
+        "description": "More frequently updated early builds. May be unstable.",
+        "timeupdated": "1756122206"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
