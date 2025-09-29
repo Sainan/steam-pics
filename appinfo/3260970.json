@@ -1,6 +1,5 @@
 {
   "appid": "3260970",
-  "public_only": "1",
   "common": {
     "name": "CORPOREAL",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758988674",
+    "store_asset_mtime": "1759141684",
     "associations": {
       "0": {
         "type": "developer",
@@ -159,9 +158,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759141797",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3260970",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -187,6 +187,57 @@
       "17": "5716",
       "18": "4342",
       "19": "19"
+    }
+  },
+  "extended": {
+    "developer": "Neutron Studios LLC",
+    "publisher": "Neutron Studios LLC"
+  },
+  "config": {
+    "installdir": "CORPOREAL",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "Corporeal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3260971": {
+      "manifests": {
+        "public": {
+          "gid": "3067201920983897921",
+          "size": "16349257892",
+          "download": "15820696848"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20163615",
+        "timeupdated": "1759084912"
+      }
     }
   }
 }
