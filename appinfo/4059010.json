@@ -1,4 +1,48 @@
 {
   "appid": "4059010",
-  "public_only": "1"
+  "common": {
+    "name": "Neon Roller Demo",
+    "type": "Demo",
+    "parent": "4044240",
+    "clienticon": "8977f6ca91adeb8b7b5367a6d7c0a3b206219131",
+    "icon": "8977f6ca91adeb8b7b5367a6d7c0a3b206219131",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4059010",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Neon Roller Demo",
+    "launch": {
+      "0": {
+        "executable": "NeonRoller.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4059012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5296850748266432650",
+          "size": "1451282050",
+          "download": "642880448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20100554",
+        "timeupdated": "1758669037"
+      }
+    }
+  }
 }
