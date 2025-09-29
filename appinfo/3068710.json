@@ -1,6 +1,5 @@
 {
   "appid": "3068710",
-  "public_only": "1",
   "common": {
     "name": "Vextorial",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "e67637b84bad72a0c21c9bee1242f6780e0c2659",
     "clienticon": "6b188f6a32dac568a2dd2e4a24bcfe8f387bdb77",
     "clienticns": "ba081003a1c81562ae2ed6e3037412d0e5c904a3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -187,9 +186,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3068710",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "6129",
@@ -211,5 +211,44 @@
       "17": "4182",
       "18": "492"
     }
+  },
+  "extended": {
+    "developer": "VEXT GAMES",
+    "publisher": "Dink"
+  },
+  "config": {
+    "installdir": "Vextorial",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Vextorial.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3068711": {
+      "manifests": {
+        "public": {
+          "gid": "1740707183154598953",
+          "size": "1876034876",
+          "download": "511834112"
+        }
+      }
+    },
+    "workshopdepot": "3068710",
+    "branches": {
+      "public": {
+        "buildid": "20174247",
+        "timeupdated": "1759156028"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
