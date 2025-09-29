@@ -1,6 +1,5 @@
 {
   "appid": "3919380",
-  "public_only": "1",
   "common": {
     "name": "L.O.S.T - Last Ones Standing Together",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "e462914f0b69c563d092cab5f0041e5d9ca33822",
     "clienticon": "e462914f0b69c563d092cab5f0041e5d9ca33822",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "55a68d0805d514d591d34f03842bf07c51347ce2/capsule_231x87.jpg",
@@ -122,7 +121,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3919380",
-    "exfgls": "8",
     "store_tags": {
       "0": "1662",
       "1": "21",
@@ -145,5 +143,61 @@
       "18": "3859",
       "19": "4840"
     }
+  },
+  "extended": {
+    "developer": "Shakhzod",
+    "publisher": "High Level Studio"
+  },
+  "config": {
+    "installdir": "L.O.S.T - Last Ones Standing Together",
+    "launch": {
+      "0": {
+        "executable": "\\Windows\\LOST.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3919381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3818744972680543833",
+          "size": "4445189563",
+          "download": "4289645008"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20154966",
+        "timeupdated": "1758981334"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
