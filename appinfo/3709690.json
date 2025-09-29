@@ -1,13 +1,12 @@
 {
   "appid": "3709690",
-  "public_only": "1",
   "common": {
     "name": "ACCIDENTALLY",
     "type": "Game",
     "icon": "7bc84dfdf60ca337356b56e8899c18d9e0e91035",
     "clienticon": "44dea2cffb4a966f195c2c3eca8441c16c0b8dc8",
     "clienttga": "948619c0526b20a004e392749034c061c1cf3a64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "koreana": "이방인들",
       "schinese": "异乡人们",
@@ -143,10 +142,6 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "spanish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "latam": {
         "supported": "true",
         "subtitles": "true"
@@ -166,15 +161,12 @@
       "brazilian": {
         "supported": "true",
         "subtitles": "true"
-      },
-      "portuguese": {
-        "supported": "true",
-        "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3709690",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "6426",
@@ -196,6 +188,111 @@
       "17": "21",
       "18": "6691",
       "19": "3854"
+    }
+  },
+  "extended": {
+    "developer": "M&amp;K WORKS",
+    "publisher": "Storytaco",
+    "homepage": "https://storytaco.com/"
+  },
+  "config": {
+    "installdir": "ACCIDENTALLY",
+    "launch": {
+      "0": {
+        "executable": "ACCIDENTALLY.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ACCIDENTALLY.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "ACCIDENTALLY.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3709691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7142984949982325767",
+          "size": "1419687142",
+          "download": "1057631792"
+        }
+      }
+    },
+    "3709692": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2966464856250533311",
+          "size": "1405787621",
+          "download": "1051964816"
+        }
+      }
+    },
+    "3709693": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2550137680362978735",
+          "size": "1411284491",
+          "download": "1052873216"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,spanish,schinese,portuguese,brazilian,latam,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20136911",
+        "timeupdated": "1758863485"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Storytaco\\ACCIDENTALLY\\SavesDir",
+        "pattern": "*.sav *.png",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Storytaco\\ACCIDENTALLY\\SavesDir"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
     }
   }
 }
