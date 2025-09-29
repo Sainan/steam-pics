@@ -1,6 +1,5 @@
 {
   "appid": "4051660",
-  "public_only": "1",
   "common": {
     "name": "LASERPITIUM Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -33,17 +32,19 @@
     "primary_genre": "0",
     "category": {
       "category_1": "1",
-      "category_37": "1",
       "category_24": "1",
       "category_44": "1",
-      "category_49": "1",
       "category_28": "1",
       "category_60": "1",
       "category_67": "1",
       "category_68": "1",
       "category_69": "1",
       "category_74": "1",
-      "category_78": "1"
+      "category_78": "1",
+      "category_75": "1",
+      "category_2": "1",
+      "category_9": "1",
+      "category_39": "1"
     },
     "supported_languages": {
       "english": {
@@ -62,7 +63,43 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759104947",
     "gameid": "4051660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "THE REETEAM",
+    "publisher": "THE REETEAM",
+    "homepage": "http://www.thereeteam.com/"
+  },
+  "config": {
+    "installdir": "LASERPITIUM Demo",
+    "launch": {
+      "0": {
+        "executable": "Laserpitium.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4051661": {
+      "manifests": {
+        "public": {
+          "gid": "1098449581699707415",
+          "size": "1273443650",
+          "download": "529257712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20070222",
+        "timeupdated": "1758509563"
+      }
+    }
   }
 }
