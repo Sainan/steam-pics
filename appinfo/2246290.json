@@ -7,7 +7,7 @@
     "icon": "fa9e1099c885cd80fd169b46b20295698026e07c",
     "clienticon": "48eae87ff9515d9b9e45cc214fd9456a81e54046",
     "clienttga": "fc513201f96554db482a086d2c3664beeddf9c20",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
     "eulas": {
@@ -196,7 +196,7 @@
         "description": "Windows Version"
       },
       "1": {
-        "executable": "Entasy.AppImage",
+        "executable": "EntasyOnline.x86_64",
         "type": "default",
         "config": {
           "oslist": "linux",
@@ -206,6 +206,12 @@
           "english": "Linux Version"
         },
         "description": "Linux Version"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
       }
     }
   },
@@ -221,6 +227,12 @@
           "size": "186942267",
           "download": "70091888"
         }
+      }
+    },
+    "2246292": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
       }
     },
     "hasdepotsindlc": "0",
