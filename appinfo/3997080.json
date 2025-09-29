@@ -1,11 +1,10 @@
 {
   "appid": "3997080",
-  "public_only": "1",
   "common": {
     "name": "Battlethorne: Reckoning Demo",
     "type": "Demo",
     "parent": "3956860",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "88c21f653665241c068f7ac1b4074b98987751fe",
     "icon": "88c21f653665241c068f7ac1b4074b98987751fe",
     "oslist": "windows",
@@ -157,5 +156,37 @@
     },
     "gameid": "3997080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Primarch Interactive",
+    "publisher": "Primarch Interactive"
+  },
+  "config": {
+    "installdir": "Battlethorne Reckoning Demo",
+    "launch": {
+      "0": {
+        "executable": "Battlethorne Reckoning Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3997081": {
+      "manifests": {
+        "public": {
+          "gid": "1350003204461293687",
+          "size": "5616906369",
+          "download": "2062043728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20175590",
+        "timeupdated": "1759161551"
+      }
+    }
   }
 }
