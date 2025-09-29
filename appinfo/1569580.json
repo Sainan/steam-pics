@@ -3,7 +3,7 @@
   "common": {
     "name": "Blue Prince",
     "type": "Game",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "",
     "logo": "72c5057a8568e88814dd1e7ec3aebf881ace2b8e",
@@ -295,8 +295,17 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Dogubomb/BLUE PRINCE/storage",
-        "pattern": "*",
+        "pattern": "MtHollyBlueprint.es3",
         "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
       }
     }
   }
