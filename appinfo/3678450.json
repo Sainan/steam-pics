@@ -1,10 +1,9 @@
 {
   "appid": "3678450",
-  "public_only": "1",
   "common": {
     "name": "HYPERDRIVE",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a618dd1aeb7b4368f649bd9c207bd002e56df8d0",
     "oslist": "windows",
     "osarch": "",
@@ -109,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759161927",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3678450",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -133,6 +133,40 @@
       "17": "4182",
       "18": "1734",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Archon",
+    "publisher": "Archon Gaming"
+  },
+  "config": {
+    "installdir": "HYPERDRIVE",
+    "launch": {
+      "0": {
+        "executable": "HYPERDRIVE/Hyperdrive.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Launch Hyperdrive"
+        },
+        "description": "Launch Hyperdrive"
+      }
+    }
+  },
+  "depots": {
+    "3678453": {
+      "manifests": {
+        "public": {
+          "gid": "6595726430601061552",
+          "size": "1849471537",
+          "download": "457291072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20163936",
+        "timeupdated": "1759088163"
+      }
     }
   }
 }
