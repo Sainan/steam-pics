@@ -1,0 +1,221 @@
+{
+  "appid": "376030",
+  "common": {
+    "name": "ARK: Survival Evolved Dedicated Server",
+    "type": "Tool",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "376030"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "ARK Survival Evolved Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+        "arguments": "TheIsland?listen ",
+        "description": "Launch (Map: TheIsland)",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+        "arguments": "TheIsland?listen -UseBattlEye",
+        "description": "Launch (Map: TheIsland, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+        "arguments": "TheCenter?listen",
+        "description": "Launch (Map: TheCenter)",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "3": {
+        "executable": "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+        "arguments": "TheCenter?listen -UseBattlEye",
+        "description": "Launch (Map: TheCenter, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "4": {
+        "executable": "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+        "arguments": "TheIsland?listen -TotalConversionMod=111111111",
+        "description": "Launch (Map: TheIsland, Total Conversion: Primitive+)",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "5": {
+        "executable": "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe",
+        "arguments": "TheIsland?listen -TotalConversionMod=111111111 -UseBattlEye",
+        "description": "Launch (Map: TheIsland, Primitive+, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "6": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheIsland?listen ",
+        "description": "Launch (Map: TheIsland)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "7": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheIsland?listen -UseBattlEye",
+        "description": "Launch (Map: TheIsland, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "8": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheCenter?listen",
+        "description": "Launch (Map: TheCenter)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "9": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheCenter?listen",
+        "description": "Launch (Map: TheCenter, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "10": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheCenter?listen -UseBattlEye",
+        "description": "Launch (Map: TheCenter, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "11": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheIsland?listen -TotalConversionMod=111111111",
+        "description": "Launch (Map: TheIsland, Total Conversion: Primitive+)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "12": {
+        "executable": "ShooterGame/Binaries/Linux/ShooterGame",
+        "arguments": "TheIsland?listen -TotalConversionMod=111111111 -UseBattlEye",
+        "description": "Launch (Map: TheIsland, Primitive+, With BattlEye Anticheat)",
+        "type": "none",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "376031": {
+      "manifests": {
+        "public": {
+          "gid": "9206059591771357893",
+          "size": "22835782984",
+          "download": "9916296672"
+        },
+        "timecapsule": {
+          "gid": "385619103637186563",
+          "size": "18742658083",
+          "download": "6740753408"
+        },
+        "experimental": {
+          "gid": "8941594630936752533",
+          "size": "18777951178",
+          "download": "6579333968"
+        },
+        "preaquatica": {
+          "gid": "8941594630936752533",
+          "size": "18777951178",
+          "download": "6579333968"
+        }
+      }
+    },
+    "376032": {},
+    "branches": {
+      "public": {
+        "buildid": "20018528",
+        "timeupdated": "1758229350"
+      },
+      "timecapsule": {
+        "buildid": "5131177",
+        "timeupdated": "1591494821"
+      },
+      "experimental": {
+        "buildid": "13834083",
+        "timeupdated": "1752612770"
+      },
+      "preaquatica": {
+        "buildid": "13834083",
+        "description": "ASE : Pre-Aquatica",
+        "timeupdated": "1752641536"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
