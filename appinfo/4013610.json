@@ -1,6 +1,5 @@
 {
   "appid": "4013610",
-  "public_only": "1",
   "common": {
     "name": "Pure Badminton Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
       "french": "1",
       "schinese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -134,7 +133,101 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759140027",
+    "community_visible_stats": "1",
     "gameid": "4013610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DS SOFT",
+    "publisher": "DS SOFT"
+  },
+  "config": {
+    "installdir": "Pure Badminton Demo",
+    "launch": {
+      "0": {
+        "executable": "Pure Badminton.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Pure Badminton.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Pure Badminton.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4013611": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6873920717740555706",
+          "size": "3035296792",
+          "download": "793905376"
+        },
+        "alpha": {
+          "gid": "6873920717740555706",
+          "size": "3035296792",
+          "download": "793905376"
+        }
+      }
+    },
+    "4013612": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7378555551490508714",
+          "size": "3004457675",
+          "download": "783095616"
+        },
+        "alpha": {
+          "gid": "7378555551490508714",
+          "size": "3004457675",
+          "download": "783095616"
+        }
+      }
+    },
+    "4013613": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3484657289593303171",
+          "size": "3069053362",
+          "download": "818322304"
+        },
+        "alpha": {
+          "gid": "3484657289593303171",
+          "size": "3069053362",
+          "download": "818322304"
+        }
+      }
+    },
+    "baselanguages": "english,french,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20080484",
+        "timeupdated": "1758577581"
+      },
+      "alpha": {
+        "buildid": "20080484",
+        "description": "Alpha branch with latest changes",
+        "timeupdated": "1758575394"
+      }
+    }
   }
 }
