@@ -1,4 +1,177 @@
 {
   "appid": "3760020",
-  "public_only": "1"
+  "common": {
+    "name": "On-Together Demo",
+    "type": "Demo",
+    "parent": "3707400",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macosapplesilicon",
+    "icon": "582919ff678d40e9b211e7110e728220fdfc1a9f",
+    "clienticon": "88c50ce21174b3a9c8b8e0681f318e7c20dd81c7",
+    "clienttga": "fb08e4c6dcf27b40b20091020a8f8b94aef196c5",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "ecaff6ebb2558a1568911b00fdb4d3a92f155203/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "8b4ad4dd47cd70efb134f5884a73a8146449c9c9/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "80.09313154831202",
+        "height_pct": "98.86012823557351"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "4217bf542384585f190716a36e34769f081d7c40/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "4217bf542384585f190716a36e34769f081d7c40/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "2ff43e5676926fefa4a0691fca56314f1543193c/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "2ff43e5676926fefa4a0691fca56314f1543193c/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "2ff43e5676926fefa4a0691fca56314f1543193c/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "299993a9520e9866cbcb3e715eeeda2f776ae606/logo.png"
+        },
+        "image2x": {
+          "english": "299993a9520e9866cbcb3e715eeeda2f776ae606/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "80.09313154831202",
+          "height_pct": "98.86012823557351"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "7f9d3f2a9eb07e965671fff1a4affaf33e5cfbb2/library_header.jpg"
+        },
+        "image2x": {
+          "english": "7f9d3f2a9eb07e965671fff1a4affaf33e5cfbb2/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758795892",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "GigaPuff"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Future Friends Games"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Future Friends Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "3760020",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GigaPuff",
+    "publisher": "Future Friends Games"
+  },
+  "config": {
+    "installdir": "On-Together Demo",
+    "launch": {
+      "0": {
+        "executable": "On-TogetherDemo/On-TogetherDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "On-TogetherDemo.app",
+        "type": "config"
+      }
+    }
+  },
+  "depots": {
+    "3760021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8707836401488721780",
+          "size": "1258302989",
+          "download": "332276448"
+        }
+      }
+    },
+    "3760022": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2689500476142700944",
+          "size": "1278507634",
+          "download": "341350048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20169989",
+        "timeupdated": "1759137072"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
