@@ -1,6 +1,5 @@
 {
   "appid": "3541180",
-  "public_only": "1",
   "common": {
     "name": "梦境边界",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "76c8e8520df375c20012c7571b586de74238a63c",
     "clienticon": "6c4b9abc0cf3c6b9e1b14d187f91471b2bc1ed4f",
     "clienttga": "b1ed5277f635ff65fe65891331345a190e7a651d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ea76623afcf4e347ae140423e8db0fee1bbb1245/capsule_231x87.jpg"
@@ -87,7 +86,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758696362",
+    "store_asset_mtime": "1759105226",
     "associations": {
       "0": {
         "type": "developer",
@@ -116,9 +115,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759105297",
     "community_hub_visible": "1",
     "gameid": "3541180",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "791774",
@@ -130,6 +129,55 @@
       "7": "492",
       "8": "1684",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SUO YIKE",
+    "publisher": "SUO YIKE"
+  },
+  "config": {
+    "installdir": "DreamBoundary",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "3541181": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8364438342201092789",
+          "size": "254638809",
+          "download": "94235600"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20162751",
+        "timeupdated": "1759075009"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "SykGame/DreamBoundary/save",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
