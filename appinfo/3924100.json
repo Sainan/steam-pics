@@ -1,6 +1,5 @@
 {
   "appid": "3924100",
-  "public_only": "1",
   "common": {
     "name": "Beauties and the Stranded Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
       "tchinese": "末日降臨！被美女們關進避難所!? Demo",
       "japanese": "美女とバンカー生活？！ DEMO"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -169,7 +168,84 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3924100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "storytaco",
+    "publisher": "storytaco",
+    "homepage": "https://storytaco.com/"
+  },
+  "config": {
+    "installdir": "Beauties and the Stranded Demo",
+    "launch": {
+      "0": {
+        "executable": "BATS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3924101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8431975881694478800",
+          "size": "5491203304",
+          "download": "5017670880"
+        }
+      }
+    },
+    "3924102": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "3924103": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168388",
+        "timeupdated": "1759129514"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Storytaco/Bats/SavesDir",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Storytaco/BATS/SavesDir"
+          }
+        }
+      }
+    },
+    "appidredirect": "3828610"
   }
 }
