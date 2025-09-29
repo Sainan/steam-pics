@@ -1,6 +1,5 @@
 {
   "appid": "3759390",
-  "public_only": "1",
   "common": {
     "name": "Waifu Quest",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "b9baedc82814a3ed1d979b8c37f953e361a0b532",
     "clienticon": "279304f70687ebbbb13495fc38a2462e550bee79",
     "icon": "a8d35f4c2e2b426796772a7bb0f2656aa6e6e4a9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -129,6 +128,60 @@
       "8": "492",
       "9": "1654",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Seppe De Craene",
+    "publisher": "Xpress.gg",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Waifu Quest",
+    "launch": {
+      "0": {
+        "executable": "WaifuQuest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3759391": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7953470053539338109",
+          "size": "125729284",
+          "download": "39631536"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20129271",
+        "timeupdated": "1758818623"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
