@@ -1,6 +1,5 @@
 {
   "appid": "3862550",
-  "public_only": "1",
   "common": {
     "name": "Bonaparte's Bluff",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "94b9181f9e8313129d8421190d3cdbcb7d6ff9d3/capsule_231x87.jpg"
@@ -110,9 +109,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759161610",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3862550",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1770",
@@ -123,6 +123,71 @@
       "6": "3859",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "BoltFromTheGreen",
+    "publisher": "BoltFromTheGreen"
+  },
+  "config": {
+    "installdir": "Bonaparte's Bluff",
+    "launch": {
+      "0": {
+        "executable": "Bonaparte's Bluff.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3862551": {
+      "manifests": {
+        "public": {
+          "gid": "8042802626555096439",
+          "size": "222229280",
+          "download": "153224944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20064920",
+        "timeupdated": "1758445349"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Bonaparte's Bluff/",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Bonaparte's Bluff/replays/",
+        "pattern": "*.replay",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
