@@ -111,5 +111,44 @@
         "timeupdated": "1758881001"
       }
     }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Red Horde Games/Arcane Tower Survivors",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Red Horde Games/Arcane Tower Survivors",
+            "replace": "unity.Red Horde Games.Arcane Tower Survivors"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Red Horde Games/Arcane Tower Survivors",
+            "replace": ".config/unity3d/Red Horde Games/Arcane Tower Survivors"
+          }
+        }
+      }
+    }
   }
 }
