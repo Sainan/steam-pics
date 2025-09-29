@@ -1,6 +1,5 @@
 {
   "appid": "4064400",
-  "public_only": "1",
   "common": {
     "name": "Undead Tread Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -103,11 +102,56 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759187636",
     "gameid": "4064400",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Fletty Games",
+    "publisher": "Fletty Games",
+    "homepage": "https://fletchersgamedesign.com/"
+  },
+  "config": {
+    "installdir": "Undead Tread Demo",
+    "launch": {
+      "0": {
+        "executable": "RevvedUpRampage.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4064401": {
+      "manifests": {
+        "public": {
+          "gid": "45848281657655442",
+          "size": "3035002447",
+          "download": "2849164896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20149108",
+        "timeupdated": "1758924358"
+      }
     }
   }
 }
