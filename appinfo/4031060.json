@@ -1,6 +1,5 @@
 {
   "appid": "4031060",
-  "public_only": "1",
   "common": {
     "name": "Unloop Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "5d1f0d2fc79d8df53fa3d1c3204d74444714fb20",
     "icon": "5d1f0d2fc79d8df53fa3d1c3204d74444714fb20",
     "openxrsupport": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -120,11 +119,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759140537",
     "gameid": "4031060",
     "exfgls": "6",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Superposition NULL",
+    "publisher": "CM Games"
+  },
+  "config": {
+    "installdir": "Unloop Demo",
+    "launch": {
+      "0": {
+        "executable": "Unloop.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4031061": {
+      "manifests": {
+        "public": {
+          "gid": "3026880968763364180",
+          "size": "1139434436",
+          "download": "724184608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20021959",
+        "timeupdated": "1758143848"
+      }
+    },
+    "privatebranches": "1"
   }
 }
