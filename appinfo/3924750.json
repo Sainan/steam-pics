@@ -1,6 +1,5 @@
 {
   "appid": "3924750",
-  "public_only": "1",
   "common": {
     "name": "Phil in the Mirror Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -109,7 +108,73 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759150913",
     "gameid": "3924750",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lunanod",
+    "publisher": "Lunanod"
+  },
+  "config": {
+    "installdir": "Phil in the Mirror Demo",
+    "launch": {
+      "0": {
+        "executable": "DemoPhilInTheMirror.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3924751": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3926690057523996529",
+          "size": "6307462475",
+          "download": "5825668208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20167840",
+        "timeupdated": "1759128382"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PhilInTheMirror/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
