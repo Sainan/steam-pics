@@ -1,6 +1,5 @@
 {
   "appid": "3467730",
-  "public_only": "1",
   "common": {
     "name": "Wall World 2 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienttga": "faa47c91e1ede27a877c74feccb1742adb8dd29f",
     "clienticon": "4259fa1cae9d3fa286952fa2044c9608423a692d",
     "icon": "ff9d22b9345605ecd79886f24a8c9994e5cccb14",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -149,5 +148,40 @@
     },
     "gameid": "3467730",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Alawar",
+    "publisher": "Alawar",
+    "homepage": "https://alawar.com/games/wall-world-2"
+  },
+  "config": {
+    "installdir": "Wall World 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "WallWorld2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3467731": {
+      "manifests": {
+        "public": {
+          "gid": "8897623357204709107",
+          "size": "6038815798",
+          "download": "197180768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168415",
+        "timeupdated": "1759141378"
+      }
+    },
+    "privatebranches": "1"
   }
 }
