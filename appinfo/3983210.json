@@ -1,6 +1,5 @@
 {
   "appid": "3983210",
-  "public_only": "1",
   "common": {
     "name": "Memories with You Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -131,6 +130,39 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "AniCore Team",
+    "publisher": "AniCore Team"
+  },
+  "config": {
+    "installdir": "Memories with You Demo",
+    "launch": {
+      "0": {
+        "executable": "Memories with you Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3983211": {
+      "manifests": {
+        "public": {
+          "gid": "4433875803820330188",
+          "size": "1639514636",
+          "download": "282850464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20174303",
+        "timeupdated": "1759156233"
+      }
     }
   }
 }
