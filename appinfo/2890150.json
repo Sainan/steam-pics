@@ -199,28 +199,23 @@
     "quota": "1000000000",
     "maxnumfiles": "5000",
     "savefiles": {
+      "3": {
+        "root": "gameinstall",
+        "path": "game/saves/",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
       "0": {
-        "root": "WinAppDataRoaming",
-        "path": "RenPy\\Euphoria-1633900849\\",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "1": {
-        "root": "LinuxHome",
-        "path": ".renpy/Euphoria-1633900849/",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Linux"
-        }
-      },
-      "2": {
-        "root": "MacHome",
-        "path": "Library/RenPy/Euphoria-1633900849",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "MacOS"
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "game/saves/",
+            "replace": "Library/Renpy/Euphoria-1633900849"
+          }
         }
       }
     }
