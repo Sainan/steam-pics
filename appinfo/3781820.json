@@ -1,0 +1,142 @@
+{
+  "appid": "3781820",
+  "common": {
+    "name": "Outhold Demo",
+    "type": "Demo",
+    "parent": "3767740",
+    "icon": "32d33959e909ea3b80987b03471c1f730cc38ac1",
+    "clienttga": "bdd61c56b6160cc726f848dd859249786164f3f5",
+    "clienticon": "e60ed99e7b9bae963159d737cef063549faf6b16",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "4bcf8a5c09deeaaf5a2a5d366efcd8a70c81530e/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "6fd741c1bf8c6bb63b529fc54043a56ba445956a/header.jpg"
+    },
+    "store_screenshot": "94fcfc3e3927b4e80c4995b2c4b1fee5ebe82216/ss_94fcfc3e3927b4e80c4995b2c4b1fee5ebe82216.jpg",
+    "store_asset_mtime": "1748631509",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tellus Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tellus Games"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "4",
+      "1": "28",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_25": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1748631543",
+    "gameid": "3781820",
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "Tellus Games",
+    "publisher": "Tellus Games"
+  },
+  "config": {
+    "installdir": "Outhold Demo",
+    "launch": {
+      "0": {
+        "executable": "windows/windows.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "windows/windows.exe",
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode (OpenGL3) - Use this on older systems, if the above launch option crashes or performs badly"
+        },
+        "description": "Compatibility Mode (OpenGL3) - Use this on older systems, if the above launch option crashes or performs badly"
+      },
+      "2": {
+        "executable": "mac_os.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3781821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6654764952509433551",
+          "size": "104810332",
+          "download": "35139184"
+        }
+      }
+    },
+    "3781822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8032970531163114132",
+          "size": "187763407",
+          "download": "56967392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19853330",
+        "timeupdated": "1756978521"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "200000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Outhold",
+        "pattern": "*.cfg"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
