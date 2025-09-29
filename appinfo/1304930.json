@@ -294,18 +294,55 @@
     "launch": {
       "0": {
         "executable": "TOTClient.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "betakey": "default"
+        }
       },
       "1": {
         "executable": "start_protected_game.exe",
-        "type": "option1",
+        "type": "default",
         "config": {
           "betakey": "release-4-2"
-        },
-        "description_loc": {
-          "english": "The Outlast Trials (with anticheat)"
-        },
-        "description": "The Outlast Trials (with anticheat)"
+        }
+      },
+      "2": {
+        "executable": "TOTClient.exe",
+        "type": "default",
+        "config": {
+          "betakey": "oppqa"
+        }
+      },
+      "3": {
+        "executable": "TOTClient.exe",
+        "config": {
+          "betakey": "oppqa2"
+        }
+      },
+      "4": {
+        "executable": "start_protected_game.exe",
+        "type": "default",
+        "config": {
+          "betakey": "oppqa-eac"
+        }
+      },
+      "5": {
+        "executable": "TOTClient.exe",
+        "config": {
+          "betakey": "oppstable"
+        }
+      },
+      "6": {
+        "executable": "TOTClient.exe",
+        "config": {
+          "betakey": "oppstable-debug"
+        }
+      },
+      "7": {
+        "executable": "TOTClient.exe",
+        "config": {
+          "betakey": "opptest"
+        }
       }
     },
     "uselaunchcommandline": "1",
