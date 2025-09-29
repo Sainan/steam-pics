@@ -1,11 +1,10 @@
 {
   "appid": "4006250",
-  "public_only": "1",
   "common": {
     "name": "Desktop Purrfect Demo",
     "type": "Demo",
     "parent": "3870120",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "我的桌面有只猫 Demo"
     },
@@ -99,7 +98,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759125638",
     "gameid": "4006250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Boon Makes Games",
+    "publisher": "Boon Makes Games"
+  },
+  "config": {
+    "installdir": "Desktop Purrfect Demo",
+    "launch": {
+      "0": {
+        "executable": "DesktopPurrfectDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4006251": {
+      "manifests": {
+        "public": {
+          "gid": "205140996830206351",
+          "size": "203170562",
+          "download": "81921136"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20163057",
+        "timeupdated": "1759078516"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "BoonMakesGames/DesktopPurrfect/player_{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "appidredirect": "3870120"
   }
 }
