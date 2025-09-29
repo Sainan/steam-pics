@@ -1,0 +1,119 @@
+{
+  "appid": "3641890",
+  "common": {
+    "name": "Videoclub Simulator Demo",
+    "type": "Demo",
+    "parent": "3638630",
+    "releasestate": "released",
+    "icon": "7b7cfbe6c491d3f90265b46bc76a17bce58152bf",
+    "clienttga": "4cc8a596335c16e015bf2c369282dc3b37ea3cf5",
+    "clienticns": "08ed759c646188048e19415141e70e14062a518c",
+    "linuxclienticon": "dc26ec6338a2857f78ad3800496329b1c1cbab4e",
+    "clienticon": "0621c9eb12b533333c824dbbfff41d4bfff81fc3",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "languages": {
+      "english": "1",
+      "spanish": "1",
+      "latam": "1"
+    },
+    "aicontenttype": "1",
+    "small_capsule": {
+      "english": "102edcd6389edf11f836d781c5f78a40f4050a70/capsule_231x87.jpg",
+      "spanish": "102edcd6389edf11f836d781c5f78a40f4050a70/capsule_231x87_spanish.jpg",
+      "latam": "102edcd6389edf11f836d781c5f78a40f4050a70/capsule_231x87_latam.jpg"
+    },
+    "header_image": {
+      "english": "7224bb3381c92643ff3c536e50fd8c1ca7487aa7/header.jpg",
+      "latam": "7224bb3381c92643ff3c536e50fd8c1ca7487aa7/header_latam.jpg",
+      "spanish": "7224bb3381c92643ff3c536e50fd8c1ca7487aa7/header_spanish.jpg"
+    },
+    "store_asset_mtime": "1755571730",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "willstargames"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "willstargames"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1745382909",
+    "community_visible_stats": "1",
+    "gameid": "3641890",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "willstargames",
+    "publisher": "willstargames"
+  },
+  "config": {
+    "installdir": "Videoclub Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "VIdeoClubSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "3641891": {
+      "manifests": {
+        "public": {
+          "gid": "6285863457296324228",
+          "size": "1125429397",
+          "download": "948216112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20179634",
+        "timeupdated": "1759182391"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "3",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "WillStarGames\\VIdeoClubSimulator",
+        "pattern": "save_demo.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": "config/unity3d/WillStarGames\\VIdeoClubSimulator"
+      }
+    }
+  }
+}
