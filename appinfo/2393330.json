@@ -1,6 +1,5 @@
 {
   "appid": "2393330",
-  "public_only": "1",
   "common": {
     "name": "On The Wind's Breath",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "76e318799a1655856a27e9f433df1d88729cd658",
     "clienticon": "a64d544e4c7076e41d2e7f6a4c4c9fd137bd9edc",
     "icon": "222293d26d60237124913045ed4a42a43d0d7263",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2393330_eula_0",
@@ -120,9 +119,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759172348",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2393330",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "5379",
@@ -141,6 +141,64 @@
       "14": "1773",
       "15": "7250",
       "16": "3968"
+    }
+  },
+  "extended": {
+    "developer": "Pink Sakura Studios",
+    "publisher": "Pink Sakura Studios"
+  },
+  "config": {
+    "installdir": "On The Wind's Breath",
+    "launch": {
+      "0": {
+        "executable": "On The Wind's Breath.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2393331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7036934682636315626",
+          "size": "302819704",
+          "download": "113334464"
+        },
+        "beta": {
+          "gid": "6439030917831925806",
+          "size": "302375662",
+          "download": "118615680"
+        }
+      }
+    },
+    "baselanguages": "english,german,spanish,polish",
+    "branches": {
+      "public": {
+        "buildid": "20173512",
+        "timeupdated": "1759153228"
+      },
+      "beta": {
+        "buildid": "17901281",
+        "description": "this is for the testers. Might be unstable",
+        "timeupdated": "1755131962"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Pink Sakura Studios\\On The Wind's Breath",
+        "pattern": "*.dat"
+      }
     }
   }
 }
