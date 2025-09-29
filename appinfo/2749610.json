@@ -1,13 +1,12 @@
 {
   "appid": "2749610",
-  "public_only": "1",
   "common": {
     "name": "PANIK",
     "type": "Game",
     "icon": "899fef1ec0f2085e347696043018c9adf92f5c99",
     "clienticon": "7c4b5d9dee86092cede7c7ec2cf5a39255afac39",
     "clienttga": "8aabee004d378869881585961b4d54e710de6945",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759140073",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2749610",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1664",
@@ -137,5 +137,48 @@
       "18": "5350",
       "19": "4184"
     }
+  },
+  "extended": {
+    "developer": "ChumasGames",
+    "publisher": "ChumasGames"
+  },
+  "config": {
+    "installdir": "PANIK",
+    "launch": {
+      "0": {
+        "executable": "PANIK.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2749611": {
+      "manifests": {
+        "public": {
+          "gid": "4970771049253077302",
+          "size": "38167958",
+          "download": "22703792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20169732",
+        "timeupdated": "1759135918"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
