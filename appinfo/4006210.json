@@ -1,10 +1,9 @@
 {
   "appid": "4006210",
-  "public_only": "1",
   "common": {
     "name": "Dream So Long",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "6930c2dc396c2d2ce00c6566ef8747ea62b48ba8",
     "icon": "6930c2dc396c2d2ce00c6566ef8747ea62b48ba8",
     "oslist": "windows",
@@ -98,9 +97,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759139280",
     "community_hub_visible": "1",
     "gameid": "4006210",
-    "exfgls": "8",
     "store_tags": {
       "0": "5900",
       "1": "1664",
@@ -109,6 +108,50 @@
       "4": "1721",
       "5": "4182",
       "6": "599"
+    }
+  },
+  "extended": {
+    "developer": "RUUU",
+    "publisher": "RUUU"
+  },
+  "config": {
+    "installdir": "DreamSoLong",
+    "launch": {
+      "1": {
+        "executable": "DreamSoLong.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4006211": {
+      "manifests": {
+        "public": {
+          "gid": "2546370976240939211",
+          "size": "3622231438",
+          "download": "3098571824"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20073536",
+        "timeupdated": "1758531697"
+      }
     }
   }
 }
