@@ -1,6 +1,5 @@
 {
   "appid": "3848730",
-  "public_only": "1",
   "common": {
     "name": "Castle Creampuff",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -129,9 +128,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3848730",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -159,6 +158,101 @@
       "17": "12095",
       "18": "30358",
       "19": "4562"
+    }
+  },
+  "extended": {
+    "developer": "c8mball",
+    "publisher": "c8mball"
+  },
+  "config": {
+    "installdir": "Castle Creampuff",
+    "launch": {
+      "0": {
+        "executable": "win64\\Castle Creampuff.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "linux64\\package.nw",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "mac64\\Castle Creampuff.app\\Contents\\Resources\\app.nw",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3848732": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2518561454764838859",
+          "size": "555911696",
+          "download": "357400912"
+        },
+        "debug": {
+          "gid": "7823828724189343278",
+          "size": "556539277",
+          "download": "358014720"
+        }
+      }
+    },
+    "3848733": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8837987720521593795",
+          "size": "594562171",
+          "download": "357278096"
+        },
+        "debug": {
+          "gid": "3572878597711222640",
+          "size": "595189752",
+          "download": "357891904"
+        }
+      }
+    },
+    "3848734": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3632317508524255254",
+          "size": "642286493",
+          "download": "360458384"
+        },
+        "debug": {
+          "gid": "4161334704270537415",
+          "size": "642914074",
+          "download": "361072192"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19940212",
+        "timeupdated": "1757586820"
+      },
+      "debug": {
+        "buildid": "19724791",
+        "description": "debug build",
+        "timeupdated": "1756124577"
+      }
     }
   }
 }
