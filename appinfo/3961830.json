@@ -1,11 +1,10 @@
 {
   "appid": "3961830",
-  "public_only": "1",
   "common": {
     "name": "By Your Hands Demo",
     "type": "Demo",
     "parent": "3952890",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "5633bd6dca9b2dcc963231e8a75bf4b6df50ec5b",
     "clienttga": "e45a83e4e8b61fd5eaa6ee9138c847cf8540dc9b",
     "icon": "46f95c6738096e56be448479fd935c34b99fdb5a",
@@ -64,6 +63,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759163578",
     "gameid": "3961830",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -72,6 +72,78 @@
       "2": "3",
       "3": "4",
       "4": "5"
+    }
+  },
+  "extended": {
+    "developer": "ChellayTiger",
+    "publisher": "ChellayTiger"
+  },
+  "config": {
+    "installdir": "By Your Hands Demo",
+    "launch": {
+      "0": {
+        "executable": "ByYourHands.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "ByYourHands.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "ByYourHands.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3961831": {
+      "manifests": {
+        "public": {
+          "gid": "6373025390879984198",
+          "size": "486660691",
+          "download": "356014256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19620953",
+        "timeupdated": "1755324300"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "500",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*"
+      }
     }
   }
 }
