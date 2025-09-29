@@ -1,6 +1,5 @@
 {
   "appid": "4046520",
-  "public_only": "1",
   "common": {
     "name": "Mad King Redemption Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "7271d38e325ce5085bafd344cb719443db0e10bc",
     "icon": "7271d38e325ce5085bafd344cb719443db0e10bc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -51,10 +50,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759147760",
     "gameid": "4046520",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "SECRET MISSION",
+    "publisher": "SECRET MISSION"
+  },
+  "config": {
+    "installdir": "Mad King Redemption Demo",
+    "launch": {
+      "0": {
+        "executable": "Mad King Redemption Demo\\Mad King Redemption.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4046521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5704328579028765502",
+          "size": "1111625226",
+          "download": "358805872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20171794",
+        "timeupdated": "1759145546"
+      }
     }
   }
 }
