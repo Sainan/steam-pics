@@ -1,6 +1,5 @@
 {
   "appid": "4064070",
-  "public_only": "1",
   "common": {
     "name": "PooPig Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -115,8 +114,76 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759133319",
     "community_hub_visible": "1",
     "gameid": "4064070",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DeepTrap Studio",
+    "publisher": "DeepTrap Studio"
+  },
+  "config": {
+    "installdir": "PooPig Demo",
+    "launch": {
+      "0": {
+        "executable": "PoopigDemo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "PoopigDemo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064071": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6599132884770361731",
+          "size": "1256344139",
+          "download": "155005904"
+        },
+        "local": {
+          "gid": "1027783380516355620",
+          "size": "1260210600",
+          "download": "158884960"
+        }
+      }
+    },
+    "4064072": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7677448668580437934",
+          "size": "1272408361",
+          "download": "163128512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168770",
+        "timeupdated": "1759131243"
+      },
+      "local": {
+        "buildid": "20146016",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758906317"
+      }
+    }
   }
 }
