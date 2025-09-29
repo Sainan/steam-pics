@@ -1,6 +1,5 @@
 {
   "appid": "4024430",
-  "public_only": "1",
   "common": {
     "name": "River Meditation",
     "type": "Application",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -110,6 +109,62 @@
       "3": "3834",
       "4": "4182",
       "5": "15277"
+    }
+  },
+  "extended": {
+    "developer": "Kevin Wacknov",
+    "publisher": "Mind Body Aware Games LLC",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "River Meditation",
+    "launch": {
+      "0": {
+        "executable": "River Meditation.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "River Meditation.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4024431": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6739574352052369292",
+          "size": "248036468",
+          "download": "127390848"
+        }
+      }
+    },
+    "4024432": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "325621809740243483",
+          "size": "280185448",
+          "download": "144645344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20063948",
+        "timeupdated": "1758430626"
+      }
     }
   }
 }
