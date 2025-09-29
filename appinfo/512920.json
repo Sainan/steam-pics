@@ -1,0 +1,179 @@
+{
+  "appid": "512920",
+  "common": {
+    "name": "Trigger Time",
+    "type": "Game",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "languages": {
+      "english": "1"
+    },
+    "logo": "a2a6d23cf42ff1d0133b37a2568e0115ae58a56b",
+    "logo_small": "a2a6d23cf42ff1d0133b37a2568e0115ae58a56b_thumb",
+    "icon": "c6aa78fbee6005db8ddf830ab5885d59a0c52529",
+    "linuxclienticon": "2ad3fe4e71e4278ecaf3bfe9fb1145628cdd663a",
+    "clienttga": "a6f1fd21ceec56f67fddd4d1e54328cc2b81636f",
+    "clienticon": "b9e47056b7ea6b59b6e016e2a170a5058802cbd7",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "metacritic_name": "Trigger Time",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_a5a990653eae6e048be1272aa448f6680172f141.jpg",
+    "store_asset_mtime": "1494252165",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Shephf Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Creative Mobile"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_29": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1494873000",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "512920",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "19",
+      "1": "492",
+      "2": "4637",
+      "3": "1773",
+      "4": "1774",
+      "5": "3968",
+      "6": "4255",
+      "7": "3942",
+      "8": "1734",
+      "9": "3871"
+    },
+    "review_score": "7",
+    "review_percentage": "80"
+  },
+  "extended": {
+    "developer": "Shephf Games",
+    "publisher": "Creative Mobile",
+    "homepage": "https://www.facebook.com/TriggerTimeGame",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Trigger Time",
+    "launch": {
+      "0": {
+        "executable": "tt",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "tt.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "512922": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2764844719153415285",
+          "size": "210067813",
+          "download": "173286992"
+        }
+      }
+    },
+    "512923": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3573236784038182130",
+          "size": "209907350",
+          "download": "173241296"
+        }
+      }
+    },
+    "512924": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3577433634580010308",
+          "size": "207561421",
+          "download": "172621072"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "1855390",
+        "timeupdated": "1496171794"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "TriggerTime",
+        "pattern": "savedata"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "TriggerTime",
+            "replace": ".TriggerTime"
+          }
+        }
+      }
+    }
+  }
+}
