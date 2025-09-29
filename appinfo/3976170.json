@@ -1,12 +1,11 @@
 {
   "appid": "3976170",
-  "public_only": "1",
   "common": {
     "name": "Cube Game Server Boss",
     "type": "Game",
     "clienticon": "653ddf785e9f59144f9b52622b9c95999d69500f",
     "icon": "a1b6d7e565d9bfc06d12e4bcec9dad64c36508eb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759156240",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3976170",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "615955",
@@ -115,6 +115,47 @@
       "5": "4182",
       "6": "492",
       "7": "35079"
+    }
+  },
+  "extended": {
+    "developer": "froggyrs",
+    "publisher": "froggyrs"
+  },
+  "config": {
+    "installdir": "Cube Game Server Boss",
+    "launch": {
+      "0": {
+        "executable": "cgsb.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3976171": {
+      "manifests": {
+        "public": {
+          "gid": "5970243967739116571",
+          "size": "150642112",
+          "download": "64317360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19921974",
+        "timeupdated": "1757485847"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "24",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "froggyrs/cgsb/saves/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
     }
   }
 }
