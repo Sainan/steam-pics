@@ -1,10 +1,9 @@
 {
   "appid": "3891130",
-  "public_only": "1",
   "common": {
     "name": "Elevator Pitch",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ae7430b8dd63f85b790896d0935064e885c8fc9e",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "linuxclienticon": "c13a7e613c196e5293a25a16ecc3bea24e5d0eec",
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3891130",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "10235",
@@ -117,6 +116,50 @@
       "4": "6426",
       "5": "4182",
       "6": "493"
+    }
+  },
+  "extended": {
+    "developer": "Solo Gaming Studios",
+    "publisher": "Solo Gaming Studios"
+  },
+  "config": {
+    "installdir": "ElevatorPitch",
+    "launch": {
+      "0": {
+        "executable": "ElevatorPitch.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3891132": {
+      "manifests": {
+        "public": {
+          "gid": "8845572311528885832",
+          "size": "130219201",
+          "download": "66837952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173932",
+        "timeupdated": "1759154799"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "ElevatorPitch-1751076328",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
