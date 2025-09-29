@@ -1,11 +1,10 @@
 {
   "appid": "3949480",
-  "public_only": "1",
   "common": {
     "name": "Bone Souls Demo",
     "type": "Demo",
     "parent": "3901780",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "03559da7dde9d18e1649aeb1d6801807fc5c041a",
     "clienttga": "8a1c370e2d0d8c824a12949ac59fa56f2ed9869d",
     "clienticon": "65bb7af3071ad2ed783f7088727c3758759e8b30",
@@ -111,7 +110,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3949480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "几几不小心",
+    "publisher": "几几不小心"
+  },
+  "config": {
+    "installdir": "Bone Souls Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows/bonesouls.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3949481": {
+      "manifests": {
+        "public": {
+          "gid": "4593363562854117782",
+          "size": "7174652591",
+          "download": "6930606976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20166394",
+        "timeupdated": "1759112323"
+      }
+    }
   }
 }
