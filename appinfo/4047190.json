@@ -1,6 +1,5 @@
 {
   "appid": "4047190",
-  "public_only": "1",
   "common": {
     "name": "Kellan Graves: Fallen Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -74,7 +73,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4047190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Adrenaline Games",
+    "publisher": "Adrenaline Games"
+  },
+  "config": {
+    "installdir": "Kellan Graves Fallen Demo",
+    "launch": {
+      "0": {
+        "executable": "KellanGravesV7",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Main Game Executable"
+        },
+        "description": "Main Game Executable"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4047191": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3459551507507560929",
+          "size": "3172965865",
+          "download": "2865806976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168182",
+        "timeupdated": "1759127170"
+      }
+    }
   }
 }
