@@ -1,6 +1,5 @@
 {
   "appid": "4023190",
-  "public_only": "1",
   "common": {
     "name": "Catio Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "b4c2e499a114e3fc73d56f05454722e8a7643154",
     "clienticon": "4dc29d1afc30c047a3e164748a84e3b2e3b010d3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "67a246d176a34e782a892c11e7d2ca8800842f6a/capsule_231x87.jpg"
@@ -94,7 +93,48 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4023190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Luke Fischinger",
+    "publisher": "Luke Fischinger"
+  },
+  "config": {
+    "installdir": "Catio Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "CatioSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Demo"
+        },
+        "description": "Launch Demo"
+      }
+    }
+  },
+  "depots": {
+    "4023191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5102151678027495956",
+          "size": "121825659",
+          "download": "41945776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20179524",
+        "timeupdated": "1759181535"
+      }
+    }
   }
 }
