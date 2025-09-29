@@ -1,0 +1,715 @@
+{
+  "appid": "754010",
+  "common": {
+    "name": "Medicalholodeck",
+    "type": "Application",
+    "releasestate": "released",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "seated": "1",
+      "standing": "1"
+    },
+    "logo": "285cc624da84228b0f4812e8e2bddd3674171a88",
+    "logo_small": "285cc624da84228b0f4812e8e2bddd3674171a88_thumb",
+    "icon": "ac85ad6e1f838af88844a87dd627d1d42cbde807",
+    "oslist": "windows",
+    "osarch": "64",
+    "clienttga": "7776f25efa6bc58b80ac1c4a78d100eadab44a51",
+    "clienticon": "6ac2e42bdbb7a2d7ce7d829b1552cb9b2db03364",
+    "osextended": "",
+    "openxrsupport": "1",
+    "name_localized": {
+      "german": " MEDICALHOLODECK®. Chirurgie, Anatomie, Medizin und DICOM in Virtual Reality. Für Studenten, Pflegekräfte, Ärzte und Chirurgen.",
+      "spanish": "MEDICALHOLODECK®. Cirugía, Anatomía, Medicina y DICOM en Realidad Virtual. Para estudiantes de medicina, enfermeras, médicos y cirujanos.",
+      "latam": "MEDICALHOLODECK®. Cirugía, Anatomía, Medicina y DICOM en Realidad Virtual. Para estudiantes de medicina, enfermeras, médicos y cirujanos.",
+      "brazilian": "MEDICALHOLODECK®. Cirurgia, Anatomia, Medicina e DICOM em Realidade Virtual. Para estudantes de medicina, enfermeiros, médicos e cirurgiões.",
+      "portuguese": "MEDICALHOLODECK®. Cirurgia, Anatomia, Medicina e DICOM em Realidade Virtual. Para estudantes de medicina, enfermeiros, médicos e cirurgiões.",
+      "schinese": "MEDICALHOLODECK®。虚拟现实中的外科、解剖学、医学和DICOM。适用于医学生、护士、医生和外科医生。",
+      "tchinese": "MEDICALHOLODECK®。虛擬現實中的外科、解剖學、醫學和DICOM。適用於醫學生、護理師、醫師和外科醫師。",
+      "japanese": "MEDICALHOLODECK®。バーチャルリアリティでの外科、解剖学、医学、DICOM。医学生、看護師、医師、外科医向け。",
+      "french": "MEDICALHOLODECK®. Chirurgie, Anatomie, Médecine et DICOM en Réalité Virtuelle. Pour les étudiants en médecine, infirmiers, médecins et chirurgiens.",
+      "italian": "MEDICALHOLODECK®. Chirurgia, Anatomia, Medicina e DICOM in Realtà Virtuale. Per studenti di medicina, infermieri, medici e chirurghi.",
+      "koreana": "MEDICALHOLODECK®. 가상 현실에서의 외과, 해부학, 의학 및 DICOM. 의대생, 간호사, 의사 및 외과의를 위한 솔루션.",
+      "turkish": "MEDICALHOLODECK®. Sanal Gerçeklikte Cerrahi, Anatomi, Tıp ve DICOM. Tıp öğrencileri, hemşireler, doktorlar ve cerrahlar için.",
+      "vietnamese": "MEDICALHOLODECK®. Phẫu thuật, Giải phẫu, Y học và DICOM trong Thực tế Ảo. Dành cho sinh viên y khoa, y tá, bác sĩ và bác sĩ phẫu thuật.",
+      "indonesian": "MEDICALHOLODECK®. Bedah, Anatomi, Kedokteran, dan DICOM dalam Realitas Virtual. Untuk mahasiswa kedokteran, perawat, dokter, dan ahli bedah.",
+      "thai": "MEDICALHOLODECK®. ศัลยกรรม กายวิภาคศาสตร์ แพทยศาสตร์ และ DICOM ในโลกเสมือนจริง สำหรับนักศึกษาแพทย์ พยาบาล แพทย์ และศัลยแพทย์",
+      "russian": "MEDICALHOLODECK®. Хирургия, анатомия, медицина и DICOM в виртуальной реальности. Для студентов-медиков, медсестер, врачей и хирургов.",
+      "polish": "MEDICALHOLODECK®. Chirurgia, Anatomia, Medycyna i DICOM w Wirtualnej Rzeczywistości. Dla studentów medycyny, pielęgniarek, lekarzy i chirurgów.",
+      "greek": "MEDICALHOLODECK®. Χειρουργική, Ανατομία, Ιατρική και DICOM σε Εικονική Πραγματικότητα. Για φοιτητές ιατρικής, νοσηλευτές, γιατρούς και χειρουργούς.",
+      "danish": "MEDICALHOLODECK®. Kirurgi, Anatomi, Medicin og DICOM i Virtual Reality. For medicinstuderende, sygeplejersker, læger og kirurger.",
+      "dutch": "MEDICALHOLODECK®. Chirurgie, Anatomie, Geneeskunde en DICOM in Virtual Reality. Voor geneeskundestudenten, verpleegkundigen, artsen en chirurgen.",
+      "finnish": "MEDICALHOLODECK®. Kirurgia, Anatomia, Lääketiede ja DICOM virtuaalitodellisuudessa. Lääketieteen opiskelijoille, sairaanhoitajille, lääkäreille ja kirurgeille.",
+      "norwegian": "MEDICALHOLODECK®. Kirurgi, Anatomi, Medisin og DICOM i Virtuell Virkelighet. For medisinstudenter, sykepleiere, leger og kirurger.",
+      "swedish": "MEDICALHOLODECK®. Kirurgi, Anatomi, Medicin och DICOM i Virtual Reality. För läkarstudenter, sjuksköterskor, läkare och kirurger.",
+      "hungarian": "MEDICALHOLODECK®. Sebészet, Anatómia, Orvostudomány és DICOM a Virtuális Valóságban. Orvostanhallgatók, ápolók, orvosok és sebészek számára.",
+      "czech": "MEDICALHOLODECK®. Chirurgie, Anatomie, Medicína a DICOM ve Virtuální Realitě. Pro studenty medicíny, zdravotní sestry, lékaře a chirurgy.",
+      "ukrainian": "MEDICALHOLODECK®. Хірургія, Анатомія, Медицина та DICOM у Віртуальній Реальності. Для студентів-медиків, медсестер, лікарів та хірургів.",
+      "romanian": "MEDICALHOLODECK®. Chirurgie, Anatomie, Medicină și DICOM în Realitate Virtuală. Pentru studenți la medicină, asistenți medicali, medici și chirurgi.",
+      "bulgarian": "MEDICALHOLODECK®. Хирургия, Анатомия, Медицина и DICOM във Виртуална Реалност. За студенти по медицина, медицински сестри, лекари и хирурзи."
+    },
+    "small_capsule": {
+      "english": "5f0b61a35c1143d60e5327d5dfb9040507d57fb1/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "50",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "347957ac5ff17aa35d2e49014f2b683702619560/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "347957ac5ff17aa35d2e49014f2b683702619560/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "7f3c6c74149f72b316deeeb4c1e8cf56d55de968/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "7f3c6c74149f72b316deeeb4c1e8cf56d55de968/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "7f3c6c74149f72b316deeeb4c1e8cf56d55de968/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "50",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "de6f57476da4c34334927deefff5b57a5716e212/library_header.jpg"
+        },
+        "image2x": {
+          "english": "de6f57476da4c34334927deefff5b57a5716e212/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1745301467",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "MEDICALHOLODECK INC."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "MEDICALHOLODECK INC."
+      }
+    },
+    "primary_genre": "54",
+    "genres": {
+      "0": "28",
+      "1": "37",
+      "2": "54",
+      "3": "57"
+    },
+    "category": {
+      "category_52": "1",
+      "category_54": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "arabic": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "bulgarian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "danish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "finnish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "greek": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "indonesian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "dutch": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "norwegian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "polish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "romanian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "swedish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "thai": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "czech": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "turkish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "ukrainian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "hungarian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "vietnamese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "afrikaans": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "albanian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "amharic": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "armenian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "azerbaijani": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "assamese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "basque": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "belarusian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "bangla": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "bosnian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "cherokee": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "dari": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "estonian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "filipino": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "galician": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "georgian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "gujarati": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "hausa": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "hebrew": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "hindi": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "igbo": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "irish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "icelandic": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "kannada": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "kazakh": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "catalan": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "quechua": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "khmer": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "kinyarwanda": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "kyrgyz": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "konkani": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "croatian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "kiche": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "latvian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "lithuanian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "luxembourgish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "malayalam": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "malay": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "maltese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "maori": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "marathi": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "macedonian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "mongolian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "nepali": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "odia": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "gurmukhi": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "shahmukhi": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "persian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "scots": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "serbian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "sindhi": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "sinhala": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "slovak": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "slovenian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "sorani": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "sotho": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "swahili": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tajik": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tamil": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tatar": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "telugu": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tigrinya": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tswana": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "turkmen": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "uyghur": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "urdu": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "uzbek": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "valencian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "welsh": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "wolof": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "yoruba": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "zulu": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "xhosa": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "original_release_date": "1602054000",
+    "steam_release_date": "1512208533",
+    "community_hub_visible": "1",
+    "gameid": "754010",
+    "exfgls": "6",
+    "onlyvrsupport": "1",
+    "store_tags": {
+      "0": "1100688",
+      "1": "1036",
+      "2": "113",
+      "3": "87",
+      "4": "599",
+      "5": "21978",
+      "6": "4191",
+      "7": "3834"
+    },
+    "review_score": "8",
+    "review_percentage": "83"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "MEDICALHOLODECK INC.",
+    "publisher": "MEDICALHOLODECK INC.",
+    "homepage": "https://www.medicalholodeck.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "medicalholodeck",
+    "launch": {
+      "4": {
+        "executable": "Medicalholodeck.exe",
+        "arguments": "--starter Steam",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "754011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2695862057185090939",
+          "size": "699094136",
+          "download": "264070288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168907",
+        "timeupdated": "1759132478"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
