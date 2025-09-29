@@ -1,6 +1,5 @@
 {
   "appid": "4068960",
-  "public_only": "1",
   "common": {
     "name": "Hexachess Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4e48291404fc87108ff22b656b74a91ac09ab940/capsule_231x87.jpg"
     },
@@ -45,5 +44,52 @@
     },
     "gameid": "4068960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tricky Chaos",
+    "publisher": "Tricky Chaos"
+  },
+  "config": {
+    "installdir": "Hexachess Demo",
+    "launch": {
+      "0": {
+        "executable": "Hexachess.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4068961": {
+      "manifests": {
+        "public": {
+          "gid": "1414637894738606708",
+          "size": "2776145740",
+          "download": "2616405040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20178757",
+        "timeupdated": "1759177242"
+      }
+    }
   }
 }
