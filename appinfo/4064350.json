@@ -1,6 +1,5 @@
 {
   "appid": "4064350",
-  "public_only": "1",
   "common": {
     "name": "Tommy and the Monster Prison Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "2977d9a600e6a6bdd71be0c162c023b80dadff09",
     "clienticon": "2977d9a600e6a6bdd71be0c162c023b80dadff09",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6cffad82686553939c399fbcb506788b1abcb4e0/capsule_231x87.jpg"
     },
@@ -40,5 +39,43 @@
     },
     "gameid": "4064350",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Marcelo Tomen Guedes De Morais",
+    "publisher": "mmdevelopers777"
+  },
+  "config": {
+    "installdir": "MMStealthSteamBuild",
+    "launch": {
+      "0": {
+        "executable": "Tommy_and_the_Monster_Prison.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064351": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5017769280510742788",
+          "size": "3208147161",
+          "download": "55830928"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20143218",
+        "timeupdated": "1758893939"
+      }
+    }
   }
 }
