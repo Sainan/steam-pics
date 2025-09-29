@@ -1,6 +1,5 @@
 {
   "appid": "3436030",
-  "public_only": "1",
   "common": {
     "name": "IDLE BOSS RUSH",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "dba54e5e66782dd6409e9e1d0eb3d489348ca47a",
     "clienticon": "baa6f85c53a27a897d9d6ba85fd3984e555c75d0",
     "clienttga": "89fbfc6476f6f42da6a04511be820b75cdb912ff",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e019e14ea82cdcfa4708a0329c3ae544ea2641c6/capsule_231x87.jpg"
@@ -111,9 +110,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759161782",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3436030",
-    "exfgls": "8",
     "store_tags": {
       "0": "379975",
       "1": "615955",
@@ -135,6 +135,48 @@
       "17": "255534",
       "18": "1684",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Irid Games",
+    "publisher": "Irid Games",
+    "homepage": "https://iridgames.com/"
+  },
+  "config": {
+    "installdir": "IDLE BOSS RUSH",
+    "launch": {
+      "0": {
+        "executable": "IDLE BOSS RUSH.exe"
+      }
+    }
+  },
+  "depots": {
+    "3436031": {
+      "manifests": {
+        "public": {
+          "gid": "421709377058819517",
+          "size": "348622127",
+          "download": "226889456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173665",
+        "timeupdated": "1759155250"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "64",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Irid Games/IDLE BOSS RUSH",
+        "pattern": "*.dat"
+      }
     }
   }
 }
