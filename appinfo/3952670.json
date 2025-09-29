@@ -1,6 +1,5 @@
 {
   "appid": "3952670",
-  "public_only": "1",
   "common": {
     "name": "하숙생이 전부 미녀입니다만? 시즌2 Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "a986e8f60a31cff4dbc1e20cc76546e71f9592e2/capsule_231x87_schinese.jpg",
@@ -174,7 +173,90 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3952670",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Storytaco",
+    "publisher": "Storytaco",
+    "homepage": "https://storytaco.com/"
+  },
+  "config": {
+    "installdir": "Five Hearts Under One Roof season2 Demo",
+    "launch": {
+      "0": {
+        "executable": "FHUOR2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3952671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7621121247031083923",
+          "size": "7239539014",
+          "download": "7154229888"
+        }
+      }
+    },
+    "3952672": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "3952673": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20137785",
+        "timeupdated": "1758870053"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "appidredirect": "3731020",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Storytaco/FHUOR2/SteamSaveDir",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Storytaco/FHUOR2/SteamSaveDir",
+            "replace": "Storytaco/FHUOR2/SteamSaveDir"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
+    }
   }
 }
