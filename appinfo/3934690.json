@@ -1,6 +1,5 @@
 {
   "appid": "3934690",
-  "public_only": "1",
   "common": {
     "name": "Fiiish! Classic Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "clienticon": "6d65632d3648ac5216f00b27953ceff8461b62f0",
     "clienttga": "53412338708cac1bc5f56a7f200203e788ba9d99",
     "linuxclienticon": "765e63eebb8ad9ae81eb82203cfaf9e21ae694f6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -108,7 +107,124 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759171145",
     "gameid": "3934690",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Andreas Neukoetter",
+    "publisher": "Andreas Neukoetter",
+    "homepage": "https://games.omnimad.net/games/fiiish-classic"
+  },
+  "config": {
+    "installdir": "Fiiish! Classic Demo",
+    "launch": {
+      "0": {
+        "executable": "fiiish-classic.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "fiiish-classic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "fiiish-classic.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "3": {
+        "executable": "fiiish-classic.app",
+        "arguments": "--kidsmodedisable",
+        "type": "option1",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Disable KidsMode"
+        },
+        "description": "Disable KidsMode"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3575146012": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,development",
+        "use_action_block": "false"
+      },
+      "3577118239": {
+        "controller_type": "controller_generic",
+        "enabled_branches": "default,development",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "3934691": {},
+    "3934692": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2098599722537171411",
+          "size": "255602574",
+          "download": "114959664"
+        }
+      }
+    },
+    "3934693": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1238898567089061432",
+          "size": "159120703",
+          "download": "89298336"
+        }
+      }
+    },
+    "3934694": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "742819626513998140",
+          "size": "134822670",
+          "download": "83559232"
+        }
+      }
+    },
+    "3934695": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20177546",
+        "timeupdated": "1759171035"
+      }
+    },
+    "privatebranches": "1"
   }
 }
