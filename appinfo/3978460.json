@@ -1,6 +1,5 @@
 {
   "appid": "3978460",
-  "public_only": "1",
   "common": {
     "name": "ONLYUP SNOW",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5fc6c220fcd84708430805456ad20c89a8a61e74/capsule_231x87.jpg"
@@ -115,9 +114,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759136724",
     "community_hub_visible": "1",
     "gameid": "3978460",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "4036",
@@ -139,6 +138,52 @@
       "17": "1695",
       "18": "7208",
       "19": "5537"
+    }
+  },
+  "extended": {
+    "developer": "Gever Games",
+    "publisher": "Gever Games"
+  },
+  "config": {
+    "installdir": "OnlyUpSnow",
+    "launch": {
+      "0": {
+        "executable": "OnlyUpSnow.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3978461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8294794104571366140",
+          "size": "5429301873",
+          "download": "5169287456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20090239",
+        "timeupdated": "1758617725"
+      }
     }
   }
 }
