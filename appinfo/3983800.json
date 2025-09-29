@@ -1,10 +1,9 @@
 {
   "appid": "3983800",
-  "public_only": "1",
   "common": {
     "name": "Runner Frog",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759152272",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3983800",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "21",
@@ -126,6 +126,43 @@
       "8": "5379",
       "9": "3871",
       "10": "6730"
+    }
+  },
+  "extended": {
+    "developer": "Marlon D'avila",
+    "publisher": "marlonluisd"
+  },
+  "config": {
+    "installdir": "Runner Frog",
+    "launch": {
+      "0": {
+        "executable": "Runner Frog.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3983801": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "847471245839279133",
+          "size": "119581634",
+          "download": "45847536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173033",
+        "timeupdated": "1759151518"
+      }
     }
   }
 }
