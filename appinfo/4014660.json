@@ -1,6 +1,5 @@
 {
   "appid": "4014660",
-  "public_only": "1",
   "common": {
     "name": "Last Patrol Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -99,6 +98,41 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Buzzsaw Dreams",
+    "publisher": "Buzzsaw Dreams"
+  },
+  "config": {
+    "installdir": "Last Patrol Demo",
+    "launch": {
+      "0": {
+        "executable": "lastpatroldemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4014661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2603779697386230669",
+          "size": "1542430322",
+          "download": "992647504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20157002",
+        "timeupdated": "1759001944"
+      }
     }
   }
 }
