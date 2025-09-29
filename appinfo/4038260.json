@@ -1,6 +1,5 @@
 {
   "appid": "4038260",
-  "public_only": "1",
   "common": {
     "name": "NO MORE WORK FOR ITO Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -114,10 +113,137 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4038260",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Poética Software",
+    "publisher": "Poética Software"
+  },
+  "config": {
+    "installdir": "NO MORE WORK FOR ITO Demo",
+    "launch": {
+      "0": {
+        "executable": "NO_MORE_WORK_FOR_ITO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "Contents\\MacOS\\NO_MORE_WORK_FOR_ITO",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "NO_MORE_WORK_FOR_ITO.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4038261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4169292321998446758",
+          "size": "172361094",
+          "download": "91714352"
+        },
+        "linux": {
+          "gid": "2364964237420194241",
+          "size": "165269239",
+          "download": "91164352"
+        },
+        "macos": {
+          "gid": "2364964237420194241",
+          "size": "165269239",
+          "download": "91164352"
+        }
+      }
+    },
+    "4038262": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4642142972993511555",
+          "size": "195089730",
+          "download": "99552496"
+        },
+        "linux": {
+          "gid": "5141314439459963082",
+          "size": "189325680",
+          "download": "99815040"
+        },
+        "macos": {
+          "gid": "5131787814856018699",
+          "size": "194549285",
+          "download": "99318592"
+        }
+      }
+    },
+    "4038263": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4310516089652158032",
+          "size": "162121637",
+          "download": "87814352"
+        },
+        "linux": {
+          "gid": "4555347566829675779",
+          "size": "161613646",
+          "download": "87366640"
+        },
+        "macos": {
+          "gid": "1783470334468832016",
+          "size": "155286633",
+          "download": "87261520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20169334",
+        "timeupdated": "1759134043"
+      },
+      "linux": {
+        "buildid": "20075633",
+        "description": "linux public branch",
+        "timeupdated": "1758541693"
+      },
+      "macos": {
+        "buildid": "20078126",
+        "description": "macos public branch",
+        "timeupdated": "1758552881"
+      }
     }
   }
 }
