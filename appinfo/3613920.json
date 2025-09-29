@@ -1,6 +1,5 @@
 {
   "appid": "3613920",
-  "public_only": "1",
   "common": {
     "name": "Prism of You",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticon": "49445a4268bb703611f3e688d9d4754ac4dc1c21",
     "clienticns": "49445a4268bb703611f3e688d9d4754ac4dc1c21",
     "linuxclienticon": "49445a4268bb703611f3e688d9d4754ac4dc1c21",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
@@ -102,6 +101,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3613920",
     "exfgls": "3",
@@ -124,6 +124,61 @@
       "15": "6869",
       "16": "12472",
       "17": "15277"
+    }
+  },
+  "extended": {
+    "developer": "Metanoia",
+    "publisher": "Metanoia",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Prism of You",
+    "launch": {
+      "0": {
+        "executable": "Prism of You\\PrismOfYou.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "pofu.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3613921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4421921013032441140",
+          "size": "1086220120",
+          "download": "410858112"
+        }
+      }
+    },
+    "3613922": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4191980981917879314",
+          "size": "1083416956",
+          "download": "410312736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20086661",
+        "timeupdated": "1758595637"
+      }
     }
   }
 }
