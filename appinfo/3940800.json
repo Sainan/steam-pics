@@ -1,13 +1,12 @@
 {
   "appid": "3940800",
-  "public_only": "1",
   "common": {
     "name": "Space Vomit",
     "type": "Game",
     "icon": "5b9825af82f307470b8cad390f9082e3e1ea0c6e",
     "clienticon": "99c0961622af64e3738515ec8697a499de25effa",
     "clienttga": "e2c39184c25d6901619e836b65d92db0098846b9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -101,9 +100,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3940800",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -123,8 +122,46 @@
       "15": "4026",
       "16": "1755",
       "17": "5125",
-      "18": "1759",
-      "19": "3964"
+      "18": "4195",
+      "19": "4726"
+    }
+  },
+  "extended": {
+    "developer": "TENTACLES INTERACTIVE",
+    "publisher": "TENTACLES INTERACTIVE"
+  },
+  "config": {
+    "installdir": "Space Vomit",
+    "launch": {
+      "0": {
+        "executable": "SpaceVomit.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play"
+        },
+        "description": "Play"
+      }
+    }
+  },
+  "depots": {
+    "3940801": {
+      "manifests": {
+        "public": {
+          "gid": "4067940717951958396",
+          "size": "194024562",
+          "download": "113572080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20062549",
+        "timeupdated": "1758410204"
+      }
     }
   }
 }
