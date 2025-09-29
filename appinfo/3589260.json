@@ -228,5 +228,26 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.kep"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.bmp"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.ksd"
+      }
+    }
   }
 }
