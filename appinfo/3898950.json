@@ -1,6 +1,5 @@
 {
   "appid": "3898950",
-  "public_only": "1",
   "common": {
     "name": "Keys of Fury Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "26e99fb639747260d5cb930cacf18c0fd69434c4/capsule_231x87.jpg"
@@ -47,7 +46,43 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3898950",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Elecorn",
+    "publisher": "Elecorn",
+    "homepage": "http://www.keysoffury.com"
+  },
+  "config": {
+    "installdir": "Keys of Fury Demo",
+    "launch": {
+      "0": {
+        "executable": "keysoffury.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3898951": {
+      "manifests": {
+        "public": {
+          "gid": "3248792001029575376",
+          "size": "49644288",
+          "download": "37395904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20112841",
+        "timeupdated": "1758734085"
+      }
+    },
+    "privatebranches": "1"
   }
 }
