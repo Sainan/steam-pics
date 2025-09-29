@@ -1,13 +1,12 @@
 {
   "appid": "4013770",
-  "public_only": "1",
   "common": {
     "name": "GrowBud Demo",
     "type": "Demo",
     "parent": "3923900",
     "clienticon": "99f76a86eb0ced30831a7417f7b328b40bb9c3f2",
     "icon": "57b0be6a59fa58853c807ca4062d7c3aaca76336",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -120,10 +119,94 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759150306",
     "gameid": "4013770",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Make Games Play",
+    "publisher": "Make Games Play",
+    "homepage": "https://makegamesplay.games/growbud.html"
+  },
+  "config": {
+    "installdir": "GrowBud Demo",
+    "launch": {
+      "0": {
+        "executable": "GrowBud Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GrowBud_Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4013771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4352742679661766667",
+          "size": "319151607",
+          "download": "158664496"
+        }
+      }
+    },
+    "4013772": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5173730829918830935",
+          "size": "486778112",
+          "download": "197944976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20165050",
+        "timeupdated": "1759099097"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3923900",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MakeGamesPlay/GrowBud Demo/{64BitSteamID}",
+        "pattern": "*.gb"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "MakeGamesPlay/GrowBud Demo/{64BitSteamID}",
+            "replace": "com.MakeGamesPlay.GrowBud-Demo/{64BitSteamID}"
+          }
+        }
+      }
     }
   }
 }
