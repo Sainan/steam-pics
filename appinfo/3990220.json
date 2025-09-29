@@ -1,11 +1,10 @@
 {
   "appid": "3990220",
-  "public_only": "1",
   "common": {
     "name": "Citizen Pain Demo",
     "type": "Demo",
     "parent": "3752240",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -97,11 +96,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3990220",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Alessandro Capriolo",
+    "publisher": "Alessandro Capriolo"
+  },
+  "config": {
+    "installdir": "Citizen Pain Demo",
+    "launch": {
+      "0": {
+        "executable": "CitizenPainDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3990221": {
+      "manifests": {
+        "public": {
+          "gid": "5253221474607916",
+          "size": "22614311511",
+          "download": "21660143232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20068220",
+        "timeupdated": "1758486849"
+      }
+    },
+    "privatebranches": "1"
   }
 }
