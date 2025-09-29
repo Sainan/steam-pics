@@ -1,4 +1,152 @@
 {
   "appid": "4049530",
-  "public_only": "1"
+  "common": {
+    "name": "Castlesage Pre-Alpha",
+    "type": "Beta",
+    "parent": "4049160",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "3029cd7b04817340dab79ef42750273f2939e3ea",
+    "icon": "3029cd7b04817340dab79ef42750273f2939e3ea",
+    "linuxclienticon": "d781cb0832ca514400348d4cd8f4ebd728d8b085",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "8f442128dd5b796987e08961fe1c983c5c8984af/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "c51395d5063a54124e0928b6ae5adee748c8c990/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "15.983747815396455",
+        "height_pct": "31.918723411010973"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "06fe930369123c45160106d5162192754141a65d/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "06fe930369123c45160106d5162192754141a65d/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "7cfe00d58f7be77fdf2c17244cf7de92a7318d91/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "7cfe00d58f7be77fdf2c17244cf7de92a7318d91/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "7cfe00d58f7be77fdf2c17244cf7de92a7318d91/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "4990130e82dc117192f4a193fe02139215c159f7/logo.png"
+        },
+        "image2x": {
+          "english": "4990130e82dc117192f4a193fe02139215c159f7/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "15.983747815396455",
+          "height_pct": "31.918723411010973"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "c51395d5063a54124e0928b6ae5adee748c8c990/library_header.jpg"
+        },
+        "image2x": {
+          "english": "c51395d5063a54124e0928b6ae5adee748c8c990/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758839592",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1759142958",
+    "community_hub_visible": "1",
+    "gameid": "4049530",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Castlesage Pre-Alpha",
+    "launch": {
+      "0": {
+        "executable": "Castlesage.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Castlesage.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4049532": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6571608305544693640",
+          "size": "96898728",
+          "download": "31510848"
+        },
+        "local": {
+          "gid": "8608350873894446985",
+          "size": "96898728",
+          "download": "31510848"
+        }
+      }
+    },
+    "4049533": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3047527436482317204",
+          "size": "70522808",
+          "download": "24787264"
+        },
+        "local": {
+          "gid": "8418865873055651808",
+          "size": "70522808",
+          "download": "24787264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20066880",
+        "timeupdated": "1758472370"
+      },
+      "local": {
+        "buildid": "20066800",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758471779"
+      }
+    }
+  }
 }
