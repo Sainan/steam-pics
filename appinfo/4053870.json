@@ -1,6 +1,5 @@
 {
   "appid": "4053870",
-  "public_only": "1",
   "common": {
     "name": "Holy Justice: Galaxy Outcast Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4eba4f5e0a273c30ccde6ec4391efd94ca984bd1/capsule_231x87.jpg"
@@ -112,7 +111,66 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759183326",
     "gameid": "4053870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BigButton Co Sp.z o.o.",
+    "publisher": "BigButton Co Sp.z o.o.",
+    "homepage": "https://www.bigbutton.co/holy-justice-galaxy-outcast"
+  },
+  "config": {
+    "installdir": "Holy Justice Galaxy Outcast Demo",
+    "launch": {
+      "0": {
+        "executable": "Holy Justice - Galaxy Outcast - Demo/HolyJusticeGalaxyOutcastDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Holy Justice - Galaxy Outcast - Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4053872": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6098189045311124922",
+          "size": "222827655",
+          "download": "166346064"
+        }
+      }
+    },
+    "4053873": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9213745186483198370",
+          "size": "184311220",
+          "download": "157459232"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,russian,portuguese,polish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20179242",
+        "timeupdated": "1759180069"
+      }
+    }
   }
 }
