@@ -1,10 +1,9 @@
 {
   "appid": "3446270",
-  "public_only": "1",
   "common": {
     "name": "波粒狂潮",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "3c60dad7cd45161e451a9fbffbe8d78380afe681",
     "clienticns": "714bf13cc869341dec5be0f90c96abfc7639fcda",
     "linuxclienticon": "a3d2395cfd59d4543cba9340d55162e917e27d09",
@@ -104,6 +103,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -118,7 +118,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3446270",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "122",
@@ -134,6 +133,55 @@
       "11": "3993",
       "12": "4182",
       "13": "492"
+    }
+  },
+  "extended": {
+    "developer": "BoLi GAME",
+    "publisher": "BoLi GAME"
+  },
+  "config": {
+    "installdir": "Bolikuangchao",
+    "launch": {
+      "0": {
+        "executable": "Bolikuangchao/Bolikuangchao.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3446271": {
+      "manifests": {
+        "public": {
+          "gid": "1076727923415211242",
+          "size": "1139442724",
+          "download": "256171248"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20120071",
+        "timeupdated": "1758778488"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Boliniao/Bolikuangchao",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
