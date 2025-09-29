@@ -1,6 +1,5 @@
 {
   "appid": "3978450",
-  "public_only": "1",
   "common": {
     "name": "Ooble Gardens Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "76e4b708b69d21ac00c511f8e91b4e4bd8fb9b6e",
     "clienticon": "ff96676c147c7653a3ca2b4b8e66054f2649bb42",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -106,5 +105,42 @@
     },
     "gameid": "3978450",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nova Games",
+    "publisher": "Nova Games"
+  },
+  "config": {
+    "installdir": "Ooble Gardens Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "7",
+    "launch": {
+      "0": {
+        "executable": "Ooble Gardens.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3978451": {
+      "manifests": {
+        "public": {
+          "gid": "7941132856245578260",
+          "size": "737656345",
+          "download": "98054480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168791",
+        "timeupdated": "1759131378"
+      }
+    }
   }
 }
