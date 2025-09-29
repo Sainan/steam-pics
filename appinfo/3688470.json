@@ -1,10 +1,9 @@
 {
   "appid": "3688470",
-  "public_only": "1",
   "common": {
     "name": "To You, the Evil Spirit",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ac2e33394f5bb4b0f2c1bb17e5f727baba280d8c",
     "clienticon": "49d5eac0bec59e8b7a2450ffe17a2a27e5a0a7e1",
     "clienttga": "10af26bec172f052356dbee25674492c20854074",
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1754646832",
+    "store_asset_mtime": "1759117870",
     "associations": {
       "0": {
         "type": "developer",
@@ -112,9 +111,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759117931",
     "community_hub_visible": "1",
     "gameid": "3688470",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -138,5 +137,69 @@
       "15": "4064",
       "16": "5984"
     }
+  },
+  "extended": {
+    "developer": "黑兔",
+    "publisher": "黑兔"
+  },
+  "config": {
+    "installdir": "To You, the Evil Spirit",
+    "launch": {
+      "0": {
+        "executable": "WebGAL.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "启动应用程序",
+          "schinese": "启动应用程序"
+        },
+        "description": "启动应用程序"
+      }
+    }
+  },
+  "depots": {
+    "3688471": {
+      "manifests": {
+        "public": {
+          "gid": "7717256585793558982",
+          "size": "1261070594",
+          "download": "1049701824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19652463",
+        "timeupdated": "1758434152"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "MyGame/Saves",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "SteamCloudDocuments",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "SteamCloudDocuments",
+        "addpath": ""
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
