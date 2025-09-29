@@ -1,6 +1,5 @@
 {
   "appid": "2873030",
-  "public_only": "1",
   "common": {
     "name": "How to lose one's virginity Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "clienttga": "7779d70def8f8c2329c858fd9bd76a741eb11434",
     "clienticns": "5d9662063d71a975ad75aae13dd201b2da4a6f2a",
     "clienticon": "5eb7153a8d9b74d492424ee1ffd48e6f2e7ca1d0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -104,6 +103,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759122245",
     "gameid": "2873030",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -111,6 +111,53 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "VisualPointG",
+    "publisher": "VisualPointG"
+  },
+  "config": {
+    "installdir": "How to lose ones virginity",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "game.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "game.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2873031": {
+      "manifests": {
+        "public": {
+          "gid": "2116611349743313575",
+          "size": "3487726726",
+          "download": "3263607088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20161759",
+        "timeupdated": "1759064212"
+      }
     }
   }
 }
