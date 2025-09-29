@@ -1,11 +1,10 @@
 {
   "appid": "3998780",
-  "public_only": "1",
   "common": {
     "name": "Angel's love Demo",
     "type": "Demo",
     "parent": "3863000",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "21bd9ede39f87675df64df81230542dcf43bca5a",
     "linuxclienticon": "870f4585cb6ca05e23e283b02539ba77c8d70cb2",
     "clienticns": "e8c97388def55d5c4e0f59225b65354bcdb143e0",
@@ -239,6 +238,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759122086",
     "gameid": "3998780",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -246,6 +246,55 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "Gpoint",
+    "publisher": "Gpoint",
+    "homepage": "https://gpoint.zone/"
+  },
+  "config": {
+    "installdir": "Angels love Demo",
+    "launch": {
+      "0": {
+        "executable": "Angelslove.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Angelslove.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Angelslove.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3998781": {
+      "manifests": {
+        "public": {
+          "gid": "3791836169864638582",
+          "size": "2046555803",
+          "download": "1874490752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20009198",
+        "timeupdated": "1758079450"
+      }
     }
   }
 }
