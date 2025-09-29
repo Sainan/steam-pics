@@ -1,0 +1,153 @@
+{
+  "appid": "3249870",
+  "common": {
+    "name": "Project SJHG Demo",
+    "type": "Demo",
+    "parent": "3231920",
+    "eulas": {
+      "0": {
+        "id": "3249870_eula_0",
+        "name": "프로젝트 산중호걸 Demo EULA",
+        "url": "https://store.steampowered.com//eula/3249870_eula_0",
+        "version": "1"
+      }
+    },
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "14c3a8e295dabc571dec13f25ea51c2d10fe063b",
+    "clienttga": "3e3f580e9a4e02ee5b2466b6334eb622f8cd6add",
+    "icon": "6cfffdd999bb8a4a15bdb2adfb1ca60d20fec0dc",
+    "releasestate": "released",
+    "name_localized": {
+      "koreana": "프로젝트 산중호걸 Demo"
+    },
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "99302234e27f1ba159e6d8892312abb9ac6349d5/capsule_231x87.jpg",
+      "koreana": "57279a1f8400db9f8e7c982603bcedcb37b4215d/capsule_231x87_koreana.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg",
+      "koreana": "header_koreana.jpg"
+    },
+    "store_screenshot": "ss_73fb0d3a9d0515cc8bebbe5a7d0996466586189e.jpg",
+    "store_asset_mtime": "1729248650",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "벽광"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "벽광"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1729667458",
+    "gameid": "3249870",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "벽광",
+    "publisher": "벽광"
+  },
+  "config": {
+    "installdir": "ProjectSJHG_DEMO",
+    "launch": {
+      "0": {
+        "executable": "SoulLike.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch using DX12. A graphics card that supports DX12 is required.",
+          "koreana": "DX12를 사용해서 실행합니다."
+        },
+        "description": "Launch using DX12. A graphics card that supports DX12 is required."
+      },
+      "1": {
+        "executable": "SoulLike.exe",
+        "arguments": "-vulkan",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch using Vulkan. It uses a bit more memory",
+          "koreana": "불칸을 이용해서 실행합니다. 비디오 메모리를 좀 더 사용합니다."
+        },
+        "description": "Launch using Vulkan. It uses a bit more memory"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3249871": {
+      "manifests": {
+        "public": {
+          "gid": "7955132641790163216",
+          "size": "4873565234",
+          "download": "4160008656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20167700",
+        "timeupdated": "1759123569"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "3231920",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}
