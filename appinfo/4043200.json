@@ -1,6 +1,5 @@
 {
   "appid": "4043200",
-  "public_only": "1",
   "common": {
     "name": "Defective Sectors Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "33d33d597b11f1b75697a9ac5954a57d44d34a37/capsule_231x87.jpg"
@@ -49,7 +48,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4043200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Beacon Trapdoor Studios",
+    "publisher": "Beacon Trapdoor Studios"
+  },
+  "config": {
+    "installdir": "Windows",
+    "launch": {
+      "0": {
+        "executable": "DefectiveSectors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4043201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2443846632015619839",
+          "size": "12691856976",
+          "download": "12313057248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168018",
+        "timeupdated": "1759125898"
+      }
+    }
   }
 }
