@@ -1,6 +1,5 @@
 {
   "appid": "4050890",
-  "public_only": "1",
   "common": {
     "name": "Jam's Adjustable Mirrors Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macosapplesilicon",
     "clienticon": "34fa45ec6f9bc5d4f26505a6892e70a06ba80794",
     "icon": "34fa45ec6f9bc5d4f26505a6892e70a06ba80794",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e47f17c7193d496418b7791e7109772b5da342f/capsule_231x87.jpg"
     },
@@ -36,7 +35,63 @@
       "category_74": "1",
       "category_75": "1"
     },
+    "steam_release_date": "1759215600",
     "gameid": "4050890",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lycoris Studio Ltd.",
+    "publisher": "Lycoris Studio Ltd."
+  },
+  "config": {
+    "installdir": "Jam's Adjustable Mirrors Demo",
+    "launch": {
+      "0": {
+        "executable": "GameJam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GameJam.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4050891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5130217776353069572",
+          "size": "182042070",
+          "download": "79505152"
+        }
+      }
+    },
+    "4050892": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3554229512185043008",
+          "size": "147833898",
+          "download": "60902480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20177543",
+        "timeupdated": "1759170679"
+      }
+    }
   }
 }
