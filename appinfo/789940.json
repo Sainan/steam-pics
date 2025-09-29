@@ -1,10 +1,9 @@
 {
   "appid": "789940",
-  "public_only": "1",
   "common": {
     "name": "UNYIELDER",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -141,9 +140,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759168582",
     "community_hub_visible": "1",
     "gameid": "789940",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -170,5 +169,63 @@
       "18": "6730",
       "19": "4166"
     }
+  },
+  "extended": {
+    "developer": "TrueWorld Studios",
+    "publisher": "SHUEISHA GAMES",
+    "homepage": "https://shueisha-games.com/en/games/unyielder/"
+  },
+  "config": {
+    "installdir": "Unyielder",
+    "launch": {
+      "0": {
+        "executable": "G2A.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "789942": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6858809842933412692",
+          "size": "14670406379",
+          "download": "14217628896"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20120338",
+        "timeupdated": "1759119598"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1"
   }
 }
