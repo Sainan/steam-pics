@@ -1,10 +1,9 @@
 {
   "appid": "2791540",
-  "public_only": "1",
   "common": {
     "name": "Astro Felix",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "4e842e643ce3549ecc3a524bd28d0d03d155efca",
     "clienticon": "1ef1f927bece4364a8ca1b93e568c29c4d0ffd51",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
@@ -107,6 +106,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2791540",
     "exfgls": "3",
@@ -123,6 +123,48 @@
       "9": "113",
       "10": "4747",
       "11": "7481"
+    }
+  },
+  "extended": {
+    "developer": "SanForge Studio",
+    "publisher": "SanForge Studio",
+    "homepage": "https://www.sanforgestudio.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Astro Felix",
+    "launch": {
+      "0": {
+        "executable": "Astro Felix.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2791542": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8596026747848121021",
+          "size": "151300413",
+          "download": "45035024"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19220267",
+        "timeupdated": "1752519323"
+      }
     }
   }
 }
