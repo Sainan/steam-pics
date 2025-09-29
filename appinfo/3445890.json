@@ -1,10 +1,9 @@
 {
   "appid": "3445890",
-  "public_only": "1",
   "common": {
     "name": "Light 'Em",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ab895ad070064b9bea0c766cd58be34980269236",
     "clienticon": "c3d8f598d6eac263bc882f2ccd64d20b8f308f55",
     "clienttga": "82599505ec69f025a004cdf5e319cbcd6395dfbf",
@@ -102,9 +101,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759132938",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3445890",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "379975",
@@ -118,6 +118,77 @@
       "9": "255534",
       "10": "8945",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Mina Pêcheux",
+    "publisher": "Mina Pêcheux"
+  },
+  "config": {
+    "installdir": "Light Em",
+    "launch": {
+      "0": {
+        "executable": "Light Em.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Light 'Em.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Light Em.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3445891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8383595191027740589",
+          "size": "113493224",
+          "download": "53102208"
+        }
+      }
+    },
+    "3445892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7302221001613086956",
+          "size": "187045044",
+          "download": "72490528"
+        }
+      }
+    },
+    "3445893": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6919700546261151884",
+          "size": "97119888",
+          "download": "47834112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20092764",
+        "timeupdated": "1758629264"
+      }
     }
   }
 }
