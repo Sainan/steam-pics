@@ -1,6 +1,5 @@
 {
   "appid": "3661160",
-  "public_only": "1",
   "common": {
     "name": "Darkest Descent",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "icon": "e4f866cc62a2dcf47f0de18589a2c0cf872a8fac",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -113,9 +112,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759143710",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3661160",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -141,5 +141,48 @@
       "18": "492",
       "19": "493"
     }
+  },
+  "extended": {
+    "developer": "camphii_",
+    "publisher": "camphii_"
+  },
+  "config": {
+    "installdir": "Darkest Descent",
+    "launch": {
+      "0": {
+        "executable": "DarkestDescent.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3661161": {
+      "manifests": {
+        "public": {
+          "gid": "8032368213865139981",
+          "size": "249235927",
+          "download": "84559760"
+        },
+        "live-beta": {
+          "gid": "3382079849944047102",
+          "size": "248038261",
+          "download": "83518000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20171424",
+        "timeupdated": "1759143644"
+      },
+      "live-beta": {
+        "buildid": "19427800",
+        "description": "live beta testing branch",
+        "timeupdated": "1753958785"
+      }
+    },
+    "privatebranches": "1"
   }
 }
