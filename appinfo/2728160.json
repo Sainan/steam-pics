@@ -1,0 +1,129 @@
+{
+  "appid": "2728160",
+  "common": {
+    "name": "ContainPlaytest",
+    "type": "Beta",
+    "parent": "2186700",
+    "icon": "853ac64a6e69e194ad19204f45f4ae63a19aa9af",
+    "clienttga": "92b20fd6077dd592f56517b3be32c88b0b65634c",
+    "clienticon": "df30b8c5de5b385018d972752f1805ac498fc31a",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1702034643",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1752313294",
+    "community_hub_visible": "1",
+    "gameid": "2728160",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Contain Playtest",
+    "launch": {
+      "0": {
+        "executable": "Contain_02.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default DirectX 12"
+        },
+        "description": "Default DirectX 12"
+      },
+      "1": {
+        "executable": "Contain_02.exe",
+        "arguments": "-dx11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "description": "DirectX 11"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2728161": {
+      "manifests": {
+        "public": {
+          "gid": "6727996535862514178",
+          "size": "28440818402",
+          "download": "27853465136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20169488",
+        "timeupdated": "1759136347"
+      }
+    }
+  }
+}
