@@ -1,13 +1,12 @@
 {
   "appid": "3852000",
-  "public_only": "1",
   "common": {
     "name": "RedLantern | 赤提灯",
     "type": "Game",
     "icon": "3781c7d9b25bcaf22c6c4509160c9cc3c1f24442",
     "clienticon": "284c631cb5d059ec760bc358d4e40091b1400c0c",
     "clienttga": "32cca011355e7f5b9561e0bc6a878fabc9b3e730",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -120,9 +119,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759167307",
     "community_hub_visible": "1",
     "gameid": "3852000",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -147,6 +146,68 @@
       "17": "5228",
       "18": "4004",
       "19": "9803"
+    }
+  },
+  "extended": {
+    "developer": "KIKI",
+    "publisher": "KM Studios",
+    "homepage": "https://x.com/TheKM_Studios"
+  },
+  "config": {
+    "installdir": "RedLantern",
+    "launch": {
+      "0": {
+        "executable": "Hokkaido_Incident.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3852001": {
+      "manifests": {
+        "public": {
+          "gid": "176239862815336067",
+          "size": "5821576413",
+          "download": "5380810432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20176849",
+        "timeupdated": "1759167141"
+      }
     }
   }
 }
