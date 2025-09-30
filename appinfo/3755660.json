@@ -1,6 +1,5 @@
 {
   "appid": "3755660",
-  "public_only": "1",
   "common": {
     "name": "六六大作战 试玩版",
     "type": "Demo",
@@ -16,7 +15,7 @@
     "osextended": "",
     "clienticon": "282294994a3586d65325a5926a682451badeb57c",
     "clienttga": "73b3f489d4a65c6f2ff498097ad699d8cbfca314",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "tchinese": "c7cdf88b3e5037b209e5731d651b67df4622dd78/capsule_231x87_tchinese.jpg",
@@ -143,7 +142,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3755660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CorvusCorax Studio",
+    "publisher": "CorvusCorax Studio"
+  },
+  "config": {
+    "installdir": "CZ Wars Demo",
+    "launch": {
+      "0": {
+        "executable": "CZWars_Demo_Final.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3755661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5623745953640238729",
+          "size": "358220031",
+          "download": "113815904"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20192399",
+        "timeupdated": "1759248577"
+      }
+    }
   }
 }
