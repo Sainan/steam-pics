@@ -1,4 +1,113 @@
 {
   "appid": "4056830",
-  "public_only": "1"
+  "common": {
+    "name": "romance.exe DEMO",
+    "type": "Demo",
+    "parent": "3354190",
+    "icon": "f6fd8f6095171cea11817c1977ddfc2d68c15179",
+    "clienticon": "f6fd8f6095171cea11817c1977ddfc2d68c15179",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "1",
+      "1": "3",
+      "2": "4",
+      "3": "5"
+    },
+    "restricted_countries": "CN,DE,SA",
+    "aicontenttype": "1",
+    "small_capsule": {
+      "english": "1106eda7874b5c9d4e024b82cbfb97a37f16def2/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "12907a4f6ab0e8cb1fb26b6179985a0c268e766e/header.jpg"
+    },
+    "store_asset_mtime": "1758615249",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": " Lesson of Passion"
+      },
+      "1": {
+        "type": "publisher",
+        "name": " Lesson of Passion"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_65": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_79": "1"
+    },
+    "gameid": "4056830",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "3",
+      "2": "4",
+      "3": "5"
+    }
+  },
+  "extended": {
+    "developer": " Lesson of Passion",
+    "publisher": " Lesson of Passion"
+  },
+  "config": {
+    "installdir": "romance.exe Demo",
+    "launch": {
+      "0": {
+        "executable": "romance.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "romance.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "romance.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4056831": {
+      "manifests": {
+        "public": {
+          "gid": "3287621494424737946",
+          "size": "1447163138",
+          "download": "1312199888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20162118",
+        "timeupdated": "1759068093"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*.save"
+      }
+    }
+  }
 }
