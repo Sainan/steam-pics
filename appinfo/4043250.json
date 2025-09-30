@@ -1,6 +1,5 @@
 {
   "appid": "4043250",
-  "public_only": "1",
   "common": {
     "name": "Campanion Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -106,5 +105,55 @@
     },
     "gameid": "4043250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hidden Toggle",
+    "publisher": "Hidden Toggle"
+  },
+  "config": {
+    "installdir": "Campanion Demo",
+    "launch": {
+      "0": {
+        "executable": "Campanion.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4043251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "740538648514449439",
+          "size": "1346329224",
+          "download": "1013375840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20143165",
+        "timeupdated": "1758893764"
+      }
+    }
   }
 }
