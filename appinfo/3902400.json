@@ -1,6 +1,5 @@
 {
   "appid": "3902400",
-  "public_only": "1",
   "common": {
     "name": "風之國度Online",
     "type": "Game",
@@ -13,7 +12,7 @@
     "icon": "d2b1c678eabee6d8bb5ba9f0e818c490c7ae2a86",
     "clienttga": "6188925ee42e1a350e234894147ab6c664264dca",
     "clienticon": "b1d98c8f6afae1c1f1e03150c171c239b5734174",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "tchinese": "360d0a3f032c618e1f199a6382937864a880a038/capsule_231x87_tchinese.jpg",
@@ -126,6 +125,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3902400",
     "exfgls": "3",
@@ -150,6 +150,42 @@
       "17": "1695",
       "18": "1685",
       "19": "3843"
+    }
+  },
+  "extended": {
+    "developer": "X-Legend Entertainment Co., Ltd.",
+    "publisher": "X-Legend Entertainment Co., Ltd.",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "TalesofWindOnline",
+    "launch": {
+      "0": {
+        "executable": "Launcher.exe",
+        "arguments": "-steam",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3902401": {
+      "manifests": {
+        "public": {
+          "gid": "5121160999920224201",
+          "size": "4828014959",
+          "download": "4475958096"
+        }
+      }
+    },
+    "baselanguages": "schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20151106",
+        "timeupdated": "1758940794"
+      }
     }
   }
 }
