@@ -1,6 +1,5 @@
 {
   "appid": "4038200",
-  "public_only": "1",
   "common": {
     "name": "Raccoons to Riches Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "391711f9cbffcb5958be318caffe58e87e1130de",
     "icon": "391711f9cbffcb5958be318caffe58e87e1130de",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce4cea810c7dc964fd9e87cbbb2b04faa6a71aa2/capsule_231x87.jpg"
     },
@@ -40,5 +39,43 @@
     },
     "gameid": "4038200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Secret Scroll Software",
+    "publisher": "Secret Scroll Software"
+  },
+  "config": {
+    "installdir": "Raccoons to Riches Demo",
+    "launch": {
+      "0": {
+        "executable": "Raccoons to Riches DEMO.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Raccoons_to_riches_DEMO.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4038201": {
+      "manifests": {
+        "public": {
+          "gid": "5140626305415623664",
+          "size": "365682488",
+          "download": "149950016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20192787",
+        "timeupdated": "1759250095"
+      }
+    }
   }
 }
