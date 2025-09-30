@@ -1,0 +1,190 @@
+{
+  "appid": "3328360",
+  "common": {
+    "name": "Contract of Swarm Hunter Demo",
+    "type": "Demo",
+    "parent": "3270580",
+    "name_localized": {
+      "english": "Contract of Swarm Hunter Demo",
+      "schinese": "猎虫者契约 Demo",
+      "tchinese": "獵蟲者契約 Demo",
+      "japanese": "虫狩り者の契約 Demo",
+      "koreana": "벌레 사냥꾼의 계약 Demo",
+      "russian": "Контракт охотника на зверей Demo",
+      "spanish": "Contrato del Cazador de Bestias Demo"
+    },
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "f748a6360bb57fd2085515d4a8bb45d930223d48",
+    "clienttga": "f2c260a0ef2bb745b64063aa5c187042fc14aec5",
+    "clienticon": "f09fe955a78f274ac89c8883c2fcd4741dcee1e1",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "165f9378eb70d01975a4fc940652f317b54c6e67/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "b57aa30988511086d9fc8a32b264bc477c7aabc0/header.jpg"
+    },
+    "library_assets": {
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_hero": {
+        "image2x": {
+          "english": "dd78d2bae039a059bf18154610ed27e460cb35c6/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "dd78d2bae039a059bf18154610ed27e460cb35c6/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "dd78d2bae039a059bf18154610ed27e460cb35c6/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "e54ff1fa60dd47b966367d7835e9b721bec69b69/logo.png"
+        },
+        "image2x": {
+          "english": "e54ff1fa60dd47b966367d7835e9b721bec69b69/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "b57aa30988511086d9fc8a32b264bc477c7aabc0/library_header.jpg"
+        },
+        "image2x": {
+          "english": "b57aa30988511086d9fc8a32b264bc477c7aabc0/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1749912927",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "ZYI Game"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "ZYI Game"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "1",
+      "1": "4",
+      "2": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1733642910",
+    "gameid": "3328360",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ZYI Game",
+    "publisher": "ZYI Game"
+  },
+  "config": {
+    "installdir": "ContractofSwarmHunter Demo",
+    "launch": {
+      "0": {
+        "executable": "ContractOfSwarmHunter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3328361": {
+      "manifests": {
+        "public": {
+          "gid": "8840403537928849241",
+          "size": "200598983",
+          "download": "140608208"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,spanish,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20188314",
+        "timeupdated": "1759231373"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000",
+    "appidredirect": "3270580",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/ContractOfSwarmHunter/user_data/{64BitSteamID}/game_archive",
+        "pattern": "*_data*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "3": {
+        "root": "LinuxHome",
+        "path": ".local/share/godot/app_userdata/ContractOfSwarmHunter/user_data/{64BitSteamID}/game_archive",
+        "pattern": "*_data*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
