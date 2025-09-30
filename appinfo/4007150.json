@@ -1,6 +1,5 @@
 {
   "appid": "4007150",
-  "public_only": "1",
   "common": {
     "name": "Average Routine",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "08e61e15461907cfd9951b7def60c6588131ae55",
     "icon": "08e61e15461907cfd9951b7def60c6588131ae55",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2ad49e77a77cb5cbc0333933a7753b9b2c9696c3/capsule_231x87.jpg"
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4007150",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -128,6 +128,45 @@
       "9": "492",
       "10": "3859",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=4007150",
+    "developer": "Flying Dino",
+    "publisher": "ColorlessWing_Studio"
+  },
+  "config": {
+    "installdir": "Average Routine",
+    "launch": {
+      "0": {
+        "executable": "\\Average Routine\\Average Routine.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4007151": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "160489754738163914",
+          "size": "406396540",
+          "download": "232326592"
+        }
+      }
+    },
+    "workshopdepot": "4007150",
+    "branches": {
+      "public": {
+        "buildid": "20188635",
+        "timeupdated": "1759232637"
+      }
     }
   }
 }
