@@ -1,10 +1,9 @@
 {
   "appid": "3448870",
-  "public_only": "1",
   "common": {
     "name": "Necrologium",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "c37948299d9ae5ac35720ff78b5798ac64392891",
     "clienttga": "61c4d871f04af8553843b2bb01293fe0e79e4680",
     "clienticon": "99b06118c7155de4fd2f1c04483e7bd571896556",
@@ -78,7 +77,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759238577",
+    "store_asset_mtime": "1759239351",
     "associations": {
       "0": {
         "type": "developer",
@@ -104,9 +103,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759239390",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3448870",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -132,6 +132,57 @@
       "17": "7250",
       "18": "5984",
       "19": "5608"
+    }
+  },
+  "extended": {
+    "developer": "Bob's Cult Studio",
+    "publisher": "Ovid Works",
+    "homepage": "https://bobscult.com/"
+  },
+  "config": {
+    "installdir": "Necrologium",
+    "launch": {
+      "0": {
+        "executable": "Necrologium.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3448871": {
+      "manifests": {
+        "public": {
+          "gid": "7226003833903954619",
+          "size": "1451805431",
+          "download": "1241020352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20189984",
+        "timeupdated": "1759238993"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5242880",
+    "maxnumfiles": "3",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BobsCult/Necrologium",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
