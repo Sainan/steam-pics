@@ -1,4 +1,104 @@
 {
   "appid": "4054160",
-  "public_only": "1"
+  "common": {
+    "name": "修仙！包你飞升 Demo",
+    "type": "Demo",
+    "parent": "4049610",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "e3d5ab3707e5d9db58e19455c72266471512ce1b",
+    "icon": "e3d5ab3707e5d9db58e19455c72266471512ce1b",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "24885d2c033f1ac7fd3c9e5e452792bfce0b694e/capsule_231x87.jpg",
+      "tchinese": "3117538f5d1b49c20c364cb94a865c07d4be8bd3/capsule_231x87_tchinese.jpg",
+      "schinese": "a8d677b55774566652716f01eef0f953ce28a5e6/capsule_231x87_schinese.jpg"
+    },
+    "header_image": {
+      "english": "53d859882f9f1edf634ce69015e37167c5d209ca/header.jpg",
+      "schinese": "7fef344d68a36adaa1f642df6bd837ae2a6a42ab/header_schinese.jpg",
+      "tchinese": "b48490f8690e3dc1fefc685d750ce7e2084f9c93/header_tchinese.jpg"
+    },
+    "store_asset_mtime": "1758547997",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "猫仙人"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "猫仙人"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759215600",
+    "gameid": "4054160",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "猫仙人",
+    "publisher": "猫仙人"
+  },
+  "config": {
+    "installdir": "Backpack Survivor",
+    "launch": {
+      "0": {
+        "executable": "Backpack Survivor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054161": {
+      "manifests": {
+        "public": {
+          "gid": "4876354060031654537",
+          "size": "332976355",
+          "download": "83579696"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20181845",
+        "timeupdated": "1759195474"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Cat Xianer/Backpack Survivor",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
 }
