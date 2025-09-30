@@ -4,9 +4,9 @@
     "name": "Ooble Gardens Demo",
     "type": "Demo",
     "parent": "3949790",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "icon": "76e4b708b69d21ac00c511f8e91b4e4bd8fb9b6e",
     "clienticon": "ff96676c147c7653a3ca2b4b8e66054f2649bb42",
     "releasestate": "released",
@@ -123,17 +123,34 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "Ooble Gardens.app/Contents/MacOS/Ooble Gardens",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "3978451": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "6298075156228166675",
           "size": "739033001",
           "download": "98085968"
         }
+      }
+    },
+    "3978452": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
       }
     },
     "branches": {
