@@ -1,6 +1,5 @@
 {
   "appid": "3940620",
-  "public_only": "1",
   "common": {
     "name": "Exploding Judo Federation Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -53,10 +52,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759258800",
     "gameid": "3940620",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Andrea Demetrio",
+    "publisher": "Andrea Demetrio"
+  },
+  "config": {
+    "installdir": "Exploding Judo Federation Demo",
+    "launch": {
+      "0": {
+        "executable": "ExploJudo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "ExploJudo Demo (x86)"
+        },
+        "description": "ExploJudo Demo (x86)"
+      },
+      "1": {
+        "executable": "x64/ExploJudo_x64.exe",
+        "workingdir": "x64",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "ExploJudo Demo (x64)"
+        },
+        "description": "ExploJudo Demo (x64)"
+      }
+    }
+  },
+  "depots": {
+    "3940621": {
+      "manifests": {
+        "public": {
+          "gid": "5415852963152412412",
+          "size": "316609021",
+          "download": "123048384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20191286",
+        "timeupdated": "1759244232"
+      }
     }
   }
 }
