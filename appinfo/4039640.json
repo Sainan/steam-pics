@@ -1,6 +1,5 @@
 {
   "appid": "4039640",
-  "public_only": "1",
   "common": {
     "name": "To Crown or to Destroy Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,5 +105,44 @@
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Sezhes",
+    "publisher": "Sezhes",
+    "homepage": "https://www.sezhes.com/"
+  },
+  "config": {
+    "installdir": "To Crown or to Destroy Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4039641": {
+      "manifests": {
+        "public": {
+          "gid": "5562053345988075553",
+          "size": "529495450",
+          "download": "298953568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20066624",
+        "timeupdated": "1758469090"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100"
   }
 }
