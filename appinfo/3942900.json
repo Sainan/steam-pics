@@ -1,6 +1,5 @@
 {
   "appid": "3942900",
-  "public_only": "1",
   "common": {
     "name": "Before They Catch Us First Chapter",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "d1a540c5bfc15abd7c916e1d2b987d4b76f81157",
     "clienttga": "16b017a1b8801c8f76f8f483a89bec9aa060420d",
     "clienticon": "a6bd633a0b406b8dbcfc3b05cc3ac58560388288",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -72,11 +71,95 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3942900",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "ANTertainment",
+    "publisher": "ANTertainment"
+  },
+  "config": {
+    "installdir": "Before They Catch Us Demo",
+    "launch": {
+      "0": {
+        "executable": "shroom.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "shroom",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3942901": {
+      "manifests": {
+        "public": {
+          "gid": "6582511251747125219",
+          "size": "372697980",
+          "download": "257473024"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20196953",
+        "timeupdated": "1759271583"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "3936770",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "ANTertainment/Before They Catch Us/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgDataHome",
+        "path": "ANTertainment/Before They Catch Us/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinMyDocuments",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinMyDocuments",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      }
     }
   }
 }
