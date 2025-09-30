@@ -1,6 +1,5 @@
 {
   "appid": "4056100",
-  "public_only": "1",
   "common": {
     "name": "The Living Threeangle Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -103,7 +102,55 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759251718",
     "gameid": "4056100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Triple Helix and a Half, LLC",
+    "publisher": "Triple Helix and a Half, LLC"
+  },
+  "config": {
+    "installdir": "The Living Threeangle Demo",
+    "launch": {
+      "0": {
+        "executable": "LivingShapesEngine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4056101": {
+      "manifests": {
+        "public": {
+          "gid": "4141674357857591572",
+          "size": "1055844482",
+          "download": "487091424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20182353",
+        "timeupdated": "1759198945"
+      }
+    }
   }
 }
