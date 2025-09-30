@@ -1,6 +1,5 @@
 {
   "appid": "2142570",
-  "public_only": "1",
   "common": {
     "name": "Rust and Resolve",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "525a16ed1807d74f7e14f141a548ae0761b1ca5b",
     "clienttga": "aaaa827ce49091d3db9280839f66bde746649e14",
     "clienticon": "c706d0bf0fdeaef80a68d9dc2d02cc53228b4ac4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "055eb7fe66461da739c1f2945672c7b7b6020ade/capsule_231x87.jpg"
@@ -98,9 +97,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2142570",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1625",
@@ -119,5 +118,45 @@
       "14": "4182",
       "15": "122"
     }
+  },
+  "extended": {
+    "developer": "Surreal Studios",
+    "publisher": "Surreal Studios"
+  },
+  "config": {
+    "installdir": "Rust and Resolve",
+    "launch": {
+      "0": {
+        "executable": "Rust And Resolve.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2142572": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3006631440451869599",
+          "size": "113484130",
+          "download": "27110080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142478",
+        "timeupdated": "1758890969"
+      }
+    },
+    "privatebranches": "1"
   }
 }
