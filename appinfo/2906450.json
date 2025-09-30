@@ -1,0 +1,106 @@
+{
+  "appid": "2906450",
+  "common": {
+    "name": "Typing Simulator Demo",
+    "type": "Demo",
+    "parent": "2125350",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "6f396185dd9ad5802c6c9193561317c1f22419dd",
+    "clienttga": "5a5fd923ebcdc4c56f2bc56d2e0591cf5ba771c4",
+    "clienticon": "aa4c19014957271931c43d85c35e6036ea0ce602",
+    "linuxclienticon": "05220cad7a3d675413f7e6d330b650dea2683965",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_182c778d080e7d97e48626e6eb94cb7c721bc4ca.jpg",
+    "store_asset_mtime": "1711326968",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "RUST LTD."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "RUST LTD"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_25": "1",
+      "category_53": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1717560252",
+    "gameid": "2906450",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "RUST LTD.",
+    "publisher": "RUST LTD",
+    "homepage": "http://typingsimulator.com/"
+  },
+  "config": {
+    "installdir": "Typing Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "TypingSimulator.exe",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "XR Mode"
+        },
+        "description": "XR Mode"
+      },
+      "1": {
+        "executable": "TypingSimulator.exe",
+        "arguments": "--disable-xr",
+        "type": "option1",
+        "description_loc": {
+          "english": "2D Mode"
+        },
+        "description": "2D Mode"
+      }
+    }
+  },
+  "depots": {
+    "2906451": {
+      "manifests": {
+        "public": {
+          "gid": "7977408132135829371",
+          "size": "458447181",
+          "download": "86372000"
+        },
+        "nightly": {
+          "gid": "7945661723328298829",
+          "size": "465283896",
+          "download": "94203936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18439851",
+        "timeupdated": "1747865847"
+      },
+      "nightly": {
+        "buildid": "20184274",
+        "description": "for development testing",
+        "timeupdated": "1759212233"
+      }
+    }
+  }
+}
