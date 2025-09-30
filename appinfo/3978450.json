@@ -4,7 +4,7 @@
     "name": "Ooble Gardens Demo",
     "type": "Demo",
     "parent": "3949790",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "icon": "76e4b708b69d21ac00c511f8e91b4e4bd8fb9b6e",
@@ -131,6 +131,14 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "2": {
+        "executable": "Ooble Gardens.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
       }
     }
   },
@@ -154,6 +162,12 @@
         "osarch": "64"
       },
       "manifests": {}
+    },
+    "3978453": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      }
     },
     "branches": {
       "public": {
