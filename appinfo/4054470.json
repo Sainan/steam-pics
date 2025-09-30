@@ -1,6 +1,5 @@
 {
   "appid": "4054470",
-  "public_only": "1",
   "common": {
     "name": "ReUse Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "8108aad267c27fc59d5e76ec099cc1f99e8cfabf/capsule_231x87.jpg"
@@ -33,5 +32,41 @@
     "category": {},
     "gameid": "4054470",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BakeONsoft",
+    "publisher": "BakeONsoft"
+  },
+  "config": {
+    "installdir": "ReUse Demo",
+    "launch": {
+      "0": {
+        "executable": "ReUse.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "610524540171652506",
+          "size": "420735608",
+          "download": "113337664"
+        }
+      }
+    },
+    "baselanguages": "english,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20196499",
+        "timeupdated": "1759268888"
+      }
+    }
   }
 }
