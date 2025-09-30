@@ -1,6 +1,5 @@
 {
   "appid": "3947830",
-  "public_only": "1",
   "common": {
     "name": "Mart Mayhem",
     "type": "Game",
@@ -14,7 +13,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "exfgls": "1",
     "aicontenttype": "2",
     "controllertagwizard": "1",
@@ -160,6 +159,59 @@
       "14": "1651",
       "15": "3871",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Eleven Dot Studio",
+    "publisher": "Eleven Dot Studio"
+  },
+  "config": {
+    "installdir": "Mart Mayhem",
+    "launch": {
+      "0": {
+        "executable": "Mart Mayhem.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mart Mayhem.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3947831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7934708073339586251",
+          "size": "561298759",
+          "download": "247275568"
+        }
+      }
+    },
+    "3947832": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5483114431408192019",
+          "size": "517793758",
+          "download": "233803472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20121349",
+        "timeupdated": "1758785356"
+      }
     }
   }
 }
