@@ -1,6 +1,5 @@
 {
   "appid": "3817600",
-  "public_only": "1",
   "common": {
     "name": "Delivery Up",
     "type": "Game",
@@ -42,7 +41,7 @@
       "latam": "1",
       "indonesian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -252,9 +251,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759255248",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3817600",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "599",
@@ -276,6 +276,83 @@
       "17": "198913",
       "18": "4036",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Artem Breineng",
+    "publisher": "Artem Breineng"
+  },
+  "config": {
+    "installdir": "DeliveryUp",
+    "launch": {
+      "0": {
+        "executable": "DeliveryUp.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "DeliveryUp.app/Contents/MacOS/DeliveryUp",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3817601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8273017250794970951",
+          "size": "3456871910",
+          "download": "1344121232"
+        }
+      }
+    },
+    "3817602": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2052312755015569986",
+          "size": "3587927799",
+          "download": "1392925136"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20154388",
+        "timeupdated": "1758982485"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Artem Breineng/DeliveryUp",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacHome",
+        "path": "Library/Application Support/Artem Breineng/DeliveryUp",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
