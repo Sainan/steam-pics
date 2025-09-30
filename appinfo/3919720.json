@@ -1,6 +1,5 @@
 {
   "appid": "3919720",
-  "public_only": "1",
   "common": {
     "name": "Landlord Quest",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -103,7 +102,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3919720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -120,6 +118,40 @@
       "9": "6971",
       "10": "1759",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "katbrush",
+    "publisher": "katbrush",
+    "homepage": "http://landlord.quest"
+  },
+  "config": {
+    "installdir": "Landlord Quest",
+    "launch": {
+      "0": {
+        "executable": "Windows/LandlordQuest.exe"
+      }
+    }
+  },
+  "depots": {
+    "3919721": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7158878701397039745",
+          "size": "176404160",
+          "download": "62900432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20192344",
+        "timeupdated": "1759248212"
+      }
     }
   }
 }
