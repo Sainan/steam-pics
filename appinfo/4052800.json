@@ -1,6 +1,5 @@
 {
   "appid": "4052800",
-  "public_only": "1",
   "common": {
     "name": "Quetzal Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,6 +44,35 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Yanfer",
+    "publisher": "Yanfer"
+  },
+  "config": {
+    "installdir": "QUETZALDEMO",
+    "launch": {
+      "0": {
+        "executable": "QUETZALDEMO.exe"
+      }
+    }
+  },
+  "depots": {
+    "4052801": {
+      "manifests": {
+        "public": {
+          "gid": "1347733162235193883",
+          "size": "54586452",
+          "download": "45171504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20068857",
+        "timeupdated": "1758493454"
+      }
     }
   }
 }
