@@ -1,6 +1,5 @@
 {
   "appid": "3984510",
-  "public_only": "1",
   "common": {
     "name": "Gooey Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macosapplesilicon",
     "icon": "cd36ca7b784981f8bbccf4e0b8f446420dbf8975",
     "clienticon": "bd0643876a01873e0a1d4bb5310d4d2b0856554d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d80f7b62ef3dbb5914fdd559f38193af7041727d/capsule_231x87.jpg"
     },
@@ -96,5 +95,58 @@
     },
     "gameid": "3984510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "OG Pixel",
+    "publisher": "OG Pixel"
+  },
+  "config": {
+    "installdir": "GooeyDemo",
+    "launch": {
+      "0": {
+        "executable": "Gooey2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Gooey.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3984511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "698919616818941818",
+          "size": "262832016",
+          "download": "149622080"
+        }
+      }
+    },
+    "3984512": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5380555353644192429",
+          "size": "267451427",
+          "download": "151337376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20085185",
+        "timeupdated": "1758585820"
+      }
+    }
   }
 }
