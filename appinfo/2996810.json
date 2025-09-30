@@ -1,6 +1,5 @@
 {
   "appid": "2996810",
-  "public_only": "1",
   "common": {
     "name": "Twilight Canyon",
     "type": "Game",
@@ -24,7 +23,7 @@
     "clienticon": "7a4eaf86297a6899a57f911924aca26a8c2ec831",
     "clienttga": "500c2d2c5cb55ce103324c05f1d1d01207ce657f",
     "icon": "06929b58fd163bb60cecc095c177c5e98dfa9e83",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "capsule_231x87_schinese.jpg",
@@ -240,7 +239,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2996810",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1723",
@@ -262,6 +260,55 @@
       "17": "4182",
       "18": "492",
       "19": "9"
+    }
+  },
+  "extended": {
+    "developer": "Ninibugstudio",
+    "publisher": "Ninibugstudio"
+  },
+  "config": {
+    "installdir": "Twilight Canyon",
+    "launch": {
+      "0": {
+        "executable": "Windows\\Roguelike.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2996811": {
+      "manifests": {
+        "public": {
+          "gid": "1247088311865998076",
+          "size": "729658383",
+          "download": "596250560"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,tchinese,russian,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20182751",
+        "timeupdated": "1759201369"
+      }
     }
   }
 }
