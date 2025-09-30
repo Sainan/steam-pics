@@ -1,6 +1,5 @@
 {
   "appid": "1944260",
-  "public_only": "1",
   "common": {
     "name": "Ascend",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2dcd00074799e57014b0855d11c71a3cc24fa205",
     "clienttga": "066fdcc77ab285abab23a27351d12ba33503de1d",
     "clienticon": "422a178a15e08d599130f17f938ff62620e93fbd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759248162",
     "community_hub_visible": "1",
     "gameid": "1944260",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1664",
@@ -131,6 +130,53 @@
       "17": "4166",
       "18": "4252",
       "19": "4305"
+    }
+  },
+  "extended": {
+    "developer": "Miami Avalon",
+    "publisher": "Miami Avalon",
+    "homepage": "https://miamiavalon.com"
+  },
+  "config": {
+    "installdir": "Ascend",
+    "launch": {
+      "0": {
+        "executable": "Ascend.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1944261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3550256708438607241",
+          "size": "3049896659",
+          "download": "2860154064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20192246",
+        "timeupdated": "1759247882"
+      }
     }
   }
 }
