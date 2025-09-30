@@ -1,6 +1,5 @@
 {
   "appid": "4034400",
-  "public_only": "1",
   "common": {
     "name": "The Pipetuber's Guide to the Solar System Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "46303dce9927ecb5532869b546c931dbbaf3a3b3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "sc_schinese": "48eb64de74e76240bb903cb66160cb9f8c99507e/capsule_231x87_sc_schinese.jpg",
       "english": "8cc47718376dca424b9b297729c6ccc29a71c78e/capsule_231x87.jpg",
@@ -48,5 +47,38 @@
     },
     "gameid": "4034400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dobro Games",
+    "publisher": "Dobro Games"
+  },
+  "config": {
+    "installdir": "PPTB Demo",
+    "launch": {
+      "0": {
+        "executable": "Factory Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4034401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "783687962366281736",
+          "size": "9338650044",
+          "download": "351473440"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20188033",
+        "timeupdated": "1759229997"
+      }
+    }
   }
 }
