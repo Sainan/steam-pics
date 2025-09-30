@@ -1,6 +1,5 @@
 {
   "appid": "4053570",
-  "public_only": "1",
   "common": {
     "name": "Dogpile Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "be41e57b850a3453c5ee5ee5d6354f2b8cda2bca/capsule_231x87.jpg"
@@ -103,5 +102,61 @@
     },
     "gameid": "4053570",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Studio Folly",
+    "publisher": "WINGS",
+    "homepage": "https://dogpilegame.com/"
+  },
+  "config": {
+    "installdir": "Dogpile Demo",
+    "launch": {
+      "0": {
+        "executable": "Dog-Pile.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "dogpile.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4053571": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3057486143151396423",
+          "size": "5273747553",
+          "download": "101378928"
+        }
+      }
+    },
+    "4053572": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2052302717360923929",
+          "size": "5281291280",
+          "download": "104536240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20108302",
+        "timeupdated": "1758714188"
+      }
+    }
   }
 }
