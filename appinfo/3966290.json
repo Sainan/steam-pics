@@ -1,6 +1,5 @@
 {
   "appid": "3966290",
-  "public_only": "1",
   "common": {
     "name": "Scholar Adventure: Mystery of Silence Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "03f4025af5310b986c306ac39242fce060a50f82/capsule_231x87.jpg"
@@ -110,7 +109,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3966290",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ayose Trujillo &amp; Making Enemies",
+    "publisher": "DevilishGames",
+    "homepage": "https://www.devilishgames.com/"
+  },
+  "config": {
+    "installdir": "Scholar Adventure Mystery of Silence Demo",
+    "launch": {
+      "0": {
+        "executable": "Scholar Adventure - Mystery of Silence.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SA-MS.app/Contents/MacOS/Scholar Adventure - Mystery of Silence",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3966291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3482947805333735908",
+          "size": "266389747",
+          "download": "67349760"
+        }
+      }
+    },
+    "3966292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4816798297978330307",
+          "size": "289700069",
+          "download": "76370992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20168455",
+        "timeupdated": "1759129521"
+      }
+    }
   }
 }
