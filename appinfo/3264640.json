@@ -1,13 +1,12 @@
 {
   "appid": "3264640",
-  "public_only": "1",
   "common": {
     "name": "Backyard Digger",
     "type": "Game",
     "clienticon": "df5b5cbf101ac06e8e85da82b52266110b5015f8",
     "clienttga": "5fda47003abe7fc40d5a8502adab944a528af78f",
     "icon": "8b3ca15e69b69193e461f713b5d5ec5934154da4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,9 +100,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759248290",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3264640",
-    "exfgls": "8",
     "store_tags": {
       "0": "5981",
       "1": "5363",
@@ -119,6 +119,50 @@
       "11": "4106",
       "12": "4182",
       "13": "1654"
+    }
+  },
+  "extended": {
+    "developer": "Milord",
+    "publisher": "Milord"
+  },
+  "config": {
+    "installdir": "Backyard Digger",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3264642": {
+      "manifests": {
+        "public": {
+          "gid": "4430086789700500181",
+          "size": "4295250531",
+          "download": "4132082768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20190036",
+        "timeupdated": "1759239001"
+      }
     }
   }
 }
