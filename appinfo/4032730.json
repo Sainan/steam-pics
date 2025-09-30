@@ -1,6 +1,5 @@
 {
   "appid": "4032730",
-  "public_only": "1",
   "common": {
     "name": "BOMCAT Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -50,5 +49,38 @@
     },
     "gameid": "4032730",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TANZI GAMES",
+    "publisher": "TANZI GAMES"
+  },
+  "config": {
+    "installdir": "BOMCAT Demo",
+    "launch": {
+      "0": {
+        "executable": "BombCat_DEMO.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4032731": {
+      "manifests": {
+        "public": {
+          "gid": "2049653560275023111",
+          "size": "66172332",
+          "download": "23203840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20125012",
+        "timeupdated": "1758801357"
+      }
+    }
   }
 }
