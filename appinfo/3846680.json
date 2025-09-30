@@ -1,6 +1,5 @@
 {
   "appid": "3846680",
-  "public_only": "1",
   "common": {
     "name": "Olive Raiders Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -115,10 +114,69 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759215679",
     "gameid": "3846680",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "TH Games 1984",
+    "publisher": "TH Games 1984",
+    "homepage": "https://www.youtube.com/@THGames1984"
+  },
+  "config": {
+    "installdir": "OliveRaidersDemo",
+    "launch": {
+      "0": {
+        "executable": "OliveRaiders.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Click to launch the game"
+        },
+        "description": "Click to launch the game"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3846681": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2461714720487389559",
+          "size": "5113767754",
+          "download": "4415168864"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19030691",
+        "timeupdated": "1751051489"
+      }
     }
   }
 }
