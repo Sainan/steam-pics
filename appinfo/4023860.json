@@ -1,6 +1,5 @@
 {
   "appid": "4023860",
-  "public_only": "1",
   "common": {
     "name": "HellBorn Pre Alpha Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "7d11b30aabd5b72bcfcdb005b480cab7e58d2442",
     "icon": "7d11b30aabd5b72bcfcdb005b480cab7e58d2442",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -116,11 +115,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759194324",
     "gameid": "4023860",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Steve",
+    "publisher": "Also Steve"
+  },
+  "config": {
+    "installdir": "HellBorn Demo",
+    "launch": {
+      "0": {
+        "executable": "HellBorn.exe"
+      }
+    }
+  },
+  "depots": {
+    "4023861": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4800266125365795597",
+          "size": "10429748068",
+          "download": "4973590736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20181515",
+        "timeupdated": "1759193576"
+      }
     }
   }
 }
