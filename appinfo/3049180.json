@@ -78,10 +78,16 @@
     "launch": {
       "0": {
         "executable": "Inter Solar 83.exe",
-        "type": "openxr"
+        "arguments": "-vr",
+        "type": "openxr",
+        "description_loc": {
+          "english": "Launch in VR"
+        },
+        "description": "Launch in VR"
       },
       "1": {
         "executable": "Inter Solar 83.exe",
+        "arguments": "-novr",
         "type": "default"
       }
     }
