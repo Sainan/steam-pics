@@ -1,6 +1,5 @@
 {
   "appid": "2583580",
-  "public_only": "1",
   "common": {
     "name": "Escape The Pyramid",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "3e9d28e51491d2a6125543e19e49e1228f45438b",
     "clienticon": "3e9d28e51491d2a6125543e19e49e1228f45438b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "02c60d90f81ea2bb31d02d80c9957f57a10e6889/capsule_231x87.jpg"
@@ -73,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1756482688",
+    "store_asset_mtime": "1758907127",
     "associations": {
       "0": {
         "type": "developer",
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759257000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2583580",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -120,6 +120,58 @@
       "10": "5716",
       "11": "7250",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Balaurul",
+    "publisher": "Balaurul"
+  },
+  "config": {
+    "installdir": "Escape The Pyramid",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "Pyramid.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2583581": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6591340103064807754",
+          "size": "810735125",
+          "download": "458821200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20153974",
+        "timeupdated": "1758969984"
+      }
     }
   }
 }
