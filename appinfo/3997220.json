@@ -1,6 +1,5 @@
 {
   "appid": "3997220",
-  "public_only": "1",
   "common": {
     "name": "Eurekas Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -109,7 +108,41 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3997220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ubben Ubben Studios",
+    "publisher": "Ubben Ubben Studios"
+  },
+  "config": {
+    "installdir": "Eurekas Demo",
+    "launch": {
+      "0": {
+        "executable": "EurekasDemo_DemoBuild.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3997221": {
+      "manifests": {
+        "public": {
+          "gid": "8285064990823792018",
+          "size": "141045389",
+          "download": "80439696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197107",
+        "timeupdated": "1759272736"
+      }
+    }
   }
 }
