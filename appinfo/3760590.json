@@ -1,6 +1,5 @@
 {
   "appid": "3760590",
-  "public_only": "1",
   "common": {
     "name": "Kitty Claw Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "13645e40aa897717927f2dfc903f4b2d1b9afc2c",
     "icon": "13645e40aa897717927f2dfc903f4b2d1b9afc2c",
     "linuxclienticon": "3b9cac382297b0212be3f20a6e2feb961d05f997",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1a175703ca095c90e2c4e0e965eba6a67ae68c6b/capsule_231x87.jpg"
     },
@@ -101,7 +100,109 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759275965",
     "gameid": "3760590",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nuclear Kitty Games",
+    "publisher": "Nuclear Kitty Publishing"
+  },
+  "config": {
+    "installdir": "Kitty Claw Demo",
+    "launch": {
+      "0": {
+        "executable": "KittyClaw.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "KittyClaw.exe"
+        }
+      },
+      "1": {
+        "executable": "KittyClaw.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "releasebuild"
+      },
+      "1": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout",
+        "branch": "releasebuild"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3760591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3599457340358684932",
+          "size": "906832320",
+          "download": "608347136"
+        },
+        "releasebuild": {
+          "gid": "3599457340358684932",
+          "size": "906832320",
+          "download": "608347136"
+        }
+      }
+    },
+    "3760592": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8344006578396714433",
+          "size": "652151684",
+          "download": "423991072"
+        },
+        "releasebuild": {
+          "gid": "8344006578396714433",
+          "size": "652151684",
+          "download": "423991072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197507",
+        "timeupdated": "1759275117"
+      },
+      "releasebuild": {
+        "buildid": "20197507",
+        "description": "releasebuild",
+        "timeupdated": "1759274947"
+      }
+    }
   }
 }
