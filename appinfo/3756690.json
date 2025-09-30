@@ -1,6 +1,5 @@
 {
   "appid": "3756690",
-  "public_only": "1",
   "common": {
     "name": "橘香仲夏 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "3c31a2137f737f396c31c92eef60cd0d86fbb41a",
     "clienticon": "ea16e0ed93eaa97010c654a409baf7e24fd4238a",
     "clienttga": "c7d70927b5dd360eb5dfd81af301b814548fcfe0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -85,6 +84,54 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "LimeStudio",
+    "publisher": "LimeStudio"
+  },
+  "config": {
+    "installdir": "橘香仲夏 Demo",
+    "launch": {
+      "0": {
+        "executable": "SummerCitrus\\SummerCitrus.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3756691": {
+      "manifests": {
+        "public": {
+          "gid": "3334375426543093968",
+          "size": "1500423985",
+          "download": "1348948352"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20160996",
+        "timeupdated": "1759055873"
+      }
     }
   }
 }
