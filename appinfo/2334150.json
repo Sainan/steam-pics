@@ -1,10 +1,9 @@
 {
   "appid": "2334150",
-  "public_only": "1",
   "common": {
     "name": "Mechanical Fury",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "144ab4fbfeafd8f7fd9bea1184dbeb15d35f7acc",
     "clienticon": "d447bde75c8dd535e3b951ad4651a874e6d42d1d",
     "clienttga": "7ba4d0065873767b93028d00965f057fe9435e61",
@@ -69,7 +68,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759217133",
+    "store_asset_mtime": "1759218612",
     "associations": {
       "0": {
         "type": "developer",
@@ -100,9 +99,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759218639",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2334150",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -124,6 +124,119 @@
       "17": "4255",
       "18": "44868",
       "19": "1719"
+    }
+  },
+  "extended": {
+    "developer": "Avian Hearts",
+    "publisher": "Avian Hearts",
+    "homepage": "https://www.avianhearts.com/"
+  },
+  "config": {
+    "installdir": "Mechanical Fury",
+    "launch": {
+      "0": {
+        "executable": "MechanicalFury.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mechanical Fury/Mechanical Fury.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "MechanicalFury",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2334151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2622783534206577597",
+          "size": "1349303406",
+          "download": "1094840256"
+        }
+      }
+    },
+    "2334152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2570693827688542015",
+          "size": "1319191303",
+          "download": "944948896"
+        }
+      }
+    },
+    "2334153": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6122720073995795674",
+          "size": "2337372366",
+          "download": "1152882896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20004999",
+        "timeupdated": "1758051295"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "MechanicalFury/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "addpath": "Library/Application Support"
+      }
     }
   }
 }
