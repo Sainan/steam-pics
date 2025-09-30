@@ -1,6 +1,5 @@
 {
   "appid": "4053220",
-  "public_only": "1",
   "common": {
     "name": "冰河 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "ce1a976ebf92c43dd752c27bd8778dc68bb33449",
     "icon": "03e7af9d02b09d2ebbc72b2f569d811430c775af",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e2336e170819faf2bb69ac9d5a32103fe9de88ec/capsule_231x87.jpg"
     },
@@ -83,7 +82,45 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4053220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "漂流獭工作室",
+    "publisher": "漂流獭工作室"
+  },
+  "config": {
+    "installdir": "冰河 Demo",
+    "launch": {
+      "0": {
+        "executable": "TheIceRiver.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4053221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4455562279867725984",
+          "size": "530965894",
+          "download": "108821152"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20162578",
+        "timeupdated": "1759073001"
+      }
+    }
   }
 }
