@@ -1,4 +1,103 @@
 {
   "appid": "4050660",
-  "public_only": "1"
+  "common": {
+    "name": "Defectant Demo",
+    "type": "Demo",
+    "parent": "3918240",
+    "icon": "4ca8f97acd491143ab34f970de7f4504535f5145",
+    "clienticon": "4ca8f97acd491143ab34f970de7f4504535f5145",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "3683188330a147b56957c6e13d8a25c5ec025e20/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "9eb2087637f3a570c7ddd624f581171cccc5589b/header.jpg"
+    },
+    "store_asset_mtime": "1758383448",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "FyrusTech火棠科技"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "FyrusTech火棠科技"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "supported_languages": {
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "4050660",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "FyrusTech火棠科技",
+    "publisher": "FyrusTech火棠科技"
+  },
+  "config": {
+    "installdir": "Defectant Demo",
+    "launch": {
+      "0": {
+        "executable": "\\DefectantProject_V0.02_(2025.09.26)\\Windows\\DefectantProject.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4050661": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2763183302901201656",
+          "size": "1855036113",
+          "download": "1476647664"
+        }
+      }
+    },
+    "4050662": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20143676",
+        "timeupdated": "1758895843"
+      }
+    }
+  }
 }
