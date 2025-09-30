@@ -1,6 +1,5 @@
 {
   "appid": "4010690",
-  "public_only": "1",
   "common": {
     "name": "Eleven Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bcb2b3442a350f5cfc7901ad912acf8dea5494e4/capsule_231x87.jpg"
     },
@@ -53,7 +52,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759257632",
     "gameid": "4010690",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PlayIEC",
+    "publisher": "PlayIEC",
+    "homepage": "https://playiec.com"
+  },
+  "config": {
+    "installdir": "Eleven Demo",
+    "launch": {
+      "0": {
+        "executable": "Eleven.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4010691": {
+      "manifests": {
+        "public": {
+          "gid": "6870721963616912796",
+          "size": "1833540809",
+          "download": "1587714000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20194440",
+        "timeupdated": "1759257590"
+      }
+    }
   }
 }
