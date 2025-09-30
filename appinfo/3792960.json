@@ -1,6 +1,5 @@
 {
   "appid": "3792960",
-  "public_only": "1",
   "common": {
     "name": "Fade Survival",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "559aa210452aa588c5bac5cd94ca4cb17dbb5ff6",
     "clienticon": "cc762aafb5e0558df78f4a0c07a6bb40f1476e15",
     "clienttga": "5f8853d7aafcaa138a4b790afc24a2558bec1378",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,9 +111,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759248107",
     "community_hub_visible": "1",
     "gameid": "3792960",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,6 +139,62 @@
       "17": "3859",
       "18": "4182",
       "19": "1662"
+    }
+  },
+  "extended": {
+    "gamedir": "FadeSurvival",
+    "serverbrowsername": "Fade Survival",
+    "developer": "Phoenix Gaming Studios",
+    "publisher": "Phoenix Gaming Studios"
+  },
+  "config": {
+    "installdir": "Fade Survival",
+    "launch": {
+      "0": {
+        "executable": "FadeSurvival.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229002": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3792961": {
+      "manifests": {
+        "public": {
+          "gid": "5653293816951467490",
+          "size": "18197221835",
+          "download": "15785233360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20191708",
+        "timeupdated": "1759245615"
+      }
     }
   }
 }
