@@ -1,6 +1,5 @@
 {
   "appid": "4024240",
-  "public_only": "1",
   "common": {
     "name": "Shattered Dreams: Redemption Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -93,11 +92,74 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759236699",
     "gameid": "4024240",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Nebula Dreams",
+    "publisher": "Nebula Dreams"
+  },
+  "config": {
+    "installdir": "Shattered Dreams Redemption Demo",
+    "launch": {
+      "0": {
+        "executable": "ShatteredDreamsRedemption.exe"
+      }
+    }
+  },
+  "depots": {
+    "4024241": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8294463044762804496",
+          "size": "1335725123",
+          "download": "1203701776"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20121855",
+        "timeupdated": "1758787803"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "8000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "RenPy/ShatteredDreams-1729151705",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/ShatteredDreams-1729151705",
+            "replace": ".renpy/ShatteredDreams-1729151705"
+          }
+        }
+      }
     }
   }
 }
