@@ -1,6 +1,5 @@
 {
   "appid": "3999530",
-  "public_only": "1",
   "common": {
     "name": "Naginami and the Crimson Thread Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -103,7 +102,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759272722",
     "gameid": "3999530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dynastic Games LLC",
+    "publisher": "Dynastic Games LLC",
+    "homepage": "https://www.naginamigame.com"
+  },
+  "config": {
+    "installdir": "Naginami and the Crimson Thread Demo",
+    "launch": {
+      "0": {
+        "executable": "Naginami.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3999531": {
+      "manifests": {
+        "public": {
+          "gid": "445680218353644406",
+          "size": "2813074246",
+          "download": "363766480"
+        }
+      }
+    },
+    "3999532": {
+      "config": {
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7762824047536109283",
+          "size": "2813074246",
+          "download": "363850864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20183242",
+        "timeupdated": "1759204606"
+      }
+    }
   }
 }
