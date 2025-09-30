@@ -111,18 +111,51 @@
     "launch": {
       "0": {
         "executable": "Platypus.exe",
-        "type": "default",
+        "type": "option1",
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "Platypus 4K"
+        },
+        "description": "Platypus 4K"
       },
       "1": {
         "executable": "Platypus.app",
-        "type": "default",
+        "type": "option1",
         "config": {
           "oslist": "macos"
-        }
+        },
+        "description_loc": {
+          "english": "Platypus 4K"
+        },
+        "description": "Platypus 4K"
+      },
+      "2": {
+        "executable": "Platypus.exe",
+        "arguments": "-bundle low",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Platypus 1080p"
+        },
+        "description": "Platypus 1080p"
+      },
+      "3": {
+        "executable": "Platypus.app",
+        "arguments": "-bundle low",
+        "type": "option2",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Platypus 1080p"
+        },
+        "description": "Platypus 1080p"
       }
     }
   },
