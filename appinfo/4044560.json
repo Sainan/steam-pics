@@ -1,4 +1,148 @@
 {
   "appid": "4044560",
-  "public_only": "1"
+  "common": {
+    "name": "Bravest Coconut Demo",
+    "type": "Demo",
+    "parent": "2913190",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "clienticon": "a4a4b4d7ffb121b377fa50163905a772052d34f5",
+    "icon": "a4a4b4d7ffb121b377fa50163905a772052d34f5",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "d38480306587859ab06a69f204a38b9d1c2d04c7/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "14f4bcfe43b658e9be0dda1fba448e0d8ba7d4f2/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "dbc39840cd3e5821df0023ff1464cb34e0ce9972/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758506391",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Little Nebula"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Little Nebula"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_60": "1",
+      "category_66": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_78": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759226519",
+    "gameid": "4044560",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Little Nebula",
+    "publisher": "Little Nebula",
+    "homepage": "https://store.steampowered.com/app/2913190/Bravest_Coconut/"
+  },
+  "config": {
+    "installdir": "Bravest Coconut Demo",
+    "launch": {
+      "0": {
+        "executable": "coconut.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "coconut.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Bravest Coconut.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4044561": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4755162686140516816",
+          "size": "129869776",
+          "download": "58023008"
+        }
+      }
+    },
+    "4044562": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3904965408201106130",
+          "size": "222856482",
+          "download": "82077248"
+        }
+      }
+    },
+    "4044563": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6308659058992463682",
+          "size": "105505268",
+          "download": "51236128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20184158",
+        "timeupdated": "1759211468"
+      }
+    }
+  }
 }
