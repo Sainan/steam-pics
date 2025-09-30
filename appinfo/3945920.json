@@ -1,6 +1,5 @@
 {
   "appid": "3945920",
-  "public_only": "1",
   "common": {
     "name": "101 Cats Hidden in Macau",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "b32b3f9a9d30d9a2afecaf7b333f57af4e62e022",
     "clienticon": "b32b3f9a9d30d9a2afecaf7b333f57af4e62e022",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8edf39c5c23ab068d4cbaf9ddb4e9635b607eed8/capsule_231x87.jpg"
@@ -191,9 +190,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3945920",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "17894",
@@ -215,6 +215,53 @@
       "17": "5154",
       "18": "3871",
       "19": "5390"
+    }
+  },
+  "extended": {
+    "developer": "NaipSoft",
+    "publisher": "NaipSoft"
+  },
+  "config": {
+    "installdir": "101 Cats Hidden in Macau",
+    "launch": {
+      "0": {
+        "executable": "101_Cats_Hidden_in_Macau.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3945921": {
+      "manifests": {
+        "public": {
+          "gid": "7370577936681134421",
+          "size": "567058185",
+          "download": "111727296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20148502",
+        "timeupdated": "1758920184"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "NaipSoft/101_Cats_Hidden_in_Macau",
+        "pattern": "*.jogo",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
