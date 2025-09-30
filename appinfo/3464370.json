@@ -1,6 +1,5 @@
 {
   "appid": "3464370",
-  "public_only": "1",
   "common": {
     "name": "Sani Yang's Laboratory",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "80544cc9160846065333de9d45d6ceedb2bda340",
     "clienticon": "8dac5dd6ca30a8c9b27bd3dc1cb6ba87bd8fac3b",
     "clienttga": "222d7763b26d76f814aaf51b4892178796c10e8f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "koreana": "사니양 연구실",
       "japanese": "サニヤンの研究室",
@@ -123,7 +122,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759193755",
+    "store_asset_mtime": "1759194229",
     "associations": {
       "0": {
         "type": "developer",
@@ -179,9 +178,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759194721",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3464370",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -205,6 +205,80 @@
       "15": "6426",
       "16": "4182",
       "17": "21"
+    }
+  },
+  "extended": {
+    "developer": "TALESSHOP Co., Ltd.",
+    "publisher": "Smilegate",
+    "homepage": "http://talesshop.com/?page=product&amp;query=sany",
+    "listofdlc": "4013190",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Sani Yang's Laboratory",
+    "launch": {
+      "0": {
+        "executable": "sanyPlus.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3464371": {
+      "manifests": {
+        "public": {
+          "gid": "1849552669921785423",
+          "size": "12870232073",
+          "download": "9968115312"
+        }
+      }
+    },
+    "4013190": {
+      "dlcappid": "4013190",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8843656416377518425",
+          "size": "278519642",
+          "download": "248333616"
+        }
+      }
+    },
+    "workshopdepot": "3464370",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20173492",
+        "timeupdated": "1759153417"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "talesshop/sanyPlus",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "talesshop/sanyPlus",
+        "pattern": "*.tss",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
