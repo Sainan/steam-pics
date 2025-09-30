@@ -1,13 +1,12 @@
 {
   "appid": "3571820",
-  "public_only": "1",
   "common": {
     "name": "Hopeless Junction",
     "type": "Game",
     "icon": "a9ee71b1554c252ed9eb495dc798d02a242de956",
     "clienticon": "934ffa6fa5665b814d4d614ea99547f2bc31d10a",
     "clienttga": "54d73e5d4f1ac0054930c2fbc3f996a7f1764389",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759254683",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3571820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -138,6 +138,65 @@
       "17": "4182",
       "18": "5611",
       "19": "4064"
+    }
+  },
+  "extended": {
+    "developer": "Nadia Nova",
+    "publisher": "Nadia Nova"
+  },
+  "config": {
+    "installdir": "Hopeless Junction",
+    "launch": {
+      "0": {
+        "executable": "hopelessjunction.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "hopelessjunction.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "hopelessjunction.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3571821": {
+      "manifests": {
+        "public": {
+          "gid": "8444934272241293022",
+          "size": "384163734",
+          "download": "233265168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19976161",
+        "timeupdated": "1757868001"
+      }
     }
   }
 }
