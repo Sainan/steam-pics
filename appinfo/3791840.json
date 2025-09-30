@@ -1,11 +1,10 @@
 {
   "appid": "3791840",
-  "public_only": "1",
   "common": {
     "name": "PSYCHO DEAD Demo",
     "type": "Demo",
     "parent": "3018390",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "613e4f19454b33004f92a3cb1d786bec14da0ef6",
     "icon": "613e4f19454b33004f92a3cb1d786bec14da0ef6",
     "oslist": "windows",
@@ -127,6 +126,57 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "MOON CATALYST CO., LTD.",
+    "publisher": "MOON CATALYST CO., LTD.",
+    "homepage": "https://www.mooncatalyst.com/psychodeadgame"
+  },
+  "config": {
+    "installdir": "PSYCHO DEAD Demo",
+    "launch": {
+      "0": {
+        "executable": "ProjectELIXIA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3791841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6108671668248053470",
+          "size": "7152618923",
+          "download": "6812854400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20193487",
+        "timeupdated": "1759252884"
+      }
     }
   }
 }
