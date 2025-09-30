@@ -120,27 +120,18 @@
     "savefiles": {
       "0": {
         "root": "WinAppDataRoaming",
-        "path": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
-        "pattern": "unlocks.save",
-        "platforms": {
-          "1": "Windows"
-        }
+        "path": "Godot/app_userdata/Warrior Mage or Rogue alike/",
+        "pattern": "unlocks.save"
       },
       "1": {
         "root": "WinAppDataRoaming",
-        "path": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
-        "pattern": "skills.json",
-        "platforms": {
-          "1": "Windows"
-        }
+        "path": "Godot/app_userdata/Warrior Mage or Rogue alike/",
+        "pattern": "skills.json"
       },
       "2": {
         "root": "WinAppDataRoaming",
-        "path": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
-        "pattern": "skills_unlockables.json",
-        "platforms": {
-          "1": "Windows"
-        }
+        "path": "Godot/app_userdata/Warrior Mage or Rogue alike/",
+        "pattern": "skills_unlockables.json"
       },
       "copied_from_parent": "1"
     },
@@ -149,13 +140,8 @@
         "root": "WinAppDataRoaming",
         "os": "Linux",
         "oscompare": "=",
-        "useinstead": "LinuxHome",
-        "pathtransforms": {
-          "0": {
-            "find": "/Godot/app_userdata/Warrior Mage or Rogue alike/",
-            "replace": ".local/share/godot/app_userdata/Warrior Mage or Rogue alike/"
-          }
-        }
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
       }
     }
   }
