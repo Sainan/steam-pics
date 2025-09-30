@@ -1,6 +1,5 @@
 {
   "appid": "3899430",
-  "public_only": "1",
   "common": {
     "name": "大胤守门人 Gatekeeper of the Yin Dynasty Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "osextended": "",
     "icon": "5954f67d99f834c4bc0f5ad8daa44993acd23bec",
     "clienticon": "5954f67d99f834c4bc0f5ad8daa44993acd23bec",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4edb9384adc1674adbb23013702c52d1a7898c8b/capsule_231x87.jpg",
       "schinese": "61686e6ebc0c20fbd61b0258f990588a2b64fa51/capsule_231x87_schinese.jpg"
@@ -50,7 +49,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "gameid": "3899430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "煌月游戏工作室",
+    "publisher": "煌月游戏工作室"
+  },
+  "config": {
+    "installdir": "Gatekeeper of the Yin Dynasty Demo",
+    "launch": {
+      "0": {
+        "executable": "大胤守门人.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3899431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3797115999767416496",
+          "size": "318354653",
+          "download": "68899136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173944",
+        "timeupdated": "1759154863"
+      }
+    }
   }
 }
