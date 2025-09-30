@@ -1,10 +1,9 @@
 {
   "appid": "3062830",
-  "public_only": "1",
   "common": {
     "name": "Soulfall",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -115,10 +114,11 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759251615",
     "steam_deck_blog_url": "https://steamcommunity.com/games/3062830/announcements/detail/706602564760633481",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3062830",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -140,6 +140,105 @@
       "17": "4191",
       "18": "4106",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "King's Crown Studio",
+    "publisher": "King's Crown Studio",
+    "homepage": "https://x.com/KingsCrownGames"
+  },
+  "config": {
+    "installdir": "Soulfall",
+    "launch": {
+      "0": {
+        "executable": "Soulfall.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Soulfall.sh",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3062831": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6367411525980933847",
+          "size": "2101257086",
+          "download": "1936581616"
+        }
+      }
+    },
+    "3062832": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1922332533814883486",
+          "size": "1549374626",
+          "download": "1382366272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20192729",
+        "timeupdated": "1759249905"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Soulfall/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Soulfall/Saved/SaveGames",
+            "replace": ".config/Epic/Soulfall/Saved/SaveGames"
+          }
+        }
+      }
     }
   }
 }
