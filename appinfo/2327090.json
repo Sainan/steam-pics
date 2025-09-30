@@ -1,6 +1,5 @@
 {
   "appid": "2327090",
-  "public_only": "1",
   "common": {
     "name": "Jetpack Birdie",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "b1aa52e1476cf9ad6648873286541bf62f4b222d",
     "clienttga": "31a0bc7dafbf7fc516decd3e919c9c4a9f94482b",
     "clienticon": "f68262caf40fa9e6a030f4eb8a4826cb616dfebf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -94,9 +93,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759244491",
     "community_hub_visible": "1",
     "gameid": "2327090",
-    "exfgls": "8",
     "store_tags": {
       "0": "1742",
       "1": "5094",
@@ -118,6 +117,58 @@
       "17": "1773",
       "18": "3814",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Alexey Kuleshov",
+    "publisher": "ADBM Team"
+  },
+  "config": {
+    "installdir": "Jetpack Birdie",
+    "launch": {
+      "0": {
+        "executable": "JetpackBirdie.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2327091": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8152185948868385775",
+          "size": "3138594291",
+          "download": "2753407328"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20114751",
+        "timeupdated": "1758744489"
+      }
     }
   }
 }
