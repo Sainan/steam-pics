@@ -1,6 +1,5 @@
 {
   "appid": "4049930",
-  "public_only": "1",
   "common": {
     "name": "Steam Revolution: The Age of Rail Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "47cac4b1904ed0e94e8b54bf9e6c8e3bb015c04c/capsule_231x87.jpg"
@@ -116,5 +115,55 @@
     },
     "gameid": "4049930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Partially Differentiated Games",
+    "publisher": "Partially Differentiated Games",
+    "homepage": "http://www.partiallydifferentiated.com/steam_revolution/"
+  },
+  "config": {
+    "installdir": "SteamRevolutionDemo",
+    "launch": {
+      "0": {
+        "executable": "SteamRevolution_sd.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4049931": {
+      "manifests": {
+        "public": {
+          "gid": "2978335771156752094",
+          "size": "351262992",
+          "download": "280474608"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,russian,portuguese,polish,turkish,brazilian,ukrainian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20183816",
+        "timeupdated": "1759208910"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3334580",
+    "savefiles": {
+      "0": {
+        "root": "WinSavedGames",
+        "path": "SteamRevolution",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
