@@ -1,6 +1,5 @@
 {
   "appid": "3051490",
-  "public_only": "1",
   "common": {
     "name": "Nicktoons & The Dice of Destiny",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0959d0f9b03f178f6d2ed7e6cba8c23230561a0f",
     "clienticon": "87edbd4a193a6483a8e6097ca309943f8847f33b",
     "clienttga": "748fd67522a7a674d07783224ada5d262125d644",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -145,9 +144,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759248000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3051490",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -161,6 +161,84 @@
       "9": "4840",
       "10": "4305",
       "11": "1684"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Petit Fabrik",
+    "publisher": "GameMill Entertainment",
+    "homepage": "https://gamemill.com/games/nicktoonsdiceofdestiny/",
+    "listofdlc": "3760300",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Nicktoons and The Dice of Destiny",
+    "launch": {
+      "0": {
+        "executable": "Dice.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3051491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8194836941797647931",
+          "size": "12807813146",
+          "download": "6118866000"
+        }
+      }
+    },
+    "3760300": {
+      "dlcappid": "3760300",
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7075045474953045266",
+          "size": "1262",
+          "download": "832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20118917",
+        "timeupdated": "1758899784"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "25",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Dice/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
