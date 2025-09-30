@@ -1,6 +1,5 @@
 {
   "appid": "4023620",
-  "public_only": "1",
   "common": {
     "name": "Celestial DEUS + Aleatores Palace",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "french": "1"
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759269714",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4023620",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "29482",
@@ -143,6 +143,89 @@
       "17": "3993",
       "18": "4252",
       "19": "4562"
+    }
+  },
+  "extended": {
+    "developer": "Batpolygon",
+    "publisher": "MadeByBatpolygon"
+  },
+  "config": {
+    "installdir": "Celestial DEUS + Aleatores Palace",
+    "launch": {
+      "0": {
+        "executable": "CelestialDeus.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows Start File"
+        },
+        "description": "Windows Start File"
+      },
+      "1": {
+        "executable": "CelestialDeus.sh",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Linux Start File"
+        },
+        "description": "Linux Start File"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4023621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8244579894648121378",
+          "size": "833504385",
+          "download": "589661776"
+        }
+      }
+    },
+    "4023622": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6792976907128376727",
+          "size": "613275195",
+          "download": "410970032"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20079902",
+        "timeupdated": "1758561007"
+      }
     }
   }
 }
