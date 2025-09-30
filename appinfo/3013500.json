@@ -1,6 +1,5 @@
 {
   "appid": "3013500",
-  "public_only": "1",
   "common": {
     "name": "Bunny Space Odyssey: FlopHop",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienticon": "c1db8291559ddfe45d7d208cd4e39bb1672b7dbe",
     "linuxclienticon": "57bb5456d7ea0662cfd54b283001e83b9307ba9b",
     "icon": "a5c6ec5b2d44e9049d019f223cb8533d6563f67e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759250988",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3013500",
-    "exfgls": "8",
     "store_tags": {
       "0": "5537",
       "1": "21",
@@ -143,5 +143,92 @@
       "13": "599",
       "14": "5379"
     }
+  },
+  "extended": {
+    "developer": "AinkOink",
+    "publisher": "AinkOink",
+    "homepage": "https://ainko.ink/",
+    "listofdlc": "3983460",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Bunny Space Odyssey FlopHop",
+    "launch": {
+      "0": {
+        "executable": "Bunny Space Odyssey FlopHop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Bunny Space Odyssey FlopHop.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3013501": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5714839982185105179",
+          "size": "303748532",
+          "download": "192408448"
+        }
+      }
+    },
+    "3013502": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7095536470849009658",
+          "size": "298339980",
+          "download": "189491728"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20177451",
+        "timeupdated": "1759170138"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".config/unity3d/AinkOink/Bunny Space Odyssey FlopHop/Saves"
+          }
+        }
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "AinkOink\\Bunny Space Odyssey FlopHop\\Saves",
+        "pattern": "*.dzyak"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
