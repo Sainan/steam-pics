@@ -1,6 +1,5 @@
 {
   "appid": "4070350",
-  "public_only": "1",
   "common": {
     "name": "Nitroglycerine! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "626d40c5ba7e98b5a9c8247b217558b5c9fd8e26/capsule_231x87.jpg"
@@ -52,5 +51,55 @@
     },
     "gameid": "4070350",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Avoidance",
+    "publisher": "Avoidance",
+    "homepage": "http://avoidance.studio/"
+  },
+  "config": {
+    "installdir": "Nitroglycerine! Demo",
+    "launch": {
+      "0": {
+        "executable": "NitroglycerineDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4070351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3973373656064168487",
+          "size": "1272805464",
+          "download": "676199824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20171557",
+        "timeupdated": "1759144362"
+      }
+    }
   }
 }
