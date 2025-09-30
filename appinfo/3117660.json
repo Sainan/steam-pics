@@ -1,6 +1,5 @@
 {
   "appid": "3117660",
-  "public_only": "1",
   "common": {
     "name": "绯红编年史 ~ Chronicle of Scarlet ~",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "28b27750a63171d41dad7e28b6c8bc4fa2fb8e19",
     "clienticon": "885cb9d24ca37b59f49d844d2e76ed377c40bbcd",
     "clienttga": "98f7e450248775528d5d5ed99f6201d5c62e1405",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -104,9 +103,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3117660",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "21",
@@ -126,6 +126,57 @@
       "15": "5984",
       "16": "3993",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Charge Piggy Studio",
+    "publisher": "WindField Games"
+  },
+  "config": {
+    "installdir": "Chronicle of Scarlet",
+    "launch": {
+      "0": {
+        "executable": "Chronicle of Scarlet/ChronicleOfScarlet.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3117661": {
+      "manifests": {
+        "public": {
+          "gid": "2532647228581086988",
+          "size": "1072863632",
+          "download": "980470000"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20180406",
+        "timeupdated": "1759187027"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "/Godot/app_userdata/Chronicle of Scarlet",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
