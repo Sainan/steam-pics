@@ -1,6 +1,5 @@
 {
   "appid": "3949430",
-  "public_only": "1",
   "common": {
     "name": "Farmer's Market",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -128,9 +127,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3949430",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -151,6 +151,58 @@
       "16": "8945",
       "17": "4182",
       "18": "492"
+    }
+  },
+  "extended": {
+    "developer": "Astra Develop",
+    "publisher": "Astra Develop"
+  },
+  "config": {
+    "installdir": "Farmer's Market",
+    "launch": {
+      "0": {
+        "executable": "Windows/FarmersMarket.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3949431": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7994795514611635933",
+          "size": "1319353679",
+          "download": "639620400"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20130661",
+        "timeupdated": "1758825368"
+      }
     }
   }
 }
