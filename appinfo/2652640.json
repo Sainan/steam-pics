@@ -1,6 +1,5 @@
 {
   "appid": "2652640",
-  "public_only": "1",
   "common": {
     "name": "SealChain: Call of Blood Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "咒印链接：鲜血的呼唤 Demo"
     },
@@ -136,5 +135,70 @@
     },
     "gameid": "2652640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AliveGameStudio",
+    "publisher": "AliveGameStudio"
+  },
+  "config": {
+    "installdir": "咒印链接 Demo",
+    "launch": {
+      "0": {
+        "executable": "Sealchain.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2652641": {
+      "manifests": {
+        "public": {
+          "gid": "6657594159303160462",
+          "size": "422394992",
+          "download": "80954320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197617",
+        "timeupdated": "1759275327"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "appidredirect": "2652600",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "AliveGameStudio/Sealchain",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "AliveGameStudio/Sealchain",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "MacAppSupport",
+        "path": "AliveGameStudio/Sealchain",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
