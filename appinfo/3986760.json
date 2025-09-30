@@ -6,7 +6,7 @@
     "parent": "3914200",
     "clienticon": "eb7d374673ee3e5b7504287c93b72c949df6b421",
     "icon": "eb7d374673ee3e5b7504287c93b72c949df6b421",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "name_localized": {
@@ -78,17 +78,32 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Game.app/Contents/MacOS/nwjs",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "3986761": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "2070716609506953545",
           "size": "250905738",
           "download": "130034432"
         }
+      }
+    },
+    "3986762": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
