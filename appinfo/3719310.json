@@ -7,9 +7,9 @@
     "icon": "976dedd82a12986f3c6763d32c09757721e6e517",
     "clienticon": "c13f75e1e4022d7bf7fd717a75d9693de9bb16a9",
     "clienttga": "a5251b3bffb1400e4517673cb416d104ffcc4ff7",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "releasestate": "released",
     "languages": {
       "english": "1"
@@ -223,6 +223,13 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "SpeedRivals.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -232,7 +239,6 @@
   "depots": {
     "3719311": {
       "config": {
-        "language": "english",
         "oslist": "windows",
         "osarch": "64"
       },
@@ -242,6 +248,12 @@
           "size": "871292295",
           "download": "375874736"
         }
+      }
+    },
+    "3719312": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
       }
     },
     "branches": {
