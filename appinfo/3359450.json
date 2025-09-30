@@ -1,10 +1,9 @@
 {
   "appid": "3359450",
-  "public_only": "1",
   "common": {
     "name": "Gravity Matters",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -108,7 +107,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3359450",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -126,6 +124,42 @@
       "13": "6971",
       "14": "3968",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Nixiesoft LLC",
+    "publisher": "Nixiesoft LLC",
+    "homepage": "https://nixiesoft.com/space/"
+  },
+  "config": {
+    "installdir": "Gravity Matters",
+    "launch": {
+      "0": {
+        "executable": "gravitymatters.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3359451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8144765418299203476",
+          "size": "101552640",
+          "download": "19995136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20191615",
+        "timeupdated": "1759245205"
+      }
     }
   }
 }
