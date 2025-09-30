@@ -1,6 +1,5 @@
 {
   "appid": "1803850",
-  "public_only": "1",
   "common": {
     "name": "Lock & Key: A Magical Girl Mystery",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "950c189d4ee330d8e45a49009519f26dc0cc6111",
     "linuxclienticon": "05b91c2ed261a8e3176672b6d690c15ddc553e4d",
     "clienticns": "f39dcd7014880dc52691e6ccfd53679906b883d7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -98,9 +97,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759251634",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1803850",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -114,6 +114,64 @@
       "6": "6971",
       "7": "1742",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Studio Élan",
+    "publisher": "Studio Élan",
+    "homepage": "https://vnstudioelan.com/"
+  },
+  "config": {
+    "installdir": "Lock & Key A Magical Girl Mystery",
+    "launch": {
+      "0": {
+        "executable": "LockandKey.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "LockandKey.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "LockandKey.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1803851": {
+      "manifests": {
+        "public": {
+          "gid": "2064989172759551036",
+          "size": "795749939",
+          "download": "663120448"
+        }
+      }
+    },
+    "4064720": {
+      "dlcappid": "4064720",
+      "manifests": {
+        "public": {
+          "gid": "7354324447785261990",
+          "size": "34524955",
+          "download": "32266656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20183697",
+        "timeupdated": "1759208017"
+      }
     }
   }
 }
