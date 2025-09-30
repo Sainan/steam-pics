@@ -1,6 +1,5 @@
 {
   "appid": "3868440",
-  "public_only": "1",
   "common": {
     "name": "HowlKraul",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -115,6 +114,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759269623",
     "community_hub_visible": "1",
     "gameid": "3868440",
     "exfgls": "3",
@@ -139,6 +139,51 @@
       "17": "4305",
       "18": "3993",
       "19": "3964"
+    }
+  },
+  "extended": {
+    "developer": "Konstkollektivet Studio",
+    "publisher": "Konstkollektivet Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "HowlKraul",
+    "launch": {
+      "0": {
+        "executable": "win-unpacked/howlkraul.exe",
+        "workingdir": "win-unpacked",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Game"
+        },
+        "description": "Launch Game"
+      }
+    }
+  },
+  "depots": {
+    "3868441": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4635182941477734912",
+          "size": "400447584",
+          "download": "210140768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19803632",
+        "timeupdated": "1756655219"
+      }
     }
   }
 }
