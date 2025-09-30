@@ -1,11 +1,10 @@
 {
   "appid": "3624130",
-  "public_only": "1",
   "common": {
     "name": "Master Lemon: The Quest for Iceland Demo",
     "type": "Demo",
     "parent": "3070390",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "2bcd00459ab3cff805ba24eb24f635b0114b59ec",
     "clienticon": "c3d2b69c2b37c89a6b408b729c88f163e8f44ec2",
     "oslist": "windows",
@@ -105,5 +104,75 @@
     },
     "gameid": "3624130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Pepita Digital",
+    "publisher": "Pepita Digital",
+    "homepage": "https://masterlemon.com"
+  },
+  "config": {
+    "installdir": "Master Lemon The Quest for Iceland Demo",
+    "launch": {
+      "0": {
+        "executable": "master-lemon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3624131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8948508952884363410",
+          "size": "1450163925",
+          "download": "1304662608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20189314",
+        "timeupdated": "1759235653"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "7",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Pepita Digital/master-lemon/{Steam3AccountID}",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Pepita Digital/master-lemon/{Steam3AccountID}",
+            "replace": "com.Pepita-Digital.master-lemon/{Steam3AccountID}"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
+    },
+    "appidredirect": "3070390"
   }
 }
