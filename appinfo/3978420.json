@@ -1,10 +1,9 @@
 {
   "appid": "3978420",
-  "public_only": "1",
   "common": {
     "name": "Doom 3: Phobos",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "39a3e7080d5f092d77d25c22a4c1fa43ada90400",
     "clienticon": "fab3164fdeaf904009d4d0f30cd781a7261003f4",
     "oslist": "windows",
@@ -137,6 +136,46 @@
       "17": "5984",
       "18": "5716",
       "19": "1662"
+    }
+  },
+  "extended": {
+    "mustownapptopurchase": "208200",
+    "developer": "Team Future",
+    "publisher": "Team Future",
+    "homepage": "https://tfuture.org/phobos/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Doom 3",
+    "launch": {
+      "0": {
+        "executable": "Doom3PhobosLauncher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3978421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5881769409111720587",
+          "size": "3286038258",
+          "download": "2962780960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20089193",
+        "timeupdated": "1758613066"
+      }
     }
   }
 }
