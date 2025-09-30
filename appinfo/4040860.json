@@ -1,6 +1,5 @@
 {
   "appid": "4040860",
-  "public_only": "1",
   "common": {
     "name": "Chess With Idiots Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b33b1bb680cf4a5a79b611f915bbd2edccf95a51/capsule_231x87.jpg"
@@ -48,7 +47,40 @@
       "category_76": "1",
       "category_78": "1"
     },
+    "steam_release_date": "1759257467",
     "gameid": "4040860",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Skeletons With Jobs",
+    "publisher": "Skeletons With Jobs"
+  },
+  "config": {
+    "installdir": "ChessWithIdiotsDemo",
+    "launch": {
+      "0": {
+        "executable": "ChessWithIdiots.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040861": {
+      "manifests": {
+        "public": {
+          "gid": "302468703441915499",
+          "size": "1630429168",
+          "download": "527996880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20194432",
+        "timeupdated": "1759257407"
+      }
+    }
   }
 }
