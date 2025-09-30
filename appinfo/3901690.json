@@ -1,0 +1,125 @@
+{
+  "appid": "3901690",
+  "common": {
+    "name": "Coup d'Koala Demo",
+    "type": "Demo",
+    "parent": "3850090",
+    "icon": "acb973ae7fd303bed0ce0ade7357a1f30f3f31e3",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "91cbe7515f2677c117da2258777e172abb10ab05",
+    "clienttga": "fb20bb1eb993995d25cce9cf0a4e6291f3893506",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "09dceedbc00e5322faf8a20a0c32120f852ed899/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "e3a3f5e0ed1ab00c701cde86540e37f202bb94c2/header.jpg"
+    },
+    "store_asset_mtime": "1759276345",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Victor Liu"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Victor Liu"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1753409920",
+    "gameid": "3901690",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Victor Liu",
+    "publisher": "Victor Liu"
+  },
+  "config": {
+    "installdir": "Coup d'Koala Demo",
+    "launch": {
+      "0": {
+        "executable": "Coup d'Koala.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3901691": {
+      "manifests": {
+        "public": {
+          "gid": "2188861397407031261",
+          "size": "411753671",
+          "download": "88957552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19323606",
+        "timeupdated": "1753241919"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "3850090",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "VictorLiu/Coup d'Koala",
+        "pattern": "*.json"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "VictorLiu/Coup d'Koala",
+        "pattern": "*.settings",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "VictorLiu/Coup d'Koala",
+            "replace": "VictorLiu/Coup d'Koala"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "VictorLiu/Coup d'Koala",
+            "replace": ".config/unity2d/VictorLiu/Coup d'Koala"
+          }
+        }
+      }
+    }
+  }
+}
