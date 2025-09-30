@@ -1,6 +1,5 @@
 {
   "appid": "3880030",
-  "public_only": "1",
   "common": {
     "name": "Gangsters in Love",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "a774d6fa114f0e1b04965d5658c34d9f08fda0c5",
     "clienticon": "23b8be7e88a85d6131fec445967554ceb9e0a809",
     "icon": "0aec8f29dedd9207c181baddb2f816fc8da86cb1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -111,7 +110,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3880030",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -129,6 +127,56 @@
       "9": "4085",
       "10": "5984",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "UNICO INC.",
+    "publisher": "Voltage Inc."
+  },
+  "config": {
+    "installdir": "gangstersinlove",
+    "launch": {
+      "0": {
+        "executable": "gangstersinlove.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3880031": {
+      "manifests": {
+        "public": {
+          "gid": "1301403375679008121",
+          "size": "1418980369",
+          "download": "1085466176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19422066",
+        "timeupdated": "1753925164"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "27000000",
+    "maxnumfiles": "210",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Voltage\\gangstersinlove",
+        "pattern": "*.dat"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Voltage\\gangstersinlove\\NaninovelData\\Saves",
+        "pattern": "*"
+      }
     }
   }
 }
