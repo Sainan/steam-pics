@@ -29,14 +29,26 @@
       "latam": "1"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1757980800",
-      "tested_build_id": "19948787",
+      "test_timestamp": "1759190400",
+      "tested_build_id": "20134964",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       },
       "steamos_tests": {
