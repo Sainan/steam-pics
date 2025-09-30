@@ -1,4 +1,92 @@
 {
   "appid": "3932960",
-  "public_only": "1"
+  "common": {
+    "name": "HELIX Dedicated Server",
+    "type": "Tool",
+    "parent": "2594840",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "851de755f00f6a9864163e98d3a14c5d80cd030d",
+    "clienticon": "851de755f00f6a9864163e98d3a14c5d80cd030d",
+    "releasestate": "released",
+    "gameid": "3932960"
+  },
+  "config": {
+    "installdir": "HELIX Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "SandboxServer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3932961": {
+      "manifests": {
+        "public": {
+          "gid": "4197789874036790511",
+          "size": "5654765895",
+          "download": "2625775680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20069859",
+        "timeupdated": "1758714838"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
