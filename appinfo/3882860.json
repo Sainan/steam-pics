@@ -1,6 +1,5 @@
 {
   "appid": "3882860",
-  "public_only": "1",
   "common": {
     "name": "I Am A Stick",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "00899a8d42a573ae01e1dd95feed3fbbf1621da9",
     "clienticon": "c82545ca6229ea91be03163fe625ddbad820b80d",
     "clienttga": "cd178f7a15de42605982b203e2f0cb40d383ddd9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759254169",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3882860",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "3877",
@@ -124,6 +124,57 @@
       "7": "1719",
       "8": "492",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "CYCLOPS GAMES",
+    "publisher": "CYCLOPS GAMES"
+  },
+  "config": {
+    "installdir": "I_AM_A_STICK_Win",
+    "launch": {
+      "0": {
+        "executable": "I AM A STICK.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Prototype version ready for checking"
+        },
+        "description": "Prototype version ready for checking"
+      }
+    }
+  },
+  "depots": {
+    "3882861": {
+      "manifests": {
+        "public": {
+          "gid": "4643038658092033381",
+          "size": "684815412",
+          "download": "382098192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20170240",
+        "timeupdated": "1759138478"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CyclopsGames\\I AM A STICK\\*.json",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
