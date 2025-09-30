@@ -1,6 +1,5 @@
 {
   "appid": "4052700",
-  "public_only": "1",
   "common": {
     "name": "Kill Ralph Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "clienticns": "ad890a7f41369cddf5d7141b15a41e8e22ea9764",
     "linuxclienticon": "ad890a7f41369cddf5d7141b15a41e8e22ea9764",
     "clienticon": "e85e78eb58a35e944991332d7ca5befc0639aa38",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,11 +109,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759201840",
     "gameid": "4052700",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Andrii Tuzenko",
+    "publisher": "Andrii Tuzenko"
+  },
+  "config": {
+    "installdir": "Kill Ralph Demo",
+    "launch": {
+      "0": {
+        "executable": "KillRalphDemo-pc/KillRalphDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4052701": {
+      "manifests": {
+        "public": {
+          "gid": "35354445736773443",
+          "size": "651079737",
+          "download": "579689424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20143173",
+        "timeupdated": "1758894295"
+      }
     }
   }
 }
