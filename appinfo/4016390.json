@@ -1,6 +1,5 @@
 {
   "appid": "4016390",
-  "public_only": "1",
   "common": {
     "name": "Breaking Enigma",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757278374",
+    "store_asset_mtime": "1757674662",
     "associations": {
       "0": {
         "type": "developer",
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1758789713",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4016390",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -125,6 +125,176 @@
       "7": "492",
       "8": "3968",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Alphanu Game Studios",
+    "publisher": "Alphanu Game Studios",
+    "homepage": "https://alphanugamestudios.co.uk/"
+  },
+  "config": {
+    "installdir": "Breaking Enigma",
+    "launch": {
+      "0": {
+        "executable": "Be.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BE.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Breaking Enigma.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      },
+      "1": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4016391": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7986075795250970060",
+          "size": "318889392",
+          "download": "93574688"
+        },
+        "beta": {
+          "gid": "7986075795250970060",
+          "size": "318889392",
+          "download": "93574688"
+        },
+        "test": {
+          "gid": "7986075795250970060",
+          "size": "318889392",
+          "download": "93574688"
+        }
+      }
+    },
+    "4016392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8789408823399337272",
+          "size": "338417728",
+          "download": "103734528"
+        },
+        "beta": {
+          "gid": "8789408823399337272",
+          "size": "338417728",
+          "download": "103734528"
+        },
+        "test": {
+          "gid": "8789408823399337272",
+          "size": "338417728",
+          "download": "103734528"
+        }
+      }
+    },
+    "4016393": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4253767877723466139",
+          "size": "325082244",
+          "download": "96733696"
+        },
+        "beta": {
+          "gid": "4253767877723466139",
+          "size": "325082244",
+          "download": "96733696"
+        },
+        "test": {
+          "gid": "4253767877723466139",
+          "size": "325082244",
+          "download": "96733696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20061438",
+        "timeupdated": "1758395859"
+      },
+      "beta": {
+        "buildid": "20061438",
+        "description": "beta",
+        "timeupdated": "1758395850"
+      },
+      "test": {
+        "buildid": "20061438",
+        "description": "test",
+        "timeupdated": "1758395838"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".config/unity3d/Alphanu Games Studios/Breaking Enigma/",
+        "pattern": "*.save"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": ".config/unity3d/Alphanu Games Studios/Breaking Enigma/",
+            "replace": "Alphanu Games Studios/Breaking Enigma/"
+          }
+        }
+      },
+      "1": {
+        "root": "LinuxHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": ".config/unity3d/Alphanu Games Studios/Breaking Enigma/",
+            "replace": "Library/Application Support/com.Alphanu-Games-Studios.Breaking-Enigma/"
+          }
+        }
+      }
     }
   }
 }
