@@ -1,13 +1,12 @@
 {
   "appid": "4065960",
-  "public_only": "1",
   "common": {
     "name": "Mumble Pines: The Arrival Demo",
     "type": "Demo",
     "parent": "3567020",
     "clienticon": "e567df6cf5fae972a4f25cc360c22304e63beede",
     "icon": "e567df6cf5fae972a4f25cc360c22304e63beede",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -47,11 +46,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759242919",
     "gameid": "4065960",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "DinoNuggetStudios",
+    "publisher": "DinoNuggetStudios"
+  },
+  "config": {
+    "installdir": "Mumble Pines The Arrival Demo",
+    "launch": {
+      "0": {
+        "executable": "MumblePines.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4065961": {
+      "manifests": {
+        "public": {
+          "gid": "5733235423216896825",
+          "size": "14935939345",
+          "download": "8395118224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20176436",
+        "timeupdated": "1759165216"
+      }
     }
   }
 }
