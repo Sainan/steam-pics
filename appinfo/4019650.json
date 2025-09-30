@@ -1,6 +1,5 @@
 {
   "appid": "4019650",
-  "public_only": "1",
   "common": {
     "name": "retrospect Demo",
     "type": "Demo",
@@ -19,7 +18,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "a123dc597016ee85ed908d5e452ca1bd660a9402",
     "clienticns": "ce3bbe10fc62b20418547333f1bb188e23121071",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -120,10 +119,56 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4019650",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "pankuzufactory",
+    "publisher": "pankuzufactory",
+    "homepage": "https://pankuzufactory.com/"
+  },
+  "config": {
+    "installdir": "retrospect Demo",
+    "launch": {
+      "0": {
+        "executable": "retrospect_game/retrospect_demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "retrospect_game/retrospect_demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4019651": {
+      "config": {
+        "oslist": "windows,macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6324550692250584312",
+          "size": "239058143",
+          "download": "115412160"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20175083",
+        "timeupdated": "1759159455"
+      }
     }
   }
 }
