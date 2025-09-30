@@ -1,6 +1,5 @@
 {
   "appid": "3655390",
-  "public_only": "1",
   "common": {
     "name": "Alien: Rogue Incursion Evolved Edition",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "7f1b11a58e36d7127fb66eccdeff6895ac885db6",
     "clienticon": "534508ef883df392a99d85e1043ee41170fdc052",
     "clienttga": "00a6204ee147a03cd36c3709647b714b981d1ad8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -227,9 +226,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759248014",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3655390",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -255,6 +255,69 @@
       "17": "4182",
       "18": "4700",
       "19": "4345"
+    }
+  },
+  "extended": {
+    "developer": "Survios",
+    "publisher": "Survios",
+    "homepage": "https://alienrogueincursion.com/"
+  },
+  "config": {
+    "installdir": "AlienRogueIncursionEE",
+    "launch": {
+      "0": {
+        "executable": "Midnight.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3655391": {
+      "manifests": {
+        "public": {
+          "gid": "7017275189202535482",
+          "size": "21025769171",
+          "download": "20286375344"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,schinese,tchinese,russian,japanese,polish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20147338",
+        "timeupdated": "1758935620"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Alien Rogue Incursion Evolved Edition\\Saved\\SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
