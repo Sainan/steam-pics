@@ -1,6 +1,5 @@
 {
   "appid": "3850630",
-  "public_only": "1",
   "common": {
     "name": "CODE::LUX",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -113,6 +112,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759235517",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3850630",
     "exfgls": "3",
@@ -129,6 +130,55 @@
       "9": "1742",
       "10": "6426",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "すやすやファクトリー",
+    "publisher": "すやすやファクトリー",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "CODE_LUX",
+    "launch": {
+      "0": {
+        "executable": "CODE_LUX/CODE_LUX.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3850631": {
+      "manifests": {
+        "public": {
+          "gid": "7438572124362084934",
+          "size": "241562183",
+          "download": "150170112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20189052",
+        "timeupdated": "1759234458"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SuyaSuyaFactory/CODE_LUX",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
