@@ -7,7 +7,7 @@
     "icon": "0955613974ada23fcec91fe2595afc423433eaa2",
     "clienttga": "23a91e8943fc26deee265e4c5247d480d0dea9d5",
     "clienticon": "361d39cadc0ff2f2fc2f7bd7d96acba2946c7c18",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -80,12 +80,24 @@
     "installdir": "HARD VOID Demo",
     "launch": {
       "0": {
-        "executable": "hardvoid.exe"
+        "executable": "hardvoid.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "hardvoid",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
   "depots": {
     "3825501": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "4115873270203398039",
@@ -102,6 +114,11 @@
           "size": "125776598",
           "download": "82983520"
         }
+      }
+    },
+    "3825502": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
