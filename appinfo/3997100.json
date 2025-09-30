@@ -6,9 +6,9 @@
     "parent": "3345680",
     "icon": "a3311a5af955b2d1c0b704912aadb10357bcb13f",
     "clienticon": "97e6b07464f5a1129bc4cf4768e2cfa4ae924b4b",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "releasestate": "released",
     "small_capsule": {
       "english": "7201783066022ae1b013e578b2394a1944778370/capsule_231x87.jpg"
@@ -92,6 +92,13 @@
         "executable": "ReSpinDieRepeat.exe",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ReSpinDieRepeat.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
