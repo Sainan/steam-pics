@@ -1,6 +1,5 @@
 {
   "appid": "4039060",
-  "public_only": "1",
   "common": {
     "name": "Summoner's Pieces Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "clienticon": "08867a607c26ecd951f12657c4f1e12808390850",
     "icon": "f2a3aa6f7978d4b95b7a894c052ebe2a39047ebe",
     "clienticns": "ef1ac3c637c8668409d681e2a1f7b92ddfaa08aa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -168,5 +167,64 @@
     },
     "gameid": "4039060",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "flow Inc.",
+    "publisher": "flow Inc.",
+    "homepage": "https://flowgdd.com/summon/"
+  },
+  "config": {
+    "installdir": "SummonersPiecesDemo",
+    "launch": {
+      "0": {
+        "executable": "Summoner's Pieces Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SummonersPiecesDemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4039062": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8508915992942046289",
+          "size": "487047072",
+          "download": "129574544"
+        }
+      }
+    },
+    "4039063": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7693794652620099856",
+          "size": "380269304",
+          "download": "102576464"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20181570",
+        "timeupdated": "1759193817"
+      }
+    }
   }
 }
