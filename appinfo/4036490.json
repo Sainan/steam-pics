@@ -1,4 +1,59 @@
 {
   "appid": "4036490",
-  "public_only": "1"
+  "common": {
+    "name": "Kamikaze Strike: FPV Drone Demo",
+    "type": "Demo",
+    "parent": "3902740",
+    "clienticon": "ee794c4d74e7d8c371d87d53244d7c026f63521e",
+    "icon": "ee794c4d74e7d8c371d87d53244d7c026f63521e",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4036490",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Kamikaze Strike FPV Drone Demo",
+    "launch": {
+      "0": {
+        "executable": "KamikazeStrike.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4036491": {
+      "manifests": {
+        "public": {
+          "gid": "6073252422321376528",
+          "size": "5144346606",
+          "download": "4917273040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20192233",
+        "timeupdated": "1759247789"
+      }
+    }
+  }
 }
