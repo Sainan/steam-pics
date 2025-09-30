@@ -1,6 +1,5 @@
 {
   "appid": "3463750",
-  "public_only": "1",
   "common": {
     "name": "Escape: The Research Center",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "8aa33848c48858fbb8647ffb6ce232b9c3dfefeb",
     "clienttga": "cfb4bf9310fd700e12dbad8d005274258e0e1acb",
     "clienticon": "bce7a78ccfdc1aa3d85bb3866c42d1959248bdf1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -104,9 +103,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759235039",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3463750",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1664",
@@ -122,5 +122,45 @@
       "11": "5673",
       "12": "4191"
     }
+  },
+  "extended": {
+    "developer": "Woodcrest Games, LLC",
+    "publisher": "Woodcrest Games, LLC"
+  },
+  "config": {
+    "installdir": "Escape The Research Center",
+    "launch": {
+      "0": {
+        "executable": "Escape-Laboratory.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3463751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "68754013725186623",
+          "size": "2363986123",
+          "download": "795168736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20163237",
+        "timeupdated": "1759081169"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "3"
   }
 }
