@@ -59,15 +59,9 @@
   "config": {
     "installdir": "Outhold Demo",
     "launch": {
-      "0": {
-        "executable": "windows/windows.exe",
-        "config": {
-          "oslist": "windows"
-        }
-      },
       "1": {
-        "executable": "windows/windows.exe",
-        "arguments": "--rendering-driver opengl3",
+        "executable": "windows/outhold_windows_demo.exe",
+        "type": "default",
         "config": {
           "oslist": "windows"
         },
@@ -76,27 +70,23 @@
         },
         "description": "Compatibility Mode (OpenGL3) - Use this on older systems, if the above launch option crashes or performs badly"
       },
-      "2": {
-        "executable": "mac_os.app",
-        "config": {
-          "oslist": "macos"
-        }
-      },
       "3": {
         "executable": "outhold_demo.app",
         "type": "default",
         "config": {
-          "oslist": "macos",
-          "betakey": "testing"
+          "oslist": "macos"
         }
       },
       "4": {
         "executable": "windows/outhold_windows_demo.exe",
-        "type": "default",
+        "arguments": "--rendering-driver opengl3",
         "config": {
-          "oslist": "windows",
-          "betakey": "testing"
-        }
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode (OpenGL3) - Use this on older systems, if the above launch option crashes or performs badly"
+        },
+        "description": "Compatibility Mode (OpenGL3) - Use this on older systems, if the above launch option crashes or performs badly"
       }
     }
   },
@@ -107,9 +97,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "6654764952509433551",
-          "size": "104810332",
-          "download": "35139184"
+          "gid": "1451593150585144767",
+          "size": "120131716",
+          "download": "42555776"
         }
       }
     },
@@ -119,16 +109,16 @@
       },
       "manifests": {
         "public": {
-          "gid": "8032970531163114132",
-          "size": "187763407",
-          "download": "56967392"
+          "gid": "1431940022786435295",
+          "size": "231211319",
+          "download": "71431152"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "19853330",
-        "timeupdated": "1756978521"
+        "buildid": "20189318",
+        "timeupdated": "1759237071"
       }
     },
     "privatebranches": "1"
