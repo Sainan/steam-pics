@@ -1,6 +1,5 @@
 {
   "appid": "3807480",
-  "public_only": "1",
   "common": {
     "name": "Harold Rabbit 2: The Case of the Pastry Pirate",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5d740c39f0333dcae2ef0666c82ea76463e5ef6c/capsule_231x87.jpg"
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3807480",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -126,6 +125,53 @@
       "16": "1742",
       "17": "4182",
       "18": "492"
+    }
+  },
+  "extended": {
+    "developer": "Fasold Publishing",
+    "publisher": "Fasold Publishing",
+    "homepage": "https://www.fasoldpublishing.com/"
+  },
+  "config": {
+    "installdir": "Harold Rabbit 2 The Case of the Pastry Pirate",
+    "launch": {
+      "0": {
+        "executable": "HaroldRabbit2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3807481": {
+      "manifests": {
+        "public": {
+          "gid": "5878446309087406321",
+          "size": "288301342",
+          "download": "259421360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20169958",
+        "timeupdated": "1759136929"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "50",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
