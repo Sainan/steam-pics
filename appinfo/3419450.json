@@ -1,10 +1,9 @@
 {
   "appid": "3419450",
-  "public_only": "1",
   "common": {
     "name": "Who Trained the Hero? -Spin of Fate-",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "c3f2bcabdc112aaf0f1047ca887f542008e34d83",
     "clienticon": "076aafb755e5ea72c004227792aad8c7c2e30509",
     "clienttga": "d89e9ad147bc8e1e820b7297c3d7de0d5ce0f037",
@@ -183,9 +182,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759193929",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3419450",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "1091588",
@@ -207,6 +207,52 @@
       "17": "6276",
       "18": "4325",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Game Studio Inc.",
+    "publisher": "0UP GAMES"
+  },
+  "config": {
+    "installdir": "WhoTrainedTheHero",
+    "launch": {
+      "0": {
+        "executable": "WhoTrainedTheHero.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3419451": {
+      "manifests": {
+        "public": {
+          "gid": "1067264160530554058",
+          "size": "197506427",
+          "download": "100332544"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19865995",
+        "timeupdated": "1757048906"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "16384",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GameStudioInc_/WhoTrainedTheHero/{64BitSteamID}/savedata",
+        "pattern": "*.pack",
+        "recursive": "1"
+      }
     }
   }
 }
