@@ -1,6 +1,5 @@
 {
   "appid": "3885560",
-  "public_only": "1",
   "common": {
     "name": "Monkey Jump Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "f9cb21428acc59259f3e02524538365e02d48bcf",
     "clienttga": "810e96955b6d9cc198229358b95296f9d3d6c3f3",
     "clienticon": "946564256388c83052bc5118b9494867132e4587",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -115,5 +114,53 @@
     },
     "gameid": "3885560",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Echo Forge",
+    "publisher": "Echo Forge"
+  },
+  "config": {
+    "installdir": "Windows",
+    "launch": {
+      "0": {
+        "executable": "MonkeyJump.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3885561": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7700859094522273848",
+          "size": "466810069",
+          "download": "334901616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20194699",
+        "timeupdated": "1759259045"
+      }
+    }
   }
 }
