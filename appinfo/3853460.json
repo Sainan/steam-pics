@@ -145,19 +145,23 @@
       "0": {
         "root": "WinAppDataRoaming",
         "path": "LexiRogue/CloudSync",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1"
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
       },
       "1": {
-        "root": "MacAppSupport",
-        "path": "LexiRogue/CloudSync",
-        "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        }
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
       }
     }
   }
