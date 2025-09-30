@@ -1,6 +1,5 @@
 {
   "appid": "3748490",
-  "public_only": "1",
   "common": {
     "name": "Fields of Fortune Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "3aad97ed4a4afd85dae8e7c7277a23550972274c",
     "clienttga": "3e30379a653122f2a4a009dac80faa7ab9fbc1de",
     "clienticon": "09e231b0d1b5e91a104f62408653f588f8e2afe6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -113,7 +112,54 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759240823",
     "gameid": "3748490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "UC Studios",
+    "publisher": "UC Studios",
+    "homepage": "https://www.ucstudios.de"
+  },
+  "config": {
+    "installdir": "Fields of Fortune Demo",
+    "launch": {
+      "0": {
+        "executable": "Fields of Fortune.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3748491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "769346322982302190",
+          "size": "80811212",
+          "download": "57222384"
+        },
+        "beta": {
+          "gid": "1284145779214779475",
+          "size": "78730828",
+          "download": "56009808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20160939",
+        "timeupdated": "1759055192"
+      },
+      "beta": {
+        "buildid": "19276494",
+        "description": "Beta-Test",
+        "timeupdated": "1752850743"
+      }
+    }
   }
 }
