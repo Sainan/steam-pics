@@ -140,11 +140,15 @@
         }
       },
       "1": {
-        "executable": "MasterPlan.app",
+        "executable": "MasterPlan-x86-64.app",
         "type": "default",
         "config": {
           "oslist": "macos"
-        }
+        },
+        "description_loc": {
+          "english": "Intel version of MasterPlan"
+        },
+        "description": "Intel version of MasterPlan"
       },
       "2": {
         "executable": "MasterPlan",
@@ -153,14 +157,24 @@
           "oslist": "linux",
           "osarch": "64"
         }
+      },
+      "3": {
+        "executable": "MasterPlan-arm64.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "ARM64 version of MasterPlan"
+        },
+        "description": "ARM64 version of MasterPlan"
       }
     }
   },
   "depots": {
     "1269311": {
       "config": {
-        "oslist": "windows",
-        "language": ""
+        "oslist": "windows"
       },
       "manifests": {
         "public": {
@@ -177,8 +191,7 @@
     },
     "1269312": {
       "config": {
-        "oslist": "macos",
-        "language": ""
+        "oslist": "macos"
       },
       "manifests": {
         "public": {
@@ -195,8 +208,7 @@
     },
     "1269313": {
       "config": {
-        "oslist": "linux",
-        "language": ""
+        "oslist": "linux"
       },
       "manifests": {
         "public": {
