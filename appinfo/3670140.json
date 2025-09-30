@@ -1,6 +1,5 @@
 {
   "appid": "3670140",
-  "public_only": "1",
   "common": {
     "name": "Godzilla x Kong: Titan Chasers",
     "type": "Game",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8c6ee9cdb36d95b7a8234534fccdebd707a37199/capsule_231x87.jpg"
@@ -144,6 +143,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759222803",
     "community_hub_visible": "1",
     "gameid": "3670140",
     "exfgls": "3",
@@ -166,5 +166,66 @@
       "15": "3859",
       "16": "1708"
     }
+  },
+  "extended": {
+    "developer": "Hunted Cow Games",
+    "publisher": "Tilting Point",
+    "homepage": "https://www.gxktitanchasers.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Godzilla x Kong Titan Chasers",
+    "launch": {
+      "0": {
+        "executable": "GxKTitanChasers.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "GxKTitanChasers.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3670141": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4639575095663895621",
+          "size": "266006253",
+          "download": "141612128"
+        }
+      }
+    },
+    "3670142": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6302456266657664924",
+          "size": "466646722",
+          "download": "177913840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20176813",
+        "timeupdated": "1759170081"
+      }
+    },
+    "privatebranches": "1"
   }
 }
