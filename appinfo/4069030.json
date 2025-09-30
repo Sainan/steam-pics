@@ -1,4 +1,161 @@
 {
   "appid": "4069030",
-  "public_only": "1"
+  "common": {
+    "name": "stall Demo",
+    "type": "Demo",
+    "parent": "3737110",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "bbdba624dca59dece0efcfb3eb89781b6505f7e4",
+    "icon": "bbdba624dca59dece0efcfb3eb89781b6505f7e4",
+    "linuxclienticon": "8cca3707d074c2759c71105a281e78c6d0fda20e",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "0adf3fa91dbf0826df3136cfeb6087c191cd78c3/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "7c819a3f80de675497e9af9ce87eca1957fe4093/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "80.42959316391708",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "1b4f9a124a98119bfd2f08d3416482e04f7f13fd/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "1b4f9a124a98119bfd2f08d3416482e04f7f13fd/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "f063253c7324f9cad206e89d052a0a003c6ac0ee/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "f063253c7324f9cad206e89d052a0a003c6ac0ee/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "f063253c7324f9cad206e89d052a0a003c6ac0ee/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "2e0094a0986390c64e826839069f95b926eacc5d/logo.png"
+        },
+        "image2x": {
+          "english": "2e0094a0986390c64e826839069f95b926eacc5d/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "80.42959316391708",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "7c819a3f80de675497e9af9ce87eca1957fe4093/library_header.jpg"
+        },
+        "image2x": {
+          "english": "7c819a3f80de675497e9af9ce87eca1957fe4093/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759163706",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "miaow games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "miaow games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_37": "1",
+      "category_24": "1",
+      "category_44": "1",
+      "category_74": "1",
+      "category_75": "1"
+    },
+    "gameid": "4069030",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "miaow games",
+    "publisher": "miaow games"
+  },
+  "config": {
+    "installdir": "stall Demo",
+    "launch": {
+      "0": {
+        "executable": "stall.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "stall",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4069031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2068553613465812534",
+          "size": "106284396",
+          "download": "37909968"
+        }
+      }
+    },
+    "4069032": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6411834635645180327",
+          "size": "81389276",
+          "download": "31425168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20159202",
+        "timeupdated": "1759031419"
+      }
+    }
+  }
 }
