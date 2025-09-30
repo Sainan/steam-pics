@@ -1,6 +1,5 @@
 {
   "appid": "3769380",
-  "public_only": "1",
   "common": {
     "name": "Spectator 3",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienttga": "7dfae0868156ab4eb08f6a604cb8f64e4af8fbb6",
     "clienticon": "6ca439bab16eb119a0a8c25e9b721b29345e1596",
     "clienticns": "6ca439bab16eb119a0a8c25e9b721b29345e1596",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -196,9 +195,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759258080",
     "community_hub_visible": "1",
     "gameid": "3769380",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -221,6 +220,51 @@
       "14": "5125",
       "15": "6730",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Neko Machine",
+    "publisher": "Neko Machine",
+    "homepage": "https://store.steampowered.com/search/?developer=Neko%20Machine"
+  },
+  "config": {
+    "installdir": "Spectator 3",
+    "launch": {
+      "0": {
+        "executable": "Spectator 3.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3769381": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5940675953619576086",
+          "size": "4596331669",
+          "download": "2534609984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20194549",
+        "timeupdated": "1759258111"
+      }
     }
   }
 }
