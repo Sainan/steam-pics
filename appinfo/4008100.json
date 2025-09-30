@@ -1,6 +1,5 @@
 {
   "appid": "4008100",
-  "public_only": "1",
   "common": {
     "name": "Backfire Brigade Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -81,5 +80,51 @@
     },
     "gameid": "4008100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Pierre Nury",
+    "publisher": "Pierre Nury"
+  },
+  "config": {
+    "installdir": "Backfire Brigade Demo",
+    "launch": {
+      "0": {
+        "executable": "BackfireBrigade.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4008101": {
+      "manifests": {
+        "public": {
+          "gid": "4434392072066788601",
+          "size": "832946819",
+          "download": "517101888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20185318",
+        "timeupdated": "1759218616"
+      }
+    }
   }
 }
