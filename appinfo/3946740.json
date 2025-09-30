@@ -1,12 +1,11 @@
 {
   "appid": "3946740",
-  "public_only": "1",
   "common": {
     "name": "Syrup and the Ultimate Sweet",
     "type": "Game",
     "icon": "20963cd71ed4301897e7374cd76b2d565e527e47",
     "clienticon": "e24fc54a2950f57f311aaa33d871f6db41080768",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "",
@@ -216,9 +215,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759258809",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3946740",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -243,6 +243,68 @@
       "16": "1684",
       "17": "4057",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "NomnomNami",
+    "publisher": "NomnomNami",
+    "homepage": "https://nomnomnami.com/",
+    "gamemanualurl": "https://store.steampowered.com/manual/3946740/"
+  },
+  "config": {
+    "installdir": "Syrup and the Ultimate Sweet",
+    "launch": {
+      "0": {
+        "executable": "syrup.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "syrup.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "syrup.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3946741": {
+      "manifests": {
+        "public": {
+          "gid": "1150776785739502812",
+          "size": "243252416",
+          "download": "116199792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20194522",
+        "timeupdated": "1759257899"
+      }
     }
   }
 }
