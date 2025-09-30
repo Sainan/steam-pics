@@ -1,6 +1,5 @@
 {
   "appid": "3926460",
-  "public_only": "1",
   "common": {
     "name": "星舰骰（Starship Dice） Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,7 +100,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3926460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "黄金喵",
+    "publisher": "黄金喵"
+  },
+  "config": {
+    "installdir": "SpaceShipDemo",
+    "launch": {
+      "0": {
+        "executable": "SpaceShipDemo\\SpaceShip.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3926461": {
+      "manifests": {
+        "public": {
+          "gid": "2979238958137907159",
+          "size": "2659132606",
+          "download": "1969446672"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20188400",
+        "timeupdated": "1759231607"
+      }
+    }
   }
 }
