@@ -81,6 +81,21 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "3": {
+        "executable": "outhold_macos",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "testing"
+        }
+      },
+      "4": {
+        "executable": "windows/Outhold.exe",
+        "type": "default",
+        "config": {
+          "betakey": "testing"
+        }
       }
     }
   },
@@ -120,13 +135,11 @@
   "ufs": {
     "quota": "200000",
     "maxnumfiles": "10",
-    "ignoreexternalfiles": "1",
-    "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "WinAppDataRoaming",
         "path": "Godot/app_userdata/Outhold",
-        "pattern": "*.cfg"
+        "pattern": "save_data.cfg"
       }
     },
     "rootoverrides": {
