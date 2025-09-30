@@ -1,6 +1,5 @@
 {
   "appid": "3975420",
-  "public_only": "1",
   "common": {
     "name": "Dark Light: Survivor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "e08ca8a73ba53aa47f9adf6f939f84e4d6fad90a",
     "clienticon": "e08ca8a73ba53aa47f9adf6f939f84e4d6fad90a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -95,7 +94,76 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3975420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mirari&amp;Co.",
+    "publisher": "Mirari&amp;Co.",
+    "homepage": "https://www.darklight-game.com/"
+  },
+  "config": {
+    "installdir": "Dark Light Survivor Demo",
+    "launch": {
+      "0": {
+        "executable": "DLS\\DLS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DLS\\DLS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "internaldebug"
+        },
+        "description_loc": {
+          "english": "test"
+        },
+        "description": "test"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3975421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6346258337960992733",
+          "size": "10772327988",
+          "download": "6312647968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20122857",
+        "timeupdated": "1758798541"
+      }
+    },
+    "privatebranches": "1"
   }
 }
