@@ -1,6 +1,5 @@
 {
   "appid": "3594150",
-  "public_only": "1",
   "common": {
     "name": "大荒 Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "icon": "90e258e35e3a80556b0e100484d079f35a34b4d1",
     "clienticon": "2f29057637cfd37903db43f27b30f229e10c9588",
     "clienttga": "d0350592ce9eb06f14a46d94afac64a648adf017",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -59,7 +58,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3594150",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "大荒游戏",
+    "publisher": "大荒游戏"
+  },
+  "config": {
+    "installdir": "The Great Wastes Demo",
+    "launch": {
+      "0": {
+        "executable": "TheGreatWastesDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3594151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4569596190753636529",
+          "size": "154092032",
+          "download": "77635216"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20187942",
+        "timeupdated": "1759229637"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "The Great Wastes Demo/saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
