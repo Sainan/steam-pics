@@ -1,6 +1,5 @@
 {
   "appid": "4048920",
-  "public_only": "1",
   "common": {
     "name": "Trapformer Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d88e67cd64ae0cf18a290ffa59f41523db1f824d/capsule_231x87.jpg"
     },
@@ -83,7 +82,54 @@
       "category_69": "1",
       "category_74": "1"
     },
+    "steam_release_date": "1759251153",
     "gameid": "4048920",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lairiton Games",
+    "publisher": "Lairiton Games"
+  },
+  "config": {
+    "installdir": "Trapformer Demo",
+    "launch": {
+      "0": {
+        "executable": "TrapformerDemo.exe",
+        "config": {
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Windows 64"
+        },
+        "description": "Windows 64"
+      },
+      "1": {
+        "executable": "TrapformerDemo32.exe",
+        "config": {
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "Windows 32"
+        },
+        "description": "Windows 32"
+      }
+    }
+  },
+  "depots": {
+    "4048921": {
+      "manifests": {
+        "public": {
+          "gid": "1324665665398957440",
+          "size": "417768512",
+          "download": "170253808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20060849",
+        "timeupdated": "1758388375"
+      }
+    }
   }
 }
