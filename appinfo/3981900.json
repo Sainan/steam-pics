@@ -1,11 +1,10 @@
 {
   "appid": "3981900",
-  "public_only": "1",
   "common": {
     "name": "Asteroid Boom Cosmic Courier Demo",
     "type": "Demo",
     "parent": "3923070",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -86,5 +85,51 @@
     },
     "gameid": "3981900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "FirulaiGamer Studio",
+    "publisher": "FirulaiGamer Studio"
+  },
+  "config": {
+    "installdir": "Asteroid Boom Cosmic Courier Demo",
+    "launch": {
+      "0": {
+        "executable": "AtomicBoomCC.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3981901": {
+      "manifests": {
+        "public": {
+          "gid": "1441450118755512990",
+          "size": "1099947004",
+          "download": "935171248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20182835",
+        "timeupdated": "1759201906"
+      }
+    }
   }
 }
