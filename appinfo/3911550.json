@@ -1,6 +1,5 @@
 {
   "appid": "3911550",
-  "public_only": "1",
   "common": {
     "name": "Warp Marked Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -119,7 +118,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3911550",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rockin' Games",
+    "publisher": "Rockin' Games"
+  },
+  "config": {
+    "installdir": "Warp Marked Demo",
+    "launch": {
+      "0": {
+        "executable": "WarpMarked.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3911551": {
+      "manifests": {
+        "public": {
+          "gid": "5740655394616119058",
+          "size": "85721472",
+          "download": "35589952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20178964",
+        "timeupdated": "1759178358"
+      }
+    }
   }
 }
