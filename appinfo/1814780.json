@@ -1,0 +1,192 @@
+{
+  "appid": "1814780",
+  "common": {
+    "name": "Nirvana Game Of Life",
+    "type": "Game",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "logo": "710207a931d7f968271f6daf332d90781ba84715",
+    "logo_small": "710207a931d7f968271f6daf332d90781ba84715_thumb",
+    "icon": "3f3738f874091a256ecda0600709bdf6876d7595",
+    "clienticon": "2ff7d4a33d7832e7448bdcbf43d7cbc087662914",
+    "clienttga": "c6de7219c63a2883d21b9c3918c8e9299beb3994",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        },
+        "image": {
+          "english": "logo.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1639449235",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Goldtusks"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Doron Elisha"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Benlish"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "25",
+      "1": "4",
+      "2": "37",
+      "3": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_35": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1641139051",
+    "community_hub_visible": "1",
+    "gameid": "1814780",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "4486",
+      "1": "1662",
+      "2": "1666",
+      "3": "10235",
+      "4": "599",
+      "5": "1773",
+      "6": "21",
+      "7": "3871",
+      "8": "3810",
+      "9": "4136",
+      "10": "113",
+      "11": "1654",
+      "12": "6426",
+      "13": "597",
+      "14": "31275",
+      "15": "5984",
+      "16": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "67"
+  },
+  "extended": {
+    "developer": "Goldtusks",
+    "publisher": "Benlish",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Nirvana Game Of Life",
+    "launch": {
+      "0": {
+        "executable": "Nirvana Game Of Life.exe",
+        "arguments": "-windowed",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1814781": {
+      "manifests": {
+        "public": {
+          "gid": "8270246075634566833",
+          "size": "304870144",
+          "download": "66165040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "8089530",
+        "timeupdated": "1643201946"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GoldTusks/Nirvana Game Of Life",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "GoldTusks/Nirvana Game Of Life",
+            "replace": "GoldTusks/Nirvana Game Of Life"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "GoldTusks/Nirvana Game Of Life",
+            "replace": ".config/unity3d/GoldTusks/Nirvana Game Of Life"
+          }
+        }
+      }
+    }
+  }
+}
