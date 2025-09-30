@@ -1,6 +1,5 @@
 {
   "appid": "4056150",
-  "public_only": "1",
   "common": {
     "name": "Wanderling Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "6070f7793352afb9a2176fc2f55033b1266531c5",
     "icon": "6070f7793352afb9a2176fc2f55033b1266531c5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -73,7 +72,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4056150",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rosday",
+    "publisher": "Rosday"
+  },
+  "config": {
+    "installdir": "Wanderling Demo",
+    "launch": {
+      "0": {
+        "executable": "demo\\win-x64\\Rosday.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4056151": {
+      "manifests": {
+        "public": {
+          "gid": "6127158269634266445",
+          "size": "356178621",
+          "download": "96151024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20102776",
+        "timeupdated": "1758683685"
+      }
+    }
   }
 }
