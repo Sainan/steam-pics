@@ -1,6 +1,5 @@
 {
   "appid": "3859900",
-  "public_only": "1",
   "common": {
     "name": "KARMx",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "5c15d057a4e569cc340115ddad853bd1f64b10a7",
     "clienticon": "0310efcb04fd7c4443ff99e8a4af4bb95b020b2b",
     "clienttga": "a4300319cc8f1cc4c9a267fd75a0ec0042f9c2ac",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,10 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759318548",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3859900",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -132,6 +131,65 @@
       "8": "4345",
       "9": "4667",
       "10": "4172"
+    }
+  },
+  "extended": {
+    "developer": "Matthieu Gouby",
+    "publisher": "Matthieu Gouby"
+  },
+  "config": {
+    "installdir": "KARMx",
+    "launch": {
+      "0": {
+        "executable": "KARMx.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "KARMx"
+        },
+        "description": "KARMx"
+      }
+    }
+  },
+  "depots": {
+    "3859901": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6781174864689934971",
+          "size": "883712074",
+          "download": "486232000"
+        }
+      }
+    },
+    "workshopdepot": "3859900",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20204954",
+        "timeupdated": "1759317036"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "KARMx/Saved/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
