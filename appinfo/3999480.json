@@ -1,6 +1,5 @@
 {
   "appid": "3999480",
-  "public_only": "1",
   "common": {
     "name": "Eternal Voyager Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -107,6 +106,49 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Rinthis Arathis",
+    "publisher": "Rinthis Arathis"
+  },
+  "config": {
+    "installdir": "Eternal Voyager Demo",
+    "launch": {
+      "0": {
+        "executable": "EternalVoyager.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3999481": {
+      "manifests": {
+        "public": {
+          "gid": "1443246905404351982",
+          "size": "8864671505",
+          "download": "8666124768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20199196",
+        "timeupdated": "1759285458"
+      }
     }
   }
 }
