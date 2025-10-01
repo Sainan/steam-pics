@@ -1,6 +1,5 @@
 {
   "appid": "3921380",
-  "public_only": "1",
   "common": {
     "name": "烬世书Ashes of Dynasty Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "1c31e8f3b0206bf17af6312351a8f73b82d2ae92",
     "clienticon": "b4e9aab6987557008c55010eee5b4898294aaeaf",
     "clienttga": "5deb5438c0c1acd1d4ae33b2d210f7c1c1a26f43",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -123,11 +122,63 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3921380",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "电子冰块Cybertech",
+    "publisher": "电子冰块Cybertech",
+    "homepage": "https://www.xiaohongshu.com/user/profile/632556550000000023024305"
+  },
+  "config": {
+    "installdir": "AshesofDynasty_Demo-1.0-pc",
+    "launch": {
+      "0": {
+        "executable": "AshesofDynasty_Demo-1.0-pc\\AshesofDynasty_Demo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3921381": {
+      "manifests": {
+        "public": {
+          "gid": "4767766025404532065",
+          "size": "338186210",
+          "download": "215965088"
+        }
+      }
+    },
+    "3921382": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4783704439881048817",
+          "size": "338022304",
+          "download": "216926896"
+        }
+      }
+    },
+    "3921383": {
+      "config": {
+        "language": "schinese",
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20198435",
+        "timeupdated": "1759280503"
+      }
     }
   }
 }
