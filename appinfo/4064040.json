@@ -1,6 +1,5 @@
 {
   "appid": "4064040",
-  "public_only": "1",
   "common": {
     "name": "Juiced Fruit Racing Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
@@ -104,5 +103,38 @@
     },
     "gameid": "4064040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Cascadia Games LLC",
+    "publisher": "Cascadia Games LLC"
+  },
+  "config": {
+    "installdir": "Juiced Fruit Racing Demo",
+    "launch": {
+      "0": {
+        "executable": "Juiced Fruit Racing.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064041": {
+      "manifests": {
+        "public": {
+          "gid": "724820953847451588",
+          "size": "1194212109",
+          "download": "541904864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20131643",
+        "timeupdated": "1758830943"
+      }
+    }
   }
 }
