@@ -1,6 +1,5 @@
 {
   "appid": "3806720",
-  "public_only": "1",
   "common": {
     "name": "Hue Hooligans - Demo Tape",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "e15e9c2a4d9695e5d9be2237f753052e178e5099",
     "clienticon": "7454c6b33b4e14a6a68587ae30b15d6f7d72b77f",
     "clienttga": "5f6b930853b4f0a31b1392a8691bc1fdd4387f81",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -104,7 +103,88 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3806720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "nimonoke",
+    "publisher": "nimonoke",
+    "homepage": "https://huehooligans.com"
+  },
+  "config": {
+    "installdir": "Hue Hooligans - Demo Tape",
+    "launch": {
+      "0": {
+        "executable": "Hue Hooligans - Demo Tape.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hue Hooligans - Demo Tape.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3806721": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5553346387182369904",
+          "size": "302489763",
+          "download": "81837920"
+        }
+      }
+    },
+    "3806722": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8458290242477205369",
+          "size": "324355059",
+          "download": "90043888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20209786",
+        "timeupdated": "1759338126"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "nimonoke/Hue Hooligans - Demo Tape/*.*",
+        "pattern": "*.* ",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "nimonoke/Hue Hooligans - Demo Tape/*.*",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
+    }
   }
 }
