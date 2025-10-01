@@ -1,6 +1,5 @@
 {
   "appid": "3876540",
-  "public_only": "1",
   "common": {
     "name": "Light'Em Up Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,11 +109,71 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759350894",
+    "community_visible_stats": "1",
     "gameid": "3876540",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Tiny Launches",
+    "publisher": "Tiny Launches"
+  },
+  "config": {
+    "installdir": "LightEmUpDemo",
+    "launch": {
+      "0": {
+        "executable": "LightEmUp_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3876541": {
+      "manifests": {
+        "public": {
+          "gid": "896505105756048345",
+          "size": "12642367633",
+          "download": "6722230224"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20212035",
+        "timeupdated": "1759348758"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2048000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "TinyLaunches/LightEmUp_Demo",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "TinyLaunches/LightEmUp_Demo/save",
+        "pattern": "*.game",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
