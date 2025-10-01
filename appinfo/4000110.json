@@ -1,6 +1,5 @@
 {
   "appid": "4000110",
-  "public_only": "1",
   "common": {
     "name": "Aussie Bogan Hero Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -103,10 +102,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759352449",
     "gameid": "4000110",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Snag Swag Studios",
+    "publisher": "Snag Swag Studios"
+  },
+  "config": {
+    "installdir": "Aussie Bogan Hero Demo",
+    "launch": {
+      "0": {
+        "executable": "WindowsVersion\\Aussie Bogan Hero 1.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4000111": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1904068263831772842",
+          "size": "2606927211",
+          "download": "1040178224"
+        }
+      }
+    },
+    "4000112": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8445270114201619996",
+          "size": "2565131636",
+          "download": "1028114080"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20207625",
+        "timeupdated": "1759328332"
+      }
+    },
+    "privatebranches": "1"
   }
 }
