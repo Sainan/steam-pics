@@ -1,6 +1,5 @@
 {
   "appid": "2726370",
-  "public_only": "1",
   "common": {
     "name": "Suck Up!",
     "type": "Game",
@@ -22,7 +21,7 @@
       "brazilian": "1",
       "latam": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -87,7 +86,7 @@
         }
       }
     },
-    "store_asset_mtime": "1755119300",
+    "store_asset_mtime": "1759267673",
     "associations": {
       "0": {
         "type": "developer",
@@ -144,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759336469",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2726370",
-    "exfgls": "8",
     "store_tags": {
       "0": "1684",
       "1": "599",
@@ -168,6 +168,82 @@
       "17": "1664",
       "18": "19995",
       "19": "4486"
+    }
+  },
+  "extended": {
+    "developer": "Proxima",
+    "publisher": "Proxima",
+    "homepage": "https://www.playsuckup.com/"
+  },
+  "config": {
+    "installdir": "Suck Up!",
+    "launch": {
+      "0": {
+        "executable": "Suck Up.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2726371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8113223419466155592",
+          "size": "4836630422",
+          "download": "2288324112"
+        },
+        "local": {
+          "gid": "5567735228052687204",
+          "size": "3450662614",
+          "download": "1445128784"
+        }
+      }
+    },
+    "workshopdepot": "2726370",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20020896",
+        "timeupdated": "1758138074"
+      },
+      "local": {
+        "buildid": "16242536",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1730318697"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Proxima/Suck Up",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Proxima/Suck Up",
+        "pattern": "*.sav"
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "Proxima/Suck Up",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
