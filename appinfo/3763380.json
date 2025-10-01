@@ -1,13 +1,12 @@
 {
   "appid": "3763380",
-  "public_only": "1",
   "common": {
     "name": "The Hallowed Garden",
     "type": "Game",
     "clienticon": "2103371fba07c1d8ea7d56e1ccce7de22d3723c8",
     "clienttga": "a3225ae15dcef78dddfb4477d968d75db36a2f46",
     "icon": "e5134a171322e3aa7f003965aa484fe6ea3cda98",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -102,9 +101,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759356034",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3763380",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4182",
@@ -122,6 +122,44 @@
       "13": "4342",
       "14": "1738",
       "15": "12472"
+    }
+  },
+  "extended": {
+    "developer": "RadGard Studios",
+    "publisher": "RadGard Studios"
+  },
+  "config": {
+    "installdir": "The Hallowed Garden",
+    "launch": {
+      "0": {
+        "executable": "The Hallowed Garden.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3763381": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "325841900898987137",
+          "size": "443467509",
+          "download": "73588544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197606",
+        "timeupdated": "1759275292"
+      }
     }
   }
 }
