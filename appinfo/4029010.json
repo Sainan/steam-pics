@@ -1,6 +1,5 @@
 {
   "appid": "4029010",
-  "public_only": "1",
   "common": {
     "name": "蚀心钓局Mind Lure Demo",
     "type": "Demo",
@@ -21,7 +20,7 @@
       "japanese": "マインドルアー：心蝕の罠 Demo",
       "brazilian": "Isca Mental: Mind Lure Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "059f1a6dcaad952c26f198bcb5f266ec93f1de11/capsule_231x87.jpg"
     },
@@ -55,5 +54,39 @@
     },
     "gameid": "4029010",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": " Little Tiger Game",
+    "publisher": " Little Tiger Game"
+  },
+  "config": {
+    "installdir": "Mind Lure Demo",
+    "launch": {
+      "0": {
+        "executable": "cardkls/cardkls.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4029011": {
+      "manifests": {
+        "public": {
+          "gid": "5414703962765704238",
+          "size": "837136425",
+          "download": "139278912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20190526",
+        "timeupdated": "1759240991"
+      }
+    }
   }
 }
