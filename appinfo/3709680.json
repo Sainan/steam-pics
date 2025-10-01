@@ -1,6 +1,5 @@
 {
   "appid": "3709680",
-  "public_only": "1",
   "common": {
     "name": "Hack Back",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "03dafbfdb37c13957acede92936b03f5f5a2c7e4",
     "clienticon": "41e9fcfe9ea96e42defe907b48dceabfff747865",
     "clienticns": "7cab5d6edbeccb88f7da69881be9efc4ff51fefb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -105,6 +104,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3709680",
     "exfgls": "3",
@@ -129,6 +129,69 @@
       "17": "6730",
       "18": "1643",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Ty Anderson",
+    "publisher": "Ty Anderson",
+    "homepage": "https://tyanderson.red",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Hack Back",
+    "launch": {
+      "0": {
+        "executable": "hackback.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Run Hack Back"
+        },
+        "description": "Run Hack Back"
+      },
+      "1": {
+        "executable": "hack_back.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Run Hack Back"
+        },
+        "description": "Run Hack Back"
+      }
+    }
+  },
+  "depots": {
+    "3709681": {
+      "manifests": {
+        "public": {
+          "gid": "4229557315158872309",
+          "size": "224828303",
+          "download": "90696368"
+        }
+      }
+    },
+    "3709682": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6293875231039000337",
+          "size": "142529092",
+          "download": "69490640"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20199894",
+        "timeupdated": "1759290182"
+      }
     }
   }
 }
