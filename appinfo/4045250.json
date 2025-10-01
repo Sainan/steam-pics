@@ -1,6 +1,5 @@
 {
   "appid": "4045250",
-  "public_only": "1",
   "common": {
     "name": "Meowtabolism - Examining Feline Fehavior within Unicellular Algae Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5f637c821189d21a4bb2ae00d676f50a53dff9fc/capsule_231x87.jpg"
     },
@@ -38,7 +37,83 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4045250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Kasia and Associate",
+    "publisher": "Kasia and Associate"
+  },
+  "config": {
+    "installdir": "Meowtabolism",
+    "launch": {
+      "0": {
+        "executable": "cat_in_cell.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "cat_in_cell.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4045251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4005696700591446779",
+          "size": "4203019237",
+          "download": "3988016704"
+        }
+      }
+    },
+    "4045252": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7881533275009742304",
+          "size": "4082105357",
+          "download": "3825304400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20062639",
+        "timeupdated": "1758411359"
+      }
+    }
   }
 }
