@@ -1,10 +1,9 @@
 {
   "appid": "4003500",
-  "public_only": "1",
   "common": {
     "name": "Tom Dahl",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8925fa37c473ec5b79cba9b507c2e284f5f507e5",
     "clienticon": "8925fa37c473ec5b79cba9b507c2e284f5f507e5",
     "oslist": "windows",
@@ -154,9 +153,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759359640",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4003500",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -182,5 +182,44 @@
       "18": "9541",
       "19": "5984"
     }
+  },
+  "extended": {
+    "developer": "Bonemeal Productions",
+    "publisher": "Bonemeal Productions",
+    "homepage": "https://www.thebonemeal.com"
+  },
+  "config": {
+    "installdir": "Tom Dahl",
+    "launch": {
+      "0": {
+        "executable": "TomDahl\\TomDahl.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default Launch Option"
+        },
+        "description": "Default Launch Option"
+      }
+    }
+  },
+  "depots": {
+    "4003501": {
+      "manifests": {
+        "public": {
+          "gid": "4251808240905141121",
+          "size": "487060551",
+          "download": "169338704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20213664",
+        "timeupdated": "1759357818"
+      }
+    },
+    "privatebranches": "1"
   }
 }
