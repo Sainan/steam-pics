@@ -1,6 +1,5 @@
 {
   "appid": "3810460",
-  "public_only": "1",
   "common": {
     "name": "Ultimate Theater Simulator Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -161,7 +160,61 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759323017",
+    "community_visible_stats": "1",
     "gameid": "3810460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "RAKTWO Games",
+    "publisher": "steelbox Games"
+  },
+  "config": {
+    "installdir": "UltimateTheaterSimulator_Demo",
+    "launch": {
+      "0": {
+        "executable": "UltimateTheaterSimulatorDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65523"
+  },
+  "depots": {
+    "3810462": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2793774453928066975",
+          "size": "1782968986",
+          "download": "783543344"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20199519",
+        "timeupdated": "1759287780"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "appidredirect": "1541370",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "UltimateTheaterSimulator_Data/SaveData",
+        "pattern": "*.save"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
