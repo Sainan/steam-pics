@@ -1,10 +1,9 @@
 {
   "appid": "3965180",
-  "public_only": "1",
   "common": {
     "name": "SproutBound",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "3dec3909630ba6ebb5147244a1db32b91f098c21",
     "linuxclienticon": "1ea36a9c0d46c6c1a3ae4ba703bf6cc12e201208",
     "clienticon": "5251739972051000842942f2e42bf80a4e36e474",
@@ -105,9 +104,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759319724",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3965180",
-    "exfgls": "8",
     "store_tags": {
       "0": "87918",
       "1": "22602",
@@ -127,6 +127,45 @@
       "15": "4182",
       "16": "9",
       "17": "7569"
+    }
+  },
+  "extended": {
+    "developer": "Cyberfrog Systems",
+    "publisher": "Cyberfrog Systems"
+  },
+  "config": {
+    "installdir": "SproutBound",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "SproutBound.exe",
+        "workingdir": ".",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play SproutBound"
+        },
+        "description": "Play SproutBound"
+      }
+    }
+  },
+  "depots": {
+    "3965181": {
+      "manifests": {
+        "public": {
+          "gid": "245129060758329838",
+          "size": "335970776",
+          "download": "152993536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20205444",
+        "timeupdated": "1759319173"
+      }
     }
   }
 }
