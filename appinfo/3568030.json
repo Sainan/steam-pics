@@ -1,13 +1,12 @@
 {
   "appid": "3568030",
-  "public_only": "1",
   "common": {
     "name": "Beast and Cleaver",
     "type": "Game",
     "icon": "e81589cc9d580f635e827c6bba705940ea559af0",
     "clienttga": "5dc322092d7d39c941670576c52bfeafba829266",
     "clienticon": "7a842dc7851be710e1d9df042c980438240d66bb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759332803",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3568030",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "5379",
@@ -131,6 +131,65 @@
       "17": "3993",
       "18": "6276",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Grimes Productions",
+    "publisher": "Grimes Productions"
+  },
+  "config": {
+    "installdir": "Beast and Cleaver",
+    "launch": {
+      "0": {
+        "executable": "Beasts & Cleaver.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3568031": {
+      "manifests": {
+        "public": {
+          "gid": "2643800996801502822",
+          "size": "157282216",
+          "download": "121866640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20113488",
+        "timeupdated": "1758737211"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
