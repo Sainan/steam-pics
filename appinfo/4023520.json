@@ -1,6 +1,5 @@
 {
   "appid": "4023520",
-  "public_only": "1",
   "common": {
     "name": "Below the Crown Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "72057c6b000984537259d08de2af9eb8056d35cb/capsule_231x87.jpg"
@@ -108,7 +107,65 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759336787",
     "gameid": "4023520",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Misfits Attic",
+    "publisher": "Misfits Attic"
+  },
+  "config": {
+    "installdir": "Below the Crown Demo",
+    "launch": {
+      "0": {
+        "executable": "Below the Crown.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4023521": {
+      "manifests": {
+        "public": {
+          "gid": "2054096386539061808",
+          "size": "589653613",
+          "download": "193009776"
+        },
+        "future": {
+          "gid": "2054096386539061808",
+          "size": "589653613",
+          "download": "193009776"
+        },
+        "past": {
+          "gid": "7442207645704800620",
+          "size": "589653085",
+          "download": "193009776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20209070",
+        "timeupdated": "1759334434"
+      },
+      "future": {
+        "buildid": "20209070",
+        "description": "Upcoming game version (less stable)",
+        "timeupdated": "1759335224"
+      },
+      "past": {
+        "buildid": "20197853",
+        "description": "Previous Version",
+        "timeupdated": "1759276611"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "1000"
   }
 }
