@@ -1,17 +1,16 @@
 {
   "appid": "4018620",
-  "public_only": "1",
   "common": {
     "name": "Tandao AI LTP Demo",
     "type": "Demo",
     "parent": "3969310",
-    "oslist": "windows,macos",
+    "oslist": "windows",
     "osarch": "",
-    "osextended": "macos64,macosapplesilicon",
+    "osextended": "",
     "clienticon": "b53d4febc5fd8bc72e1c86dd8dd9660427c97c75",
     "icon": "b53d4febc5fd8bc72e1c86dd8dd9660427c97c75",
     "clienticns": "f3b8173f25ce8d724778185181803ee207de7b11",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -102,10 +101,66 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "4018620",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Isle Venture Studio",
+    "publisher": "Isle Venture Studio"
+  },
+  "config": {
+    "installdir": "Tandao AI LTP Demo",
+    "launch": {
+      "0": {
+        "executable": "Tandao\\Tandao.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Tandao\\Tandao.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4018621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7729051181453789686",
+          "size": "766698709",
+          "download": "187445728"
+        }
+      }
+    },
+    "4018622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2663856934230726132",
+          "size": "791899241",
+          "download": "197329232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20125534",
+        "timeupdated": "1758803332"
+      }
     }
   }
 }
