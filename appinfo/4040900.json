@@ -1,6 +1,5 @@
 {
   "appid": "4040900",
-  "public_only": "1",
   "common": {
     "name": "Bloomkeeper Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -120,7 +119,44 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "gameid": "4040900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Resonance Interactive",
+    "publisher": "Resonance Interactive",
+    "homepage": "https://resonance-interactive.com/bloomkeeper/"
+  },
+  "config": {
+    "installdir": "Bloomkeeper Demo",
+    "launch": {
+      "0": {
+        "executable": "Bloomkeeper.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040901": {
+      "manifests": {
+        "public": {
+          "gid": "4105732284415891957",
+          "size": "5217989413",
+          "download": "1613287360"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20209132",
+        "timeupdated": "1759334788"
+      }
+    }
   }
 }
