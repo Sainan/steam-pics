@@ -1,6 +1,5 @@
 {
   "appid": "3957940",
-  "public_only": "1",
   "common": {
     "name": "Backrooms: Wit's End Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4b8ca38d293cf7bb931a6eda5d1b886ed196db95/capsule_231x87.jpg"
     },
@@ -66,7 +65,74 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759338240",
+    "community_visible_stats": "1",
     "gameid": "3957940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Augusto Micheli Debard",
+    "publisher": "Augusto Micheli Debard"
+  },
+  "config": {
+    "installdir": "Backrooms Wit's End Demo",
+    "launch": {
+      "0": {
+        "executable": "Backrooms Wits End.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3957941": {
+      "manifests": {
+        "public": {
+          "gid": "2141516427863820184",
+          "size": "2457119430",
+          "download": "1159762336"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,russian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20163792",
+        "timeupdated": "1759086573"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "2419010",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "save",
+        "pattern": "*.json",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      }
+    }
   }
 }
