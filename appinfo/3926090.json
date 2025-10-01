@@ -1,6 +1,5 @@
 {
   "appid": "3926090",
-  "public_only": "1",
   "common": {
     "name": "Arcabbit Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "name_localized": {
       "japanese": "アルカビット Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b011b0a63bcca3c8b5f06c9ebc71c3c6cc2f9636/capsule_231x87.jpg"
     },
@@ -37,7 +36,90 @@
       "category_68": "1",
       "category_74": "1"
     },
+    "steam_release_date": "1761894000",
     "gameid": "3926090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Duct Hive",
+    "publisher": "Duct Hive"
+  },
+  "config": {
+    "installdir": "Arcabbit_Demo",
+    "launch": {
+      "0": {
+        "executable": "Arcabbit.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Arcabbit.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3926091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2325104062349713644",
+          "size": "180324358",
+          "download": "81599328"
+        }
+      }
+    },
+    "3926092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1558400280319424177",
+          "size": "280805984",
+          "download": "108305088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20170149",
+        "timeupdated": "1759138017"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "3910660",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DuctHive/Arcabbit",
+        "pattern": "savedata*"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "DuctHive/Arcabbit",
+            "replace": "DuctHive/Arcabbit"
+          }
+        }
+      }
+    }
   }
 }
