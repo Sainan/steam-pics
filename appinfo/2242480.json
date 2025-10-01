@@ -134,11 +134,26 @@
     "launch": {
       "0": {
         "executable": "The Obsessive Shadow.exe",
-        "type": "vr"
+        "type": "vr",
+        "description_loc": {
+          "english": "VR Mode"
+        },
+        "description": "VR Mode"
       },
       "1": {
         "executable": "Flatmode\\The Obsessive Shadow.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "betakey": "NonVR/Flatmode"
+        }
+      },
+      "2": {
+        "executable": "CH2 Demo\\The Obsessive Shadow Chapter 2 Sewers Demo.exe",
+        "type": "vr",
+        "description_loc": {
+          "english": "Chapter 2 Demo (VR Only)"
+        },
+        "description": "Chapter 2 Demo (VR Only)"
       }
     }
   },
