@@ -1,6 +1,5 @@
 {
   "appid": "4035000",
-  "public_only": "1",
   "common": {
     "name": "逃家少女〜蜜梨與巧克力〜 體驗版",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -133,6 +132,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4035000",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -140,6 +140,46 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "Neko Choko Game Studio",
+    "publisher": "Neko Choko Game Studio",
+    "homepage": "https://linktr.ee/ncgstudio"
+  },
+  "config": {
+    "installdir": "Mili and Chocolate Demo",
+    "launch": {
+      "0": {
+        "executable": "Mili and Chocolate.exe"
+      }
+    }
+  },
+  "depots": {
+    "4035001": {
+      "manifests": {
+        "public": {
+          "gid": "3384299559987382564",
+          "size": "320432686",
+          "download": "92057248"
+        },
+        "beta": {
+          "gid": "3384299559987382564",
+          "size": "320432686",
+          "download": "92057248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19976885",
+        "timeupdated": "1757876827"
+      },
+      "beta": {
+        "buildid": "19976885",
+        "description": "內部測試用",
+        "timeupdated": "1757945044"
+      }
     }
   }
 }
