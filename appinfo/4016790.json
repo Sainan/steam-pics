@@ -1,6 +1,5 @@
 {
   "appid": "4016790",
-  "public_only": "1",
   "common": {
     "name": "Grannies on Wheels DEMO",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "7c06da034e38928c52540686f8086e8d3e610a75",
     "icon": "7c06da034e38928c52540686f8086e8d3e610a75",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -94,5 +93,69 @@
     },
     "gameid": "4016790",
     "exfgls": "6"
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "remoteplaytogethertestingbranches": "default,testing",
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Robot Laser Shark",
+    "publisher": "Robot Laser Shark",
+    "homepage": "https://linktr.ee/GranniesOnWheels"
+  },
+  "config": {
+    "installdir": "GranniesOnWheelsDEMO",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "GranniesOnWheels.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4016791": {
+      "manifests": {
+        "public": {
+          "gid": "7954993149525357104",
+          "size": "955861091",
+          "download": "801636208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20209704",
+        "timeupdated": "1759337282"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "3950840",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "GranniesOnWheels/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
