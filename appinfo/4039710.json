@@ -1,6 +1,5 @@
 {
   "appid": "4039710",
-  "public_only": "1",
   "common": {
     "name": "Galactic Space Guard Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -88,5 +87,55 @@
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Gabrich Games",
+    "publisher": "Gabrich Games"
+  },
+  "config": {
+    "installdir": "Galactic Space Guard Demo",
+    "launch": {
+      "0": {
+        "executable": "GSG Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4039711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8803070101856341612",
+          "size": "1647055792",
+          "download": "376987168"
+        },
+        "local": {
+          "gid": "5093740169107876974",
+          "size": "1645022434",
+          "download": "376201168"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,russian,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20213366",
+        "timeupdated": "1759356071"
+      },
+      "local": {
+        "buildid": "20068505",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758489490"
+      }
+    },
+    "privatebranches": "1"
   }
 }
