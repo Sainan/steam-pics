@@ -1,6 +1,5 @@
 {
   "appid": "4019810",
-  "public_only": "1",
   "common": {
     "name": "SPLASH - Paintball Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "0f2b0838fd3ae161771a77ce22563a2ae1c69e08",
     "icon": "c0ad19686f11c4d4315604a1096f2dd1327cfae0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,7 +113,62 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759352624",
     "gameid": "4019810",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TM Gaming GmbH",
+    "publisher": "TM Gaming GmbH",
+    "homepage": "https://www.splash-paintball.com"
+  },
+  "config": {
+    "installdir": "SPLASH - Paintball Demo",
+    "launch": {
+      "0": {
+        "executable": "Paintball.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4019811": {
+      "manifests": {
+        "public": {
+          "gid": "3579071786885239782",
+          "size": "3351514652",
+          "download": "3198264736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20210130",
+        "timeupdated": "1759338963"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "3563360"
   }
 }
