@@ -165,7 +165,17 @@
     "installdir": "Walk of Life Demo",
     "launch": {
       "0": {
-        "executable": "Walk of Life Demo.exe"
+        "executable": "Walk of Life Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Walk of Life Demo.app\\Contents\\MacOS\\Walk of Life",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
