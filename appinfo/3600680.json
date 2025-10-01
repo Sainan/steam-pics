@@ -1,13 +1,12 @@
 {
   "appid": "3600680",
-  "public_only": "1",
   "common": {
     "name": "Puppet Show VR",
     "type": "Game",
     "icon": "d2a47e1f51caddfbf342c34b46ec24b798a6ca9e",
     "clienttga": "6736f1a09b800669f42623cfd69c3483691111c1",
     "clienticon": "112c0f60837c1cd9492ab901758f34fb26cab3b3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -105,9 +104,9 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3600680",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "21978",
@@ -130,6 +129,54 @@
       "17": "4182",
       "18": "1773",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Ryan Bissonnette",
+    "publisher": "Ryan Bissonnette"
+  },
+  "config": {
+    "installdir": "Puppet Show VR",
+    "launch": {
+      "0": {
+        "executable": "Puppet_Show.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3600681": {
+      "manifests": {
+        "public": {
+          "gid": "3637512360110678371",
+          "size": "2746342852",
+          "download": "2626028928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20069740",
+        "timeupdated": "1758504234"
+      }
     }
   }
 }
