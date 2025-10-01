@@ -1,6 +1,5 @@
 {
   "appid": "3393070",
-  "public_only": "1",
   "common": {
     "name": "KAIJU NO. 8 THE GAME",
     "type": "Game",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "japanese": "a7909a3968dbcf2074be0803be7642a368caf564/capsule_231x87_japanese.jpg",
@@ -171,6 +170,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759287641",
     "community_hub_visible": "1",
     "gameid": "3393070",
     "exfgls": "3",
@@ -189,5 +189,60 @@
       "11": "4085",
       "12": "113"
     }
+  },
+  "extended": {
+    "developer": "Akatsuki Games Inc.",
+    "publisher": "Akatsuki Games Inc.",
+    "homepage": "https://kj8-thegame.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "kaiju_no8_the_game",
+    "launch": {
+      "0": {
+        "executable": "kaiju_no8_the_game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3393071": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5112311986187097027",
+          "size": "220558641",
+          "download": "121781568"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20152176",
+        "timeupdated": "1759107721"
+      }
+    },
+    "privatebranches": "1"
   }
 }
