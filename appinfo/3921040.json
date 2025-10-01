@@ -1,6 +1,5 @@
 {
   "appid": "3921040",
-  "public_only": "1",
   "common": {
     "name": "The tale of Bullet Knight Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2bf150f25cdd326c74acff4ba41b748af69cc53a/capsule_231x87.jpg"
@@ -43,7 +42,41 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759320163",
     "gameid": "3921040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jakalwizardstudio",
+    "publisher": "Jakalwizardstudio"
+  },
+  "config": {
+    "installdir": "final_build",
+    "launch": {
+      "0": {
+        "executable": "final_build/Bullet Knight.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3921041": {
+      "manifests": {
+        "public": {
+          "gid": "6327388955866316862",
+          "size": "290082490",
+          "download": "215705792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20185621",
+        "timeupdated": "1759219928"
+      }
+    }
   }
 }
