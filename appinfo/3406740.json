@@ -1,13 +1,12 @@
 {
   "appid": "3406740",
-  "public_only": "1",
   "common": {
     "name": "Dino Space Station",
     "type": "Game",
     "icon": "28c35b7054cb9e01a93657f7005a5f401bdc897a",
     "clienticon": "aa9bc630730ba9460514320e50c05b7e6edc60f5",
     "clienttga": "7649db54e6218c5767e19193f4fe41725f03b4e2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -126,9 +125,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759298482",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3406740",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "3964",
@@ -147,6 +147,82 @@
       "14": "19",
       "15": "21",
       "16": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Conti Games",
+    "publisher": "Conti Games"
+  },
+  "config": {
+    "installdir": "Dino Space Station",
+    "launch": {
+      "0": {
+        "executable": "v6.8_MAC_DinoSpaceStation.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "DinoSpaceStation.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3406741": {},
+    "3406742": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4845370258007039444",
+          "size": "327850401",
+          "download": "154569344"
+        }
+      }
+    },
+    "3406743": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4091682925525836925",
+          "size": "320794521",
+          "download": "151206304"
+        }
+      }
+    },
+    "baselanguages": "english,italian,koreana,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20187756",
+        "timeupdated": "1759228825"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "5",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "best_times.json",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "savefile.json",
+        "recursive": "1"
+      }
     }
   }
 }
