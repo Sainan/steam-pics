@@ -1,0 +1,186 @@
+{
+  "appid": "2809080",
+  "common": {
+    "name": "Rollin' Rascal Demo",
+    "type": "Demo",
+    "parent": "2740750",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "4b00044d8c635fdf246ec69f5339caea3cb33a7d",
+    "clienttga": "a8424e1c60377f0c8dd915493a7db2dc31bfc6a2",
+    "clienticon": "a58ffa2935814e65a3935d08ae3fb7f5599ca8d2",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "24.52856004240452",
+        "height_pct": "77.32290486168651"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "24.52856004240452",
+          "height_pct": "77.32290486168651"
+        }
+      }
+    },
+    "store_asset_mtime": "1707782692",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Gabriel Gonzalez"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Curiomatic"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Gabriel Gonzalez"
+      },
+      "3": {
+        "type": "publisher",
+        "name": "Curiomatic"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_18": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_60": "1"
+    },
+    "steam_release_date": "1707231604",
+    "gameid": "2809080",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gabriel Gonzalez",
+    "publisher": "Gabriel Gonzalez"
+  },
+  "config": {
+    "installdir": "Rollin' Rascal Demo",
+    "launch": {
+      "0": {
+        "executable": "RollinRascal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "RollinRascalDemo.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "2809081": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8108421056351021946",
+          "size": "3291799389",
+          "download": "2714976288"
+        },
+        "experimental": {
+          "gid": "3279377985327049890",
+          "size": "2889472018",
+          "download": "2344440592"
+        }
+      }
+    },
+    "2809082": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3978653646229821399",
+          "size": "3806871158",
+          "download": "3146247344"
+        },
+        "experimental": {
+          "gid": "7685373597027901665",
+          "size": "4225124951",
+          "download": "3456958288"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20051957",
+        "timeupdated": "1758305394"
+      },
+      "experimental": {
+        "buildid": "19901459",
+        "description": "Experimental Builds",
+        "timeupdated": "1757359422"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "102400",
+    "maxnumfiles": "20",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavedGames",
+        "pattern": "*.rscl"
+      }
+    }
+  }
+}
