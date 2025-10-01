@@ -1,6 +1,5 @@
 {
   "appid": "3920230",
-  "public_only": "1",
   "common": {
     "name": "Life Blood Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "59e1e074e166386e808b723d59ee1b34efb9a967",
     "clienttga": "80c7714b69a83e0fa6e2e0c9c3d76e5aa18fab05",
     "clienticon": "b4e79e652e03d51ef302d3d59246a3f0b94191b8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -95,7 +94,66 @@
       "category_68": "1",
       "category_69": "1"
     },
+    "steam_release_date": "1759314453",
     "gameid": "3920230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Connor Minns",
+    "publisher": "Snappy Gurus"
+  },
+  "config": {
+    "installdir": "Life Blood Demo",
+    "launch": {
+      "0": {
+        "executable": "LifeBlood.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3920231": {
+      "manifests": {
+        "public": {
+          "gid": "1704999587920134122",
+          "size": "4541573120",
+          "download": "4279117584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20204341",
+        "timeupdated": "1759314405"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "LifeBlood/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
