@@ -1,6 +1,5 @@
 {
   "appid": "4059170",
-  "public_only": "1",
   "common": {
     "name": "Rest Area Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "b6747f0d942a80a172c5a6e501221c1d703a5fde/capsule_231x87.jpg"
@@ -36,7 +35,60 @@
       "category_70": "1",
       "category_74": "1"
     },
+    "steam_release_date": "1759354982",
     "gameid": "4059170",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Oriseus Studios",
+    "publisher": "Oriseus Studios"
+  },
+  "config": {
+    "installdir": "Rest Area Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "RestAreaSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4059171": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1000456609476517146",
+          "size": "2263867507",
+          "download": "2093560064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20113715",
+        "timeupdated": "1758738443"
+      }
+    }
   }
 }
