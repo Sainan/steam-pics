@@ -1,6 +1,5 @@
 {
   "appid": "3867270",
-  "public_only": "1",
   "common": {
     "name": "Trick or Treat Adventure",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -87,11 +86,11 @@
       },
       "1": {
         "type": "developer",
-        "name": "I-Mockery"
+        "name": "Skeleton Crew Studios"
       },
       "2": {
         "type": "developer",
-        "name": "PoxPower"
+        "name": "Poxpower"
       },
       "3": {
         "type": "publisher",
@@ -99,11 +98,11 @@
       },
       "4": {
         "type": "publisher",
-        "name": "I-Mockery"
+        "name": "Skeleton Crew Studios"
       },
       "5": {
         "type": "publisher",
-        "name": "PoxPower"
+        "name": "Poxpower"
       }
     },
     "primary_genre": "25",
@@ -133,9 +132,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759327577",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3867270",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -160,6 +160,144 @@
       "17": "1738",
       "18": "4018",
       "19": "4562"
+    }
+  },
+  "extended": {
+    "developer": "PestoForce",
+    "publisher": "PestoForce",
+    "homepage": "https://www.trickortreatadventure.com"
+  },
+  "config": {
+    "installdir": "Trick or Treat Adventure",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Trick or Treat Adventure.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Trick or Treat Adventure.app/Contents/MacOS/Trick or Treat Adventure",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "./ttasteam",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3867271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9055990460365866169",
+          "size": "591057791",
+          "download": "219993504"
+        },
+        "beta": {
+          "gid": "9055990460365866169",
+          "size": "591057791",
+          "download": "219993504"
+        }
+      }
+    },
+    "3867272": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2400809009124088601",
+          "size": "337760155",
+          "download": "131705952"
+        },
+        "beta": {
+          "gid": "2400809009124088601",
+          "size": "337760155",
+          "download": "131705952"
+        }
+      }
+    },
+    "3867273": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6907726137533458658",
+          "size": "530987466",
+          "download": "218597584"
+        },
+        "beta": {
+          "gid": "4191330305414557202",
+          "size": "582975144",
+          "download": "209566256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20200458",
+        "timeupdated": "1759294730"
+      },
+      "beta": {
+        "buildid": "20200421",
+        "description": "Private beta for internal testers",
+        "timeupdated": "1759294411"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "TrickOrTreatAdventureSave",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      }
     }
   }
 }
