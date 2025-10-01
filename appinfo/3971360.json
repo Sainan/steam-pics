@@ -1,6 +1,5 @@
 {
   "appid": "3971360",
-  "public_only": "1",
   "common": {
     "name": "Wizard's Oblation Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "549fd4aade94da0d2c7e7b6da67c4f4ac997dc8a",
     "clienttga": "b2c8e92c298f1c03372090d8aa58dab8c1042f76",
     "clienticon": "6b8c9efa022799947575ad3cd8019231268eb230",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -67,5 +66,41 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "LedenevTV",
+    "publisher": "LedenevTV"
+  },
+  "config": {
+    "installdir": "Wizard's Oblation Demo",
+    "launch": {
+      "0": {
+        "executable": "Wizards.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3971361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8583193101691697515",
+          "size": "370563204",
+          "download": "76111232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20159097",
+        "timeupdated": "1759030257"
+      }
+    },
+    "privatebranches": "1"
   }
 }
