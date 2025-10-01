@@ -1,0 +1,330 @@
+{
+  "appid": "1680000",
+  "common": {
+    "name": "Rewrite+",
+    "type": "Game",
+    "releasestate": "released",
+    "logo": "da18ffb0bbf8cdb1df8dd37893026b03dce21890",
+    "logo_small": "da18ffb0bbf8cdb1df8dd37893026b03dce21890_thumb",
+    "clienticon": "a134b6615357aa4bd5ade034786d2026b493dc9e",
+    "clienttga": "656e25151434c868f0984195a23daee1f2126956",
+    "icon": "eec148108cd181fda664df571916a811990f3b1f",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "content_descriptors": {
+      "0": "1",
+      "1": "5"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1655856000",
+      "tested_build_id": "8974668",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1755551975",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "VisualArts/Key"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Sekai Project"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "25",
+      "1": "4"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_22": "1",
+      "category_29": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1639771392",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "1680000",
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "5"
+    },
+    "store_tags": {
+      "0": "3799",
+      "1": "4085",
+      "2": "21",
+      "3": "597",
+      "4": "11014",
+      "5": "4486",
+      "6": "9551",
+      "7": "599",
+      "8": "3871",
+      "9": "4305",
+      "10": "1719",
+      "11": "4166",
+      "12": "5984",
+      "13": "4947",
+      "14": "6426",
+      "15": "6971",
+      "16": "1742",
+      "17": "4182",
+      "18": "31275",
+      "19": "12095"
+    },
+    "review_score": "8",
+    "review_percentage": "94"
+  },
+  "extended": {
+    "developer": "VisualArts/Key",
+    "publisher": "Sekai Project",
+    "homepage": "https://sekaiproject.com/game/rewrite"
+  },
+  "config": {
+    "installdir": "Rewrite+",
+    "launch": {
+      "0": {
+        "executable": "SiglusEngineEN.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "legacy"
+        },
+        "description_loc": {
+          "english": "Rewrite+ Legacy Branch"
+        },
+        "description": "Rewrite+ Legacy Branch"
+      },
+      "1": {
+        "executable": "SiglusEngine_SteamEN.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Rewrite+ default Branch"
+        },
+        "description": "Rewrite+ default Branch"
+      },
+      "2": {
+        "executable": "SiglusEngineEN.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "step1"
+        },
+        "description_loc": {
+          "english": "Rewrite+ step1 Branch"
+        },
+        "description": "Rewrite+ step1 Branch"
+      },
+      "3": {
+        "executable": "SiglusEngineEN.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "backup"
+        },
+        "description_loc": {
+          "english": "Rewrite+ backup Branch"
+        },
+        "description": "Rewrite+ backup Branch"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "2822921352": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,kuzu,testing",
+        "use_action_block": "false"
+      },
+      "2823005492": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,kuzu,testing",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "1"
+  },
+  "depots": {
+    "1680001": {
+      "manifests": {
+        "20220127": {
+          "gid": "714367319211597677",
+          "size": "7163543035",
+          "download": "6419758192"
+        },
+        "public": {
+          "gid": "5612779521423029409",
+          "size": "8473850890",
+          "download": "7691154000"
+        },
+        "backup": {
+          "gid": "7842880882604778373",
+          "size": "7167885038",
+          "download": "6403259536"
+        },
+        "legacy": {
+          "gid": "8252671096133549622",
+          "size": "7162887675",
+          "download": "6419680704"
+        },
+        "staging": {
+          "gid": "1510449399575805834",
+          "size": "7164247776",
+          "download": "6415730496"
+        },
+        "step1": {
+          "gid": "1510449399575805834",
+          "size": "7164247776",
+          "download": "6415730496"
+        }
+      }
+    },
+    "1680002": {
+      "config": {
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5844151009421836893",
+          "size": "537",
+          "download": "368"
+        }
+      }
+    },
+    "branches": {
+      "20220127": {
+        "buildid": "8095833",
+        "description": "20220127-1 build 8095833",
+        "timeupdated": "1669067710"
+      },
+      "public": {
+        "buildid": "9931954",
+        "timeupdated": "1669068001"
+      },
+      "backup": {
+        "buildid": "7912363",
+        "description": "backup",
+        "timeupdated": "1640301042"
+      },
+      "legacy": {
+        "buildid": "8095820",
+        "description": "legacy",
+        "timeupdated": "1643309562"
+      },
+      "staging": {
+        "buildid": "7912381",
+        "description": "branch for public testing",
+        "timeupdated": "1639987539"
+      },
+      "step1": {
+        "buildid": "7912381",
+        "description": "Save migration",
+        "timeupdated": "1640242249"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "330",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "savedata_en",
+        "pattern": "*"
+      }
+    }
+  }
+}
