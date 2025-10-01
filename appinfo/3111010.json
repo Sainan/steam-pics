@@ -283,6 +283,20 @@
         "recursive": "1"
       }
     },
-    "sync_while_suspended": "1"
+    "sync_while_suspended": "1",
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "吃鲸游戏  HungerWhale Games\\Lakelady\\Save",
+            "replace": ".local/share/Steam/steamapps/compatdata/lakelady/pfx/drive_c"
+          }
+        }
+      }
+    }
   }
 }
