@@ -1,6 +1,5 @@
 {
   "appid": "4020080",
-  "public_only": "1",
   "common": {
     "name": "V2 Cucumber Scam Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "e04a2e7b6a90e046f121605b7b2097ea5c582f0a",
     "clienticon": "e04a2e7b6a90e046f121605b7b2097ea5c582f0a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cf1a77f18f2769ee35f39fd7da5d31fb0518b0fd/capsule_231x87.jpg"
     },
@@ -91,5 +90,41 @@
     },
     "gameid": "4020080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "InCiti GAMES",
+    "publisher": "InCiti GAMES",
+    "homepage": "https://www.incitigames.com"
+  },
+  "config": {
+    "installdir": "V2 Cucumber Scam Demo",
+    "launch": {
+      "0": {
+        "executable": "V2CucumberScamDEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4020081": {
+      "manifests": {
+        "public": {
+          "gid": "8284072288200648697",
+          "size": "568708098",
+          "download": "176489440"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "20161797",
+        "timeupdated": "1759064687"
+      }
+    }
   }
 }
