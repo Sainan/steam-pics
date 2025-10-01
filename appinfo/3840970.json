@@ -1,10 +1,9 @@
 {
   "appid": "3840970",
-  "public_only": "1",
   "common": {
     "name": "Casey Noir and Carved Pumpkin's Latte",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "4bc4486a9c74298fe5c40f85746c2b43e7b7cd64",
     "clienttga": "35f2030a2758b642a70b0ce3df8f0efbc29df4a6",
     "clienticon": "8030d1f3e5433e5793fea40b52b52b2b40d09b32",
@@ -96,8 +95,7 @@
     },
     "category": {
       "category_2": "1",
-      "category_14": "1",
-      "category_62": "1"
+      "category_14": "1"
     },
     "supported_languages": {
       "english": {
@@ -105,6 +103,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759331216",
     "community_hub_visible": "1",
     "gameid": "3840970",
     "exfgls": "3",
@@ -132,6 +131,79 @@
       "17": "5984",
       "18": "6378",
       "19": "11014"
+    }
+  },
+  "extended": {
+    "developer": "Nik Rouz and Friends",
+    "publisher": "Nik Rouz and Friends",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Casey Noir and Carved Pumpkin's Latte",
+    "launch": {
+      "0": {
+        "executable": "CaseyNoir-32.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "CaseyNoir.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "CaseyNoir.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "3": {
+        "executable": "CaseyNoir.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3840971": {
+      "manifests": {
+        "public": {
+          "gid": "2051409467855197178",
+          "size": "290643693",
+          "download": "172515008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20150821",
+        "timeupdated": "1758937742"
+      }
     }
   }
 }
