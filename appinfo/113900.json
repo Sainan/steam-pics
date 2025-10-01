@@ -1,0 +1,184 @@
+{
+  "appid": "113900",
+  "common": {
+    "name": "World of Battles",
+    "type": "Game",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "russian": "1",
+      "turkish": "1"
+    },
+    "clienticon": "a50db5f431db598817ccb322854e82b2f6aa1f71",
+    "clienttga": "8253e133b8935b980dcb332224eda58163c9a44f",
+    "icon": "3ae1ae35292beb11cda21ae9a66c788c85e55719",
+    "logo": "0eff20f1b0af02cc60e24af8504eb910a8f97500",
+    "logo_small": "0eff20f1b0af02cc60e24af8504eb910a8f97500_thumb",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1690329600",
+      "tested_build_id": "58665",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Retired"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport_Retired"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-8.0-3",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "World of Battles: Morningstar",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_f0aec3ba65aae8abe6498dc1398850505e390793.jpg",
+    "store_asset_mtime": "1357887482",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Frogwares"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Frogwares"
+      }
+    },
+    "primary_genre": "37",
+    "genres": {
+      "0": "37",
+      "1": "29",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_20": "1",
+      "category_9": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1335374040",
+    "community_hub_visible": "1",
+    "gameid": "113900",
+    "exfgls": "3",
+    "store_tags": {},
+    "review_score": "8",
+    "review_percentage": "83"
+  },
+  "extended": {
+    "cwdoverride": "release",
+    "developer": "Frogwares",
+    "gamedir": "World of Battles",
+    "homepage": "http://www.worldofbattles.com/",
+    "icon": "",
+    "installscript": "113900_install.vdf",
+    "isfreeapp": "1",
+    "languages": "english,german,russian,turkish,french",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "113901",
+    "serverbrowsername": "",
+    "state": "eStateAvailable",
+    "allowmicrotxnfromrestrictedcountries": "0",
+    "microtxnrestrictedcountries": "RU,BY",
+    "publisher": "Frogwares",
+    "gamemanualurl": "https://store.steampowered.com/manual/113900/"
+  },
+  "config": {
+    "installscriptsignature": "441c5ca489c9f87804ab622be05637822a3ec757cf570027fc269a2d6ab22de01ec9cab40a12f0ff862c94423a81842195947c47ce72a5e1333ee10a33a7166b98fc608e4183c0cb8f2614729502b4fe656439609cfad5de74e41b4f192819eb3d5ca8b5e24d5f1c5271dbef17e4ae21297d667966821367dd7aa623bf6f062f",
+    "installscriptoverride": "1",
+    "launch": {
+      "0": {
+        "executable": "release\\launcher.exe",
+        "arguments": "-m GameMode -u -SteamClientFlag -GateWayPrimaryURL http://gs1.worldofbattles.com/root.php -GateWaySecondaryURL http://gs2.worldofbattles.com/root.php -EventsXmlRpcUrl http://pt.worldofbattles.com/rpc.php -BugReportHost reports.worldofbattles.com -BugReportURL /",
+        "workingdir": "release"
+      }
+    },
+    "contenttype": "3",
+    "installdir": "World of Battles"
+  },
+  "install": {
+    "run process": {
+      "directx": {
+        "process 1": "%INSTALLDIR%\\distr\\DirectX\\DXSETUP.exe",
+        "command 1": "/silent",
+        "nocleanup": "1"
+      },
+      "vcredist_x86": {
+        "process 1": "%INSTALLDIR%\\distr\\vcredist_x86\\vcredist_x86.exe",
+        "command 1": "/q:a /c:\"VCREDI~3.EXE /q:a /c:\"\"msiexec /i vcredist.msi /qb!\"\" \"",
+        "nocleanup": "1"
+      }
+    }
+  },
+  "depots": {
+    "113901": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "6328447659763287216",
+          "size": "4501688208",
+          "download": "0"
+        },
+        "local": {
+          "gid": "1880256387155949056",
+          "size": "4474384000",
+          "download": "0"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "baselanguages": "english,german,russian,turkish,french",
+    "branches": {
+      "public": {
+        "buildid": "58665"
+      },
+      "local": {
+        "buildid": "6498",
+        "description": "Local Content Server",
+        "lcsrequired": "1"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
