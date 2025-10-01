@@ -1,13 +1,12 @@
 {
   "appid": "4040690",
-  "public_only": "1",
   "common": {
     "name": "Samurai's Odyssey Demo",
     "type": "Demo",
     "parent": "3624120",
     "clienticon": "ea173a337d8fc70ccc08750e8eb634bd452a18e4",
     "icon": "ea173a337d8fc70ccc08750e8eb634bd452a18e4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -67,7 +66,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4040690",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CODEUM GAMES, 11Gen",
+    "publisher": "CODEUM GAMES",
+    "homepage": "https://samuraisodyssey.com"
+  },
+  "config": {
+    "installdir": "Samurai's Odyssey Demo",
+    "launch": {
+      "0": {
+        "executable": "Samurai's Odyssey.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1234424410696298121",
+          "size": "775093804",
+          "download": "162460896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20130475",
+        "timeupdated": "1758824899"
+      }
+    }
   }
 }
