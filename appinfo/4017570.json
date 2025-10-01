@@ -1,6 +1,5 @@
 {
   "appid": "4017570",
-  "public_only": "1",
   "common": {
     "name": "lost in the woods Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "",
     "clienticon": "26025b9292391cb9b987b27a78bb3427a4dccee5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -113,10 +112,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759309022",
     "gameid": "4017570",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "delulu girl",
+    "publisher": "delulu girl"
+  },
+  "config": {
+    "installdir": "Demo litw1",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4017572": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7562492834524947579",
+          "size": "528525322",
+          "download": "339239488"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20147954",
+        "timeupdated": "1758916936"
+      }
     }
   }
 }
