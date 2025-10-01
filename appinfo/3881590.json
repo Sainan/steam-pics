@@ -1,6 +1,5 @@
 {
   "appid": "3881590",
-  "public_only": "1",
   "common": {
     "name": "Deadland Outlaws Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -49,11 +48,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759310074",
     "gameid": "3881590",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Phantomedia",
+    "publisher": "Phantomedia",
+    "homepage": "https://www.phanto.media"
+  },
+  "config": {
+    "installdir": "DeadlandOutlaws",
+    "launch": {
+      "0": {
+        "executable": "DeadlandOutlaws.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3881591": {
+      "manifests": {
+        "public": {
+          "gid": "4793629840194258970",
+          "size": "4124588708",
+          "download": "3985843216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20203346",
+        "timeupdated": "1759309951"
+      }
     }
   }
 }
