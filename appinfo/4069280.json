@@ -1,6 +1,5 @@
 {
   "appid": "4069280",
-  "public_only": "1",
   "common": {
     "name": "Heavy Burden VR Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "aicontenttype": "1",
     "small_capsule": {
@@ -143,8 +142,63 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759285662",
     "gameid": "4069280",
     "exfgls": "6",
     "onlyvrsupport": "1"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "VR-WRG",
+    "publisher": "Whale Rock Games",
+    "homepage": "https://store.steampowered.com/app/3749340/Euphoria_Supreme_Mechanics_VR/"
+  },
+  "config": {
+    "installdir": "Heavy Burden VR Demo",
+    "launch": {
+      "0": {
+        "executable": "HeavyBurdenVR.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4069281": {
+      "manifests": {
+        "public": {
+          "gid": "4761343619641570079",
+          "size": "749948806",
+          "download": "659260640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20174270",
+        "timeupdated": "1759156125"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
