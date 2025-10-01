@@ -1,10 +1,9 @@
 {
   "appid": "3638630",
-  "public_only": "1",
   "common": {
     "name": "Videoclub Simulator",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "4860666de13b0565ef482c9b4dc134c5816f92cb",
     "clienticon": "4860666de13b0565ef482c9b4dc134c5816f92cb",
     "clienttga": "f8b0533a1bcd761dd3748bc83c92c12c7a341347",
@@ -155,9 +154,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759334453",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3638630",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -171,6 +171,55 @@
       "9": "492",
       "10": "493",
       "11": "4004"
+    }
+  },
+  "extended": {
+    "developer": "willstargames",
+    "publisher": "willstargames"
+  },
+  "config": {
+    "installdir": "Videoclub Simulator",
+    "launch": {
+      "0": {
+        "executable": "VIdeoClubSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "3638631": {
+      "manifests": {
+        "public": {
+          "gid": "2271034018098433735",
+          "size": "1125324262",
+          "download": "951359712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20200203",
+        "timeupdated": "1759292446"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "WillStarGames\\VIdeoClubSimulator",
+        "pattern": "save.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": "config/unity3d/WillStarGames\\VIdeoClubSimulator"
+      }
     }
   }
 }
