@@ -172,7 +172,28 @@
     "installdir": "Bum Revenge Demo",
     "launch": {
       "0": {
-        "executable": "BumRevenge.exe"
+        "executable": "BumRevenge.exe",
+        "arguments": "-d3d12",
+        "description_loc": {
+          "english": "(DX 12 - recommended)"
+        },
+        "description": "(DX 12 - recommended)"
+      },
+      "1": {
+        "executable": "BumRevenge.exe",
+        "arguments": "-d3d11",
+        "description_loc": {
+          "english": "(DX 11 - compliance)"
+        },
+        "description": "(DX 11 - compliance)"
+      },
+      "2": {
+        "executable": "BumRevenge.exe",
+        "arguments": "-vulkan",
+        "description_loc": {
+          "english": "(Vulkan - experimental)"
+        },
+        "description": "(Vulkan - experimental)"
       }
     }
   },
