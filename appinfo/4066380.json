@@ -1,4 +1,91 @@
 {
   "appid": "4066380",
-  "public_only": "1"
+  "common": {
+    "name": "Space Hood Demo",
+    "type": "Demo",
+    "parent": "3933210",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "87f990c0e34972eab4e1b82fc5b4a25c3d94eaea",
+    "icon": "87f990c0e34972eab4e1b82fc5b4a25c3d94eaea",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "small_capsule": {
+      "english": "b769592812a60469a298aade6ea5d96b5a8069cc/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "dea5573aabcd45211446d20b9642f01a6a6a6993/header.jpg"
+    },
+    "store_asset_mtime": "1759050561",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "General Gibbon"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "General Gibbon"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "steam_release_date": "1759362217",
+    "gameid": "4066380",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "General Gibbon",
+    "publisher": "General Gibbon"
+  },
+  "config": {
+    "installdir": "SpaceHoodDemo",
+    "launch": {
+      "0": {
+        "executable": "SpaceHood.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4066381": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5593707612243814098",
+          "size": "922661124",
+          "download": "766121744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214129",
+        "timeupdated": "1759361159"
+      }
+    }
+  }
 }
