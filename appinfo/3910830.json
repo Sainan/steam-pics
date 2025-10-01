@@ -1,6 +1,5 @@
 {
   "appid": "3910830",
-  "public_only": "1",
   "common": {
     "name": "Ricochet Abyss Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "89aa5eab215286c444babf5453a964ef5850b083/capsule_231x87.jpg"
@@ -109,5 +108,53 @@
     },
     "gameid": "3910830",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DreamForge",
+    "publisher": "DreamForge"
+  },
+  "config": {
+    "installdir": "Ricochet Abyss Demo",
+    "launch": {
+      "0": {
+        "executable": "CatapultHero.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3910831": {
+      "manifests": {
+        "public": {
+          "gid": "1145428014803534040",
+          "size": "916089650",
+          "download": "639180176"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20199628",
+        "timeupdated": "1759288152"
+      }
+    }
   }
 }
