@@ -1,11 +1,10 @@
 {
   "appid": "3971070",
-  "public_only": "1",
   "common": {
     "name": "Deckout Demo",
     "type": "Demo",
     "parent": "3838310",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -110,5 +109,39 @@
     },
     "gameid": "3971070",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ahmed jalil",
+    "publisher": "Ahmed jalil"
+  },
+  "config": {
+    "installdir": "Deckout Demo",
+    "launch": {
+      "0": {
+        "executable": "Deckout.exe"
+      }
+    }
+  },
+  "depots": {
+    "3971072": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6003050536020146315",
+          "size": "500609241",
+          "download": "133660048"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20210442",
+        "timeupdated": "1759341169"
+      }
+    }
   }
 }
