@@ -1,6 +1,5 @@
 {
   "appid": "4064100",
-  "public_only": "1",
   "common": {
     "name": "Tower Command Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8d6c3d375a6ac55aedb08d292d9dd8a0083fdc4a/capsule_231x87.jpg"
     },
@@ -41,7 +40,40 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759352806",
     "gameid": "4064100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rile Games",
+    "publisher": "Rile Games"
+  },
+  "config": {
+    "installdir": "Tower Command Demo",
+    "launch": {
+      "0": {
+        "executable": "TowerCommandDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064101": {
+      "manifests": {
+        "public": {
+          "gid": "8758864616970507915",
+          "size": "340557844",
+          "download": "87059088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20212745",
+        "timeupdated": "1759352432"
+      }
+    }
   }
 }
