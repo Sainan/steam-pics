@@ -1,6 +1,5 @@
 {
   "appid": "4054640",
-  "public_only": "1",
   "common": {
     "name": "GoodBoy Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "718d499b03125fe66b2989b02ff91f33650c2492",
     "clienticon": "ad3d606ce42152c636bace6e2d89f22a3f78872f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -99,10 +98,56 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759334717",
     "gameid": "4054640",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Terrible Posture Games",
+    "publisher": "Terrible Posture Games",
+    "homepage": "https://www.terribleposture.com/blog/meet-good-boy/"
+  },
+  "config": {
+    "installdir": "GoodBoy Demo",
+    "launch": {
+      "0": {
+        "executable": "GoodBoy.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4054641": {
+      "manifests": {
+        "public": {
+          "gid": "8371694837129423589",
+          "size": "9076192681",
+          "download": "7681074640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20208181",
+        "timeupdated": "1759333016"
+      }
+    },
+    "privatebranches": "1"
   }
 }
