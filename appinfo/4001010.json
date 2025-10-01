@@ -1,6 +1,5 @@
 {
   "appid": "4001010",
-  "public_only": "1",
   "common": {
     "name": "I Write Games Not Tragedies Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "a41dbae0e093d34921cb8751113c0af448ea18a0",
     "icon": "bf21c99d27aeac95d91c5d76c6a00bcab98cb51f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,10 +44,43 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4001010",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Studio Wife",
+    "publisher": "Yotsuba Interactive"
+  },
+  "config": {
+    "installdir": "I Write Games Not Tragedies Demo",
+    "launch": {
+      "0": {
+        "executable": "I Write Games Not Tragedies/release/I Write Games Not Tragedies.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4001011": {
+      "manifests": {
+        "public": {
+          "gid": "1034245935137153562",
+          "size": "1284664474",
+          "download": "168773168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20009660",
+        "timeupdated": "1758082000"
+      }
     }
   }
 }
