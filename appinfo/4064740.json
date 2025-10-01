@@ -1,6 +1,5 @@
 {
   "appid": "4064740",
-  "public_only": "1",
   "common": {
     "name": "Joymaker Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,10 +32,47 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1759354344",
     "gameid": "4064740",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Several Confused Clowns",
+    "publisher": "Several Confused Clowns LLC"
+  },
+  "config": {
+    "installdir": "Joymaker Demo",
+    "launch": {
+      "0": {
+        "executable": "Joymaker.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4104214900410145616",
+          "size": "1339579092",
+          "download": "486277712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197202",
+        "timeupdated": "1759273460"
+      }
     }
   }
 }
