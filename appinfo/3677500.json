@@ -1,11 +1,10 @@
 {
   "appid": "3677500",
-  "public_only": "1",
   "common": {
     "name": "Hired Stars Demo",
     "type": "Demo",
     "parent": "3628010",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -98,5 +97,41 @@
     },
     "gameid": "3677500",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mark Kaps",
+    "publisher": "Mark Kaps"
+  },
+  "config": {
+    "installdir": "Hired Stars Demo",
+    "launch": {
+      "0": {
+        "executable": "STARS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3677501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "378240042785497390",
+          "size": "406308866",
+          "download": "330793696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20185770",
+        "timeupdated": "1759220505"
+      }
+    }
   }
 }
