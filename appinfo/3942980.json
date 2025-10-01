@@ -1,6 +1,5 @@
 {
   "appid": "3942980",
-  "public_only": "1",
   "common": {
     "name": "Duality Shift Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -108,7 +107,55 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759328259",
     "gameid": "3942980",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Missing in Action",
+    "publisher": "AIV - Accademia Italiana Videogiochi"
+  },
+  "config": {
+    "installdir": "Duality Shift Demo",
+    "launch": {
+      "0": {
+        "executable": "MissingInAction.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3942981": {
+      "manifests": {
+        "public": {
+          "gid": "4232170961320356260",
+          "size": "1041823195",
+          "download": "909217120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20202761",
+        "timeupdated": "1759307574"
+      }
+    }
   }
 }
