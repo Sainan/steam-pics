@@ -1,6 +1,5 @@
 {
   "appid": "4014360",
-  "public_only": "1",
   "common": {
     "name": "Eilean Mor: The Lost Keepers Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -145,10 +144,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759337281",
+    "community_visible_stats": "1",
     "gameid": "4014360",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Dead Witness",
+    "publisher": "Dead Witness"
+  },
+  "config": {
+    "installdir": "Eilean MorTheLostKeepersDemo",
+    "launch": {
+      "0": {
+        "executable": "EileanMorKeepers.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4014361": {
+      "manifests": {
+        "public": {
+          "gid": "8539524585451758231",
+          "size": "6149038624",
+          "download": "5796923648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20191509",
+        "timeupdated": "1759245818"
+      }
     }
   }
 }
