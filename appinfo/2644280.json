@@ -1,6 +1,5 @@
 {
   "appid": "2644280",
-  "public_only": "1",
   "common": {
     "name": "地心挖矿者",
     "type": "Game",
@@ -21,7 +20,7 @@
     },
     "icon": "60c3f4121a068d69133e1522e6be316b1353fe48",
     "clienticon": "60c3f4121a068d69133e1522e6be316b1353fe48",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -151,9 +150,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759284055",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2644280",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "3964",
@@ -164,6 +164,81 @@
       "6": "21006",
       "7": "492",
       "8": "493"
+    }
+  },
+  "extended": {
+    "developer": "Trotter Studio",
+    "publisher": "Trotter Studio"
+  },
+  "config": {
+    "installdir": "Core Miners",
+    "launch": {
+      "0": {
+        "executable": "Core Miners.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2644281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6993733876987357471",
+          "size": "142418911",
+          "download": "50267600"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20187024",
+        "timeupdated": "1759225813"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Core Miners_Data/{64BitSteamID}",
+        "pattern": "GameRab-0.rab"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Core Miners_Data/{64BitSteamID}",
+        "pattern": "GameRab-1.rab"
+      }
     }
   }
 }
