@@ -1,10 +1,9 @@
 {
   "appid": "3690460",
-  "public_only": "1",
   "common": {
     "name": "FLICK SOLITAIRE",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "ecfe23703a1c3da6fedc3e3e38f822915a3c7198",
     "clienticon": "6ea046200738b672df56e818042a87bfd9285bfb",
     "icon": "68ec9f0075b3f5c8bed1d06732e1a08347fba8c5",
@@ -142,6 +141,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759300542",
     "community_hub_visible": "1",
     "gameid": "3690460",
     "exfgls": "3",
@@ -167,5 +167,56 @@
       "18": "4562",
       "19": "9271"
     }
+  },
+  "extended": {
+    "developer": "Flick",
+    "publisher": "Flick",
+    "homepage": "https://www.flick.games/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "FLICK SOLITAIRE",
+    "launch": {
+      "0": {
+        "executable": "FlickSolitaire.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3690461": {
+      "manifests": {
+        "public": {
+          "gid": "2676694889420536543",
+          "size": "1043632785",
+          "download": "960844608"
+        },
+        "local": {
+          "gid": "8900283236394639105",
+          "size": "122424061",
+          "download": "107576800"
+        }
+      }
+    },
+    "3690462": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20193726",
+        "timeupdated": "1759254069"
+      },
+      "local": {
+        "buildid": "19302297",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1753114819"
+      }
+    },
+    "privatebranches": "1"
   }
 }
