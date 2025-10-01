@@ -1,6 +1,5 @@
 {
   "appid": "4037080",
-  "public_only": "1",
   "common": {
     "name": "Amanita Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "69d2ee8596f5c668426ff2055ece76a12f4330a3",
     "icon": "69d2ee8596f5c668426ff2055ece76a12f4330a3",
     "linuxclienticon": "9b14b4a648216672bd6ac10def67a712c7b03177",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "54ac0f7e7c107c08e1691f625504a40cc17037e3/capsule_231x87.jpg"
     },
@@ -48,7 +47,75 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759346930",
     "gameid": "4037080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gibberi Games",
+    "publisher": "Gibberi Games"
+  },
+  "config": {
+    "installdir": "Amanita Demo",
+    "launch": {
+      "0": {
+        "executable": "AmanitaDEMO.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AmanitaDEMO.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3572856036": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,closed_beta_demo",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "4037081": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5151845032299935712",
+          "size": "1948734304",
+          "download": "860117536"
+        }
+      }
+    },
+    "4037082": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6775803037390963157",
+          "size": "1927725016",
+          "download": "856015344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20204662",
+        "timeupdated": "1759315825"
+      }
+    },
+    "privatebranches": "1"
   }
 }
