@@ -1,6 +1,5 @@
 {
   "appid": "4053530",
-  "public_only": "1",
   "common": {
     "name": "Ultra Damage Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -111,12 +110,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759353848",
     "gameid": "4053530",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Sons of Welder",
+    "publisher": "Sons of Welder"
+  },
+  "config": {
+    "installdir": "Ultra Damage Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4053531": {
+      "manifests": {
+        "public": {
+          "gid": "5319863946756598314",
+          "size": "184683619",
+          "download": "158990000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20212135",
+        "timeupdated": "1759349315"
+      }
     }
   }
 }
