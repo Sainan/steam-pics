@@ -1,13 +1,12 @@
 {
   "appid": "3206550",
-  "public_only": "1",
   "common": {
     "name": "The Greys: Human Abductions",
     "type": "Game",
     "icon": "c8195e9a350dd6cbc2fb28f2cb0dc28e44472545",
     "clienticon": "1c843db565a1358178f971c11b46cbe5c7c38fe8",
     "clienttga": "e5caec13564ff958d87b8fcb817b07c38f44166d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -156,9 +155,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759327265",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3206550",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1673",
@@ -179,6 +179,39 @@
       "16": "5372",
       "17": "4342",
       "18": "6276"
+    }
+  },
+  "extended": {
+    "developer": "Branislav Banik",
+    "publisher": "Branislav Banik"
+  },
+  "config": {
+    "installdir": "The Greys Human Abductions",
+    "launch": {
+      "0": {
+        "executable": "TheGreys.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3206551": {
+      "manifests": {
+        "public": {
+          "gid": "4505651822543240842",
+          "size": "7313994528",
+          "download": "2230327120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20146202",
+        "timeupdated": "1758907132"
+      }
     }
   }
 }
