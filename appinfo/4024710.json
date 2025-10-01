@@ -1,6 +1,5 @@
 {
   "appid": "4024710",
-  "public_only": "1",
   "common": {
     "name": "Pegasis Odyssey Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "294f3374d37a7e17b9a7ca7d9fde1f3e3c4dc9cd",
     "clienticon": "294f3374d37a7e17b9a7ca7d9fde1f3e3c4dc9cd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "272973e778b77cf33a6473e8ce193824f7603cdc/capsule_231x87.jpg"
     },
@@ -35,7 +34,78 @@
       "category_77": "1",
       "category_79": "1"
     },
+    "steam_release_date": "1767168000",
     "gameid": "4024710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Cokwak",
+    "publisher": "Cokwak"
+  },
+  "config": {
+    "installdir": "Pegasis Odyssey Demo",
+    "launch": {
+      "0": {
+        "executable": "PegasisOdyssey.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PegasisOdyssey.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4024711": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2404823711463626029",
+          "size": "444162541",
+          "download": "110038560"
+        },
+        "beta": {
+          "gid": "2404823711463626029",
+          "size": "444162541",
+          "download": "110038560"
+        }
+      }
+    },
+    "4024712": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2440526433779649202",
+          "size": "418573845",
+          "download": "103715552"
+        },
+        "beta": {
+          "gid": "2440526433779649202",
+          "size": "418573845",
+          "download": "103715552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20191665",
+        "timeupdated": "1759245574"
+      },
+      "beta": {
+        "buildid": "20191665",
+        "description": "beta testing",
+        "timeupdated": "1759245347"
+      }
+    }
   }
 }
