@@ -1,13 +1,12 @@
 {
   "appid": "4052740",
-  "public_only": "1",
   "common": {
     "name": "The Anubis Treasure Demo",
     "type": "Demo",
     "parent": "3934610",
     "clienticon": "e9bac70d6c38f979d73b2e371ecc9a9ab16e4cf1",
     "icon": "e9bac70d6c38f979d73b2e371ecc9a9ab16e4cf1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -163,7 +162,52 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759292416",
     "gameid": "4052740",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ayelenigames",
+    "publisher": "Ayelenigames",
+    "homepage": "https://www.ayelengames.com/inicio/the-anubis-treasure"
+  },
+  "config": {
+    "installdir": "The Anubis Treasure Demo",
+    "launch": {
+      "0": {
+        "executable": "TATdemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4052741": {
+      "manifests": {
+        "public": {
+          "gid": "8387421096089506605",
+          "size": "483230781",
+          "download": "391115792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20112818",
+        "timeupdated": "1758734166"
+      }
+    }
   }
 }
