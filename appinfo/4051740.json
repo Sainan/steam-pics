@@ -1,6 +1,5 @@
 {
   "appid": "4051740",
-  "public_only": "1",
   "common": {
     "name": "Cursed Presence Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -71,5 +70,53 @@
     },
     "gameid": "4051740",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Francisco Aguilar Montoya",
+    "publisher": "Francisco Aguilar Montoya"
+  },
+  "config": {
+    "installdir": "Cursed Presence Demo",
+    "launch": {
+      "0": {
+        "executable": "CursedPresence_04.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4051741": {
+      "manifests": {
+        "public": {
+          "gid": "2136373235945973312",
+          "size": "4891627544",
+          "download": "4503047488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20201845",
+        "timeupdated": "1759302915"
+      }
+    }
   }
 }
