@@ -1,6 +1,5 @@
 {
   "appid": "3758220",
-  "public_only": "1",
   "common": {
     "name": "Interrogator 2 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -54,12 +53,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3758220",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Jarema Radom",
+    "publisher": "Jarema Radom"
+  },
+  "config": {
+    "installdir": "Interrogator 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "Room.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3758221": {
+      "manifests": {
+        "public": {
+          "gid": "5583066433657099342",
+          "size": "8614993693",
+          "download": "6386834592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173614",
+        "timeupdated": "1759153642"
+      }
     }
   }
 }
