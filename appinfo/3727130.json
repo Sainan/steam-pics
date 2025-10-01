@@ -1,6 +1,5 @@
 {
   "appid": "3727130",
-  "public_only": "1",
   "common": {
     "name": "MADHOUSE",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -117,7 +116,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3727130",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -143,6 +141,36 @@
       "17": "10816",
       "18": "4726",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Paul Hubans",
+    "publisher": "Paul Hubans",
+    "homepage": "https://madhouse.game/"
+  },
+  "config": {
+    "installdir": "MADHOUSE",
+    "launch": {
+      "0": {
+        "executable": "MADHOUSE.exe"
+      }
+    }
+  },
+  "depots": {
+    "3727131": {
+      "manifests": {
+        "public": {
+          "gid": "6447389832560301972",
+          "size": "238463591",
+          "download": "198769488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20198766",
+        "timeupdated": "1759283002"
+      }
     }
   }
 }
