@@ -1,11 +1,10 @@
 {
   "appid": "3987260",
-  "public_only": "1",
   "common": {
     "name": "Project Freefall Demo",
     "type": "Demo",
     "parent": "3592440",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,5 +102,58 @@
     },
     "gameid": "3987260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Schell Games",
+    "publisher": "Schell Games",
+    "homepage": "https://schellgames.com/freefall/"
+  },
+  "config": {
+    "installdir": "Project Freefall Demo",
+    "launch": {
+      "0": {
+        "executable": "ProjectFreefall.exe",
+        "arguments": "-fullscreen",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3987261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "442520119980611992",
+          "size": "2226643536",
+          "download": "1575275904"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20194603",
+        "timeupdated": "1759258697"
+      }
+    },
+    "privatebranches": "1"
   }
 }
