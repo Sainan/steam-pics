@@ -1,6 +1,5 @@
 {
   "appid": "3992610",
-  "public_only": "1",
   "common": {
     "name": "Solo Tactics Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -106,5 +105,55 @@
     },
     "gameid": "3992610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Solo Tactic Games",
+    "publisher": "Solo Tactic Games",
+    "homepage": "https://solotacticgames.com/"
+  },
+  "config": {
+    "installdir": "Solo Tactics Demo",
+    "launch": {
+      "0": {
+        "executable": "USG.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3992611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1782098078906596011",
+          "size": "8737977216",
+          "download": "5926866656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173991",
+        "timeupdated": "1759155103"
+      }
+    }
   }
 }
