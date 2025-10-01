@@ -1,4 +1,145 @@
 {
   "appid": "4005690",
-  "public_only": "1"
+  "common": {
+    "name": "Pieced Together Demo",
+    "type": "Demo",
+    "parent": "2891370",
+    "releasestate": "released",
+    "clienticon": "99702aa1e451699f1e803cefe49f0c1c3fee2f18",
+    "icon": "99702aa1e451699f1e803cefe49f0c1c3fee2f18",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "7e3f840bbfd123e5f848ca324feafbe306567f89/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "226562f4ae360b1dd3a1f44b661902a8c3660077/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "dbef8c481e5d5a82e9d11e4e9633c0534c1efbc3/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_screenshot": "f0a537bd9d7bc36df420576d82c968cae90a0ad2/ss_f0a537bd9d7bc36df420576d82c968cae90a0ad2.jpg",
+    "store_asset_mtime": "1759075771",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Glowfrog Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Glowfrog Games"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759344220",
+    "gameid": "4005690",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Glowfrog Games",
+    "publisher": "Glowfrog Games",
+    "homepage": "http://www.playpiecedtogether.com"
+  },
+  "config": {
+    "installdir": "Pieced Together Demo",
+    "launch": {
+      "0": {
+        "executable": "PiecedTogether.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Game"
+        },
+        "description": "Play Game"
+      },
+      "1": {
+        "executable": "PiecedTogetherDemo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4005691": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7046842691435931001",
+          "size": "2671672265",
+          "download": "619039520"
+        }
+      }
+    },
+    "4005692": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8713989355007612941",
+          "size": "2654847604",
+          "download": "610624272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20211167",
+        "timeupdated": "1759343957"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "16",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Glowfrog Games Ltd/PiecedTogether/{64BitSteamID}",
+        "pattern": "*.dat",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    },
+    "appidredirect": "2891370"
+  }
 }
