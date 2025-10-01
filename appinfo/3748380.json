@@ -1,6 +1,5 @@
 {
   "appid": "3748380",
-  "public_only": "1",
   "common": {
     "name": "Killer Eyelashes Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "5eb91c76660a5e6e15704d915088677a4034715a",
     "clienttga": "eba2d247791b17c272c000f1a32375c24b6b9ad4",
     "clienticon": "7acd4fd58530accac74884e1c6385b3598f7958e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -63,10 +62,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759349026",
     "gameid": "3748380",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Tiamat Studio",
+    "publisher": "Tiamat Studio"
+  },
+  "config": {
+    "installdir": "Killer Eyelashes Demo",
+    "launch": {
+      "0": {
+        "executable": "Killer Eyelashes/Killer Eyelashes.exe",
+        "workingdir": ".",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Killer Eyelashes.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3748382": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3285340805531858255",
+          "size": "2345495901",
+          "download": "443539040"
+        }
+      }
+    },
+    "3748383": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5758363089941981541",
+          "size": "2196985628",
+          "download": "417429408"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20094171",
+        "timeupdated": "1758635743"
+      }
     }
   }
 }
