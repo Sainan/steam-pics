@@ -1,6 +1,5 @@
 {
   "appid": "3745900",
-  "public_only": "1",
   "common": {
     "name": "Marbies Party Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -119,7 +118,119 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3745900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Heelio",
+    "publisher": "Heelio",
+    "homepage": "https://heelio.games"
+  },
+  "config": {
+    "installdir": "Marbies Party Demo",
+    "launch": {
+      "0": {
+        "executable": "Marbies Party DEMO.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Marbies Party DEMO.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Marbies Party DEMO.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3745901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5343044928703668459",
+          "size": "133390805",
+          "download": "51496624"
+        }
+      }
+    },
+    "3745905": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7349127733673183464",
+          "size": "149898846",
+          "download": "59783440"
+        }
+      }
+    },
+    "3745906": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2772655161473707052",
+          "size": "131912424",
+          "download": "51287376"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20145876",
+        "timeupdated": "1758905517"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20971520",
+    "maxnumfiles": "100",
+    "appidredirect": "3648320",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Heelio/Marbies Party/{64BitSteamID}",
+        "pattern": "*"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Heelio/Marbies Party/{64BitSteamID}",
+            "replace": ".config/unity3d/Heelio/Marbies Party/{64BitSteamID}"
+          }
+        }
+      }
+    }
   }
 }
