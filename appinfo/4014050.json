@@ -1,6 +1,5 @@
 {
   "appid": "4014050",
-  "public_only": "1",
   "common": {
     "name": "Tama In-Between Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3fb91c9408d96b1a641525d9d2e9bd7a32beec75/capsule_231x87.jpg"
     },
@@ -348,5 +347,58 @@
     },
     "gameid": "4014050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Masagomi Studio",
+    "publisher": "Masagomi Studio"
+  },
+  "config": {
+    "installdir": "Tama In-Between Demo",
+    "launch": {
+      "0": {
+        "executable": "Tama In-Between.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Tama In-Between.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4014051": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5503938971842346770",
+          "size": "141024945",
+          "download": "44205792"
+        }
+      }
+    },
+    "4014052": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1202897922591099196",
+          "size": "155725180",
+          "download": "51947264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20087850",
+        "timeupdated": "1758603998"
+      }
+    }
   }
 }
