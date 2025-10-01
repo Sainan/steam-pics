@@ -1,6 +1,5 @@
 {
   "appid": "3921000",
-  "public_only": "1",
   "common": {
     "name": "人類滅亡後のアンドロイドの物語 Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -69,5 +68,39 @@
     },
     "gameid": "3921000",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Team Moko App.",
+    "publisher": "Team Moko App.",
+    "homepage": "https://app.teammoko.com/"
+  },
+  "config": {
+    "installdir": "ApocalypseDemo",
+    "launch": {
+      "0": {
+        "executable": "ApocalypseDemo/ApocalypseDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3921001": {
+      "manifests": {
+        "public": {
+          "gid": "4389222280531538843",
+          "size": "1198021766",
+          "download": "619209936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20042206",
+        "timeupdated": "1758256799"
+      }
+    }
   }
 }
