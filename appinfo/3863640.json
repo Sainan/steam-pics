@@ -1,6 +1,5 @@
 {
   "appid": "3863640",
-  "public_only": "1",
   "common": {
     "name": "The Trench",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -108,6 +107,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759294800",
     "community_hub_visible": "1",
     "gameid": "3863640",
     "exfgls": "3",
@@ -136,6 +136,58 @@
       "17": "4166",
       "18": "5608",
       "19": "5716"
+    }
+  },
+  "extended": {
+    "developer": "Error707Studios",
+    "publisher": "Error707Studios",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Trench",
+    "launch": {
+      "0": {
+        "executable": "P02A_LevelDesign.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3863641": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6170491778637683224",
+          "size": "2210310048",
+          "download": "1911180208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19899154",
+        "timeupdated": "1757345969"
+      }
     }
   }
 }
