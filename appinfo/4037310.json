@@ -1,6 +1,5 @@
 {
   "appid": "4037310",
-  "public_only": "1",
   "common": {
     "name": "Slot Heroes: Reels of Fate Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "a589f8f8f2966b8be47a666d51f6359729e5ee5d/capsule_231x87.jpg"
@@ -113,7 +112,44 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4037310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BRDC Game",
+    "publisher": "BRDC Game"
+  },
+  "config": {
+    "installdir": "Slot Heroes Reels of Fate Demo",
+    "launch": {
+      "0": {
+        "executable": "Sloat Heros Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1051804992654139320",
+          "size": "743774774",
+          "download": "153245024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20211326",
+        "timeupdated": "1759344738"
+      }
+    }
   }
 }
