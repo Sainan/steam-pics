@@ -1,13 +1,12 @@
 {
   "appid": "2654690",
-  "public_only": "1",
   "common": {
     "name": "Mutants Ate My Carrots",
     "type": "Game",
     "icon": "e95a52a10eae8af2ac6f19f4d840e0a6f61b0d50",
     "clienticon": "7c249b0dd41c57d9ff3af8c88ae7a88a7436a766",
     "clienttga": "80a66f80a783595542830fb0cd0701ff919d561d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64",
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759326473",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2654690",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -138,6 +138,125 @@
       "17": "4182",
       "18": "7250",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Animatic Vision",
+    "publisher": "Dionous Games",
+    "homepage": "https://www.dionous.com/mutants-ate-my-carrots/"
+  },
+  "config": {
+    "installdir": "Mutants Ate My Carrots",
+    "launch": {
+      "0": {
+        "executable": "mamc.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Mutants Ate My Carrots.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "start",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2654691": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8744138910947408876",
+          "size": "1310217276",
+          "download": "1231697104"
+        }
+      }
+    },
+    "2654692": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1483813924651791104",
+          "size": "1304110908",
+          "download": "1230752608"
+        }
+      }
+    },
+    "2654693": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7228883421139744724",
+          "size": "1313026456",
+          "download": "1232881632"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20171642",
+        "timeupdated": "1759144832"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "150",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Dionous Games/Mutants Ate My Carrots/Savegames",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Dionous Games/Mutants Ate My Carrots/Savegames",
+            "replace": "Dionous Games/Mutants Ate My Carrots/Savegames"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Dionous Games/Mutants Ate My Carrots/Savegames",
+            "replace": ".local/Share/Dionous Games/Mutants Ate My Carrots/Savegames"
+          }
+        }
+      }
     }
   }
 }
