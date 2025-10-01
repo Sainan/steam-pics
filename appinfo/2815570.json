@@ -1,0 +1,225 @@
+{
+  "appid": "2815570",
+  "common": {
+    "name": "Fur and Void",
+    "type": "Game",
+    "icon": "014e89c7adf89b15049de2201816e8d1cfc3e989",
+    "clienticon": "68d54339eac46aa42429a4305abf0b84e902a465",
+    "clienttga": "d4c5def45f3c9d65e69ebb22c7ae6c0d5e677553",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "2e226f83560cf7b49b739812c929611970b6dce3/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "80d7468060cdc2c8c55a540dfb86b937a0893752/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "22.690772745683844",
+        "height_pct": "110.75122444239912"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "7744d60216369304c79b27bca91dd45eb1d7866d/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "7744d60216369304c79b27bca91dd45eb1d7866d/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "24bc1800c965149698d71b6ee07cbef005f366d5/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "24bc1800c965149698d71b6ee07cbef005f366d5/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "24bc1800c965149698d71b6ee07cbef005f366d5/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "22.690772745683844",
+          "height_pct": "110.75122444239912"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "abbaf5adc796b19f44029e611be25c441a8dad79/library_header.jpg"
+        },
+        "image2x": {
+          "english": "abbaf5adc796b19f44029e611be25c441a8dad79/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1753567267",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "DFS"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "DFS"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "3",
+      "1": "2",
+      "2": "70"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_22": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1747904753",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2815570",
+    "store_tags": {
+      "0": "1741",
+      "1": "14139",
+      "2": "4172",
+      "3": "1770",
+      "4": "122",
+      "5": "17894",
+      "6": "9271",
+      "7": "1717",
+      "8": "7569",
+      "9": "9",
+      "10": "4726",
+      "11": "32322",
+      "12": "1638",
+      "13": "17389",
+      "14": "4191",
+      "15": "3835",
+      "16": "4376",
+      "17": "4608",
+      "18": "8122",
+      "19": "4155"
+    }
+  },
+  "extended": {
+    "developer": "DFS",
+    "publisher": "DFS",
+    "homepage": "https://furandvoid.com"
+  },
+  "config": {
+    "installdir": "FurAndVoid",
+    "launch": {
+      "0": {
+        "executable": "ABG\\Binaries\\Win64\\ABG-Win64-Shipping.exe",
+        "arguments": "-ini:Engine:[EpicOnlineServices]:AuthenticationGraph=Steam -windowed",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ABG\\Binaries\\Win64\\ABG-Win64-Shipping.exe",
+        "arguments": "-ini:Engine:[EpicOnlineServices]:AuthenticationGraph=Steam -windowed -dx11",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Fur and Void (DirectX11)"
+        },
+        "description": "Fur and Void (DirectX11)"
+      },
+      "2": {
+        "executable": "ABG.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2815571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3785508949866084602",
+          "size": "3427083528",
+          "download": "2373496368"
+        }
+      }
+    },
+    "2815572": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6339661251672859747",
+          "size": "2601626945",
+          "download": "923577200"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19721429",
+        "timeupdated": "1756108917"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
