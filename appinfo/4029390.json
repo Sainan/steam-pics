@@ -1,6 +1,5 @@
 {
   "appid": "4029390",
-  "public_only": "1",
   "common": {
     "name": "Bad Sector ³ - Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "bc478c12146f7aaf6ecf0d3ec6ef52c8ca9eaae5/capsule_231x87.jpg"
@@ -209,7 +208,84 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4029390",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Studio Gine",
+    "publisher": "Studio Gine"
+  },
+  "config": {
+    "installdir": "BAD SECTOR ³ - Demo",
+    "launch": {
+      "0": {
+        "executable": "BadSectorDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4029391": {
+      "manifests": {
+        "public": {
+          "gid": "1517745259086601897",
+          "size": "1868000040",
+          "download": "1743278288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197774",
+        "timeupdated": "1759276188"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BadSector/Saved/SaveGames",
+        "pattern": "DemoGameSave*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "BadSector/Saved/SaveGames",
+        "pattern": "DemoGameSave*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "LinuxHome",
+        "path": ".local/share/BadSector/Saved/SaveGames",
+        "pattern": "DemoGameSave*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
+    }
   }
 }
