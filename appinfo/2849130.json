@@ -1,6 +1,5 @@
 {
   "appid": "2849130",
-  "public_only": "1",
   "common": {
     "name": "Shadows Over Harken",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "f24aeed613f3543f6be8a978312821f3133c3aa1",
     "clienttga": "3bd17800b5987b33677af63e195e9ce40e5b9903",
     "clienticon": "259bee4b166696927bf4e29d30980ae1dd3942ac",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -110,7 +109,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2849130",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -129,6 +127,63 @@
       "14": "4325",
       "15": "6426",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Loyalty Games",
+    "publisher": "Loyalty Games"
+  },
+  "config": {
+    "installdir": "Dungeon Dwellers",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "ShadowsOverHarken.exe"
+      }
+    }
+  },
+  "depots": {
+    "2849131": {
+      "manifests": {
+        "public": {
+          "gid": "6490806147727337585",
+          "size": "1770457005",
+          "download": "1638374880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20149854",
+        "timeupdated": "1758929490"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "25",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
