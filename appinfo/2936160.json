@@ -206,7 +206,6 @@
   "ufs": {
     "quota": "10000000000",
     "maxnumfiles": "10000",
-    "sync_while_suspended": "1",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
@@ -219,6 +218,16 @@
         "path": "Pyramid Game/Pyramid Game",
         "pattern": "*.dll",
         "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Pyramid Game/Pyramid Game",
+        "pattern": "*.dat"
+      },
+      "3": {
+        "root": "MacAppSupport",
+        "path": "Pyramid Game/Pyramid Game",
+        "pattern": "*.dat"
       }
     },
     "rootoverrides": {
