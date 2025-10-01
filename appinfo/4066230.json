@@ -1,6 +1,5 @@
 {
   "appid": "4066230",
-  "public_only": "1",
   "common": {
     "name": "Solnest Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e4b876b9a31282fd4234ea378f9e2f0d3e587cc0/capsule_231x87.jpg"
     },
@@ -90,7 +89,56 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1761894000",
     "gameid": "4066230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gallic Entertainment",
+    "publisher": "Gallic Entertainment",
+    "homepage": "https://www.gallicentertainment.com/"
+  },
+  "config": {
+    "installdir": "Solnest Demo",
+    "launch": {
+      "0": {
+        "executable": "Solnest Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4066231": {
+      "manifests": {
+        "public": {
+          "gid": "1194093097661696916",
+          "size": "216936688",
+          "download": "148089216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20211235",
+        "timeupdated": "1759344273"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100"
   }
 }
