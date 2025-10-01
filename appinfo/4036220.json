@@ -1,6 +1,5 @@
 {
   "appid": "4036220",
-  "public_only": "1",
   "common": {
     "name": "Kinetic Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d4b8d60daed607f653102a055fcab3d5bd7a3308/capsule_231x87.jpg"
@@ -52,7 +51,92 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "gameid": "4036220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lowraiz Games",
+    "publisher": "Lowraiz Games"
+  },
+  "config": {
+    "installdir": "Kinetic Demo",
+    "launch": {
+      "0": {
+        "executable": "Kinetic.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Kinetic.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4036221": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2039419083018698028",
+          "size": "515751881",
+          "download": "258742000"
+        }
+      }
+    },
+    "4036222": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2035576903702401567",
+          "size": "487908581",
+          "download": "251806784"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20203574",
+        "timeupdated": "1759310769"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Kinetic",
+        "pattern": "*.save"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Kinetic",
+            "replace": "godot/app_userdata/Kinetic"
+          }
+        }
+      }
+    }
   }
 }
