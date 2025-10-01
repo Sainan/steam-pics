@@ -1,6 +1,5 @@
 {
   "appid": "3973610",
-  "public_only": "1",
   "common": {
     "name": "Prescribe and Pray Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "184ac64d5553555a03312227f5175148aca545ab/capsule_231x87.jpg"
@@ -104,7 +103,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3973610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nuclear Rabbits",
+    "publisher": "Nuclear Rabbits"
+  },
+  "config": {
+    "installdir": "Prescribe and Pray Demo",
+    "launch": {
+      "0": {
+        "executable": "Prescribe.and.Pray_Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3973612": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5467190081988155224",
+          "size": "220535920",
+          "download": "147986816"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20058021",
+        "timeupdated": "1758356266"
+      }
+    }
   }
 }
