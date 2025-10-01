@@ -1,6 +1,5 @@
 {
   "appid": "4061920",
-  "public_only": "1",
   "common": {
     "name": "Frenetika Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3aaa74bbf263990cc85651e27c2e1e79d5d86f1e/capsule_231x87.jpg"
     },
@@ -36,7 +35,55 @@
       "category_74": "1",
       "category_78": "1"
     },
+    "steam_release_date": "1759332139",
     "gameid": "4061920",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Team Lime Interactive",
+    "publisher": "Team Lime Interactive"
+  },
+  "config": {
+    "installdir": "Frenetika Demo",
+    "launch": {
+      "0": {
+        "executable": "BookOfSpells",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4061921": {
+      "manifests": {
+        "public": {
+          "gid": "1620401110008972898",
+          "size": "1088152606",
+          "download": "749538112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20157557",
+        "timeupdated": "1759008687"
+      }
+    }
   }
 }
