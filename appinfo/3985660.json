@@ -1,10 +1,9 @@
 {
   "appid": "3985660",
-  "public_only": "1",
   "common": {
     "name": "Aerocorp",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "56223642cd1aa29a1022b1916a7ececd7f5ee249",
     "icon": "56223642cd1aa29a1022b1916a7ececd7f5ee249",
     "oslist": "windows",
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759348670",
     "community_hub_visible": "1",
     "gameid": "3985660",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "4191",
@@ -112,6 +111,45 @@
       "4": "3959",
       "5": "1667",
       "6": "5125"
+    }
+  },
+  "extended": {
+    "developer": "Aerocorp",
+    "publisher": "Aerocorp"
+  },
+  "config": {
+    "installdir": "Aerocorp",
+    "launch": {
+      "0": {
+        "executable": "Aerocorp.exe"
+      }
+    }
+  },
+  "depots": {
+    "3985661": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7044930580125888983",
+          "size": "324284064",
+          "download": "102153344"
+        }
+      }
+    },
+    "3985662": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20211850",
+        "timeupdated": "1759347682"
+      }
     }
   }
 }
