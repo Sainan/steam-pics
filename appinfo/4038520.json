@@ -1,6 +1,5 @@
 {
   "appid": "4038520",
-  "public_only": "1",
   "common": {
     "name": "ScanIt! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "186533974b596d83da6b9af4154bc9789f7843da/capsule_231x87.jpg"
     },
@@ -81,7 +80,55 @@
     "category": {
       "category_2": "1"
     },
+    "steam_release_date": "1759312828",
     "gameid": "4038520",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Madcake Studios",
+    "publisher": "Madcake Studios",
+    "homepage": "https://www.madcakestudios.com/"
+  },
+  "config": {
+    "installdir": "ScanIt! Demo",
+    "launch": {
+      "0": {
+        "executable": "ScanIt!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4038521": {
+      "manifests": {
+        "public": {
+          "gid": "4073506534368605938",
+          "size": "659097917",
+          "download": "179675376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20202264",
+        "timeupdated": "1759304939"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "4",
+    "appidredirect": "2977680",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Madcake Studios/ScanIt!/saves/{64BitSteamID}/",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
