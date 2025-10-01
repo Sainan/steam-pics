@@ -1,6 +1,5 @@
 {
   "appid": "3907390",
-  "public_only": "1",
   "common": {
     "name": "Twins & Dreams Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "clienttga": "91bc6d940bba6c853616ad7a5d105c6aae63423c",
     "clienticns": "3d1755adc90d1e1b64927572c3ae7d9933261cc3",
     "linuxclienticon": "d5d068cc6e9350551a5a2c6b89e921f5ddfead85",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "bbf2091695ccae4a333c090d5c74206e17f7618a/capsule_231x87.jpg"
@@ -90,7 +89,105 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1759306210",
     "gameid": "3907390",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Moralabs",
+    "publisher": "Moralabs"
+  },
+  "config": {
+    "installdir": "Twins & Dreams Demo",
+    "launch": {
+      "0": {
+        "executable": "Twins & Dreams Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Twins & Dreams Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3907391": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5895845939872750432",
+          "size": "408698291",
+          "download": "109535408"
+        }
+      }
+    },
+    "3907392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4346863061049618939",
+          "size": "424275570",
+          "download": "118331568"
+        }
+      }
+    },
+    "3907393": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7372932074013362265",
+          "size": "396617601",
+          "download": "104770272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20141475",
+        "timeupdated": "1758886677"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1",
+    "appidredirect": "3403150",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Moralabs/Twins _ Dreams/Saves",
+        "pattern": "*.data"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Moralabs/Twins _ Dreams/Saves",
+            "replace": "com.moralabs.twins/Saves"
+          }
+        }
+      }
+    }
   }
 }
