@@ -1,6 +1,5 @@
 {
   "appid": "4041740",
-  "public_only": "1",
   "common": {
     "name": "Syrup 2: Candy Alchemy RPG Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "84524989f399e6209e88729d96559cbfddc3eae9",
     "icon": "b21a5c0074f0d8c0763444dc9c1c19f0cecf0037",
     "clienticns": "85d3f1c53b2d12ce6d3f1a36b5b47a9c058bc043",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "77d2657fb5342989df4aef0a9e6002433291714c/capsule_231x87.jpg"
     },
@@ -50,7 +49,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759338009",
     "gameid": "4041740",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NomnomNami",
+    "publisher": "NomnomNami"
+  },
+  "config": {
+    "installdir": "Syrup 2 Candy Alchemy RPG Demo",
+    "launch": {
+      "0": {
+        "executable": "Syrup2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "Syrup2.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "Syrup2.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4041741": {
+      "manifests": {
+        "public": {
+          "gid": "4557985051657543714",
+          "size": "240048760",
+          "download": "117895856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20199868",
+        "timeupdated": "1759289796"
+      }
+    }
   }
 }
