@@ -1,6 +1,5 @@
 {
   "appid": "4058030",
-  "public_only": "1",
   "common": {
     "name": "Sheltered from the Storm Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
       "schinese": "风暴庇护所 体验版",
       "tchinese": "風暴庇護所 體驗版"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "5f1a96ca0a915b0d9235b9cd9cb5a3406253e0a1/capsule_231x87.jpg"
@@ -142,5 +141,52 @@
     },
     "gameid": "4058030",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Echo Loop Games",
+    "publisher": "Echo Loop Games"
+  },
+  "config": {
+    "installdir": "Sheltered from the Storm Demo",
+    "launch": {
+      "0": {
+        "executable": "Sheltered from the Storm\\ShelteredFromTheStorm.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4058031": {
+      "manifests": {
+        "public": {
+          "gid": "3996309410624027791",
+          "size": "16629128980",
+          "download": "15988648464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20145157",
+        "timeupdated": "1758906696"
+      }
+    }
   }
 }
