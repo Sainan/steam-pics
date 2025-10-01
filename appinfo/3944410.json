@@ -1,6 +1,5 @@
 {
   "appid": "3944410",
-  "public_only": "1",
   "common": {
     "name": "Bank King Simulator",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osarch": "64",
     "osextended": "",
     "clienticon": "adcabf0be91bf12ba3c1365487896b9439d79833",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -115,7 +114,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3944410",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -139,6 +137,74 @@
       "16": "12057",
       "17": "12472",
       "18": "220585"
+    }
+  },
+  "extended": {
+    "developer": "RRG Studio",
+    "publisher": "RRG Studio"
+  },
+  "config": {
+    "installdir": "Bank King Simulator",
+    "launch": {
+      "0": {
+        "executable": "BankKingSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3944411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "479172321482216378",
+          "size": "15473364356",
+          "download": "13410867536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20201957",
+        "timeupdated": "1759303720"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BankKingSimulator/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
