@@ -1,6 +1,5 @@
 {
   "appid": "4066720",
-  "public_only": "1",
   "common": {
     "name": "The Zamazingo Puzzle Land Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienticon": "6cd26b6d22c4f6f7525000aedb295e9503f4b141",
     "icon": "6cd26b6d22c4f6f7525000aedb295e9503f4b141",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c58c867130e0c841f33d8ef42fc226f7a23fd6c7/capsule_231x87.jpg"
     },
@@ -83,7 +82,64 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759357410",
     "gameid": "4066720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "yusuf vuran",
+    "publisher": "yusuf vuran",
+    "homepage": "https://thezamazingo.com/"
+  },
+  "config": {
+    "installdir": "The Zamazingo Puzzle Land Demo",
+    "launch": {
+      "0": {
+        "executable": "The Zamazingo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "The Zamazingo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066722": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6770647366029619430",
+          "size": "128344410",
+          "download": "64195808"
+        }
+      }
+    },
+    "4066723": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3358921477341350849",
+          "size": "144449283",
+          "download": "72262448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20148157",
+        "timeupdated": "1758950179"
+      }
+    }
   }
 }
