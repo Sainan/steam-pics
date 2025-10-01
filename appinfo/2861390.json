@@ -1,6 +1,5 @@
 {
   "appid": "2861390",
-  "public_only": "1",
   "common": {
     "name": "The Ranger: Border Hunt",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "b19b0b9f36ec4c9f89c0fe16f2f65df75640f61e",
     "clienticon": "f6a23784b683ccb9ac64bcbb094e5db0d7034ef0",
     "clienttga": "1c0294e2f92d58e92fbef492d6999bfa89ff6363",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "polish": "Zwiadowca: Graniczne Łowy"
     },
@@ -122,6 +121,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759315833",
     "community_hub_visible": "1",
     "gameid": "2861390",
     "exfgls": "3",
@@ -147,5 +147,101 @@
       "18": "3993",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Essa Games",
+    "publisher": "FIRSTSCORE OÜ",
+    "homepage": "https://www.essagames.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "TheRangerBorderHunt",
+    "launch": {
+      "0": {
+        "executable": "TheRangerBorderHunt.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "TheRangerBorderHunt",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "TheRangerBorderHunt.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2861392": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4625995381461535410",
+          "size": "59594393",
+          "download": "35032192"
+        }
+      }
+    },
+    "2861393": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6233403515430517557",
+          "size": "70463462",
+          "download": "37482576"
+        }
+      }
+    },
+    "2861394": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5782763618892244574",
+          "size": "40088321",
+          "download": "30111264"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "20204462",
+        "timeupdated": "1759315072"
+      }
+    },
+    "privatebranches": "1"
   }
 }
