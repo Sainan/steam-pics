@@ -1,0 +1,159 @@
+{
+  "appid": "3848830",
+  "common": {
+    "name": "Poly Frenzy Demo",
+    "type": "Demo",
+    "parent": "3676270",
+    "clienttga": "ccbebd8ba0805761f77eab09469c72f83a10c3fd",
+    "clienticon": "f7c0e1715f03f0ca60fb078fe8e47aa162cee6e1",
+    "icon": "6d26155199d7071b060ea65e4d1b2649384b7fa5",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macosapplesilicon",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "bab956bd256e1970c3105a1d389b69b30dd5be65/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "9d721a28c93bcb3cd777fbd7d564889ea54343b2/header.jpg"
+    },
+    "store_asset_mtime": "1752852654",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Royal Pourceau Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Royal Pourceau Studios"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_57": "1",
+      "category_60": "1",
+      "category_74": "1",
+      "category_15": "1",
+      "category_25": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1752510261",
+    "gameid": "3848830",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Royal Pourceau Studios",
+    "publisher": "Royal Pourceau Studios"
+  },
+  "config": {
+    "installdir": "Poly Frenzy Demo",
+    "launch": {
+      "0": {
+        "executable": "Poly Frenzy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Win Version"
+        },
+        "description": "Win Version"
+      },
+      "1": {
+        "executable": "Poly Frenzy.app/Contents/MacOS/Poly Frenzy",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "MAC Version"
+        },
+        "description": "MAC Version"
+      }
+    }
+  },
+  "depots": {
+    "3848831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3412697854770641221",
+          "size": "1248435821",
+          "download": "289393712"
+        }
+      }
+    },
+    "3848832": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8174571059745024259",
+          "size": "1116898315",
+          "download": "196539712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19927872",
+        "timeupdated": "1757514541"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Royal Pourceau Studios/Poly Frenzy/",
+        "pattern": "playerdata*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Royal Pourceau Studios/Poly Frenzy/",
+        "pattern": "playerdata*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Royal Pourceau Studios/Poly Frenzy/",
+        "pattern": "playerdataUpdate3*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "MacAppSupport",
+        "path": "Royal Pourceau Studios/Poly Frenzy/",
+        "pattern": "playerdataUpdate3*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
+  }
+}
