@@ -1,6 +1,5 @@
 {
   "appid": "3863380",
-  "public_only": "1",
   "common": {
     "name": "Word maker",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f087374fa56c22fbe43a09494b9579ca3ba77c41/capsule_231x87.jpg"
@@ -105,6 +104,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759314688",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3863380",
     "exfgls": "3",
@@ -123,6 +124,107 @@
       "11": "5154",
       "12": "31275",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "RandomSeed works",
+    "publisher": "RandomSeed works",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Word maker",
+    "launch": {
+      "0": {
+        "executable": "words/words.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Default, with ray-tracing"
+        },
+        "description": "Default, with ray-tracing"
+      },
+      "1": {
+        "executable": "words/words.exe",
+        "arguments": "-dx12",
+        "workingdir": "words",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX12"
+        },
+        "description": "DirectX12"
+      },
+      "2": {
+        "executable": "words/words.exe",
+        "arguments": "-dx11",
+        "workingdir": "words",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX11"
+        },
+        "description": "DirectX11"
+      },
+      "3": {
+        "executable": "words/words.exe",
+        "arguments": "-dx11 -noraytracing -sg.ResolutionQuality=50 -sg.ShadowQuality=0 -sg.AntiAliasingQuality=1",
+        "workingdir": "words",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Safe graphics"
+        },
+        "description": "Safe graphics"
+      }
+    }
+  },
+  "depots": {
+    "3863381": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5542917196585017293",
+          "size": "1430889526",
+          "download": "1280738320"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20196390",
+        "timeupdated": "1759268092"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\words\\Saved\\SaveGames\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
