@@ -1,6 +1,5 @@
 {
   "appid": "3936720",
-  "public_only": "1",
   "common": {
     "name": "The House Dreams Along With Them Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "d57390f5be6c2c952a885e6af7dba4d9f366aaa9",
     "clienticon": "304aa87999abd45039ec24d5ffe249e45c566314",
     "clienttga": "a48a306aeac9e80af69048bfa09178683f60adcd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,5 +110,67 @@
     },
     "gameid": "3936720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jeffrey Nordin",
+    "publisher": "Caranthos Mori Games"
+  },
+  "config": {
+    "installdir": "The House Dreams Along With Them Demo",
+    "launch": {
+      "0": {
+        "executable": "TheHouseDreams.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3936721": {
+      "manifests": {
+        "public": {
+          "gid": "7123990701165258659",
+          "size": "6608014558",
+          "download": "5917702064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20185944",
+        "timeupdated": "1759221199"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "12288000",
+    "maxnumfiles": "12",
+    "appidredirect": "3891660",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "TheHouseDreams/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
