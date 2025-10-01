@@ -1,4 +1,107 @@
 {
   "appid": "4042140",
-  "public_only": "1"
+  "common": {
+    "name": "Blastermancer Demo",
+    "type": "Demo",
+    "parent": "3811020",
+    "clienticon": "9356484efcdafb7f97ea14791a7534784e0d1d70",
+    "icon": "9356484efcdafb7f97ea14791a7534784e0d1d70",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "535476d9463b98a08f8f07b08aafc5f0dbf27ad5/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "2ff284bea6434be419efaa0445af62da91137f6d/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "3bed65cf90dde790fad29230454974a4f269dee7/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758168483",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "NeoGeeJoe"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "NeoGeeJoe"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_60": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_75": "1",
+      "category_79": "1",
+      "category_23": "1"
+    },
+    "gameid": "4042140",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NeoGeeJoe",
+    "publisher": "NeoGeeJoe"
+  },
+  "config": {
+    "installdir": "Blastermancer Demo",
+    "launch": {
+      "0": {
+        "executable": "Blastermancer Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4042141": {
+      "manifests": {
+        "public": {
+          "gid": "3764488902182689514",
+          "size": "116346880",
+          "download": "113916432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20200967",
+        "timeupdated": "1759297988"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Blastermancer Demo/User Data",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
+  }
 }
