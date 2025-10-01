@@ -90,6 +90,30 @@
     "launch": {
       "0": {
         "executable": "TTTClient\\Binaries\\Win64\\Time Takers.exe"
+      },
+      "1": {
+        "executable": "TTTClient\\Binaries\\Win64\\Time Takers.exe",
+        "arguments": "EOSArtifactNameOverride=Dev",
+        "type": "option1",
+        "config": {
+          "betakey": "dev_branch"
+        },
+        "description_loc": {
+          "english": "DEV"
+        },
+        "description": "DEV"
+      },
+      "2": {
+        "executable": "TTTClient\\Binaries\\Win64\\Time Takers.exe",
+        "arguments": "EOSArtifactNameOverride=Stage",
+        "type": "option2",
+        "config": {
+          "betakey": "dev_branch"
+        },
+        "description_loc": {
+          "english": "RC"
+        },
+        "description": "RC"
       }
     }
   },
