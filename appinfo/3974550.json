@@ -1,11 +1,10 @@
 {
   "appid": "3974550",
-  "public_only": "1",
   "common": {
     "name": "境界2：乾坤一掷 Demo",
     "type": "Demo",
     "parent": "3782540",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "3d6247bc39735a8491e4b74173f50887807765ba",
     "icon": "1aa4f14ad423ad89ff2dc1de62563bb20fe521b7",
     "oslist": "windows",
@@ -93,5 +92,43 @@
     },
     "gameid": "3974550",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "QingHe Studio",
+    "publisher": "QingHe Studio"
+  },
+  "config": {
+    "installdir": "境界2：乾坤一掷 Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3974551": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "210644004256473201",
+          "size": "343550604",
+          "download": "220309792"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20072862",
+        "timeupdated": "1758528347"
+      }
+    }
   }
 }
