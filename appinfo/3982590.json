@@ -1,11 +1,10 @@
 {
   "appid": "3982590",
-  "public_only": "1",
   "common": {
     "name": "随手属性2 / 随手属性2 Demo",
     "type": "Demo",
     "parent": "2817420",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "d709d35ab2366fc42aac0a5ad784217acaf25b71",
     "icon": "d709d35ab2366fc42aac0a5ad784217acaf25b71",
     "name_localized": {
@@ -119,7 +118,73 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3982590",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "早晨w",
+    "publisher": "早晨w"
+  },
+  "config": {
+    "installdir": "随手属性2 Demo",
+    "launch": {
+      "0": {
+        "executable": "Attribute2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3982591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3071164956852332268",
+          "size": "935462016",
+          "download": "726366096"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20205440",
+        "timeupdated": "1759319181"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Attribute2 Demo",
+        "pattern": "*.sav"
+      }
+    },
+    "appidredirect": "2817420"
   }
 }
