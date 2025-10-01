@@ -1,6 +1,5 @@
 {
   "appid": "3947870",
-  "public_only": "1",
   "common": {
     "name": "Seed 2313 Demo",
     "type": "Demo",
@@ -19,7 +18,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -120,7 +119,88 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3947870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DaShanGames",
+    "publisher": "DaShanGames"
+  },
+  "config": {
+    "installdir": "Seed 2313 Demo",
+    "launch": {
+      "0": {
+        "executable": "Seed2313 Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3947871": {
+      "manifests": {
+        "public": {
+          "gid": "5538053202445030260",
+          "size": "734295692",
+          "download": "148985472"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20205310",
+        "timeupdated": "1759318742"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DaShanGames\\Seed2313 Demo\\Saves",
+        "pattern": "*.es3",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "DaShanGames\\Seed2313 Demo\\Saves",
+            "replace": "DaShanGames\\Seed2313 Demo\\Saves"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "DaShanGames\\Seed2313 Demo\\Saves",
+            "replace": "DaShanGames\\Seed2313 Demo\\Saves"
+          }
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
