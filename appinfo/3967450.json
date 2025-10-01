@@ -1,6 +1,5 @@
 {
   "appid": "3967450",
-  "public_only": "1",
   "common": {
     "name": "Drawn to Drift Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac357dfba3e41bfb39676480ae14ad0f24ebc02f/capsule_231x87.jpg"
     },
@@ -102,5 +101,60 @@
     },
     "gameid": "3967450",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "FrogForgeGames",
+    "publisher": "FrogForgeGames"
+  },
+  "config": {
+    "installdir": "Drawn to Drift Demo",
+    "launch": {
+      "0": {
+        "executable": "drawntodrift.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "drawntodrift.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3967452": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3704644979769533318",
+          "size": "262280416",
+          "download": "131595664"
+        }
+      }
+    },
+    "3967453": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2194064240143595942",
+          "size": "236261384",
+          "download": "123978416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20212603",
+        "timeupdated": "1759351755"
+      }
+    }
   }
 }
