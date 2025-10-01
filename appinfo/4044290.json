@@ -1,6 +1,5 @@
 {
   "appid": "4044290",
-  "public_only": "1",
   "common": {
     "name": "BABELOMANIA Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -88,11 +87,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759312675",
     "gameid": "4044290",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Team JPDE",
+    "publisher": "Team JPDE"
+  },
+  "config": {
+    "installdir": "BABELOMANIA - Demo",
+    "launch": {
+      "0": {
+        "executable": "BABELOMANIA.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4044291": {
+      "manifests": {
+        "public": {
+          "gid": "3384787505807901517",
+          "size": "383530227",
+          "download": "203133104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20098829",
+        "timeupdated": "1758658529"
+      }
     }
   }
 }
