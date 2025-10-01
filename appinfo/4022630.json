@@ -1,6 +1,5 @@
 {
   "appid": "4022630",
-  "public_only": "1",
   "common": {
     "name": "Ephemeral Art: Shapeweaver",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f64fbbcd4f98b4e14276a2ab589e67217dbeb2f0/capsule_231x87.jpg"
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759317233",
     "community_hub_visible": "1",
     "gameid": "4022630",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "492",
@@ -118,6 +117,85 @@
       "8": "4166",
       "9": "30358",
       "10": "3968"
+    }
+  },
+  "extended": {
+    "developer": "VelvetCache Interactive",
+    "publisher": "VelvetCache Interactive",
+    "listofdlc": "4029190,4029200",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Shapeweaver Game",
+    "launch": {
+      "0": {
+        "executable": "shapeweaver-game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4022631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3182949393974866312",
+          "size": "341508225",
+          "download": "171996112"
+        }
+      }
+    },
+    "4022632": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "4029190",
+      "manifests": {
+        "public": {
+          "gid": "1103166850761870091",
+          "size": "227665",
+          "download": "49776"
+        }
+      }
+    },
+    "4022633": {
+      "dlcappid": "4029200",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3148076859797306704",
+          "size": "177271",
+          "download": "39152"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20201370",
+        "timeupdated": "1759300500"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2097152",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "path": "Shapeweaver",
+        "pattern": "shapeweaver_settings.json"
+      }
     }
   }
 }
