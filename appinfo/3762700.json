@@ -1,0 +1,57 @@
+{
+  "appid": "3762700",
+  "common": {
+    "name": "AFK Shift Editor",
+    "type": "Tool",
+    "parent": "3521880",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "25a97d324bde34cdd1b6e6055fa9ee8d3da72f9f",
+    "clienticon": "cd96b3bb1236080b4388b511bef5ffbab95429cc",
+    "clienttga": "e30dd391505e4242f2c8c3c564202f3af62c5856",
+    "linuxclienticon": "cbb9b06f080209c2717f09cba21d385155ef6700",
+    "releasestate": "released",
+    "gameid": "3762700"
+  },
+  "config": {
+    "installdir": "AFK Shift Editor",
+    "launch": {
+      "0": {
+        "executable": "bin/godot.x86_64",
+        "arguments": "src/project.godot",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "bin/godot.exe",
+        "arguments": "src/project.godot",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3762701": {
+      "manifests": {
+        "public": {
+          "gid": "2012625432190290839",
+          "size": "299114651",
+          "download": "136442368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20029107",
+        "timeupdated": "1758192055"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
