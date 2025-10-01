@@ -1,6 +1,5 @@
 {
   "appid": "4069640",
-  "public_only": "1",
   "common": {
     "name": "The Infernalist Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "83dd6051300922d4ff47a4e48d9378c38507c4ec",
     "clienticon": "83dd6051300922d4ff47a4e48d9378c38507c4ec",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "bd8eb41c02635866d378d8d99ca13b196725b02e/capsule_231x87.jpg"
@@ -86,7 +85,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759349938",
     "gameid": "4069640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "The Infernalist Studios",
+    "publisher": "The Infernalist Studios",
+    "homepage": "https://theinfernalist.com/"
+  },
+  "config": {
+    "installdir": "The Infernalist Demo",
+    "launch": {
+      "0": {
+        "executable": "TheInfernalistDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4069641": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7130536086665664524",
+          "size": "5426561276",
+          "download": "5205012592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20164917",
+        "timeupdated": "1759097699"
+      }
+    }
   }
 }
