@@ -1,0 +1,239 @@
+{
+  "appid": "2350550",
+  "common": {
+    "name": "Spelljammer: Pirates of Realmspace",
+    "type": "Game",
+    "releasestate": "released",
+    "icon": "07fda35aceaac9158ea119eb0918f36309ccc738",
+    "clienttga": "62eb923b6d9efecc21c9bac78c824af42c6db35e",
+    "clienticon": "c6cb2e2cdffc5d892a92e3467b1c00a0f0ba1f98",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1683072000",
+      "tested_build_id": "10864735",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-8.0-1",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "65.63218390804599",
+        "height_pct": "86.04787608542594"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "65.63218390804599",
+          "height_pct": "86.04787608542594"
+        }
+      }
+    },
+    "store_asset_mtime": "1679267851",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Cybertech"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "SNEG"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Dungeons &amp; Dragons"
+      },
+      "3": {
+        "type": "franchise",
+        "name": "SNEG"
+      },
+      "4": {
+        "type": "franchise",
+        "name": "Wizards of the Coast"
+      }
+    },
+    "primary_genre": "3",
+    "genres": {
+      "0": "25",
+      "1": "3",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1679933155",
+    "community_hub_visible": "1",
+    "gameid": "2350550",
+    "store_tags": {
+      "0": "9",
+      "1": "21",
+      "2": "122",
+      "3": "6691",
+      "4": "4004",
+      "5": "14153",
+      "6": "1708",
+      "7": "3834",
+      "8": "1755",
+      "9": "1681",
+      "10": "21725",
+      "11": "4191",
+      "12": "4166",
+      "13": "4295",
+      "14": "14139",
+      "15": "3964",
+      "16": "12472",
+      "17": "3916",
+      "18": "1741",
+      "19": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "59"
+  },
+  "extended": {
+    "developer": "Cybertech",
+    "publisher": "SNEG"
+  },
+  "config": {
+    "installdir": "Spelljammer Pirates of Realmspace",
+    "launch": {
+      "0": {
+        "executable": ".\\Launcher\\Launcher.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "./SpelljammerPiratesOfRealmspaceGER\\DOSBOX\\DOSBox.exe",
+        "arguments": "-noconsole -conf spelljam-ger-base.conf -conf spelljam-ger-game.conf -conf spelljam-ger-graphics.conf",
+        "workingdir": "./SpelljammerPiratesOfRealmspaceGER",
+        "type": "option2",
+        "description_loc": {
+          "english": "Launch Game GER (DOSbox)"
+        },
+        "description": "Launch Game GER (DOSbox)"
+      },
+      "2": {
+        "executable": "./SpelljammerPiratesOfRealmspaceGER\\DOSBOX\\ConfigTool.exe",
+        "arguments": "-conf spelljam-ger-graphics.conf",
+        "workingdir": "./SpelljammerPiratesOfRealmspaceGER",
+        "type": "option3",
+        "description_loc": {
+          "english": "Configure graphics (DOSBox)"
+        },
+        "description": "Configure graphics (DOSBox)"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2350551": {
+      "manifests": {
+        "public": {
+          "gid": "3104890578981696599",
+          "size": "27393504",
+          "download": "14357392"
+        }
+      }
+    },
+    "2350552": {
+      "manifests": {
+        "public": {
+          "gid": "3773339814151222522",
+          "size": "52938014",
+          "download": "24599632"
+        }
+      }
+    },
+    "2350553": {
+      "config": {
+        "language": "german"
+      },
+      "manifests": {}
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "10864735",
+        "timeupdated": "1679931032"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "152428800",
+    "maxnumfiles": "1000"
+  }
+}
