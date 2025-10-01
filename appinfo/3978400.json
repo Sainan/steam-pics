@@ -1,13 +1,12 @@
 {
   "appid": "3978400",
-  "public_only": "1",
   "common": {
     "name": "Backrooms: The Beginning Hour",
     "type": "Demo",
     "parent": "3919010",
     "clienticon": "342612ff3b6cb33d15bb6019180e9b9d3dcf2014",
     "icon": "342612ff3b6cb33d15bb6019180e9b9d3dcf2014",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -99,7 +98,54 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760374800",
     "gameid": "3978400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "HNStudios",
+    "publisher": "HNStudios"
+  },
+  "config": {
+    "installdir": "Backrooms Reminiscence Demo",
+    "launch": {
+      "0": {
+        "executable": "TheBeginningHour.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3978401": {
+      "manifests": {
+        "public": {
+          "gid": "9165818752648482365",
+          "size": "2242163780",
+          "download": "2085672416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207339",
+        "timeupdated": "1759327171"
+      }
+    }
   }
 }
