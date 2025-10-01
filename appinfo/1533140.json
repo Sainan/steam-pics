@@ -1,6 +1,5 @@
 {
   "appid": "1533140",
-  "public_only": "1",
   "common": {
     "name": "Prison Miner",
     "type": "Game",
@@ -11,7 +10,7 @@
     "linuxclienticon": "bc8192b7e614ecb1bcaaa2767fd4ff6ebf797c25",
     "icon": "9772510394b3ba16e3bc1f33fde8db89f85bbcaf",
     "clienticon": "9772510394b3ba16e3bc1f33fde8db89f85bbcaf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -108,9 +107,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759334735",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1533140",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "597",
@@ -125,6 +125,57 @@
       "10": "3964",
       "11": "6276",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Data Leak Games",
+    "publisher": "Data Leak Games"
+  },
+  "config": {
+    "installdir": "PrisonMiner",
+    "launch": {
+      "0": {
+        "executable": "PrisonMiner.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1533141": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7685339736377522066",
+          "size": "124081385",
+          "download": "41423440"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20206603",
+        "timeupdated": "1759324438"
+      }
     }
   }
 }
