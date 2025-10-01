@@ -1,6 +1,5 @@
 {
   "appid": "3939090",
-  "public_only": "1",
   "common": {
     "name": "H.Z.T.",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "fca2b42763a596b1af64d4e5325e5cd96caf9a4f",
     "clienttga": "5dbf0996389b5db3ad13c6683a352848757cd635",
     "clienticon": "034bb08413c0d7683a2c5ac434ec2ff9afea0e85",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "83dfa9d029df32639849bf33aaa4252053418f4f/capsule_231x87.jpg"
@@ -113,9 +112,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759313779",
     "community_hub_visible": "1",
     "gameid": "3939090",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -137,6 +136,66 @@
       "17": "8945",
       "18": "3859",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "InterAxis Studio",
+    "publisher": "InterAxis Studio"
+  },
+  "config": {
+    "installdir": "H.Z.T",
+    "launch": {
+      "0": {
+        "executable": "HZT.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3939091": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1954508253492782435",
+          "size": "1981373553",
+          "download": "1823377024"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20198982",
+        "timeupdated": "1759284139"
+      }
     }
   }
 }
