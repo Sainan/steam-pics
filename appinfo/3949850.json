@@ -1,6 +1,5 @@
 {
   "appid": "3949850",
-  "public_only": "1",
   "common": {
     "name": "Fallen Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,6 +44,49 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Lakehouse Studio",
+    "publisher": "Lakehouse Studio"
+  },
+  "config": {
+    "installdir": "Fallen Demo",
+    "launch": {
+      "0": {
+        "executable": "FallenDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3949851": {
+      "manifests": {
+        "public": {
+          "gid": "8638267679761150489",
+          "size": "7731454960",
+          "download": "7505300128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20176833",
+        "timeupdated": "1759167294"
+      }
     }
   }
 }
