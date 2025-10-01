@@ -1,6 +1,5 @@
 {
   "appid": "3958590",
-  "public_only": "1",
   "common": {
     "name": "공포의 PC방",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticns": "c078c750a3d853dadbb09fa17ed9de1daea45613",
     "linuxclienticon": "00197690604bc552b9f079702b733471f90ca418",
     "clienticon": "a834b0024b6dfa3114a7a52792e2445022df20de",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "45edf7a4ee68a1327e46c801776490d03c33ff53/capsule_231x87.jpg"
@@ -110,9 +109,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3958590",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -122,6 +121,59 @@
       "5": "1667",
       "6": "492",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Nexroad entertainment",
+    "publisher": "Nexroad entertainment"
+  },
+  "config": {
+    "installdir": "PCRoom",
+    "launch": {
+      "0": {
+        "executable": "PCRoom.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3958591": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2990243534768180217",
+          "size": "5306385709",
+          "download": "5140004352"
+        }
+      }
+    },
+    "baselanguages": "koreana",
+    "branches": {
+      "public": {
+        "buildid": "19799922",
+        "timeupdated": "1756597441"
+      }
     }
   }
 }
