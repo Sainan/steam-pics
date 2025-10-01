@@ -1,6 +1,5 @@
 {
   "appid": "4054610",
-  "public_only": "1",
   "common": {
     "name": "Comet Tycoon Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -100,7 +99,42 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759352483",
     "gameid": "4054610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CalmFrantix",
+    "publisher": "CalmFrantix"
+  },
+  "config": {
+    "installdir": "Comet Tycoon Demo",
+    "launch": {
+      "0": {
+        "executable": "CometTycoon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054611": {
+      "manifests": {
+        "public": {
+          "gid": "5772574114030583636",
+          "size": "393244416",
+          "download": "72320224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20212673",
+        "timeupdated": "1759351895"
+      }
+    }
   }
 }
