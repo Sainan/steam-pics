@@ -1,4 +1,55 @@
 {
   "appid": "4070050",
-  "public_only": "1"
+  "common": {
+    "name": "Tired of Being the Hero Demo",
+    "type": "Demo",
+    "parent": "3849030",
+    "clienticon": "5c89a106d7515f5a34ff32f19c745077c1ace6b3",
+    "icon": "5c89a106d7515f5a34ff32f19c745077c1ace6b3",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4070050",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Tired of Being the Hero Demo",
+    "launch": {
+      "0": {
+        "executable": "Retro_UE_FPS_TEST.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4070051": {
+      "manifests": {
+        "public": {
+          "gid": "2731842565965310255",
+          "size": "1140532137",
+          "download": "966977248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20213105",
+        "timeupdated": "1759355197"
+      }
+    }
+  }
 }
