@@ -1,6 +1,5 @@
 {
   "appid": "3908310",
-  "public_only": "1",
   "common": {
     "name": "World 23 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "48abd1e29967116758f03a6b71f922642b5d1c9c",
     "clienttga": "c1ccff3544d5b34f52a14b88756b098d809f6fa9",
     "icon": "48abd1e29967116758f03a6b71f922642b5d1c9c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -148,7 +147,106 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
+    "community_visible_stats": "1",
     "gameid": "3908310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Spectrum Games",
+    "publisher": "Spectrum Games"
+  },
+  "config": {
+    "installdir": "World 23 Demo",
+    "launch": {
+      "0": {
+        "executable": "World23_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TestBuild.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3908311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4160323987246842411",
+          "size": "4247440809",
+          "download": "1706631168"
+        }
+      }
+    },
+    "3908312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8347252335989057672",
+          "size": "4161176961",
+          "download": "1674305280"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20209095",
+        "timeupdated": "1759334553"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "6",
+    "appidredirect": "3734490",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SpectrumGames\\World23_Demo",
+        "pattern": "*.bin"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SpectrumGames\\World23_Demo",
+            "replace": "unity.SpectrumGames.World23_Demo"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SpectrumGames\\World23_Demo",
+            "replace": ".config/unity3d"
+          }
+        }
+      }
+    }
   }
 }
