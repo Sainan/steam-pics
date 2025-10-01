@@ -1,6 +1,5 @@
 {
   "appid": "3916240",
-  "public_only": "1",
   "common": {
     "name": "UNIVERSE SLIME Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     },
     "icon": "d0f6856dff6f53cba28a5e9eaba0a469fb1dbff3",
     "clienticon": "d0f6856dff6f53cba28a5e9eaba0a469fb1dbff3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -119,5 +118,61 @@
     },
     "gameid": "3916240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mash Potato",
+    "publisher": "Mash Potato",
+    "homepage": "https://mashpotato-gamedev.com/"
+  },
+  "config": {
+    "installdir": "UNIVERSE SLIME Demo",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "3",
+    "launch": {
+      "0": {
+        "executable": "UniverSlime.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3916241": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8216055459148436856",
+          "size": "5908687783",
+          "download": "5150957920"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20151881",
+        "timeupdated": "1758947760"
+      }
+    }
   }
 }
