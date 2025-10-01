@@ -1,6 +1,5 @@
 {
   "appid": "3927410",
-  "public_only": "1",
   "common": {
     "name": "Heat 'n Hit Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -188,7 +187,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759323600",
     "gameid": "3927410",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Barkino",
+    "publisher": "Barkino"
+  },
+  "config": {
+    "installdir": "Heat n' Hit Demo",
+    "launch": {
+      "0": {
+        "executable": "HeatNHit.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3927411": {
+      "manifests": {
+        "public": {
+          "gid": "1164149482490377450",
+          "size": "3646491556",
+          "download": "3436452864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20204383",
+        "timeupdated": "1759314746"
+      }
+    }
   }
 }
