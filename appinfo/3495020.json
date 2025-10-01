@@ -1,6 +1,5 @@
 {
   "appid": "3495020",
-  "public_only": "1",
   "common": {
     "name": "100 Africa Cats",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "6da40c0d6afcd8e9d27ce711ccaccbbca21e63d5",
     "clienticon": "241875dc0a2287488d76a2fe33ffe6d2d6bb2607",
     "clienttga": "f218b98c5d1cf97289317cea3436212683663f97",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a44b9b1b79f731d0e1731b440f1923146ee89e9e/capsule_231x87.jpg"
@@ -105,7 +104,8 @@
     },
     "category": {
       "category_22": "1",
-      "category_2": "1"
+      "category_2": "1",
+      "category_62": "1"
     },
     "supported_languages": {
       "english": {
@@ -418,9 +418,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759330821",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3495020",
-    "exfgls": "8",
     "store_tags": {
       "0": "113",
       "1": "597",
@@ -442,6 +443,49 @@
       "17": "3834",
       "18": "5652",
       "19": "5154"
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "publisher": "100 Cozy Games"
+  },
+  "config": {
+    "installdir": "100 Africa Cats",
+    "launch": {
+      "0": {
+        "executable": "100 Africa Cats.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3495021": {
+      "manifests": {
+        "public": {
+          "gid": "7849254195992777398",
+          "size": "429836841",
+          "download": "45329648"
+        }
+      }
+    },
+    "3934680": {
+      "dlcappid": "3934680",
+      "manifests": {
+        "public": {
+          "gid": "8605833398312876935",
+          "size": "57166287",
+          "download": "55786640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19547245",
+        "timeupdated": "1754855958"
+      }
     }
   }
 }
