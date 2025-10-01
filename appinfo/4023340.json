@@ -1,6 +1,5 @@
 {
   "appid": "4023340",
-  "public_only": "1",
   "common": {
     "name": "Blood Radiant Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -51,11 +50,73 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4023340",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "david disco",
+    "publisher": "david disco"
+  },
+  "config": {
+    "installdir": "Blood Radiant Demo",
+    "launch": {
+      "0": {
+        "executable": "BloodRadiantDemo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4023341": {
+      "manifests": {
+        "public": {
+          "gid": "2309721840804374169",
+          "size": "1222686689",
+          "download": "1075179456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20205882",
+        "timeupdated": "1759321148"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "512000000",
+    "maxnumfiles": "10",
+    "appidredirect": "2697460",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BloodRadiant/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
     }
   }
 }
