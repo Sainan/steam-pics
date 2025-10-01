@@ -1,6 +1,5 @@
 {
   "appid": "3105290",
-  "public_only": "1",
   "common": {
     "name": "Painted Shores",
     "type": "Game",
@@ -8,7 +7,7 @@
     "icon": "f587abd7c4bcde767dfa4c583e20a1019e012dda",
     "clienticns": "3a60bab28ce30142cf5c203cc260d760c75506e1",
     "clienticon": "1c1a85732d332322266c9d44001d6eb1160d70cb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -99,9 +98,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3105290",
-    "exfgls": "8",
     "store_tags": {
       "0": "4106",
       "1": "1695",
@@ -123,6 +122,56 @@
       "17": "6815",
       "18": "5900",
       "19": "19"
+    }
+  },
+  "extended": {
+    "developer": "Concept Interactive",
+    "publisher": "Concept Interactive",
+    "homepage": "https://www.conceptinteractive.co/paintedshores"
+  },
+  "config": {
+    "installdir": "Painted Shores",
+    "launch": {
+      "0": {
+        "executable": "PaintedShores.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3105291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9164329105284217510",
+          "size": "1461680654",
+          "download": "1276145440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20195629",
+        "timeupdated": "1759263887"
+      }
     }
   }
 }
