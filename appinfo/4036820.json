@@ -1,6 +1,5 @@
 {
   "appid": "4036820",
-  "public_only": "1",
   "common": {
     "name": "Cosmic Run Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "icon": "b32b22277aa15fac8a517c6e2573a2bfcf6c8243",
     "clienticon": "b32b22277aa15fac8a517c6e2573a2bfcf6c8243",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -101,7 +100,90 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759165446",
     "gameid": "4036820",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Zinktank Labs",
+    "publisher": "Zinktank Labs",
+    "homepage": "https://zinktanklabs.com/"
+  },
+  "config": {
+    "installdir": "Cosmic Run Demo",
+    "launch": {
+      "0": {
+        "executable": "Cosmic Run.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CosmicRun.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "CosmicRun.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4036821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4769136690669452554",
+          "size": "688558127",
+          "download": "169926704"
+        }
+      }
+    },
+    "4036822": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8839907765764896431",
+          "size": "805827828",
+          "download": "191479472"
+        }
+      }
+    },
+    "4036823": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9155471162743639813",
+          "size": "1239504608",
+          "download": "272287360"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20211140",
+        "timeupdated": "1759343827"
+      }
+    }
   }
 }
