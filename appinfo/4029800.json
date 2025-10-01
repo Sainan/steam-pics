@@ -1,6 +1,5 @@
 {
   "appid": "4029800",
-  "public_only": "1",
   "common": {
     "name": "The King's Bargain Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "38724f1fc8d28b6a1e2caa2f6d61a87a7b538a85/capsule_231x87.jpg"
@@ -59,7 +58,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "gameid": "4029800",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Pleja Games",
+    "publisher": "Pleja Games",
+    "homepage": "https://plejagames.com.tr/"
+  },
+  "config": {
+    "installdir": "The King's Bargain Demo",
+    "launch": {
+      "0": {
+        "executable": "The King's Bargain.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4029801": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6300026176910838879",
+          "size": "5511950493",
+          "download": "2266130352"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20211120",
+        "timeupdated": "1759343797"
+      }
+    }
   }
 }
