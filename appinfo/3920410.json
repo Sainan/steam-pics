@@ -1,6 +1,5 @@
 {
   "appid": "3920410",
-  "public_only": "1",
   "common": {
     "name": "Desktop Companion",
     "type": "Application",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "984c587e7a5a0a3a7424a150abac1b7adc7d5540/capsule_231x87.jpg"
     },
@@ -150,5 +149,55 @@
       "7": "4726",
       "8": "24904"
     }
+  },
+  "extended": {
+    "developer": "Efess",
+    "publisher": "Efess"
+  },
+  "config": {
+    "installdir": "Desktop Companion",
+    "launch": {
+      "0": {
+        "executable": "DesktopCompanion.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3920411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4435761862978250089",
+          "size": "164492493",
+          "download": "63356992"
+        }
+      }
+    },
+    "3920412": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "workshopdepot": "3920410",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20049895",
+        "timeupdated": "1758294694"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "1000"
   }
 }
