@@ -1,6 +1,5 @@
 {
   "appid": "3811000",
-  "public_only": "1",
   "common": {
     "name": "Cairns Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "dad4170db3f4bcb3ddb38ed6f263c6cfcfde5f3b",
     "clienttga": "fe357b29ea99103405bea18f53e23dc22f11f723",
     "clienticon": "337a6f00ea0db8eb7c64d91d65f511a8f81fbdbd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -109,5 +108,58 @@
     },
     "gameid": "3811000",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "kaijuStomp",
+    "publisher": "kaijuStomp"
+  },
+  "config": {
+    "installdir": "Cairns Demo",
+    "launch": {
+      "0": {
+        "executable": "Cairns.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3811001": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5095159035593556162",
+          "size": "2769013758",
+          "download": "2649179264"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20169316",
+        "timeupdated": "1759133981"
+      }
+    }
   }
 }
