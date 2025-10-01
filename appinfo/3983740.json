@@ -1,6 +1,5 @@
 {
   "appid": "3983740",
-  "public_only": "1",
   "common": {
     "name": "Voice2Action",
     "type": "Application",
@@ -17,7 +16,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "small_capsule": {
       "english": "abe1c840742d92a45f5efb410c8ea11f3c39d0fb/capsule_231x87.jpg"
@@ -122,6 +121,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759314671",
     "community_hub_visible": "1",
     "gameid": "3983740",
     "exfgls": "6",
@@ -132,6 +132,46 @@
       "3": "7926",
       "4": "27758",
       "5": "255534"
+    }
+  },
+  "extended": {
+    "enablegameoverlayforapp": "1",
+    "developer": "The Big Studio",
+    "publisher": "The Big Studio",
+    "homepage": "https://www.thebigstudio.net/"
+  },
+  "config": {
+    "installdir": "Voice2Action",
+    "launch": {
+      "0": {
+        "executable": "Voice2Action.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3983741": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7967923673403371503",
+          "size": "585056329",
+          "download": "311297888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20162817",
+        "timeupdated": "1759075522"
+      }
     }
   }
 }
