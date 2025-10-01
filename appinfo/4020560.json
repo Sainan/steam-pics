@@ -1,6 +1,5 @@
 {
   "appid": "4020560",
-  "public_only": "1",
   "common": {
     "name": "Croakspire Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -108,5 +107,35 @@
     },
     "gameid": "4020560",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lotus Arcade",
+    "publisher": "Lotus Arcade"
+  },
+  "config": {
+    "installdir": "Croakspire Demo",
+    "launch": {
+      "0": {
+        "executable": "croakspire.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4020561": {
+      "manifests": {
+        "public": {
+          "gid": "7443173516171650610",
+          "size": "217436555",
+          "download": "92923920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20164465",
+        "timeupdated": "1759093224"
+      }
+    }
   }
 }
