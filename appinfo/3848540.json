@@ -1,6 +1,5 @@
 {
   "appid": "3848540",
-  "public_only": "1",
   "common": {
     "name": "Save Granny",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -107,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3848540",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -130,5 +128,52 @@
       "18": "7250",
       "19": "3968"
     }
+  },
+  "extended": {
+    "developer": "Andreas",
+    "publisher": "Andreas"
+  },
+  "config": {
+    "installdir": "Save Granny",
+    "launch": {
+      "0": {
+        "executable": "Save_Granny.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3848541": {
+      "manifests": {
+        "public": {
+          "gid": "562194927176241547",
+          "size": "2915437340",
+          "download": "1179094272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20155662",
+        "timeupdated": "1758988141"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
