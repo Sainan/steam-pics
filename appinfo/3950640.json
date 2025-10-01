@@ -1,10 +1,9 @@
 {
   "appid": "3950640",
-  "public_only": "1",
   "common": {
     "name": "Paid By Blood",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "36ba083fa6cd201632d78f89ab8b47866abd1d4d",
     "clienticon": "50c257282d660927386c644145d6806e2230b1f6",
     "icon": "50c257282d660927386c644145d6806e2230b1f6",
@@ -125,9 +124,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759291290",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3950640",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -153,6 +153,55 @@
       "17": "492",
       "18": "4345",
       "19": "4598"
+    }
+  },
+  "extended": {
+    "developer": "HU JIA XI",
+    "publisher": "HU JIA XI"
+  },
+  "config": {
+    "installdir": "Paid By Blood",
+    "launch": {
+      "0": {
+        "executable": "a1.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3950641": {
+      "manifests": {
+        "public": {
+          "gid": "6319585988223412708",
+          "size": "10572795603",
+          "download": "5259553216"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20193353",
+        "timeupdated": "1759252384"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2048",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "PBPGame/a1",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
