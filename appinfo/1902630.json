@@ -1,0 +1,147 @@
+{
+  "appid": "1902630",
+  "common": {
+    "name": "Lighthouse of Madness Playtest",
+    "type": "Beta",
+    "parent": "1564060",
+    "logo": "340bb676a7be3fb82c1bb95d4a1a80fb84b494bc",
+    "logo_small": "340bb676a7be3fb82c1bb95d4a1a80fb84b494bc_thumb",
+    "icon": "a0ea54c51e7578707aed2bbf530d14ff7081ccab",
+    "clienticon": "eb1c9195634d8347362d25af86ffec56e1eef9d0",
+    "clienttga": "c84613dfa8fef03a48c7b139d19b7b64445846c9",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "49.88151658767772",
+        "height_pct": "73.9050545213567"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "49.88151658767772",
+          "height_pct": "73.9050545213567"
+        }
+      }
+    },
+    "store_asset_mtime": "1644284564",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1644846912",
+    "community_hub_visible": "1",
+    "gameid": "1902630",
+    "exfgls": "6"
+  },
+  "extended": {
+    "betaforappid": "1564060"
+  },
+  "config": {
+    "installdir": "Lighthouse of Madness Playtest",
+    "launch": {
+      "0": {
+        "executable": "WindowsNoEditor/LOM3D.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Lighthouse of Madness (DirectX 12)"
+        },
+        "description": "Lighthouse of Madness (DirectX 12)"
+      },
+      "1": {
+        "executable": "WindowsNoEditor/LOM3D.exe",
+        "arguments": "-dx11",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Lighthouse of Madness (DirectX 11)"
+        },
+        "description": "Lighthouse of Madness (DirectX 11)"
+      },
+      "2": {
+        "executable": "WindowsNoEditor/LOM3D.exe",
+        "arguments": "-vulkan",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Lighthouse of Madness (Vulkan)"
+        },
+        "description": "Lighthouse of Madness (Vulkan)"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1902631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1971768856052393781",
+          "size": "7637631364",
+          "download": "7236642336"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20209165",
+        "timeupdated": "1759334854"
+      }
+    }
+  }
+}
