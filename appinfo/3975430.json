@@ -1,11 +1,10 @@
 {
   "appid": "3975430",
-  "public_only": "1",
   "common": {
     "name": "Deep Loop Demo",
     "type": "Demo",
     "parent": "2433670",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "2ca4e89ea17b25714956888daad32dec8fa81fbf",
     "icon": "254c0bfc4d9a93b2bf99b48f4ae573da3331f820",
     "oslist": "windows",
@@ -50,7 +49,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759331408",
     "gameid": "3975430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Spurna Games",
+    "publisher": "Spurna Games",
+    "homepage": "https://spurnagames.com/"
+  },
+  "config": {
+    "installdir": "Deep Loop Demo",
+    "launch": {
+      "0": {
+        "executable": "DeepLoopDemo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3975431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8890641154554705946",
+          "size": "13936137680",
+          "download": "12895169584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20076235",
+        "timeupdated": "1758544635"
+      }
+    }
   }
 }
