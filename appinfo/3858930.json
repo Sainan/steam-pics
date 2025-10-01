@@ -1,6 +1,5 @@
 {
   "appid": "3858930",
-  "public_only": "1",
   "common": {
     "name": "In The Black Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     },
     "clienticon": "05177acbabdda5be7e3cf6d4c55773a57b1c1717",
     "icon": "05177acbabdda5be7e3cf6d4c55773a57b1c1717",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -107,6 +106,104 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Impeller Studios",
+    "publisher": "Impeller Studios",
+    "homepage": "https://intheblack.gg/"
+  },
+  "config": {
+    "installdir": "In The Black Demo",
+    "launch": {
+      "0": {
+        "executable": "InTheBlack.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "In The Black Demo"
+        },
+        "description": "In The Black Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229033": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3858931": {
+      "manifests": {
+        "public": {
+          "gid": "4348640516778929749",
+          "size": "30269926318",
+          "download": "9288546224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20200342",
+        "timeupdated": "1759333964"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "380110",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "InTheBlack/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
     }
   }
 }
