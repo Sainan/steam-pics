@@ -1,11 +1,10 @@
 {
   "appid": "3999340",
-  "public_only": "1",
   "common": {
     "name": "Mycelium: The Silent Contract Demo",
     "type": "Demo",
     "parent": "3583970",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8c40356c7a99093676b1de0d908ba5d60039b4ee",
     "clienticon": "8c40356c7a99093676b1de0d908ba5d60039b4ee",
     "oslist": "windows",
@@ -118,10 +117,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759330858",
     "gameid": "3999340",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Po Kolu",
+    "publisher": "Po Kolu"
+  },
+  "config": {
+    "installdir": "Mycelium The Silent Contract Demo",
+    "launch": {
+      "0": {
+        "executable": "M.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3999341": {
+      "manifests": {
+        "public": {
+          "gid": "4514492835966733101",
+          "size": "9928522422",
+          "download": "9381773680"
+        }
+      }
+    },
+    "3999342": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207199",
+        "timeupdated": "1759326610"
+      }
     }
   }
 }
