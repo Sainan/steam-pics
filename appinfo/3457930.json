@@ -1,6 +1,5 @@
 {
   "appid": "3457930",
-  "public_only": "1",
   "common": {
     "name": "Scrongly",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "3d8af42e0d3be13d5ac3e5756d37827da8e3742b",
     "clienticon": "3d8af42e0d3be13d5ac3e5756d37827da8e3742b",
     "clienttga": "f4cc675eeaef26d387d7461255277b93fea7b63c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -102,6 +101,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759330297",
     "community_hub_visible": "1",
     "gameid": "3457930",
     "exfgls": "3",
@@ -119,6 +119,95 @@
       "10": "4305",
       "11": "1654",
       "12": "113"
+    }
+  },
+  "extended": {
+    "developer": "Silver Dubloons",
+    "publisher": "Silver Dubloons",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Scrongly",
+    "launch": {
+      "0": {
+        "executable": "ScronglyEnhanced.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3457932": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1439829957316225252",
+          "size": "134266972",
+          "download": "53245984"
+        },
+        "windows": {
+          "gid": "1439829957316225252",
+          "size": "134266972",
+          "download": "53245984"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20207382",
+        "timeupdated": "1759327343"
+      },
+      "windows": {
+        "buildid": "20207382",
+        "description": "Windows default branch",
+        "timeupdated": "1759327351"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SilverDubloons/ScronglyEnhanced",
+        "pattern": "*.txt",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SilverDubloons/ScronglyEnhanced",
+            "replace": "unity.SilverDubloons.ScronglyEnhanced"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SilverDubloons/ScronglyEnhanced",
+            "replace": ".config/unity3d/SilverDubloons/ScronglyEnhanced"
+          }
+        }
+      }
     }
   }
 }
