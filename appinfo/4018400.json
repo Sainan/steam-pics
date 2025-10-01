@@ -1,6 +1,5 @@
 {
   "appid": "4018400",
-  "public_only": "1",
   "common": {
     "name": "Grill it! Sanma",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "icon": "aa3a2e43293b1a40d209ffd2ef120e49442312a8",
     "clienticon": "aa3a2e43293b1a40d209ffd2ef120e49442312a8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -125,9 +124,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759361016",
     "community_hub_visible": "1",
     "gameid": "4018400",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -145,6 +144,49 @@
       "13": "4191",
       "14": "4175",
       "15": "5350"
+    }
+  },
+  "extended": {
+    "developer": "SAT-BOX",
+    "publisher": "SAT-BOX"
+  },
+  "config": {
+    "installdir": "Grill it! Sanma",
+    "launch": {
+      "0": {
+        "executable": "Grill_it_Sanma.exe",
+        "arguments": "-screen-fullscreen 1",
+        "type": "default",
+        "description_loc": {
+          "english": "FullScreen"
+        },
+        "description": "FullScreen"
+      },
+      "1": {
+        "executable": "Grill_it_Sanma.exe",
+        "arguments": "-screen-fullscreen 0 -screen-width 1920 -screen-height 1080",
+        "description_loc": {
+          "english": "Windowed (1920 x 1080)"
+        },
+        "description": "Windowed (1920 x 1080)"
+      }
+    }
+  },
+  "depots": {
+    "4018401": {
+      "manifests": {
+        "public": {
+          "gid": "6447789476946229607",
+          "size": "190903717",
+          "download": "131347136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19906378",
+        "timeupdated": "1757395789"
+      }
     }
   }
 }
