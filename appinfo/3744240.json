@@ -1,6 +1,5 @@
 {
   "appid": "3744240",
-  "public_only": "1",
   "common": {
     "name": "BullTales 🦬 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "fd9cd11992c211674f9aa662a3de091de0511407",
     "clienticon": "0d0e6e2b8c2134a9a1f63eec97455580a83b93bc",
     "clienttga": "e917aacab223b6396c01e3b5b33b7044c8af1ffb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -200,6 +199,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759361974",
+    "community_visible_stats": "1",
     "gameid": "3744240",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -207,6 +208,50 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "Late Night Studios",
+    "publisher": "Late Night Studios"
+  },
+  "config": {
+    "installdir": "BullTales 🦬 Demo",
+    "launch": {
+      "0": {
+        "executable": "BullTales.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BullTales.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "BullTales.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3744241": {
+      "manifests": {
+        "public": {
+          "gid": "8813080455873087315",
+          "size": "1375538408",
+          "download": "1180444704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214238",
+        "timeupdated": "1759361506"
+      }
     }
   }
 }
