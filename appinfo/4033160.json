@@ -1,6 +1,5 @@
 {
   "appid": "4033160",
-  "public_only": "1",
   "common": {
     "name": "Block Block Block Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e95d294c3bd96474d5b38fae52ce9175019ef429/capsule_231x87.jpg"
@@ -104,5 +103,47 @@
     },
     "gameid": "4033160",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Aender Lara",
+    "publisher": "Aender Lara",
+    "homepage": "https://blockblockblock.aenderlara.com/"
+  },
+  "config": {
+    "installdir": "Block Block Block Demo",
+    "launch": {
+      "0": {
+        "executable": "BlockBlockBlock.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Block Block Block - Demo"
+        },
+        "description": "Block Block Block - Demo"
+      }
+    }
+  },
+  "depots": {
+    "4033161": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "360923268729078321",
+          "size": "427268854",
+          "download": "230834992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20198556",
+        "timeupdated": "1759281362"
+      }
+    }
   }
 }
