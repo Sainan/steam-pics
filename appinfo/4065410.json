@@ -1,6 +1,5 @@
 {
   "appid": "4065410",
-  "public_only": "1",
   "common": {
     "name": "バグバニー：ディスコントロール Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "osextended": "",
     "icon": "141dd132ec46102161466ffb991e5d2d7d67ebfa",
     "clienticon": "141dd132ec46102161466ffb991e5d2d7d67ebfa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,7 +110,76 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4065410",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SHINKURO VALLEY",
+    "publisher": "SHINKURO VALLEY",
+    "homepage": "https://www.shinkurog.com/bugbunny_jp/"
+  },
+  "config": {
+    "installdir": "BugBunnyDemo",
+    "launch": {
+      "0": {
+        "executable": "Windows/BugBunny.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Windows/BugBunny.exe",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4065411": {
+      "manifests": {
+        "public": {
+          "gid": "2689053138291337206",
+          "size": "2338642374",
+          "download": "2188206672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20139941",
+        "timeupdated": "1758880206"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10240",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BugBunnyDemo/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
