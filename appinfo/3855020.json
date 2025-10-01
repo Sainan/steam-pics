@@ -1,6 +1,5 @@
 {
   "appid": "3855020",
-  "public_only": "1",
   "common": {
     "name": "Dark Sea",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "4626f5e336683d5a43cf8ec3ceca30cc91d9fdd7",
     "clienticon": "4626f5e336683d5a43cf8ec3ceca30cc91d9fdd7",
     "clienttga": "560fc5d62799a7d6538f1b95dcb2fe409efa91f3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,9 +110,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759334419",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3855020",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,6 +138,50 @@
       "17": "5179",
       "18": "8369",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "DarkSignal Studios",
+    "publisher": "DarkSignal Studios"
+  },
+  "config": {
+    "installdir": "Dark Sea",
+    "launch": {
+      "0": {
+        "executable": "Dark Sea.exe"
+      }
+    }
+  },
+  "depots": {
+    "3855021": {
+      "manifests": {
+        "public": {
+          "gid": "388529011144230050",
+          "size": "4213606996",
+          "download": "371668368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207952",
+        "timeupdated": "1759329623"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\DarkSignal Studios\\Dark Sea\\SaveData\\\"",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
