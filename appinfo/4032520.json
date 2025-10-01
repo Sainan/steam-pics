@@ -1,6 +1,5 @@
 {
   "appid": "4032520",
-  "public_only": "1",
   "common": {
     "name": "Closing Doors",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "fe0cabb88c8e8d07abf3ba8a2ec9e6e56aa0838f",
     "icon": "fe0cabb88c8e8d07abf3ba8a2ec9e6e56aa0838f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c537781d757ddb709c74f294fbe80c4ace81078c/capsule_231x87.jpg"
@@ -102,9 +101,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4032520",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "1738",
@@ -118,6 +117,56 @@
       "9": "5984",
       "10": "4175",
       "11": "21"
+    }
+  },
+  "extended": {
+    "developer": "Dylan Latham",
+    "publisher": "Dylan Latham"
+  },
+  "config": {
+    "installdir": "Closing Doors",
+    "launch": {
+      "0": {
+        "executable": "CallingHome.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4032521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6400103220948042351",
+          "size": "4329742123",
+          "download": "4164834192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20036169",
+        "timeupdated": "1758219181"
+      }
     }
   }
 }
