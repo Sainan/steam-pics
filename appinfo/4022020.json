@@ -1,13 +1,12 @@
 {
   "appid": "4022020",
-  "public_only": "1",
   "common": {
     "name": "INNERWHY DEMO",
     "type": "Demo",
     "parent": "3623100",
     "clienticon": "7e1b4431a6d85045830e05e9385ca35d002df1f3",
     "icon": "5c4c190979466fc56a6f8c0a8315711b6d6bb992",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -58,10 +57,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4022020",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Victor Potet",
+    "publisher": "Victor Potet"
+  },
+  "config": {
+    "installdir": "INNERWHY DEMO",
+    "launch": {
+      "0": {
+        "executable": "INNERWHY.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4022021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6700584943908273332",
+          "size": "439766570",
+          "download": "143148720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19942985",
+        "timeupdated": "1757599758"
+      }
     }
   }
 }
