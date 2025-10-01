@@ -1,6 +1,5 @@
 {
   "appid": "4036080",
-  "public_only": "1",
   "common": {
     "name": "Cube Dungeon Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "cc41caf25d77cdb5cf207d9c83e6230c83e323e7/capsule_231x87.jpg"
@@ -44,7 +43,48 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4036080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ErridanGames",
+    "publisher": "ErridanGames"
+  },
+  "config": {
+    "installdir": "Cube Dungeon Demo",
+    "launch": {
+      "0": {
+        "executable": "cube_dungeon_demo_1.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4036081": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8641521239247449458",
+          "size": "204677072",
+          "download": "119912912"
+        }
+      }
+    },
+    "baselanguages": "english,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20210101",
+        "timeupdated": "1759338863"
+      }
+    }
   }
 }
