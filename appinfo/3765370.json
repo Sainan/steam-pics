@@ -1,11 +1,10 @@
 {
   "appid": "3765370",
-  "public_only": "1",
   "common": {
     "name": "Néro & Sci ∫ Integral Edition Demo",
     "type": "Demo",
     "parent": "2928570",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -146,5 +145,60 @@
     },
     "gameid": "3765370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Souris-Lab",
+    "publisher": "Souris-Lab",
+    "homepage": "https://souris-lab.com/en/nero_sci"
+  },
+  "config": {
+    "installdir": "Néro & Sci ∫ Integral Edition Demo",
+    "launch": {
+      "0": {
+        "executable": "Nero and Sci.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "nero_and_sci.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3765371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7119303180887092678",
+          "size": "2279886171",
+          "download": "856170720"
+        }
+      }
+    },
+    "3765373": {
+      "config": {
+        "oslist": "linux",
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4753949815113907686",
+          "size": "1922801142",
+          "download": "554203872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20205811",
+        "timeupdated": "1759320773"
+      }
+    }
   }
 }
