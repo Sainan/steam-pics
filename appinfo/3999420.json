@@ -1,6 +1,5 @@
 {
   "appid": "3999420",
-  "public_only": "1",
   "common": {
     "name": "Trials of Valor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,11 +109,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759337371",
     "gameid": "3999420",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "bermrad",
+    "publisher": "bermrad",
+    "homepage": "https://trialsofvalor.github.io/"
+  },
+  "config": {
+    "installdir": "Trials of Valor Demo",
+    "launch": {
+      "0": {
+        "executable": "Trials of Valor.exe"
+      }
+    }
+  },
+  "depots": {
+    "3999421": {
+      "manifests": {
+        "public": {
+          "gid": "1529463541425147157",
+          "size": "4606578945",
+          "download": "1397871728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20208741",
+        "timeupdated": "1759332997"
+      }
     }
   }
 }
