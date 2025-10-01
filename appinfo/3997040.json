@@ -1,10 +1,9 @@
 {
   "appid": "3997040",
-  "public_only": "1",
   "common": {
     "name": "Shrimad Bhagavad Gita VR",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -120,5 +119,73 @@
       "10": "180368",
       "11": "4182"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Klip VR Immersive Technologies Pvt Ltd",
+    "publisher": " Klip VR",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Shrimad Bhagavad Gita VR",
+    "launch": {
+      "0": {
+        "executable": "KrishnaUnreal4.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3997041": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6617972881096988088",
+          "size": "2544524342",
+          "download": "2426867840"
+        },
+        "testing": {
+          "gid": "6617972881096988088",
+          "size": "2544524342",
+          "download": "2426867840"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20137056",
+        "timeupdated": "1758866706"
+      },
+      "testing": {
+        "buildid": "20137056",
+        "description": "Only For Testing",
+        "timeupdated": "1758864683"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
