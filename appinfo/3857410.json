@@ -1,6 +1,5 @@
 {
   "appid": "3857410",
-  "public_only": "1",
   "common": {
     "name": "Platform Vault",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "eafa5586254c5e4afb218381a5617a25bc20d204",
     "icon": "eafa5586254c5e4afb218381a5617a25bc20d204",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759334280",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3857410",
-    "exfgls": "8",
     "store_tags": {
       "0": "3798",
       "1": "5379",
@@ -134,6 +134,56 @@
       "15": "4004",
       "16": "4182",
       "17": "492"
+    }
+  },
+  "extended": {
+    "developer": "DoppelGamer Studio",
+    "publisher": "DoppelGamer Studio"
+  },
+  "config": {
+    "installdir": "Platform Vault",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "Platform Vault.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3857411": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4443607918558376277",
+          "size": "124665156",
+          "download": "60366592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20118050",
+        "timeupdated": "1758764919"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "102400",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Doppelgamer/Platform Vault",
+        "pattern": "*.save"
+      }
     }
   }
 }
