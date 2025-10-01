@@ -1,4 +1,52 @@
 {
   "appid": "4017980",
-  "public_only": "1"
+  "common": {
+    "name": "The Reflex Lab Demo",
+    "type": "Demo",
+    "parent": "3719320",
+    "clienticon": "65525f920ad2869c504b673a98d89c77cecaf394",
+    "icon": "65525f920ad2869c504b673a98d89c77cecaf394",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4017980",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "win64",
+    "launch": {
+      "0": {
+        "executable": "win64/The Reflex Lab.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4017981": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4992247730786205471",
+          "size": "354424820",
+          "download": "156004080"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20166033",
+        "timeupdated": "1759111961"
+      }
+    }
+  }
 }
