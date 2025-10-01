@@ -1,6 +1,5 @@
 {
   "appid": "4027460",
-  "public_only": "1",
   "common": {
     "name": "TURBOCIDE Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -83,7 +82,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759311650",
     "gameid": "4027460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SlovGoblin",
+    "publisher": "SlovGoblin"
+  },
+  "config": {
+    "installdir": "TURBOCIDE Demo",
+    "launch": {
+      "0": {
+        "executable": "TURBOCIDE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4027461": {
+      "manifests": {
+        "public": {
+          "gid": "5697949932819456125",
+          "size": "3559144508",
+          "download": "3118106320"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20203745",
+        "timeupdated": "1759311598"
+      }
+    }
   }
 }
