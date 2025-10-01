@@ -1,6 +1,5 @@
 {
   "appid": "4032130",
-  "public_only": "1",
   "common": {
     "name": "Dang Darn Island Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -108,5 +107,88 @@
     },
     "gameid": "4032130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dang Darn Games",
+    "publisher": "Dang Darn Games",
+    "homepage": "https://dangdarnisland.com"
+  },
+  "config": {
+    "installdir": "Dang Darn Island Demo",
+    "launch": {
+      "0": {
+        "executable": "DangDarnIsland.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "DangDarnIsland.app/Contents/MacOS/DangDarnIsland",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4032131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5405593494325454156",
+          "size": "282149847",
+          "download": "84275552"
+        }
+      }
+    },
+    "4032132": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3379269627037206325",
+          "size": "367315591",
+          "download": "107971488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20196923",
+        "timeupdated": "1759271455"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1",
+    "appidredirect": "1802370",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Dang Darn Games/DangDarnIsland",
+        "pattern": "*.es3"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Dang Darn Games/DangDarnIsland",
+            "replace": "Dang Darn Games/DangDarnIsland"
+          }
+        }
+      }
+    }
   }
 }
