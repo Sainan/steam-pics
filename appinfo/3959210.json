@@ -1,11 +1,10 @@
 {
   "appid": "3959210",
-  "public_only": "1",
   "common": {
     "name": "Grit &amp;amp; Grind Demo",
     "type": "Demo",
     "parent": "3872440",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -106,11 +105,55 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759291238",
     "gameid": "3959210",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "DevinTheDivine",
+    "publisher": "DevinTheDivineGames",
+    "homepage": "https://www.thegritandgrindgame.com"
+  },
+  "config": {
+    "installdir": "GritAndGrindDemo",
+    "launch": {
+      "0": {
+        "executable": "GritAndGrindDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3959211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7089679869262415069",
+          "size": "1529295209",
+          "download": "1347113232"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20158730",
+        "timeupdated": "1759024285"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "8500",
+    "appidredirect": "3872440"
   }
 }
