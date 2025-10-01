@@ -155,5 +155,31 @@
         "timeupdated": "1759264079"
       }
     }
+  },
+  "ufs": {
+    "quota": "1000",
+    "maxnumfiles": "5",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BaroxxTech/Creators_Fall",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": "BaroxxTech/Creators_Fall"
+      }
+    }
   }
 }
