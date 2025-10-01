@@ -1,12 +1,11 @@
 {
   "appid": "3906870",
-  "public_only": "1",
   "common": {
     "name": "COSMIC ASCENT",
     "type": "Game",
     "clienticon": "80a0aa47ea61c3b9c4fe76e29ff74138c6aedf7c",
     "icon": "80a0aa47ea61c3b9c4fe76e29ff74138c6aedf7c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -99,9 +98,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759308455",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3906870",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "597",
@@ -113,6 +113,89 @@
       "7": "492",
       "8": "1755",
       "9": "3871"
+    }
+  },
+  "extended": {
+    "developer": "NaGi",
+    "publisher": "NaGi"
+  },
+  "config": {
+    "installdir": "COSMIC ASCENT",
+    "launch": {
+      "0": {
+        "executable": "COSMIC_ASCENT_Windows\\COSMIC ASCENT.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "게임 실행"
+        },
+        "description": "게임 실행"
+      },
+      "1": {
+        "executable": "COSMIC_ASCENT_MacOS\\MacOS.app\\Contents\\MacOS\\COSMIC ASCENT",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "COSMIC_ASCENT_Linux\\COSMIC_ASCENT_Linux.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3906871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5246505050467442480",
+          "size": "120730247",
+          "download": "49971856"
+        }
+      }
+    },
+    "3906873": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2402121336323361975",
+          "size": "145137225",
+          "download": "58813888"
+        }
+      }
+    },
+    "3906874": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "501149494884150543",
+          "size": "123182473",
+          "download": "49465488"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20109868",
+        "timeupdated": "1758721144"
+      }
     }
   }
 }
