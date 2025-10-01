@@ -1,10 +1,9 @@
 {
   "appid": "4002830",
-  "public_only": "1",
   "common": {
     "name": "Surrelia Adventures",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "15b6473e1a9b654bc50e27c2c0399f5d7bac5b03",
     "icon": "15b6473e1a9b654bc50e27c2c0399f5d7bac5b03",
     "oslist": "windows",
@@ -108,7 +107,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759316658",
     "steam_deck_blog_url": "https://steamcommunity.com/app/4002830?snr=2_9_100000_",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4002830",
     "exfgls": "3",
@@ -125,6 +126,61 @@
       "9": "492",
       "10": "4182",
       "11": "7481"
+    }
+  },
+  "extended": {
+    "developer": "2 Dev's + 3",
+    "publisher": "DeMon Games",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "SurreliaAdventure",
+    "launch": {
+      "0": {
+        "executable": "SurreliaAdventure.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4002831": {
+      "manifests": {
+        "public": {
+          "gid": "7875187959301869262",
+          "size": "1095940259",
+          "download": "822787792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20198206",
+        "timeupdated": "1759278824"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "200000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SurreliaAdventure\\Saved\\SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
