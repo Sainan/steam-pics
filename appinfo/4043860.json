@@ -1,6 +1,5 @@
 {
   "appid": "4043860",
-  "public_only": "1",
   "common": {
     "name": "Gloomy Clues Remake Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "8416ff91ffeb2f89244a076a9c646602fe6cd50a",
     "icon": "8416ff91ffeb2f89244a076a9c646602fe6cd50a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -148,11 +147,70 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4043860",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Pixel Paradise",
+    "publisher": "Pixel Paradise"
+  },
+  "config": {
+    "installdir": "GloomyCluesDemo",
+    "launch": {
+      "0": {
+        "executable": "GloomyCluesRemakeDemo.exe",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GloomyCluesRemakeDemo",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4043862": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5997565569506432528",
+          "size": "667300857",
+          "download": "631647520"
+        }
+      }
+    },
+    "4043863": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1277153188730625965",
+          "size": "655839447",
+          "download": "628475760"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20206206",
+        "timeupdated": "1759322852"
+      }
     }
   }
 }
