@@ -1,6 +1,5 @@
 {
   "appid": "3946890",
-  "public_only": "1",
   "common": {
     "name": "Robicon Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "bf92e73e9723189a2861df8b52b44df827305ef8/capsule_231x87.jpg"
@@ -129,7 +128,68 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759337186",
     "gameid": "3946890",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hidden Button",
+    "publisher": "Hidden Button"
+  },
+  "config": {
+    "installdir": "Robicon Demo",
+    "launch": {
+      "0": {
+        "executable": "Robicon.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Robicon.app/Contents/MacOS/Robicon",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3946891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3886648326290561413",
+          "size": "278116806",
+          "download": "131950128"
+        }
+      }
+    },
+    "3946892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "714363883661537182",
+          "size": "372931048",
+          "download": "158027904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20209269",
+        "timeupdated": "1759335117"
+      }
+    }
   }
 }
