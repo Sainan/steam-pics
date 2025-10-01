@@ -1,6 +1,5 @@
 {
   "appid": "3981600",
-  "public_only": "1",
   "common": {
     "name": "KOALAS DELIV &amp;amp; GUY Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "6cf3066f84621558aa6f697ffc9bdd06f4ab1bfd",
     "clienticon": "6cf3066f84621558aa6f697ffc9bdd06f4ab1bfd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -99,7 +98,48 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759324069",
     "gameid": "3981600",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "STEAMWORKS",
+    "publisher": "RYO.DESIGN"
+  },
+  "config": {
+    "installdir": "KOALAS DELIV & GUY Demo",
+    "launch": {
+      "0": {
+        "executable": "build_demo\\player.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3981601": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4508357903912108949",
+          "size": "81251422",
+          "download": "39262256"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20161716",
+        "timeupdated": "1759063853"
+      }
+    }
   }
 }
