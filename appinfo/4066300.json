@@ -1,6 +1,5 @@
 {
   "appid": "4066300",
-  "public_only": "1",
   "common": {
     "name": "Silktrails: Cats in the grove 2 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c395a3706969c2cdb02f6bbdd5b77a16b77a874f/capsule_231x87.jpg"
     },
@@ -36,7 +35,59 @@
     "category": {
       "category_23": "1"
     },
+    "steam_release_date": "1761894000",
     "gameid": "4066300",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gallic Entertainment",
+    "publisher": "Gallic Entertainment"
+  },
+  "config": {
+    "installdir": "Silktrails Cats in the grove 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "Silktrails 2 Cats in the grove.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4066302": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7011222377600869400",
+          "size": "218366192",
+          "download": "148968544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20210909",
+        "timeupdated": "1759342742"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100"
   }
 }
