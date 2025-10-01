@@ -1,6 +1,5 @@
 {
   "appid": "3916930",
-  "public_only": "1",
   "common": {
     "name": "Mega Deal Card Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "b22ebc548bd92a07fe40976afb032a7b344820ac",
     "clienttga": "a752950510d6dbd8bf8e0bc82007ad94042a10c1",
     "clienticon": "18b3f76bfe2f2c6510a72ed56013a47ad9c0dd86",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -146,7 +145,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759306014",
     "gameid": "3916930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SpoonBox Studio",
+    "publisher": "SpoonBox Studio"
+  },
+  "config": {
+    "installdir": "Mega Deal Card Demo",
+    "launch": {
+      "0": {
+        "executable": "Mega Deal Card - Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3916931": {
+      "manifests": {
+        "public": {
+          "gid": "1578381663393746742",
+          "size": "196586462",
+          "download": "118695424"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20193260",
+        "timeupdated": "1759251958"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SpoonboxTheBatFlight\\Mega Deal Card - Demo",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
