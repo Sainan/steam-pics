@@ -1,10 +1,9 @@
 {
   "appid": "3773260",
-  "public_only": "1",
   "common": {
     "name": "穿越日记",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "7233ae14893caa8895943c9d60d5536d1d5bbbcb",
     "clienticon": "ab73be77bf3566e6f7dba977464f0ab6f0c5556d",
     "clienttga": "51da6214313584f87e1650e34e9963ea7760c46e",
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "community_hub_visible": "1",
     "gameid": "3773260",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "11014",
@@ -127,6 +126,67 @@
       "17": "4305",
       "18": "4085",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "娃哈哈哈 WaHa Works",
+    "publisher": "娃哈哈哈 WaHa Works"
+  },
+  "config": {
+    "installdir": "chuanyue",
+    "launch": {
+      "0": {
+        "executable": "chuanyue-pc/chuanyue.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows 启动"
+        },
+        "description": "Windows 启动"
+      },
+      "1": {
+        "executable": "chuanyue.app/Contents/MacOS/chuanyue",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": " Mac 启动"
+        },
+        "description": " Mac 启动"
+      }
+    }
+  },
+  "depots": {
+    "3773261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6024940225351758235",
+          "size": "2227936072",
+          "download": "2012087872"
+        }
+      }
+    },
+    "3773262": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8624442784618731806",
+          "size": "2211029157",
+          "download": "2006639536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20131395",
+        "timeupdated": "1758829968"
+      }
     }
   }
 }
