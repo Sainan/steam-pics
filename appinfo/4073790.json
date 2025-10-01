@@ -1,6 +1,5 @@
 {
   "appid": "4073790",
-  "public_only": "1",
   "common": {
     "name": "UltFoot: Football Manager Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "2a60bb18cad499374f3b536843248ef18568bbc6",
     "icon": "2a60bb18cad499374f3b536843248ef18568bbc6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "0ee7612849e7a54d116efa1c85253df943060ada/capsule_231x87.jpg"
@@ -48,5 +47,43 @@
     },
     "gameid": "4073790",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Scarlett GameStudio",
+    "publisher": "Scarlett GameStudio"
+  },
+  "config": {
+    "installdir": "UltFoot Football Manager Demo",
+    "launch": {
+      "0": {
+        "executable": "UltFoot.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073791": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6019428949630126976",
+          "size": "62506971",
+          "download": "52106736"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20182817",
+        "timeupdated": "1759203651"
+      }
+    }
   }
 }
