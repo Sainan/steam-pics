@@ -1,10 +1,9 @@
 {
   "appid": "3382890",
-  "public_only": "1",
   "common": {
     "name": "Dead Air",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "b4a5c3b29b5a5903c535f560e9a732aa1b79d68b",
     "clienttga": "1a782d16ffffce8c2729a329a11606ec801ec191",
     "oslist": "windows",
@@ -106,7 +105,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3382890",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -131,6 +129,53 @@
       "17": "19",
       "18": "1662",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Blue Feather",
+    "publisher": "Blue Feather"
+  },
+  "config": {
+    "installdir": "DeadAir",
+    "launch": {
+      "0": {
+        "executable": "DeadAir.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3382891": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8311672333935318910",
+          "size": "2943869553",
+          "download": "2646504720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20176758",
+        "timeupdated": "1759166674"
+      }
     }
   }
 }
