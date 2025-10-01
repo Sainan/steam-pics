@@ -1,6 +1,5 @@
 {
   "appid": "4072370",
-  "public_only": "1",
   "common": {
     "name": "excellent Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -47,5 +46,34 @@
     },
     "gameid": "4072370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "cip",
+    "publisher": "cip"
+  },
+  "config": {
+    "installdir": "excellent Demo",
+    "launch": {
+      "0": {
+        "executable": "excellent.exe"
+      }
+    }
+  },
+  "depots": {
+    "4072371": {
+      "manifests": {
+        "public": {
+          "gid": "3813743546683345281",
+          "size": "21485314",
+          "download": "15717472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20189312",
+        "timeupdated": "1759235710"
+      }
+    }
   }
 }
