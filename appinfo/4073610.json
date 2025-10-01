@@ -1,6 +1,5 @@
 {
   "appid": "4073610",
-  "public_only": "1",
   "common": {
     "name": "Vein-X Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -90,10 +89,42 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759341770",
     "gameid": "4073610",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Scar Games",
+    "publisher": "Scar Games",
+    "homepage": "https://veinxgame.com/"
+  },
+  "config": {
+    "installdir": "Vein-X Demo",
+    "launch": {
+      "0": {
+        "executable": "Vein-X Demo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4073611": {
+      "manifests": {
+        "public": {
+          "gid": "3879248452391079813",
+          "size": "231486847",
+          "download": "64359088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20192027",
+        "timeupdated": "1759246872"
+      }
     }
   }
 }
