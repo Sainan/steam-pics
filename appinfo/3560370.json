@@ -1,10 +1,9 @@
 {
   "appid": "3560370",
-  "public_only": "1",
   "common": {
     "name": "Éalú",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8e22a0c860cd11cac0e2f1801bb6fa9cb374ed68",
     "clienticon": "1b62401d61848b0f10f0d08724b6131e0eba9d27",
     "clienttga": "064bd2256d47a359cbfcdc8c31b8f24264b1faf2",
@@ -196,9 +195,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759388460",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3560370",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1664",
@@ -220,6 +220,43 @@
       "17": "5716",
       "18": "7743",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Beyond the Bark",
+    "publisher": "Beyond the Bark"
+  },
+  "config": {
+    "installdir": "Éalú",
+    "launch": {
+      "0": {
+        "executable": "release/Ealu.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3560371": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3584739428583688323",
+          "size": "5227782756",
+          "download": "1235476352"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20132431",
+        "timeupdated": "1758835502"
+      }
     }
   }
 }
