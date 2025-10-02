@@ -1,6 +1,5 @@
 {
   "appid": "4065720",
-  "public_only": "1",
   "common": {
     "name": "Wrath and Retribution Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticns": "f473b2055d182f759e77e55e59456de692cf2c13",
     "clienticon": "0183b56790628b8b0df5b6d1cdabc6c6ccf13f86",
     "icon": "0183b56790628b8b0df5b6d1cdabc6c6ccf13f86",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "2205a895fd6a82b0285232074434640d4f0366b8/capsule_231x87.jpg"
@@ -34,5 +33,61 @@
     "category": {},
     "gameid": "4065720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mad Vulture Games",
+    "publisher": "Mad Vulture Games"
+  },
+  "config": {
+    "installdir": "Wrath and Retribution Demo",
+    "launch": {
+      "0": {
+        "executable": "Wrath And Retribution Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "WrathAndRetributionDemo.app/Contents/MacOS/Wrath And Retribution Demo",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4065721": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8237419509550871100",
+          "size": "3429368222",
+          "download": "1279006416"
+        }
+      }
+    },
+    "4065722": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2412361527055403326",
+          "size": "3453862829",
+          "download": "1290975744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20225796",
+        "timeupdated": "1759421509"
+      }
+    }
   }
 }
