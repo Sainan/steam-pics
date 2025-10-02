@@ -1,6 +1,5 @@
 {
   "appid": "4017010",
-  "public_only": "1",
   "common": {
     "name": "Echo Maze Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "e82f75c48a69a4d5afb9b451ef06f4b9c62648ab",
     "clienticon": "682e838cc96e1532e6667ae28ce7db6792253383",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -112,7 +111,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759442810",
     "gameid": "4017010",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Soliloqu-You",
+    "publisher": "Soliloqu-You"
+  },
+  "config": {
+    "installdir": "Echo Maze Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows\\EchoMaze.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Echo MazeMaze"
+        },
+        "description": "Launch Echo MazeMaze"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017011": {
+      "manifests": {
+        "public": {
+          "gid": "1210089616310660410",
+          "size": "448230984",
+          "download": "327504464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20155011",
+        "timeupdated": "1758981787"
+      }
+    }
   }
 }
