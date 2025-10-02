@@ -1,4 +1,198 @@
 {
   "appid": "4033280",
-  "public_only": "1"
+  "common": {
+    "name": "Tower Lords Demo",
+    "type": "Demo",
+    "parent": "3905630",
+    "clienticon": "21a99decf4e3be0a83777532db66f7234a67e1a8",
+    "icon": "80afd431a691a5a329f4d514408485fd8a37aff6",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "c8f55fdb9e3790fad81020d966a8b0d5c7d63b56/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "5e22b2b6c7cebd133d4ebc1f5fb39192e071c045/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "85.94306049822066",
+        "height_pct": "88.17097415506959"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "bad62d6447819db81966869fde66ffec9e88014b/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "bad62d6447819db81966869fde66ffec9e88014b/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "bc33980f1652d08e45ed5ea0afd8c8bcc6c57954/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "bc33980f1652d08e45ed5ea0afd8c8bcc6c57954/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "bc33980f1652d08e45ed5ea0afd8c8bcc6c57954/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "ea3ce96eb3e61c6fcb18f7d7ce8d712f4138d7ea/logo.png"
+        },
+        "image2x": {
+          "english": "ea3ce96eb3e61c6fcb18f7d7ce8d712f4138d7ea/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "85.94306049822066",
+          "height_pct": "88.17097415506959"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "93b86c5f2f7b038811078d3cc12de5c0e00cb182/library_header.jpg"
+        },
+        "image2x": {
+          "english": "93b86c5f2f7b038811078d3cc12de5c0e00cb182/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759353588",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Final Arcade"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Final Arcade"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "3",
+      "3": "28",
+      "4": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_64": "1",
+      "category_65": "1",
+      "category_66": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_79": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "4033280",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Final Arcade",
+    "publisher": "Final Arcade"
+  },
+  "config": {
+    "installdir": "Tower Lords",
+    "launch": {
+      "0": {
+        "executable": "Tower Lords.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4033281": {
+      "manifests": {
+        "public": {
+          "gid": "6881603263076831346",
+          "size": "6325822616",
+          "download": "1553557392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20216070",
+        "timeupdated": "1759373745"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3905630",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "FinalArcade/TowerLords/SyncedData",
+        "pattern": "*.SaveInfo",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "FinalArcade/TowerLords/SyncedData",
+        "pattern": "*.Profile",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "FinalArcade/TowerLords/SyncedData",
+        "pattern": "*.SaveFile",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinMyDocuments",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacDocuments",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinMyDocuments",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "SteamCloudDocuments",
+        "pathtransforms": {
+          "0": {
+            "find": "FinalArcade/TowerLords/SyncedData",
+            "replace": ""
+          }
+        }
+      }
+    }
+  }
 }
