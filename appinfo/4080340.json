@@ -1,6 +1,5 @@
 {
   "appid": "4080340",
-  "public_only": "1",
   "common": {
     "name": "Wrangle Ranch Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "e31319386fb664e023760bb6319c375f1efe7d5f",
     "icon": "e31319386fb664e023760bb6319c375f1efe7d5f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9fa1b78bf7d67ed512be86266de086a66d9ece5a/capsule_231x87.jpg"
     },
@@ -82,7 +81,122 @@
     "category": {
       "category_2": "1"
     },
+    "steam_release_date": "1761894000",
     "gameid": "4080340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BenBonk",
+    "publisher": "Bonkrai Games"
+  },
+  "config": {
+    "installdir": "Wrangle Ranch Demo",
+    "launch": {
+      "0": {
+        "executable": "WrangleRanch.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "WrangleRanch.app",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Mac"
+        },
+        "description": "Mac"
+      }
+    }
+  },
+  "depots": {
+    "3974621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1698989095704430447",
+          "size": "107619984",
+          "download": "47614448"
+        }
+      },
+      "depotfromapp": "3974620"
+    },
+    "3974622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2425696683775161357",
+          "size": "123468945",
+          "download": "55425680"
+        }
+      },
+      "depotfromapp": "3974620"
+    },
+    "4080341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7052929107585353056",
+          "size": "107773688",
+          "download": "47769616"
+        }
+      }
+    },
+    "4080342": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2768000312538039656",
+          "size": "123622550",
+          "download": "55585888"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20224291",
+        "timeupdated": "1759415202"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Bonkrai Games/Wrangle Ranch",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Bonkrai Games/Wrangle Ranch"
+      }
+    }
   }
 }
