@@ -1,4 +1,145 @@
 {
   "appid": "3987280",
-  "public_only": "1"
+  "common": {
+    "name": "The Black Pool: Arena Survivors Demo",
+    "type": "Demo",
+    "parent": "3843850",
+    "icon": "6e6d620410e441f64b42a57f7910456a530d1bf4",
+    "clienticon": "6e6d620410e441f64b42a57f7910456a530d1bf4",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "586139938cff4713ffa4e2053b8ba2b466ab06f0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "14f779f2216414bb87006cab0c0b01fa91f659f1/header.jpg"
+    },
+    "store_asset_mtime": "1758646036",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Smug Marmot Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Smug Marmot Studios"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1761894000",
+    "gameid": "3987280",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Smug Marmot Studios",
+    "publisher": "Smug Marmot Studios",
+    "homepage": "https://smugmarmot.com/"
+  },
+  "config": {
+    "installdir": "The Black Pool Arena Survivors Demo",
+    "launch": {
+      "0": {
+        "executable": "TheBlackPool.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3987281": {
+      "manifests": {
+        "public": {
+          "gid": "475142535730052426",
+          "size": "10615846092",
+          "download": "10240123120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20230200",
+        "timeupdated": "1759443735"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheBlackPool/Saved/SaveGames",
+        "pattern": "SavePreservedSettingsSlot"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "TheBlackPool/Saved/SaveGames",
+        "pattern": "SaveGameSlot*.sav"
+      }
+    }
+  }
 }
