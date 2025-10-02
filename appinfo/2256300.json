@@ -1,6 +1,5 @@
 {
   "appid": "2256300",
-  "public_only": "1",
   "common": {
     "name": "no brake no gain",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "beb80d1c8f691af77c3ca6779f390a77bfb230ea",
     "clienttga": "6304837e9c66dd734e6825d4262fcbd3bb8677d0",
     "linuxclienticon": "fb4cd18a15315015d2b42fb74113e90a6c625e61",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -174,9 +173,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759424627",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2256300",
-    "exfgls": "8",
     "store_tags": {
       "0": "1644",
       "1": "4026",
@@ -198,6 +198,102 @@
       "17": "5350",
       "18": "4305",
       "19": "4036"
+    }
+  },
+  "extended": {
+    "developer": "Make Good Games",
+    "publisher": "Make Good Games",
+    "homepage": "https://www.makegood.games/no-brake-no-gain"
+  },
+  "config": {
+    "installdir": "no brake no gain",
+    "launch": {
+      "0": {
+        "executable": "no brake no gain.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "nobrakenogain.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2256301": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5552025045167780751",
+          "size": "14516291805",
+          "download": "2909301296"
+        }
+      }
+    },
+    "2256302": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4125239045182944613",
+          "size": "14576616612",
+          "download": "2927928784"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20052539",
+        "timeupdated": "1758308122"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1048576000",
+    "maxnumfiles": "16",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "no brake no gain_Data\\UserXC\\DataXC",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "no brake no gain_Data\\UserXC\\DataXC",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "nobrakenogain_Data\\UserXC\\DataXC",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "3": {
+        "root": "gameinstall",
+        "path": "nobrakenogain_Data\\UserXC\\DataXC",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
