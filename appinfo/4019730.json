@@ -1,6 +1,5 @@
 {
   "appid": "4019730",
-  "public_only": "1",
   "common": {
     "name": "JUPITER JACKPOT CASINO™ Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -72,6 +71,40 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "SHARP SET",
+    "publisher": "SHARP SET LLC",
+    "homepage": "https://www.sharp-set.com/divisions/design/jupiter-jackpot-casino"
+  },
+  "config": {
+    "installdir": "JUPITER JACKPOT CASINO™ Demo",
+    "launch": {
+      "0": {
+        "executable": "JJC Game Launcher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4019731": {
+      "manifests": {
+        "public": {
+          "gid": "5084189215506856498",
+          "size": "239600599",
+          "download": "232328768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20200970",
+        "timeupdated": "1759297992"
+      }
     }
   }
 }
