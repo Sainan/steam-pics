@@ -1,4 +1,173 @@
 {
   "appid": "4076330",
-  "public_only": "1"
+  "common": {
+    "name": "Arcane Tower Survivors Demo",
+    "type": "Demo",
+    "parent": "2433850",
+    "icon": "dc24cf34a8b36fc08591ab9f1fbf3a8bb7310649",
+    "clienticon": "dc24cf34a8b36fc08591ab9f1fbf3a8bb7310649",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "languages": {
+      "english": "1",
+      "russian": "1"
+    },
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "06e0273899c95884c181fc826204a1f44c16e8a0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "31686a965d8b2e8521b052c824de168725704cd1/header.jpg"
+    },
+    "store_asset_mtime": "1759323771",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Red Horde Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Red Horde Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "polish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759410823",
+    "community_visible_stats": "1",
+    "gameid": "4076330",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Red Horde Games",
+    "publisher": "Red Horde Games"
+  },
+  "config": {
+    "installdir": "Arcane Tower Survivors Demo",
+    "launch": {
+      "0": {
+        "executable": "Arcane Tower Survivors.exe"
+      }
+    }
+  },
+  "depots": {
+    "4076331": {
+      "manifests": {
+        "public": {
+          "gid": "2261048879240733076",
+          "size": "593672663",
+          "download": "138742832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20195858",
+        "timeupdated": "1759265245"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Red Horde Games/Arcane Tower Survivors",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Red Horde Games/Arcane Tower Survivors",
+            "replace": "unity.Red Horde Games.Arcane Tower Survivors"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Red Horde Games/Arcane Tower Survivors",
+            "replace": ".config/unity3d/Red Horde Games/Arcane Tower Survivors"
+          }
+        }
+      }
+    }
+  }
 }
