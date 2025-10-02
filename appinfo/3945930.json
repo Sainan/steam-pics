@@ -1,6 +1,5 @@
 {
   "appid": "3945930",
-  "public_only": "1",
   "common": {
     "name": "101 Cats Hidden in Seoul",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "37dc0af4d2b264e0e4bb0d8593399a8666aaa1be",
     "clienticon": "37dc0af4d2b264e0e4bb0d8593399a8666aaa1be",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9bf286e781934e7d4aa706bfbfef7e7b7e18cc0c/capsule_231x87.jpg"
@@ -191,9 +190,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3945930",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "17894",
@@ -215,6 +215,53 @@
       "17": "5154",
       "18": "3871",
       "19": "5390"
+    }
+  },
+  "extended": {
+    "developer": "NaipSoft",
+    "publisher": "NaipSoft"
+  },
+  "config": {
+    "installdir": "101 Cats Hidden in Seoul",
+    "launch": {
+      "0": {
+        "executable": "101_Cats_Hidden_in_Seoul.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3945931": {
+      "manifests": {
+        "public": {
+          "gid": "5973596967694309899",
+          "size": "568182242",
+          "download": "111757200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20148753",
+        "timeupdated": "1758921754"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "NaipSoft/101_Cats_Hidden_in_Seoul",
+        "pattern": "*.jogo",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
