@@ -1,6 +1,5 @@
 {
   "appid": "3788930",
-  "public_only": "1",
   "common": {
     "name": "Tatari Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -127,7 +126,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759399360",
     "gameid": "3788930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hidden Tower Studios",
+    "publisher": "TheGamesFortress",
+    "homepage": "https://www.hiddentowerstudios.com"
+  },
+  "config": {
+    "installdir": "Tatari Demo",
+    "launch": {
+      "0": {
+        "executable": "Tatari.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3788931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8500874888433584692",
+          "size": "8321433540",
+          "download": "3650348656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20109523",
+        "timeupdated": "1758719532"
+      }
+    },
+    "privatebranches": "1"
   }
 }
