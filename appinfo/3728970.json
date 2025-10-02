@@ -1,6 +1,5 @@
 {
   "appid": "3728970",
-  "public_only": "1",
   "common": {
     "name": "Cyber Rats Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -96,7 +95,61 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759424453",
     "gameid": "3728970",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Outpost Games",
+    "publisher": "Outpost Games"
+  },
+  "config": {
+    "installdir": "Cyber Rats Demo",
+    "launch": {
+      "0": {
+        "executable": "Cyber_Rats_Demo.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Cyber Rats Demo"
+        },
+        "description": "Cyber Rats Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3728971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7676937866919158887",
+          "size": "542077603",
+          "download": "398238032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19962194",
+        "timeupdated": "1757703543"
+      }
+    }
   }
 }
