@@ -1,0 +1,144 @@
+{
+  "appid": "2900570",
+  "common": {
+    "name": "Dawnmaker Demo",
+    "type": "Demo",
+    "parent": "2749100",
+    "icon": "2658e9f93542732d722583fa85f3f5e9739fffb1",
+    "clienticon": "9963e034d59c5a7ff45d1e496bea44a5e15a0cb8",
+    "clienttga": "05fed968d857d82981dd96a18193f3c3560b641d",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1749113517",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Arpentor Studio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Acram Digital"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Acram Digital"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1711361595",
+    "gameid": "2900570",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Arpentor Studio",
+    "publisher": "Acram Digital",
+    "homepage": "https://arpentor.studio/games/dawnmaker/"
+  },
+  "config": {
+    "installdir": "Dawnmaker Demo",
+    "launch": {
+      "0": {
+        "executable": "Dawnmaker.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Dawnmaker Demo win32 x64"
+        },
+        "description": "Dawnmaker Demo win32 x64"
+      },
+      "1": {
+        "executable": "Dawnmaker",
+        "arguments": "--no-sandbox",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Dawnmaker Demo linux x64"
+        },
+        "description": "Dawnmaker Demo linux x64"
+      },
+      "2": {
+        "executable": "Dawnmaker.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Dawnmaker macOS x64"
+        },
+        "description": "Dawnmaker macOS x64"
+      }
+    }
+  },
+  "depots": {
+    "2900572": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7241282520643567946",
+          "size": "518774204",
+          "download": "305264976"
+        }
+      }
+    },
+    "2900573": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3870822798352909029",
+          "size": "508652888",
+          "download": "297068928"
+        }
+      }
+    },
+    "2900574": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4863236716075296153",
+          "size": "495144686",
+          "download": "298772784"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "17849191",
+        "timeupdated": "1742896235"
+      }
+    }
+  }
+}
