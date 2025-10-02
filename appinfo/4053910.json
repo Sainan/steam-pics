@@ -1,6 +1,5 @@
 {
   "appid": "4053910",
-  "public_only": "1",
   "common": {
     "name": "Bist Squad Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "6e1dee541538420660a9ebce22f48b2cfc657802",
     "icon": "6e1dee541538420660a9ebce22f48b2cfc657802",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -49,5 +48,78 @@
     },
     "gameid": "4053910",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Vincent Lopes-Vicente",
+    "publisher": "Vincent Lopes-Vicente"
+  },
+  "config": {
+    "installdir": "Bist Squad Demo",
+    "launch": {
+      "0": {
+        "executable": "BistSquad.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BistSquad.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "BistSquad.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4053911": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2924807451867361453",
+          "size": "251386409",
+          "download": "135496784"
+        }
+      }
+    },
+    "4053912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4310986149605407839",
+          "size": "429375296",
+          "download": "189339296"
+        }
+      }
+    },
+    "4053913": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4688953769085493803",
+          "size": "224995425",
+          "download": "128605936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20209735",
+        "timeupdated": "1759337234"
+      }
+    }
   }
 }
