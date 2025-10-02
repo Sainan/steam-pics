@@ -1,6 +1,5 @@
 {
   "appid": "4062440",
-  "public_only": "1",
   "common": {
     "name": "Yuki「清醒梦」 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "26de2eee435dbdaf617eb1640b6474e95e7c41a4/capsule_231x87.jpg"
     },
@@ -78,5 +77,48 @@
     "category": {},
     "gameid": "4062440",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "visualmemoryunit_",
+    "publisher": "visualmemoryunit_"
+  },
+  "config": {
+    "installdir": "Yuki「清醒梦」 Demo",
+    "launch": {
+      "0": {
+        "executable": "Yuki_Steam_Demo\\Windows\\yumenikki\\Binaries\\Win64\\yumenikki-Win64-Shipping.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4062441": {
+      "manifests": {
+        "public": {
+          "gid": "3563931485535790312",
+          "size": "965116284",
+          "download": "797643568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20217877",
+        "timeupdated": "1759386492"
+      }
+    }
   }
 }
