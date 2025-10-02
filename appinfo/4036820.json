@@ -201,6 +201,14 @@
           "1": "Windows"
         }
       },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/Zinktank Labs/Cosmic Run",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
       "copied_from_parent": "1"
     },
     "rootoverrides": {
@@ -219,6 +227,30 @@
         "pathtransforms": {
           "0": {
             "find": "Zinktank Labs/Cosmic Run",
+            "replace": "com.zinktanklabs.cosmicrun"
+          }
+        }
+      },
+      "2": {
+        "root": "LinuxXdgConfigHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "unity3d/Zinktank Labs/Cosmic Run",
+            "replace": "Zinktank Labs/Cosmic Run"
+          }
+        }
+      },
+      "3": {
+        "root": "LinuxXdgConfigHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "unity3d/Zinktank Labs/Cosmic Run",
             "replace": "com.zinktanklabs.cosmicrun"
           }
         }
