@@ -1,0 +1,147 @@
+{
+  "appid": "3460290",
+  "common": {
+    "name": "Expedition: Shadow World Demo",
+    "type": "Demo",
+    "parent": "3428480",
+    "name_localized": {
+      "russian": "Экспедиция: Мир Тени - Demo"
+    },
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "b45cabfb59ab50c0e0adc371a7f62a8409dd031d",
+    "clienttga": "afca6442629c90a400dd3c4129dde41a87cee81a",
+    "clienticon": "9aed90822100c4454420ff2898e0169c9f0f850e",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "russian": "1"
+    },
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "small_capsule": {
+      "english": "436d43d6d7d7eea2d228c49a112e522228891f1b/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "6c20677cdd9c0d282284571cc235fe263a6c50ca/header.jpg"
+    },
+    "store_asset_mtime": "1745649778",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Pavel Tanonov"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Pavel Tanonov"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_22": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1737145462",
+    "community_visible_stats": "1",
+    "gameid": "3460290",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Pavel Tanonov",
+    "publisher": "Pavel Tanonov"
+  },
+  "config": {
+    "installdir": "Expedition Shadow World Demo",
+    "launch": {
+      "0": {
+        "executable": "Expedition.exe",
+        "arguments": "--rendering-driver d3d12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Expedition: Shadow World Demo (Direct3D 12)",
+          "russian": "Экспедиция: Мир Тени Демо (Direct3D 12)"
+        },
+        "description": "Expedition: Shadow World Demo (Direct3D 12)"
+      },
+      "1": {
+        "executable": "Expedition.exe",
+        "arguments": "--rendering-driver vulkan",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Expedition: Shadow World Demo (Vulkan)",
+          "russian": "Экспедиция: Мир Тени Демо (Vulkan)"
+        },
+        "description": "Expedition: Shadow World Demo (Vulkan)"
+      }
+    }
+  },
+  "depots": {
+    "3460291": {
+      "manifests": {
+        "public": {
+          "gid": "5042988658050614371",
+          "size": "290208260",
+          "download": "137071536"
+        },
+        "beta": {
+          "gid": "3978483609745881106",
+          "size": "288806304",
+          "download": "123307792"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20222450",
+        "timeupdated": "1759407880"
+      },
+      "beta": {
+        "buildid": "19856337",
+        "description": "For developer testing",
+        "timeupdated": "1756991011"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "appidredirect": "3428480"
+  }
+}
