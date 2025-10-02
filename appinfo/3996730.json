@@ -1,11 +1,10 @@
 {
   "appid": "3996730",
-  "public_only": "1",
   "common": {
     "name": "Legion Demo",
     "type": "Demo",
     "parent": "3729580",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "597d41a3e5195ac08c4d4b6dec882206bebacd2f",
     "clienticon": "597d41a3e5195ac08c4d4b6dec882206bebacd2f",
     "oslist": "windows,macos",
@@ -81,7 +80,63 @@
       "category_76": "1",
       "category_79": "1"
     },
+    "steam_release_date": "1767168000",
     "gameid": "3996730",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jerome Renaux",
+    "publisher": "Jerome Renaux"
+  },
+  "config": {
+    "installdir": "Legion Demo",
+    "launch": {
+      "0": {
+        "executable": "Legion.app/Contents/MacOS/Legion",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Legion.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3996731": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6485902190721845325",
+          "size": "1098660501",
+          "download": "323913360"
+        }
+      }
+    },
+    "3996732": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "180233426960173012",
+          "size": "1130812318",
+          "download": "337378416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20076575",
+        "timeupdated": "1758619511"
+      }
+    }
   }
 }
