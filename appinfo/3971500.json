@@ -1,11 +1,10 @@
 {
   "appid": "3971500",
-  "public_only": "1",
   "common": {
     "name": "Pixel Pegz Demo",
     "type": "Demo",
     "parent": "3962650",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "ecf43b87595ed48ded46330c6f16001054fad18e",
     "icon": "c1c59ced148bafaea7f7ee896a477838f04c71c4",
     "clienticns": "de527bbd3679a06a9b1fd84dfe2d7e093d2f9bcf",
@@ -136,5 +135,60 @@
     },
     "gameid": "3971500",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "avocadomilk",
+    "publisher": "avocadomilk"
+  },
+  "config": {
+    "installdir": "Pixel Pegz Demo",
+    "launch": {
+      "0": {
+        "executable": "PixelPegzDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PixelPegzDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3971502": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1624146274781612082",
+          "size": "166717184",
+          "download": "94482368"
+        }
+      }
+    },
+    "3971503": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2067865231409811216",
+          "size": "141426368",
+          "download": "87970720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20222905",
+        "timeupdated": "1759409855"
+      }
+    }
   }
 }
