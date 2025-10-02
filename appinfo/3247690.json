@@ -87,15 +87,15 @@
     "launch": {
       "0": {
         "executable": "spiral.exe",
-        "type": "default",
+        "type": "option1",
         "config": {
           "oslist": "windows",
           "osarch": "64"
         },
         "description_loc": {
-          "english": "Vulkan (default)"
+          "english": "The Spiral using Vulkan (default)"
         },
-        "description": "Vulkan (default)"
+        "description": "The Spiral using Vulkan (default)"
       },
       "1": {
         "executable": "spiral.x86_64",
@@ -108,15 +108,15 @@
       "2": {
         "executable": "spiral.exe",
         "arguments": "--rendering-driver d3d12",
-        "type": "default",
+        "type": "option2",
         "config": {
           "oslist": "windows",
           "osarch": "64"
         },
         "description_loc": {
-          "english": "DirectX 12"
+          "english": "The Spiral using DirectX 12"
         },
-        "description": "DirectX 12"
+        "description": "The Spiral using DirectX 12"
       }
     },
     "steamcontrollertemplateindex": "2",
