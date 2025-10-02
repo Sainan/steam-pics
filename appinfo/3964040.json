@@ -1,11 +1,10 @@
 {
   "appid": "3964040",
-  "public_only": "1",
   "common": {
     "name": "Master of Jewelry Demo",
     "type": "Demo",
     "parent": "3494290",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "baa341dae09a6ca696fa9db2bdd77cfe3f4eff33",
     "clienticon": "f0b39ac65afd1ac380968c6ffd6f83739c5c1b58",
     "icon": "3cd2ead2b6195a7dd28072f3ae117a457079b5df",
@@ -103,5 +102,57 @@
     },
     "gameid": "3964040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Kroyan Games",
+    "publisher": "Kroyan Games"
+  },
+  "config": {
+    "installdir": "Master of Jewelry Demo",
+    "launch": {
+      "0": {
+        "executable": "Master.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3964041": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7659871901425546573",
+          "size": "8332572731",
+          "download": "3402742064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20064251",
+        "timeupdated": "1758435692"
+      }
+    },
+    "privatebranches": "1"
   }
 }
