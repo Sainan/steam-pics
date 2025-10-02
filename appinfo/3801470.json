@@ -1,6 +1,5 @@
 {
   "appid": "3801470",
-  "public_only": "1",
   "common": {
     "name": "Legendary Tales: Map of Hope",
     "type": "Game",
@@ -27,7 +26,7 @@
     "osextended": "",
     "clienticon": "a2e7e6cbb3563be5ebc20dcad0e5d959c8af368e",
     "icon": "a2e7e6cbb3563be5ebc20dcad0e5d959c8af368e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -199,9 +198,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3801470",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -213,5 +213,70 @@
       "7": "7208",
       "8": "4182"
     }
+  },
+  "extended": {
+    "developer": "FIVE-BN GAMES",
+    "publisher": "FIVE-BN GAMES",
+    "homepage": "https://fivebngames.com/game/legendary-tales-map-of-hope"
+  },
+  "config": {
+    "installdir": "Legendary Tales Map of Hope",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "4",
+    "steamconfigurator3rdpartynative": "4",
+    "launch": {
+      "0": {
+        "executable": "LegendaryTalesMapOfHope.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3801471": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2065029060740450537",
+          "size": "1544703803",
+          "download": "1523064704"
+        }
+      }
+    },
+    "3801472": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7379482194306212597",
+          "size": "1544848723",
+          "download": "1522959520"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,russian,japanese,polish,dutch,norwegian,swedish,czech,romanian,turkish,brazilian,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20108690",
+        "timeupdated": "1758716075"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "50"
   }
 }
