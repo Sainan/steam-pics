@@ -1,4 +1,44 @@
 {
   "appid": "4068640",
-  "public_only": "1"
+  "common": {
+    "name": "G-Switch 4: Creator Demo",
+    "type": "Demo",
+    "parent": "3505960",
+    "clienticon": "2fc4b5fdea612a4244f73dc9513fdc77a899aa25",
+    "icon": "2fc4b5fdea612a4244f73dc9513fdc77a899aa25",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4068640",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "G-Switch 4 Creator Demo",
+    "launch": {
+      "0": {
+        "executable": "gswitch4.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068641": {
+      "manifests": {
+        "public": {
+          "gid": "3661899979179133612",
+          "size": "173075527",
+          "download": "152049312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20222518",
+        "timeupdated": "1759408156"
+      }
+    }
+  }
 }
