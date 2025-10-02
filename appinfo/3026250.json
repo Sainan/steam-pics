@@ -1,6 +1,5 @@
 {
   "appid": "3026250",
-  "public_only": "1",
   "common": {
     "name": "Mush Dash",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "efb2a7e1b147b736863205ae0942aa68f1ec58dd",
     "icon": "9a47a79c905eda714eb3560609a9bf5e35f6c8c6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -123,9 +122,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3026250",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -152,5 +152,96 @@
       "18": "5711",
       "19": "4305"
     }
+  },
+  "extended": {
+    "developer": "笨笨Bon",
+    "publisher": "NoMoreTwistNear"
+  },
+  "config": {
+    "installdir": "Mush Dash",
+    "launch": {
+      "0": {
+        "executable": "MushDash.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "MushDash.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3026251": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6614689488301513871",
+          "size": "331485357",
+          "download": "224790896"
+        }
+      }
+    },
+    "3026252": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1952169059940800451",
+          "size": "561786229",
+          "download": "297543504"
+        }
+      }
+    },
+    "3026253": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20225179",
+        "timeupdated": "1759418687"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
