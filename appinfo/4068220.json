@@ -1,6 +1,5 @@
 {
   "appid": "4068220",
-  "public_only": "1",
   "common": {
     "name": "Ages of Cataria Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a8e1d29b4ad930c146d778e76243a7019c5ef447/capsule_231x87.jpg"
     },
@@ -43,5 +42,52 @@
     },
     "gameid": "4068220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Third Pie Studios",
+    "publisher": "Third Pie Studios"
+  },
+  "config": {
+    "installdir": "Ages of Cataria Demo",
+    "launch": {
+      "0": {
+        "executable": "Ages of Cataria Build\\Windows\\CatariaReborn.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4068221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3760602611561518232",
+          "size": "2870673247",
+          "download": "1715909008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20216098",
+        "timeupdated": "1759373834"
+      }
+    }
   }
 }
