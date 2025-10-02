@@ -240,5 +240,19 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ceres/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    }
   }
 }
