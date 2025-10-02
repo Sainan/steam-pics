@@ -1,6 +1,5 @@
 {
   "appid": "3954430",
-  "public_only": "1",
   "common": {
     "name": "Zombie Barrel Blast Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "81fe21ca12a6a848a00ba1c96f4924510d5ec091",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,7 +112,61 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3954430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wild Cockatiel Games",
+    "publisher": "Wild Cockatiel Games"
+  },
+  "config": {
+    "installdir": "Zombie Barrel Blast Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows/ZombieBarrelBlast.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mac.app/Contents/MacOS/ZombieBarrelBlast",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3954432": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2586154951347910100",
+          "size": "901228435",
+          "download": "135225424"
+        }
+      }
+    },
+    "3954433": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5918150548327679790",
+          "size": "894035918",
+          "download": "132565056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207773",
+        "timeupdated": "1759328844"
+      }
+    }
   }
 }
