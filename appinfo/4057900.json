@@ -1,6 +1,5 @@
 {
   "appid": "4057900",
-  "public_only": "1",
   "common": {
     "name": "Tailor Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "6742c31f2c66c43a1e0992b0901ecbbf0af8449d",
     "icon": "6742c31f2c66c43a1e0992b0901ecbbf0af8449d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7941d5192866943ecb7d2d6e9e0c65a2aaba4894/capsule_231x87.jpg"
     },
@@ -96,5 +95,43 @@
     },
     "gameid": "4057900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Zoady",
+    "publisher": "Zoady"
+  },
+  "config": {
+    "installdir": "Tailor Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "Tailor Simulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4057901": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "404946552703907535",
+          "size": "1372974164",
+          "download": "1175181824"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20103838",
+        "timeupdated": "1758692007"
+      }
+    }
   }
 }
