@@ -1,6 +1,5 @@
 {
   "appid": "4056760",
-  "public_only": "1",
   "common": {
     "name": "Aldriak, the advent of a new world Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -120,5 +119,84 @@
     },
     "gameid": "4056760",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Return to Play",
+    "publisher": "Return to Play"
+  },
+  "config": {
+    "installdir": "Aldriak, the advent of a new world",
+    "launch": {
+      "0": {
+        "executable": "Demo/nw.exe",
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch of Aldriak, the advent of a new world"
+        },
+        "description": "Launch of Aldriak, the advent of a new world"
+      }
+    }
+  },
+  "depots": {
+    "4056761": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3855514678480966100",
+          "size": "3268960091",
+          "download": "2927058544"
+        }
+      }
+    },
+    "4056762": {
+      "config": {
+        "language": "french",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1034161056290858889",
+          "size": "3268374324",
+          "download": "2937399872"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20223637",
+        "timeupdated": "1759412800"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "1460820",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
