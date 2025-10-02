@@ -1,6 +1,5 @@
 {
   "appid": "3013450",
-  "public_only": "1",
   "common": {
     "name": "Gunzzle : warp master Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "icon": "128023d436de3bcebc4a918a70626e7c6f0e4b6f",
     "clienticon": "e5cb9e6bcc4f1e081489ef6409e431329802213f",
     "clienttga": "477e088f75969b605561680efe0b133c3e55944d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "83701e8c56ae72431e03c1040a1fbd449c5df6a3/capsule_231x87.jpg"
@@ -94,5 +93,41 @@
     },
     "gameid": "3013450",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Exprit Games",
+    "publisher": "SAS Exprit"
+  },
+  "config": {
+    "installdir": "GunzzleDemo",
+    "launch": {
+      "0": {
+        "executable": "Gunzzle.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3013451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4621176137220867165",
+          "size": "565332311",
+          "download": "121557232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20212303",
+        "timeupdated": "1759350137"
+      }
+    }
   }
 }
