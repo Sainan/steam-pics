@@ -1,11 +1,10 @@
 {
   "appid": "3642070",
-  "public_only": "1",
   "common": {
     "name": "Lilith's Game Demo",
     "type": "Demo",
     "parent": "3236340",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "5cbb8283c2caf852d1d6610363bf16e29f392c86",
     "clienttga": "7bd8298d064a06c0358a9af30fa2e6abfcb22234",
     "icon": "32dd4d6a24cba3b5dfb76db158c1426308f211c0",
@@ -121,5 +120,49 @@
     },
     "gameid": "3642070",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tiko",
+    "publisher": "Tiko Developments"
+  },
+  "config": {
+    "installdir": "Lilith's Game Demo",
+    "launch": {
+      "0": {
+        "executable": "LilithsGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3642071": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8701131078683390589",
+          "size": "600576415",
+          "download": "211981280"
+        }
+      }
+    },
+    "3642072": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20157122",
+        "timeupdated": "1759003242"
+      }
+    }
   }
 }
