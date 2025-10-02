@@ -1,6 +1,5 @@
 {
   "appid": "4065310",
-  "public_only": "1",
   "common": {
     "name": "RaceWorms Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon",
     "icon": "26f9cb26eabc7ca18c5de86fbedecf69964e23e2",
     "clienticon": "fbc46815ff0256f0efa9ba90a8a1087ca82978f6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,7 +112,65 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4065310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Team Zandt",
+    "publisher": "Team Zandt",
+    "homepage": "https://raceworms.com/"
+  },
+  "config": {
+    "installdir": "RaceWorms Demo",
+    "launch": {
+      "0": {
+        "executable": "RaceWorms.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Contents/MacOS/RaceWorms",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4065311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "399051645786874329",
+          "size": "2495421406",
+          "download": "158060304"
+        }
+      }
+    },
+    "4065312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7948898519302005069",
+          "size": "2511527768",
+          "download": "166033568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20224661",
+        "timeupdated": "1759416488"
+      }
+    }
   }
 }
