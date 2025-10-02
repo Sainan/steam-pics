@@ -1,6 +1,5 @@
 {
   "appid": "4060900",
-  "public_only": "1",
   "common": {
     "name": "7 Nights with Vroombi Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -100,11 +99,58 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4060900",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Pixel Goat Games",
+    "publisher": "Pixel Goat Games"
+  },
+  "config": {
+    "installdir": "7 Nights with Vroombi Demo",
+    "launch": {
+      "0": {
+        "executable": "VroombiDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4060901": {
+      "manifests": {
+        "public": {
+          "gid": "6484301322630764603",
+          "size": "648378430",
+          "download": "517279728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20216721",
+        "timeupdated": "1759378197"
+      }
     }
   }
 }
