@@ -1,6 +1,5 @@
 {
   "appid": "4048720",
-  "public_only": "1",
   "common": {
     "name": "Creator's Fall Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -110,5 +109,75 @@
     },
     "gameid": "4048720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BaroxxTech",
+    "publisher": "BaroxxTech",
+    "homepage": "https://baroxx.tech/games/"
+  },
+  "config": {
+    "installdir": "Creator's Fall Demo",
+    "launch": {
+      "0": {
+        "executable": "Creators_Fall.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "creators_fall.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4048721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1609108340891266956",
+          "size": "484110991",
+          "download": "379817712"
+        },
+        "alphatest": {
+          "gid": "1609108340891266956",
+          "size": "484110991",
+          "download": "379817712"
+        }
+      }
+    },
+    "4048722": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7153496662852408060",
+          "size": "480823890",
+          "download": "377874528"
+        },
+        "alphatest": {
+          "gid": "7153496662852408060",
+          "size": "480823890",
+          "download": "377874528"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20216010",
+        "timeupdated": "1759373346"
+      },
+      "alphatest": {
+        "buildid": "20216010",
+        "description": "test branch",
+        "timeupdated": "1759373264"
+      }
+    }
   }
 }
