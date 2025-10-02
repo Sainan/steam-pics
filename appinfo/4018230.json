@@ -1,6 +1,5 @@
 {
   "appid": "4018230",
-  "public_only": "1",
   "common": {
     "name": "PRITTO PRISONER Demo",
     "type": "Demo",
@@ -24,7 +23,7 @@
         "version": "2"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -90,5 +89,65 @@
     },
     "gameid": "4018230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PinCool",
+    "publisher": "PinCool",
+    "homepage": "https://www.priprigame.com"
+  },
+  "config": {
+    "installdir": "PRITTO PRISONER Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "launch": {
+      "0": {
+        "executable": "PRITTO PRISONER.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PRITTO PRISONER.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4018232": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5423806281885722019",
+          "size": "1885579793",
+          "download": "541431968"
+        }
+      }
+    },
+    "4018233": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3333888027237053001",
+          "size": "2227221695",
+          "download": "596115856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20223499",
+        "timeupdated": "1759414556"
+      }
+    },
+    "privatebranches": "1"
   }
 }
