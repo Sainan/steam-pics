@@ -1,4 +1,180 @@
 {
   "appid": "3916150",
-  "public_only": "1"
+  "common": {
+    "name": "The Last Caretaker Demo",
+    "type": "Demo",
+    "parent": "1783560",
+    "icon": "678ff2b6397166fc1f8b8eab6ffa0b3393d474e1",
+    "clienttga": "c5ce5d86cb47ca4ac69cb3343b2d6cc1bbcb95ef",
+    "clienticon": "6875d9eb27e3e9beb2ac11bcb28efab29d6814e7",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "50dd9db0056e7e377031a40698e1487c980cd7b7/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "bea1137bf279494256d95df032ac9a5cd2d670ac/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "15efa4c4fff0456666a6085c826d985b01de44c7/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "15efa4c4fff0456666a6085c826d985b01de44c7/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "062cd61557cf8092cd9c49493b22072d91dad50f/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "062cd61557cf8092cd9c49493b22072d91dad50f/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "062cd61557cf8092cd9c49493b22072d91dad50f/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "4023709321f00a2c79b9430667904dcd291a8a35/logo.png"
+        },
+        "image2x": {
+          "english": "4023709321f00a2c79b9430667904dcd291a8a35/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "bea1137bf279494256d95df032ac9a5cd2d670ac/library_header.jpg"
+        },
+        "image2x": {
+          "english": "bea1137bf279494256d95df032ac9a5cd2d670ac/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1754983374",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Channel37 Ltd"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Channel37 Ltd"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_15": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_79": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759391510",
+    "gameid": "3916150",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Channel37 Ltd",
+    "publisher": "Channel37 Ltd",
+    "homepage": "https://thelastcaretaker.com/"
+  },
+  "config": {
+    "installdir": "TheLastCaretakerDemo",
+    "launch": {
+      "0": {
+        "executable": "Voyage.exe",
+        "arguments": "-trackevents",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3916151": {
+      "manifests": {
+        "public": {
+          "gid": "382561123218580865",
+          "size": "12665675498",
+          "download": "12050217888"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,japanese,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20171246",
+        "timeupdated": "1759206104"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100"
+  }
 }
