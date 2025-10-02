@@ -1,6 +1,5 @@
 {
   "appid": "4023320",
-  "public_only": "1",
   "common": {
     "name": "BLOODVILLE Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -113,6 +112,53 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "George Horia Andrei",
+    "publisher": "George Horia Andrei"
+  },
+  "config": {
+    "installdir": "BLOODVILLE",
+    "launch": {
+      "0": {
+        "executable": "BLOODVILLE.exe",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4023321": {
+      "manifests": {
+        "public": {
+          "gid": "481838824417517107",
+          "size": "1339642525",
+          "download": "1154567600"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,russian",
+    "branches": {
+      "public": {
+        "buildid": "20227307",
+        "timeupdated": "1759428261"
+      }
     }
   }
 }
