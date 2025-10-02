@@ -1,6 +1,5 @@
 {
   "appid": "3940970",
-  "public_only": "1",
   "common": {
     "name": "Ire: A Prologue Demo",
     "type": "Demo",
@@ -24,7 +23,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -118,5 +117,50 @@
     },
     "gameid": "3940970",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ProbablyMonsters",
+    "publisher": "ProbablyMonsters",
+    "homepage": "http://www.playire.com"
+  },
+  "config": {
+    "installdir": "Ire A Prologue Demo",
+    "launch": {
+      "0": {
+        "executable": "IreDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3940971": {
+      "manifests": {
+        "public": {
+          "gid": "7498316811134764312",
+          "size": "8360882951",
+          "download": "7845144768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20149625",
+        "timeupdated": "1759175502"
+      }
+    },
+    "privatebranches": "1"
   }
 }
