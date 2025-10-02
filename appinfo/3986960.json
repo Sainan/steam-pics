@@ -1,4 +1,119 @@
 {
   "appid": "3986960",
-  "public_only": "1"
+  "common": {
+    "name": "tots Demo",
+    "type": "Demo",
+    "parent": "3986800",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64",
+    "clienticon": "827e30fc190f8dbbd0283fe15427305ab53ce7c0",
+    "icon": "827e30fc190f8dbbd0283fe15427305ab53ce7c0",
+    "clienticns": "4fccb864250e48df1562e18de09405d41b981a97",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "52422923127f5d1461e7ebdc142aba1a4c1f7763/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "3d0f53eebbfe92b2525646d3e636c1551d22d08f/header.jpg"
+    },
+    "store_asset_mtime": "1757353947",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "the 9999 Keys collective"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "the 9999 Keys collective"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_37": "1",
+      "category_9": "1",
+      "category_39": "1",
+      "category_24": "1",
+      "category_44": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1761894000",
+    "gameid": "3986960",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "the 9999 Keys collective",
+    "publisher": "the 9999 Keys collective",
+    "homepage": "https://the9999keys.com/"
+  },
+  "config": {
+    "installdir": "tots Demo",
+    "launch": {
+      "0": {
+        "executable": "windows/tots.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mac/tots.app/Contents/MacOS/tots",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3986961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1014610957903923364",
+          "size": "552497578",
+          "download": "255775424"
+        }
+      }
+    },
+    "3986962": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3444821271795670405",
+          "size": "792707490",
+          "download": "177180352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214514",
+        "timeupdated": "1759363481"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1"
+  }
 }
