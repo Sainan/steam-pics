@@ -1,6 +1,5 @@
 {
   "appid": "3941140",
-  "public_only": "1",
   "common": {
     "name": "Barrel Roll Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "76bec26c49a6ac3fdcadbc4b33ef6d77461b601a/capsule_231x87.jpg"
@@ -104,7 +103,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3941140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Barrel Roll",
+    "publisher": "Rubika"
+  },
+  "config": {
+    "installdir": "Barrel Roll Demo",
+    "launch": {
+      "0": {
+        "executable": "Build_Demo_ShippingV2\\Windows\\Barrel Roll.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3941141": {
+      "manifests": {
+        "public": {
+          "gid": "2371776370575569166",
+          "size": "1449007261",
+          "download": "1133372192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20225883",
+        "timeupdated": "1759421847"
+      }
+    }
   }
 }
