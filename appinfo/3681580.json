@@ -1,10 +1,9 @@
 {
   "appid": "3681580",
-  "public_only": "1",
   "common": {
     "name": "Bowlers",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -130,9 +129,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759392094",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3681580",
-    "exfgls": "8",
     "store_tags": {
       "0": "7328",
       "1": "492",
@@ -151,6 +151,56 @@
       "14": "3859",
       "15": "7368",
       "16": "1775"
+    }
+  },
+  "extended": {
+    "developer": "Solid9Games",
+    "publisher": "Solid9Games",
+    "homepage": "https://www.solid9games.com/"
+  },
+  "config": {
+    "installdir": "Bowlers",
+    "launch": {
+      "0": {
+        "executable": "Bowlers.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3681581": {
+      "manifests": {
+        "public": {
+          "gid": "4706800792670024059",
+          "size": "3202072432",
+          "download": "2774077104"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20218838",
+        "timeupdated": "1759392035"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Solid9games/Bowlers/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
