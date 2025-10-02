@@ -1,6 +1,5 @@
 {
   "appid": "4059750",
-  "public_only": "1",
   "common": {
     "name": "Get Clucked Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "568d6b23cbfd351327e16afc88bcd34f7fa2ab82/capsule_231x87.jpg"
     },
@@ -97,5 +96,69 @@
     },
     "gameid": "4059750",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ThatCarrotFella",
+    "publisher": "ThatCarrotFella"
+  },
+  "config": {
+    "installdir": "GetCluckedDemo",
+    "launch": {
+      "0": {
+        "executable": "ChickenCrossing.exe",
+        "arguments": "-dx12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Get Clucked - Default (DX12)"
+        },
+        "description": "Get Clucked - Default (DX12)"
+      },
+      "1": {
+        "executable": "ChickenCrossing.exe",
+        "arguments": "-dx11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Get Clucked - USE IF LIGHTS ARE BUGGED (DX11)"
+        },
+        "description": "Get Clucked - USE IF LIGHTS ARE BUGGED (DX11)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4059751": {
+      "manifests": {
+        "public": {
+          "gid": "8022341147485940137",
+          "size": "1330158728",
+          "download": "1167722896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20142556",
+        "timeupdated": "1758891225"
+      }
+    }
   }
 }
