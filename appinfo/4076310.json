@@ -1,6 +1,5 @@
 {
   "appid": "4076310",
-  "public_only": "1",
   "common": {
     "name": "Boat Together Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "70e030385a39ea08aaaca89dafb63dfefd4639e7/capsule_231x87.jpg"
@@ -98,7 +97,51 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759431744",
     "gameid": "4076310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Beaked Games",
+    "publisher": "Beaked Games"
+  },
+  "config": {
+    "installdir": "Boat Together Demo",
+    "launch": {
+      "0": {
+        "executable": "BoatProject.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4076311": {
+      "manifests": {
+        "public": {
+          "gid": "619648163611971356",
+          "size": "1029517735",
+          "download": "889357344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20195414",
+        "timeupdated": "1759263057"
+      }
+    }
   }
 }
