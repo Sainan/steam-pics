@@ -1,4 +1,55 @@
 {
   "appid": "2831250",
-  "public_only": "1"
+  "common": {
+    "name": "Nocturnal Sun Demo",
+    "type": "Demo",
+    "parent": "2831240",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "0c9c77ab1b54dfaaa0e2ffccfc152b5e5d89b48f",
+    "clienticon": "4a9f0ab311a53f003fb3fb25b41428d2ec9981ab",
+    "clienttga": "4496fe1c16765f89a77268dd361a089669bc87cc",
+    "releasestate": "released",
+    "gameid": "2831250",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Nocturnal Sun Demo",
+    "launch": {
+      "0": {
+        "executable": "Nemesis.exe",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Demo"
+        },
+        "description": "Launch Demo"
+      }
+    }
+  },
+  "depots": {
+    "2831252": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4659782972903670082",
+          "size": "1612909202",
+          "download": "43949600"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20227377",
+        "timeupdated": "1759428579"
+      }
+    }
+  }
 }
