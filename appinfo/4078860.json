@@ -1,6 +1,5 @@
 {
   "appid": "4078860",
-  "public_only": "1",
   "common": {
     "name": "Drift Gang Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "be94c167092aec51b8b6fb7df9ab3b50950df1bf",
     "icon": "be94c167092aec51b8b6fb7df9ab3b50950df1bf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -97,5 +96,48 @@
     },
     "gameid": "4078860",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Beaked Games",
+    "publisher": "Beaked Games"
+  },
+  "config": {
+    "installdir": "Drift Gang Demo",
+    "launch": {
+      "0": {
+        "executable": "CarProject.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4078861": {
+      "manifests": {
+        "public": {
+          "gid": "2755989650367842933",
+          "size": "1052698873",
+          "download": "894659424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20210791",
+        "timeupdated": "1759342329"
+      }
+    }
   }
 }
