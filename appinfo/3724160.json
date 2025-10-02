@@ -220,18 +220,49 @@
     "installdir": "My sexy Neighbour 2 Demo",
     "launch": {
       "0": {
-        "executable": "My sexy Neighbour 2 Demo.exe"
+        "executable": "My sexy Neighbour 2 Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MySexyNeighbour2DemoMac.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "My sexy Neighbour 2 Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
   "depots": {
     "3724161": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "8312005447361703525",
           "size": "2140751166",
           "download": "1834273424"
         }
+      }
+    },
+    "3724162": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "3724163": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
