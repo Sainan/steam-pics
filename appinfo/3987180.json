@@ -1,6 +1,5 @@
 {
   "appid": "3987180",
-  "public_only": "1",
   "common": {
     "name": "The Killing Stone Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "1a94db16e51424db7fa4ab0e2e36ae93d088e655",
     "icon": "1a94db16e51424db7fa4ab0e2e36ae93d088e655",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,5 +112,87 @@
     },
     "gameid": "3987180",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Question",
+    "publisher": "Question",
+    "homepage": "https://www.thekillingstone.com/"
+  },
+  "config": {
+    "installdir": "The Killing Stone Demo",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "launch": {
+      "0": {
+        "executable": "TheKillingStoneDemo/Binaries/Win64/TheKillingStoneDemo-Win64-Shipping.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "TheKillingStoneDemo/Binaries/Win64/TheKillingStoneDemo.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "dev_branch"
+        },
+        "description_loc": {
+          "english": "dev_branch"
+        },
+        "description": "dev_branch"
+      },
+      "2": {
+        "executable": "TheKillingStoneDemo/Binaries/Win64/TheKillingStoneDemo.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "qa_dev"
+        },
+        "description_loc": {
+          "english": "qa_dev"
+        },
+        "description": "qa_dev"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3987181": {
+      "manifests": {
+        "public": {
+          "gid": "1283932413949093963",
+          "size": "4209715978",
+          "download": "3432979760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214195",
+        "timeupdated": "1759361225"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheKillingStoneDemo/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.qtnsave"
+      }
+    }
   }
 }
