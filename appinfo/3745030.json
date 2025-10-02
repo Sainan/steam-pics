@@ -1,6 +1,5 @@
 {
   "appid": "3745030",
-  "public_only": "1",
   "common": {
     "name": "混沌入侵TD",
     "type": "Game",
@@ -18,7 +17,7 @@
       "spanish": "Chaos Invasion TD",
       "schinese": "混沌入侵TD"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -160,9 +159,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759371458",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3745030",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1645",
@@ -171,5 +171,84 @@
       "4": "5379",
       "5": "4562"
     }
+  },
+  "extended": {
+    "developer": "GTTK STUDIO",
+    "publisher": "GTTK STUDIO"
+  },
+  "config": {
+    "installdir": "ChaosInvasionTD",
+    "launch": {
+      "0": {
+        "executable": "ChaosInvasionTD_macOS/ChaosInvasionTD.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "ChaosInvasionTD_Windows/ChaosInvasionTD.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3745031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4979791687127548299",
+          "size": "421191885",
+          "download": "86004128"
+        },
+        "local": {
+          "gid": "3528751759363567810",
+          "size": "421155459",
+          "download": "86147056"
+        }
+      }
+    },
+    "3745032": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1453267586021160873",
+          "size": "446223431",
+          "download": "95587152"
+        },
+        "local": {
+          "gid": "8762128400417611960",
+          "size": "446182844",
+          "download": "95586992"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20087264",
+        "timeupdated": "1758599672"
+      },
+      "local": {
+        "buildid": "20086483",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758594474"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "5000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
