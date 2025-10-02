@@ -1,10 +1,9 @@
 {
   "appid": "2787680",
-  "public_only": "1",
   "common": {
     "name": "Candy Rangers",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "694cb70bf88badf566a8eddf80008b6b1811f1c9",
     "clienttga": "c4f70602208d21ab6527b3bced1ba68fd1f48110",
     "icon": "afd43bc7522ac01708773f8b6f3e375cd67103ed",
@@ -152,10 +151,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759412380",
     "steam_deck_blog_url": "https://steamcommunity.com/app/2787680/discussions/0/6320322606665936993/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2787680",
-    "exfgls": "8",
     "store_tags": {
       "0": "56690",
       "1": "1773",
@@ -177,6 +177,52 @@
       "17": "1697",
       "18": "1684",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "Mechano",
+    "publisher": "JanduSoft",
+    "homepage": "https://www.jandusoft.com/candyrangers"
+  },
+  "config": {
+    "installdir": "Candy Rangers",
+    "launch": {
+      "0": {
+        "executable": "Candy Rangers.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "app_mappings": {}
+  },
+  "depots": {
+    "2787681": {
+      "manifests": {
+        "public": {
+          "gid": "3965792717626676594",
+          "size": "463756005",
+          "download": "134552176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20220878",
+        "timeupdated": "1759400762"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mechano/Candy Rangers",
+        "pattern": "*.CandyRangers"
+      }
     }
   }
 }
