@@ -1,6 +1,5 @@
 {
   "appid": "4058140",
-  "public_only": "1",
   "common": {
     "name": "The Funskin Project Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -107,7 +106,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759399937",
     "gameid": "4058140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Studio Richoux",
+    "publisher": "Studio Richoux"
+  },
+  "config": {
+    "installdir": "The Funskin Project Demo",
+    "launch": {
+      "0": {
+        "executable": "TheFunskinProject.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4058141": {
+      "manifests": {
+        "public": {
+          "gid": "8382235372336641042",
+          "size": "1272345733",
+          "download": "1126718112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20205489",
+        "timeupdated": "1759319299"
+      }
+    }
   }
 }
