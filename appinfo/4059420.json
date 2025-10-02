@@ -1,6 +1,5 @@
 {
   "appid": "4059420",
-  "public_only": "1",
   "common": {
     "name": "MISERY Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ff8d4e3bfd2f3de8349ad755ef2cb95c851b1be8/capsule_231x87.jpg"
@@ -162,5 +161,54 @@
     },
     "gameid": "4059420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Platypus Entertainment",
+    "publisher": "Ytopia",
+    "homepage": "https://www.youtube.com/@PlatypusEntertainment69"
+  },
+  "config": {
+    "installdir": "MISERY Demo",
+    "launch": {
+      "0": {
+        "executable": "MISERY.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4059421": {
+      "manifests": {
+        "public": {
+          "gid": "4751908890424864224",
+          "size": "5903773830",
+          "download": "4228620592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20229055",
+        "timeupdated": "1759437232"
+      }
+    }
   }
 }
