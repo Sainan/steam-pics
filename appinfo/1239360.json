@@ -1,6 +1,5 @@
 {
   "appid": "1239360",
-  "public_only": "1",
   "common": {
     "name": "Genokids",
     "type": "Game",
@@ -9,7 +8,7 @@
     "icon": "a75a6f1c96a7440df2d4f16ad6bd03aa4f922c1c",
     "clienticon": "c402772e5d69864c2028344a217d0c5b3e5dc3a4",
     "clienttga": "e63d9b9f9d367fb9fccd59d2f6bec3f7ff9a8ffe",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -116,7 +115,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758565040",
+    "store_asset_mtime": "1759424531",
     "associations": {
       "0": {
         "type": "developer",
@@ -160,9 +159,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759424610",
     "community_hub_visible": "1",
     "gameid": "1239360",
-    "exfgls": "8",
     "store_tags": {
       "0": "1646",
       "1": "4777",
@@ -184,6 +183,149 @@
       "17": "4191",
       "18": "492",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "Nukefist",
+    "publisher": "Nukefist",
+    "homepage": "https://genokids.com/"
+  },
+  "config": {
+    "installdir": "Genokids",
+    "launch": {
+      "0": {
+        "executable": "Genokids.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mac.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Genokids.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "12"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1239362": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7896636998560219359",
+          "size": "3697893309",
+          "download": "886089520"
+        }
+      }
+    },
+    "1239363": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1751955271942501261",
+          "size": "3670677665",
+          "download": "866128192"
+        }
+      }
+    },
+    "1239364": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6423495357084267595",
+          "size": "3673061870",
+          "download": "864883696"
+        }
+      }
+    },
+    "1239365": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3680328249076998068",
+          "size": "3679535416",
+          "download": "869103664"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20226042",
+        "timeupdated": "1759424443"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Nukefist/Genokids/SAVEDATA/{64BitSteamID}/MachineAgnostic",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      },
+      "3": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      }
     }
   }
 }
