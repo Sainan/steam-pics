@@ -1,6 +1,5 @@
 {
   "appid": "3941870",
-  "public_only": "1",
   "common": {
     "name": "BRIO World - Railway Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -99,7 +98,67 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759388082",
     "gameid": "3941870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Filimundus",
+    "publisher": "Filimundus",
+    "homepage": "https://www.filimundus.se/en"
+  },
+  "config": {
+    "installdir": "BRIO World - Railway Demo",
+    "launch": {
+      "0": {
+        "executable": "BRIO Railway Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BRIO Railway Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3933441": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4268929410290949898",
+          "size": "626477398",
+          "download": "214523952"
+        }
+      }
+    },
+    "3941871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6087705166363629522",
+          "size": "601906197",
+          "download": "204919456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20186298",
+        "timeupdated": "1759222440"
+      }
+    }
   }
 }
