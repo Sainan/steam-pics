@@ -1,11 +1,10 @@
 {
   "appid": "3641960",
-  "public_only": "1",
   "common": {
     "name": "トロイメライの月あかり 体験版",
     "type": "Demo",
     "parent": "3480790",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -142,5 +141,50 @@
     },
     "gameid": "3641960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "room6",
+    "publisher": "room6"
+  },
+  "config": {
+    "installdir": "Traumerei_trial",
+    "launch": {
+      "0": {
+        "executable": "Traumerei_trial.exe"
+      }
+    }
+  },
+  "depots": {
+    "3641961": {
+      "manifests": {
+        "public": {
+          "gid": "7136365561263043347",
+          "size": "298211315",
+          "download": "189327264"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "19779190",
+        "timeupdated": "1756436085"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "room6/Traumerei_trial",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
