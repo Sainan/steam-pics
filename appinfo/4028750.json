@@ -1,6 +1,5 @@
 {
   "appid": "4028750",
-  "public_only": "1",
   "common": {
     "name": "Backrooms: Missing Persons Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cf6ed51a488c64d30097d37ab31174d83a90016e/capsule_231x87.jpg"
     },
@@ -89,7 +88,71 @@
     "category": {
       "category_53": "1"
     },
+    "steam_release_date": "1759403926",
     "gameid": "4028750",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dajo Forge",
+    "publisher": "Dajo Forge"
+  },
+  "config": {
+    "installdir": "Backrooms Missing Persons Demo",
+    "launch": {
+      "0": {
+        "executable": "BackroomTheBeginning.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Backrooms: Missing Persons"
+        },
+        "description": "Backrooms: Missing Persons"
+      },
+      "1": {
+        "executable": "BackroomTheBeginning.exe",
+        "arguments": "-vr -ResX=800 -ResY=600 -Windowed -dx12",
+        "type": "vr",
+        "description_loc": {
+          "english": "Backrooms: Missing Persons VR"
+        },
+        "description": "Backrooms: Missing Persons VR"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4028751": {
+      "manifests": {
+        "public": {
+          "gid": "3933037106783055011",
+          "size": "6142692617",
+          "download": "5567646992"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20196477",
+        "timeupdated": "1759272113"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
