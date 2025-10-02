@@ -1,6 +1,5 @@
 {
   "appid": "4078580",
-  "public_only": "1",
   "common": {
     "name": "OVERCAT Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -50,5 +49,51 @@
     },
     "gameid": "4078580",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SPIKY TEETH STUDIOS",
+    "publisher": "SPIKY TEETH STUDIOS"
+  },
+  "config": {
+    "installdir": "OVERCAT Demo",
+    "launch": {
+      "0": {
+        "executable": "Overcat.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4078581": {
+      "manifests": {
+        "public": {
+          "gid": "5256378360675134413",
+          "size": "533098697",
+          "download": "366981952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20208074",
+        "timeupdated": "1759330195"
+      }
+    }
   }
 }
