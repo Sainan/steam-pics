@@ -1,0 +1,172 @@
+{
+  "appid": "2149320",
+  "common": {
+    "name": "Garbanzo Quest Demo",
+    "type": "Demo",
+    "parent": "2105910",
+    "releasestate": "released",
+    "icon": "af2d563c456d7f30264463a05e0a39ee3d59cd6d",
+    "clienticon": "e6ea921dac20aac7fc9f932c649697d48ddd384b",
+    "clienttga": "5c01e2c830be600c3834f3ad39a7dab239b7215f",
+    "clienticns": "55d28f5eb2f78f04006fcb331dcf33ba167cf3d0",
+    "linuxclienticon": "87f9a228035ac5bae26a29c4b8bd5656647ed6b0",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64",
+    "restricted_countries": "DE",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_fd1574d8a4ddb218952a953897b104d90bfa06c7.jpg",
+    "store_asset_mtime": "1722439787",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "zagawee"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "zagawee"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_39": "1",
+      "category_24": "1",
+      "category_28": "1",
+      "category_23": "1",
+      "category_44": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1662900890",
+    "gameid": "2149320",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "2105910",
+    "developer": "zagawee",
+    "publisher": "zagawee"
+  },
+  "config": {
+    "installdir": "GarbanzoQuestDemo",
+    "launch": {
+      "0": {
+        "executable": "GarbanzoQuest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GarbanzoQuest",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "GarbanzoQuest.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2149321": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7908054407948735464",
+          "size": "332797609",
+          "download": "216091952"
+        },
+        "test": {
+          "gid": "7506883235701588530",
+          "size": "335517061",
+          "download": "216539888"
+        }
+      }
+    },
+    "2149322": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8223398046629113670",
+          "size": "334608377",
+          "download": "215859760"
+        },
+        "test": {
+          "gid": "3710018200396314750",
+          "size": "337029485",
+          "download": "216164256"
+        }
+      }
+    },
+    "2149323": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6948128689712783386",
+          "size": "335576384",
+          "download": "216189696"
+        },
+        "test": {
+          "gid": "7383608753586654910",
+          "size": "337996980",
+          "download": "216494240"
+        }
+      }
+    },
+    "2149324": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4897374834766564014",
+          "size": "326296668",
+          "download": "213483312"
+        },
+        "test": {
+          "gid": "955188725250477737",
+          "size": "329016632",
+          "download": "213931360"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "18160411",
+        "timeupdated": "1744998045"
+      },
+      "test": {
+        "buildid": "20226125",
+        "description": "test branch",
+        "timeupdated": "1759422895"
+      }
+    }
+  }
+}
