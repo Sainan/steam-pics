@@ -1,6 +1,5 @@
 {
   "appid": "4065710",
-  "public_only": "1",
   "common": {
     "name": "Trade Anchor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "99e57d847acac8416c574db45cc901074da56bf8",
     "icon": "ce4b822f47be99f36b869cd4f7d10e835e15f766",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "ec1b35e8ce6c42b70a2b9f8397935235f479270a/capsule_231x87.jpg"
@@ -35,7 +34,103 @@
       "category_74": "1",
       "category_76": "1"
     },
+    "steam_release_date": "1759417137",
     "gameid": "4065710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lemuria",
+    "publisher": "Lemuria"
+  },
+  "config": {
+    "installdir": "Trade Anchor Demo",
+    "launch": {
+      "0": {
+        "executable": "TradeAnchorDemo.app/Contents/MacOS/Trade Anchor Demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "TradeAnchorDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "TradeAnchorDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4065712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9049358660170841407",
+          "size": "775212915",
+          "download": "540457120"
+        },
+        "testing": {
+          "gid": "9049358660170841407",
+          "size": "775212915",
+          "download": "540457120"
+        }
+      }
+    },
+    "4065713": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3816032586544953441",
+          "size": "757837512",
+          "download": "532065968"
+        },
+        "testing": {
+          "gid": "3816032586544953441",
+          "size": "757837512",
+          "download": "532065968"
+        }
+      }
+    },
+    "4065714": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1581704310359082463",
+          "size": "716341333",
+          "download": "484102848"
+        },
+        "testing": {
+          "gid": "1581704310359082463",
+          "size": "716341333",
+          "download": "484102848"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,russian",
+    "branches": {
+      "public": {
+        "buildid": "20212895",
+        "timeupdated": "1759353795"
+      },
+      "testing": {
+        "buildid": "20212895",
+        "description": "Unstable branch for testing updates. Often ahead of default, but with more bugs.",
+        "timeupdated": "1759354184"
+      }
+    }
   }
 }
