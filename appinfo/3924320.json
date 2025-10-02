@@ -1,6 +1,5 @@
 {
   "appid": "3924320",
-  "public_only": "1",
   "common": {
     "name": "Cuber",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienttga": "9b1a0424288206ca4b7c5f8cfc0b359a850d2e5c",
     "clienticns": "f66e13af214790f63b5c52669b6a470f483e1a82",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3924320",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -140,6 +140,67 @@
       "16": "5125",
       "17": "8945",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Arbdev",
+    "publisher": "Arbdev"
+  },
+  "config": {
+    "installdir": "Cuber",
+    "launch": {
+      "0": {
+        "executable": "Cuber.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Cuber.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3924322": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3772882301255055611",
+          "size": "150364232",
+          "download": "77824816"
+        }
+      }
+    },
+    "3924323": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "561018620295712380",
+          "size": "169885936",
+          "download": "84090496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20224795",
+        "timeupdated": "1759417078"
+      }
     }
   }
 }
