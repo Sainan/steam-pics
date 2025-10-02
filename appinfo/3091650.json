@@ -1,0 +1,197 @@
+{
+  "appid": "3091650",
+  "common": {
+    "name": "Yellow Trouble Demo",
+    "type": "Demo",
+    "parent": "3091520",
+    "icon": "4519d0e590e777a5d858f20f9913f0975a47deab",
+    "clienticon": "13d074a1b33ebcb6a69ae6d51d9f6213af51067c",
+    "clienttga": "f8187bef37b6d0291efbecb6ed1d6d46f0f7ff1d",
+    "clienticns": "450dfabff751dceb65d3753592dfab45eb8e4219",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "00b68d8eb658f0477b76ba8e7979e0002c318743/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "e1205324d8c16d603a353fbabc3dafcb63bad9a6/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "e1205324d8c16d603a353fbabc3dafcb63bad9a6/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "dc523f5ba614e3729bb676d9c28ad45a607c6c08/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "dc523f5ba614e3729bb676d9c28ad45a607c6c08/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "dc523f5ba614e3729bb676d9c28ad45a607c6c08/library_hero_blur.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "1c9ff612679aaa96fccbb10ab9fe1b8c595a99d9/library_header.jpg"
+        },
+        "image2x": {
+          "english": "1c9ff612679aaa96fccbb10ab9fe1b8c595a99d9/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758354811",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "DrearyWeary"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "DrearyWeary"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_39": "1",
+      "category_24": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_44": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_57": "1",
+      "category_60": "1",
+      "category_43": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_78": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1749294305",
+    "gameid": "3091650",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DrearyWeary",
+    "publisher": "DrearyWeary",
+    "homepage": "https://www.drearyweary.com"
+  },
+  "config": {
+    "installdir": "Yellow Trouble Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15",
+    "launch": {
+      "0": {
+        "executable": "Yellow Trouble.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Yellow Trouble.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3091651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "406766740707638547",
+          "size": "90612144",
+          "download": "43100272"
+        }
+      }
+    },
+    "3091652": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5818770271355306165",
+          "size": "173257988",
+          "download": "64019536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20001775",
+        "timeupdated": "1758035550"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "30000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "DrearyWeary/yellowtrouble",
+        "pattern": "*.dwx"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "DrearyWeary/yellowtrouble",
+        "pattern": "*.cfg"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
