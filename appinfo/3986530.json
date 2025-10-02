@@ -1,11 +1,10 @@
 {
   "appid": "3986530",
-  "public_only": "1",
   "common": {
     "name": "Cosmic Composer Demo",
     "type": "Demo",
     "parent": "3459990",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "23d4b79fd4737fa37bada8eb59c94ee36cf06e20",
     "clienticon": "23d4b79fd4737fa37bada8eb59c94ee36cf06e20",
     "oslist": "windows",
@@ -99,7 +98,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3986530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Juhani Viitanen",
+    "publisher": "Juhani Viitanen"
+  },
+  "config": {
+    "installdir": "Cosmic Composer Demo",
+    "launch": {
+      "0": {
+        "executable": "CosmicComposer.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3986531": {
+      "manifests": {
+        "public": {
+          "gid": "2505944222390755675",
+          "size": "954554589",
+          "download": "807523264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20225480",
+        "timeupdated": "1759420193"
+      }
+    }
   }
 }
