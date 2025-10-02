@@ -1,6 +1,5 @@
 {
   "appid": "4022380",
-  "public_only": "1",
   "common": {
     "name": "Sisyphus Is a Bug Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
       "english": "1",
       "brazilian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -115,7 +114,72 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "4022380",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "moraguma",
+    "publisher": "moraguma"
+  },
+  "config": {
+    "installdir": "Sisyphus Is a Bug Demo",
+    "launch": {
+      "0": {
+        "executable": "SisyphusIsABug.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SisyphusIsABug.exe",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4022381": {
+      "manifests": {
+        "public": {
+          "gid": "7919237435807769560",
+          "size": "23309040",
+          "download": "15175616"
+        }
+      }
+    },
+    "4022382": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6225093749578731258",
+          "size": "69152352",
+          "download": "22739744"
+        }
+      }
+    },
+    "4022383": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3552226203962309551",
+          "size": "71775000",
+          "download": "24156624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20215797",
+        "timeupdated": "1759372033"
+      }
+    }
   }
 }
