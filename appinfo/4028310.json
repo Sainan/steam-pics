@@ -1,6 +1,5 @@
 {
   "appid": "4028310",
-  "public_only": "1",
   "common": {
     "name": "TheRISS",
     "type": "Game",
@@ -13,7 +12,7 @@
     "osextended": "",
     "clienticon": "bd1d3bec0c38097c1303d556a518dc809ea706eb",
     "icon": "bd1d3bec0c38097c1303d556a518dc809ea706eb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -139,7 +138,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4028310",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -162,6 +160,78 @@
       "14": "4004",
       "15": "3993",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "35degrees",
+    "publisher": "35degrees"
+  },
+  "config": {
+    "installdir": "TheRISS",
+    "launch": {
+      "0": {
+        "executable": "TheRISS\\TheRISS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4028311": {
+      "manifests": {
+        "public": {
+          "gid": "3810502655022728000",
+          "size": "7441013236",
+          "download": "6982830752"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20214476",
+        "timeupdated": "1759363504"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheRISS",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
