@@ -1,6 +1,5 @@
 {
   "appid": "4069610",
-  "public_only": "1",
   "common": {
     "name": "Blightseed Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cbe1587c1e6c592d511b9f835120f9477e7606f5/capsule_231x87.jpg"
     },
@@ -38,7 +37,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759406078",
     "gameid": "4069610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Zen of Mars",
+    "publisher": "Zen of Mars"
+  },
+  "config": {
+    "installdir": "BlightseedDemo",
+    "launch": {
+      "0": {
+        "executable": "Blightseed Demo\\Blightseed_demo01.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Start game"
+        },
+        "description": "Start game"
+      }
+    }
+  },
+  "depots": {
+    "4069611": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "70050482569192468",
+          "size": "241315488",
+          "download": "173488048"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20222039",
+        "timeupdated": "1759405949"
+      }
+    }
   }
 }
