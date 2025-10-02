@@ -1,6 +1,5 @@
 {
   "appid": "4009980",
-  "public_only": "1",
   "common": {
     "name": "Slot Machine Defence",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macosapplesilicon",
     "icon": "68d62de081facecac3809d00a4e57c5728322c89",
     "clienticon": "68d62de081facecac3809d00a4e57c5728322c89",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -96,6 +95,10 @@
       "category_22": "1",
       "category_23": "1",
       "category_25": "1",
+      "category_67": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_78": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -196,9 +199,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4009980",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -211,6 +214,80 @@
       "8": "492",
       "9": "4004",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "jewelint",
+    "publisher": "jewelint"
+  },
+  "config": {
+    "installdir": "slot_machine_defence",
+    "launch": {
+      "0": {
+        "executable": "smd.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "smd.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4009981": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8298354248220778194",
+          "size": "114360124",
+          "download": "46703072"
+        }
+      }
+    },
+    "4009982": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2541222616644488187",
+          "size": "209778218",
+          "download": "72146240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20228836",
+        "timeupdated": "1759436213"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Slot Machine Defence",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
