@@ -1,6 +1,5 @@
 {
   "appid": "4018080",
-  "public_only": "1",
   "common": {
     "name": "Finch And Archie Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -114,6 +113,39 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "OctarineArts",
+    "publisher": "OctarineArts"
+  },
+  "config": {
+    "installdir": "Finch And Archie Demo",
+    "launch": {
+      "0": {
+        "executable": "Finch & Archie.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4018081": {
+      "manifests": {
+        "public": {
+          "gid": "2048595445357402098",
+          "size": "1799710396",
+          "download": "1404625488"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20225767",
+        "timeupdated": "1759421322"
+      }
     }
   }
 }
