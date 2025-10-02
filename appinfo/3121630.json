@@ -1,6 +1,5 @@
 {
   "appid": "3121630",
-  "public_only": "1",
   "common": {
     "name": "Nightwatch at the Hopkins' Cliffside",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e6e559d48608820c5e43088b85449045cff1e31e/capsule_231x87.jpg"
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759431435",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3121630",
-    "exfgls": "8",
     "store_tags": {
       "0": "1710",
       "1": "3978",
@@ -134,6 +134,68 @@
       "17": "4305",
       "18": "8945",
       "19": "4342"
+    }
+  },
+  "extended": {
+    "developer": "Krzysztof Grzelak",
+    "publisher": "Krzysztof Grzelak"
+  },
+  "config": {
+    "installdir": "Nightwatch at the Hopkins' Cliffside",
+    "launch": {
+      "0": {
+        "executable": "Hopkins.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3121631": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2854262674319753077",
+          "size": "2710572463",
+          "download": "2411548352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20173284",
+        "timeupdated": "1759152307"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Hopkins/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
