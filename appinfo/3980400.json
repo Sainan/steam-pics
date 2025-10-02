@@ -1,6 +1,5 @@
 {
   "appid": "3980400",
-  "public_only": "1",
   "common": {
     "name": "Depths of Insanity 3 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "0efb5cda1a79fa71a337b4733a48947bd2d8de5f",
     "clienticon": "ee3274f6cfca02815b86cf79a622efa040e48c4c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -106,11 +105,69 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3980400",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Sloppy Joe Studios",
+    "publisher": "Sloppy Joe Studios"
+  },
+  "config": {
+    "installdir": "Depths of Insanity 3 Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "3980401": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1636870953434046875",
+          "size": "2011350234",
+          "download": "1598179568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20221731",
+        "timeupdated": "1759405728"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "20",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
