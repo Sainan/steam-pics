@@ -1,6 +1,5 @@
 {
   "appid": "4040770",
-  "public_only": "1",
   "common": {
     "name": "MusicRunner Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "66e9b330890451d66dfbeb1fef93a2d0aed12fef/capsule_231x87.jpg"
@@ -105,7 +104,42 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4040770",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sukesan.",
+    "publisher": "Sukesan."
+  },
+  "config": {
+    "installdir": "MusicRunner Demo",
+    "launch": {
+      "0": {
+        "executable": "MusicRunner_DEMO/Music Runner.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040771": {
+      "manifests": {
+        "public": {
+          "gid": "3730567972581791451",
+          "size": "666201925",
+          "download": "307008832"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20182726",
+        "timeupdated": "1759201212"
+      }
+    }
   }
 }
