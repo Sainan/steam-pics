@@ -1,6 +1,5 @@
 {
   "appid": "4056180",
-  "public_only": "1",
   "common": {
     "name": "The Hero is too Powerful so let's Pleeease Settle this Peacefully! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "012b5e06cd8b80520aca8bb59a84518e20b20761",
     "icon": "012b5e06cd8b80520aca8bb59a84518e20b20761",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,5 +112,56 @@
     },
     "gameid": "4056180",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Night Stroll Studio",
+    "publisher": "Night Stroll Studio",
+    "homepage": "https://www.nightstrollstudio.com/games/the-hero-is-too-powerful-so-lets-pleeeease-settle-this-peacefully"
+  },
+  "config": {
+    "installdir": "The Hero is too Powerful Demo",
+    "launch": {
+      "0": {
+        "executable": "HeroIsOP.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "4056181": {
+      "manifests": {
+        "public": {
+          "gid": "3291191000154286196",
+          "size": "247740044",
+          "download": "49531184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20215331",
+        "timeupdated": "1759368620"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "The Hero is too Powerful/{Steam3AccountID}/",
+        "pattern": "*.save"
+      }
+    }
   }
 }
