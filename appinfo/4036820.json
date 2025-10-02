@@ -191,6 +191,38 @@
     "maxnumfiles": "10",
     "appidredirect": "3770700",
     "hidecloudui": "1",
-    "ignoreexternalfiles": "1"
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Zinktank Labs/Cosmic Run",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Zinktank Labs/Cosmic Run",
+            "replace": "Zinktank Labs Cosmic Run"
+          }
+        }
+      }
+    }
   }
 }
