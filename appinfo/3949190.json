@@ -1,6 +1,5 @@
 {
   "appid": "3949190",
-  "public_only": "1",
   "common": {
     "name": "Melted Valor",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b3c4dd86257a769b728e528945be6fb0e253129f/capsule_231x87.jpg"
@@ -102,9 +101,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759388471",
     "community_hub_visible": "1",
     "gameid": "3949190",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1023537",
@@ -122,6 +121,53 @@
       "13": "1678",
       "14": "3993",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Code 33 Productions",
+    "publisher": "Code 33 Productions",
+    "homepage": "https://code33clothing.myshopify.com/"
+  },
+  "config": {
+    "installdir": "Melted Valor",
+    "launch": {
+      "0": {
+        "executable": "MeltedValor.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3949191": {
+      "manifests": {
+        "public": {
+          "gid": "7136770529078604877",
+          "size": "9586926806",
+          "download": "2623216224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20213779",
+        "timeupdated": "1759358978"
+      }
     }
   }
 }
