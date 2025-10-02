@@ -1,6 +1,5 @@
 {
   "appid": "4051200",
-  "public_only": "1",
   "common": {
     "name": "Guns of Salvation Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "b5a99e8ab585ad6f750885d0927c1295a506dc41",
     "linuxclienticon": "5cfc32b90dddbe465609c6aab6dfad0a62df3723",
     "clienticon": "b5a99e8ab585ad6f750885d0927c1295a506dc41",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -98,5 +97,35 @@
     },
     "gameid": "4051200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gothdisco",
+    "publisher": "Gothdisco"
+  },
+  "config": {
+    "installdir": "Guns of Salvation Demo",
+    "launch": {
+      "0": {
+        "executable": "MetroidDoomLleh.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4051201": {
+      "manifests": {
+        "public": {
+          "gid": "5528955151414102658",
+          "size": "1459811082",
+          "download": "1325403488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20222878",
+        "timeupdated": "1759409733"
+      }
+    }
   }
 }
