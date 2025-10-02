@@ -1,13 +1,12 @@
 {
   "appid": "3927430",
-  "public_only": "1",
   "common": {
     "name": "Fast Food Frog Demo",
     "type": "Demo",
     "parent": "3873660",
     "icon": "cfb816c2bf2256ffe0da29f61e192041fcd08701",
     "clienticon": "73b3b676c730ad9fe2c0d1d8bb79e2f4f01b5eef",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -24,7 +23,12 @@
       "library_hero": "en",
       "library_hero_blur": "en",
       "library_logo": "en",
-      "library_header": "en"
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "28.780773739742074",
+        "height_pct": "100"
+      }
     },
     "library_assets_full": {
       "library_capsule": {
@@ -54,6 +58,11 @@
         },
         "image2x": {
           "english": "c07880e56128ede6626b99bb407860a419eab6f9/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "28.780773739742074",
+          "height_pct": "100"
         }
       },
       "library_header": {
@@ -117,7 +126,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3927430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AlbiStudios",
+    "publisher": "AlbiStudios"
+  },
+  "config": {
+    "installdir": "Fast Food Frog Demo",
+    "launch": {
+      "0": {
+        "executable": "Fast Food Frog Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "betakey": "default"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3927431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6475186705508452331",
+          "size": "1168633609",
+          "download": "296876128"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,russian,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20215360",
+        "timeupdated": "1759368849"
+      }
+    }
   }
 }
