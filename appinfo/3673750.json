@@ -1,6 +1,5 @@
 {
   "appid": "3673750",
-  "public_only": "1",
   "common": {
     "name": "Temptation at Sunset Cove",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -118,9 +117,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3673750",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -148,6 +148,69 @@
       "17": "6650",
       "18": "9551",
       "19": "5611"
+    }
+  },
+  "extended": {
+    "developer": "High Altitude Gaming",
+    "publisher": "High Altitude Gaming"
+  },
+  "config": {
+    "installdir": "Temptation at Sunset Cove",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "8",
+    "launch": {
+      "0": {
+        "executable": "TaSC.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "TaSC.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "TaSC.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3673751": {
+      "manifests": {
+        "public": {
+          "gid": "1186344416717853170",
+          "size": "1835550759",
+          "download": "1711956656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20218600",
+        "timeupdated": "1759390704"
+      }
     }
   }
 }
