@@ -1,6 +1,5 @@
 {
   "appid": "3995150",
-  "public_only": "1",
   "common": {
     "name": "Terminal 13 Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "636451f9aa4c9520c83e5a30c422f07dcb80048d",
     "linuxclienticon": "636451f9aa4c9520c83e5a30c422f07dcb80048d",
     "clienticns": "636451f9aa4c9520c83e5a30c422f07dcb80048d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -138,10 +137,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759399278",
     "gameid": "3995150",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "HANZO2DIS",
+    "publisher": "Hollow Frame Studio"
+  },
+  "config": {
+    "installdir": "Terminal 13 Demo",
+    "launch": {
+      "0": {
+        "executable": "Terminal13.exe",
+        "type": "config"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3995151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2471104950346173376",
+          "size": "4959587516",
+          "download": "2497176656"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20199828",
+        "timeupdated": "1759289545"
+      }
     }
   }
 }
