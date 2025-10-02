@@ -1,10 +1,9 @@
 {
   "appid": "3275880",
-  "public_only": "1",
   "common": {
     "name": "Chronoquartz",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "973cfc79054721a0fe3f97b2ca80209b04609863",
     "clienticon": "49e090620f09e7ae043aa6c4d66d856c65c9aae9",
     "clienttga": "90e1f9ee1b8855f407cc443359ad8b15a6997700",
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759384914",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3275880",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1664",
@@ -140,6 +140,56 @@
       "17": "597",
       "18": "7250",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Infinite Stairs",
+    "publisher": "Infinite Stairs"
+  },
+  "config": {
+    "installdir": "Chronoquartz",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "Chronoquartz.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "3275881": {
+      "manifests": {
+        "public": {
+          "gid": "4235422454330795371",
+          "size": "336399328",
+          "download": "91671440"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20088295",
+        "timeupdated": "1758607482"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "16000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Infinite Stairs/Chronoquartz/STEAM_{64BitSteamID}/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
