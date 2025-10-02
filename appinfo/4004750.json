@@ -1,6 +1,5 @@
 {
   "appid": "4004750",
-  "public_only": "1",
   "common": {
     "name": "The End of Hisotry Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     },
     "clienticon": "f2eb9823fe9f0ce44f3c028525896f30f6dd9bc5",
     "icon": "f2eb9823fe9f0ce44f3c028525896f30f6dd9bc5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -145,5 +144,54 @@
     },
     "gameid": "4004750",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tatamibeya 畳部屋",
+    "publisher": "WorldMap",
+    "homepage": "https://end-of-history.worldmap-game.com/"
+  },
+  "config": {
+    "installdir": "The End of History_Demo",
+    "launch": {
+      "0": {
+        "executable": "History_dev.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4004751": {
+      "manifests": {
+        "public": {
+          "gid": "2425822550195815230",
+          "size": "3433408320",
+          "download": "3110300528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207291",
+        "timeupdated": "1759327176"
+      }
+    }
   }
 }
