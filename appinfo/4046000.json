@@ -1,6 +1,5 @@
 {
   "appid": "4046000",
-  "public_only": "1",
   "common": {
     "name": "Weeks Till Winter Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "5602d0fca65cb3e3a1a5e1c18f49669042ef7bed",
     "clienticon": "5602d0fca65cb3e3a1a5e1c18f49669042ef7bed",
     "linuxclienticon": "1e4bfa9dbaaa78b86dd9f565dbe07a1ad719a73d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -93,7 +92,42 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4046000",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Subnuminal, LLC",
+    "publisher": "Subnuminal, LLC",
+    "homepage": "https://weekstillwinter.com/"
+  },
+  "config": {
+    "installdir": "Weeks Till Winter Demo",
+    "launch": {
+      "0": {
+        "executable": "weeks-till-winter-demo/game/weeks-till-winter-demo.exe",
+        "workingdir": "weeks-till-winter-demo/game",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4046001": {
+      "manifests": {
+        "public": {
+          "gid": "2629947971735558281",
+          "size": "888550590",
+          "download": "434558416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20222797",
+        "timeupdated": "1759409369"
+      }
+    }
   }
 }
