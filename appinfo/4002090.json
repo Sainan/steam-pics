@@ -1,11 +1,10 @@
 {
   "appid": "4002090",
-  "public_only": "1",
   "common": {
     "name": "Warhammer 40,000: Mechanicus II Demo",
     "type": "Demo",
     "parent": "2532480",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -181,5 +180,44 @@
     },
     "gameid": "4002090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bulwark Studios",
+    "publisher": "Kasedo Games",
+    "homepage": "https://mechanicus40k.com"
+  },
+  "config": {
+    "installdir": "Mechanicus2Demo",
+    "launch": {
+      "0": {
+        "executable": "Mechanicus2.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4002091": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3250126426055519850",
+          "size": "9575590472",
+          "download": "8094927472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20208806",
+        "timeupdated": "1759402821"
+      }
+    },
+    "privatebranches": "1"
   }
 }
