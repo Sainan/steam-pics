@@ -1,6 +1,5 @@
 {
   "appid": "3971520",
-  "public_only": "1",
   "common": {
     "name": "Imagine Sisyphus Happy Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64",
     "clienticon": "2e3f555a56a72438b333521c737585ceaa7a5438",
     "icon": "2e3f555a56a72438b333521c737585ceaa7a5438",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "82f0b7381d66e01f5161592b48a27931f688b861/capsule_231x87.jpg"
     },
@@ -96,7 +95,91 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759417200",
     "gameid": "3971520",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "UnplayTheGame",
+    "publisher": "UnplayTheGame"
+  },
+  "config": {
+    "installdir": "Imagine Sisyphus Happy Demo",
+    "launch": {
+      "0": {
+        "executable": "HappySisyphus.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Sisyphus_demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Sisyphus_demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3971521": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7962713005142987786",
+          "size": "113376816",
+          "download": "44490080"
+        }
+      }
+    },
+    "3971522": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4515748302105764424",
+          "size": "193907229",
+          "download": "67155824"
+        }
+      }
+    },
+    "3971523": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7571552806536975948",
+          "size": "85585168",
+          "download": "37753536"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20223116",
+        "timeupdated": "1759410836"
+      }
+    }
   }
 }
