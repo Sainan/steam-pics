@@ -1,6 +1,5 @@
 {
   "appid": "3596080",
-  "public_only": "1",
   "common": {
     "name": "Defense&Making Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     },
     "clienttga": "94b591cb91df6182444419baa15813b54bdcf9e7",
     "clienticon": "d6f436efdf4b0a753e2983e71c6d47bcedb705eb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -119,6 +118,84 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "3DAYS",
+    "publisher": "3DAYS"
+  },
+  "config": {
+    "installdir": "DefenseMaking Demo",
+    "launch": {
+      "0": {
+        "executable": "DefenseMaking.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Defense&Making Demo"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3596082": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "250909": {
+          "gid": "980321744009049618",
+          "size": "1414201062",
+          "download": "241523120"
+        },
+        "250925": {
+          "gid": "6779341655089145651",
+          "size": "1445572812",
+          "download": "247096048"
+        },
+        "250926": {
+          "gid": "8190703842127796952",
+          "size": "1445578924",
+          "download": "247098272"
+        },
+        "251002": {
+          "gid": "7935223038745638624",
+          "size": "1446342388",
+          "download": "246659712"
+        },
+        "public": {
+          "gid": "7935223038745638624",
+          "size": "1446342388",
+          "download": "246659712"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "250909": {
+        "buildid": "19980187",
+        "description": "DefenseMaking_BeaverRocks_ver3",
+        "timeupdated": "1757912405"
+      },
+      "250925": {
+        "buildid": "20123805",
+        "description": "DefenseMaking_ver0.21_Flowtest",
+        "timeupdated": "1758796019"
+      },
+      "250926": {
+        "buildid": "20138421",
+        "description": "DefenseMaking_ver0.21_Flowtest2",
+        "timeupdated": "1758873218"
+      },
+      "251002": {
+        "buildid": "20217927",
+        "description": "DefenseMaking_ver0.21c",
+        "timeupdated": "1759386861"
+      },
+      "public": {
+        "buildid": "20217927",
+        "timeupdated": "1759386878"
+      }
     }
   }
 }
