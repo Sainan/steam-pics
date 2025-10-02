@@ -1,6 +1,5 @@
 {
   "appid": "4037640",
-  "public_only": "1",
   "common": {
     "name": "Poveglia Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "4673f5627328cc9c57c35d29741fa21e85c3a6b1",
     "icon": "4673f5627328cc9c57c35d29741fa21e85c3a6b1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -172,11 +171,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759367118",
     "gameid": "4037640",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "INTI Game Productions",
+    "publisher": "WBStudios Games"
+  },
+  "config": {
+    "installdir": "Poveglia Demo",
+    "launch": {
+      "0": {
+        "executable": "PovegliaDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4037641": {
+      "manifests": {
+        "public": {
+          "gid": "8869906486168184367",
+          "size": "7039986949",
+          "download": "6666198016"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20177931",
+        "timeupdated": "1759172858"
+      }
     }
   }
 }
