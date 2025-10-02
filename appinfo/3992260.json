@@ -1,6 +1,5 @@
 {
   "appid": "3992260",
-  "public_only": "1",
   "common": {
     "name": "Ascend From Nine Mountains",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "7818bcd023c36f51d949eb2b63a9a5196dbf8a5f",
     "icon": "7818bcd023c36f51d949eb2b63a9a5196dbf8a5f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759383324",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3992260",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "21",
@@ -136,6 +136,95 @@
       "17": "3854",
       "18": "4057",
       "19": "4947"
+    }
+  },
+  "extended": {
+    "developer": "Lyeeedar",
+    "publisher": "Lyeeedar"
+  },
+  "config": {
+    "installdir": "Ascend From Nine Mountains",
+    "launch": {
+      "0": {
+        "executable": "Ascend from Nine Mountains.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AscendFromNineMountains",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3992261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1151814219973759781",
+          "size": "1014801398",
+          "download": "462388768"
+        }
+      }
+    },
+    "3992262": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3829810442581478624",
+          "size": "960920574",
+          "download": "432107280"
+        }
+      }
+    },
+    "workshopdepot": "3992260",
+    "branches": {
+      "public": {
+        "buildid": "20217057",
+        "timeupdated": "1759381035"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "AscendFromNineMountains/saves",
+        "pattern": "*.json"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "AscendFromNineMountains/saveBackups",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      }
     }
   }
 }
