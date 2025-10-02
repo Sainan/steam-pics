@@ -1,6 +1,5 @@
 {
   "appid": "3064450",
-  "public_only": "1",
   "common": {
     "name": "Bad Credit? No Problem!",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "ced928e4789294e4d1ab986ee86f13585b3c8626",
     "clienticon": "29c0ad399e7997abdf2ac1bc19b4880e95c7c3e3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7b2c2b20d335dd3f03ea41c007dd5a9842e36f1a/capsule_231x87.jpg"
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759406400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3064450",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "35079",
@@ -130,6 +130,80 @@
       "17": "4166",
       "18": "3871",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Foorbytes",
+    "publisher": "Foorbytes",
+    "homepage": "https://www.foorbytes.com/badcreditnoproblem"
+  },
+  "config": {
+    "installdir": "BadCredit",
+    "launch": {
+      "0": {
+        "executable": "BadCredit.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3064451": {},
+    "3064454": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3434847157510185594",
+          "size": "318676948",
+          "download": "86029264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19914806",
+        "timeupdated": "1757438242"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "foorbytes/badcredit",
+        "pattern": "*.es3"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "foorbytes/badcredit",
+            "replace": "com.Foorbytes.badcredit"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Foorbytes/BadCredit/",
+            "replace": ".config/unity3d/foorbytes/badcredit"
+          }
+        }
+      }
     }
   }
 }
