@@ -1,6 +1,5 @@
 {
   "appid": "3816270",
-  "public_only": "1",
   "common": {
     "name": "佚梦",
     "type": "Game",
@@ -16,7 +15,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7f161250d47466df2975d0c02cdb9182ed55d17b/capsule_231x87.jpg",
@@ -132,9 +131,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3816270",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "122",
@@ -154,6 +153,55 @@
       "15": "3993",
       "16": "6625",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "梦倚流年",
+    "publisher": "梦倚流年"
+  },
+  "config": {
+    "installdir": "EMON",
+    "launch": {
+      "0": {
+        "executable": "EMON\\EMon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3816271": {
+      "manifests": {
+        "public": {
+          "gid": "8775187315241322848",
+          "size": "1367225908",
+          "download": "736764912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20197290",
+        "timeupdated": "1759274840"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Triple E\\EMon",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
