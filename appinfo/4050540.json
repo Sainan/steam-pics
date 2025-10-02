@@ -1,6 +1,5 @@
 {
   "appid": "4050540",
-  "public_only": "1",
   "common": {
     "name": "RockDog Demo",
     "type": "Demo",
@@ -9,7 +8,7 @@
     "icon": "41a51c71e141c8bd93d0e57c361932a69be2dca2",
     "clienticns": "554c65544c3a69884ec231674019c1610b9253ea",
     "linuxclienticon": "b966d1be7e433c27857f6076312e618e74fc7cb6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,7 +102,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4050540",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TempoTech",
+    "publisher": "QuntumPoint Interactive"
+  },
+  "config": {
+    "installdir": "RockDog Demo",
+    "launch": {
+      "0": {
+        "executable": "RockDog\\RockDog_TempoTech2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Основной запуск (Windows, английский)"
+        },
+        "description": "Основной запуск (Windows, английский)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4050541": {
+      "manifests": {
+        "public": {
+          "gid": "8786493609078243002",
+          "size": "370339918",
+          "download": "271155648"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20174057",
+        "timeupdated": "1759155600"
+      }
+    }
   }
 }
