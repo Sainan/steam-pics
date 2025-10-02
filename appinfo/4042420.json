@@ -1,6 +1,5 @@
 {
   "appid": "4042420",
-  "public_only": "1",
   "common": {
     "name": "Thunder Spikes Volleyball Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon",
     "icon": "6bf02d4bf92479bd213efe9d3da862e8f94b11c8",
     "clienticon": "ccf46de6527a87be4dfcc8ac8655592f50213282",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -71,7 +70,65 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759389348",
     "gameid": "4042420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Thunder Bros Srl",
+    "publisher": "Thunder Bros Srl",
+    "homepage": "https://www.thunderspikesvolleyball.com/"
+  },
+  "config": {
+    "installdir": "Thunder Spikes Volleyball Demo",
+    "launch": {
+      "0": {
+        "executable": "Thunder Spikes.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Thunder Spikes.app\\Contents\\MacOS\\Thunder Spikes",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4042421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "591288519819505416",
+          "size": "318140170",
+          "download": "107747824"
+        }
+      }
+    },
+    "4042422": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6941989431281525668",
+          "size": "336166182",
+          "download": "114897920"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,portuguese,polish,dutch,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20208092",
+        "timeupdated": "1759330210"
+      }
+    }
   }
 }
