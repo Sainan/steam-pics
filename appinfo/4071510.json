@@ -1,6 +1,5 @@
 {
   "appid": "4071510",
-  "public_only": "1",
   "common": {
     "name": "Rope-Kun Adventure Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "osextended": "",
     "clienticon": "dc7c21b2e188fbd55e1d87beee120e40ddc7114b",
     "icon": "3e0656cfafa15a589041368351cebbb40a53125a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -59,5 +58,37 @@
     },
     "gameid": "4071510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Kei26",
+    "publisher": "G-MODE"
+  },
+  "config": {
+    "installdir": "Rope-Kun Adventure Demo",
+    "launch": {
+      "0": {
+        "executable": "RopeKunAdventure.exe"
+      }
+    }
+  },
+  "depots": {
+    "4071511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5011881738819313281",
+          "size": "776597157",
+          "download": "292989504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207419",
+        "timeupdated": "1759327532"
+      }
+    }
   }
 }
