@@ -1,6 +1,5 @@
 {
   "appid": "3579490",
-  "public_only": "1",
   "common": {
     "name": "Monsters' Den: Book of Vengeance",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "984e91b700a41ba8ba91bb92886bccd91c622016",
     "clienticon": "658376c816775a76d12661ebb598ea14e7da947b",
     "clienttga": "0f67db75b9a5b0ae1b58869f2084f723fe3ac0ac",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -105,9 +104,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3579490",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "1720",
@@ -124,6 +123,62 @@
       "12": "1708",
       "13": "6730",
       "14": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Monstrum",
+    "publisher": "Monstrum",
+    "homepage": "https://www.monstrumgames.com/"
+  },
+  "config": {
+    "installdir": "Monsters' Den Book of Vengeance",
+    "launch": {
+      "0": {
+        "executable": "BookOfVengeance.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3579491": {
+      "manifests": {
+        "public": {
+          "gid": "7805300031926213667",
+          "size": "656211575",
+          "download": "499574192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20217807",
+        "timeupdated": "1759386351"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Monstrum/BookOfVengeance",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Monstrum/BookOfVengeance/save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
