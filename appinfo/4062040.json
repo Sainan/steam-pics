@@ -1,6 +1,5 @@
 {
   "appid": "4062040",
-  "public_only": "1",
   "common": {
     "name": "Overwork Empire Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
       "schinese": "加班帝国Demo",
       "tchinese": "加班帝國Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -135,10 +134,54 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759386839",
     "gameid": "4062040",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "YanBei",
+    "publisher": "YanBei"
+  },
+  "config": {
+    "installdir": "Overwork_Empire_Demo",
+    "launch": {
+      "0": {
+        "executable": "Overwork_Empire_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4062041": {
+      "manifests": {
+        "public": {
+          "gid": "2384967027542624240",
+          "size": "1746631191",
+          "download": "571557648"
+        },
+        "demo": {
+          "gid": "2865678121784251062",
+          "size": "1770790486",
+          "download": "568738368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20131344",
+        "timeupdated": "1758829389"
+      },
+      "demo": {
+        "buildid": "20217855",
+        "description": "demo",
+        "timeupdated": "1759386757"
+      }
     }
   }
 }
