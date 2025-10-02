@@ -1,11 +1,10 @@
 {
   "appid": "3900580",
-  "public_only": "1",
   "common": {
     "name": "Perfore Demo",
     "type": "Demo",
     "parent": "3900360",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Perfore Demo"
     },
@@ -41,7 +40,7 @@
       "logo_position": {
         "pinned_position": "BottomLeft",
         "width_pct": "50",
-        "height_pct": "50"
+        "height_pct": "68.99786274044169"
       }
     },
     "library_assets_full": {
@@ -57,7 +56,7 @@
         "logo_position": {
           "pinned_position": "BottomLeft",
           "width_pct": "50",
-          "height_pct": "50"
+          "height_pct": "68.99786274044169"
         }
       }
     },
@@ -97,7 +96,48 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759413663",
     "gameid": "3900580",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Triolet noire",
+    "publisher": "Triolet noire",
+    "homepage": "https://discord.gg/98eMw493qt"
+  },
+  "config": {
+    "installdir": "Perfore Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3900581": {
+      "config": {
+        "language": "french",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6038267774696522254",
+          "size": "1462102720",
+          "download": "1443616192"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20223480",
+        "timeupdated": "1759412156"
+      }
+    }
   }
 }
