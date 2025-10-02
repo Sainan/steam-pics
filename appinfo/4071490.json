@@ -1,6 +1,5 @@
 {
   "appid": "4071490",
-  "public_only": "1",
   "common": {
     "name": "Human Planet Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4f11adb57fe6df86f6a02844bc2f795706b7febf/capsule_231x87.jpg"
     },
@@ -106,7 +105,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759424789",
     "gameid": "4071490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "StudioJustice",
+    "publisher": "StudioJustice"
+  },
+  "config": {
+    "installdir": "Human Planet Demo",
+    "launch": {
+      "0": {
+        "executable": "Human Planet.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4071491": {
+      "manifests": {
+        "public": {
+          "gid": "8594803126270178570",
+          "size": "2797105944",
+          "download": "474690032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20226569",
+        "timeupdated": "1759424742"
+      }
+    }
   }
 }
