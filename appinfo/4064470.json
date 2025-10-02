@@ -1,4 +1,183 @@
 {
   "appid": "4064470",
-  "public_only": "1"
+  "common": {
+    "name": "MY HERO Before the Conquest Demo",
+    "type": "Demo",
+    "parent": "3807250",
+    "clienticon": "0564f0b3a68b555481212f376dd5e6368e282c34",
+    "icon": "0564f0b3a68b555481212f376dd5e6368e282c34",
+    "name_localized": {},
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "b7bd1c789ae55d0aca570e42558c8d7c3319b29e/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "9e79c145afa797f26f93663d84e7f83b94886b3d/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "331e6f77a0c03a183c3448b231680e07376d3ed2/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "331e6f77a0c03a183c3448b231680e07376d3ed2/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "3d41fd3a19b7252732ca415729d2e2cd50e4c83d/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "3d41fd3a19b7252732ca415729d2e2cd50e4c83d/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "3d41fd3a19b7252732ca415729d2e2cd50e4c83d/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "20f931ae4cffdbd3f3de23973ae126fffcea8cf4/logo.png"
+        },
+        "image2x": {
+          "english": "20f931ae4cffdbd3f3de23973ae126fffcea8cf4/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "9e79c145afa797f26f93663d84e7f83b94886b3d/library_header.jpg"
+        },
+        "image2x": {
+          "english": "9e79c145afa797f26f93663d84e7f83b94886b3d/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759112600",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "DAYAStudio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "DAYAStudio"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "4064470",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DAYAStudio",
+    "publisher": "DAYAStudio"
+  },
+  "config": {
+    "installdir": "MY HERO Before the Conquest Demo",
+    "launch": {
+      "0": {
+        "executable": "MY HERO Before the Conquest Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "MY HERO Before the Conquest Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7358824469587784672",
+          "size": "191116272",
+          "download": "105066288"
+        }
+      }
+    },
+    "4064472": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "638386751243530107",
+          "size": "225050753",
+          "download": "118004224"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20192299",
+        "timeupdated": "1759248036"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "9999999999",
+    "maxnumfiles": "9999",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SavesDir/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "unity.DAYAStudio.Autocloud"
+      }
+    }
+  }
 }
