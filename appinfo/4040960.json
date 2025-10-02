@@ -1,6 +1,5 @@
 {
   "appid": "4040960",
-  "public_only": "1",
   "common": {
     "name": "Tears of Metal Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -112,10 +111,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759410117",
     "gameid": "4040960",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Paper Cult",
+    "publisher": "Paper Cult",
+    "homepage": "https://www.tearsofmetal.com/?game=tears_of_metal"
+  },
+  "config": {
+    "installdir": "Tears of Metal Demo",
+    "launch": {
+      "0": {
+        "executable": "ToM.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4040961": {
+      "manifests": {
+        "public": {
+          "gid": "1630564571352017042",
+          "size": "5379713593",
+          "download": "3230228256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214105",
+        "timeupdated": "1759363824"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
