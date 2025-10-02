@@ -1,6 +1,5 @@
 {
   "appid": "3385640",
-  "public_only": "1",
   "common": {
     "name": "Fulfillment Center Simulator Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "2f4d7b37a7134a4048bd6d4e6dca004e16c3739e/capsule_231x87.jpg"
@@ -108,7 +107,66 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3385640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Toque, Eh? Media",
+    "publisher": "Toque, Eh? Media"
+  },
+  "config": {
+    "installdir": "Fulfillment Center Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "FFC.exe",
+        "type": "option1",
+        "description_loc": {
+          "english": "Normally"
+        },
+        "description": "Normally"
+      },
+      "1": {
+        "executable": "FFC.exe",
+        "arguments": "-dx11",
+        "type": "option2",
+        "description_loc": {
+          "english": "using DX11"
+        },
+        "description": "using DX11"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3385641": {
+      "manifests": {
+        "public": {
+          "gid": "1730489404170202032",
+          "size": "2760121985",
+          "download": "2426103136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20226966",
+        "timeupdated": "1759426639"
+      }
+    },
+    "privatebranches": "1"
   }
 }
