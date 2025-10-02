@@ -6,7 +6,7 @@
     "parent": "3879110",
     "clienticon": "fa686d5446c8650899d3c10968a759166251e33f",
     "icon": "fa686d5446c8650899d3c10968a759166251e33f",
-    "oslist": "windows,linux",
+    "oslist": "windows",
     "osarch": "64",
     "osextended": "",
     "releasestate": "released",
@@ -85,14 +85,16 @@
         "executable": "BumperBrawlers.x86_64",
         "type": "default",
         "config": {
-          "oslist": "linux"
+          "oslist": "linux",
+          "betakey": "beta"
         }
       }
     },
     "app_mappings": {
       "0": {
         "platform": "linux",
-        "tool": "SteamLinuxRuntime_scout"
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "beta"
       }
     }
   },
