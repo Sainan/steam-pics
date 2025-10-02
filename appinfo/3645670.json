@@ -1,10 +1,9 @@
 {
   "appid": "3645670",
-  "public_only": "1",
   "common": {
     "name": "Mr. Hopp's Playhouse: The Toybox",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "708cec3ba534867cb6d62f915ee6b1c23f5789fb",
     "clienttga": "9491759cf8eed2591ebcbf49be9b8ae09d38dfd9",
     "clienticon": "37ec45f18933f766b0ed2adb01818b2e3021ee44",
@@ -144,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759446064",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3645670",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -169,6 +169,43 @@
       "14": "3798",
       "15": "9",
       "16": "1625"
+    }
+  },
+  "extended": {
+    "developer": "Moonbit",
+    "publisher": "Moonbit",
+    "homepage": "https://www.moonbit.net/"
+  },
+  "config": {
+    "installdir": "Mr. Hopp's Playhouse - The Toybox",
+    "launch": {
+      "0": {
+        "executable": "MrHoppsPlayhouse-TheToybox.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3645671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4114239721585418980",
+          "size": "36638590",
+          "download": "32912752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20187815",
+        "timeupdated": "1759229069"
+      }
     }
   }
 }
