@@ -1,6 +1,5 @@
 {
   "appid": "4044040",
-  "public_only": "1",
   "common": {
     "name": "The House of Hamelin Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "706985c8dab873a7d764c7c14cec78ac39011ada",
     "icon": "706985c8dab873a7d764c7c14cec78ac39011ada",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -103,5 +102,118 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Wither Studios",
+    "publisher": "Wither Studios"
+  },
+  "config": {
+    "installdir": "The House of Hamelin Demo",
+    "launch": {
+      "0": {
+        "executable": "TheHouseOfHamelin.exe",
+        "arguments": "-force-d3d12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX12 (Recommended)"
+        },
+        "description": "DirectX12 (Recommended)"
+      },
+      "1": {
+        "executable": "TheHouseOfHamelin.exe",
+        "arguments": "-force-d3d11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX11"
+        },
+        "description": "DirectX11"
+      },
+      "2": {
+        "executable": "TheHouseOfHamelin.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "TheHouseOfHamelin.x86_64",
+        "arguments": "-screen-fullscreen 0",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4044041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8092909784232797645",
+          "size": "13312829315",
+          "download": "5177781200"
+        },
+        "experimental": {
+          "gid": "8092909784232797645",
+          "size": "13312829315",
+          "download": "5177781200"
+        }
+      }
+    },
+    "4044042": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "419240779102250111",
+          "size": "12363316981",
+          "download": "5089445664"
+        },
+        "experimental": {
+          "gid": "419240779102250111",
+          "size": "12363316981",
+          "download": "5089445664"
+        }
+      }
+    },
+    "4044043": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7026012130413479500",
+          "size": "14478577529",
+          "download": "5462132880"
+        },
+        "experimental": {
+          "gid": "7026012130413479500",
+          "size": "14478577529",
+          "download": "5462132880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214889",
+        "timeupdated": "1759366137"
+      },
+      "experimental": {
+        "buildid": "20214889",
+        "description": "Public branch with pre-release builds available for testing",
+        "timeupdated": "1759366294"
+      }
+    },
+    "privatebranches": "1"
   }
 }
