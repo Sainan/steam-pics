@@ -1,0 +1,230 @@
+{
+  "appid": "2289080",
+  "common": {
+    "name": "Avia Corporation",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "bd08f23a1f3d325fdb16dc85305cb3631d8348ff",
+    "clienticon": "961d869284b29ae0484f63400765cf3650175973",
+    "clienttga": "c3c32cafcd485d7a867d8cbd15ee5bf11b04389e",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "52.86041189931351",
+        "height_pct": "25.303952513166507"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "52.86041189931351",
+          "height_pct": "25.303952513166507"
+        },
+        "image": {
+          "english": "logo.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1684611620",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Elusor Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Elusor Games"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "23",
+      "1": "28",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_22": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1686297900",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2289080",
+    "store_tags": {
+      "0": "599",
+      "1": "9",
+      "2": "4364",
+      "3": "1664",
+      "4": "4328",
+      "5": "1676",
+      "6": "15045",
+      "7": "4400",
+      "8": "4094",
+      "9": "4975",
+      "10": "4252",
+      "11": "4166",
+      "12": "12472",
+      "13": "1654",
+      "14": "1643",
+      "15": "10383",
+      "16": "4695",
+      "17": "7332",
+      "18": "8945",
+      "19": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "43"
+  },
+  "extended": {
+    "developer": "Elusor Games",
+    "publisher": "Elusor Games",
+    "homepage": "https://elusorgames.com"
+  },
+  "config": {
+    "installdir": "AviaCorporation",
+    "launch": {
+      "0": {
+        "executable": "AviaCorporation.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2289081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3102070746545996342",
+          "size": "217972204",
+          "download": "87479664"
+        }
+      }
+    },
+    "2289082": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8430005955469994787",
+          "size": "225885311",
+          "download": "76090176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "11470037",
+        "timeupdated": "1686762027"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Elusor Games/AviaCorporation",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxXdgDataHome",
+        "path": "Elusor Games/AviaCorporation",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      },
+      "1": {
+        "root": "LinuxXdgDataHome",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Elusor Games/AviaCorporation",
+            "replace": ".config/unity3d/Elusor Games/AviaCorporation"
+          }
+        }
+      }
+    }
+  }
+}
