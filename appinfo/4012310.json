@@ -1,4 +1,48 @@
 {
   "appid": "4012310",
-  "public_only": "1"
+  "common": {
+    "name": "Aether & Iron Demo",
+    "type": "Demo",
+    "parent": "1836560",
+    "icon": "5bdf1e3259c7a69b1f191dcb5fbf42548d18662f",
+    "clienticon": "5bdf1e3259c7a69b1f191dcb5fbf42548d18662f",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4012310",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Aether and Iron Demo",
+    "launch": {
+      "0": {
+        "executable": "AetherAndIron.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4012311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8539428347517590224",
+          "size": "9993087223",
+          "download": "4456563248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20221094",
+        "timeupdated": "1759402593"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
