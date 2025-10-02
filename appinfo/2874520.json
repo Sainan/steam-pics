@@ -111,15 +111,39 @@
     "launch": {
       "0": {
         "executable": "EndlessTactics.exe",
+        "type": "default",
         "config": {
           "oslist": "windows"
         }
       },
       "2": {
         "executable": "Contents/MacOS/Endless Tactics",
+        "type": "default",
         "config": {
           "oslist": "macos"
         }
+      },
+      "3": {
+        "executable": "EndlessTactics.exe",
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode (Only choose this if the game doesn't launch normally)"
+        },
+        "description": "Compatibility Mode (Only choose this if the game doesn't launch normally)"
+      },
+      "4": {
+        "executable": "Contents/MacOS/Endless Tactics",
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode (Only choose this if the game doesn't launch normally)"
+        },
+        "description": "Compatibility Mode (Only choose this if the game doesn't launch normally)"
       }
     }
   },
