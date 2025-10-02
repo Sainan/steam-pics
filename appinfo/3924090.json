@@ -1,6 +1,5 @@
 {
   "appid": "3924090",
-  "public_only": "1",
   "common": {
     "name": "The 9th Charnel Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "47606d87709b26e044b60e38488f150c1fb4cbb2",
     "icon": "47606d87709b26e044b60e38488f150c1fb4cbb2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -147,11 +146,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3924090",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Saikat Deb",
+    "publisher": "SOEDESCO",
+    "homepage": "https://www.soedesco.com/games/the-9th-charnel"
+  },
+  "config": {
+    "installdir": "The 9th Charnel Demo",
+    "launch": {
+      "0": {
+        "executable": "The9thCharnelDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3924091": {
+      "manifests": {
+        "public": {
+          "gid": "2198301022477799353",
+          "size": "5562189712",
+          "download": "5181688800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20208836",
+        "timeupdated": "1759333541"
+      }
     }
   }
 }
