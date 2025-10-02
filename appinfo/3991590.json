@@ -1,6 +1,5 @@
 {
   "appid": "3991590",
-  "public_only": "1",
   "common": {
     "name": "Nantara Adventures Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "42fcd9569c751c101a9464e0ecb7a8bb4f87c586",
     "clienticon": "42fcd9569c751c101a9464e0ecb7a8bb4f87c586",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -114,6 +113,63 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Moredoor Interactive",
+    "publisher": "Moredoor Interactive"
+  },
+  "config": {
+    "installdir": "Nantara Adventures Demo",
+    "launch": {
+      "0": {
+        "executable": "Nantara Adventures Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "nantara_adventures_demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3991591": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6086317462829904972",
+          "size": "6723092275",
+          "download": "1676819536"
+        }
+      }
+    },
+    "3991592": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1493839097958631093",
+          "size": "6773835804",
+          "download": "1684264144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20215622",
+        "timeupdated": "1759370813"
+      }
     }
   }
 }
