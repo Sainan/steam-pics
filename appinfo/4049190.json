@@ -1,6 +1,5 @@
 {
   "appid": "4049190",
-  "public_only": "1",
   "common": {
     "name": "The Myth of a Godslayer Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "fa8e3afcd35ab7570facfa4defdb7ee196c8bdb5",
     "icon": "154261c34da0cc8b4082c267832ba2955c0b2823",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -77,5 +76,50 @@
     },
     "gameid": "4049190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Team EZ",
+    "publisher": "Team EZ"
+  },
+  "config": {
+    "installdir": "The Myth of a Godslayer Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4049191": {
+      "manifests": {
+        "public": {
+          "gid": "6308099254387336453",
+          "size": "83956232",
+          "download": "74804368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20225992",
+        "timeupdated": "1759422427"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "3817260"
   }
 }
