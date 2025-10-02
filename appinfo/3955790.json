@@ -1,11 +1,10 @@
 {
   "appid": "3955790",
-  "public_only": "1",
   "common": {
     "name": "Cubic Annihilation Demo",
     "type": "Demo",
     "parent": "3397060",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -176,5 +175,60 @@
     },
     "gameid": "3955790",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "John Corneloup",
+    "publisher": "John Corneloup",
+    "homepage": "https://cubicannihilation.frixiongames.com/"
+  },
+  "config": {
+    "installdir": "Cubic Annihilation Demo",
+    "launch": {
+      "0": {
+        "executable": "Cubic Annihilation (CA).exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CubicAnnihilation.app/Contents/MacOS/Cubic Annihilation (CA)",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3955791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3447717619535668775",
+          "size": "297547051",
+          "download": "103984672"
+        }
+      }
+    },
+    "3955792": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "83040283047522361",
+          "size": "282121156",
+          "download": "99811808"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20217059",
+        "timeupdated": "1759380968"
+      }
+    }
   }
 }
