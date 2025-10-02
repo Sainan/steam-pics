@@ -167,8 +167,8 @@
     }
   },
   "ufs": {
-    "quota": "25000000",
-    "maxnumfiles": "15",
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
     "sync_while_suspended": "1",
     "savefiles": {
       "0": {
@@ -176,6 +176,8 @@
         "path": "save",
         "pattern": "*.rmmzsave"
       }
-    }
+    },
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
