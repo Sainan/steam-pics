@@ -1,6 +1,5 @@
 {
   "appid": "4030080",
-  "public_only": "1",
   "common": {
     "name": "Ashen Dungeon Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "061cd862eedfe25f998b5f5a1588708a4b34ea3a",
     "icon": "061cd862eedfe25f998b5f5a1588708a4b34ea3a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -116,6 +115,44 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "RasEn Inc",
+    "publisher": "RasEn Inc"
+  },
+  "config": {
+    "installdir": "Ashen Dungeon Demo",
+    "launch": {
+      "0": {
+        "executable": "AshenDungeon_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4030081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5816638189109535493",
+          "size": "26862653517",
+          "download": "13514750576"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,russian,japanese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20214381",
+        "timeupdated": "1759362495"
+      }
     }
   }
 }
