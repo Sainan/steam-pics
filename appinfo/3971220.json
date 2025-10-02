@@ -1,11 +1,10 @@
 {
   "appid": "3971220",
-  "public_only": "1",
   "common": {
     "name": "BitHero Survivors Demo",
     "type": "Demo",
     "parent": "3842860",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "9d64f46c00a5022dfa4a975c219277aa8b12a692",
     "icon": "9d64f46c00a5022dfa4a975c219277aa8b12a692",
     "oslist": "windows",
@@ -103,7 +102,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759440986",
     "gameid": "3971220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nekoza",
+    "publisher": "Nekoza"
+  },
+  "config": {
+    "installdir": "BitHero Survivors Demo",
+    "launch": {
+      "0": {
+        "executable": "BitHero_Survivors_Demo/BitHero Survivors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3971221": {
+      "manifests": {
+        "public": {
+          "gid": "1374839840898635731",
+          "size": "143966149",
+          "download": "46589840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20222139",
+        "timeupdated": "1759406369"
+      }
+    }
   }
 }
