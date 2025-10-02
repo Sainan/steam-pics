@@ -1,6 +1,5 @@
 {
   "appid": "4070300",
-  "public_only": "1",
   "common": {
     "name": "Switchboard Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8be3b76e32729e6c282db4a4f20f20ef6e2f9052/capsule_231x87.jpg"
     },
@@ -90,5 +89,49 @@
     },
     "gameid": "4070300",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "JQHY Creative",
+    "publisher": "JQHY Creative"
+  },
+  "config": {
+    "installdir": "Switchboard Demo",
+    "launch": {
+      "0": {
+        "executable": "Switchboard Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4070301": {
+      "manifests": {
+        "public": {
+          "gid": "903751760262723938",
+          "size": "487336655",
+          "download": "107205504"
+        },
+        "local": {
+          "gid": "143592482069887675",
+          "size": "469254527",
+          "download": "94018256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20230820",
+        "timeupdated": "1759447589"
+      },
+      "local": {
+        "buildid": "20164815",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1759096386"
+      }
+    }
   }
 }
