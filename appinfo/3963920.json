@@ -1,11 +1,10 @@
 {
   "appid": "3963920",
-  "public_only": "1",
   "common": {
     "name": "Next Run Demo",
     "type": "Demo",
     "parent": "1295870",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "5e40e1699807c79fdcf240e6308e29511ca45009",
     "clienttga": "e3ffbe23837354485d758a328670b54b11d32456",
     "icon": "0762f25ac84279e6045e2f7104b418093cce00ee",
@@ -156,7 +155,205 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759493301",
     "gameid": "3963920",
     "exfgls": "6"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Clarus Victoria",
+    "publisher": "Clarus Victoria",
+    "homepage": "http://clarusvictoria.com"
+  },
+  "config": {
+    "installdir": "Next Run Demo",
+    "launch": {
+      "0": {
+        "executable": "Next Run.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Next Run.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Next Run.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3963921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8491079873976300479",
+          "size": "399636533",
+          "download": "164776480"
+        },
+        "0.68": {
+          "gid": "8382132503440742583",
+          "size": "400517333",
+          "download": "165633360"
+        },
+        "1.0.4": {
+          "gid": "8491079873976300479",
+          "size": "399636533",
+          "download": "164776480"
+        },
+        "1.00": {
+          "gid": "7149414702519736457",
+          "size": "400370501",
+          "download": "165497968"
+        },
+        "1.01": {
+          "gid": "6012703002938606261",
+          "size": "400347525",
+          "download": "165503984"
+        },
+        "1.02": {
+          "gid": "4886351822224272755",
+          "size": "399885829",
+          "download": "165025968"
+        },
+        "1.03": {
+          "gid": "168638256742063334",
+          "size": "399889509",
+          "download": "165033568"
+        }
+      }
+    },
+    "3963922": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8959232869318210183",
+          "size": "415618853",
+          "download": "173018896"
+        },
+        "0.68": {
+          "gid": "8530997616488323922",
+          "size": "416499651",
+          "download": "173880992"
+        },
+        "1.0.4": {
+          "gid": "8959232869318210183",
+          "size": "415618853",
+          "download": "173018896"
+        },
+        "1.00": {
+          "gid": "5458734525357167263",
+          "size": "416352836",
+          "download": "173734784"
+        },
+        "1.01": {
+          "gid": "4680848125063163520",
+          "size": "416329845",
+          "download": "173740848"
+        },
+        "1.02": {
+          "gid": "6059716130614483467",
+          "size": "415868165",
+          "download": "173262832"
+        },
+        "1.03": {
+          "gid": "7800574458108150979",
+          "size": "415871828",
+          "download": "173276064"
+        }
+      }
+    },
+    "3963923": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8154417551194323899",
+          "size": "750004030",
+          "download": "169630496"
+        },
+        "0.68": {
+          "gid": "3408874519475839752",
+          "size": "395261703",
+          "download": "162866336"
+        },
+        "1.0.4": {
+          "gid": "8154417551194323899",
+          "size": "750004030",
+          "download": "169630496"
+        },
+        "1.00": {
+          "gid": "8706234543185428430",
+          "size": "750738014",
+          "download": "164194288"
+        },
+        "1.01": {
+          "gid": "6485727010360052030",
+          "size": "750715022",
+          "download": "164656064"
+        },
+        "1.02": {
+          "gid": "7917428234631972474",
+          "size": "750253342",
+          "download": "165948304"
+        },
+        "1.03": {
+          "gid": "4606371109765949819",
+          "size": "750257006",
+          "download": "167033808"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,russian,polish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20235161",
+        "timeupdated": "1759478052"
+      },
+      "0.68": {
+        "buildid": "20067378",
+        "description": "0.68",
+        "timeupdated": "1758796401"
+      },
+      "1.0.4": {
+        "buildid": "20235161",
+        "description": "1.0.4",
+        "timeupdated": "1759478043"
+      },
+      "1.00": {
+        "buildid": "20124450",
+        "description": "1.00",
+        "timeupdated": "1758798715"
+      },
+      "1.01": {
+        "buildid": "20154278",
+        "description": "1.01",
+        "timeupdated": "1758973640"
+      },
+      "1.02": {
+        "buildid": "20183655",
+        "description": "1.02",
+        "timeupdated": "1759207847"
+      },
+      "1.03": {
+        "buildid": "20226245",
+        "description": "1.03",
+        "timeupdated": "1759423459"
+      }
+    }
   }
 }
