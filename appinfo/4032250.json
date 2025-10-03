@@ -1,6 +1,5 @@
 {
   "appid": "4032250",
-  "public_only": "1",
   "common": {
     "name": "Tiempo",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "1af3f072bd24b3afc95503b3432e1c45ecfa4a65",
     "icon": "1af3f072bd24b3afc95503b3432e1c45ecfa4a65",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,6 +110,43 @@
       "3": "4182",
       "4": "5537",
       "5": "113"
+    }
+  },
+  "extended": {
+    "developer": "Vancouver Film School",
+    "publisher": "Vancouver Film School",
+    "homepage": "https://vfs.edu/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Tiempo",
+    "launch": {
+      "0": {
+        "executable": "Tiempo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4032251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "567897776634273971",
+          "size": "2127557977",
+          "download": "976959984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20230632",
+        "timeupdated": "1759446345"
+      }
     }
   }
 }
