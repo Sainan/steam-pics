@@ -1,6 +1,5 @@
 {
   "appid": "3606890",
-  "public_only": "1",
   "common": {
     "name": "Upload Labs",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "",
     "clienttga": "d530e1d10867f005cf8e12b60a5fb11367e13570",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "bceebb215844e200307770eade1517f89eb66356/capsule_231x87.jpg"
@@ -110,6 +109,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759514391",
     "community_hub_visible": "1",
     "gameid": "3606890",
     "exfgls": "3",
@@ -134,6 +134,88 @@
       "17": "3810",
       "18": "1755",
       "19": "8945"
+    }
+  },
+  "extended": {
+    "developer": "EnigmaDev Studios",
+    "publisher": "EnigmaDev Studios",
+    "isfreeapp": "1",
+    "listofdlc": "3606990,3958950,3958960",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Upload Labs",
+    "launch": {
+      "0": {
+        "executable": "Upload Labs.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Upload Labs.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3606891": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6038205130765559148",
+          "size": "143053872",
+          "download": "69160448"
+        }
+      }
+    },
+    "3606892": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3153371858610449562",
+          "size": "113737288",
+          "download": "61771568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20226082",
+        "timeupdated": "1759422675"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Upload Labs",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxXdgDataHome",
+        "path": "Upload Labs",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
