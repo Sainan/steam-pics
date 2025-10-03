@@ -1,6 +1,5 @@
 {
   "appid": "3847750",
-  "public_only": "1",
   "common": {
     "name": "Throne of Hearts: Rise from the Nightmare",
     "type": "Game",
@@ -17,7 +16,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
@@ -120,9 +119,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759533657",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3847750",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "4486",
@@ -144,6 +144,56 @@
       "17": "5608",
       "18": "21",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "DontCheckStudio",
+    "publisher": "DontCheckStudio"
+  },
+  "config": {
+    "installdir": "Throne of Hearts Rise from the Nightmare",
+    "launch": {
+      "0": {
+        "executable": "ToH_Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ToH_Game.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "ToH_Game.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3847751": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6881792852551137506",
+          "size": "936465814",
+          "download": "790068576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20235650",
+        "timeupdated": "1759480506"
+      }
     }
   }
 }
