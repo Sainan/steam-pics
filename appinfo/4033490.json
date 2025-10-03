@@ -1,6 +1,5 @@
 {
   "appid": "4033490",
-  "public_only": "1",
   "common": {
     "name": "HEXADEL Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "c59237dcedb4d7038a3ac943b2a001f86ae92d82",
     "clienticon": "c59237dcedb4d7038a3ac943b2a001f86ae92d82",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b1ceb016b6945498d48c151fedbe2d0d20081704/capsule_231x87.jpg"
@@ -105,5 +104,38 @@
     },
     "gameid": "4033490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Planetary Gears ",
+    "publisher": "Planetary Gears"
+  },
+  "config": {
+    "installdir": "HEXADEL Demo",
+    "launch": {
+      "0": {
+        "executable": "Hexadel.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4033491": {
+      "manifests": {
+        "public": {
+          "gid": "461721925197275452",
+          "size": "180439368",
+          "download": "94185536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20234326",
+        "timeupdated": "1759472724"
+      }
+    }
   }
 }
