@@ -1,6 +1,5 @@
 {
   "appid": "3941650",
-  "public_only": "1",
   "common": {
     "name": "The Last Crawler",
     "type": "Game",
@@ -17,7 +16,7 @@
     "clienticns": "df1cab62ec83cf1032db3be04d9531b836cd2d5a",
     "linuxclienticon": "df1cab62ec83cf1032db3be04d9531b836cd2d5a",
     "clienticon": "df1cab62ec83cf1032db3be04d9531b836cd2d5a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -115,9 +114,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759503586",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3941650",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -134,6 +134,54 @@
       "12": "7250",
       "13": "6971",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "CratesDiamond",
+    "publisher": "CratesDiamond"
+  },
+  "config": {
+    "installdir": "The Last Crawler",
+    "launch": {
+      "0": {
+        "executable": "TheLastCrawler.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3941651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1457585899756692954",
+          "size": "1634568246",
+          "download": "1339228336"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20193625",
+        "timeupdated": "1759253603"
+      }
     }
   }
 }
