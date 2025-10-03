@@ -148,6 +148,12 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "linux.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
@@ -158,9 +164,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7824197329502044864",
-          "size": "302832280",
-          "download": "113336064"
+          "gid": "4342634103857099189",
+          "size": "302832088",
+          "download": "113335808"
         },
         "beta": {
           "gid": "6439030917831925806",
@@ -169,11 +175,23 @@
         }
       }
     },
-    "baselanguages": "english,german,spanish,polish",
+    "2393332": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1935762254591039720",
+          "size": "304373504",
+          "download": "118256576"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
     "branches": {
       "public": {
-        "buildid": "20229576",
-        "timeupdated": "1759439985"
+        "buildid": "20237477",
+        "timeupdated": "1759488548"
       },
       "beta": {
         "buildid": "17901281",
@@ -189,7 +207,18 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Pink Sakura Studios\\On The Wind's Breath",
-        "pattern": "*.dat"
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/Pink Sakura Studios/On The Wind's Breath/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
       }
     }
   }
