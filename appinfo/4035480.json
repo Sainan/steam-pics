@@ -1,6 +1,5 @@
 {
   "appid": "4035480",
-  "public_only": "1",
   "common": {
     "name": "Kofoin - Swarm Defense Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "2a8959cd0418cfadec63e0a7c9bb586f2790a250",
     "clienticon": "2a8959cd0418cfadec63e0a7c9bb586f2790a250",
     "linuxclienticon": "2b127f7db4c50d7aa96a108290c7284aecd2be7a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -56,5 +55,66 @@
     },
     "gameid": "4035480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tokiko Studio",
+    "publisher": "Tokiko Studio"
+  },
+  "config": {
+    "installdir": "Kofoin - Swarm Defense Demo",
+    "launch": {
+      "0": {
+        "executable": "Kofoin.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Kofoin.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4035481": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3640490534809706648",
+          "size": "134445517",
+          "download": "68980784"
+        }
+      }
+    },
+    "4035482": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6313845920023533992",
+          "size": "145590363",
+          "download": "70680624"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20221963",
+        "timeupdated": "1759467229"
+      }
+    },
+    "privatebranches": "1"
   }
 }
