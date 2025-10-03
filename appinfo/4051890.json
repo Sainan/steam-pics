@@ -1,6 +1,5 @@
 {
   "appid": "4051890",
-  "public_only": "1",
   "common": {
     "name": "ARCFALL Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd522ff6222002b62700ab9a26a02cac13aa435d/capsule_231x87.jpg"
     },
@@ -30,11 +29,62 @@
     },
     "primary_genre": "0",
     "category": {
-      "category_68": "1",
-      "category_69": "1",
-      "category_70": "1"
+      "category_2": "1",
+      "category_22": "1"
     },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "gameid": "4051890",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Venada Games",
+    "publisher": "Venada Games"
+  },
+  "config": {
+    "installdir": "ARCFALL Demo",
+    "launch": {
+      "0": {
+        "executable": "ARCFALL.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4051891": {
+      "manifests": {
+        "public": {
+          "gid": "6774911081572416392",
+          "size": "2793051429",
+          "download": "2644076384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20234793",
+        "timeupdated": "1759475946"
+      }
+    }
   }
 }
