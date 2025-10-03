@@ -1,10 +1,9 @@
 {
   "appid": "3552200",
-  "public_only": "1",
   "common": {
     "name": "It's John's House",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "e32b804b93f4cbb5d0cad9be978e695bb7d1e934",
     "clienttga": "c52837f0d0924e233fb4e4df987d7bbf5fd7a306",
     "icon": "e32b804b93f4cbb5d0cad9be978e695bb7d1e934",
@@ -159,9 +158,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759514468",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3552200",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -186,6 +186,45 @@
       "17": "19995",
       "18": "4182",
       "19": "3978"
+    }
+  },
+  "extended": {
+    "developer": "Patrik Macsuga",
+    "publisher": "Patrik Macsuga"
+  },
+  "config": {
+    "installdir": "It's John's House",
+    "launch": {
+      "0": {
+        "executable": "It's John's House.exe"
+      }
+    }
+  },
+  "depots": {
+    "3552201": {
+      "manifests": {
+        "public": {
+          "gid": "6945136358762871645",
+          "size": "8074675967",
+          "download": "3209707808"
+        },
+        "dev_branch": {
+          "gid": "6945136358762871645",
+          "size": "8074675967",
+          "download": "3209707808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20243332",
+        "timeupdated": "1759513239"
+      },
+      "dev_branch": {
+        "buildid": "20243332",
+        "description": "Private development branch",
+        "timeupdated": "1759513269"
+      }
     }
   }
 }
