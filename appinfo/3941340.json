@@ -1,6 +1,5 @@
 {
   "appid": "3941340",
-  "public_only": "1",
   "common": {
     "name": "Super Person Run Deluxe Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2033ba804a346892d0e8add524294de49232fc59/capsule_231x87.jpg"
     },
@@ -51,5 +50,63 @@
     },
     "gameid": "3941340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Creative Coded Games",
+    "publisher": "Creative Coded Games"
+  },
+  "config": {
+    "installdir": "Super Person Run Deluxe Demo",
+    "launch": {
+      "0": {
+        "executable": "Super Person Run Deluxe DEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Super Person Run Deluxe DEMO.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3941341": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2891160367774392694",
+          "size": "167291571",
+          "download": "92597008"
+        }
+      }
+    },
+    "3941342": {
+      "config": {
+        "oslist": "macos",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2606231171227778894",
+          "size": "154368240",
+          "download": "86956304"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20243284",
+        "timeupdated": "1759512978"
+      }
+    }
   }
 }
