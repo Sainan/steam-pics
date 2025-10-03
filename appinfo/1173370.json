@@ -213,21 +213,39 @@
     "launch": {
       "0": {
         "executable": "Slapshot.exe",
-        "description": "Live server",
         "type": "default",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "DX11 Default"
+        },
+        "description": "DX11 Default"
       },
       "2": {
         "executable": "Slapshot.exe",
         "arguments": "-Staging=true",
-        "description": "SLAPSHOT Rebound staging server",
         "type": "option2",
         "config": {
           "oslist": "windows",
           "betakey": "staging"
-        }
+        },
+        "description_loc": {
+          "english": "Slapshot Staging Server"
+        },
+        "description": "Slapshot Staging Server"
+      },
+      "3": {
+        "executable": "Slapshot.exe",
+        "arguments": "-force-vulkan",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Vulkan. Better for integrated graphics"
+        },
+        "description": "Vulkan. Better for integrated graphics"
       }
     },
     "uselaunchcommandline": "1"
