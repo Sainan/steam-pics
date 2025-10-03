@@ -1,10 +1,9 @@
 {
   "appid": "3997430",
-  "public_only": "1",
   "common": {
     "name": "Little Brave Adventurer",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3997430_eula_0",
@@ -115,9 +114,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759514776",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3997430",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "379975",
@@ -139,5 +139,58 @@
       "17": "4182",
       "18": "1743"
     }
+  },
+  "extended": {
+    "developer": "Xray",
+    "publisher": "Xray"
+  },
+  "config": {
+    "installdir": "Little Brave Adventurer",
+    "launch": {
+      "0": {
+        "executable": "Little Brave Adventurer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3997431": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1663604069383226796",
+          "size": "450253237",
+          "download": "252190832"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20243612",
+        "timeupdated": "1759514578"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "littlebraveadventurer",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
