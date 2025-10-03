@@ -1,13 +1,12 @@
 {
   "appid": "3462730",
-  "public_only": "1",
   "common": {
     "name": "Disaster Arms - Impact Project B.A.H.N",
     "type": "Game",
     "icon": "67070f386c8f3f144c02252395afd2799e2cf918",
     "clienticon": "ad131f2b01c978832ba83c2f38b966e284969935",
     "clienttga": "dacfd599390896e58303cf35cfdf5f4cc2bb306e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759497472",
+    "store_asset_mtime": "1759497861",
     "associations": {
       "0": {
         "type": "developer",
@@ -136,9 +135,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759498440",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3462730",
-    "exfgls": "8",
     "store_tags": {
       "0": "4885",
       "1": "1773",
@@ -160,6 +160,65 @@
       "17": "5608",
       "18": "4295",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "PD_CGT",
+    "publisher": "PD_CGT"
+  },
+  "config": {
+    "installdir": "Disaster Arms - Impact Project B.A.H.N",
+    "launch": {
+      "0": {
+        "executable": "x64/impactProjectBAHN.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Game launcher (webview2)"
+        },
+        "description": "Game launcher (webview2)"
+      },
+      "1": {
+        "executable": "linux64/impactProjectBAHN",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3462731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "685790722045032611",
+          "size": "200253356",
+          "download": "186332864"
+        }
+      }
+    },
+    "3462732": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2702844211859270932",
+          "size": "556375977",
+          "download": "302770400"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20224676",
+        "timeupdated": "1759416548"
+      }
     }
   }
 }
