@@ -1,0 +1,206 @@
+{
+  "appid": "2882400",
+  "common": {
+    "name": "Wagotabi Demo",
+    "type": "Demo",
+    "parent": "2701720",
+    "icon": "30e060d9e21b5eda3fc95a2e5ee0ef97cdabde83",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "clienticon": "a76a4b3793220582f9f76e109d2876dac28bc5c5",
+    "releasestate": "released",
+    "linuxclienticon": "ba60b790b25cc4e62e4bd2d90a84ffbfccb9e9df",
+    "clienttga": "4ce4050cd4eb43b43cb8c23377b7b199f94a933f",
+    "clienticns": "440ad03801d8ddec2dc03acadd1e5fac8c223107",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_327c6a439189c9ae56ae7be364de2a66a06824c6.jpg",
+    "store_asset_mtime": "1726405903",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Wagotabi Limited"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Wagotabi Limited"
+      }
+    },
+    "primary_genre": "3",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "3",
+      "3": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1716958399",
+    "gameid": "2882400",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wagotabi Limited",
+    "publisher": "Wagotabi Limited",
+    "homepage": "https://www.wagotabi.com/"
+  },
+  "config": {
+    "installdir": "Wagotabi Demo",
+    "launch": {
+      "0": {
+        "executable": "WagotabiDemo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "WagotabiDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "WagotabiDemo.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2882401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7904011981585432228",
+          "size": "155992893",
+          "download": "86227984"
+        }
+      }
+    },
+    "2882402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3608981078962901102",
+          "size": "316169127",
+          "download": "101392160"
+        }
+      }
+    },
+    "2882403": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1244664951749476270",
+          "size": "255476044",
+          "download": "100520528"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20240920",
+        "timeupdated": "1759503369"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "8000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "WagotabiLimited/WagotabiDemo/UserSave/{64BitSteamID}/",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "WagotabiLimited/WagotabiDemo/UserSave/{64BitSteamID}/",
+            "replace": "WagotabiLimited/WagotabiDemo/UserSave/{64BitSteamID}/"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "WagotabiLimited/WagotabiDemo/UserSave/{64BitSteamID}/",
+            "replace": "unity3d/WagotabiLimited/WagotabiDemo/UserSave/{64BitSteamID}/"
+          }
+        }
+      }
+    }
+  }
+}
