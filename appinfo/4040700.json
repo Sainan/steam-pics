@@ -1,6 +1,5 @@
 {
   "appid": "4040700",
-  "public_only": "1",
   "common": {
     "name": "Turning Manor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -108,7 +107,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4040700",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sabbatical Games",
+    "publisher": "Sabbatical Games"
+  },
+  "config": {
+    "installdir": "Turning Manor Demo",
+    "launch": {
+      "0": {
+        "executable": "turningmanordemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4040701": {
+      "manifests": {
+        "public": {
+          "gid": "4663094142409911997",
+          "size": "1321629057",
+          "download": "1211453568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20238069",
+        "timeupdated": "1759516766"
+      }
+    },
+    "privatebranches": "1"
   }
 }
