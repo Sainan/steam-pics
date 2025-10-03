@@ -4,7 +4,7 @@
     "name": "Mai: Child of Ages",
     "type": "Game",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
     "clienticon": "8e8eacbbfae5952227365daa3e43097a24ee4090",
@@ -312,7 +312,7 @@
       "19": "4182"
     },
     "review_score": "7",
-    "review_percentage": "93"
+    "review_percentage": "91"
   },
   "extended": {
     "absolutemousecoordinates": "0",
@@ -329,6 +329,18 @@
         "type": "default",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MaiChildOfAges.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "MaiChildOfAges.app",
+        "config": {
+          "oslist": "macos"
         }
       }
     },
@@ -349,11 +361,35 @@
         }
       }
     },
+    "3499552": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7621318423266653899",
+          "size": "5591737844",
+          "download": "2569141056"
+        }
+      }
+    },
+    "3499553": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4134561080675424804",
+          "size": "5405239148",
+          "download": "2479357888"
+        }
+      }
+    },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,turkish,arabic,brazilian,ukrainian,latam",
     "branches": {
       "public": {
-        "buildid": "20219339",
-        "timeupdated": "1759394132"
+        "buildid": "20236039",
+        "timeupdated": "1759482301"
       }
     }
   },
