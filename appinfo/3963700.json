@@ -1,11 +1,10 @@
 {
   "appid": "3963700",
-  "public_only": "1",
   "common": {
     "name": "이단심판관 쉐퍼드 Demo",
     "type": "Demo",
     "parent": "3963670",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -114,7 +113,6 @@
     "category": {
       "category_2": "1",
       "category_23": "1",
-      "category_64": "1",
       "category_68": "1",
       "category_79": "1"
     },
@@ -130,5 +128,56 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "narrowdeep",
+    "publisher": "narrowdeep"
+  },
+  "config": {
+    "installdir": "이단심판관 쉐퍼드 Demo",
+    "launch": {
+      "0": {
+        "executable": "Shepherd-1.0-win\\Shepherd.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "Shepherd-1.0-win\\Shepherd.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3963701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7535256447336571238",
+          "size": "1686779070",
+          "download": "803565216"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "20243900",
+        "timeupdated": "1759515940"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "RanPy/Shepherd-1678714179/saves",
+        "pattern": "*"
+      }
+    },
+    "appidredirect": "3963670"
   }
 }
