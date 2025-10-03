@@ -1,6 +1,5 @@
 {
   "appid": "4009360",
-  "public_only": "1",
   "common": {
     "name": "Elevation Tower Defense",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "92f1eb0d495051470dd6566be4917e4c476a0ee3",
     "icon": "92f1eb0d495051470dd6566be4917e4c476a0ee3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2ff4c83dde64aedc7bbd610a247736cc55b4ae3a/capsule_231x87.jpg"
@@ -102,7 +101,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4009360",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1645",
@@ -118,6 +116,54 @@
       "11": "3993",
       "12": "6730",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Aaron Anderson",
+    "publisher": "Aaron Anderson",
+    "homepage": "https://www.golden-tamarin.com/elevation"
+  },
+  "config": {
+    "installdir": "Elevation Tower Defense",
+    "launch": {
+      "0": {
+        "executable": "Elevation_Tower_Defense.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4009361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "799111634037186714",
+          "size": "189222272",
+          "download": "61190304"
+        },
+        "local": {
+          "gid": "1916063894852584369",
+          "size": "189222272",
+          "download": "61190304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20067199",
+        "timeupdated": "1758476130"
+      },
+      "local": {
+        "buildid": "20066980",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758473690"
+      }
     }
   }
 }
