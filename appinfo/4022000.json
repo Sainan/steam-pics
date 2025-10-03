@@ -8,9 +8,9 @@
     "clienticns": "fad1ad2f46f42e9543701803446ff8487cb96d1a",
     "linuxclienticon": "d87e4fde222e5f5fa141d3c7f02fe589380c9460",
     "clienticon": "45126a813d4d064e53419facfd64a128de1c792b",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -118,23 +118,50 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Die or Die.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Die or Die.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "4022001": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "7306406083511052916",
-          "size": "152185700",
-          "download": "61111552"
+          "gid": "2569496188748682982",
+          "size": "152267140",
+          "download": "61119664"
         }
+      }
+    },
+    "4022002": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "4022003": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
       "public": {
-        "buildid": "20097643",
-        "timeupdated": "1758652166"
+        "buildid": "20112558",
+        "timeupdated": "1758786306"
       }
     }
   }
