@@ -1,6 +1,5 @@
 {
   "appid": "4054930",
-  "public_only": "1",
   "common": {
     "name": "Nova Patria Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ff660f6b280fce39b65d4c4aea294244bc508ffd/capsule_231x87.jpg"
@@ -92,7 +91,43 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4054930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sower Interactive",
+    "publisher": "Judatone Studios",
+    "homepage": "https://sowerinteractive.com/"
+  },
+  "config": {
+    "installdir": "Nova Patria Demo",
+    "launch": {
+      "0": {
+        "executable": "Nova Patria.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054931": {
+      "manifests": {
+        "public": {
+          "gid": "4840341049368239336",
+          "size": "2627489746",
+          "download": "424143584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20244535",
+        "timeupdated": "1759519041"
+      }
+    }
   }
 }
