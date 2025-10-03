@@ -1,6 +1,5 @@
 {
   "appid": "3946630",
-  "public_only": "1",
   "common": {
     "name": "king of the hill",
     "type": "Game",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -115,11 +114,24 @@
       "schinese": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3946630",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1676",
@@ -130,6 +142,63 @@
       "6": "1708",
       "7": "3993",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "BananaDogGames",
+    "publisher": "BananaDogGames"
+  },
+  "config": {
+    "installdir": "king of hill",
+    "launch": {
+      "0": {
+        "executable": "king of hill/KingOfHill.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3946631": {
+      "manifests": {
+        "public": {
+          "gid": "6580808105141082639",
+          "size": "370247250",
+          "download": "131518624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20189779",
+        "timeupdated": "1759237673"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1024",
+    "maxnumfiles": "1024",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BananaDogGames/KingOfHill",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Library/Application"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": "unity3d/BananaDogGames/KingOfHill"
+      }
     }
   }
 }
