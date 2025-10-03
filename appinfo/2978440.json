@@ -260,10 +260,21 @@
         "root": "WinAppDataLocalLow",
         "path": "Anarch Entertainment/PROJEKT GODHAND",
         "pattern": "*.bin",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Anarch Entertainment/PROJEKT GODHAND",
+            "replace": "Anarch Entertainment/PROJEKT GODHAND"
+          }
+        }
       }
     }
   }
