@@ -1,6 +1,5 @@
 {
   "appid": "4017530",
-  "public_only": "1",
   "common": {
     "name": "Starlight Mining Company Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "f05f9f99a8971f058136b0521c4289b9ecd2918a/capsule_231x87.jpg"
@@ -80,7 +79,11 @@
       "category_2": "1",
       "category_1": "1",
       "category_9": "1",
-      "category_38": "1"
+      "category_38": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1"
     },
     "supported_languages": {
       "english": {
@@ -88,7 +91,41 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4017530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Glophouse Labs LLC",
+    "publisher": "Glophouse Labs LLC"
+  },
+  "config": {
+    "installdir": "Starlight Mining Company Demo",
+    "launch": {
+      "0": {
+        "executable": "Starlight Mining Company Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4017531": {
+      "manifests": {
+        "public": {
+          "gid": "4772560047332299468",
+          "size": "928451562",
+          "download": "141895696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20242196",
+        "timeupdated": "1759508236"
+      }
+    }
   }
 }
