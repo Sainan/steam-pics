@@ -1,6 +1,5 @@
 {
   "appid": "4026690",
-  "public_only": "1",
   "common": {
     "name": "Spray N' Pray",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "0fb7f82c109adf0542134c31823415b8670cdc4e",
     "icon": "0fb7f82c109adf0542134c31823415b8670cdc4e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -119,6 +118,55 @@
       "7": "113",
       "8": "4345",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Vancouver Film School",
+    "publisher": "Vancouver Film School",
+    "homepage": "https://vfs.edu/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Spray N' Pray",
+    "launch": {
+      "0": {
+        "executable": "SprayNPray.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4026691": {
+      "manifests": {
+        "public": {
+          "gid": "3840742776290752556",
+          "size": "2049517191",
+          "download": "1888895104"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20243052",
+        "timeupdated": "1759511912"
+      }
     }
   }
 }
