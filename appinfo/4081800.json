@@ -1,6 +1,5 @@
 {
   "appid": "4081800",
-  "public_only": "1",
   "common": {
     "name": "Astro Nova Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "83486cc37a7a3711fb5be4393ec531421d83eac1",
     "clienticon": "83486cc37a7a3711fb5be4393ec531421d83eac1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d7d100e437d9e78f715a2328ddf0e92b7b5d716/capsule_231x87.jpg"
     },
@@ -40,7 +39,44 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4081800",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NovaScreen",
+    "publisher": "NovaScreen"
+  },
+  "config": {
+    "installdir": "AstroNova_Demo",
+    "launch": {
+      "0": {
+        "executable": "AstroNova_Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4081801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2759200316330309809",
+          "size": "215429044",
+          "download": "121580288"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20225349",
+        "timeupdated": "1759420632"
+      }
+    }
   }
 }
