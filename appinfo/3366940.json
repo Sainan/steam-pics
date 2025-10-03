@@ -1,6 +1,5 @@
 {
   "appid": "3366940",
-  "public_only": "1",
   "common": {
     "name": "Lover Interface",
     "type": "Game",
@@ -11,7 +10,7 @@
     "linuxclienticon": "25417980c48df5c2429f0685eb15ffe16f77d788",
     "clienticon": "0ec3bcaa48ef35c06dc3289555666b9040d4b7e1",
     "icon": "f4f7c16854c2b0d1dedc26198b59cbee79b239aa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759487400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3366940",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -144,6 +144,39 @@
       "17": "6426",
       "18": "4182",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "MuYou",
+    "publisher": "MuYou"
+  },
+  "config": {
+    "installdir": "Lover Interface",
+    "launch": {
+      "0": {
+        "executable": "LoverInterface.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3366941": {
+      "manifests": {
+        "public": {
+          "gid": "5137188925712274342",
+          "size": "913083468",
+          "download": "790847968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19477542",
+        "timeupdated": "1754360016"
+      }
     }
   }
 }
