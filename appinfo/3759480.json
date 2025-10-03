@@ -1,0 +1,158 @@
+{
+  "appid": "3759480",
+  "common": {
+    "name": "Ten trials of Babel 2: Tower and Aurora - Demo",
+    "type": "Demo",
+    "parent": "3759400",
+    "clienttga": "f6b52272b6ea76f33555ca246767b03bc81b0cc7",
+    "clienticon": "c22e18ca9752ec18c7c24c0b747a9bbcb5a77eb3",
+    "icon": "e19e9db4eb783abc1d94a33bc46936e6507ff24d",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64",
+    "name_localized": {
+      "schinese": "巴别十书2：噩梦禁塔与常夜极光 - 体验版",
+      "tchinese": "巴別十書2：惡夢禁塔與常夜極光 - 體驗版"
+    },
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "3c3454977b476ced6cbbff9721c55fad65becd07/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "8de35e918a68fd9cd30151589ed8745c789660bf/header.jpg"
+    },
+    "store_asset_mtime": "1748185137",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "红渊"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "NVLMaker"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Ten Trials of Babel"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1751273656",
+    "gameid": "3759480",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "红渊",
+    "publisher": "NVLMaker"
+  },
+  "config": {
+    "installdir": "Babel2Demo",
+    "launch": {
+      "0": {
+        "executable": "package/babel2_demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BabelTwoDemo.app/Contents/MacOS/BabelTwoDemo",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "package/run.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3759481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6042265219689381098",
+          "size": "106676537",
+          "download": "35033440"
+        }
+      }
+    },
+    "3759482": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8624339958249008219",
+          "size": "119800163",
+          "download": "36430112"
+        }
+      }
+    },
+    "3759483": {
+      "manifests": {
+        "public": {
+          "gid": "7411934770305406286",
+          "size": "409162957",
+          "download": "370851008"
+        }
+      }
+    },
+    "3759484": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2074411034528061004",
+          "size": "138424551",
+          "download": "40813952"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "19803902",
+        "timeupdated": "1756713388"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rpgsave",
+        "recursive": "1"
+      }
+    }
+  }
+}
