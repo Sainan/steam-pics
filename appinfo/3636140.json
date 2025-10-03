@@ -1,10 +1,9 @@
 {
   "appid": "3636140",
-  "public_only": "1",
   "common": {
     "name": "Pyrosynchist",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "60b4a8993840e44977104df7fac5352ca81cfe80",
     "icon": "04adcc00d02497e94976fc05bc3a8ac520a2c854",
     "clienticon": "305d4c0924078ebcec703c9f7f15f61b2c840623",
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759512873",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3636140",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "8666",
@@ -138,5 +138,64 @@
       "15": "1697",
       "16": "492"
     }
+  },
+  "extended": {
+    "developer": "Orb Weaver Games",
+    "publisher": "Orb Weaver Games"
+  },
+  "config": {
+    "installdir": "Pyrosynchist",
+    "launch": {
+      "0": {
+        "executable": "Pyrosynchist.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Pyrosynchist.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3636141": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "683415107880006669",
+          "size": "622627393",
+          "download": "109152912"
+        }
+      }
+    },
+    "3636142": {
+      "config": {
+        "oslist": "macos",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7416358660537514649",
+          "size": "636938113",
+          "download": "116115456"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20071368",
+        "timeupdated": "1758518266"
+      }
+    },
+    "privatebranches": "1"
   }
 }
