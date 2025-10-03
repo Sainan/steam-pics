@@ -1,6 +1,5 @@
 {
   "appid": "3149340",
-  "public_only": "1",
   "common": {
     "name": "PixelBurg",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "57e2454822ed224eeece2a3fff92468c51f35d2e",
     "clienticon": "5b0290c58856a04fc3340ea01da1ef89bb5960df",
     "clienttga": "6d90578863546dbfa9d45f0e640bf9d8b7edda76",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -161,9 +160,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3149340",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -185,5 +185,62 @@
       "14": "3993",
       "15": "1662"
     }
+  },
+  "extended": {
+    "developer": "Raay",
+    "publisher": "Raay Games"
+  },
+  "config": {
+    "installdir": "PixelBurg",
+    "launch": {
+      "0": {
+        "executable": "PixelBurg.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3149341": {
+      "manifests": {
+        "public": {
+          "gid": "7604975207405315163",
+          "size": "56614893",
+          "download": "44532176"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,portuguese,polish,danish,dutch,finnish,norwegian,swedish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20240760",
+        "timeupdated": "1759502354"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Pixelburg",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": "home/deck/.local/share/Steam/steamapps/compatdata/3149340/pfx/drive_c/users/steamuser/AppData/Local/Pixelburg/cal/share/Steam/steamap",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
