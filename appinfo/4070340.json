@@ -1,6 +1,5 @@
 {
   "appid": "4070340",
-  "public_only": "1",
   "common": {
     "name": "Deckbane Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3c5ff2a492103c795337a4d37101a3df90a2774e/capsule_231x87.jpg"
@@ -106,7 +105,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4070340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Soong",
+    "publisher": "Soong Games"
+  },
+  "config": {
+    "installdir": "Deckbane Demo",
+    "launch": {
+      "0": {
+        "executable": "Deckbane.exe"
+      },
+      "1": {
+        "executable": "Deckbane.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4070343": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4369602846520879716",
+          "size": "310713820",
+          "download": "97366880"
+        }
+      }
+    },
+    "4070344": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8252147916505194750",
+          "size": "336015486",
+          "download": "106935904"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20234599",
+        "timeupdated": "1759474640"
+      }
+    }
   }
 }
