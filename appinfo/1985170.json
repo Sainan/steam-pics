@@ -248,10 +248,15 @@
     "launch": {
       "0": {
         "executable": "Warpforge.exe",
+        "arguments": "-force-d3d12",
         "type": "default",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "description": "DirectX 12"
       },
       "1": {
         "executable": "Warpforge.app\\Contents\\MacOS\\Warpforge",
@@ -259,6 +264,42 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "2": {
+        "executable": "Warpforge.exe",
+        "arguments": "-force-d3d12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "description": "DirectX 12"
+      },
+      "3": {
+        "executable": "Warpforge.exe",
+        "arguments": "-force-d3d11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "description": "DirectX 11"
+      },
+      "4": {
+        "executable": "Warpforge.exe",
+        "arguments": "-force-vulkan",
+        "type": "option3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "description": "Vulkan"
       }
     }
   },
