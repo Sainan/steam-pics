@@ -5,7 +5,7 @@
     "type": "Game",
     "releasestate": "released",
     "icon": "46986ad5ddb516588a38ef8f46b1c2f0e4c07337",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "clienticon": "7134094775a976f9acb03ef54b7ae714b77fbead",
@@ -153,6 +153,14 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "run.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
       }
     },
     "steamcontrollertemplateindex": "4",
@@ -173,6 +181,13 @@
         }
       }
     },
+    "1729102": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      }
+    },
     "hasdepotsindlc": "1",
     "branches": {
       "public": {
@@ -186,13 +201,26 @@
     "maxnumfiles": "100",
     "savefiles": {
       "0": {
-        "root": "WinAppDataLocal",
+        "root": "gameinstall",
         "path": "Chameleon___DYH",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "addpath": "Chameleon___DYH"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "Chameleon___DYH"
       }
     }
   }
