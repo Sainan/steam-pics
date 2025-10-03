@@ -1,6 +1,5 @@
 {
   "appid": "4022830",
-  "public_only": "1",
   "common": {
     "name": "AVRIL",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "a43dde45bdd83780f1879cef0fefab6855748df5",
     "clienticon": "d6157718e487c32140e5d4dafeaed7402597f87b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,7 +105,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4022830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -122,6 +120,49 @@
       "8": "492",
       "9": "4182",
       "10": "5900"
+    }
+  },
+  "extended": {
+    "developer": "NEVER VAGUE GAMES",
+    "publisher": "NEVER VAGUE GAMES"
+  },
+  "config": {
+    "installdir": "AVRIL",
+    "launch": {
+      "0": {
+        "executable": "Avril.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4022831": {
+      "manifests": {
+        "public": {
+          "gid": "7972437953962111178",
+          "size": "3901067433",
+          "download": "3730299472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20045054",
+        "timeupdated": "1758273251"
+      }
     }
   }
 }
