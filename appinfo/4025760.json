@@ -1,12 +1,11 @@
 {
   "appid": "4025760",
-  "public_only": "1",
   "common": {
     "name": "Chimera Circuit",
     "type": "Game",
     "clienticon": "bc9ec0f1854531daf091f7c915b7eeff2d2438d1",
     "icon": "bc9ec0f1854531daf091f7c915b7eeff2d2438d1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "",
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759450076",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4025760",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "916648",
@@ -130,6 +130,63 @@
       "17": "7432",
       "18": "255534",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "BLYTHE",
+    "publisher": "BLYTHE",
+    "homepage": "http://linktr.ee/pixelbane"
+  },
+  "config": {
+    "installdir": "Chimera Circuit",
+    "launch": {
+      "0": {
+        "executable": "ChimeraCircuitWindowsVersion1\\ChimeraCircuit .exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ChimeraCircuitMacOSVersion1\\Chimera Circuit.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4025761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1158201523369952787",
+          "size": "111985056",
+          "download": "42027360"
+        }
+      }
+    },
+    "4025762": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3937837462892386418",
+          "size": "193935556",
+          "download": "62954736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20082180",
+        "timeupdated": "1758573217"
+      }
     }
   }
 }
