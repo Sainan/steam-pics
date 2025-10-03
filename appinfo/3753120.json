@@ -1,6 +1,5 @@
 {
   "appid": "3753120",
-  "public_only": "1",
   "common": {
     "name": "Turok 2: Rok Match",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "a766ef3b0ac7e0a84475ce144c1a0cf190d97767",
     "icon": "3ace1eff699323a6e1e41ad8c0d25f5cec65a6a9",
     "parent": "405830",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -116,6 +115,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3753120",
     "exfgls": "3",
@@ -144,6 +144,72 @@
       "17": "6730",
       "18": "113",
       "19": "4345"
+    }
+  },
+  "extended": {
+    "mustownapptopurchase": "405830",
+    "developer": "Sevirman Projects",
+    "publisher": "Sevirman Projects",
+    "homepage": "https://t2rok.ru",
+    "isfreeapp": "1",
+    "listofdlc": "3920430,3920470",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Turok 2 Rok Match",
+    "launch": {
+      "0": {
+        "executable": "TLauncher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3753121": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6192204504741484487",
+          "size": "724923012",
+          "download": "631780016"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20226506",
+        "timeupdated": "1759424491"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Data",
+        "pattern": "*.dir",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Data",
+        "pattern": "*.fil",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
