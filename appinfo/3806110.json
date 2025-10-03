@@ -1,13 +1,12 @@
 {
   "appid": "3806110",
-  "public_only": "1",
   "common": {
     "name": "Zaxtron EXPLUS",
     "type": "Game",
     "icon": "5b90cf246b0ec37a1d40ad8da2bce9096380d748",
     "clienticon": "f1b3bbbd1ff8aa1ae32353aced26144baf5393bf",
     "clienttga": "5a009b7742cba859c4c852c2ec7f022c782b4fc1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3806110",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1774",
@@ -116,6 +115,46 @@
       "5": "3993",
       "6": "4182",
       "7": "4255"
+    }
+  },
+  "extended": {
+    "developer": "RUOK",
+    "publisher": "MBC Entertainment",
+    "homepage": "https://mbcentertainment.co.uk/zaxtron-explus"
+  },
+  "config": {
+    "installdir": "Zaxtron EXPLUS",
+    "launch": {
+      "0": {
+        "executable": "Zaxtron EX+.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Zaxtron EX+.exe",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3806111": {
+      "manifests": {
+        "public": {
+          "gid": "3721041046866730087",
+          "size": "137912466",
+          "download": "126683440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20190604",
+        "timeupdated": "1759241461"
+      }
     }
   }
 }
