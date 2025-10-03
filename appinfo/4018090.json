@@ -1,6 +1,5 @@
 {
   "appid": "4018090",
-  "public_only": "1",
   "common": {
     "name": "We Only Come Out at Night",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "799c5760f1a0fb57f78bea801995799e030336f7",
     "icon": "799c5760f1a0fb57f78bea801995799e030336f7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,9 +110,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759484693",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4018090",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "5379",
@@ -126,5 +126,63 @@
       "8": "7743",
       "9": "44868"
     }
+  },
+  "extended": {
+    "developer": "Roland Zimmerman",
+    "publisher": "Roland Zimmerman"
+  },
+  "config": {
+    "installdir": "We Only Come Out at Night",
+    "launch": {
+      "0": {
+        "executable": "BATRPG.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "15"
+  },
+  "depots": {
+    "4018092": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5495582189727034471",
+          "size": "1291911115",
+          "download": "1092640896"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "workshopdepot": "4018090",
+    "branches": {
+      "public": {
+        "buildid": "20201912",
+        "timeupdated": "1759303188"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "BATRPG",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
