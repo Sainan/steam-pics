@@ -1,6 +1,5 @@
 {
   "appid": "4057680",
-  "public_only": "1",
   "common": {
     "name": "February Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -106,7 +105,44 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4057680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TRR Studios",
+    "publisher": "TRR Studios",
+    "homepage": "https://trrstudios.eu/february"
+  },
+  "config": {
+    "installdir": "February Demo",
+    "launch": {
+      "0": {
+        "executable": "FebruaryDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4057681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8891387283236545025",
+          "size": "117683936",
+          "download": "47695360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20140792",
+        "timeupdated": "1758883854"
+      }
+    }
   }
 }
