@@ -1,6 +1,5 @@
 {
   "appid": "4029480",
-  "public_only": "1",
   "common": {
     "name": "Axol's Quest",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759492887",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4029480",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4434",
@@ -136,6 +136,44 @@
       "17": "4252",
       "18": "7569",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "CartMart",
+    "publisher": "The Fillies"
+  },
+  "config": {
+    "installdir": "Axol's Quest",
+    "launch": {
+      "0": {
+        "executable": "Axol's Quest\\Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4029481": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7896107201654197264",
+          "size": "818624000",
+          "download": "659822928"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20164714",
+        "timeupdated": "1759095319"
+      }
     }
   }
 }
