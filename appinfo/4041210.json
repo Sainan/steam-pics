@@ -1,6 +1,5 @@
 {
   "appid": "4041210",
-  "public_only": "1",
   "common": {
     "name": "Backrooms Anomaly Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "179a7367d061791b76aec75fb164ddd4d3d848f6/capsule_231x87.jpg"
@@ -349,7 +348,61 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759527608",
     "gameid": "4041210",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "liminal_games",
+    "publisher": "liminal_games"
+  },
+  "config": {
+    "installdir": "BackroomsAnomalyDemo",
+    "launch": {
+      "0": {
+        "executable": "Backrooms_Anomaly.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4041211": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1964293073552613170",
+          "size": "805907867",
+          "download": "663212592"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20245154",
+        "timeupdated": "1759522196"
+      }
+    }
   }
 }
