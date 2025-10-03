@@ -1,7 +1,7 @@
 {
   "appid": "2682500",
   "common": {
-    "name": "Project Box Demo",
+    "name": "The Strange Box Demo",
     "type": "Demo",
     "parent": "2223260",
     "releasestate": "released",
@@ -11,6 +11,10 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
+    "name_localized": {
+      "tchinese": "喬伊的箱子 Demo",
+      "schinese": "乔伊的箱子 Demo"
+    },
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -100,10 +104,13 @@
     "publisher": "751 Games"
   },
   "config": {
-    "installdir": "Project Box Demo",
+    "installdir": "The Strange Box Demo",
     "launch": {
       "0": {
-        "executable": "Project Box Demo.exe"
+        "executable": "The Strange Box Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
       }
     }
   },
