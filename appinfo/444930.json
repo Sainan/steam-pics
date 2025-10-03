@@ -19,9 +19,9 @@
       "seated": "1",
       "standing": "1"
     },
-    "osarch": "",
+    "osarch": "64",
     "openvrsupport": "1",
-    "osextended": "macos64",
+    "osextended": "macos64,macosapplesilicon",
     "aicontenttype": "1",
     "steam_deck_compatibility": {
       "category": "3",
@@ -320,24 +320,12 @@
       "0": {
         "platform": "linux",
         "tool": "SteamLinuxRuntime_scout"
-      },
-      "1": {
-        "platform": "linux",
-        "tool": "SteamLinuxRuntime_sniper",
-        "branch": "developer"
       }
     },
     "steamdecktouchscreen": "1"
   },
   "depots": {
     "228989": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "229020": {
       "config": {
         "oslist": "windows"
       },
