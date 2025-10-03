@@ -7,7 +7,7 @@
     "clienticon": "d9224299ec8e8209f6d660365934e8182f8a590e",
     "clienttga": "f54d4abdfdac7b639e1d829d41bb66155c7dc8e0",
     "icon": "953164953900387716db468b01b09e17b697dfc5",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
     "releasestate": "released",
@@ -104,11 +104,23 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "Wild West Saloon Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
       }
     }
   },
   "depots": {
     "2658751": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "6580859534610940065",
@@ -117,6 +129,13 @@
         }
       }
     },
+    "2658752": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,german,spanish",
     "branches": {
       "public": {
         "buildid": "16662458",
