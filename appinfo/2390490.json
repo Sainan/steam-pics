@@ -1,6 +1,5 @@
 {
   "appid": "2390490",
-  "public_only": "1",
   "common": {
     "name": "NeoCars",
     "type": "Game",
@@ -20,7 +19,7 @@
       }
     },
     "icon": "a515b5a235a36bb2c6d273693ca7e6c61cbf1cf9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -162,6 +161,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2390490",
     "exfgls": "3",
@@ -187,5 +187,59 @@
       "18": "7481",
       "19": "7569"
     }
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=2390490",
+    "developer": "Valakey",
+    "publisher": "Valakey",
+    "isfreeapp": "1",
+    "listofdlc": "3567710,3567720",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "NeoCars",
+    "steamdecktouchscreen": "4",
+    "steamconfigurator3rdpartynative": "65527",
+    "launch": {
+      "0": {
+        "executable": "NeoCars.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2390492": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1127017581397265401",
+          "size": "1872216033",
+          "download": "645473216"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,german,french,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20239534",
+        "timeupdated": "1759497872"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
