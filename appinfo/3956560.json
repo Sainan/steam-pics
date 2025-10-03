@@ -1,10 +1,9 @@
 {
   "appid": "3956560",
-  "public_only": "1",
   "common": {
     "name": "Odiumfloreo",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "9c9a6d44255b5d0ccf35ee52e5664067840a0cd7",
     "clienticon": "98f84de7b297966158c151ef55e62b029360ce5a",
     "clienttga": "453d4a10f82667b9b9fce21f829ad69d9b35c5aa",
@@ -113,9 +112,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759520460",
     "community_hub_visible": "1",
     "gameid": "3956560",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -140,6 +139,60 @@
       "17": "5716",
       "18": "16094",
       "19": "1721"
+    }
+  },
+  "extended": {
+    "developer": "ApeHardware",
+    "publisher": "ApeHardware"
+  },
+  "config": {
+    "installdir": "Odiumfloreo",
+    "launch": {
+      "0": {
+        "executable": "Odiumfloreo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Odiumfloreo.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3956562": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8446385666221354174",
+          "size": "666858080",
+          "download": "521640736"
+        }
+      }
+    },
+    "3956563": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "782380745195196031",
+          "size": "639056208",
+          "download": "514978800"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20229224",
+        "timeupdated": "1759438183"
+      }
     }
   }
 }
