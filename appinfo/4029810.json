@@ -1,4 +1,131 @@
 {
   "appid": "4029810",
-  "public_only": "1"
+  "common": {
+    "name": "Hypno Halo Demo",
+    "type": "Demo",
+    "parent": "3847950",
+    "clienticon": "b9725fb88aebec46c565f3e4bc06ba52acdabfad",
+    "icon": "b9725fb88aebec46c565f3e4bc06ba52acdabfad",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "8c08b48bdd42d3f00277c29567753df18bf2eb39/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "e8b95d385342f1d331547f7b65489535552e89f9/header.jpg"
+    },
+    "store_asset_mtime": "1757631278",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Luna Wolf Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Luna Wolf Studios"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_66": "1",
+      "category_68": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_78": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_15": "1",
+      "category_25": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "community_visible_stats": "1",
+    "gameid": "4029810",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Luna Wolf Studios",
+    "publisher": "Luna Wolf Studios",
+    "homepage": "https://lunawolfstudios.com/"
+  },
+  "config": {
+    "installdir": "HypnoHalo",
+    "launch": {
+      "0": {
+        "executable": "Hypno Halo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4029811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2819190788053847884",
+          "size": "264043494",
+          "download": "158149120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20230802",
+        "timeupdated": "1759447376"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Luna Wolf Studios/Hypno Halo",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Luna Wolf Studios/Hypno Halo",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "LinuxXdgDataHome",
+        "path": "Luna Wolf Studios/Hypno Halo",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
+    },
+    "appidredirect": "3847950"
+  }
 }
