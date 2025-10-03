@@ -1,6 +1,5 @@
 {
   "appid": "4040420",
-  "public_only": "1",
   "common": {
     "name": "Poppidemic Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "69019d6996e49ebd6ff58bf4caffdc9dfd02c0f4/capsule_231x87.jpg"
     },
@@ -44,5 +43,76 @@
     },
     "gameid": "4040420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CKana Games",
+    "publisher": "CKana Games"
+  },
+  "config": {
+    "installdir": "Poppidemic Demo",
+    "launch": {
+      "0": {
+        "executable": "Poppidemic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Poppidemic.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040421": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8848055790746682299",
+          "size": "100739776",
+          "download": "33682864"
+        },
+        "test_branch": {
+          "gid": "8848055790746682299",
+          "size": "100739776",
+          "download": "33682864"
+        }
+      }
+    },
+    "4040422": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2662145628408244280",
+          "size": "74384848",
+          "download": "26977312"
+        },
+        "test_branch": {
+          "gid": "8231734290090994298",
+          "size": "78506784",
+          "download": "31705776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20240809",
+        "timeupdated": "1759502614"
+      },
+      "test_branch": {
+        "buildid": "20240606",
+        "description": "Private test branch",
+        "timeupdated": "1759501875"
+      }
+    }
   }
 }
