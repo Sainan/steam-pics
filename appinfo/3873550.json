@@ -1,6 +1,5 @@
 {
   "appid": "3873550",
-  "public_only": "1",
   "common": {
     "name": "Cosmic Cat",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -104,9 +103,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759500068",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3873550",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -120,6 +120,47 @@
       "9": "5154",
       "10": "4182",
       "11": "8093"
+    }
+  },
+  "extended": {
+    "developer": "theSoulGrinder",
+    "publisher": "theSoulGrinder"
+  },
+  "config": {
+    "installdir": "Cosmic Cat",
+    "launch": {
+      "0": {
+        "executable": "Cosmic Cat.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3873551": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5304643077478260470",
+          "size": "1497566967",
+          "download": "695518464"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20237327",
+        "timeupdated": "1759487908"
+      }
     }
   }
 }
