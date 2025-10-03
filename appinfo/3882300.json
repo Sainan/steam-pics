@@ -1,6 +1,5 @@
 {
   "appid": "3882300",
-  "public_only": "1",
   "common": {
     "name": "群名兵册weapons",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "cd77b951077e71ee2c45a966cfe3a13374e08416",
     "icon": "cd77b951077e71ee2c45a966cfe3a13374e08416",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -109,9 +108,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759454572",
     "community_hub_visible": "1",
     "gameid": "3882300",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -133,6 +132,53 @@
       "17": "3854",
       "18": "1742",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "CHANG LE",
+    "publisher": "CHANG LE"
+  },
+  "config": {
+    "installdir": "weapons",
+    "launch": {
+      "0": {
+        "executable": "weapons\\Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3882301": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5224586972480856260",
+          "size": "382923154",
+          "download": "197342048"
+        }
+      }
+    },
+    "3882302": {
+      "config": {
+        "language": "english"
+      }
+    },
+    "3882303": {
+      "config": {
+        "language": "japanese"
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20063889",
+        "timeupdated": "1758429871"
+      }
     }
   }
 }
