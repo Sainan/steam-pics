@@ -1,0 +1,201 @@
+{
+  "appid": "2225090",
+  "common": {
+    "name": "Cascadence",
+    "type": "Game",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "5882d17adcfdd0c11045a61df8e9b3f2e6cea7b8",
+    "clienticon": "322685dc18e8b6d3eda10d0fcfbdd44467bb50fd",
+    "clienttga": "1a54cb033e39c434e9786c0dd17bfadccdbc6a06",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1755373621",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "proxaCor"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "proxaCor"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_15": "1",
+      "category_25": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1741075621",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2225090",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    },
+    "store_tags": {
+      "0": "3968",
+      "1": "5363",
+      "2": "7332",
+      "3": "1663",
+      "4": "19",
+      "5": "1645",
+      "6": "1716",
+      "7": "4166",
+      "8": "4175",
+      "9": "21",
+      "10": "1643",
+      "11": "9",
+      "12": "1774",
+      "13": "353880",
+      "14": "4191",
+      "15": "3839",
+      "16": "1684",
+      "17": "4295",
+      "18": "5716",
+      "19": "30358"
+    }
+  },
+  "extended": {
+    "developer": "proxaCor",
+    "publisher": "proxaCor",
+    "homepage": "https://cascadence.net"
+  },
+  "config": {
+    "installdir": "Cascadence",
+    "launch": {
+      "0": {
+        "executable": "Cascadence.exe"
+      }
+    }
+  },
+  "depots": {
+    "2225091": {
+      "manifests": {
+        "public": {
+          "gid": "2138258121616820046",
+          "size": "1855950312",
+          "download": "393040576"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19516494",
+        "timeupdated": "1754686663"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "9000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "ProxaCor/Cascadence/gamedata/Steam/{64BitSteamID}",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "ProxaCor/Cascadence/gamedata/Steam/{64BitSteamID}",
+            "replace": "unity.ProxaCor.Cascadence/gamedata/Steam/{64BitSteamID}"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "ProxaCor/Cascadence/gamedata/Steam/{64BitSteamID}",
+            "replace": "unity.ProxaCor.Cascadence/gamedata/Steam/{64BitSteamID}"
+          }
+        }
+      }
+    }
+  }
+}
