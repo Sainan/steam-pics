@@ -1,6 +1,5 @@
 {
   "appid": "2807960",
-  "public_only": "1",
   "common": {
     "name": "Battlefield™ 6",
     "type": "Game",
@@ -39,7 +38,7 @@
     "clienttga": "a4853b0e4bf1f25c584fab4553ea9553ce5839cd",
     "icon": "83f46c4ec33b6e72c403fcd96a61e8b47ca77254",
     "exfgls": "1",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "steam_deck_compatibility": {
       "category": "1",
       "steamos_compatibility": "1",
@@ -261,6 +260,635 @@
       "17": "1742",
       "18": "1685",
       "19": "3810"
+    }
+  },
+  "extended": {
+    "developer": "Battlefield Studios",
+    "publisher": "Electronic Arts",
+    "homepage": "https://www.ea.com/games/battlefield/battlefield-6",
+    "aliases": "BF6"
+  },
+  "config": {
+    "installdir": "Battlefield 6",
+    "launch": {
+      "0": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test"
+      },
+      "2": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 11223344",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_playtest-eu-gla"
+        },
+        "description_loc": {
+          "english": "Playtest in Europe"
+        },
+        "description": "Playtest in Europe"
+      },
+      "5": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 11223355",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-df"
+        },
+        "description_loc": {
+          "english": "Review for Digital Foundry"
+        },
+        "description": "Review for Digital Foundry"
+      },
+      "9": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 4859736",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-razer"
+        },
+        "description_loc": {
+          "english": "Review for Razer"
+        },
+        "description": "Review for Razer"
+      },
+      "11": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 69547823",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-lbc"
+        },
+        "description_loc": {
+          "english": "Review for Lionbridge China"
+        },
+        "description": "Review for Lionbridge China"
+      },
+      "12": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -ProtocolVersion 544344 -DiceUISettings.SkipTakeovers true",
+        "config": {
+          "oslist": "windows",
+          "betakey": "test_valve_review"
+        },
+        "description_loc": {
+          "english": "For Valve Review"
+        },
+        "description": "For Valve Review"
+      },
+      "13": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -ProtocolVersion 655466 -DiceUISettings.SkipTakeovers true",
+        "config": {
+          "oslist": "windows",
+          "betakey": "test_agerating"
+        },
+        "description_loc": {
+          "english": "Age Ratings"
+        },
+        "description": "Age Ratings"
+      },
+      "14": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 91543126",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-lbp"
+        },
+        "description_loc": {
+          "english": "Review for Lionbridge Poland"
+        },
+        "description": "Review for Lionbridge Poland"
+      },
+      "15": {
+        "executable": "bf6.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -keso",
+        "type": "default",
+        "config": {
+          "betakey": "testbranch_mi"
+        },
+        "description_loc": {
+          "english": "testbranch_mi"
+        },
+        "description": "testbranch_mi"
+      },
+      "16": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 11226655",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-sp"
+        },
+        "description_loc": {
+          "english": "Review for Singleplayer"
+        },
+        "description": "Review for Singleplayer"
+      },
+      "17": {
+        "executable": "GLA.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test",
+        "config": {
+          "betakey": "test_ch1-qol"
+        }
+      },
+      "18": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 69547824",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-lbc2"
+        },
+        "description_loc": {
+          "english": "Review for Lionbridge China 2"
+        },
+        "description": "Review for Lionbridge China 2"
+      },
+      "19": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 258361",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-rb"
+        },
+        "description_loc": {
+          "english": "Review for Red Bull"
+        },
+        "description": "Review for Red Bull"
+      },
+      "20": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix prod -ProtocolVersion 544344 -DiceUISettings.SkipTakeovers true",
+        "config": {
+          "betakey": "prod_valve_review"
+        },
+        "description_loc": {
+          "english": "Prod Valve"
+        },
+        "description": "Prod Valve"
+      },
+      "21": {
+        "executable": "bf6.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test",
+        "type": "default",
+        "config": {
+          "betakey": "test_final_stage_noac"
+        }
+      },
+      "23": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 6500841",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-shanghai"
+        },
+        "description_loc": {
+          "english": "Review for Shanghai"
+        },
+        "description": "Review for Shanghai"
+      },
+      "25": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 11226655",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_external_eval"
+        },
+        "description_loc": {
+          "english": "Singleplayer Evaluation"
+        },
+        "description": "Singleplayer Evaluation"
+      },
+      "28": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_px"
+        },
+        "description_loc": {
+          "english": "PX Research"
+        },
+        "description": "PX Research"
+      },
+      "29": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 936582",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-nvidia"
+        },
+        "description_loc": {
+          "english": "Review for Nvidia"
+        },
+        "description": "Review for Nvidia"
+      },
+      "31": {
+        "executable": "bf6.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -playtestClient -playtestid SantiagoPlaytestUXR-SP-25130831-11_09_25 -Network.ProtocolVersion 11223399 -Client.DrawStats 0 -Core.CrashOnFatalErrors true -Core.DisplayAsserts false -Core.IgnoreAlways true -Game.LogFileEnable false -DebugRender.Enable 0 -Core.LogLevel FatalAssert",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_px_final"
+        },
+        "description_loc": {
+          "english": "PX Research"
+        },
+        "description": "PX Research"
+      },
+      "32": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix prod -ProtocolVersion 877655",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "prod_external_testing"
+        },
+        "description_loc": {
+          "english": "External Test"
+        },
+        "description": "External Test"
+      },
+      "33": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix prod",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "prod_liveqv_dev_final"
+        },
+        "description_loc": {
+          "english": "LQV Prod"
+        },
+        "description": "LQV Prod"
+      },
+      "34": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix prod",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "prod_liveqv_dev_retail"
+        },
+        "description_loc": {
+          "english": "LQV Prod"
+        },
+        "description": "LQV Prod"
+      },
+      "35": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -Network.ProtocolVersion 8675350",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-razer-haptics"
+        },
+        "description_loc": {
+          "english": "Haptics Test"
+        },
+        "description": "Haptics Test"
+      },
+      "36": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 8739116",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_capture-s1"
+        },
+        "description_loc": {
+          "english": "Captures"
+        },
+        "description": "Captures"
+      },
+      "37": {
+        "executable": "EAAntiCheat.GameServiceLauncher.exe",
+        "arguments": "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 936582",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "test_review-intel"
+        },
+        "description_loc": {
+          "english": "Review for Intel"
+        },
+        "description": "Review for Intel"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2807961": {
+      "manifests": {
+        "public": {
+          "gid": "389244630196047222",
+          "size": "23545959551",
+          "download": "21265304960"
+        }
+      }
+    },
+    "2807962": {
+      "dlcappid": "3348420",
+      "manifests": {
+        "public": {
+          "gid": "1579052101305369994",
+          "size": "301",
+          "download": "256"
+        }
+      }
+    },
+    "2807963": {
+      "dlcappid": "3348440",
+      "manifests": {
+        "public": {
+          "gid": "2782663982937603053",
+          "size": "5085855855",
+          "download": "4380959024"
+        }
+      }
+    },
+    "2807964": {
+      "dlcappid": "3348480",
+      "manifests": {
+        "public": {
+          "gid": "5616213876503722709",
+          "size": "16573473380",
+          "download": "14955686688"
+        }
+      }
+    },
+    "2807965": {
+      "dlcappid": "3348470",
+      "manifests": {
+        "public": {
+          "gid": "7871604259404495632",
+          "size": "1229796640",
+          "download": "1147417408"
+        }
+      }
+    },
+    "2807966": {
+      "dlcappid": "3348410",
+      "manifests": {
+        "public": {
+          "gid": "6648583195627161248",
+          "size": "23414322553",
+          "download": "23363607792"
+        }
+      }
+    },
+    "2807967": {
+      "dlcappid": "3348430",
+      "manifests": {
+        "public": {
+          "gid": "4407304907788609600",
+          "size": "275",
+          "download": "256"
+        }
+      }
+    },
+    "2807968": {
+      "dlcappid": "3348450",
+      "manifests": {
+        "public": {
+          "gid": "1552484481872612333",
+          "size": "441264178",
+          "download": "440745776"
+        }
+      }
+    },
+    "2807969": {
+      "dlcappid": "3348490",
+      "manifests": {
+        "public": {
+          "gid": "1762466444946827598",
+          "size": "6978799484",
+          "download": "6959779920"
+        }
+      }
+    },
+    "2807971": {
+      "dlcappid": "3348460",
+      "manifests": {
+        "public": {
+          "gid": "1809173326065637816",
+          "size": "1307837733",
+          "download": "1307770544"
+        }
+      }
+    },
+    "3028321": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3141877232401719827",
+          "size": "2925145128",
+          "download": "2640627648"
+        }
+      }
+    },
+    "3028322": {
+      "config": {
+        "language": "french"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6428862023586602401",
+          "size": "1951095040",
+          "download": "1748823792"
+        }
+      }
+    },
+    "3028323": {
+      "config": {
+        "language": "german"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2650684222861982352",
+          "size": "2343472720",
+          "download": "2152532368"
+        }
+      }
+    },
+    "3028324": {
+      "config": {
+        "language": "spanish"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6083571305772348792",
+          "size": "2402919840",
+          "download": "2184187360"
+        }
+      }
+    },
+    "3028325": {
+      "config": {
+        "language": "latam"
+      },
+      "manifests": {
+        "public": {
+          "gid": "388562301949371518",
+          "size": "2122103512",
+          "download": "1976148944"
+        }
+      }
+    },
+    "3028326": {
+      "config": {
+        "language": "italian"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4573823182801445392",
+          "size": "2004609120",
+          "download": "1839662704"
+        }
+      }
+    },
+    "3028327": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1665913522814872693",
+          "size": "1948439896",
+          "download": "1768661840"
+        }
+      }
+    },
+    "3028328": {
+      "config": {
+        "language": "polish"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1461670105711735350",
+          "size": "2367545064",
+          "download": "2176240240"
+        }
+      }
+    },
+    "3028329": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7726466387846049897",
+          "size": "1856120400",
+          "download": "1682527504"
+        }
+      }
+    },
+    "3028331": {
+      "config": {
+        "language": "koreana"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1537309800032273006",
+          "size": "1861505728",
+          "download": "1624300512"
+        }
+      }
+    },
+    "3028332": {
+      "config": {
+        "language": "brazilian"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1064126578245047384",
+          "size": "2246707984",
+          "download": "2092290528"
+        }
+      }
+    },
+    "3028333": {
+      "config": {
+        "language": "arabic"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3396386302747228233",
+          "size": "2926204764",
+          "download": "2641678656"
+        }
+      }
+    },
+    "3028334": {
+      "config": {
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "686668617503609831",
+          "size": "2926135132",
+          "download": "2641607792"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,polish,arabic,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20072847",
+        "timeupdated": "1759219162"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "2": {
+        "root": "WinMyDocuments",
+        "path": "Battlefield 6/settings/steam/",
+        "pattern": "PROFSAVE",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "WinMyDocuments",
+        "path": "Battlefield 6/settings/steam/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "4": {
+        "root": "WinMyDocuments",
+        "path": "Battlefield 6/settings/steam/",
+        "pattern": "*.xml",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
