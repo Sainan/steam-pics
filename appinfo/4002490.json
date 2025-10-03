@@ -1,11 +1,10 @@
 {
   "appid": "4002490",
-  "public_only": "1",
   "common": {
     "name": "Bayaya Demo",
     "type": "Demo",
     "parent": "3535870",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -85,7 +84,113 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4002490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ondřej Španěl",
+    "publisher": "Ondřej Španěl",
+    "homepage": "https://www.orbisfabula.com"
+  },
+  "config": {
+    "installdir": "Bayaya Demo",
+    "launch": {
+      "0": {
+        "executable": "start.sh",
+        "arguments": "Demo",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "start.exe",
+        "arguments": "-main Demo",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3535872": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7260473661327087997",
+          "size": "69387320",
+          "download": "44479152"
+        },
+        "beta": {
+          "gid": "7260473661327087997",
+          "size": "69387320",
+          "download": "44479152"
+        }
+      },
+      "depotfromapp": "3535870"
+    },
+    "3535873": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6409122195040243370",
+          "size": "71439573",
+          "download": "45702368"
+        },
+        "beta": {
+          "gid": "6409122195040243370",
+          "size": "71439573",
+          "download": "45702368"
+        }
+      },
+      "depotfromapp": "3535870"
+    },
+    "3535874": {
+      "manifests": {
+        "public": {
+          "gid": "4720759299359460103",
+          "size": "77627556",
+          "download": "72734192"
+        },
+        "beta": {
+          "gid": "4720759299359460103",
+          "size": "77627556",
+          "download": "72734192"
+        }
+      },
+      "depotfromapp": "3535870"
+    },
+    "4002491": {
+      "manifests": {
+        "public": {
+          "gid": "9191289003159439174",
+          "size": "18",
+          "download": "80"
+        },
+        "beta": {
+          "gid": "9191289003159439174",
+          "size": "18",
+          "download": "80"
+        }
+      }
+    },
+    "baselanguages": "english,czech",
+    "branches": {
+      "public": {
+        "buildid": "20235054",
+        "timeupdated": "1759478255"
+      },
+      "beta": {
+        "buildid": "20235054",
+        "description": "Beta testing version",
+        "timeupdated": "1759477375"
+      }
+    }
   }
 }
