@@ -1,6 +1,5 @@
 {
   "appid": "4072530",
-  "public_only": "1",
   "common": {
     "name": "WonderLang Polyglot Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -97,7 +96,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759488302",
     "gameid": "4072530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "bair games",
+    "publisher": "bair games"
+  },
+  "config": {
+    "installdir": "WonderLang Polyglot Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4072531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3082309734494377580",
+          "size": "2126925228",
+          "download": "1450080176"
+        }
+      }
+    },
+    "4072532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8969648310044157679",
+          "size": "2544143397",
+          "download": "1730353456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20177191",
+        "timeupdated": "1759172729"
+      }
+    }
   }
 }
