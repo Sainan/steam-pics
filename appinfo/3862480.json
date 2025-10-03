@@ -1,6 +1,5 @@
 {
   "appid": "3862480",
-  "public_only": "1",
   "common": {
     "name": "Blossom: The Seed Of Life Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -141,7 +140,68 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759496535",
     "gameid": "3862480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Pebbledust Games",
+    "publisher": "Pretty Soon",
+    "homepage": "https://pebbledust.com/games/blossom-the-seed-of-life/"
+  },
+  "config": {
+    "installdir": "Blossom The Seed Of Life Demo",
+    "launch": {
+      "0": {
+        "executable": "Blossom The Seed Of Life Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "3862481": {
+      "manifests": {
+        "public": {
+          "gid": "3725952935584783668",
+          "size": "1261707554",
+          "download": "753628976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20144383",
+        "timeupdated": "1758900050"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Pebbledust Games/Blossom The Seed Of Life Demo",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Pebbledust Games/Blossom The Seed Of Life Demo",
+            "replace": ".config/unity3d/Pebbledust Games/Blossom The Seed Of Life Demo"
+          }
+        }
+      }
+    }
   }
 }
