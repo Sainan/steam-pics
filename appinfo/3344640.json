@@ -1,6 +1,5 @@
 {
   "appid": "3344640",
-  "public_only": "1",
   "common": {
     "name": "Empirical",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "a5bb6e91a24d2f64f93e8ff21b0b27dae60b4072",
     "clienttga": "f22a9e3edbd5b386bdbd1e70f40f7b0298b71b34",
     "icon": "4f9c0d3ff5ef99a8af0d587ba75a9adc6a202b87",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -127,6 +126,50 @@
       "9": "4667",
       "10": "1775",
       "11": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Tunnelfish Studios",
+    "publisher": "Tunnelfish Studios",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Empirical",
+    "launch": {
+      "0": {
+        "executable": "Empirical.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3344641": {
+      "manifests": {
+        "public": {
+          "gid": "9130483579267222984",
+          "size": "1333436929",
+          "download": "1019454000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20233984",
+        "timeupdated": "1759470632"
+      }
     }
   }
 }
