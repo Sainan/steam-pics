@@ -1,6 +1,5 @@
 {
   "appid": "4040880",
-  "public_only": "1",
   "common": {
     "name": "SUPER SHAPESHOOTER DEMO",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "0d5f848831caa7d25a9f1336b9cfa1bcd9f3dd66",
     "clienticon": "0d5f848831caa7d25a9f1336b9cfa1bcd9f3dd66",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -54,7 +53,74 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759531600",
     "gameid": "4040880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wojtek Rak",
+    "publisher": "Wojtek Rak"
+  },
+  "config": {
+    "installdir": "SUPER SHAPESHOOTER DEMO",
+    "launch": {
+      "0": {
+        "executable": "SUPER SHAPESHOOTER DEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3575241085": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4040881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2773151758349266903",
+          "size": "90362688",
+          "download": "57787712"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20214932",
+        "timeupdated": "1759366184"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "SUPER SHAPESHOOTER DEMO",
+        "pattern": "*.save"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      }
+    }
   }
 }
