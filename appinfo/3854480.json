@@ -1,6 +1,5 @@
 {
   "appid": "3854480",
-  "public_only": "1",
   "common": {
     "name": "Fantasy Forest Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "cc5178e84af07bc8b1f5869ce87fbb5aa8e60cef/capsule_231x87.jpg",
@@ -153,7 +152,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759547542",
     "gameid": "3854480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Timon Game",
+    "publisher": "Timon Game"
+  },
+  "config": {
+    "installdir": "FantasyForestDemo",
+    "launch": {
+      "0": {
+        "executable": "FantasyForest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3854481": {
+      "manifests": {
+        "public": {
+          "gid": "5326669886607936950",
+          "size": "2746162687",
+          "download": "569038400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20248792",
+        "timeupdated": "1759547352"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
