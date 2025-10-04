@@ -1,10 +1,9 @@
 {
   "appid": "3962310",
-  "public_only": "1",
   "common": {
     "name": "The Field Between",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ea27363bd847fcf30d7e49d5046a7ca86e4f369a",
     "clienticon": "a94b99285894d6ab48161f3c02ad034f27cbd4b6",
     "clienttga": "df3c3440245cea14a129d358f944ada5a996ce20",
@@ -101,6 +100,7 @@
       "category_69": "1",
       "category_74": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -108,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759489315",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3962310",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -128,6 +129,48 @@
       "10": "3964",
       "11": "4166",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Isaac Brewster",
+    "publisher": "Isaac Brewster"
+  },
+  "config": {
+    "installdir": "The Field Between",
+    "launch": {
+      "0": {
+        "executable": "TheFieldBetween.exe"
+      }
+    }
+  },
+  "depots": {
+    "3962311": {
+      "manifests": {
+        "public": {
+          "gid": "6955874456788677378",
+          "size": "337158834",
+          "download": "269637136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20252498",
+        "timeupdated": "1759584639"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "25",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "IsaacBrewster/TheFieldBetween",
+        "pattern": "*.es3"
+      }
     }
   }
 }
