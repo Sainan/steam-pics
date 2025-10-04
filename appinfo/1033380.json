@@ -1,10 +1,9 @@
 {
   "appid": "1033380",
-  "public_only": "1",
   "common": {
     "name": "Skate & Date",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "icon": "bfd0475d8b5d0b9a8fbbc390d6ff8efd6502e0c6",
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759601016",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1033380",
-    "exfgls": "8",
     "store_tags": {
       "0": "1742",
       "1": "44868",
@@ -138,6 +138,106 @@
       "12": "3964",
       "13": "4182",
       "14": "492"
+    }
+  },
+  "extended": {
+    "developer": "Gensuta",
+    "publisher": "Gensuta"
+  },
+  "config": {
+    "installdir": "Skate & Date",
+    "launch": {
+      "0": {
+        "executable": "Skate & Date.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Skate & Date.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1033381": {
+      "config": {
+        "oslist": "macos",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3190313801136028451",
+          "size": "446961404",
+          "download": "81882064"
+        }
+      }
+    },
+    "1033382": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "4322062931738265141",
+          "size": "415996602",
+          "download": "71528224"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20254262",
+        "timeupdated": "1759600900"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gensuta\\Skate _ Date",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "com.Gensuta.SkateDate"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": ".config/unity3d/Gensuta"
+          }
+        }
+      }
     }
   }
 }
