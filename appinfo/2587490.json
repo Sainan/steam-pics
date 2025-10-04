@@ -48,14 +48,25 @@
     "publisher": "Blazing Planet Studio"
   },
   "config": {
-    "installdir": "Жил-Ячейка Demo",
+    "installdir": "Living Cell Demo",
     "launch": {
       "0": {
-        "executable": "0_7_18_mini/Living Cell Demo.exe",
+        "executable": "Living Cell Demo.exe",
         "type": "default",
         "config": {
-          "oslist": "windows",
-          "osarch": "64"
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Living Cell Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Living Cell Demo.x86_64",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
