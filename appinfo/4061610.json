@@ -1,6 +1,5 @@
 {
   "appid": "4061610",
-  "public_only": "1",
   "common": {
     "name": "Snemovna Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "4ce3231fcb9a3da3a7275079050c3d4ef009ac64",
     "icon": "4ce3231fcb9a3da3a7275079050c3d4ef009ac64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,5 +102,38 @@
     },
     "gameid": "4061610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Richard Haraším",
+    "publisher": "Richard Haraším"
+  },
+  "config": {
+    "installdir": "Snemovna Demo",
+    "launch": {
+      "0": {
+        "executable": "Snemovna.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4061611": {
+      "manifests": {
+        "public": {
+          "gid": "560487033515053606",
+          "size": "377289775",
+          "download": "117473936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20203396",
+        "timeupdated": "1759310114"
+      }
+    }
   }
 }
