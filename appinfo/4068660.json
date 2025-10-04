@@ -1,6 +1,5 @@
 {
   "appid": "4068660",
-  "public_only": "1",
   "common": {
     "name": "Unstrayed Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "e43906380bd9636c7f07033406ec898431584366",
     "icon": "e43906380bd9636c7f07033406ec898431584366",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -116,10 +115,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759551758",
     "gameid": "4068660",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Mighty Maces",
+    "publisher": "Mighty Maces"
+  },
+  "config": {
+    "installdir": "Unstrayed Demo",
+    "launch": {
+      "0": {
+        "executable": "Unstrayed.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068661": {
+      "manifests": {
+        "public": {
+          "gid": "1010141863329654079",
+          "size": "260787072",
+          "download": "92823936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20158400",
+        "timeupdated": "1759019337"
+      }
     }
   }
 }
