@@ -1,6 +1,5 @@
 {
   "appid": "3947000",
-  "public_only": "1",
   "common": {
     "name": "Where is My Son? Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "50eb804d4bb4172a44877491c11578f6763ffb84",
     "clienttga": "9cd71ed75cbb4115c65b78505a1ca9361f71f444",
     "clienticon": "50eb804d4bb4172a44877491c11578f6763ffb84",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -138,7 +137,56 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "gameid": "3947000",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DNZY Games",
+    "publisher": "DNZY Games",
+    "homepage": "https://dnzygames.com/"
+  },
+  "config": {
+    "installdir": "WhereisMySonDemo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3947001": {
+      "manifests": {
+        "public": {
+          "gid": "2181453886123285444",
+          "size": "1047733425",
+          "download": "658575120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20241325",
+        "timeupdated": "1759504683"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "134217728",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*"
+      }
+    }
   }
 }
