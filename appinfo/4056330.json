@@ -1,6 +1,5 @@
 {
   "appid": "4056330",
-  "public_only": "1",
   "common": {
     "name": "Robot Hospice Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "af22b2358ccc3c114c6beb39d2aa1f6e08e0f02b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -122,5 +121,59 @@
     },
     "gameid": "4056330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Buttercup garden",
+    "publisher": "dokogames"
+  },
+  "config": {
+    "installdir": "Robot Hospice Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4056331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8751335906794207255",
+          "size": "323908756",
+          "download": "155529680"
+        }
+      }
+    },
+    "4056332": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1967308799930292097",
+          "size": "633254284",
+          "download": "196578688"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20088076",
+        "timeupdated": "1758605728"
+      }
+    }
   }
 }
