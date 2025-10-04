@@ -1,6 +1,5 @@
 {
   "appid": "3431720",
-  "public_only": "1",
   "common": {
     "name": "Bookey Manor",
     "type": "Game",
@@ -29,7 +28,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -180,9 +179,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759612982",
     "community_hub_visible": "1",
     "gameid": "3431720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -201,6 +200,46 @@
       "10": "4345",
       "11": "9541",
       "12": "5154"
+    }
+  },
+  "extended": {
+    "developer": "kabevabon",
+    "publisher": "kabevabon"
+  },
+  "config": {
+    "installdir": "Bookey Manor",
+    "launch": {
+      "0": {
+        "executable": "Bookey Manor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play Game"
+        },
+        "description": "Play Game"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3431721": {
+      "manifests": {
+        "public": {
+          "gid": "2986359852213377183",
+          "size": "700485638",
+          "download": "501088208"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20165976",
+        "timeupdated": "1759108398"
+      }
     }
   }
 }
