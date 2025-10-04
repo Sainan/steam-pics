@@ -1,6 +1,5 @@
 {
   "appid": "4082480",
-  "public_only": "1",
   "common": {
     "name": "GORE Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,10 +45,54 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759602404",
     "gameid": "4082480",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "CosmicArcade",
+    "publisher": "CosmicArcade"
+  },
+  "config": {
+    "installdir": "GORE Demo",
+    "launch": {
+      "0": {
+        "executable": "LighthouseMountain.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4082481": {
+      "manifests": {
+        "public": {
+          "gid": "654291211780969499",
+          "size": "7680158706",
+          "download": "7411721120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20229015",
+        "timeupdated": "1759437297"
+      }
     }
   }
 }
