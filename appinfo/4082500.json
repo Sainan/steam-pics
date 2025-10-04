@@ -1,6 +1,5 @@
 {
   "appid": "4082500",
-  "public_only": "1",
   "common": {
     "name": "Stellar Archipelago Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "06288f61eb903a1a5edb240125ed6b7693991df6/capsule_231x87.jpg"
     },
@@ -32,5 +31,55 @@
     "category": {},
     "gameid": "4082500",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gogodinosaur",
+    "publisher": "Gogodinosaur"
+  },
+  "config": {
+    "installdir": "Stellar Archipelago Demo",
+    "launch": {
+      "0": {
+        "executable": "GravityTest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4082501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1593196189264801966",
+          "size": "3330329378",
+          "download": "3170406704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20227780",
+        "timeupdated": "1759430558"
+      }
+    }
   }
 }
