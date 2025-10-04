@@ -4,7 +4,7 @@
     "name": "Friday Night Knockout",
     "type": "Game",
     "releasestate": "released",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
     "icon": "02c7f34757e2d4fec3639c61ef5591aed5428ead",
@@ -149,6 +149,12 @@
         "executable": "FNK.app/Contents/MacOS/FNK",
         "config": {
           "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "fnk.x86_64",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
