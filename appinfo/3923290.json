@@ -1,6 +1,5 @@
 {
   "appid": "3923290",
-  "public_only": "1",
   "common": {
     "name": "Teapot Spinner",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6a33d052091eb31c85842e1ab1d6b0ddf93fb76c/capsule_231x87.jpg"
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759482463",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3923290",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "597",
@@ -115,6 +115,53 @@
       "5": "8945",
       "6": "492",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Grilled Games",
+    "publisher": "Grilled Games"
+  },
+  "config": {
+    "installdir": "teapot_spinner",
+    "launch": {
+      "0": {
+        "executable": "teapot_spinner.exe"
+      }
+    }
+  },
+  "depots": {
+    "3923291": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8111952827563376947",
+          "size": "111721600",
+          "download": "42717776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20251218",
+        "timeupdated": "1759572279"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Teapot Spinner",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
