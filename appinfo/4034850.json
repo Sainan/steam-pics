@@ -1,6 +1,5 @@
 {
   "appid": "4034850",
-  "public_only": "1",
   "common": {
     "name": "Re – Fracture: The Prophet’s Awakening Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -92,10 +91,65 @@
     "category": {
       "category_2": "1"
     },
+    "steam_release_date": "1759619649",
     "gameid": "4034850",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Project Contrast",
+    "publisher": "Project Contrast"
+  },
+  "config": {
+    "installdir": "Re – Fracture The Prophet’s Awakening Demo",
+    "launch": {
+      "0": {
+        "executable": "ContrastRepackaged.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Demo"
+        },
+        "description": "Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4034851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3530765271622838008",
+          "size": "2467909139",
+          "download": "2289687776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20255871",
+        "timeupdated": "1759617896"
+      }
     }
   }
 }
