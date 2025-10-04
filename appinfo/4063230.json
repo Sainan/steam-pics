@@ -1,6 +1,5 @@
 {
   "appid": "4063230",
-  "public_only": "1",
   "common": {
     "name": "Blast Bebop Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e3a1928f1d3a4096dd1b1b05851f92b6df495f1b/capsule_231x87.jpg"
@@ -113,7 +112,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759575711",
     "gameid": "4063230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Blue Fire Mugs",
+    "publisher": "Blue Fire Mugs"
+  },
+  "config": {
+    "installdir": "Blast Bebop Demo",
+    "launch": {
+      "0": {
+        "executable": "bebop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4063231": {
+      "manifests": {
+        "public": {
+          "gid": "1821448711283763145",
+          "size": "169030958",
+          "download": "69203712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20251509",
+        "timeupdated": "1759575627"
+      }
+    }
   }
 }
