@@ -1,0 +1,194 @@
+{
+  "appid": "3486150",
+  "common": {
+    "name": "A Little Perspective Demo",
+    "type": "Demo",
+    "parent": "3485300",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macosapplesilicon",
+    "clienticon": "1c028680886f480bc2e76cc5b63d574c1684bf8a",
+    "clienttga": "da36df3fe0fef73d6d7f8c7ce9f584e7b926467c",
+    "icon": "72bcc20cdc0d60fbe085f9e7dcd8b83518d8a9d7",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "e23beb7ff852d00656abe5a4cf1cc13b8a2958f8/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "6e5fe44ab977e93bdca32623fbabc2555e688695/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "4c7b866b352cfd59f2ff12c8d8006fb606171f96/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "4c7b866b352cfd59f2ff12c8d8006fb606171f96/library_600x900_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1748546473",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tad Cordle"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tad Cordle"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_64": "1",
+      "category_65": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1"
+    },
+    "steam_release_date": "1748097422",
+    "gameid": "3486150",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tad Cordle",
+    "publisher": "Tad Cordle"
+  },
+  "config": {
+    "installdir": "A Little Perspective Demo",
+    "launch": {
+      "0": {
+        "executable": "ALittlePerspective.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ALittlePerspective.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "ALittlePerspective",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3486151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8338744673934852859",
+          "size": "37103370",
+          "download": "28655808"
+        }
+      }
+    },
+    "3486152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "58376327266100481",
+          "size": "37818191",
+          "download": "28737504"
+        }
+      }
+    },
+    "3486153": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3226931721476105296",
+          "size": "41693180",
+          "download": "28168464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19706516",
+        "timeupdated": "1755920725"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000",
+    "maxnumfiles": "30",
+    "appidredirect": "3485300",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "A Little Perspective",
+        "pattern": "save"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "A Little Perspective",
+        "pattern": "demo_save"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "A Little Perspective",
+            "replace": ".a-little-perspective"
+          }
+        }
+      }
+    }
+  }
+}
