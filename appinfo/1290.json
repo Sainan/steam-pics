@@ -1,0 +1,93 @@
+{
+  "appid": "1290",
+  "common": {
+    "type": "Tool",
+    "parent": "1280",
+    "name": "Darkest Hour: Europe '44-'45 Dedicated Server",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "gameid": "1290"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "DarkestHourServer",
+    "homepage": "",
+    "icon": "",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "1291",
+    "serverbrowsername": "",
+    "state": "eStateUnAvailable"
+  },
+  "config": {
+    "launch": {
+      "0": {
+        "description": "DarkestHourServer",
+        "executable": "System\\ucc.exe"
+      }
+    },
+    "contenttype": "3",
+    "installdir": "DarkestHourServer"
+  },
+  "depots": {
+    "1281": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "8851764362737087770",
+          "size": "11037504404",
+          "download": "3167422960"
+        },
+        "legacy-v6.0.0": {
+          "gid": "4376981082077672751",
+          "size": "2130157052",
+          "download": "627444112"
+        },
+        "previous": {
+          "gid": "5786003204048175177",
+          "size": "10353224478",
+          "download": "2842788496"
+        }
+      },
+      "depotfromapp": "1280"
+    },
+    "1291": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "5963270477762793027",
+          "size": "2607051724",
+          "download": "1175052832"
+        },
+        "legacy-v6.0.0": {
+          "gid": "3431600298929727963",
+          "size": "794647",
+          "download": "254192"
+        },
+        "previous": {
+          "gid": "5803402660365387711",
+          "size": "2066093291",
+          "download": "904388384"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "20250926",
+        "timeupdated": "1759569033"
+      },
+      "legacy-v6.0.0": {
+        "buildid": "1026294",
+        "description": "v6.0.0",
+        "timeupdated": "1677240195"
+      },
+      "previous": {
+        "buildid": "16273989",
+        "description": "Last good build",
+        "timeupdated": "1752217964"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
