@@ -126,15 +126,15 @@
     "launch": {
       "0": {
         "executable": "BattleHigh2A.exe",
-        "type": "none"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
       }
     }
   },
   "depots": {
     "755591": {
-      "config": {
-        "oslist": "windows,linux"
-      },
       "manifests": {
         "public": {
           "gid": "4975620431842762749",
@@ -145,40 +145,6 @@
           "gid": "6781277179792739718",
           "size": "756834593",
           "download": "217675344"
-        }
-      }
-    },
-    "755592": {
-      "config": {
-        "oslist": "macos"
-      },
-      "manifests": {
-        "public": {
-          "gid": "6604221102833215008",
-          "size": "542320718",
-          "download": "202185488"
-        },
-        "beta": {
-          "gid": "5272858802562518216",
-          "size": "756834593",
-          "download": "241503024"
-        }
-      }
-    },
-    "755593": {
-      "config": {
-        "oslist": "linux"
-      },
-      "manifests": {
-        "public": {
-          "gid": "6835342654752470958",
-          "size": "546263035",
-          "download": "203423392"
-        },
-        "beta": {
-          "gid": "6436089551039127972",
-          "size": "756834593",
-          "download": "241503024"
         }
       }
     },
