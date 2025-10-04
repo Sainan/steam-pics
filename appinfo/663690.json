@@ -105,6 +105,42 @@
         "config": {
           "oslist": "linux"
         }
+      },
+      "2": {
+        "executable": "RivalRampage.exe",
+        "arguments": "-force-opengl",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "(using OpenGL)"
+        },
+        "description": "(using OpenGL)"
+      },
+      "3": {
+        "executable": "RivalRampage.x86_64",
+        "arguments": "-force-vulkan",
+        "type": "option3",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "(using Vulkan)"
+        },
+        "description": "(using Vulkan)"
+      },
+      "4": {
+        "executable": "RivalRampage.exe",
+        "arguments": "-force-vulkan",
+        "type": "option3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "(using Vulkan)"
+        },
+        "description": "(using Vulkan)"
       }
     },
     "steamcontrollertemplateindex": "6",
