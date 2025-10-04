@@ -1,6 +1,5 @@
 {
   "appid": "4019310",
-  "public_only": "1",
   "common": {
     "name": "Platform Anomaly Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -89,7 +88,52 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4019310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "macrayb",
+    "publisher": "IRStudio"
+  },
+  "config": {
+    "installdir": "Platform Anomaly Demo",
+    "launch": {
+      "0": {
+        "executable": "FriendlyAnomaly.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4019311": {
+      "manifests": {
+        "public": {
+          "gid": "148583341450561696",
+          "size": "1032117358",
+          "download": "800508048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20251333",
+        "timeupdated": "1759573897"
+      }
+    }
   }
 }
