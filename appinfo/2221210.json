@@ -125,11 +125,42 @@
     "launch": {
       "0": {
         "executable": "LightphobeGame.exe",
-        "type": "default",
+        "arguments": "-dx11",
+        "type": "option1",
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "using DirectX 11 (default)"
+        },
+        "description": "using DirectX 11 (default)"
+      },
+      "1": {
+        "executable": "LightphobeGame.exe",
+        "arguments": "-dx12",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "using DirectX 12"
+        },
+        "description": "using DirectX 12"
+      },
+      "2": {
+        "executable": "LightphobeGame.exe",
+        "arguments": "-vulkan",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "using Vulkan"
+        },
+        "description": "using Vulkan"
       }
     }
   },
