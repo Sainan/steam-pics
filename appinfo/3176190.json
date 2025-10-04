@@ -7,7 +7,7 @@
     "icon": "2c332ef8c2a6d41af77ea56f729cd6720801562c",
     "clienttga": "4bea29516e5369847b2616e451d9d39948f28e3d",
     "clienticon": "2c332ef8c2a6d41af77ea56f729cd6720801562c",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64",
     "content_descriptors": {
@@ -164,6 +164,12 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "2": {
+        "executable": "sipsandsonnets.sh",
+        "config": {
+          "oslist": "linux"
+        }
       }
     },
     "steamcontrollertemplateindex": "1",
@@ -210,6 +216,11 @@
         }
       }
     },
+    "3176193": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
     "branches": {
       "public": {
         "buildid": "20254310",
@@ -220,7 +231,6 @@
   "ufs": {
     "quota": "10000000",
     "maxnumfiles": "500",
-    "sync_while_suspended": "1",
     "savefiles": {
       "0": {
         "root": "gameinstall",
