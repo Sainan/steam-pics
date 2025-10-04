@@ -1,6 +1,5 @@
 {
   "appid": "3929680",
-  "public_only": "1",
   "common": {
     "name": "Mysteries of Old Tokyo Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "帝都ミステリ紀行：Mysteries of Old Tokyo Demo"
     },
@@ -105,7 +104,72 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759479383",
     "gameid": "3929680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bolerosoft",
+    "publisher": "Bolerosoft"
+  },
+  "config": {
+    "installdir": "Mysteries of Old Tokyo Demo",
+    "launch": {
+      "0": {
+        "executable": "mysteries.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mysteries.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3929681": {
+      "manifests": {
+        "public": {
+          "gid": "2883058554187126314",
+          "size": "215478980",
+          "download": "211446736"
+        }
+      }
+    },
+    "3929682": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5230431259350743779",
+          "size": "70289688",
+          "download": "24626160"
+        }
+      }
+    },
+    "3929683": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6510079543401389631",
+          "size": "96661504",
+          "download": "31349424"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20226948",
+        "timeupdated": "1759427379"
+      }
+    },
+    "privatebranches": "1"
   }
 }
