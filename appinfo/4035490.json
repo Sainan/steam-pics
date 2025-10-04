@@ -1,6 +1,5 @@
 {
   "appid": "4035490",
-  "public_only": "1",
   "common": {
     "name": "PLAY AND LEARN: Fun Learning Games for Kids Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "1e8e92857333b69826ff9f8581ce358019b9b987",
     "icon": "1e8e92857333b69826ff9f8581ce358019b9b987",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7b2bec696dce311fcfcfeaf14b914173c3e7ac61/capsule_231x87.jpg"
     },
@@ -94,7 +93,51 @@
       "category_76": "1",
       "category_78": "1"
     },
+    "steam_release_date": "1767168000",
     "gameid": "4035490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NorShark",
+    "publisher": "NorShark"
+  },
+  "config": {
+    "installdir": "PLAY AND LEARN DEMO",
+    "launch": {
+      "0": {
+        "executable": "PlayAndLearnDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4035491": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "185422850824471849",
+          "size": "163278536",
+          "download": "95022864"
+        },
+        "windows": {
+          "gid": "185422850824471849",
+          "size": "163278536",
+          "download": "95022864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20201749",
+        "timeupdated": "1759302178"
+      },
+      "windows": {
+        "buildid": "20201749",
+        "description": "windows",
+        "timeupdated": "1759302190"
+      }
+    }
   }
 }
