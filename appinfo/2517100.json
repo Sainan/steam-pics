@@ -1,0 +1,176 @@
+{
+  "appid": "2517100",
+  "common": {
+    "name": "小石头人踏上旅程 Demo",
+    "type": "Demo",
+    "parent": "2434860",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "name_localized": {
+      "english": "Stoneman's Adventure Demo",
+      "schinese": "小石头人踏上旅程 Demo"
+    },
+    "icon": "6b5da760d3ccef289a09efa6b9b3451e8fcfb9d7",
+    "clienticon": "fefb73dbb218e5ccc9a7ebb69d1170c2f24c0fc3",
+    "clienttga": "d60edd933caa3cfd8285602935993ca28fc8aa3b",
+    "clienticns": "691ef921660fcb80545a3dd2540fdbbee0423dee",
+    "linuxclienticon": "38fb80d72f72f6e703029d926a1d3db353fc046a",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "27baaf748d6851ab4d9d127757f9e9a62344e25d/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1723513917",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Minda Chen"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Minda Chen"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1689395275",
+    "gameid": "2517100",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Minda Chen",
+    "publisher": "Minda Chen"
+  },
+  "config": {
+    "installdir": "Stoneman's Adventure",
+    "launch": {
+      "0": {
+        "executable": "Stoneman's Adventure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Stoneman's Adventure.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Stoneman's Adventure.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2517101": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5989686468709771375",
+          "size": "390948939",
+          "download": "147067808"
+        }
+      }
+    },
+    "2517102": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5617602021483790946",
+          "size": "404691984",
+          "download": "149994464"
+        }
+      }
+    },
+    "2517103": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2533839221932964403",
+          "size": "409369460",
+          "download": "150680480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20253405",
+        "timeupdated": "1759592672"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "2434860",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Minda Chen/Stoneman's Adventure",
+        "pattern": "*.dat"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Minda Chen/Stoneman's Adventure",
+            "replace": "unity.Minda Chen.Stoneman's Adventure"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Minda Chen/Stoneman's Adventure",
+            "replace": ".config/unity3d/Minda Chen/Stoneman's Adventure"
+          }
+        }
+      }
+    }
+  }
+}
