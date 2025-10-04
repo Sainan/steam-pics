@@ -1,6 +1,5 @@
 {
   "appid": "3975680",
-  "public_only": "1",
   "common": {
     "name": "Perfume Atelier Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "999b70d2d51fab600b7a3fae6d82d7544009ceeb/capsule_231x87.jpg"
@@ -96,7 +95,80 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759588551",
     "gameid": "3975680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Keep The Engine Games",
+    "publisher": "Rogue Duck Interactive",
+    "homepage": "https://rogueduck.net"
+  },
+  "config": {
+    "installdir": "Perfume Atelier Demo",
+    "launch": {
+      "0": {
+        "executable": "Perfume Atelier.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "app.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3975681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "26734469495622450",
+          "size": "377541615",
+          "download": "121435888"
+        }
+      }
+    },
+    "3975682": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2804473972022866557",
+          "size": "401810111",
+          "download": "130830816"
+        }
+      }
+    },
+    "3975683": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4303219291676814162",
+          "size": "376315312",
+          "download": "119642992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20252996",
+        "timeupdated": "1759588486"
+      }
+    }
   }
 }
