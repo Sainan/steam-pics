@@ -1,6 +1,5 @@
 {
   "appid": "3614580",
-  "public_only": "1",
   "common": {
     "name": "GØRKJES - finger food fighting",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -123,7 +122,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3614580",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "1773",
@@ -146,5 +144,62 @@
       "18": "7481",
       "19": "597"
     }
+  },
+  "extended": {
+    "developer": "Moritz Petzka",
+    "publisher": "moFX",
+    "homepage": "https://fingerfoodfighting.basuramor.com"
+  },
+  "config": {
+    "installdir": "GØRKJES - finger food fighting",
+    "launch": {
+      "0": {
+        "executable": "Adventure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Adventure.exe"
+        },
+        "description": "Launch Adventure.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3614581": {
+      "manifests": {
+        "public": {
+          "gid": "7997309824744476306",
+          "size": "6578066218",
+          "download": "1742928432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20252971",
+        "timeupdated": "1759588239"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
