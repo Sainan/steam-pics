@@ -1,6 +1,5 @@
 {
   "appid": "4079260",
-  "public_only": "1",
   "common": {
     "name": "Mech Shop Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "59bb3520e4d3ca37a25c4fde533c372135ea9fc0/capsule_231x87.jpg"
     },
@@ -37,7 +36,44 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4079260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Omasson",
+    "publisher": "Omasson"
+  },
+  "config": {
+    "installdir": "Mech Shop Demo",
+    "launch": {
+      "0": {
+        "executable": "Mech Shop Demo.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default launch"
+        },
+        "description": "Default launch"
+      }
+    }
+  },
+  "depots": {
+    "4079261": {
+      "manifests": {
+        "public": {
+          "gid": "5709266765663027845",
+          "size": "691924876",
+          "download": "56348352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20230835",
+        "timeupdated": "1759447634"
+      }
+    }
   }
 }
