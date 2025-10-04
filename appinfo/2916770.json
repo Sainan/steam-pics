@@ -18,18 +18,18 @@
       "japanese": "1"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "steamos_compatibility": "2",
-      "test_timestamp": "1743552000",
-      "tested_build_id": "16731150",
+      "test_timestamp": "1759449600",
+      "tested_build_id": "20166747",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "1": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "2": {
           "display": "4",
@@ -44,10 +44,6 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
       "configuration": {
@@ -55,11 +51,11 @@
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "0",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-9.0-4RC",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -223,9 +219,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "1302061905179279843",
-          "size": "166366338",
-          "download": "42482016"
+          "gid": "2001628884333491438",
+          "size": "166150275",
+          "download": "47630720"
         }
       }
     },
@@ -243,8 +239,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20044780",
-        "timeupdated": "1758271972"
+        "buildid": "20250062",
+        "timeupdated": "1759559969"
       }
     },
     "privatebranches": "1"
