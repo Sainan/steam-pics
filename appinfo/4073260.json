@@ -1,6 +1,5 @@
 {
   "appid": "4073260",
-  "public_only": "1",
   "common": {
     "name": "Halls of Nyarlathotep Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "00c7991e50e2ce783281120703a30e1f206a3df6",
     "icon": "00c7991e50e2ce783281120703a30e1f206a3df6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -104,6 +103,40 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "BoaredDog",
+    "publisher": "BoaredDog"
+  },
+  "config": {
+    "installdir": "Halls of Nyarlathotep Demo",
+    "launch": {
+      "0": {
+        "executable": "Labyrinth.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073261": {
+      "manifests": {
+        "public": {
+          "gid": "3330017995047298526",
+          "size": "4677732545",
+          "download": "1505038080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20179313",
+        "timeupdated": "1759180406"
+      }
     }
   }
 }
