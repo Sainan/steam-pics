@@ -1,6 +1,5 @@
 {
   "appid": "3606360",
-  "public_only": "1",
   "common": {
     "name": "Everybody Wants My Girl",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "5065441434c01b4195c450a2590d53a8726e6510",
     "clienticon": "5ebc960355095f360a1023988c7df651d93e257f",
     "icon": "e41893a31dcdd6f18434e99642fe18d671fa6992",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -124,9 +123,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759550406",
     "community_hub_visible": "1",
     "gameid": "3606360",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "599",
@@ -134,6 +133,72 @@
       "3": "4726",
       "4": "4182",
       "5": "492"
+    }
+  },
+  "extended": {
+    "developer": "Orcsoft",
+    "publisher": "Kagura Games",
+    "homepage": "https://www.kaguragames.com/"
+  },
+  "config": {
+    "installdir": "Everybody Wants My Girl",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3606361": {
+      "manifests": {
+        "public": {
+          "gid": "6522473036593871379",
+          "size": "244321261",
+          "download": "233291632"
+        }
+      }
+    },
+    "3606362": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6927948113153412426",
+          "size": "236740846",
+          "download": "229397712"
+        }
+      }
+    },
+    "3606363": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5046152916584120078",
+          "size": "234981675",
+          "download": "229135392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20231092",
+        "timeupdated": "1759449265"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "201",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "savedata",
+        "pattern": "*.*"
+      }
     }
   }
 }
