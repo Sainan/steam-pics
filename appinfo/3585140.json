@@ -1,6 +1,5 @@
 {
   "appid": "3585140",
-  "public_only": "1",
   "common": {
     "name": "Transports Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e066f5cf36bdc7d9b9ad4d0f00dfe807d398872a/capsule_231x87.jpg"
     },
@@ -101,7 +100,48 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3585140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jens P. Behrens",
+    "publisher": "Jens P. Behrens",
+    "homepage": "https://www.transports-game.com"
+  },
+  "config": {
+    "installdir": "Transports Demo",
+    "launch": {
+      "0": {
+        "executable": "TransportsDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3585141": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1237758568268505883",
+          "size": "705170373",
+          "download": "231600224"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20170685",
+        "timeupdated": "1759140380"
+      }
+    }
   }
 }
