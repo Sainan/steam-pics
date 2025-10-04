@@ -220,5 +220,32 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\fubu games\\night_swarm",
+        "pattern": "prefs.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "\\fubu games\\night_swarm",
+            "replace": ".config/unity3d/fubu games/night_swarm"
+          }
+        }
+      }
+    },
+    "sync_while_suspended": "1",
+    "appidredirect": "3668370"
   }
 }
