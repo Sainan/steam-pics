@@ -1,6 +1,5 @@
 {
   "appid": "3998530",
-  "public_only": "1",
   "common": {
     "name": "Death By Misstep Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "3b4aeab4db0085e053db0add9ad4dff6feabf2eb",
     "clienticon": "3b4aeab4db0085e053db0add9ad4dff6feabf2eb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,11 +109,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759215600",
     "gameid": "3998530",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Misstep Studio",
+    "publisher": "Misstep Studio",
+    "homepage": "https://deathbymisstep.com"
+  },
+  "config": {
+    "installdir": "Death By Misstep Demo",
+    "launch": {
+      "0": {
+        "executable": "DeathByMisstep.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3998531": {
+      "manifests": {
+        "public": {
+          "gid": "6762526094634440958",
+          "size": "2747445988",
+          "download": "2450388064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20115833",
+        "timeupdated": "1758750630"
+      }
+    },
+    "privatebranches": "1"
   }
 }
