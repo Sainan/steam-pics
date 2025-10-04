@@ -1,6 +1,5 @@
 {
   "appid": "3125230",
-  "public_only": "1",
   "common": {
     "name": "Landon's Puzzle ParTAY",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienttga": "fc9e3505dd14617ff3a9e68208b4c436b36fae03",
     "clienticns": "b98e029349b6131f06be85cecaaa03126d6aa955",
     "linuxclienticon": "aaf8e8680ff5d49a84cf68aa85bebc2b9717a6f4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "52184fdad10752a5c95e9a10d268c257c6b2d335/capsule_231x87.jpg"
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759537694",
+    "store_asset_mtime": "1759591901",
     "associations": {
       "0": {
         "type": "developer",
@@ -125,6 +124,96 @@
       "12": "5350",
       "13": "4136",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Adventure Camp Games",
+    "publisher": "Adventure Camp",
+    "homepage": "https://ciadventurecamp.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Landon's Puzzle ParTAY",
+    "launch": {
+      "0": {
+        "executable": "Landon's Puzzle ParTAY.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "hi this is landon i made this game"
+        },
+        "description": "hi this is landon i made this game"
+      },
+      "1": {
+        "executable": "Landon's Puzzle ParTAY mac v2.app/Contents/MacOS/Landon's Puzzle ParTAY",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "hi this is landon i made this game"
+        },
+        "description": "hi this is landon i made this game"
+      }
+    }
+  },
+  "depots": {
+    "3125232": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1743411743449952604",
+          "size": "1348706063",
+          "download": "247741264"
+        }
+      }
+    },
+    "3125233": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1263389964022793482",
+          "size": "1371759057",
+          "download": "256079024"
+        }
+      }
+    },
+    "3125237": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "267061163009612085",
+          "size": "1348707583",
+          "download": "247736160"
+        }
+      }
+    },
+    "3125238": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2390674271319033318",
+          "size": "1371759065",
+          "download": "256078480"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20242928",
+        "timeupdated": "1759511324"
+      }
     }
   }
 }
