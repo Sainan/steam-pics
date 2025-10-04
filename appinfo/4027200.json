@@ -90,7 +90,16 @@
     "installdir": "Bedtime Stories Playtest",
     "launch": {
       "0": {
-        "executable": "Bedtime Stories.exe"
+        "executable": "Bedtime Stories.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Bedtime Stories.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
