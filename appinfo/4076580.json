@@ -1,4 +1,46 @@
 {
   "appid": "4076580",
-  "public_only": "1"
+  "common": {
+    "name": "The Three Moons Playtest",
+    "type": "Beta",
+    "parent": "3663790",
+    "clienticon": "91b13fa36296b6d4778f0079e0e74879130a7996",
+    "icon": "91b13fa36296b6d4778f0079e0e74879130a7996",
+    "releasestate": "released",
+    "community_hub_visible": "1",
+    "gameid": "4076580",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "The Three Moons Playtest",
+    "launch": {
+      "0": {
+        "executable": "The Three Moons Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4076581": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "534474830765633463",
+          "size": "2829485808",
+          "download": "1560969248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20245010",
+        "timeupdated": "1759521481"
+      }
+    }
+  }
 }
