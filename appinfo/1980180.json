@@ -1,0 +1,128 @@
+{
+  "appid": "1980180",
+  "common": {
+    "name": "Zetria Demo",
+    "type": "Demo",
+    "parent": "1960920",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "clienttga": "415daaf16c0b68af57c4829aa968ac27ce6c76a0",
+    "clienticon": "2c12bfbf902b31d20b1ee4ecec3144e509071485",
+    "icon": "d3550e2438891ff8dd78c3fdae609bb8732f104c",
+    "clienticns": "ccbc3ad14d83a6dd96e8f89883e0ac0205f816ab",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "1",
+      "1": "3",
+      "2": "5",
+      "3": "4"
+    },
+    "restricted_countries": "CN,DE,SA",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1650685836",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Karne"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "PixelBee"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1652485786",
+    "gameid": "1980180",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "3",
+      "2": "4",
+      "3": "5"
+    }
+  },
+  "extended": {
+    "demoofappid": "1960920",
+    "developer": "Karne",
+    "publisher": "PixelBee"
+  },
+  "config": {
+    "installdir": "zetria_demo",
+    "launch": {
+      "0": {
+        "executable": "Zetria.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "zetria_demo_macos.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1980181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4560736435670525610",
+          "size": "229728158",
+          "download": "37759248"
+        },
+        "rollback-demo": {
+          "gid": "2150535863865928161",
+          "size": "229703882",
+          "download": "37389088"
+        }
+      }
+    },
+    "1980182": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7518625019760906535",
+          "size": "235787247",
+          "download": "43139728"
+        },
+        "rollback-demo": {
+          "gid": "7056154090268648339",
+          "size": "235822792",
+          "download": "42820576"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20246637",
+        "timeupdated": "1759541210"
+      },
+      "rollback-demo": {
+        "buildid": "8884775",
+        "description": "last build",
+        "timeupdated": "1655192026"
+      }
+    }
+  }
+}
