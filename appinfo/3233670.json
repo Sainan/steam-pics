@@ -1,0 +1,126 @@
+{
+  "appid": "3233670",
+  "common": {
+    "name": "DigDigDrill Demo",
+    "type": "Demo",
+    "parent": "2916770",
+    "releasestate": "released",
+    "icon": "28f4cd7f3dc42a7534ff2f34e09158446c9fc533",
+    "clienticon": "5cd1dfe6e8ab958b6307d2d6a4d299b155043b64",
+    "clienttga": "9286432803118febd87b229270d42b7b2e2d9cb8",
+    "name_localized": {
+      "japanese": "ほりほりドリル 体験版"
+    },
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "43edbb5bb8abcb7c6c4ab5046f474ea7b32e15f0/capsule_231x87.jpg",
+      "japanese": "3df4512305095ce83a3776f048b2901cfa85bf08/capsule_231x87_japanese.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg",
+      "japanese": "header_japanese.jpg"
+    },
+    "store_asset_mtime": "1727580030",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Toorai"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Toorai"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "steam_release_date": "1728920021",
+    "gameid": "3233670",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Toorai",
+    "publisher": "Toorai"
+  },
+  "config": {
+    "installdir": "DigDigDrill Demo",
+    "launch": {
+      "0": {
+        "executable": "windows/DigDigDrill.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mac/DigDigDrill.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3233671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3545036789039456698",
+          "size": "166140172",
+          "download": "47659088"
+        }
+      }
+    },
+    "3233672": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1868938823841330887",
+          "size": "189671844",
+          "download": "49556352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20249852",
+        "timeupdated": "1759557909"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "toorai/DigDigDrill/Save",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
