@@ -1,6 +1,5 @@
 {
   "appid": "3967070",
-  "public_only": "1",
   "common": {
     "name": "Codename:Twilight Demo",
     "type": "Demo",
@@ -24,7 +23,7 @@
     "icon": "2552e72dc37c383fdeef25364116f3b8aabdf56b",
     "clienttga": "394fc8cac592f5fc9d670fd4f82204433e131986",
     "clienticon": "5df6cb2cc979b76f527ed1eb7a9c06041b1ccc0d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1172f6ab2fa1d141cc1f423dfafe748ac5879687/capsule_231x87.jpg",
       "french": "3b213a4e3dc2e7dce117758b27ba0e82ab1cd0b3/capsule_231x87_french.jpg",
@@ -234,5 +233,49 @@
     },
     "gameid": "3967070",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ArarwayS",
+    "publisher": "ArarwayS"
+  },
+  "config": {
+    "installdir": "Riddle_Parkour_Demo",
+    "launch": {
+      "0": {
+        "executable": "Riddle_Parkour_Demo\\Riddle_Parkour.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3967071": {
+      "manifests": {
+        "public": {
+          "gid": "4212976879902715603",
+          "size": "671147281",
+          "download": "537269536"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20248595",
+        "timeupdated": "1759545552"
+      }
+    }
   }
 }
