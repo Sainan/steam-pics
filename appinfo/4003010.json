@@ -1,6 +1,5 @@
 {
   "appid": "4003010",
-  "public_only": "1",
   "common": {
     "name": "FLOSS",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticns": "f7d7afc67c8178ffcccf76e5cbb1d44a1b32e147",
     "linuxclienticon": "f7d7afc67c8178ffcccf76e5cbb1d44a1b32e147",
     "clienticon": "212423128ee5e918a425095a0363a5088f1dd0ed",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "50bab8db7339183b5d7afcdfa7e6637272c78ade/capsule_231x87.jpg"
@@ -111,6 +110,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759685513",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4003010",
     "exfgls": "3",
@@ -129,6 +130,86 @@
       "11": "3993",
       "12": "4182",
       "13": "4791"
+    }
+  },
+  "extended": {
+    "developer": "GameInCubes",
+    "publisher": "GameInCubes",
+    "isfreeapp": "1",
+    "listofdlc": "4064150",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "FLOSS",
+    "launch": {
+      "0": {
+        "executable": "FLOSS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FLOSS.app/Contents/MacOS/FLOSS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4003011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2731453149909113685",
+          "size": "373987999",
+          "download": "125489536"
+        }
+      }
+    },
+    "4003012": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6346117628437979125",
+          "size": "389237909",
+          "download": "133153152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20261161",
+        "timeupdated": "1759685121"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "GameInCubes/FLOSS",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "GameInCubes/FLOSS",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
