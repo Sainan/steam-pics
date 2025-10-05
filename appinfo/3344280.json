@@ -184,7 +184,35 @@
         "type": "default",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "Puzzle Princess - Windows"
+        },
+        "description": "Puzzle Princess - Windows"
+      },
+      "1": {
+        "executable": "PuzzlePrincess.x86_64",
+        "workingdir": "./",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Puzzle Princess - Linux"
+        },
+        "description": "Puzzle Princess - Linux"
+      },
+      "2": {
+        "executable": "Puzzle Princess.app/Contents/MacOS/Puzzle Princess",
+        "workingdir": "./Puzzle Princess.app/Contents/",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Puzzle Princess - macOS"
+        },
+        "description": "Puzzle Princess - macOS"
       }
     }
   },
