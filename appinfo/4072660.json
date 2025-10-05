@@ -1,6 +1,5 @@
 {
   "appid": "4072660",
-  "public_only": "1",
   "common": {
     "name": "WonderLang Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "5350920d866834020559001c859efd6ea3b375d2/capsule_231x87.jpg"
@@ -94,7 +93,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759671394",
     "gameid": "4072660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "bair game",
+    "publisher": "bair game",
+    "homepage": "https://www.wonderlang.net"
+  },
+  "config": {
+    "installdir": "WonderLang Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4072661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2292511619283796651",
+          "size": "2126925228",
+          "download": "1450080176"
+        }
+      }
+    },
+    "4072662": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5745726078044289528",
+          "size": "2544143397",
+          "download": "1732038848"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20177809",
+        "timeupdated": "1759172673"
+      }
+    }
   }
 }
