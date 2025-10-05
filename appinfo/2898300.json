@@ -100,7 +100,8 @@
         "executable": "CvALinuxPlaytest.x64",
         "type": "default",
         "config": {
-          "oslist": "linux"
+          "oslist": "linux",
+          "osarch": "64"
         }
       }
     },
@@ -117,6 +118,12 @@
         "controller_type": "controller_ps4",
         "enabled_branches": "default,earlytesters,experimental",
         "use_action_block": "true"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
       }
     }
   },
