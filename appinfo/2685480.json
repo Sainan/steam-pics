@@ -182,12 +182,20 @@
       "0": {
         "root": "gameinstall",
         "path": "Save",
-        "pattern": "*.sav"
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
       },
       "1": {
         "root": "gameinstall",
         "path": "",
-        "pattern": "*.env"
+        "pattern": "*.env",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
       }
     }
   }
