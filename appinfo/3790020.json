@@ -1,6 +1,5 @@
 {
   "appid": "3790020",
-  "public_only": "1",
   "common": {
     "name": "Rusty Road Racing Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -141,7 +140,42 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3790020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CodeCube Brothers",
+    "publisher": "CodeCube Brothers",
+    "homepage": "https://www.ccbrothers.com"
+  },
+  "config": {
+    "installdir": "Rusty Road Racing Demo",
+    "launch": {
+      "0": {
+        "executable": "Rusty Road Racing.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3790021": {
+      "manifests": {
+        "public": {
+          "gid": "7442637610201675471",
+          "size": "3367751760",
+          "download": "2075061152"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,bulgarian,greek,ukrainian,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20260619",
+        "timeupdated": "1759680165"
+      }
+    }
   }
 }
