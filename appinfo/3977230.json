@@ -1,6 +1,5 @@
 {
   "appid": "3977230",
-  "public_only": "1",
   "common": {
     "name": "Victory Saber 2D",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "8d30ab0597556d6513cd75213780378a70e38c3b",
     "icon": "8d30ab0597556d6513cd75213780378a70e38c3b",
     "linuxclienticon": "882e787bfc6dd311dac9c5a66ade4fdb94c4ea06",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -106,9 +105,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759680839",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3977230",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "4255",
@@ -121,6 +121,68 @@
       "8": "492",
       "9": "1755",
       "10": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Zephyr Studio Limited",
+    "publisher": "Zephyr Studio Limited",
+    "homepage": "https://www.zephyrstudio.xyz/VictorySaber2D/"
+  },
+  "config": {
+    "installdir": "Victory Saber 2D",
+    "launch": {
+      "0": {
+        "executable": "VictorySaber2D.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "VictorySaber2D.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3977231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1439462320856381601",
+          "size": "1051546952",
+          "download": "468171120"
+        }
+      }
+    },
+    "3977232": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5616452509358651763",
+          "size": "1102918027",
+          "download": "476608832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20260248",
+        "timeupdated": "1759676727"
+      }
     }
   }
 }
