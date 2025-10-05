@@ -143,7 +143,18 @@
     "installdir": "Blitz Roads",
     "launch": {
       "0": {
-        "executable": "Blitz Roads.exe"
+        "executable": "Blitz Roads.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Blitz Roads.app/Contents/MacOS/Blitz Roads",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
