@@ -109,7 +109,19 @@
     "installdir": "Boat Together Demo",
     "launch": {
       "0": {
-        "executable": "BoatProject.exe"
+        "executable": "BoatProject.exe",
+        "description_loc": {
+          "english": "DX12"
+        },
+        "description": "DX12"
+      },
+      "1": {
+        "executable": "BoatProject.exe",
+        "arguments": "-dx11",
+        "description_loc": {
+          "english": "DX11"
+        },
+        "description": "DX11"
       }
     }
   },
@@ -142,6 +154,7 @@
         "buildid": "20195414",
         "timeupdated": "1759263057"
       }
-    }
+    },
+    "privatebranches": "1"
   }
 }
