@@ -1,6 +1,5 @@
 {
   "appid": "3141070",
-  "public_only": "1",
   "common": {
     "name": "100 Indonesia Cats",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -84,7 +83,7 @@
         "name": "100 Cats"
       }
     },
-    "primary_genre": "37",
+    "primary_genre": "4",
     "genres": {
       "0": "4",
       "1": "23",
@@ -92,7 +91,8 @@
     },
     "category": {
       "category_2": "1",
-      "category_22": "1"
+      "category_22": "1",
+      "category_62": "1"
     },
     "supported_languages": {
       "english": {
@@ -405,9 +405,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759676427",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3141070",
-    "exfgls": "8",
     "store_tags": {
       "0": "113",
       "1": "597",
@@ -429,6 +430,51 @@
       "17": "3834",
       "18": "5652",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "publisher": "100 Cozy Games",
+    "listofdlc": "3801930",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "100 Indonesia Cats",
+    "launch": {
+      "0": {
+        "executable": "100 Indonesia Cats.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3141071": {
+      "manifests": {
+        "public": {
+          "gid": "3594605131444083185",
+          "size": "385334140",
+          "download": "43229440"
+        }
+      }
+    },
+    "3801930": {
+      "dlcappid": "3801930",
+      "manifests": {
+        "public": {
+          "gid": "6556422857949444805",
+          "size": "47496065",
+          "download": "47103168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19547152",
+        "timeupdated": "1754855096"
+      }
     }
   }
 }
