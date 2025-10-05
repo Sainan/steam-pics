@@ -1,6 +1,5 @@
 {
   "appid": "4003600",
-  "public_only": "1",
   "common": {
     "name": "Living With a Little Fox Girl Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "長命狐との30日間 Demo",
       "schinese": "与长生狐一起的30天 Demo",
@@ -48,5 +47,106 @@
     "category": {},
     "gameid": "4003600",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Flash Club",
+    "publisher": "Saikey Studios"
+  },
+  "config": {
+    "installdir": "Living with a Little Fox Girl Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4003601": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1174421131131159411",
+          "size": "312903570",
+          "download": "80002928"
+        }
+      }
+    },
+    "4003602": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "739625203446142775",
+          "size": "312887962",
+          "download": "80000128"
+        }
+      }
+    },
+    "4003603": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1201615354041162612",
+          "size": "324822826",
+          "download": "87576768"
+        }
+      }
+    },
+    "4003604": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6366681032604908050",
+          "size": "324822882",
+          "download": "87576784"
+        }
+      }
+    },
+    "4003605": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3161178177944970895",
+          "size": "324825898",
+          "download": "87576800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20254141",
+        "timeupdated": "1759599934"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "appidredirect": "3845600",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Saikey/Living with a Little Fox Girl/Savedata",
+        "pattern": "*"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
