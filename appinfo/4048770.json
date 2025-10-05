@@ -1,6 +1,5 @@
 {
   "appid": "4048770",
-  "public_only": "1",
   "common": {
     "name": "Evergrowing Video Store Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3ab5b7f6b73fc172af83a699943b242402134c4b/capsule_231x87.jpg"
     },
@@ -39,7 +38,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759655640",
     "gameid": "4048770",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Milkshake Games",
+    "publisher": "Milkshake Games",
+    "homepage": "https://milkshakegames.fr/"
+  },
+  "config": {
+    "installdir": "Evergrowing Video Store Demo",
+    "launch": {
+      "0": {
+        "executable": "VideoClubIdle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4048771": {
+      "manifests": {
+        "public": {
+          "gid": "6905776106093748692",
+          "size": "389175842",
+          "download": "68502880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20258606",
+        "timeupdated": "1759655207"
+      }
+    }
   }
 }
