@@ -1,0 +1,181 @@
+{
+  "appid": "2743820",
+  "common": {
+    "name": "Cut the Cards Playtest",
+    "type": "Beta",
+    "parent": "2743630",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "icon": "a7717262e19fa434340181e7adca4ca04ff9d864",
+    "clienticon": "eb2aca72f3048de8bc4feb9dc13f9b8a9d90711c",
+    "clienttga": "4c7558d2340fb87c13f2c9aa41ae80c911357149",
+    "small_capsule": {
+      "english": "91234cd188605e328dc5cdd608d7c72169e514f7/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "25.51724137931035",
+        "height_pct": "52.25299225533914"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "fe3de021c120aa1b9e6b7a10b9eff6e797eee546/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "fe3de021c120aa1b9e6b7a10b9eff6e797eee546/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "b3de709b8a4c6ceabaad5c8fa1909d6858f713cf/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "b3de709b8a4c6ceabaad5c8fa1909d6858f713cf/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "images": {
+          "english": "b3de709b8a4c6ceabaad5c8fa1909d6858f713cf/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "f36ab26912f3cad73cde5f976fd909e5f8370d17/logo.png"
+        },
+        "image2x": {
+          "english": "f36ab26912f3cad73cde5f976fd909e5f8370d17/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "25.51724137931035",
+          "height_pct": "52.25299225533914"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "defce3bc546cb4897f32ae176311ebbdfdd70f55/library_header.jpg"
+        },
+        "image2x": {
+          "english": "defce3bc546cb4897f32ae176311ebbdfdd70f55/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1727627124",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1723256139",
+    "community_hub_visible": "1",
+    "gameid": "2743820",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Cut the Cards Playtest",
+    "launch": {
+      "0": {
+        "executable": "CutTheCards.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "CutTheCards.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "CutTheCards.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2743821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1061053100092422863",
+          "size": "190874423",
+          "download": "148368064"
+        }
+      }
+    },
+    "2743822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7131105856146041678",
+          "size": "260639510",
+          "download": "166624528"
+        }
+      }
+    },
+    "2743823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "379768181060773098",
+          "size": "193296415",
+          "download": "148731488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20257744",
+        "timeupdated": "1759644014"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "appidredirect": "2743630",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Cut The Cards/save_data",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      }
+    }
+  }
+}
