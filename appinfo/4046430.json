@@ -1,6 +1,5 @@
 {
   "appid": "4046430",
-  "public_only": "1",
   "common": {
     "name": "Plane Balance Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5b6f4ddc18ff121af9f71b7b748153cd3a8a7c3f/capsule_231x87.jpg"
@@ -100,5 +99,48 @@
     },
     "gameid": "4046430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AngryOtter",
+    "publisher": "AngryOtter"
+  },
+  "config": {
+    "installdir": "Plane Balance Demo",
+    "launch": {
+      "0": {
+        "executable": "PlaneBalance.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4046431": {
+      "manifests": {
+        "public": {
+          "gid": "7476585978908525229",
+          "size": "506988158",
+          "download": "361750512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20263464",
+        "timeupdated": "1759707625"
+      }
+    }
   }
 }
