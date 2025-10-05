@@ -4,9 +4,9 @@
     "name": "Fairtravel Battle Playtest",
     "type": "Beta",
     "parent": "917820",
-    "oslist": "windows,linux",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienttga": "a488ad9d829d3ad6d23d02568d9c2ff10f924147",
     "clienticon": "abb3f84db3b11dde47ef907fb282ac52bbc396c2",
     "icon": "c31a52c5300ba0f64882935866a29bf52cafa4dd",
@@ -98,6 +98,13 @@
         "config": {
           "oslist": "linux",
           "osarch": "64"
+        }
+      },
+      "3": {
+        "executable": "Fairtravel Battle.app\\Contents\\MacOS\\FairtravelBattle",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
