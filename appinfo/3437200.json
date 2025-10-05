@@ -232,9 +232,20 @@
     "hidecloudui": "1",
     "savefiles": {
       "0": {
-        "root": "gameinstall",
-        "path": "LUNA\\LUNA_Data\\StreamingAssets\\aa",
-        "pattern": "*.*"
+        "root": "WinAppDataLocalLow",
+        "path": "HypnosisLab/LUNA/NaninovelData/Saves/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "HypnosisLab/LUNA/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
       }
     }
   }
