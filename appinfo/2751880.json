@@ -5,9 +5,9 @@
     "type": "Demo",
     "parent": "917820",
     "releasestate": "released",
-    "oslist": "windows,linux",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "icon": "c31a52c5300ba0f64882935866a29bf52cafa4dd",
     "clienttga": "a488ad9d829d3ad6d23d02568d9c2ff10f924147",
     "linuxclienticon": "d957931e963299196d0e93aba58f13c48ce0a982",
@@ -144,6 +144,13 @@
           "oslist": "linux",
           "osarch": "64"
         }
+      },
+      "2": {
+        "executable": "Fairtravel Battle.app\\Contents\\MacOS\\FairtravelBattle",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -171,6 +178,11 @@
           "size": "387069862",
           "download": "255235728"
         }
+      }
+    },
+    "2751883": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
