@@ -1,6 +1,5 @@
 {
   "appid": "4081650",
-  "public_only": "1",
   "common": {
     "name": "Mate'Morphosis Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "82dcdda17019d18a760e0268f9bc4846ef15c9b3/capsule_231x87.jpg"
@@ -108,7 +107,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4081650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "WiseMonkeES",
+    "publisher": "Wise Monke Entertainment Studio",
+    "homepage": "https://www.wisemonkees.com/gamepages/mm.html"
+  },
+  "config": {
+    "installdir": "Mate-Morphosis Demo",
+    "launch": {
+      "0": {
+        "executable": "Mate-Morphosis.exe"
+      },
+      "1": {
+        "executable": "Mate-morphosis.app"
+      }
+    }
+  },
+  "depots": {
+    "4081651": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7798068215710449334",
+          "size": "238406029",
+          "download": "94000128"
+        }
+      }
+    },
+    "4081652": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1541629716969336344",
+          "size": "156527713",
+          "download": "72455456"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20226574",
+        "timeupdated": "1759424908"
+      }
+    }
   }
 }
