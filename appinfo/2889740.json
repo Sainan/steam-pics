@@ -1,6 +1,5 @@
 {
   "appid": "2889740",
-  "public_only": "1",
   "common": {
     "name": "Night Castle",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "a74dfdc6cb56f0b08699dc787267ef8099e6807a",
     "clienttga": "3b1ad91f5b51cdb7a714ee5ea471872023540dc4",
     "clienticon": "3b6532726c556b050df434c2d602a816e6313aa5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -122,9 +121,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2889740",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1625",
@@ -138,6 +137,47 @@
       "9": "122",
       "10": "3993",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "LHCB",
+    "publisher": "LHCB"
+  },
+  "config": {
+    "installdir": "NightCastle",
+    "launch": {
+      "0": {
+        "executable": "NightCastle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "NightCastle",
+          "koreana": "NightCastle",
+          "japanese": "NightCastle"
+        },
+        "description": "NightCastle"
+      }
+    }
+  },
+  "depots": {
+    "2889741": {
+      "manifests": {
+        "public": {
+          "gid": "6793485767995637044",
+          "size": "354117902",
+          "download": "108148192"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20256430",
+        "timeupdated": "1759624827"
+      }
     }
   }
 }
