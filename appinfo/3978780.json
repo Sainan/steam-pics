@@ -1,11 +1,10 @@
 {
   "appid": "3978780",
-  "public_only": "1",
   "common": {
     "name": "Cat's Rage Demo",
     "type": "Demo",
     "parent": "3937150",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "60bd5465ce0f7f6a05ca4bc8084b9116e6f6b71d",
     "icon": "60bd5465ce0f7f6a05ca4bc8084b9116e6f6b71d",
     "oslist": "windows",
@@ -157,5 +156,66 @@
     },
     "gameid": "3978780",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dosy",
+    "publisher": "Dosy"
+  },
+  "config": {
+    "installdir": "Cat's Rage Demo",
+    "launch": {
+      "0": {
+        "executable": "Cat's rage.exe"
+      }
+    }
+  },
+  "depots": {
+    "3978781": {
+      "manifests": {
+        "public": {
+          "gid": "2974033088514490980",
+          "size": "932446030",
+          "download": "480127728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20260060",
+        "timeupdated": "1759673811"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Dosy/Cat's rage",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacHome",
+        "path": "Library/Application Support/Dosy/Cat's rage",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "LinuxHome",
+        "path": ".config/unity3d/Dosy/Cat's rage",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
+    }
   }
 }
