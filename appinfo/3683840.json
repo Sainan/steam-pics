@@ -218,10 +218,21 @@
         "root": "WinAppDataLocal",
         "path": "BobaCafeSimulator",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "BobaCafeSimulator",
+            "replace": "Library/Containers/BobaCafeSimulator/Data/Library/Application Support/Epic/BobaCafeSimulator/"
+          }
+        }
       }
     }
   }
