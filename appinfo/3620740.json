@@ -1,13 +1,12 @@
 {
   "appid": "3620740",
-  "public_only": "1",
   "common": {
     "name": "未完信䇳：纸鸢",
     "type": "Game",
     "clienticon": "ffe985e9ef0d29f6144c4b96498dc8cca777518b",
     "clienttga": "14e2ee3c769204dd23d162cf47f30d3aa2c520b1",
     "icon": "92981b4e72e8bed26141033575d78103460da08d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -135,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759630342",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3620740",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "3799",
@@ -159,6 +159,52 @@
       "17": "5608",
       "18": "4166",
       "19": "5984"
+    }
+  },
+  "extended": {
+    "developer": "黎羽游戏二分工作室",
+    "publisher": "黎羽科技LICOGAME",
+    "homepage": "https://space.bilibili.com/170182356",
+    "listofdlc": "3654080",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Zhiyuan",
+    "launch": {
+      "0": {
+        "executable": "ZhiYuanRelease.exe"
+      }
+    }
+  },
+  "depots": {
+    "3620741": {
+      "manifests": {
+        "public": {
+          "gid": "8600558226988207877",
+          "size": "7661596850",
+          "download": "4382872768"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20256668",
+        "timeupdated": "1759628125"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "LICOGAME\\ZhiYuanRelease\\Utage\\Saves",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
