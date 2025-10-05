@@ -1,6 +1,5 @@
 {
   "appid": "3838660",
-  "public_only": "1",
   "common": {
     "name": "BPROOF",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e4da03639911459651c5ad68f8bda3d4d9ba1d10",
     "clienttga": "fa76498c27d1e93c9a69f8572bdc0261b55e3f26",
     "clienticon": "8e264fe354e63f4552d42823064dfd13c9c53f63",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3838660",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -146,5 +146,74 @@
       "18": "10808",
       "19": "3993"
     }
+  },
+  "extended": {
+    "developer": "Dexsolutions",
+    "publisher": "Dexsolutions",
+    "homepage": "https://www.dexsolutions-games.eu"
+  },
+  "config": {
+    "installdir": "BPROOF",
+    "launch": {
+      "0": {
+        "executable": "Bproof.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3838661": {
+      "manifests": {
+        "public": {
+          "gid": "8989461117602662934",
+          "size": "19597968685",
+          "download": "18136195792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20259920",
+        "timeupdated": "1759672639"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "5500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BPROOF/Saved/SaveGames/BuyedMaps",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "BPROOF/Saved/SaveGames/PlayerSettingsSave",
+        "pattern": "*.sav"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
