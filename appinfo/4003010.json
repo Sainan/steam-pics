@@ -144,10 +144,15 @@
     "launch": {
       "0": {
         "executable": "FLOSS.exe",
+        "arguments": "-force-d3d11",
         "type": "default",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "FLOSS with DirectX 11"
+        },
+        "description": "FLOSS with DirectX 11"
       },
       "1": {
         "executable": "FLOSS.app/Contents/MacOS/FLOSS",
@@ -155,6 +160,14 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "2": {
+        "executable": "FLOSS.exe",
+        "type": "option1",
+        "description_loc": {
+          "english": "FLOSS with DirectX 12"
+        },
+        "description": "FLOSS with DirectX 12"
       }
     }
   },
