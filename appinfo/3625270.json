@@ -166,7 +166,20 @@
     "installdir": "MateEngine",
     "launch": {
       "0": {
-        "executable": "MateEngineX.exe"
+        "executable": "MateEngineX.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Launch MateEngine"
+        },
+        "description": "Launch MateEngine"
+      },
+      "1": {
+        "executable": "MateEngineX.exe",
+        "arguments": "--savefile \"settings_instance1.json\" --datadir \"Instance_1\"",
+        "description_loc": {
+          "english": "Launch MateEngine Profile 1"
+        },
+        "description": "Launch MateEngine Profile 1"
       }
     }
   },
