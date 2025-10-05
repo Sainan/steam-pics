@@ -90,7 +90,16 @@
     "installdir": "Idle Iktah Playtest",
     "launch": {
       "0": {
-        "executable": "idle_iktah.exe"
+        "executable": "idle_iktah.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "idle_iktah.app/Contents/MacOS/idle_iktah",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
