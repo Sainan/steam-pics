@@ -1,6 +1,5 @@
 {
   "appid": "3556780",
-  "public_only": "1",
   "common": {
     "name": "The Last Shores",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "",
     "clienticon": "952dfa10df0181f317eebbf70f28855b3aa14a9f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "french": "1"
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1747136537",
+    "store_asset_mtime": "1759654422",
     "associations": {
       "0": {
         "type": "developer",
@@ -118,6 +117,8 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3556780",
     "exfgls": "3",
@@ -142,6 +143,64 @@
       "17": "21",
       "18": "5608",
       "19": "4295"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Black Frog Studio",
+    "publisher": "Black Frog Studio",
+    "homepage": "https://www.instagram.com/thelastshoresgame/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Last Shores",
+    "launch": {
+      "0": {
+        "executable": "TheLastShores.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3556782": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3577569207923297901",
+          "size": "1125664304",
+          "download": "830930448"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20157118",
+        "timeupdated": "1759003099"
+      }
     }
   }
 }
