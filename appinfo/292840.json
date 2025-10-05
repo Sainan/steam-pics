@@ -1,0 +1,411 @@
+{
+  "appid": "292840",
+  "common": {
+    "name": "Pajama Sam's Sock Works",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "logo": "187f0330eee045e3a0ddc2e4d2689d1ed8b211a7",
+    "logo_small": "187f0330eee045e3a0ddc2e4d2689d1ed8b211a7_thumb",
+    "linuxclienticon": "e1791d400717739147add896efddd7a65d264ed1",
+    "clienticon": "81eb2957b44d26b243642d59d0d12e31b702c7cf",
+    "clienttga": "4600819ba665456174e2b02c4f76bbb6130271dd",
+    "icon": "5e4d4582f6aa54a15ae63f165d941eaa70cb7bac",
+    "clienticns": "168e467783e3fc11a3359c06bd263aa06d998a95",
+    "osarch": "",
+    "osextended": "macos64",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1757462400",
+      "tested_build_id": "4419270",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Pajama Sam's Sock Works",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "70.13729977116705",
+        "height_pct": "86.47589646164806"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "70.13729977116705",
+          "height_pct": "86.47589646164806"
+        }
+      }
+    },
+    "store_asset_mtime": "1576608967",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Humongous Entertainment"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Humongous Entertainment"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Nightdive Studios"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "original_release_date": "915177600",
+    "steam_release_date": "1402083700",
+    "community_hub_visible": "1",
+    "gameid": "292840",
+    "store_tags": {
+      "0": "597",
+      "1": "5350",
+      "2": "1664",
+      "3": "21"
+    },
+    "review_score": "8",
+    "review_percentage": "86"
+  },
+  "extended": {
+    "developer": "Humongous Entertainment",
+    "publisher": "Humongous Entertainment",
+    "homepage": "http://www.humongous.com"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Pajama Sams Sock Works",
+    "launch": {
+      "0": {
+        "executable": "ScummVM_Windows\\scummvm.exe",
+        "arguments": "--no-console -c scummvm-pajamasamssockworks.ini pajamasockworks",
+        "description": "Launch",
+        "workingdir": "ScummVM_Windows\\",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm",
+        "arguments": "-c scummvm-pajamasamssockworks.ini pajamasockworks",
+        "description": "Launch",
+        "workingdir": "ScummVM_Mac\\",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "ScummVM_Linux\\launch_pajamasamssockworks.sh",
+        "description": "Launch",
+        "workingdir": "ScummVM_Linux\\",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "292841": {
+      "systemdefined": "1",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2336938545639630817",
+          "size": "106263822",
+          "download": "65532064"
+        },
+        "beta": {
+          "gid": "2336938545639630817",
+          "size": "106263822",
+          "download": "65532064"
+        }
+      }
+    },
+    "292842": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4385880155197181815",
+          "size": "110074384",
+          "download": "63856720"
+        },
+        "beta": {
+          "gid": "4385880155197181815",
+          "size": "110074384",
+          "download": "63856720"
+        }
+      }
+    },
+    "292843": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8224356970227079276",
+          "size": "56192497",
+          "download": "77830457694"
+        },
+        "beta": {
+          "gid": "8224356970227079276",
+          "size": "56192497",
+          "download": "77830457694"
+        }
+      }
+    },
+    "292844": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4817257891208528319",
+          "size": "23229612",
+          "download": "11978619947"
+        },
+        "beta": {
+          "gid": "4817257891208528319",
+          "size": "23229612",
+          "download": "11978619947"
+        }
+      }
+    },
+    "292845": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5402196572840450744",
+          "size": "459",
+          "download": "5"
+        },
+        "beta": {
+          "gid": "5402196572840450744",
+          "size": "459",
+          "download": "5"
+        }
+      }
+    },
+    "292846": {
+      "config": {
+        "oslist": "macos",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4305803348158841229",
+          "size": "426",
+          "download": "5"
+        },
+        "beta": {
+          "gid": "4305803348158841229",
+          "size": "426",
+          "download": "5"
+        }
+      }
+    },
+    "292847": {
+      "config": {
+        "oslist": "linux",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4336436120795147979",
+          "size": "427",
+          "download": "5"
+        },
+        "beta": {
+          "gid": "4336436120795147979",
+          "size": "427",
+          "download": "5"
+        }
+      }
+    },
+    "292848": {
+      "config": {
+        "language": "dutch"
+      },
+      "manifests": {
+        "public": {
+          "gid": "840407514323273842",
+          "size": "24791013",
+          "download": "16446179110"
+        },
+        "beta": {
+          "gid": "840407514323273842",
+          "size": "24791013",
+          "download": "16446179110"
+        }
+      }
+    },
+    "292849": {
+      "config": {
+        "oslist": "windows",
+        "language": "dutch"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4462851620943033632",
+          "size": "456",
+          "download": "67812272"
+        },
+        "beta": {
+          "gid": "4462851620943033632",
+          "size": "456",
+          "download": "67812272"
+        }
+      }
+    },
+    "292850": {
+      "config": {
+        "oslist": "macos",
+        "language": "dutch"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4460139238061805518",
+          "size": "423",
+          "download": "67777512"
+        },
+        "beta": {
+          "gid": "4460139238061805518",
+          "size": "423",
+          "download": "67777512"
+        }
+      }
+    },
+    "292851": {
+      "config": {
+        "oslist": "linux",
+        "language": "dutch"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2865674962616246007",
+          "size": "424",
+          "download": "5"
+        },
+        "beta": {
+          "gid": "2865674962616246007",
+          "size": "424",
+          "download": "5"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "baselanguages": "english,dutch",
+    "branches": {
+      "public": {
+        "buildid": "4419270",
+        "timeupdated": "1574492788"
+      },
+      "beta": {
+        "buildid": "4419270",
+        "timeupdated": "1574492796"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "*.*"
+      }
+    }
+  }
+}
