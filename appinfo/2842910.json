@@ -180,13 +180,25 @@
   "ufs": {
     "quota": "1485760",
     "maxnumfiles": "3",
-    "ignoreexternalfiles": "1",
-    "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocal",
         "path": "GalaxyDreamer",
         "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "GalaxyDreamer",
+            "replace": ".local/share/steam/steamapps/compatdata/2842910/pfx/drive_c/users/steamuser/AppData/Local/GalaxyDreamer"
+          }
+        }
       }
     }
   }
