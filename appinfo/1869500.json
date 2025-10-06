@@ -1,6 +1,5 @@
 {
   "appid": "1869500",
-  "public_only": "1",
   "common": {
     "name": "Daimon Blades",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "34e69f4d73eaabc564e820277416f074fb9bf13c",
     "clienticon": "d4ca70c6622a86961d1f2d547180c519452f4925",
     "icon": "2d802f0264078278e29b96789d2d13a77533be3f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -164,9 +163,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759766484",
     "community_hub_visible": "1",
     "gameid": "1869500",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -192,6 +191,148 @@
       "17": "3843",
       "18": "4182",
       "19": "6730"
+    }
+  },
+  "extended": {
+    "developer": "StreumOn Studio",
+    "publisher": "StreumOn Studio",
+    "homepage": "https://streumon-studio.com/"
+  },
+  "config": {
+    "installdir": "DaimonBlades",
+    "launch": {
+      "0": {
+        "executable": "Shinobi_SOS-Win64-Shipping.exe",
+        "type": "default",
+        "config": {
+          "betakey": "default,public"
+        }
+      },
+      "1": {
+        "executable": "Shinobi_SOS-Win64-Test.exe",
+        "type": "default",
+        "config": {
+          "betakey": "sos_internal, aggro"
+        },
+        "description_loc": {
+          "english": "exe test version"
+        },
+        "description": "exe test version"
+      },
+      "2": {
+        "executable": "Shinobi_SOS.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "sos_internal, sos_internal_weekly"
+        },
+        "description_loc": {
+          "english": "exe dev version (with logs)"
+        },
+        "description": "exe dev version (with logs)"
+      },
+      "4": {
+        "executable": "Shinobi_SOS-Win64-Shipping.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "sos_internal"
+        },
+        "description_loc": {
+          "english": "Shipping"
+        },
+        "description": "Shipping"
+      },
+      "5": {
+        "executable": "Necromunda-Win64-Test.exe",
+        "type": "default",
+        "config": {
+          "betakey": "sos_nhgproto, shared_necrocoop, focus_shared_necrocoop"
+        },
+        "description_loc": {
+          "english": "Necroproto-Coop"
+        },
+        "description": "Necroproto-Coop"
+      },
+      "6": {
+        "executable": "Necromunda.exe",
+        "arguments": "-log",
+        "type": "option1",
+        "config": {
+          "betakey": "sos_nhgproto"
+        },
+        "description_loc": {
+          "english": "Necroproto-Coop - DEV version"
+        },
+        "description": "Necroproto-Coop - DEV version"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamcontrollertouchtemplateindex": "9"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1869501": {
+      "manifests": {
+        "public": {
+          "gid": "6128514966244069428",
+          "size": "21933853854",
+          "download": "18847066016"
+        }
+      }
+    },
+    "1869502": {
+      "manifests": {
+        "public": {
+          "gid": "4514627508143867423",
+          "size": "644829248",
+          "download": "253037392"
+        }
+      }
+    },
+    "1869503": {
+      "manifests": {
+        "public": {
+          "gid": "4705580345408001261",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,schinese,russian,japanese,polish,brazilian,latam",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20273002",
+        "timeupdated": "1759766178"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Streumon/DaimonBlades/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
