@@ -1,6 +1,5 @@
 {
   "appid": "4011570",
-  "public_only": "1",
   "common": {
     "name": "Rymdval Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9c52a54d08d45235c176f22e2a76cd4a8af21da5/capsule_231x87.jpg"
     },
@@ -70,7 +69,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759761140",
     "gameid": "4011570",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Chilistrumpan",
+    "publisher": "Chilistrumpan"
+  },
+  "config": {
+    "installdir": "Rymdval Demo",
+    "launch": {
+      "0": {
+        "executable": "Spacy.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4011571": {
+      "manifests": {
+        "public": {
+          "gid": "2307381515087509464",
+          "size": "1279901680",
+          "download": "977868352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20233770",
+        "timeupdated": "1759468481"
+      }
+    }
   }
 }
