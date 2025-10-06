@@ -1,6 +1,5 @@
 {
   "appid": "4073640",
-  "public_only": "1",
   "common": {
     "name": "Storm Seas Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ceb9713b650940ce0c9e75685d474e031b714f64/capsule_231x87.jpg"
     },
@@ -117,5 +116,40 @@
     },
     "gameid": "4073640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dclares Dev",
+    "publisher": "Dclares Dev"
+  },
+  "config": {
+    "installdir": "Storm Seas Demo",
+    "launch": {
+      "0": {
+        "executable": "Storm Seas.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073641": {
+      "manifests": {
+        "public": {
+          "gid": "7628618065841154010",
+          "size": "1705269108",
+          "download": "296557344"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20210257",
+        "timeupdated": "1759339735"
+      }
+    }
   }
 }
