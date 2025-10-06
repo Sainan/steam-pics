@@ -1,0 +1,240 @@
+{
+  "appid": "1436870",
+  "common": {
+    "name": "The Tool",
+    "type": "Game",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosnotarized",
+    "clienticon": "ee176100cc18ba744e9bae1cc6ae74bc2d6c828c",
+    "clienttga": "855e704d72558b671ee5f8de786293a1259b5743",
+    "icon": "a6a664b59c8f6d8de388803cd01da1ab8a63af47",
+    "clienticns": "92b77c668e6eb8f76eeb50affbd0cab3a2991c5a",
+    "logo": "4af3faad0c798ec60c3dc4bf7be6cb9e33e4fd3c",
+    "logo_small": "4af3faad0c798ec60c3dc4bf7be6cb9e33e4fd3c_thumb",
+    "releasestate": "released",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1719964800",
+      "tested_build_id": "13069449",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-9.0-1RC",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "71.62790697674416",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "71.62790697674416",
+          "height_pct": "100"
+        },
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1666991984",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Mikhail Maksimov"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Garage Digital"
+      }
+    },
+    "primary_genre": "37",
+    "genres": {
+      "0": "4",
+      "1": "37",
+      "2": "23",
+      "3": "28"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1604050889",
+    "community_hub_visible": "1",
+    "gameid": "1436870",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "597",
+      "1": "599",
+      "2": "13782",
+      "3": "1664",
+      "4": "1654",
+      "5": "1714",
+      "6": "4166",
+      "7": "4191",
+      "8": "3968",
+      "9": "113",
+      "10": "1036",
+      "11": "492",
+      "12": "4182",
+      "13": "12057",
+      "14": "1710",
+      "15": "13906",
+      "16": "7926"
+    },
+    "review_score": "6",
+    "review_percentage": "76"
+  },
+  "extended": {
+    "developer": "Mikhail Maksimov",
+    "publisher": "Garage Digital",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Tool",
+    "launch": {
+      "0": {
+        "executable": "TheTool.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TheTool.app\\Contents\\MacOS\\TheTool-Mac-Shipping",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1436871": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "2382743140909245098",
+          "size": "346761650",
+          "download": "238619488"
+        }
+      }
+    },
+    "1436872": {
+      "config": {
+        "oslist": "macos",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "5502130765666403597",
+          "size": "517970834",
+          "download": "350467184"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "13069449",
+        "timeupdated": "1704027050"
+      }
+    }
+  }
+}
