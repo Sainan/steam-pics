@@ -1,6 +1,5 @@
 {
   "appid": "3773500",
-  "public_only": "1",
   "common": {
     "name": "The Last Case of John Morley Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "c28b04399a73fdd5d560a37675f7a65aa4006cda",
     "clienttga": "07d255aa991fe9747e9b3442cac9062238efcd30",
     "clienticon": "9e3e7d4df2881c97df6ccdc197248465b22033e1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a5974f470d9fe59be91f6c342ef80c7638400716/capsule_231x87.jpg"
@@ -109,7 +108,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3773500",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Indigo Studios - Interactive Stories",
+    "publisher": "JanduSoft",
+    "homepage": "https://indigostudios.one/"
+  },
+  "config": {
+    "installdir": "The Last Case of John Morley Demo",
+    "launch": {
+      "0": {
+        "executable": "TheLastCaseOfJMorley.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3773501": {
+      "manifests": {
+        "public": {
+          "gid": "2669957129602951397",
+          "size": "5096329633",
+          "download": "4860559040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20179347",
+        "timeupdated": "1759180695"
+      }
+    }
   }
 }
