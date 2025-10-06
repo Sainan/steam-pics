@@ -8,8 +8,8 @@
     "clienticon": "e13af7e3641cfe1f906ad8669d587cb3c4e7976a",
     "clienticns": "1603862911fa5e2c854a712a8cac52f161ff4b95",
     "oslist": "windows,macos",
-    "osarch": "",
-    "osextended": "macos64,macosapplesilicon",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -120,10 +120,17 @@
     "installdir": "Mate-Morphosis Demo",
     "launch": {
       "0": {
-        "executable": "Mate-Morphosis.exe"
+        "executable": "Mate-Morphosis.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
       },
       "1": {
-        "executable": "Mate-morphosis.app"
+        "executable": "Mate-morphosis.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
