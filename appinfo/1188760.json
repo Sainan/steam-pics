@@ -7,7 +7,7 @@
     "clienticon": "c634802b629fb6a8be6c3f7ea3ae8179ed0f72e0",
     "clienttga": "8a63af7790e99c2a63ac56934ae5142e2e41ba1d",
     "icon": "d359cab69f2e1ae19eada5dcfca4010447755958",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "logo": "14ca55d2117ef945487ea15558756e6945876f3b",
@@ -128,13 +128,20 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "JEF.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     },
     "steamcontrollertemplateindex": "2",
     "steamconfigurator3rdpartynative": "65535"
   },
   "depots": {
-    "228986": {
+    "228989": {
       "config": {
         "oslist": "windows"
       },
@@ -151,8 +158,7 @@
     "1188761": {
       "config": {
         "oslist": "windows",
-        "osarch": "64",
-        "language": ""
+        "osarch": "64"
       },
       "manifests": {
         "public": {
@@ -160,6 +166,16 @@
           "size": "6484341762",
           "download": "3666046192"
         }
+      }
+    },
+    "1188762": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "1188763": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "baselanguages": "",
@@ -177,10 +193,16 @@
       "0": {
         "root": "WinAppDataLocal",
         "path": "JEF/Saved/SaveGames",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/Steam/steamapps/JEF/Saved/SaveGames"
       }
     }
   }
