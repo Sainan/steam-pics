@@ -1,6 +1,5 @@
 {
   "appid": "4026640",
-  "public_only": "1",
   "common": {
     "name": "Chief Miner Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc39ca1a62a73ed87359d66b84346ca1f77059fe/capsule_231x87.jpg"
     },
@@ -42,7 +41,45 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4026640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Neon Division",
+    "publisher": "Neon Division"
+  },
+  "config": {
+    "installdir": "Chief Miner Demo",
+    "launch": {
+      "0": {
+        "executable": "Chief Miner Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4026641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4271258922664711332",
+          "size": "399723685",
+          "download": "157004656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20275563",
+        "timeupdated": "1759779364"
+      }
+    },
+    "privatebranches": "1"
   }
 }
