@@ -1,10 +1,9 @@
 {
   "appid": "3434040",
-  "public_only": "1",
   "common": {
     "name": "You Die Today",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ba9d45c5ddbfa02ff9266c8b8d34889a48f2f4ea",
     "clienticon": "f8ea42da944aebb6dab628e68967ce5616035898",
     "clienttga": "ceed45318c3169b2abc080385edba4cfeb3db9ed",
@@ -106,9 +105,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3434040",
-    "exfgls": "8",
     "store_tags": {
       "0": "1677",
       "1": "7556",
@@ -130,6 +130,52 @@
       "17": "122",
       "18": "3871",
       "19": "6815"
+    }
+  },
+  "extended": {
+    "developer": "Tabletale Games",
+    "publisher": "Tabletale Games"
+  },
+  "config": {
+    "installdir": "You Die Today",
+    "launch": {
+      "0": {
+        "executable": "You Die Today.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3434041": {
+      "manifests": {
+        "public": {
+          "gid": "6196237874412520798",
+          "size": "793434519",
+          "download": "80187312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20273248",
+        "timeupdated": "1759771166"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Tabletale Games\\You Die Today",
+        "pattern": "*"
+      }
     }
   }
 }
