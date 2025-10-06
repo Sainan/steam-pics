@@ -1,6 +1,5 @@
 {
   "appid": "3938820",
-  "public_only": "1",
   "common": {
     "name": "Chards",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "4591dbdcf243ede6a794e7c4dbf3fd194e44b340",
     "clienticon": "4dc4feeaf61c17f0bcd8f173d1315d2a6205d7e9",
     "linuxclienticon": "3cc6df148ac7b595a50a3a13ffb62458442a0613",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6df9591d9c95815b9e5b551c7b34c097762de8df/capsule_231x87.jpg"
@@ -108,7 +107,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3938820",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1666",
@@ -123,6 +121,59 @@
       "10": "32322",
       "11": "1775",
       "12": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Last Generation",
+    "publisher": "Last Generation"
+  },
+  "config": {
+    "installdir": "Chards",
+    "launch": {
+      "0": {
+        "executable": "Chards.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Chards.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3938821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7957798844331192765",
+          "size": "101251368",
+          "download": "31665136"
+        }
+      }
+    },
+    "3938822": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2143086081091700142",
+          "size": "79019788",
+          "download": "26178224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20266942",
+        "timeupdated": "1759738870"
+      }
     }
   }
 }
