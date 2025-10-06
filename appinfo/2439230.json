@@ -1,0 +1,211 @@
+{
+  "appid": "2439230",
+  "common": {
+    "name": "Trackline Express Demo",
+    "type": "Demo",
+    "parent": "2343920",
+    "releasestate": "released",
+    "icon": "e36de5db8a3cffc8fe4868953e311c0957ad5c2d",
+    "clienttga": "a902a3fc40672dc22dfad1db17a8e1daf227bc1d",
+    "clienticon": "8854b00600dfc364f66c772634db5fba75bc2cdc",
+    "clienticns": "94e3b124250c93acd2951bb38ac6c54f567220f6",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "linuxclienticon": "46d3cfee881beee89bb74bcb41113da34e8a9ded",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1745485030",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Bubblebird Studio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Bubblebird Studio"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_75": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1687099712",
+    "gameid": "2439230",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bubblebird Studio",
+    "publisher": "Bubblebird Studio",
+    "homepage": "https://trackline.bubblebirdstudio.com/"
+  },
+  "config": {
+    "installdir": "Trackline Express Demo",
+    "launch": {
+      "0": {
+        "executable": "TracklineExpress.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "TracklineExpress.app\\Contents\\MacOS\\TracklineExpress",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "TracklineExpress.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2439231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1485558544388555398",
+          "size": "254241035",
+          "download": "106901616"
+        },
+        "beta": {
+          "gid": "4267169923349221696",
+          "size": "254254664",
+          "download": "114965328"
+        }
+      }
+    },
+    "2439232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4364107736378173362",
+          "size": "280057681",
+          "download": "114745424"
+        },
+        "beta": {
+          "gid": "5497364743252947902",
+          "size": "279440683",
+          "download": "122875136"
+        }
+      }
+    },
+    "2439233": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1211767850120624619",
+          "size": "257752046",
+          "download": "106653952"
+        },
+        "beta": {
+          "gid": "5789085826065709129",
+          "size": "257660017",
+          "download": "113160976"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "14594434",
+        "timeupdated": "1717485102"
+      },
+      "beta": {
+        "buildid": "20267902",
+        "description": "Beta branch",
+        "timeupdated": "1759743569"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "appidredirect": "2343920",
+    "savefiles": {
+      "3": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.save"
+      },
+      "4": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.profile"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "BubblebirdStudio/TracklineExpress"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "BubblebirdStudio/TracklineExpress"
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/BubblebirdStudio/TracklineExpress"
+      }
+    }
+  }
+}
