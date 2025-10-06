@@ -1,6 +1,5 @@
 {
   "appid": "4038640",
-  "public_only": "1",
   "common": {
     "name": "Cyber Summer",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "295835f8158f55f84cdd00fcc7ee3bbe6791fec2/capsule_231x87.jpg"
@@ -103,9 +102,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759714013",
     "community_hub_visible": "1",
     "gameid": "4038640",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "597",
@@ -128,5 +127,63 @@
       "18": "1695",
       "19": "5673"
     }
+  },
+  "extended": {
+    "developer": "Zach Wise",
+    "publisher": "Zach Wise"
+  },
+  "config": {
+    "installdir": "Cyber Summer",
+    "launch": {
+      "0": {
+        "executable": "RPG.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4038641": {
+      "manifests": {
+        "public": {
+          "gid": "6725451001213761930",
+          "size": "15224996492",
+          "download": "14751590928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20170578",
+        "timeupdated": "1759140693"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
