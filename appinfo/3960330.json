@@ -1,11 +1,10 @@
 {
   "appid": "3960330",
-  "public_only": "1",
   "common": {
     "name": "国产之光 Demo",
     "type": "Demo",
     "parent": "3705980",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "d9839e25fdf1589624795f2e713a64ce1fc9dfd5",
     "icon": "d9839e25fdf1589624795f2e713a64ce1fc9dfd5",
     "oslist": "windows",
@@ -38,5 +37,38 @@
     },
     "gameid": "3960330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "光之神人工作室",
+    "publisher": "光之神人工作室"
+  },
+  "config": {
+    "installdir": "国产之光 Demo",
+    "launch": {
+      "0": {
+        "executable": "12Month.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3960331": {
+      "manifests": {
+        "public": {
+          "gid": "6440024247122827936",
+          "size": "345708120",
+          "download": "169810496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20272566",
+        "timeupdated": "1759764224"
+      }
+    }
   }
 }
