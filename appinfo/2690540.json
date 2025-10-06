@@ -238,7 +238,12 @@
         "os": "Linux",
         "oscompare": "=",
         "useinstead": "LinuxHome",
-        "addpath": ".config/unity3d/"
+        "pathtransforms": {
+          "0": {
+            "find": "Philipp Lehner/Faith in Despair",
+            "replace": ".config/unity3d/Philipp Lehner/Faith in Despair"
+          }
+        }
       },
       "1": {
         "root": "WinAppDataLocalLow",
@@ -247,7 +252,7 @@
         "useinstead": "MacAppSupport",
         "pathtransforms": {
           "0": {
-            "find": "Philipp Lehner\\Faith in Despair",
+            "find": "Philipp Lehner/Faith in Despair",
             "replace": "unity.PhilippLehner.FaithinDespair"
           }
         }
