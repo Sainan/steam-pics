@@ -1,6 +1,5 @@
 {
   "appid": "4037240",
-  "public_only": "1",
   "common": {
     "name": "Mask City: Chapter Zero Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -96,7 +95,128 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "gameid": "4037240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Powersteal Interactive",
+    "publisher": "Powersteal Interactive",
+    "homepage": "https://powersteal.com"
+  },
+  "config": {
+    "installdir": "Mask City Chapter Zero Demo",
+    "launch": {
+      "0": {
+        "executable": "Mask City Chapter Zero.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Mask City - Chapter Zero Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Mask City Chapter Zero.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037241": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "958481888198951064",
+          "size": "1417441543",
+          "download": "1089742176"
+        }
+      }
+    },
+    "4037242": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6507908900639553680",
+          "size": "1566755190",
+          "download": "1118179824"
+        }
+      }
+    },
+    "4037243": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "744159391501194325",
+          "size": "1412416652",
+          "download": "1087089872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19996342",
+        "timeupdated": "1758009388"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "PowerSteal Interactive/Mask City Chapter Zero",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "PowerSteal Interactive/Mask City Chapter Zero",
+            "replace": "Powersteal Interactive/Mask City Chapter Zero"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "PowerSteal Interactive/Mask City Chapter Zero",
+            "replace": "snap/steam/common/.config/unity3d/PowerSteal Interactive/Mask City Chapter Zero"
+          }
+        }
+      }
+    }
   }
 }
