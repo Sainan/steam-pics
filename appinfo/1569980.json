@@ -1,10 +1,9 @@
 {
   "appid": "1569980",
-  "public_only": "1",
   "common": {
     "name": "CHAOS GAME",
     "type": "Application",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "89662fda7ffbbe2c3d449f91815b3bf37a129303",
     "logo_small": "89662fda7ffbbe2c3d449f91815b3bf37a129303_thumb",
     "icon": "8cc111feee16af1fa58c93d9bbe20d814a55ba92",
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759781348",
+    "store_asset_mtime": "1759786855",
     "associations": {
       "0": {
         "type": "developer",
@@ -99,6 +98,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759786890",
     "community_hub_visible": "1",
     "gameid": "1569980",
     "exfgls": "6",
@@ -108,6 +108,58 @@
       "2": "87",
       "3": "8013",
       "4": "809"
+    }
+  },
+  "extended": {
+    "developer": "snet",
+    "publisher": "snet",
+    "isfreeapp": "1",
+    "listofdlc": "1583310",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "CHAOS Game",
+    "launch": {
+      "0": {
+        "executable": "chaos_game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "chaos_game.exe",
+        "arguments": "full_feature",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "ownsdlc": "1583310"
+        },
+        "description_loc": {
+          "english": "Launch with DLC"
+        },
+        "description": "Launch with DLC"
+      }
+    }
+  },
+  "depots": {
+    "1569981": {
+      "manifests": {
+        "public": {
+          "gid": "9223011431078405436",
+          "size": "3593216",
+          "download": "816032"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "6413923",
+        "timeupdated": "1616268975"
+      }
     }
   }
 }
