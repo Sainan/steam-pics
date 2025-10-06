@@ -1,6 +1,5 @@
 {
   "appid": "3982560",
-  "public_only": "1",
   "common": {
     "name": "Polygon Bit Battle Royale: Free Sample",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64",
     "icon": "68189bcb095bc334bece90b65adbf31f033ccb11",
     "clienticon": "68189bcb095bc334bece90b65adbf31f033ccb11",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "435a01623a27505ea4fe97f94addd00990e8d937/capsule_231x87.jpg"
@@ -193,7 +192,96 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3982560",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Army Troop Studios",
+    "publisher": "Army Troop Studios"
+  },
+  "config": {
+    "installdir": "PolygonBitBattleRoyaleDemo",
+    "launch": {
+      "0": {
+        "executable": "PolygonBitBattleRoyaleDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PolygonBitBattleRoyaleDemo.app\\Contents\\MacOS\\PolygonBitBattleRoyaleDemo",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "PolygonBitBattleRoyaleDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3982561": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4522685961432436875",
+          "size": "1477418637",
+          "download": "222233968"
+        }
+      }
+    },
+    "3982562": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9219631412966602472",
+          "size": "1471957894",
+          "download": "219768784"
+        }
+      }
+    },
+    "3982563": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8165053313157658110",
+          "size": "1484522318",
+          "download": "223776256"
+        }
+      }
+    },
+    "3982564": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2975051132892243252",
+          "size": "1468930127",
+          "download": "218716064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20275059",
+        "timeupdated": "1759776493"
+      }
+    }
   }
 }
