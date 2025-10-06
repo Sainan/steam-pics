@@ -1,6 +1,5 @@
 {
   "appid": "4044260",
-  "public_only": "1",
   "common": {
     "name": "Messy Hearts Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "7f1a20d98c7190d8d8c3ee562997a3c6b11019c3",
     "clienticns": "01fcbcf3a0560b8a255471aa97f62f305a0b5910",
     "linuxclienticon": "4461ac88af34c06c7afc1af6b0a45d8302b0688a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -101,7 +100,103 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4044260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Black Heart Games",
+    "publisher": "Black Heart Games",
+    "homepage": "https://www.black-heart.games/messyhearts"
+  },
+  "config": {
+    "installdir": "MessyHeartsDemo",
+    "launch": {
+      "0": {
+        "executable": "MessyHeartsDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "MessyHeartsDemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "macOS"
+        },
+        "description": "macOS"
+      },
+      "2": {
+        "executable": "MessyHeartsDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Linux"
+        },
+        "description": "Linux"
+      }
+    }
+  },
+  "depots": {
+    "4044261": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6569472373430754181",
+          "size": "106095816",
+          "download": "34626432"
+        }
+      }
+    },
+    "4044262": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3629470012910902145",
+          "size": "122055484",
+          "download": "42433648"
+        }
+      }
+    },
+    "4044263": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2134913939992174665",
+          "size": "102661265",
+          "download": "32786064"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20097183",
+        "timeupdated": "1758649545"
+      }
+    }
   }
 }
