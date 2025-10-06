@@ -1,6 +1,5 @@
 {
   "appid": "2946750",
-  "public_only": "1",
   "common": {
     "name": "BYTE",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -98,9 +97,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759783160",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2946750",
-    "exfgls": "8",
     "store_tags": {
       "0": "4434",
       "1": "4018",
@@ -123,5 +123,61 @@
       "18": "4191",
       "19": "4115"
     }
+  },
+  "extended": {
+    "developer": "James Martini",
+    "publisher": "James Martini",
+    "homepage": "https://jamesmartini.me/byte"
+  },
+  "config": {
+    "installdir": "BYTE",
+    "launch": {
+      "0": {
+        "executable": "\\BYTE\\BYTE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "\\BYTE.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2946751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "699955062299094024",
+          "size": "851399245",
+          "download": "395477712"
+        }
+      }
+    },
+    "2946752": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3364510713790996203",
+          "size": "843188400",
+          "download": "406109744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20100867",
+        "timeupdated": "1758671043"
+      }
+    },
+    "privatebranches": "1"
   }
 }
