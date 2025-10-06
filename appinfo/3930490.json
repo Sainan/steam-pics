@@ -1,6 +1,5 @@
 {
   "appid": "3930490",
-  "public_only": "1",
   "common": {
     "name": "Paradise Island 2: Hotel Game",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "553e4faa6ea778223ba7a1a7938ced39f8acb4b8",
     "clienticon": "0f19eeb17a60f0c60f2dc571b119267832c16a12",
     "icon": "77e6df8a4764274725cd7b37903fd6f5d88801b4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3930490_eula_0",
@@ -167,5 +166,52 @@
       "16": "1685",
       "17": "3843"
     }
+  },
+  "extended": {
+    "developer": "Game Insight UAB",
+    "publisher": "Game Insight UAB",
+    "homepage": "https://www.game-insight.com/en/games/paradise-island-2",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Paradise Island 2 Hotel Game",
+    "launch": {
+      "0": {
+        "executable": "Island2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3930491": {
+      "manifests": {
+        "public": {
+          "gid": "8053850501287996859",
+          "size": "1265631960",
+          "download": "916745680"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20268501",
+        "timeupdated": "1759748665"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
