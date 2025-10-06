@@ -1,6 +1,5 @@
 {
   "appid": "4016720",
-  "public_only": "1",
   "common": {
     "name": "Pohmielisko",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -112,9 +111,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4016720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -140,5 +139,81 @@
       "18": "1721",
       "19": "5984"
     }
+  },
+  "extended": {
+    "developer": "Pohybelnia",
+    "publisher": "Pohybelnia"
+  },
+  "config": {
+    "installdir": "Pohmielisko",
+    "launch": {
+      "0": {
+        "executable": "Pohmielisko.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229030": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4016721": {
+      "manifests": {
+        "public": {
+          "gid": "6781349677889977078",
+          "size": "1254368276",
+          "download": "983380608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20209954",
+        "timeupdated": "1759338107"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
