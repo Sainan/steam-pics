@@ -1,0 +1,133 @@
+{
+  "appid": "3543660",
+  "common": {
+    "name": "Herald: The Interactive Period Drama – Complete Edition Demo",
+    "type": "Demo",
+    "parent": "2199510",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "36ad448e396452c4c30f3b2b5ba1ebe99f87de62",
+    "clienticon": "ec854ed7ebd4747fa67d99403910414d66a45683",
+    "clienttga": "8d7d7f9f6012439253f745be78059901756bff92",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "598d5bd9a53eeb38181ec550e86922ec7f3cbd6c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "9c6ff00900dd2c6146e13cae35323f5cd4842e9f/header.jpg"
+    },
+    "store_asset_mtime": "1745939790",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Wispfire"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Wispfire"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_13": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1745938602",
+    "gameid": "3543660",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Wispfire",
+    "publisher": "Wispfire"
+  },
+  "config": {
+    "installdir": "Herald Complete Edition Demo",
+    "launch": {
+      "0": {
+        "executable": "Herald.exe"
+      }
+    }
+  },
+  "depots": {
+    "3543661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4676962423185672671",
+          "size": "2364569630",
+          "download": "1395445904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18362064",
+        "timeupdated": "1746549112"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "2199510",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Wispfire/Herald",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "unity.Wispfire.Herald"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Wispfire/Herald",
+            "replace": ".config/unity3d/Wispfire/Herald"
+          }
+        }
+      }
+    }
+  }
+}
