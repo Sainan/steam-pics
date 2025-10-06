@@ -1,0 +1,183 @@
+{
+  "appid": "2771570",
+  "common": {
+    "name": "nullptr - Demo",
+    "type": "Demo",
+    "parent": "1579650",
+    "releasestate": "released",
+    "icon": "c32144824d369280e7f74a77505abf2ec08384cf",
+    "clienticon": "3c6f158dfeb0e6d7f463d9cbcde24a7f41b99495",
+    "clienttga": "afb48d82316e0973b74188de82748ca3dc4ba99a",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "47.091144149967676",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "47.091144149967676",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1757534048",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Jeferson Silva"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Jeferson Silva"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "23",
+      "1": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1705447739",
+    "gameid": "2771570",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jeferson Silva",
+    "publisher": "Jeferson Silva"
+  },
+  "config": {
+    "installdir": "nullptr-demo",
+    "launch": {
+      "0": {
+        "executable": "nullptr/nullptr.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "nullptr/nullptr.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2771571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4405621659198235858",
+          "size": "38162517",
+          "download": "10109664"
+        }
+      }
+    },
+    "2771572": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6049191564604048668",
+          "size": "58061625",
+          "download": "15679392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20269390",
+        "timeupdated": "1759750417"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "32000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "nullptr",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "nullptr",
+            "replace": ".nullptr"
+          }
+        }
+      }
+    }
+  }
+}
