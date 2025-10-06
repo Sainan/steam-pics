@@ -1,10 +1,9 @@
 {
   "appid": "3837230",
-  "public_only": "1",
   "common": {
     "name": "Codename: Black Crow",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "7828c9d1231ddf4c72547d63696a81e4c7a533ae",
     "clienttga": "0e0413a3980c2cf63a62bdad6fcc04666f48c198",
     "clienticon": "317ccea05098ce11370a5a93b74a8f73ca7d6ddb",
@@ -133,9 +132,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759771516",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3837230",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -157,6 +157,44 @@
       "17": "3993",
       "18": "7481",
       "19": "8945"
+    }
+  },
+  "extended": {
+    "developer": "SEEP",
+    "publisher": "SEEP"
+  },
+  "config": {
+    "installdir": "Codename Black Crow",
+    "launch": {
+      "0": {
+        "executable": "win64/Codename Black Crow.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "linux64/Codename Black Crow",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3837231": {
+      "manifests": {
+        "public": {
+          "gid": "5401357373186121862",
+          "size": "574167850",
+          "download": "237722528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20273988",
+        "timeupdated": "1759771152"
+      }
     }
   }
 }
