@@ -1,6 +1,5 @@
 {
   "appid": "3991120",
-  "public_only": "1",
   "common": {
     "name": "Mariposa",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "8f63d1a49f8f8afe154f5d63cd1f14840f6f22cc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "db703efc8bd62ac9f7b6aba87f8e89eb32ef97f3/capsule_231x87.jpg"
@@ -125,6 +124,64 @@
       "15": "6971",
       "16": "1742",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Video Game Development Club @ UC San Diego",
+    "publisher": "Video Game Development Club @ UC San Diego",
+    "homepage": "https://www.vgdc.dev/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Mariposa",
+    "launch": {
+      "0": {
+        "executable": "Mariposa/Mariposa.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mariposa-mac-build.app/Contents/MacOS/Mariposa",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3991121": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1657332036823521710",
+          "size": "1001081914",
+          "download": "162573168"
+        }
+      }
+    },
+    "3991122": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9020161081113226787",
+          "size": "1015619264",
+          "download": "170069264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20263202",
+        "timeupdated": "1759704694"
+      }
     }
   }
 }
