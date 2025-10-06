@@ -1,6 +1,5 @@
 {
   "appid": "3950790",
-  "public_only": "1",
   "common": {
     "name": "Gangsta Style Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "f68f6ad7445255af308422cbb4b73032c5a5d61e",
     "clienticon": "0acb27aed26c6c0b0b314a6bf19c3f61e433b7a3",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -36,7 +35,9 @@
     "category": {
       "category_1": "1",
       "category_49": "1",
-      "category_36": "1"
+      "category_36": "1",
+      "category_68": "1",
+      "category_69": "1"
     },
     "supported_languages": {
       "english": {
@@ -48,6 +49,45 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Mon Amiral",
+    "publisher": "Mon Amiral"
+  },
+  "config": {
+    "installdir": "Gangsta Style Demo",
+    "launch": {
+      "0": {
+        "executable": "Gangsta Style.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3950791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8011097190877865519",
+          "size": "209511707",
+          "download": "48802064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20272943",
+        "timeupdated": "1759765874"
+      }
     }
   }
 }
