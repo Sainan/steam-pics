@@ -199,9 +199,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "3901261737719717587",
-          "size": "295848287",
-          "download": "90298000"
+          "gid": "3533518465545185354",
+          "size": "295704443",
+          "download": "97493920"
         },
         "testing": {
           "gid": "3533518465545185354",
@@ -215,6 +215,11 @@
         "oslist": "linux"
       },
       "manifests": {
+        "public": {
+          "gid": "634229221344764991",
+          "size": "344826410",
+          "download": "91939456"
+        },
         "testing": {
           "gid": "634229221344764991",
           "size": "344826410",
@@ -225,8 +230,8 @@
     "baselanguages": "english,german,french,spanish,schinese,russian,dutch,turkish",
     "branches": {
       "public": {
-        "buildid": "17655288",
-        "timeupdated": "1741561138"
+        "buildid": "20275337",
+        "timeupdated": "1759778338"
       },
       "testing": {
         "buildid": "20275337",
@@ -243,7 +248,18 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Not Final Games/Tulips _ Windmills",
-        "pattern": "*.json"
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": "",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        }
       }
     }
   }
