@@ -1,6 +1,5 @@
 {
   "appid": "4048280",
-  "public_only": "1",
   "common": {
     "name": "It Takes a War Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -71,10 +70,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4048280",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Thomas Mackinnon",
+    "publisher": "Pantaloon",
+    "homepage": "https://pantaloon.io/it-takes-a-war"
+  },
+  "config": {
+    "installdir": "It Takes a War Demo",
+    "launch": {
+      "0": {
+        "executable": "ItTakesaWarDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4048281": {
+      "manifests": {
+        "public": {
+          "gid": "638611495029156501",
+          "size": "7772705335",
+          "download": "3203992128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20254970",
+        "timeupdated": "1759612034"
+      }
     }
   }
 }
