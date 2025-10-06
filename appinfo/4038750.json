@@ -1,6 +1,5 @@
 {
   "appid": "4038750",
-  "public_only": "1",
   "common": {
     "name": "Shibuya Bullet",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "bb3a2c6cc3fbca3e0c7609b5e6f4c53c693025a8",
     "icon": "2983f2317f9e14a2588213db685cdab05c4c2986",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a5ac92541dffc1b5ae9185321f54fac5efc01b7a/capsule_231x87.jpg"
@@ -99,6 +98,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759792169",
     "community_hub_visible": "1",
     "gameid": "4038750",
     "exfgls": "3",
@@ -114,5 +114,54 @@
       "8": "597",
       "9": "4182"
     }
+  },
+  "extended": {
+    "developer": "JUNICHI GAMES",
+    "publisher": "Studio Shibumaru",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": ".",
+    "launch": {
+      "0": {
+        "executable": "ShibuyaBullet.exe",
+        "arguments": "-windowed",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Main executable for Shibuya Bullet. Launches the game in windowed mode."
+        },
+        "description": "Main executable for Shibuya Bullet. Launches the game in windowed mode."
+      }
+    }
+  },
+  "depots": {
+    "4038751": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8250558233319075665",
+          "size": "3810177",
+          "download": "1505152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20009336",
+        "timeupdated": "1758080097"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
