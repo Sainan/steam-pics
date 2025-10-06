@@ -1,6 +1,5 @@
 {
   "appid": "4039380",
-  "public_only": "1",
   "common": {
     "name": "UFOPHILIA Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -154,5 +153,53 @@
     },
     "gameid": "4039380",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "k148 Game Studio",
+    "publisher": "JanduSoft",
+    "homepage": "https://www.jandusoft.com"
+  },
+  "config": {
+    "installdir": "UFOPHILIA Demo",
+    "launch": {
+      "0": {
+        "executable": "UFOPHILIA_Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4039381": {
+      "manifests": {
+        "public": {
+          "gid": "6212295925314974700",
+          "size": "6847341791",
+          "download": "6604185248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20208402",
+        "timeupdated": "1759331500"
+      }
+    }
   }
 }
