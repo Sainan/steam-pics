@@ -1,6 +1,5 @@
 {
   "appid": "3887670",
-  "public_only": "1",
   "common": {
     "name": " 梵高3D画作 Van Gogh 3D Paintings",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "9bf93c48b8bb018002639f640a27b03263ad7d87",
     "clienttga": "4b2190a719db3e2dd1bc604cb5ad4bfd1aa927b2",
     "clienticon": "4f2ba19bc51b0dac008c0901843eb50a0892eebd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -115,9 +114,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3887670",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1036",
@@ -127,6 +126,59 @@
       "5": "4182",
       "6": "492",
       "7": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Rose21",
+    "publisher": "Rose21"
+  },
+  "config": {
+    "installdir": "VanGogh3DPaintings",
+    "launch": {
+      "0": {
+        "executable": "VanGogh3DPaintings\\VanGogh3DPaintings.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3887671": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "589798143823775876",
+          "size": "3751295669",
+          "download": "2216429024"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20256851",
+        "timeupdated": "1759717715"
+      }
     }
   }
 }
