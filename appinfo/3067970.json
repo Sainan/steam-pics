@@ -1,6 +1,5 @@
 {
   "appid": "3067970",
-  "public_only": "1",
   "common": {
     "name": "Broken Aperture",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3067970",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -132,5 +131,53 @@
       "16": "5608",
       "17": "7702"
     }
+  },
+  "extended": {
+    "developer": "Dinobyte Softworks LLC",
+    "publisher": "Dinobyte Softworks LLC",
+    "homepage": "https://www.dinobytesoftworks.com/broken-aperture.html"
+  },
+  "config": {
+    "installdir": "Broken Aperture",
+    "launch": {
+      "0": {
+        "executable": "BrokenAP_V2.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3067971": {
+      "manifests": {
+        "public": {
+          "gid": "4256946271077698221",
+          "size": "4238981030",
+          "download": "4089556928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20265899",
+        "timeupdated": "1759732455"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
