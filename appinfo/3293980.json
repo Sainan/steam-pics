@@ -1,0 +1,219 @@
+{
+  "appid": "3293980",
+  "common": {
+    "name": "Ricave Demo",
+    "type": "Demo",
+    "parent": "2358360",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "clienttga": "e344d33df65bdda19a8e8f168dcba54958100daf",
+    "clienticon": "0845c09c86f9963485784bb42a539cd30a064550",
+    "icon": "19025ae7e3103290e74182d2d383b48ebb896a5a",
+    "releasestate": "released",
+    "eulas": {
+      "0": {
+        "id": "3293980_eula_0",
+        "name": "Ricave Demo EULA",
+        "url": "https://store.steampowered.com//eula/3293980_eula_0",
+        "version": "1"
+      }
+    },
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "045d2b5ea8dd1ab28d2757e5a17d2edc707d4453/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "332624ab8267284ca4e304131a2219fb41fd6ebc/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "ccae1d200dbed89467c7fec8062ad063e726a716/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "ccae1d200dbed89467c7fec8062ad063e726a716/library_600x900_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "3e28c068615cd7ed855a6c71b38338899c365cfa/library_header.jpg"
+        },
+        "image2x": {
+          "english": "3e28c068615cd7ed855a6c71b38338899c365cfa/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1755437571",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Rogueatic Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Rogueatic Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_18": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1731410438",
+    "gameid": "3293980",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rogueatic Games",
+    "publisher": "Rogueatic Games",
+    "homepage": "https://ricave.com"
+  },
+  "config": {
+    "installdir": "Ricave Demo",
+    "launch": {
+      "0": {
+        "executable": "Ricave.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Ricave.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Ricave",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "SteamInputConfig.vdf",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3293981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7868812373386651213",
+          "size": "484185356",
+          "download": "138303712"
+        },
+        "unstable": {
+          "gid": "7868812373386651213",
+          "size": "484185356",
+          "download": "138303712"
+        }
+      }
+    },
+    "3293982": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6029236787568932723",
+          "size": "508692558",
+          "download": "145798224"
+        },
+        "unstable": {
+          "gid": "6029236787568932723",
+          "size": "508692558",
+          "download": "145798224"
+        }
+      }
+    },
+    "3293983": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1802635944785981564",
+          "size": "490147967",
+          "download": "140579424"
+        },
+        "unstable": {
+          "gid": "1802635944785981564",
+          "size": "490147967",
+          "download": "140579424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19975342",
+        "timeupdated": "1759793124"
+      },
+      "unstable": {
+        "buildid": "19975342",
+        "description": "Unstable version of the game",
+        "timeupdated": "1757857877"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "2000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Rogueatic Games/Ricave",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Rogueatic Games/Ricave",
+        "pattern": "*.prg",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogueatic Games/Ricave",
+            "replace": "Ricave"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogueatic Games/Ricave",
+            "replace": ".config/unity3d/Rogueatic Games/Ricave"
+          }
+        }
+      }
+    },
+    "appidredirect": "2358360"
+  }
+}
