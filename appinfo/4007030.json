@@ -1,6 +1,5 @@
 {
   "appid": "4007030",
-  "public_only": "1",
   "common": {
     "name": "Scratch&Nen",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "刮刮念"
     },
@@ -148,9 +147,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759735008",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4007030",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -168,6 +168,54 @@
       "13": "4325",
       "14": "17389",
       "15": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Filet Studio",
+    "publisher": "Filet Studio"
+  },
+  "config": {
+    "installdir": "刮刮念",
+    "launch": {
+      "0": {
+        "executable": "GuaGuaNianSteam.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4007031": {
+      "manifests": {
+        "public": {
+          "gid": "8815919108195909003",
+          "size": "936075438",
+          "download": "566215008"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,schinese,russian,japanese,portuguese,latam",
+    "branches": {
+      "public": {
+        "buildid": "20152776",
+        "timeupdated": "1758957681"
+      }
     }
   }
 }
