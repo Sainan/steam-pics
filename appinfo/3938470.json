@@ -1,6 +1,5 @@
 {
   "appid": "3938470",
-  "public_only": "1",
   "common": {
     "name": "Monster Ops 14 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -119,6 +118,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759789803",
     "gameid": "3938470",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -126,6 +126,54 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "Y Press Games",
+    "publisher": "Y Press Games",
+    "homepage": "https://ypressgames.com/category/monster-ops/"
+  },
+  "config": {
+    "installdir": "Monster Ops 14 Demo",
+    "launch": {
+      "0": {
+        "executable": "MonsterOps13.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MonsterOps13.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "MonsterOps13.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3938471": {
+      "manifests": {
+        "public": {
+          "gid": "3428223158491733959",
+          "size": "604377299",
+          "download": "488184896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19648814",
+        "timeupdated": "1755578541"
+      }
     }
   }
 }
