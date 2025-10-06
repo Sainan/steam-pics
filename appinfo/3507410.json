@@ -107,7 +107,8 @@
         "buildid": "20234867",
         "timeupdated": "1759476447"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "ufs": {
     "quota": "5000",
@@ -117,7 +118,18 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Pink Sakura Studios\\On The Wind's Breath",
-        "pattern": "*.dat"
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/Pink Sakura Studios/On The Wind's Breath/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
       },
       "copied_from_parent": "1"
     }
