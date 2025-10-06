@@ -130,5 +130,45 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express",
+        "pattern": "profiles.tres"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express/profile_a",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express/profile_b",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "3": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express/profile_c",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
   }
 }
