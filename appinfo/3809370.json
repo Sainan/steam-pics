@@ -1,6 +1,5 @@
 {
   "appid": "3809370",
-  "public_only": "1",
   "common": {
     "name": "Clubbed",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,9 +112,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3809370",
-    "exfgls": "8",
     "store_tags": {
       "0": "701",
       "1": "4191",
@@ -134,5 +133,80 @@
       "14": "699",
       "15": "22955"
     }
+  },
+  "extended": {
+    "developer": "Croissoft",
+    "publisher": "Croissoft"
+  },
+  "config": {
+    "installdir": "Clubbed",
+    "launch": {
+      "0": {
+        "executable": "Clubbed.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "Clubbed.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "Clubbed.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3809371": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1624730895356303635",
+          "size": "960092785",
+          "download": "259203728"
+        }
+      }
+    },
+    "3809372": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9007165800527640288",
+          "size": "954771333",
+          "download": "256062608"
+        }
+      }
+    },
+    "3809373": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6230479008122440816",
+          "size": "934084705",
+          "download": "249305360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20186362",
+        "timeupdated": "1759232072"
+      }
+    },
+    "privatebranches": "1"
   }
 }
