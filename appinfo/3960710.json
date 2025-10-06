@@ -1,11 +1,10 @@
 {
   "appid": "3960710",
-  "public_only": "1",
   "common": {
     "name": "Valorborn Demo",
     "type": "Demo",
     "parent": "3372530",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -49,5 +48,62 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Laps Games",
+    "publisher": "Laps Games"
+  },
+  "config": {
+    "installdir": "Valorborn Demo",
+    "launch": {
+      "0": {
+        "executable": "MedievalRPG.exe",
+        "arguments": "-d3d12",
+        "description_loc": {
+          "english": "Directx 12"
+        },
+        "description": "Directx 12"
+      },
+      "1": {
+        "executable": "MedievalRPG.exe",
+        "arguments": "-dx11",
+        "description_loc": {
+          "english": "Directx 11"
+        },
+        "description": "Directx 11"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3960711": {
+      "manifests": {
+        "public": {
+          "gid": "5177286441090242952",
+          "size": "14038491959",
+          "download": "12919059248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20264790",
+        "timeupdated": "1759721403"
+      }
+    },
+    "privatebranches": "1"
   }
 }
