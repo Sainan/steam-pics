@@ -1,13 +1,12 @@
 {
   "appid": "3617620",
-  "public_only": "1",
   "common": {
     "name": "My Card Is Better Than Your Card!",
     "type": "Game",
     "icon": "2479ef0fee63337cb4bff14a86ed6b9255a56100",
     "clienticon": "f8de794abe9b45b099242d150453a1ac09a85815",
     "clienttga": "516b49928f0b007ac5bc7691e1fbad983c01b16b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "ぼくのカードのほーがきみのよりすごいもん！",
       "schinese": "我的牌更好！",
@@ -211,9 +210,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759773718",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3617620",
-    "exfgls": "8",
     "store_tags": {
       "0": "1666",
       "1": "9",
@@ -235,6 +235,109 @@
       "17": "1654",
       "18": "597",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Utu Studios",
+    "publisher": "Utu Studios",
+    "homepage": "https://utustudios.com/press/mycard/"
+  },
+  "config": {
+    "installdir": "My card is better than your card!",
+    "launch": {
+      "0": {
+        "executable": "MyCardIsBetterThanYourCard.exe",
+        "arguments": "--rendering-method mobile --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "My Card Is Better Than Your Card! (Recommended)",
+          "german": "My Card Is Better Than Your Card! (Empfohlen)",
+          "french": "My Card Is Better Than Your Card! (Conseillé)",
+          "koreana": "My Card Is Better Than Your Card! (추천)",
+          "spanish": "My Card Is Better Than Your Card! (Recomendado)",
+          "schinese": "我的牌更好！ (推荐)",
+          "tchinese": "我的牌更好！（推薦使用）",
+          "russian": "My Card Is Better Than Your Card! (рекомендуется)",
+          "japanese": "ぼくのカードのほーがきみのよりすごいもん！ (おすすめ)",
+          "portuguese": "My Card Is Better Than Your Card! (Recomendado)",
+          "polish": "My Card Is Better Than Your Card! (Zalecany)",
+          "brazilian": "My Card Is Better Than Your Card! (Recomendado)",
+          "latam": "My Card Is Better Than Your Card! (Recomendado)"
+        },
+        "description": "My Card Is Better Than Your Card! (Recommended)"
+      },
+      "1": {
+        "executable": "MyCardIsBetterThanYourCard.exe",
+        "arguments": "--rendering-method gl_compatibility --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
+        "type": "option2",
+        "description_loc": {
+          "english": "My Card Is Better Than Your Card! (Use this if you have any technical issues with the game or input lag)",
+          "german": "My Card Is Better Than Your Card! (Benutze diese Option, falls Probleme auftreten sollten)",
+          "french": "My Card Is Better Than Your Card! (Utilisez cette version si vous rencontrez des problèmes avec le jeu)",
+          "koreana": "My Card Is Better Than Your Card! (게임에 기술적인 문제가 있거나 인풋랙이 발생할 경우 사용하세요)",
+          "spanish": "My Card Is Better Than Your Card! (Usa esta opción si experimentas problemas con el juego)",
+          "schinese": "我的牌更好！ (如果您在游戏或输入延迟上遇到任何问题，请使用此版本)",
+          "tchinese": "我的牌更好！（如果你在遊戲中遇到技術問題或輸入延遲，請使用此版本）",
+          "russian": "My Card Is Better Than Your Card! (используйте в случае возникновения технических проблем в игре или задержки ввода)",
+          "japanese": "ぼくのカードのほーがきみのよりすごいもん！ (ラグや問題が起こる場合こちらを使用してください)",
+          "portuguese": "My Card Is Better Than Your Card! (Use essa opção se você está tendo problemas com o jogo)",
+          "polish": "My Card Is Better Than Your Card! (Użyj tych ustawień, jeśli napotkasz problemy z grą lub opóźnienia sterowania)",
+          "brazilian": "My Card Is Better Than Your Card! (Use essa opção se você está tendo problemas com o jogo)",
+          "latam": "My Card Is Better Than Your Card! (OpenGL)"
+        },
+        "description": "My Card Is Better Than Your Card! (Use this if you have any technical issues with the game or input lag)"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3617621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9049617924546725562",
+          "size": "596827005",
+          "download": "481507648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20273093",
+        "timeupdated": "1759766673"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveData-EA/",
+        "pattern": "*.save",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "SaveData-EA/",
+            "replace": "Godot/app_userdata/My Card Is Better Than Your Card!/SaveData-EA/"
+          }
+        }
+      }
     }
   }
 }
