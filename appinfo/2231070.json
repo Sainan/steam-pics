@@ -1,6 +1,5 @@
 {
   "appid": "2231070",
-  "public_only": "1",
   "common": {
     "name": "150 Floors",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "3b41e15a7ab175ccc685aa97e24e9a14dec53084",
     "clienticon": "39226995d0aa269bc178f531fed5471f0364b588",
     "clienttga": "e7400ac710abcb2af216d8fedf9fa84f211fa520",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "DE",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2231070",
-    "exfgls": "8",
     "store_tags": {
       "0": "1720",
       "1": "4155",
@@ -128,6 +127,45 @@
       "17": "4305",
       "18": "4975",
       "19": "4195"
+    }
+  },
+  "extended": {
+    "developer": "Bindlestick Media",
+    "publisher": "Bindlestick Media",
+    "homepage": "https://www.bindlestickmedia.com"
+  },
+  "config": {
+    "installdir": "150 Floors",
+    "launch": {
+      "0": {
+        "executable": "150 Floors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2231079": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4920396733263934336",
+          "size": "5524524111",
+          "download": "810841488"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20166124",
+        "timeupdated": "1759110529"
+      }
     }
   }
 }
