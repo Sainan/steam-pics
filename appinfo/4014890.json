@@ -1,6 +1,5 @@
 {
   "appid": "4014890",
-  "public_only": "1",
   "common": {
     "name": "Milaneseria Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "latam": "1"
@@ -123,7 +122,51 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "4014890",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Milanesa Studio",
+    "publisher": "Milanesa Studio"
+  },
+  "config": {
+    "installdir": "Milaneseria Demo",
+    "launch": {
+      "0": {
+        "executable": "Milaneseria.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4014891": {
+      "manifests": {
+        "public": {
+          "gid": "8838759401943068924",
+          "size": "533124777",
+          "download": "329830784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20273077",
+        "timeupdated": "1759766660"
+      }
+    }
   }
 }
