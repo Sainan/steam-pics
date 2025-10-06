@@ -1,4 +1,180 @@
 {
   "appid": "4053500",
-  "public_only": "1"
+  "common": {
+    "name": "BBY DON'T HURT ME Demo",
+    "type": "Demo",
+    "parent": "3916540",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "63fabe14d030dd3acc318314f0903199c4fc2b0e",
+    "clienticon": "596c5ed90ccba363f05f92b364cf93af83139f1c",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "1",
+      "1": "5"
+    },
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "df91597a08e33bad553f00eb0ab1e9a64acf32da/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "48d60afc490bc77dc82ad1f2df6d0f57bb66a955/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "18.97555296856808",
+        "height_pct": "33.661838043220115"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "d8303015e6e78e23be846a0cb0b8f2c097e0c7b4/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "d8303015e6e78e23be846a0cb0b8f2c097e0c7b4/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "1aa649ac99bfbcb54b0db6f344c4664e1edb5405/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "1aa649ac99bfbcb54b0db6f344c4664e1edb5405/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "1aa649ac99bfbcb54b0db6f344c4664e1edb5405/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "8c31d33a16b632132a6b4473e6328750fcd97f4e/logo.png"
+        },
+        "image2x": {
+          "english": "8c31d33a16b632132a6b4473e6328750fcd97f4e/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "18.97555296856808",
+          "height_pct": "33.661838043220115"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "48d60afc490bc77dc82ad1f2df6d0f57bb66a955/library_header.jpg"
+        },
+        "image2x": {
+          "english": "48d60afc490bc77dc82ad1f2df6d0f57bb66a955/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759213836",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "KITT DESIGNS LTD"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "KITT DESIGNS LTD"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_78": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759756445",
+    "gameid": "4053500",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "KITT DESIGNS LTD",
+    "publisher": "KITT DESIGNS LTD",
+    "homepage": "https://www.kittdesigns.com/"
+  },
+  "config": {
+    "installdir": "BBY DON'T HURT ME Demo",
+    "launch": {
+      "0": {
+        "executable": "BBY DONT HURT ME.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Windows Version"
+        },
+        "description": "Windows Version"
+      },
+      "1": {
+        "executable": "BBY DONT HURT ME.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Linux Version"
+        },
+        "description": "Linux Version"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4053501": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "119980684541599420",
+          "size": "551977040",
+          "download": "351491920"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20270592",
+        "timeupdated": "1759755840"
+      }
+    }
+  }
 }
