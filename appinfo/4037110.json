@@ -1,6 +1,5 @@
 {
   "appid": "4037110",
-  "public_only": "1",
   "common": {
     "name": "The Watcher In The Bright",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3a1da9dcfa0e3f5f2193c94f68e8dee2e8e2fbe3/capsule_231x87.jpg"
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "4037110",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1664",
@@ -127,6 +126,50 @@
       "17": "4064",
       "18": "1759",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Sharur3D",
+    "publisher": "Sharur3D"
+  },
+  "config": {
+    "installdir": "TheWatcher",
+    "launch": {
+      "0": {
+        "executable": "TheWatcher/Windows/Watcher.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4037111": {
+      "manifests": {
+        "public": {
+          "gid": "5745607817437030792",
+          "size": "2234572708",
+          "download": "2038351120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19987282",
+        "timeupdated": "1757952065"
+      }
     }
   }
 }
