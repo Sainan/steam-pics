@@ -1,10 +1,9 @@
 {
   "appid": "3970710",
-  "public_only": "1",
   "common": {
     "name": "Exilium: Kiro",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "russian": "Exilium: Киро"
     },
@@ -128,9 +127,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3970710",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -153,5 +152,57 @@
       "12": "12095",
       "13": "4182"
     }
+  },
+  "extended": {
+    "developer": "Vox Tenebris",
+    "publisher": "Steam"
+  },
+  "config": {
+    "installdir": "Exilium Kiro",
+    "launch": {
+      "0": {
+        "executable": "ExiliumKiro.exe"
+      }
+    }
+  },
+  "depots": {
+    "3970711": {
+      "config": {
+        "language": "russian",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1654372056239053056",
+          "size": "433523140",
+          "download": "343984064"
+        }
+      }
+    },
+    "3970712": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2546088980221121610",
+          "size": "436198145",
+          "download": "346747456"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "19987173",
+        "timeupdated": "1757951785"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "2000"
   }
 }
