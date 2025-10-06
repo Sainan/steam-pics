@@ -1,6 +1,5 @@
 {
   "appid": "4074230",
-  "public_only": "1",
   "common": {
     "name": "Exofactory Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "20d57200aa066f6ab2ad50238a485cb95c8fe7a0/capsule_231x87.jpg"
     },
@@ -34,7 +33,51 @@
       "category_74": "1",
       "category_79": "1"
     },
+    "steam_release_date": "1759789422",
     "gameid": "4074230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Caitlin Campbell",
+    "publisher": "Caitlin Campbell"
+  },
+  "config": {
+    "installdir": "Exofactory Demo",
+    "launch": {
+      "0": {
+        "executable": "exofactory.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "exofactory",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4074231": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2531667949840545128",
+          "size": "1653169258",
+          "download": "591067216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20220236",
+        "timeupdated": "1759397989"
+      }
+    }
   }
 }
