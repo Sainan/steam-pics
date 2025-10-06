@@ -1,4 +1,55 @@
 {
   "appid": "4078440",
-  "public_only": "1"
+  "common": {
+    "name": "Hexalith Demo",
+    "type": "Demo",
+    "parent": "3683050",
+    "icon": "ddf53ec243d2d6bad0453406b7283f54a8cb8f95",
+    "clienticon": "ddf53ec243d2d6bad0453406b7283f54a8cb8f95",
+    "clienticns": "64de7f920cfb54c7e2f7e95ca378abe82f2705ec",
+    "linuxclienticon": "4835cf6d573ed997e7a06446a458572bedd5448f",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4078440",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Hexalith Demo",
+    "launch": {
+      "0": {
+        "executable": "Hexalith.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Description"
+        },
+        "description": "Description"
+      }
+    }
+  },
+  "depots": {
+    "4078441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8882690400722640842",
+          "size": "628239144",
+          "download": "226842416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20207713",
+        "timeupdated": "1759331768"
+      }
+    }
+  }
 }
