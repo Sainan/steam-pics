@@ -1,10 +1,9 @@
 {
   "appid": "3570370",
-  "public_only": "1",
   "common": {
     "name": "CARIMARA: Beneath the forlorn limbs",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "bf298450c84ecf9ad88445eebbe0d6b6fb1b26f0",
     "clienticon": "2d0d4f1394f27ac47a1433cd032c63166b770945",
     "clienttga": "46c01b8d6895755fec45cb6937da636ab6daa85f",
@@ -197,9 +196,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759755519",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3570370",
-    "exfgls": "8",
     "store_tags": {
       "0": "1742",
       "1": "5716",
@@ -222,5 +222,60 @@
       "18": "1664",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Bastinus Rex",
+    "publisher": "CRITICAL REFLEX"
+  },
+  "config": {
+    "installdir": "CARIMARA Beneath the forlorn limbs",
+    "launch": {
+      "0": {
+        "executable": "CARIMARA_BTFL\\CARIMARA_BeneathTheForlornLimbs.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CARIMARA_BTFL_Mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3570372": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8341316246326853371",
+          "size": "732461644",
+          "download": "268951120"
+        }
+      }
+    },
+    "3570373": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6646158809088423523",
+          "size": "738160270",
+          "download": "271317504"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20267788",
+        "timeupdated": "1759743764"
+      }
+    },
+    "privatebranches": "1"
   }
 }
