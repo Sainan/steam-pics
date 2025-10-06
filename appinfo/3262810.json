@@ -1,6 +1,5 @@
 {
   "appid": "3262810",
-  "public_only": "1",
   "common": {
     "name": "Mushroom Hunter World",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "03619923ecee6009a2aa5ca1d6b4c03d84418226",
     "clienttga": "06428dd63b6d0d75eb9ccfbff190f48e3eca179d",
     "icon": "7c309554fbfa39ed61ee8d6a2d858c4591cd6b6b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -137,9 +136,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759762625",
     "community_hub_visible": "1",
     "gameid": "3262810",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "492",
@@ -158,5 +157,69 @@
       "14": "12057",
       "15": "9564"
     }
+  },
+  "extended": {
+    "developer": "Poroshin Develop",
+    "publisher": "Poroshin Develop"
+  },
+  "config": {
+    "installdir": "Mushroom Hunter World",
+    "launch": {
+      "0": {
+        "executable": "MHW.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3262811": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8525900698777737818",
+          "size": "2819409591",
+          "download": "2389462272"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20194458",
+        "timeupdated": "1759257726"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
