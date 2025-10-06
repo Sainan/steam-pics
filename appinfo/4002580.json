@@ -1,10 +1,9 @@
 {
   "appid": "4002580",
-  "public_only": "1",
   "common": {
     "name": "Colorful Tower of Hanoi",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "e008021f11cc65cd204ed76234eee0028826ff22",
     "icon": "e008021f11cc65cd204ed76234eee0028826ff22",
     "name_localized": {
@@ -146,9 +145,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759768773",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4002580",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -165,6 +165,47 @@
       "12": "1036",
       "13": "4057",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Blueice",
+    "publisher": "Blueice"
+  },
+  "config": {
+    "installdir": "Colorful Tower of Hanoi",
+    "launch": {
+      "0": {
+        "executable": "hanoi.exe"
+      }
+    }
+  },
+  "depots": {
+    "4002581": {
+      "manifests": {
+        "public": {
+          "gid": "8776117503331945017",
+          "size": "85536387",
+          "download": "46455696"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20228909",
+        "timeupdated": "1759436554"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
