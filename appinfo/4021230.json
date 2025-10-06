@@ -1,6 +1,5 @@
 {
   "appid": "4021230",
-  "public_only": "1",
   "common": {
     "name": "动物职场",
     "type": "Game",
@@ -14,7 +13,7 @@
     "osextended": "",
     "clienticon": "21577525e21ac929f93a626fda774f20e2c2a0d6",
     "icon": "21577525e21ac929f93a626fda774f20e2c2a0d6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "24c34530c840374719208f1b951087553daec065/capsule_231x87.jpg",
@@ -124,9 +123,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4021230",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "3959",
@@ -148,6 +147,54 @@
       "17": "8369",
       "18": "11014",
       "19": "5673"
+    }
+  },
+  "extended": {
+    "developer": "飞天海牛工作室",
+    "publisher": "飞天海牛工作室"
+  },
+  "config": {
+    "installdir": "Pawffice",
+    "launch": {
+      "0": {
+        "executable": "Pawffice\\Pawffice.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4021231": {
+      "manifests": {
+        "public": {
+          "gid": "4511657340273331154",
+          "size": "363581420",
+          "download": "246662192"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20253367",
+        "timeupdated": "1759591857"
+      }
     }
   }
 }
