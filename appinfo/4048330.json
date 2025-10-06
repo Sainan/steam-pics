@@ -1,6 +1,5 @@
 {
   "appid": "4048330",
-  "public_only": "1",
   "common": {
     "name": "白线 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "cd13e4c14754ef22feabfffc06f000706ab2ff51/capsule_231x87.jpg"
@@ -100,7 +99,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759794092",
     "gameid": "4048330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PlanC",
+    "publisher": "PlanC"
+  },
+  "config": {
+    "installdir": "白线 Demo",
+    "launch": {
+      "0": {
+        "executable": "251007_hakusen_Win64/Hakusen.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "白线试玩demo",
+          "schinese": "白线试玩demo"
+        },
+        "description": "白线试玩demo"
+      }
+    }
+  },
+  "depots": {
+    "4048331": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7779384472960265745",
+          "size": "2357189800",
+          "download": "462947440"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20278012",
+        "timeupdated": "1759793061"
+      }
+    }
   }
 }
