@@ -1,0 +1,167 @@
+{
+  "appid": "3729870",
+  "common": {
+    "name": "Little Rocket Lab Demo",
+    "type": "Demo",
+    "parent": "2451100",
+    "icon": "49557490804b92e6dc41a4b356b325a3ee01c7bf",
+    "clienticon": "7277c273a5e313278942bfabecda485427559121",
+    "clienttga": "d798c5933ebc63d1b532a3c45ca606ad44625412",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "071285cb954d33fd9357ca0d2c515d0e71707394/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "c27427d89e8092adef0df60c79fb063690bc7e82/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "01c7aafe6dcc78ee0e52eb89b6993aa11d0c18eb/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "01c7aafe6dcc78ee0e52eb89b6993aa11d0c18eb/library_600x900_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "c27427d89e8092adef0df60c79fb063690bc7e82/library_header.jpg"
+        },
+        "image2x": {
+          "english": "c27427d89e8092adef0df60c79fb063690bc7e82/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_screenshot": "2ad324d6f2dd0a54c9e67763a15aab9dc4ec1978/ss_2ad324d6f2dd0a54c9e67763a15aab9dc4ec1978.jpg",
+    "store_asset_mtime": "1755259186",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Teenage Astronauts"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "No More Robots"
+      }
+    },
+    "primary_genre": "3",
+    "genres": {
+      "0": "25",
+      "1": "3",
+      "2": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1749045043",
+    "gameid": "3729870",
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "91"
+  },
+  "extended": {
+    "developer": "Teenage Astronauts",
+    "publisher": "No More Robots"
+  },
+  "config": {
+    "installdir": "Little Rocket Lab Demo",
+    "launch": {
+      "0": {
+        "executable": "LittleRocketLabDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3729871": {
+      "manifests": {
+        "public": {
+          "gid": "3934618417826486816",
+          "size": "1612961873",
+          "download": "949583952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18708464",
+        "timeupdated": "1748899310"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "12000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "TeenageAstronauts/LittleRocketLabDemo",
+        "pattern": "*.save"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "TeenageAstronauts/LittleRocketLabDemo",
+        "pattern": "*.backup"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "TeenageAstronauts/LittleRocketLabDemo",
+            "replace": ".config/unity3d/TeenageAstronauts/LittleRocketLabDemo"
+          }
+        }
+      }
+    }
+  }
+}
