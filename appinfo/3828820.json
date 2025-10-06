@@ -1,4 +1,55 @@
 {
   "appid": "3828820",
-  "public_only": "1"
+  "common": {
+    "name": "Don't Stop, Girlypop! Lite",
+    "type": "Demo",
+    "parent": "2610650",
+    "icon": "b4e745463e2961c7966287dd68c3bacd90ad38b9",
+    "clienticon": "b4e745463e2961c7966287dd68c3bacd90ad38b9",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "3828820",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Don't Stop, Girlypop! Demo",
+    "launch": {
+      "0": {
+        "executable": "INCOLATUS.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3828821": {
+      "manifests": {
+        "public": {
+          "gid": "4082708165113670177",
+          "size": "3846348162",
+          "download": "3607566576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20165684",
+        "timeupdated": "1759105174"
+      }
+    }
+  }
 }
