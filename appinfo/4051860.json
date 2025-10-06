@@ -1,6 +1,5 @@
 {
   "appid": "4051860",
-  "public_only": "1",
   "common": {
     "name": "盖亚冥想曲·时之守望者Ⅰ Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "22cc2766b86ff70fe724c0ce3fcd93751dc746ce/capsule_231x87.jpg",
@@ -59,7 +58,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4051860",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "青翎漫画工作室",
+    "publisher": "龙画动漫"
+  },
+  "config": {
+    "installdir": "盖亚冥想曲·时之守望者Ⅰ Demo",
+    "launch": {
+      "0": {
+        "executable": "Game demo/盖亚幻想曲地之章体验版.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4051861": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4777640998390831671",
+          "size": "10351647581",
+          "download": "6617003584"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20066267",
+        "timeupdated": "1758465202"
+      }
+    }
   }
 }
