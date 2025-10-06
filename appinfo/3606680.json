@@ -1,13 +1,12 @@
 {
   "appid": "3606680",
-  "public_only": "1",
   "common": {
     "name": "探偵は月を見る",
     "type": "Game",
     "icon": "c29741f75632f53c1b7ac4f91504a17613b180ae",
     "clienttga": "d3e0925d663c551448a759fd95bdcb3a3d9541cb",
     "clienticon": "701d2d29b25b3d56d0e441338133632233de13a0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,9 +110,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759762903",
     "community_hub_visible": "1",
     "gameid": "3606680",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "10695",
@@ -131,6 +130,46 @@
       "13": "15172",
       "14": "1742",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "YUUIRO",
+    "publisher": "YUUIRO",
+    "homepage": "https://yuuiro.xyz/tannteihatukiwomiru01/index.html"
+  },
+  "config": {
+    "installdir": "探偵は月を見る",
+    "launch": {
+      "0": {
+        "executable": "探偵は月を見る.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Main launch option for Windows users",
+          "japanese": "ゲーム本体の起動用実行ファイルです"
+        },
+        "description": "Main launch option for Windows users"
+      }
+    }
+  },
+  "depots": {
+    "3606681": {
+      "manifests": {
+        "public": {
+          "gid": "1110987565826116204",
+          "size": "928176879",
+          "download": "752881792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20249737",
+        "timeupdated": "1759558593"
+      }
     }
   }
 }
