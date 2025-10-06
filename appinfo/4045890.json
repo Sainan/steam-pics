@@ -1,6 +1,5 @@
 {
   "appid": "4045890",
-  "public_only": "1",
   "common": {
     "name": "Caveman Caravan",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759745200",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4045890",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1664",
@@ -125,6 +125,119 @@
       "6": "32322",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Snaggleteeth Software",
+    "publisher": "Snaggleteeth Software"
+  },
+  "config": {
+    "installdir": "Caveman Caravan",
+    "launch": {
+      "0": {
+        "executable": "CavemanCaravan.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CavemanCaravan.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "CavemanCaravan.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3574232233": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "4045891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "586139223586125407",
+          "size": "63481464",
+          "download": "23188928"
+        }
+      }
+    },
+    "4045892": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4620923151306315967",
+          "size": "70602816",
+          "download": "24933936"
+        }
+      }
+    },
+    "4045893": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3557879586552016463",
+          "size": "130439388",
+          "download": "39630624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20263325",
+        "timeupdated": "1759706059"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/CavemanCaravan/CCSaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": ".local/share/godot/app_userdata/CavemanCaravan/CCsaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "2": {
+        "root": "MacAppSupport",
+        "path": "Godot/app_userdata/CavemanCaravan/CCSaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
