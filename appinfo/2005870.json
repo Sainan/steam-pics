@@ -1,6 +1,5 @@
 {
   "appid": "2005870",
-  "public_only": "1",
   "common": {
     "name": "House of Necrosis",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2a75c0b217e2275ca362f3337f5078e6f9fe2c57",
     "clienttga": "4f7997bdb9d3d8a8d31c52fc9ab38fdca50cb428",
     "clienticon": "11705f8172a1b0d3291ad42f3f7e6322e7661c09",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759762808",
     "community_hub_visible": "1",
     "gameid": "2005870",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -131,6 +130,117 @@
       "17": "7208",
       "18": "4182",
       "19": "5125"
+    }
+  },
+  "extended": {
+    "developer": "Warkus",
+    "publisher": "Warkus"
+  },
+  "config": {
+    "installdir": "House of Necrosis",
+    "launch": {
+      "0": {
+        "executable": "house_of_necrosis_win/house_of_necrosis.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "house_of_necrosis_linux/house_of_necrosis.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2005871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7650903511220967952",
+          "size": "316361709",
+          "download": "192666768"
+        }
+      }
+    },
+    "2005872": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1321231459231188106",
+          "size": "325824592",
+          "download": "196663408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20214109",
+        "timeupdated": "1759360622"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/house_of_necrosis",
+        "pattern": "hon_v1.save"
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": ".local/share/godot/app_userdata/house_of_necrosis",
+        "pattern": "hon_v1.save"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/house_of_necrosis",
+        "pattern": "hon_temp_v1.save"
+      },
+      "3": {
+        "root": "LinuxHome",
+        "path": ".local/share/godot/app_userdata/house_of_necrosis",
+        "pattern": "hon_temp_v1.save"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/godot/app_userdata/house_of_necrosis",
+            "replace": "Godot/app_userdata/house_of_necrosis"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/house_of_necrosis",
+            "replace": ".local/share/godot/app_userdata/house_of_necrosis"
+          }
+        }
+      }
     }
   }
 }
