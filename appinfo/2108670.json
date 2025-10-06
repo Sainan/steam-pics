@@ -1,0 +1,146 @@
+{
+  "appid": "2108670",
+  "common": {
+    "name": "Hexahedra Demo",
+    "type": "Demo",
+    "parent": "1248420",
+    "icon": "d59846c32dd29542987cfe59a7c078f66ab41ba6",
+    "clienttga": "1cc1a5a0129d86a22ada42b0c66cacdad74cd975",
+    "clienticon": "c8112d96c0216bc011b68b03eedac1889df58e29",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1679065711",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Sidequest Ninja"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Sidequest Ninja"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1661257087",
+    "gameid": "2108670",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1248420",
+    "developer": "Sidequest Ninja",
+    "publisher": "Sidequest Ninja",
+    "homepage": "https://hexahedragame.com"
+  },
+  "config": {
+    "installdir": "Hexahedra Demo",
+    "launch": {
+      "0": {
+        "executable": "Hexahedra.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Hexahedra"
+        },
+        "description": "Play Hexahedra"
+      },
+      "1": {
+        "executable": "Hexahedra.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Play Hexahedra"
+        },
+        "description": "Play Hexahedra"
+      }
+    }
+  },
+  "depots": {
+    "2108671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7549104735070882146",
+          "size": "1007927097",
+          "download": "601568880"
+        }
+      }
+    },
+    "2108672": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8427823541476183181",
+          "size": "1006530893",
+          "download": "601089536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20273394",
+        "timeupdated": "1759768815"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "1000",
+    "appidredirect": "1248420",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Sidequest Ninja/Hexahedra/{64BitSteamID}",
+        "pattern": "*"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
+    }
+  }
+}
