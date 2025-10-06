@@ -1,6 +1,5 @@
 {
   "appid": "4073770",
-  "public_only": "1",
   "common": {
     "name": "EvoCreo Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64",
     "clienticon": "007abb1a436d60638e631ea37bfefffaf054eb8a",
     "icon": "007abb1a436d60638e631ea37bfefffaf054eb8a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4f5e6c5f1157409efc965d28d4633fdd90269f36/capsule_231x87.jpg"
     },
@@ -82,7 +81,106 @@
     "category": {
       "category_2": "1"
     },
+    "steam_release_date": "1761894000",
     "gameid": "4073770",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ilmfinity",
+    "publisher": "ilmfinity"
+  },
+  "config": {
+    "installdir": "EvoCreo Demo",
+    "launch": {
+      "0": {
+        "executable": "EvoCreo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "EvoCreo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "EvoCreo",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3839452186935583894",
+          "size": "157489063",
+          "download": "119439008"
+        }
+      }
+    },
+    "4073772": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8857546523568056190",
+          "size": "162547586",
+          "download": "120021472"
+        }
+      }
+    },
+    "4073773": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8770538805225622909",
+          "size": "168153463",
+          "download": "122020416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20264926",
+        "timeupdated": "1759722418"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WindowsHome",
+        "path": ".prefs",
+        "pattern": "com.ilmfinity.evocreo.local"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WindowsHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WindowsHome",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ""
+      }
+    }
   }
 }
