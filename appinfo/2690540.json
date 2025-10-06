@@ -222,15 +222,15 @@
   "ufs": {
     "quota": "100000000",
     "maxnumfiles": "10000",
-    "appidredirect": "2686020",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Philipp Lehner/Faith in Despair",
         "pattern": "*.json",
         "recursive": "1"
-      },
-      "copied_from_parent": "1"
+      }
     },
     "rootoverrides": {
       "0": {
@@ -241,7 +241,7 @@
         "pathtransforms": {
           "0": {
             "find": "Philipp Lehner/Faith in Despair",
-            "replace": ".config/unity3d/Philipp\\ Lehner/Faith\\ in\\ Despair"
+            "replace": ".config/unity3d/Philipp Lehner/Faith in Despair"
           }
         }
       },
