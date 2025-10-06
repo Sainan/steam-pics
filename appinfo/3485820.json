@@ -1,0 +1,197 @@
+{
+  "appid": "3485820",
+  "common": {
+    "name": "Paplion Demo",
+    "type": "Demo",
+    "parent": "3037480",
+    "icon": "6ad10437ca564061d92d02f3fd46579bc9ba961f",
+    "clienticon": "a5a3de764258aa2fd613bb563b8242d3ab89d2ee",
+    "clienttga": "54500b501bb97f64ca527f69f37833e6a289f863",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "cae583fae42f19c36ff6955627fb11c320fceaf9/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "f8e4c311f48f278f44dc5c365d6b644f1402a0de/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "98e4589be0ab045f751e8b44364c7bf80eb7fa07/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "98e4589be0ab045f751e8b44364c7bf80eb7fa07/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "058b0d6094b943b9b9663aa07bcdfb8d3ec38a9a/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "058b0d6094b943b9b9663aa07bcdfb8d3ec38a9a/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "058b0d6094b943b9b9663aa07bcdfb8d3ec38a9a/library_hero_blur.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "6757f068067b4e0bab452d0567ca42ae705b2d7a/library_header.jpg"
+        },
+        "image2x": {
+          "english": "6757f068067b4e0bab452d0567ca42ae705b2d7a/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1741028075",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Spheanix"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Spheanix"
+      }
+    },
+    "primary_genre": "3",
+    "genres": {
+      "0": "25",
+      "1": "23",
+      "2": "3",
+      "3": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_60": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1741013386",
+    "gameid": "3485820",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Spheanix",
+    "publisher": "Spheanix"
+  },
+  "config": {
+    "installdir": "Paplion Demo",
+    "launch": {
+      "0": {
+        "executable": "Paplion.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Contents/MacOS/Paplion",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Paplion.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3485821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8572844618494360145",
+          "size": "2894033751",
+          "download": "650097200"
+        }
+      }
+    },
+    "3485823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1973127811436723746",
+          "size": "2843321069",
+          "download": "580476752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20266097",
+        "timeupdated": "1759733787"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "appidredirect": "3037480",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Spheanix Games/Paplion",
+        "pattern": "*"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Spheanix Games/Paplion",
+            "replace": "Spheanix Games/Paplion"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Spheanix Games/Paplion",
+            "replace": "Spheanix Games/Paplion"
+          }
+        }
+      }
+    }
+  }
+}
