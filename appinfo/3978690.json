@@ -1,6 +1,5 @@
 {
   "appid": "3978690",
-  "public_only": "1",
   "common": {
     "name": "A Pinball Game That Makes You Mad Demo",
     "type": "Demo",
@@ -31,7 +30,7 @@
       "ukrainian": "1",
       "latam": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -181,7 +180,122 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3978690",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Azimuth Studios",
+    "publisher": "Azimuth Studios"
+  },
+  "config": {
+    "installdir": "A Pinball Game That Makes You Mad Demo",
+    "launch": {
+      "0": {
+        "executable": "A Pinball Game That Makes You Mad Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "A Pinball Game That Makes You Mad Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "A Pinball Game That Makes You Mad Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3978691": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4161176429393625864",
+          "size": "470498269",
+          "download": "219119888"
+        }
+      }
+    },
+    "3978692": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "760782194550672375",
+          "size": "532829697",
+          "download": "237754624"
+        }
+      }
+    },
+    "3978693": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1935999484527808853",
+          "size": "510325963",
+          "download": "227846992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20261545",
+        "timeupdated": "1759692496"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "appidredirect": "3796230",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Azimuth Studios/A Pinball Game That Makes You Mad",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Azimuth Studios/A Pinball Game That Makes You Mad"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "Azimuth Studios/A Pinball Game That Makes You Mad"
+      }
+    }
   }
 }
