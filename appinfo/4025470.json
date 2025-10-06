@@ -1,6 +1,5 @@
 {
   "appid": "4025470",
-  "public_only": "1",
   "common": {
     "name": "Yandere Goth BDSM 16",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "5fb8119a0e7af54678be9dab06aabf8149f96549",
     "icon": "5fb8119a0e7af54678be9dab06aabf8149f96549",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -216,9 +215,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759771200",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4025470",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -237,6 +237,65 @@
       "8": "4085",
       "9": "3964",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Bully Revenge Studios",
+    "publisher": "Bully Revenge Studios"
+  },
+  "config": {
+    "installdir": "Yandere Goth BDSM 16",
+    "launch": {
+      "0": {
+        "executable": "YandereGothBDSM16.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "YandereGothBDSM16.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "YandereGothBDSM16.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4025471": {
+      "manifests": {
+        "public": {
+          "gid": "8405504824989712080",
+          "size": "234987127",
+          "download": "111092496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19936639",
+        "timeupdated": "1757566338"
+      }
     }
   }
 }
