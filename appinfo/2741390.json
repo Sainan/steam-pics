@@ -11,9 +11,9 @@
       "english": "1",
       "russian": "1"
     },
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
@@ -222,6 +222,13 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "Check Inn.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -233,6 +240,11 @@
           "size": "819700106",
           "download": "229112336"
         }
+      }
+    },
+    "2741392": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
