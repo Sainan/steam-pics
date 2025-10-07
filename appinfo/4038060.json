@@ -1,6 +1,5 @@
 {
   "appid": "4038060",
-  "public_only": "1",
   "common": {
     "name": "Abstract Wars",
     "type": "Game",
@@ -13,7 +12,7 @@
       "english": "1",
       "russian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4038060",
-    "exfgls": "8",
     "store_tags": {
       "0": "1773",
       "1": "4885",
@@ -137,6 +137,47 @@
       "17": "1654",
       "18": "4004",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "NinjaCat",
+    "publisher": "NinjaCat"
+  },
+  "config": {
+    "installdir": "Abstract Wars",
+    "launch": {
+      "0": {
+        "executable": "Abstract Wars.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4038061": {
+      "manifests": {
+        "public": {
+          "gid": "3481107523058521782",
+          "size": "1016809277",
+          "download": "514875616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20249534",
+        "timeupdated": "1759554453"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "NinjaCat/Abstract Wars",
+        "pattern": "*.sf"
+      }
     }
   }
 }
