@@ -1,6 +1,5 @@
 {
   "appid": "4042930",
-  "public_only": "1",
   "common": {
     "name": "Legends of Amberland III Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -64,7 +63,63 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4042930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Silver Lemur Games",
+    "publisher": "Silver Lemur Games",
+    "homepage": "http://www.silverlemurgames.com/legendsofamberland3/"
+  },
+  "config": {
+    "installdir": "Legends of Amberland III Demo",
+    "launch": {
+      "0": {
+        "executable": "LegendsOfAmberland3-demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Demo"
+        },
+        "description": "Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4042931": {
+      "manifests": {
+        "public": {
+          "gid": "242532606274050617",
+          "size": "201359283",
+          "download": "151661760"
+        },
+        "v0.11": {
+          "gid": "4714790845265252171",
+          "size": "147815216",
+          "download": "110847376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20284381",
+        "timeupdated": "1759832479"
+      },
+      "v0.11": {
+        "buildid": "20014962",
+        "description": "v0.11",
+        "timeupdated": "1758890570"
+      }
+    }
   }
 }
