@@ -1,6 +1,5 @@
 {
   "appid": "4016530",
-  "public_only": "1",
   "common": {
     "name": "Merkava: The Sacred Armour of Meirav",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "249c927313908fd44394fe8a080ae0145bf09381",
     "linuxclienticon": "5f24673f2ccad165092543fca25c7aa52378325a",
     "clienticns": "5b5da1efda3f888fa6a8f7aeba7bbb331e5959ec",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b97f9603e365f25cd4bb8385ebbbae863d83ab90/capsule_231x87.jpg"
@@ -110,9 +109,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759834800",
     "community_hub_visible": "1",
     "gameid": "4016530",
-    "exfgls": "8",
     "store_tags": {
       "0": "4255",
       "1": "3964",
@@ -133,6 +132,71 @@
       "16": "1684",
       "17": "1773",
       "18": "6730"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Salem Electrónica",
+    "publisher": "Salem Electrónica"
+  },
+  "config": {
+    "installdir": "Merkava - The Sacred Armour of Meirav",
+    "launch": {
+      "0": {
+        "executable": "Merkava The Sacred Armour of Meirav.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Merkava The Sacred Armour of Meirav.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4016531": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3304839395925046147",
+          "size": "309337888",
+          "download": "114669568"
+        }
+      }
+    },
+    "4016532": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4494335754780521390",
+          "size": "307666352",
+          "download": "114082096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19916169",
+        "timeupdated": "1757446073"
+      }
     }
   }
 }
