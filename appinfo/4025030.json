@@ -1,6 +1,5 @@
 {
   "appid": "4025030",
-  "public_only": "1",
   "common": {
     "name": "Color Splash: Butterflies",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "e381ac510b241f59132123d52c7ed195dcbfbb6b",
     "icon": "e381ac510b241f59132123d52c7ed195dcbfbb6b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -621,9 +620,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759820462",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4025030",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -646,5 +646,54 @@
       "18": "5350",
       "19": "17389"
     }
+  },
+  "extended": {
+    "developer": "Quantum Quiver Games",
+    "publisher": "Quantum Quiver Games"
+  },
+  "config": {
+    "installdir": "Color Splash Butterflies",
+    "launch": {
+      "0": {
+        "executable": "Color Splash Butterflies.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4025031": {
+      "manifests": {
+        "public": {
+          "gid": "9134943193916461404",
+          "size": "500711241",
+          "download": "496916976"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20035246",
+        "timeupdated": "1758214884"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": ".",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
