@@ -1,6 +1,5 @@
 {
   "appid": "2582140",
-  "public_only": "1",
   "common": {
     "name": "Seafarer: The Ship Sim",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "b7eb47fe3db1b76421f738aa1bf5ea958de6a5c4",
     "clienttga": "5577e304c28a5c6c4e1ef29fc2a427a9a9193b59",
     "clienticon": "e11ad6e3dfa44d30df2b413af45fa5f02e7c20ad",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1"
@@ -84,7 +83,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759847174",
+    "store_asset_mtime": "1759848586",
     "associations": {
       "0": {
         "type": "developer",
@@ -129,9 +128,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759849075",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2582140",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -146,6 +146,126 @@
       "10": "1695",
       "11": "1669",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "astragon Development",
+    "publisher": "astragon Entertainment",
+    "homepage": "https://www.seafarergame.com/"
+  },
+  "config": {
+    "installdir": "Seafarer",
+    "launch": {
+      "0": {
+        "executable": "Windows\\Seafarer.exe",
+        "workingdir": "Windows",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Windows\\Orca_Ships.exe",
+        "workingdir": "Windows",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "model_viewer"
+        },
+        "description_loc": {
+          "english": "Model Viewer Ships"
+        },
+        "description": "Model Viewer Ships"
+      },
+      "2": {
+        "executable": "Windows\\AssetLibrary.exe",
+        "workingdir": "Windows",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "gfx_viewer"
+        },
+        "description_loc": {
+          "english": "GFX Asset Viewer"
+        },
+        "description": "GFX Asset Viewer"
+      },
+      "3": {
+        "executable": "Windows\\OrcaCheats.exe",
+        "arguments": "-EpicApp=dev",
+        "workingdir": "Windows",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "ea_release_cheats"
+        },
+        "description_loc": {
+          "english": "Seafarer with Cheats"
+        },
+        "description": "Seafarer with Cheats"
+      },
+      "4": {
+        "executable": "Windows\\OrcaCheats.exe",
+        "arguments": "-EpicApp=dev",
+        "workingdir": "Windows",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "dev_nightly"
+        },
+        "description_loc": {
+          "english": "Seafarer with Cheats"
+        },
+        "description": "Seafarer with Cheats"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2582141": {
+      "manifests": {
+        "public": {
+          "gid": "2385964829074671982",
+          "size": "24673203069",
+          "download": "21258540592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20212147",
+        "timeupdated": "1759744331"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Orca/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
