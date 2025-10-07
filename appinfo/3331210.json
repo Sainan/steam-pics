@@ -1,6 +1,5 @@
 {
   "appid": "3331210",
-  "public_only": "1",
   "common": {
     "name": "Manic Magic Ciena's Desire",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -107,9 +106,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3331210",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -137,6 +136,39 @@
       "17": "4182",
       "18": "7250",
       "19": "6971"
+    }
+  },
+  "extended": {
+    "developer": "Maidensoft",
+    "publisher": "Maidensoft"
+  },
+  "config": {
+    "installdir": "Manic Magic Ciena's Desire",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3331211": {
+      "manifests": {
+        "public": {
+          "gid": "876330365934995045",
+          "size": "6041612048",
+          "download": "5525516864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20280904",
+        "timeupdated": "1759815364"
+      }
     }
   }
 }
