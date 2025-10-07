@@ -1,6 +1,5 @@
 {
   "appid": "3996480",
-  "public_only": "1",
   "common": {
     "name": "ARROW WORLD Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -351,5 +350,46 @@
     },
     "gameid": "3996480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ATOKESHI",
+    "publisher": "ATOKESHI"
+  },
+  "config": {
+    "installdir": "ARROW WORLD Demo",
+    "launch": {
+      "0": {
+        "executable": "ARROW WORLD Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3996481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5453646194010464656",
+          "size": "285430122",
+          "download": "57122592"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20260169",
+        "timeupdated": "1759674903"
+      }
+    },
+    "privatebranches": "1"
   }
 }
