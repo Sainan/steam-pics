@@ -273,6 +273,22 @@
     "quota": "100000",
     "maxnumfiles": "20",
     "hidecloudui": "1",
-    "ignoreexternalfiles": "1"
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    }
   }
 }
