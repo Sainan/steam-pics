@@ -1,6 +1,5 @@
 {
   "appid": "3586890",
-  "public_only": "1",
   "common": {
     "name": "DraftPunk",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "84c18c95ca88b81bbfd2901d8bd456eb9bfb26be",
     "clienticon": "5eb58bc76c02b14add7ca2555452d293e954cb69",
     "clienttga": "e0601bd1ee1b74fb65fa6f7b2fd9acf395481d2a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -106,6 +105,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3586890",
     "exfgls": "3",
@@ -126,6 +126,101 @@
       "13": "4252",
       "14": "1777",
       "15": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Dalen Studios",
+    "publisher": "Dalen Studios",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "DraftPunk",
+    "launch": {
+      "0": {
+        "executable": "DraftPunk.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "DraftPunk.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3586891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1208450026002764887",
+          "size": "174460302",
+          "download": "62925904"
+        },
+        "test": {
+          "gid": "1208450026002764887",
+          "size": "174460302",
+          "download": "62925904"
+        }
+      }
+    },
+    "3586892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7882344078721198097",
+          "size": "191905806",
+          "download": "70140560"
+        },
+        "test": {
+          "gid": "7882344078721198097",
+          "size": "191905806",
+          "download": "70140560"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20200889",
+        "timeupdated": "1759297963"
+      },
+      "test": {
+        "buildid": "20200889",
+        "description": "Test Branch",
+        "timeupdated": "1759297956"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "25",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DalenStudios/DraftPunk/",
+        "pattern": "*.user"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "DalenStudios/DraftPunk/",
+            "replace": "DalenStudios/DraftPunk/"
+          }
+        }
+      }
     }
   }
 }
