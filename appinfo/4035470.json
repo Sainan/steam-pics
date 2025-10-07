@@ -6,7 +6,7 @@
     "parent": "3458180",
     "clienticon": "403fc1763b57a223f310a1382178922d4ef0a81c",
     "icon": "403fc1763b57a223f310a1382178922d4ef0a81c",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -113,16 +113,30 @@
       "0": {
         "executable": "dungeon_bodega.exe"
       }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
     }
   },
   "depots": {
     "4035471": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "7771569946443966968",
           "size": "1809527536",
           "download": "558626192"
         }
+      }
+    },
+    "4035472": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
