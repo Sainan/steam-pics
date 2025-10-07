@@ -1,6 +1,5 @@
 {
   "appid": "4033940",
-  "public_only": "1",
   "common": {
     "name": "Toilet Zone 2 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "c4fc876559ac985b4b85a348cad109bf0069e11a",
     "icon": "c4fc876559ac985b4b85a348cad109bf0069e11a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -107,5 +106,60 @@
     },
     "gameid": "4033940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wolfenrahd",
+    "publisher": "Wolfenrahd"
+  },
+  "config": {
+    "installdir": "Toilet Zone 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "toilet_zone_2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "toilet_zone_2.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4033941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3740016057437602995",
+          "size": "119055728",
+          "download": "72144432"
+        }
+      }
+    },
+    "4033942": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8391709102025627576",
+          "size": "132574200",
+          "download": "76185776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20285258",
+        "timeupdated": "1759836313"
+      }
+    }
   }
 }
