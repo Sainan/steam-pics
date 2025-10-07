@@ -1,6 +1,5 @@
 {
   "appid": "4082330",
-  "public_only": "1",
   "common": {
     "name": "WeedEx: Drug Express Delivery Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "750dfc224c709b5d25e49de33623f637cfb52f7f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -45,11 +44,45 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1761894000",
     "gameid": "4082330",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "CGI LAB GAMES SRL",
+    "publisher": "CGI LAB GAMES SRL"
+  },
+  "config": {
+    "installdir": "WeedExDemo",
+    "launch": {
+      "1": {
+        "executable": "WeedExDemo/WeedEx Drug Express Delivery.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4082331": {
+      "manifests": {
+        "public": {
+          "gid": "5201184141628082885",
+          "size": "1026391260",
+          "download": "179176384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20234600",
+        "timeupdated": "1759474648"
+      }
     }
   }
 }
