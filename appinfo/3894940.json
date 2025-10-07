@@ -1,6 +1,5 @@
 {
   "appid": "3894940",
-  "public_only": "1",
   "common": {
     "name": "NEKO TISSUE",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "bb42f5c429f8cb1ae854ef3d9d6ca9acbbf24c27",
     "icon": "07a1c8a31e4767f8e13d6288f2ff26fee2572d13",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -105,9 +104,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759842018",
     "community_hub_visible": "1",
     "gameid": "3894940",
-    "exfgls": "8",
     "store_tags": {
       "0": "379975",
       "1": "1698",
@@ -120,6 +119,70 @@
       "8": "599",
       "9": "17894",
       "10": "492"
+    }
+  },
+  "extended": {
+    "developer": "Kibidango Studio",
+    "publisher": "Kibidango Studio"
+  },
+  "config": {
+    "installdir": "NEKO TISSUE",
+    "launch": {
+      "0": {
+        "executable": "NekoTissue.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3894941": {
+      "manifests": {
+        "public": {
+          "gid": "7296906987881271963",
+          "size": "482521425",
+          "download": "334167696"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "19811572",
+        "timeupdated": "1756727932"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "NekoTissue/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "NekoTissue/Saved/Config/Windows",
+        "pattern": "*.ini"
+      }
     }
   }
 }
