@@ -1,10 +1,9 @@
 {
   "appid": "2336210",
-  "public_only": "1",
   "common": {
     "name": "Monochrome Heights",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d0340ac0ad631d35b19bd3b316f9e1ea99620137",
     "linuxclienticon": "60c63bec749449e436e38f2c2c271f7ed2b5ee9b",
     "clienticon": "7673ff5cd5c769fcb4fae7a97a1b65bbf70dbde6",
@@ -104,9 +103,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759820446",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2336210",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -127,6 +127,98 @@
       "13": "5390",
       "14": "492",
       "15": "4026"
+    }
+  },
+  "extended": {
+    "developer": "One Frog Games",
+    "publisher": "One Frog Games",
+    "homepage": "https://monochromeheights.com/"
+  },
+  "config": {
+    "installdir": "Monochrome Heights",
+    "launch": {
+      "0": {
+        "executable": "Monochrome Heights.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Monochrome_Heights.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2336211": {},
+    "2336212": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1364288765089484998",
+          "size": "1394727183",
+          "download": "841926080"
+        }
+      }
+    },
+    "2336213": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4717909052497777714",
+          "size": "1436994968",
+          "download": "842971568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20280089",
+        "timeupdated": "1759807322"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "One Frog Games/Monochrome Heights",
+        "pattern": "*.game",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "One Frog Games/Monochrome Heights",
+        "pattern": "*.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "One Frog Games/Monochrome Heights",
+            "replace": ".config/unity3d/One Frog Games/Monochrome Heights"
+          }
+        }
+      }
     }
   }
 }
