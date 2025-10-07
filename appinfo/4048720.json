@@ -142,14 +142,14 @@
       },
       "manifests": {
         "public": {
-          "gid": "6100910388188695127",
+          "gid": "5670730551907051829",
           "size": "484508659",
-          "download": "379881184"
+          "download": "379880928"
         },
         "alphatest": {
-          "gid": "6100910388188695127",
+          "gid": "5670730551907051829",
           "size": "484508659",
-          "download": "379881184"
+          "download": "379880928"
         }
       }
     },
@@ -159,27 +159,53 @@
       },
       "manifests": {
         "public": {
-          "gid": "8073590414209000989",
-          "size": "555860169",
-          "download": "390984992"
+          "gid": "1014088774633275200",
+          "size": "556912185",
+          "download": "391068528"
         },
         "alphatest": {
-          "gid": "8073590414209000989",
-          "size": "555860169",
-          "download": "390984992"
+          "gid": "1014088774633275200",
+          "size": "556912185",
+          "download": "391068528"
         }
       }
     },
     "hasdepotsindlc": "1",
     "branches": {
       "public": {
-        "buildid": "20278884",
-        "timeupdated": "1759798534"
+        "buildid": "20279005",
+        "timeupdated": "1759799617"
       },
       "alphatest": {
-        "buildid": "20278884",
+        "buildid": "20279005",
         "description": "test branch",
-        "timeupdated": "1759798505"
+        "timeupdated": "1759799590"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000",
+    "maxnumfiles": "5",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BaroxxTech/Creators_Fall",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": "~/.config/unity3d/BaroxxTech/Creators_Fall"
       }
     }
   }
