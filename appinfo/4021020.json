@@ -1,6 +1,5 @@
 {
   "appid": "4021020",
-  "public_only": "1",
   "common": {
     "name": "Night of the Oldbrand",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "7bc0047635f44b5a69955584c0ff6fb83773e02a",
     "icon": "7bc0047635f44b5a69955584c0ff6fb83773e02a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759842726",
     "community_hub_visible": "1",
     "gameid": "4021020",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -122,6 +121,60 @@
       "7": "4667",
       "8": "8945",
       "9": "3839"
+    }
+  },
+  "extended": {
+    "developer": "Chrome Crimson",
+    "publisher": "Chrome Crimson"
+  },
+  "config": {
+    "installdir": "Night of the oldbrand",
+    "launch": {
+      "0": {
+        "executable": "Night.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4021021": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6732315797999121872",
+          "size": "7275845582",
+          "download": "7083284672"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20286450",
+        "timeupdated": "1759841556"
+      }
     }
   }
 }
