@@ -1,6 +1,5 @@
 {
   "appid": "4038010",
-  "public_only": "1",
   "common": {
     "name": "Void of Lilly Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -105,11 +104,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4038010",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Innocent Soul",
+    "publisher": "Innocent Soul"
+  },
+  "config": {
+    "installdir": "Void of Lilly Demo",
+    "launch": {
+      "0": {
+        "executable": "Void of Lilly.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4038011": {
+      "manifests": {
+        "public": {
+          "gid": "7889863262040403586",
+          "size": "57329387",
+          "download": "43146976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20282062",
+        "timeupdated": "1759822166"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "10",
+    "appidredirect": "3866140",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Void_of_Lilly",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Void_of_Lilly",
+        "pattern": "*.ini"
+      },
+      "copied_from_parent": "1"
     }
   }
 }
