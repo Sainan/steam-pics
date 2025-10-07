@@ -1,6 +1,5 @@
 {
   "appid": "4007090",
-  "public_only": "1",
   "common": {
     "name": "Agility Game",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "67672d539314624c019da11f4467c4638fc79700/capsule_231x87.jpg"
@@ -112,9 +111,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4007090",
-    "exfgls": "8",
     "store_tags": {
       "0": "1638",
       "1": "4036",
@@ -136,6 +135,57 @@
       "17": "492",
       "18": "8666",
       "19": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Bookdragon development",
+    "publisher": "Bookdragon development",
+    "homepage": "https://www.bookdragondev.com/"
+  },
+  "config": {
+    "installdir": "Agility Game",
+    "launch": {
+      "0": {
+        "executable": "AgilityCourseDesign.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4007091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5375860663358557520",
+          "size": "750034887",
+          "download": "604175328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20193358",
+        "timeupdated": "1759252498"
+      }
     }
   }
 }
