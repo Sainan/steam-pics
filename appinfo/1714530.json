@@ -1,6 +1,5 @@
 {
   "appid": "1714530",
-  "public_only": "1",
   "common": {
     "name": "Blood of Mehran",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "67d3c3201f9e1aa5ff53f21445e4a0130c23636b",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "bca0d9fe9442eafe287f1e7a37cf13bcaa815311",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759820231",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1714530",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -190,6 +190,84 @@
       "17": "3993",
       "18": "4182",
       "19": "122"
+    }
+  },
+  "extended": {
+    "developer": "Permanent Way Game Co.",
+    "publisher": "Blowfish Studios"
+  },
+  "config": {
+    "installdir": "Blood of Mehran",
+    "launch": {
+      "0": {
+        "executable": "Blood of Mehran.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1714531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7830270398164248008",
+          "size": "37099871007",
+          "download": "14650757664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20101481",
+        "timeupdated": "1759124952"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10240000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BloodofMehran/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "BloodofMehran/Saved/SaveGames/"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "BloodofMehran/Saved/SaveGames/"
+      }
     }
   }
 }
