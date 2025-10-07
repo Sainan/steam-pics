@@ -405,6 +405,32 @@
           "1": "Windows"
         }
       }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Chubby Pixel/MaiChildOfAges/",
+            "replace": "$HOME/.config/unity3d"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Chubby Pixel/MaiChildOfAges/",
+            "replace": "~/Library/Application Support/unity.Chubby Pixel.MaiChildOfAges"
+          }
+        }
+      }
     }
   }
 }
