@@ -1,6 +1,5 @@
 {
   "appid": "4002420",
-  "public_only": "1",
   "common": {
     "name": "Tooth N' Fin",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "1e8f1883028df23ee0f8dbfb8f88ca3379974a96/capsule_231x87.jpg"
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4002420",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -112,6 +111,55 @@
       "4": "1695",
       "5": "4182",
       "6": "493"
+    }
+  },
+  "extended": {
+    "developer": "Slack Tide Games",
+    "publisher": "Slack Tide Games"
+  },
+  "config": {
+    "installdir": "Tooth N' Fin",
+    "launch": {
+      "0": {
+        "executable": "survivalfish.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4002421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5515536222735181568",
+          "size": "1070745883",
+          "download": "950132000"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20253999",
+        "timeupdated": "1759598291"
+      }
     }
   }
 }
