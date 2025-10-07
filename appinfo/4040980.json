@@ -1,6 +1,5 @@
 {
   "appid": "4040980",
-  "public_only": "1",
   "common": {
     "name": "Dungeon (W)Hoarders",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "1afde75b5b7655c664b9096ada632c25b50ba353",
     "icon": "c1beb9ea63d1bde4487929d327b4bb8bedc88312",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -105,9 +104,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759849270",
     "community_hub_visible": "1",
     "gameid": "4040980",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "379975",
@@ -129,6 +128,47 @@
       "17": "4136",
       "18": "4305",
       "19": "5350"
+    }
+  },
+  "extended": {
+    "developer": "Chad McCoskey",
+    "publisher": "Chad McCoskey"
+  },
+  "config": {
+    "installdir": "Dungeon (W)Hoarders",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "DungeonWhoarders.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040981": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6802904381880677104",
+          "size": "211684369",
+          "download": "113943888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20016248",
+        "timeupdated": "1758116328"
+      }
     }
   }
 }
