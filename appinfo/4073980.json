@@ -1,6 +1,5 @@
 {
   "appid": "4073980",
-  "public_only": "1",
   "common": {
     "name": "The Doppel Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8ea7b442d8e50b70d68e147180e2b9270b6291bc/capsule_231x87.jpg"
@@ -101,5 +100,39 @@
     },
     "gameid": "4073980",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nerdrinkers",
+    "publisher": "Nerdrinkers"
+  },
+  "config": {
+    "installdir": "The Doppel Demo",
+    "launch": {
+      "0": {
+        "executable": "TheDoppel.exe"
+      }
+    }
+  },
+  "depots": {
+    "4073981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7689394826461374644",
+          "size": "131050268",
+          "download": "42178096"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20288448",
+        "timeupdated": "1759848744"
+      }
+    }
   }
 }
