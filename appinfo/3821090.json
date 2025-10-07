@@ -1,6 +1,5 @@
 {
   "appid": "3821090",
-  "public_only": "1",
   "common": {
     "name": "SKERDA ARMOR Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -66,11 +65,70 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3821090",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Oriol Cabús",
+    "publisher": "Oriol Cabús"
+  },
+  "config": {
+    "installdir": "SKERDA ARMOR Demo",
+    "launch": {
+      "0": {
+        "executable": "SKERDA ARMOR Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "3"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3821091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "190419546607981234",
+          "size": "1867601092",
+          "download": "1606888272"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20287604",
+        "timeupdated": "1759845756"
+      }
     }
   }
 }
