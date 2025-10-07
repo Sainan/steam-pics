@@ -1,6 +1,5 @@
 {
   "appid": "3590330",
-  "public_only": "1",
   "common": {
     "name": "DVD Store Simulator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "1def31cf01e2271e8ea4f90a4ca9ac0c52e8f3c2",
     "clienttga": "afad1a32c64cfcf5e0d51782491c1d40cc8a8a04",
     "icon": "5febdb99d1346000592a4f4e29d0d386cfb54d6a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -148,9 +147,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759849155",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3590330",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "12472",
@@ -172,6 +172,72 @@
       "17": "492",
       "18": "493",
       "19": "91114"
+    }
+  },
+  "extended": {
+    "developer": "AltF4 Games",
+    "publisher": "AltF4 Games"
+  },
+  "config": {
+    "installdir": "DVD Store Simulator",
+    "launch": {
+      "0": {
+        "executable": "DVD Store Simulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3590331": {
+      "manifests": {
+        "public": {
+          "gid": "6416304354870749819",
+          "size": "523246925",
+          "download": "271370240"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20287102",
+        "timeupdated": "1759844206"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\AltF4Games\\DVD Store Simulator\\settings",
+        "pattern": "*"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\AltF4Games\\DVD Store Simulator\\slot1",
+        "pattern": "*"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\AltF4Games\\DVD Store Simulator\\slot2",
+        "pattern": "*"
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\AltF4Games\\DVD Store Simulator\\slot3",
+        "pattern": "*"
+      },
+      "4": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\AltF4Games\\DVD Store Simulator\\slot4",
+        "pattern": "*"
+      }
     }
   }
 }
