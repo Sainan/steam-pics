@@ -1,0 +1,150 @@
+{
+  "appid": "3287440",
+  "common": {
+    "name": "MarineVerse Cup Demo",
+    "type": "Demo",
+    "parent": "1035320",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "openvrsupport": "1",
+    "icon": "bb4c0ae016254d663db1abac513262616103b40c",
+    "clienttga": "616d2402a9d75f3d7956f4181267bc22bfa92aee",
+    "clienticon": "8b128ced4afc8adc3713370984d52e5c3b69cf8c",
+    "eulas": {
+      "0": {
+        "id": "3287440_eula_0",
+        "name": "MarineVerse Cup Demo EULA",
+        "url": "https://store.steampowered.com//eula/3287440_eula_0",
+        "version": "1"
+      }
+    },
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "054ffa6df3218026bf96f4d4c7bf365c2699ace0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_8238ff6986cfbec023523d1f5fce51284d2bba17.jpg",
+    "store_asset_mtime": "1728532075",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "MarineVerse"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "MarineVerse"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "9",
+      "1": "28",
+      "2": "18"
+    },
+    "category": {
+      "category_2": "1",
+      "category_25": "1",
+      "category_52": "1",
+      "category_18": "1",
+      "category_53": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1729033306",
+    "gameid": "3287440",
+    "exfgls": "6"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "MarineVerse",
+    "publisher": "MarineVerse",
+    "homepage": "https://www.marineverse.com/marineverse-cup"
+  },
+  "config": {
+    "installdir": "MarineVerse's Cup",
+    "launch": {
+      "0": {
+        "executable": "mvcup.exe",
+        "arguments": "-isdemo",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "VR version"
+        },
+        "description": "VR version"
+      },
+      "1": {
+        "executable": "mvcup.exe",
+        "arguments": "-isdemo -pcmode",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "PC version"
+        },
+        "description": "PC version"
+      },
+      "2": {
+        "executable": "mvcup.app",
+        "arguments": "-isdemo -pcmode",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1035321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "1035320",
+      "sharedinstall": "2"
+    },
+    "1035322": {
+      "config": {
+        "oslist": "macos"
+      },
+      "depotfromapp": "1035320",
+      "sharedinstall": "2"
+    },
+    "3287441": {
+      "manifests": {
+        "public": {
+          "gid": "7018860587906736711",
+          "size": "34",
+          "download": "80"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20281012",
+        "timeupdated": "1759815208"
+      }
+    }
+  }
+}
