@@ -1,6 +1,5 @@
 {
   "appid": "2870530",
-  "public_only": "1",
   "common": {
     "name": "Battle Suit Aces",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -120,10 +119,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759820460",
     "steam_deck_blog_url": "https://steamcommunity.com/app/2870530",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2870530",
-    "exfgls": "8",
     "store_tags": {
       "0": "1742",
       "1": "1666",
@@ -146,5 +146,70 @@
       "18": "6815",
       "19": "5094"
     }
+  },
+  "extended": {
+    "developer": "Trinket Studios",
+    "publisher": "Trinket Studios",
+    "homepage": "https://www.battlesuitaces.com/"
+  },
+  "config": {
+    "installdir": "Battle Suit Aces",
+    "launch": {
+      "0": {
+        "executable": "Battle Suit Aces.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Battle Suit Aces.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "2870531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "234196851927183217",
+          "size": "1487541152",
+          "download": "1216221168"
+        }
+      }
+    },
+    "2870532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7301739922775755491",
+          "size": "1614052124",
+          "download": "1248381200"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20260763",
+        "timeupdated": "1759683014"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10"
   }
 }
