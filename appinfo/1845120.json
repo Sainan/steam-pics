@@ -95,7 +95,7 @@
     "installdir": "Catsploration Playtest",
     "launch": {
       "0": {
-        "executable": "windows/Catsploration.exe",
+        "executable": "Catsploration.exe",
         "type": "default",
         "config": {
           "oslist": "windows",
@@ -107,7 +107,7 @@
         "description": "meow"
       },
       "1": {
-        "executable": "linux/Catsploration.x86_64",
+        "executable": "Catsploration.x86_64",
         "type": "default",
         "config": {
           "oslist": "linux",
@@ -123,7 +123,7 @@
   "depots": {
     "1845121": {
       "config": {
-        "oslist": "windows,linux",
+        "oslist": "windows",
         "osarch": "64"
       },
       "manifests": {
@@ -132,6 +132,12 @@
           "size": "4632023470",
           "download": "1260342656"
         }
+      }
+    },
+    "1845122": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
       }
     },
     "branches": {
