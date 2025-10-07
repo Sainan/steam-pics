@@ -1,6 +1,5 @@
 {
   "appid": "3870030",
-  "public_only": "1",
   "common": {
     "name": "逃脱:别听见  ESCAPE:DO NOT HEAR",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "0544a024184a799423cb059b7e3ff0a11dcf9149/capsule_231x87.jpg",
@@ -121,7 +120,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3870030",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "3834",
@@ -142,6 +140,52 @@
       "16": "5984",
       "17": "3859",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "xzx",
+    "publisher": "xzx"
+  },
+  "config": {
+    "installdir": "Donthear",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3870031": {
+      "config": {
+        "oslist": "windows",
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1803219114967649539",
+          "size": "513232031",
+          "download": "395450208"
+        }
+      }
+    },
+    "4083470": {
+      "dlcappid": "4083470",
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20102151",
+        "timeupdated": "1758679184"
+      }
     }
   }
 }
