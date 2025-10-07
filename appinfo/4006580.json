@@ -1,6 +1,5 @@
 {
   "appid": "4006580",
-  "public_only": "1",
   "common": {
     "name": "Geospatial Exploration - Explore the real world in 3D and VR",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -181,9 +180,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4006580",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "15045",
@@ -205,6 +204,51 @@
       "17": "4166",
       "18": "7368",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Boemien",
+    "publisher": "Boemien"
+  },
+  "config": {
+    "installdir": "Geospatial Exploration - Explore the real world in 3D and VR",
+    "launch": {
+      "0": {
+        "executable": "Geospatial VR_1.0.0.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Geospatial VR"
+        },
+        "description": "Launch Geospatial VR"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "6"
+  },
+  "depots": {
+    "4006581": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8975059581277622534",
+          "size": "415980032",
+          "download": "409650144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20275811",
+        "timeupdated": "1759780043"
+      }
     }
   }
 }
