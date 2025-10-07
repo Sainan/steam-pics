@@ -1,6 +1,5 @@
 {
   "appid": "4082340",
-  "public_only": "1",
   "common": {
     "name": "Pursuit Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "220f5bec5c55e81fab577e9bd27fca3343d29534",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -53,10 +52,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4082340",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "CGI LAB GAMES SRL",
+    "publisher": "CGI LAB GAMES SRL"
+  },
+  "config": {
+    "installdir": "PursuitPCDemo",
+    "launch": {
+      "0": {
+        "executable": "PursuitPCDemo/Pursuit.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4082341": {
+      "manifests": {
+        "public": {
+          "gid": "4594571373773334872",
+          "size": "4968792607",
+          "download": "1265395552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20228971",
+        "timeupdated": "1759436825"
+      }
     }
   }
 }
