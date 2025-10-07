@@ -1,0 +1,239 @@
+{
+  "appid": "720730",
+  "common": {
+    "name": "Without Escape",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "logo": "cd2c19ba025d44fa7bb79eff9b1b088d7925c26c",
+    "logo_small": "cd2c19ba025d44fa7bb79eff9b1b088d7925c26c_thumb",
+    "icon": "ba7c403a6181612b7f6e46df04e35139e74b7678",
+    "clienttga": "0f2dffe6e7e0ea7361c009ff6493a3d0f29587df",
+    "clienticon": "b190f8a7dc73b1b847d0914f411c3ae91f0424f9",
+    "languages": {
+      "english": "1",
+      "spanish": "1"
+    },
+    "metacritic_name": "Without Escape",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "45.408616067301466",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "45.408616067301466",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1666994652",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Bumpy Trail Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Bumpy Trail Games"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "25",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_28": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1524585703",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "720730",
+    "store_tags": {
+      "0": "21",
+      "1": "492",
+      "2": "1698",
+      "3": "1667",
+      "4": "1664",
+      "5": "3839",
+      "6": "4345"
+    },
+    "review_score": "5",
+    "review_percentage": "60"
+  },
+  "extended": {
+    "developer": "Bumpy Trail Games",
+    "publisher": "Bumpy Trail Games",
+    "homepage": "http://bumpytrailgames.com/without-escape/"
+  },
+  "config": {
+    "installdir": "Without Escape",
+    "launch": {
+      "0": {
+        "executable": "WithoutEscape.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "WithoutEscape.x86",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "32"
+        }
+      },
+      "2": {
+        "executable": "WithoutEscape.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "3": {
+        "executable": "WithoutEscape.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "720731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2146589779322675510",
+          "size": "300936834",
+          "download": "228461344"
+        }
+      }
+    },
+    "720732": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6208749830244281433",
+          "size": "321481675",
+          "download": "229864608"
+        }
+      }
+    },
+    "720733": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3234947979846259905",
+          "size": "279375233",
+          "download": "222749296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20279166",
+        "timeupdated": "1759804437"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1024",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Bumpy Trail Games/Without Escape",
+        "pattern": "WithoutEscape.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Bumpy Trail Games/Without Escape",
+            "replace": ".config/unity3d/Bumpy Trail Games/Without Escape"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Bumpy Trail Games/Without Escape",
+            "replace": "unity.BumpyTrailGames.WithoutEscape"
+          }
+        }
+      }
+    }
+  }
+}
