@@ -1,10 +1,9 @@
 {
   "appid": "2711190",
-  "public_only": "1",
   "common": {
     "name": "Hyperspace Deck Command",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "17ac180d0b1637903a022e758be360c662645f53",
     "clienttga": "bd2f9656efadce5d8b60091c117bf6f5379c6c39",
     "linuxclienticon": "8db5d84af6c1beed19c98a6b5c06f1a71be63c82",
@@ -100,9 +99,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759838886",
     "community_hub_visible": "1",
     "gameid": "2711190",
-    "exfgls": "8",
     "store_tags": {
       "0": "4026",
       "1": "1091588",
@@ -123,6 +122,82 @@
       "16": "1759",
       "17": "492",
       "18": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Sleeper Games",
+    "publisher": "Sleeper Games"
+  },
+  "config": {
+    "installdir": "Hyperspace Deck Command",
+    "launch": {
+      "0": {
+        "executable": "Hyperspace Deck Command.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hyperspace Deck Command.AppImage",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2711191": {
+      "manifests": {
+        "public": {
+          "gid": "2728427921971335518",
+          "size": "1363603033",
+          "download": "1080557424"
+        }
+      }
+    },
+    "2711192": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9154946043194009741",
+          "size": "1080295042",
+          "download": "1080096336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20285005",
+        "timeupdated": "1759834997"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WindowsHome",
+        "path": "HDC",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": "HDC",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
