@@ -1,6 +1,5 @@
 {
   "appid": "4047900",
-  "public_only": "1",
   "common": {
     "name": "Sad Virus Shitcoin",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "b4296ee305c77b115162ea99e3a5bd5ff6eb4374",
     "icon": "b4296ee305c77b115162ea99e3a5bd5ff6eb4374",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a65f71d0c03e1ed551121bc99d9b0fd6e5a4c32e/capsule_231x87.jpg"
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759821983",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4047900",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "599",
@@ -130,6 +130,61 @@
       "13": "4295",
       "14": "7250",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Valkeala Software",
+    "publisher": "Valkeala Software"
+  },
+  "config": {
+    "installdir": "Sad Virus Shitcoin",
+    "launch": {
+      "0": {
+        "executable": "viruscrypto.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4047901": {
+      "manifests": {
+        "public": {
+          "gid": "2108565957535666791",
+          "size": "472807066",
+          "download": "331202432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20043928",
+        "timeupdated": "1758269409"
+      }
     }
   }
 }
