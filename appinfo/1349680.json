@@ -1,10 +1,9 @@
 {
   "appid": "1349680",
-  "public_only": "1",
   "common": {
     "name": "GunBlocks",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "9ac8f068fe70156c0d24c4550e1ef59ca254047c",
     "logo_small": "9ac8f068fe70156c0d24c4550e1ef59ca254047c_thumb",
     "oslist": "windows",
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759849292",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1349680",
-    "exfgls": "8",
     "store_tags": {
       "0": "5537",
       "1": "1625",
@@ -135,6 +135,58 @@
       "17": "5094",
       "18": "7569",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Steve Welz",
+    "publisher": "Steve Welz",
+    "homepage": "http://gunblocks.com"
+  },
+  "config": {
+    "installdir": "GunBlocks",
+    "launch": {
+      "0": {
+        "executable": "GunBlocks.exe",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1349681": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "8480327899605912142",
+          "size": "503931533",
+          "download": "333609104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20079684",
+        "timeupdated": "1758559903"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Cookie Engine/GunBlocks/Save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
