@@ -1,6 +1,5 @@
 {
   "appid": "3294690",
-  "public_only": "1",
   "common": {
     "name": "Yomegami: My Sweet Goddess!",
     "type": "Game",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -153,9 +152,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759852723",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3294690",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -175,6 +175,78 @@
       "12": "4195",
       "13": "4434",
       "14": "5984"
+    }
+  },
+  "extended": {
+    "developer": "ALcot",
+    "publisher": "JAST"
+  },
+  "config": {
+    "installdir": "Yomegami",
+    "launch": {
+      "0": {
+        "executable": "Yomegami - My Sweet Goddess!.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3294691": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1051197011451534667",
+          "size": "1478873362",
+          "download": "1465920064"
+        }
+      }
+    },
+    "3294692": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4235115439951315688",
+          "size": "1480451239",
+          "download": "1423033296"
+        }
+      }
+    },
+    "3294693": {
+      "config": {
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7224380877410267872",
+          "size": "1480436814",
+          "download": "1422578704"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20259300",
+        "timeupdated": "1759664557"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "savedata",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
