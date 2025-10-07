@@ -1,6 +1,5 @@
 {
   "appid": "3942780",
-  "public_only": "1",
   "common": {
     "name": "The Cute the Baldy and the Fluffy",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -119,10 +118,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759833716",
     "steam_deck_blog_url": "https://steamcommunity.com/app/3942780/discussions/0/592909007188089627/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3942780",
-    "exfgls": "8",
     "store_tags": {
       "0": "3964",
       "1": "1647",
@@ -144,6 +144,57 @@
       "17": "19",
       "18": "4726",
       "19": "3839"
+    }
+  },
+  "extended": {
+    "developer": "lightUP",
+    "publisher": "lightUP"
+  },
+  "config": {
+    "installdir": "TheCuteTheBaldyAndTheFluffy",
+    "launch": {
+      "0": {
+        "executable": "TheCuteTheBaldyAndTheFluffy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3942781": {
+      "manifests": {
+        "public": {
+          "gid": "6514608549364910837",
+          "size": "23140006",
+          "download": "11484976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20210122",
+        "timeupdated": "1759338904"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheCuteTheBaldyAndTheFluffy",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
