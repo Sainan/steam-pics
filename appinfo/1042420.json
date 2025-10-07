@@ -1,0 +1,116 @@
+{
+  "appid": "1042420",
+  "common": {
+    "name": "DayZ Experimental Server",
+    "section_type": "ownersonly",
+    "type": "Tool",
+    "parent": "1024020",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "clienttga": "e529b20af459d1307c2e885c68293ba137971ecc",
+    "clienticon": "f8c16699ed5ce1cc8aa9b15ed3fdd66553fce2bf",
+    "icon": "dadc80fcc935495943969e0d3cd90cae6c79d8ff",
+    "eulas": {
+      "0": {
+        "id": "1042420_eula_0",
+        "name": "Experimental Test Product Server EULA",
+        "url": "https://store.steampowered.com//eula/1042420_eula_0"
+      }
+    },
+    "logo": "a2ab55e66a8872c2f5aafae46db8372f03bd1ce8",
+    "logo_small": "a2ab55e66a8872c2f5aafae46db8372f03bd1ce8_thumb",
+    "releasestate": "released",
+    "osextended": "",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1042420"
+  },
+  "config": {
+    "installdir": "DayZ Server Exp",
+    "launch": {
+      "0": {
+        "executable": "DayZServer_x64.exe",
+        "description": "Launch Server",
+        "type": "server",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1042421": {
+      "manifests": {
+        "public": {
+          "gid": "4300724566235891519",
+          "size": "3624907992",
+          "download": "1508277888"
+        }
+      }
+    },
+    "1042422": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1285910901608670777",
+          "size": "99084672",
+          "download": "34137552"
+        }
+      }
+    },
+    "1042423": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2890803698536704652",
+          "size": "45785488",
+          "download": "16565312"
+        }
+      }
+    },
+    "1042424": {
+      "manifests": {
+        "public": {
+          "gid": "1565599748832551229",
+          "size": "303156279",
+          "download": "11723632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19582948",
+        "timeupdated": "1755177050"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
