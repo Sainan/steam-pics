@@ -4,9 +4,9 @@
     "name": "Pungo Demo",
     "type": "Demo",
     "parent": "3603010",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64",
     "clienticon": "c32e04d96a4552cb88440ebf6782cc8b82ff9d25",
     "icon": "c32e04d96a4552cb88440ebf6782cc8b82ff9d25",
     "releasestate": "released",
@@ -151,6 +151,20 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "PungoDemo_OSX.app\\Contents\\MacOS\\Pungo Demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "PungoDemo_Linux.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
@@ -165,6 +179,16 @@
           "size": "196613401",
           "download": "57697312"
         }
+      }
+    },
+    "4059272": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "4059273": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
