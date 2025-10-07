@@ -1,6 +1,5 @@
 {
   "appid": "4046020",
-  "public_only": "1",
   "common": {
     "name": "Komatose",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "aec0be538f88b1599049fc885e3b5371e4fa89cd",
     "icon": "aec0be538f88b1599049fc885e3b5371e4fa89cd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -101,9 +100,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759838148",
     "community_hub_visible": "1",
     "gameid": "4046020",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -124,6 +123,49 @@
       "13": "3978",
       "14": "6426",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Matt Cusworth",
+    "publisher": "Rhinocorp Games"
+  },
+  "config": {
+    "installdir": "Komatose",
+    "launch": {
+      "0": {
+        "executable": "Komatose.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4046021": {
+      "manifests": {
+        "public": {
+          "gid": "1163522707324203626",
+          "size": "712165268",
+          "download": "543339408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20279184",
+        "timeupdated": "1759800764"
+      }
     }
   }
 }
