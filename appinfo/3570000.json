@@ -1,10 +1,9 @@
 {
   "appid": "3570000",
-  "public_only": "1",
   "common": {
     "name": "EMOTIONLESS : The Last Ticket",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -141,9 +140,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759827663",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3570000",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "7432",
@@ -165,6 +165,61 @@
       "17": "599",
       "18": "6971",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "X1 Games",
+    "publisher": "X1 Games"
+  },
+  "config": {
+    "installdir": "EMOTIONLESSTheLastTicket",
+    "launch": {
+      "0": {
+        "executable": "Horror.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3570001": {
+      "manifests": {
+        "public": {
+          "gid": "2596453178308457486",
+          "size": "6979594644",
+          "download": "6639157536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20283084",
+        "timeupdated": "1759827568"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheLastTicket/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
