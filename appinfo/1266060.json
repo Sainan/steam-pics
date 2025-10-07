@@ -1,10 +1,9 @@
 {
   "appid": "1266060",
-  "public_only": "1",
   "common": {
     "name": "Lethal Honor - Order of the Apocalypse",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "adb803fa5644d62a4b7c918e7b32525debb512a2",
     "logo_small": "adb803fa5644d62a4b7c918e7b32525debb512a2_thumb",
     "icon": "1f8cb9f50d2bf468d959cbebcfc2d23460264514",
@@ -146,9 +145,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759842012",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1266060",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -174,6 +174,51 @@
       "17": "1659",
       "18": "1671",
       "19": "4975"
+    }
+  },
+  "extended": {
+    "developer": "Viral Studios",
+    "publisher": "HandyGames",
+    "homepage": "https://www.handy-games.com/en/games/lethal-honor/"
+  },
+  "config": {
+    "installdir": "Lethal Honor",
+    "launch": {
+      "1": {
+        "executable": "LethalHonor.exe"
+      }
+    }
+  },
+  "depots": {
+    "1266061": {
+      "manifests": {
+        "public": {
+          "gid": "1719289972209749224",
+          "size": "2566874267",
+          "download": "2157880432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20269813",
+        "timeupdated": "1759824018"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "ViralStudios\\LethalHonor\\",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
