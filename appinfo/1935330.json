@@ -1,10 +1,9 @@
 {
   "appid": "1935330",
-  "public_only": "1",
   "common": {
     "name": "SOPA - Tale of the Stolen Potato",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1935330",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "4145",
@@ -130,5 +130,65 @@
       "18": "4191",
       "19": "21"
     }
+  },
+  "extended": {
+    "developer": "StudioBando",
+    "publisher": "StudioBando",
+    "homepage": "https://sopagame.com"
+  },
+  "config": {
+    "installdir": "SOPA",
+    "launch": {
+      "0": {
+        "executable": "SOPA/Sopa.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3577903322": {
+        "controller_type": "controller_xbox360",
+        "enabled_branches": "testing",
+        "use_action_block": "false"
+      },
+      "3578920592": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1935331": {
+      "manifests": {
+        "public": {
+          "gid": "6851621888665120335",
+          "size": "2728486253",
+          "download": "2409911392"
+        },
+        "internal-demo": {
+          "gid": "1361329008337329745",
+          "size": "1949506572",
+          "download": "1505187024"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20259763",
+        "timeupdated": "1759698691"
+      },
+      "internal-demo": {
+        "buildid": "14550209",
+        "description": "private demo - publishers",
+        "timeupdated": "1759280642"
+      }
+    },
+    "privatebranches": "1"
   }
 }
