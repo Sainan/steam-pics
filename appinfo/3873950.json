@@ -1,6 +1,5 @@
 {
   "appid": "3873950",
-  "public_only": "1",
   "common": {
     "name": "Another Day Off Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "6"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,6 +109,49 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Emanuele La Commare",
+    "publisher": "Emanuele La Commare"
+  },
+  "config": {
+    "installdir": "Another Day Off Demo",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "Another Day Off.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Demo"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3873951": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4066993248248050779",
+          "size": "1300992747",
+          "download": "823640912"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20178748",
+        "timeupdated": "1759177918"
+      }
     }
   }
 }
