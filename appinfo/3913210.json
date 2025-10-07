@@ -1,6 +1,5 @@
 {
   "appid": "3913210",
-  "public_only": "1",
   "common": {
     "name": "Elf Clash Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76f84b30cfe244719d9f190e28f5bf610799194c/capsule_231x87.jpg"
     },
@@ -95,7 +94,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759823834",
     "gameid": "3913210",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "RipenGo Games",
+    "publisher": "RipenGo Games",
+    "homepage": "https://www.ripengo.com"
+  },
+  "config": {
+    "installdir": "Elf Clash Demo",
+    "launch": {
+      "0": {
+        "executable": "elf_clash.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3913211": {
+      "manifests": {
+        "public": {
+          "gid": "8385531185596124970",
+          "size": "93696926",
+          "download": "69538848"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20271852",
+        "timeupdated": "1759761177"
+      }
+    }
   }
 }
