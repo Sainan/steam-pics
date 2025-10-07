@@ -19,25 +19,37 @@
     "restricted_countries": "CN,DE,SA",
     "aicontenttype": "1",
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "1",
-      "test_timestamp": "1744934400",
-      "tested_build_id": "18056234",
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759190400",
+      "tested_build_id": "19957451",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
       "configuration": {
-        "supported_input": "other",
-        "requires_manual_keyboard_invoke": "1",
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "0",
         "non_deck_display_glyphs": "0",
