@@ -1,13 +1,12 @@
 {
   "appid": "3588820",
-  "public_only": "1",
   "common": {
     "name": "Human May Jump",
     "type": "Game",
     "icon": "92b28c914734ab275e843b9514b82d78aee93f24",
     "clienticon": "d063191c8a859a2aa0a16223b42424217c401643",
     "clienttga": "871b02e418341fbe1089e0c0d8d3ebc6f710daf8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -101,7 +100,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3588820",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "699",
@@ -115,6 +113,72 @@
       "9": "4136",
       "10": "1695",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "dozenhuh",
+    "publisher": "dozenhuh"
+  },
+  "config": {
+    "installdir": "HumanMayJump",
+    "launch": {
+      "0": {
+        "executable": "HMJ.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3588821": {
+      "manifests": {
+        "public": {
+          "gid": "723122432109211589",
+          "size": "766589806",
+          "download": "608540704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20284555",
+        "timeupdated": "1759833180"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "HMJ",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
