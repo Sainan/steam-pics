@@ -1,10 +1,9 @@
 {
   "appid": "3983920",
-  "public_only": "1",
   "common": {
     "name": "Hollowbrook - Apartments",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3983920",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,5 +140,49 @@
       "18": "4667",
       "19": "19"
     }
+  },
+  "extended": {
+    "developer": "Yetiface Games",
+    "publisher": "Yetiface Games"
+  },
+  "config": {
+    "installdir": "Hollowbrook - Apartments",
+    "launch": {
+      "0": {
+        "executable": "Murder.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3983921": {
+      "manifests": {
+        "public": {
+          "gid": "6441045491012613931",
+          "size": "1045338792",
+          "download": "696251488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20289361",
+        "timeupdated": "1759852126"
+      }
+    },
+    "privatebranches": "1"
   }
 }
