@@ -1,6 +1,5 @@
 {
   "appid": "4030810",
-  "public_only": "1",
   "common": {
     "name": "单词征服者：决战词汇大魔王",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7897b30fd25b5ae2b987c0d03e8c02e46155cf48/capsule_231x87.jpg"
@@ -100,9 +99,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4030810",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "24003",
@@ -115,6 +114,45 @@
       "8": "492",
       "9": "4325",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "风味抽豆腐",
+    "publisher": "风味抽豆腐"
+  },
+  "config": {
+    "installdir": "WordChallenger",
+    "launch": {
+      "0": {
+        "executable": "WordChallenger.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4030811": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1257925712936495563",
+          "size": "126729104",
+          "download": "52543520"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20284853",
+        "timeupdated": "1759834298"
+      }
     }
   }
 }
