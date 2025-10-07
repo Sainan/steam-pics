@@ -1,10 +1,9 @@
 {
   "appid": "3994290",
-  "public_only": "1",
   "common": {
     "name": "Circle Shoot",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -318,9 +317,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3994290",
-    "exfgls": "8",
     "store_tags": {
       "0": "1774",
       "1": "14906",
@@ -336,5 +335,48 @@
       "11": "3964",
       "12": "3993"
     }
+  },
+  "extended": {
+    "developer": "Deliciosa Game",
+    "publisher": "Deliciosa Game"
+  },
+  "config": {
+    "installdir": "Circle Shoot",
+    "launch": {
+      "0": {
+        "executable": "Circle Shoot.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3994291": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4956689580283603697",
+          "size": "155447873",
+          "download": "109587344"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,hungarian,turkish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20122554",
+        "timeupdated": "1758790803"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "3"
   }
 }
