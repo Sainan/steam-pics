@@ -1,6 +1,5 @@
 {
   "appid": "2178890",
-  "public_only": "1",
   "common": {
     "name": "Epi-Derick",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "6f65ef9c077eea7014e2c7a6e56e518d69c80785",
     "clienttga": "c9c93bb5906c9adb262440f8f00a7a54f7ef0569",
     "clienticon": "6f65ef9c077eea7014e2c7a6e56e518d69c80785",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,9 +105,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759852833",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2178890",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -131,6 +131,57 @@
       "15": "5030",
       "16": "492",
       "17": "5125"
+    }
+  },
+  "extended": {
+    "developer": "Fireslug Studios Ltd.",
+    "publisher": "Fireslug Studios Ltd.",
+    "homepage": "https://www.fireslugstudios.com/"
+  },
+  "config": {
+    "installdir": "Epi-Derick",
+    "launch": {
+      "0": {
+        "executable": "Epi-Derick.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "2178891": {
+      "manifests": {
+        "public": {
+          "gid": "4863173393990011038",
+          "size": "500907151",
+          "download": "403157296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20289248",
+        "timeupdated": "1759851510"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Fireslug Studios Ltd_\\Epi-Derick",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
