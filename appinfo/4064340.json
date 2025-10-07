@@ -1,6 +1,5 @@
 {
   "appid": "4064340",
-  "public_only": "1",
   "common": {
     "name": "Horror Scenarios: The Redwood Estate Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -48,5 +47,49 @@
     },
     "gameid": "4064340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Studios O.S.A.A.T.",
+    "publisher": "Studios O.S.A.A.T.",
+    "homepage": "https://www.studiososaat.com"
+  },
+  "config": {
+    "installdir": "Horror Scenarios The Redwood Estate Demo",
+    "launch": {
+      "0": {
+        "executable": "TopHorror.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4064341": {
+      "manifests": {
+        "public": {
+          "gid": "2898726351528924805",
+          "size": "1442824375",
+          "download": "315086880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20264422",
+        "timeupdated": "1759717160"
+      }
+    }
   }
 }
