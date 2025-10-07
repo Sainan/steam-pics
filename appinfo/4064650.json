@@ -1,4 +1,104 @@
 {
   "appid": "4064650",
-  "public_only": "1"
+  "common": {
+    "name": "地牢饿徒 Playtest",
+    "type": "Beta",
+    "parent": "3950980",
+    "clienticon": "d9fe0f9cc38479bafd9a4f9e11c27803d1b9942d",
+    "icon": "d9fe0f9cc38479bafd9a4f9e11c27803d1b9942d",
+    "eulas": {
+      "0": {
+        "id": "4064650_eula_0",
+        "name": "地牢饿徒 Playtest EULA",
+        "url": "https://store.steampowered.com//eula/4064650_eula_0",
+        "version": "1"
+      }
+    },
+    "name_localized": {
+      "english": "Dungeon Hunger Playtest",
+      "schinese": "地牢饿徒 Playtest",
+      "japanese": "ダンジョン・ハンガー Playtest",
+      "tchinese": "地牢餓徒 Playtest"
+    },
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "community_hub_visible": "1",
+    "gameid": "4064650",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Dungeon Hunger Playtest",
+    "launch": {
+      "0": {
+        "executable": "DungeonHunger.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DungeonHunger.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "DungeonHunger.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064652": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7073041221678846751",
+          "size": "224264083",
+          "download": "51488288"
+        }
+      }
+    },
+    "4064653": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8146298442384163125",
+          "size": "218884093",
+          "download": "49321936"
+        }
+      }
+    },
+    "4064654": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3432704239196989716",
+          "size": "223132965",
+          "download": "49571376"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20181753",
+        "timeupdated": "1759194782"
+      }
+    }
+  }
 }
