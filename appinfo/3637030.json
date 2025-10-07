@@ -1,11 +1,10 @@
 {
   "appid": "3637030",
-  "public_only": "1",
   "common": {
     "name": "OrePlant Demo",
     "type": "Demo",
     "parent": "3377860",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d5de47ce0bf549efc08235823f2401e5639c0bdc",
     "clienticon": "254ec05cc79370a0c732fe211623044219897a02",
     "clienttga": "159324680b893b94100a17c7823dedf774082669",
@@ -103,7 +102,53 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3637030",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hypercent Inc.",
+    "publisher": "Hypercent Inc.",
+    "homepage": "https://www.hypercent.co.kr/coming-soon-03"
+  },
+  "config": {
+    "installdir": "OrePlant Demo",
+    "launch": {
+      "0": {
+        "executable": "OrePlant.exe"
+      }
+    }
+  },
+  "depots": {
+    "3637031": {
+      "manifests": {
+        "public": {
+          "gid": "1767200726331537786",
+          "size": "2272285127",
+          "download": "305199264"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20274757",
+        "timeupdated": "1759774947"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Hypercent\\OrePlant\\demo",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
