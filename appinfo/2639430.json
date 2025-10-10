@@ -1,6 +1,5 @@
 {
   "appid": "2639430",
-  "public_only": "1",
   "common": {
     "name": "SGS Sealion",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "e954a0fb5bfa6f200feec09dc83d561e1297b3f8",
     "clienticon": "4b8e69080847331b9bfe2de60779fce8836f3dca",
     "icon": "4b8e69080847331b9bfe2de60779fce8836f3dca",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "87e4198a51323a2acc51aa8b9d7f911b5d1054e3/capsule_231x87.jpg"
@@ -133,7 +132,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2639430",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1741",
@@ -151,5 +149,97 @@
       "13": "4182",
       "14": "3859"
     }
+  },
+  "extended": {
+    "developer": "Strategy Game Sudio",
+    "publisher": "Avalon Digital",
+    "homepage": "https://strategygamestudio.com/games/sgs-sealion-seelowe/"
+  },
+  "config": {
+    "installdir": "SGS Sealion",
+    "launch": {
+      "0": {
+        "executable": "32Bits/Sealion.exe",
+        "workingdir": "32Bits",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        }
+      },
+      "1": {
+        "executable": "64Bits/Sealion.exe",
+        "workingdir": "64Bits",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Sealion.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2639431": {
+      "manifests": {
+        "public": {
+          "gid": "4983847462728797832",
+          "size": "384850035",
+          "download": "304829792"
+        }
+      }
+    },
+    "2639432": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7645442812690601658",
+          "size": "609310935",
+          "download": "231958976"
+        }
+      }
+    },
+    "2639433": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5193460190848663417",
+          "size": "623084713",
+          "download": "237366000"
+        }
+      }
+    },
+    "2639434": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8392717309288147189",
+          "size": "618307518",
+          "download": "236530224"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish",
+    "branches": {
+      "public": {
+        "buildid": "20299453",
+        "timeupdated": "1759910738"
+      }
+    },
+    "privatebranches": "1"
   }
 }
