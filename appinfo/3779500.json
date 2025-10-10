@@ -1,6 +1,5 @@
 {
   "appid": "3779500",
-  "public_only": "1",
   "common": {
     "name": "Pinball Hero",
     "type": "Game",
@@ -19,13 +18,18 @@
     "clienticns": "8bbd90017eb1f12de019638cc0fe9f6932c2ec28",
     "linuxclienticon": "8bbd90017eb1f12de019638cc0fe9f6932c2ec28",
     "clienticon": "a8c09adb6a72cb6bed09f5dd2889449ab5d5568f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
+      "german": "1",
+      "french": "1",
+      "koreana": "1",
+      "spanish": "1",
       "schinese": "1",
       "tchinese": "1",
       "russian": "1",
-      "japanese": "1"
+      "japanese": "1",
+      "portuguese": "1"
     },
     "controllertagwizard": "1",
     "small_capsule": {
@@ -98,7 +102,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758817761",
+    "store_asset_mtime": "1759953687",
     "associations": {
       "0": {
         "type": "developer",
@@ -145,27 +149,91 @@
       "tchinese": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760024261",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3779500",
-    "exfgls": "8",
     "store_tags": {
-      "0": "597",
-      "1": "599",
-      "2": "6621",
-      "3": "4325",
-      "4": "5154",
-      "5": "3959",
-      "6": "4236",
-      "7": "1759",
-      "8": "1645",
-      "9": "1716",
-      "10": "3871",
-      "11": "492",
-      "12": "4182",
-      "13": "1665",
-      "14": "17927"
+      "0": "3968",
+      "1": "1716",
+      "2": "1645",
+      "3": "6621",
+      "4": "597",
+      "5": "599",
+      "6": "4325",
+      "7": "5154",
+      "8": "3959",
+      "9": "4236",
+      "10": "1759",
+      "11": "3871",
+      "12": "492",
+      "13": "4182",
+      "14": "1665",
+      "15": "1774"
+    }
+  },
+  "extended": {
+    "developer": "COSO",
+    "publisher": "COSO"
+  },
+  "config": {
+    "installdir": "Pinball Hero",
+    "launch": {
+      "0": {
+        "executable": "Pinball Hero.exe"
+      }
+    }
+  },
+  "depots": {
+    "3779501": {
+      "manifests": {
+        "public": {
+          "gid": "5128550445174265977",
+          "size": "23408757",
+          "download": "20913728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20332847",
+        "timeupdated": "1760080649"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TQ",
+        "pattern": "*.data"
+      }
     }
   }
 }
