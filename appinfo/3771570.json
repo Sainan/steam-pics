@@ -1,10 +1,9 @@
 {
   "appid": "3771570",
-  "public_only": "1",
   "common": {
     "name": "Snow x Hime",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -113,6 +112,7 @@
       "category_74": "1",
       "category_78": "1",
       "category_79": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -158,9 +158,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759992639",
     "community_hub_visible": "1",
     "gameid": "3771570",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -171,13 +171,13 @@
       "0": "7208",
       "1": "12095",
       "2": "122",
-      "3": "492",
-      "4": "6650",
+      "3": "6650",
+      "4": "492",
       "5": "19",
       "6": "21",
-      "7": "4191",
-      "8": "9130",
-      "9": "24904",
+      "7": "24904",
+      "8": "4191",
+      "9": "9130",
       "10": "5611",
       "11": "6506",
       "12": "4231",
@@ -188,6 +188,79 @@
       "17": "4608",
       "18": "1684",
       "19": "1742"
+    },
+    "review_score": "5",
+    "review_percentage": "47"
+  },
+  "extended": {
+    "developer": "Kazuya",
+    "publisher": "赤いトンボ"
+  },
+  "config": {
+    "installdir": "Snow x Hime",
+    "launch": {
+      "0": {
+        "executable": "Snow x Hime.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3558642857": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      },
+      "3558647678": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "3771571": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8709779035607199250",
+          "size": "12663726731",
+          "download": "6222431648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20315540",
+        "timeupdated": "1759992588"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Global",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
