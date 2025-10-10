@@ -1,6 +1,5 @@
 {
   "appid": "4026130",
-  "public_only": "1",
   "common": {
     "name": "Breath of Life Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "3e6b3ad17b588a402b8933d86f2a79970ec74a3c",
     "icon": "3e6b3ad17b588a402b8933d86f2a79970ec74a3c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -115,7 +114,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760079126",
     "gameid": "4026130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Alexander Byzov",
+    "publisher": "Alexander Byzov"
+  },
+  "config": {
+    "installdir": "Breath of Life Demo",
+    "launch": {
+      "0": {
+        "executable": "Breath of Life.exe",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4026131": {
+      "manifests": {
+        "public": {
+          "gid": "4298356203460591090",
+          "size": "12404136195",
+          "download": "10096532080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20277330",
+        "timeupdated": "1759789213"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "500",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
