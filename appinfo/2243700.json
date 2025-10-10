@@ -1,13 +1,12 @@
 {
   "appid": "2243700",
-  "public_only": "1",
   "common": {
     "name": "Isle of Leil",
     "type": "Game",
     "icon": "d8ad723e147175b41b50877f1e61d2452f838879",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "56ac929b22b763004b9acf21dd5a8ad7417d9de0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758884585",
+    "store_asset_mtime": "1760047190",
     "associations": {
       "0": {
         "type": "developer",
@@ -116,9 +115,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760043676",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2243700",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -141,9 +141,59 @@
       "14": "1662",
       "15": "21",
       "16": "3968",
-      "17": "9551",
-      "18": "4182",
+      "17": "4182",
+      "18": "9551",
       "19": "4345"
+    }
+  },
+  "extended": {
+    "developer": "Curtis Hawes",
+    "publisher": "Adversity Interactive",
+    "homepage": "https://www.adversityinteractive.com/"
+  },
+  "config": {
+    "installdir": "Isle of Leil",
+    "launch": {
+      "0": {
+        "executable": "Isle_of_Leil.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2243701": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5773597135633157689",
+          "size": "9192789902",
+          "download": "8743443392"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20325940",
+        "timeupdated": "1760037680"
+      }
     }
   }
 }
