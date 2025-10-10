@@ -1,6 +1,5 @@
 {
   "appid": "3575730",
-  "public_only": "1",
   "common": {
     "name": "MERRY BUNNY GARDEN",
     "type": "Game",
@@ -21,13 +20,58 @@
       "schinese": "醉醺醺 兔兔秘密花园",
       "tchinese": "醉醺醺 兔兔秘密花園"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "4",
       "2": "5"
     },
     "restricted_countries": "CN,DE,SA",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759449600",
+      "tested_build_id": "19692888",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -165,9 +209,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3575730",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -177,17 +221,69 @@
       "0": "19",
       "1": "21",
       "2": "597",
-      "3": "4191",
-      "4": "4726",
-      "5": "4106",
-      "6": "3799",
-      "7": "5395",
-      "8": "12095",
-      "9": "4085",
-      "10": "492",
+      "3": "12095",
+      "4": "4191",
+      "5": "4726",
+      "6": "4106",
+      "7": "3799",
+      "8": "4085",
+      "9": "5395",
+      "10": "7208",
       "11": "7481",
-      "12": "7208",
-      "13": "4182"
+      "12": "492",
+      "13": "4182",
+      "14": "9130",
+      "15": "6650",
+      "16": "24904",
+      "17": "5611"
+    },
+    "review_score": "8",
+    "review_percentage": "91"
+  },
+  "extended": {
+    "developer": "qureate",
+    "publisher": "qureate"
+  },
+  "config": {
+    "installdir": "MERRY BUNNY GARDEN",
+    "launch": {
+      "1": {
+        "executable": "HEBEREKE BUNNY GARDEN.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3575731": {
+      "manifests": {
+        "public": {
+          "gid": "6728652149435703584",
+          "size": "2222888002",
+          "download": "1954718656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19692888",
+        "timeupdated": "1755847804"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "4194304",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Qureate/HEBEREKE BUNNY GARDEN/Save/{64BitSteamID}",
+        "pattern": "UserData"
+      }
     }
   }
 }
