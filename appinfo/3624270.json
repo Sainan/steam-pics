@@ -1,10 +1,9 @@
 {
   "appid": "3624270",
-  "public_only": "1",
   "common": {
     "name": "Dead Iron",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a4990aab6c7fc39982d72f622900d7dafa65d6e8",
     "clienticns": "49dcd815b4e2b05c53f4dd952c2ebd7eff81685b",
     "linuxclienticon": "49dcd815b4e2b05c53f4dd952c2ebd7eff81685b",
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760079814",
     "community_hub_visible": "1",
     "gameid": "3624270",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -127,6 +126,57 @@
       "9": "4667",
       "10": "10808",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Villain Laboratories",
+    "publisher": "Villain Laboratories"
+  },
+  "config": {
+    "installdir": "Dead Iron",
+    "launch": {
+      "0": {
+        "executable": "DeadIron.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3624271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4963483155622451107",
+          "size": "2955765103",
+          "download": "2793079216"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20313286",
+        "timeupdated": "1759977685"
+      }
     }
   }
 }
