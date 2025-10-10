@@ -11,6 +11,7 @@
     "clienttga": "1457288bcfe7db9ded487e19df90671279c2c27a",
     "icon": "12bfb4afaa2dabff9909d3eb4db3ddedc72688a1",
     "releasestate": "released",
+    "openvrsupport": "1",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "86172a4272d046015ed3e59b2e225afe06cd366c/capsule_231x87.jpg"
@@ -74,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1755237465",
+    "store_asset_mtime": "1759919948",
     "associations": {
       "0": {
         "type": "developer",
@@ -94,7 +95,8 @@
       "category_1": "1",
       "category_9": "1",
       "category_38": "1",
-      "category_27": "1"
+      "category_27": "1",
+      "category_53": "1"
     },
     "supported_languages": {
       "english": {
@@ -119,12 +121,26 @@
         "executable": "VEX MAGE.exe",
         "type": "default",
         "config": {
-          "oslist": "windows"
+          "oslist": "windows",
+          "osarch": "64"
         },
         "description_loc": {
-          "english": "Play VEX MAGE (Desktop)"
+          "english": "VEX MAGE"
         },
-        "description": "Play VEX MAGE (Desktop)"
+        "description": "VEX MAGE"
+      },
+      "1": {
+        "executable": "VEX MAGE.exe",
+        "arguments": "-vr",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "VEX MAGE"
+        },
+        "description": "VEX MAGE"
       }
     }
   },
@@ -132,16 +148,16 @@
     "3844321": {
       "manifests": {
         "public": {
-          "gid": "7628208624053168527",
-          "size": "8512240043",
-          "download": "3458489648"
+          "gid": "4277170268002819836",
+          "size": "8760066535",
+          "download": "3715125904"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20159491",
-        "timeupdated": "1759134863"
+        "buildid": "20314632",
+        "timeupdated": "1760052535"
       }
     },
     "privatebranches": "1"
