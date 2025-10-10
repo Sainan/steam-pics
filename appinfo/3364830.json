@@ -1,6 +1,5 @@
 {
   "appid": "3364830",
-  "public_only": "1",
   "common": {
     "name": "Brave × Junction",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "ee08f01ce0a2d424870b3fab3e69965ba28878a4",
     "clienttga": "268d93635c0769d3903271c6d8a8e7fbfccee49f",
     "clienticon": "3dbe49812d58db11c0f55c3a8615fa70abf8c06d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -136,9 +135,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759984354",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3364830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -147,11 +147,11 @@
     "store_tags": {
       "0": "122",
       "1": "4434",
-      "2": "4474",
-      "3": "7208",
+      "2": "7208",
+      "3": "4474",
       "4": "1684",
-      "5": "1646",
-      "6": "4325",
+      "5": "4325",
+      "6": "1646",
       "7": "492",
       "8": "4726",
       "9": "6815",
@@ -165,6 +165,57 @@
       "17": "9",
       "18": "9130",
       "19": "6650"
+    }
+  },
+  "extended": {
+    "developer": "Rideon,Inc.",
+    "publisher": "RideonJapan"
+  },
+  "config": {
+    "installdir": "Brave × Junction",
+    "launch": {
+      "0": {
+        "executable": "Brave × Junction.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "SteamInput/steam_input_manifest.vdf",
+    "steamconfigurator3rdpartynative": "11"
+  },
+  "depots": {
+    "3364831": {
+      "manifests": {
+        "public": {
+          "gid": "8473909311208845120",
+          "size": "392673306",
+          "download": "265583552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19893907",
+        "timeupdated": "1757318190"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "202000",
+    "maxnumfiles": "13",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "RideonJapan,Inc_/Brave × Junction/SaveData/{64BitSteamID}",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
