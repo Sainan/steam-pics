@@ -1,6 +1,5 @@
 {
   "appid": "3548270",
-  "public_only": "1",
   "common": {
     "name": "Next of Kin: Fidelity",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "ae9647c5ed673bdc396d4e246edaf75e0c28f7e6",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "icon": "dde387ce19c4cd4ffa4fff5b4d1dc99a12778782",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "swedish": "1"
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760080878",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3548270",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "3964",
@@ -140,6 +140,51 @@
       "17": "5984",
       "18": "5716",
       "19": "4004"
+    }
+  },
+  "extended": {
+    "developer": "Spelkväll Games",
+    "publisher": "Spelkväll Games",
+    "homepage": "https://www.spelkvall.se"
+  },
+  "config": {
+    "installdir": "Next of Kin Fidelity",
+    "launch": {
+      "0": {
+        "executable": "Next of Kin Fidelity.exe"
+      }
+    }
+  },
+  "depots": {
+    "3548271": {
+      "manifests": {
+        "public": {
+          "gid": "919974400893093290",
+          "size": "907751560",
+          "download": "117525568"
+        }
+      }
+    },
+    "baselanguages": "english,swedish",
+    "branches": {
+      "public": {
+        "buildid": "20281778",
+        "timeupdated": "1759820801"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Spelkvall Games\\Next of Kin Fidelity",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
