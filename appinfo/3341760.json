@@ -1,6 +1,5 @@
 {
   "appid": "3341760",
-  "public_only": "1",
   "common": {
     "name": "Friends' Kitchen Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "eeb3cca2ea216d5cd5b51f76004d595e1c407a9c",
     "icon": "60bbce6a04b2db85d4f021cdfa2553b94199a5d9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -105,5 +104,40 @@
     },
     "gameid": "3341760",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lluvia Games",
+    "publisher": "Lluvia Games"
+  },
+  "config": {
+    "installdir": "Friends' Kitchen Demo",
+    "launch": {
+      "0": {
+        "executable": "DemoBuildV6\\KastrChef.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3341761": {
+      "manifests": {
+        "public": {
+          "gid": "8993939454914342441",
+          "size": "1041447581",
+          "download": "384375728"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20315944",
+        "timeupdated": "1759994778"
+      }
+    }
   }
 }
