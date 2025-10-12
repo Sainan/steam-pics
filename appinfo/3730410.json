@@ -1,17 +1,20 @@
 {
   "appid": "3730410",
-  "public_only": "1",
   "common": {
     "name": "Fields of mine Demo",
     "type": "Demo",
     "parent": "3722690",
-    "icon": "19cbf105cdaa1a32e35a13bce4d222f04296db2a",
-    "clienticon": "b1eb05fa460dff1a3be4edf97283b386e6f83fba",
+    "icon": "b96093525a93f4729213b57b74e0a00006c9d8b2",
+    "clienticon": "b96093525a93f4729213b57b74e0a00006c9d8b2",
     "clienttga": "739c7d0790fd100189cf52fe83f2c3fc694600d1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
+    "languages": {
+      "english": "1",
+      "russian": "1"
+    },
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -66,7 +69,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759666856",
+    "store_asset_mtime": "1760126560",
     "associations": {
       "0": {
         "type": "developer",
@@ -99,7 +102,47 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759945351",
+    "community_visible_stats": "1",
     "gameid": "3730410",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "LeafTeam",
+    "publisher": "LeafTeam"
+  },
+  "config": {
+    "installdir": "Fields of mine Demo",
+    "launch": {
+      "0": {
+        "executable": "Fields of mine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3730411": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6212151314026356095",
+          "size": "243911632",
+          "download": "171491296"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20359077",
+        "timeupdated": "1760290792"
+      }
+    }
   }
 }
