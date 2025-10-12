@@ -1,13 +1,12 @@
 {
   "appid": "3433230",
-  "public_only": "1",
   "common": {
     "name": "The Gretlow Tapes",
     "type": "Game",
     "icon": "9855e9f5a3e2b41277399e60b098346a73b30562",
     "clienttga": "f6556f5795e10a9d333d0c1844c4dac8e4577a54",
     "clienticon": "8cd797553ba065719e8b1fe05acd637b6a6e58b1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -114,9 +113,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759857674",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3433230",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -141,6 +141,80 @@
       "17": "7250",
       "18": "4182",
       "19": "21"
+    },
+    "review_score": "7",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "developer": "Aegon Games",
+    "publisher": "Aegon Games"
+  },
+  "config": {
+    "installdir": "The Gretlow Tapes",
+    "launch": {
+      "0": {
+        "executable": "Watcher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3433231": {
+      "manifests": {
+        "public": {
+          "gid": "7891341898698394738",
+          "size": "3742082339",
+          "download": "3556346224"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20308310",
+        "timeupdated": "1759949068"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Watcher/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Watcher/Saved/SaveGames/Photos",
+        "pattern": "*.jpg",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
