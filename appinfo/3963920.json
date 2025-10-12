@@ -157,7 +157,9 @@
     },
     "steam_release_date": "1759493301",
     "gameid": "3963920",
-    "exfgls": "6"
+    "exfgls": "6",
+    "review_score": "7",
+    "review_percentage": "84"
   },
   "extended": {
     "vrheadsetstreaming": "1",
@@ -213,9 +215,9 @@
           "download": "164776480"
         },
         "1.0.5": {
-          "gid": "3228064561181789808",
-          "size": "400475846",
-          "download": "165072432"
+          "gid": "6153569802417205105",
+          "size": "411764042",
+          "download": "166620784"
         },
         "1.00": {
           "gid": "7149414702519736457",
@@ -260,9 +262,9 @@
           "download": "173018896"
         },
         "1.0.5": {
-          "gid": "1189144278286887581",
-          "size": "416494945",
-          "download": "173336496"
+          "gid": "3030725643793712090",
+          "size": "427847962",
+          "download": "174815472"
         },
         "1.00": {
           "gid": "5458734525357167263",
@@ -307,9 +309,9 @@
           "download": "169630496"
         },
         "1.0.5": {
-          "gid": "1973517632888486594",
-          "size": "750438252",
-          "download": "178573936"
+          "gid": "4294173012476106969",
+          "size": "761795136",
+          "download": "186489088"
         },
         "1.00": {
           "gid": "8706234543185428430",
@@ -350,9 +352,9 @@
         "timeupdated": "1759478043"
       },
       "1.0.5": {
-        "buildid": "20281985",
+        "buildid": "20357471",
         "description": "1.0.5",
-        "timeupdated": "1759822119"
+        "timeupdated": "1760291169"
       },
       "1.00": {
         "buildid": "20124450",
@@ -373,6 +375,46 @@
         "buildid": "20226245",
         "description": "1.03",
         "timeupdated": "1759423459"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Clarus Victoria\\Next Run",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Clarus Victoria\\Next Run",
+            "replace": "Clarus Victoria/Next Run"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Clarus Victoria\\Next Run",
+            "replace": "unity3d/Clarus Victoria/Next Run"
+          }
+        }
       }
     }
   }
