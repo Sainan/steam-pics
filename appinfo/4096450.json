@@ -1,6 +1,5 @@
 {
   "appid": "4096450",
-  "public_only": "1",
   "common": {
     "name": "Deep Sea Trip Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,5 +102,38 @@
     },
     "gameid": "4096450",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Azul",
+    "publisher": "Azul"
+  },
+  "config": {
+    "installdir": "Deep Sea Trip Demo",
+    "launch": {
+      "0": {
+        "executable": "DeepSeaTrip05.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4096451": {
+      "manifests": {
+        "public": {
+          "gid": "8903845661411493642",
+          "size": "374243206",
+          "download": "292940688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361439",
+        "timeupdated": "1760311130"
+      }
+    }
   }
 }
