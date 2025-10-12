@@ -1,6 +1,5 @@
 {
   "appid": "4100040",
-  "public_only": "1",
   "common": {
     "name": "Luminaya Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "488e92a98af4f56b82dcb8ec1bb3c5a8e4e99dcf",
     "clienticon": "e07f51f74ef2ec5217b54d9b36148e502c69fd3e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c73a4fdf7a132930741eac57de645433c54ec1fe/capsule_231x87.jpg"
     },
@@ -81,5 +80,52 @@
     },
     "gameid": "4100040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mystery-Project Technology UG (haftungsbeschränkt)",
+    "publisher": "Mystery-Project Technology UG (haftungsbeschränkt)",
+    "homepage": "https://mystery-project.de/"
+  },
+  "config": {
+    "installdir": "Luminaya Demo",
+    "launch": {
+      "0": {
+        "executable": "Luminaya.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4100041": {
+      "manifests": {
+        "public": {
+          "gid": "2040036416660388827",
+          "size": "5739785412",
+          "download": "5433317440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360544",
+        "timeupdated": "1760303703"
+      }
+    }
   }
 }
