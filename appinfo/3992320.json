@@ -156,13 +156,21 @@
         }
       }
     },
+    "3992322": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {}
+    },
     "baselanguages": "english",
     "branches": {
       "public": {
         "buildid": "20263828",
         "timeupdated": "1759711182"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "ufs": {
     "quota": "6291456",
@@ -172,6 +180,14 @@
         "root": "gameinstall",
         "path": "config",
         "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "distanceLog.txt",
         "platforms": {
           "1": "Windows"
         }
