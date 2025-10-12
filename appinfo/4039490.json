@@ -1,6 +1,5 @@
 {
   "appid": "4039490",
-  "public_only": "1",
   "common": {
     "name": "The Versailles Village",
     "type": "Game",
@@ -9,16 +8,16 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
     "controllertagwizard": "1",
     "small_capsule": {
-      "english": "7aef06819bee3386cb76bd22ed23f0e371d84d45/capsule_231x87.jpg"
+      "english": "23a02b1b98951a82fa72f6dd7f0eaac19c7174be/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "a7ef6bee34c0a2253594956ff906219816a7f90b/header.jpg"
+      "english": "b551799c8e2928a6132021c0102dd3befdfbbd73/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759621179",
+    "store_asset_mtime": "1760187979",
     "associations": {
       "0": {
         "type": "developer",
@@ -153,9 +152,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760258929",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4039490",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -180,6 +180,82 @@
       "17": "1687",
       "18": "6730",
       "19": "1742"
+    }
+  },
+  "extended": {
+    "developer": "Naeim Akbari",
+    "publisher": "Kenan Dereli"
+  },
+  "config": {
+    "installdir": "The Versailles Village",
+    "launch": {
+      "0": {
+        "executable": "The Versailles Village.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MacOS\\The Versailles Village",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "The_Versailles_Village.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4039491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "595958205248268223",
+          "size": "3059472669",
+          "download": "1373840896"
+        }
+      }
+    },
+    "4039492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6501487235382129129",
+          "size": "3062697868",
+          "download": "1374453936"
+        }
+      }
+    },
+    "4039493": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7017824077196113128",
+          "size": "3053810588",
+          "download": "1372353200"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,russian,polish,czech,romanian,turkish,ukrainian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20360394",
+        "timeupdated": "1760302590"
+      }
     }
   }
 }
