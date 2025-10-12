@@ -1,10 +1,9 @@
 {
   "appid": "3684010",
-  "public_only": "1",
   "common": {
     "name": "3 Hell",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "2ffd41cb97e90399147ecb4a5e83a769a8f3e24e",
     "clienttga": "7eca33090baf6c2459f35af8358cfd5e710cd3f4",
     "clienticon": "e7afa4c43eae9bf42b679f5853843d21b5c50bc2",
@@ -106,9 +105,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759962994",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3684010",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -134,6 +134,58 @@
       "17": "3993",
       "18": "1662",
       "19": "4085"
+    }
+  },
+  "extended": {
+    "developer": "Bekvi",
+    "publisher": "Tsh"
+  },
+  "config": {
+    "installdir": "3Hell",
+    "launch": {
+      "0": {
+        "executable": "Hell3Alfa04.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3684011": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4863238347664898546",
+          "size": "588478120",
+          "download": "478275968"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20360253",
+        "timeupdated": "1760301509"
+      }
     }
   }
 }
