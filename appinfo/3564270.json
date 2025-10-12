@@ -1,6 +1,5 @@
 {
   "appid": "3564270",
-  "public_only": "1",
   "common": {
     "name": "Vanquish The Eternal",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "25dcfb6dc6b5c6efb04626f5fd05f4b53ca70f1a",
     "clienticon": "3fa62c0fe5a09cded494df68ff719cd2ff3c575c",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -109,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760107898",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3564270",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -131,7 +131,52 @@
       "12": "492",
       "13": "4004",
       "14": "1773",
-      "15": "4026"
+      "15": "4026",
+      "16": "5154"
+    }
+  },
+  "extended": {
+    "developer": "WilhelmGStudios",
+    "publisher": "WilhelmGStudios"
+  },
+  "config": {
+    "installdir": "Vanquish The Eternal",
+    "launch": {
+      "0": {
+        "executable": "Vanquish The Eternal.exe"
+      }
+    }
+  },
+  "depots": {
+    "3564271": {
+      "manifests": {
+        "public": {
+          "gid": "4955215883402217603",
+          "size": "142145919",
+          "download": "123699984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20315826",
+        "timeupdated": "1759994161"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Vanquish_The_Eternal",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
