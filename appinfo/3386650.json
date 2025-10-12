@@ -1,10 +1,9 @@
 {
   "appid": "3386650",
-  "public_only": "1",
   "common": {
     "name": "みんなでウミガメのスープ",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "9fe87facd49c61f6042c868c6eca3656cdffb905",
     "icon": "ca3b543b41d3b7b7444361634cde518da7d07ccb",
     "clienticon": "f3927d6725946bd46953dc46a56a0cd9d9150b76",
@@ -133,11 +132,30 @@
       "english": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
       }
     },
+    "steam_release_date": "1760086887",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3386650",
-    "exfgls": "8",
     "store_tags": {
       "0": "1738",
       "1": "5716",
@@ -159,6 +177,63 @@
       "17": "3843",
       "18": "4182",
       "19": "1685"
+    },
+    "review_score": "5",
+    "review_percentage": "44"
+  },
+  "extended": {
+    "developer": "PushForward",
+    "publisher": "PushForward"
+  },
+  "config": {
+    "installdir": "みんなでウミガメのスープ",
+    "launch": {
+      "0": {
+        "executable": "umigame-soup.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "umigame-soup.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3386651": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1580607104610318642",
+          "size": "313638488",
+          "download": "112311040"
+        }
+      }
+    },
+    "3386652": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5770254085529653765",
+          "size": "508476801",
+          "download": "190155968"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20333349",
+        "timeupdated": "1760083410"
+      }
     }
   }
 }
