@@ -1,8 +1,7 @@
 {
   "appid": "3911280",
-  "public_only": "1",
   "common": {
-    "name": "The Ice Cream Shop Demo",
+    "name": "The Site: Night Shift Demo",
     "type": "Demo",
     "parent": "3910890",
     "name_localized": {
@@ -14,7 +13,7 @@
     "osextended": "",
     "clienticon": "8be4ad95d54f53d72b789babee335e82363af784",
     "icon": "8be4ad95d54f53d72b789babee335e82363af784",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -74,11 +73,13 @@
         "name": "odwar"
       }
     },
-    "primary_genre": "28",
+    "primary_genre": "1",
     "genres": {
-      "0": "4",
-      "1": "23",
-      "2": "28"
+      "0": "1",
+      "1": "25",
+      "2": "4",
+      "3": "23",
+      "4": "28"
     },
     "category": {
       "category_2": "1",
@@ -166,11 +167,41 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760305004",
     "gameid": "3911280",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "odwar",
+    "publisher": "odwar"
+  },
+  "config": {
+    "installdir": "The Site Night Shift Demo",
+    "launch": {
+      "0": {
+        "executable": "The Site Night Shift DEMO.exe"
+      }
+    }
+  },
+  "depots": {
+    "3911281": {
+      "manifests": {
+        "public": {
+          "gid": "2483781285490680985",
+          "size": "1223399444",
+          "download": "494894272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20222022",
+        "timeupdated": "1759405862"
+      }
     }
   }
 }
