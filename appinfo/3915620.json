@@ -1,6 +1,5 @@
 {
   "appid": "3915620",
-  "public_only": "1",
   "common": {
     "name": "霧鎖溫泉 Misty Onsen Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -165,10 +164,67 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760113254",
     "gameid": "3915620",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "SHEN Co., Ltd.",
+    "publisher": "SHEN Co., Ltd."
+  },
+  "config": {
+    "installdir": "MistyOnsenDemo",
+    "launch": {
+      "0": {
+        "executable": "MistyOnsenDemo\\MistyOnsenDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3915621": {
+      "manifests": {
+        "public": {
+          "gid": "337002578516180229",
+          "size": "20043783894",
+          "download": "19591148272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358221",
+        "timeupdated": "1760283087"
+      }
+    },
+    "privatebranches": "1"
   }
 }
