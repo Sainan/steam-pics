@@ -1,6 +1,5 @@
 {
   "appid": "3737640",
-  "public_only": "1",
   "common": {
     "name": "Dodgibi Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f273089754ff16676605c1411da44a58a3850e08/capsule_231x87.jpg"
     },
@@ -92,7 +91,55 @@
       "category_74": "1",
       "category_75": "1"
     },
+    "steam_release_date": "1760283674",
     "gameid": "3737640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Quadriforsh",
+    "publisher": "Quadriforsh"
+  },
+  "config": {
+    "installdir": "Dodgibi Demo",
+    "launch": {
+      "0": {
+        "executable": "Dodgibi.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3737641": {
+      "manifests": {
+        "public": {
+          "gid": "7425323244632636407",
+          "size": "455183892",
+          "download": "304580864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358236",
+        "timeupdated": "1760283270"
+      }
+    }
   }
 }
