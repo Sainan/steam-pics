@@ -1,6 +1,5 @@
 {
   "appid": "4039410",
-  "public_only": "1",
   "common": {
     "name": "Rituals of Lust and Sin",
     "type": "Game",
@@ -9,7 +8,39 @@
     "osextended": "",
     "icon": "ac1135499c149645bec70c9bfa6fb344bb646c69",
     "clienticon": "ac1135499c149645bec70c9bfa6fb344bb646c69",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "koreana": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "russian": "1",
+      "thai": "1",
+      "japanese": "1",
+      "portuguese": "1",
+      "polish": "1",
+      "danish": "1",
+      "dutch": "1",
+      "finnish": "1",
+      "norwegian": "1",
+      "swedish": "1",
+      "hungarian": "1",
+      "czech": "1",
+      "romanian": "1",
+      "turkish": "1",
+      "arabic": "1",
+      "brazilian": "1",
+      "bulgarian": "1",
+      "greek": "1",
+      "ukrainian": "1",
+      "vietnamese": "1",
+      "latam": "1",
+      "indonesian": "1"
+    },
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -102,6 +133,7 @@
     "category": {
       "category_2": "1",
       "category_68": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -309,9 +341,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760167126",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4039410",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -322,23 +355,89 @@
       "0": "21",
       "1": "599",
       "2": "9551",
-      "3": "11014",
-      "4": "12095",
-      "5": "6650",
+      "3": "12095",
+      "4": "6650",
+      "5": "11014",
       "6": "10235",
       "7": "3810",
-      "8": "4486",
-      "9": "3834",
+      "8": "3834",
+      "9": "4486",
       "10": "9204",
       "11": "4191",
       "12": "4145",
-      "13": "3839",
-      "14": "5611",
+      "13": "5611",
+      "14": "3839",
       "15": "4175",
-      "16": "4182",
-      "17": "1697",
+      "16": "1697",
+      "17": "4182",
       "18": "1742",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Games For Pleasure",
+    "publisher": "Games For Pleasure",
+    "homepage": "https://t.me/bestpcgamesforfun"
+  },
+  "config": {
+    "installdir": "Rituals of Lust and Sin",
+    "launch": {
+      "0": {
+        "executable": "RitualsOfLustAndSin.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX12 (Advanced GPU)"
+        },
+        "description": "DX12 (Advanced GPU)"
+      },
+      "1": {
+        "executable": "RitualsOfLustAndSin.exe",
+        "arguments": "-DX11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX11 (Old GPU)"
+        },
+        "description": "DX11 (Old GPU)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4039411": {
+      "manifests": {
+        "public": {
+          "gid": "6713274675559486012",
+          "size": "16792203088",
+          "download": "16341189920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20325134",
+        "timeupdated": "1760033767"
+      }
     }
   }
 }
