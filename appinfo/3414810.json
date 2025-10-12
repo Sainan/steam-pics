@@ -1,6 +1,5 @@
 {
   "appid": "3414810",
-  "public_only": "1",
   "common": {
     "name": "Monster Ops 12",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -118,9 +117,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760310830",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3414810",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -137,6 +137,54 @@
       "6": "4182",
       "7": "12095",
       "8": "6650"
+    }
+  },
+  "extended": {
+    "developer": "Y Press Games",
+    "publisher": "Y Press Games",
+    "homepage": "https://ypressgames.com/category/monster-ops/"
+  },
+  "config": {
+    "installdir": "Monster Ops 12",
+    "launch": {
+      "0": {
+        "executable": "MonsterOps12.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MonsterOps12.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "MonsterOps12.app/Contents/MacOS/MonsterOps12",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3414811": {
+      "manifests": {
+        "public": {
+          "gid": "5643373071735967173",
+          "size": "462493709",
+          "download": "336709552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361054",
+        "timeupdated": "1760308133"
+      }
     }
   }
 }
