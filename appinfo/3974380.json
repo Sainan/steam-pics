@@ -1,6 +1,5 @@
 {
   "appid": "3974380",
-  "public_only": "1",
   "common": {
     "name": "Jötunn's Greed Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -78,10 +77,59 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760210595",
     "gameid": "3974380",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Fried Squid Games LLC",
+    "publisher": "Fried Squid Games LLC"
+  },
+  "config": {
+    "installdir": "Jötunn's Greed Demo",
+    "launch": {
+      "0": {
+        "executable": "JotunnsGreed.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3974381": {
+      "manifests": {
+        "public": {
+          "gid": "7118593322024694493",
+          "size": "791378862",
+          "download": "617852288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359956",
+        "timeupdated": "1760298807"
+      }
     }
   }
 }
