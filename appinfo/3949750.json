@@ -1,6 +1,5 @@
 {
   "appid": "3949750",
-  "public_only": "1",
   "common": {
     "name": "(BURIED TAPES) The Parking",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "fce71a980b82e7f00e97f5ac4cf4202e83c80ed1",
     "icon": "fce71a980b82e7f00e97f5ac4cf4202e83c80ed1",
     "clienticns": "acd41cc086350a6970d57545b51df41933d8cbc0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -126,6 +125,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760124389",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3949750",
     "exfgls": "3",
@@ -136,16 +137,75 @@
     "store_tags": {
       "0": "599",
       "1": "597",
-      "2": "5900",
-      "3": "113",
-      "4": "492",
-      "5": "1663",
+      "2": "113",
+      "3": "5900",
+      "4": "1663",
+      "5": "492",
       "6": "4191",
       "7": "1721",
       "8": "1742",
       "9": "4182",
       "10": "4345",
       "11": "4667"
+    }
+  },
+  "extended": {
+    "developer": "LIAR MANNEQUIN",
+    "publisher": "LIAR MANNEQUIN",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "(BURIED TAPES) The Parking",
+    "launch": {
+      "0": {
+        "executable": "release/(BURIED TAPES) The Parking.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "(BURIED TAPES) The Parking.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3949752": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3766020495688670120",
+          "size": "258822366",
+          "download": "70754320"
+        }
+      }
+    },
+    "3949755": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5128734447456786001",
+          "size": "273975675",
+          "download": "78212160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20256627",
+        "timeupdated": "1759627385"
+      }
     }
   }
 }
