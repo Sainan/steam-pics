@@ -1,11 +1,10 @@
 {
   "appid": "3257130",
-  "public_only": "1",
   "common": {
     "name": "Kemopop! Boys in Hawaii!",
     "type": "DLC",
     "parent": "3093590",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
@@ -71,15 +70,12 @@
       "schinese": {
         "supported": "true"
       },
-      "tchinese": {
-        "supported": "true"
-      },
       "koreana": {
         "supported": "true"
       }
     },
+    "steam_release_date": "1760116429",
     "gameid": "3257130",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -99,6 +95,42 @@
       "9": "3968",
       "10": "4182",
       "11": "5611"
+    }
+  },
+  "extended": {
+    "dlcforappid": "3093590",
+    "mustownapptopurchase": "3093590",
+    "developer": "KEMOHAUS",
+    "publisher": "KEMOHAUS",
+    "homepage": "https://kemo.haus",
+    "dlcavailableonstore": "1"
+  },
+  "depots": {
+    "3257130": {
+      "dlcappid": "3257130",
+      "manifests": {
+        "public": {
+          "gid": "6992921845661606214",
+          "size": "376652020",
+          "download": "364675856"
+        },
+        "beta": {
+          "gid": "930952261564578515",
+          "size": "376630916",
+          "download": "364675152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20354977",
+        "timeupdated": "1760250346"
+      },
+      "beta": {
+        "buildid": "20359391",
+        "description": "staging branch",
+        "timeupdated": "1760293653"
+      }
     }
   }
 }
