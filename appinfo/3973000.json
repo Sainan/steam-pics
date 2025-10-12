@@ -1,6 +1,5 @@
 {
   "appid": "3973000",
-  "public_only": "1",
   "common": {
     "name": "Infected Love: The Fatal Experiment Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -115,7 +114,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3973000",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Erost Game79 Studio",
+    "publisher": "Erost Game79 Studio"
+  },
+  "config": {
+    "installdir": "Infected Love The Fatal Experiment Demo",
+    "launch": {
+      "0": {
+        "executable": "InfectedLoveTheFatalExperiment.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3973001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8804352787772377875",
+          "size": "652156019",
+          "download": "523748688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358858",
+        "timeupdated": "1760288706"
+      }
+    }
   }
 }
