@@ -1,18 +1,17 @@
 {
   "appid": "3972780",
-  "public_only": "1",
   "common": {
     "name": "Mik Demo",
     "type": "Demo",
     "parent": "2547010",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "5c1627a13168242d37be1afa43d2cf9c88e3a10f",
     "icon": "5c1627a13168242d37be1afa43d2cf9c88e3a10f",
     "clienticns": "eb504e620b50e73951192d72bfa18cdfa82833ac",
     "linuxclienticon": "f157409d824c90e537b9b137096b0761be101490",
-    "oslist": "windows,macos,linux",
+    "oslist": "windows,linux",
     "osarch": "",
-    "osextended": "macosapplesilicon",
+    "osextended": "",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -116,7 +115,118 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760119217",
+    "community_visible_stats": "1",
     "gameid": "3972780",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Stefaaan06",
+    "publisher": "Stefaaan06"
+  },
+  "config": {
+    "installdir": "Mik Demo",
+    "launch": {
+      "0": {
+        "executable": "Mik.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Mik.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Mik.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3972782": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9036378789979804641",
+          "size": "7808118363",
+          "download": "3332589568"
+        }
+      }
+    },
+    "3972783": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6986026450943822685",
+          "size": "7497927366",
+          "download": "3183130608"
+        }
+      }
+    },
+    "3972784": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1478276554137359137",
+          "size": "7767398923",
+          "download": "3314819584"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20358346",
+        "timeupdated": "1760284101"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Stefaaan06/Mik/",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/Stefaaan06/Mik/           ",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "2": {
+        "root": "MacAppSupport",
+        "path": "Stefaaan06/Mik/",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
+    }
   }
 }
