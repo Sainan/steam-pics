@@ -1,6 +1,5 @@
 {
   "appid": "3513000",
-  "public_only": "1",
   "common": {
     "name": "Comfy Girl: Lofi Companion",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "09d37f4f22d80707240b6307b0b1af1a9ca3788d",
     "clienticon": "f887696d8683b54f6b120c82555dab2fa34fdcee",
     "icon": "df5957e059ac3b481ec89996e41be7604874fd7d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "0fb01bd5ab5f2d423e20c7992b24f84be83da37f/capsule_231x87.jpg"
@@ -41,15 +40,15 @@
       },
       "library_hero": {
         "image2x": {
-          "english": "49fab8cc1c131aed32befced7b55beeacece4a4f/library_hero_2x.jpg"
+          "english": "adb0286d3ab978fbee1c2a4e71276bcd6581d62b/library_hero_2x.jpg"
         },
         "image": {
-          "english": "49fab8cc1c131aed32befced7b55beeacece4a4f/library_hero.jpg"
+          "english": "adb0286d3ab978fbee1c2a4e71276bcd6581d62b/library_hero.jpg"
         }
       },
       "library_hero_blur": {
         "image": {
-          "english": "49fab8cc1c131aed32befced7b55beeacece4a4f/library_hero_blur.jpg"
+          "english": "adb0286d3ab978fbee1c2a4e71276bcd6581d62b/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758846552",
+    "store_asset_mtime": "1759959642",
     "associations": {
       "0": {
         "type": "developer",
@@ -129,11 +128,20 @@
       "latam": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1759942105",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3513000",
-    "exfgls": "8",
     "store_tags": {
       "0": "97376",
       "1": "1621",
@@ -146,15 +154,70 @@
       "8": "84",
       "9": "4166",
       "10": "4726",
-      "11": "3934",
-      "12": "615955",
+      "11": "615955",
+      "12": "3934",
       "13": "4182",
       "14": "599",
       "15": "4085",
       "16": "5350",
       "17": "29855",
-      "18": "1752",
-      "19": "10437"
+      "18": "492",
+      "19": "1752"
+    },
+    "review_score": "8",
+    "review_percentage": "98"
+  },
+  "extended": {
+    "developer": "Unorthodox Box",
+    "publisher": "Unorthodox Box",
+    "homepage": "https://comfygirlgame.com/"
+  },
+  "config": {
+    "installdir": "Comfy Girl",
+    "launch": {
+      "0": {
+        "executable": "Comfy Girl.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3513001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8271795244811719957",
+          "size": "1299362563",
+          "download": "605648224"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20331251",
+        "timeupdated": "1760068956"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Unorthodox Box\\Comfy Girl",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
