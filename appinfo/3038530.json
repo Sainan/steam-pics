@@ -1,13 +1,12 @@
 {
   "appid": "3038530",
-  "public_only": "1",
   "common": {
     "name": "Niknaks",
     "type": "Game",
     "icon": "feac3ca71dcf6a091c0c47af30a94968c9f2aec3",
     "clienticon": "b34a3c686141e5e9fd4790674286031a6ed25ef9",
     "clienttga": "4921b4cd409a1ba98e5b436ff2aa0d439fbd1b28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -78,13 +77,21 @@
     "associations": {
       "0": {
         "type": "developer",
-        "name": "Boombot Games"
+        "name": "Boombot"
       },
       "1": {
-        "type": "publisher",
-        "name": "Boombot Games"
+        "type": "developer",
+        "name": "Etheral Games"
       },
       "2": {
+        "type": "publisher",
+        "name": "Boombot"
+      },
+      "3": {
+        "type": "publisher",
+        "name": "Etheral Games"
+      },
+      "4": {
         "type": "franchise",
         "name": "Niknaks"
       }
@@ -109,9 +116,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760116063",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3038530",
-    "exfgls": "8",
     "store_tags": {
       "0": "17770",
       "1": "916648",
@@ -133,6 +141,35 @@
       "17": "1775",
       "18": "4182",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Boombot",
+    "publisher": "Boombot"
+  },
+  "config": {
+    "installdir": "Niknaks",
+    "launch": {
+      "0": {
+        "executable": "NikNaks.exe"
+      }
+    }
+  },
+  "depots": {
+    "3038531": {
+      "manifests": {
+        "public": {
+          "gid": "7448410750158224087",
+          "size": "2424379409",
+          "download": "248609248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359236",
+        "timeupdated": "1760292146"
+      }
     }
   }
 }
