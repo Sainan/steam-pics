@@ -1,6 +1,5 @@
 {
   "appid": "4066760",
-  "public_only": "1",
   "common": {
     "name": "导师模拟器 Demo",
     "type": "Demo",
@@ -10,7 +9,10 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "name_localized": {
+      "english": "Professor Simulator Demo "
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "89d5d1595516d4eea58c84c313a40b501d3b0fe9/capsule_231x87_schinese.jpg",
@@ -72,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759162299",
+    "store_asset_mtime": "1760092515",
     "associations": {
       "0": {
         "type": "developer",
@@ -103,7 +105,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760167313",
     "gameid": "4066760",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "HCL",
+    "publisher": "HCL"
+  },
+  "config": {
+    "installdir": "ProfessorSimulatorDemo",
+    "launch": {
+      "0": {
+        "executable": "ProfessorSimulatorDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066761": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1284325169229151176",
+          "size": "230598357",
+          "download": "65394368"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20356884",
+        "timeupdated": "1760267881"
+      }
+    }
   }
 }
