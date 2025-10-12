@@ -1,6 +1,5 @@
 {
   "appid": "3913140",
-  "public_only": "1",
   "common": {
     "name": "Idle Tycoon Manufacturing",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "french": "1"
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760030089",
+    "store_asset_mtime": "1760090866",
     "associations": {
       "0": {
         "type": "developer",
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760108368",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3913140",
-    "exfgls": "8",
     "store_tags": {
       "0": "255534",
       "1": "1702",
@@ -147,6 +147,85 @@
       "17": "1708",
       "18": "3942",
       "19": "615955"
+    }
+  },
+  "extended": {
+    "developer": "Eragone",
+    "publisher": "Eragone Games"
+  },
+  "config": {
+    "installdir": "Idle Tycoon Manufacturing",
+    "launch": {
+      "0": {
+        "executable": "Idle Tycoon Manufacturing.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "Idle Tycoon Manufacturing.AppImage",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3913141": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7341465222524018196",
+          "size": "285520698",
+          "download": "145613072"
+        }
+      }
+    },
+    "3913143": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "657284189595306558",
+          "size": "145691686",
+          "download": "145415088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20356986",
+        "timeupdated": "1760269064"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Idle Tycoon Manufacturing\\Local Storage\\leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgDataHome",
+        "path": "Idle Tycoon Manufacturing/Local Storage/leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
