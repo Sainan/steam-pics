@@ -1,6 +1,5 @@
 {
   "appid": "3205910",
-  "public_only": "1",
   "common": {
     "name": "Xanthiom 2 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "76ce3eb2e66f1dd84ee1bebd40264a2686d2ab79",
     "clienticon": "77de207d35838691fa97fbf3b9fed63f17596644",
     "clienttga": "86372055a34ae162710d13cac241c3bdcac2d921",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,5 +113,42 @@
     },
     "gameid": "3205910",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MathanGames",
+    "publisher": "MathanGames"
+  },
+  "config": {
+    "installdir": "Xanthiom 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "Xanthiom 2 DEMO.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3205911": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4547089689236816091",
+          "size": "347412074",
+          "download": "278210000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357908",
+        "timeupdated": "1760279893"
+      }
+    }
   }
 }
