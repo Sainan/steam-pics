@@ -1,6 +1,5 @@
 {
   "appid": "4040220",
-  "public_only": "1",
   "common": {
     "name": "Mad Stacks",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "8a6f2d84cbbafbcb527e65b55e959002118a295e",
     "icon": "bad1c473c994f49c1be064ea5f479fe412e37b16",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "58d7fff8bda7542108082aa08c849c9e4332d31c/capsule_231x87.jpg"
@@ -101,9 +100,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759995064",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4040220",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1666",
@@ -112,5 +112,60 @@
       "4": "4182",
       "5": "3871"
     }
+  },
+  "extended": {
+    "developer": "TomerBARZ",
+    "publisher": "TomerBARZ"
+  },
+  "config": {
+    "installdir": "Mad Stacks",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "MadStacks.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4040221": {
+      "manifests": {
+        "public": {
+          "gid": "1486901390671853803",
+          "size": "41542668",
+          "download": "29396576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357750",
+        "timeupdated": "1760278252"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.dat"
+      }
+    },
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
