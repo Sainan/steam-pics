@@ -1,13 +1,12 @@
 {
   "appid": "4035040",
-  "public_only": "1",
   "common": {
     "name": "Critters Breakout Demo",
     "type": "Demo",
     "parent": "3961980",
     "icon": "21f3b01e54df23668e677292e8676e0975069856",
     "clienticon": "21f3b01e54df23668e677292e8676e0975069856",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -44,7 +43,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760276185",
     "gameid": "4035040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Big Infinity Manila",
+    "publisher": "The Big Infinity Studios"
+  },
+  "config": {
+    "installdir": "Critters Breakout Demo",
+    "launch": {
+      "0": {
+        "executable": "CrittersBreakout.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4035041": {
+      "manifests": {
+        "public": {
+          "gid": "911150189469002129",
+          "size": "1623112631",
+          "download": "1471536528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357399",
+        "timeupdated": "1760273989"
+      }
+    }
   }
 }
