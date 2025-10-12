@@ -1,10 +1,9 @@
 {
   "appid": "1794880",
-  "public_only": "1",
   "common": {
     "name": "Ys vs. Trails in the Sky: Alternative Saga",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "イースvs.空の軌跡 オルタナティブ・サーガ"
     },
@@ -82,7 +81,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757613031",
+    "store_asset_mtime": "1760114950",
     "associations": {
       "0": {
         "type": "developer",
@@ -125,14 +124,12 @@
       "category_63": "1",
       "category_43": "1",
       "category_44": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1",
       "category_60": "1",
       "category_68": "1",
       "category_69": "1",
       "category_78": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -147,9 +144,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760112091",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1794880",
-    "exfgls": "8",
     "store_tags": {
       "0": "1775",
       "1": "6506",
@@ -171,6 +169,111 @@
       "17": "4182",
       "18": "4840",
       "19": "7368"
+    },
+    "review_score": "7",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "Nihon Falcom",
+    "publisher": "refint/games",
+    "homepage": "https://refint.games/projects/ysvstrails/",
+    "listofdlc": "4049770",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Ys vs. Trails in the Sky Alternative Saga",
+    "launch": {
+      "0": {
+        "executable": "ys_vs_ed.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ys_vs_ed_debug.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "test"
+        },
+        "description_loc": {
+          "english": "Debug"
+        },
+        "description": "Debug"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1794881": {
+      "manifests": {
+        "public": {
+          "gid": "652320988068109012",
+          "size": "6209703866",
+          "download": "5720886544"
+        }
+      }
+    },
+    "4049770": {
+      "dlcappid": "4049770",
+      "manifests": {
+        "public": {
+          "gid": "3813417149367988105",
+          "size": "103301302",
+          "download": "98037936"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20347223",
+        "timeupdated": "1760158459"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1600",
+    "savefiles": {
+      "0": {
+        "root": "WinSavedGames",
+        "path": "Falcom/YsVsSora",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinSavedGames",
+        "path": "Falcom/YsVsSora",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinSavedGames",
+        "path": "Falcom/YsVsSora",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
