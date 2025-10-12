@@ -1,6 +1,5 @@
 {
   "appid": "4089420",
-  "public_only": "1",
   "common": {
     "name": "Feed the Lie Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -47,11 +46,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4089420",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Maksim Mazanets",
+    "publisher": "Maksim Mazanets"
+  },
+  "config": {
+    "installdir": "Feed the Lie Demo",
+    "launch": {
+      "0": {
+        "executable": "FeedTheLie.exe",
+        "description_loc": {
+          "english": "Windows build"
+        },
+        "description": "Windows build"
+      }
+    }
+  },
+  "depots": {
+    "4089421": {
+      "manifests": {
+        "public": {
+          "gid": "4566942157771791835",
+          "size": "237570940",
+          "download": "170528768"
+        }
+      }
+    },
+    "baselanguages": "russian",
+    "branches": {
+      "public": {
+        "buildid": "20264067",
+        "timeupdated": "1759713460"
+      }
     }
   }
 }
