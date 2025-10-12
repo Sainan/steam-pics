@@ -1,6 +1,5 @@
 {
   "appid": "4000120",
-  "public_only": "1",
   "common": {
     "name": "ROLLA Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -44,5 +43,38 @@
     },
     "gameid": "4000120",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Heikki Sillanpää",
+    "publisher": "Tyrmä Games"
+  },
+  "config": {
+    "installdir": "ROLLA Demo",
+    "launch": {
+      "0": {
+        "executable": "Rolla Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4000121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7100018606400088746",
+          "size": "183610748",
+          "download": "65900240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358915",
+        "timeupdated": "1760289335"
+      }
+    },
+    "privatebranches": "1"
   }
 }
