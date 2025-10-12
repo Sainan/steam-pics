@@ -1,0 +1,77 @@
+{
+  "appid": "204350",
+  "common": {
+    "name": "Serious Sam 2 Editor",
+    "type": "Tool",
+    "gameid": "204350"
+  },
+  "extended": {
+    "developer": "",
+    "disableoverlay": "1",
+    "gamedir": "Serious Sam 2",
+    "homepage": "",
+    "icon": "",
+    "installscript": "installscript.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "204341",
+    "serverbrowsername": "",
+    "state": "eStateTool"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Serious Sam 2",
+    "launch": {
+      "0": {
+        "executable": "Bin\\SeriousEditor2.exe"
+      }
+    }
+  },
+  "depots": {
+    "204341": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "5346617252529850335",
+          "size": "3183410657",
+          "download": "3144277840"
+        },
+        "old": {
+          "gid": "3084163226237260859",
+          "size": "2645369816",
+          "download": "0"
+        },
+        "previousversion": {
+          "gid": "5032318834576557978",
+          "size": "2856073033",
+          "download": "2814780272"
+        },
+        "publicbeta": {
+          "gid": "5032318834576557978",
+          "size": "2856073033",
+          "download": "2814780272"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "6601720",
+        "timeupdated": "1619513966"
+      },
+      "old": {
+        "buildid": "52362"
+      },
+      "previousversion": {
+        "buildid": "714366",
+        "description": "Previous Version",
+        "timeupdated": "1616517381"
+      },
+      "publicbeta": {
+        "buildid": "714366",
+        "description": "Public beta channel"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
