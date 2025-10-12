@@ -1,6 +1,5 @@
 {
   "appid": "3573990",
-  "public_only": "1",
   "common": {
     "name": "Red Land",
     "type": "Game",
@@ -27,7 +26,7 @@
     "clienticon": "70ee74812637c95e3776a9dde00de6587a55b254",
     "clienticns": "70ee74812637c95e3776a9dde00de6587a55b254",
     "linuxclienticon": "70ee74812637c95e3776a9dde00de6587a55b254",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "194ebb73bdf21f59cf62dfcff7955d29e8a960bb/capsule_231x87.jpg"
@@ -91,7 +90,7 @@
         }
       }
     },
-    "store_asset_mtime": "1755362876",
+    "store_asset_mtime": "1760045723",
     "associations": {
       "0": {
         "type": "developer",
@@ -183,9 +182,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3573990",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "3834",
@@ -208,5 +208,40 @@
       "18": "1662",
       "19": "3978"
     }
+  },
+  "extended": {
+    "developer": "Vladimir Stepanov",
+    "publisher": "MilknoDev Games"
+  },
+  "config": {
+    "installdir": "Red Land",
+    "launch": {
+      "0": {
+        "executable": "Red Land/Red Land/Red Land.exe"
+      }
+    }
+  },
+  "depots": {
+    "3573991": {
+      "manifests": {
+        "public": {
+          "gid": "7266455024532809546",
+          "size": "649403534",
+          "download": "147032560"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish,czech,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20360991",
+        "timeupdated": "1760307648"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1"
   }
 }
