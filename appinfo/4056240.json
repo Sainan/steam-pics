@@ -1,6 +1,5 @@
 {
   "appid": "4056240",
-  "public_only": "1",
   "common": {
     "name": "喵气冲天 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "1a86d443d3e51512956ac33ef61742e2c2fc6bad/capsule_231x87.jpg"
@@ -118,5 +117,49 @@
     },
     "gameid": "4056240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "1ceAgain",
+    "publisher": "1ceAgain"
+  },
+  "config": {
+    "installdir": "喵气冲天 Demo",
+    "launch": {
+      "0": {
+        "executable": "PushPush.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4056241": {
+      "manifests": {
+        "public": {
+          "gid": "3353978267566151064",
+          "size": "443771580",
+          "download": "152755392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360684",
+        "timeupdated": "1760304898"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "saves",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    }
   }
 }
