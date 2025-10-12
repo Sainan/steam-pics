@@ -1,6 +1,5 @@
 {
   "appid": "4068700",
-  "public_only": "1",
   "common": {
     "name": "Boogie Bashers Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "32e21637df35ce7b481ad291a6b45a7be081c345",
     "icon": "32e21637df35ce7b481ad291a6b45a7be081c345",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -112,7 +111,45 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4068700",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dream Woven Games",
+    "publisher": "Dream Woven Games"
+  },
+  "config": {
+    "installdir": "Boogie Bashers Demo",
+    "launch": {
+      "0": {
+        "executable": "Boogie Bashers.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068701": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8325238787377154678",
+          "size": "807773090",
+          "download": "206017744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360148",
+        "timeupdated": "1760300820"
+      }
+    }
   }
 }
