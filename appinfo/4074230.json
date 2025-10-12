@@ -10,6 +10,8 @@
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
     "small_capsule": {
       "english": "20d57200aa066f6ab2ad50238a485cb95c8fe7a0/capsule_231x87.jpg"
     },
@@ -31,7 +33,8 @@
     "category": {
       "category_68": "1",
       "category_74": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_28": "1"
     },
     "steam_release_date": "1759789422",
     "gameid": "4074230",
@@ -58,25 +61,110 @@
           "oslist": "linux"
         }
       }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
     }
   },
   "depots": {
     "4074231": {
       "config": {
-        "language": "english"
+        "oslist": "windows"
       },
       "manifests": {
         "public": {
+          "gid": "7115528834941390791",
+          "size": "841079754",
+          "download": "569572144"
+        },
+        "beta": {
           "gid": "2531667949840545128",
           "size": "1653169258",
           "download": "591067216"
         }
       }
     },
+    "4074232": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4908503256468644227",
+          "size": "841578048",
+          "download": "573199456"
+        },
+        "beta": {
+          "gid": "4473643739192584412",
+          "size": "840951360",
+          "download": "573058896"
+        }
+      }
+    },
+    "4074233": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1743379547915772131",
+          "size": "841578048",
+          "download": "573187168"
+        },
+        "beta": {
+          "gid": "1743379547915772131",
+          "size": "841578048",
+          "download": "573187168"
+        }
+      }
+    },
+    "4074234": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1819506732365203473",
+          "size": "841079754",
+          "download": "565377104"
+        },
+        "beta": {
+          "gid": "1819506732365203473",
+          "size": "841079754",
+          "download": "565377104"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "20220236",
-        "timeupdated": "1759397989"
+        "buildid": "20352156",
+        "timeupdated": "1760208188"
+      },
+      "beta": {
+        "buildid": "20352073",
+        "description": "beta",
+        "timeupdated": "1760207431"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "path": "exofactory/",
+        "pattern": "*.exosave"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Exofactory/Exofactory/",
+        "pattern": "*.exosave"
       }
     }
   }
