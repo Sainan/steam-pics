@@ -1,13 +1,12 @@
 {
   "appid": "3135350",
-  "public_only": "1",
   "common": {
     "name": "Qubicks",
     "type": "Game",
     "icon": "ee858717499f6834693b6033179ebbd485a1ac3c",
     "clienticon": "91df9b70f7b59058c9f12b75f457d8f99b7c7e2f",
     "clienttga": "8679f366cae147285725f683107e6b6cbe340da3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -120,9 +119,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3135350",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1645",
@@ -144,6 +144,50 @@
       "17": "1643",
       "18": "4182",
       "19": "4295"
+    }
+  },
+  "extended": {
+    "developer": "ITTT Production",
+    "publisher": "ITTT Production"
+  },
+  "config": {
+    "installdir": "Qubicks",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "QubicksRelease.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3135351": {
+      "manifests": {
+        "public": {
+          "gid": "188595480122138215",
+          "size": "1048777312",
+          "download": "233119056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359879",
+        "timeupdated": "1760298486"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\ITTTProduction\\Qubicks",
+        "pattern": "*.json"
+      }
     }
   }
 }
