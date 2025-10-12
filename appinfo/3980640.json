@@ -1,11 +1,10 @@
 {
   "appid": "3980640",
-  "public_only": "1",
   "common": {
     "name": "Operation Purge Demo",
     "type": "Demo",
     "parent": "3863450",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "26f59492b532fd709a370a235dbbe942a4ec85e8",
     "clienticon": "26f59492b532fd709a370a235dbbe942a4ec85e8",
     "oslist": "windows",
@@ -106,11 +105,70 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760295807",
     "gameid": "3980640",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "StellarGamesStudio",
+    "publisher": "StellarGamesStudio",
+    "homepage": "https://www.operationpurge.com/"
+  },
+  "config": {
+    "installdir": "Operation Purge Demo",
+    "launch": {
+      "0": {
+        "executable": "scifi_survivor03.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3980641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6013903879222845213",
+          "size": "9470197991",
+          "download": "8815997840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20246623",
+        "timeupdated": "1759530926"
+      }
     }
   }
 }
