@@ -1,6 +1,5 @@
 {
   "appid": "3413040",
-  "public_only": "1",
   "common": {
     "name": "Undead Space Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "baf23b8d822b35ee4772024036c98b6c917d0edb",
     "clienticon": "1ce6a9158da1755c055e5224fc9d1f1d2d92ab39",
     "clienttga": "1c1d8801cadbf35769b91d924485a8e7aa41999b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -98,7 +97,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760267903",
     "gameid": "3413040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PunkOFF",
+    "publisher": "Honor Games"
+  },
+  "config": {
+    "installdir": "Undead Space Demo",
+    "launch": {
+      "0": {
+        "executable": "BASE80.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3413041": {
+      "manifests": {
+        "public": {
+          "gid": "3273473523340372718",
+          "size": "14880762204",
+          "download": "14488894544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20351246",
+        "timeupdated": "1760200019"
+      }
+    }
   }
 }
