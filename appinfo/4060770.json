@@ -1,6 +1,5 @@
 {
   "appid": "4060770",
-  "public_only": "1",
   "common": {
     "name": "Primal Echo Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -106,11 +105,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4060770",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Feral Flame Studios",
+    "publisher": "Feral Flame Studios"
+  },
+  "config": {
+    "installdir": "Primal Echo Demo",
+    "launch": {
+      "0": {
+        "executable": "FollowTheSunArtstyle.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4060771": {
+      "manifests": {
+        "public": {
+          "gid": "7259516590616047962",
+          "size": "2283126793",
+          "download": "927847984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360968",
+        "timeupdated": "1760309412"
+      }
     }
   }
 }
