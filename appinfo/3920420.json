@@ -1,6 +1,5 @@
 {
   "appid": "3920420",
-  "public_only": "1",
   "common": {
     "name": "Spacenap",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "be3a785ad33cce6090be014e73c4349d4a6d9954",
     "clienticon": "bc790a79b13070a2f57f71faefc6edd5a0b7b6c2",
     "clienttga": "826641374b64c1f8eb707d0c4e7d175676d50a08",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -114,49 +113,13 @@
     "supported_languages": {
       "english": {
         "supported": "true",
-        "full_audio": "true",
-        "subtitles": "true"
-      },
-      "french": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "italian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "german": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "spanish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "koreana": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "portuguese": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "russian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "latam": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "ukrainian": {
-        "supported": "true",
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760119410",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3920420",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "615955",
@@ -178,6 +141,64 @@
       "17": "4166",
       "18": "30358",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Eleven Dusks Studios",
+    "publisher": "Eleven Dusks Studios",
+    "homepage": "https://www.elevendusks.com/home"
+  },
+  "config": {
+    "installdir": "Space Nap",
+    "launch": {
+      "0": {
+        "executable": "Spacenap.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3920421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2673274536544302916",
+          "size": "785354511",
+          "download": "496750064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360196",
+        "timeupdated": "1760301052"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Spacenap/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
