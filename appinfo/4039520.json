@@ -1,6 +1,5 @@
 {
   "appid": "4039520",
-  "public_only": "1",
   "common": {
     "name": "Forefront Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "osextended": "",
     "icon": "dcb67b24cfd50eb3bfcb27fb98280986b2385e75",
     "clienticon": "dcb67b24cfd50eb3bfcb27fb98280986b2385e75",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -104,6 +103,50 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    },
+    "review_score": "8",
+    "review_percentage": "91"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Triangle Factory",
+    "publisher": "Triangle Factory",
+    "homepage": "https://forefrontvr.com/"
+  },
+  "config": {
+    "installdir": "Forefront Demo",
+    "launch": {
+      "0": {
+        "executable": "Forefront.exe",
+        "arguments": "-controlscheme openxr",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Forefront"
+        },
+        "description": "Forefront"
+      }
     }
+  },
+  "depots": {
+    "4039521": {
+      "manifests": {
+        "public": {
+          "gid": "8948812604311242869",
+          "size": "6100251395",
+          "download": "2726157488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20338144",
+        "timeupdated": "1760105857"
+      }
+    },
+    "privatebranches": "1"
   }
 }
