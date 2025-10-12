@@ -19,6 +19,39 @@
       "schinese": "海员人生：行船模拟",
       "tchinese": "《模擬航行：勇闖大海》"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1759276800",
+      "tested_build_id": "19989993",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -121,7 +154,8 @@
       },
       "german": {
         "supported": "true",
-        "subtitles": "true"
+        "subtitles": "true",
+        "full_audio": "true"
       },
       "schinese": {
         "supported": "true",
@@ -136,17 +170,19 @@
       "0": "599",
       "1": "597",
       "2": "3834",
-      "3": "9204",
+      "3": "6910",
       "4": "4191",
-      "5": "6910",
+      "5": "9204",
       "6": "4175",
       "7": "10383",
-      "8": "4166",
+      "8": "1695",
       "9": "493",
-      "10": "1695",
-      "11": "1669",
-      "12": "4182"
-    }
+      "10": "4166",
+      "11": "4182",
+      "12": "1669"
+    },
+    "review_score": "5",
+    "review_percentage": "69"
   },
   "extended": {
     "developer": "astragon Development",
@@ -240,16 +276,26 @@
     "2582141": {
       "manifests": {
         "public": {
-          "gid": "2385964829074671982",
-          "size": "24673203069",
-          "download": "21258540592"
+          "gid": "6591229346939783567",
+          "size": "24746353544",
+          "download": "21291508080"
+        },
+        "public_beta": {
+          "gid": "6591229346939783567",
+          "size": "24746353544",
+          "download": "21291508080"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20212147",
-        "timeupdated": "1759744331"
+        "buildid": "20341335",
+        "timeupdated": "1760204390"
+      },
+      "public_beta": {
+        "buildid": "20341335",
+        "description": "Public Beta",
+        "timeupdated": "1760118862"
       }
     },
     "privatebranches": "1"
