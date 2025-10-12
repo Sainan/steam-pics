@@ -1,6 +1,5 @@
 {
   "appid": "3073990",
-  "public_only": "1",
   "common": {
     "name": "Runeborn",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "死而符生",
       "tchinese": "死而符生",
@@ -146,7 +145,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758208763",
+    "store_asset_mtime": "1760026388",
     "associations": {
       "0": {
         "type": "developer",
@@ -213,9 +212,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760024825",
     "community_hub_visible": "1",
     "gameid": "3073990",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "4711",
@@ -237,6 +236,83 @@
       "17": "493",
       "18": "4562",
       "19": "4236"
+    },
+    "review_score": "8",
+    "review_percentage": "96"
+  },
+  "extended": {
+    "developer": "iDream Interactive",
+    "publisher": "Goblinz Publishing",
+    "homepage": "https://www.runeborn.com"
+  },
+  "config": {
+    "installdir": "Runeborn",
+    "launch": {
+      "0": {
+        "executable": "Runeborn.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Basic Default Runeborn Launch"
+        },
+        "description": "Basic Default Runeborn Launch"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3073991": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7379750377699843361",
+          "size": "4824329092",
+          "download": "626473824"
+        }
+      }
+    },
+    "3073992": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20350428",
+        "timeupdated": "1760192939"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "iDream Interactive/Runeborn/{64BitSteamID}/",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "iDream Interactive/Runeborn/{64BitSteamID}/",
+        "pattern": "*.idsf",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
