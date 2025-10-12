@@ -1,6 +1,5 @@
 {
   "appid": "4055150",
-  "public_only": "1",
   "common": {
     "name": "MIDNIGHT ESCAPE Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -41,6 +40,54 @@
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Moonlight Studio",
+    "publisher": "Moonlight Studio"
+  },
+  "config": {
+    "installdir": "MIDNIGHT Escape Demo",
+    "launch": {
+      "0": {
+        "executable": "Midnight_escape_DEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4055151": {
+      "manifests": {
+        "public": {
+          "gid": "7823368797073621756",
+          "size": "8819992939",
+          "download": "8511729904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358926",
+        "timeupdated": "1760289403"
+      }
     }
   }
 }
