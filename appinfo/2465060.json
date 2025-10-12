@@ -1,6 +1,5 @@
 {
   "appid": "2465060",
-  "public_only": "1",
   "common": {
     "name": "Hollow Mine",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "18ee6d92cad360bb78029146d43d984771500679",
     "linuxclienticon": "18ee6d92cad360bb78029146d43d984771500679",
     "controllertagwizard": "1",
@@ -140,10 +139,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760025940",
     "steam_deck_blog_url": "https://steamcommunity.com/app/2465060/eventcomments/594010527885236656?snr=2_9_100000_",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2465060",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "4885",
@@ -165,6 +165,47 @@
       "17": "122",
       "18": "1702",
       "19": "4057"
+    }
+  },
+  "extended": {
+    "developer": "Michał Parysz",
+    "publisher": "Michał Parysz",
+    "homepage": "http://hollowmine.com/"
+  },
+  "config": {
+    "installdir": "Hollow Mine",
+    "launch": {
+      "0": {
+        "executable": "HollowMine.exe"
+      }
+    }
+  },
+  "depots": {
+    "2465061": {
+      "manifests": {
+        "public": {
+          "gid": "1009418923761483687",
+          "size": "232660532",
+          "download": "102350048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357715",
+        "timeupdated": "1760277914"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
