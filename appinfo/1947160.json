@@ -161,16 +161,16 @@
       },
       "manifests": {
         "public": {
-          "gid": "8567056204176406793",
-          "size": "622487755",
-          "download": "554213904"
+          "gid": "1728204818012930739",
+          "size": "627994637",
+          "download": "559428032"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20261560",
-        "timeupdated": "1759688890"
+        "buildid": "20359752",
+        "timeupdated": "1760297150"
       }
     }
   },
@@ -182,6 +182,15 @@
         "root": "WinAppDataLocal",
         "path": "cycle",
         "pattern": "*.ini"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/"
       }
     }
   }
