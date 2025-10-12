@@ -1,6 +1,5 @@
 {
   "appid": "3988090",
-  "public_only": "1",
   "common": {
     "name": "Remnants of War Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c7b19971e8eb02e269b5a7e4577000c153c3e200/capsule_231x87.jpg"
@@ -50,5 +49,39 @@
     },
     "gameid": "3988090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "hüseyin akkoç",
+    "publisher": "hüseyin akkoç"
+  },
+  "config": {
+    "installdir": "Remnants of War Demo",
+    "launch": {
+      "0": {
+        "executable": "Remnants of War.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3988091": {
+      "manifests": {
+        "public": {
+          "gid": "5682146747086758730",
+          "size": "509792429",
+          "download": "392899408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360401",
+        "timeupdated": "1760302541"
+      }
+    }
   }
 }
