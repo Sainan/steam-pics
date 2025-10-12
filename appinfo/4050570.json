@@ -1,6 +1,5 @@
 {
   "appid": "4050570",
-  "public_only": "1",
   "common": {
     "name": "Diceville Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "3a2e72ef5348137ec85f49d2b16c15ff076344ef",
     "icon": "3a2e72ef5348137ec85f49d2b16c15ff076344ef",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8820beae83eb5715cd4cfae89805a6e525d70ee9/capsule_231x87.jpg"
     },
@@ -51,7 +50,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760302819",
     "gameid": "4050570",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PointOfView",
+    "publisher": "PointOfView"
+  },
+  "config": {
+    "installdir": "Diceville Demo",
+    "launch": {
+      "0": {
+        "executable": "Diceville.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4050571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8825320379212366080",
+          "size": "169425875",
+          "download": "70436352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360210",
+        "timeupdated": "1760301195"
+      }
+    }
   }
 }
