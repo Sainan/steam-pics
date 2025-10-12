@@ -1,6 +1,5 @@
 {
   "appid": "4082630",
-  "public_only": "1",
   "common": {
     "name": "Out of the Ocean Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fdf67e930e1d23833df725c459e4ff1acd849119/capsule_231x87.jpg"
     },
@@ -30,7 +29,67 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1767168000",
     "gameid": "4082630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ebi-hime",
+    "publisher": "ebi-hime"
+  },
+  "config": {
+    "installdir": "Out of the Ocean Demo",
+    "launch": {
+      "0": {
+        "executable": "outoftheoceandemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "outoftheoceandemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "outoftheoceandemo.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4082631": {
+      "manifests": {
+        "public": {
+          "gid": "497459299793386819",
+          "size": "385496757",
+          "download": "273185232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360635",
+        "timeupdated": "1760304428"
+      }
+    }
   }
 }
