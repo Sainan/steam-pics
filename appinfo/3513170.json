@@ -1,6 +1,5 @@
 {
   "appid": "3513170",
-  "public_only": "1",
   "common": {
     "name": "Hiding Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "a988739a4ee9a17c1a4d31ca7412ba9a41605ea1",
     "clienttga": "2e9bd9c84b3f7d65d8e4b042410c960cf47e918c",
     "clienticon": "b7327532d69814a0ad6a6ca1593173028fe1881d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "dc7b84ee662e63f198ca3a214fc2df458d296f4d/capsule_231x87.jpg"
@@ -107,5 +106,60 @@
     },
     "gameid": "3513170",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PlayGenix",
+    "publisher": "PlayGenix"
+  },
+  "config": {
+    "installdir": "Hiding Demo",
+    "launch": {
+      "0": {
+        "executable": "Hiding.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3513171": {
+      "manifests": {
+        "public": {
+          "gid": "4668380227629642832",
+          "size": "4394733919",
+          "download": "1798876944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20354236",
+        "timeupdated": "1760231147"
+      }
+    }
   }
 }
