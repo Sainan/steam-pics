@@ -1,6 +1,5 @@
 {
   "appid": "4032420",
-  "public_only": "1",
   "common": {
     "name": "I Will Never Fall For My Tsundere Classmate, So I Will Just Date A Background Character Instead! Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "aa59dd820e859bff3c57df9611438e6e52f2cc50/capsule_231x87.jpg"
@@ -108,5 +107,54 @@
     },
     "gameid": "4032420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Kaijoseisoft",
+    "publisher": "Kaijoseisoft"
+  },
+  "config": {
+    "installdir": "I Will Never Fall For My Tsundere Classmate, So I Will Just Date A Background Character Instead! Demo",
+    "launch": {
+      "0": {
+        "executable": "Tsundere.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Tsundere.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Tsundere.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4032421": {
+      "manifests": {
+        "public": {
+          "gid": "3923864824307737854",
+          "size": "305072073",
+          "download": "134109264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358207",
+        "timeupdated": "1760282743"
+      }
+    }
   }
 }
