@@ -1,6 +1,5 @@
 {
   "appid": "4071960",
-  "public_only": "1",
   "common": {
     "name": "Towerfolk Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,6 +105,60 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Emre Çolak",
+    "publisher": "Emre Çolak"
+  },
+  "config": {
+    "installdir": "Towerfolk Demo",
+    "launch": {
+      "0": {
+        "executable": "Towerfolk.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4071961": {
+      "manifests": {
+        "public": {
+          "gid": "4638235932488644685",
+          "size": "5594431739",
+          "download": "5255416464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357250",
+        "timeupdated": "1760272344"
+      }
     }
   }
 }
