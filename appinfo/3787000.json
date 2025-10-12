@@ -1,10 +1,9 @@
 {
   "appid": "3787000",
-  "public_only": "1",
   "common": {
     "name": "Fading Lights",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "209f0aca80200727b6c8e3b6d7a123bc18cab864",
     "icon": "209f0aca80200727b6c8e3b6d7a123bc18cab864",
     "oslist": "windows,linux",
@@ -95,8 +94,7 @@
       "3": "37"
     },
     "category": {
-      "category_2": "1",
-      "category_62": "1"
+      "category_2": "1"
     },
     "supported_languages": {
       "english": {
@@ -105,6 +103,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3787000",
     "exfgls": "3",
@@ -132,6 +131,78 @@
       "17": "5186",
       "18": "4342",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Dimlight Devs",
+    "publisher": "Fh-Salzburg",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Fading Lights",
+    "launch": {
+      "0": {
+        "executable": "Linux_Version/FadingLights.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "FadingLights.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3787001": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "169118749627256645",
+          "size": "6496151528",
+          "download": "4807295504"
+        }
+      }
+    },
+    "3787002": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "783592445408280200",
+          "size": "6573688419",
+          "download": "4964223936"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20229573",
+        "timeupdated": "1759541333"
+      }
     }
   }
 }
