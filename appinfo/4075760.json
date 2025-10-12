@@ -1,6 +1,5 @@
 {
   "appid": "4075760",
-  "public_only": "1",
   "common": {
     "name": "Ropeat Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -108,5 +107,48 @@
     },
     "gameid": "4075760",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ropeat Team",
+    "publisher": "Ropeat Team"
+  },
+  "config": {
+    "installdir": "Ropeat Demo",
+    "launch": {
+      "0": {
+        "executable": "Ropeat.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3550992994": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "4075761": {
+      "manifests": {
+        "public": {
+          "gid": "4347308092652238642",
+          "size": "301419699",
+          "download": "63954672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359382",
+        "timeupdated": "1760293647"
+      }
+    }
   }
 }
