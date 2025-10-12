@@ -1,6 +1,5 @@
 {
   "appid": "3513150",
-  "public_only": "1",
   "common": {
     "name": "CLOWNOUT Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -109,7 +108,70 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760290283",
     "gameid": "3513150",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PlayGenix",
+    "publisher": "PlayGenix"
+  },
+  "config": {
+    "installdir": "60 Secs to Die Demo",
+    "launch": {
+      "0": {
+        "executable": "Clownout.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3513151": {
+      "manifests": {
+        "public": {
+          "gid": "7883303214711871015",
+          "size": "5321864331",
+          "download": "2380310336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358235",
+        "timeupdated": "1760283227"
+      }
+    }
   }
 }
