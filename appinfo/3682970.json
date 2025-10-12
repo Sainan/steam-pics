@@ -1,11 +1,10 @@
 {
   "appid": "3682970",
-  "public_only": "1",
   "common": {
     "name": "HABROMANIA Demo",
     "type": "Demo",
     "parent": "3677050",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,7 +103,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759863930",
     "gameid": "3682970",
-    "exfgls": "6"
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "developer": "Sydney Collings (Symphony_Sonata)",
+    "publisher": "Toska Studio"
+  },
+  "config": {
+    "installdir": "HABROMANIA Demo",
+    "launch": {
+      "0": {
+        "executable": "HabromaniaDemo.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default (Vulkan)"
+        },
+        "description": "Default (Vulkan)"
+      },
+      "1": {
+        "executable": "HabromaniaDemo.exe",
+        "arguments": "--rendering-driver opengl3",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode (OpenGL)"
+        },
+        "description": "Compatibility Mode (OpenGL)"
+      }
+    }
+  },
+  "depots": {
+    "3682971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5856252907393542326",
+          "size": "1001836672",
+          "download": "932564272"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20291181",
+        "timeupdated": "1759862156"
+      }
+    },
+    "privatebranches": "1"
   }
 }
