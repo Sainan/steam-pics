@@ -1,6 +1,5 @@
 {
   "appid": "4043180",
-  "public_only": "1",
   "common": {
     "name": "UnBound",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "c38855d8a761e9f1738c12ae41fd2460d960405e",
     "icon": "c38855d8a761e9f1738c12ae41fd2460d960405e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760286922",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4043180",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4166",
@@ -124,6 +124,57 @@
       "12": "1625",
       "13": "30358",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "mojo games",
+    "publisher": "mojo games"
+  },
+  "config": {
+    "installdir": "UnBound",
+    "launch": {
+      "0": {
+        "executable": "UnBound.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4043181": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5596177988495937056",
+          "size": "142247533",
+          "download": "104914624"
+        }
+      }
+    },
+    "4043182": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7224787134758932869",
+          "size": "78259034",
+          "download": "31803424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357868",
+        "timeupdated": "1760279380"
+      }
     }
   }
 }
