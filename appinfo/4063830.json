@@ -1,6 +1,5 @@
 {
   "appid": "4063830",
-  "public_only": "1",
   "common": {
     "name": "Heist Haven Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -50,11 +49,59 @@
       "category_70": "1",
       "category_74": "1"
     },
+    "steam_release_date": "1767168000",
     "gameid": "4063830",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Somehow Games",
+    "publisher": "Somehow Games",
+    "homepage": "https://www.somehow.games"
+  },
+  "config": {
+    "installdir": "Heist Haven Demo",
+    "launch": {
+      "0": {
+        "executable": "Agents.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4063831": {
+      "manifests": {
+        "public": {
+          "gid": "7010988400402927364",
+          "size": "1499850781",
+          "download": "1268665456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358215",
+        "timeupdated": "1760282945"
+      }
     }
   }
 }
