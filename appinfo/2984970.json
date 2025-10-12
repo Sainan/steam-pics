@@ -1,13 +1,12 @@
 {
   "appid": "2984970",
-  "public_only": "1",
   "common": {
     "name": "Curiosity",
     "type": "Game",
     "icon": "378100c194e330977616700918b967a6e2bc5d56",
     "clienticon": "8a357091b7670d50a37969345893c84bba25196c",
     "clienttga": "2aa36b3cb7692c366f856d532fffa87ee36c8958",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758258809",
+    "store_asset_mtime": "1759914884",
     "associations": {
       "0": {
         "type": "developer",
@@ -109,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759942874",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2984970",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1625",
@@ -133,6 +133,68 @@
       "17": "7481",
       "18": "6971",
       "19": "3968"
+    },
+    "review_score": "8",
+    "review_percentage": "96"
+  },
+  "extended": {
+    "developer": "DarkBear Studios",
+    "publisher": "DarkBear Studios",
+    "homepage": "https://www.playcuriosity.com/"
+  },
+  "config": {
+    "installdir": "Curiosity",
+    "launch": {
+      "0": {
+        "executable": "Curiosity.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Curiosity"
+        },
+        "description": "Curiosity"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2984971": {
+      "manifests": {
+        "public": {
+          "gid": "4531372328409716946",
+          "size": "7874809759",
+          "download": "7515796752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20352516",
+        "timeupdated": "1760211399"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Curiosity/Saved/SaveGames/",
+        "pattern": "*.sav"
+      }
     }
   }
 }
