@@ -1,11 +1,10 @@
 {
   "appid": "3685080",
-  "public_only": "1",
   "common": {
     "name": "Neon Strike Demo",
     "type": "Demo",
     "parent": "3685030",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "fee778a534e7921def5df66bb3b2f95c758379f6",
     "clienttga": "87122dd9e9eacf3ce08729ef11144f8a9285a121",
     "icon": "ee9a4739c786490abdb666c56bf46abc53a43768",
@@ -123,7 +122,127 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3685080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Reza Mirzaei",
+    "publisher": "Dreamware Games",
+    "homepage": "https://dreamware.games/games/neon-strike"
+  },
+  "config": {
+    "installdir": "Neon Strike Demo",
+    "launch": {
+      "0": {
+        "executable": "Neon Strike Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Game executable"
+        },
+        "description": "Game executable"
+      },
+      "1": {
+        "executable": "Neon Strike Demo.app\\Contents\\MacOS\\Neon Strike Demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Game app"
+        },
+        "description": "Game app"
+      },
+      "2": {
+        "executable": "Neon Strike Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Game executable"
+        },
+        "description": "Game executable"
+      }
+    }
+  },
+  "depots": {
+    "3685081": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4558603616271071676",
+          "size": "167739132",
+          "download": "65055824"
+        }
+      }
+    },
+    "3685082": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4661025938444080915",
+          "size": "184432517",
+          "download": "73296192"
+        }
+      }
+    },
+    "3685083": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2118225461230354585",
+          "size": "163994390",
+          "download": "63205840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357620",
+        "timeupdated": "1760276665"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Dreamware Games/Neon Strike Demo/{64BitSteamID}",
+        "pattern": "save_*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
+    }
   }
 }
