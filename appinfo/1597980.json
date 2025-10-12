@@ -18,42 +18,50 @@
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1751500800",
-      "tested_build_id": "15890663",
+      "test_timestamp": "1759449600",
+      "tested_build_id": "20207129",
       "tests": {
         "0": {
           "display": "3",
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "1": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
-        },
-        "2": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "3": {
+        "2": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "steamos_tests": {
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "configuration": {
         "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
-        "primary_player_is_controller_slot_0": "0",
+        "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "0",
         "small_text": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-9.0-3RC",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -182,7 +190,7 @@
       "19": "7926"
     },
     "review_score": "6",
-    "review_percentage": "76"
+    "review_percentage": "77"
   },
   "extended": {
     "developer": "Untold Games",
@@ -221,9 +229,9 @@
     "1597985": {
       "manifests": {
         "public": {
-          "gid": "708044251696448911",
-          "size": "2290164439",
-          "download": "1856796560"
+          "gid": "7375405847747934670",
+          "size": "2290186249",
+          "download": "1856757472"
         },
         "0.3.0": {
           "gid": "6072746555329393347",
@@ -251,8 +259,8 @@
     "hasdepotsindlc": "1",
     "branches": {
       "public": {
-        "buildid": "20239777",
-        "timeupdated": "1759499189"
+        "buildid": "20288973",
+        "timeupdated": "1759932047"
       },
       "0.3.0": {
         "buildid": "16555079",
