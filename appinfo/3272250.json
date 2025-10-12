@@ -1,6 +1,5 @@
 {
   "appid": "3272250",
-  "public_only": "1",
   "common": {
     "name": "Reap and Sow",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienttga": "aeddaead7704fc22afe71275b14b7f3d2a91f97f",
     "clienticns": "efb2bf56b7bf5765a8e30aa75fa676fc86ba63a4",
     "linuxclienticon": "6708c1737709fbd86b85929e56370ec3ea669b2e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -115,9 +114,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760286698",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3272250",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -145,6 +145,94 @@
       "17": "1667",
       "18": "44868",
       "19": "3854"
+    }
+  },
+  "extended": {
+    "developer": "MrFishess",
+    "publisher": "MrFishess"
+  },
+  "config": {
+    "installdir": "Reap and Sow",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "ReapandSow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ReapandSow.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "ReapandSow.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3272251": {
+      "manifests": {
+        "public": {
+          "gid": "3976788760764214738",
+          "size": "576932878",
+          "download": "411004064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358603",
+        "timeupdated": "1760286331"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "RenPy/ReapandSow-1681284182",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/ReapandSow-1681284182",
+            "replace": ".renpy/ReapandSow-1681284182"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/ReapandSow-1681284182",
+            "replace": "/Library/RenPy/ReapandSow-1681284182"
+          }
+        }
+      }
     }
   }
 }
