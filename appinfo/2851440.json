@@ -1,6 +1,5 @@
 {
   "appid": "2851440",
-  "public_only": "1",
   "common": {
     "name": "ASTROBOTANICA Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -59,5 +58,53 @@
     },
     "gameid": "2851440",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Space Goblin Studio",
+    "publisher": "Space Goblin Studio",
+    "homepage": "http://astrobotanicagame.com/"
+  },
+  "config": {
+    "installdir": "ASTROBOTANICA Demo",
+    "launch": {
+      "0": {
+        "executable": "Astrobotanica.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2851441": {
+      "manifests": {
+        "public": {
+          "gid": "6194077320652523338",
+          "size": "3848616082",
+          "download": "1236710128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20349413",
+        "timeupdated": "1760182300"
+      }
+    }
   }
 }
