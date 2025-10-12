@@ -1,6 +1,5 @@
 {
   "appid": "4051050",
-  "public_only": "1",
   "common": {
     "name": "Genesis",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "b815f2a49f68ad1e89c24722ee259b376d09f929",
     "icon": "b815f2a49f68ad1e89c24722ee259b376d09f929",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,6 +105,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760287510",
     "community_hub_visible": "1",
     "gameid": "4051050",
     "exfgls": "3",
@@ -130,6 +130,53 @@
       "14": "1687",
       "15": "1742",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Ayden DeBoer",
+    "publisher": "Ayden DeBoer",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Genesis",
+    "launch": {
+      "0": {
+        "executable": "Genesis.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4051051": {
+      "manifests": {
+        "public": {
+          "gid": "2779107471945431310",
+          "size": "7486639044",
+          "download": "3901406960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20068353",
+        "timeupdated": "1758488251"
+      }
     }
   }
 }
