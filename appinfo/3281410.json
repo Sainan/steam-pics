@@ -14,32 +14,56 @@
       "english": "1"
     },
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "1",
-      "test_timestamp": "1757721600",
-      "tested_build_id": "19474511",
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759881600",
+      "tested_build_id": "20255779",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "configuration": {
         "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
-        "primary_player_is_controller_slot_0": "0",
+        "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "1",
         "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-stable",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -47,7 +71,7 @@
       }
     },
     "controllertagwizard": "1",
-    "controller_support": "partial",
+    "controller_support": "full",
     "small_capsule": {
       "english": "40a41e8a096f20ef70d39df4f2df9cd10c59bba5/capsule_231x87.jpg"
     },
@@ -133,12 +157,12 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
-      "category_18": "1",
       "category_67": "1",
-      "category_69": "1",
       "category_74": "1",
       "category_78": "1",
       "category_29": "1",
+      "category_28": "1",
+      "category_25": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -280,26 +304,16 @@
     "3281411": {
       "manifests": {
         "public": {
-          "gid": "6205931026130649328",
-          "size": "405764187",
-          "download": "306236688"
-        },
-        "physics": {
-          "gid": "2690634381959108760",
-          "size": "405762139",
-          "download": "306254864"
+          "gid": "5836126783081829480",
+          "size": "405899508",
+          "download": "306305664"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20255779",
-        "timeupdated": "1759617135"
-      },
-      "physics": {
-        "buildid": "20256715",
-        "description": "Use this build if you have physics issues in the regular game.",
-        "timeupdated": "1759628822"
+        "buildid": "20349910",
+        "timeupdated": "1760186301"
       }
     }
   },
