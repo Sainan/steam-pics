@@ -1,6 +1,5 @@
 {
   "appid": "4070500",
-  "public_only": "1",
   "common": {
     "name": "SOS (Save Our Ship) Demo",
     "type": "Demo",
@@ -10,7 +9,15 @@
     "osextended": "",
     "icon": "baf1c1d471ea0209a89e018773b03825dc3ad1ff",
     "clienticon": "baf1c1d471ea0209a89e018773b03825dc3ad1ff",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "eulas": {
+      "0": {
+        "id": "4070500_eula_0",
+        "name": "SOS (Save Our Ship) Demo EULA",
+        "url": "https://store.steampowered.com//eula/4070500_eula_0",
+        "version": "1"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "27256dd3f8563e01cdb0a43840b3b8993c119997/capsule_231x87.jpg"
@@ -74,7 +81,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759249902",
+    "store_asset_mtime": "1760300162",
     "associations": {
       "0": {
         "type": "developer",
@@ -108,7 +115,65 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760036744",
     "gameid": "4070500",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Skyfect",
+    "publisher": "Skyfect",
+    "homepage": "https://skyfect.com"
+  },
+  "config": {
+    "installdir": "SOS (Save Our Ship) Demo",
+    "launch": {
+      "0": {
+        "executable": "SOS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4070501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2314329684070447288",
+          "size": "1351545041",
+          "download": "1154924576"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20215037",
+        "timeupdated": "1759367138"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "appidredirect": "3812730"
   }
 }
