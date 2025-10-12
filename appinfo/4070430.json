@@ -1,6 +1,5 @@
 {
   "appid": "4070430",
-  "public_only": "1",
   "common": {
     "name": "Z Evil Road Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "07470b5db879eaec53a439b393fd7ad9c5892e4c/capsule_231x87.jpg"
     },
@@ -85,7 +84,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4070430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Fusion Iconic",
+    "publisher": "Fusion Iconic"
+  },
+  "config": {
+    "installdir": "Z Evil Road Demo",
+    "launch": {
+      "0": {
+        "executable": "Z-Evil Road.exe",
+        "type": "config",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4070431": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3701605272800853885",
+          "size": "41940744",
+          "download": "28221008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361184",
+        "timeupdated": "1760309176"
+      }
+    }
   }
 }
