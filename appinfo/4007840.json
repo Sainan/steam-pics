@@ -1,4 +1,169 @@
 {
   "appid": "4007840",
-  "public_only": "1"
+  "common": {
+    "name": "Stress Relief Demo",
+    "type": "Demo",
+    "parent": "3806060",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macosapplesilicon,macosnotarized",
+    "clienticon": "5e2fa5113e2a52d8dec51c05b0675b02d195e97e",
+    "icon": "f8e88f2faae14eab2741cc38eb96556acd4283f1",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "78751987595743e8b191e5254ba554946e444bfb/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "9593028a7c60e51ff3a5de007bc98c55e5259496/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "62.47139588100687",
+        "height_pct": "112.31002750524144"
+      }
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "e4a9fdd92d2f9dbb6e7b52d422f36cd1dbf74f12/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "62.47139588100687",
+          "height_pct": "112.31002750524144"
+        }
+      }
+    },
+    "store_screenshot": "9478f864c720f5a6a23dc746d9762e6f85c26ced/ss_9478f864c720f5a6a23dc746d9762e6f85c26ced.jpg",
+    "store_asset_mtime": "1756899285",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Shitshow Interactive"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Shitshow Interactive"
+      }
+    },
+    "primary_genre": "4",
+    "genres": {
+      "0": "4",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_15": "1",
+      "category_76": "1",
+      "category_64": "1",
+      "category_66": "1",
+      "category_74": "1",
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1760275027",
+    "community_visible_stats": "1",
+    "gameid": "4007840",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Shitshow Interactive",
+    "publisher": "Shitshow Interactive",
+    "homepage": "https://discord.gg/Sh6rz29r"
+  },
+  "config": {
+    "installdir": "Stress Relief Demo",
+    "launch": {
+      "0": {
+        "executable": "Link2EA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "stress",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "stress",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4007841": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1763380030446052833",
+          "size": "70839405",
+          "download": "28104384"
+        }
+      }
+    },
+    "4007842": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4900119121669030451",
+          "size": "87093852",
+          "download": "27374064"
+        }
+      }
+    },
+    "4007843": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6677760552551572435",
+          "size": "104562244",
+          "download": "34115808"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20357454",
+        "timeupdated": "1760274875"
+      }
+    }
+  }
 }
