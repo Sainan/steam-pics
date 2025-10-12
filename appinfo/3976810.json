@@ -1,11 +1,10 @@
 {
   "appid": "3976810",
-  "public_only": "1",
   "common": {
     "name": "Space Squad Survival Demo",
     "type": "Demo",
     "parent": "3929870",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -159,5 +158,85 @@
     },
     "gameid": "3976810",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rebel Twins",
+    "publisher": "Rebel Twins",
+    "homepage": "https://www.rebeltwins.com/1632-2/?et_fb=1&amp;PageSpeed=off"
+  },
+  "config": {
+    "installdir": "Space Squad Survival Demo",
+    "launch": {
+      "0": {
+        "executable": "Space Squad Survival.x86_64",
+        "arguments": "%command%",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "Space Squad Survival.exe",
+        "arguments": "%command%",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "Space Squad Survival.app/Contents/MacOS/Space Squad Survival",
+        "arguments": "%command%",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "3976811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2292029654927394329",
+          "size": "345269457",
+          "download": "116401808"
+        }
+      }
+    },
+    "3976812": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4204912438042032309",
+          "size": "344391530",
+          "download": "114482384"
+        }
+      }
+    },
+    "3976813": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4758148259803156973",
+          "size": "363636721",
+          "download": "124726416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20269388",
+        "timeupdated": "1759750348"
+      }
+    }
   }
 }
