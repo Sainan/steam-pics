@@ -1,11 +1,10 @@
 {
   "appid": "3959140",
-  "public_only": "1",
   "common": {
     "name": "Mimic Man Demo",
     "type": "Demo",
     "parent": "802160",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,7 +103,51 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "3959140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sebatnik",
+    "publisher": "Silent Krill, LLC"
+  },
+  "config": {
+    "installdir": "Mimic Man Demo",
+    "launch": {
+      "0": {
+        "executable": "MimicMan.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3959141": {
+      "manifests": {
+        "public": {
+          "gid": "3794922382444819023",
+          "size": "8855647683",
+          "download": "8097229232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360164",
+        "timeupdated": "1760300793"
+      }
+    }
   }
 }
