@@ -145,10 +145,55 @@
       },
       "2": {
         "executable": "Marbies Party DEMO.x86_64",
+        "arguments": "-force-vulkan",
         "config": {
           "oslist": "linux",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "Graphics API: Vulkan",
+          "french": "API graphique : Vulkan"
+        },
+        "description": "Graphics API: Vulkan"
+      },
+      "3": {
+        "executable": "Marbies Party DEMO.x86_64",
+        "arguments": "-force-glcore",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Graphics API: OpenGL Core",
+          "french": "API graphique : OpenGL Core"
+        },
+        "description": "Graphics API: OpenGL Core"
+      },
+      "4": {
+        "executable": "Marbies Party DEMO.x86_64",
+        "arguments": "-force-vulkan -force-wayland",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Graphics API: Vulkan + Wayland (experimental)",
+          "french": "API graphique : Vulkan + Wayland (expérimental)"
+        },
+        "description": "Graphics API: Vulkan + Wayland (experimental)"
+      },
+      "5": {
+        "executable": "Marbies Party DEMO.x86_64",
+        "arguments": "-force-glcore -force-wayland",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Graphics API: OpenGL Core + Wayland (experimental)",
+          "french": "API graphique : OpenGL Core + Wayland (expérimental)"
+        },
+        "description": "Graphics API: OpenGL Core + Wayland (experimental)"
       }
     }
   },
@@ -183,17 +228,17 @@
       },
       "manifests": {
         "public": {
-          "gid": "2129074624333552066",
-          "size": "142602631",
-          "download": "53879456"
+          "gid": "1662274462220208595",
+          "size": "144248526",
+          "download": "54810016"
         }
       }
     },
     "baselanguages": "english,french",
     "branches": {
       "public": {
-        "buildid": "20358722",
-        "timeupdated": "1760287279"
+        "buildid": "20359340",
+        "timeupdated": "1760293124"
       }
     }
   },
