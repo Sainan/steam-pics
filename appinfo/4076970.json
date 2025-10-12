@@ -1,6 +1,5 @@
 {
   "appid": "4076970",
-  "public_only": "1",
   "common": {
     "name": "Enlil Rise Of the End Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "50a6a1993cc062b0a126b3cb4a9412b6710a9af0",
     "clienticon": "50a6a1993cc062b0a126b3cb4a9412b6710a9af0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -208,11 +207,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4076970",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "HAPPYTECH",
+    "publisher": "HAPPYTECH"
+  },
+  "config": {
+    "installdir": "Enlil Rise Of the End Demo",
+    "launch": {
+      "1": {
+        "executable": "Enlil Rise Of The End Demo\\Enlil Rise Of the End.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4076971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6845839783115668252",
+          "size": "3633407861",
+          "download": "1607059456"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20198554",
+        "timeupdated": "1759281425"
+      }
     }
   }
 }
