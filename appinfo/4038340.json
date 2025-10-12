@@ -1,6 +1,5 @@
 {
   "appid": "4038340",
-  "public_only": "1",
   "common": {
     "name": "Zombie Chef Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "599489abf44260966630e136d60ab903762cd4ae",
     "icon": "599489abf44260966630e136d60ab903762cd4ae",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -102,7 +101,6 @@
     "supported_languages": {
       "english": {
         "supported": "true",
-        "full_audio": "true",
         "subtitles": "true"
       },
       "french": {
@@ -143,15 +141,62 @@
       },
       "turkish": {
         "supported": "true",
-        "full_audio": "true",
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760306468",
     "gameid": "4038340",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Dark Forge",
+    "publisher": "Dark Forge"
+  },
+  "config": {
+    "installdir": "Zombie Chef Demo",
+    "launch": {
+      "0": {
+        "executable": "ZombieChef.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4038341": {
+      "manifests": {
+        "public": {
+          "gid": "8170918610302271972",
+          "size": "3159610179",
+          "download": "3006388128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359698",
+        "timeupdated": "1760296776"
+      }
     }
   }
 }
