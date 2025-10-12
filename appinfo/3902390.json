@@ -1,6 +1,5 @@
 {
   "appid": "3902390",
-  "public_only": "1",
   "common": {
     "name": "Tokyo Hotel",
     "type": "Game",
@@ -16,13 +15,62 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "4",
       "2": "5"
     },
     "restricted_countries": "CN,DE,SA",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760140800",
+      "tested_build_id": "19713942",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -184,9 +232,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760083259",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3902390",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -195,24 +244,85 @@
     "store_tags": {
       "0": "12095",
       "1": "5611",
-      "2": "597",
-      "3": "9551",
-      "4": "6650",
-      "5": "3799",
+      "2": "6650",
+      "3": "3799",
+      "4": "9551",
+      "5": "597",
       "6": "18594",
       "7": "21",
       "8": "4182",
       "9": "122",
       "10": "1742",
-      "11": "5984",
-      "12": "599",
+      "11": "599",
+      "12": "5984",
       "13": "11014",
       "14": "6971",
       "15": "3839",
       "16": "4175",
       "17": "6426",
-      "18": "4947",
-      "19": "5608"
+      "18": "24904",
+      "19": "4947"
+    },
+    "review_score": "8",
+    "review_percentage": "83"
+  },
+  "extended": {
+    "developer": "Naughty Neko",
+    "publisher": "Naughty Neko"
+  },
+  "config": {
+    "installdir": "Tokyo Hotel",
+    "launch": {
+      "0": {
+        "executable": "TokyoHotel-1.0-pc/TokyoHotel.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TokyoHotel-1.0-pc/TokyoHotel.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "TokyoHotel.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3902391": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3559256153494527951",
+          "size": "750406076",
+          "download": "664327312"
+        }
+      }
+    },
+    "3902392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2586290439515877437",
+          "size": "738874718",
+          "download": "660755760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19713942",
+        "timeupdated": "1756019822"
+      }
     }
   }
 }
