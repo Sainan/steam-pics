@@ -1,6 +1,5 @@
 {
   "appid": "4060110",
-  "public_only": "1",
   "common": {
     "name": "I want to run away from my goth mommy... or do I? Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3b8e25fbcbcb8b3c745223d9fc4f34f5b3850493/capsule_231x87.jpg"
@@ -47,7 +46,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760292285",
     "gameid": "4060110",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bondage Orange",
+    "publisher": "Nova B12"
+  },
+  "config": {
+    "installdir": "I want to run away from my goth mommy... or do I Demo",
+    "launch": {
+      "0": {
+        "executable": "gothmommy.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "gothmommy.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "gothmommy.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4060111": {
+      "manifests": {
+        "public": {
+          "gid": "5369464955539187124",
+          "size": "229854394",
+          "download": "112007328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358409",
+        "timeupdated": "1760284526"
+      }
+    }
   }
 }
