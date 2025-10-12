@@ -1,6 +1,5 @@
 {
   "appid": "3910510",
-  "public_only": "1",
   "common": {
     "name": "Hopward",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "157c9cddc4027b07f86a6dc38b22cf2d138863ac/capsule_231x87.jpg"
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759256554",
+    "store_asset_mtime": "1760200031",
     "associations": {
       "0": {
         "type": "developer",
@@ -101,26 +100,123 @@
       "english": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "persian": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760098686",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3910510",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
       "2": "1625",
-      "3": "5395",
-      "4": "3877",
-      "5": "4191",
-      "6": "4562",
-      "7": "4252",
-      "8": "1697",
-      "9": "492",
-      "10": "1719",
-      "11": "1684",
-      "12": "4136",
-      "13": "4182"
+      "3": "5537",
+      "4": "5395",
+      "5": "4136",
+      "6": "1697",
+      "7": "3834",
+      "8": "3877",
+      "9": "4026",
+      "10": "4036",
+      "11": "4191",
+      "12": "9803",
+      "13": "1777",
+      "14": "7481",
+      "15": "7250",
+      "16": "4195",
+      "17": "4305",
+      "18": "4252",
+      "19": "1684"
+    }
+  },
+  "extended": {
+    "developer": "GoodGhostGames",
+    "publisher": "GoodGhostGames",
+    "homepage": "https://discord.gg/2vexbgPMmx"
+  },
+  "config": {
+    "installdir": "Hopward",
+    "launch": {
+      "0": {
+        "executable": "Hopward.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3910511": {
+      "manifests": {
+        "public": {
+          "gid": "6840576405213093367",
+          "size": "2764296445",
+          "download": "2202553792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357992",
+        "timeupdated": "1760281741"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Hopward/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
