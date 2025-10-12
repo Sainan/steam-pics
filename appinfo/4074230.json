@@ -164,6 +164,32 @@
         "path": "Exofactory/Exofactory/data",
         "pattern": "*.exosave"
       }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "exofactory/",
+            "replace": "Exofactory/Exofactory/data"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Exofactory/Exofactory/data",
+            "replace": "exofactory/"
+          }
+        }
+      }
     }
   }
 }
