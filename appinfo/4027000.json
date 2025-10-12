@@ -1,6 +1,5 @@
 {
   "appid": "4027000",
-  "public_only": "1",
   "common": {
     "name": "【重大告知】橘リルリ転生いたします！ Demo",
     "type": "Demo",
@@ -10,12 +9,13 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
     },
     "aicontenttype": "1",
+    "controllertagwizard": "1",
     "small_capsule": {
       "english": "5d7beda0af7a6908511d33b1aba2fe631a9846a2/capsule_231x87.jpg",
       "japanese": "a64e02f1d9ced5a63bf5ba6ad195474ca0990214/capsule_231x87_japanese.jpg"
@@ -24,7 +24,8 @@
       "english": "b7dacbb817656206b474113bb62499fddb5c1cdd/header.jpg",
       "japanese": "8d97ce06bd060d4036725ed4e598948ffda66429/header_japanese.jpg"
     },
-    "store_asset_mtime": "1757557185",
+    "store_screenshot": "237763536857166ee052d23311f7f140f3bd8286/ss_237763536857166ee052d23311f7f140f3bd8286.jpg",
+    "store_asset_mtime": "1759925309",
     "associations": {
       "0": {
         "type": "developer",
@@ -35,10 +36,17 @@
         "name": "OTL GAME"
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "23",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
     "category": {
       "category_68": "1",
-      "category_74": "1"
+      "category_74": "1",
+      "category_2": "1",
+      "category_67": "1"
     },
     "supported_languages": {
       "english": {
@@ -58,11 +66,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759918904",
     "gameid": "4027000",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "OTL GAME",
+    "publisher": "OTL GAME"
+  },
+  "config": {
+    "installdir": "RiruriTachibanaReincarnatedDemo",
+    "launch": {
+      "0": {
+        "executable": "Riruri Tachibana Reincarnated (Demo).exe"
+      }
+    }
+  },
+  "depots": {
+    "4027001": {
+      "manifests": {
+        "public": {
+          "gid": "8668827230285473285",
+          "size": "1098223156",
+          "download": "426427264"
+        },
+        "debug": {
+          "gid": "8668827230285473285",
+          "size": "1098223156",
+          "download": "426427264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20301187",
+        "timeupdated": "1759918288"
+      },
+      "debug": {
+        "buildid": "20359105",
+        "description": "デバッグ用",
+        "timeupdated": "1760290912"
+      }
     }
   }
 }
