@@ -1,6 +1,5 @@
 {
   "appid": "2856530",
-  "public_only": "1",
   "common": {
     "name": "Cemitério São Sacramento",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "5a840eeaa37e22881f33ff553dab98b9a819c474",
     "clienticns": "795aea4b89ab57f0a248a3e9a2aee63458a16e38",
     "clienticon": "27a14068f4c52d9e3a78dd3ba1eae5eb4805944c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -95,7 +94,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2856530",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "597",
@@ -117,6 +115,66 @@
       "17": "492",
       "18": "3834",
       "19": "5094"
+    }
+  },
+  "extended": {
+    "developer": "André Martins",
+    "publisher": "Deco Produções"
+  },
+  "config": {
+    "installdir": "Cemitério São Sacramento",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "CsS.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CsS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2856531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6014797514174517838",
+          "size": "5953459004",
+          "download": "5549755904"
+        }
+      }
+    },
+    "baselanguages": "brazilian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20360619",
+        "timeupdated": "1760304359"
+      }
     }
   }
 }
