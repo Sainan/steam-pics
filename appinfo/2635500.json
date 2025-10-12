@@ -3,7 +3,7 @@
   "common": {
     "name": "City Defense Z",
     "type": "Game",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
     "icon": "6d2d6c65d1858b59d6fa8c1437000643f497fb86",
@@ -71,6 +71,7 @@
       }
     },
     "controllertagwizard": "1",
+    "controller_support": "full",
     "small_capsule": {
       "english": "47bc96091b1cb576d9cd68f0e6a4fbcb792fda71/capsule_231x87.jpg"
     },
@@ -133,7 +134,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759213066",
+    "store_asset_mtime": "1760198830",
     "associations": {
       "0": {
         "type": "developer",
@@ -155,12 +156,20 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_15": "1",
+      "category_25": "1",
       "category_62": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true",
-        "subtitles": "true"
+        "subtitles": "true",
+        "full_audio": "true"
       },
       "turkish": {
         "supported": "true",
@@ -262,6 +271,30 @@
         },
         "description": "For Linux & SteamOS"
       }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "1",
+    "steamcontrollertouchconfigdetails": {
+      "3584718704": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3584718704": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,devbranch,sharedbeta,testbeta",
+        "use_action_block": "false"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
     }
   },
   "depots": {
@@ -271,9 +304,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "5084468265014189138",
-          "size": "1532405830",
-          "download": "882790480"
+          "gid": "6458134225575764874",
+          "size": "2568158423",
+          "download": "1896720208"
         }
       }
     },
@@ -283,16 +316,16 @@
       },
       "manifests": {
         "public": {
-          "gid": "6064646555897203219",
-          "size": "2857445706",
-          "download": "1209742112"
+          "gid": "5433702504606631999",
+          "size": "2616515908",
+          "download": "1891867344"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20266019",
-        "timeupdated": "1759733396"
+        "buildid": "20348719",
+        "timeupdated": "1760197189"
       }
     },
     "privatebranches": "1"
