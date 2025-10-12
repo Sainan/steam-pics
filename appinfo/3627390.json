@@ -1,6 +1,5 @@
 {
   "appid": "3627390",
-  "public_only": "1",
   "common": {
     "name": "RemoteSpace: First Settlement Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "schinese": "60d4985b0746711223bbd9acd0d709bf30cd007a/capsule_231x87_schinese.jpg",
       "english": "09f5fa972d8729771d7eabc0c03fbe9d4912d89e/capsule_231x87.jpg"
@@ -92,7 +91,53 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760022668",
+    "community_visible_stats": "1",
     "gameid": "3627390",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ShadowDev",
+    "publisher": "ShadowDev"
+  },
+  "config": {
+    "installdir": "RemoteSpace First Settlement Demo",
+    "launch": {
+      "0": {
+        "executable": "RemoteSpace First Settlement Demo\\RemoteSpace.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3627391": {
+      "manifests": {
+        "public": {
+          "gid": "3582158551935680647",
+          "size": "520553205",
+          "download": "285620256"
+        },
+        "test": {
+          "gid": "3961166352368758139",
+          "size": "520548373",
+          "download": "285619040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358340",
+        "timeupdated": "1760284030"
+      },
+      "test": {
+        "buildid": "20344270",
+        "description": "test version",
+        "timeupdated": "1760133288"
+      }
+    }
   }
 }
