@@ -1,6 +1,5 @@
 {
   "appid": "4075490",
-  "public_only": "1",
   "common": {
     "name": "Hide Zone Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     },
     "clienticon": "95e65c53684d6c8e70d75ec73890c52550c8d8d0",
     "icon": "95e65c53684d6c8e70d75ec73890c52550c8d8d0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "37a79bff166afd8ad0e5cc657f6d0e38e9b721fe/capsule_231x87.jpg"
@@ -111,7 +110,60 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760289408",
     "gameid": "4075490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SodaEffect",
+    "publisher": "SodaEffect"
+  },
+  "config": {
+    "installdir": "Hide Zone Demo",
+    "launch": {
+      "0": {
+        "executable": "SodaDemon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4075491": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4305707503428904681",
+          "size": "3806972748",
+          "download": "3289955248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20213651",
+        "timeupdated": "1759357908"
+      }
+    }
   }
 }
