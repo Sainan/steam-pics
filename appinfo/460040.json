@@ -1,0 +1,204 @@
+{
+  "appid": "460040",
+  "common": {
+    "name": "Empires Dedicated Server",
+    "logo": "c8b9c51734b20720734f2cc15f486b1bbf70d85f",
+    "logo_small": "c8b9c51734b20720734f2cc15f486b1bbf70d85f_thumb",
+    "icon": "e93621d24b2eb58ad47a662b0e18beaa7c234cd6",
+    "clienttga": "7e85127a8f6fc38038f78561b34f0401f40c1b7a",
+    "clienticon": "172aec62bf96924f286cea687188fa5a8e6ddcf2",
+    "type": "Tool",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "freetodownload": "1",
+    "associations": {},
+    "community_hub_visible": "1",
+    "gameid": "460040"
+  },
+  "extended": {
+    "gamedir": "empires"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Empires Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "srcds.exe",
+        "arguments": "-game empires -steam -nobreakpad +r_hunkalloclightmaps 0",
+        "type": "server",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "srcds_run",
+        "arguments": "-game empires -steam -nobreakpad +r_hunkalloclightmaps 0",
+        "type": "server",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "srcds_win64.exe",
+        "arguments": "-game empires -steam -nobreakpad +r_hunkalloclightmaps 0",
+        "type": "server",
+        "config": {
+          "oslist": "windows",
+          "betakey": "2025_sdk_update"
+        },
+        "description_loc": {
+          "english": "Launch 2025 SDK Server"
+        },
+        "description": "Launch 2025 SDK Server"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "460041": {
+      "manifests": {
+        "public": {
+          "gid": "3235073854630476252",
+          "size": "4810794292",
+          "download": "1499882112"
+        },
+        "beta": {
+          "gid": "2804483439679060784",
+          "size": "4810794760",
+          "download": "1499882224"
+        }
+      }
+    },
+    "460042": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6043834200095807812",
+          "size": "6242816",
+          "download": "2308704"
+        },
+        "beta": {
+          "gid": "2987442433688526307",
+          "size": "6243328",
+          "download": "2306016"
+        }
+      }
+    },
+    "460043": {
+      "manifests": {
+        "public": {
+          "gid": "9218890676133482858",
+          "size": "126850",
+          "download": "32576"
+        },
+        "beta": {
+          "gid": "9218890676133482858",
+          "size": "126850",
+          "download": "32576"
+        }
+      }
+    },
+    "460044": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5710025113707488730",
+          "size": "875335388",
+          "download": "285898176"
+        },
+        "beta": {
+          "gid": "5710025113707488730",
+          "size": "875335388",
+          "download": "285898176"
+        }
+      }
+    },
+    "460045": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1547938149128614963",
+          "size": "846096838",
+          "download": "273202032"
+        },
+        "beta": {
+          "gid": "1547938149128614963",
+          "size": "846096838",
+          "download": "273202032"
+        }
+      }
+    },
+    "460046": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7590867099579576312",
+          "size": "14603134",
+          "download": "4366240"
+        },
+        "beta": {
+          "gid": "7399647344238325039",
+          "size": "14607100",
+          "download": "4366224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19371559",
+        "timeupdated": "1753565000"
+      },
+      "beta": {
+        "buildid": "19488307",
+        "timeupdated": "1754421135"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
