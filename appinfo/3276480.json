@@ -1,11 +1,10 @@
 {
   "appid": "3276480",
-  "public_only": "1",
   "common": {
     "name": "CEO Sim: Cyberpunk Demo",
     "type": "Demo",
     "parent": "2731370",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -102,7 +101,85 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760299847",
     "gameid": "3276480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "JAD LABS",
+    "publisher": "JAD LABS"
+  },
+  "config": {
+    "installdir": "CEO Sim Cyberpunk Demo",
+    "launch": {
+      "0": {
+        "executable": "CEO Sim Cyberpunk.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CEO Sim Cyberpunk.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "3276481": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7968272900306752890",
+          "size": "721504803",
+          "download": "244400944"
+        }
+      }
+    },
+    "3276482": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8394072759567289551",
+          "size": "688347742",
+          "download": "231253152"
+        }
+      }
+    },
+    "3276483": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2119071326270006367",
+          "size": "696858756",
+          "download": "234741600"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20359626",
+        "timeupdated": "1760296084"
+      }
+    }
   }
 }
