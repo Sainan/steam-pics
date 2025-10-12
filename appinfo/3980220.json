@@ -1,11 +1,10 @@
 {
   "appid": "3980220",
-  "public_only": "1",
   "common": {
     "name": "an unplayable game?! (demo)",
     "type": "Demo",
     "parent": "3957890",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "008e448f646ccd1188b7cfebfe7db6fca8ab7778",
     "oslist": "windows",
     "osarch": "",
@@ -53,7 +52,40 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374500",
     "gameid": "3980220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "./badgames.zip",
+    "publisher": "./badgames.zip"
+  },
+  "config": {
+    "installdir": "anunplayablegame_demo",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "anunplayablegame.exe"
+      }
+    }
+  },
+  "depots": {
+    "3980221": {
+      "manifests": {
+        "public": {
+          "gid": "1043080926586229757",
+          "size": "223758754",
+          "download": "146144384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19859712",
+        "timeupdated": "1757006913"
+      }
+    }
   }
 }
