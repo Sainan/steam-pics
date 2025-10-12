@@ -1,6 +1,5 @@
 {
   "appid": "3850420",
-  "public_only": "1",
   "common": {
     "name": "见习死神 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3075ffb79eb0ce27dbae72b61a6e7e5b7841ddff/capsule_231x87.jpg"
     },
@@ -80,5 +79,48 @@
     },
     "gameid": "3850420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "辉熿工作室",
+    "publisher": "辉熿工作室"
+  },
+  "config": {
+    "installdir": "见习死神 Demo",
+    "launch": {
+      "0": {
+        "executable": "DeathIntern.exe",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "schinese": "启动游戏"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3850421": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6065144655783336892",
+          "size": "898506996",
+          "download": "54433840"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20355545",
+        "timeupdated": "1760251467"
+      }
+    }
   }
 }
