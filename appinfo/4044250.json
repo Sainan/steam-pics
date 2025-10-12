@@ -1,6 +1,5 @@
 {
   "appid": "4044250",
-  "public_only": "1",
   "common": {
     "name": "Legion: Arcane Origins Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "834c31fb17a1a10976b83cf2bdb512c2901ceea5",
     "clienticon": "834c31fb17a1a10976b83cf2bdb512c2901ceea5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -115,7 +114,133 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4044250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ewan McSandres",
+    "publisher": "Ewan McSandres"
+  },
+  "config": {
+    "installdir": "Legion Arcane Origins Demo",
+    "launch": {
+      "0": {
+        "executable": "lao.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "lao.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4044251": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5653757074181690711",
+          "size": "171978723",
+          "download": "117729712"
+        },
+        "unstable": {
+          "gid": "5653757074181690711",
+          "size": "171978723",
+          "download": "117729712"
+        }
+      }
+    },
+    "4044252": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6247126674316056840",
+          "size": "176507082",
+          "download": "117610192"
+        },
+        "unstable": {
+          "gid": "6247126674316056840",
+          "size": "176507082",
+          "download": "117610192"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20358058",
+        "timeupdated": "1760284488"
+      },
+      "unstable": {
+        "buildid": "20358058",
+        "description": "Unstable branch for unstable builds",
+        "timeupdated": "1760281306"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "appidredirect": "1983790",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".local/share/legion_arcane_origins",
+        "pattern": "lao.crt"
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": ".local/share/legion_arcane_origins",
+        "pattern": "unlocks.cfg"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "legion_arcane_origins",
+        "pattern": "lao.crt"
+      },
+      "3": {
+        "root": "WinAppDataRoaming",
+        "path": "legion_arcane_origins",
+        "pattern": "unlocks.cfg"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/legion_arcane_origins",
+            "replace": "legion_arcane_origins"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "legion_arcane_origins",
+            "replace": ".local/share/legion_arcane_origins"
+          }
+        }
+      }
+    }
   }
 }
