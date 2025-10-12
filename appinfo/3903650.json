@@ -1,6 +1,5 @@
 {
   "appid": "3903650",
-  "public_only": "1",
   "common": {
     "name": "FROST x HIME",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "fdd24f88bac5439e9d0379e6335f233e1bcf9b48",
     "clienttga": "49f653a0d420f1c2a00dbfa2af90229f92e4509a",
     "clienticon": "db7edfbc2357bb7c115a854b38646cb04129cf90",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -101,9 +100,9 @@
     },
     "category": {
       "category_2": "1",
-      "category_23": "1",
       "category_18": "1",
       "category_60": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -149,9 +148,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759992400",
     "community_hub_visible": "1",
     "gameid": "3903650",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -166,6 +165,60 @@
       "7": "1697",
       "8": "7208",
       "9": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "50"
+  },
+  "extended": {
+    "developer": "Kazuya",
+    "publisher": "赤いトンボ"
+  },
+  "config": {
+    "installdir": "FROST x HIME",
+    "launch": {
+      "0": {
+        "executable": "FROST x HIME.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3903651": {
+      "manifests": {
+        "public": {
+          "gid": "6729889579718596806",
+          "size": "12641698726",
+          "download": "6200623056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20352892",
+        "timeupdated": "1760215249"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Global",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
