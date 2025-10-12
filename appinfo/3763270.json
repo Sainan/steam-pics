@@ -1,6 +1,5 @@
 {
   "appid": "3763270",
-  "public_only": "1",
   "common": {
     "name": "Screen Greens Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6d7de270ed333aeffcf10beb22db47f3e03a813a/capsule_231x87.jpg"
@@ -94,7 +93,9 @@
       "3": "18"
     },
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_74": "1",
+      "category_76": "1"
     },
     "supported_languages": {
       "english": {
@@ -105,51 +106,7 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "french": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "italian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "german": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "spanish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "bulgarian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "hungarian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "vietnamese": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "greek": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "danish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "indonesian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "latam": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "tchinese": {
         "supported": "true",
         "subtitles": "true"
       },
@@ -161,31 +118,7 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "dutch": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "norwegian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "polish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "brazilian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "portuguese": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "romanian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "turkish": {
         "supported": "true",
         "subtitles": "true"
       },
@@ -193,44 +126,51 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "finnish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "czech": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "swedish": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "japanese": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "latvian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "lithuanian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "slovak": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "slovenian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "estonian": {
         "supported": "true",
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760109996",
     "gameid": "3763270",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PlayfulFoxStudio",
+    "publisher": "PlayfulFoxStudio"
+  },
+  "config": {
+    "installdir": "Screen Greens Demo",
+    "launch": {
+      "0": {
+        "executable": "ScreenGreens.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3763271": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8769011264451314900",
+          "size": "125530104",
+          "download": "54960672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359603",
+        "timeupdated": "1760297417"
+      }
+    }
   }
 }
