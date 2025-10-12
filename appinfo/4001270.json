@@ -1,11 +1,10 @@
 {
   "appid": "4001270",
-  "public_only": "1",
   "common": {
     "name": "가야 - 더 미스터리 Demo",
     "type": "Demo",
     "parent": "3825510",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "ac840f3e96a72a867859a89598490e13cf71b759",
     "icon": "26e68606a3ab21cec9d296c988b3ddadc93934b5",
     "oslist": "windows",
@@ -126,7 +125,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760300028",
+    "community_visible_stats": "1",
     "gameid": "4001270",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dunamis",
+    "publisher": "Dunamis"
+  },
+  "config": {
+    "installdir": "GAYA-The Mystery Demo",
+    "launch": {
+      "0": {
+        "executable": "GAYAGame.exe",
+        "description_loc": {
+          "english": "Korea traditional Soul Like Game"
+        },
+        "description": "Korea traditional Soul Like Game"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4001271": {
+      "manifests": {
+        "public": {
+          "gid": "7359100300560561558",
+          "size": "19560235965",
+          "download": "18944959840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360033",
+        "timeupdated": "1760299723"
+      }
+    }
   }
 }
