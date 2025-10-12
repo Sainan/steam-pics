@@ -133,7 +133,29 @@
         },
         "recursive": "1"
       },
+      "1": {
+        "root": "gameinstall",
+        "path": "Resources/Data/StreamingAssets/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
       "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Check Inn_Data/StreamingAssets/Saves",
+            "replace": "KishMish Games/Check Inn"
+          }
+        }
+      }
     }
   }
 }
