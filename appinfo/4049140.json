@@ -1,6 +1,5 @@
 {
   "appid": "4049140",
-  "public_only": "1",
   "common": {
     "name": "The House She Haunts",
     "type": "Game",
@@ -17,7 +16,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -105,8 +104,7 @@
     "category": {
       "category_2": "1",
       "category_68": "1",
-      "category_74": "1",
-      "category_62": "1"
+      "category_74": "1"
     },
     "supported_languages": {
       "english": {
@@ -114,6 +112,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760292900",
     "community_hub_visible": "1",
     "gameid": "4049140",
     "exfgls": "3",
@@ -137,5 +136,61 @@
       "13": "1667",
       "14": "4234"
     }
+  },
+  "extended": {
+    "developer": "Patrick J. Stover",
+    "publisher": "Spare Room Interactive",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The House She Haunts",
+    "launch": {
+      "0": {
+        "executable": "TheHouseSheHaunts.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4049141": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3907173903424538968",
+          "size": "6326676852",
+          "download": "3006926384"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20118841",
+        "timeupdated": "1758769650"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "sync_while_suspended": "1"
   }
 }
