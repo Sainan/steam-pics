@@ -1,10 +1,9 @@
 {
   "appid": "3989480",
-  "public_only": "1",
   "common": {
     "name": "Spray Forge",
     "type": "Application",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "e7ef30d7f6da359a4fef731b465aeff7f05bcd44",
     "icon": "0a4eef8bb4128a08153faf1c47064730584d8044",
     "oslist": "windows",
@@ -154,6 +153,46 @@
       "10": "5055",
       "11": "8013",
       "12": "150626"
+    }
+  },
+  "extended": {
+    "developer": "Precision Software",
+    "publisher": "Precision Software"
+  },
+  "config": {
+    "installdir": "Spray Forge",
+    "launch": {
+      "0": {
+        "executable": "spray_forge.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3989481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8615782240801577677",
+          "size": "33885551",
+          "download": "13844032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357181",
+        "timeupdated": "1760271585"
+      }
     }
   }
 }
