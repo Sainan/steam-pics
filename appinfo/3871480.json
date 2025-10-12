@@ -1,4 +1,112 @@
 {
   "appid": "3871480",
-  "public_only": "1"
+  "common": {
+    "name": "Laugh Track Demo",
+    "type": "Demo",
+    "parent": "3765430",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "icon": "953a0612da257df908c65a960f03e3a418b1c3f0",
+    "clienttga": "ee4e8a770d9b7ed19d7e038afdfbfb7a2a405638",
+    "clienticon": "ef5d737830ad157e3326f0448d7888799f182306",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "607266f7dd13761cdeebb103b1b66d32dce3b6f4/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "5d27344481fe0d98ca57408bb3f14be80cc05aec/header.jpg"
+    },
+    "store_asset_mtime": "1752081985",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Fiction Factory Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Fiction Factory Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_13": "1",
+      "category_28": "1",
+      "category_68": "1",
+      "category_71": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_79": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1760099022",
+    "gameid": "3871480",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Fiction Factory Games",
+    "publisher": "Fiction Factory Games",
+    "homepage": "https://www.fictionfactorygames.com"
+  },
+  "config": {
+    "installdir": "Laugh Track Demo",
+    "launch": {
+      "0": {
+        "executable": "LaughTrack.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "LaughTrack.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "LaughTrack.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3871481": {
+      "manifests": {
+        "public": {
+          "gid": "331121473993696677",
+          "size": "542377458",
+          "download": "380014112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20151013",
+        "timeupdated": "1758939721"
+      }
+    }
+  }
 }
