@@ -1,6 +1,5 @@
 {
   "appid": "3772580",
-  "public_only": "1",
   "common": {
     "name": "Car Service Together Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -106,9 +105,53 @@
         "supported": "true",
         "full_audio": "true",
         "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "turkish": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760022336",
     "gameid": "3772580",
-    "exfgls": "6"
+    "exfgls": "6",
+    "review_score": "7",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "developer": "V12 Studio",
+    "publisher": "V12 Studio"
+  },
+  "config": {
+    "installdir": "Car Service Together Demo",
+    "launch": {
+      "0": {
+        "executable": "CarServiceTogether.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3772581": {
+      "manifests": {
+        "public": {
+          "gid": "4208063998353866899",
+          "size": "3900592907",
+          "download": "1776173088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20354258",
+        "timeupdated": "1760231661"
+      }
+    }
   }
 }
