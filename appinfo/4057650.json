@@ -1,19 +1,31 @@
 {
   "appid": "4057650",
-  "public_only": "1",
   "common": {
     "name": "Digging Together Demo",
     "type": "Demo",
     "parent": "3938040",
-    "icon": "9ca1bfe1f3e3af68e96514bad45f24784b536556",
+    "icon": "df81da3fb901328c3d04df4b67e4b48ffec7c3e9",
     "clienticon": "fb4c0f759c248b21fc5d8bee0f787bc72215369a",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "koreana": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "russian": "1",
+      "japanese": "1",
+      "portuguese": "1",
+      "swedish": "1",
+      "turkish": "1"
+    },
     "aicontenttype": "1",
     "controllertagwizard": "1",
-    "controller_support": "partial",
     "small_capsule": {
       "english": "641fd380d2ab575336d4b65fe405d55d8cdaec4c/capsule_231x87.jpg"
     },
@@ -103,11 +115,7 @@
       "category_1": "1",
       "category_38": "1",
       "category_9": "1",
-      "category_18": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1"
+      "category_22": "1"
     },
     "supported_languages": {
       "english": {
@@ -147,7 +155,55 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760122180",
+    "community_visible_stats": "1",
     "gameid": "4057650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Suber Game Studio ",
+    "publisher": "PlayWay S.A",
+    "homepage": "https://www.subergamestudio.com"
+  },
+  "config": {
+    "installdir": "Digging Together Demo",
+    "launch": {
+      "0": {
+        "executable": "DiggingTogether.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4057651": {
+      "manifests": {
+        "public": {
+          "gid": "5673316814057702588",
+          "size": "2249335745",
+          "download": "1924294880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357178",
+        "timeupdated": "1760271553"
+      }
+    }
   }
 }
