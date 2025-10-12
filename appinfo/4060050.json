@@ -1,22 +1,21 @@
 {
   "appid": "4060050",
-  "public_only": "1",
   "common": {
     "name": "Sled Together Demo",
     "type": "Demo",
     "parent": "3477230",
     "icon": "74f3eb87c706aa9fde6fe8081942e35754acb3e2",
     "clienticon": "74f3eb87c706aa9fde6fe8081942e35754acb3e2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
     "controllertagwizard": "1",
     "small_capsule": {
-      "english": "01e0ff8cc1595cef2c05e30eb0332b0df9cf6134/capsule_231x87.jpg"
+      "english": "edb6450dcc39eaa3b453f8782c1c3cadc3c9abf1/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "c9abd3c76b35b04256c1459887ef3a95ef2f7bed/header.jpg"
+      "english": "b68c81d915011b2521e4f9c1c2c0458e55d2c69a/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -33,10 +32,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "67084ab1304b5cac2289ab6826bc6a0792e80fdf/library_capsule.jpg"
+          "english": "21bc12b193169675253d877569175ac907169db9/library_capsule.jpg"
         },
         "image2x": {
-          "english": "67084ab1304b5cac2289ab6826bc6a0792e80fdf/library_capsule_2x.jpg"
+          "english": "21bc12b193169675253d877569175ac907169db9/library_capsule_2x.jpg"
         }
       },
       "library_hero": {
@@ -67,14 +66,14 @@
       },
       "library_header": {
         "image": {
-          "english": "c9abd3c76b35b04256c1459887ef3a95ef2f7bed/library_header.jpg"
+          "english": "b68c81d915011b2521e4f9c1c2c0458e55d2c69a/library_header.jpg"
         },
         "image2x": {
-          "english": "c9abd3c76b35b04256c1459887ef3a95ef2f7bed/library_header_2x.jpg"
+          "english": "b68c81d915011b2521e4f9c1c2c0458e55d2c69a/library_header_2x.jpg"
         }
       }
     },
-    "store_asset_mtime": "1759512605",
+    "store_asset_mtime": "1760303653",
     "associations": {
       "0": {
         "type": "developer",
@@ -106,7 +105,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760129806",
     "gameid": "4060050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Renderise",
+    "publisher": "Renderise"
+  },
+  "config": {
+    "installdir": "Sled Together Demo",
+    "launch": {
+      "0": {
+        "executable": "Sled Together.exe"
+      }
+    }
+  },
+  "depots": {
+    "4060051": {
+      "manifests": {
+        "public": {
+          "gid": "5233356240605186453",
+          "size": "781698698",
+          "download": "286581072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20340136",
+        "timeupdated": "1760112205"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.json"
+      }
+    }
   }
 }
