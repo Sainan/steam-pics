@@ -1,11 +1,10 @@
 {
   "appid": "3999690",
-  "public_only": "1",
   "common": {
     "name": "奈落のキッチン Demo",
     "type": "Demo",
     "parent": "3508910",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Abyss Kitchen Demo"
     },
@@ -71,5 +70,38 @@
     },
     "gameid": "3999690",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Pico Games",
+    "publisher": "Pico Games"
+  },
+  "config": {
+    "installdir": "奈落のキッチン Demo",
+    "launch": {
+      "0": {
+        "executable": "AbyssKitchen.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3999691": {
+      "manifests": {
+        "public": {
+          "gid": "7006028380605577784",
+          "size": "291841239",
+          "download": "156846064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358792",
+        "timeupdated": "1760288093"
+      }
+    }
   }
 }
