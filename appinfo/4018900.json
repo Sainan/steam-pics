@@ -1,6 +1,5 @@
 {
   "appid": "4018900",
-  "public_only": "1",
   "common": {
     "name": "Triangle - Cursed Town Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -124,7 +123,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760298138",
     "gameid": "4018900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sortie Labs",
+    "publisher": "Sortie Labs"
+  },
+  "config": {
+    "installdir": "Triangle - Cursed Town Demo",
+    "launch": {
+      "0": {
+        "executable": "Triangle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4018901": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7941084730557494249",
+          "size": "7757414947",
+          "download": "7281928992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358284",
+        "timeupdated": "1760284934"
+      }
+    }
   }
 }
