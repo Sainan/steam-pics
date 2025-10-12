@@ -1,6 +1,5 @@
 {
   "appid": "4017120",
-  "public_only": "1",
   "common": {
     "name": "Drunkard Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "5b8bc1bf94ef21930bfc6cf878f559364c51b3ba",
     "icon": "5b8bc1bf94ef21930bfc6cf878f559364c51b3ba",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -18,12 +17,68 @@
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
-      "english": "2a8198fc93231096a5870bc9a66e445c4e26579c/capsule_231x87.jpg"
+      "english": "9bc8b86e95841e0c05da662f0d9d8109022cf7e8/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "1d55dd0e375255d591441a0b00e15888c5282d71/header.jpg"
+      "english": "a5293e17cbcb5d768e77c9822f619cc701efd449/header.jpg"
     },
-    "store_asset_mtime": "1757780991",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "44ac3c90dd5e565404f271e3450c4851ec344643/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "44ac3c90dd5e565404f271e3450c4851ec344643/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "79b1fb052ea3e34180335e7f2d6ee5d99fb244da/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "79b1fb052ea3e34180335e7f2d6ee5d99fb244da/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "79b1fb052ea3e34180335e7f2d6ee5d99fb244da/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "1a09960569fa4ed5e9deb5b298282770e3caf99a/logo.png"
+        },
+        "image2x": {
+          "english": "1a09960569fa4ed5e9deb5b298282770e3caf99a/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "e2d556cb2c929bd6e59283e77cea52cebb048692/library_header.jpg"
+        },
+        "image2x": {
+          "english": "e2d556cb2c929bd6e59283e77cea52cebb048692/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1760294086",
     "associations": {
       "0": {
         "type": "developer",
@@ -50,11 +105,77 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760213215",
     "gameid": "4017120",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "PostHuman Interactive",
+    "publisher": "PostHuman Interactive"
+  },
+  "config": {
+    "installdir": "Drunkard Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "DrunkardSimulatorDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017121": {
+      "manifests": {
+        "public": {
+          "gid": "8598199220691891660",
+          "size": "14208683960",
+          "download": "12026885360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20352639",
+        "timeupdated": "1760213176"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "appidredirect": "3440390",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "DrunkardSimulator/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
     }
   }
 }
