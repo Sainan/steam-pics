@@ -1,6 +1,5 @@
 {
   "appid": "4083660",
-  "public_only": "1",
   "common": {
     "name": "Zombie Protocol Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -106,11 +105,48 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760350140",
     "gameid": "4083660",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "RedRockGames",
+    "publisher": "RedRockGames"
+  },
+  "config": {
+    "installdir": "Zombie Protocol Demo",
+    "launch": {
+      "0": {
+        "executable": "Zombie Protocol.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4083661": {},
+    "4083662": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1381342987932788399",
+          "size": "3522251085",
+          "download": "1381545792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360867",
+        "timeupdated": "1760306620"
+      }
     }
   }
 }
