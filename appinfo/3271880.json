@@ -1,10 +1,9 @@
 {
   "appid": "3271880",
-  "public_only": "1",
   "common": {
     "name": "Kano. Stone islands.",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -13,6 +12,10 @@
     "clienticon": "95f82ef0841d492ae570213630a2f250ff79da8c",
     "name_localized": {
       "russian": "Кано. Каменные острова."
+    },
+    "languages": {
+      "english": "1",
+      "russian": "1"
     },
     "controllertagwizard": "1",
     "small_capsule": {
@@ -119,9 +122,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1759909065",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3271880",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "5537",
@@ -140,6 +144,80 @@
       "14": "10808",
       "15": "4182",
       "16": "492"
+    }
+  },
+  "extended": {
+    "developer": "Sirotkin Aleksandr",
+    "publisher": "Sirotkin Aleksandr",
+    "homepage": "https://discord.gg/hBFvx2tq"
+  },
+  "config": {
+    "installdir": "KanoStoneIslands",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "AdvGodIsland.exe",
+        "arguments": "-d3d12",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Run with DirectX 12 (recommended)"
+        },
+        "description": "Run with DirectX 12 (recommended)"
+      },
+      "1": {
+        "executable": "AdvGodIsland.exe",
+        "arguments": "-d3d11",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Run with DirectX 11 (Windows 8.1 and earlier)"
+        },
+        "description": "Run with DirectX 11 (Windows 8.1 and earlier)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3271881": {
+      "config": {
+        "language": "russian",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1231609702854527608",
+          "size": "5133763076",
+          "download": "4605995072"
+        }
+      }
+    },
+    "baselanguages": "russian",
+    "branches": {
+      "public": {
+        "buildid": "20359620",
+        "timeupdated": "1760296116"
+      }
     }
   }
 }
