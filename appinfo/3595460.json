@@ -1,13 +1,12 @@
 {
   "appid": "3595460",
-  "public_only": "1",
   "common": {
     "name": "Tiny Vending Machines",
     "type": "Game",
-    "icon": "4b603bc0a1c4a5f282f3952d1c8693c39d2e43b4",
+    "icon": "82ae116adf4bb523329299b3d13356f1b6b2d7a9",
     "clienttga": "44f937bf32ba47bb2cebc78c6672ef5c4cfa6171",
     "clienticon": "d33085d8ab4761a1d7d2248841e345a400d77f1c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -16,6 +15,13 @@
       "tchinese": "售貨機大亨：桌面小世界",
       "japanese": "ちっちゃな自販機物語",
       "koreana": "자판기 타이쿤: 데스크톱 미니 월드"
+    },
+    "languages": {
+      "english": "1",
+      "koreana": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "japanese": "1"
     },
     "controllertagwizard": "1",
     "small_capsule": {
@@ -112,7 +118,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758895826",
+    "store_asset_mtime": "1760086434",
     "associations": {
       "0": {
         "type": "developer",
@@ -160,9 +166,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760086164",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3595460",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "3964",
@@ -183,6 +190,49 @@
       "16": "4726",
       "17": "1654",
       "18": "12472"
+    },
+    "review_score": "7",
+    "review_percentage": "86"
+  },
+  "extended": {
+    "developer": "Frozen Logic Studios",
+    "publisher": "Frozen Logic Studios"
+  },
+  "config": {
+    "installdir": "Tiny Vending Machines",
+    "launch": {
+      "0": {
+        "executable": "Tiny Vending Machines.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
     }
+  },
+  "depots": {
+    "3595461": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3479530231969314552",
+          "size": "242603351",
+          "download": "63628544"
+        }
+      }
+    },
+    "baselanguages": "english,french,koreana,spanish,schinese,tchinese,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20351583",
+        "timeupdated": "1760203108"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "5"
   }
 }
