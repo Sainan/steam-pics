@@ -1,11 +1,10 @@
 {
   "appid": "3962340",
-  "public_only": "1",
   "common": {
     "name": "Saga of Yurina Demo",
     "type": "Demo",
     "parent": "3894600",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -62,7 +61,53 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3962340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SubCulture Dev",
+    "publisher": "SubCulture Dev"
+  },
+  "config": {
+    "installdir": "Saga of Yurina Demo",
+    "launch": {
+      "0": {
+        "executable": "SagaOfYurina.exe",
+        "arguments": "demo",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3962341": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2749862803017905392",
+          "size": "370427419",
+          "download": "78612112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20337751",
+        "timeupdated": "1760268332"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3894600"
   }
 }
