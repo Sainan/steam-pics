@@ -1,10 +1,9 @@
 {
   "appid": "2000970",
-  "public_only": "1",
   "common": {
     "name": "Beacon of Neyda",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -70,7 +69,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757275757",
+    "store_asset_mtime": "1760020889",
     "associations": {
       "0": {
         "type": "developer",
@@ -97,6 +96,8 @@
       "category_22": "1",
       "category_18": "1",
       "category_68": "1",
+      "category_55": "1",
+      "category_56": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -125,10 +126,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760014887",
     "steam_deck_blog_url": "https://steamcommunity.com/app/2000970",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2000970",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "492",
@@ -137,8 +139,8 @@
       "4": "3871",
       "5": "4182",
       "6": "19",
-      "7": "4106",
-      "8": "1645",
+      "7": "1645",
+      "8": "4106",
       "9": "3798",
       "10": "5752",
       "11": "21",
@@ -150,6 +152,67 @@
       "17": "5125",
       "18": "4295",
       "19": "1702"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Ghost Creative Studio",
+    "publisher": "Ghost Creative Studio",
+    "homepage": "https://beaconofneyda.ghostcreativestudio.net/"
+  },
+  "config": {
+    "installdir": "Beacon of Neyda",
+    "launch": {
+      "0": {
+        "executable": "Beacon Of Neyda.exe"
+      },
+      "1": {
+        "executable": "Beacon Of Neyda.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
     }
+  },
+  "depots": {
+    "2000971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2967469206450255850",
+          "size": "545199009",
+          "download": "419673216"
+        }
+      }
+    },
+    "2000972": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5288435828887700890",
+          "size": "599979824",
+          "download": "428974448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361111",
+        "timeupdated": "1760308541"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "5"
   }
 }
