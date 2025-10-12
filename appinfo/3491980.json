@@ -1,6 +1,5 @@
 {
   "appid": "3491980",
-  "public_only": "1",
   "common": {
     "name": "Lost Liminal Demo",
     "type": "Demo",
@@ -14,7 +13,12 @@
     "name_localized": {
       "schinese": "阈限：迷失边缘 DEMO版"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ca10c6f03dffc7880f88e034f5f60b09a9107add/capsule_231x87.jpg",
@@ -129,7 +133,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760125857",
+    "community_visible_stats": "1",
     "gameid": "3491980",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TuJi Game",
+    "publisher": "TuJi Game"
+  },
+  "config": {
+    "installdir": "LostLiminal_Demo",
+    "launch": {
+      "1": {
+        "executable": "LostLiminal_Demo\\Lost_Liminal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3491982": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2479751473908009256",
+          "size": "12493030798",
+          "download": "11878257232"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20358144",
+        "timeupdated": "1760282744"
+      }
+    }
   }
 }
