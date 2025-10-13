@@ -1,0 +1,217 @@
+{
+  "appid": "318100",
+  "common": {
+    "name": "AXYOS",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "eulas": {},
+    "icon": "746f83a6195f2e43668344f5cace1c18d5acf301",
+    "logo": "b8adb116012fa53b8aa6df44c7feefab42dd1f79",
+    "logo_small": "b8adb116012fa53b8aa6df44c7feefab42dd1f79_thumb",
+    "clienticon": "08e33601b124fd180181090fff2ef65eb1e16dc0",
+    "clienttga": "cb317ff2ca33060a3b963e48a34f0dd4615dcd4f",
+    "metacritic_name": "AXYOS",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1690119302",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Axyos Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Axyos Games"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Axyos Games"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "4",
+      "2": "23",
+      "3": "29",
+      "4": "2"
+    },
+    "category": {
+      "category_1": "1",
+      "category_22": "1",
+      "category_15": "1",
+      "category_29": "1",
+      "category_23": "1",
+      "category_18": "1",
+      "category_2": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_47": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1533132360",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "318100",
+    "store_tags": {
+      "0": "620519",
+      "1": "1663",
+      "2": "4684",
+      "3": "1718",
+      "4": "3859",
+      "5": "1775",
+      "6": "6730",
+      "7": "1774",
+      "8": "9",
+      "9": "3839",
+      "10": "4191",
+      "11": "1695",
+      "12": "19",
+      "13": "597",
+      "14": "4175",
+      "15": "4168",
+      "16": "7423",
+      "17": "1662",
+      "18": "1678",
+      "19": "5673"
+    },
+    "review_score": "5",
+    "review_percentage": "51"
+  },
+  "extended": {
+    "gamedir": "gamerip",
+    "serverbrowsername": "AXYOS",
+    "developer": "Axyos Games",
+    "publisher": "Axyos Games",
+    "homepage": "https://axyosgames.com/"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "AXYOS",
+    "launch": {
+      "0": {
+        "executable": "Binaries/Win32/UDK.exe",
+        "description": "Launch Game",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "installscriptsignature": "2b3a980447ad98bc418723384ccf1b47d683d9cd17826a2b0e5f850026412e81153fe4026173943e32131f7cff72c7e9a34f23943d805e04638513eee9d4f133e83c2755aff22871014981f3518d187eae43d4c3f6fbc09ef804ad87b58028782c944d6e7772d378ca0494a8a948519258865bff62933beebc00b3f882c5384a",
+    "installscriptoverride": "1"
+  },
+  "install": {
+    "run process": {
+      "ue3redist": {
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\UE3Redist.exe",
+        "nocleanup": "1",
+        "ignoreexitcode": "1"
+      },
+      "firewall": {
+        "depth": "%INSTALLDIR%\\Binaries\\Win32\\UDK.exe"
+      }
+    }
+  },
+  "depots": {
+    "318101": {
+      "manifests": {
+        "public": {
+          "gid": "3325716938938141931",
+          "size": "1525960999",
+          "download": "1167649440"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "workshopdepot": "318100",
+    "branches": {
+      "public": {
+        "buildid": "1214432",
+        "timeupdated": "1467802554"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "40",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "/UDKGame/Config",
+        "pattern": "UDK_HRLSettingsUser.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "/UDKGame/Config",
+        "pattern": "UDK_HRLSettingsUserUPD.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
+}
