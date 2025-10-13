@@ -1,6 +1,5 @@
 {
   "appid": "4077520",
-  "public_only": "1",
   "common": {
     "name": "Shifting Chambers Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "osextended": "",
     "clienticon": "4480b242ba1746fc8d93c48b632acb2ddb97298a",
     "icon": "4480b242ba1746fc8d93c48b632acb2ddb97298a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "0f33716e275bfab3a2bbdf2edd35403607ae150f/capsule_231x87.jpg"
@@ -109,5 +108,51 @@
     },
     "gameid": "4077520",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Korpi Games Oy",
+    "publisher": "Korpi Games Oy",
+    "homepage": "http://korpigames.com/games"
+  },
+  "config": {
+    "installdir": "Shifting Chambers Demo",
+    "launch": {
+      "0": {
+        "executable": "ShiftingChambers.exe",
+        "arguments": "-nonvr",
+        "type": "default",
+        "description_loc": {
+          "english": "Play Shifting Chambers Demo"
+        },
+        "description": "Play Shifting Chambers Demo"
+      },
+      "1": {
+        "executable": "ShiftingChambers.exe",
+        "arguments": "-vr",
+        "type": "openxr",
+        "description_loc": {
+          "english": "Play Shifting Chambers Demo in VR"
+        },
+        "description": "Play Shifting Chambers Demo in VR"
+      }
+    }
+  },
+  "depots": {
+    "4077521": {
+      "manifests": {
+        "public": {
+          "gid": "8611323038888381271",
+          "size": "6429706035",
+          "download": "3010916592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371659",
+        "timeupdated": "1760369568"
+      }
+    },
+    "privatebranches": "1"
   }
 }
