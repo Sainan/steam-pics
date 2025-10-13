@@ -4,9 +4,9 @@
     "name": "Gombo Demo",
     "type": "Demo",
     "parent": "2649860",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macosapplesilicon",
     "clienticon": "2a86699f116f9123584022c86cc8b3e125ea0b03",
     "clienttga": "fe314334388182ad7a9e1a37172c0d832ca3d187",
     "icon": "29290798105403feeedb263257d76d0082bd7b9b",
@@ -124,7 +124,7 @@
         "supported": "true"
       }
     },
-    "steam_release_date": "1751266800",
+    "steam_release_date": "1749367382",
     "gameid": "3798220",
     "exfgls": "6"
   },
@@ -145,15 +145,13 @@
       "1": {
         "executable": "mac64/GOMBO.app",
         "config": {
-          "oslist": "macos",
-          "betakey": "test_branch"
+          "oslist": "macos"
         }
       },
       "2": {
         "executable": "linux64/GOMBO",
         "config": {
-          "oslist": "linux",
-          "betakey": "test_branch"
+          "oslist": "linux"
         }
       }
     },
@@ -164,7 +162,8 @@
   "depots": {
     "3798221": {
       "config": {
-        "oslist": "windows"
+        "oslist": "windows",
+        "osarch": "64"
       },
       "manifests": {
         "public": {
@@ -176,7 +175,8 @@
     },
     "3798222": {
       "config": {
-        "oslist": "macos"
+        "oslist": "macos",
+        "osarch": "64"
       },
       "manifests": {
         "public": {
@@ -189,7 +189,7 @@
     "3798223": {
       "config": {
         "oslist": "linux",
-        "steamdeck": "1"
+        "osarch": "64"
       },
       "manifests": {
         "public": {
