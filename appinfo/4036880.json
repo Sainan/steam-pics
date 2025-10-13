@@ -1,6 +1,5 @@
 {
   "appid": "4036880",
-  "public_only": "1",
   "common": {
     "name": "Motorcycle For Sale Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a9bdcd8eafaa14276978841d6c81cb5fd27f990e/capsule_231x87.jpg"
@@ -162,7 +161,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4036880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Red Axe Games",
+    "publisher": "Red Axe Games"
+  },
+  "config": {
+    "installdir": "Motorcycle For Sale Demo",
+    "launch": {
+      "0": {
+        "executable": "Motorcycle For Sale Simulator Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4036881": {
+      "manifests": {
+        "public": {
+          "gid": "143380720348100470",
+          "size": "7187591892",
+          "download": "3336188400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371575",
+        "timeupdated": "1760369499"
+      }
+    },
+    "privatebranches": "1"
   }
 }
