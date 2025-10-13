@@ -1,0 +1,329 @@
+{
+  "appid": "1605430",
+  "common": {
+    "name": "Roots of Tomorrow",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosnotarized",
+    "logo": "9cc64db27f2673fff30592d00581b2c0091d3c61",
+    "logo_small": "9cc64db27f2673fff30592d00581b2c0091d3c61_thumb",
+    "icon": "cae975bb615451c672deb2ac1f25b5c619d7b306",
+    "clienticon": "505a10f6852b6b4fa7c4ab9e6ac4cecb50e23134",
+    "clienttga": "7890f44667186e66fe3065852b1c269ba0f9bbcc",
+    "languages": {
+      "english": "1",
+      "french": "1"
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "fr,en",
+      "library_hero": "fr,en",
+      "library_logo": "en,fr",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "38.0536645050338",
+        "height_pct": "67.66320009854374"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "french": "library_600x900_french.jpg",
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "french": "library_600x900_french_2x.jpg",
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "french": "library_hero_french.jpg",
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "french": "library_hero_french_2x.jpg",
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "38.0536645050338",
+          "height_pct": "67.66320009854374"
+        },
+        "image": {
+          "english": "logo.png",
+          "french": "logo_french.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png",
+          "french": "logo_french_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1659079958",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "GAMABILIS"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "GAMABILIS"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "23",
+      "1": "28",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1"
+    },
+    "supported_languages": {
+      "french": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1652287042",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "1605430",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "87918",
+      "1": "599",
+      "2": "113",
+      "3": "4191",
+      "4": "9",
+      "5": "493",
+      "6": "6426",
+      "7": "4166",
+      "8": "10235",
+      "9": "14139",
+      "10": "22602",
+      "11": "4695",
+      "12": "1741",
+      "13": "492",
+      "14": "4791",
+      "15": "9204",
+      "16": "16689",
+      "17": "4175",
+      "18": "8945",
+      "19": "30358"
+    },
+    "review_score": "5",
+    "review_percentage": "62"
+  },
+  "extended": {
+    "developer": "GAMABILIS",
+    "publisher": "GAMABILIS",
+    "homepage": "https://gamabilis.com/roots-of-tomorrow/",
+    "isfreeapp": "1",
+    "listofdlc": "1966120,1986660,1996290,1998780",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Roots of Tomorrow",
+    "launch": {
+      "0": {
+        "executable": "Roots Of Tomorrow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "RootsOfTomorrow.app\\Contents\\MacOS\\Roots Of Tomorrow",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Roots Of Tomorrow.exe",
+        "arguments": "-logViewer",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "beta"
+        },
+        "description_loc": {
+          "english": "Bêta - Log viewer",
+          "french": "version Dev"
+        },
+        "description": "Bêta - Log viewer"
+      },
+      "3": {
+        "executable": "RootsOfTomorrow.app\\Contents\\MacOS\\Roots Of Tomorrow",
+        "arguments": "-logViewer",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "beta"
+        },
+        "description_loc": {
+          "english": "Bêta - Log viewer"
+        },
+        "description": "Bêta - Log viewer"
+      },
+      "4": {
+        "executable": "Roots Of Tomorrow.exe",
+        "arguments": "-apiEnvironment development -logViewer",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "beta"
+        },
+        "description_loc": {
+          "english": "Bêta - Log viewer - Dev server"
+        },
+        "description": "Bêta - Log viewer - Dev server"
+      },
+      "5": {
+        "executable": "RootsOfTomorrow.app\\Contents\\MacOS\\Roots Of Tomorrow",
+        "arguments": "-apiEnvironment development -logViewer",
+        "type": "option1",
+        "config": {
+          "oslist": "macos",
+          "betakey": "beta"
+        },
+        "description_loc": {
+          "english": "Bêta - Log viewer - Dev server"
+        },
+        "description": "Bêta - Log viewer - Dev server"
+      }
+    }
+  },
+  "depots": {
+    "1605431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3461294758618158377",
+          "size": "1025407581",
+          "download": "615570640"
+        }
+      }
+    },
+    "1605432": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3209781198421204706",
+          "size": "1225987740",
+          "download": "647154624"
+        }
+      }
+    },
+    "1966120": {
+      "dlcappid": "1966120",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3245805608175012039",
+          "size": "1045197",
+          "download": "1043232"
+        }
+      }
+    },
+    "1966121": {
+      "dlcappid": "1966120",
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3908267597259650461",
+          "size": "1043804",
+          "download": "1041840"
+        }
+      }
+    },
+    "1986660": {
+      "dlcappid": "1986660",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7208700285484744927",
+          "size": "2566195",
+          "download": "2561088"
+        }
+      }
+    },
+    "1986661": {
+      "dlcappid": "1986660",
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3199064957601409957",
+          "size": "2660814",
+          "download": "2655712"
+        }
+      }
+    },
+    "1998780": {
+      "dlcappid": "1998780",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7357295478718576376",
+          "size": "3611392",
+          "download": "3604320"
+        }
+      }
+    },
+    "1998781": {
+      "dlcappid": "1998780",
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1758941286730161787",
+          "size": "3704618",
+          "download": "3697552"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20316760",
+        "timeupdated": "1760359256"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
