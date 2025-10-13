@@ -1,6 +1,5 @@
 {
   "appid": "4043940",
-  "public_only": "1",
   "common": {
     "name": "Carnaval Marbles Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macosnotarized",
     "clienticon": "b67a28eda1e771c01286703736c586f0a4a2773c",
     "icon": "b67a28eda1e771c01286703736c586f0a4a2773c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "778fec36f777b2594c1cd7f417e7bf00b34dca3e/capsule_231x87.jpg"
@@ -129,7 +128,95 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760375182",
     "gameid": "4043940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "summoning systems",
+    "publisher": "summoning systems"
+  },
+  "config": {
+    "installdir": "Carnaval Marbles Demo",
+    "launch": {
+      "0": {
+        "executable": "Carnaval_marbles_proto.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CarnavalMarbles.app/Contents/MacOS/Carnaval Marbles",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Carnaval_marbles_proto.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4043941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "453011754311780270",
+          "size": "486739120",
+          "download": "364353232"
+        }
+      }
+    },
+    "4043942": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4061731691157007994",
+          "size": "460529824",
+          "download": "357860784"
+        }
+      }
+    },
+    "4043943": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "400899841878325569",
+          "size": "570646296",
+          "download": "386054976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372934",
+        "timeupdated": "1760374475"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "3",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Carnaval Marbles/{64BitSteamID}/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
