@@ -1,6 +1,5 @@
 {
   "appid": "3211520",
-  "public_only": "1",
   "common": {
     "name": "Gateway Express - After work Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "fea72b283fe8e78341303d6bbb4cc63827d7bb39",
     "clienttga": "441642669a33902709948cc2b9aff1b006a33c90",
     "clienticon": "262331de23942ad3e965b62c4f4abb47c7fc2d81",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -54,10 +53,66 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760372216",
     "gameid": "3211520",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Dwarven Brothers",
+    "publisher": "Dwarven Brothers",
+    "homepage": "https://www.thedwarvenbrothers.com/"
+  },
+  "config": {
+    "installdir": "Altered Anomalies Demo",
+    "launch": {
+      "0": {
+        "executable": "AA_Test.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3211521": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5351904183241410690",
+          "size": "1474301710",
+          "download": "1280359600"
+        }
+      }
+    },
+    "3211522": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20364333",
+        "timeupdated": "1760336629"
+      }
     }
   }
 }
