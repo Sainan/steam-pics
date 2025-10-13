@@ -1,6 +1,5 @@
 {
   "appid": "4062850",
-  "public_only": "1",
   "common": {
     "name": "Bootsies Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -59,5 +58,38 @@
     },
     "gameid": "4062850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Playgarden Games",
+    "publisher": "Playgarden Games"
+  },
+  "config": {
+    "installdir": "Bootsies Demo",
+    "launch": {
+      "0": {
+        "executable": "bootsies.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4062851": {
+      "manifests": {
+        "public": {
+          "gid": "4469691369909914561",
+          "size": "305394884",
+          "download": "204325808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371106",
+        "timeupdated": "1760367456"
+      }
+    }
   }
 }
