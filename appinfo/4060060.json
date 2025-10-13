@@ -1,6 +1,5 @@
 {
   "appid": "4060060",
-  "public_only": "1",
   "common": {
     "name": "ALPINE Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "c6db9b7494ae257bac4c745af86db5221b53fff1/capsule_231x87.jpg"
@@ -92,7 +91,68 @@
       "category_69": "1",
       "category_75": "1"
     },
+    "steam_release_date": "1760125520",
     "gameid": "4060060",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Exbyte Studios",
+    "publisher": "Exbyte Studios"
+  },
+  "config": {
+    "installdir": "ALPINE Demo",
+    "launch": {
+      "0": {
+        "executable": "ALPINE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4060061": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "701545072351755187",
+          "size": "2077281708",
+          "download": "1890243280"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20370626",
+        "timeupdated": "1760365413"
+      }
+    }
   }
 }
