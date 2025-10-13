@@ -1,6 +1,5 @@
 {
   "appid": "3991070",
-  "public_only": "1",
   "common": {
     "name": "Order:the New Dawn Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "af06b0fc38ba22afded822b065a5a693fb282d69/capsule_231x87.jpg"
@@ -103,7 +102,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3991070",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Outer Space Workshop",
+    "publisher": "Outer Space Workshop"
+  },
+  "config": {
+    "installdir": "秩序：新曙光 Demo",
+    "launch": {
+      "0": {
+        "executable": "Outer Space.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3991071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7270470411503127834",
+          "size": "4067730949",
+          "download": "2782206736"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20364106",
+        "timeupdated": "1760335547"
+      }
+    }
   }
 }
