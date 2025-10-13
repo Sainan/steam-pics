@@ -1,6 +1,5 @@
 {
   "appid": "4071320",
-  "public_only": "1",
   "common": {
     "name": "A Game of D.I.C.E. Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "217efdd54b920891e0e25a889505b9f6daaf4198/capsule_231x87.jpg"
@@ -90,7 +89,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4071320",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Reija",
+    "publisher": "Reija"
+  },
+  "config": {
+    "installdir": "A Game of DICE Demo",
+    "launch": {
+      "0": {
+        "executable": "DICE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4071321": {
+      "manifests": {
+        "public": {
+          "gid": "2060059361098184712",
+          "size": "765358199",
+          "download": "483229344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371145",
+        "timeupdated": "1760371239"
+      }
+    }
   }
 }
