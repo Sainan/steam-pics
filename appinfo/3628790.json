@@ -1,13 +1,12 @@
 {
   "appid": "3628790",
-  "public_only": "1",
   "common": {
     "name": "Kabonk!",
     "type": "Game",
     "icon": "08388833cc62552cbdc1f272c10b3236bc8ebd22",
     "clienticon": "08388833cc62552cbdc1f272c10b3236bc8ebd22",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -446,10 +445,11 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760093974",
     "steam_deck_blog_url": "https://steamcommunity.com/games/3628790/announcements/detail/542229787451589104",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3628790",
-    "exfgls": "8",
     "store_tags": {
       "0": "1773",
       "1": "4004",
@@ -472,5 +472,65 @@
       "18": "1708",
       "19": "1738"
     }
+  },
+  "extended": {
+    "developer": "Spark of Chaos",
+    "publisher": "Spark of Chaos",
+    "homepage": "https://sparkofchaos.com/games/kabonk!.html"
+  },
+  "config": {
+    "installdir": "Kabonk!",
+    "launch": {
+      "1": {
+        "executable": "Flippernoid.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3628791": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4376863345475640425",
+          "size": "1690500287",
+          "download": "1189640640"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20373787",
+        "timeupdated": "1760378498"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
