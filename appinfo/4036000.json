@@ -1,4 +1,113 @@
 {
   "appid": "4036000",
-  "public_only": "1"
+  "common": {
+    "name": "Ruff Day at the Office Demo",
+    "type": "Demo",
+    "parent": "3562230",
+    "clienticon": "e35f48cedffa8c0b588cad03d46c736cc70e6f1b",
+    "icon": "52c3b4315646ac6c722fdf18f71e441e4493c066",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "0128167971ae342e238f42cf9c1be0ac12997e89/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "87079de09f0e4e1d41a00aa275671970ee1923a9/header.jpg"
+    },
+    "store_asset_mtime": "1757922315",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Roope Korpela"
+      },
+      "1": {
+        "type": "developer",
+        "name": "JoySpark Games"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "JoySpark Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "gameid": "4036000",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Roope Korpela",
+    "publisher": "JoySpark Games"
+  },
+  "config": {
+    "installdir": "Ruff Day at the Office Demo",
+    "launch": {
+      "0": {
+        "executable": "Ruff Day at the Office Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Ruff Day at the Office Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Ruff Day at the Office Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4036001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6121242099182116808",
+          "size": "115777233",
+          "download": "54401488"
+        }
+      }
+    },
+    "4036002": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7575260047606783339",
+          "size": "132585080",
+          "download": "62656848"
+        }
+      }
+    },
+    "4036003": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4870720887659349095",
+          "size": "112310090",
+          "download": "52575184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369002",
+        "timeupdated": "1760359053"
+      }
+    }
+  }
 }
