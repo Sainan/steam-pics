@@ -1,6 +1,5 @@
 {
   "appid": "4072540",
-  "public_only": "1",
   "common": {
     "name": "Xenosensory Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d70d53ec53d4db2bafdb3383a39d5b0b275f1e7b/capsule_231x87.jpg"
     },
@@ -34,7 +33,45 @@
       "category_74": "1",
       "category_79": "1"
     },
+    "steam_release_date": "1767168000",
     "gameid": "4072540",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "caiys",
+    "publisher": "caiysware"
+  },
+  "config": {
+    "installdir": "Xenosensory",
+    "launch": {
+      "0": {
+        "executable": "Xenosensory.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4072541": {
+      "manifests": {
+        "public": {
+          "gid": "446268597195832292",
+          "size": "35958803",
+          "download": "30226672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371104",
+        "timeupdated": "1760367372"
+      }
+    }
   }
 }
