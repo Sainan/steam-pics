@@ -1,6 +1,5 @@
 {
   "appid": "3787600",
-  "public_only": "1",
   "common": {
     "name": "Bullet Ballet Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -114,11 +113,63 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760363611",
     "gameid": "3787600",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Retro Zero Games",
+    "publisher": "Retro Zero Games",
+    "homepage": "https://www.retrozero.games/"
+  },
+  "config": {
+    "installdir": "Bullet Ballet Demo",
+    "launch": {
+      "0": {
+        "executable": "BulletBallet.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3787601": {
+      "manifests": {
+        "public": {
+          "gid": "2056213316979397984",
+          "size": "4028270687",
+          "download": "3646001872"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20370125",
+        "timeupdated": "1760363487"
+      }
     }
   }
 }
