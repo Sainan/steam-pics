@@ -7,7 +7,7 @@
     "icon": "8bd7df15fc3e2d0726c3ae05f1364667a5ea3c34",
     "clienticon": "8bd7df15fc3e2d0726c3ae05f1364667a5ea3c34",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "small_capsule": {
@@ -96,23 +96,59 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Paperwork.app/Contents/MacOS/Paperwork",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "4075811": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "4138246619801851756",
-          "size": "414151547",
-          "download": "128021488"
+          "gid": "2976175700423684858",
+          "size": "414070844",
+          "download": "127730368"
+        },
+        "experimental": {
+          "gid": "5611108000461465667",
+          "size": "415438990",
+          "download": "128074688"
+        }
+      }
+    },
+    "4075812": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4559864830835118082",
+          "size": "440918517",
+          "download": "138967008"
+        },
+        "experimental": {
+          "gid": "1305393103810092842",
+          "size": "440749359",
+          "download": "139129296"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20234714",
-        "timeupdated": "1759475828"
+        "buildid": "20367825",
+        "timeupdated": "1760353872"
+      },
+      "experimental": {
+        "buildid": "20321000",
+        "description": "Branch for development and testing purposes.",
+        "timeupdated": "1760016443"
       }
     }
   }
