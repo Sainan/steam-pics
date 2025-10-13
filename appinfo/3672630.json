@@ -90,22 +90,47 @@
         "executable": "UMAMI.exe"
       }
     },
-    "steamdecktouchscreen": "5"
+    "steamdecktouchscreen": "5",
+    "steamcontrollertemplateindex": "13",
+    "steaminputmanifestpath": "steam_input/umami_layout.vdf"
   },
   "depots": {
     "3672631": {
       "manifests": {
         "public": {
-          "gid": "6005735105116949677",
-          "size": "2207768338",
-          "download": "1012614560"
+          "gid": "4731339267508018280",
+          "size": "2208817625",
+          "download": "1012873024"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20236383",
-        "timeupdated": "1759486110"
+        "buildid": "20365193",
+        "timeupdated": "1760345533"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mimmox/UMAMI/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/Mimmox/UMAMI/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
       }
     }
   }
