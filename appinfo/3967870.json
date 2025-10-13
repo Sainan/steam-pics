@@ -1,11 +1,10 @@
 {
   "appid": "3967870",
-  "public_only": "1",
   "common": {
     "name": "Huntsman Demo",
     "type": "Demo",
     "parent": "3814680",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -128,7 +127,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760373942",
     "gameid": "3967870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "OnTheHouse Studios",
+    "publisher": "Ten Image Publishing"
+  },
+  "config": {
+    "installdir": "Huntsman Demo",
+    "launch": {
+      "0": {
+        "executable": "Huntsman.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3967871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1168618176405679329",
+          "size": "4309101821",
+          "download": "4123160096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369751",
+        "timeupdated": "1760361906"
+      }
+    }
   }
 }
