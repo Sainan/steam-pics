@@ -9,6 +9,7 @@
     "osextended": "macos64",
     "icon": "fc58b96f464e274bc8455f8156ef16113280e8cf",
     "clienticon": "fc58b96f464e274bc8455f8156ef16113280e8cf",
+    "openvrsupport": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -141,7 +142,11 @@
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "The Dark Protocol PC"
+        },
+        "description": "The Dark Protocol PC"
       },
       "1": {
         "executable": "The Dark Protocol.exe",
@@ -149,6 +154,17 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "2": {
+        "executable": "The Dark Protocol VR.exe",
+        "type": "vr",
+        "config": {
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "The Dark Protocol VR"
+        },
+        "description": "The Dark Protocol VR"
       }
     }
   },
