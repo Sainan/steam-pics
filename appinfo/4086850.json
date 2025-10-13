@@ -1,13 +1,12 @@
 {
   "appid": "4086850",
-  "public_only": "1",
   "common": {
     "name": "Quarantine Zombies Demo",
     "type": "Demo",
     "parent": "3964600",
     "clienticon": "6edaec568dd706a8a9e900436e9ec6c10341da19",
     "icon": "6edaec568dd706a8a9e900436e9ec6c10341da19",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -102,11 +101,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760378671",
     "gameid": "4086850",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Stone Games",
+    "publisher": "Stone Games"
+  },
+  "config": {
+    "installdir": "Quarantine Zombies Demo",
+    "launch": {
+      "0": {
+        "executable": "QuarantineZombie.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4086851": {
+      "manifests": {
+        "public": {
+          "gid": "5308776332408070237",
+          "size": "16679029540",
+          "download": "15780897328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372972",
+        "timeupdated": "1760378556"
+      }
     }
   }
 }
