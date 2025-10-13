@@ -1,11 +1,10 @@
 {
   "appid": "3835640",
-  "public_only": "1",
   "common": {
     "name": "Loded Depths Demo",
     "type": "Demo",
     "parent": "3059000",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "f63a4371c29c5ae18b9003a2acbfb88db546d4b6",
     "clienticon": "15ce2ec317e4d298e6079e865f996e0350264d7b",
     "oslist": "windows",
@@ -59,6 +58,40 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "skitterbyte",
+    "publisher": "skitterbyte"
+  },
+  "config": {
+    "installdir": "Loded Depths Demo",
+    "launch": {
+      "0": {
+        "executable": "LodedDepthsDemo\\Loded Depths.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3835641": {
+      "manifests": {
+        "public": {
+          "gid": "3406836809646338290",
+          "size": "501190973",
+          "download": "204000864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20368477",
+        "timeupdated": "1760356939"
+      }
     }
   }
 }
