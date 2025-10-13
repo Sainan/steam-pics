@@ -1,11 +1,10 @@
 {
   "appid": "3379850",
-  "public_only": "1",
   "common": {
     "name": "Fat Goblins Demo",
     "type": "Demo",
     "parent": "2450350",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "c88aaa150fad10b463f63cadd96a1bf214deb6f1",
     "clienttga": "bb32249823c4347bac1e40fca2253cabff9dc53e",
     "clienticon": "f4f31d2d01462260751052bbb0f9d794444a29c7",
@@ -16,7 +15,7 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "controller_support": "partial",
+    "controller_support": "full",
     "small_capsule": {
       "english": "bbb39268fc3b2aeced1d246d931dbb2d08924fa2/capsule_231x87.jpg"
     },
@@ -103,18 +102,73 @@
       "category_9": "1",
       "category_38": "1",
       "category_27": "1",
-      "category_18": "1"
+      "category_28": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true",
         "full_audio": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3379850",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Koda Games, LLC",
+    "publisher": "Koda Games, LLC"
+  },
+  "config": {
+    "installdir": "Fat Goblins Demo",
+    "launch": {
+      "0": {
+        "executable": "main.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3379851": {
+      "manifests": {
+        "public": {
+          "gid": "8047751087850772662",
+          "size": "1844660111",
+          "download": "1020713824"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20365875",
+        "timeupdated": "1760345244"
+      }
     }
   }
 }
