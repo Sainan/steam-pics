@@ -1,6 +1,5 @@
 {
   "appid": "4039830",
-  "public_only": "1",
   "common": {
     "name": "Tainted ground Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "e97b73e577e44b8818744b8bb4c09205a4f6c183",
     "clienticon": "08d07511912fed555773965b0c70f7ffdf65e7b2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "caa05f927f6ef191b1989ac511b312de885e3900/capsule_231x87.jpg"
     },
@@ -57,7 +56,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4039830",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Víctor Manuel Calvo",
+    "publisher": "Javier Donado"
+  },
+  "config": {
+    "installdir": "TaintedGroundDemo",
+    "launch": {
+      "0": {
+        "executable": "TaintedGroundDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4039831": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3530720884616528615",
+          "size": "3622643403",
+          "download": "3310428976"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20359154",
+        "timeupdated": "1760291457"
+      }
+    }
   }
 }
