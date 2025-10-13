@@ -1,6 +1,5 @@
 {
   "appid": "4098970",
-  "public_only": "1",
   "common": {
     "name": "DARKWATCH Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -96,5 +95,49 @@
     },
     "gameid": "4098970",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TIMECRASHGAMES",
+    "publisher": "TIMECRASHGAMES"
+  },
+  "config": {
+    "installdir": "DARKWATCH Demo",
+    "launch": {
+      "0": {
+        "executable": "Darkwatch.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4098971": {
+      "manifests": {
+        "public": {
+          "gid": "7731027595958838577",
+          "size": "7312116678",
+          "download": "6975848352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20374882",
+        "timeupdated": "1760383957"
+      }
+    }
   }
 }
