@@ -1,6 +1,5 @@
 {
   "appid": "3948800",
-  "public_only": "1",
   "common": {
     "name": "Beat of Rebellion Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "76148722546fcbdfe789e535c05bf287da0ee96a",
     "clienticon": "309010b00511bf7705a4e9b3b6c710b586f87014",
     "clienttga": "b0dab71a7008ebfa3411a377482f478a0775067e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,17 +100,72 @@
       "category_28": "1",
       "category_60": "1",
       "category_68": "1",
-      "category_75": "1"
+      "category_75": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true"
       }
     },
+    "steam_release_date": "1760201856",
     "gameid": "3948800",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "CyberRaccoons",
+    "publisher": "AIV - Accademia Italiana Videogiochi"
+  },
+  "config": {
+    "installdir": "Beat of Rebellion Demo",
+    "launch": {
+      "0": {
+        "executable": "CyberRaccoons.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3948801": {
+      "manifests": {
+        "public": {
+          "gid": "2217481490246625086",
+          "size": "1210904018",
+          "download": "1057672992"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20370610",
+        "timeupdated": "1760366109"
+      }
     }
   }
 }
