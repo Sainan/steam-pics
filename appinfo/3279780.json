@@ -26,9 +26,71 @@
     },
     "content_descriptors": {
       "0": "1",
-      "1": "5"
+      "1": "4",
+      "2": "5"
     },
-    "restricted_countries": "DE",
+    "restricted_countries": "CN,DE,SA",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759536000",
+      "tested_build_id": "20220659",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "1",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "65b7eddc54124b4ede8bab91d256ad7817b5e301/capsule_231x87.jpg"
@@ -144,13 +206,14 @@
         "subtitles": "true"
       }
     },
-    "steam_release_date": "1756098914",
+    "steam_release_date": "1756098900",
     "community_hub_visible": "1",
     "gameid": "3279780",
     "exfgls": "3",
     "content_descriptors_including_dlc": {
       "0": "1",
-      "1": "5"
+      "1": "4",
+      "2": "5"
     },
     "store_tags": {
       "0": "12095",
@@ -158,18 +221,18 @@
       "2": "599",
       "3": "9130",
       "4": "4085",
-      "5": "17305",
-      "6": "3799",
+      "5": "6650",
+      "6": "17305",
       "7": "113",
-      "8": "14139",
-      "9": "4191",
-      "10": "6650",
+      "8": "3799",
+      "9": "14139",
+      "10": "4191",
       "11": "4115",
       "12": "1684",
       "13": "4295",
-      "14": "3835",
-      "15": "4057",
-      "16": "6730",
+      "14": "6730",
+      "15": "3835",
+      "16": "4057",
       "17": "4325",
       "18": "4182",
       "19": "4434"
