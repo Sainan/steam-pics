@@ -1,6 +1,5 @@
 {
   "appid": "3672010",
-  "public_only": "1",
   "common": {
     "name": "Shards of Order Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -123,11 +122,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374563",
     "gameid": "3672010",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Fardust",
+    "publisher": "Awaken Realms"
+  },
+  "config": {
+    "installdir": "ShardsOfOrderDemo",
+    "launch": {
+      "0": {
+        "executable": "ShardsOfOrderDemo/ShardsOfOrderDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3672011": {
+      "manifests": {
+        "public": {
+          "gid": "3511969492494096001",
+          "size": "1066381489",
+          "download": "719631968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369096",
+        "timeupdated": "1760359557"
+      }
+    },
+    "privatebranches": "1"
   }
 }
