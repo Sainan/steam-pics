@@ -32,6 +32,51 @@
     },
     "clienticns": "9f3ac7d5efb234ab0124f41b844031aa824e772f",
     "linuxclienticon": "a40c7a05d499f32dd1a50a7f31414a755f052b5e",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759968000",
+      "tested_build_id": "20145200",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -201,7 +246,7 @@
       "19": "4236"
     },
     "review_score": "8",
-    "review_percentage": "94"
+    "review_percentage": "92"
   },
   "extended": {
     "developer": "Might and Delight",
@@ -306,26 +351,23 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Might and Delight/Twinkleby/steam/{64BitSteamID}/save",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
       },
       "1": {
-        "root": "MacAppSupport",
-        "path": "Might and Delight/Twinkleby/steam/{64BitSteamID}/save",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "MacOS"
-        }
-      },
-      "2": {
-        "root": "LinuxHome",
-        "path": ".config/unity3d/Might and Delight/Twinkleby/steam/{64BitSteamID}/save",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Linux"
-        }
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
       }
     }
   }
