@@ -104,11 +104,29 @@
     "launch": {
       "0": {
         "executable": "ALPINE.exe",
+        "arguments": "-DX11",
         "type": "default",
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "Launch DirectX11"
+        },
+        "description": "Launch DirectX11"
+      },
+      "1": {
+        "executable": "ALPINE.exe",
+        "arguments": "-DX12",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch DirectX12 (Unstable)"
+        },
+        "description": "Launch DirectX12 (Unstable)"
       }
     }
   },
