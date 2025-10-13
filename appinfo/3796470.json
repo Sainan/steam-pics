@@ -1,6 +1,5 @@
 {
   "appid": "3796470",
-  "public_only": "1",
   "common": {
     "name": "Digested Demo",
     "type": "Demo",
@@ -11,12 +10,13 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "controllertagwizard": "1",
     "small_capsule": {
-      "english": "2ddd9b43d16f426d65e9fa706838660bb2d680fa/capsule_231x87.jpg"
+      "english": "77cca3147248abed29fbc4a32eb740f8c76c2b09/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "e057c93a29a017e67fb12e2bd067bde552877067/header.jpg"
+      "english": "11de06d83a40ae3c5399c2f5dac75ba55493d3cb/header.jpg"
     },
     "library_assets": {
       "library_hero_blur": "en"
@@ -28,7 +28,8 @@
         }
       }
     },
-    "store_asset_mtime": "1749572432",
+    "store_screenshot": "cec69e9228f767177d1bd32000958a74f91ddc94/ss_cec69e9228f767177d1bd32000958a74f91ddc94.jpg",
+    "store_asset_mtime": "1758628446",
     "associations": {
       "0": {
         "type": "developer",
@@ -39,7 +40,12 @@
         "name": "Karl &amp; Karel"
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "25",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
     "category": {
       "category_2": "1",
       "category_68": "1",
@@ -47,5 +53,35 @@
     },
     "gameid": "3796470",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Karl &amp; Karel",
+    "publisher": "Karl &amp; Karel",
+    "homepage": "https://digestedgame.com/"
+  },
+  "config": {
+    "installdir": "Digested Demo",
+    "launch": {
+      "0": {
+        "executable": "Digested.exe"
+      }
+    }
+  },
+  "depots": {
+    "3796471": {
+      "manifests": {
+        "public": {
+          "gid": "3372617885969333952",
+          "size": "5225966350",
+          "download": "2495576544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372349",
+        "timeupdated": "1760372277"
+      }
+    }
   }
 }
