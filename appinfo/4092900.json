@@ -1,6 +1,5 @@
 {
   "appid": "4092900",
-  "public_only": "1",
   "common": {
     "name": "Snack Attack Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "1661e418881dc59dac47f7e393ded2df17f4d64d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -64,5 +63,34 @@
     },
     "gameid": "4092900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tyler Miller",
+    "publisher": "Tyler Miller"
+  },
+  "config": {
+    "installdir": "Snack Attack Demo",
+    "launch": {
+      "0": {
+        "executable": "Demo/Snack Attack.exe"
+      }
+    }
+  },
+  "depots": {
+    "4092901": {
+      "manifests": {
+        "public": {
+          "gid": "5267352858306670138",
+          "size": "957658496",
+          "download": "150800352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20278985",
+        "timeupdated": "1759799296"
+      }
+    }
   }
 }
