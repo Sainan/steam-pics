@@ -1,6 +1,5 @@
 {
   "appid": "4080990",
-  "public_only": "1",
   "common": {
     "name": "Deadly Delivery Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -109,8 +108,47 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760023265",
     "gameid": "4080990",
     "exfgls": "6",
-    "onlyvrsupport": "1"
+    "onlyvrsupport": "1",
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Flat Head Studio",
+    "publisher": "Flat Head Studio",
+    "homepage": "https://deadlydelivery.com"
+  },
+  "config": {
+    "installdir": "Deadly Delivery Demo",
+    "launch": {
+      "0": {
+        "executable": "Deadly Delivery.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4080991": {
+      "manifests": {
+        "public": {
+          "gid": "258528452579468502",
+          "size": "1145644057",
+          "download": "555605776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20339405",
+        "timeupdated": "1760109727"
+      }
+    }
   }
 }
