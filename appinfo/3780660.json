@@ -1,6 +1,5 @@
 {
   "appid": "3780660",
-  "public_only": "1",
   "common": {
     "name": "Plane Crazy Championship Edition",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "290e8fb7efab03fcd1aadb924882d6f5207e2527",
     "icon": "92b810461d6e5e0b3e7c93a6215b3e17afe3cdd9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -137,9 +136,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760321914",
     "community_hub_visible": "1",
     "gameid": "3780660",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "699",
@@ -159,6 +158,135 @@
       "15": "3859",
       "16": "4182",
       "17": "1773"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Inner Workings",
+    "publisher": "Funbox Media Ltd",
+    "gamemanualurl": "https://store.steampowered.com/manual/3780660/"
+  },
+  "config": {
+    "installdir": "Plane Crazy",
+    "launch": {
+      "0": {
+        "executable": "pcrazy.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "pcrazy.exe",
+        "arguments": "-s",
+        "type": "config",
+        "description_loc": {
+          "english": "Configurator"
+        },
+        "description": "Configurator"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3570271604": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3780661": {
+      "manifests": {
+        "public": {
+          "gid": "3897082006848377371",
+          "size": "206231171",
+          "download": "161894912"
+        }
+      }
+    },
+    "3780662": {
+      "config": {
+        "language": "french"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1292119037851766685",
+          "size": "9573572",
+          "download": "8783440"
+        }
+      }
+    },
+    "3780663": {
+      "config": {
+        "language": "german"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1312937981764576722",
+          "size": "9699301",
+          "download": "9169376"
+        }
+      }
+    },
+    "3780664": {
+      "config": {
+        "language": "italian"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4382937556901132438",
+          "size": "10752066",
+          "download": "10147328"
+        }
+      }
+    },
+    "3780665": {
+      "config": {
+        "language": "russian"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1739316707762774210",
+          "size": "12043424",
+          "download": "8632336"
+        }
+      }
+    },
+    "3780666": {
+      "config": {
+        "language": "spanish"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5788972870167086221",
+          "size": "10377590",
+          "download": "9827200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20046377",
+        "timeupdated": "1758279060"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "300000000",
+    "maxnumfiles": "150",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "data/DataMin/Ghosts/",
+        "pattern": "*.ghs",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "data/DataMin/Bovine/",
+        "pattern": "hiscore_g.dat",
+        "recursive": "1"
+      }
     }
   }
 }
