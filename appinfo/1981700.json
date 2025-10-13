@@ -3,9 +3,9 @@
   "common": {
     "name": "Jacob's Quest Anniversary Edition",
     "type": "Game",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "icon": "072c5cc077aab0b8959ad66249ffb85d53226ec5",
     "clienttga": "79e1868cce2f58967afbe068ce1aae8195cf3e20",
     "clienticon": "072c5cc077aab0b8959ad66249ffb85d53226ec5",
@@ -19,32 +19,56 @@
       }
     },
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "1",
-      "test_timestamp": "1746144000",
-      "tested_build_id": "18225808",
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759968000",
+      "tested_build_id": "20258580",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "configuration": {
         "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
-        "requires_non_controller_launcher_nav": "1",
+        "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "1",
         "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-stable",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -115,7 +139,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759765819",
+    "store_asset_mtime": "1760084145",
     "associations": {
       "0": {
         "type": "developer",
@@ -147,6 +171,12 @@
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
+      "category_22": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_79": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -202,6 +232,17 @@
         "config": {
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "JacobsQuest.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Jacob's Quest Mac"
+        },
+        "description": "Jacob's Quest Mac"
       }
     },
     "steamcontrollertouchtemplateindex": "8"
@@ -215,19 +256,36 @@
       "sharedinstall": "1"
     },
     "1981701": {
+      "config": {
+        "oslist": "windows,linux"
+      },
       "manifests": {
         "public": {
-          "gid": "8743717600415497938",
-          "size": "5957253992",
-          "download": "5712727344"
+          "gid": "1951344063716741773",
+          "size": "5965629586",
+          "download": "5721100512"
+        }
+      }
+    },
+    "1981702": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4442804774304135485",
+          "size": "5851433548",
+          "download": "5674489104"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20258580",
-        "timeupdated": "1759751538"
+        "buildid": "20349121",
+        "timeupdated": "1760177717"
       }
     }
   },
