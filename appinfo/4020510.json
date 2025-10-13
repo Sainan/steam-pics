@@ -1,6 +1,5 @@
 {
   "appid": "4020510",
-  "public_only": "1",
   "common": {
     "name": "YOU DO NOT EXIST Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "3a9331b8a1758790f72aee5f6efcb0060e1dc2e7",
     "clienticon": "3a9331b8a1758790f72aee5f6efcb0060e1dc2e7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ef3f576ba8277f410b8d1d07a8042292d3fceb0b/capsule_231x87.jpg"
@@ -93,7 +92,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4020510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Thirteenth Month",
+    "publisher": "Thirteenth Month",
+    "homepage": "https://www.thirteenthmonthstudio.com/you-do-not-exist"
+  },
+  "config": {
+    "installdir": "You Do Not Exist Demo",
+    "launch": {
+      "0": {
+        "executable": "You Do Not Exist Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4020511": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8385876850610979978",
+          "size": "251557759",
+          "download": "102187792"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20375391",
+        "timeupdated": "1760386639"
+      }
+    }
   }
 }
