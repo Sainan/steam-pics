@@ -1,6 +1,5 @@
 {
   "appid": "3996780",
-  "public_only": "1",
   "common": {
     "name": "决战万界山 Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "name_localized": {
       "english": "Havenhold Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,11 +109,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760320675",
     "gameid": "3996780",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "anti_cheat_support_url": "",
+    "developer": "Wolfpack Games",
+    "publisher": "Wolfpack Games",
+    "homepage": "https://www.playhavenhold.com"
+  },
+  "config": {
+    "installdir": "决战万界山 试玩版",
+    "launch": {
+      "0": {
+        "executable": "Havenhold.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3996781": {
+      "manifests": {
+        "public": {
+          "gid": "5722150591525107236",
+          "size": "41100650971",
+          "download": "34134198080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360293",
+        "timeupdated": "1760302275"
+      }
+    },
+    "privatebranches": "1"
   }
 }
