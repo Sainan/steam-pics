@@ -351,10 +351,28 @@
     "launch": {
       "0": {
         "executable": "NudeStarKawaii.exe",
-        "type": "default",
+        "type": "option1",
         "config": {
-          "oslist": "windows"
-        }
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX12 (Advanced GPU)"
+        },
+        "description": "DX12 (Advanced GPU)"
+      },
+      "1": {
+        "executable": "NudeStarKawaii.exe",
+        "arguments": "-DX11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX11 (Old GPU)"
+        },
+        "description": "DX11 (Old GPU)"
       }
     }
   },
@@ -376,16 +394,16 @@
     "3944271": {
       "manifests": {
         "public": {
-          "gid": "30389591164433935",
-          "size": "16022895182",
-          "download": "15580264928"
+          "gid": "3893583918970877603",
+          "size": "16038474647",
+          "download": "15595693008"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20250897",
-        "timeupdated": "1759569255"
+        "buildid": "20369150",
+        "timeupdated": "1760359738"
       }
     }
   }
