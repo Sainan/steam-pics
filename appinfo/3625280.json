@@ -1,6 +1,5 @@
 {
   "appid": "3625280",
-  "public_only": "1",
   "common": {
     "name": "Живая",
     "type": "Game",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -132,9 +131,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760120211",
     "community_hub_visible": "1",
     "gameid": "3625280",
-    "exfgls": "8",
     "store_tags": {
       "0": "6869",
       "1": "6971",
@@ -156,6 +155,44 @@
       "17": "4195",
       "18": "15172",
       "19": "1654"
+    }
+  },
+  "extended": {
+    "developer": "Sonia Borderguard",
+    "publisher": "Borderguard Game",
+    "homepage": "https://soks23.github.io/AliveSite/"
+  },
+  "config": {
+    "installdir": "Alive",
+    "launch": {
+      "0": {
+        "executable": "Alive1Ver4.6.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3625281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3764016980568660510",
+          "size": "2492193622",
+          "download": "687936304"
+        }
+      }
+    },
+    "baselanguages": "english,french,spanish,russian",
+    "branches": {
+      "public": {
+        "buildid": "20365261",
+        "timeupdated": "1760342610"
+      }
     }
   }
 }
