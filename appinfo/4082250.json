@@ -1,6 +1,5 @@
 {
   "appid": "4082250",
-  "public_only": "1",
   "common": {
     "name": "Don't Look! Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e5d3cd87d0d28a1825b1a1981c1200d7974b04c1/capsule_231x87.jpg"
     },
@@ -30,7 +29,56 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1760353290",
     "gameid": "4082250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "YKey Games",
+    "publisher": "YKey Games"
+  },
+  "config": {
+    "installdir": "DontLookDemo",
+    "launch": {
+      "0": {
+        "executable": "DontLook.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4082251": {
+      "manifests": {
+        "public": {
+          "gid": "3852891509404249182",
+          "size": "2031117272",
+          "download": "1881778752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358288",
+        "timeupdated": "1760283764"
+      }
+    }
   }
 }
