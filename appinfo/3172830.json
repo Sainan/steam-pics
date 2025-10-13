@@ -1,6 +1,5 @@
 {
   "appid": "3172830",
-  "public_only": "1",
   "common": {
     "name": "Jinchou",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "6864315fefbfc2f7827876f109510acfe8fc7d7d",
     "linuxclienticon": "6864315fefbfc2f7827876f109510acfe8fc7d7d",
     "clienticon": "f2b994a17b5179e74ecf18147e9609bda376a913",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -111,9 +110,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3172830",
-    "exfgls": "8",
     "store_tags": {
       "0": "7569",
       "1": "9",
@@ -128,6 +127,87 @@
       "10": "4182",
       "11": "1773",
       "12": "4791"
+    }
+  },
+  "extended": {
+    "developer": "Schreibhardt Games",
+    "publisher": "Schreibhardt Games"
+  },
+  "config": {
+    "installdir": "Jinchou",
+    "launch": {
+      "0": {
+        "executable": "Jinchou.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Jinchou.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3172831": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "517453000632002086",
+          "size": "811851044",
+          "download": "671507440"
+        }
+      }
+    },
+    "3172832": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "225255052141833680",
+          "size": "815507826",
+          "download": "671894608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20073784",
+        "timeupdated": "1758532864"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Jinchou/",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Jinchou/",
+            "replace": ".local/share/Jinchou/"
+          }
+        }
+      }
     }
   }
 }
