@@ -1,6 +1,5 @@
 {
   "appid": "4067880",
-  "public_only": "1",
   "common": {
     "name": "PaperTracesWhisper Demo",
     "type": "Demo",
@@ -16,7 +15,7 @@
     "icon": "8613e896bfb949e633311b36e98514ce678900ec",
     "clienticns": "2e6524f5cb85cb35e1136edf2bfbb108771f3524",
     "clienticon": "8613e896bfb949e633311b36e98514ce678900ec",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4407306a105dcde95973fa96b53320fb02dd3fe5/capsule_231x87.jpg",
       "schinese": "41af8b09574b0db01572ba0ced2fcb41fafe98ee/capsule_231x87_schinese.jpg"
@@ -156,5 +155,58 @@
     },
     "gameid": "4067880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Siesta Studio",
+    "publisher": "Siesta Studio"
+  },
+  "config": {
+    "installdir": "PaperTracesDemo",
+    "launch": {
+      "0": {
+        "executable": "PaperTracesDemo/PaperTracesDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PaperTracesDemo/PaperTracesDemo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4067881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6970823478203082842",
+          "size": "198036467",
+          "download": "124167024"
+        }
+      }
+    },
+    "4067882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "361314746761758981",
+          "size": "222178094",
+          "download": "133085216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20155937",
+        "timeupdated": "1758991025"
+      }
+    }
   }
 }
