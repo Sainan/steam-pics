@@ -7,9 +7,9 @@
     "icon": "7ab92e1c6c105c065cd57cb61aed3f6321bf94b3",
     "clienticon": "23feb38556cc27fc0c68d38a2e3d2405bf195d59",
     "clienttga": "1dad966c63e96f2b79d48564d10352d34470caca",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macosapplesilicon",
     "name_localized": {
       "schinese": "被勒索的主播 试玩版",
       "tchinese": "被勒索的主播 試玩版",
@@ -180,9 +180,25 @@
     "launch": {
       "0": {
         "executable": "Hacked.exe",
+        "type": "option1",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "hackedthestreamer.app",
+        "type": "option2",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Macos Silicone"
+        },
+        "description": "Macos Silicone"
       }
     }
   },
@@ -213,6 +229,7 @@
         }
       }
     },
+    "baselanguages": "english",
     "branches": {
       "public": {
         "buildid": "20367081",
