@@ -1,11 +1,10 @@
 {
   "appid": "2715110",
-  "public_only": "1",
   "common": {
     "name": "Dragon survival Demo",
     "type": "Demo",
     "parent": "2706660",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -115,5 +114,69 @@
     },
     "gameid": "2715110",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "depth",
+    "publisher": "depth"
+  },
+  "config": {
+    "installdir": "Dragon survival Demo",
+    "launch": {
+      "0": {
+        "executable": "DSV.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2715111": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "663260618180235437",
+          "size": "35268809533",
+          "download": "18760276032"
+        },
+        "local": {
+          "gid": "4934092855325833881",
+          "size": "40890670930",
+          "download": "21594373840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369775",
+        "timeupdated": "1760362028"
+      },
+      "local": {
+        "buildid": "19259416",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1752802574"
+      }
+    },
+    "privatebranches": "1"
   }
 }
