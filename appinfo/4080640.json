@@ -1,6 +1,5 @@
 {
   "appid": "4080640",
-  "public_only": "1",
   "common": {
     "name": "Carnival Hunt Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -75,11 +74,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760366368",
     "gameid": "4080640",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Beer Night Studio",
+    "publisher": "Crytivo"
+  },
+  "config": {
+    "installdir": "Carnival Hunt Demo",
+    "launch": {
+      "0": {
+        "executable": "CarnivalHuntClient.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4080641": {
+      "manifests": {
+        "public": {
+          "gid": "565697400898727014",
+          "size": "11252014307",
+          "download": "10781248944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370725",
+        "timeupdated": "1760366207"
+      }
     }
   }
 }
