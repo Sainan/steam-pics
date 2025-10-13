@@ -1,6 +1,5 @@
 {
   "appid": "4092000",
-  "public_only": "1",
   "common": {
     "name": "Paranormal Archives Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,6 +36,42 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "MidnightHops",
+    "publisher": "MidnightHops"
+  },
+  "config": {
+    "installdir": "Paranormal Archives Demo",
+    "launch": {
+      "0": {
+        "executable": "Paranormal Archives Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4092001": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7057946753864564340",
+          "size": "985262672",
+          "download": "540740384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369082",
+        "timeupdated": "1760359356"
+      }
     }
   }
 }
