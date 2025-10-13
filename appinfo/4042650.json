@@ -1,6 +1,5 @@
 {
   "appid": "4042650",
-  "public_only": "1",
   "common": {
     "name": "PROHIBEAST Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -134,7 +133,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4042650",
     "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "SUPER AC",
+    "publisher": "SUPER AC",
+    "homepage": "https://www.superacgames.com/produit/prohibeast/"
+  },
+  "config": {
+    "installdir": "PROHIBEAST Demo",
+    "launch": {
+      "0": {
+        "executable": "ProhiBeast.exe",
+        "arguments": "screen-fullscreen 0",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Prohibeast"
+        },
+        "description": "Launch Prohibeast"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4042651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9042679189925192667",
+          "size": "15544934442",
+          "download": "6647592224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372461",
+        "timeupdated": "1760372703"
+      }
+    }
   }
 }
