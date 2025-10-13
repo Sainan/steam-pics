@@ -1,6 +1,5 @@
 {
   "appid": "3886250",
-  "public_only": "1",
   "common": {
     "name": "FLAG-O-TRON Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "40d0b8bc5f811cd3f05254a4037cfc7901ce2463/capsule_231x87.jpg"
@@ -112,7 +111,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3886250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "RubyRooster",
+    "publisher": "RubyRooster"
+  },
+  "config": {
+    "installdir": "FLAG-O-TRON Demo",
+    "launch": {
+      "0": {
+        "executable": "FLAG-O-TRON.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3886251": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1555877466575364111",
+          "size": "722554416",
+          "download": "400173664"
+        },
+        "beta": {
+          "gid": "1555877466575364111",
+          "size": "722554416",
+          "download": "400173664"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20367685",
+        "timeupdated": "1760353860"
+      },
+      "beta": {
+        "buildid": "20367685",
+        "description": "Beta branch",
+        "timeupdated": "1760353169"
+      }
+    }
   }
 }
