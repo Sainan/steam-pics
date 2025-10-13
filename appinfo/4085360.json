@@ -1,6 +1,5 @@
 {
   "appid": "4085360",
-  "public_only": "1",
   "common": {
     "name": "Dangerous Mountain Together Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -156,7 +155,86 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760367324",
     "gameid": "4085360",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Çağatay Demir",
+    "publisher": "SlugShot Games"
+  },
+  "config": {
+    "installdir": "Dangerous Mountain Together Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "DangerousMountainTogether.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "DangerousMountainTogether.exe",
+        "arguments": "-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Dangerous Mountain Together DirectX 11"
+        },
+        "description": "Dangerous Mountain Together DirectX 11"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "9"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4085361": {
+      "manifests": {
+        "public": {
+          "gid": "2466148314953389213",
+          "size": "1441533197",
+          "download": "1261412528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370204",
+        "timeupdated": "1760363828"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "DangerousMountainTogether/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
