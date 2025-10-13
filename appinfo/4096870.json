@@ -1,6 +1,5 @@
 {
   "appid": "4096870",
-  "public_only": "1",
   "common": {
     "name": "The Faked Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "8035a8c522a10af6df990e24552abf4a9e5fa088/capsule_231x87.jpg"
@@ -40,7 +39,56 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760329887",
     "gameid": "4096870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mehmet Özkan",
+    "publisher": "Mehmet Özkan",
+    "homepage": "https://discord.gg/2mVmvs7T"
+  },
+  "config": {
+    "installdir": "TheFakedDemo",
+    "launch": {
+      "0": {
+        "executable": "TheFakedDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4096871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6854090779476544508",
+          "size": "619002186",
+          "download": "464902048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363438",
+        "timeupdated": "1760328915"
+      }
+    }
   }
 }
