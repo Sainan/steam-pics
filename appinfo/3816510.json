@@ -1,6 +1,5 @@
 {
   "appid": "3816510",
-  "public_only": "1",
   "common": {
     "name": "Cafe Crew Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "809803d387bdcb62081ac4877cc1500f39609872/capsule_231x87.jpg"
@@ -103,7 +102,66 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760363589",
     "gameid": "3816510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Woo Game Studio",
+    "publisher": "PlayWay S.A.",
+    "homepage": "https://woogamestudio.com/"
+  },
+  "config": {
+    "installdir": "Cafe Crew Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "CafeCrewDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3816511": {
+      "manifests": {
+        "public": {
+          "gid": "3265320993532436665",
+          "size": "3718173798",
+          "download": "3391452016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20364296",
+        "timeupdated": "1760336235"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "CafeCrewSim/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
