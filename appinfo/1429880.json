@@ -26,16 +26,16 @@
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1749254400",
-      "tested_build_id": "18341669",
+      "test_timestamp": "1759276800",
+      "tested_build_id": "20020180",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "2": {
           "display": "4",
@@ -44,10 +44,6 @@
         "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "4": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "steamos_tests": {
@@ -57,19 +53,19 @@
         },
         "1": {
           "display": "1",
-          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
       "configuration": {
         "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
-        "primary_player_is_controller_slot_0": "1",
+        "primary_player_is_controller_slot_0": "0",
         "non_deck_display_glyphs": "0",
         "small_text": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "native",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -295,9 +291,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "5672687462072250619",
-          "size": "1094318247",
-          "download": "763255744"
+          "gid": "8422149530685227860",
+          "size": "1097669540",
+          "download": "765450640"
         }
       }
     },
@@ -307,9 +303,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "963905521023086754",
-          "size": "1633860817",
-          "download": "832452976"
+          "gid": "6362537490908402338",
+          "size": "1633643598",
+          "download": "832644432"
         }
       }
     },
@@ -319,9 +315,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7008321150584605337",
-          "size": "1165736462",
-          "download": "771549312"
+          "gid": "8528159889255006054",
+          "size": "1166378268",
+          "download": "772062416"
         }
       }
     },
@@ -329,8 +325,8 @@
     "hasdepotsindlc": "1",
     "branches": {
       "public": {
-        "buildid": "20145721",
-        "timeupdated": "1758913180"
+        "buildid": "20307785",
+        "timeupdated": "1760358821"
       }
     },
     "privatebranches": "1"
