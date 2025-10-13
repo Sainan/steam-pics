@@ -10,6 +10,38 @@
     "clienttga": "27b2370bec1ff783ae60ef9d83bea005d9113ab5",
     "icon": "bcf1fb23a57f2a8f29108aed37df82a263b95e85",
     "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "koreana": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "russian": "1",
+      "thai": "1",
+      "japanese": "1",
+      "portuguese": "1",
+      "polish": "1",
+      "danish": "1",
+      "dutch": "1",
+      "finnish": "1",
+      "norwegian": "1",
+      "swedish": "1",
+      "hungarian": "1",
+      "czech": "1",
+      "romanian": "1",
+      "turkish": "1",
+      "arabic": "1",
+      "brazilian": "1",
+      "bulgarian": "1",
+      "greek": "1",
+      "ukrainian": "1",
+      "vietnamese": "1",
+      "latam": "1",
+      "indonesian": "1"
+    },
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -357,13 +389,13 @@
       "2": "19",
       "3": "21",
       "4": "492",
-      "5": "4747",
-      "6": "7208",
-      "7": "1697",
-      "8": "3834",
-      "9": "4182",
-      "10": "4191",
-      "11": "5611",
+      "5": "7208",
+      "6": "4747",
+      "7": "5611",
+      "8": "1697",
+      "9": "3834",
+      "10": "4182",
+      "11": "4191",
       "12": "44868",
       "13": "4136",
       "14": "4878",
@@ -381,10 +413,28 @@
     "launch": {
       "0": {
         "executable": "NakedLustAndBurningPassions.exe",
-        "type": "default",
+        "type": "option1",
         "config": {
-          "oslist": "windows"
-        }
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX12 (Advanced GPU)"
+        },
+        "description": "DX12 (Advanced GPU)"
+      },
+      "1": {
+        "executable": "NakedLustAndBurningPassions.exe",
+        "arguments": "-DX11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX11 (Old GPU)"
+        },
+        "description": "DX11 (Old GPU)"
       }
     }
   },
@@ -406,16 +456,16 @@
     "3856051": {
       "manifests": {
         "public": {
-          "gid": "5227272083056204960",
-          "size": "17032707771",
-          "download": "16577167104"
+          "gid": "9140137103455964343",
+          "size": "17032753175",
+          "download": "16576991456"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20285121",
-        "timeupdated": "1759835898"
+        "buildid": "20368929",
+        "timeupdated": "1760358994"
       }
     }
   }
