@@ -242,17 +242,22 @@
     "installdir": "BackroomsMedia",
     "launch": {
       "0": {
-        "executable": "BackroomsMedia.exe",
+        "executable": "BackroomsMediaLauncher.bat",
         "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
         "description_loc": {
           "english": "Backrooms Media (DirectX12)"
         },
         "description": "Backrooms Media (DirectX12)"
       },
       "1": {
-        "executable": "BackroomsMedia.exe",
-        "arguments": "-dx11",
+        "executable": "BackroomsMediaLauncherDX11.bat",
         "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
         "description_loc": {
           "english": "Backrooms Media (DirectX11)"
         },
@@ -269,32 +274,6 @@
           "english": "Backrooms Media - Level Builder"
         },
         "description": "Backrooms Media - Level Builder"
-      },
-      "3": {
-        "executable": "BackroomsMediaLauncher.bat",
-        "type": "config",
-        "config": {
-          "oslist": "windows",
-          "osarch": "64",
-          "betakey": "gold"
-        },
-        "description_loc": {
-          "english": " with Launcher"
-        },
-        "description": " with Launcher"
-      },
-      "4": {
-        "executable": "BackroomsMediaLauncherDX11.bat",
-        "type": "config",
-        "config": {
-          "oslist": "windows",
-          "osarch": "64",
-          "betakey": "gold"
-        },
-        "description_loc": {
-          "english": "with Launcher DirectX11"
-        },
-        "description": "with Launcher DirectX11"
       }
     },
     "steamcontrollertemplateindex": "6",
