@@ -1,6 +1,5 @@
 {
   "appid": "4035870",
-  "public_only": "1",
   "common": {
     "name": "Blind Descent Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "name_localized": {
       "schinese": "无光绝境"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -130,5 +129,59 @@
     },
     "gameid": "4035870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Pokuch",
+    "publisher": "META Publishing",
+    "homepage": "https://blinddescent.net"
+  },
+  "config": {
+    "installdir": "Blind Descent Demo",
+    "launch": {
+      "0": {
+        "executable": "BlindDescent.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4035871": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3788112427590108797",
+          "size": "36739313247",
+          "download": "35260458816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360118",
+        "timeupdated": "1760340850"
+      }
+    }
   }
 }
