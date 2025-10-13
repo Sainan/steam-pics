@@ -5,9 +5,9 @@
     "type": "Demo",
     "parent": "3552840",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "icon": "eca98adfe3602e405f4ab58a9ec385bc2b9031c1",
     "clienticon": "4d820eb362d9e89ceafd2a4e5e42da0ce8c75278",
     "clienttga": "532d7ce2df2b861483aa1f3a088ee8c8634ffd0d",
@@ -91,7 +91,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759479715",
+    "store_asset_mtime": "1759998967",
     "associations": {
       "0": {
         "type": "developer",
@@ -127,9 +127,6 @@
       "english": {
         "supported": "true"
       },
-      "arabic": {
-        "supported": "true"
-      },
       "japanese": {
         "supported": "true"
       },
@@ -143,6 +140,36 @@
         "supported": "true"
       },
       "tchinese": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "turkish": {
         "supported": "true"
       }
     },
@@ -158,24 +185,54 @@
     "installdir": "Deepstone Rift Demo",
     "launch": {
       "0": {
-        "executable": "Deepstone Rift.exe"
+        "executable": "Deepstone Rift.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "content_macOS.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Deepstone Rift.exe",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
   "depots": {
     "3675381": {
+      "config": {
+        "oslist": "windows,linux"
+      },
       "manifests": {
         "public": {
-          "gid": "8499207223324014271",
-          "size": "1846674598",
-          "download": "421981520"
+          "gid": "4191896188676359656",
+          "size": "1973273379",
+          "download": "432206416"
+        }
+      }
+    },
+    "3675382": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4443564122747540656",
+          "size": "1999119069",
+          "download": "460546464"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20258129",
-        "timeupdated": "1759649247"
+        "buildid": "20338884",
+        "timeupdated": "1760107170"
       }
     },
     "privatebranches": "1"
