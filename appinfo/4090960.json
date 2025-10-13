@@ -1,6 +1,5 @@
 {
   "appid": "4090960",
-  "public_only": "1",
   "common": {
     "name": "Fire Entrance Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3e042643ed5c4d065f9e4d79440f4589fb94615e/capsule_231x87.jpg"
@@ -105,7 +104,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4090960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TreekSamrix",
+    "publisher": "TreekSamrix"
+  },
+  "config": {
+    "installdir": "Fire Entrance Demo",
+    "launch": {
+      "0": {
+        "executable": "FireEntranceDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4090961": {
+      "manifests": {
+        "public": {
+          "gid": "6185470338962826402",
+          "size": "2948523284",
+          "download": "2683651696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372764",
+        "timeupdated": "1760373806"
+      }
+    }
   }
 }
