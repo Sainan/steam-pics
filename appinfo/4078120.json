@@ -1,6 +1,5 @@
 {
   "appid": "4078120",
-  "public_only": "1",
   "common": {
     "name": "À La Mine Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "08e9ef27b5ec18f8710083343a114df5b0a6c6c5",
     "icon": "08e9ef27b5ec18f8710083343a114df5b0a6c6c5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "fc660f10c317a2ec48c8bf7a10c550abda26a6d9/capsule_231x87.jpg"
@@ -105,5 +104,53 @@
     },
     "gameid": "4078120",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Studio Dés Kréatifs",
+    "publisher": "Studio Dés Kréatifs"
+  },
+  "config": {
+    "installdir": "À La Mine Demo",
+    "launch": {
+      "0": {
+        "executable": "ALM.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4078121": {
+      "manifests": {
+        "public": {
+          "gid": "5180893179037537039",
+          "size": "6285781223",
+          "download": "1531271536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372219",
+        "timeupdated": "1760371781"
+      }
+    }
   }
 }
