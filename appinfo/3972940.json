@@ -1,11 +1,10 @@
 {
   "appid": "3972940",
-  "public_only": "1",
   "common": {
     "name": "Beauty Store Simulator Demo",
     "type": "Demo",
     "parent": "3969150",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -100,7 +99,64 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3972940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NovaraGames",
+    "publisher": "NovaraGames"
+  },
+  "config": {
+    "installdir": "Beauty Store Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "BeautyStoreSimulator Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BeautyStoreSimulator Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3972941": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8972910657738039371",
+          "size": "1484686741",
+          "download": "1288734208"
+        }
+      }
+    },
+    "3972942": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4233041336969845490",
+          "size": "1541729555",
+          "download": "1273280512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370037",
+        "timeupdated": "1760363154"
+      }
+    }
   }
 }
