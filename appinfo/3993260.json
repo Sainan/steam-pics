@@ -197,6 +197,22 @@
         "recursive": "1"
       },
       "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "Wall Spaghetti\\Yes, My Queen"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "com.wallspaghetti.ymq/Yes, My Queen"
+      }
     }
   }
 }
