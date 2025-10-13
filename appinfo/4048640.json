@@ -1,6 +1,5 @@
 {
   "appid": "4048640",
-  "public_only": "1",
   "common": {
     "name": "Earth of Oryn Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a9dce33e04050fd4fed4f2fc485f1d72b1be945f/capsule_231x87.jpg"
@@ -107,5 +106,57 @@
     },
     "gameid": "4048640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Earth of Oryn",
+    "publisher": "Stray Fawn Publishing",
+    "homepage": "https://www.earthoforyn.com/"
+  },
+  "config": {
+    "installdir": "Earth of Oryn Demo",
+    "launch": {
+      "0": {
+        "executable": "Earth of Oryn - Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Earth of Oryn - Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4048642": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3015975968781954062",
+          "size": "2768755807",
+          "download": "1401802592"
+        }
+      }
+    },
+    "4048643": {
+      "manifests": {
+        "public": {
+          "gid": "3111870236607674531",
+          "size": "2795778193",
+          "download": "1414376704"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20369370",
+        "timeupdated": "1760360798"
+      }
+    }
   }
 }
