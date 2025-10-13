@@ -1,6 +1,5 @@
 {
   "appid": "4095880",
-  "public_only": "1",
   "common": {
     "name": "Rogue Pirates Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d3f255c0e973d560f6a052da5fb3131cc26c09c7/capsule_231x87.jpg"
     },
@@ -34,5 +33,58 @@
     },
     "gameid": "4095880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Big Play Games",
+    "publisher": "Big Play Games"
+  },
+  "config": {
+    "installdir": "Rogue Pirates Demo",
+    "launch": {
+      "0": {
+        "executable": "RoguePirates.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RoguePirates.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4095881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8244533591747590956",
+          "size": "425077142",
+          "download": "135584208"
+        }
+      }
+    },
+    "4095882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "737422488199935153",
+          "size": "440014036",
+          "download": "143734432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20293661",
+        "timeupdated": "1759875131"
+      }
+    }
   }
 }
