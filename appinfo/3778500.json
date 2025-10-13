@@ -1,6 +1,5 @@
 {
   "appid": "3778500",
-  "public_only": "1",
   "common": {
     "name": "Desktop Defender Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9e5898fa33688213ee7eb9438d0cbf8056e15119/capsule_231x87.jpg"
@@ -97,7 +96,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3778500",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Conradical Games",
+    "publisher": "Conradical Games"
+  },
+  "config": {
+    "installdir": "Desktop Defender Demo",
+    "launch": {
+      "0": {
+        "executable": "Desktop Defender.exe"
+      }
+    }
+  },
+  "depots": {
+    "3778501": {
+      "manifests": {
+        "public": {
+          "gid": "1647851355817413197",
+          "size": "175430941",
+          "download": "110688032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20324593",
+        "timeupdated": "1760031029"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "20",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Conradical Games/Desktop Defender",
+        "pattern": "*.es3"
+      }
+    }
   }
 }
