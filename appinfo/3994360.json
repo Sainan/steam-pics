@@ -1,6 +1,5 @@
 {
   "appid": "3994360",
-  "public_only": "1",
   "common": {
     "name": "Knights of Messiah IF: Castle in an Alternate Dimension Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "f41773905b36379ebcccf9dda2d045d2b6baf836",
     "clienticon": "f41773905b36379ebcccf9dda2d045d2b6baf836",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -148,6 +147,108 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Gyu",
+    "publisher": "Tensei Games"
+  },
+  "config": {
+    "installdir": "Knights of Messiah IF Castle in an Alternate Dimension Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3994361": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "302230085847997486",
+          "size": "324539163",
+          "download": "153846208"
+        }
+      }
+    },
+    "3994362": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8006786320284641944",
+          "size": "317244295",
+          "download": "146342992"
+        }
+      }
+    },
+    "3994363": {
+      "config": {
+        "language": "french",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4975955094317403914",
+          "size": "324539165",
+          "download": "153846208"
+        }
+      }
+    },
+    "3994364": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "148352153420186630",
+          "size": "324539173",
+          "download": "153846208"
+        }
+      }
+    },
+    "3994365": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5639218596032951368",
+          "size": "324539174",
+          "download": "153846208"
+        }
+      }
+    },
+    "baselanguages": "english,french,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20364520",
+        "timeupdated": "1760337813"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "200000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rmmzsave"
+      }
     }
   }
 }
