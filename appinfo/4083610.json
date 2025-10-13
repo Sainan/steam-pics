@@ -1,4 +1,99 @@
 {
   "appid": "4083610",
-  "public_only": "1"
+  "common": {
+    "name": "Ashen Vow Demo",
+    "type": "Demo",
+    "parent": "3885030",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "d0b9e9d35f78cd6cad94a65a6460521d14e2b186",
+    "clienticon": "d0b9e9d35f78cd6cad94a65a6460521d14e2b186",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "small_capsule": {
+      "english": "1b1c63941c111075525c0cfca46a813468f956e4/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "625c1897e808bb8c554ede97ee01e09ddcc39b73/header.jpg"
+    },
+    "store_asset_mtime": "1759550413",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "KamenDev"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "KamenDev"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "gameid": "4083610",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "KamenDev",
+    "publisher": "KamenDev"
+  },
+  "config": {
+    "installdir": "AshenVowDemo",
+    "launch": {
+      "0": {
+        "executable": "TheAshenVow.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4083611": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4579747941174888409",
+          "size": "886496844",
+          "download": "734377872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20362395",
+        "timeupdated": "1760320798"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
+  }
 }
