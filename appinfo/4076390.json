@@ -1,6 +1,5 @@
 {
   "appid": "4076390",
-  "public_only": "1",
   "common": {
     "name": "Steel Defence Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -96,7 +95,63 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4076390",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Storytime Entertainments",
+    "publisher": "Storytime Entertainments"
+  },
+  "config": {
+    "installdir": "Steel Defence Demo",
+    "launch": {
+      "0": {
+        "executable": "Steel Defence.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Demo"
+        },
+        "description": "Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4076391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5563942845784157642",
+          "size": "1472581473",
+          "download": "1323608752"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20364584",
+        "timeupdated": "1760338330"
+      }
+    }
   }
 }
