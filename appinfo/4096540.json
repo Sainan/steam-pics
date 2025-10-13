@@ -1,6 +1,5 @@
 {
   "appid": "4096540",
-  "public_only": "1",
   "common": {
     "name": "Habitat Toxica Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "afa07e823d7872b1a2cc31f60d5a5c4534e80165/capsule_231x87.jpg"
     },
@@ -42,5 +41,66 @@
     },
     "gameid": "4096540",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "İ.B",
+    "publisher": "İ.B"
+  },
+  "config": {
+    "installdir": "Habitat Toxica Demo",
+    "launch": {
+      "0": {
+        "executable": "HabitatToxicaV001.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4096541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1959834886859034617",
+          "size": "342096711",
+          "download": "241583984"
+        },
+        "demo": {
+          "gid": "1959834886859034617",
+          "size": "342096711",
+          "download": "241583984"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20363248",
+        "timeupdated": "1760327486"
+      },
+      "demo": {
+        "buildid": "20363248",
+        "description": "Demo",
+        "timeupdated": "1760327493"
+      }
+    }
   }
 }
