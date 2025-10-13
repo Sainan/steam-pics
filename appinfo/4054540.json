@@ -1,4 +1,170 @@
 {
   "appid": "4054540",
-  "public_only": "1"
+  "common": {
+    "name": "Star Trek: Voyager - Across the Unknown Demo",
+    "type": "Demo",
+    "parent": "2643390",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "a94854a0e11b0befa5cd5dcc4ef235dcfe9af23f",
+    "clienticon": "a94854a0e11b0befa5cd5dcc4ef235dcfe9af23f",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "dc90359fb8778c12f1380af0bf9f37b503c15577/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "38382ea5a4217dc551a69d79004602d84a3a6c44/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "64.49145530068968",
+        "height_pct": "74.92282118261696"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "e0a0f8dbad9723f1d1ae0013e0e3a6660114bef9/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "e0a0f8dbad9723f1d1ae0013e0e3a6660114bef9/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "c56b1554da938fa7dfb78a5f8dd346102b1f392f/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "c56b1554da938fa7dfb78a5f8dd346102b1f392f/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "c56b1554da938fa7dfb78a5f8dd346102b1f392f/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "5ebfa195cb573abc50aaa80b5ee396f7ddb46e7b/logo.png"
+        },
+        "image2x": {
+          "english": "5ebfa195cb573abc50aaa80b5ee396f7ddb46e7b/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "64.49145530068968",
+          "height_pct": "74.92282118261696"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "52a2e68eeb5c53a6c925e7e72caddcf0bc3c987b/library_header.jpg"
+        },
+        "image2x": {
+          "english": "52a2e68eeb5c53a6c925e7e72caddcf0bc3c987b/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1760359361",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Gamexcite"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Daedalic Entertainment"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "23",
+      "1": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "4054540",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gamexcite",
+    "publisher": "Daedalic Entertainment"
+  },
+  "config": {
+    "installdir": "Star Trek Voyager - Across the Unknown Demo",
+    "launch": {
+      "0": {
+        "executable": "STVoyager.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4054541": {
+      "manifests": {
+        "public": {
+          "gid": "6908445437575599337",
+          "size": "7331732279",
+          "download": "6951137408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20367720",
+        "timeupdated": "1760360030"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "300000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "STVoyager/Saved/SaveGames/{64BitSteamID}/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
 }
