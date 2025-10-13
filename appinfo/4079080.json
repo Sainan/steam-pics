@@ -1,13 +1,12 @@
 {
   "appid": "4079080",
-  "public_only": "1",
   "common": {
     "name": "Ghost Hunter Simulator Demo",
     "type": "Demo",
     "parent": "3256780",
     "clienticon": "f7e571f910c8adb0712c0645d144f82a9af1866d",
     "icon": "466ddabced17daa769c1ce4c3c6ea0fc72106201",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -92,17 +91,68 @@
     },
     "category": {
       "category_2": "1",
-      "category_13": "1",
       "category_28": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true",
-        "full_audio": "true",
-        "subtitles": "true"
+        "full_audio": "true"
       }
     },
+    "steam_release_date": "1760364207",
     "gameid": "4079080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Prime8 Entertainment",
+    "publisher": "Prime8 Entertainment",
+    "homepage": "https://ghosthuntersimulator.com/"
+  },
+  "config": {
+    "installdir": "GhostHunterSimulator-DEMO",
+    "launch": {
+      "0": {
+        "executable": "GhostHunter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch the DEMO for Ghost Hunter Simulator"
+        },
+        "description": "Launch the DEMO for Ghost Hunter Simulator"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4079081": {
+      "manifests": {
+        "public": {
+          "gid": "8484834315747271943",
+          "size": "28209624963",
+          "download": "27611597632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369524",
+        "timeupdated": "1760361098"
+      }
+    }
   }
 }
