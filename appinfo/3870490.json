@@ -1,6 +1,5 @@
 {
   "appid": "3870490",
-  "public_only": "1",
   "common": {
     "name": "Simon the Sorcerer Origins Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "clienticon": "612a69b2cf4631761223d1bc6e7d65149733d139",
     "clienticns": "fb82c9aff5fb960d6d23805d3655cf0d3cf776fa",
     "linuxclienticon": "57fdf963db97e9eb5b846e7f2a9f6fc00aeb94ed",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -68,7 +67,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759833944",
+    "store_asset_mtime": "1759861911",
     "associations": {
       "0": {
         "type": "developer",
@@ -149,7 +148,86 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760367980",
     "gameid": "3870490",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Smallthing Studios",
+    "publisher": "ININ"
+  },
+  "config": {
+    "installdir": "Simon the Sorcerer Origins Demo",
+    "launch": {
+      "0": {
+        "executable": "SimonTheSorcererOrigins.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Simon the Sorcerer Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Simon the Sorcerer Origins Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3870491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4627636346030222348",
+          "size": "1409696601",
+          "download": "1275845328"
+        }
+      }
+    },
+    "3870492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7804653223359621467",
+          "size": "1308178238",
+          "download": "1167424624"
+        }
+      }
+    },
+    "3870493": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7432182842580813115",
+          "size": "1282954907",
+          "download": "1156595856"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "19942456",
+        "timeupdated": "1757597359"
+      }
+    }
   }
 }
