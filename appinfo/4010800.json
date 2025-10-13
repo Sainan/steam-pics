@@ -1,4 +1,46 @@
 {
   "appid": "4010800",
-  "public_only": "1"
+  "common": {
+    "name": "Docked Demo",
+    "type": "Demo",
+    "parent": "2487300",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "e69fd6f959a33c8e4e24d8ad8abb4a6194f06942",
+    "icon": "e69fd6f959a33c8e4e24d8ad8abb4a6194f06942",
+    "releasestate": "released",
+    "gameid": "4010800",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Docked Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4010801": {
+      "manifests": {
+        "public": {
+          "gid": "7751768233217385182",
+          "size": "20533387518",
+          "download": "11488099712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20329263",
+        "timeupdated": "1760348655"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
