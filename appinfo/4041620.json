@@ -1,6 +1,5 @@
 {
   "appid": "4041620",
-  "public_only": "1",
   "common": {
     "name": "Cosmic Rift",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "1b01ace6b1a9388b55a66e721fe576baf543799c",
     "icon": "8c713bcc4ff617a424bae465be894f589e44119e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c1728ead52f046398e7a1a6ec8e595abc94c2343/capsule_231x87.jpg"
@@ -106,9 +105,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760336358",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4041620",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "599",
@@ -126,6 +126,55 @@
       "13": "3993",
       "14": "4747",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Lithium Games",
+    "publisher": "Lithium Games"
+  },
+  "config": {
+    "installdir": "Cosmic Rift",
+    "launch": {
+      "0": {
+        "executable": "CosmicRift.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4041621": {
+      "manifests": {
+        "public": {
+          "gid": "4335123102162208269",
+          "size": "111687380",
+          "download": "43471104"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20296726",
+        "timeupdated": "1759894424"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "CosmicRift",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
