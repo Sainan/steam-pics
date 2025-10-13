@@ -1,6 +1,5 @@
 {
   "appid": "3969590",
-  "public_only": "1",
   "common": {
     "name": "Systemic War Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -113,10 +112,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760372361",
     "gameid": "3969590",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Play of Battle SA",
+    "publisher": "Play of Battle SA",
+    "homepage": "https://www.playofbattle.com/"
+  },
+  "config": {
+    "installdir": "Systemic War Demo",
+    "launch": {
+      "0": {
+        "executable": "POB.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3969591": {
+      "manifests": {
+        "public": {
+          "gid": "2068050292452049075",
+          "size": "13931830818",
+          "download": "7680518304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372267",
+        "timeupdated": "1760372236"
+      }
+    },
+    "privatebranches": "1"
   }
 }
