@@ -1,6 +1,5 @@
 {
   "appid": "4035460",
-  "public_only": "1",
   "common": {
     "name": "Field of Screams",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "164c31c30ca0ae02d11eb2066a28abce10299653",
     "icon": "164c31c30ca0ae02d11eb2066a28abce10299653",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -107,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4035460",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -122,6 +120,56 @@
       "7": "19",
       "8": "7250",
       "9": "1663"
+    }
+  },
+  "extended": {
+    "developer": "Ascend Gaming",
+    "publisher": "Ascend Gaming"
+  },
+  "config": {
+    "installdir": "Field Of Screams",
+    "launch": {
+      "0": {
+        "executable": "FieldofScreams.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4035461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6650409712992053947",
+          "size": "3396914861",
+          "download": "3211032272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20103177",
+        "timeupdated": "1758686558"
+      }
     }
   }
 }
