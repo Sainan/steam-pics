@@ -1,6 +1,5 @@
 {
   "appid": "3964480",
-  "public_only": "1",
   "common": {
     "name": "Sunny Shores Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "12bd2a9bc52bdd2e02a688a9c20bf8e83c61b50d/capsule_231x87.jpg"
@@ -104,7 +103,73 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760386443",
     "gameid": "3964480",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "mungbungo",
+    "publisher": "mungbungo"
+  },
+  "config": {
+    "installdir": "Sunny Shores Demo",
+    "launch": {
+      "0": {
+        "executable": "sunny_shores.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "sunny_shores",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3964481": {
+      "manifests": {
+        "public": {
+          "gid": "1874362607227883489",
+          "size": "10706962",
+          "download": "7943952"
+        }
+      }
+    },
+    "3964482": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9023975384109817032",
+          "size": "118160992",
+          "download": "34141952"
+        }
+      }
+    },
+    "3964483": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "604847669252687254",
+          "size": "105799464",
+          "download": "28841184"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20357346",
+        "timeupdated": "1760273550"
+      }
+    }
   }
 }
