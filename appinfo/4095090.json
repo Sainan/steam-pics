@@ -1,6 +1,5 @@
 {
   "appid": "4095090",
-  "public_only": "1",
   "common": {
     "name": "Cluck To The Top! Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -97,7 +96,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760327918",
     "gameid": "4095090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Forged By Ox",
+    "publisher": "Leapforge Entertainment",
+    "homepage": "https://www.forgedbyox.com"
+  },
+  "config": {
+    "installdir": "Cluck To The Top! Demo",
+    "launch": {
+      "0": {
+        "executable": "Cluck to the Top!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CTTT_v04_DEMO_Linux.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4095091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5181389105235369966",
+          "size": "3465716035",
+          "download": "2234067504"
+        }
+      }
+    },
+    "4095092": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7581766211807712454",
+          "size": "3482640250",
+          "download": "2242825504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363277",
+        "timeupdated": "1760327666"
+      }
+    }
   }
 }
