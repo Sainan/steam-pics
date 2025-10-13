@@ -1,11 +1,10 @@
 {
   "appid": "3988740",
-  "public_only": "1",
   "common": {
     "name": "Silent Fangs: Stealthy Vampire's Tale Demo",
     "type": "Demo",
     "parent": "3668110",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "0e97ffd1203873e793ea5bed562ae3278a43a495",
     "clienticon": "0e97ffd1203873e793ea5bed562ae3278a43a495",
     "oslist": "windows",
@@ -58,11 +57,6 @@
         "full_audio": "true",
         "subtitles": "true"
       },
-      "latam": {
-        "supported": "true",
-        "full_audio": "true",
-        "subtitles": "true"
-      },
       "tchinese": {
         "supported": "true",
         "full_audio": "true",
@@ -72,13 +66,51 @@
         "supported": "true",
         "full_audio": "true",
         "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760315642",
     "gameid": "3988740",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Vesvese Studios",
+    "publisher": "Vesvese Studios"
+  },
+  "config": {
+    "installdir": "SilentFangs",
+    "launch": {
+      "0": {
+        "executable": "SilentFangs.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3988741": {
+      "manifests": {
+        "public": {
+          "gid": "8128415151676160671",
+          "size": "1118039143",
+          "download": "384693168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361668",
+        "timeupdated": "1760313485"
+      }
     }
   }
 }
