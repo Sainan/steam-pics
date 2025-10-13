@@ -1,6 +1,5 @@
 {
   "appid": "3898790",
-  "public_only": "1",
   "common": {
     "name": "Tentacle Wars",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -128,9 +127,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3898790",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -158,6 +158,59 @@
       "17": "4085",
       "18": "4562",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SlaveOS",
+    "publisher": "SlaveOS"
+  },
+  "config": {
+    "installdir": "Tentacle Wars",
+    "launch": {
+      "0": {
+        "executable": "Tentacle Wars\\Tentacle Wars.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3898791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1462585477058761105",
+          "size": "1188085369",
+          "download": "409571472"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20366752",
+        "timeupdated": "1760349071"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "51200000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SlaveOS/Tentacle Wars",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
