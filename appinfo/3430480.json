@@ -1,10 +1,9 @@
 {
   "appid": "3430480",
-  "public_only": "1",
   "common": {
     "name": "Gaunts Gambit | Multiplayer FPS",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "f256db3f7203b50ed41cc2c9c00c8e4b827fd437",
     "clienticon": "3e24258c18f14de90b6a91817ddfd5f8cbabc2fc",
     "icon": "c3a2329b1d4ddb5be15b15b9a954d7f93b6e21e5",
@@ -145,6 +144,61 @@
       "17": "3839",
       "18": "13906",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "Filip Siennicki",
+    "publisher": "NOVA INTERACTIVE",
+    "homepage": "https://sites.google.com/view/nova-games-interactive",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Gaunts Gambit  Multiplayer FPS",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "\\dist\\NOVALAUNCHER\\NOVALAUNCHER.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3430481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1512155578985235029",
+          "size": "3113762708",
+          "download": "2795692224"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20360011",
+        "timeupdated": "1760299398"
+      }
     }
   }
 }
