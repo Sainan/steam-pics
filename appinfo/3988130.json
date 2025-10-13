@@ -1,6 +1,5 @@
 {
   "appid": "3988130",
-  "public_only": "1",
   "common": {
     "name": "Witch Potions - Craft of Lust Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "42e016b0d002896c5f4cde395cc55f9e0e05e569",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -114,6 +113,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760352098",
     "gameid": "3988130",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -122,5 +122,46 @@
       "2": "4",
       "3": "5"
     }
+  },
+  "extended": {
+    "developer": "LovePotion",
+    "publisher": "LovePotion"
+  },
+  "config": {
+    "installdir": "Witch Potions - Craft of Lust Demo",
+    "launch": {
+      "0": {
+        "executable": "Witch potion - craft of lust.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3693181": {
+      "dlcappid": "3693180"
+    },
+    "3988131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4327785569105672396",
+          "size": "3440485415",
+          "download": "292559152"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20366968",
+        "timeupdated": "1760350618"
+      }
+    },
+    "privatebranches": "1"
   }
 }
