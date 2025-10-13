@@ -1,6 +1,5 @@
 {
   "appid": "4063990",
-  "public_only": "1",
   "common": {
     "name": "Cyberpunk Store Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,7 +102,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760372238",
     "gameid": "4063990",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ICON GAME STUDIO",
+    "publisher": "ICON GAME STUDIO",
+    "homepage": "https://www.icongamestudio.com"
+  },
+  "config": {
+    "installdir": "Cyberpunk Store Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "Cyberpunk Store Simulator.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4063991": {
+      "manifests": {
+        "public": {
+          "gid": "4135187347562176953",
+          "size": "4461241995",
+          "download": "4224491712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370260",
+        "timeupdated": "1760364050"
+      }
+    }
   }
 }
