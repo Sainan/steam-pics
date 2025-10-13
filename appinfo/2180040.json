@@ -1,6 +1,5 @@
 {
   "appid": "2180040",
-  "public_only": "1",
   "common": {
     "name": "Legacy's Allure",
     "type": "Game",
@@ -10,7 +9,8 @@
     "clienticon": "b63fd5aed3dbbafde034f41f07f84da6a654279b",
     "clienttga": "d859f0b62728fae5f9d6bd85612bdb2e940a369b",
     "icon": "5eac452b5858d2ab2747b8815d69253777fa91ed",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -21,6 +21,7 @@
       "library_capsule": "en",
       "library_hero": "en",
       "library_logo": "en",
+      "library_header": "en",
       "logo_position": {
         "pinned_position": "CenterCenter",
         "width_pct": "66.62777129521587",
@@ -56,9 +57,17 @@
           "width_pct": "66.62777129521587",
           "height_pct": "52.12538589408692"
         }
+      },
+      "library_header": {
+        "image": {
+          "english": "91ae359b695c293ac5f7ac5a57a76e5421af365f/library_header.jpg"
+        },
+        "image2x": {
+          "english": "91ae359b695c293ac5f7ac5a57a76e5421af365f/library_header_2x.jpg"
+        }
       }
     },
-    "store_asset_mtime": "1710886496",
+    "store_asset_mtime": "1754107613",
     "associations": {
       "0": {
         "type": "developer",
@@ -71,7 +80,8 @@
     },
     "primary_genre": "2",
     "genres": {
-      "0": "2"
+      "0": "2",
+      "1": "70"
     },
     "category": {
       "category_2": "1",
@@ -80,7 +90,8 @@
       "category_36": "1",
       "category_37": "1",
       "category_24": "1",
-      "category_44": "1"
+      "category_44": "1",
+      "category_25": "1"
     },
     "supported_languages": {
       "english": {
@@ -88,6 +99,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760317480",
     "community_hub_visible": "1",
     "gameid": "2180040",
     "exfgls": "3",
@@ -113,5 +125,51 @@
       "18": "4325",
       "19": "14139"
     }
+  },
+  "extended": {
+    "developer": "Plutonian Shore Games LLC",
+    "publisher": "Plutonian Shore Games LLC",
+    "homepage": "https://www.legacysallure.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Legacy's Allure",
+    "launch": {
+      "0": {
+        "executable": "LegacysAllure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2180041": {
+      "manifests": {
+        "public": {
+          "gid": "385301362610122549",
+          "size": "204390739",
+          "download": "192595328"
+        },
+        "legacy": {
+          "gid": "4778338583759891614",
+          "size": "204390611",
+          "download": "192595824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20335667",
+        "timeupdated": "1760317263"
+      },
+      "legacy": {
+        "buildid": "20335674",
+        "description": "All cards unlocked",
+        "timeupdated": "1760317272"
+      }
+    },
+    "privatebranches": "1"
   }
 }
