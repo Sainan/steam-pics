@@ -1,6 +1,5 @@
 {
   "appid": "4054970",
-  "public_only": "1",
   "common": {
     "name": "Shelf Life Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "db628e18c1ae5821c8ee5d31a0566ab52db9326d/capsule_231x87.jpg"
     },
@@ -86,15 +85,54 @@
     },
     "primary_genre": "0",
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_68": "1",
+      "category_69": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true",
-        "subtitles": "true"
+        "full_audio": "true"
       }
     },
+    "steam_release_date": "1760128114",
     "gameid": "4054970",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NeonGhost Studio",
+    "publisher": "NeonGhost Studio"
+  },
+  "config": {
+    "installdir": "ShelfLife_Demo01",
+    "launch": {
+      "0": {
+        "executable": "Horror_01.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4919026545411355301",
+          "size": "6054022753",
+          "download": "1975698736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363963",
+        "timeupdated": "1760333911"
+      }
+    }
   }
 }
