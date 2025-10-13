@@ -1,6 +1,5 @@
 {
   "appid": "3953800",
-  "public_only": "1",
   "common": {
     "name": "Disciples: Domination - Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,11 +111,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374783",
     "gameid": "3953800",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Artefacts Studio",
+    "publisher": "Kalypso Media",
+    "homepage": "https://www.kalypsomedia.com/disciples-domination"
+  },
+  "config": {
+    "installdir": "Disciples Domination Demo",
+    "launch": {
+      "0": {
+        "executable": "LauncherDisciplesDomination.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3953801": {
+      "manifests": {
+        "public": {
+          "gid": "8052956694548195063",
+          "size": "16232801806",
+          "download": "12632478560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20334273",
+        "timeupdated": "1760343703"
+      }
+    },
+    "privatebranches": "1"
   }
 }
