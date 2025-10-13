@@ -1,6 +1,5 @@
 {
   "appid": "4099330",
-  "public_only": "1",
   "common": {
     "name": "Labyrinth Survivor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "90492610b18bffcc8cc1f251e887da525fbe0789/capsule_231x87.jpg"
@@ -35,5 +34,48 @@
     },
     "gameid": "4099330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "FYLTHY Casuals",
+    "publisher": "FYLTHY Casuals"
+  },
+  "config": {
+    "installdir": "Labyrinth Survivor Demo",
+    "launch": {
+      "0": {
+        "executable": "rubidium_rooms.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4099331": {
+      "manifests": {
+        "public": {
+          "gid": "8329283318770348547",
+          "size": "1938672083",
+          "download": "1802398112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20318054",
+        "timeupdated": "1760003954"
+      }
+    }
   }
 }
