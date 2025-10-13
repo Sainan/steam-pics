@@ -1,6 +1,5 @@
 {
   "appid": "4070530",
-  "public_only": "1",
   "common": {
     "name": "Abyss Lord Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -54,12 +53,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760371027",
     "gameid": "4070530",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Flex Turtle",
+    "publisher": "Flex Turtle"
+  },
+  "config": {
+    "installdir": "Abyss Lord Demo",
+    "launch": {
+      "0": {
+        "executable": "AbyssLord.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4070531": {
+      "manifests": {
+        "public": {
+          "gid": "6229100532209556135",
+          "size": "737933737",
+          "download": "625784144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372014",
+        "timeupdated": "1760370896"
+      }
     }
   }
 }
