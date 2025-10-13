@@ -1,6 +1,5 @@
 {
   "appid": "3729320",
-  "public_only": "1",
   "common": {
     "name": "李二牛勇闯合欢宗 Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -116,6 +115,44 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "忧忧子工作室",
+    "publisher": "忧忧子工作室"
+  },
+  "config": {
+    "installdir": "李二牛勇闯合欢宗",
+    "launch": {
+      "0": {
+        "executable": "李二牛勇闯合欢宗demo5.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "schinese": "demo"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3729321": {
+      "manifests": {
+        "public": {
+          "gid": "4736116757808189050",
+          "size": "986123695",
+          "download": "463682736"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19968414",
+        "timeupdated": "1757760977"
+      }
     }
   }
 }
