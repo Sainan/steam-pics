@@ -186,6 +186,15 @@
   "ufs": {
     "quota": "10485760",
     "maxnumfiles": "100",
-    "appidredirect": "3609980"
+    "appidredirect": "3609980",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "ProfileSaves",
+        "pattern": "*.json",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
