@@ -1,6 +1,5 @@
 {
   "appid": "3818960",
-  "public_only": "1",
   "common": {
     "name": "Dungeon Market Simulator Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "02d22a7a75ff83e8f10f8edd14ba1ef2d7c3089d/capsule_231x87.jpg"
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1754909084",
+    "store_asset_mtime": "1760003911",
     "associations": {
       "0": {
         "type": "developer",
@@ -90,10 +89,15 @@
         "name": "PlayWay S.A."
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "28",
+    "genres": {
+      "0": "25",
+      "1": "4",
+      "2": "23",
+      "3": "28"
+    },
     "category": {
-      "category_2": "1",
-      "category_22": "1"
+      "category_2": "1"
     },
     "supported_languages": {
       "english": {
@@ -177,7 +181,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760093699",
     "gameid": "3818960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DarkRook Interactive",
+    "publisher": "DarkRook Interactive"
+  },
+  "config": {
+    "installdir": "Dungeon Market Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "Dungeon Market Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3818961": {
+      "manifests": {
+        "public": {
+          "gid": "4155141840405612578",
+          "size": "560960777",
+          "download": "157267840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363719",
+        "timeupdated": "1760331740"
+      }
+    }
   }
 }
