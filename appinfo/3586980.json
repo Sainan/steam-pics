@@ -1,4 +1,114 @@
 {
   "appid": "3586980",
-  "public_only": "1"
+  "common": {
+    "name": "DreamEcho Demo",
+    "type": "Demo",
+    "parent": "3226060",
+    "name_localized": {
+      "schinese": "梦境回响 Demo",
+      "english": "DreamEcho Demo"
+    },
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "980f171f9018224e570a101741375b5336645b38",
+    "clienttga": "b754eec74fe390f27f58a11318d4a866058e9bf8",
+    "icon": "948309e8661bddc3011c02578201864939a62192",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "8e020c0b467821701bf2984b7b2186fbcb89784b/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "12c70cec511576d2871d570c53c48f846a92afae/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "4076ed90d7cca7712edb02eb5cd07ee858af15b4/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1757390976",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "HotWaterStudio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "HotWaterStudio"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_23": "1",
+      "category_28": "1",
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "schinese": {
+        "supported": "true"
+      }
+    },
+    "gameid": "3586980",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "HotWaterStudio",
+    "publisher": "HotWaterStudio"
+  },
+  "config": {
+    "installdir": "DreamEcho Demo",
+    "launch": {
+      "0": {
+        "executable": "DreamEchoes.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3586981": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6279386186355118034",
+          "size": "1304059371",
+          "download": "1087324960"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20357901",
+        "timeupdated": "1760280063"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20480000",
+    "maxnumfiles": "16",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Echoes/DreamEchoes",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
 }
