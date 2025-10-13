@@ -1,6 +1,5 @@
 {
   "appid": "4060890",
-  "public_only": "1",
   "common": {
     "name": "Trickster Trove Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -113,11 +112,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374720",
     "gameid": "4060890",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Gamirare Inc.",
+    "publisher": "Gamirare Inc.",
+    "homepage": "https://gamirare.com/"
+  },
+  "config": {
+    "installdir": "Trickster Trove Demo",
+    "launch": {
+      "0": {
+        "executable": "TricksterTrove.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4060891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "332299234421316103",
+          "size": "17040051867",
+          "download": "8490927440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372968",
+        "timeupdated": "1760374662"
+      }
     }
   }
 }
