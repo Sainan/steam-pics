@@ -1,6 +1,5 @@
 {
   "appid": "2104430",
-  "public_only": "1",
   "common": {
     "name": "Super Galaxy Games",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0f26bfc2178fef256ba73208095202331dde1a04",
     "clienticon": "860a623e3c62b1874773c2f593879c30dc102b31",
     "clienttga": "9490d65145d60e866a09b1927fbb50dae2fcbb4f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "17883f140221f1a1b13fb7af8268b4b0bc499eb0/capsule_231x87.jpg"
@@ -103,10 +102,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760018744",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "2104430",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -128,6 +127,88 @@
       "17": "4295",
       "18": "4036",
       "19": "5752"
+    }
+  },
+  "extended": {
+    "developer": "qrnch Tech AB",
+    "publisher": "qrnch Tech AB"
+  },
+  "config": {
+    "installdir": "SuperGalaxy",
+    "launch": {
+      "0": {
+        "executable": "GameShow.exe",
+        "arguments": "-AUTH_LOGIN= -AUTH_PASSWORD= -AUTH_TYPE=accountportal",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2104431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6701259101694522248",
+          "size": "922454529",
+          "download": "739530592"
+        },
+        "internal": {
+          "gid": "2265015039098131536",
+          "size": "922902313",
+          "download": "739969168"
+        }
+      }
+    },
+    "2104432": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "workshopdepot": "2104430",
+    "branches": {
+      "public": {
+        "buildid": "20321576",
+        "timeupdated": "1760018651"
+      },
+      "internal": {
+        "buildid": "20373438",
+        "description": "This is the beta branch",
+        "timeupdated": "1760376473"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SuperGalaxy/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
