@@ -1,6 +1,5 @@
 {
   "appid": "4068790",
-  "public_only": "1",
   "common": {
     "name": "Lux Leonarii - A Mechanical Puzzle Adventure Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e904eaeb3dc90cd05f655c394698fa9be576898e/capsule_231x87.jpg"
     },
@@ -37,7 +36,55 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760333148",
     "gameid": "4068790",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lux Leonarii Dev",
+    "publisher": "Lux Leonarii Dev"
+  },
+  "config": {
+    "installdir": "Lux LeonariiDEMO",
+    "launch": {
+      "0": {
+        "executable": "LaserPuzzle.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4068791": {
+      "manifests": {
+        "public": {
+          "gid": "5189104628863237291",
+          "size": "1675256979",
+          "download": "1482963200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361155",
+        "timeupdated": "1760308900"
+      }
+    }
   }
 }
