@@ -1,11 +1,10 @@
 {
   "appid": "3978270",
-  "public_only": "1",
   "common": {
     "name": "Slime Town Demo",
     "type": "Demo",
     "parent": "3956670",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "486d72275f0e4f8d8af10d87ac2df1abe96e5e15",
     "name_localized": {
       "schinese": "史莱姆小镇：放置好时光 Demo"
@@ -55,5 +54,66 @@
     },
     "gameid": "3978270",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rimuru Studio",
+    "publisher": "Rimuru Studio"
+  },
+  "config": {
+    "installdir": "SlimeTown Demo",
+    "launch": {
+      "0": {
+        "executable": "SlimeTown Demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "SlimeTown Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3978271": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9088508721145630439",
+          "size": "448329707",
+          "download": "75915136"
+        }
+      }
+    },
+    "3978272": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5837754536563993414",
+          "size": "544057056",
+          "download": "101298272"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20366938",
+        "timeupdated": "1760349849"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10"
   }
 }
