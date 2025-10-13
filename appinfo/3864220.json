@@ -1,6 +1,5 @@
 {
   "appid": "3864220",
-  "public_only": "1",
   "common": {
     "name": "星砂岛 Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "d822805eccf36ab3aa45ecd523638eb9524aef35",
     "clienttga": "d06ffc2a3d3f1932af850997081252f1080f2786",
     "clienticon": "ccd11648609175fc77b964438be533f075a0ef73",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Starsand Island Demo",
       "german": "Starsand Island Demo",
@@ -131,7 +130,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760371991",
     "gameid": "3864220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Seed Lab",
+    "publisher": "Seed Lab"
+  },
+  "config": {
+    "installdir": "StarsandIslandDemo",
+    "launch": {
+      "0": {
+        "executable": "StarsandIsland.exe",
+        "arguments": "-steamapp -silencelogin",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3507607615": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3864221": {
+      "manifests": {
+        "public": {
+          "gid": "8296998859145966884",
+          "size": "10427347685",
+          "download": "7774043488"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20371564",
+        "timeupdated": "1760369278"
+      }
+    }
   }
 }
