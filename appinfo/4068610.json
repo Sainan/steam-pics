@@ -1,6 +1,5 @@
 {
   "appid": "4068610",
-  "public_only": "1",
   "common": {
     "name": "Ronin Awakening Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e85830e5289a3d8a18975b2c2cbaa391ba7967fe/capsule_231x87.jpg"
     },
@@ -39,7 +38,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760346364",
     "gameid": "4068610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MPG Studip",
+    "publisher": "MPG Studio"
+  },
+  "config": {
+    "installdir": "Ronin Awakening Demo",
+    "launch": {
+      "0": {
+        "executable": "RoninAwakening.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4068611": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "862198414343231680",
+          "size": "27949942773",
+          "download": "11235384464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20162165",
+        "timeupdated": "1759068610"
+      }
+    }
   }
 }
