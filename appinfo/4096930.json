@@ -1,6 +1,5 @@
 {
   "appid": "4096930",
-  "public_only": "1",
   "common": {
     "name": "Tiny Bakery Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "4f3f462311c47a24102c8c55e6d34683c1d4c1bc",
     "clienticon": "4f3f462311c47a24102c8c55e6d34683c1d4c1bc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9629818c5361f7b57faf336144d3fbee33d381fe/capsule_231x87.jpg"
     },
@@ -30,14 +29,55 @@
     },
     "primary_genre": "0",
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_77": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4096930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bubbly Games",
+    "publisher": "Bubbly Games"
+  },
+  "config": {
+    "installdir": "Tiny Bakery Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows\\Tiny Bakery.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4096931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2120231593377870216",
+          "size": "598879179",
+          "download": "189891584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372413",
+        "timeupdated": "1760372461"
+      }
+    }
   }
 }
