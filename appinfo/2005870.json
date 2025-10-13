@@ -13,6 +13,59 @@
     "content_descriptors": {
       "0": "5"
     },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759968000",
+      "tested_build_id": "20214109",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -118,16 +171,16 @@
       "5": "7569",
       "6": "4325",
       "7": "1659",
-      "8": "4191",
-      "9": "1716",
+      "8": "1716",
+      "9": "4191",
       "10": "1759",
       "11": "4791",
       "12": "4434",
       "13": "1720",
       "14": "4342",
       "15": "4166",
-      "16": "8945",
-      "17": "7208",
+      "16": "7208",
+      "17": "8945",
       "18": "4182",
       "19": "5125"
     },
@@ -167,9 +220,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7650903511220967952",
-          "size": "316361709",
-          "download": "192666768"
+          "gid": "4993064282227069169",
+          "size": "315493772",
+          "download": "191841088"
         }
       }
     },
@@ -180,16 +233,16 @@
       },
       "manifests": {
         "public": {
-          "gid": "1321231459231188106",
-          "size": "325824592",
-          "download": "196663408"
+          "gid": "5527064758612194964",
+          "size": "324956671",
+          "download": "195858816"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20214109",
-        "timeupdated": "1759360622"
+        "buildid": "20352455",
+        "timeupdated": "1760211165"
       }
     }
   },
