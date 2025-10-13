@@ -142,7 +142,16 @@
     "launch": {
       "0": {
         "executable": "StashACardLooter.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Stash.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -153,13 +162,29 @@
           "gid": "77900027950260875",
           "size": "555247104",
           "download": "285564944"
+        },
+        "stash_mac": {
+          "gid": "9040184423471397269",
+          "size": "883457795",
+          "download": "707922896"
         }
+      }
+    },
+    "3296912": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
       }
     },
     "branches": {
       "public": {
         "buildid": "20360102",
         "timeupdated": "1760300238"
+      },
+      "stash_mac": {
+        "buildid": "20373948",
+        "description": "mac_build",
+        "timeupdated": "1760380283"
       }
     }
   },
