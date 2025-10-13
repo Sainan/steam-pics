@@ -352,10 +352,28 @@
     "launch": {
       "0": {
         "executable": "SexualityInAncientRome.exe",
-        "type": "default",
+        "type": "option1",
         "config": {
-          "oslist": "windows"
-        }
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX12 (Advanced GPU)"
+        },
+        "description": "DX12 (Advanced GPU)"
+      },
+      "1": {
+        "executable": "SexualityInAncientRome.exe",
+        "arguments": "-DX11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX11 (Old GPU)"
+        },
+        "description": "DX11 (Old GPU)"
       }
     }
   },
@@ -377,17 +395,17 @@
     "3381331": {
       "manifests": {
         "public": {
-          "gid": "1660219227753463390",
-          "size": "17927049998",
-          "download": "17463887248"
+          "gid": "2912385564479335222",
+          "size": "17927097450",
+          "download": "17463764560"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20288206",
-        "timeupdated": "1759848011"
+        "buildid": "20369493",
+        "timeupdated": "1760361132"
       }
     }
   }
