@@ -1,4 +1,49 @@
 {
   "appid": "4038150",
-  "public_only": "1"
+  "common": {
+    "name": "YVY Demo",
+    "type": "Demo",
+    "parent": "2952190",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "6fffeb5f2e3cb5e1c65c5aae5d106aec2986b667",
+    "clienticon": "6fffeb5f2e3cb5e1c65c5aae5d106aec2986b667",
+    "releasestate": "released",
+    "gameid": "4038150",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "YVY Demo",
+    "launch": {
+      "0": {
+        "executable": "YVY.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4038151": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4972886695871893743",
+          "size": "230296816",
+          "download": "173765520"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20373860",
+        "timeupdated": "1760378720"
+      }
+    }
+  }
 }
