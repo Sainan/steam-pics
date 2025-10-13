@@ -1,6 +1,5 @@
 {
   "appid": "4076150",
-  "public_only": "1",
   "common": {
     "name": "Car Factory Empire Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -116,7 +115,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760375642",
     "gameid": "4076150",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "RDS Games",
+    "publisher": "RDS Games"
+  },
+  "config": {
+    "installdir": "Car Factory Empire Demo",
+    "launch": {
+      "0": {
+        "executable": "CarFactoryEmpire.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4076151": {
+      "manifests": {
+        "public": {
+          "gid": "5704906046504504814",
+          "size": "5839407636",
+          "download": "5338818400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20205401",
+        "timeupdated": "1759319382"
+      }
+    }
   }
 }
