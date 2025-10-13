@@ -1,6 +1,5 @@
 {
   "appid": "1200770",
-  "public_only": "1",
   "common": {
     "name": "Deathground",
     "type": "Game",
@@ -13,7 +12,7 @@
     "clienttga": "8a0a116168c676a0ae2b0044a8f005d47c1f4088",
     "clienticon": "f4767eb0862f0ab06138663e29587c1c15c1080c",
     "clienticns": "e0a4d3f5860f4685bc401e95731709d5d94c6cfe",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -82,7 +81,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759711610",
+    "store_asset_mtime": "1759860718",
     "associations": {
       "0": {
         "type": "developer",
@@ -119,20 +118,20 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759857850",
     "community_hub_visible": "1",
     "gameid": "1200770",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     },
     "store_tags": {
       "0": "1667",
-      "1": "3978",
-      "2": "5160",
+      "1": "5160",
+      "2": "3978",
       "3": "6730",
-      "4": "9564",
-      "5": "1687",
+      "4": "1687",
+      "5": "9564",
       "6": "1662",
       "7": "5502",
       "8": "4106",
@@ -147,6 +146,157 @@
       "17": "21",
       "18": "3968",
       "19": "4342"
+    },
+    "review_score": "5",
+    "review_percentage": "62"
+  },
+  "extended": {
+    "developer": "Jaw Drop Games",
+    "publisher": "Jaw Drop Games",
+    "homepage": "http://www.deathgroundgame.com/"
+  },
+  "config": {
+    "installdir": "Deathground",
+    "launch": {
+      "1": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "staging"
+        }
+      },
+      "2": {
+        "executable": "Deathground.exe",
+        "arguments": "-log",
+        "type": "option1",
+        "config": {
+          "betakey": "staging"
+        },
+        "description_loc": {
+          "english": "With Logging"
+        },
+        "description": "With Logging"
+      },
+      "3": {
+        "executable": "Deathground.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "pmsgs"
+        }
+      },
+      "4": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "staging_ld"
+        }
+      },
+      "5": {
+        "executable": "Tornado.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Tornado Demo"
+        },
+        "description": "Tornado Demo"
+      },
+      "6": {
+        "executable": "Tornado.exe",
+        "type": "option3",
+        "config": {
+          "betakey": "sperimentale"
+        },
+        "description_loc": {
+          "english": "Tornado 2023"
+        },
+        "description": "Tornado 2023"
+      },
+      "7": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "staging_shipping"
+        }
+      },
+      "8": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "staging_gameplay"
+        }
+      },
+      "9": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "staging_history"
+        }
+      },
+      "10": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "pmsgs"
+        }
+      },
+      "11": {
+        "executable": "Deathground.exe",
+        "type": "default",
+        "config": {
+          "betakey": "pmsgs_1"
+        }
+      }
     }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229033": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1200771": {
+      "manifests": {
+        "public": {
+          "gid": "848538475607375218",
+          "size": "26836208690",
+          "download": "11156525472"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20344608",
+        "timeupdated": "1760136334"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "100"
   }
 }
