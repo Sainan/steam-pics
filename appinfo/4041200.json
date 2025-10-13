@@ -1,6 +1,5 @@
 {
   "appid": "4041200",
-  "public_only": "1",
   "common": {
     "name": "Escape from Ever After Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "90368cef2b55b411e7435339a5dd38c15b570ba0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -106,7 +105,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4041200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sleepy Castle Studio",
+    "publisher": "HypeTrain Digital"
+  },
+  "config": {
+    "installdir": "EFEA_Demo",
+    "launch": {
+      "0": {
+        "executable": "FlyntBuckler.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4041201": {
+      "manifests": {
+        "public": {
+          "gid": "1399446208122373266",
+          "size": "918037409",
+          "download": "671693392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360892",
+        "timeupdated": "1760306904"
+      }
+    },
+    "privatebranches": "1"
   }
 }
