@@ -1,6 +1,5 @@
 {
   "appid": "3196200",
-  "public_only": "1",
   "common": {
     "name": "07GORILLAS Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "edc468f08986d775d422cda5408ec880f9976102/capsule_231x87_schinese.jpg",
@@ -57,5 +56,53 @@
     },
     "gameid": "3196200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Highway404",
+    "publisher": "Highway404"
+  },
+  "config": {
+    "installdir": "07GORILLAS_DEMO",
+    "launch": {
+      "0": {
+        "executable": "07GORILLAS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "07GORILLAS demo"
+        },
+        "description": "07GORILLAS demo"
+      }
+    }
+  },
+  "depots": {
+    "3196201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6163566706757162607",
+          "size": "133559477",
+          "download": "90367552"
+        }
+      }
+    },
+    "3196202": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20365448",
+        "timeupdated": "1760343465"
+      }
+    }
   }
 }
