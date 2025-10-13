@@ -7,7 +7,7 @@
     "icon": "e7e3c7bbea495c132acae0e6b1bc557ab41f8d94",
     "clienticon": "a64c852543cfb154ef422c924117249828e13549",
     "clienttga": "fc4c9f3d88bac628ff126ad129d7676abc06b289",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -123,7 +123,16 @@
     "installdir": "Aim to Capture - Episode One",
     "launch": {
       "0": {
-        "executable": "Aim to Capture.exe"
+        "executable": "Aim to Capture.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Aim to Capture.sh",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
