@@ -1,6 +1,5 @@
 {
   "appid": "4090510",
-  "public_only": "1",
   "common": {
     "name": "Ticking Together Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -185,7 +184,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760370104",
     "gameid": "4090510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Furkan Baytak",
+    "publisher": "Vellichor Games"
+  },
+  "config": {
+    "installdir": "Ticking Together Demo",
+    "launch": {
+      "0": {
+        "executable": "Ticking Together.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4090511": {
+      "manifests": {
+        "public": {
+          "gid": "2510308147432585699",
+          "size": "2939948532",
+          "download": "869863536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20366836",
+        "timeupdated": "1760349400"
+      }
+    }
   }
 }
