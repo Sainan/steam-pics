@@ -339,7 +339,7 @@
       "19": "4175"
     },
     "review_score": "5",
-    "review_percentage": "57"
+    "review_percentage": "55"
   },
   "extended": {
     "developer": "Games For Pleasure",
@@ -351,10 +351,28 @@
     "launch": {
       "0": {
         "executable": "SexOnTheBeach.exe",
-        "type": "default",
+        "type": "option1",
         "config": {
-          "oslist": "windows"
-        }
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX12 (Advanced GPU)"
+        },
+        "description": "DX12 (Advanced GPU)"
+      },
+      "1": {
+        "executable": "SexOnTheBeach.exe",
+        "arguments": "-DX11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DX11 (Old GPU)"
+        },
+        "description": "DX11 (Old GPU)"
       }
     }
   },
@@ -376,17 +394,17 @@
     "2967801": {
       "manifests": {
         "public": {
-          "gid": "6766704164547944652",
-          "size": "19741556433",
-          "download": "19250440080"
+          "gid": "744825682652668920",
+          "size": "19741667397",
+          "download": "19250537280"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20285942",
-        "timeupdated": "1759839336"
+        "buildid": "20369798",
+        "timeupdated": "1760362439"
       }
     }
   }
