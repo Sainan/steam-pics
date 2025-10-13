@@ -1,6 +1,5 @@
 {
   "appid": "4048240",
-  "public_only": "1",
   "common": {
     "name": "慕男欲女录 Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -117,11 +116,45 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760357823",
     "gameid": "4048240",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "一只迷路的羔羊",
+    "publisher": "一只迷路的羔羊"
+  },
+  "config": {
+    "installdir": "慕男欲女录 Demo",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4048241": {
+      "manifests": {
+        "public": {
+          "gid": "3908822488704920567",
+          "size": "1740212937",
+          "download": "1055325840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20046498",
+        "timeupdated": "1758279572"
+      }
     }
   }
 }
