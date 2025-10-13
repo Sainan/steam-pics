@@ -1,6 +1,5 @@
 {
   "appid": "4087810",
-  "public_only": "1",
   "common": {
     "name": "MEAT MAN Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a7ddeea1cac9602b95abb7afefc296f29e9ff316/capsule_231x87.jpg"
     },
@@ -132,5 +131,38 @@
     },
     "gameid": "4087810",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PyrotechnicGames",
+    "publisher": "PyrotechnicGames"
+  },
+  "config": {
+    "installdir": "MEAT MAN Demo",
+    "launch": {
+      "0": {
+        "executable": "MEAT MAN.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4087811": {
+      "manifests": {
+        "public": {
+          "gid": "8602833541274805267",
+          "size": "113910732",
+          "download": "35240512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20291616",
+        "timeupdated": "1759864483"
+      }
+    }
   }
 }
