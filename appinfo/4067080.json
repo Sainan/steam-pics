@@ -1,13 +1,12 @@
 {
   "appid": "4067080",
-  "public_only": "1",
   "common": {
     "name": "Cyber Shard Clicker Demo",
     "type": "Demo",
     "parent": "3644260",
     "clienticon": "7918b2c8b751cacf683af9130fc95e754c80d0ed",
     "icon": "7918b2c8b751cacf683af9130fc95e754c80d0ed",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -102,5 +101,41 @@
     },
     "gameid": "4067080",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Overaction Game Studio",
+    "publisher": "Overaction Game Studio, ReiVax"
+  },
+  "config": {
+    "installdir": "Cyber Shard Clicker Demo",
+    "launch": {
+      "0": {
+        "executable": "Cyber Shard Clicker.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4067081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5987297632184218708",
+          "size": "351403729",
+          "download": "98129760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363208",
+        "timeupdated": "1760327168"
+      }
+    }
   }
 }
