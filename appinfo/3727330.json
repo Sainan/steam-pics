@@ -1,6 +1,5 @@
 {
   "appid": "3727330",
-  "public_only": "1",
   "common": {
     "name": "Resort Island Simulator Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "clienttga": "7113f5a2d1c145f09c8715c41063ba5d3561d30b",
     "clienticns": "418ccd62a31eb027d9940f3659466090d95b1278",
     "clienticon": "308e83ea4128a16ddefe18a8f4c2aeebe1732648",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -113,12 +112,72 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760363783",
+    "community_visible_stats": "1",
     "gameid": "3727330",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Tenjin Games",
+    "publisher": "PlayWay S.A.",
+    "homepage": "https://tenjingames.com/"
+  },
+  "config": {
+    "installdir": "Resort Island Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows\\ResortIslandSim.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Run"
+        },
+        "description": "Run"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3727331": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7044960463304888278",
+          "size": "4773256123",
+          "download": "4436357952"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,danish,turkish,arabic,latam",
+    "branches": {
+      "public": {
+        "buildid": "20371415",
+        "timeupdated": "1760368858"
+      }
     }
   }
 }
