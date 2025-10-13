@@ -1,6 +1,5 @@
 {
   "appid": "3058440",
-  "public_only": "1",
   "common": {
     "name": "Prestis Silly Workshop",
     "type": "Application",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "a54833acd4b406dc1cd43f94e7b6b653765eed08",
     "icon": "b9e452b69468e550d40a60a70540cd512e7a5182",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -104,6 +103,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760370024",
     "community_hub_visible": "1",
     "gameid": "3058440",
     "exfgls": "6",
@@ -125,6 +125,56 @@
       "11": "492",
       "12": "493",
       "13": "12057"
+    }
+  },
+  "extended": {
+    "enablegameoverlayforapp": "1",
+    "developer": "Presti",
+    "publisher": "Presti"
+  },
+  "config": {
+    "installdir": "PrestisSillyWorkshop",
+    "launch": {
+      "0": {
+        "executable": "PrestisSillyWorkshop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Basic Run"
+        },
+        "description": "Basic Run"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3058441": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8031471796332882834",
+          "size": "177305523",
+          "download": "67409248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20193523",
+        "timeupdated": "1759253048"
+      }
     }
   }
 }
