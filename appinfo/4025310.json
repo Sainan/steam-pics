@@ -1,13 +1,12 @@
 {
   "appid": "4025310",
-  "public_only": "1",
   "common": {
     "name": "Liar Masks Demo",
     "type": "Demo",
     "parent": "4016560",
     "icon": "6f275e418a3e76f320b304960b403c5fd804fca0",
     "clienticon": "6f275e418a3e76f320b304960b403c5fd804fca0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -101,7 +100,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759934787",
     "gameid": "4025310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Minus555",
+    "publisher": "Minus555"
+  },
+  "config": {
+    "installdir": "Liar Masks Demo",
+    "launch": {
+      "0": {
+        "executable": "LiarMasks.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4025311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "781152551704210756",
+          "size": "941626074",
+          "download": "796634320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20364260",
+        "timeupdated": "1760336347"
+      }
+    }
   }
 }
