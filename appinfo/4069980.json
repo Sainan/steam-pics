@@ -1,13 +1,12 @@
 {
   "appid": "4069980",
-  "public_only": "1",
   "common": {
     "name": "Tarvos Desolation Demo",
     "type": "Demo",
     "parent": "3036940",
     "icon": "25381a553be3e8108882b53c22f22350172bb3f4",
     "clienticon": "543b32a07cc4667be6f21f929adf967dcc74a461",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759868040",
+    "store_asset_mtime": "1760370688",
     "associations": {
       "0": {
         "type": "developer",
@@ -106,11 +105,69 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760374832",
     "gameid": "4069980",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Solverto Games",
+    "publisher": "Solverto Games",
+    "homepage": "https://solverto.com"
+  },
+  "config": {
+    "installdir": "Tarvos Desolation Demo",
+    "launch": {
+      "0": {
+        "executable": "JupiterSurvivor_0_01.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "beta"
+        }
+      },
+      "1": {
+        "executable": "JupiterSurvivor_0_01.exe",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "betakey": "beta"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4069981": {
+      "manifests": {
+        "public": {
+          "gid": "1687429637388643253",
+          "size": "2868203964",
+          "download": "2656880848"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372783",
+        "timeupdated": "1760373875"
+      }
     }
   }
 }
