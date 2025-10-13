@@ -1,10 +1,9 @@
 {
   "appid": "3389200",
-  "public_only": "1",
   "common": {
     "name": "我的恋爱逃生攻略 Love to Live",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "f19af45eaa7c74b2f8ba305c504a9d2042c76026",
     "linuxclienticon": "fa03e83219f2b62c8ee5688513606e32b5785f84",
     "icon": "3abf16e22e394d9d38d051220cdd20a424c69fb1",
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3389200",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -133,6 +132,54 @@
       "17": "15172",
       "18": "7250",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "番茄炖肉制作组",
+    "publisher": "番茄炖肉制作组"
+  },
+  "config": {
+    "installdir": "我的恋爱逃生攻略 Love to Live",
+    "launch": {
+      "0": {
+        "executable": "loveToLive.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "loveToLive.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "loveToLive.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3389201": {
+      "manifests": {
+        "public": {
+          "gid": "5760588310782949742",
+          "size": "2659335748",
+          "download": "2436600240"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20364242",
+        "timeupdated": "1760341378"
+      }
     }
   }
 }
