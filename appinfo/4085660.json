@@ -10,7 +10,7 @@
     "name_localized": {
       "ukrainian": "Паляниця Demo"
     },
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -131,23 +131,27 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "Palianytsia.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
       }
     }
   },
   "depots": {
     "228989": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
+      "shareddepottype": "commonredist",
+      "sharedinstall": "1",
+      "depotfromapp": "«228980»"
     },
     "228990": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
+      "shareddepottype": "commonredist",
+      "sharedinstall": "1",
+      "depotfromapp": "«228980»"
     },
     "4085661": {
       "config": {
@@ -160,6 +164,12 @@
           "size": "338591677",
           "download": "226858144"
         }
+      }
+    },
+    "4085662": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
       }
     },
     "branches": {
