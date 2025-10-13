@@ -1,6 +1,5 @@
 {
   "appid": "4072950",
-  "public_only": "1",
   "common": {
     "name": "Exile Protocol Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,6 +110,40 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "TopVR",
+    "publisher": "TopVR"
+  },
+  "config": {
+    "installdir": "Exile Protocol Demo",
+    "launch": {
+      "0": {
+        "executable": "Exile Protocol.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4072951": {
+      "manifests": {
+        "public": {
+          "gid": "2234148372420861393",
+          "size": "4196269332",
+          "download": "1729891376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20362849",
+        "timeupdated": "1760324112"
+      }
     }
   }
 }
