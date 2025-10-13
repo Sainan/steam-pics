@@ -1,11 +1,10 @@
 {
   "appid": "2469870",
-  "public_only": "1",
   "common": {
     "name": "Moonlight Knight Demo",
     "type": "Demo",
     "parent": "2427550",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a66832b4600f8ef9c1a67a64c8b332616ea5cb6b",
     "clienticon": "c26ec5125394c511b08da5e29970a32d2c922cab",
     "clienttga": "6068882332de75bf96d5c436447e58f65107f851",
@@ -89,7 +88,51 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760374322",
     "gameid": "2469870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MyDreamForever",
+    "publisher": "MyDreamForever"
+  },
+  "config": {
+    "installdir": "Moonlight Knight Demo",
+    "launch": {
+      "0": {
+        "executable": "Moonlight Knight.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2469871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4525880173788886916",
+          "size": "116895820",
+          "download": "90198976"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20372789",
+        "timeupdated": "1760373868"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "2427550"
   }
 }
