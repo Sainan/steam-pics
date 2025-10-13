@@ -1,6 +1,5 @@
 {
   "appid": "4050050",
-  "public_only": "1",
   "common": {
     "name": "Cyan Heart Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "13b674018a503dbca288ca6d42113ae7813d287e/capsule_231x87.jpg"
@@ -51,7 +50,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4050050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Shoei Sio",
+    "publisher": "Shoei Sio"
+  },
+  "config": {
+    "installdir": "CyanheartDemo",
+    "launch": {
+      "0": {
+        "executable": "CyanHeartDemo\\Cyan Heart.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Cyan Heart.exe",
+        "config": {
+          "betakey": "beta"
+        },
+        "description_loc": {
+          "english": "beta test option"
+        },
+        "description": "beta test option"
+      }
+    }
+  },
+  "depots": {
+    "4050051": {
+      "manifests": {
+        "public": {
+          "gid": "6779173605635387798",
+          "size": "654459351",
+          "download": "352699264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20349318",
+        "timeupdated": "1760180066"
+      }
+    },
+    "privatebranches": "1"
   }
 }
