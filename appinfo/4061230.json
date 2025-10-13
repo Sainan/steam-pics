@@ -1,13 +1,12 @@
 {
   "appid": "4061230",
-  "public_only": "1",
   "common": {
     "name": "Ardena Demo",
     "type": "Demo",
     "parent": "3441000",
     "clienticon": "c81fab66968a4b4f37623849944ad24df49376c6",
     "icon": "c81fab66968a4b4f37623849944ad24df49376c6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -48,6 +47,54 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "RRSTUDIO",
+    "publisher": "RRSTUDIO"
+  },
+  "config": {
+    "installdir": "Ardena Demo",
+    "launch": {
+      "0": {
+        "executable": "Ardena.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4061231": {
+      "manifests": {
+        "public": {
+          "gid": "2162816310782196780",
+          "size": "4042509007",
+          "download": "3739907632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20153328",
+        "timeupdated": "1758962879"
+      }
     }
   }
 }
