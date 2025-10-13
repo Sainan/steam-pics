@@ -1,6 +1,5 @@
 {
   "appid": "4047820",
-  "public_only": "1",
   "common": {
     "name": "Dungeon of Erotic Master Reboot Demo",
     "type": "Demo",
@@ -10,8 +9,111 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "1",
+      "1": "5"
+    },
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "25f78d575f5ed39adecab689b5d06f9da2b0de56/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "8b7713b30984aaa261c54d1db7bd00461422b379/header.jpg"
+    },
+    "store_screenshot": "ece8d3dc039e5a460c2f7394d6c64b03b6a3c7eb/ss_ece8d3dc039e5a460c2f7394d6c64b03b6a3c7eb.jpg",
+    "store_asset_mtime": "1758267839",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Rushimarudo"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tensei Games"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Tensei Games"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "25",
+      "1": "3"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "japanese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
     "gameid": "4047820",
-    "exfgls": "6"
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Rushimarudo",
+    "publisher": "Tensei Games"
+  },
+  "config": {
+    "installdir": "Dungeon of Erotic Master Reboot Demo",
+    "launch": {
+      "0": {
+        "executable": "DanEroReboot_1.30.exe"
+      }
+    }
+  },
+  "depots": {
+    "4047821": {
+      "manifests": {
+        "public": {
+          "gid": "9002875754152200629",
+          "size": "550535897",
+          "download": "539540752"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20365635",
+        "timeupdated": "1760344382"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "@savedata",
+        "pattern": ".sav"
+      }
+    }
   }
 }
