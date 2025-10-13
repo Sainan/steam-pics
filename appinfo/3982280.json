@@ -1,13 +1,12 @@
 {
   "appid": "3982280",
-  "public_only": "1",
   "common": {
     "name": "The Pact Demo",
     "type": "Demo",
     "parent": "3945690",
     "icon": "334976728a05bd7e7b3851b5b8c135232359c35a",
     "clienticon": "334976728a05bd7e7b3851b5b8c135232359c35a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -84,7 +83,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3982280",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Revus",
+    "publisher": "Revus"
+  },
+  "config": {
+    "installdir": "The Pact Demo",
+    "launch": {
+      "0": {
+        "executable": "The Pact Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3982281": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1981676498311056944",
+          "size": "297122483",
+          "download": "83525760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20375821",
+        "timeupdated": "1760389251"
+      }
+    }
   }
 }
