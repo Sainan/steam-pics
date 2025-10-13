@@ -1,13 +1,12 @@
 {
   "appid": "2891020",
-  "public_only": "1",
   "common": {
     "name": "Undusted: Letters from the Past",
     "type": "Game",
     "icon": "ae9e96420f861fe6bdbaa7c667f244e82b62e937",
     "clienttga": "4804a6255717b97c88a269b38612f3694e039f54",
     "clienticon": "540769ae414ec422246d1e01a82376fb153a9f0f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -225,9 +224,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760360321",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2891020",
-    "exfgls": "8",
     "store_tags": {
       "0": "97376",
       "1": "1654",
@@ -249,6 +249,106 @@
       "17": "492",
       "18": "5608",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "5minlab Corp.",
+    "publisher": "Toge Productions"
+  },
+  "config": {
+    "installdir": "Undusted",
+    "launch": {
+      "0": {
+        "executable": "Undusted.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "steamcontrollerconfigdetails": {
+      "3407761164": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,alpha,internal,steamdeck,switch",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "2891021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5126379838689604401",
+          "size": "1398199422",
+          "download": "303244624"
+        },
+        "alpha": {
+          "gid": "2118002869461152310",
+          "size": "1398199367",
+          "download": "332911296"
+        }
+      }
+    },
+    "2891022": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2582784056009841450",
+          "size": "1422127923",
+          "download": "342521360"
+        },
+        "alpha": {
+          "gid": "5179502549935864108",
+          "size": "1422127868",
+          "download": "342856992"
+        }
+      }
+    },
+    "2891023": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20280418",
+        "timeupdated": "1759809474"
+      },
+      "alpha": {
+        "buildid": "20331563",
+        "description": "alpha",
+        "timeupdated": "1760071387"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "5minlab/Undusted/saves",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
