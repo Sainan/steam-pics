@@ -1,6 +1,5 @@
 {
   "appid": "4036050",
-  "public_only": "1",
   "common": {
     "name": "烽沙 Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "name_localized": {
       "english": "Mandate Order"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "24a6377eef6a5a77894ba6196bed4370aff57c75/capsule_231x87.jpg",
@@ -67,7 +66,70 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4036050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Digital Sky",
+    "publisher": "Digital Sky"
+  },
+  "config": {
+    "installdir": "fengShaDemo",
+    "launch": {
+      "0": {
+        "executable": "MOProject.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4036051": {
+      "manifests": {
+        "public": {
+          "gid": "6942507317718971043",
+          "size": "9654398558",
+          "download": "8535819616"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20357180",
+        "timeupdated": "1760271516"
+      }
+    }
   }
 }
