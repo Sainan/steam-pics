@@ -1,6 +1,5 @@
 {
   "appid": "4059020",
-  "public_only": "1",
   "common": {
     "name": "Luminary Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -119,7 +118,66 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760371571",
     "gameid": "4059020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Refractive Entertainment",
+    "publisher": "Refractive Entertainment"
+  },
+  "config": {
+    "installdir": "Luminary Demo",
+    "launch": {
+      "0": {
+        "executable": "Luminary55.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4059021": {
+      "manifests": {
+        "public": {
+          "gid": "3983187596841533619",
+          "size": "8393733586",
+          "download": "7919359760"
+        },
+        "devtest": {
+          "gid": "2590325011491386310",
+          "size": "8391840282",
+          "download": "7917478080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20367251",
+        "timeupdated": "1760353688"
+      },
+      "devtest": {
+        "buildid": "20368047",
+        "description": "Internal developers only. Save files may break.",
+        "timeupdated": "1760354892"
+      }
+    }
   }
 }
