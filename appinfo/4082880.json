@@ -1,6 +1,5 @@
 {
   "appid": "4082880",
-  "public_only": "1",
   "common": {
     "name": "Many Mini Typing Games Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "c34e56989b4fb7f120c9ff3fa3f8c01fefd4aa91",
     "icon": "c34e56989b4fb7f120c9ff3fa3f8c01fefd4aa91",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "bc4f883435415f75cd2f8f8f32bb2a2e86ca26af/capsule_231x87.jpg"
@@ -42,5 +41,64 @@
     },
     "gameid": "4082880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GirambQuamb",
+    "publisher": "GirambQuamb"
+  },
+  "config": {
+    "installdir": "Many Mini Typing Games Demo",
+    "launch": {
+      "0": {
+        "executable": "MMTG Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MMTG Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4082881": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "583408390236291616",
+          "size": "449143888",
+          "download": "345234496"
+        }
+      }
+    },
+    "4082882": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3807210171621657911",
+          "size": "441681736",
+          "download": "342378016"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20230528",
+        "timeupdated": "1759445810"
+      }
+    }
   }
 }
