@@ -121,9 +121,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "4400834925642357743",
-          "size": "2272616112",
-          "download": "806570960"
+          "gid": "2585778972646110445",
+          "size": "2271805523",
+          "download": "814508112"
         }
       }
     },
@@ -135,8 +135,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20280763",
-        "timeupdated": "1759811751"
+        "buildid": "20354748",
+        "timeupdated": "1760239400"
       }
     },
     "privatebranches": "1"
@@ -149,17 +149,20 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "TeamSoda/Duckov/",
-        "pattern": "*.sav"
+        "pattern": "*.sav",
+        "recursive": "1"
       },
       "1": {
         "root": "WinAppDataLocalLow",
         "path": "TeamSoda/Duckov/",
-        "pattern": "*.bac"
+        "pattern": "*.bac",
+        "recursive": "1"
       },
       "2": {
         "root": "WinAppDataLocalLow",
         "path": "TeamSoda/Duckov/",
-        "pattern": "*.bac.*"
+        "pattern": "*.bac.*",
+        "recursive": "1"
       },
       "copied_from_parent": "1"
     },
@@ -169,7 +172,12 @@
         "os": "MacOS",
         "oscompare": "=",
         "useinstead": "MacAppSupport",
-        "addpath": ""
+        "pathtransforms": {
+          "0": {
+            "find": "TeamSoda/Duckov/",
+            "replace": ""
+          }
+        }
       }
     }
   }
