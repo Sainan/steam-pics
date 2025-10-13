@@ -1,6 +1,5 @@
 {
   "appid": "4096200",
-  "public_only": "1",
   "common": {
     "name": "TransmuTowers Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f7e86fd58c89540899f62ebaad34c86267c82c21/capsule_231x87.jpg"
     },
@@ -98,7 +97,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374589",
     "gameid": "4096200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Edenic Era LLC",
+    "publisher": "Edenic Era LLC"
+  },
+  "config": {
+    "installdir": "TransmuTowers Demo",
+    "launch": {
+      "0": {
+        "executable": "Game3.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4096201": {
+      "manifests": {
+        "public": {
+          "gid": "5721051450486467995",
+          "size": "3484231843",
+          "download": "1070740304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20369502",
+        "timeupdated": "1760361195"
+      }
+    },
+    "privatebranches": "1"
   }
 }
