@@ -1,6 +1,5 @@
 {
   "appid": "3832180",
-  "public_only": "1",
   "common": {
     "name": "Guilds of Greybrook Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e94b7f549c1e5cb9457d8d959026910eadb428ad/capsule_231x87.jpg"
@@ -91,7 +90,45 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760352099",
     "gameid": "3832180",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Brava Games",
+    "publisher": "Brava Games",
+    "homepage": "https://sites.google.com/view/guildsofgreybrook?usp=sharing"
+  },
+  "config": {
+    "installdir": "GuildsofGreybrookProtodemo",
+    "launch": {
+      "0": {
+        "executable": "GuildsOfGreybrook.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3832182": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3855987992501944436",
+          "size": "1076553231",
+          "download": "313327200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20367289",
+        "timeupdated": "1760351496"
+      }
+    }
   }
 }
