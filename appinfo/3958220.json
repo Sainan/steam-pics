@@ -187,9 +187,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "4141791432564539961",
-          "size": "108010248",
-          "download": "34606416"
+          "gid": "6175137094142889420",
+          "size": "108052000",
+          "download": "34624192"
         }
       }
     },
@@ -200,9 +200,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "2174857960986811275",
-          "size": "81643024",
-          "download": "27903216"
+          "gid": "4748208413038510547",
+          "size": "81684780",
+          "download": "27920272"
         }
       }
     },
@@ -213,17 +213,17 @@
       },
       "manifests": {
         "public": {
-          "gid": "7689802602126661714",
-          "size": "200706408",
-          "download": "60000976"
+          "gid": "2338333648706324213",
+          "size": "200748164",
+          "download": "60018032"
         }
       }
     },
     "baselanguages": "",
     "branches": {
       "public": {
-        "buildid": "20244361",
-        "timeupdated": "1759518038"
+        "buildid": "20371164",
+        "timeupdated": "1760367657"
       }
     }
   },
@@ -233,7 +233,7 @@
     "savefiles": {
       "0": {
         "root": "WinAppDataRoaming",
-        "path": "99managers-futsal-edition",
+        "path": "99managers-futsal-edition\\sync\\",
         "pattern": "*",
         "recursive": "1"
       }
@@ -247,7 +247,7 @@
         "pathtransforms": {
           "0": {
             "find": "99managers-futsal-edition",
-            "replace": "99managers-futsal-edition"
+            "replace": "99managers-futsal-edition/sync/"
           }
         }
       },
@@ -258,11 +258,13 @@
         "useinstead": "MacHome",
         "pathtransforms": {
           "0": {
-            "find": "",
-            "replace": "/Library/Application Support/99managers-futsal-edition"
+            "find": "99managers-futsal-edition",
+            "replace": "/Library/Application Support/99managers-futsal-edition/sync/"
           }
         }
       }
-    }
+    },
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
