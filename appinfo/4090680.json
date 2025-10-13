@@ -1,6 +1,5 @@
 {
   "appid": "4090680",
-  "public_only": "1",
   "common": {
     "name": "AIVX PUSH Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "47edcc33a5bfdc867e320e068a40dfddadd3e076",
     "icon": "47edcc33a5bfdc867e320e068a40dfddadd3e076",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -102,5 +101,38 @@
     },
     "gameid": "4090680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AIVX",
+    "publisher": "AIVX"
+  },
+  "config": {
+    "installdir": "AIVX PUSH Demo",
+    "launch": {
+      "1": {
+        "executable": "AIVX PUSH.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4090681": {
+      "manifests": {
+        "public": {
+          "gid": "4489299109376016464",
+          "size": "188884620",
+          "download": "71521088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363488",
+        "timeupdated": "1760329690"
+      }
+    }
   }
 }
