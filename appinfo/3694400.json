@@ -1,11 +1,10 @@
 {
   "appid": "3694400",
-  "public_only": "1",
   "common": {
     "name": "Evolve or Die Demo",
     "type": "Demo",
     "parent": "3683850",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "你的小坤坤 Demo",
       "tchinese": "進化或死亡 試玩版",
@@ -93,7 +92,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3694400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "seal",
+    "publisher": "seal"
+  },
+  "config": {
+    "installdir": "你的小鸡鸡 Demo",
+    "launch": {
+      "0": {
+        "executable": "Kunkun.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3694401": {
+      "manifests": {
+        "public": {
+          "gid": "4288195270406653640",
+          "size": "2696891220",
+          "download": "2523476096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363480",
+        "timeupdated": "1760329663"
+      }
+    }
   }
 }
