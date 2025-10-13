@@ -1,6 +1,5 @@
 {
   "appid": "4076510",
-  "public_only": "1",
   "common": {
     "name": "Epoch Cycle Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -50,10 +49,66 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4076510",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "GeometricUniverse",
+    "publisher": "GeometricUniverse"
+  },
+  "config": {
+    "installdir": "Epoch Cycle Demo",
+    "launch": {
+      "0": {
+        "executable": "EpochCycle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4076511": {
+      "manifests": {
+        "public": {
+          "gid": "50004405454686540",
+          "size": "4639828090",
+          "download": "1430580464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20366732",
+        "timeupdated": "1760349033"
+      }
     }
   }
 }
