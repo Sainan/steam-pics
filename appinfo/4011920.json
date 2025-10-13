@@ -1,6 +1,5 @@
 {
   "appid": "4011920",
-  "public_only": "1",
   "common": {
     "name": "My Pet Hooligan Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "3329d10bbd81813ced3baf562e5b4479f249d58f",
     "icon": "3329d10bbd81813ced3baf562e5b4479f249d58f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -112,7 +111,54 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760368053",
     "gameid": "4011920",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AMGI Studios",
+    "publisher": "AMGI Studios",
+    "homepage": "https://www.mypethooligangame.com/"
+  },
+  "config": {
+    "installdir": "My Pet Hooligan Demo",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "HooliganGameSTEAM_DEMO_CLIENT.exe",
+        "arguments": "-steamenvironment=release"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4011921": {
+      "manifests": {
+        "public": {
+          "gid": "8241674700488575238",
+          "size": "8406673996",
+          "download": "7905240064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20015889",
+        "timeupdated": "1758114962"
+      }
+    }
   }
 }
