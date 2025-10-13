@@ -1,6 +1,5 @@
 {
   "appid": "3879240",
-  "public_only": "1",
   "common": {
     "name": "宗门起源 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "name_localized": {
       "english": "EasternEra Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "25916f9b0dfdc1f8b9834366659ce8956a6367da/capsule_231x87.jpg",
       "schinese": "a45454ab1ea0d7792133bf86c7ff3c44d2ea6835/capsule_231x87_schinese.jpg"
@@ -62,5 +61,52 @@
     },
     "gameid": "3879240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "FunYoo Games",
+    "publisher": "FunYoo Games"
+  },
+  "config": {
+    "installdir": "EasternEra_Demo",
+    "launch": {
+      "0": {
+        "executable": "EasternEra.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3879241": {
+      "manifests": {
+        "public": {
+          "gid": "6776688338664963537",
+          "size": "12357289849",
+          "download": "11884731744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20367996",
+        "timeupdated": "1760354629"
+      }
+    }
   }
 }
