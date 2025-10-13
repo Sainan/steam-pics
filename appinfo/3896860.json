@@ -1,6 +1,5 @@
 {
   "appid": "3896860",
-  "public_only": "1",
   "common": {
     "name": "Conquer the Tower",
     "type": "Game",
@@ -16,7 +15,7 @@
     "clienticns": "045ed0320a0b4906d2dfee3ac76a3e3ac307bc15",
     "linuxclienticon": "32617520cbe9c1f963acc5f33d95a230fa5a6eb6",
     "clienticon": "0bcc113e5161bfd032dc273161523e544b1a9ed5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -166,9 +165,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3896860",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1685",
@@ -190,6 +190,73 @@
       "17": "5673",
       "18": "21",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "iZoy_",
+    "publisher": "iZoy_"
+  },
+  "config": {
+    "installdir": "Climb de Tower",
+    "launch": {
+      "0": {
+        "executable": "Windows\\FKTower.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3896861": {
+      "manifests": {
+        "public": {
+          "gid": "961183706430244173",
+          "size": "3285405976",
+          "download": "3098994608"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20370086",
+        "timeupdated": "1760363796"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "FKTower",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
