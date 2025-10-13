@@ -1,6 +1,5 @@
 {
   "appid": "4093150",
-  "public_only": "1",
   "common": {
     "name": "Warhawk Down Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -51,6 +50,35 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "AtomicDuck",
+    "publisher": "AtomicDuck"
+  },
+  "config": {
+    "installdir": "WarHawkDemo",
+    "launch": {
+      "0": {
+        "executable": "WarhawkDown.exe"
+      }
+    }
+  },
+  "depots": {
+    "4093151": {
+      "manifests": {
+        "public": {
+          "gid": "6362949970683511845",
+          "size": "8625463532",
+          "download": "5307550224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363358",
+        "timeupdated": "1760330435"
+      }
     }
   }
 }
