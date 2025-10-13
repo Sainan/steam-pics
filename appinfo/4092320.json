@@ -1,4 +1,179 @@
 {
   "appid": "4092320",
-  "public_only": "1"
+  "common": {
+    "name": "Waterjacked! Demo",
+    "type": "Demo",
+    "parent": "3878980",
+    "icon": "bd10ed5e9b6531960b3cb7a2b935ca96cfd83fb0",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "clienticon": "4c11eccfc2e375a09d467383707330670fcf373d",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "d80e609d0938d8ff17e9307a53dc54490a082652/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "89769cf30538d136c8c91aa0238cb1f47f9e984f/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "34ecc39ba2700ed2ea8e12b427a86bb18e8dd341/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "34ecc39ba2700ed2ea8e12b427a86bb18e8dd341/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "5099cc1ce83741953c5799dbe655de84b693a204/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "5099cc1ce83741953c5799dbe655de84b693a204/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "5099cc1ce83741953c5799dbe655de84b693a204/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "587bc71743647af21d6dcdc33f369edbc56689fb/logo.png"
+        },
+        "image2x": {
+          "english": "587bc71743647af21d6dcdc33f369edbc56689fb/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "89769cf30538d136c8c91aa0238cb1f47f9e984f/library_header.jpg"
+        },
+        "image2x": {
+          "english": "89769cf30538d136c8c91aa0238cb1f47f9e984f/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759781861",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "A Frog's Pond"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "A Frog's Pond"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "gameid": "4092320",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "A Frog's Pond",
+    "publisher": "A Frog's Pond",
+    "homepage": "https://www.afrogspond.com/"
+  },
+  "config": {
+    "installdir": "Waterjacked! Demo",
+    "launch": {
+      "0": {
+        "executable": "waterjacked.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "waterjacked.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "waterjacked.app/Contents/MacOS/Waterjacked!",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4092321": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2738991798526345085",
+          "size": "37723268",
+          "download": "36327008"
+        }
+      }
+    },
+    "4092322": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3288437498398025836",
+          "size": "99127392",
+          "download": "32209392"
+        }
+      }
+    },
+    "4092323": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6774641261699018511",
+          "size": "233702287",
+          "download": "95565200"
+        }
+      }
+    },
+    "4092324": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8048903533275741419",
+          "size": "73778208",
+          "download": "25546320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20344101",
+        "timeupdated": "1760132294"
+      }
+    }
+  }
 }
