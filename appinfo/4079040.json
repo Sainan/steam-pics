@@ -1,6 +1,5 @@
 {
   "appid": "4079040",
-  "public_only": "1",
   "common": {
     "name": "Castle And Cursor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e9a0462755b7bb79b59c911f69534dc14749cb97/capsule_231x87.jpg"
     },
@@ -60,7 +59,53 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760029864",
     "gameid": "4079040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Elite Gorgon Games",
+    "publisher": "Elite Gorgon Games"
+  },
+  "config": {
+    "installdir": "Castle And Cursor Demo",
+    "launch": {
+      "0": {
+        "executable": "CastleAndCursor.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4079041": {
+      "manifests": {
+        "public": {
+          "gid": "8567689594387165139",
+          "size": "160092158",
+          "download": "50474336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365586",
+        "timeupdated": "1760344173"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "500",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "/EliteGorgonGames/CastleAndCursor",
+        "pattern": "*"
+      }
+    }
   }
 }
