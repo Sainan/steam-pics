@@ -1,6 +1,5 @@
 {
   "appid": "4037590",
-  "public_only": "1",
   "common": {
     "name": "Rocks In Space",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64,macosapplesilicon",
     "icon": "82af6864ad972947673d55acdde5b2023f3a3426",
     "clienticon": "82af6864ad972947673d55acdde5b2023f3a3426",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "68bd971441cdc7e5785346c9e2d899e02b4cd2e9/capsule_231x87.jpg"
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760355622",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4037590",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "4231",
@@ -126,6 +126,77 @@
       "16": "4182",
       "17": "4291",
       "18": "1755"
+    }
+  },
+  "extended": {
+    "developer": "T's Gaming Emporium",
+    "publisher": "T's Gaming Emporium",
+    "homepage": "https://tsgamingemporium.com/"
+  },
+  "config": {
+    "installdir": "Rocks In Space",
+    "launch": {
+      "0": {
+        "executable": "RocksInSpace.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Rocks_In_Space_Steam1_2.app\\Contents\\MacOS\\Rocks_In_Space_Steam1_2",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8622442605753252117",
+          "size": "70961551",
+          "download": "60802464"
+        },
+        "apple": {
+          "gid": "8622442605753252117",
+          "size": "70961551",
+          "download": "60802464"
+        }
+      }
+    },
+    "4037593": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6724583362849526859",
+          "size": "99285073",
+          "download": "69890144"
+        },
+        "apple": {
+          "gid": "6724583362849526859",
+          "size": "99285073",
+          "download": "69890144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20115771",
+        "timeupdated": "1758753414"
+      },
+      "apple": {
+        "buildid": "20115771",
+        "description": "Mac Only",
+        "timeupdated": "1758750245"
+      }
     }
   }
 }
