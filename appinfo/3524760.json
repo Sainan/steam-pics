@@ -1,6 +1,5 @@
 {
   "appid": "3524760",
-  "public_only": "1",
   "common": {
     "name": "AMNYAM Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0245a58384cb3f1149b709fc8ea0cc03c0e15445/capsule_231x87.jpg"
     },
@@ -143,5 +142,103 @@
     },
     "gameid": "3524760",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "YuLu",
+    "publisher": "YuLu"
+  },
+  "config": {
+    "installdir": "AMNYAM Demo",
+    "launch": {
+      "0": {
+        "executable": "AMNYAMdemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228984": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3524761": {
+      "manifests": {
+        "public": {
+          "gid": "8260287019773288006",
+          "size": "269394063",
+          "download": "208239760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20362836",
+        "timeupdated": "1760324091"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "amnyam_demo_steam/aimsave",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
