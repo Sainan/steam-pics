@@ -1,4 +1,144 @@
 {
   "appid": "4067940",
-  "public_only": "1"
+  "common": {
+    "name": "TOJIBO Demo",
+    "type": "Demo",
+    "parent": "3809740",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "527335634ada7d4f13ca016b24c5e2dcd4b4909d",
+    "clienticon": "527335634ada7d4f13ca016b24c5e2dcd4b4909d",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "a78e55707feb016113f6cc559a2fe35f2e1689e6/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "1a9f8a290b7f0b905b1bb9e98ffc7f895e34d497/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "66b483c8d21999cba10bda6687deb43b2e931318/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759180583",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Vermeil Soft"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Vermeil Soft"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1760373059",
+    "gameid": "4067940",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Vermeil Soft",
+    "publisher": "Vermeil Soft"
+  },
+  "config": {
+    "installdir": "TOJIBO Demo",
+    "launch": {
+      "0": {
+        "executable": "tojibo_win64.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "tojibo_linux64.elf",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4067941": {
+      "manifests": {
+        "public": {
+          "gid": "7466491821164495639",
+          "size": "17213479",
+          "download": "17158176"
+        }
+      }
+    },
+    "4067942": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3387046429108476539",
+          "size": "30505568",
+          "download": "13636144"
+        }
+      }
+    },
+    "4067943": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3150432885451525570",
+          "size": "29563264",
+          "download": "13205632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359770",
+        "timeupdated": "1760297390"
+      }
+    }
+  }
 }
