@@ -1,6 +1,5 @@
 {
   "appid": "4078610",
-  "public_only": "1",
   "common": {
     "name": "Drop Dead: The Cabin Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "osarch": "64",
     "osextended": "",
     "openvrsupport": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -137,11 +136,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760369218",
     "gameid": "4078610",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Soul Assembly",
+    "publisher": "Soul Assembly",
+    "homepage": "https://soulassembly.com/"
+  },
+  "config": {
+    "installdir": "Drop Dead The Cabin Demo",
+    "launch": {
+      "0": {
+        "executable": "Cabin.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Cabin.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4078611": {
+      "manifests": {
+        "public": {
+          "gid": "4333587844463995073",
+          "size": "8496737957",
+          "download": "3842840560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370484",
+        "timeupdated": "1760365292"
+      }
+    },
+    "privatebranches": "1"
   }
 }
