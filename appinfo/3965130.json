@@ -1,11 +1,10 @@
 {
   "appid": "3965130",
-  "public_only": "1",
   "common": {
     "name": "Crónicas no Contadas: La Cosecha Demo",
     "type": "Demo",
     "parent": "3388330",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a87e30f3a2cf43b2676a93329fc8e9c3f41e8ddf",
     "clienttga": "b23d3ada45a8c660c60ed5ac9e22d090a5eeae56",
     "clienticon": "04680ed92279813f80753bf8d9bfe0b25751a511",
@@ -71,7 +70,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760372494",
     "gameid": "3965130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Glintle Studios",
+    "publisher": "Glintle Studios"
+  },
+  "config": {
+    "installdir": "UntoldChroniclesTheHarvestDEMOv1.0.6",
+    "launch": {
+      "0": {
+        "executable": "TheHarvest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3965131": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6874052350395091166",
+          "size": "2902361746",
+          "download": "2652591440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365633",
+        "timeupdated": "1760344413"
+      }
+    }
   }
 }
