@@ -1,6 +1,5 @@
 {
   "appid": "3974630",
-  "public_only": "1",
   "common": {
     "name": "Stocks: Main Force Simulator Demo",
     "type": "Demo",
@@ -22,7 +21,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "cb5082746ec1d1a6f0c606354b96f855d9bc5a0b/capsule_231x87_schinese.jpg",
@@ -212,7 +211,83 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760358508",
     "gameid": "3974630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "LoneCat",
+    "publisher": "LoneCat"
+  },
+  "config": {
+    "installdir": "股票：主力模拟器 Demo",
+    "launch": {
+      "0": {
+        "executable": "StocksMainForceSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "StocksMainForceSimulator.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3974631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4569193600277376375",
+          "size": "201861371",
+          "download": "59640464"
+        }
+      }
+    },
+    "3974632": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5518871176630148937",
+          "size": "276985153",
+          "download": "81101072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20368799",
+        "timeupdated": "1760358358"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "LoneCat/StocksMainForceSimulator/DemoSaves/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
   }
 }
