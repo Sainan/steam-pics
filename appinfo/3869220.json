@@ -1,6 +1,5 @@
 {
   "appid": "3869220",
-  "public_only": "1",
   "common": {
     "name": "Fracctal TCG Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "d1639212ad9fb686de6fc92dfe759464a343b06c",
     "clienttga": "c0c2f4530b6d6a7177df479f80140ba1820f815f",
     "clienticon": "dfcc13f2f00a355f450032abe97833d64fd605ad",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -144,5 +143,35 @@
     },
     "gameid": "3869220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Fracctal Labs",
+    "publisher": "Fracctal Labs",
+    "homepage": "https://fracctaltcg.com/"
+  },
+  "config": {
+    "installdir": "Fracctal TCG Demo",
+    "launch": {
+      "0": {
+        "executable": "Fracctal TCG.exe"
+      }
+    }
+  },
+  "depots": {
+    "3869221": {
+      "manifests": {
+        "public": {
+          "gid": "6940922631117666357",
+          "size": "174047434",
+          "download": "122430064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361693",
+        "timeupdated": "1760313685"
+      }
+    }
   }
 }
