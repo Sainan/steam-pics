@@ -1,6 +1,5 @@
 {
   "appid": "4064360",
-  "public_only": "1",
   "common": {
     "name": "Tabletop Fantasy War Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5ad4e972f90c7e4532c0f3472b7cc58a449a2060/capsule_231x87.jpg"
@@ -105,7 +104,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760104884",
     "gameid": "4064360",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "EdenDev studio",
+    "publisher": "EdenDev studio"
+  },
+  "config": {
+    "installdir": "Tabletop Fantasy War Demo",
+    "launch": {
+      "0": {
+        "executable": "Tabletop Fantasy War.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064361": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1874255538224380700",
+          "size": "212433515",
+          "download": "95475344"
+        },
+        "local": {
+          "gid": "4140609538561143106",
+          "size": "192104815",
+          "download": "87689760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20376202",
+        "timeupdated": "1760391613"
+      },
+      "local": {
+        "buildid": "20150284",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758933416"
+      }
+    }
   }
 }
