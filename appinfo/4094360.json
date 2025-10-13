@@ -1,4 +1,130 @@
 {
   "appid": "4094360",
-  "public_only": "1"
+  "common": {
+    "name": "Project Rebearth Demo",
+    "type": "Demo",
+    "parent": "2871870",
+    "icon": "4396753460b6767d213537a7c75879fb837cb565",
+    "clienticon": "4396753460b6767d213537a7c75879fb837cb565",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "a2306ff9c280eee3842e47c8b4dcd993ae75c491/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "e3818c4d5643e62c385891cd1846a399e9ff8259/header.jpg"
+    },
+    "library_assets": {
+      "library_hero_blur": "en"
+    },
+    "library_assets_full": {
+      "library_hero_blur": {
+        "image": {
+          "english": "4d3e75a8bbb04e83edd1c16d198d84f11b9edc39/library_hero_blur.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759865623",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Program Sam"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Program Sam"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_68": "1",
+      "category_76": "1",
+      "category_79": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1760336281",
+    "gameid": "4094360",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Program Sam",
+    "publisher": "Program Sam"
+  },
+  "config": {
+    "installdir": "Project Rebearth Demo",
+    "launch": {
+      "0": {
+        "executable": "project_rebearth.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "project_rebearth.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "project_rebearth",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4094362": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7016441899709736757",
+          "size": "423240863",
+          "download": "218669584"
+        }
+      }
+    },
+    "4094363": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4172477142808539824",
+          "size": "408769702",
+          "download": "206928160"
+        }
+      }
+    },
+    "4094364": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6814816161023899404",
+          "size": "875946653",
+          "download": "202007392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20348572",
+        "timeupdated": "1760171897"
+      }
+    }
+  }
 }
