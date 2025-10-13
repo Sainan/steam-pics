@@ -1,6 +1,5 @@
 {
   "appid": "4077170",
-  "public_only": "1",
   "common": {
     "name": "Herbal Haven Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f0cb26984f4bf97fa76791f3467faae2af7c692a/capsule_231x87.jpg"
@@ -90,7 +89,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4077170",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Reminiscent Realms Studio LLC",
+    "publisher": "Reminiscent Realms Studio LLC"
+  },
+  "config": {
+    "installdir": "Herbal Haven",
+    "launch": {
+      "0": {
+        "executable": "HerbalHaven.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4077171": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8546007950275588816",
+          "size": "743896690",
+          "download": "677979968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20364566",
+        "timeupdated": "1760338190"
+      }
+    }
   }
 }
