@@ -1,11 +1,10 @@
 {
   "appid": "3445180",
-  "public_only": "1",
   "common": {
     "name": "Ants With Guns Demo",
     "type": "Demo",
     "parent": "1968390",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "3258e730661aa589b457f79168a54e843a0f597a",
     "clienttga": "939fd52fa22453f95143cf5da1a45e32dcf7de8f",
     "oslist": "windows",
@@ -87,5 +86,49 @@
     },
     "gameid": "3445180",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Frompy Games",
+    "publisher": "Big Play Games"
+  },
+  "config": {
+    "installdir": "Ants With Guns Demo",
+    "launch": {
+      "0": {
+        "executable": "AWG.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "AntsWithGunsDemo"
+        },
+        "description": "AntsWithGunsDemo"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3445181": {
+      "manifests": {
+        "public": {
+          "gid": "4045735108184147269",
+          "size": "5993109511",
+          "download": "1642729056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372939",
+        "timeupdated": "1760374530"
+      }
+    }
   }
 }
