@@ -1,4 +1,64 @@
 {
   "appid": "3201470",
-  "public_only": "1"
+  "common": {
+    "name": "Homura Hime Demo",
+    "type": "Demo",
+    "parent": "1820000",
+    "name_localized": {
+      "japanese": "炎姫 体験版",
+      "schinese": "炎姬 体验版",
+      "tchinese": "炎姬 體驗版"
+    },
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienttga": "006cd37ef083036f770e8bff0f99c358ea6a9790",
+    "icon": "abb76751386ffce891c01b05b24fc48eaf375292",
+    "clienticon": "05936b29f2f387cd057f847d0ee9a168074c7fbf",
+    "releasestate": "released",
+    "gameid": "3201470",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Homura Hime Demo",
+    "launch": {
+      "0": {
+        "executable": "HomuraHime.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3201471": {
+      "manifests": {
+        "public": {
+          "gid": "8406211900658184848",
+          "size": "8595659264",
+          "download": "3862786912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359215",
+        "timeupdated": "1760367148"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1052428800",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CrimsonDusk/HomuraHime",
+        "pattern": "*.*",
+        "recursive": "1"
+      }
+    },
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
+  }
 }
