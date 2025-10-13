@@ -1,13 +1,12 @@
 {
   "appid": "4001260",
-  "public_only": "1",
   "common": {
     "name": "PhaigeX: Confiners Demo",
     "type": "Demo",
     "parent": "3909480",
     "clienticon": "4ea37846176612b030fe4cf160a994afa8bf7922",
     "icon": "4ea37846176612b030fe4cf160a994afa8bf7922",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,7 +107,51 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760329246",
     "gameid": "4001260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Traitorean Games",
+    "publisher": "Traitorean Games"
+  },
+  "config": {
+    "installdir": "PhaigeX Confiners Demo",
+    "launch": {
+      "0": {
+        "executable": "PhaigeX Confiners Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4001261": {
+      "manifests": {
+        "public": {
+          "gid": "2063217056960349938",
+          "size": "888885644",
+          "download": "174155520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363076",
+        "timeupdated": "1760326535"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Traitorean Games/PhaigeX Confiners Demo",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
