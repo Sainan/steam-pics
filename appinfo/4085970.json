@@ -1,6 +1,5 @@
 {
   "appid": "4085970",
-  "public_only": "1",
   "common": {
     "name": "Protocol Paradox Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -112,5 +111,92 @@
     },
     "gameid": "4085970",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "WeaveWorks Studio",
+    "publisher": "WeaveWorks Studio"
+  },
+  "config": {
+    "installdir": "Protocol Paradox Demo",
+    "launch": {
+      "0": {
+        "executable": "Protocol_Paradox.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Protocol_Paradox.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        }
+      },
+      "2": {
+        "executable": "Protocol_Paradox.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4085972": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5919751032232471671",
+          "size": "203075848",
+          "download": "121294336"
+        }
+      }
+    },
+    "4085973": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8178746941072209411",
+          "size": "217471896",
+          "download": "122603856"
+        }
+      }
+    },
+    "4085974": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4047772131766990112",
+          "size": "183579141",
+          "download": "117008384"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20362798",
+        "timeupdated": "1760323737"
+      }
+    }
   }
 }
