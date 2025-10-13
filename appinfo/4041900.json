@@ -1,6 +1,5 @@
 {
   "appid": "4041900",
-  "public_only": "1",
   "common": {
     "name": "Haze",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8cf971bfa0f119325527dacbaf83ed036a0d4835/capsule_231x87.jpg"
@@ -103,6 +102,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760003355",
     "community_hub_visible": "1",
     "gameid": "4041900",
     "exfgls": "3",
@@ -123,5 +123,59 @@
       "13": "4182",
       "14": "3952"
     }
+  },
+  "extended": {
+    "developer": "CLS Studio",
+    "publisher": "CLS Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Haze",
+    "launch": {
+      "0": {
+        "executable": "Haze.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Haze.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4041901": {
+      "manifests": {
+        "public": {
+          "gid": "5011518363491814055",
+          "size": "1826664279",
+          "download": "1415277408"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "20363134",
+        "timeupdated": "1760326658"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
