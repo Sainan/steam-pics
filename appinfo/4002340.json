@@ -1,6 +1,5 @@
 {
   "appid": "4002340",
-  "public_only": "1",
   "common": {
     "name": "Hell Maiden Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -139,5 +138,55 @@
     },
     "gameid": "4002340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "AstralShift",
+    "publisher": "AstralShift"
+  },
+  "config": {
+    "installdir": "Hell Maiden Demo",
+    "launch": {
+      "0": {
+        "executable": "Hell Maiden.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4002341": {
+      "manifests": {
+        "public": {
+          "gid": "8624020415296452789",
+          "size": "1919543474",
+          "download": "1608209296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370158",
+        "timeupdated": "1760363584"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1200000",
+    "maxnumfiles": "12",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "1": {
+        "root": "WinSavedGames",
+        "path": "HellMaidenDemo",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
