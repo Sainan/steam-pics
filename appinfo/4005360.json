@@ -1,11 +1,10 @@
 {
   "appid": "4005360",
-  "public_only": "1",
   "common": {
     "name": "The Oversight Bureau - Demo",
     "type": "Demo",
     "parent": "2828650",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -101,7 +100,79 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760352533",
     "gameid": "4005360",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Iconic Interactive",
+    "publisher": "Iconic Interactive",
+    "homepage": "https://theoversightbureau.com"
+  },
+  "config": {
+    "installdir": "The Oversight Bureau Demo",
+    "launch": {
+      "0": {
+        "executable": "Ant.exe",
+        "arguments": "-saveddirsuffix=Demo",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4005361": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4019201749291435532",
+          "size": "4060543131",
+          "download": "3279793792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20338497",
+        "timeupdated": "1760105859"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ant/Saved_Demo/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
