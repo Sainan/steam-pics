@@ -1,6 +1,5 @@
 {
   "appid": "4097550",
-  "public_only": "1",
   "common": {
     "name": "Nonplace Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c60f972331a825ac7a691963b1351d6ffd3e2f6e/capsule_231x87.jpg"
@@ -43,5 +42,59 @@
     },
     "gameid": "4097550",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DEAD PETAL LLC",
+    "publisher": "DEAD PETAL LLC ",
+    "homepage": "https://www.deadpetalgames.com"
+  },
+  "config": {
+    "installdir": "Nonplace Demo",
+    "launch": {
+      "0": {
+        "executable": "Nonplace_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4097551": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3898662623844893643",
+          "size": "1658576925",
+          "download": "1504025968"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20368493",
+        "timeupdated": "1760358196"
+      }
+    },
+    "privatebranches": "1"
   }
 }
