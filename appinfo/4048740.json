@@ -1,6 +1,5 @@
 {
   "appid": "4048740",
-  "public_only": "1",
   "common": {
     "name": "Bip and Bop",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "346b58b3a06fbe391c8bdd96e9db391afd9f24da",
     "icon": "74303f9628f9e3126b647422c941b93658ff90a5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5ebb804b1c2f5a7600043039d1f4bae44501e6d9/capsule_231x87.jpg"
@@ -117,6 +116,55 @@
       "6": "492",
       "7": "1685",
       "8": "3843"
+    }
+  },
+  "extended": {
+    "developer": "Quadberos",
+    "publisher": "Quadberos",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Bip and Bop",
+    "launch": {
+      "0": {
+        "executable": "ProjAS.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4048741": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8894792643135047464",
+          "size": "777655453",
+          "download": "603519392"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20096541",
+        "timeupdated": "1758646299"
+      }
     }
   }
 }
