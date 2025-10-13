@@ -1,10 +1,9 @@
 {
   "appid": "1386750",
-  "public_only": "1",
   "common": {
     "name": "Spindle",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "14e9d1e6466e2db93c5e37ffa1f6fc1babf742f9",
     "logo_small": "14e9d1e6466e2db93c5e37ffa1f6fc1babf742f9_thumb",
     "icon": "750ebd989483dcd82f9ea114ee29940a3c99e120",
@@ -113,7 +112,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760349251",
+    "store_asset_mtime": "1760369861",
     "associations": {
       "0": {
         "type": "developer",
@@ -181,9 +180,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760370928",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1386750",
-    "exfgls": "8",
     "store_tags": {
       "0": "3964",
       "1": "4726",
@@ -205,6 +205,118 @@
       "17": "4791",
       "18": "15564",
       "19": "6971"
+    }
+  },
+  "extended": {
+    "developer": "Wobble Ghost",
+    "publisher": "Deck13",
+    "homepage": "https://www.spindle-adventure.com/"
+  },
+  "config": {
+    "installdir": "Spindle",
+    "launch": {
+      "0": {
+        "executable": "spindle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "spindle.elf",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "spindle.app\\Contents\\MacOS\\spindle",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "app_mappings": {}
+  },
+  "depots": {
+    "1386751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5467885967910456486",
+          "size": "735433892",
+          "download": "638956704"
+        }
+      }
+    },
+    "1386752": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4488379115139694636",
+          "size": "755149108",
+          "download": "645995184"
+        }
+      }
+    },
+    "1386753": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5661732307460221714",
+          "size": "794951941",
+          "download": "654473936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20355770",
+        "timeupdated": "1760341358"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "3": {
+        "root": "gameinstall",
+        "path": "app_userdata/Spindle",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": "Godot/"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "addpath": "/Library/Application Support/Godot/"
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/godot/"
+      }
     }
   }
 }
