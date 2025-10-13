@@ -1,6 +1,5 @@
 {
   "appid": "3916200",
-  "public_only": "1",
   "common": {
     "name": "Soy Supremacy Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -93,6 +92,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3916200",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -100,6 +100,39 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "AL Studio",
+    "publisher": "NSFW18 Games"
+  },
+  "config": {
+    "installdir": "Soy Supremacy Demo",
+    "launch": {
+      "0": {
+        "executable": "SoySupremacy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3916201": {
+      "manifests": {
+        "public": {
+          "gid": "9061482417872921073",
+          "size": "241557875",
+          "download": "221462608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20368551",
+        "timeupdated": "1760357290"
+      }
     }
   }
 }
