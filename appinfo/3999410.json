@@ -4,9 +4,9 @@
     "name": "Magical Greenhouse Playtest",
     "type": "Beta",
     "parent": "3837530",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "clienticon": "db00c023bfe86110304e9a47f2c10c17de366e8c",
     "icon": "0cf7f73ee7729b8df44494ab7eeba6d9771ce72b",
     "releasestate": "released",
@@ -89,10 +89,16 @@
     "installdir": "Magical Greenhouse Playtest",
     "launch": {
       "0": {
-        "executable": "Magical Greenhouse.exe",
+        "executable": "windows/Magical Greenhouse Demo.exe",
         "config": {
           "oslist": "windows",
           "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "macOS/Magical Greenhouse Demo.app",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
@@ -101,21 +107,21 @@
     "3999411": {
       "config": {
         "language": "english",
-        "oslist": "windows",
+        "oslist": "windows,macos",
         "osarch": "64"
       },
       "manifests": {
         "public": {
-          "gid": "2727024390431688280",
-          "size": "168674704",
-          "download": "94382752"
+          "gid": "3349590664301144305",
+          "size": "484114537",
+          "download": "182657488"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "19872194",
-        "timeupdated": "1757080694"
+        "buildid": "20366436",
+        "timeupdated": "1760347741"
       }
     }
   }
