@@ -1,6 +1,5 @@
 {
   "appid": "4095870",
-  "public_only": "1",
   "common": {
     "name": "Spellatro Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -46,7 +45,52 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4095870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ian Campbell",
+    "publisher": "Ian Campbell",
+    "homepage": "http://bootdiskrevolution.com"
+  },
+  "config": {
+    "installdir": "Spellatro Demo",
+    "launch": {
+      "0": {
+        "executable": "Spellatro.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4095872": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8444427118592430118",
+          "size": "43615119",
+          "download": "26365232"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20327956",
+        "timeupdated": "1760048356"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "20",
+    "appidredirect": "3785350"
   }
 }
