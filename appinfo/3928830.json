@@ -1,6 +1,5 @@
 {
   "appid": "3928830",
-  "public_only": "1",
   "common": {
     "name": "THE CUBE, SAVE US Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -157,6 +156,64 @@
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "XLGAMES",
+    "publisher": "XLGAMES"
+  },
+  "config": {
+    "installdir": "THE CUBE, SAVE US Demo",
+    "launch": {
+      "0": {
+        "executable": "Q9Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3928831": {
+      "manifests": {
+        "public": {
+          "gid": "1738668729711974160",
+          "size": "13609201731",
+          "download": "12573402304"
+        },
+        "test": {
+          "gid": "3431541343347893945",
+          "size": "13606573420",
+          "download": "12572551792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20217910",
+        "timeupdated": "1759386972"
+      },
+      "test": {
+        "buildid": "20072896",
+        "description": "test sign code",
+        "timeupdated": "1758528677"
+      }
     }
   }
 }
