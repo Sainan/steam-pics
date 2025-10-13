@@ -1,6 +1,5 @@
 {
   "appid": "4082650",
-  "public_only": "1",
   "common": {
     "name": "HellBit Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "786ed73b42eee4fbf8718d468c4b46d555c875cc/capsule_231x87.jpg"
     },
@@ -93,7 +92,41 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760369746",
     "gameid": "4082650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "edco",
+    "publisher": "edco"
+  },
+  "config": {
+    "installdir": "HellBit Demo",
+    "launch": {
+      "0": {
+        "executable": "hellbit_demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4082651": {
+      "manifests": {
+        "public": {
+          "gid": "3648871838473574882",
+          "size": "85299796",
+          "download": "61475312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371519",
+        "timeupdated": "1760368972"
+      }
+    }
   }
 }
