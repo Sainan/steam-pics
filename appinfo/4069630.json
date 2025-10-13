@@ -1,6 +1,5 @@
 {
   "appid": "4069630",
-  "public_only": "1",
   "common": {
     "name": "Panzer Deck Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "d4c7f1a77f375423ba6adc631054ace881837135",
     "icon": "d4c7f1a77f375423ba6adc631054ace881837135",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d0ceb8ff5dd5440e3a7881972e937ccb839540d2/capsule_231x87.jpg"
@@ -87,9 +86,69 @@
       "polish": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4069630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Smash Wall",
+    "publisher": "Smash Wall",
+    "homepage": "https://www.facebook.com/panzerdeck"
+  },
+  "config": {
+    "installdir": "Panzer Deck Demo",
+    "launch": {
+      "0": {
+        "executable": "Panzer Deck.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4069631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4347414115502941968",
+          "size": "644624104",
+          "download": "114624384"
+        }
+      }
+    },
+    "baselanguages": "english,german,spanish,schinese,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20371357",
+        "timeupdated": "1760368360"
+      }
+    },
+    "privatebranches": "1"
   }
 }
