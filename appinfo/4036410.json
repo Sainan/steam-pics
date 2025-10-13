@@ -1,6 +1,5 @@
 {
   "appid": "4036410",
-  "public_only": "1",
   "common": {
     "name": "HELLMART Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "67656e50660a0e4e6ad8b9bc8345a8d2c9c47e9f",
     "clienticon": "67656e50660a0e4e6ad8b9bc8345a8d2c9c47e9f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -150,6 +149,36 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "GAZE IN GAMES",
+    "publisher": "GAZE IN GAMES"
+  },
+  "config": {
+    "installdir": "HELLMART Demo",
+    "launch": {
+      "0": {
+        "executable": "Hellmart.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4036411": {
+      "manifests": {
+        "public": {
+          "gid": "4922302687019444686",
+          "size": "6155787399",
+          "download": "3140672224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365644",
+        "timeupdated": "1760344489"
+      }
     }
   }
 }
