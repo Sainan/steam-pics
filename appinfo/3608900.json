@@ -1,6 +1,5 @@
 {
   "appid": "3608900",
-  "public_only": "1",
   "common": {
     "name": "NOMIA",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienttga": "56006c7549562937b91267123b9de5cc13494cd4",
     "clienticns": "e42b2bc49a2fe89b5e5c58de94c84f1ae5a71c7a",
     "linuxclienticon": "18877a35767405407ddd5e188ea3b84bcc6f90f2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760116214",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3608900",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -137,13 +137,118 @@
       "10": "1666",
       "11": "32322",
       "12": "4252",
-      "13": "1741",
-      "14": "4057",
+      "13": "4057",
+      "14": "1741",
       "15": "1716",
       "16": "122",
       "17": "44868",
       "18": "21",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Magnesium Ninja",
+    "publisher": "Magnesium Ninja"
+  },
+  "config": {
+    "installdir": "NOMIA",
+    "launch": {
+      "0": {
+        "executable": "Nomia.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Nomia.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "nomia.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3608901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8029608078745619609",
+          "size": "513929230",
+          "download": "202133184"
+        }
+      }
+    },
+    "3608902": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2463574866766125025",
+          "size": "532117055",
+          "download": "213480384"
+        }
+      }
+    },
+    "3608903": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2277493185147493451",
+          "size": "520900515",
+          "download": "209440976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20354685",
+        "timeupdated": "1760239511"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tangleworm/Nomia",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Tangleworm/Nomia",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "LinuxXdgConfigHome",
+        "path": "Tangleworm/Nomia",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
