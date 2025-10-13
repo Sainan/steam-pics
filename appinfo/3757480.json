@@ -1,6 +1,5 @@
 {
   "appid": "3757480",
-  "public_only": "1",
   "common": {
     "name": "Ever War",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticon": "ec973d8a72aa5bcd6acd7c7f14563123a79bfeb0",
     "clienticns": "36c3f0d9b10842ccea7a8603f458ea64b13d4059",
     "linuxclienticon": "36c3f0d9b10842ccea7a8603f458ea64b13d4059",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7e96e3a0e1f71381b6f6856e49f874b7a9f855d7/capsule_231x87.jpg"
@@ -105,9 +104,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760362944",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3757480",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "1670",
@@ -123,6 +123,42 @@
       "11": "4364",
       "12": "4004",
       "13": "492"
+    }
+  },
+  "extended": {
+    "developer": "Utium Games",
+    "publisher": "Utium Games"
+  },
+  "config": {
+    "installdir": "Ever War",
+    "launch": {
+      "0": {
+        "executable": "EverWar.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3757481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7010754687428932629",
+          "size": "190090622",
+          "download": "141796704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20341482",
+        "timeupdated": "1760118669"
+      }
     }
   }
 }
