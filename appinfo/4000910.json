@@ -1,6 +1,5 @@
 {
   "appid": "4000910",
-  "public_only": "1",
   "common": {
     "name": "A Song Of Sunlight Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "b1e8c5284564f7478b87d9f5a8205208747c9e4f",
     "clienticon": "b1e8c5284564f7478b87d9f5a8205208747c9e4f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -96,10 +95,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760333269",
     "gameid": "4000910",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "RageForDragons",
+    "publisher": "RageForDragons"
+  },
+  "config": {
+    "installdir": "A Song Of Sunlight Demo",
+    "launch": {
+      "0": {
+        "executable": "asongofsunlight.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4000912": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5480621024549892607",
+          "size": "11557100183",
+          "download": "351467088"
+        },
+        "local": {
+          "gid": "3684461548370096094",
+          "size": "11202959070",
+          "download": "334766144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361995",
+        "timeupdated": "1760316764"
+      },
+      "local": {
+        "buildid": "19885941",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1757221134"
+      }
     }
   }
 }
