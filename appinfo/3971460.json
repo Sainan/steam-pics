@@ -1,6 +1,5 @@
 {
   "appid": "3971460",
-  "public_only": "1",
   "common": {
     "name": "Backrooms Lost Runners Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "linuxclienticon": "5d7d2c8c5c664cae3b517a367c1b46407d7382ca",
     "clienticns": "a3bd0b3120faa0e2850c9aaaa8dc2c09647e4a40",
     "clienticon": "26547893d11d56d9d7672f6be00ec9ef29770fea",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2f49f5904a53f9a07839fbb143867389d15d75ce/capsule_231x87.jpg"
     },
@@ -111,7 +110,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3971460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ShimStudioGames",
+    "publisher": "ShimStudioGames"
+  },
+  "config": {
+    "installdir": "Backrooms Lost Runners Demo",
+    "launch": {
+      "0": {
+        "executable": "BackroomsLostRunners.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3971461": {
+      "manifests": {
+        "public": {
+          "gid": "6266814434907849718",
+          "size": "2044018626",
+          "download": "1799594640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370083",
+        "timeupdated": "1760363370"
+      }
+    }
   }
 }
