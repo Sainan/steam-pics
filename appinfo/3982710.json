@@ -1,13 +1,12 @@
 {
   "appid": "3982710",
-  "public_only": "1",
   "common": {
     "name": "After Hours: Library Demo",
     "type": "Demo",
     "parent": "3958830",
     "clienticon": "22a902379c1ffd72490fbad9a9c8445d867627f6",
     "icon": "22a902379c1ffd72490fbad9a9c8445d867627f6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -99,7 +98,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374356",
     "gameid": "3982710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Forbidden Kemono Studio, LLC",
+    "publisher": "Forbidden Kemono Studio, LLC"
+  },
+  "config": {
+    "installdir": "After Hours Library Demo",
+    "launch": {
+      "0": {
+        "executable": "AfterHoursLibrary.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3982711": {
+      "manifests": {
+        "public": {
+          "gid": "3438787536137832885",
+          "size": "1543043028",
+          "download": "1394832800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372821",
+        "timeupdated": "1760374198"
+      }
+    }
   }
 }
