@@ -1,11 +1,10 @@
 {
   "appid": "3984110",
-  "public_only": "1",
   "common": {
     "name": "STOCKWAVE ONLINE Demo",
     "type": "Demo",
     "parent": "3844530",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -55,11 +54,59 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760367643",
     "gameid": "3984110",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Humano Guy",
+    "publisher": "Humano Guy"
+  },
+  "config": {
+    "installdir": "STOCKWAVE ONLINE Demo",
+    "launch": {
+      "0": {
+        "executable": "STOCKWAVE_ONLINE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Default Launch Option"
+        },
+        "description": "Default Launch Option"
+      }
+    }
+  },
+  "depots": {
+    "3984111": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8173476923001080849",
+          "size": "1102430134",
+          "download": "1032856160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20353870",
+        "timeupdated": "1760226469"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "appidredirect": "3844530"
   }
 }
