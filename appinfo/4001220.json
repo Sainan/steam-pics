@@ -1,6 +1,5 @@
 {
   "appid": "4001220",
-  "public_only": "1",
   "common": {
     "name": "ネコパワー！やちよ Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "osextended": "",
     "clienticon": "dd3ea5fd471115b3fae58f13c42eea90af260562",
     "icon": "a6435db3ce4749105984053343f90966700e60dc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,7 +112,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374168",
     "gameid": "4001220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wandering Wonder Studio",
+    "publisher": "Wandering Wonder Studio"
+  },
+  "config": {
+    "installdir": "NekoPowerYachiyo Demo",
+    "launch": {
+      "0": {
+        "executable": "NekoPowerYachiyoDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4001221": {
+      "manifests": {
+        "public": {
+          "gid": "3928194606274459816",
+          "size": "136022887",
+          "download": "76039136"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20367156",
+        "timeupdated": "1760350970"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "WanderingWonder\\NekoPowerYachiyoDemo\\SaveFile",
+        "pattern": "*.wws",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
