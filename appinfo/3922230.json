@@ -1,6 +1,5 @@
 {
   "appid": "3922230",
-  "public_only": "1",
   "common": {
     "name": "Dead Frequency Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "5c1bb242438c5ae9aae4299e48c44ec44a603e1f",
     "clienttga": "fc301b8ad6045510a639f7414c760ca81f1f8583",
     "clienticon": "4e4179b8c0cd3eb85c06cd64d106a709d40997ba",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -132,11 +131,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760389928",
     "gameid": "3922230",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Reverse Revelation",
+    "publisher": "Reverse Revelation"
+  },
+  "config": {
+    "installdir": "Dead Frequency Demo",
+    "launch": {
+      "0": {
+        "executable": "DeadFrequency.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3922231": {
+      "manifests": {
+        "public": {
+          "gid": "753254303790376664",
+          "size": "2449820006",
+          "download": "2288761728"
+        }
+      }
+    },
+    "baselanguages": "english,french,italian,russian,polish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20375929",
+        "timeupdated": "1760389876"
+      }
     }
   }
 }
