@@ -1,6 +1,5 @@
 {
   "appid": "4057820",
-  "public_only": "1",
   "common": {
     "name": "Mosaic of the Strange Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "dd98b145ad6c69dbf3a4b2a2dd338e15c15af9d2",
     "icon": "dd98b145ad6c69dbf3a4b2a2dd338e15c15af9d2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -99,10 +98,105 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760370057",
+    "community_visible_stats": "1",
     "gameid": "4057820",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Mark Ffrench",
+    "publisher": "Divide The Plunder",
+    "homepage": "https://markffrench.com"
+  },
+  "config": {
+    "installdir": "Mosaic of the Strange Demo",
+    "launch": {
+      "0": {
+        "executable": "Mosaic of the Strange.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mosaic of the Strange.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4057821": {
+      "manifests": {
+        "public": {
+          "gid": "4208478273383983151",
+          "size": "373857069",
+          "download": "190709808"
+        }
+      }
+    },
+    "4057822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3337668722995080605",
+          "size": "402885286",
+          "download": "203827792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371712",
+        "timeupdated": "1760369787"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "200",
+    "appidredirect": "3444650",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Divide The Plunder Limited/Mosaic of the Strange",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Divide The Plunder Limited/Mosaic of the Strange",
+            "replace": "com.dividetheplunder.strange"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Divide The Plunder Limited/Mosaic of the Strange",
+            "replace": ".config/com/dividetheplunder/strange"
+          }
+        }
+      }
     }
   }
 }
