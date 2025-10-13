@@ -1,6 +1,5 @@
 {
   "appid": "4083680",
-  "public_only": "1",
   "common": {
     "name": "Toy Zombies Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6fffced2547029ddc451fd1240f70453c3cd0d75/capsule_231x87.jpg"
     },
@@ -105,5 +104,48 @@
     },
     "gameid": "4083680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Joelías_N1",
+    "publisher": "Joelías_N1"
+  },
+  "config": {
+    "installdir": "Toy Zombies Demo",
+    "launch": {
+      "0": {
+        "executable": "ToyZombies.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4083681": {
+      "manifests": {
+        "public": {
+          "gid": "2794089869230757774",
+          "size": "20952845239",
+          "download": "19815742112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365197",
+        "timeupdated": "1760342244"
+      }
+    }
   }
 }
