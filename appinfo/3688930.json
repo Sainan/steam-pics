@@ -1,10 +1,9 @@
 {
   "appid": "3688930",
-  "public_only": "1",
   "common": {
     "name": "Myrath Curse",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "397f20d5d5cf3d4ca9116a585385b9bf770d78ca",
     "clienticon": "3832180235e747eeb6678013cf2d682003f02a0f",
     "clienttga": "098c26b3c7f8ec9b1aa838294a2d473d4f847615",
@@ -83,6 +82,10 @@
       "1": {
         "type": "publisher",
         "name": "Gigantic G"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Gigantic G"
       }
     },
     "primary_genre": "3",
@@ -108,9 +111,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760100283",
     "community_hub_visible": "1",
     "gameid": "3688930",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -130,6 +133,36 @@
       "15": "5154",
       "16": "4182",
       "17": "492"
+    }
+  },
+  "extended": {
+    "developer": "TavernKey",
+    "publisher": "Gigantic G",
+    "homepage": "https://giganticg.com/"
+  },
+  "config": {
+    "installdir": "Myrath Curse",
+    "launch": {
+      "0": {
+        "executable": "Project_Myrath.exe"
+      }
+    }
+  },
+  "depots": {
+    "3688931": {
+      "manifests": {
+        "public": {
+          "gid": "3519420472581084705",
+          "size": "176724627",
+          "download": "133685696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20335143",
+        "timeupdated": "1760091276"
+      }
     }
   }
 }
