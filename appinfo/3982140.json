@@ -1,6 +1,5 @@
 {
   "appid": "3982140",
-  "public_only": "1",
   "common": {
     "name": "Hijong Park's Defender Patrol (Free)",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "openxrsupport": "1",
     "clienticon": "c04660392d989840339d5046c3313a1429b7cd6c",
     "icon": "946fb3bcddb6444658b6ac580eaa6bd9b1b72315",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -105,5 +104,41 @@
     },
     "gameid": "3982140",
     "exfgls": "6"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Hijong Park",
+    "publisher": "PsychoFlux Entertainment"
+  },
+  "config": {
+    "installdir": "Hijong Park's Defender Patrol (Free)",
+    "launch": {
+      "0": {
+        "executable": "Defender Patrol.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "Defender Patrol.exe",
+        "arguments": "-VR",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "3982141": {
+      "manifests": {
+        "public": {
+          "gid": "3633644959345908154",
+          "size": "241005475",
+          "download": "61876624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20238687",
+        "timeupdated": "1759494380"
+      }
+    }
   }
 }
