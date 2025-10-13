@@ -1,6 +1,5 @@
 {
   "appid": "4097960",
-  "public_only": "1",
   "common": {
     "name": "Space Chaos Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "559fa36f8573c2a276b33bab70b2e1e294187798/capsule_231x87.jpg"
@@ -96,5 +95,51 @@
     },
     "gameid": "4097960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tin Can Studio",
+    "publisher": "Tin Can Studio"
+  },
+  "config": {
+    "installdir": "Space Chaos Demo",
+    "launch": {
+      "0": {
+        "executable": "SpaceChaos.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4097961": {
+      "manifests": {
+        "public": {
+          "gid": "7702680901445252537",
+          "size": "1681885069",
+          "download": "1401938208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20366328",
+        "timeupdated": "1760347423"
+      }
+    }
   }
 }
