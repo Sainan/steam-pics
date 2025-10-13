@@ -1,4 +1,210 @@
 {
   "appid": "4014710",
-  "public_only": "1"
+  "common": {
+    "name": "The Bestest Alchemist Demo",
+    "type": "Demo",
+    "parent": "3926070",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "clienticon": "a069239a26fc79c5adb6ef56dd1eea1f189b380c",
+    "icon": "28619052e06defc5baa5b30a816427f7cf91ed0d",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "94c1787264695691b6bba5ed9f918b4c4af31e52/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "d24a51d8654f62c2154ffbb5128e8e5346c62054/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "100",
+        "height_pct": "63.194549305300995"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "db60835e2d916efcdca3ac52a4bbbdeca71e86d0/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "db60835e2d916efcdca3ac52a4bbbdeca71e86d0/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "919a72173d1b40b2f110197d58e0503e97b1f90a/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "919a72173d1b40b2f110197d58e0503e97b1f90a/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "919a72173d1b40b2f110197d58e0503e97b1f90a/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "ddb78c354eccb550721ef438798c7ed069314f4c/logo.png"
+        },
+        "image2x": {
+          "english": "ddb78c354eccb550721ef438798c7ed069314f4c/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "100",
+          "height_pct": "63.194549305300995"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "d1dd9747239e9b71905427400c66421687d11ff9/library_header.jpg"
+        },
+        "image2x": {
+          "english": "d1dd9747239e9b71905427400c66421687d11ff9/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759295284",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tabi Entertainment"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tabi Entertainment"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1760106709",
+    "gameid": "4014710",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tabi Entertainment",
+    "publisher": "Tabi Entertainment",
+    "homepage": "https://tabientertainment.com/"
+  },
+  "config": {
+    "installdir": "The Bestest Alchemist Demo",
+    "launch": {
+      "0": {
+        "executable": "TheBestestAlchemistDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "TheBestestAlchemistDemo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "TheBestestAlchemistDemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4014711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7773768812737346082",
+          "size": "377593600",
+          "download": "232339152"
+        }
+      }
+    },
+    "4014712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8524761009694247471",
+          "size": "538491043",
+          "download": "268741328"
+        }
+      }
+    },
+    "4014713": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8400033746131939323",
+          "size": "406205728",
+          "download": "204511504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20348161",
+        "timeupdated": "1760174191"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "50",
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "unity.Tabi Entertainment.TheBestestAlchemistDemo"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/Tabi Entertainment/TheBestestAlchemistDemo"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tabi Entertainment/TheBestestAlchemistDemo",
+        "pattern": "*"
+      }
+    }
+  }
 }
