@@ -1,4 +1,49 @@
 {
   "appid": "3988800",
-  "public_only": "1"
+  "common": {
+    "name": "ScreenWolf Pet Packager",
+    "type": "Tool",
+    "parent": "3875700",
+    "name_localized": {
+      "english": "ScreenWolf Pet Packager",
+      "schinese": "屏幕有狼桌宠打包程序"
+    },
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "b3b04beec08528345f8d4cb61dbdcc7266e224c6",
+    "icon": "b3b04beec08528345f8d4cb61dbdcc7266e224c6",
+    "releasestate": "released",
+    "gameid": "3988800"
+  },
+  "config": {
+    "installdir": "PetPackager",
+    "launch": {
+      "0": {
+        "executable": "PetPackagerGUI.exe"
+      }
+    }
+  },
+  "depots": {
+    "3988801": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8717352547564061484",
+          "size": "387103233",
+          "download": "223114256"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20362248",
+        "timeupdated": "1760319291"
+      }
+    }
+  }
 }
