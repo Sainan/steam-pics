@@ -1,11 +1,10 @@
 {
   "appid": "3635390",
-  "public_only": "1",
   "common": {
     "name": "Mutavolve Demo",
     "type": "Demo",
     "parent": "3558230",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8c56dfdfa2f75a3681390dc71bcef597e247eea4",
     "clienttga": "d0e90c6e40e994756be1a6e275ba9f4421e0f5e5",
     "clienticon": "6bc16527d48eb58038716420042fd8c9b099face",
@@ -181,6 +180,65 @@
       "2": "3",
       "3": "4",
       "4": "5"
+    }
+  },
+  "extended": {
+    "developer": "Harvid Studio",
+    "publisher": "Harvid Studio"
+  },
+  "config": {
+    "installdir": "Mutavolve Demo",
+    "launch": {
+      "0": {
+        "executable": "Mutavolve/Windows/Mutavolve.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3635391": {
+      "manifests": {
+        "public": {
+          "gid": "6184689409338125033",
+          "size": "1136377004",
+          "download": "973862320"
+        },
+        "review_nsfw": {
+          "gid": "8722413731596423123",
+          "size": "1035518914",
+          "download": "874507632"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20359197",
+        "timeupdated": "1760291841"
+      },
+      "review_nsfw": {
+        "buildid": "17997174",
+        "description": "Internal review build with mature content",
+        "timeupdated": "1743875863"
+      }
     }
   }
 }
