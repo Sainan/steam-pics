@@ -1,16 +1,15 @@
 {
   "appid": "3720720",
-  "public_only": "1",
   "common": {
     "name": "Under The Floor",
     "type": "Game",
     "clienttga": "10d01e266767614d4f61159fbd8a018607cb82b6",
-    "icon": "7d53928a527cae4aadbc38f2813a5aa6b81ac2eb",
-    "clienticon": "537b429f219ca0eedf9d487dc3708e0ed58ab00e",
+    "icon": "73c8621d43445fedd70941e64fb21af43828db9b",
+    "clienticon": "73c8621d43445fedd70941e64fb21af43828db9b",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3720720_eula_0",
@@ -131,11 +130,20 @@
       "german": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760332337",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3720720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -152,6 +160,90 @@
       "8": "599",
       "9": "4182",
       "10": "4667"
+    }
+  },
+  "extended": {
+    "developer": "No Laugh Studios",
+    "publisher": "No Laugh Studios"
+  },
+  "config": {
+    "installdir": "Under The Floor",
+    "launch": {
+      "0": {
+        "executable": "Under The Floor.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "Under The Floor.exe",
+        "arguments": "-force-d3d12",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play Game (DirectX12) ",
+          "french": "Jouer au jeu ( DirectX12 )"
+        },
+        "description": "Play Game (DirectX12) "
+      },
+      "2": {
+        "executable": "Under The Floor.exe",
+        "arguments": "-force-vulkan",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play Game (Vulkan)",
+          "french": "Jouer au jeu ( Vulkan )"
+        },
+        "description": "Play Game (Vulkan)"
+      }
+    }
+  },
+  "depots": {
+    "3720721": {
+      "manifests": {
+        "public": {
+          "gid": "7533449143170735679",
+          "size": "3066886037",
+          "download": "2478808048"
+        },
+        "firstversion": {
+          "gid": "5077999099626861888",
+          "size": "3080598304",
+          "download": "1896087408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20356073",
+        "timeupdated": "1760258238"
+      },
+      "firstversion": {
+        "buildid": "18334095",
+        "description": "firstversion",
+        "timeupdated": "1753971060"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "50",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "No Laugh Studios\\Under The Floor",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
