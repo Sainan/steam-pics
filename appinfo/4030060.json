@@ -1,6 +1,5 @@
 {
   "appid": "4030060",
-  "public_only": "1",
   "common": {
     "name": "Why Is Driving So Hard?",
     "type": "Game",
@@ -9,7 +8,23 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "russian": "1",
+      "japanese": "1",
+      "portuguese": "1",
+      "turkish": "1",
+      "arabic": "1",
+      "brazilian": "1",
+      "ukrainian": "1"
+    },
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -142,9 +157,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760211288",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4030060",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "699",
@@ -166,6 +182,40 @@
       "17": "4747",
       "18": "3968",
       "19": "1685"
+    }
+  },
+  "extended": {
+    "developer": "SteleDev",
+    "publisher": "SteleDev"
+  },
+  "config": {
+    "installdir": "Why Is Driving So Hard",
+    "launch": {
+      "0": {
+        "executable": "Why Is Driving So Hard.exe",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4030061": {
+      "manifests": {
+        "public": {
+          "gid": "6700627567425493138",
+          "size": "347845715",
+          "download": "87541360"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,tchinese,russian,japanese,portuguese,turkish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20352478",
+        "timeupdated": "1760211058"
+      }
     }
   }
 }
