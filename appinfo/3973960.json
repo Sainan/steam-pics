@@ -1,6 +1,5 @@
 {
   "appid": "3973960",
-  "public_only": "1",
   "common": {
     "name": "Love Eternal Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -143,5 +142,40 @@
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "brlka",
+    "publisher": "Ysbryd Games",
+    "homepage": "https://loveeternalgame.com/"
+  },
+  "config": {
+    "installdir": "Love Eternal Demo",
+    "launch": {
+      "0": {
+        "executable": "LoveEternal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3973961": {
+      "manifests": {
+        "public": {
+          "gid": "5036328338102349443",
+          "size": "598983339",
+          "download": "471751712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20362032",
+        "timeupdated": "1760317129"
+      }
+    },
+    "privatebranches": "1"
   }
 }
