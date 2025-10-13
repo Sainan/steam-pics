@@ -1,7 +1,7 @@
 {
   "appid": "4001750",
   "common": {
-    "name": "ざこのあひる ～メスガキvs鬼ざこ登山～ demo",
+    "name": "ZAKO NO AHIRU Demo",
     "type": "Demo",
     "parent": "2879980",
     "oslist": "windows",
@@ -10,6 +10,11 @@
     "icon": "32dc256ced02576173b9ec538f93a3b84d687c7d",
     "clienticon": "32dc256ced02576173b9ec538f93a3b84d687c7d",
     "releasestate": "released",
+    "name_localized": {
+      "japanese": "ざこのあひる Demo",
+      "schinese": "好杂鱼鸭 Demo",
+      "tchinese": "好雜魚鴨 Demo"
+    },
     "content_descriptors": {
       "0": "5"
     },
@@ -117,6 +122,12 @@
     "launch": {
       "0": {
         "executable": "zna-buildfolder\\Venom.exe"
+      },
+      "1": {
+        "executable": "zako no ahiru.exe",
+        "config": {
+          "betakey": "debug"
+        }
       }
     }
   },
@@ -136,6 +147,7 @@
         "buildid": "20216994",
         "timeupdated": "1759380414"
       }
-    }
+    },
+    "privatebranches": "1"
   }
 }
