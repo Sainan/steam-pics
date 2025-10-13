@@ -1,6 +1,5 @@
 {
   "appid": "4074130",
-  "public_only": "1",
   "common": {
     "name": "The Three Moons Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "6f9a8e8ffcbe7116e0524f628391319f7beb4a92/capsule_231x87.jpg"
@@ -63,7 +62,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760367167",
     "gameid": "4074130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Beyond Aether Studio",
+    "publisher": "Beyond Aether Studio"
+  },
+  "config": {
+    "installdir": "The Three Moons Demo",
+    "launch": {
+      "0": {
+        "executable": "The Three Moons Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4074131": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1287298761354229527",
+          "size": "3091224120",
+          "download": "1663721664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370847",
+        "timeupdated": "1760366390"
+      }
+    }
   }
 }
