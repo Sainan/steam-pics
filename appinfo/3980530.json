@@ -1,6 +1,5 @@
 {
   "appid": "3980530",
-  "public_only": "1",
   "common": {
     "name": "Lyara Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9597059b8bf93b6091df0cf462cc1eb37b9aadbf/capsule_231x87.jpg"
     },
@@ -91,5 +90,36 @@
     },
     "gameid": "3980530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bolha Game Studio",
+    "publisher": "Bolha Game Studio"
+  },
+  "config": {
+    "installdir": "Lyara Demo",
+    "launch": {
+      "1": {
+        "executable": "Lyara Demo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3980532": {
+      "manifests": {
+        "public": {
+          "gid": "5642877610612105838",
+          "size": "3452114775",
+          "download": "173021488"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20309382",
+        "timeupdated": "1759954522"
+      }
+    }
   }
 }
