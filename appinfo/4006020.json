@@ -119,11 +119,29 @@
     "launch": {
       "0": {
         "executable": "Windows/Adorable.exe",
-        "type": "default",
+        "arguments": "-dx12",
+        "type": "option1",
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "Adorable Adventures Demo (DirectX)"
+        },
+        "description": "Adorable Adventures Demo (DirectX)"
+      },
+      "1": {
+        "executable": "Windows/Adorable.exe",
+        "arguments": "-vulkan",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Adorable Adventures Demo (Vulkan/Steamdeck)"
+        },
+        "description": "Adorable Adventures Demo (Vulkan/Steamdeck)"
       }
     }
   },
