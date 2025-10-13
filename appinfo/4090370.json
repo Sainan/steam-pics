@@ -1,6 +1,5 @@
 {
   "appid": "4090370",
-  "public_only": "1",
   "common": {
     "name": "GOKA Street Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "58aa31a6ef670dc0355486ec36265f4755e8c128/capsule_231x87.jpg"
     },
@@ -78,7 +77,84 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760369075",
     "gameid": "4090370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "blay games",
+    "publisher": "blay games"
+  },
+  "config": {
+    "installdir": "GOKA Street Demo",
+    "launch": {
+      "0": {
+        "executable": "GOKA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GOKA.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "GOKA.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4090371": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1893328865886599278",
+          "size": "2179821154",
+          "download": "1322772096"
+        }
+      }
+    },
+    "4090372": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "150092189313025411",
+          "size": "1980087797",
+          "download": "1443300768"
+        }
+      }
+    },
+    "4090373": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5831755577689673521",
+          "size": "1859355924",
+          "download": "1534298768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20354347",
+        "timeupdated": "1760233180"
+      }
+    }
   }
 }
