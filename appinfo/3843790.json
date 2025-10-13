@@ -1,6 +1,5 @@
 {
   "appid": "3843790",
-  "public_only": "1",
   "common": {
     "name": "RUNNER Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "44c0d506d9dc39e4c33c6d6f0e777b7ad0e54aa6",
     "clienttga": "6a476c5cdc6694722eb925bd60fc5ef5b3c8dd54",
     "clienticon": "94bde117e93cd0e4debf1e161d7147f0777e2116",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "othervrsupport": "1",
     "othervrsupport_rift_13": "1",
     "openxrsupport": "1",
@@ -116,5 +115,58 @@
     "gameid": "3843790",
     "exfgls": "6",
     "onlyvrsupport": "1"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Truant Pixel, LLC",
+    "publisher": "Truant Pixel, LLC"
+  },
+  "config": {
+    "installdir": "RUNNER Demo",
+    "launch": {
+      "0": {
+        "executable": "RUNNERDemo.exe",
+        "arguments": "-openxr",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch RUNNER DEMO in OpenXR Mode"
+        },
+        "description": "Launch RUNNER DEMO in OpenXR Mode"
+      },
+      "1": {
+        "executable": "RUNNERDemo.exe",
+        "arguments": "-oculus",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch RUNNER DEMO in Oculus VR Mode"
+        },
+        "description": "Launch RUNNER DEMO in Oculus VR Mode"
+      }
+    }
+  },
+  "depots": {
+    "3843791": {
+      "manifests": {
+        "public": {
+          "gid": "8797793620667083128",
+          "size": "2185246187",
+          "download": "847544912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19262568",
+        "timeupdated": "1752768247"
+      }
+    }
   }
 }
