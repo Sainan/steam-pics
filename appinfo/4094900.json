@@ -1,6 +1,5 @@
 {
   "appid": "4094900",
-  "public_only": "1",
   "common": {
     "name": "Island Beekeeper Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "9420507f758b9c3245ff1b7cadb604ce9ec70fc2",
     "icon": "66cdf96d3c3a1273f24f61e28f4cf8feb1f7bac1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "47e97f10be72a05fa195e374dfd0cd3731e592df/capsule_231x87.jpg"
@@ -55,7 +54,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4094900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Akuseru Studio",
+    "publisher": "Akuseru Studio"
+  },
+  "config": {
+    "installdir": "Island Beekeeper Demo",
+    "launch": {
+      "0": {
+        "executable": "IslandBeekeeper.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4094901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1462094558267323291",
+          "size": "700187422",
+          "download": "549388000"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20370948",
+        "timeupdated": "1760366732"
+      }
+    }
   }
 }
