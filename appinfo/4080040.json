@@ -1,13 +1,12 @@
 {
   "appid": "4080040",
-  "public_only": "1",
   "common": {
     "name": "Arcane Rivals Demo",
     "type": "Demo",
     "parent": "4037090",
     "icon": "dffcbe551d098d50ef85f1fa0cb1aa2784b60ded",
     "clienticon": "dffcbe551d098d50ef85f1fa0cb1aa2784b60ded",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -46,5 +45,38 @@
     },
     "gameid": "4080040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SAT Productions",
+    "publisher": "Teneke Kafalar Spotlight"
+  },
+  "config": {
+    "installdir": "Arcane Rivals Demo",
+    "launch": {
+      "0": {
+        "executable": "Arcane Rivals.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4080041": {
+      "manifests": {
+        "public": {
+          "gid": "3259811982690468907",
+          "size": "1446561348",
+          "download": "387342256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358797",
+        "timeupdated": "1760288032"
+      }
+    }
   }
 }
