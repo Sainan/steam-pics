@@ -1,6 +1,5 @@
 {
   "appid": "4051380",
-  "public_only": "1",
   "common": {
     "name": "Ryne-Arca Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "4cc95348a4fbc03512b2eb757c1f33806724b53f",
     "clienticon": "4cc95348a4fbc03512b2eb757c1f33806724b53f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -46,7 +45,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760373877",
     "gameid": "4051380",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Asuka Watanabe",
+    "publisher": "Asuka Watanabe"
+  },
+  "config": {
+    "installdir": "Ryne-Arca Demo",
+    "launch": {
+      "0": {
+        "executable": "RyneArca.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4051381": {
+      "manifests": {
+        "public": {
+          "gid": "5096971361324115383",
+          "size": "7382954363",
+          "download": "2923874448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372069",
+        "timeupdated": "1760371355"
+      }
+    }
   }
 }
