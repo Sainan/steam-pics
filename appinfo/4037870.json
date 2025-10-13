@@ -1,6 +1,5 @@
 {
   "appid": "4037870",
-  "public_only": "1",
   "common": {
     "name": "Penny for Your Potion Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "37ebc926dacd71527a2db280164f5c58d92d326e/capsule_231x87.jpg"
@@ -98,7 +97,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760372799",
     "gameid": "4037870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Last Minute Studios",
+    "publisher": "Last Minute Studios"
+  },
+  "config": {
+    "installdir": "Penny for Your Potion Demo",
+    "launch": {
+      "0": {
+        "executable": "PennyForYourPotionDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PennyForYourPotion.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7634561652856096663",
+          "size": "718713151",
+          "download": "242539184"
+        }
+      }
+    },
+    "4037872": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6305471826966682188",
+          "size": "436132036",
+          "download": "141713328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372390",
+        "timeupdated": "1760372377"
+      }
+    }
   }
 }
