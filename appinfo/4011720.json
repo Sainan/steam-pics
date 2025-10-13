@@ -1,6 +1,5 @@
 {
   "appid": "4011720",
-  "public_only": "1",
   "common": {
     "name": "Pay at the pump",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,9 +110,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760364449",
     "community_hub_visible": "1",
     "gameid": "4011720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -139,6 +138,40 @@
       "17": "4182",
       "18": "21",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Lemon Software",
+    "publisher": "Lucas Santillan"
+  },
+  "config": {
+    "installdir": "Pay at the pump",
+    "launch": {
+      "0": {
+        "executable": "Horrortest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4011721": {
+      "manifests": {
+        "public": {
+          "gid": "3813848848031092655",
+          "size": "1105916391",
+          "download": "374482336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359845",
+        "timeupdated": "1760297936"
+      }
     }
   }
 }
