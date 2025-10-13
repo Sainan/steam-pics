@@ -1,6 +1,5 @@
 {
   "appid": "3979910",
-  "public_only": "1",
   "common": {
     "name": "Pickle Panic Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "3e7f31042c558b8233995dec584f5603efa9d535/capsule_231x87.jpg"
@@ -144,5 +143,59 @@
     },
     "gameid": "3979910",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nonfigure Studio",
+    "publisher": "Nonfigure Studio"
+  },
+  "config": {
+    "installdir": "Pickle Panic Demo",
+    "launch": {
+      "0": {
+        "executable": "PicklePanic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3979911": {
+      "manifests": {
+        "public": {
+          "gid": "8987980953837824546",
+          "size": "2470489664",
+          "download": "1832292688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370509",
+        "timeupdated": "1760364943"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1"
   }
 }
