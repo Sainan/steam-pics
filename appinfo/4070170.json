@@ -1,6 +1,5 @@
 {
   "appid": "4070170",
-  "public_only": "1",
   "common": {
     "name": "Nocky el Armadillo Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "94e8759ff554e3138a79599e8e1592849225f76d",
     "clienticns": "94e8759ff554e3138a79599e8e1592849225f76d",
     "linuxclienticon": "94e8759ff554e3138a79599e8e1592849225f76d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -62,7 +61,58 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760349627",
     "gameid": "4070170",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Martí Quintana Muñoz",
+    "publisher": "Martí Quintana Muñoz"
+  },
+  "config": {
+    "installdir": "Nocky el Armadillo Demo",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65533",
+    "launch": {
+      "0": {
+        "executable": "Nocky el Armadillo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4070171": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8877778358510717028",
+          "size": "2809075794",
+          "download": "114488560"
+        },
+        "original": {
+          "gid": "1816259382032726934",
+          "size": "2809075794",
+          "download": "114513424"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20354033",
+        "timeupdated": "1760228379"
+      },
+      "original": {
+        "buildid": "20353327",
+        "description": "Primera versión estable",
+        "timeupdated": "1760228393"
+      }
+    }
   }
 }
