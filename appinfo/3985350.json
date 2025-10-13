@@ -1,10 +1,9 @@
 {
   "appid": "3985350",
-  "public_only": "1",
   "common": {
     "name": "The Dark Protocol",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759489211",
     "community_hub_visible": "1",
     "gameid": "3985350",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -126,6 +125,60 @@
       "11": "1755",
       "12": "3978",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Infinium Game Studio",
+    "publisher": "Infinium Game Studio",
+    "homepage": "https://infiniumgamestudio.net/"
+  },
+  "config": {
+    "installdir": "The Dark Protocol",
+    "launch": {
+      "0": {
+        "executable": "The Dark Protocol.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "The Dark Protocol.exe",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3985351": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8028043986761686136",
+          "size": "368534609",
+          "download": "113303680"
+        }
+      }
+    },
+    "3985352": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20107993",
+        "timeupdated": "1758712756"
+      }
     }
   }
 }
