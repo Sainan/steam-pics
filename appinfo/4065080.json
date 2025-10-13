@@ -1,6 +1,5 @@
 {
   "appid": "4065080",
-  "public_only": "1",
   "common": {
     "name": "Ledgerbound Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "8b2bfe17bb6728e6920f77f939e5c34821a72a3f",
     "clienticon": "8b2bfe17bb6728e6920f77f939e5c34821a72a3f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -104,11 +103,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760371385",
     "gameid": "4065080",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "OmniMegaSuperCorp",
+    "publisher": "OmniMegaSuperCorp",
+    "homepage": "https://www.ledgerbound.com/"
+  },
+  "config": {
+    "installdir": "Ledgerbound Demo",
+    "launch": {
+      "0": {
+        "executable": "Tactics.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4065081": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7762296088575271813",
+          "size": "12963050828",
+          "download": "1956055008"
+        },
+        "verify": {
+          "gid": "6124970800855830330",
+          "size": "12771830149",
+          "download": "1915723568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20352749",
+        "timeupdated": "1760312096"
+      },
+      "verify": {
+        "buildid": "20231475",
+        "description": "branch for steam to verify our game",
+        "timeupdated": "1759451487"
+      }
     }
   }
 }
