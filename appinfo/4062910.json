@@ -1,6 +1,5 @@
 {
   "appid": "4062910",
-  "public_only": "1",
   "common": {
     "name": "Exodus of Descent Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "692dfc1ef2d9c40ea0de0825393c9435d919dfd1/capsule_231x87.jpg"
@@ -42,7 +41,59 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760353210",
     "gameid": "4062910",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Yooper Game Studios LLC",
+    "publisher": "Yooper Game Studios LLC",
+    "homepage": "https://www.yoopergamestudios.com"
+  },
+  "config": {
+    "installdir": "Exodus of Descent Demo",
+    "launch": {
+      "0": {
+        "executable": "Exodus_of_Descent.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4062911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1725487879013867082",
+          "size": "4294716527",
+          "download": "4065140736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20367030",
+        "timeupdated": "1760350245"
+      }
+    }
   }
 }
