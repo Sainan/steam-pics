@@ -1,6 +1,5 @@
 {
   "appid": "3826430",
-  "public_only": "1",
   "common": {
     "name": "What do you call a group of skeletons? Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -103,5 +102,49 @@
     },
     "gameid": "3826430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Arctic Bones",
+    "publisher": "Arctic Bones"
+  },
+  "config": {
+    "installdir": "WDYCAGOS Demo",
+    "launch": {
+      "0": {
+        "executable": "SkeletonGame.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3826431": {
+      "manifests": {
+        "public": {
+          "gid": "1595009018037340321",
+          "size": "502527894",
+          "download": "364467008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370915",
+        "timeupdated": "1760366538"
+      }
+    }
   }
 }
