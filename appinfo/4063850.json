@@ -1,6 +1,5 @@
 {
   "appid": "4063850",
-  "public_only": "1",
   "common": {
     "name": "Code angel Reloaded VR Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "content_descriptors": {
       "0": "5"
@@ -63,6 +62,40 @@
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "FERAL RAGE STUDIO",
+    "publisher": "FERAL RAGE STUDIO",
+    "homepage": "https://store.steampowered.com/app/3538760/Code_angel_Reloaded_VR/"
+  },
+  "config": {
+    "installdir": "Code angel Reloaded VR Demo",
+    "launch": {
+      "0": {
+        "executable": "Code Angel Reloaded VR.exe",
+        "type": "vr",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4063851": {
+      "manifests": {
+        "public": {
+          "gid": "9169388706894258655",
+          "size": "17042268731",
+          "download": "6999550784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20237998",
+        "timeupdated": "1759494894"
+      }
     }
   }
 }
