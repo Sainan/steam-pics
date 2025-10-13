@@ -1,6 +1,5 @@
 {
   "appid": "3790780",
-  "public_only": "1",
   "common": {
     "name": "Love or Lust Beach Stories Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -109,6 +108,56 @@
       "1": "3",
       "2": "4",
       "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "Night Icons",
+    "publisher": "Bear in the Night"
+  },
+  "config": {
+    "installdir": "Love or Lust Beach Stories Demo",
+    "launch": {
+      "0": {
+        "executable": "Love or Lust Beach Stories Demo.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Love or Lust Beach Stories Demo"
+        },
+        "description": "Love or Lust Beach Stories Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3790781": {
+      "manifests": {
+        "public": {
+          "gid": "4979527977337302827",
+          "size": "3743447951",
+          "download": "3565043744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20305400",
+        "timeupdated": "1760000448"
+      }
     }
   }
 }
