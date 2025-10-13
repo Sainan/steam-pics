@@ -1,11 +1,10 @@
 {
   "appid": "3988750",
-  "public_only": "1",
   "common": {
     "name": "Way of Madness Demo",
     "type": "Demo",
     "parent": "3866230",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "943b8514a6e24b37b5e0e7c123ef54372db382bd",
     "clienticon": "943b8514a6e24b37b5e0e7c123ef54372db382bd",
     "oslist": "windows",
@@ -43,13 +42,77 @@
       "english": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "turkish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760365578",
     "gameid": "3988750",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Vesvese Studios",
+    "publisher": "Vesvese Studios",
+    "homepage": "https://vesvesestudios.com"
+  },
+  "config": {
+    "installdir": "Way of Madness",
+    "launch": {
+      "0": {
+        "executable": "Way of Madness.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3988751": {
+      "manifests": {
+        "public": {
+          "gid": "2744607222737270231",
+          "size": "2837672624",
+          "download": "246194272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370634",
+        "timeupdated": "1760365421"
+      }
     }
   }
 }
