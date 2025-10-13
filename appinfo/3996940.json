@@ -1,6 +1,5 @@
 {
   "appid": "3996940",
-  "public_only": "1",
   "common": {
     "name": "Servant of the Lake Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c7258556e7065e6031ac6bb9bd8c255bdfd64f56/capsule_231x87.jpg"
@@ -197,7 +196,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760353351",
     "gameid": "3996940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rusty Lake",
+    "publisher": "Rusty Lake",
+    "homepage": "https://www.rustylake.com"
+  },
+  "config": {
+    "installdir": "Servant of the Lake Demo",
+    "launch": {
+      "0": {
+        "executable": "ServantOfTheLakeDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ServantOfTheLakeDemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3996941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7749415784539118942",
+          "size": "78669546",
+          "download": "69607312"
+        }
+      }
+    },
+    "3996942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4014930901553346250",
+          "size": "106072919",
+          "download": "79091616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365584",
+        "timeupdated": "1760344107"
+      }
+    }
   }
 }
