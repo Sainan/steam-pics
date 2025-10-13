@@ -1,6 +1,5 @@
 {
   "appid": "4090630",
-  "public_only": "1",
   "common": {
     "name": "Epic Survivors Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "4"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -98,10 +97,53 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760370592",
     "gameid": "4090630",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Blue Shrimp Games",
+    "publisher": "Blue Shrimp Games"
+  },
+  "config": {
+    "installdir": "Epic Survivors Demo",
+    "launch": {
+      "0": {
+        "executable": "epic_survivors.exe"
+      }
+    }
+  },
+  "depots": {
+    "4090631": {
+      "manifests": {
+        "public": {
+          "gid": "3796650827307374564",
+          "size": "858422636",
+          "download": "116592272"
+        }
+      }
+    },
+    "4090632": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1757408221788788390",
+          "size": "857946669",
+          "download": "116974544"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20371732",
+        "timeupdated": "1760369933"
+      }
     }
   }
 }
