@@ -1,6 +1,5 @@
 {
   "appid": "3895230",
-  "public_only": "1",
   "common": {
     "name": "PANOPTYCA : Idle RPG Manager Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "422a409caa53655b35d4c86fb0c40ef5fb5b9ca7/capsule_231x87.jpg"
@@ -150,7 +149,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760373377",
     "gameid": "3895230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Tesseract Studio",
+    "publisher": "Tesseract Studio"
+  },
+  "config": {
+    "installdir": "PanoptycaDemo",
+    "launch": {
+      "0": {
+        "executable": "Panoptyca.exe",
+        "description_loc": {
+          "english": "panoptyca"
+        },
+        "description": "panoptyca"
+      }
+    }
+  },
+  "depots": {
+    "3895231": {
+      "manifests": {
+        "public": {
+          "gid": "5153710178399840148",
+          "size": "1162591893",
+          "download": "738675136"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20370882",
+        "timeupdated": "1760367139"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "TesseractStudio/Panoptyca/",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
