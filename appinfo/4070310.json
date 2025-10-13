@@ -1,6 +1,5 @@
 {
   "appid": "4070310",
-  "public_only": "1",
   "common": {
     "name": "Kando Realm Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ea2abff525da68e7c0c6442f519f92ccaaa40212/capsule_231x87.jpg"
     },
@@ -51,7 +50,41 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759868296",
     "gameid": "4070310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "KO Studio Games",
+    "publisher": "KO Studio Games"
+  },
+  "config": {
+    "installdir": "Kando Realm Demo",
+    "launch": {
+      "0": {
+        "executable": "Client2.038Demo\\Kando Realm.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4070311": {
+      "manifests": {
+        "public": {
+          "gid": "4279429523275588415",
+          "size": "215393205",
+          "download": "48315888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20375023",
+        "timeupdated": "1760384876"
+      }
+    }
   }
 }
