@@ -1,6 +1,5 @@
 {
   "appid": "3939410",
-  "public_only": "1",
   "common": {
     "name": "Sherlock Holmes: Night Stalker - Demo",
     "type": "Demo",
@@ -42,7 +41,7 @@
     "icon": "6fd6a05c284ce1e076eb703f7305ac3b7dc6a5de",
     "clienttga": "2f1e0b7b5bb2a2115121665164e65011e4e0b82e",
     "clienticon": "6fd6a05c284ce1e076eb703f7305ac3b7dc6a5de",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -108,7 +107,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759198463",
+    "store_asset_mtime": "1760167955",
     "associations": {
       "0": {
         "type": "developer",
@@ -121,9 +120,8 @@
     },
     "primary_genre": "23",
     "genres": {
-      "0": "25",
-      "1": "23",
-      "2": "3"
+      "0": "23",
+      "1": "3"
     },
     "category": {
       "category_2": "1",
@@ -141,19 +139,15 @@
         "subtitles": "true"
       },
       "french": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "italian": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "german": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "spanish": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "danish": {
@@ -163,7 +157,6 @@
         "subtitles": "true"
       },
       "russian": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "bulgarian": {
@@ -188,7 +181,6 @@
         "subtitles": "true"
       },
       "japanese": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "polish": {
@@ -201,7 +193,6 @@
         "subtitles": "true"
       },
       "tchinese": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "romanian": {
@@ -217,7 +208,6 @@
         "subtitles": "true"
       },
       "portuguese": {
-        "full_audio": "true",
         "subtitles": "true"
       },
       "latam": {
@@ -230,11 +220,90 @@
         "subtitles": "true"
       },
       "koreana": {
-        "full_audio": "true",
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760180755",
     "gameid": "3939410",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gamercury AI",
+    "publisher": "Gamercury AI",
+    "homepage": "https://gamercury.com"
+  },
+  "config": {
+    "installdir": "Sherlock",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3939411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8645785009474016499",
+          "size": "8655233889",
+          "download": "6484796848"
+        }
+      }
+    },
+    "3939412": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2179784643146353040",
+          "size": "7960220532",
+          "download": "5919600304"
+        }
+      }
+    },
+    "3939413": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20368105",
+        "timeupdated": "1760355156"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
