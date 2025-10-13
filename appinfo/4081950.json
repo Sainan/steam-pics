@@ -1,6 +1,5 @@
 {
   "appid": "4081950",
-  "public_only": "1",
   "common": {
     "name": "Cold Steel Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "885b9e156abd58578eb97e6383496d9a6c894ce9",
     "icon": "885b9e156abd58578eb97e6383496d9a6c894ce9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f37659e53ff742180bf746c396ce791b41f5cadc/capsule_231x87.jpg"
@@ -60,7 +59,56 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4081950",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Electronic Imagination",
+    "publisher": "Electronic Imagination"
+  },
+  "config": {
+    "installdir": "Cold Steel Demo",
+    "launch": {
+      "0": {
+        "executable": "Mind.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4081951": {
+      "manifests": {
+        "public": {
+          "gid": "3110750567800682259",
+          "size": "805345493",
+          "download": "631252496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20373021",
+        "timeupdated": "1760374765"
+      }
+    }
   }
 }
