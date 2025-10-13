@@ -1,6 +1,5 @@
 {
   "appid": "3724510",
-  "public_only": "1",
   "common": {
     "name": "A Better World Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "609d45fa22a1790a686904673bb2781d4a4f0778",
     "clienticon": "8dc2a0ab8ee92c82a86b9b1f7de1c6effd87c6b9",
     "clienttga": "8c3fa2689b1460a468787285302c4176d2bd6099",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "aa374a779985c4609571a4cfee91f97444aa799d/capsule_231x87.jpg"
@@ -48,7 +47,63 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3724510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ludogram",
+    "publisher": "ARTE France"
+  },
+  "config": {
+    "installdir": "A Better World Demo",
+    "launch": {
+      "0": {
+        "executable": "ABetterWorld.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ABetterWorld.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3724511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8883525293392859947",
+          "size": "1979697958",
+          "download": "916139744"
+        }
+      }
+    },
+    "3724512": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6222222835511369871",
+          "size": "2113004702",
+          "download": "972567136"
+        }
+      }
+    },
+    "baselanguages": "english,german,french",
+    "branches": {
+      "public": {
+        "buildid": "20340105",
+        "timeupdated": "1760112094"
+      }
+    },
+    "privatebranches": "1"
   }
 }
