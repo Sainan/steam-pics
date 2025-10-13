@@ -1,13 +1,12 @@
 {
   "appid": "3612610",
-  "public_only": "1",
   "common": {
     "name": "Stackmancy",
     "type": "Game",
     "icon": "e33aa559be0d25c51fd57b65288a235b6c932b3c",
     "clienttga": "7004cf9d516406a2345dcc58a06c8b95d03eca5f",
     "clienticon": "e1125988db8eedab0de87be2d2139e0dd87d067b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -104,9 +103,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760341693",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3612610",
-    "exfgls": "8",
     "store_tags": {
       "0": "1666",
       "1": "1734",
@@ -123,6 +123,51 @@
       "12": "4057",
       "13": "4182",
       "14": "492"
+    }
+  },
+  "extended": {
+    "developer": "Quirky Duck Studios",
+    "publisher": "Quirky Duck Studios"
+  },
+  "config": {
+    "installdir": "Stackmancy",
+    "launch": {
+      "0": {
+        "executable": "Stackmancy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3612611": {
+      "manifests": {
+        "public": {
+          "gid": "4530908477512449697",
+          "size": "129060284",
+          "download": "54117264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20337194",
+        "timeupdated": "1760100288"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Stackmancy",
+        "pattern": "*"
+      }
     }
   }
 }
