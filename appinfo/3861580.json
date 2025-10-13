@@ -1,6 +1,5 @@
 {
   "appid": "3861580",
-  "public_only": "1",
   "common": {
     "name": "Repel The Rifts Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "4b18e1f2a7e454eea82b330a5bfc5df9be783ae1",
     "clienttga": "5bd905fd83d92a10a74da6c211883a667890e84d",
     "clienticon": "44d61c20e9dd950d6a83727b6e7b2b95461166b5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -50,9 +49,83 @@
       },
       "schinese": {
         "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
       }
     },
     "gameid": "3861580",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "RefinedBearGames",
+    "publisher": "Goblinz Publishing"
+  },
+  "config": {
+    "installdir": "Repel The Rifts Demo",
+    "launch": {
+      "0": {
+        "executable": "RepelTheRifts.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RepelTheRifts.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3861581": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4633889021423008503",
+          "size": "116834912",
+          "download": "50178752"
+        }
+      }
+    },
+    "3861582": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4811422767657621669",
+          "size": "126454776",
+          "download": "53868464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370459",
+        "timeupdated": "1760365589"
+      }
+    },
+    "privatebranches": "1"
   }
 }
