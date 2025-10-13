@@ -3,9 +3,9 @@
   "common": {
     "name": "叔父さんを堕とすまで",
     "type": "Game",
-    "icon": "777d40685309ca1a1a69c6f745632406b5d2cd1d",
+    "icon": "b13af2f70c0e2c4226eea0248d4a9ca912db24f2",
     "clienttga": "620167a6f2c3b47072428cfaf06870ddec874f8b",
-    "clienticon": "6bc04fd39028eb820556cfde35d4aa9e3b0bfc18",
+    "clienticon": "b13af2f70c0e2c4226eea0248d4a9ca912db24f2",
     "name_localized": {
       "english": "Pursuing My Uncle",
       "koreana": "숙부를 함락시키기까지"
@@ -156,6 +156,17 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "ojisan-darwin-x64/ojisan.app/Contents/MacOS/ojisan",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "mac対応"
+        },
+        "description": "mac対応"
       }
     }
   },
@@ -169,11 +180,23 @@
         }
       }
     },
+    "3918962": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6148559738935779264",
+          "size": "542268514",
+          "download": "369964128"
+        }
+      }
+    },
     "baselanguages": "english,koreana,japanese",
     "branches": {
       "public": {
-        "buildid": "20116891",
-        "timeupdated": "1758757134"
+        "buildid": "20355206",
+        "timeupdated": "1760246965"
       }
     }
   }
