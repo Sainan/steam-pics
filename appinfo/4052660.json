@@ -1,6 +1,5 @@
 {
   "appid": "4052660",
-  "public_only": "1",
   "common": {
     "name": "The Butcher's Village™: Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "7bbdcf037bed1f72ec3699b34ebf4f70de6f8313",
     "icon": "a35f5e588d2aace39138ac0d8e6f381f381fc2ab",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,6 +110,57 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "WinterBloom Games",
+    "publisher": "WinterBloom Games"
+  },
+  "config": {
+    "installdir": "The Butchers Village Demo",
+    "launch": {
+      "0": {
+        "executable": "THEBUTCHERSVILLAGE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4052661": {
+      "manifests": {
+        "public": {
+          "gid": "1518896549010706918",
+          "size": "15743868459",
+          "download": "15323117632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370827",
+        "timeupdated": "1760366204"
+      }
     }
   }
 }
