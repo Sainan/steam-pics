@@ -1,6 +1,5 @@
 {
   "appid": "4068460",
-  "public_only": "1",
   "common": {
     "name": "Survive: The Alien Tracing Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "c84287195574caf0c51f854c62dbe6a854cd474b",
     "clienticon": "c84287195574caf0c51f854c62dbe6a854cd474b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,6 +110,39 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "ST Productions",
+    "publisher": "ST Productions"
+  },
+  "config": {
+    "installdir": "Survive The Alien Tracing",
+    "launch": {
+      "0": {
+        "executable": "Survive The Alien Tracing\\Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068461": {
+      "manifests": {
+        "public": {
+          "gid": "7622803370212208807",
+          "size": "748453149",
+          "download": "620730768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361832",
+        "timeupdated": "1760315089"
+      }
     }
   }
 }
