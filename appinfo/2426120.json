@@ -1,6 +1,5 @@
 {
   "appid": "2426120",
-  "public_only": "1",
   "common": {
     "name": "Concubine",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "0ec5267bccc2f3ac6b0599c2fef18205d81ff8d0",
     "clienttga": "e1641dc58728fab636ad580dc7f86f5f7ab5b13f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760367600",
     "community_hub_visible": "1",
     "gameid": "2426120",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -135,6 +134,59 @@
       "17": "4172",
       "18": "1697",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Upgrade Entertainment",
+    "publisher": "Upgrade Entertainment",
+    "homepage": "https://www.upgrade-entertainment.com/concubine"
+  },
+  "config": {
+    "installdir": "Concubine",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "6",
+    "launch": {
+      "0": {
+        "executable": "Concubine.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2426121": {
+      "manifests": {
+        "public": {
+          "gid": "2180394121246228028",
+          "size": "6544746874",
+          "download": "5933937184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20360752",
+        "timeupdated": "1760305706"
+      }
     }
   }
 }
