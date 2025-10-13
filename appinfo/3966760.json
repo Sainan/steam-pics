@@ -1,10 +1,9 @@
 {
   "appid": "3966760",
-  "public_only": "1",
   "common": {
     "name": "Web2APK",
     "type": "Application",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "73d7aa64a2bb0066cc3cd31f8fedf1c6a73a2fe5",
     "linuxclienticon": "b2745076c3bbcfd128cdf39f78190c77792b53d0",
     "clienticon": "fcf8367a825c2e58408949abd3fce78100f829da",
@@ -106,6 +105,40 @@
     "store_tags": {
       "0": "1038",
       "1": "8013"
+    }
+  },
+  "extended": {
+    "developer": "吴远志",
+    "publisher": "孤单工作室"
+  },
+  "config": {
+    "installdir": "Web2APK",
+    "launch": {
+      "0": {
+        "executable": "Web2APK.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3966761": {
+      "manifests": {
+        "public": {
+          "gid": "5795057631352356724",
+          "size": "2405729431",
+          "download": "915368256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20259195",
+        "timeupdated": "1759663070"
+      }
     }
   }
 }
