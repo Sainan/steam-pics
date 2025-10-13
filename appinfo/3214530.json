@@ -1,13 +1,12 @@
 {
   "appid": "3214530",
-  "public_only": "1",
   "common": {
     "name": "Treasure 'n Trio",
     "type": "Game",
     "icon": "11a9339cb613403c943403a86eaed40fa72145ff",
     "clienticon": "e274b51aeb54b7717aea06d4c64095cb4c5659b7",
     "clienttga": "61900dd29312447ce2f43e9b9cc1d894ae829797",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -16,7 +15,7 @@
       "koreana": "1"
     },
     "controllertagwizard": "1",
-    "controller_support": "full",
+    "controller_support": "partial",
     "small_capsule": {
       "english": "024598e87516d50d0854ad1ea9061fb17e558b7d/capsule_231x87.jpg"
     },
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758702958",
+    "store_asset_mtime": "1760034867",
     "associations": {
       "0": {
         "type": "developer",
@@ -96,13 +95,13 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
       "category_67": "1",
       "category_68": "1",
       "category_74": "1",
       "category_79": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_18": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -137,9 +136,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760029206",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3214530",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "1730",
@@ -158,6 +158,57 @@
       "14": "4726",
       "15": "7208",
       "16": "113"
+    },
+    "review_score": "8",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "TNT",
+    "publisher": "TNT"
+  },
+  "config": {
+    "installdir": "Treasure 'n Trio",
+    "launch": {
+      "0": {
+        "executable": "Treasure 'n Trio.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Treasure 'n Trio.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3214531": {
+      "manifests": {
+        "public": {
+          "gid": "1395826807358196498",
+          "size": "2992717092",
+          "download": "235208768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20353296",
+        "timeupdated": "1760219878"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "TNT/Treasure 'n Trio",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
