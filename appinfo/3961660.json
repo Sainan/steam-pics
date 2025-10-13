@@ -1,11 +1,10 @@
 {
   "appid": "3961660",
-  "public_only": "1",
   "common": {
     "name": "Soul's Remnant Demo",
     "type": "Demo",
     "parent": "3451980",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d773ba0f9313797b27d2a3918297255c5256d75c",
     "clienticon": "88df37276adeab4dc762cf39ce4dea3095e4a3e6",
     "oslist": "windows,macos,linux",
@@ -93,7 +92,83 @@
       "category_38": "1",
       "category_27": "1"
     },
+    "steam_release_date": "1760338419",
     "gameid": "3961660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Chaomoon",
+    "publisher": "Chaomoon",
+    "homepage": "https://soulsremnant.com"
+  },
+  "config": {
+    "installdir": "Soul's Remnant Demo",
+    "launch": {
+      "0": {
+        "executable": "Soul's Remnant.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Soul's Remnant.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Soul's Remnant.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3961661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8052379138855018639",
+          "size": "234939804",
+          "download": "157126448"
+        }
+      }
+    },
+    "3961662": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7591346663179148140",
+          "size": "218852709",
+          "download": "152865600"
+        }
+      }
+    },
+    "3961663": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "486293878345306411",
+          "size": "356429873",
+          "download": "189699536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20364582",
+        "timeupdated": "1760338320"
+      }
+    }
   }
 }
