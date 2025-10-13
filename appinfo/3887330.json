@@ -1,6 +1,5 @@
 {
   "appid": "3887330",
-  "public_only": "1",
   "common": {
     "name": "Flipping Phantom Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -47,5 +46,49 @@
     },
     "gameid": "3887330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "HonigBeeGames",
+    "publisher": "HonigBeeGames"
+  },
+  "config": {
+    "installdir": "Flipping Phantom Demo",
+    "launch": {
+      "0": {
+        "executable": "Flipping Phantom.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "3887331": {
+      "manifests": {
+        "public": {
+          "gid": "5879679885304083669",
+          "size": "121904200",
+          "download": "45386288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20374831",
+        "timeupdated": "1760383882"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "HonigBeeGames/Flipping Phantom",
+        "pattern": "*"
+      }
+    },
+    "appidredirect": "3866090"
   }
 }
