@@ -1,6 +1,5 @@
 {
   "appid": "4041080",
-  "public_only": "1",
   "common": {
     "name": "Draft Day Sports: Pro Football 2026",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "056d71a3aba3c33e3e303f56dfdc009e59910d0f",
     "clienticon": "056d71a3aba3c33e3e303f56dfdc009e59910d0f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "54d02b87bfb003704d1c8ef2bbd3cfad9188bf3f/capsule_231x87.jpg"
@@ -73,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758244247",
+    "store_asset_mtime": "1759418843",
     "associations": {
       "0": {
         "type": "developer",
@@ -100,9 +99,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4041080",
-    "exfgls": "8",
     "store_tags": {
       "0": "701",
       "1": "599",
@@ -110,6 +109,47 @@
       "3": "1254552",
       "4": "4182",
       "5": "492"
+    }
+  },
+  "extended": {
+    "developer": "Wolverine Studios",
+    "publisher": "Wolverine Studios"
+  },
+  "config": {
+    "installdir": "Draft Day Sports Pro Football 2026",
+    "launch": {
+      "0": {
+        "executable": "DDSPF26.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4041081": {
+      "manifests": {
+        "public": {
+          "gid": "3872432079063296318",
+          "size": "426638335",
+          "download": "210561616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20375013",
+        "timeupdated": "1760384746"
+      }
     }
   }
 }
