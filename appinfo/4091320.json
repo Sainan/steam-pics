@@ -1,6 +1,5 @@
 {
   "appid": "4091320",
-  "public_only": "1",
   "common": {
     "name": "Under The Red Sky Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0218848385782fb60923277bfadc67976ec877c/capsule_231x87.jpg"
     },
@@ -112,5 +111,110 @@
     },
     "gameid": "4091320",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dedragames",
+    "publisher": "JumpButton Studios"
+  },
+  "config": {
+    "installdir": "Under The Red Sky Demo",
+    "launch": {
+      "0": {
+        "executable": "Under The Red Sky.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Under The Red Sky.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "Under The Red Sky",
+        "arguments": "--no-sandbox --disable-gpu-sandbox",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4091321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1455372588461586438",
+          "size": "378293205",
+          "download": "159498032"
+        }
+      }
+    },
+    "4091322": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4845959994109718071",
+          "size": "349517743",
+          "download": "144164208"
+        }
+      }
+    },
+    "4091323": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3411090246448133044",
+          "size": "366779789",
+          "download": "148631840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20357676",
+        "timeupdated": "1760277273"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "appidredirect": "3870330",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "4": {
+        "root": "WinAppDataRoaming",
+        "path": "com.dedra.utrs",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      }
+    }
   }
 }
