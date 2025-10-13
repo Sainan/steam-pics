@@ -1,6 +1,5 @@
 {
   "appid": "3982860",
-  "public_only": "1",
   "common": {
     "name": "Events Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "",
     "clienticon": "51936ad76c880437aee554bf3e42d7875f1817c2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef9593d2c6a48a0affb06e1555144487865ec858/capsule_231x87.jpg"
     },
@@ -88,5 +87,54 @@
     },
     "gameid": "3982860",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Vivarium Interactive",
+    "publisher": "Vivarium Interactive"
+  },
+  "config": {
+    "installdir": "Events Demo",
+    "launch": {
+      "0": {
+        "executable": "Events.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3982861": {
+      "manifests": {
+        "public": {
+          "gid": "4109201592338683663",
+          "size": "11838292695",
+          "download": "10985342080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20375326",
+        "timeupdated": "1760386227"
+      }
+    },
+    "privatebranches": "1"
   }
 }
