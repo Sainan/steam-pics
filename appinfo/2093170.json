@@ -102,7 +102,17 @@
     "launch": {
       "0": {
         "executable": "Wizordum.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Wizordum.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
