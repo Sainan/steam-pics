@@ -1,13 +1,12 @@
 {
   "appid": "4022660",
-  "public_only": "1",
   "common": {
     "name": "Tiny space pirate Demo",
     "type": "Demo",
     "parent": "3921290",
     "icon": "e4996b3cdce6c6b9f751665811db67cbc03994df",
     "clienticon": "e4996b3cdce6c6b9f751665811db67cbc03994df",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -29,8 +28,76 @@
       }
     },
     "primary_genre": "0",
-    "category": {},
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
     "gameid": "4022660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TobiasMax Games",
+    "publisher": "TobiasMax Games"
+  },
+  "config": {
+    "installdir": "Tiny space pirate Demo",
+    "launch": {
+      "0": {
+        "executable": "Main.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TinySpacePirate.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4022661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3842245530575571131",
+          "size": "374515075",
+          "download": "127344016"
+        }
+      }
+    },
+    "4022662": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5455992298349895604",
+          "size": "402103027",
+          "download": "138216736"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20371998",
+        "timeupdated": "1760370867"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "2"
   }
 }
