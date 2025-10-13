@@ -11,6 +11,7 @@
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
+    "openxrsupport": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -154,6 +155,18 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Numeral Strike Demo.exe",
+        "arguments": "--rendering-driver opengl3",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "OpenGl Build"
+        },
+        "description": "OpenGl Build"
       }
     }
   },
