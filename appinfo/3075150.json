@@ -1,6 +1,5 @@
 {
   "appid": "3075150",
-  "public_only": "1",
   "common": {
     "name": "The Cuniculus of Paradise",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "01a7ceb4b44d2d757db5c9e23c8c2f241238a757",
     "clienticon": "c2e5c54a02562e60748910e41d41874c1524b0fd",
     "clienttga": "08b89e613cd0754fae119dd94845282810a39f3c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -103,6 +102,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -119,30 +119,100 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760151646",
     "community_hub_visible": "1",
     "gameid": "3075150",
-    "exfgls": "8",
     "store_tags": {
-      "0": "4434",
-      "1": "5611",
-      "2": "122",
-      "3": "4085",
-      "4": "1741",
-      "5": "5752",
-      "6": "492",
-      "7": "4182",
-      "8": "4726",
-      "9": "1742",
-      "10": "24904",
-      "11": "3942",
-      "12": "4947",
-      "13": "4325",
-      "14": "6650",
-      "15": "4305",
-      "16": "6426",
-      "17": "5577",
-      "18": "9551",
-      "19": "14139"
+      "0": "6650",
+      "1": "12095",
+      "2": "4434",
+      "3": "5611",
+      "4": "122",
+      "5": "4085",
+      "6": "1741",
+      "7": "5752",
+      "8": "492",
+      "9": "4182",
+      "10": "4726",
+      "11": "1742",
+      "12": "24904",
+      "13": "3942",
+      "14": "4947",
+      "15": "4325",
+      "16": "4305",
+      "17": "6426",
+      "18": "5577",
+      "19": "9551"
+    },
+    "review_score": "7",
+    "review_percentage": "96"
+  },
+  "extended": {
+    "developer": "Doubles Core",
+    "publisher": "OTAKU Plan"
+  },
+  "config": {
+    "installdir": "The Cuniculus of Paradise",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3075151": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "230241286568299497",
+          "size": "771750650",
+          "download": "655697552"
+        }
+      }
+    },
+    "3075152": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8555861886103161876",
+          "size": "780068195",
+          "download": "661353552"
+        }
+      }
+    },
+    "3075153": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4297801671790923292",
+          "size": "778959314",
+          "download": "659966288"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20295728",
+        "timeupdated": "1759887920"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "/www/save",
+        "pattern": "*.rpgsave"
+      }
     }
   }
 }
