@@ -1,11 +1,10 @@
 {
   "appid": "3982370",
-  "public_only": "1",
   "common": {
     "name": "Monitor State Demo",
     "type": "Demo",
     "parent": "3612630",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -58,7 +57,50 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760371291",
     "gameid": "3982370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Artur Pukhavoi",
+    "publisher": "Artur Pukhavoi"
+  },
+  "config": {
+    "installdir": "Monitor State Demo",
+    "launch": {
+      "0": {
+        "executable": "demo_build_v_new/monitor_state.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Monitor State Demo"
+        },
+        "description": "Launch Monitor State Demo"
+      }
+    }
+  },
+  "depots": {
+    "3982371": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3264223682552853837",
+          "size": "309512864",
+          "download": "249843232"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20272730",
+        "timeupdated": "1759764958"
+      }
+    }
   }
 }
