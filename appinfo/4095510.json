@@ -1,6 +1,5 @@
 {
   "appid": "4095510",
-  "public_only": "1",
   "common": {
     "name": "Service Please Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -160,7 +159,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760374792",
     "gameid": "4095510",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dynamic Dice",
+    "publisher": "Dynamic Dice"
+  },
+  "config": {
+    "installdir": "Service Please Demo",
+    "launch": {
+      "0": {
+        "executable": "ServicePlease.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4095511": {
+      "manifests": {
+        "public": {
+          "gid": "5016970427519682898",
+          "size": "9066139918",
+          "download": "8783528624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20373029",
+        "timeupdated": "1760374768"
+      }
+    }
   }
 }
