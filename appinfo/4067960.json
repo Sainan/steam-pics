@@ -1,6 +1,5 @@
 {
   "appid": "4067960",
-  "public_only": "1",
   "common": {
     "name": "Checkmate in the Wild West",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "clienticns": "079e13573538731b0c797eaa890b8eee0bdb1d40",
     "linuxclienticon": "497307600d7f941d01071e7d0a370a04885f10c2",
     "clienticon": "f11019cc1286b9cfd30ba0810ada936895ce70ad",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d7f655a159dd6c4df275318dc2c426d5fcb51587/capsule_231x87.jpg"
     },
@@ -91,7 +90,89 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760373070",
     "gameid": "4067960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Grouper Games LLC",
+    "publisher": "Grouper Games",
+    "homepage": "https://chessalicious.com"
+  },
+  "config": {
+    "installdir": "Checkmate in the Wild West Demo",
+    "launch": {
+      "0": {
+        "executable": "win_build/Checkmate in the Wild West.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "cww_mac_build.app/Contents/MacOS/Checkmate in the Wild West",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "linux_build/Game.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4067961": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4211384230436362360",
+          "size": "239190698",
+          "download": "57591168"
+        }
+      }
+    },
+    "4067962": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6410605357856064273",
+          "size": "256778100",
+          "download": "66068704"
+        }
+      }
+    },
+    "4067963": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2233076423950145822",
+          "size": "234000055",
+          "download": "55030464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20188677",
+        "timeupdated": "1759232990"
+      }
+    }
   }
 }
