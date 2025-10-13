@@ -1,6 +1,5 @@
 {
   "appid": "3920670",
-  "public_only": "1",
   "common": {
     "name": "Game of Dice DEMO",
     "type": "Demo",
@@ -25,7 +24,7 @@
     "icon": "830384e6de64e0689dabcd166c2a97f03f8f5ace",
     "clienttga": "129d7f3e42b6eec8f4556fee22882a60e45f434a",
     "clienticon": "6a43670b3da9be50e943a6edce2e24f7a4ebe0ab",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "koreana": "047d5344fe95ab33227444e65804db828f20fba0/capsule_231x87_koreana.jpg",
@@ -165,5 +164,51 @@
     },
     "gameid": "3920670",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TRALA LAB",
+    "publisher": "Joycity",
+    "homepage": "https://god.joycity.com/en"
+  },
+  "config": {
+    "installdir": "Game of Dice_DEMO",
+    "launch": {
+      "0": {
+        "executable": "GameofDice_DEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3920671": {
+      "manifests": {
+        "public": {
+          "gid": "6129358270037917528",
+          "size": "1546972823",
+          "download": "1286310560"
+        },
+        "0.0.1": {
+          "gid": "2950383509854809214",
+          "size": "1394679321",
+          "download": "1120280464"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "19423678",
+        "timeupdated": "1753936996"
+      },
+      "0.0.1": {
+        "buildid": "20332376",
+        "description": "10월 데모",
+        "timeupdated": "1760077462"
+      }
+    }
   }
 }
