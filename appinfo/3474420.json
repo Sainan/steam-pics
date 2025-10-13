@@ -1,6 +1,5 @@
 {
   "appid": "3474420",
-  "public_only": "1",
   "common": {
     "name": "Bad Janitor",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "cf8ce752b862fdc1e3771c9639a1033e732c9980",
     "clienttga": "d5898a8acf69a12306fc0b508e89c352b20e9da3",
     "icon": "d532996c5fc6c1e78106b025a76b3af051a09ad1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,9 +113,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3474420",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "599",
@@ -134,6 +133,51 @@
       "13": "597",
       "14": "10235",
       "15": "1664"
+    }
+  },
+  "extended": {
+    "developer": "Mjau Media",
+    "publisher": "Fennonauts",
+    "homepage": "https://www.mjaumedia.com/bad-janitor/",
+    "gamemanualurl": "https://store.steampowered.com/manual/3474420/"
+  },
+  "config": {
+    "installdir": "Bad Janitor",
+    "launch": {
+      "0": {
+        "executable": "Bad Janitor.exe"
+      }
+    }
+  },
+  "depots": {
+    "3474421": {
+      "manifests": {
+        "public": {
+          "gid": "980789702344197587",
+          "size": "325870721",
+          "download": "154219728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20293655",
+        "timeupdated": "1759875093"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2048000",
+    "maxnumfiles": "32",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mjau Media/Bad Janitor/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
