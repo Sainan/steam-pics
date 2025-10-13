@@ -1,6 +1,5 @@
 {
   "appid": "4066100",
-  "public_only": "1",
   "common": {
     "name": "Pathologic 3 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -104,11 +103,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760373595",
     "gameid": "4066100",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Ice-Pick Lodge",
+    "publisher": "HypeTrain Digital"
+  },
+  "config": {
+    "installdir": "Pathologic 3 Demo",
+    "launch": {
+      "0": {
+        "executable": "Pathologic3.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066101": {
+      "manifests": {
+        "public": {
+          "gid": "6856080985004965879",
+          "size": "26221160245",
+          "download": "19765012416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20363934",
+        "timeupdated": "1760372995"
+      }
+    },
+    "privatebranches": "1"
   }
 }
