@@ -1,6 +1,5 @@
 {
   "appid": "4064800",
-  "public_only": "1",
   "common": {
     "name": "Shadow Mansion 2 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759352001",
+    "store_asset_mtime": "1760371344",
     "associations": {
       "0": {
         "type": "developer",
@@ -101,7 +100,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760373203",
     "gameid": "4064800",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NEBULA NOVA GAMES",
+    "publisher": "NEBULA NOVA GAMES"
+  },
+  "config": {
+    "installdir": "Shadow Mansion 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "Shadow Mansion 2 Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4064801": {
+      "manifests": {
+        "public": {
+          "gid": "4388445643843284068",
+          "size": "9576761298",
+          "download": "9339800592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372596",
+        "timeupdated": "1760373157"
+      }
+    }
   }
 }
