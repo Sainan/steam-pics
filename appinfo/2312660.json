@@ -1,4 +1,170 @@
 {
   "appid": "2312660",
-  "public_only": "1"
+  "common": {
+    "name": "Skate Story Demo",
+    "type": "Demo",
+    "parent": "1263240",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "clienticon": "8bd43e74cc9c413918dc4244a32915084076396e",
+    "clienttga": "d6a5e71d3e179f64ae60a32bdeaa32c08962c87d",
+    "icon": "04882009c6df0feeee416977e23e11c34a2f555b",
+    "nokeyboardmouse": "1",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "6c3bb7e99bf2f03bc1ee087de495461cdf320df3/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "fcd83e0b0fdddef3f4db4718fcd3a84f184dafe3/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "e572bef8d7d4d8a6007472f4ea06573872b7df1b/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "e572bef8d7d4d8a6007472f4ea06573872b7df1b/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "2d402425d55c781944a6c496b49d954adeb80a0c/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "2d402425d55c781944a6c496b49d954adeb80a0c/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "2d402425d55c781944a6c496b49d954adeb80a0c/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "b5c1a2bb016e3573bfa471b515f5d5b7ace522dc/logo.png"
+        },
+        "image2x": {
+          "english": "b5c1a2bb016e3573bfa471b515f5d5b7ace522dc/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "fcd83e0b0fdddef3f4db4718fcd3a84f184dafe3/library_header.jpg"
+        },
+        "image2x": {
+          "english": "fcd83e0b0fdddef3f4db4718fcd3a84f184dafe3/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758283101",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "by Sam Eng"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Devolver Digital"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1760021465",
+    "gameid": "2312660",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1263240",
+    "developer": "by Sam Eng",
+    "publisher": "Devolver Digital"
+  },
+  "config": {
+    "installdir": "Skate Story Demo",
+    "launch": {
+      "0": {
+        "executable": "SkateStory.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SkateStory.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2312661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6413224449644709633",
+          "size": "4239166573",
+          "download": "1813208080"
+        }
+      }
+    },
+    "2312662": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5147302357481365502",
+          "size": "4516014582",
+          "download": "1892477264"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20272888",
+        "timeupdated": "1759848408"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
