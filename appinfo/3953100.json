@@ -1,11 +1,10 @@
 {
   "appid": "3953100",
-  "public_only": "1",
   "common": {
     "name": "Crystal of Atlan Demo",
     "type": "Demo",
     "parent": "3839850",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -224,7 +223,97 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760365480",
     "gameid": "3953100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nuverse Pte.Ltd.",
+    "publisher": "Skystone Games",
+    "homepage": "https://coa.nvsgames.com/"
+  },
+  "config": {
+    "installdir": "Crystal of Atlan Demo",
+    "launch": {
+      "0": {
+        "executable": "Seria/Binaries/Win64/Seria.exe",
+        "arguments": "-game -FeatureLevelSM5 -PCKey=1 -ApplicationScale=\"0.9\" -SkipCheckMissPreRequisite -NotInstalled -NoDebugExecBindings -launchermode",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GSDKCnDemo\\Binaries\\Win64\\GSDKCnDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "gsdk_demo"
+        },
+        "description_loc": {
+          "english": "Launch GSDK Demo"
+        },
+        "description": "Launch GSDK Demo"
+      },
+      "2": {
+        "executable": "GSDKCnDemo\\Binaries\\Win64\\GSDKCnDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "gsdk_demo_us"
+        },
+        "description_loc": {
+          "english": "Launch GSDK Demo"
+        },
+        "description": "Launch GSDK Demo"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3953101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7489833302466494360",
+          "size": "55850912239",
+          "download": "46637614224"
+        }
+      }
+    },
+    "3953102": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9209647539121269083",
+          "size": "55850880500",
+          "download": "46637604496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19995437",
+        "timeupdated": "1758004156"
+      }
+    },
+    "privatebranches": "1"
   }
 }
