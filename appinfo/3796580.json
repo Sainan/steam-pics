@@ -1,6 +1,5 @@
 {
   "appid": "3796580",
-  "public_only": "1",
   "common": {
     "name": "Hell and Back Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "069de46ee4b96fa9dcbc5c2eb4df792d250f7af3/capsule_231x87.jpg"
@@ -103,5 +102,52 @@
     },
     "gameid": "3796580",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Labirent",
+    "publisher": "Labirent"
+  },
+  "config": {
+    "installdir": "Hell and Back Demo",
+    "launch": {
+      "0": {
+        "executable": "Hell and Back.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3796581": {
+      "manifests": {
+        "public": {
+          "gid": "4637644969972862198",
+          "size": "3884664110",
+          "download": "3742891280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20362361",
+        "timeupdated": "1760320308"
+      }
+    }
   }
 }
