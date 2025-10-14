@@ -1,6 +1,5 @@
 {
   "appid": "3704300",
-  "public_only": "1",
   "common": {
     "name": "FIND ALL 9: Fantasy",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a0681e78fd5c0eb28ec2e2c16df9ca46b79590fe/capsule_231x87.jpg"
@@ -113,9 +112,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3704300",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1738",
@@ -132,6 +132,114 @@
       "12": "1664",
       "13": "5350",
       "14": "4305"
+    }
+  },
+  "extended": {
+    "developer": "Very Very LITTLE Studio",
+    "publisher": "Very Very LITTLE Studio",
+    "listofdlc": "4074060",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "FIND ALL 9 Fantasy",
+    "launch": {
+      "0": {
+        "executable": "FIND ALL 9 Fantasy.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FIND ALL 9 Fantasy.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "FIND ALL 9 Fantasy.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3704301": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7810612982672319748",
+          "size": "370999378",
+          "download": "272667040"
+        }
+      }
+    },
+    "3704302": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7085715410519940085",
+          "size": "395496601",
+          "download": "282331952"
+        }
+      }
+    },
+    "3704303": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2786176001711731546",
+          "size": "373177922",
+          "download": "272156160"
+        }
+      }
+    },
+    "4074060": {
+      "dlcappid": "4074060",
+      "manifests": {
+        "public": {
+          "gid": "8359240249321757081",
+          "size": "715007931",
+          "download": "668478576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20319059",
+        "timeupdated": "1760008243"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "FIND ALL 9 Fantasy_Data/Data_SL/",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "pathtransforms": {
+          "0": {
+            "find": "FIND ALL 9 Fantasy_Data/Data_SL/",
+            "replace": "Contents/Data_SL/"
+          }
+        }
+      }
     }
   }
 }
