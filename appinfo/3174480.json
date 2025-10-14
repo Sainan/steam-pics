@@ -32,6 +32,39 @@
     "content_descriptors": {
       "0": "5"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1759795200",
+      "tested_build_id": "17622212",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "0e19f08a7e7c008c5b842750d390b1c4fdc350e9/capsule_231x87_schinese.jpg",
@@ -230,8 +263,8 @@
       "0": "597",
       "1": "599",
       "2": "1695",
-      "3": "122",
-      "4": "12095",
+      "3": "12095",
+      "4": "122",
       "5": "1742",
       "6": "4136",
       "7": "1663",
