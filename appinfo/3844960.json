@@ -1,11 +1,10 @@
 {
   "appid": "3844960",
-  "public_only": "1",
   "common": {
     "name": "DOGENSTEIN Demo",
     "type": "Demo",
     "parent": "3096230",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "764b04c6e36d983f48219b7ea678fcf31ccd24db",
     "clienttga": "0680f24d69ea96c4c12f575fe2c1ac97cba40396",
     "clienticon": "225ee74b8fb1d4cd644fac74edd2c8e6fab99ed0",
@@ -127,12 +126,43 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760446817",
     "gameid": "3844960",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Marc Leclerc",
+    "publisher": "Marc Leclerc"
+  },
+  "config": {
+    "installdir": "DOGENSTEIN Demo",
+    "launch": {
+      "0": {
+        "executable": "Dogenstein.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3844961": {
+      "manifests": {
+        "public": {
+          "gid": "5354105910372294080",
+          "size": "222800133",
+          "download": "125480784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20385787",
+        "timeupdated": "1760446606"
+      }
     }
   }
 }
