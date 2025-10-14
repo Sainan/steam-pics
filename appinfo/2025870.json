@@ -4,9 +4,9 @@
     "name": "Kaisa: Resurrection",
     "type": "Game",
     "icon": "47f5de7bfcaf13897bb1ed0a85b00d861bafcbe8",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienttga": "84e708129a1965efe980be36c7d1825f81052234",
     "linuxclienticon": "f15930a2052bda4a4fbef75fe5cafff418405024",
     "clienticns": "92b4cb49b11fc84cbccf26112da3c814851e63c8",
@@ -147,28 +147,50 @@
     "steamdecktouchscreen": "1",
     "launch": {
       "0": {
-        "executable": "Kaisa/Kaisa Resurrection.exe",
+        "executable": "Kaisa/Kaisa_ Resurrection.exe",
         "config": {
           "oslist": "windows",
           "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Kaisa_ Resurrection.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
   },
   "depots": {
     "2025871": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "5815749934576412762",
-          "size": "2055674347",
-          "download": "287532032"
+          "gid": "813603674375611547",
+          "size": "2057308474",
+          "download": "284490832"
+        }
+      }
+    },
+    "2025872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8418940918234665872",
+          "size": "2084352259",
+          "download": "295564944"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20221968",
-        "timeupdated": "1759405660"
+        "buildid": "20381569",
+        "timeupdated": "1760426431"
       }
     }
   },
@@ -180,6 +202,20 @@
         "root": "WinAppDataLocalLow",
         "path": "Hatokuma Games/Kaisa_ Resurrection/SaveData/{64BitSteamID}",
         "pattern": "*.saveData"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Hatokuma Games/Kaisa_ Resurrection/SaveData/{64BitSteamID}",
+            "replace": "com.Hatokuma-Games.Kaisa--Resurrection/SaveData/{64BitSteamID}"
+          }
+        }
       }
     }
   }
