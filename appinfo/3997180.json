@@ -1,12 +1,11 @@
 {
   "appid": "3997180",
-  "public_only": "1",
   "common": {
     "name": "祇園回廊",
     "type": "Game",
     "clienticon": "dac2eb45427c19dd77855173f6e037ba75226c72",
     "icon": "dac2eb45427c19dd77855173f6e037ba75226c72",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -31,9 +30,10 @@
       "german": "Gion Korridor",
       "spanish": "Pasillo de Gion",
       "brazilian": "Corredor de Gion",
-      "koreana": "Коридор Гион",
+      "koreana": "기온 회랑",
       "schinese": "祇园回廊",
-      "tchinese": "祇園回廊"
+      "tchinese": "祇園回廊",
+      "russian": "Коридор Гион"
     },
     "controllertagwizard": "1",
     "small_capsule": {
@@ -173,9 +173,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760035181",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3997180",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "11014",
@@ -194,6 +195,46 @@
       "14": "1742",
       "15": "5125",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Burg Game Studio",
+    "publisher": "burg"
+  },
+  "config": {
+    "installdir": "祇園回廊",
+    "launch": {
+      "0": {
+        "executable": "bild/祇園回廊.exe",
+        "arguments": "fullscreen",
+        "workingdir": "bild",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3997181": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2062660840720914586",
+          "size": "2880251154",
+          "download": "949389984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20385684",
+        "timeupdated": "1760446578"
+      }
     }
   }
 }
