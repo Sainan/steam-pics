@@ -5,7 +5,7 @@
     "type": "Game",
     "releasestate": "released",
     "oslist": "windows,linux",
-    "osarch": "",
+    "osarch": "64",
     "osextended": "",
     "logo": "edaacb5cc62fcabf453ab409607acacb9b402a6b",
     "logo_small": "edaacb5cc62fcabf453ab409607acacb9b402a6b_thumb",
@@ -137,7 +137,8 @@
         "executable": "Balkadia.exe",
         "type": "default",
         "config": {
-          "oslist": "windows"
+          "oslist": "windows",
+          "osarch": "64"
         }
       },
       "2": {
@@ -192,7 +193,7 @@
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
-        "path": "Tsar Republic Games/Balkadia",
+        "path": "Max Health Studios/Balkadia",
         "pattern": "*.json"
       }
     },
@@ -204,8 +205,8 @@
         "useinstead": "MacAppSupport",
         "pathtransforms": {
           "0": {
-            "find": "Tsar Republic Games/Balkadia",
-            "replace": "unity.Tsar Republic Games.Balkadia"
+            "find": "Max Health Studios/Balkadia",
+            "replace": "unity.Max Health Studios.Balkadia"
           }
         }
       },
@@ -216,8 +217,8 @@
         "useinstead": "LinuxHome",
         "pathtransforms": {
           "0": {
-            "find": "Tsar Republic Games/Balkadia",
-            "replace": ".config/unity3d/Tsar Republic Games/Balkadia"
+            "find": "Max Health Studios/Balkadia",
+            "replace": ".config/unity3d/Max Health Studios/Balkadia"
           }
         }
       }
