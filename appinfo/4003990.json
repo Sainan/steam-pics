@@ -1,6 +1,5 @@
 {
   "appid": "4003990",
-  "public_only": "1",
   "common": {
     "name": "Grieving",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "a3d85fe0d3c62734fd41faa177b9086125204956",
     "icon": "a3d85fe0d3c62734fd41faa177b9086125204956",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -123,11 +122,31 @@
       "vietnamese": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "thai": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "filipino": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4003990",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -153,6 +172,44 @@
       "17": "5716",
       "18": "4182",
       "19": "3834"
+    },
+    "review_score": "7",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "flycat.games",
+    "publisher": "flycat.games"
+  },
+  "config": {
+    "installdir": "Grieving",
+    "launch": {
+      "0": {
+        "executable": "Grieving.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4003991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1950021113812081866",
+          "size": "629571185",
+          "download": "219987360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20289684",
+        "timeupdated": "1759853401"
+      }
     }
   }
 }
