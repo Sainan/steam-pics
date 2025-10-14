@@ -1,6 +1,5 @@
 {
   "appid": "3778900",
-  "public_only": "1",
   "common": {
     "name": "Seize the Cheese",
     "type": "Game",
@@ -20,7 +19,7 @@
         "version": "5"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -120,9 +119,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3778900",
-    "exfgls": "8",
     "store_tags": {
       "0": "3877",
       "1": "1721",
@@ -144,6 +143,60 @@
       "17": "1651",
       "18": "4182",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Alimonda",
+    "publisher": "Alimonda",
+    "homepage": "https://alimonda.io"
+  },
+  "config": {
+    "installdir": "Seize the Cheese",
+    "launch": {
+      "0": {
+        "executable": "Seize the Cheese.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3778901": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "593379817641223664",
+          "size": "451902834",
+          "download": "105004224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20379957",
+        "timeupdated": "1760415262"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Alimonda/Seize the Cheese",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
