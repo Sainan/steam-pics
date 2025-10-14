@@ -1,16 +1,19 @@
 {
   "appid": "2339330",
-  "public_only": "1",
   "common": {
     "name": "The Lacerator",
     "type": "Game",
     "icon": "d44ee979a2ca57df115bb82e028163ac6e5770cd",
     "clienttga": "f4c60e19a522b8134917920f83d5a330121a3dcd",
     "clienticon": "a3a4ca0a0a7b2824030167a2a76d4dbb9b2c186c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
+    "languages": {
+      "english": "1",
+      "brazilian": "1"
+    },
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -80,7 +83,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759845101",
+    "store_asset_mtime": "1760461649",
     "associations": {
       "0": {
         "type": "developer",
@@ -123,9 +126,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760028654",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2339330",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -152,6 +156,70 @@
       "17": "19",
       "18": "4191",
       "19": "4136"
-    }
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Games From The Abyss",
+    "publisher": "DreadXP"
+  },
+  "config": {
+    "installdir": "The Lacerator",
+    "launch": {
+      "0": {
+        "executable": "TheLacerator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Windows 64-bit"
+        },
+        "description": "Windows 64-bit"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2339331": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7028922983050144172",
+          "size": "1779121755",
+          "download": "1534614944"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20293674",
+        "timeupdated": "1760020138"
+      }
+    },
+    "privatebranches": "1"
   }
 }
