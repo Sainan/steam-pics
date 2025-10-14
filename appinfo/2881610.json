@@ -1,13 +1,12 @@
 {
   "appid": "2881610",
-  "public_only": "1",
   "common": {
     "name": "Mohrta",
     "type": "Game",
     "icon": "6983b15c6f11a8a1397d0a5966d52eb452d1245f",
     "clienticon": "22263b37b6617352aeaecceb39bfa31e547cce5e",
     "clienttga": "91edc9bbc04fd190874e8fd7446f2f5d856e7b14",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760457550",
     "community_hub_visible": "1",
     "gameid": "2881610",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -132,6 +131,49 @@
       "17": "492",
       "18": "4667",
       "19": "1023537"
+    }
+  },
+  "extended": {
+    "developer": "Scumhead",
+    "publisher": "Scumhead",
+    "listofdlc": "4067120",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Mohrta",
+    "launch": {
+      "0": {
+        "executable": "Mohrta\\Mohrta-exe\\Mohrta.exe"
+      }
+    }
+  },
+  "depots": {
+    "2881611": {
+      "manifests": {
+        "public": {
+          "gid": "6351946345845836973",
+          "size": "2006995265",
+          "download": "1949054288"
+        }
+      }
+    },
+    "4067120": {
+      "dlcappid": "4067120",
+      "manifests": {
+        "public": {
+          "gid": "4912333688587146285",
+          "size": "641726698",
+          "download": "634447872"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20359004",
+        "timeupdated": "1760290011"
+      }
     }
   }
 }
