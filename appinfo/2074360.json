@@ -162,7 +162,8 @@
         "executable": "VR\\The Obsessive Shadow VR Mode.exe",
         "type": "vr",
         "config": {
-          "oslist": "windows"
+          "oslist": "windows",
+          "betakey": "beta2"
         },
         "description_loc": {
           "english": "VR Mode"
@@ -173,7 +174,8 @@
         "executable": "NonVR\\The Obsessive Shadow Standard Mode.exe",
         "type": "default",
         "config": {
-          "oslist": "windows"
+          "oslist": "windows",
+          "betakey": "beta2"
         },
         "description_loc": {
           "english": "Non VR Flatmode Version"
@@ -196,8 +198,31 @@
         "executable": "Deck\\obsessiveshadow_deck.x86_64",
         "type": "default",
         "config": {
-          "betakey": "beta"
+          "betakey": "beta2"
         }
+      },
+      "4": {
+        "executable": "The Obsessive Shadow.exe",
+        "workingdir": "Flatmode\\The Obsessive Shadow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Flatmode (NonVR)"
+        },
+        "description": "Flatmode (NonVR)"
+      },
+      "5": {
+        "executable": "The Obsessive Shadow.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "VR Mode"
+        },
+        "description": "VR Mode"
       }
     },
     "app_mappings": {
