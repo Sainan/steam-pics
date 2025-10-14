@@ -1,13 +1,12 @@
 {
   "appid": "4097050",
-  "public_only": "1",
   "common": {
     "name": "Cult of the Yellow King Demo",
     "type": "Demo",
     "parent": "3928030",
     "clienticon": "3839d7bf231b335f31a87e3102ed6ff0fbdda44e",
     "icon": "3839d7bf231b335f31a87e3102ed6ff0fbdda44e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -95,7 +94,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760483583",
     "gameid": "4097050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Metaphor Games",
+    "publisher": "Metaphor Games"
+  },
+  "config": {
+    "installdir": "Cult of the Yellow King Demo",
+    "launch": {
+      "0": {
+        "executable": "Cult of the Yellow King.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4097051": {
+      "manifests": {
+        "public": {
+          "gid": "2362483211087944485",
+          "size": "308906834",
+          "download": "190466128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20393585",
+        "timeupdated": "1760483385"
+      }
+    }
   }
 }
