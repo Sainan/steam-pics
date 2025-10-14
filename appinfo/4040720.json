@@ -1,6 +1,5 @@
 {
   "appid": "4040720",
-  "public_only": "1",
   "common": {
     "name": "Leap In Deep",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -107,9 +106,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760460659",
     "community_hub_visible": "1",
     "gameid": "4040720",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "3798",
@@ -131,6 +130,48 @@
       "17": "9157",
       "18": "5350",
       "19": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Chibi Domain",
+    "publisher": "Chibi Domain",
+    "homepage": "https://chibidomain.com/projects/index.html"
+  },
+  "config": {
+    "installdir": "Leap In Deep",
+    "launch": {
+      "0": {
+        "executable": "Windows/Leap In Deep.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Leap In Windows"
+        },
+        "description": "Leap In Windows"
+      }
+    }
+  },
+  "depots": {
+    "4040721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "928112218377816975",
+          "size": "1519091817",
+          "download": "274113728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20160200",
+        "timeupdated": "1759046793"
+      }
     }
   }
 }
