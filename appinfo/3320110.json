@@ -1,6 +1,5 @@
 {
   "appid": "3320110",
-  "public_only": "1",
   "common": {
     "name": "BL人狼",
     "type": "Game",
@@ -13,7 +12,7 @@
     "name_localized": {
       "english": "BL Werewolf:Doki-Doki Summer vacation"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -124,9 +123,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760410823",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3320110",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -149,6 +149,40 @@
       "13": "3859",
       "14": "12095",
       "15": "492"
+    }
+  },
+  "extended": {
+    "developer": "物部モノ子",
+    "publisher": "ネオ昼寝部"
+  },
+  "config": {
+    "installdir": "bl_zinrou",
+    "launch": {
+      "0": {
+        "executable": "BL人狼～ドキドキ俺たちの夏休み～.exe"
+      }
+    }
+  },
+  "depots": {
+    "3320111": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5035754875247782921",
+          "size": "259360521",
+          "download": "70080080"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20379150",
+        "timeupdated": "1760409670"
+      }
     }
   }
 }
