@@ -1,6 +1,5 @@
 {
   "appid": "4074200",
-  "public_only": "1",
   "common": {
     "name": "Weasel Wes's Cycling Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9504a983114e1098c3c10b6d3a12b32d13c57d75/capsule_231x87.jpg"
     },
@@ -44,5 +43,44 @@
     },
     "gameid": "4074200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PZenQ",
+    "publisher": "PZenQ",
+    "homepage": "https://weaselwes.ca"
+  },
+  "config": {
+    "installdir": "Weasel Wes's Cycling Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "WeaselWesCyclingSimulator_DEMO/weaselwescyclingsimulator_demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launches Weasel Wes's Cycling Simulator DEMO"
+        },
+        "description": "Launches Weasel Wes's Cycling Simulator DEMO"
+      }
+    }
+  },
+  "depots": {
+    "4074201": {
+      "manifests": {
+        "public": {
+          "gid": "4669771158609538570",
+          "size": "320742002",
+          "download": "114596144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20378911",
+        "timeupdated": "1760408173"
+      }
+    }
   }
 }
