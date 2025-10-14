@@ -1,0 +1,130 @@
+{
+  "appid": "2007540",
+  "common": {
+    "name": "tinyWarzone Developer",
+    "type": "Tool",
+    "parent": "1998460",
+    "releasestate": "released",
+    "icon": "aeab247e0197d24e28d17ee7b2c6e56e4ebcd41d",
+    "clienttga": "f9a5eb530815dff1bef6f215797d073715a2f8bd",
+    "clienticon": "e6ce9ce5ce4dd192d7245149430884d0dcd2cfbe",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "gameid": "2007540"
+  },
+  "config": {
+    "installdir": "UDPTEST",
+    "launch": {
+      "0": {
+        "executable": "UDPNetHost.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2007541": {
+      "manifests": {
+        "public": {
+          "gid": "7936318130426802968",
+          "size": "755358628",
+          "download": "755414688"
+        },
+        "staging": {
+          "gid": "401175310805935127",
+          "size": "1406701566",
+          "download": "1291852832"
+        }
+      }
+    },
+    "2007542": {
+      "manifests": {
+        "public": {
+          "gid": "3995043836685246502",
+          "size": "209709677",
+          "download": "90013376"
+        },
+        "staging": {
+          "gid": "377796166526667139",
+          "size": "443605696",
+          "download": "251122064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19216639",
+        "timeupdated": "1752499497"
+      },
+      "staging": {
+        "buildid": "20379466",
+        "description": ":eyes:",
+        "timeupdated": "1760411679"
+      }
+    }
+  }
+}
