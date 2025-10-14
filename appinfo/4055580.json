@@ -1,6 +1,5 @@
 {
   "appid": "4055580",
-  "public_only": "1",
   "common": {
     "name": "Block-Lite",
     "type": "Game",
@@ -17,7 +16,7 @@
         "version": "2"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "be82217c15444e1344cfa67e174a2f8f51d422ce/capsule_231x87.jpg"
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760408177",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4055580",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -133,6 +133,45 @@
       "13": "1719",
       "14": "3993",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Camden Folkman",
+    "publisher": "Camden Folkman"
+  },
+  "config": {
+    "installdir": "Block-Lite",
+    "launch": {
+      "0": {
+        "executable": "Block-Lite.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "4055581": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3646123841885290232",
+          "size": "353088641",
+          "download": "189895408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20378892",
+        "timeupdated": "1760408062"
+      }
     }
   }
 }
