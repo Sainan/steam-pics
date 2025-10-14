@@ -1,13 +1,12 @@
 {
   "appid": "3561230",
-  "public_only": "1",
   "common": {
     "name": "Dreams of Another",
     "type": "Game",
     "clienticon": "d181a27f72118bbab59d9c26a32a4d38a4a54301",
     "clienttga": "98bd16c2745c46f59e1d4cae1b2b04472977e12c",
     "icon": "d181a27f72118bbab59d9c26a32a4d38a4a54301",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -139,7 +138,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758162812",
+    "store_asset_mtime": "1760014278",
     "associations": {
       "0": {
         "type": "developer",
@@ -234,30 +233,83 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760050979",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3561230",
-    "exfgls": "8",
     "store_tags": {
-      "0": "1684",
-      "1": "21",
-      "2": "4106",
-      "3": "15277",
-      "4": "5608",
+      "0": "4166",
+      "1": "1710",
+      "2": "5900",
+      "3": "6869",
+      "4": "5186",
       "5": "4400",
-      "6": "5984",
-      "7": "5716",
-      "8": "4305",
-      "9": "3834",
-      "10": "19",
-      "11": "4231",
-      "12": "122",
-      "13": "11014",
-      "14": "3814",
-      "15": "1774",
-      "16": "4191",
-      "17": "5186",
-      "18": "4252",
-      "19": "4145"
+      "6": "4252",
+      "7": "492",
+      "8": "1621",
+      "9": "21",
+      "10": "3834",
+      "11": "5608",
+      "12": "13782",
+      "13": "5716",
+      "14": "1654",
+      "15": "19995",
+      "16": "15277",
+      "17": "7481",
+      "18": "4182",
+      "19": "1774"
+    },
+    "review_score": "7",
+    "review_percentage": "80"
+  },
+  "extended": {
+    "developer": "Q-Games Ltd.",
+    "publisher": "Q-Games Ltd.",
+    "homepage": "https://www.q-games.com/"
+  },
+  "config": {
+    "installdir": "Dreams of Another",
+    "launch": {
+      "0": {
+        "executable": "DreamsOfAnother.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3561231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4442626351781881275",
+          "size": "4025287689",
+          "download": "1854338304"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20334632",
+        "timeupdated": "1760089631"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "33554432",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveData/{64BitSteamID}/Cloud",
+        "pattern": "*.svd",
+        "recursive": "1"
+      }
     }
   }
 }
