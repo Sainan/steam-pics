@@ -1,6 +1,5 @@
 {
   "appid": "3720260",
-  "public_only": "1",
   "common": {
     "name": "Frogdoku",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "a5bef0cdd2c4c30ca663f6115cbf300fd49f42f2",
     "clienticon": "a5bef0cdd2c4c30ca663f6115cbf300fd49f42f2",
     "icon": "a7eabe24988b98e84e069f68ca363c16137a7919",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3720260",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -127,6 +126,57 @@
       "16": "7569",
       "17": "4182",
       "18": "492"
+    }
+  },
+  "extended": {
+    "developer": "Digital Scorpion Interactive",
+    "publisher": "Digital Scorpion Interactive",
+    "homepage": "https://www.digitalscorpioninteractive.com"
+  },
+  "config": {
+    "installdir": "Frogdoku",
+    "launch": {
+      "0": {
+        "executable": "Frogdoku.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3720261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7401568143560881120",
+          "size": "2062087185",
+          "download": "1908183280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20381228",
+        "timeupdated": "1760424210"
+      }
     }
   }
 }
