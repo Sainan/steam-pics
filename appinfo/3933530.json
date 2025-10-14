@@ -1,6 +1,5 @@
 {
   "appid": "3933530",
-  "public_only": "1",
   "common": {
     "name": "Puzzle Everything",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "9ee2c7f7ca6869c8eff719795b2516f3f0985728",
     "icon": "9ee2c7f7ca6869c8eff719795b2516f3f0985728",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5b0ca55c7e806d606a5138553603425ce4cce7ab/capsule_231x87.jpg"
@@ -100,7 +99,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3933530",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "597",
@@ -112,6 +110,44 @@
       "7": "493",
       "8": "4305",
       "9": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Greystone Gaming",
+    "publisher": "Greystone Gaming"
+  },
+  "config": {
+    "installdir": "Puzzle Everything",
+    "launch": {
+      "0": {
+        "executable": "Puzzle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3933531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1580976252792524933",
+          "size": "121632936",
+          "download": "54136560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20043998",
+        "timeupdated": "1758268624"
+      }
     }
   }
 }
