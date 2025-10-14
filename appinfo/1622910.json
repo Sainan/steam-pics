@@ -437,5 +437,21 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Habitat/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Habitat/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
