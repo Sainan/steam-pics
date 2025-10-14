@@ -1,6 +1,5 @@
 {
   "appid": "3339840",
-  "public_only": "1",
   "common": {
     "name": "SolicitorZ",
     "type": "Game",
@@ -11,7 +10,7 @@
     "osextended": "",
     "clienticon": "43850627d94956d4aed2138b5f341549927e0f4f",
     "clienticns": "43850627d94956d4aed2138b5f341549927e0f4f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -105,9 +104,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760446640",
     "community_hub_visible": "1",
     "gameid": "3339840",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -134,5 +133,61 @@
       "18": "4255",
       "19": "4158"
     }
+  },
+  "extended": {
+    "developer": "Beem Studio",
+    "publisher": "Beem Studio"
+  },
+  "config": {
+    "installdir": "SolicitorZ",
+    "launch": {
+      "0": {
+        "executable": "FPSGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3339841": {
+      "manifests": {
+        "public": {
+          "gid": "7359681491431392819",
+          "size": "617292897",
+          "download": "516552704"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20196919",
+        "timeupdated": "1759271595"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
