@@ -1,6 +1,5 @@
 {
   "appid": "2942570",
-  "public_only": "1",
   "common": {
     "name": "Emery Hearts Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "clienticon": "b70fbed79c848dc94ee48496284960b99b8708ed",
     "clienttga": "6257f6055585ce2445dce4f54a329073e9da1939",
     "icon": "c91835f1ba0d9c3f82fa24869a3b96c373b31c58",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -118,7 +117,134 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760120759",
     "gameid": "2942570",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Indie Dev Hell",
+    "publisher": "Indie Dev Hell"
+  },
+  "config": {
+    "installdir": "Emery Hearts Demo",
+    "launch": {
+      "0": {
+        "executable": "emery_hearts_demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "emery_hearts_demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2942571": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4464024865413407169",
+          "size": "507955868",
+          "download": "393379232"
+        }
+      }
+    },
+    "2942572": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1913808350010313228",
+          "size": "547834497",
+          "download": "247926496"
+        }
+      }
+    },
+    "2942573": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2827857026676678799",
+          "size": "507955868",
+          "download": "388847936"
+        }
+      }
+    },
+    "2942574": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8757737090608071594",
+          "size": "548563396",
+          "download": "244440224"
+        }
+      }
+    },
+    "2942575": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4865899988421653517",
+          "size": "507955868",
+          "download": "393379232"
+        }
+      }
+    },
+    "2942576": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3637318469817602923",
+          "size": "547834497",
+          "download": "247926496"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,japanese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20378525",
+        "timeupdated": "1760405615"
+      }
+    }
   }
 }
