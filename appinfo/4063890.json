@@ -1,6 +1,5 @@
 {
   "appid": "4063890",
-  "public_only": "1",
   "common": {
     "name": "Anime Dream Match: Horses",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "22f37b4cc6fae88f08721581395425a414bd8439",
     "icon": "22f37b4cc6fae88f08721581395425a414bd8439",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -622,9 +621,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760425307",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4063890",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "3798",
@@ -647,5 +647,54 @@
       "18": "4711",
       "19": "4791"
     }
+  },
+  "extended": {
+    "developer": "Blender Games",
+    "publisher": "Blender Games"
+  },
+  "config": {
+    "installdir": "Anime Dream Match Horses",
+    "launch": {
+      "0": {
+        "executable": "Anime Dream Match Horses.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4063891": {
+      "manifests": {
+        "public": {
+          "gid": "8183953017300604943",
+          "size": "487476229",
+          "download": "484754032"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20130737",
+        "timeupdated": "1758827637"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": ".",
+        "pattern": "save.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
