@@ -1,6 +1,5 @@
 {
   "appid": "4017170",
-  "public_only": "1",
   "common": {
     "name": "101 Dogs Hidden in Shanghai",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "9497b684a97a3bf248efef06ae7911d416002059",
     "clienticon": "9497b684a97a3bf248efef06ae7911d416002059",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2c933c064acc48fd37cc502a62032cf10fc5cfa8/capsule_231x87.jpg"
@@ -73,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759528485",
+    "store_asset_mtime": "1759869395",
     "associations": {
       "0": {
         "type": "developer",
@@ -191,9 +190,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760447520",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4017170",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1638",
@@ -215,6 +215,53 @@
       "17": "5154",
       "18": "3871",
       "19": "5390"
+    }
+  },
+  "extended": {
+    "developer": "NaipSoft",
+    "publisher": "NaipSoft"
+  },
+  "config": {
+    "installdir": "101 Dogs Hidden in Shanghai",
+    "launch": {
+      "0": {
+        "executable": "101_Dogs_Hidden_in_Shanghai.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4017171": {
+      "manifests": {
+        "public": {
+          "gid": "2983042573201235637",
+          "size": "630557988",
+          "download": "111680976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20274804",
+        "timeupdated": "1759775171"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "NaipSoft/101_Dogs_Hidden_in_Shanghai",
+        "pattern": "*.jogo",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
