@@ -1,6 +1,5 @@
 {
   "appid": "4039470",
-  "public_only": "1",
   "common": {
     "name": "5 minutes",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "06dc6e053b8fc425071b7e3a1ce6884234cd0840",
     "clienticon": "06dc6e053b8fc425071b7e3a1ce6884234cd0840",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4039470",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -115,6 +114,39 @@
       "7": "492",
       "8": "4182",
       "9": "4004"
+    }
+  },
+  "extended": {
+    "developer": "kangelgames",
+    "publisher": "kangelgames"
+  },
+  "config": {
+    "installdir": "5minutes.exe",
+    "launch": {
+      "0": {
+        "executable": "windows_content\\5 minutes.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4039475": {
+      "manifests": {
+        "public": {
+          "gid": "4415344114162027374",
+          "size": "318356636",
+          "download": "142040528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20384274",
+        "timeupdated": "1760439446"
+      }
     }
   }
 }
