@@ -151,7 +151,10 @@
     "launch": {
       "0": {
         "executable": "game.exe",
-        "type": "none"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
       }
     }
   },
@@ -171,6 +174,9 @@
       "sharedinstall": "1"
     },
     "3715981": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "979929398871031762",
@@ -179,6 +185,7 @@
         }
       }
     },
+    "baselanguages": "english,arabic",
     "branches": {
       "public": {
         "buildid": "20381922",
