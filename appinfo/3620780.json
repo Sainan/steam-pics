@@ -22,6 +22,39 @@
       "2": "5"
     },
     "restricted_countries": "CN,DE,SA",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1759449600",
+      "tested_build_id": "19713423",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "1",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -191,9 +224,9 @@
           "download": "7442445584"
         },
         "experimental_nosupport": {
-          "gid": "5826780862702699996",
-          "size": "15839421966",
-          "download": "7038012032"
+          "gid": "6054473792289445222",
+          "size": "15839714663",
+          "download": "7038236576"
         },
         "upscalerdisabled": {
           "gid": "2762768270617949373",
@@ -210,9 +243,9 @@
         "timeupdated": "1758892084"
       },
       "experimental_nosupport": {
-        "buildid": "20188540",
+        "buildid": "20281787",
         "description": "実験的な公開ブランチ",
-        "timeupdated": "1759321581"
+        "timeupdated": "1760418617"
       },
       "upscalerdisabled": {
         "buildid": "20121162",
