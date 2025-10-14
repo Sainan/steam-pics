@@ -1,10 +1,9 @@
 {
   "appid": "3645250",
-  "public_only": "1",
   "common": {
     "name": "The Treasure Below",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -102,6 +101,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760046013",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3645250",
     "exfgls": "3",
@@ -119,6 +120,58 @@
       "10": "3843",
       "11": "4182",
       "12": "6730"
+    }
+  },
+  "extended": {
+    "developer": "Yuhan Ma",
+    "publisher": "Yuhan Ma",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Treasure Below",
+    "launch": {
+      "0": {
+        "executable": "Windows\\TheTreasureBelow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3645251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2354502447925379901",
+          "size": "938224549",
+          "download": "851016016"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20296020",
+        "timeupdated": "1759892334"
+      }
     }
   }
 }
