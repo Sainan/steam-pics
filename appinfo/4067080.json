@@ -120,6 +120,20 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "CyberShardClicker.app\\Contents\\MacOS\\Cyber Shard Clicker",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "CyberShardClicker.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
@@ -141,15 +155,32 @@
         }
       }
     },
+    "4067082": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "develop": {
+          "gid": "7214486098257444008",
+          "size": "365629478",
+          "download": "105241248"
+        }
+      }
+    },
+    "4067083": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
     "branches": {
       "public": {
         "buildid": "20389622",
         "timeupdated": "1760461980"
       },
       "develop": {
-        "buildid": "20389622",
+        "buildid": "20389742",
         "description": "Develop",
-        "timeupdated": "1760461878"
+        "timeupdated": "1760462392"
       }
     }
   }
