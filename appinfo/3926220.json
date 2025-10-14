@@ -1,6 +1,5 @@
 {
   "appid": "3926220",
-  "public_only": "1",
   "common": {
     "name": "Soul Sorter: A Mortality Personality Test",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3926220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -130,6 +130,43 @@
       "9": "3871",
       "10": "4182",
       "11": "1755"
+    }
+  },
+  "extended": {
+    "developer": "Alomy",
+    "publisher": "Alomy"
+  },
+  "config": {
+    "installdir": "Soul Sorter",
+    "launch": {
+      "0": {
+        "executable": "Soul Sorter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3926221": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8008126402657241950",
+          "size": "192355597",
+          "download": "122861680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20382391",
+        "timeupdated": "1760430924"
+      }
     }
   }
 }
