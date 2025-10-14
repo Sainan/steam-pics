@@ -1,4 +1,65 @@
 {
   "appid": "3983310",
-  "public_only": "1"
+  "common": {
+    "name": "Polylumina Demo",
+    "type": "Demo",
+    "parent": "3908010",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "0406abf80a0d66ed78eeb5b5af4074f2721ca45b",
+    "icon": "0406abf80a0d66ed78eeb5b5af4074f2721ca45b",
+    "releasestate": "released",
+    "gameid": "3983310",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Polylumina Demo",
+    "launch": {
+      "0": {
+        "executable": "Polyverse.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3983311": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5814742605250179318",
+          "size": "522360832",
+          "download": "354286992"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20309402",
+        "timeupdated": "1759954636"
+      }
+    }
+  }
 }
