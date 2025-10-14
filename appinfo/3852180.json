@@ -1,6 +1,5 @@
 {
   "appid": "3852180",
-  "public_only": "1",
   "common": {
     "name": "Hexateria",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "74ad6891eb608f714fb8feaf679c0673d339f9bf",
     "clienticon": "38939716a8e2f4626d7f2a373f851dddc54e22b8",
     "clienttga": "687a6858196240bf5ff96b7504b703b9bea42da3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "98f1576080bc69d90cbc7579a0c743be15c89229/capsule_231x87.jpg"
@@ -111,7 +110,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3852180",
-    "exfgls": "8",
     "store_tags": {
       "0": "1684",
       "1": "1741",
@@ -133,6 +131,52 @@
       "17": "4182",
       "18": "122",
       "19": "6129"
+    }
+  },
+  "extended": {
+    "developer": "Jakub Nejman",
+    "publisher": "Jakub Nejman"
+  },
+  "config": {
+    "installdir": "Hexateria",
+    "launch": {
+      "0": {
+        "executable": "Hexateria.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3852181": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5744877926362647408",
+          "size": "2255459344",
+          "download": "2073906608"
+        },
+        "main": {
+          "gid": "5744877926362647408",
+          "size": "2255459344",
+          "download": "2073906608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20391123",
+        "timeupdated": "1760470856"
+      },
+      "main": {
+        "buildid": "20391123",
+        "description": "Main Branch",
+        "timeupdated": "1760470863"
+      }
     }
   }
 }
