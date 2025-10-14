@@ -1,6 +1,5 @@
 {
   "appid": "4066460",
-  "public_only": "1",
   "common": {
     "name": "Rogue AI: Idle Domination Demo",
     "type": "Demo",
@@ -10,11 +9,12 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "《叛逆AI放置征服》试玩版",
       "tchinese": "《叛逆AI放置征服》試玩版"
     },
+    "controllertagwizard": "1",
     "small_capsule": {
       "english": "5f74d878a37d70dd54f800f8e7328fdefa615173/capsule_231x87.jpg",
       "schinese": "3191f15b02dfd4b396446e0c20fb6be3e5e8bba3/capsule_231x87_schinese.jpg"
@@ -85,7 +85,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760081468",
+    "store_asset_mtime": "1760088620",
     "associations": {
       "0": {
         "type": "developer",
@@ -96,17 +96,72 @@
         "name": "Surefire.Games"
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "28",
+    "genres": {
+      "0": "23",
+      "1": "28"
+    },
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_79": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760088328",
     "gameid": "4066460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nerdook Productions",
+    "publisher": "Surefire.Games"
+  },
+  "config": {
+    "installdir": "Rogue AI Idle Domination Demo",
+    "launch": {
+      "0": {
+        "executable": "Rogue AI Desktop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066461": {
+      "manifests": {
+        "public": {
+          "gid": "8942956637112080035",
+          "size": "93351355",
+          "download": "61490976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20392470",
+        "timeupdated": "1760476734"
+      }
+    }
   }
 }
