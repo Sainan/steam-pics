@@ -1,6 +1,5 @@
 {
   "appid": "4020700",
-  "public_only": "1",
   "common": {
     "name": "404节奏失控 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "2ea8fb54a7b4b1d7fe50612c776b0b2a6dbe6f6f",
     "icon": "6f1b8c1701619b5bdaf84d35532e879359d74ed8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "2e2de6675d0d5bd97246aa0fad48a130ba691054/capsule_231x87.jpg"
@@ -93,7 +92,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760406909",
     "gameid": "4020700",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Evolution Studio",
+    "publisher": "Evolution Studio"
+  },
+  "config": {
+    "installdir": "404Beatcarsh Demo",
+    "launch": {
+      "0": {
+        "executable": "404 Beat Crash.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4020701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2106840462744143944",
+          "size": "1630620912",
+          "download": "339279360"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20378107",
+        "timeupdated": "1760406051"
+      }
+    }
   }
 }
