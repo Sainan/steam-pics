@@ -1,6 +1,5 @@
 {
   "appid": "3720650",
-  "public_only": "1",
   "common": {
     "name": "Air Hockey Roguelike",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "1d163beec1a77deadefe9abbe9ed886f17f10800",
     "clienticns": "1d163beec1a77deadefe9abbe9ed886f17f10800",
     "clienticon": "99b323ce7da0172fe0a02bb27f61048e78f4dbda",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -113,9 +112,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759859987",
     "community_hub_visible": "1",
     "gameid": "3720650",
-    "exfgls": "8",
     "store_tags": {
       "0": "701",
       "1": "1716",
@@ -128,6 +127,46 @@
       "8": "4182",
       "9": "4136",
       "10": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Taxi_95",
+    "publisher": "Taxi_95"
+  },
+  "config": {
+    "installdir": "Air Hockey Roguelike",
+    "launch": {
+      "0": {
+        "executable": "Air Hockey Roguelike.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3720651": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1150679618267138872",
+          "size": "138565792",
+          "download": "50557200"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20387350",
+        "timeupdated": "1760453033"
+      }
     }
   }
 }
