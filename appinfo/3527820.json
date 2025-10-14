@@ -1,6 +1,5 @@
 {
   "appid": "3527820",
-  "public_only": "1",
   "common": {
     "name": "Chickenhare and the treasure of Spiking-Beard",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "d0717be07f5b4fa3cd62bb93339babd7d7f7e6a7",
     "clienticns": "6dadb78b5014e176d2a472d2dee79c800938bff9",
     "clienticon": "0eb07b8e8a0eca570b4395228441b95fc10f7a80",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -176,9 +175,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760480590",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3527820",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -200,6 +200,73 @@
       "17": "5608",
       "18": "3968",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "N-Zone",
+    "publisher": "Nzone Production",
+    "homepage": "https://www.chickenhare.game/"
+  },
+  "config": {
+    "installdir": "Chickenhare and the treasure of Spiking-Beard",
+    "launch": {
+      "0": {
+        "executable": "Chickenhare.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3527821": {
+      "manifests": {
+        "public": {
+          "gid": "8384397335010925455",
+          "size": "14258100320",
+          "download": "14054989200"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,russian,polish,dutch,turkish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20269652",
+        "timeupdated": "1759752960"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "4",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "HopperPlatformer/Saved/SaveGame",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
