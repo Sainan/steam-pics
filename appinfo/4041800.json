@@ -1,6 +1,5 @@
 {
   "appid": "4041800",
-  "public_only": "1",
   "common": {
     "name": "Mystic Archipelago",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "07de9b7b7cb437b1342eda63416752f49b7acd9f/capsule_231x87.jpg"
@@ -106,7 +105,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4041800",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "1720",
@@ -124,5 +122,51 @@
       "13": "1684",
       "14": "4182"
     }
+  },
+  "extended": {
+    "developer": "Clim-bot",
+    "publisher": "Clim-bot"
+  },
+  "config": {
+    "installdir": "Mystic Archipelago",
+    "launch": {
+      "0": {
+        "executable": "mystic-archipelago/Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows Version"
+        },
+        "description": "Windows Version"
+      }
+    }
+  },
+  "depots": {
+    "4041803": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4378926717874466978",
+          "size": "358221901",
+          "download": "188137952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20213092",
+        "timeupdated": "1759354353"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100"
   }
 }
