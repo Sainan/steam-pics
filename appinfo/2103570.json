@@ -1,0 +1,197 @@
+{
+  "appid": "2103570",
+  "common": {
+    "name": "Paragon Pioneers Demo",
+    "type": "Demo",
+    "parent": "2103340",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "clienttga": "01c4987157dfd0915e24a8826ccd7278704c0d7b",
+    "clienticon": "3b1e86added3db1aad602347574a36c505320b94",
+    "releasestate": "released",
+    "icon": "d47029c5924256f07d2b2241246d2d3a5a2f0f78",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1661427759",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tobias Arlt"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tobias Arlt"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1664433743",
+    "gameid": "2103570",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "2103340",
+    "developer": "Tobias Arlt",
+    "publisher": "Tobias Arlt",
+    "homepage": "https://paragonpioneers.com/"
+  },
+  "config": {
+    "installdir": "Paragon Pioneers Demo",
+    "launch": {
+      "0": {
+        "executable": "Paragon Pioneers.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ParagonPioneers.app/Contents/MacOS/Paragon Pioneers",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "ParagonPioneers.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2103572": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4687796010492065383",
+          "size": "154016834",
+          "download": "66629840"
+        }
+      }
+    },
+    "2103573": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1158808970894147930",
+          "size": "134114260",
+          "download": "73013328"
+        }
+      }
+    },
+    "2103574": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "410547369892718689",
+          "size": "111457332",
+          "download": "66076064"
+        }
+      }
+    },
+    "baselanguages": "english,german,french",
+    "branches": {
+      "public": {
+        "buildid": "9811401",
+        "timeupdated": "1666870969"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GniGames/Paragon Pioneers",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "GniGames/Paragon Pioneers",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/GniGames/Paragon Pioneers",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
+    }
+  }
+}
