@@ -1,6 +1,5 @@
 {
   "appid": "3755230",
-  "public_only": "1",
   "common": {
     "name": "Сыновья Одина | Sons of Odin Demo",
     "type": "Demo",
@@ -15,11 +14,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
-    "content_descriptors": {
-      "0": "1",
-      "1": "5"
-    },
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "russian": "2af1834d4771e90cc1fe2842571cb3078a97eade/capsule_231x87_russian.jpg",
@@ -120,11 +115,67 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759920909",
+    "community_visible_stats": "1",
     "gameid": "3755230",
-    "exfgls": "6",
-    "content_descriptors_including_dlc": {
-      "0": "1",
-      "1": "5"
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Game Crafters Collective",
+    "publisher": "Game Crafters Collective",
+    "homepage": "https://sons-of-odin.io/"
+  },
+  "config": {
+    "installdir": "Sons of Odin Demo",
+    "launch": {
+      "0": {
+        "executable": "Sons of Odin.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Sons of Odin.app/Contents/MacOS/Sons of Odin",
+        "workingdir": "Sons of Odin.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3755231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "692459270724518534",
+          "size": "4214814477",
+          "download": "1021845376"
+        }
+      }
+    },
+    "3755232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6426412811817273201",
+          "size": "2783509572",
+          "download": "607454480"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20393590",
+        "timeupdated": "1760483410"
+      }
     }
   }
 }
