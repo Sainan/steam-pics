@@ -1,0 +1,286 @@
+{
+  "appid": "3330860",
+  "common": {
+    "name": "Hello Girl",
+    "type": "Game",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "clienticon": "31445ec546b97ff6f84b987313cb413125d76ea2",
+    "clienttga": "2ccb4354218d0111f87cea68a0216ff23664a500",
+    "clienticns": "0b651520f394d28291344612250218c89d5e1e7f",
+    "linuxclienticon": "515572eae5eb75d03c25b91f3f56b53ac377a0f8",
+    "icon": "d3955371ef90cc67b766a6d6786383f5df506a78",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "japanese": "1"
+    },
+    "content_descriptors": {
+      "0": "5"
+    },
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "b46316c9f18bfbf1a0246721f31e96a406bbe704/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "31.946970644653845",
+        "height_pct": "53.90428565926843"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "089057440b5d9fc6d75a5e1cb4037b440b6f7343/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "089057440b5d9fc6d75a5e1cb4037b440b6f7343/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "7060747255570163dc11fa74bfdcc152fa840e99/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "7060747255570163dc11fa74bfdcc152fa840e99/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "7060747255570163dc11fa74bfdcc152fa840e99/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "31.946970644653845",
+          "height_pct": "53.90428565926843"
+        },
+        "image": {
+          "english": "e90ea30d04dd56f8f2baf06288f8f4feda7d5fba/logo.png"
+        },
+        "image2x": {
+          "english": "e90ea30d04dd56f8f2baf06288f8f4feda7d5fba/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "6926298956c5e0029fa7800c6fec14fee53e5f71/library_header.jpg"
+        },
+        "image2x": {
+          "english": "6926298956c5e0029fa7800c6fec14fee53e5f71/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1748908188",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Imo Team"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Imo Team"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "25",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_64": "1",
+      "category_66": "1",
+      "category_67": "1",
+      "category_69": "1",
+      "category_71": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_79": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1741024473",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "3330860",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    },
+    "store_tags": {
+      "0": "3799",
+      "1": "7208",
+      "2": "3871",
+      "3": "4726",
+      "4": "31275",
+      "5": "21",
+      "6": "44868",
+      "7": "4598",
+      "8": "5382",
+      "9": "4085",
+      "10": "4168",
+      "11": "1678",
+      "12": "492",
+      "13": "5716",
+      "14": "5186",
+      "15": "5372",
+      "16": "4182"
+    },
+    "review_score": "8",
+    "review_percentage": "98"
+  },
+  "extended": {
+    "developer": "Imo Team",
+    "publisher": "Imo Team",
+    "homepage": "https://maillard.love/"
+  },
+  "config": {
+    "installdir": "Hello Girl",
+    "launch": {
+      "0": {
+        "executable": "hello_girl.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "lib/py3-linux-x86_64/python",
+        "arguments": "hello_girl.py",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "hello_girl.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3330861": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2984394187912167643",
+          "size": "429635637",
+          "download": "366398688"
+        }
+      }
+    },
+    "3330862": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2315525320357392723",
+          "size": "473194749",
+          "download": "378147888"
+        }
+      }
+    },
+    "3330863": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2799458058912173657",
+          "size": "451329636",
+          "download": "371891808"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "17629479",
+        "timeupdated": "1741317772"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "1": {
+        "root": "LinuxHome",
+        "path": ".renpy/hellogirl-steam-1683853571",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": ".renpy/hellogirl-steam-1683853571",
+            "replace": "/Library/RenPy/hellogirl-steam-1683853571"
+          }
+        }
+      },
+      "1": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": ".renpy/hellogirl-steam-1683853571",
+            "replace": "RenPy\\hellogirl-steam-1683853571"
+          }
+        }
+      }
+    }
+  }
+}
