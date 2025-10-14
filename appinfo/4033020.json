@@ -1,6 +1,5 @@
 {
   "appid": "4033020",
-  "public_only": "1",
   "common": {
     "name": "Logic Deck",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "561c31512b77d6849321a0d00d5ec03b958c6ac9",
     "clienticon": "561c31512b77d6849321a0d00d5ec03b958c6ac9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4033020",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -125,6 +124,50 @@
       "17": "5851",
       "18": "6129",
       "19": "4236"
+    }
+  },
+  "extended": {
+    "developer": "Boogygames Studios",
+    "publisher": "Boogygames Studios",
+    "homepage": "https://store.steampowered.com/publisher/boogygames"
+  },
+  "config": {
+    "installdir": "Logic Deck",
+    "launch": {
+      "0": {
+        "executable": "Logic Deck.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Logic Deck"
+        },
+        "description": "Logic Deck"
+      }
+    }
+  },
+  "depots": {
+    "4033021": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1547898796335618765",
+          "size": "353911885",
+          "download": "147772096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19971048",
+        "timeupdated": "1757794393"
+      }
     }
   }
 }
