@@ -1,10 +1,9 @@
 {
   "appid": "3276960",
-  "public_only": "1",
   "common": {
     "name": "Sorcery Slam",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "75ec984d410d680595f2a5fd22cc0092f05a87ae",
     "clienttga": "abf5c8ec8dd0d5a8676f9c3d6d98cc8f84857337",
     "clienticon": "c416dd082778dfec151da0dc9f4459408fe0c1e6",
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1729410069",
+    "store_asset_mtime": "1760131290",
     "associations": {
       "0": {
         "type": "developer",
@@ -106,9 +105,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3276960",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -127,6 +126,52 @@
       "14": "7368",
       "15": "3859",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Earth Shatter Games",
+    "publisher": "Earth Shatter Games",
+    "homepage": "http://sorceryslam.com/"
+  },
+  "config": {
+    "installdir": "Sorcery Slam",
+    "launch": {
+      "0": {
+        "executable": "SorcerySlam.exe"
+      }
+    }
+  },
+  "depots": {
+    "3276961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1269954201186392950",
+          "size": "200402032",
+          "download": "88253392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20382334",
+        "timeupdated": "1760430621"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
