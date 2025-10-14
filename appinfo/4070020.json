@@ -1,6 +1,5 @@
 {
   "appid": "4070020",
-  "public_only": "1",
   "common": {
     "name": "Black Cat Bundle Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e0312d895f26b59d8439d1c1bbed832788c6bca5/capsule_231x87.jpg"
     },
@@ -96,5 +95,34 @@
     },
     "gameid": "4070020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ThatLeftHandMan",
+    "publisher": "ThatLeftHandMan"
+  },
+  "config": {
+    "installdir": "Black Cat Bundle Demo",
+    "launch": {
+      "0": {
+        "executable": "Black Cat Bundle Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4070021": {
+      "manifests": {
+        "public": {
+          "gid": "2973005917554906547",
+          "size": "113338482",
+          "download": "91319008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20311190",
+        "timeupdated": "1759964812"
+      }
+    }
   }
 }
