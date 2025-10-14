@@ -1,6 +1,5 @@
 {
   "appid": "3984490",
-  "public_only": "1",
   "common": {
     "name": "Avatar of the Blood Moon",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -107,9 +106,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760452247",
     "community_hub_visible": "1",
     "gameid": "3984490",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -136,6 +135,53 @@
       "17": "4172",
       "18": "4342",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "Matthew G Brown",
+    "publisher": "I Sneeze Cheese"
+  },
+  "config": {
+    "installdir": "AvataroftheBloodMoon",
+    "launch": {
+      "0": {
+        "executable": "AvataroftheBloodMoon/Windows/AvataroftheBloodMoon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3984491": {
+      "manifests": {
+        "public": {
+          "gid": "4813372193999606551",
+          "size": "8208912509",
+          "download": "7986084784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19921069",
+        "timeupdated": "1757479587"
+      }
     }
   }
 }
