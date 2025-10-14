@@ -1,6 +1,5 @@
 {
   "appid": "4084850",
-  "public_only": "1",
   "common": {
     "name": "Dead By Headshot Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "951efd6bffd51b31521609262919fbe89da89bbd/capsule_231x87.jpg",
       "german": "951efd6bffd51b31521609262919fbe89da89bbd/capsule_231x87_german.jpg",
@@ -69,5 +68,43 @@
     },
     "gameid": "4084850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bad Cat Studios",
+    "publisher": "Bad Cat Studios"
+  },
+  "config": {
+    "installdir": "Dead By Headshot Demo",
+    "launch": {
+      "0": {
+        "executable": "Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Iniciar Dead By Headshot Demo"
+        },
+        "description": "Iniciar Dead By Headshot Demo"
+      }
+    }
+  },
+  "depots": {
+    "4084851": {
+      "manifests": {
+        "public": {
+          "gid": "3019429851794630311",
+          "size": "4123829070",
+          "download": "3049180448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20376996",
+        "timeupdated": "1760396148"
+      }
+    }
   }
 }
