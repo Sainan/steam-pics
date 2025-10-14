@@ -7,7 +7,7 @@
     "name_localized": {
       "schinese": "杀剧回环：衔尾之蛇 - 试玩版"
     },
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "icon": "a3c24320043e6a95da2f3f22a29ee223482d2887",
@@ -68,7 +68,16 @@
     "installdir": "Killing Tragedy Samsara Demo",
     "launch": {
       "0": {
-        "executable": "KTS_demo-1.5-pc/KTS_demo.exe"
+        "executable": "KTS_demo-1.5-pc/KTS_demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "KTS_demo-1.5-pc/KTS_demo.app/Contents/MacOS/KTS_demo",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
