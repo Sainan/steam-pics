@@ -1,10 +1,9 @@
 {
   "appid": "3589280",
-  "public_only": "1",
   "common": {
     "name": "Zafira",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "988b345307bb0f3d7a2f57abc5fd93e3f6461c32",
     "clienttga": "10303251f8f5669ba24c387cf42f942361dd6944",
     "oslist": "windows",
@@ -127,6 +126,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760432492",
     "community_hub_visible": "1",
     "gameid": "3589280",
     "exfgls": "3",
@@ -157,6 +157,51 @@
       "17": "1684",
       "18": "4182",
       "19": "113"
+    }
+  },
+  "extended": {
+    "developer": "Ignis Nine Studio",
+    "publisher": "Nutaku Publishing",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Zafira",
+    "launch": {
+      "0": {
+        "executable": "M3.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3589281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3572656832983604566",
+          "size": "1874996560",
+          "download": "477553728"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20365936",
+        "timeupdated": "1760345451"
+      }
     }
   }
 }
