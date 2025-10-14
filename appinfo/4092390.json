@@ -161,7 +161,51 @@
         "type": "default",
         "config": {
           "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default"
+        },
+        "description": "Default"
+      },
+      "1": {
+        "executable": "Trials Survivors.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
         }
+      },
+      "2": {
+        "executable": "Trials Survivors.exe",
+        "arguments": "-force-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch with DirectX 11 (Default)"
+        },
+        "description": "Launch with DirectX 11 (Default)"
+      },
+      "3": {
+        "executable": "Trials Survivors.exe",
+        "arguments": "-force-vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch with Vulkan"
+        },
+        "description": "Launch with Vulkan"
+      },
+      "4": {
+        "executable": "Trials Survivors.exe",
+        "arguments": "-force-d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch with DirectX 12"
+        },
+        "description": "Launch with DirectX 12"
       }
     }
   },
