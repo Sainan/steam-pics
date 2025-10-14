@@ -1,6 +1,5 @@
 {
   "appid": "4092630",
-  "public_only": "1",
   "common": {
     "name": "Honu Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "c752744d4663797332e90d70415672f4a3075f0c",
     "icon": "c752744d4663797332e90d70415672f4a3075f0c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -44,7 +43,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760458836",
     "gameid": "4092630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "H-BRS GameDev",
+    "publisher": "H-BRS GameDev",
+    "homepage": "https://hbrsgamedev.team/"
+  },
+  "config": {
+    "installdir": "Honu Demo",
+    "launch": {
+      "0": {
+        "executable": "Honu.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4092631": {
+      "manifests": {
+        "public": {
+          "gid": "5325232064669352930",
+          "size": "2365890297",
+          "download": "2076473808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20309985",
+        "timeupdated": "1759957896"
+      }
+    }
   }
 }
