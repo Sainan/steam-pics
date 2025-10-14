@@ -6,7 +6,7 @@
     "parent": "3955030",
     "clienticon": "a0b6b3b0e2d31a6c1030f2a587674886014ad0e5",
     "icon": "a0b6b3b0e2d31a6c1030f2a587674886014ad0e5",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "releasestate": "released",
@@ -58,6 +58,9 @@
   },
   "depots": {
     "4058341": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "1929278216213828682",
@@ -69,6 +72,11 @@
     "4058342": {
       "config": {
         "oslist": "macos"
+      }
+    },
+    "4058343": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "baselanguages": "english",
