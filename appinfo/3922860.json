@@ -1,6 +1,5 @@
 {
   "appid": "3922860",
-  "public_only": "1",
   "common": {
     "name": "Divine Awakening",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -117,9 +116,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3922860",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -144,6 +143,55 @@
       "14": "1684",
       "15": "4172",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "NSFW Works",
+    "publisher": "NSFW Works"
+  },
+  "config": {
+    "installdir": "Divine Awakening",
+    "launch": {
+      "0": {
+        "executable": "DivineAwakening.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DivineAwakening.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3922861": {
+      "manifests": {
+        "public": {
+          "gid": "4091096655519073260",
+          "size": "792064984",
+          "download": "677306480"
+        },
+        "demo": {
+          "gid": "5373521126713642457",
+          "size": "702735122",
+          "download": "588014256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20056566",
+        "timeupdated": "1758339395"
+      },
+      "demo": {
+        "buildid": "20149153",
+        "description": "demo",
+        "timeupdated": "1758924291"
+      }
     }
   }
 }
