@@ -1,6 +1,5 @@
 {
   "appid": "2900900",
-  "public_only": "1",
   "common": {
     "name": "Moony:Black_Lotus",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "d813bf59ac466d9c05885b18027797c32f5c3c49",
     "clienticon": "3ec63496bfbb62c5750cdbc4457d82f63eb4ecca",
     "icon": "758df057ae8098309526f6b995f2a9173aefbe6d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2900900_eula_0",
@@ -134,9 +133,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759942653",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2900900",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4166",
@@ -158,6 +158,81 @@
       "17": "7481",
       "18": "5094",
       "19": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Icegrim Softworks",
+    "publisher": "Icegrim Softworks",
+    "homepage": "https://icegrim.com/"
+  },
+  "config": {
+    "installdir": "Moony_BlackLotus",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Moony_BlackLotus.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2900901": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5878140551799782215",
+          "size": "2793650359",
+          "download": "2382811296"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20339558",
+        "timeupdated": "1760112318"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Moony_BlackLotus/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
