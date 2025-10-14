@@ -176,6 +176,28 @@
   "ufs": {
     "quota": "100000000",
     "maxnumfiles": "1000",
-    "sync_while_suspended": "1"
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Orathos\\save\\",
+        "pattern": "*.rmmzsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    }
   }
 }
