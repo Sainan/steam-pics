@@ -1,5 +1,6 @@
 {
   "appid": "2375780",
+  "public_only": "1",
   "common": {
     "name": "Beam Eye Tracker",
     "type": "Application",
@@ -159,56 +160,5 @@
     },
     "review_score": "8",
     "review_percentage": "88"
-  },
-  "extended": {
-    "developer": "Eyeware Tech SA",
-    "publisher": "Eyeware Tech SA",
-    "homepage": "https://beam.eyeware.tech/"
-  },
-  "config": {
-    "installdir": "Beam Eye Tracker",
-    "launch": {
-      "0": {
-        "executable": "BeamEyeTracker.exe",
-        "type": "default",
-        "config": {
-          "oslist": "windows",
-          "osarch": "64"
-        }
-      }
-    }
-  },
-  "depots": {
-    "2375781": {
-      "config": {
-        "oslist": "windows",
-        "osarch": "64"
-      },
-      "manifests": {
-        "public": {
-          "gid": "8009826561121255847",
-          "size": "597223469",
-          "download": "256681856"
-        },
-        "beta": {
-          "gid": "8009826561121255847",
-          "size": "597223469",
-          "download": "256681856"
-        }
-      }
-    },
-    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,brazilian,latam",
-    "branches": {
-      "public": {
-        "buildid": "18403172",
-        "timeupdated": "1747124853"
-      },
-      "beta": {
-        "buildid": "18403172",
-        "description": "Public Beta version",
-        "timeupdated": "1746800205"
-      }
-    },
-    "privatebranches": "1"
   }
 }
