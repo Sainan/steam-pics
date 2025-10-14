@@ -1,10 +1,9 @@
 {
   "appid": "3375630",
-  "public_only": "1",
   "common": {
     "name": "Lightkeeper's Curse",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "88a8941756d975b432f8bf2f6177f7c6cf029313",
     "clienticon": "727cdc522d4f565142abc321fab9f4ebb3a1095f",
     "oslist": "windows",
@@ -143,9 +142,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760029493",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3375630",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1667",
@@ -167,6 +167,67 @@
       "17": "4175",
       "18": "599",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Shire Brew Studios",
+    "publisher": "Shire Brew Studios"
+  },
+  "config": {
+    "installdir": "Lightkeeper's Curse",
+    "launch": {
+      "0": {
+        "executable": "LightkeepersCurse.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3375631": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1592317330189868553",
+          "size": "2131996638",
+          "download": "1290716048"
+        },
+        "prelaunchbranch": {
+          "gid": "5623910755709164504",
+          "size": "2131489582",
+          "download": "1291827824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20297964",
+        "timeupdated": "1759902804"
+      },
+      "prelaunchbranch": {
+        "buildid": "20380540",
+        "description": "Used for prelaunch verification",
+        "timeupdated": "1760419151"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "3000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Shire Brew Studios\\LightkeepersCurse\\",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
