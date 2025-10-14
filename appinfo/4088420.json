@@ -1,6 +1,5 @@
 {
   "appid": "4088420",
-  "public_only": "1",
   "common": {
     "name": "Sepan and the Seven Flasks Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -106,7 +105,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4088420",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PicMid",
+    "publisher": "PicMid"
+  },
+  "config": {
+    "installdir": "Sepan and the Seven Flasks Demo",
+    "launch": {
+      "0": {
+        "executable": "SepanDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4088421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7273900548561377925",
+          "size": "220602064",
+          "download": "129539184"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20290847",
+        "timeupdated": "1759860773"
+      }
+    }
   }
 }
