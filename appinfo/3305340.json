@@ -1,6 +1,5 @@
 {
   "appid": "3305340",
-  "public_only": "1",
   "common": {
     "name": "Gary Goat RPG! Legend of the Jewel Seeds Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "clienttga": "299334915de2a5ac0ce9bd827b5dc381d50f6ef2",
     "clienticns": "ef4e558a48d591b31f5e2a716c331369cc3e9105",
     "linuxclienticon": "3ab01486eae2fe7a17cc181f55cd5c6fffa54f8d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -93,7 +92,61 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3305340",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Spikey!",
+    "publisher": "Spikey!"
+  },
+  "config": {
+    "installdir": "Gary Goat RPG! Demo",
+    "launch": {
+      "0": {
+        "executable": "Gary_Goat_RPG_Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Gary_Goat_RPG_Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3305341": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8260745344944334559",
+          "size": "471765055",
+          "download": "392324688"
+        }
+      }
+    },
+    "3305342": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2131924091206572013",
+          "size": "434206080",
+          "download": "381479664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20364800",
+        "timeupdated": "1760339905"
+      }
+    }
   }
 }
