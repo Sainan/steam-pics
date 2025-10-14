@@ -1,6 +1,5 @@
 {
   "appid": "3788390",
-  "public_only": "1",
   "common": {
     "name": "The Deep Library",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,9 +110,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3788390",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "3839",
@@ -127,6 +126,51 @@
       "9": "492",
       "10": "493",
       "11": "1663"
+    }
+  },
+  "extended": {
+    "developer": "Parsec Productions, LLC",
+    "publisher": "Parsec Productions, LLC"
+  },
+  "config": {
+    "installdir": "The Deep Library",
+    "launch": {
+      "0": {
+        "executable": "TheDeepLibrary.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3788391": {
+      "manifests": {
+        "public": {
+          "gid": "2586345699290684264",
+          "size": "326996704",
+          "download": "141611728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20361343",
+        "timeupdated": "1760310446"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save/{64BitSteamID}/",
+        "pattern": "*"
+      }
     }
   }
 }
