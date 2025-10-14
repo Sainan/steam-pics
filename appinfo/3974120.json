@@ -1,6 +1,5 @@
 {
   "appid": "3974120",
-  "public_only": "1",
   "common": {
     "name": "Don't Fall Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e6baa3f536e5922c36b747a89fa001c56f29fef6/capsule_231x87.jpg"
     },
@@ -95,7 +94,77 @@
       "category_9": "1",
       "category_38": "1"
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "gameid": "3974120",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Shine 3D",
+    "publisher": "Shine 3D"
+  },
+  "config": {
+    "installdir": "Don't Fall Demo",
+    "launch": {
+      "0": {
+        "executable": "DontFall.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DontFall.exe",
+        "arguments": "-vulkan",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3974121": {
+      "manifests": {
+        "public": {
+          "gid": "256359229255185652",
+          "size": "2362460913",
+          "download": "2191313232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20328932",
+        "timeupdated": "1760075676"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "DontFall/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
