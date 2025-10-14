@@ -1,0 +1,203 @@
+{
+  "appid": "1143750",
+  "common": {
+    "name": "VRocker",
+    "type": "Application",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "seated": "1",
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      }
+    },
+    "clienttga": "2082bd03d15d4ddd9713e5dd20794e0678e3bf31",
+    "clienticon": "559b5b1a38fcd4b62db12fcfba9cf7c7265ab3e0",
+    "icon": "9fd7ca260cadc339df588853bc5b18afcd2b4613",
+    "logo": "834993914c6f24572a6632d53b15ab553fbeabde",
+    "logo_small": "834993914c6f24572a6632d53b15ab553fbeabde_thumb",
+    "releasestate": "released",
+    "openvroverlaysupport": "1",
+    "openvrsupport": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "33.78063010501752",
+        "height_pct": "54.17952980289716"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "33.78063010501752",
+          "height_pct": "54.17952980289716"
+        },
+        "image": {
+          "english": "logo.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1589743591",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "digitalsoulVR"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "digitalsoulVR"
+      }
+    },
+    "primary_genre": "57",
+    "genres": {
+      "0": "57",
+      "1": "70"
+    },
+    "category": {
+      "category_52": "1",
+      "category_54": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1592477969",
+    "community_hub_visible": "1",
+    "gameid": "1143750",
+    "exfgls": "6",
+    "onlyvrsupport": "1",
+    "store_tags": {
+      "0": "87",
+      "1": "493",
+      "2": "21978"
+    },
+    "review_score": "8",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "digitalsoulVR",
+    "publisher": "digitalsoulVR"
+  },
+  "config": {
+    "installdir": "VRocker",
+    "launch": {
+      "0": {
+        "executable": "vrocker\\release\\vrocker.exe",
+        "type": "openvroverlay",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1143751": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "7270261165867534011",
+          "size": "762329973",
+          "download": "486315552"
+        },
+        "steam_vr_2_12_fix": {
+          "gid": "7426229087935653406",
+          "size": "706731855",
+          "download": "453143456"
+        },
+        "beta": {
+          "gid": "7270261165867534011",
+          "size": "762329973",
+          "download": "486315552"
+        },
+        "dev_branch": {
+          "gid": "3481774423095251474",
+          "size": "706729759",
+          "download": "452761600"
+        },
+        "dev_pico": {
+          "gid": "1643270982872439269",
+          "size": "706737447",
+          "download": "453022464"
+        },
+        "experiments": {
+          "gid": "7036594565695573873",
+          "size": "722784034",
+          "download": "465346768"
+        },
+        "previous_branch": {
+          "gid": "7426229087935653406",
+          "size": "706731855",
+          "download": "453143456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20027010",
+        "timeupdated": "1758264470"
+      },
+      "steam_vr_2_12_fix": {
+        "buildid": "19824951",
+        "description": "Temp Branch to test SteamVR Update Fix",
+        "timeupdated": "1756816677"
+      },
+      "beta": {
+        "buildid": "20027010",
+        "timeupdated": "1758176731"
+      },
+      "dev_branch": {
+        "buildid": "12201938",
+        "timeupdated": "1694804152"
+      },
+      "dev_pico": {
+        "buildid": "14201966",
+        "description": "pico dev branch",
+        "timeupdated": "1714328965"
+      },
+      "experiments": {
+        "buildid": "12197464",
+        "timeupdated": "1694804176"
+      },
+      "previous_branch": {
+        "buildid": "19824951",
+        "description": "previous version of the app can be found here",
+        "timeupdated": "1758264777"
+      }
+    }
+  }
+}
