@@ -1,10 +1,9 @@
 {
   "appid": "3832360",
-  "public_only": "1",
   "common": {
     "name": "鱼自会上钩 EffortlessCatch",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "9f3924ede642029dc35455eecfbea1ec6056f415",
     "clienticon": "452aff7afd605b1b4b8e225b2c0a2a2076fdd029",
     "clienttga": "71dee63b2bede44825fb11bd38fc7cc41858a446",
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760008106",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3832360",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -138,6 +138,52 @@
       "8": "255534",
       "9": "8945",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "JLL",
+    "publisher": "JLL"
+  },
+  "config": {
+    "installdir": "鱼自会上钩",
+    "launch": {
+      "0": {
+        "executable": "EffortlessCatch.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3832361": {
+      "manifests": {
+        "public": {
+          "gid": "8745572219195255195",
+          "size": "131071200",
+          "download": "61792832"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20379004",
+        "timeupdated": "1760408762"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
