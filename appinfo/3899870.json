@@ -1,6 +1,5 @@
 {
   "appid": "3899870",
-  "public_only": "1",
   "common": {
     "name": "Blind Survival",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "845713449552cc2daf9f2b6d1e7f084ffa59e171",
     "icon": "845713449552cc2daf9f2b6d1e7f084ffa59e171",
     "linuxclienticon": "314d4ab0e0465fa8071994a0a2893d4d11368a1b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -118,9 +117,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760428765",
     "community_hub_visible": "1",
     "gameid": "3899870",
-    "exfgls": "8",
     "store_tags": {
       "0": "5186",
       "1": "4400",
@@ -142,6 +141,116 @@
       "17": "1742",
       "18": "7481",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Noah Molteberg Lundén",
+    "publisher": "Noah Molteberg Lundén",
+    "homepage": "https://blind-survival.com/"
+  },
+  "config": {
+    "installdir": "Blind Survival",
+    "launch": {
+      "1": {
+        "executable": "Blind Survival.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "run_game.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3899871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8465456303333653766",
+          "size": "367788563",
+          "download": "221185344"
+        },
+        "beta": {
+          "gid": "3288326122362838183",
+          "size": "367788563",
+          "download": "221185360"
+        }
+      }
+    },
+    "3899872": {},
+    "3899873": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "663060153934577901",
+          "size": "379724765",
+          "download": "229703600"
+        },
+        "beta": {
+          "gid": "1146081459039562449",
+          "size": "379724765",
+          "download": "229703600"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20370620",
+        "timeupdated": "1760365381"
+      },
+      "beta": {
+        "buildid": "20369257",
+        "description": "Public Beta",
+        "timeupdated": "1760365395"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "saves",
+        "pattern": "*.file"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "saves",
+            "replace": "Zyfiel\\Blind Survival\\"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "saves",
+            "replace": ".config/unity3d/Zyfiel/Blind Survival"
+          }
+        }
+      }
     }
   }
 }
