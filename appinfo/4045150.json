@@ -1,6 +1,5 @@
 {
   "appid": "4045150",
-  "public_only": "1",
   "common": {
     "name": "喂饱幽幽子大人吧！",
     "type": "Game",
@@ -17,7 +16,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7fb4ac6d92b9db5d746a389278ddb15d6b03bc92/capsule_231x87.jpg"
@@ -96,12 +95,10 @@
     "genres": {
       "0": "4",
       "1": "23",
-      "2": "3",
-      "3": "37"
+      "2": "3"
     },
     "category": {
-      "category_2": "1",
-      "category_62": "1"
+      "category_2": "1"
     },
     "supported_languages": {
       "english": {
@@ -130,9 +127,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4045150",
-    "exfgls": "3",
     "store_tags": {
       "0": "597",
       "1": "122",
@@ -147,6 +144,49 @@
       "10": "18594",
       "11": "4182",
       "12": "180368"
+    }
+  },
+  "extended": {
+    "developer": "LancerKoi",
+    "publisher": "白夜星象馆",
+    "listofdlc": "4046140",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "FEEDING YUYUKO",
+    "launch": {
+      "0": {
+        "executable": "feeding yuyuko\\game.exe"
+      }
+    }
+  },
+  "depots": {
+    "229002": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4045151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7989851602908992445",
+          "size": "149550120",
+          "download": "50112384"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20379834",
+        "timeupdated": "1760414499"
+      }
     }
   }
 }
