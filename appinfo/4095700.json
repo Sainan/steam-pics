@@ -1,6 +1,5 @@
 {
   "appid": "4095700",
-  "public_only": "1",
   "common": {
     "name": "Jupiter's Orbit Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -47,6 +46,61 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Alien Fork",
+    "publisher": "Alien Fork"
+  },
+  "config": {
+    "installdir": "Jupiter's Orbit Demo",
+    "launch": {
+      "0": {
+        "executable": "jupiters-orbit.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "jupiters-orbit-universal.dmg",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4095701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "248425003276993156",
+          "size": "183409826",
+          "download": "183319200"
+        }
+      }
+    },
+    "4095702": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "950736862740474481",
+          "size": "283693340",
+          "download": "283146992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20405574",
+        "timeupdated": "1760544823"
+      }
     }
   }
 }
