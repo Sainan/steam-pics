@@ -1,18 +1,16 @@
 {
   "appid": "4005550",
-  "public_only": "1",
   "common": {
     "name": "Fokkland",
     "type": "Game",
     "clienticon": "c84300629a4862e0170b91cb449fd52ca8e7e29d",
     "icon": "c84300629a4862e0170b91cb449fd52ca8e7e29d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
     "aicontenttype": "1",
     "controllertagwizard": "1",
-    "controller_support": "full",
     "small_capsule": {
       "english": "b5a82fcf780d1b8f6177c5d37460e2aab486b3db/capsule_231x87.jpg"
     },
@@ -96,7 +94,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
       "category_69": "1",
       "category_74": "1",
       "category_78": "1",
@@ -110,7 +107,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4005550",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "5350",
@@ -132,6 +128,54 @@
       "17": "9541",
       "18": "4474",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "GearheadFoxGames",
+    "publisher": "GearheadFoxGames"
+  },
+  "config": {
+    "installdir": "Fokkland",
+    "launch": {
+      "0": {
+        "executable": "FokkLand.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4005551": {
+      "manifests": {
+        "public": {
+          "gid": "3249230656625243845",
+          "size": "1741304242",
+          "download": "1442734208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20127646",
+        "timeupdated": "1758813099"
+      }
     }
   }
 }
