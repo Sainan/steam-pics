@@ -1,6 +1,5 @@
 {
   "appid": "3882910",
-  "public_only": "1",
   "common": {
     "name": "Quiz Pinball: The Quiz You Didn't Know You Needed",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "5656df2d688593d9c2ee332056ecbafbfd9361c2",
     "clienticon": "5656df2d688593d9c2ee332056ecbafbfd9361c2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,6 +102,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760540787",
     "community_hub_visible": "1",
     "gameid": "3882910",
     "exfgls": "3",
@@ -120,6 +120,68 @@
       "10": "4182",
       "11": "1773",
       "12": "492"
+    }
+  },
+  "extended": {
+    "developer": "Tilt Bob Studio",
+    "publisher": "Tilt Bob Studio",
+    "isfreeapp": "1",
+    "listofdlc": "3883410,3930350",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Quiz Pinball",
+    "launch": {
+      "0": {
+        "executable": "Quiz Pinball.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3882911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2895054968631197591",
+          "size": "235738887",
+          "download": "82336592"
+        },
+        "internaltest": {
+          "gid": "2895054968631197591",
+          "size": "235738887",
+          "download": "82336592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20251347",
+        "timeupdated": "1759574100"
+      },
+      "internaltest": {
+        "buildid": "20251347",
+        "description": "Branch de Test",
+        "timeupdated": "1759573970"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1050000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tilt Bob Studio/Quiz Pinball/",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
