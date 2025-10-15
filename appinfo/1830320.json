@@ -1,6 +1,5 @@
 {
   "appid": "1830320",
-  "public_only": "1",
   "common": {
     "name": "Lords of Ravage",
     "type": "Game",
@@ -17,7 +16,7 @@
     "clienttga": "3f0cbf8b90b1bf32a0b8f80dd450e401e0b9bdbd",
     "linuxclienticon": "ca197a692fc36e15f66d00368aaef173d9a05fdf",
     "clienticon": "919e574c8f0c79c7d4d5b9c90816989867f7deb2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -101,7 +100,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759155955",
+    "store_asset_mtime": "1760530952",
     "associations": {
       "0": {
         "type": "developer",
@@ -181,9 +180,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760540401",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1830320",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -208,6 +208,61 @@
       "17": "4182",
       "18": "32322",
       "19": "1643"
+    }
+  },
+  "extended": {
+    "developer": "Synthetic Domain",
+    "publisher": "101XP",
+    "homepage": "https://www.syntheticdomain.com/portfolio/lordsofravage"
+  },
+  "config": {
+    "installdir": "Lords of Ravage",
+    "launch": {
+      "0": {
+        "executable": "Lords Of Ravage.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Default (DX11)"
+        },
+        "description": "Default (DX11)"
+      },
+      "1": {
+        "executable": "Lords Of Ravage.exe",
+        "arguments": "-force-vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "description": "Vulkan"
+      }
+    }
+  },
+  "depots": {
+    "1830321": {
+      "manifests": {
+        "public": {
+          "gid": "6709089652810286423",
+          "size": "5381260204",
+          "download": "1299432224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20398831",
+        "timeupdated": "1760539845"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Synthetic Domain/Lords of Ravage (Retail)",
+        "pattern": "*.sav"
+      }
     }
   }
 }
