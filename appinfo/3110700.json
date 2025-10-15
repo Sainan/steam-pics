@@ -1,6 +1,5 @@
 {
   "appid": "3110700",
-  "public_only": "1",
   "common": {
     "name": "Space War Economy Idle",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "f8adc4188c89718b7c51b7f704d54f80f26a3854",
     "clienticon": "37dc01d74965e608403e921bae4e91b86be393eb",
     "clienttga": "1b5cc2732e1a2fd6c0618e8cf8c49905cec48aba",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "839024f2b1cd71b88d0aff29bffff792f375b0bf/capsule_231x87.jpg"
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760530009",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3110700",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "4695",
@@ -128,5 +128,51 @@
       "18": "3871",
       "19": "4684"
     }
+  },
+  "extended": {
+    "developer": "Chasm Studios",
+    "publisher": "Chasm Studios"
+  },
+  "config": {
+    "installdir": "swei",
+    "launch": {
+      "0": {
+        "executable": "swei.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {}
+  },
+  "depots": {
+    "3110702": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8631879773547596274",
+          "size": "117564360",
+          "download": "55947264"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20395061",
+        "timeupdated": "1760492689"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "3",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
