@@ -1,13 +1,12 @@
 {
   "appid": "4005060",
-  "public_only": "1",
   "common": {
     "name": "Mary Jane Demo",
     "type": "Demo",
     "parent": "3980020",
     "clienticon": "1433d7b215d86be93e6326b541975f2099dfd7c2",
     "icon": "1433d7b215d86be93e6326b541975f2099dfd7c2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -68,7 +67,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757917667",
+    "store_asset_mtime": "1760046730",
     "associations": {
       "0": {
         "type": "developer",
@@ -404,10 +403,46 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759950313",
     "gameid": "4005060",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "EBOES",
+    "publisher": "EBOES"
+  },
+  "config": {
+    "installdir": "MaryJane",
+    "launch": {
+      "0": {
+        "executable": "MaryJane\\MaryJane.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4005061": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3434185182582116737",
+          "size": "776339018",
+          "download": "155493968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20401406",
+        "timeupdated": "1760529256"
+      }
     }
   }
 }
