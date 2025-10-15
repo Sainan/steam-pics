@@ -1,12 +1,14 @@
 {
   "appid": "4067390",
-  "public_only": "1",
   "common": {
     "name": "LuminousStoria",
     "type": "Game",
     "clienticon": "c271e56f3fc70fb87918423c32d1955855997b9e",
     "icon": "c271e56f3fc70fb87918423c32d1955855997b9e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -72,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759145418",
+    "store_asset_mtime": "1759928828",
     "associations": {
       "0": {
         "type": "developer",
@@ -104,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4067390",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "6506",
@@ -112,6 +113,39 @@
       "3": "1684",
       "4": "7481",
       "5": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SmileForeverStudio",
+    "publisher": "SmileForeverStudio",
+    "homepage": "https://smilefs.com/en/ls/"
+  },
+  "config": {
+    "installdir": "LuminousStory",
+    "launch": {
+      "0": {
+        "executable": "LuminousStoria.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4067391": {
+      "manifests": {
+        "public": {
+          "gid": "3652033951332522054",
+          "size": "542142981",
+          "download": "184752336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20302866",
+        "timeupdated": "1759925559"
+      }
     }
   }
 }
