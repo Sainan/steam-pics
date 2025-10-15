@@ -1,6 +1,5 @@
 {
   "appid": "4033310",
-  "public_only": "1",
   "common": {
     "name": "The Zamazingo Puzzle Land",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienticon": "6cd26b6d22c4f6f7525000aedb295e9503f4b141",
     "icon": "6cd26b6d22c4f6f7525000aedb295e9503f4b141",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d32c7ceb52c43d2158c68a0f32e3d9007dade2cb/capsule_231x87.jpg"
@@ -407,9 +406,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760514024",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4033310",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "21",
@@ -420,5 +420,77 @@
       "6": "492",
       "7": "4166"
     }
+  },
+  "extended": {
+    "developer": "yusuf vuran",
+    "publisher": "yusuf vuran",
+    "homepage": "https://thezamazingo.com/"
+  },
+  "config": {
+    "installdir": "The Zamazingo",
+    "launch": {
+      "0": {
+        "executable": "The Zamazingo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "The Zamazingo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4033312": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1501125761159142931",
+          "size": "128344351",
+          "download": "64196512"
+        },
+        "internal_testing": {
+          "gid": "1501125761159142931",
+          "size": "128344351",
+          "download": "64196512"
+        }
+      }
+    },
+    "4033313": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4400417749659033233",
+          "size": "144449147",
+          "download": "72252464"
+        },
+        "internal_testing": {
+          "gid": "4400417749659033233",
+          "size": "144449147",
+          "download": "72252464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20165497",
+        "timeupdated": "1759103093"
+      },
+      "internal_testing": {
+        "buildid": "20165497",
+        "description": "int_test",
+        "timeupdated": "1759103119"
+      }
+    },
+    "privatebranches": "1"
   }
 }
