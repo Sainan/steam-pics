@@ -1,4 +1,138 @@
 {
   "appid": "4079500",
-  "public_only": "1"
+  "common": {
+    "name": "OUTGUNNED Playtest",
+    "type": "Beta",
+    "parent": "3818940",
+    "clienticon": "f7d92c6ebb525373dab8dac3ae92266ecfad7f01",
+    "icon": "f7d92c6ebb525373dab8dac3ae92266ecfad7f01",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "small_capsule": {
+      "english": "de95b6d54758edd22c5836ef446a730ceeff17f5/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "65aff7895479a152bc66550b8f76121ec0dc0255/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "f205e73f56b8c87f60043b24e1e392f25127485b/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "f205e73f56b8c87f60043b24e1e392f25127485b/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "2bb29179ab3d173146689374bc8a5a413e60067f/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "2bb29179ab3d173146689374bc8a5a413e60067f/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "2bb29179ab3d173146689374bc8a5a413e60067f/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "0af9dd17bb51fb5d73f07fc246eb21e74a1cf6dd/logo.png"
+        },
+        "image2x": {
+          "english": "0af9dd17bb51fb5d73f07fc246eb21e74a1cf6dd/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "65aff7895479a152bc66550b8f76121ec0dc0255/library_header.jpg"
+        },
+        "image2x": {
+          "english": "65aff7895479a152bc66550b8f76121ec0dc0255/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759386745",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1759949140",
+    "community_hub_visible": "1",
+    "gameid": "4079500",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "0",
+    "playtestinvitecount": "0"
+  },
+  "config": {
+    "installdir": "OUTGUNNED Playtest",
+    "launch": {
+      "0": {
+        "executable": "Outgunned.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Outgunned.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4079501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "939746984139592940",
+          "size": "153257948",
+          "download": "42396832"
+        },
+        "linux": {
+          "gid": "3038632556272172006",
+          "size": "154945248",
+          "download": "43126368"
+        }
+      }
+    },
+    "4079502": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux": {
+          "gid": "1794264315540626922",
+          "size": "178667107",
+          "download": "46811360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20405393",
+        "timeupdated": "1760544039"
+      },
+      "linux": {
+        "buildid": "20352894",
+        "description": "Public default Linux branch",
+        "timeupdated": "1760215145"
+      }
+    }
+  }
 }
