@@ -1,6 +1,5 @@
 {
   "appid": "3981070",
-  "public_only": "1",
   "common": {
     "name": "Alchemy Hearts",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -119,7 +118,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3981070",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -146,6 +144,38 @@
       "17": "31275",
       "18": "4325",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Kernanknight",
+    "publisher": "Kernanknight"
+  },
+  "config": {
+    "installdir": "Alchemy Hearts",
+    "launch": {
+      "0": {
+        "executable": "Packages_Exporter.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3981071": {
+      "manifests": {
+        "public": {
+          "gid": "6350298753439408657",
+          "size": "1013141462",
+          "download": "596782496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20403222",
+        "timeupdated": "1760535722"
+      }
     }
   }
 }
