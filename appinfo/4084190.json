@@ -1,6 +1,5 @@
 {
   "appid": "4084190",
-  "public_only": "1",
   "common": {
     "name": "ZEROAD Demo",
     "type": "Demo",
@@ -10,9 +9,167 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
     "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "7c18e5fdcfcf95911027d283cbadf124be8fb28d/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "47cc7f71a041f7bf0b2409c263df2c134d098f2f/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomCenter",
+        "width_pct": "50",
+        "height_pct": "55.69935882213251"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "ca9b74cb52040edd2b129480abfced42e1ac0e9f/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "ca9b74cb52040edd2b129480abfced42e1ac0e9f/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "82c74182e259a43b56f7b7315dadf02a7d813b4f/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "82c74182e259a43b56f7b7315dadf02a7d813b4f/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "82c74182e259a43b56f7b7315dadf02a7d813b4f/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "c97cc646337d2bd75497ee3aae91da9a73128a88/logo.png"
+        },
+        "image2x": {
+          "english": "c97cc646337d2bd75497ee3aae91da9a73128a88/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomCenter",
+          "width_pct": "50",
+          "height_pct": "55.69935882213251"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "47cc7f71a041f7bf0b2409c263df2c134d098f2f/library_header.jpg"
+        },
+        "image2x": {
+          "english": "47cc7f71a041f7bf0b2409c263df2c134d098f2f/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759960160",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "DrillMindGames"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "DrillMindGames"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "3"
+    },
+    "category": {
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_48": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1767168000",
     "gameid": "4084190",
-    "exfgls": "6"
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "DrillMindGames",
+    "publisher": "DrillMindGames"
+  },
+  "config": {
+    "installdir": "ZEROAD Demo",
+    "launch": {
+      "0": {
+        "executable": "zeroad.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4084191": {
+      "manifests": {
+        "public": {
+          "gid": "2266908436524792800",
+          "size": "225145027",
+          "download": "175799664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20394592",
+        "timeupdated": "1760489579"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "appidredirect": "4084170",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "DrillMindGames/ZEROAD/save",
+        "pattern": "*.file",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
