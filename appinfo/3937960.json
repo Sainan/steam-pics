@@ -8,9 +8,9 @@
     "clienttga": "f0e4ee398f57506c8565fff2cb2121816c84eda4",
     "clienticns": "c24a2b508ff18dc44c31cee9eede30a1e21fb5a9",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -152,6 +152,13 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "QuackSquad.app/Contents/MacOS/QuackSquad",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -173,6 +180,13 @@
           "size": "481287627",
           "download": "281046272"
         }
+      }
+    },
+    "3937962": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
       }
     },
     "baselanguages": "english",
