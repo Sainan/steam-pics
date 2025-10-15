@@ -1,10 +1,9 @@
 {
   "appid": "3687630",
-  "public_only": "1",
   "common": {
     "name": "有这么一个家伙",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "f5c08edd12b2bdc214b3ca260f76bef4af58aff8",
     "clienticon": "5c67049de07b4bd31e6f0cdef6e0eba3222dadb0",
     "linuxclienticon": "4436c6067414eaca58ffd00035a08f689b885f81",
@@ -142,9 +141,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760493705",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3687630",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -168,6 +168,79 @@
       "15": "9204",
       "16": "3839",
       "17": "7208"
+    }
+  },
+  "extended": {
+    "developer": "SUCH ONE STUDIO",
+    "publisher": "SUCH ONE STUDIO",
+    "homepage": "https://such-one.com",
+    "listofdlc": "3868110",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Such a guy",
+    "launch": {
+      "0": {
+        "executable": "SuchaGuy.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3687631": {
+      "manifests": {
+        "public": {
+          "gid": "5821275917315396735",
+          "size": "43228431489",
+          "download": "41810205472"
+        }
+      }
+    },
+    "3687632": {
+      "manifests": {}
+    },
+    "3687633": {},
+    "3868110": {
+      "dlcappid": "3868110",
+      "config": {
+        "optionaldlc": "3868110"
+      }
+    },
+    "3913281": {
+      "dlcappid": "3913280"
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20380128",
+        "timeupdated": "1760437600"
+      }
+    },
+    "privatebranches": "1",
+    "appmanagesdlc": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.dat",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
