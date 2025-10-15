@@ -1,6 +1,5 @@
 {
   "appid": "2062430",
-  "public_only": "1",
   "common": {
     "name": "BALL x PIT",
     "type": "Game",
@@ -22,7 +21,10 @@
     "clienticon": "295ed18d63c329ed4d4625533eac4cf76f47ca9a",
     "clienttga": "8bfff28534107d8dc6035a5e14b446db5f3f42a9",
     "icon": "7651f4667f6084ef598a2da930d11e26d0aa5f82",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "name_localized": {
+      "schinese": "BALL x PIT — 球比伦战记"
+    },
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -212,9 +214,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760547600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2062430",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -235,6 +238,93 @@
       "16": "7481",
       "17": "492",
       "18": "122"
+    }
+  },
+  "extended": {
+    "developer": "Kenny Sun",
+    "publisher": "Devolver Digital",
+    "homepage": "https://www.ballxpit.com/"
+  },
+  "config": {
+    "installdir": "BALLxPIT",
+    "launch": {
+      "0": {
+        "executable": "Balls.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Balls.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "0",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "2062431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6521078632916959556",
+          "size": "571479863",
+          "download": "221103680"
+        }
+      }
+    },
+    "2062432": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4221218517133274835",
+          "size": "546501460",
+          "download": "216651600"
+        }
+      }
+    },
+    "4008250": {
+      "dlcappid": "4008250"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20076054",
+        "timeupdated": "1758631151"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Kenny Sun/BALL x PIT",
+        "pattern": "*.yankai"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Kenny Sun/BALLxPIT",
+            "replace": "Kenny Sun/Ball x PIT"
+          }
+        }
+      }
     }
   }
 }
