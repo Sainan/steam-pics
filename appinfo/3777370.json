@@ -5,9 +5,16 @@
     "type": "Demo",
     "parent": "3776790",
     "name_localized": {
-      "english": "Enchanted Stories: PAWisoned Kingdom Collector's Edition Demo"
+      "english": "Enchanted Stories: PAWisoned Kingdom Collector's Edition Demo",
+      "french": "Enchanted Stories: Royaume enCHATé Édition Сollector Demo",
+      "russian": "Зачарованные Истории: ЗаКОТованное королевство Коллекционное издание Demo",
+      "german": "Enchanted Stories: Vergiftetes Königreich Sammleredition Demo",
+      "italian": "Enchanted Stories: Regno avvelenato Edizione Speciale Demo",
+      "spanish": "Enchanted Stories: Reino envenenado Edición Coleccionista Demo",
+      "brazilian": "Enchanted Stories: Reino Envenenado Edições de Colecionador Demo",
+      "swedish": "Enchanted Stories: Förgiftade kungariket Specialutgåva Demo"
     },
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "icon": "db70ee6e2a83d263b760a49ea646de02e2d533fb",
@@ -97,12 +104,20 @@
   },
   "depots": {
     "3777371": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "8002610342115403053",
           "size": "438317229",
           "download": "344712464"
         }
+      }
+    },
+    "3777372": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
