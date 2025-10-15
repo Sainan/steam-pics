@@ -144,6 +144,24 @@
     "launch": {
       "0": {
         "executable": "AIMRace.exe"
+      },
+      "1": {
+        "executable": "launcher-x64.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "internal"
+        }
+      },
+      "2": {
+        "executable": "launcher-ia32.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32",
+          "betakey": "internal"
+        }
       }
     }
   },
