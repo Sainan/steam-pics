@@ -1,10 +1,9 @@
 {
   "appid": "3286220",
-  "public_only": "1",
   "common": {
     "name": "DIMAWORLD",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -113,6 +112,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760130066",
     "community_hub_visible": "1",
     "gameid": "3286220",
     "exfgls": "3",
@@ -141,6 +141,58 @@
       "17": "19",
       "18": "3968",
       "19": "3942"
+    },
+    "review_score": "7",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "Dimpiks",
+    "publisher": "Dimpiks",
+    "homepage": "http://dimpiks.ru/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "DIMAWORLD",
+    "launch": {
+      "0": {
+        "executable": "DIMAWORLD.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3286221": {
+      "manifests": {
+        "public": {
+          "gid": "5723622852350067466",
+          "size": "8900867257",
+          "download": "3209471824"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20112088",
+        "timeupdated": "1758731365"
+      }
     }
   }
 }
