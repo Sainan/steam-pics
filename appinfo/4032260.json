@@ -1,6 +1,5 @@
 {
   "appid": "4032260",
-  "public_only": "1",
   "common": {
     "name": "Rock Clicker",
     "type": "Game",
@@ -13,7 +12,7 @@
       "english": "1",
       "spanish": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d31f155ffd282742619ab7ad31066a2bf3f9539e/capsule_231x87.jpg"
@@ -106,6 +105,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760548286",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4032260",
     "exfgls": "3",
@@ -118,6 +119,53 @@
       "5": "4182",
       "6": "113",
       "7": "492"
+    }
+  },
+  "extended": {
+    "developer": "Gamedojo.app",
+    "publisher": "Gamedojo.app",
+    "homepage": "https://gamedojo.app",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "RockClicker",
+    "launch": {
+      "0": {
+        "executable": "RockClicker.exe"
+      }
+    }
+  },
+  "depots": {
+    "4032261": {
+      "manifests": {
+        "public": {
+          "gid": "686476377850881690",
+          "size": "737622368",
+          "download": "98211744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20132622",
+        "timeupdated": "1758839015"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "50",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gamedojo/RockClicker",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
