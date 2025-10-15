@@ -1,10 +1,9 @@
 {
   "appid": "2515280",
-  "public_only": "1",
   "common": {
     "name": "Slap Fighter",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -107,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2515280",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "19",
@@ -131,5 +129,46 @@
       "18": "3968",
       "19": "5055"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "developer": "Curious Games",
+    "publisher": "Curious Games",
+    "homepage": "https://slapfightervr.com/"
+  },
+  "config": {
+    "installdir": "Slap Fighter",
+    "launch": {
+      "0": {
+        "executable": "Slap Fighter VR.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2515281": {
+      "manifests": {
+        "public": {
+          "gid": "2983046635467204167",
+          "size": "5129761174",
+          "download": "1700728096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20335023",
+        "timeupdated": "1760091034"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "sync_while_suspended": "1"
   }
 }
