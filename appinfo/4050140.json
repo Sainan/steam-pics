@@ -1,6 +1,5 @@
 {
   "appid": "4050140",
-  "public_only": "1",
   "common": {
     "name": "封神演义之黄飞虎归周 Demo",
     "type": "Demo",
@@ -10,14 +9,16 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "71050b857efe1b3dde32147f2182b85bfee7093a/capsule_231x87.jpg"
+      "english": "7b2e609b5a37b1f2326e741b790ef1efe31ba5af/capsule_231x87.jpg",
+      "schinese": "71050b857efe1b3dde32147f2182b85bfee7093a/capsule_231x87_schinese.jpg"
     },
     "header_image": {
-      "english": "1511fd0df57c85f3be69b48ec4e1dc5af734fa2e/header.jpg"
+      "english": "3d4a2cdeb3b0318eb98fb0ed5062f152d6fb50e0/header.jpg",
+      "schinese": "1511fd0df57c85f3be69b48ec4e1dc5af734fa2e/header_schinese.jpg"
     },
-    "store_asset_mtime": "1758726879",
+    "store_asset_mtime": "1760521458",
     "associations": {
       "0": {
         "type": "developer",
@@ -29,8 +30,51 @@
       }
     },
     "primary_genre": "0",
-    "category": {},
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759900711",
     "gameid": "4050140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "TQGameStudio",
+    "publisher": "TQGameStudio"
+  },
+  "config": {
+    "installdir": "封神演义之黄飞虎归周 Demo",
+    "launch": {
+      "0": {
+        "executable": "FSStoryChapterA_Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4050141": {
+      "manifests": {
+        "public": {
+          "gid": "1374100066685165273",
+          "size": "526806931",
+          "download": "332837216"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20234835",
+        "timeupdated": "1759476187"
+      }
+    }
   }
 }
