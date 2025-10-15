@@ -1,6 +1,5 @@
 {
   "appid": "3994240",
-  "public_only": "1",
   "common": {
     "name": "印格 Engram Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
       "english": "Engram Demo",
       "japanese": "エングラム Engram Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -107,7 +106,74 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3994240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "sitoka",
+    "publisher": "Yet Another AI"
+  },
+  "config": {
+    "installdir": "Engram Demo",
+    "launch": {
+      "0": {
+        "executable": "engram.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "engram.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3994241": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5607048998807081662",
+          "size": "2137818705",
+          "download": "1394629392"
+        }
+      }
+    },
+    "3994242": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2786396762359409392",
+          "size": "1970321923",
+          "download": "1151408480"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20403124",
+        "timeupdated": "1760536379"
+      }
+    },
+    "privatebranches": "1"
   }
 }
