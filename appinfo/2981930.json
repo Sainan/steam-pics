@@ -7,7 +7,7 @@
     "name_localized": {
       "russian": "ДУЭЛЯНТ Демо"
     },
-    "oslist": "windows,linux",
+    "oslist": "windows",
     "osarch": "64",
     "osextended": "",
     "icon": "522cbd3cd9ce4bb2b652d91a3a1c0ee72214bc7e",
@@ -114,7 +114,6 @@
         "arguments": "-culture=ru",
         "type": "option2",
         "config": {
-          "oslist": "windows",
           "osarch": "64"
         },
         "description_loc": {
@@ -135,49 +134,6 @@
         "arguments": "-culture=en",
         "type": "option1",
         "config": {
-          "oslist": "windows",
-          "osarch": "64"
-        },
-        "description_loc": {
-          "english": "with ENGLISH voice acting",
-          "german": "mit englischer Sprachausgabe",
-          "french": "avec interprétation vocale en anglais",
-          "italian": "con doppiaggio in INGLESE",
-          "spanish": "con doblaje en INGLÉS",
-          "schinese": "英文配音",
-          "russian": "игру с английской озвучкой",
-          "polish": "z anglojęzycznym głosem",
-          "turkish": "İNGİLİZCE seslendirme ile"
-        },
-        "description": "with ENGLISH voice acting"
-      },
-      "3": {
-        "executable": "Duelant.sh",
-        "arguments": "-culture=ru",
-        "type": "option2",
-        "config": {
-          "oslist": "linux",
-          "osarch": "64"
-        },
-        "description_loc": {
-          "english": "with Russian voice acting",
-          "german": "mit russischer Sprachausgabe",
-          "french": "avec doublage russe",
-          "italian": "con doppiaggio russo",
-          "spanish": "con actuación de voz rusa",
-          "schinese": "俄罗斯配音",
-          "russian": "игру с русской озвучкой",
-          "polish": "z rosyjskim głosem działającym",
-          "turkish": "rusça seslendirme ile"
-        },
-        "description": "with Russian voice acting"
-      },
-      "4": {
-        "executable": "Duelant.sh",
-        "arguments": "-culture=en",
-        "type": "option1",
-        "config": {
-          "oslist": "linux",
           "osarch": "64"
         },
         "description_loc": {
@@ -193,7 +149,10 @@
         },
         "description": "with ENGLISH voice acting"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "228989": {
