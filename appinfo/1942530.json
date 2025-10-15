@@ -198,5 +198,28 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "20",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "path": "TheAnointed/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.level.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      }
+    }
   }
 }
