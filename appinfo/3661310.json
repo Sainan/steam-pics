@@ -143,7 +143,17 @@
     "installdir": "Hack And Climb",
     "launch": {
       "0": {
-        "executable": "Hack And Climb Demo.exe"
+        "executable": "Hack And Climb Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hack and Climb Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     },
     "steamcontrollertemplateindex": "1",
