@@ -164,6 +164,17 @@
       "0": {
         "executable": "Skald.exe",
         "type": "default"
+      },
+      "1": {
+        "executable": "Skald.exe",
+        "arguments": "KMP_AFFINITY=disabled %command%",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Linux Fix"
+        },
+        "description": "Linux Fix"
       }
     }
   },
