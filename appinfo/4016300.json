@@ -1,6 +1,5 @@
 {
   "appid": "4016300",
-  "public_only": "1",
   "common": {
     "name": "Beer Machine",
     "type": "Game",
@@ -19,7 +18,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -118,6 +117,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4016300",
     "exfgls": "3",
@@ -142,6 +142,55 @@
       "14": "4182",
       "15": "4191",
       "16": "5608"
+    }
+  },
+  "extended": {
+    "developer": "Crack Creations",
+    "publisher": "Crack Creations",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Beer Machine",
+    "launch": {
+      "0": {
+        "executable": "Beer_Machine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4016301": {
+      "manifests": {
+        "public": {
+          "gid": "2562621397945780677",
+          "size": "886472375",
+          "download": "757137472"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20070568",
+        "timeupdated": "1758511288"
+      }
     }
   }
 }
