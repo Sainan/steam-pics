@@ -1,6 +1,5 @@
 {
   "appid": "4066920",
-  "public_only": "1",
   "common": {
     "name": "Mice to Mars Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3d55928644000612ba590448d0552c6b52ce978c/capsule_231x87.jpg"
     },
@@ -35,7 +34,43 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760563557",
     "gameid": "4066920",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Gilded Octopus",
+    "publisher": "Gilded Octopus"
+  },
+  "config": {
+    "installdir": "Mice to Mars Demo",
+    "launch": {
+      "0": {
+        "executable": "Mice_To_Mars2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8561425700650237920",
+          "size": "139288119",
+          "download": "42121376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20390155",
+        "timeupdated": "1760464810"
+      }
+    }
   }
 }
