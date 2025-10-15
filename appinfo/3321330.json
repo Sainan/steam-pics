@@ -1,6 +1,5 @@
 {
   "appid": "3321330",
-  "public_only": "1",
   "common": {
     "name": "Konbini's World",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticon": "8e0cb00b927157f0e1f468eb9855859c03850220",
     "clienticns": "f2b49906302680462133cc1b3df36e4a9f6323d4",
     "linuxclienticon": "5abcc6e4fc13c4193677183d341286d66b11464d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759967282",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3321330",
-    "exfgls": "8",
     "store_tags": {
       "0": "5652",
       "1": "12472",
@@ -140,6 +140,106 @@
       "17": "3964",
       "18": "4695",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "GachiPan Games",
+    "publisher": "GachiPan Games"
+  },
+  "config": {
+    "installdir": "KonbinisWorld",
+    "launch": {
+      "0": {
+        "executable": "KonbinisWorld.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "KonbinisWorld.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3321331": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1274452789541213107",
+          "size": "283006988",
+          "download": "223433120"
+        }
+      }
+    },
+    "3321332": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1176733709489631472",
+          "size": "308274764",
+          "download": "231172208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20394768",
+        "timeupdated": "1760490772"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "save_game.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".local/share/godot/app_userdata/Konbini's World/"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Godot/app_userdata/Konbini's World/"
+          }
+        }
+      }
     }
   }
 }
