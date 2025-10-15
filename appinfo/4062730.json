@@ -1,6 +1,5 @@
 {
   "appid": "4062730",
-  "public_only": "1",
   "common": {
     "name": "Drumonic",
     "type": "Application",
@@ -17,7 +16,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "98e02482a054e569679f27fdb3a4fabc7afcfcca/capsule_231x87.jpg"
@@ -111,6 +110,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760543305",
     "community_hub_visible": "1",
     "gameid": "4062730",
     "exfgls": "6",
@@ -118,6 +118,46 @@
       "0": "1036",
       "1": "1621",
       "2": "189941"
+    }
+  },
+  "extended": {
+    "developer": "Digital Dementia",
+    "publisher": "Digital Dementia",
+    "homepage": "https://www.digitaldementia.no/drumonic/"
+  },
+  "config": {
+    "installdir": "Drumonic",
+    "launch": {
+      "0": {
+        "executable": "Drumonic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4062731": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1987286920953762877",
+          "size": "146513161",
+          "download": "77891024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20126013",
+        "timeupdated": "1758806917"
+      }
     }
   }
 }
