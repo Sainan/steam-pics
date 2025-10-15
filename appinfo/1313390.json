@@ -1,0 +1,177 @@
+{
+  "appid": "1313390",
+  "common": {
+    "name": "Rising Star 2 Demo",
+    "type": "Demo",
+    "parent": "1235110",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosnotarized",
+    "clienticon": "1cb092842de8b9d17a4cc98a63548e2b3889e3f1",
+    "clienttga": "1fec627a1b64aef52b017b6ef5937124df4341b9",
+    "icon": "839f267bc9e79f2f52dcfcc610269aa75353f42b",
+    "logo": "3623fa705ecfa1c8261e963909a8d41dd9bef173",
+    "logo_small": "3623fa705ecfa1c8261e963909a8d41dd9bef173_thumb",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "47.20605355064027",
+        "height_pct": "59.11897411541201"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "47.20605355064027",
+          "height_pct": "59.11897411541201"
+        }
+      }
+    },
+    "store_asset_mtime": "1597192265",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Gilligames"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Gilligames"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1592346226",
+    "gameid": "1313390",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1235110",
+    "developer": "Gilligames",
+    "publisher": "Gilligames"
+  },
+  "config": {
+    "installdir": "Rising Star 2 Demo",
+    "launch": {
+      "0": {
+        "executable": "RS2.exe",
+        "type": "none",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "RS2.app",
+        "type": "none",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1313391": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "6378772039539904855",
+          "size": "2827700600",
+          "download": "1516350800"
+        }
+      }
+    },
+    "1313392": {
+      "config": {
+        "oslist": "macos",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3615244500238336820",
+          "size": "2828784292",
+          "download": "1517796288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18423423",
+        "timeupdated": "1747021671"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "100",
+    "appidredirect": "1235110",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gilligames/Rising Star 2/Save Games",
+        "pattern": "*.*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
