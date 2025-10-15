@@ -1,6 +1,5 @@
 {
   "appid": "4040410",
-  "public_only": "1",
   "common": {
     "name": "Whiskers, Wizards and Wands Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -95,7 +94,46 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760544301",
     "gameid": "4040410",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sweet and Power Sauce",
+    "publisher": "Wizards Of Joy",
+    "homepage": "https://www.sweetandpowersauce.com/games"
+  },
+  "config": {
+    "installdir": "Whiskers, Wizards and Wands Demo",
+    "launch": {
+      "0": {
+        "executable": "WWW.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040411": {
+      "manifests": {
+        "public": {
+          "gid": "7148016168133888205",
+          "size": "659402128",
+          "download": "500001280"
+        }
+      }
+    },
+    "4040412": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20395210",
+        "timeupdated": "1760493770"
+      }
+    }
   }
 }
