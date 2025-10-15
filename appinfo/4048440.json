@@ -1,6 +1,5 @@
 {
   "appid": "4048440",
-  "public_only": "1",
   "common": {
     "name": "Loop//Error Demo",
     "type": "Demo",
@@ -8,9 +7,9 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "icon": "4b1d5449c7e960d35c4a2531337fe0182beae093",
-    "clienticon": "4b1d5449c7e960d35c4a2531337fe0182beae093",
-    "releasestate": "prerelease",
+    "icon": "4724b345a6160f81445af387cd56d2565e090cf5",
+    "clienticon": "4724b345a6160f81445af387cd56d2565e090cf5",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,6 +110,39 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Koro Pixel Studio",
+    "publisher": "CULT Games"
+  },
+  "config": {
+    "installdir": "LoopError Demo",
+    "launch": {
+      "0": {
+        "executable": "Loop-Error.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4048441": {
+      "manifests": {
+        "public": {
+          "gid": "8777271000867026700",
+          "size": "29185979",
+          "download": "18372032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20049522",
+        "timeupdated": "1758293500"
+      }
     }
   }
 }
