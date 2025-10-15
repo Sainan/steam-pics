@@ -1,6 +1,5 @@
 {
   "appid": "4044640",
-  "public_only": "1",
   "common": {
     "name": "Scoop it! Crane Game",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "b2e8b8811f0f1bf10d7907dcd655e9fb17f7ee56",
     "icon": "b2e8b8811f0f1bf10d7907dcd655e9fb17f7ee56",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -124,9 +123,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760570371",
     "community_hub_visible": "1",
     "gameid": "4044640",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -146,6 +145,49 @@
       "15": "3859",
       "16": "4840",
       "17": "7368"
+    }
+  },
+  "extended": {
+    "developer": "SAT-BOX",
+    "publisher": "SAT-BOX"
+  },
+  "config": {
+    "installdir": "Scoop it! Crane Game",
+    "launch": {
+      "0": {
+        "executable": "Scoop_it_CraneGame.exe",
+        "arguments": "-screen-fullscreen 1",
+        "type": "default",
+        "description_loc": {
+          "english": "FullScreen"
+        },
+        "description": "FullScreen"
+      },
+      "1": {
+        "executable": "Scoop_it_CraneGame.exe",
+        "arguments": "-screen-fullscreen 0 -screen-width 1920 -screen-height 1080",
+        "description_loc": {
+          "english": "Windowed (1920 x 1080)"
+        },
+        "description": "Windowed (1920 x 1080)"
+      }
+    }
+  },
+  "depots": {
+    "4044641": {
+      "manifests": {
+        "public": {
+          "gid": "5163200476219110251",
+          "size": "147613700",
+          "download": "94760976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20025991",
+        "timeupdated": "1758169289"
+      }
     }
   }
 }
