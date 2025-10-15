@@ -1,0 +1,92 @@
+{
+  "appid": "208130",
+  "common": {
+    "name": "Martino Test App 3",
+    "type": "Game",
+    "freetodownload": "1",
+    "community_hub_visible": "1",
+    "gameid": "208130",
+    "store_tags": {}
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "Martino Test App",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "config": {
+    "launch": {
+      "0": {
+        "executable": "GLTest.exe",
+        "arguments": "",
+        "description": "",
+        "workingdir": ""
+      },
+      "1": {
+        "executable": "bin/game.exe",
+        "description": "Launch with Console",
+        "workingdir": "bin"
+      }
+    },
+    "contenttype": "3",
+    "installdir": "Martino Test App"
+  },
+  "depots": {
+    "208131": {
+      "manifests": {
+        "public": {
+          "gid": "276102238350827441",
+          "size": "12801098",
+          "download": "8188352"
+        },
+        "local": {
+          "gid": "73184210518828537",
+          "size": "7931060",
+          "download": "0"
+        },
+        "rename": {
+          "gid": "764452497842072875",
+          "size": "7677046",
+          "download": "3351680"
+        },
+        "beta": {
+          "gid": "276102238350827441",
+          "size": "12801098",
+          "download": "8188352"
+        }
+      }
+    },
+    "208133": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows"
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "15997921",
+        "timeupdated": "1728581515"
+      },
+      "local": {
+        "buildid": "2508",
+        "description": "Local Content Server",
+        "lcsrequired": "1"
+      },
+      "rename": {
+        "buildid": "7705913",
+        "description": "renamed and moved files",
+        "timeupdated": "1636760063"
+      },
+      "beta": {
+        "buildid": "15997921",
+        "description": "asdsa",
+        "timeupdated": "1728581362"
+      }
+    }
+  }
+}
