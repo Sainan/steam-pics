@@ -5,7 +5,7 @@
     "type": "Beta",
     "parent": "3749570",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "icon": "818d8db9baef92469bda43bb42519bf0922c182d",
@@ -91,23 +91,38 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Contents\\MacOS\\Siege",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "3796941": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "2746300380684794717",
-          "size": "176938274",
-          "download": "65796704"
+          "gid": "2669329922132483947",
+          "size": "185797232",
+          "download": "67907200"
         }
+      }
+    },
+    "3796942": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
       "public": {
-        "buildid": "20249049",
-        "timeupdated": "1759549636"
+        "buildid": "20346215",
+        "timeupdated": "1760147703"
       }
     }
   }
