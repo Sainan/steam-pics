@@ -1,10 +1,9 @@
 {
   "appid": "3443400",
-  "public_only": "1",
   "common": {
     "name": "Anomaly Evolution",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "d2481ebaf17f9e5b5e89c6fb438e21a8750685c3",
     "clienticon": "df615e5c80535a2c79be62d7da40d7b331eb91af",
     "icon": "75052490546555861d82ababbc4974d6abf7bd62",
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760491936",
     "community_hub_visible": "1",
     "gameid": "3443400",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -128,6 +127,51 @@
       "8": "492",
       "9": "3942",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "TentaclesGames",
+    "publisher": "Hexapede Engine",
+    "homepage": "https://tentaclesgames.com/"
+  },
+  "config": {
+    "installdir": "Anomaly Evolution",
+    "launch": {
+      "0": {
+        "executable": "AnomalyEVO_WINDOWS.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3443401": {
+      "manifests": {
+        "public": {
+          "gid": "3464910028597384709",
+          "size": "823680136",
+          "download": "776740592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20384138",
+        "timeupdated": "1760438718"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "\\Godot\\app_userdata\\Anomaly Evolution/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
