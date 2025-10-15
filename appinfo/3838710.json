@@ -1,6 +1,5 @@
 {
   "appid": "3838710",
-  "public_only": "1",
   "common": {
     "name": "H2My Park Game",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "7560bec866d1fb1574abc1c7b98a7af5abb59b06",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "linuxclienticon": "199977d8cbf3abf4252c93e8c831eae97af2b381",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3838710_eula_0",
@@ -135,9 +134,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760516028",
     "community_hub_visible": "1",
     "gameid": "3838710",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -159,6 +158,47 @@
       "17": "4252",
       "18": "4182",
       "19": "8945"
+    }
+  },
+  "extended": {
+    "developer": "Michael Szonn",
+    "publisher": "Michael Szonn",
+    "homepage": "https://www.szonngames.com/h2myparkgame"
+  },
+  "config": {
+    "installdir": "H2MyParkGame",
+    "launch": {
+      "0": {
+        "executable": "h2myparkgame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3838711": {
+      "config": {
+        "oslist": "windows",
+        "language": "english",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2768991668310885532",
+          "size": "299951486",
+          "download": "70052336"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19981929",
+        "timeupdated": "1757925858"
+      }
     }
   }
 }
