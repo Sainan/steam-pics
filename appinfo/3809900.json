@@ -1,6 +1,5 @@
 {
   "appid": "3809900",
-  "public_only": "1",
   "common": {
     "name": "Habbo Hotel: Origins",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64",
     "clienticon": "711460e96508785cefae53b05debeff63f4ad930",
     "icon": "711460e96508785cefae53b05debeff63f4ad930",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3809900_eula_0",
@@ -119,6 +118,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3809900",
     "exfgls": "3",
@@ -140,6 +141,115 @@
       "11": "3916",
       "12": "3859",
       "13": "4004"
+    }
+  },
+  "extended": {
+    "developer": "Sulake Oy",
+    "publisher": "Sulake Oy",
+    "homepage": "https://origins.habbo.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Habbo Hotel Origins",
+    "launch": {
+      "0": {
+        "executable": "HabboHotel-ous.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Habbo Hotel: Origins [English]"
+        },
+        "description": "Habbo Hotel: Origins [English]"
+      },
+      "1": {
+        "executable": "Launcher.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "HabboHotel-ous-xl.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Habbo Hotel: Origins [English - XL Client]"
+        },
+        "description": "Habbo Hotel: Origins [English - XL Client]"
+      },
+      "3": {
+        "executable": "HabboHotel-obr.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Habbo Hotel: Origins [Portuguese]"
+        },
+        "description": "Habbo Hotel: Origins [Portuguese]"
+      },
+      "4": {
+        "executable": "HabboHotel-obr-xl.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Habbo Hotel: Origins [Portuguese - XL Client]"
+        },
+        "description": "Habbo Hotel: Origins [Portuguese - XL Client]"
+      },
+      "5": {
+        "executable": "HabboHotel-oes.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Habbo Hotel: Origins [Spanish]"
+        },
+        "description": "Habbo Hotel: Origins [Spanish]"
+      },
+      "6": {
+        "executable": "HabboHotel-oes-xl.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Habbo Hotel: Origins [Spanish - XL Client]"
+        },
+        "description": "Habbo Hotel: Origins [Spanish - XL Client]"
+      }
+    }
+  },
+  "depots": {
+    "3809901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8995187487498133374",
+          "size": "143854005",
+          "download": "107261840"
+        }
+      }
+    },
+    "3809902": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "592040155441701379",
+          "size": "1797078196",
+          "download": "495678624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20405663",
+        "timeupdated": "1760544998"
+      }
     }
   }
 }
