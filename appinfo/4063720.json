@@ -1,6 +1,5 @@
 {
   "appid": "4063720",
-  "public_only": "1",
   "common": {
     "name": "Sesh-On Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -115,6 +114,47 @@
       "0": "1",
       "1": "4",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "DenseTurd",
+    "publisher": "DenseTurd"
+  },
+  "config": {
+    "installdir": "Sesh-On Demo",
+    "launch": {
+      "0": {
+        "executable": "Sesh-On.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4063721": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8437378974048120633",
+          "size": "267482924",
+          "download": "56936928"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20406322",
+        "timeupdated": "1760548001"
+      }
     }
   }
 }
