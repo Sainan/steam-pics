@@ -11,6 +11,47 @@
     "clienttga": "ad0fb0e4dca850f9f1b33d67a406c54a14e501f5",
     "releasestate": "released",
     "aicontenttype": "1",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759536000",
+      "tested_build_id": "19899638",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "cfab75c6940c3d8fd7aafc362f901ed2b3bd3bb1/capsule_231x87.jpg"
@@ -139,8 +180,8 @@
       "18": "1685",
       "19": "3841"
     },
-    "review_score": "8",
-    "review_percentage": "80"
+    "review_score": "6",
+    "review_percentage": "77"
   },
   "extended": {
     "developer": "NuggetSmash",
