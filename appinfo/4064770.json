@@ -1,6 +1,5 @@
 {
   "appid": "4064770",
-  "public_only": "1",
   "common": {
     "name": "Half Light Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -51,6 +50,36 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "JimJams Games",
+    "publisher": "JimJams Games"
+  },
+  "config": {
+    "installdir": "Half Light Demo",
+    "launch": {
+      "0": {
+        "executable": "LaunchMe.exe"
+      }
+    }
+  },
+  "depots": {
+    "4064771": {
+      "manifests": {
+        "public": {
+          "gid": "3483023783820628250",
+          "size": "5114836200",
+          "download": "2905271456"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20399923",
+        "timeupdated": "1760520834"
+      }
     }
   }
 }
