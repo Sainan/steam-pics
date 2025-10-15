@@ -1,10 +1,9 @@
 {
   "appid": "3360340",
-  "public_only": "1",
   "common": {
     "name": "Water of M",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -134,9 +133,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760520555",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3360340",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -162,6 +162,56 @@
       "17": "492",
       "18": "1659",
       "19": "8369"
+    }
+  },
+  "extended": {
+    "developer": "FangSealGames",
+    "publisher": "FangSealGames"
+  },
+  "config": {
+    "installdir": "WaterOfM",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "WaterOfM.exe"
+      }
+    }
+  },
+  "depots": {
+    "3360342": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5123424075560911913",
+          "size": "2992269750",
+          "download": "1267592640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20388953",
+        "timeupdated": "1760459175"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "fangsealgames/WaterOfM",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
