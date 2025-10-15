@@ -1,6 +1,5 @@
 {
   "appid": "4089460",
-  "public_only": "1",
   "common": {
     "name": "Petmancer Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -65,7 +64,123 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760493254",
     "gameid": "4089460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Horse Arms LLC",
+    "publisher": "Horse Arms LLC"
+  },
+  "config": {
+    "installdir": "Petmancer Demo",
+    "launch": {
+      "0": {
+        "executable": "Petmancer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "petmancer.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Petmancer.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4089461": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5147042401750885436",
+          "size": "131091600",
+          "download": "58550896"
+        }
+      }
+    },
+    "4089462": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2243777063150436446",
+          "size": "104396200",
+          "download": "51646128"
+        }
+      }
+    },
+    "4089463": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7662138157921570502",
+          "size": "223063465",
+          "download": "83293728"
+        }
+      }
+    },
+    "baselanguages": "english,german,spanish,russian,dutch",
+    "branches": {
+      "public": {
+        "buildid": "20385655",
+        "timeupdated": "1760446006"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3841340",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "app_userdata/Petmancer/saves",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": "Godot/"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/godot/"
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "addpath": "/Library/Containers/com.horsearms.petmancer/Data/Library/Application Support/Godot"
+      }
+    }
   }
 }
