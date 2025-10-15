@@ -1,6 +1,5 @@
 {
   "appid": "2387470",
-  "public_only": "1",
   "common": {
     "name": "MR. ELEVATOR",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienticon": "f831125fc27c408d59a3754dc74e9976be6160aa",
     "clienttga": "7bcb67894b2b5d3810b41060e2fdb375ac3297a3",
     "clienticns": "3cab50ecd87303700db99845f7cc19c97c90ec03",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -154,9 +153,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760540400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2387470",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1664",
@@ -168,6 +168,61 @@
       "7": "492",
       "8": "1742",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "GIFT TEN INDUSTRY K.K.",
+    "publisher": "GIFT TEN INDUSTRY K.K.",
+    "homepage": "https://gift10.co.jp/"
+  },
+  "config": {
+    "installdir": "Elevator project",
+    "launch": {
+      "0": {
+        "executable": "MR.ELEVATOR.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "MR.ELEVATOR.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2387471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6819599840574135626",
+          "size": "147888091",
+          "download": "95459392"
+        }
+      }
+    },
+    "2387472": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "131314850682112453",
+          "size": "233614617",
+          "download": "103358016"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20395709",
+        "timeupdated": "1760497034"
+      }
     }
   }
 }
