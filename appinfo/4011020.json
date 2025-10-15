@@ -184,7 +184,22 @@
     "installdir": "Storebound Demo",
     "launch": {
       "0": {
-        "executable": "Storebound.exe"
+        "executable": "Storebound.exe",
+        "arguments": "-d3d12",
+        "type": "default",
+        "description_loc": {
+          "english": "Play with DirectX 12 (default)"
+        },
+        "description": "Play with DirectX 12 (default)"
+      },
+      "1": {
+        "executable": "Storebound.exe",
+        "arguments": "-d3d11",
+        "type": "option2",
+        "description_loc": {
+          "english": "Play with DirectX 11 (more stable for older hardwares)"
+        },
+        "description": "Play with DirectX 11 (more stable for older hardwares)"
       }
     },
     "steamcontrollertemplateindex": "2",
