@@ -1,6 +1,5 @@
 {
   "appid": "4088150",
-  "public_only": "1",
   "common": {
     "name": "Pawoki: Desktop Pets Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "7cb4329402acdd66df5d51d626784baa30a84ee8",
     "icon": "7cb4329402acdd66df5d51d626784baa30a84ee8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4a051591aa3e1da18cb2f538690309979a46f0c4/capsule_231x87.jpg"
@@ -171,7 +170,48 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4088150",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Blastbun",
+    "publisher": "Nektogone"
+  },
+  "config": {
+    "installdir": "Pawoki Desktop Pets Demo",
+    "launch": {
+      "0": {
+        "executable": "Pawoki.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4088151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "95091197748382294",
+          "size": "185847715",
+          "download": "70948896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20401298",
+        "timeupdated": "1760527137"
+      }
+    }
   }
 }
