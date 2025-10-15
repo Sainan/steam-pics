@@ -1,6 +1,5 @@
 {
   "appid": "4029210",
-  "public_only": "1",
   "common": {
     "name": "WAVEBEAM",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64",
     "icon": "d283ee0ef39609babea69df71f0103e3ff41c91c",
     "clienticon": "d283ee0ef39609babea69df71f0103e3ff41c91c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
@@ -112,6 +111,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4029210",
     "exfgls": "3",
@@ -137,5 +137,85 @@
       "18": "3916",
       "19": "4004"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,test",
+    "developer": "Ryan Collins",
+    "publisher": "Ryan Collins",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "WAVEBEAM",
+    "launch": {
+      "0": {
+        "executable": "WAVEBEAM.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "WAVEBEAM.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "WAVEBEAM.exe",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15"
+  },
+  "depots": {
+    "4029211": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5795021666305877490",
+          "size": "259592772",
+          "download": "100926608"
+        }
+      }
+    },
+    "4029212": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2792699804424686445",
+          "size": "294823012",
+          "download": "115399216"
+        }
+      }
+    },
+    "4049060": {
+      "dlcappid": "4049060",
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3678953611077395895",
+          "size": "6417158",
+          "download": "6409312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20175465",
+        "timeupdated": "1759160946"
+      }
+    },
+    "privatebranches": "1"
   }
 }
