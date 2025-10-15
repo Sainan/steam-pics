@@ -1,6 +1,5 @@
 {
   "appid": "2960490",
-  "public_only": "1",
   "common": {
     "name": "Royal Revolt Survivors",
     "type": "Game",
@@ -11,7 +10,7 @@
     "osarch": "",
     "osextended": "",
     "linuxclienticon": "c6f62ea360e2908dc9edee9aa6c22eee99f6b697",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1"
@@ -203,9 +202,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760540289",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2960490",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -227,6 +227,104 @@
       "17": "1684",
       "18": "4057",
       "19": "3841"
+    }
+  },
+  "extended": {
+    "developer": "Team Warriors",
+    "publisher": "Headup",
+    "homepage": "https://www.royalrevoltsurvivors.com"
+  },
+  "config": {
+    "installdir": "Royal Revolt Survivors",
+    "launch": {
+      "0": {
+        "executable": "rrw.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "rrw.AppBundle",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "steaminputmanifestpath": "SteamInputManifest.vdf",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2960491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7799474655405017508",
+          "size": "2605109394",
+          "download": "2367658656"
+        },
+        "playtest": {
+          "gid": "532213029324600125",
+          "size": "1422829615",
+          "download": "1199313408"
+        }
+      }
+    },
+    "2960492": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3915788122416186753",
+          "size": "2778810499",
+          "download": "2515203728"
+        },
+        "playtest": {
+          "gid": "8538559179398757745",
+          "size": "1563356319",
+          "download": "1297817520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20391420",
+        "timeupdated": "1760523606"
+      },
+      "playtest": {
+        "buildid": "15422264",
+        "description": "influencer playtest version",
+        "timeupdated": "1725971688"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Team Warriors/Royal Revolt Survivors/",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
+      }
     }
   }
 }
