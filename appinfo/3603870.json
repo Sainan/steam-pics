@@ -1,6 +1,5 @@
 {
   "appid": "3603870",
-  "public_only": "1",
   "common": {
     "name": "Raccateer",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "ee4d84d63feef8f7498e4e2d2b25465b4e94c907",
     "icon": "7bdc695e7cf05d55c33dcae2b1036187d5ad0e95",
     "clienticon": "59aa7967e5f7fbe2b47db985210cf11ad524e1d7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -108,9 +107,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760511642",
     "community_hub_visible": "1",
     "gameid": "3603870",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "220585",
@@ -126,5 +125,84 @@
       "11": "3964",
       "12": "4182"
     }
+  },
+  "extended": {
+    "developer": "Nathan Laird",
+    "publisher": "3StandardYardSticks",
+    "homepage": "https://raccateer.com/"
+  },
+  "config": {
+    "installdir": "Raccateer",
+    "launch": {
+      "0": {
+        "executable": "Raccateer/Raccateer.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Raccateer.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3603871": {},
+    "3603872": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8168051885644962897",
+          "size": "3006768243",
+          "download": "874982288"
+        }
+      }
+    },
+    "3603873": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2393434331359795379",
+          "size": "503373849",
+          "download": "74863296"
+        }
+      }
+    },
+    "3603874": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3843829197247536968",
+          "size": "331838750",
+          "download": "68339392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20397933",
+        "timeupdated": "1760511417"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "8",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
