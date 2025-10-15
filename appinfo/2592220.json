@@ -1,13 +1,12 @@
 {
   "appid": "2592220",
-  "public_only": "1",
   "common": {
     "name": "CUFFBUST",
     "type": "Game",
     "icon": "876d30861a64f0f4cca3536e58929ddc23c65913",
     "clienticon": "091aa6237f3a8441e24a88bf28be5b028e135406",
     "clienttga": "bfe319563a920b8fbee2373468550896f85d70d6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2592220_eula_0",
@@ -209,10 +208,11 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760535282",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "2592220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -238,5 +238,61 @@
       "18": "1775",
       "19": "5363"
     }
+  },
+  "extended": {
+    "developer": "Two Star Games",
+    "publisher": "Two Star Games",
+    "homepage": "https://www.cuffbust.com/",
+    "listofdlc": "3955640,3958060,3958070",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "CUFFBUST",
+    "launch": {
+      "0": {
+        "executable": "CUFFBUST.exe",
+        "arguments": "-dx11"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2592221": {
+      "manifests": {
+        "public": {
+          "gid": "3760059647232689286",
+          "size": "3774247375",
+          "download": "3614734624"
+        }
+      }
+    },
+    "workshopdepot": "2592220",
+    "branches": {
+      "public": {
+        "buildid": "20397870",
+        "timeupdated": "1760511762"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
