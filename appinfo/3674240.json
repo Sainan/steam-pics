@@ -1,13 +1,12 @@
 {
   "appid": "3674240",
-  "public_only": "1",
   "common": {
     "name": "Anura",
     "type": "Game",
     "icon": "6a916c31c6de0b273ac9a0080aaaba968b4e8abe",
     "clienticon": "09ce640fa0cb29c1e6adebd11355448a1569e913",
     "clienttga": "b987494c0c69e87268b99db716db4ec5e497ff70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -129,9 +128,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3674240",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "4726",
@@ -151,6 +150,72 @@
       "15": "4166",
       "16": "4182",
       "17": "492"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "GunginStudio",
+    "publisher": "GunginStudio"
+  },
+  "config": {
+    "installdir": "Anura",
+    "launch": {
+      "0": {
+        "executable": "Anura.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
     }
+  },
+  "depots": {
+    "3674241": {
+      "manifests": {
+        "public": {
+          "gid": "8538461772282885054",
+          "size": "227169774",
+          "download": "89580656"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20344381",
+        "timeupdated": "1760134416"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GunginTeam/Anura",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "GunginTeam/Anura",
+            "replace": ".config/unity3d/GunginTeam/Anura"
+          }
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
