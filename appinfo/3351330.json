@@ -1,10 +1,9 @@
 {
   "appid": "3351330",
-  "public_only": "1",
   "common": {
     "name": "Clown Is Hungry",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "9ccb5144af777b78c2144ee97daf12fa65a1baae",
     "clienticon": "8ab9b7d2878e8c1fcf9686a94181a3df0f5bef24",
     "clienttga": "91464a9c92048277e5c153f4fc38c79056f0f6a2",
@@ -130,9 +129,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3351330",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -157,6 +156,40 @@
       "17": "4064",
       "18": "4166",
       "19": "1719"
+    }
+  },
+  "extended": {
+    "developer": "Vidas Salavejus",
+    "publisher": "Vidas Salavejus",
+    "homepage": "https://www.vidasgames.com"
+  },
+  "config": {
+    "installdir": "Clown Is Hungry",
+    "launch": {
+      "0": {
+        "executable": "Clown Is Hungry.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3351331": {
+      "manifests": {
+        "public": {
+          "gid": "8123904122470752542",
+          "size": "2541445836",
+          "download": "1250380688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20403771",
+        "timeupdated": "1760537710"
+      }
     }
   }
 }
