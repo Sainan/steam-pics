@@ -1,10 +1,9 @@
 {
   "appid": "3676110",
-  "public_only": "1",
   "common": {
     "name": "雀星",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -183,6 +182,45 @@
       "4": "597",
       "5": "113",
       "6": "9"
+    }
+  },
+  "extended": {
+    "developer": "USERJOY Technology Co.,Ltd.",
+    "publisher": "USERJOY Technology Co.,Ltd.",
+    "homepage": "https://ntmj.userjoy.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "ntmj",
+    "launch": {
+      "0": {
+        "executable": "NTMJ.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3676111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8125243358321045180",
+          "size": "522309413",
+          "download": "195217312"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20363647",
+        "timeupdated": "1760330970"
+      }
     }
   }
 }
