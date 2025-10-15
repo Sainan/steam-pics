@@ -25,27 +25,52 @@
     "osextended": "",
     "openvrsupport": "1",
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "0",
-      "test_timestamp": "1704240000",
-      "tested_build_id": "0",
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759881600",
+      "tested_build_id": "16711380",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "steamos_tests": {},
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
       "configuration": {
-        "supported_input": "other",
+        "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
-        "primary_player_is_controller_slot_0": "0",
+        "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "0",
         "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-stable",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -194,12 +219,11 @@
       "3": "5752",
       "4": "599",
       "5": "1664",
-      "6": "42089",
-      "7": "493",
+      "6": "493",
+      "7": "42089",
       "8": "492",
       "9": "3839",
-      "10": "44868",
-      "11": "3978"
+      "10": "44868"
     },
     "review_score": "9",
     "review_percentage": "95"
