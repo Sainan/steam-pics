@@ -1,0 +1,220 @@
+{
+  "appid": "2777830",
+  "common": {
+    "name": "Shroomtopia Demo",
+    "type": "Demo",
+    "parent": "2483440",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "f7fa4e2e668176da10c0389430fde36ee3f5d19f",
+    "clienttga": "9c4f03441c0911cd536d9a5deb75ca3ce85375ee",
+    "clienticon": "0e4f4b3ad7c9bad8df15639d0e6ff1b4a80ad680",
+    "linuxclienticon": "ccb72dc3c2884a5952d9f91fec660805ce6b0e80",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "97.02450408401401",
+        "height_pct": "98.48017098076467"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "97.02450408401401",
+          "height_pct": "98.48017098076467"
+        }
+      }
+    },
+    "store_asset_mtime": "1706788325",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "GXN Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "GXN Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "polish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1706121588",
+    "gameid": "2777830",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GXN Games",
+    "publisher": "GXN Games"
+  },
+  "config": {
+    "installdir": "Shroomtopia Demo",
+    "launch": {
+      "0": {
+        "executable": "Shroomtopia.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Shroomtopia WIn 64-bit version"
+        },
+        "description": "Launch Shroomtopia WIn 64-bit version"
+      },
+      "1": {
+        "executable": "Shroomtopia.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch Shroomtopia Linux version"
+        },
+        "description": "Launch Shroomtopia Linux version"
+      }
+    }
+  },
+  "depots": {
+    "2777831": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4034720162938958093",
+          "size": "1008334786",
+          "download": "255495360"
+        }
+      }
+    },
+    "2777832": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3584546809838177877",
+          "size": "1010439435",
+          "download": "255929968"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "17521921",
+        "timeupdated": "1740609549"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "64000000",
+    "maxnumfiles": "128",
+    "appidredirect": "2483440",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "QUByte Interactive/Shroomtopia/{Steam3AccountID}/",
+        "pattern": "*.dat"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "QUByte Interactive/Shroomtopia/{Steam3AccountID}/",
+            "replace": ".config/unity3d/QUByte Interactive/Shroomtopia/{Steam3AccountID}/"
+          }
+        }
+      }
+    }
+  }
+}
