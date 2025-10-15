@@ -1,6 +1,5 @@
 {
   "appid": "3899640",
-  "public_only": "1",
   "common": {
     "name": "Roman Rumble",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "3fe92a65597d2f5c23a3187b0a575a627eed8b53",
     "clienticon": "3fe92a65597d2f5c23a3187b0a575a627eed8b53",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -108,6 +107,7 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3899640",
     "exfgls": "3",
@@ -135,6 +135,68 @@
       "17": "6948",
       "18": "47827",
       "19": "5796"
+    }
+  },
+  "extended": {
+    "developer": "E-motion Studio",
+    "publisher": "E-motion Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Roman Rumble",
+    "launch": {
+      "0": {
+        "executable": "IGB300_Geme.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3899641": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8554578635626313571",
+          "size": "1388345606",
+          "download": "937839232"
+        },
+        "debug": {
+          "gid": "165753526454294255",
+          "size": "1367404438",
+          "download": "919477824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20367701",
+        "timeupdated": "1760353216"
+      },
+      "debug": {
+        "buildid": "20075660",
+        "description": "upload debug build",
+        "timeupdated": "1758604751"
+      }
     }
   }
 }
