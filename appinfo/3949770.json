@@ -1,6 +1,5 @@
 {
   "appid": "3949770",
-  "public_only": "1",
   "common": {
     "name": "大明·戚继光传",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticon": "5cc0479a00c2a1cae69600912158f0542c2a2efc",
     "clienticns": "abbef5c1a84ec71c8ab54b4a6c4b95aa08f036a6",
     "linuxclienticon": "81e2e90014418ac8e3ec93a5dcb1b9cbe714ca31",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -111,9 +110,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3949770",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "5984",
@@ -134,6 +133,58 @@
       "16": "1708",
       "17": "4182",
       "18": "17305"
+    }
+  },
+  "extended": {
+    "developer": "亦初",
+    "publisher": "亦初"
+  },
+  "config": {
+    "installdir": "大明·戚继光传",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "3949771": {
+      "manifests": {
+        "public": {
+          "gid": "5642403636977555386",
+          "size": "778011139",
+          "download": "739658592"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20399916",
+        "timeupdated": "1760520714"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
