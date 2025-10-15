@@ -1,6 +1,5 @@
 {
   "appid": "4056950",
-  "public_only": "1",
   "common": {
     "name": "Watcher's Eye",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760533200",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4056950",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -125,6 +125,65 @@
       "4": "6971",
       "5": "4182",
       "6": "492"
+    }
+  },
+  "extended": {
+    "developer": "Adrian Petrisor",
+    "publisher": "Blacktape"
+  },
+  "config": {
+    "installdir": "Watcher's Eye",
+    "launch": {
+      "0": {
+        "executable": "WatchersEyePrologue.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4056951": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7833054915354090403",
+          "size": "4906814092",
+          "download": "4549406656"
+        },
+        "prerelease": {
+          "gid": "3704120798499269195",
+          "size": "4906818613",
+          "download": "4549430208"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20389359",
+        "timeupdated": "1760460799"
+      },
+      "prerelease": {
+        "buildid": "20253058",
+        "description": "prerelease branch",
+        "timeupdated": "1759590429"
+      }
     }
   }
 }
