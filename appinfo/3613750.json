@@ -1,4 +1,68 @@
 {
   "appid": "3613750",
-  "public_only": "1"
+  "common": {
+    "name": "EOTAServer",
+    "type": "Tool",
+    "parent": "3606840",
+    "clienticon": "be7f3ff7f5077f35b5500b8848b2debf72e991be",
+    "icon": "b61f2166f9b2d4a581078cbdcc60fc59586cb380",
+    "releasestate": "released",
+    "gameid": "3613750"
+  },
+  "config": {
+    "installdir": "EOTAServer",
+    "launch": {
+      "0": {
+        "executable": "eotaserver.exe"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "3613751": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "branches": {}
+  }
 }
