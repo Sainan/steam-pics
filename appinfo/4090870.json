@@ -1,6 +1,5 @@
 {
   "appid": "4090870",
-  "public_only": "1",
   "common": {
     "name": "SeekOut Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "182fd5c8fc3c8711c27bdc72944e1a98c8b38d0d/capsule_231x87.jpg"
     },
@@ -38,5 +37,44 @@
     },
     "gameid": "4090870",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nightroot Interactive",
+    "publisher": "Nightroot Interactive"
+  },
+  "config": {
+    "installdir": "SeekOut Demo",
+    "launch": {
+      "0": {
+        "executable": "Compressed build/SeekOut.exe",
+        "workingdir": "Compressed build",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "SeekOut"
+        },
+        "description": "SeekOut"
+      }
+    }
+  },
+  "depots": {
+    "4090871": {
+      "manifests": {
+        "public": {
+          "gid": "2519869497965143579",
+          "size": "881498628",
+          "download": "702373008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20385388",
+        "timeupdated": "1760444635"
+      }
+    }
   }
 }
