@@ -1,6 +1,5 @@
 {
   "appid": "3983770",
-  "public_only": "1",
   "common": {
     "name": "Baito Fight!!: Part-time Devil Hunter Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "linuxclienticon": "cb4eefa5e522954bbf79dde8eea6745c3fb09c20",
     "icon": "e1d5cb14d29e775a8718dcd9575b061e59983b28",
     "clienticon": "e1d5cb14d29e775a8718dcd9575b061e59983b28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3ce5a8de39da14fa13f80793758cb4c337d6e025/capsule_231x87.jpg"
     },
@@ -44,5 +43,43 @@
     },
     "gameid": "3983770",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "KINGOFSHIBUYA Ltd.",
+    "publisher": "KINGOFSHIBUYA Ltd."
+  },
+  "config": {
+    "installdir": "Baito Fight!! Part-time Devil Hunter Demo",
+    "launch": {
+      "1": {
+        "executable": "${baito_fight}.exe"
+      }
+    }
+  },
+  "depots": {
+    "3983778": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1533015117591127467",
+          "size": "41325243",
+          "download": "27897888"
+        }
+      }
+    },
+    "3983779": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20372212",
+        "timeupdated": "1760371685"
+      }
+    }
   }
 }
