@@ -122,16 +122,17 @@
     }
   },
   "ufs": {
-    "quota": "100000000",
-    "maxnumfiles": "1000",
+    "quota": "10485760",
+    "maxnumfiles": "20",
     "sync_while_suspended": "1",
     "ignoreexternalfiles": "1",
     "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "gameinstall",
-        "path": "SavesDir",
-        "pattern": "*.sav"
+        "path": "",
+        "pattern": "*.json",
+        "recursive": "1"
       }
     },
     "rootoverrides": {
@@ -139,8 +140,8 @@
         "root": "gameinstall",
         "os": "Windows",
         "oscompare": "=",
-        "useinstead": "gameinstall",
-        "addpath": ""
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "AppData/LocalLow/2G/AquanimaDemo"
       }
     }
   }
