@@ -1,6 +1,5 @@
 {
   "appid": "2628540",
-  "public_only": "1",
   "common": {
     "name": "GHOST CAM Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openxrsupport": "1",
     "small_capsule": {
       "english": "443ab6bc0b4fe5d20e0e490e1a5baa21bec7efbe/capsule_231x87.jpg"
@@ -80,7 +79,7 @@
     "category": {
       "category_2": "1",
       "category_52": "1",
-      "category_54": "1"
+      "category_53": "1"
     },
     "supported_languages": {
       "english": {
@@ -88,7 +87,57 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "gameid": "2628540",
     "exfgls": "6"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "ARCH REBELS",
+    "publisher": "ARCH REBELS",
+    "homepage": "https://www.archrebels.com/ghostcam"
+  },
+  "config": {
+    "installdir": "GHOSTCAM",
+    "launch": {
+      "0": {
+        "executable": "GHOSTCAM_WINDOWS.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "GHOSTCAM_WINDOWS.exe",
+        "arguments": "-pancake",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch in Flatscreen Mode"
+        },
+        "description": "Launch in Flatscreen Mode"
+      }
+    }
+  },
+  "depots": {
+    "2628541": {
+      "manifests": {
+        "public": {
+          "gid": "5684773468371239904",
+          "size": "3772525869",
+          "download": "1245862656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20400117",
+        "timeupdated": "1760521724"
+      }
+    },
+    "privatebranches": "1"
   }
 }
