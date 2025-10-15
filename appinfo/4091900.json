@@ -1,6 +1,5 @@
 {
   "appid": "4091900",
-  "public_only": "1",
   "common": {
     "name": "My Housetopia Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "icon": "a619689541d5f79011d88706e0803f448243191b",
     "clienticon": "a619689541d5f79011d88706e0803f448243191b",
     "clienticns": "8fe34182cb89c704a51944870ac2d55978f9ec12",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f40e99631e24884d5d5b6de04c55535268b338fe/capsule_231x87.jpg",
@@ -119,5 +118,39 @@
     },
     "gameid": "4091900",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MatchLab",
+    "publisher": "MatchLab"
+  },
+  "config": {
+    "installdir": "我的屋托邦 Demo",
+    "launch": {
+      "0": {
+        "executable": "housetopia.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4091901": {
+      "manifests": {
+        "public": {
+          "gid": "658605576184983236",
+          "size": "370784320",
+          "download": "188186624"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20402972",
+        "timeupdated": "1760534610"
+      }
+    }
   }
 }
