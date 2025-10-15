@@ -1,6 +1,5 @@
 {
   "appid": "2727660",
-  "public_only": "1",
   "common": {
     "name": "GlitchSPANKR",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -114,9 +113,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760536823",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2727660",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -141,6 +141,67 @@
       "17": "492",
       "18": "3810",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Mahelyk",
+    "publisher": "Black Lantern Collective",
+    "homepage": "https://www.theclassifiedx.com"
+  },
+  "config": {
+    "installdir": "GlitchSPANKR",
+    "launch": {
+      "0": {
+        "executable": "GlitchSPANKR/GlitchSpank.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2727661": {
+      "manifests": {
+        "public": {
+          "gid": "5661543754691154066",
+          "size": "4537458709",
+          "download": "4350056176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20402872",
+        "timeupdated": "1760534053"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "GlitchSpank/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
