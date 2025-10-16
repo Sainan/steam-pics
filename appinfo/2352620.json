@@ -1,10 +1,9 @@
 {
   "appid": "2352620",
-  "public_only": "1",
   "common": {
     "name": "Fellowship",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -178,9 +177,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760630007",
     "community_hub_visible": "1",
     "gameid": "2352620",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -202,5 +201,58 @@
       "14": "3993",
       "15": "493"
     }
+  },
+  "extended": {
+    "developer": "Chief Rebel",
+    "publisher": "Arc Games",
+    "homepage": "https://www.playfellowship.com/"
+  },
+  "config": {
+    "installdir": "Fellowship",
+    "launch": {
+      "0": {
+        "executable": "fellowship.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2352621": {
+      "manifests": {
+        "public": {
+          "gid": "3663013639730970001",
+          "size": "13881224359",
+          "download": "13462580896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20419130",
+        "timeupdated": "1760622135"
+      }
+    },
+    "privatebranches": "1"
   }
 }
