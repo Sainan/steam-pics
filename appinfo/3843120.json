@@ -1,6 +1,5 @@
 {
   "appid": "3843120",
-  "public_only": "1",
   "common": {
     "name": "Valiants: Arena",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "49ff5b135e43ef1e02f0fad209dc7df64fa46b50",
     "clienticon": "dba8a35ca40441471dbaad97c34d2a3c46a0cc21",
     "clienticns": "f3bca40d37587d48146342410020ec767b178310",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -132,6 +131,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3843120",
     "exfgls": "3",
@@ -153,6 +153,62 @@
       "14": "5350",
       "15": "3859",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Vortrius",
+    "publisher": "Vortrius",
+    "homepage": "https://playvaliants.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Valiants Arena",
+    "launch": {
+      "0": {
+        "executable": "Valiants.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Valiants.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3843121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "129588456834222918",
+          "size": "976211146",
+          "download": "547287968"
+        }
+      }
+    },
+    "3843122": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5936089224798645367",
+          "size": "1352598146",
+          "download": "622274960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20388845",
+        "timeupdated": "1760458803"
+      }
     }
   }
 }
