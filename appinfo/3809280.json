@@ -1,6 +1,5 @@
 {
   "appid": "3809280",
-  "public_only": "1",
   "common": {
     "name": "KS Tank War",
     "type": "Game",
@@ -22,7 +21,7 @@
       "japanese": "KS タンク戦",
       "schinese": "KS 坦克战"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -133,9 +132,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760586680",
     "community_hub_visible": "1",
     "gameid": "3809280",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -160,6 +159,48 @@
       "17": "4295",
       "18": "5673",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "KS For Fun Games",
+    "publisher": "KS For Fun Games"
+  },
+  "config": {
+    "installdir": "KS_TankWar",
+    "launch": {
+      "0": {
+        "executable": "KS Tank War.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Lunch"
+        },
+        "description": "Lunch"
+      }
+    }
+  },
+  "depots": {
+    "3809281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1738047697126816207",
+          "size": "511188305",
+          "download": "300563984"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20252679",
+        "timeupdated": "1759585822"
+      }
     }
   }
 }
