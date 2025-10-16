@@ -1,10 +1,9 @@
 {
   "appid": "3971820",
-  "public_only": "1",
   "common": {
     "name": "ARTIST SLAYER / RUSH",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -106,8 +105,7 @@
       "category_65": "1",
       "category_67": "1",
       "category_74": "1",
-      "category_54": "1",
-      "category_62": "1"
+      "category_54": "1"
     },
     "supported_languages": {
       "english": {
@@ -117,6 +115,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760573595",
     "community_hub_visible": "1",
     "gameid": "3971820",
     "exfgls": "3",
@@ -146,6 +145,44 @@
       "17": "4345",
       "18": "4667",
       "19": "1659"
+    }
+  },
+  "extended": {
+    "developer": "ARTIST SLAYER Project",
+    "publisher": "ARTIST SLAYER Project",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "ARTIST_SLAYER_SLASH_RUSH",
+    "launch": {
+      "0": {
+        "executable": "ASSR_DemoforWindows/ASSR_Demo.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3971821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5714002826396168870",
+          "size": "1923324656",
+          "download": "590146384"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20055915",
+        "timeupdated": "1758332379"
+      }
     }
   }
 }
