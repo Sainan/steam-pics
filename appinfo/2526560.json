@@ -1,6 +1,5 @@
 {
   "appid": "2526560",
-  "public_only": "1",
   "common": {
     "name": "Faire Trade",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "c3d46a325b07d926d245aed4e4610812172d4b4d",
     "clienticon": "c3d46a325b07d926d245aed4e4610812172d4b4d",
     "clienttga": "3152c5be03bd07f3b85578ecb6aea17109585ec4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8f8a45681048cc9721b52c392e9e032f3eb04c31/capsule_231x87.jpg"
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760618957",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2526560",
-    "exfgls": "8",
     "store_tags": {
       "0": "91114",
       "1": "97376",
@@ -147,6 +147,65 @@
       "17": "599",
       "18": "4845",
       "19": "1669"
+    }
+  },
+  "extended": {
+    "developer": "Sassybot",
+    "publisher": "Sassybot",
+    "homepage": "https://sassybot.com/fairetrade",
+    "listofdlc": "3591830",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Faire Trade",
+    "launch": {
+      "0": {
+        "executable": "Faire Trade.exe"
+      }
+    }
+  },
+  "depots": {
+    "2526561": {
+      "manifests": {
+        "public": {
+          "gid": "3816026151464706749",
+          "size": "823602762",
+          "download": "292199072"
+        },
+        "unstable": {
+          "gid": "3816026151464706749",
+          "size": "823602762",
+          "download": "292199072"
+        }
+      }
+    },
+    "workshopdepot": "2526560",
+    "branches": {
+      "public": {
+        "buildid": "20418831",
+        "timeupdated": "1760618858"
+      },
+      "unstable": {
+        "buildid": "20418831",
+        "description": "Automated build, can be unstable, buggy or broken.",
+        "timeupdated": "1760618701"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Sassybot/Faire Trade/Saves",
+        "pattern": "*"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Sassybot/Faire Trade",
+        "pattern": "*.json"
+      }
     }
   }
 }
