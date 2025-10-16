@@ -1,10 +1,9 @@
 {
   "appid": "3427500",
-  "public_only": "1",
   "common": {
     "name": "Bat-Rush",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "220c78f18b423641bd479eb93e9bf603135c10bf",
     "linuxclienticon": "cfd5a800e06e75a5715ba55c0cc846c074af6dbf",
     "icon": "81586131f7ed84dd4395c0ee2af4b95d2c272df8",
@@ -99,9 +98,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759911277",
     "community_hub_visible": "1",
     "gameid": "3427500",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -110,6 +109,44 @@
       "4": "3968",
       "5": "4182",
       "6": "4136"
+    }
+  },
+  "extended": {
+    "developer": "Random Nice Games",
+    "publisher": "Random Nice Games"
+  },
+  "config": {
+    "installdir": "Bat-Rush",
+    "launch": {
+      "0": {
+        "executable": "Bat-Rush.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3427501": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8560436672865757870",
+          "size": "396062395",
+          "download": "197665232"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20414246",
+        "timeupdated": "1760596767"
+      }
     }
   }
 }
