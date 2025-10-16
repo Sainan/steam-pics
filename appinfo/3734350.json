@@ -125,10 +125,15 @@
     "launch": {
       "0": {
         "executable": "debris.exe",
+        "arguments": "--rendering-driver d3d12",
         "type": "default",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "Debris (DirectX 12)"
+        },
+        "description": "Debris (DirectX 12)"
       },
       "1": {
         "executable": "debris.x86_64",
@@ -141,6 +146,29 @@
         "config": {
           "oslist": "macos"
         }
+      },
+      "3": {
+        "executable": "debris.exe",
+        "arguments": "--rendering-driver vulcan",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Debris (Vulcan)"
+        },
+        "description": "Debris (Vulcan)"
+      },
+      "4": {
+        "executable": "debris.exe",
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Debris (OpenGL 3)"
+        },
+        "description": "Debris (OpenGL 3)"
       }
     }
   },
