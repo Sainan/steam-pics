@@ -1,10 +1,9 @@
 {
   "appid": "3273480",
-  "public_only": "1",
   "common": {
     "name": "Reach",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -136,9 +135,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760626882",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3273480",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "19",
@@ -156,5 +156,101 @@
       "12": "4486",
       "13": "5752"
     }
+  },
+  "extended": {
+    "developer": "nDreams Elevation",
+    "publisher": "nDreams",
+    "homepage": "https://ndreams.com/"
+  },
+  "config": {
+    "installdir": "Atlas",
+    "launch": {
+      "0": {
+        "executable": "Atlas.exe",
+        "arguments": "-d3d11",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Meta Headset"
+        },
+        "description": "Meta Headset"
+      },
+      "2": {
+        "executable": "Atlas.exe",
+        "arguments": "-d3d11",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Non Meta Headset"
+        },
+        "description": "Non Meta Headset"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3273481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8086471853933227622",
+          "size": "47602011831",
+          "download": "42626711472"
+        }
+      }
+    },
+    "3565160": {
+      "dlcappid": "3565160",
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "3919650": {
+      "dlcappid": "3919650"
+    },
+    "3919660": {
+      "dlcappid": "3919660",
+      "manifests": {
+        "public": {
+          "gid": "8473137178795019508",
+          "size": "52078517",
+          "download": "48318400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20403117",
+        "timeupdated": "1760535113"
+      }
+    },
+    "privatebranches": "1"
   }
 }
