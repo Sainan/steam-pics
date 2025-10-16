@@ -170,5 +170,48 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "5",
+    "appidredirect": "2233170",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "{64BitSteamID}",
+        "pattern": "*.json"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "{64BitSteamID}",
+        "pattern": "*.cfg"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": "Godot/app_userdata/ReActivated/"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/godot/app_userdata/ReActivated/"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "Godot/app_userdata/ReActivated/"
+      }
+    }
   }
 }
