@@ -1,0 +1,168 @@
+{
+  "appid": "3094380",
+  "common": {
+    "name": "Duriano Demo",
+    "type": "Demo",
+    "parent": "3048930",
+    "icon": "6f739ec8b2192e21595ad2e3b992b2c96e1159e8",
+    "clienttga": "e10d94d31bcc5eae3c70f99ca3a5307b028917d4",
+    "clienticns": "7f3227327eedf6832f7d2b9add1b2b68a688479d",
+    "clienticon": "feb1643f0cab7b1445203785ee431393a27aae8a",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1743656431",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Adisoft Gaming Co.,Ltd."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Adisoft Company"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1722332035",
+    "gameid": "3094380",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Adisoft Gaming Co.,Ltd.",
+    "publisher": "Adisoft Company",
+    "homepage": "https://adisoft.co/games/duriano"
+  },
+  "config": {
+    "installdir": "Duriano Demo",
+    "launch": {
+      "0": {
+        "executable": "duriano.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "duriano.app/Contents/MacOS/duriano",
+        "arguments": "duriano.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3094381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2350460389949958031",
+          "size": "1244604321",
+          "download": "321290032"
+        }
+      }
+    },
+    "3094382": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7827879968183073696",
+          "size": "1357916278",
+          "download": "350106704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20324346",
+        "timeupdated": "1760086917"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "adisoft/duriano",
+        "pattern": "PlayerSave_Demo.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
