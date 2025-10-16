@@ -419,25 +419,35 @@
     "maxnumfiles": "100",
     "savefiles": {
       "0": {
-        "root": "WinMyDocuments",
-        "path": "Zaccaria_Pinball",
+        "root": "WinAppDataLocal",
+        "path": "MagicPixel/Zaccaria_Pinball",
         "pattern": "*settings.xml"
       }
     },
     "rootoverrides": {
       "0": {
-        "root": "WinMyDocuments",
+        "root": "WinAppDataLocal",
         "os": "MacOS",
         "oscompare": "=",
         "useinstead": "MacAppSupport",
-        "addpath": ""
+        "pathtransforms": {
+          "0": {
+            "find": "MagicPixel/Zaccaria_Pinball",
+            "replace": "Zaccaria_Pinball"
+          }
+        }
       },
       "1": {
-        "root": "WinMyDocuments",
+        "root": "WinAppDataLocal",
         "os": "Linux",
         "oscompare": "=",
         "useinstead": "LinuxHome",
-        "addpath": ".magicpixel/"
+        "pathtransforms": {
+          "0": {
+            "find": "MagicPixel/Zaccaria_Pinball",
+            "replace": ".magicpixel/Zaccaria_Pinball"
+          }
+        }
       }
     }
   }
