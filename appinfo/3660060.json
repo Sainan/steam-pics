@@ -1,13 +1,12 @@
 {
   "appid": "3660060",
-  "public_only": "1",
   "common": {
     "name": "Cal & Bomba",
     "type": "Game",
     "icon": "270e29a846c0cbc6ca178adb8fdedc72e64f9143",
     "clienticon": "ac5b29ee08092d33489e91495a6e09698538c7b1",
     "clienttga": "09801f87da12572c4b0c29f650a912f06ef58600",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -162,9 +161,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760623215",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3660060",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1664",
@@ -179,6 +179,40 @@
       "10": "1684",
       "11": "7569",
       "12": "4325"
+    }
+  },
+  "extended": {
+    "developer": "Filiokus",
+    "publisher": "Filiokus",
+    "homepage": "https://www.filiokus.io/filiokus/cal-bomba"
+  },
+  "config": {
+    "installdir": "Cal & Bomba",
+    "launch": {
+      "0": {
+        "executable": "Cal & Bomba.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3660061": {
+      "manifests": {
+        "public": {
+          "gid": "6076749700287810756",
+          "size": "896797624",
+          "download": "611699120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20402763",
+        "timeupdated": "1760533632"
+      }
     }
   }
 }
