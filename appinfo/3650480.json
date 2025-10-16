@@ -1,6 +1,5 @@
 {
   "appid": "3650480",
-  "public_only": "1",
   "common": {
     "name": "代号三国 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "eb5d93f745d3fdfc2d49c19f80baca097c4c7fb9",
     "clienticon": "eb5d93f745d3fdfc2d49c19f80baca097c4c7fb9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -110,6 +109,58 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "越过山丘",
+    "publisher": "玛奇阿朵互娱"
+  },
+  "config": {
+    "installdir": "DaiHaoSanGuo Demo",
+    "launch": {
+      "0": {
+        "executable": "DaiHaoSanGuo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3650481": {
+      "manifests": {
+        "public": {
+          "gid": "7351559515543566080",
+          "size": "10921491644",
+          "download": "10396296976"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20414843",
+        "timeupdated": "1760599853"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "\"*\"",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
