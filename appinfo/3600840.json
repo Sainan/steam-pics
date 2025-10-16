@@ -7,9 +7,9 @@
       "english": "Back：Fade",
       "schinese": "背后：异化"
     },
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "icon": "3e254af67b58fb381e5c389c7280b55202f6df22",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "d67c9dbd92c4810ffa8a4fde55f87064332a5708",
@@ -250,6 +250,14 @@
         "config": {
           "oslist": "windows",
           "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "back2.app/Contents/MacOS/Back：Fade",
+        "workingdir": "back2.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
