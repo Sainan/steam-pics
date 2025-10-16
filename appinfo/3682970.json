@@ -118,26 +118,10 @@
     "launch": {
       "0": {
         "executable": "HabromaniaDemo.exe",
-        "type": "option1",
+        "type": "default",
         "config": {
           "oslist": "windows"
-        },
-        "description_loc": {
-          "english": "Default (Vulkan)"
-        },
-        "description": "Default (Vulkan)"
-      },
-      "1": {
-        "executable": "HabromaniaDemo.exe",
-        "arguments": "--rendering-driver opengl3",
-        "type": "option2",
-        "config": {
-          "oslist": "windows"
-        },
-        "description_loc": {
-          "english": "Compatibility Mode (OpenGL)"
-        },
-        "description": "Compatibility Mode (OpenGL)"
+        }
       }
     }
   },
