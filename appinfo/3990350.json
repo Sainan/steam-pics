@@ -1,6 +1,5 @@
 {
   "appid": "3990350",
-  "public_only": "1",
   "common": {
     "name": "Arithmetic Arena",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "c2a7205fe2373e1ed4c9f8f4db1c8c67dfcddc40",
     "icon": "4a41419645b313cdf764dc383cb91d0d229156f8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -434,6 +433,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3990350",
     "exfgls": "3",
@@ -458,6 +459,82 @@
       "17": "1685",
       "18": "3843",
       "19": "10437"
+    }
+  },
+  "extended": {
+    "anti_cheat_support_url": "",
+    "remoteplaycursorscale": "2",
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Arithmetic Arena",
+    "publisher": "Arithmetic Arena",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Arithmetic Arena",
+    "launch": {
+      "0": {
+        "executable": "Arithmetic Arena.exe"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "9"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3990351": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "409783662912289351",
+          "size": "85654184",
+          "download": "73794160"
+        }
+      }
+    },
+    "3990352": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1954704684347140343",
+          "size": "84465504",
+          "download": "73110336"
+        }
+      }
+    },
+    "3990353": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1307227682912274976",
+          "size": "84465504",
+          "download": "73110272"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20412642",
+        "timeupdated": "1760585120"
+      }
     }
   }
 }
