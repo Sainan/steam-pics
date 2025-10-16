@@ -215,9 +215,9 @@
         }
       },
       "1": {
-        "executable": "ScummVM_Windows\\scummvm.exe",
+        "executable": "Classic\\ScummVM\\scummvm.exe",
         "arguments": "--no-console -c \"scummvm-ihnmaims-opengl.ini\" ihnm",
-        "workingdir": "ScummVM_Windows\\",
+        "workingdir": "Classic\\ScummVM_Windows\\",
         "config": {
           "oslist": "windows"
         },
@@ -238,9 +238,9 @@
         "description": "Launch"
       },
       "3": {
-        "executable": "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm",
+        "executable": "Classic\\ScummVM\\ScummVM.app\\Contents\\MacOS\\scummvm",
         "arguments": "-c scummvm-ihnmaims-opengl.ini ihnm",
-        "workingdir": "ScummVM_Mac\\",
+        "workingdir": "Classic\\ScummVM\\",
         "config": {
           "oslist": "macos"
         },
@@ -257,8 +257,8 @@
         }
       },
       "6": {
-        "executable": "ScummVM_Linux\\launch_ihnmaims_opengl.sh",
-        "workingdir": "ScummVM_Linux\\",
+        "executable": "Classic\\ScummVM\\launch_ihnmaims_opengl.sh",
+        "workingdir": "Classic\\ScummVM_Linux\\",
         "config": {
           "oslist": "linux"
         },
