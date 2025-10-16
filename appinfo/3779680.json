@@ -1,6 +1,5 @@
 {
   "appid": "3779680",
-  "public_only": "1",
   "common": {
     "name": "​VR拳击：冠军之路",
     "type": "Game",
@@ -13,7 +12,7 @@
     "icon": "d1b83930df3e07697e462923fa510402962ea661",
     "clienttga": "e70e559a5d37cc6f9c0f7833b3f2385970886aad",
     "clienticon": "2319d7edef156b86350e0d764f81a11b549164fb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -151,9 +150,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3779680",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "701",
@@ -172,6 +171,68 @@
       "13": "3993",
       "14": "4777",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "白龙乐园",
+    "publisher": "白龙乐园"
+  },
+  "config": {
+    "installdir": "​VR拳击：冠军之路",
+    "launch": {
+      "0": {
+        "executable": "LWD_FightFitnessPbc.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3779681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1668118229096180062",
+          "size": "1393398248",
+          "download": "1269060656"
+        }
+      }
+    },
+    "baselanguages": "english,german,koreana,spanish,schinese,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20265681",
+        "timeupdated": "1760105608"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "9",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saved/SaveGames/",
+        "pattern": "*.sav"
+      }
     }
   }
 }
