@@ -1,6 +1,5 @@
 {
   "appid": "3940320",
-  "public_only": "1",
   "common": {
     "name": "My Apollogies",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f181ca5362ebed5a99d4eafbf6c3623c69301c3b/capsule_231x87.jpg"
@@ -102,9 +101,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760649340",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3940320",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "5900",
@@ -126,6 +126,54 @@
       "17": "9204",
       "18": "5716",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Spatium Interactive d.o.o",
+    "publisher": "Spatium Interactive d.o.o",
+    "homepage": "https://spatium-interactive.com/"
+  },
+  "config": {
+    "installdir": "My Apollogies",
+    "launch": {
+      "0": {
+        "executable": "MyApollogies.exe",
+        "description_loc": {
+          "english": "An executable file to start the game on Windows"
+        },
+        "description": "An executable file to start the game on Windows"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3940321": {
+      "manifests": {
+        "public": {
+          "gid": "1364737929699895792",
+          "size": "1799518067",
+          "download": "964627728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20408272",
+        "timeupdated": "1760557452"
+      }
     }
   }
 }
