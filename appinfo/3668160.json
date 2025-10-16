@@ -1,6 +1,5 @@
 {
   "appid": "3668160",
-  "public_only": "1",
   "common": {
     "name": "The Ballad of Bellum - Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -110,7 +109,62 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760653393",
+    "community_visible_stats": "1",
     "gameid": "3668160",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BokehDev",
+    "publisher": "BokehDev",
+    "homepage": "https://linktr.ee/bokehdev"
+  },
+  "config": {
+    "installdir": "The Ballad of Bellum Demo",
+    "launch": {
+      "0": {
+        "executable": "TheBalladofBellum.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3668161": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5468800876117292701",
+          "size": "505087523",
+          "download": "170481472"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20411894",
+        "timeupdated": "1760580470"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
