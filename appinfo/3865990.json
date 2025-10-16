@@ -1,13 +1,12 @@
 {
   "appid": "3865990",
-  "public_only": "1",
   "common": {
     "name": "The Three Cardinals",
     "type": "Game",
     "icon": "dc8b6416a38647af8e3b0ba7feb8066dac36f314",
     "clienttga": "c396ffd978b9587294ee4f81dfeca0c358c67687",
     "clienticon": "8583d9a8cae3ea922ac38c2bddddf8d2a3865e25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3865990",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "6214",
@@ -127,6 +126,56 @@
       "17": "4305",
       "18": "4252",
       "19": "12057"
+    }
+  },
+  "extended": {
+    "developer": "Emanuel Beaulieu",
+    "publisher": "Emanuel Beaulieu"
+  },
+  "config": {
+    "installdir": "The Three Cardinals",
+    "launch": {
+      "0": {
+        "executable": "The Three Cardinals.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3865991": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8984449938458929361",
+          "size": "844758690",
+          "download": "569028400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20417942",
+        "timeupdated": "1760614560"
+      }
     }
   }
 }
