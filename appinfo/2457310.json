@@ -1,13 +1,12 @@
 {
   "appid": "2457310",
-  "public_only": "1",
   "common": {
     "name": "Buhei",
     "type": "Game",
     "icon": "62431d1709ea0ae461f8110042375fdbdf3e8a80",
     "clienticon": "62431d1709ea0ae461f8110042375fdbdf3e8a80",
     "clienttga": "fa6935f182aa17b56b94e474bf90d4c20fb783ba",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -193,9 +192,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2457310",
-    "exfgls": "8",
     "store_tags": {
       "0": "4191",
       "1": "6815",
@@ -217,6 +217,65 @@
       "17": "7481",
       "18": "6506",
       "19": "4637"
+    }
+  },
+  "extended": {
+    "developer": "Wild Garlic Games",
+    "publisher": "Wild Garlic Games",
+    "homepage": "https://buhei.gg/"
+  },
+  "config": {
+    "installdir": "Buhei",
+    "launch": {
+      "0": {
+        "executable": "Buhei.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Buhei.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "2457311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4571170741774375907",
+          "size": "1069853224",
+          "download": "417343520"
+        }
+      }
+    },
+    "2457312": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5774846120751198170",
+          "size": "1139422469",
+          "download": "446204864"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20406554",
+        "timeupdated": "1760548934"
+      }
     }
   }
 }
