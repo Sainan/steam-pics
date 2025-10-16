@@ -1,6 +1,5 @@
 {
   "appid": "3760090",
-  "public_only": "1",
   "common": {
     "name": "Plink by Pokerist",
     "type": "Game",
@@ -19,7 +18,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -240,6 +239,76 @@
       "17": "3859",
       "18": "4182",
       "19": "9994"
+    },
+    "review_score": "5",
+    "review_percentage": "40"
+  },
+  "extended": {
+    "developer": "KamaGames Entertainment Group Limited",
+    "publisher": "KamaGames Ltd.",
+    "homepage": "https://pokerist.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Plink by Pokerist",
+    "launch": {
+      "0": {
+        "executable": "Plink.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Plink.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
     }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3760091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3216768375332321558",
+          "size": "355583657",
+          "download": "255381072"
+        }
+      }
+    },
+    "3760092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "149081958128756278",
+          "size": "563779660",
+          "download": "320459920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20289778",
+        "timeupdated": "1759853725"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1"
   }
 }
