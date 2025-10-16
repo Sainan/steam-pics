@@ -1,6 +1,5 @@
 {
   "appid": "4064580",
-  "public_only": "1",
   "common": {
     "name": "Sweetoria Land",
     "type": "Game",
@@ -9,9 +8,9 @@
     "osextended": "",
     "clienticon": "2f5933b4bbe3e12bef708ad7d173f0eeb5d98e17",
     "icon": "2f5933b4bbe3e12bef708ad7d173f0eeb5d98e17",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
-    "controller_support": "full",
+    "controller_support": "partial",
     "small_capsule": {
       "english": "e95854693fdc2d0ad06c738c9b84e947588a1939/capsule_231x87.jpg"
     },
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759208932",
+    "store_asset_mtime": "1759919031",
     "associations": {
       "0": {
         "type": "developer",
@@ -91,7 +90,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -99,6 +97,7 @@
       "category_71": "1",
       "category_74": "1",
       "category_79": "1",
+      "category_18": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -107,9 +106,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760628172",
     "community_hub_visible": "1",
     "gameid": "4064580",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1625",
@@ -120,5 +119,44 @@
       "6": "7481",
       "7": "4182"
     }
+  },
+  "extended": {
+    "developer": "Ajna Game Studio",
+    "publisher": "Ajna Game Studio"
+  },
+  "config": {
+    "installdir": "Sweetoria",
+    "launch": {
+      "0": {
+        "executable": "Sweetoria.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064581": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1792946948595201916",
+          "size": "478334066",
+          "download": "170637072"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20139401",
+        "timeupdated": "1758877713"
+      }
+    },
+    "privatebranches": "1"
   }
 }
