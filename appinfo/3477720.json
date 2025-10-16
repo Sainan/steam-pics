@@ -1,6 +1,5 @@
 {
   "appid": "3477720",
-  "public_only": "1",
   "common": {
     "name": "Go To Sleep",
     "type": "Game",
@@ -18,7 +17,7 @@
     "clienticon": "92b90fd8ddd6b797e07e3422d5953b7feaf63a45",
     "clienttga": "956f7ab2297da6291ce8a5180d53f4e3292b363f",
     "clienticns": "163c0c750dfd962aecbeeecc8d9d37436b733c80",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -137,10 +136,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760633877",
     "steam_deck_blog_url": "https://steamcommunity.com/games/3477720/announcements/detail/510697606000673725?snr=1_2108_9__2107",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3477720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -165,6 +165,84 @@
       "17": "4559",
       "18": "4182",
       "19": "42089"
+    }
+  },
+  "extended": {
+    "developer": "Yu Ro",
+    "publisher": "Yu Ro"
+  },
+  "config": {
+    "installdir": "Go To Sleep",
+    "launch": {
+      "0": {
+        "executable": "Go To Sleep.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GoToSleep.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3477721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1196044308608230153",
+          "size": "574035957",
+          "download": "437500096"
+        }
+      }
+    },
+    "3477722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4746463983457053488",
+          "size": "622292833",
+          "download": "433476864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20414992",
+        "timeupdated": "1760600611"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "/YuRo/Go To Sleep",
+        "pattern": "saveFile.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
