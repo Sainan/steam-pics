@@ -1,12 +1,11 @@
 {
   "appid": "4007780",
-  "public_only": "1",
   "common": {
     "name": "Autumn Rail",
     "type": "Game",
     "icon": "78c047b9250d66176686a2f413bdcc5f8603960d",
     "clienticon": "78c047b9250d66176686a2f413bdcc5f8603960d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -113,9 +112,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4007780",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -141,6 +140,54 @@
       "17": "31275",
       "18": "5186",
       "19": "6815"
+    }
+  },
+  "extended": {
+    "developer": "Calamity Maid",
+    "publisher": "Calamity Maid"
+  },
+  "config": {
+    "installdir": "Autumn Rail",
+    "launch": {
+      "0": {
+        "executable": "autumnrail.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "autumnrail.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4007783": {
+      "manifests": {
+        "public": {
+          "gid": "4874138979834197866",
+          "size": "309201535",
+          "download": "203084240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20412496",
+        "timeupdated": "1760584416"
+      }
     }
   }
 }
