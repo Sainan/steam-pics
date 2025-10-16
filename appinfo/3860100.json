@@ -14,6 +14,51 @@
       "0": "2",
       "1": "5"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759536000",
+      "tested_build_id": "19293160",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "dc362bbecdffc0791558276523e72efd9ddf1139/capsule_231x87.jpg"
@@ -136,8 +181,8 @@
       "18": "4182",
       "19": "8122"
     },
-    "review_score": "6",
-    "review_percentage": "78"
+    "review_score": "8",
+    "review_percentage": "80"
   },
   "extended": {
     "developer": "GreenGO",
@@ -176,27 +221,27 @@
       },
       "manifests": {
         "public": {
+          "gid": "3059014845339530306",
+          "size": "2365890006",
+          "download": "835143648"
+        },
+        "beta": {
           "gid": "2677691148698048970",
           "size": "2338861767",
           "download": "813008432"
-        },
-        "beta": {
-          "gid": "3942378779434047502",
-          "size": "2338861767",
-          "download": "813004704"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20179955",
-        "timeupdated": "1759184328"
+        "buildid": "20301888",
+        "timeupdated": "1759923012"
       },
       "beta": {
-        "buildid": "20099744",
+        "buildid": "20179955",
         "description": "1.1.1",
-        "timeupdated": "1758663592"
+        "timeupdated": "1759922425"
       }
     }
   }
