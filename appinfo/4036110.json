@@ -1,6 +1,5 @@
 {
   "appid": "4036110",
-  "public_only": "1",
   "common": {
     "name": "Mobile Murder Mystery",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "8bc50c0c3b7a753bc346693a8dffd575db151a76",
     "icon": "8bc50c0c3b7a753bc346693a8dffd575db151a76",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -126,6 +125,55 @@
       "6": "6971",
       "7": "113",
       "8": "492"
+    }
+  },
+  "extended": {
+    "developer": "Arlen Szabo",
+    "publisher": "Arlen Szabo",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Mobile Murder Mystery",
+    "launch": {
+      "0": {
+        "executable": "MMM.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4036111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6908441982625713082",
+          "size": "1142819138",
+          "download": "969447440"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20054364",
+        "timeupdated": "1758320382"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*"
+      }
     }
   }
 }
