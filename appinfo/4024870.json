@@ -1,6 +1,5 @@
 {
   "appid": "4024870",
-  "public_only": "1",
   "common": {
     "name": "Hentai Clicker: Valentine is streaming",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "3989f1dd80c13ca174c2715403bc742881af23fa",
     "icon": "3989f1dd80c13ca174c2715403bc742881af23fa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -126,9 +125,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760642970",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4024870",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -155,6 +155,82 @@
       "16": "4026",
       "17": "9130",
       "18": "24904"
+    }
+  },
+  "extended": {
+    "developer": "Sexy Baguette Studio",
+    "publisher": "Sexy Baguette Studio",
+    "homepage": "https://sexybaguette-studio.com"
+  },
+  "config": {
+    "installdir": "Hentai Clicker Valentine is streaming",
+    "launch": {
+      "0": {
+        "executable": "Hentai_Clicker_Valentine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hentai_Clicker_Valentine.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Hentai_Clicker_Valentine.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4024871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7731434636110340104",
+          "size": "160528444",
+          "download": "60296896"
+        }
+      }
+    },
+    "4024872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1668828690725797573",
+          "size": "194074642",
+          "download": "70285536"
+        }
+      }
+    },
+    "4024873": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6450895821433495265",
+          "size": "168283629",
+          "download": "61267712"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,russian,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20424177",
+        "timeupdated": "1760641852"
+      }
     }
   }
 }
