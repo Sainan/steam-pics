@@ -1,6 +1,5 @@
 {
   "appid": "3955240",
-  "public_only": "1",
   "common": {
     "name": "Sunny's Sissy Saga",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -110,7 +109,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3955240",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -131,13 +129,59 @@
       "10": "4252",
       "11": "1742",
       "12": "1684",
-      "13": "6650",
-      "14": "6691",
-      "15": "12095",
+      "13": "6691",
+      "14": "12095",
+      "15": "6650",
       "16": "3916",
       "17": "4004",
       "18": "4182",
       "19": "1664"
     }
+  },
+  "extended": {
+    "developer": "Lood Zoo",
+    "publisher": "Lood Zoo"
+  },
+  "config": {
+    "installdir": "Sunny's Sissy Saga",
+    "launch": {
+      "0": {
+        "executable": "SynnysSaga.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3955241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "47991693124321978",
+          "size": "998760700",
+          "download": "484286688"
+        }
+      }
+    },
+    "3955242": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19819011",
+        "timeupdated": "1756936800"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
