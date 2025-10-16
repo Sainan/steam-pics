@@ -1,6 +1,5 @@
 {
   "appid": "3885290",
-  "public_only": "1",
   "common": {
     "name": "Go! Sloth",
     "type": "Game",
@@ -15,7 +14,7 @@
     },
     "clienticon": "938d4de97bb4e118f5e436e0f98a388f0998b9fa",
     "icon": "938d4de97bb4e118f5e436e0f98a388f0998b9fa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "38d3357516041785567a7f13e8fb2891c31ea814/capsule_231x87_schinese.jpg",
@@ -148,9 +147,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3885290",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "3968",
@@ -159,6 +158,50 @@
       "4": "4136",
       "5": "4182",
       "6": "492"
+    }
+  },
+  "extended": {
+    "developer": "PicoHatch",
+    "publisher": "PicoHatch",
+    "homepage": "https://www.picohatch.com/"
+  },
+  "config": {
+    "installdir": "Go! Sloth",
+    "launch": {
+      "0": {
+        "executable": "GoSloth.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3885291": {
+      "manifests": {
+        "public": {
+          "gid": "7543032510938518013",
+          "size": "1570104221",
+          "download": "1413343536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20410707",
+        "timeupdated": "1760617305"
+      }
     }
   }
 }
