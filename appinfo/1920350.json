@@ -1,0 +1,155 @@
+{
+  "appid": "1920350",
+  "common": {
+    "name": "Numina Demo",
+    "type": "Demo",
+    "parent": "597060",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "clienttga": "68b06ed22914ceab8fa447d8d0503d2fdff17fed",
+    "clienticon": "9e9866799ab12d6d2fc56d679cb0d1016f6add8b",
+    "icon": "edc001630c02ba0a4e251484d9a93bbc880c188f",
+    "clienticns": "3bf5858d14b65a020cfce26dc6889c6b742024c8",
+    "linuxclienticon": "32e5788146ca165891746d24e2644714186c15db",
+    "restricted_countries": "DE",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_35a65bd7d41ac6f59c01f42e95d770a842390e95.jpg",
+    "store_asset_mtime": "1645637627",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Manuel Schmuki"
+      },
+      "1": {
+        "type": "developer",
+        "name": "starlit studio"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "starlit studio"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "ukrainian": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1649415724",
+    "gameid": "1920350",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "597060",
+    "developer": "Manuel Schmuki",
+    "publisher": "starlit studio",
+    "homepage": "https://numinarpg.carrd.co/"
+  },
+  "config": {
+    "installdir": "Numina Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Game.app\\Contents\\MacOS\\nwjs",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1920351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4403080055129867398",
+          "size": "1131739979",
+          "download": "848177008"
+        }
+      }
+    },
+    "1920352": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "895999534079881300",
+          "size": "1175424566",
+          "download": "845512208"
+        }
+      }
+    },
+    "1920353": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7424483400055319443",
+          "size": "1143903048",
+          "download": "856154768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20419510",
+        "timeupdated": "1760624861"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "4000000",
+    "maxnumfiles": "40",
+    "appidredirect": "597060",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*.rpgsave"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "Game.app/Contents/Resources/app.nw/save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}
