@@ -1,10 +1,9 @@
 {
   "appid": "3654560",
-  "public_only": "1",
   "common": {
     "name": "Plants vs. Zombies™: Replanted",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "name_localized": {
       "english": "Plants vs. Zombies™: Replanted",
       "danish": "Plants vs. Zombies™: Replanted",
@@ -195,7 +194,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3654560",
-    "exfgls": "8",
     "store_tags": {
       "0": "1645",
       "1": "597",
@@ -217,6 +215,73 @@
       "17": "1775",
       "18": "3859",
       "19": "1756"
+    }
+  },
+  "extended": {
+    "developer": "PopCap Games",
+    "publisher": "Electronic Arts",
+    "homepage": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-replanted",
+    "aliases": "PvZ",
+    "listofdlc": "3802680"
+  },
+  "config": {
+    "installdir": "PVZ Replanted",
+    "launch": {
+      "0": {
+        "executable": "Replanted.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3654561": {
+      "manifests": {
+        "public": {
+          "gid": "8433009805217233312",
+          "size": "1623152437",
+          "download": "1156798000"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,german,french,spanish,schinese,tchinese,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20325998",
+        "timeupdated": "1760555360"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "16",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PopCap Games/PvZ Replanted/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
