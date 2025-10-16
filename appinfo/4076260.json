@@ -1,6 +1,5 @@
 {
   "appid": "4076260",
-  "public_only": "1",
   "common": {
     "name": "Loading... Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "91257e50683f3f1c139de71b31682aa04ec8b5a3",
     "icon": "c6b4b475665df0f4ddc998135239a92bd161ad79",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,6 +36,44 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Dzuy Anh Do",
+    "publisher": "Dzuy Anh Do"
+  },
+  "config": {
+    "installdir": "Loading... Demo",
+    "launch": {
+      "0": {
+        "executable": "LoadingDemo/LoadingDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4076262": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8751378113283592487",
+          "size": "2606917140",
+          "download": "1225906480"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20331848",
+        "timeupdated": "1760098903"
+      }
     }
   }
 }
