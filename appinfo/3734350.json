@@ -126,14 +126,13 @@
       "0": {
         "executable": "debris.exe",
         "arguments": "--rendering-driver d3d12",
-        "type": "default",
         "config": {
           "oslist": "windows"
         },
         "description_loc": {
-          "english": "Debris (DirectX 12)"
+          "english": "Debris (DirectX 12, try if Vulcan doesn't work)"
         },
-        "description": "Debris (DirectX 12)"
+        "description": "Debris (DirectX 12, try if Vulcan doesn't work)"
       },
       "1": {
         "executable": "debris.x86_64",
@@ -150,14 +149,13 @@
       "3": {
         "executable": "debris.exe",
         "arguments": "--rendering-driver vulcan",
-        "type": "default",
         "config": {
           "oslist": "windows"
         },
         "description_loc": {
-          "english": "Debris (Vulcan)"
+          "english": "Debris (Vulcan, recommended)"
         },
-        "description": "Debris (Vulcan)"
+        "description": "Debris (Vulcan, recommended)"
       },
       "4": {
         "executable": "debris.exe",
@@ -166,9 +164,9 @@
           "oslist": "windows"
         },
         "description_loc": {
-          "english": "Debris (OpenGL 3)"
+          "english": "Debris (OpenGL 3, only for very old hardware)"
         },
-        "description": "Debris (OpenGL 3)"
+        "description": "Debris (OpenGL 3, only for very old hardware)"
       }
     }
   },
