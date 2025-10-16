@@ -1,0 +1,134 @@
+{
+  "appid": "3715560",
+  "common": {
+    "name": "Unreal Zombies Demo",
+    "type": "Demo",
+    "parent": "3563810",
+    "icon": "6ba3654c39934a968552f934237d4bf9b5b7a9d0",
+    "clienticon": "f4dd331a315ac4250f3cbe043d137899003e028f",
+    "clienttga": "5258944b733e0b0d455737658df32c21007b5d64",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "6bf9e88d80e298dd2a53a4d991cb20e4adb150b5/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "f8d225b64687b94f8268cbdd6ee4ff542acb8836/header.jpg"
+    },
+    "store_screenshot": "2a4976f8887b884ce5bec6c1e027318626d5ead4/ss_2a4976f8887b884ce5bec6c1e027318626d5ead4.jpg",
+    "store_asset_mtime": "1754102971",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "CatgirlLydia"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Phoenix Limit Studios"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1748504961",
+    "gameid": "3715560",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "CatgirlLydia",
+    "publisher": "Phoenix Limit Studios"
+  },
+  "config": {
+    "installdir": "Unreal Zombies Demo",
+    "launch": {
+      "0": {
+        "executable": "TheUnrealStory.exe",
+        "arguments": "-Fullscreen",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TheUnrealStory.exe",
+        "arguments": "-dx11",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Unreal Zombies on Dx11"
+        },
+        "description": "Play Unreal Zombies on Dx11"
+      },
+      "2": {
+        "executable": "TheUnrealStory.exe",
+        "arguments": "-vulkan",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Unreal Zombies on Vulkan"
+        },
+        "description": "Play Unreal Zombies on Vulkan"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3715561": {
+      "manifests": {
+        "public": {
+          "gid": "2593301694981065041",
+          "size": "2835409446",
+          "download": "2661931184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18853797",
+        "timeupdated": "1749807712"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
