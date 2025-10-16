@@ -1,6 +1,5 @@
 {
   "appid": "3604780",
-  "public_only": "1",
   "common": {
     "name": "Sunken Engine",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -224,9 +223,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760619081",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3604780",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -252,6 +252,68 @@
       "17": "3839",
       "18": "5382",
       "19": "1714"
+    }
+  },
+  "extended": {
+    "developer": "Two Nomads Studio",
+    "publisher": "PlayWay S.A."
+  },
+  "config": {
+    "installdir": "Sunken Engine",
+    "launch": {
+      "0": {
+        "executable": "Sunken Engine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3604781": {
+      "manifests": {
+        "public": {
+          "gid": "7294299937346263511",
+          "size": "2636234924",
+          "download": "902491552"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,norwegian,swedish,hungarian,czech,romanian,turkish,brazilian,bulgarian,greek,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20417531",
+        "timeupdated": "1760612544"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Two Nomads Studio\\Sunken Engine\\Saves\\",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
