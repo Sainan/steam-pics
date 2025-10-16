@@ -1,10 +1,8 @@
 {
   "appid": "3167020",
-  "public_only": "1",
   "common": {
     "name": "Escape from Duckov",
     "type": "Game",
-    "releasestate": "prerelease",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -19,7 +17,7 @@
     "clienttga": "b51f41b0dd4c88a3844f8e08bd2d1a0a4f3cec48",
     "clienticns": "fd48170346b855a5671dd41b63ea6c1092db76da",
     "clienticon": "b0ba5d330b99b58ae813e0c0fc4cab9297387dc5",
-    "releasestatesteamchina": "prerelease",
+    "releasestatesteamchina": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -33,6 +31,7 @@
       "latam": "1",
       "sc_schinese": "1"
     },
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "48a2c5ada59acf3693fd4944cd0bd9e723b258b0/capsule_231x87_schinese.jpg",
@@ -189,9 +188,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760598007",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3167020",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -213,6 +213,107 @@
       "17": "3959",
       "18": "42804",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Team Soda",
+    "publisher": "bilibili"
+  },
+  "config": {
+    "installdir": "Escape from Duckov",
+    "launch": {
+      "1": {
+        "executable": "Duckov.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Duckov.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    }
+  },
+  "depots": {
+    "3167021": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4669841760364267629",
+          "size": "2290033332",
+          "download": "824275760"
+        }
+      }
+    },
+    "3167022": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3589006375144528629",
+          "size": "2320553971",
+          "download": "964210944"
+        }
+      }
+    },
+    "workshopdepot": "3167020",
+    "branches": {
+      "public": {
+        "buildid": "20407288",
+        "timeupdated": "1760552536"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "TeamSoda/Duckov/",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "TeamSoda/Duckov/",
+        "pattern": "*.bac",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "TeamSoda/Duckov/",
+        "pattern": "*.bac.*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "TeamSoda/Duckov/",
+            "replace": ""
+          }
+        }
+      }
     }
   }
 }
