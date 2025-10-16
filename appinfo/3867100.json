@@ -1,6 +1,5 @@
 {
   "appid": "3867100",
-  "public_only": "1",
   "common": {
     "name": "Of Crowns & Chains",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "bb829cb3c2c24001a8d745b531423ba24038b06d",
     "clienttga": "fdb4cf5de30e92b61ab6a2b28fa338d032bda925",
     "clienticon": "302aaef35448e7281e715347b310f7c17f6de75c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -120,9 +119,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760626836",
     "community_hub_visible": "1",
     "gameid": "3867100",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -147,6 +146,85 @@
       "17": "4191",
       "18": "4182",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "BlueJayAvis",
+    "publisher": "BlueJayAvis"
+  },
+  "config": {
+    "installdir": "Of Crowns & Chains",
+    "launch": {
+      "0": {
+        "executable": "ocac.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ocac_linux.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "ocac_macos.app/Contents/MacOS/ocac",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3867101": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8006251188925250769",
+          "size": "1923399357",
+          "download": "400799440"
+        }
+      }
+    },
+    "3867102": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4761279867325077929",
+          "size": "1919312241",
+          "download": "399083744"
+        }
+      }
+    },
+    "3867103": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5445136366602683103",
+          "size": "1939254184",
+          "download": "408785760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20416161",
+        "timeupdated": "1760605926"
+      }
     }
   }
 }
