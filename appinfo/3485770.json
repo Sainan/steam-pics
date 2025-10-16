@@ -17,27 +17,51 @@
       "spanish": "1"
     },
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "1",
-      "test_timestamp": "1758844800",
-      "tested_build_id": "19641584",
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760054400",
+      "tested_build_id": "20253801",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "configuration": {
         "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
-        "primary_player_is_controller_slot_0": "0",
+        "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "1",
         "small_text": "1",
         "requires_internet_for_setup": "0",
@@ -52,10 +76,10 @@
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
-      "english": "62c586cd06e6b5446c14271bf34baf0c39b06e4f/capsule_231x87.jpg"
+      "english": "d5786c168ed03f36fc6ecc3d9e9257a555022cc7/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "99d7340f4622810c8c0ec895f978834c5f7f77d2/header.jpg"
+      "english": "1b4ce8b806355a9024a5c51caca5fe268a72ef76/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -113,7 +137,7 @@
         }
       }
     },
-    "store_asset_mtime": "1755874621",
+    "store_asset_mtime": "1760648812",
     "associations": {
       "0": {
         "type": "developer",
