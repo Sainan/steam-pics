@@ -1,6 +1,5 @@
 {
   "appid": "3801060",
-  "public_only": "1",
   "common": {
     "name": "迷梦之森",
     "type": "Game",
@@ -20,7 +19,7 @@
       "schinese": "1",
       "tchinese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "dad0cc8ecaa08461e88f395cb4c529821310d344/capsule_231x87_schinese.jpg",
@@ -171,9 +170,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3801060",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -193,5 +192,43 @@
       "15": "4325",
       "16": "4182"
     }
+  },
+  "extended": {
+    "developer": "primarycore",
+    "publisher": "primarycore"
+  },
+  "config": {
+    "installdir": "Slumbering Mirage Grove",
+    "launch": {
+      "1": {
+        "executable": "迷梦之森.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3801061": {
+      "manifests": {
+        "public": {
+          "gid": "42237754074556032",
+          "size": "611251143",
+          "download": "175035536"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20399542",
+        "timeupdated": "1760519177"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
