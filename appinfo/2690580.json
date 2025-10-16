@@ -3,7 +3,7 @@
   "common": {
     "name": "Luminaria: Dark Echoes",
     "type": "Game",
-    "oslist": "windows,linux",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "",
     "icon": "960eda831533c7d3e6c8a35f0237d160dbfc46b7",
@@ -172,6 +172,12 @@
         "executable": "Luminaria Dark Echoes.exe",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "build_linux.x86_64",
+        "config": {
+          "oslist": "linux"
         }
       }
     },
