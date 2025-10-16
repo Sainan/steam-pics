@@ -1,0 +1,93 @@
+{
+  "appid": "1677270",
+  "common": {
+    "name": "Out of Action Server",
+    "type": "Tool",
+    "parent": "1670780",
+    "releasestate": "released",
+    "oslist": "linux",
+    "osarch": "",
+    "osextended": "",
+    "icon": "4bc606c79ca847382d88aea05568fba506d5786f",
+    "clienticon": "6ff901401bf25b19abf7a91580c5eecb071ee5ae",
+    "clienttga": "b52e76a6d5c02a56eb71899bb2ef5b04be17988e",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1677270"
+  },
+  "extended": {
+    "gamedir": "Out of Action",
+    "serverbrowsername": "Out of Action"
+  },
+  "config": {
+    "installdir": "Out of Action Server",
+    "launch": {
+      "0": {
+        "executable": "OutOfActionServer.sh",
+        "type": "server",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1677271": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6210754016807253918",
+          "size": "321557100",
+          "download": "118321968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20427055",
+        "timeupdated": "1760657917"
+      }
+    }
+  }
+}
