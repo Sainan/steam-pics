@@ -1,6 +1,5 @@
 {
   "appid": "4076400",
-  "public_only": "1",
   "common": {
     "name": "Red Passport: Ticket to Russia Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b16c64e8081c86e29da4a6481d06f3858641ab40/capsule_231x87.jpg"
     },
@@ -50,5 +49,52 @@
     },
     "gameid": "4076400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Stop-TussiN",
+    "publisher": "Stop-TussiN"
+  },
+  "config": {
+    "installdir": "Red Passport Ticket to Russia Demo",
+    "launch": {
+      "0": {
+        "executable": "RedPassport.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4076401": {
+      "manifests": {
+        "public": {
+          "gid": "6272172491839069260",
+          "size": "9211968333",
+          "download": "8931114512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20352509",
+        "timeupdated": "1760211281"
+      }
+    }
   }
 }
