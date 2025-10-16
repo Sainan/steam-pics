@@ -1,6 +1,5 @@
 {
   "appid": "3993700",
-  "public_only": "1",
   "common": {
     "name": "EaseUS Partition Master",
     "type": "Application",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "ebe72a2adb14babbbc7bd7c0b5fdf9d3268d2bd5",
     "icon": "ebe72a2adb14babbbc7bd7c0b5fdf9d3268d2bd5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d495941434ff4040613c8f729319664843d4ad2/capsule_231x87.jpg"
     },
@@ -87,9 +86,7 @@
     "genres": {
       "0": "57"
     },
-    "category": {
-      "category_35": "1"
-    },
+    "category": {},
     "supported_languages": {
       "english": {
         "supported": "true"
@@ -134,6 +131,42 @@
     "store_tags": {
       "0": "87",
       "1": "8013"
+    }
+  },
+  "extended": {
+    "developer": "Chengdu Yiwo Tech Development Co., Ltd",
+    "publisher": "Chengdu Yiwo Tech Development Co., Ltd",
+    "homepage": "https://www.easeus.com/partition-manager/epm-pro.html"
+  },
+  "config": {
+    "installdir": "EaseUS Partition Master",
+    "launch": {
+      "0": {
+        "executable": "bin\\epm0.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3993701": {
+      "manifests": {
+        "public": {
+          "gid": "5882980102318849631",
+          "size": "666385561",
+          "download": "263731648"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20316124",
+        "timeupdated": "1759995807"
+      }
     }
   }
 }
