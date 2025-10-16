@@ -1,6 +1,5 @@
 {
   "appid": "3960450",
-  "public_only": "1",
   "common": {
     "name": "Echoes of the Court",
     "type": "Game",
@@ -13,8 +12,9 @@
     "osarch": "64",
     "osextended": "",
     "clienticon": "306ff4c890a3e91fbe26860308cb62f339099b0f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
+    "controller_support": "full",
     "small_capsule": {
       "french": "b0bd50c4472e073e4d3299532dd326a47d1013a3/capsule_231x87_french.jpg",
       "english": "5e2ee0e8c9a027ace724807e43e1a6fd18bfaf98/capsule_231x87.jpg"
@@ -85,7 +85,7 @@
         }
       }
     },
-    "store_asset_mtime": "1756787194",
+    "store_asset_mtime": "1759985861",
     "associations": {
       "0": {
         "type": "developer",
@@ -102,7 +102,8 @@
       "1": "37"
     },
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_28": "1"
     },
     "supported_languages": {
       "english": {
@@ -116,6 +117,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759948809",
     "community_hub_visible": "1",
     "gameid": "3960450",
     "exfgls": "3",
@@ -137,6 +139,68 @@
       "14": "21",
       "15": "1643",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Affordance Studio",
+    "publisher": "uOttawa",
+    "homepage": "https://jurivision.ca/en/supremecourtexperience/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Echoes of the Court",
+    "launch": {
+      "0": {
+        "executable": "EchoesOfTheCourt.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3960451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3362714956891116942",
+          "size": "1859591312",
+          "download": "1719275904"
+        },
+        "local": {
+          "gid": "8504577042874928550",
+          "size": "4013324732",
+          "download": "1296748368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20308978",
+        "timeupdated": "1760127687"
+      },
+      "local": {
+        "buildid": "19775767",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1756410259"
+      }
     }
   }
 }
