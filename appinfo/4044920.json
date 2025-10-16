@@ -1,6 +1,5 @@
 {
   "appid": "4044920",
-  "public_only": "1",
   "common": {
     "name": "ARTIST SLAYER / RUSH Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -103,12 +102,50 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760573096",
     "gameid": "4044920",
     "exfgls": "6",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "ARTIST SLAYER Project",
+    "publisher": "ARTIST SLAYER Project"
+  },
+  "config": {
+    "installdir": "ARTIST SLAYER  RUSH Demo",
+    "launch": {
+      "0": {
+        "executable": "ASSR_DemoforWindows/ASSR_Demo.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4044921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1392595608721666663",
+          "size": "1923324656",
+          "download": "590146384"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20025898",
+        "timeupdated": "1758168668"
+      }
     }
   }
 }
