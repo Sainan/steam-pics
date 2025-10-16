@@ -1,6 +1,5 @@
 {
   "appid": "4068260",
-  "public_only": "1",
   "common": {
     "name": "Xeno Girlfriend",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -216,9 +215,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760636164",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4068260",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -238,6 +238,65 @@
       "9": "4085",
       "10": "3964",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Bully Revenge Studios",
+    "publisher": "Bully Revenge Studios"
+  },
+  "config": {
+    "installdir": "Xeno Girlfriend",
+    "launch": {
+      "0": {
+        "executable": "XenoGirlfriend.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "XenoGirlfriend.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "XenoGirlfriend.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4068262": {
+      "manifests": {
+        "public": {
+          "gid": "6581005729832660800",
+          "size": "320557091",
+          "download": "144237328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20422927",
+        "timeupdated": "1760636045"
+      }
     }
   }
 }
