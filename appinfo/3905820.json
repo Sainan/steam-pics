@@ -1,6 +1,5 @@
 {
   "appid": "3905820",
-  "public_only": "1",
   "common": {
     "name": "Stupor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -21,7 +20,8 @@
     "header_image": {
       "english": "1cb3007a371a35dd9f1183f4ec287a193815eaec/header.jpg"
     },
-    "store_asset_mtime": "1756260172",
+    "store_screenshot": "194cb46e8abce76c2ab8472eb58193bd91af490a/ss_194cb46e8abce76c2ab8472eb58193bd91af490a.jpg",
+    "store_asset_mtime": "1760587594",
     "associations": {
       "0": {
         "type": "developer",
@@ -32,7 +32,10 @@
         "name": "Featherless Chickens Studios"
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "23",
+    "genres": {
+      "0": "23"
+    },
     "category": {
       "category_2": "1",
       "category_68": "1",
@@ -45,10 +48,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760029171",
     "gameid": "3905820",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Featherless Chickens Studios",
+    "publisher": "Featherless Chickens Studios"
+  },
+  "config": {
+    "installdir": "Stupor Demo",
+    "launch": {
+      "0": {
+        "executable": "Stupor_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3905821": {
+      "manifests": {
+        "public": {
+          "gid": "5811364210562040527",
+          "size": "431551696",
+          "download": "204643200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20327549",
+        "timeupdated": "1760046118"
+      }
     }
   }
 }
