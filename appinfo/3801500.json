@@ -1,6 +1,5 @@
 {
   "appid": "3801500",
-  "public_only": "1",
   "common": {
     "name": "Neffy -Moonlight Labyrinth X-",
     "type": "Game",
@@ -21,7 +20,7 @@
       "japanese": "1"
     },
     "icon": "4a8966b701e3da62648fec22e2d39c020bfe0d7f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -165,9 +164,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760576920",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3801500",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "19",
@@ -182,6 +182,78 @@
       "10": "7208",
       "11": "1697",
       "12": "4191"
+    }
+  },
+  "extended": {
+    "developer": "TOM CREATE",
+    "publisher": "TOM CREATE",
+    "homepage": "https://www.tomcreate.co.jp/neffy/"
+  },
+  "config": {
+    "installdir": "Neffy -Moonlight Labyrinth X-",
+    "launch": {
+      "0": {
+        "executable": "Neffy-X\\Neffy-X.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Neffy-X\\Neffy-X.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "4",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3801501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8693435210775696977",
+          "size": "505802676",
+          "download": "380076640"
+        }
+      }
+    },
+    "3801502": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5539336741472689577",
+          "size": "741824961",
+          "download": "505817872"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "19965433",
+        "timeupdated": "1757726947"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "TOM CREATE CO_,LTD_/Neffy -Moonlight Labyrinth X-/MLL_data",
+        "pattern": "*.bytes",
+        "recursive": "1"
+      }
     }
   }
 }
