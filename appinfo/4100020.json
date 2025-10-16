@@ -1,6 +1,5 @@
 {
   "appid": "4100020",
-  "public_only": "1",
   "common": {
     "name": "メルト・アウェイ Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     },
     "clienticon": "a87271e68d4b09e3381ba553311ed5627f005f0a",
     "icon": "a87271e68d4b09e3381ba553311ed5627f005f0a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "japanese": "fa00e89926fbcbd00ed602daaf62c268c382a87b/capsule_231x87_japanese.jpg",
       "english": "280b924ae9793ab7722f260107005466a8681d9d/capsule_231x87.jpg"
@@ -63,5 +62,62 @@
     },
     "gameid": "4100020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Overcast",
+    "publisher": "TOKYOTOON"
+  },
+  "config": {
+    "installdir": "メルト・アウェイ Demo",
+    "launch": {
+      "0": {
+        "executable": "202510161011WindowsTrial/Windows/MeltAway.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mac/MeltAway.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4100021": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3276851543065005972",
+          "size": "1737372239",
+          "download": "1381716208"
+        }
+      }
+    },
+    "4100022": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3864797423787239517",
+          "size": "1745640684",
+          "download": "1376593312"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20413434",
+        "timeupdated": "1760590491"
+      }
+    }
   }
 }
