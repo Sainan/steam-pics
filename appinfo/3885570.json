@@ -1,6 +1,5 @@
 {
   "appid": "3885570",
-  "public_only": "1",
   "common": {
     "name": "Halloween Secrets: The Blood Vow Collector's Edition",
     "type": "Game",
@@ -20,7 +19,7 @@
     "icon": "76c9985b0c4d568aec56d7f20df0073b5c593fdd",
     "clienticon": "3ff0217eb4ce3925329ca058ff8db43ea5f4268b",
     "clienttga": "a5963c040a498a3363e47f95af9e417658e89ba4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d6f8a2b7ef7de998abf6f13dde03a08545634944/capsule_231x87.jpg"
@@ -140,9 +139,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3885570",
-    "exfgls": "8",
     "store_tags": {
       "0": "1738",
       "1": "1664",
@@ -164,6 +163,75 @@
       "17": "8369",
       "18": "769306",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Do Games Limited",
+    "publisher": "Do Games Limited"
+  },
+  "config": {
+    "installdir": "Halloween Secrets The Blood Vow Collector's Edition",
+    "launch": {
+      "0": {
+        "executable": "Halloween_Secrets_The_Blood_Vow_CE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Halloween_Secrets_The_Blood_Vow_CE.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3885571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3678532850922294235",
+          "size": "1274424700",
+          "download": "1174238800"
+        }
+      }
+    },
+    "3885572": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6461127572427262477",
+          "size": "1294607110",
+          "download": "1179455568"
+        }
+      }
+    },
+    "3885620": {
+      "dlcappid": "3885620",
+      "config": {
+        "oslist": "windows,macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6644559069592795420",
+          "size": "680106689",
+          "download": "603413456"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20241622",
+        "timeupdated": "1759505915"
+      }
     }
   }
 }
