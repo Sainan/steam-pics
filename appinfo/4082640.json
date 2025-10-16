@@ -1,6 +1,5 @@
 {
   "appid": "4082640",
-  "public_only": "1",
   "common": {
     "name": "Penance Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "8fd7edc6d1ed196ba7b13378b373b638a8ccca6b",
     "linuxclienticon": "8fd7edc6d1ed196ba7b13378b373b638a8ccca6b",
     "clienticns": "8fd7edc6d1ed196ba7b13378b373b638a8ccca6b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "c817c232d27ce3f5157105817227f0388482efb9/capsule_231x87.jpg",
@@ -107,7 +106,47 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760623665",
     "gameid": "4082640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Scriptorium Artis",
+    "publisher": "Scriptorium Artis",
+    "homepage": "https://scriptoriumartis.itch.io/penance"
+  },
+  "config": {
+    "installdir": "PenanceDemo",
+    "launch": {
+      "0": {
+        "executable": "PENANCEDEMOv16.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      }
+    }
+  },
+  "depots": {
+    "4082641": {
+      "manifests": {
+        "public": {
+          "gid": "8225719531121761016",
+          "size": "139974636",
+          "download": "72394656"
+        }
+      }
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20413811",
+        "timeupdated": "1760593208"
+      }
+    }
   }
 }
