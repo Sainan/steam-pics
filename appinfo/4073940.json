@@ -1,6 +1,5 @@
 {
   "appid": "4073940",
-  "public_only": "1",
   "common": {
     "name": "Kiddie Train Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "310ac9bad41f3ce9a5f573e4acd91a3fc3ebd9e3/capsule_231x87.jpg"
     },
@@ -29,8 +28,45 @@
       }
     },
     "primary_genre": "0",
-    "category": {},
+    "category": {
+      "category_22": "1"
+    },
+    "steam_release_date": "1760630629",
+    "community_visible_stats": "1",
     "gameid": "4073940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "foolkien",
+    "publisher": "foolkien"
+  },
+  "config": {
+    "installdir": "Kiddie Train Demo",
+    "launch": {
+      "0": {
+        "executable": "Kiddie Train.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073941": {
+      "manifests": {
+        "public": {
+          "gid": "562902505106539592",
+          "size": "383026923",
+          "download": "107161568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20414360",
+        "timeupdated": "1760630574"
+      }
+    }
   }
 }
