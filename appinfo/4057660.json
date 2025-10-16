@@ -1,4 +1,138 @@
 {
   "appid": "4057660",
-  "public_only": "1"
+  "common": {
+    "name": "Gravelord Playtest",
+    "type": "Beta",
+    "parent": "1823990",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "f57ba7a20efab21429c3809713bfb2dc82e208b9",
+    "icon": "f57ba7a20efab21429c3809713bfb2dc82e208b9",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "f2ee34db84b6567e29a005c8f91f4e6690b6432c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "0bfc2de1257b904edc182251d2fb0372c34102da/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "b7a545fcf68ff072294ba04f467c965cbaa19cc2/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "b7a545fcf68ff072294ba04f467c965cbaa19cc2/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "b637e8ca1aa831f4e6b4ad912ba053372708cb99/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "b637e8ca1aa831f4e6b4ad912ba053372708cb99/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "b637e8ca1aa831f4e6b4ad912ba053372708cb99/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        },
+        "image": {
+          "english": "7e52da355ee8f6aa19ab3905f08420d40092c8dd/logo.png"
+        },
+        "image2x": {
+          "english": "7e52da355ee8f6aa19ab3905f08420d40092c8dd/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "be3fda761a8a31353f365319e61cd13660bd34bd/library_header.jpg"
+        },
+        "image2x": {
+          "english": "be3fda761a8a31353f365319e61cd13660bd34bd/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1758720946",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1760619851",
+    "community_hub_visible": "1",
+    "gameid": "4057660",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "gravelord_playtest",
+    "launch": {
+      "0": {
+        "executable": "gravelord.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4057661": {
+      "manifests": {
+        "public": {
+          "gid": "1632340313101435687",
+          "size": "1150258350",
+          "download": "926668992"
+        }
+      }
+    },
+    "workshopdepot": "4057660",
+    "branches": {
+      "public": {
+        "buildid": "20403410",
+        "timeupdated": "1760536318"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "user",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "user/saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
 }
