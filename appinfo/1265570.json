@@ -245,11 +245,19 @@
   },
   "ufs": {
     "quota": "8388608",
-    "maxnumfiles": "25",
+    "maxnumfiles": "100",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "kemco\\DMLC\\save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "KEMCO/DMLC/save_release",
         "pattern": "*.json",
         "platforms": {
           "1": "Windows"
