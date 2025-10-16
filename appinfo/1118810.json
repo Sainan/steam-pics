@@ -1,0 +1,112 @@
+{
+  "appid": "1118810",
+  "common": {
+    "name": "Midnight Ghost Hunt Dedicated Server",
+    "type": "Tool",
+    "parent": "915810",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "901d46899a88152c15d3983665ddb6317d499d5c",
+    "clienttga": "172512975d81dbda77a8080b1e20e260b08c5268",
+    "clienticon": "f623f7d2c8f3dff00c2748ca2f12b1f25316280f",
+    "freetodownload": "1",
+    "associations": {},
+    "gameid": "1118810"
+  },
+  "config": {
+    "installdir": "Midnight Ghost Hunt Dedicated Server",
+    "launch": {
+      "0": {
+        "executable": "start_server.bat",
+        "type": "server",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1118811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5826292488044768845",
+          "size": "1943852431",
+          "download": "1488383856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19052665",
+        "timeupdated": "1751307917"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
