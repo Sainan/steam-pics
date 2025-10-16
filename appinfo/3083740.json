@@ -1,6 +1,5 @@
 {
   "appid": "3083740",
-  "public_only": "1",
   "common": {
     "name": "ROCKS",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "c96688426abcd9c49d6c850f26a48800dcaff2b6",
     "clienttga": "f54ba9477bee6b40950022ce0ac45d57abb603a9",
     "clienticon": "76c933925f70facd7991725e58670187c9295ac3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -103,7 +102,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3083740",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "7108",
@@ -125,6 +123,55 @@
       "17": "3843",
       "18": "7368",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "AD-HD Games",
+    "publisher": "AD-HD Games"
+  },
+  "config": {
+    "installdir": "Rocks",
+    "launch": {
+      "0": {
+        "executable": "Rock.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3083741": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5580504383140657109",
+          "size": "2010864789",
+          "download": "1481343232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20319141",
+        "timeupdated": "1760008613"
+      }
     }
   }
 }
