@@ -1,4 +1,183 @@
 {
   "appid": "4086710",
-  "public_only": "1"
+  "common": {
+    "name": "Illumination of Mansion Demo",
+    "type": "Demo",
+    "parent": "3799930",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "icon": "807d7337dc0b05d64749d434b7438a7a26a60e13",
+    "clienticns": "04a5f931cc65a658c40b6bed2df76ec0f8f763b6",
+    "clienticon": "807d7337dc0b05d64749d434b7438a7a26a60e13",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "c12053a8977681e9d5e79db35cfc0c753b1fd6c0/capsule_231x87.jpg",
+      "koreana": "5c26adae9b98ce015470f0523d79564c047224ba/capsule_231x87_koreana.jpg"
+    },
+    "header_image": {
+      "english": "cc23a8a3af23fa742c1df75f6f3bb7a12ff1a352/header.jpg",
+      "koreana": "6b23f1b6bc692cc9c63b44fa1ade4a6e6df47fab/header_koreana.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en,ko",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "40.47046743244265",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "02861ea2fc26efe1eba74c7409df0bdec387a945/library_capsule.jpg",
+          "koreana": "097f0e2de49a056790d3c791a99f7e15e10ab062/library_capsule_koreana.jpg"
+        },
+        "image2x": {
+          "english": "02861ea2fc26efe1eba74c7409df0bdec387a945/library_capsule_2x.jpg",
+          "koreana": "097f0e2de49a056790d3c791a99f7e15e10ab062/library_capsule_koreana_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "a27ce17249c95d7ece5955ec98f4c5860d808966/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "a27ce17249c95d7ece5955ec98f4c5860d808966/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "a27ce17249c95d7ece5955ec98f4c5860d808966/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "7141581baed93ee251c046702e6da9ea815a33df/logo.png"
+        },
+        "image2x": {
+          "english": "7141581baed93ee251c046702e6da9ea815a33df/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "40.47046743244265",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "cc23a8a3af23fa742c1df75f6f3bb7a12ff1a352/library_header.jpg"
+        },
+        "image2x": {
+          "english": "cc23a8a3af23fa742c1df75f6f3bb7a12ff1a352/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1760651089",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Chaos Advice Studio"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Bruder Games"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Chaos Advice Studio"
+      },
+      "3": {
+        "type": "publisher",
+        "name": "Bruder Games"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "23",
+      "1": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_70": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_79": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1759948116",
+    "gameid": "4086710",
+    "exfgls": "6",
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Chaos Advice Studio",
+    "publisher": "Chaos Advice Studio"
+  },
+  "config": {
+    "installdir": "Illumination of Mansion Demo",
+    "launch": {
+      "0": {
+        "executable": "IlluminationOfMansion.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Iom_Mac.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4086711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4001466903819020741",
+          "size": "751737333",
+          "download": "77280992"
+        }
+      }
+    },
+    "4086712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9062574031081792742",
+          "size": "740158851",
+          "download": "75481520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20275256",
+        "timeupdated": "1759777494"
+      }
+    }
+  }
 }
