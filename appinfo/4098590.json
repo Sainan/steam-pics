@@ -1,6 +1,5 @@
 {
   "appid": "4098590",
-  "public_only": "1",
   "common": {
     "name": "Shadows of Soldiers Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "02cb94e5da9da9078d228af936b82187106d8c5c/capsule_231x87.jpg"
@@ -95,7 +94,53 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760627119",
     "gameid": "4098590",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sneaky Devs",
+    "publisher": "Sneaky Devs",
+    "homepage": "https://www.shadowsofsoldiers.com/"
+  },
+  "config": {
+    "installdir": "Shadows of Soldiers Demo",
+    "launch": {
+      "0": {
+        "executable": "SoSdev.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4098591": {
+      "manifests": {
+        "public": {
+          "gid": "585877471767503208",
+          "size": "24360338647",
+          "download": "23893901344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20324644",
+        "timeupdated": "1760031438"
+      }
+    }
   }
 }
