@@ -1,6 +1,5 @@
 {
   "appid": "3898000",
-  "public_only": "1",
   "common": {
     "name": "Dobro Goranku",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "7e0a274f6bfd9ee71a4f139512521f99a16ed290",
     "linuxclienticon": "efdbd5702da7786fc20cf9c6a2350024d8b99a53",
     "clienticon": "1824e47b45ee44ea6ef8fc7329c6cd06843cf38c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macosapplesilicon,macosnotarized",
@@ -120,6 +119,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760015430",
     "community_hub_visible": "1",
     "gameid": "3898000",
     "exfgls": "3",
@@ -127,23 +127,82 @@
       "0": "597",
       "1": "9",
       "2": "1666",
-      "3": "791774",
-      "4": "9271",
+      "3": "9271",
+      "4": "493",
       "5": "113",
       "6": "492",
-      "7": "493",
-      "8": "14139",
-      "9": "1741",
-      "10": "3871",
-      "11": "1684",
-      "12": "1654",
-      "13": "6730",
-      "14": "1775",
-      "15": "3859",
-      "16": "4182",
-      "17": "3878",
-      "18": "4085",
-      "19": "4166"
+      "7": "14139",
+      "8": "1741",
+      "9": "3871",
+      "10": "1684",
+      "11": "1654",
+      "12": "6730",
+      "13": "1775",
+      "14": "3859",
+      "15": "4182",
+      "16": "3878",
+      "17": "4085",
+      "18": "4252",
+      "19": "791774"
+    }
+  },
+  "extended": {
+    "developer": "Moonlabs",
+    "publisher": "Moonlabs",
+    "homepage": "https://dobrogoranku.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Dobro Goranku",
+    "launch": {
+      "0": {
+        "executable": "DobroGoranku.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DobroGoranku.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3898001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "39596474120631164",
+          "size": "426658160",
+          "download": "333427648"
+        }
+      }
+    },
+    "3898002": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "910179485066396064",
+          "size": "520371034",
+          "download": "359910048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20320115",
+        "timeupdated": "1760012766"
+      }
     }
   }
 }
