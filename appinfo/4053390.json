@@ -104,7 +104,8 @@
         "type": "default",
         "config": {
           "oslist": "linux",
-          "osarch": "64"
+          "osarch": "64",
+          "betakey": "default-linux"
         }
       }
     }
@@ -121,6 +122,11 @@
           "size": "250629938",
           "download": "39445040"
         },
+        "default-linux": {
+          "gid": "650365219434565365",
+          "size": "250629938",
+          "download": "39445040"
+        },
         "canary": {
           "gid": "1309305433069121840",
           "size": "250669418",
@@ -132,6 +138,13 @@
       "config": {
         "oslist": "linux",
         "osarch": "64"
+      },
+      "manifests": {
+        "default-linux": {
+          "gid": "2349778142683002468",
+          "size": "392629986",
+          "download": "57732896"
+        }
       }
     },
     "hasdepotsindlc": "0",
@@ -139,6 +152,11 @@
       "public": {
         "buildid": "20325257",
         "timeupdated": "1760518788"
+      },
+      "default-linux": {
+        "buildid": "20415957",
+        "description": "default-linux",
+        "timeupdated": "1760604993"
       },
       "canary": {
         "buildid": "20399414",
