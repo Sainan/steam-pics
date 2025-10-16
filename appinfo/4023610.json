@@ -1,6 +1,5 @@
 {
   "appid": "4023610",
-  "public_only": "1",
   "common": {
     "name": "Rod of Asclepius Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -128,7 +127,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760642022",
     "gameid": "4023610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Albert Gregl",
+    "publisher": "Albert Gregl",
+    "homepage": "https://albertgregl.com/pages/rod-of-asclepius"
+  },
+  "config": {
+    "installdir": "Rod of Asclepius Demo",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "AsclepiusDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4023611": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "652652193044910555",
+          "size": "392765849",
+          "download": "216577168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20423817",
+        "timeupdated": "1760640296"
+      }
+    },
+    "privatebranches": "1"
   }
 }
