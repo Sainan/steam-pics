@@ -98,11 +98,23 @@
           "osarch": "64",
           "betakey": "default"
         }
+      },
+      "1": {
+        "executable": "playtest_jumpfall.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
       }
     }
   },
   "depots": {
     "4053391": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "650365219434565365",
@@ -119,6 +131,12 @@
           "size": "247717650",
           "download": "39300928"
         }
+      }
+    },
+    "4053392": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
       }
     },
     "hasdepotsindlc": "0",
