@@ -1,6 +1,5 @@
 {
   "appid": "3969600",
-  "public_only": "1",
   "common": {
     "name": "The Fable: Manga Build Roguelike Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "ザ・ファブル Manga Build Roguelike Demo",
       "schinese": "杀手寓言 Manga Build Roguelike Demo"
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757775815",
+    "store_asset_mtime": "1759903986",
     "associations": {
       "0": {
         "type": "developer",
@@ -117,11 +116,63 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759996121",
     "gameid": "3969600",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "MONO ENTERTAINMENT",
+    "publisher": "Kodansha",
+    "homepage": "https://creatorslab.kodansha.co.jp/products/2650/"
+  },
+  "config": {
+    "installdir": "ザ・ファブル Manga Build Roguelike Demo",
+    "launch": {
+      "0": {
+        "executable": "FableMangaBuildRoguelike.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3969601": {
+      "manifests": {
+        "public": {
+          "gid": "3963454330834892432",
+          "size": "1444292499",
+          "download": "226566240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20335526",
+        "timeupdated": "1760093612"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3187880",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MonoEntertainment\\FableMangaBuildRoguelike",
+        "pattern": "*.es3"
+      },
+      "copied_from_parent": "1"
     }
   }
 }
