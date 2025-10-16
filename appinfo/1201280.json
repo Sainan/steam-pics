@@ -1,5 +1,6 @@
 {
   "appid": "1201280",
+  "public_only": "1",
   "common": {
     "name": "A Space For The Unbound - Prologue",
     "type": "Game",
@@ -8,9 +9,9 @@
     "icon": "8c79e8c6127fc66ac13210de8a912abe1b9c85d2",
     "logo": "a77297c641cf7ad3f018788784496877347e8a46",
     "logo_small": "a77297c641cf7ad3f018788784496877347e8a46_thumb",
-    "oslist": "windows,macos",
+    "oslist": "windows",
     "osarch": "",
-    "osextended": "macos64",
+    "osextended": "",
     "releasestate": "released",
     "metacritic_name": "A Space For The Unbound - Prologue",
     "controller_support": "partial",
@@ -164,79 +165,5 @@
     },
     "review_score": "9",
     "review_percentage": "97"
-  },
-  "extended": {
-    "developer": "Mojiken",
-    "publisher": "Toge Productions",
-    "isfreeapp": "1"
-  },
-  "config": {
-    "installdir": "A Space For The Unbound - Prologue",
-    "launch": {
-      "0": {
-        "executable": "A Space for the Unbound.exe",
-        "type": "default",
-        "config": {
-          "oslist": "windows"
-        }
-      },
-      "1": {
-        "executable": "A Space for the Unbound.app",
-        "type": "default",
-        "config": {
-          "oslist": "macos"
-        }
-      }
-    }
-  },
-  "depots": {
-    "1201281": {
-      "config": {
-        "oslist": "windows",
-        "language": ""
-      },
-      "manifests": {
-        "public": {
-          "gid": "3668056015570386869",
-          "size": "613927400",
-          "download": "80017424"
-        },
-        "beta": {
-          "gid": "2621470812018279145",
-          "size": "0",
-          "download": "0"
-        }
-      }
-    },
-    "1201282": {
-      "config": {
-        "oslist": "macos",
-        "osarch": "64",
-        "language": ""
-      },
-      "manifests": {
-        "public": {
-          "gid": "8494440054522964256",
-          "size": "614358073",
-          "download": "80984160"
-        },
-        "beta": {
-          "gid": "8494440054522964256",
-          "size": "614358073",
-          "download": "80984160"
-        }
-      }
-    },
-    "branches": {
-      "public": {
-        "buildid": "6244819",
-        "timeupdated": "1613447676"
-      },
-      "beta": {
-        "buildid": "6240498",
-        "timeupdated": "1613378732"
-      }
-    },
-    "privatebranches": "1"
   }
 }
