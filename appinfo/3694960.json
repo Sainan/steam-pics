@@ -1,11 +1,10 @@
 {
   "appid": "3694960",
-  "public_only": "1",
   "common": {
     "name": "Finding Mom Demo",
     "type": "Demo",
     "parent": "3560500",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8b6954e8836e469ce69a77675d2ac89b154df469",
     "oslist": "windows",
     "osarch": "",
@@ -100,5 +99,42 @@
     },
     "gameid": "3694960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wagner Gaming",
+    "publisher": "Wagner Gaming"
+  },
+  "config": {
+    "installdir": "Finding Mom Demo",
+    "launch": {
+      "0": {
+        "executable": "finding_mom.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3694961": {
+      "manifests": {
+        "public": {
+          "gid": "8173285791513075035",
+          "size": "290296800",
+          "download": "172419520"
+        }
+      }
+    },
+    "3694962": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19456811",
+        "timeupdated": "1754159483"
+      }
+    }
   }
 }
