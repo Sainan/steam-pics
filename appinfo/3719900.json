@@ -1,13 +1,12 @@
 {
   "appid": "3719900",
-  "public_only": "1",
   "common": {
     "name": "Pereelous",
     "type": "Game",
     "icon": "b9db06e0144196074266f9dd7672b800e4245d8c",
     "clienticon": "f31860212a2ea6e298c68738e530d4e943ff4ed7",
     "clienttga": "c6db8d196ceaed0510f70f1e43c871577b88e05c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3719900",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -125,6 +125,60 @@
       "10": "1759",
       "11": "4182",
       "12": "1773"
+    }
+  },
+  "extended": {
+    "developer": "VANDERMAESEN GAMES",
+    "publisher": "VANDERMAESEN GAMES"
+  },
+  "config": {
+    "installdir": "Pereelous",
+    "launch": {
+      "0": {
+        "executable": "Pereelous.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Pereelous.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3719901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3881010182715257569",
+          "size": "247538768",
+          "download": "144653040"
+        }
+      }
+    },
+    "3719902": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2336256673474593284",
+          "size": "220975104",
+          "download": "138040272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20433155",
+        "timeupdated": "1760695056"
+      }
     }
   }
 }
