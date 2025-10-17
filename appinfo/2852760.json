@@ -1,6 +1,5 @@
 {
   "appid": "2852760",
-  "public_only": "1",
   "common": {
     "name": "This Is No Cave",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -139,9 +138,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760690015",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2852760",
-    "exfgls": "8",
     "store_tags": {
       "0": "3968",
       "1": "4026",
@@ -163,6 +163,42 @@
       "17": "1755",
       "18": "1673",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "developer": "monome.studio",
+    "publisher": "monome.studio",
+    "homepage": "https://www.monome.studio/"
+  },
+  "config": {
+    "installdir": "This Is No Cave",
+    "launch": {
+      "0": {
+        "executable": "This Is No Cave.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2852761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8828303904960614407",
+          "size": "2680797624",
+          "download": "231855088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20431041",
+        "timeupdated": "1760685320"
+      }
     }
   }
 }
