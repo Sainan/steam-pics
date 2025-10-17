@@ -1,6 +1,5 @@
 {
   "appid": "4009180",
-  "public_only": "1",
   "common": {
     "name": "Bean Quest",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5786eb442b42c6c51da712b77c69be4c2014285e/capsule_231x87.jpg"
@@ -107,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4009180",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4736",
@@ -122,6 +120,50 @@
       "10": "3993",
       "11": "6730",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Savageboney Studios",
+    "publisher": "Savageboney Studios"
+  },
+  "config": {
+    "installdir": "Bean Quest",
+    "launch": {
+      "0": {
+        "executable": "Bean Quest.exe"
+      }
+    }
+  },
+  "depots": {
+    "4009181": {
+      "manifests": {
+        "public": {
+          "gid": "4245217062007142232",
+          "size": "116790673",
+          "download": "45972880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20196915",
+        "timeupdated": "1759271557"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "7",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\DefaultCompany\\Bean Quest",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
