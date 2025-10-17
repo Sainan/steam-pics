@@ -1,6 +1,5 @@
 {
   "appid": "3017730",
-  "public_only": "1",
   "common": {
     "name": "Unbox the Room",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -158,9 +157,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760716891",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3017730",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "1654",
@@ -182,6 +182,50 @@
       "17": "1698",
       "18": "4182",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Weird Penguin Games",
+    "publisher": "Weird Penguin Games"
+  },
+  "config": {
+    "installdir": "Unbox the Room",
+    "launch": {
+      "0": {
+        "executable": "Unbox the Room.exe"
+      }
+    }
+  },
+  "depots": {
+    "3017731": {
+      "manifests": {
+        "public": {
+          "gid": "1032139498785509320",
+          "size": "486473195",
+          "download": "99896832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20437428",
+        "timeupdated": "1760713579"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Weird Penguin Games/Unbox the Room",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
