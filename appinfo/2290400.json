@@ -9,8 +9,8 @@
     "clienttga": "b6ef75f3f9138520ecc2268cd3c7f92921ae4b89",
     "clienticon": "f4ad33a59a397b87c4f9e11815f7d6aef5948123",
     "oslist": "windows,macos,linux",
-    "osarch": "",
-    "osextended": "macos64,macosnotarized",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -80,24 +80,31 @@
     "installdir": "Splittown Demo",
     "launch": {
       "0": {
-        "executable": "splittown_demo.exe",
+        "executable": "Splittown.exe",
+        "type": "default",
         "config": {
           "oslist": "windows"
         }
       },
       "1": {
         "executable": "Splittown.app",
+        "type": "default",
         "config": {
           "oslist": "macos"
         }
       },
       "2": {
         "executable": "start",
+        "type": "default",
         "config": {
           "oslist": "linux"
         }
       }
-    }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
   },
   "depots": {
     "2290401": {
@@ -140,6 +147,45 @@
       "public": {
         "buildid": "10483966",
         "timeupdated": "1675637534"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "150",
+    "appidredirect": "2117400",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "All Seeing Eye/Splittown/Savegames",
+        "pattern": "*.dat"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "All Seeing Eye/Splittown/Savegames",
+            "replace": "All Seeing Eye/Splittown/Savegames"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "All Seeing Eye/Splittown/Savegames",
+            "replace": ".local/share/All Seeing Eye/Splittown/Savegames"
+          }
+        }
       }
     }
   }
