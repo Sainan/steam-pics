@@ -1,13 +1,12 @@
 {
   "appid": "3511720",
-  "public_only": "1",
   "common": {
     "name": "Monster Hookups",
     "type": "Game",
     "icon": "8f126e4e343f71c68ca2593f969f7bebec94afb5",
     "clienticon": "9b154959075886f6e825be47e7bc95a4ef8b7dfc",
     "clienttga": "a83cb3334df648b4279db418857cb7535cb5f4e5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -110,9 +109,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760718948",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3511720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -140,6 +140,57 @@
       "17": "4057",
       "18": "4018",
       "19": "17015"
+    }
+  },
+  "extended": {
+    "developer": "W Allured",
+    "publisher": "W Allured"
+  },
+  "config": {
+    "installdir": "Monster Hookups",
+    "launch": {
+      "0": {
+        "executable": "Monster Hookups.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3511721": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5704271335205775761",
+          "size": "147416551",
+          "download": "78115072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20065450",
+        "timeupdated": "1758453683"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Monster Hookups",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
