@@ -1,6 +1,5 @@
 {
   "appid": "4074910",
-  "public_only": "1",
   "common": {
     "name": "恋爱音游痴 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -110,5 +109,58 @@
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "DIFFUSE MEMORY弥散记忆",
+    "publisher": "DIFFUSE MEMORY弥散记忆"
+  },
+  "config": {
+    "installdir": "LoveWMC Demo",
+    "launch": {
+      "0": {
+        "executable": "LoveWMC\\LoveWMC.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "LoveWMC\\LoveWMC.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4074911": {
+      "manifests": {
+        "public": {
+          "gid": "4314613197932198380",
+          "size": "2989056620",
+          "download": "480467200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20426732",
+        "timeupdated": "1760655762"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DIFFUSE_MEMORY\\LoveWMC",
+        "pattern": "*json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "appidredirect": "3792170"
   }
 }
