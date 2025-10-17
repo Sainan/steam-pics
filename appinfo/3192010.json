@@ -152,12 +152,11 @@
     "installdir": "Voxel Eras",
     "launch": {
       "0": {
-        "executable": "voxel_eras.exe",
+        "executable": "StartWindows.bat",
         "type": "default",
         "config": {
           "oslist": "windows",
-          "osarch": "64",
-          "betakey": "default"
+          "osarch": "64"
         },
         "description_loc": {
           "english": "Default Windows Launch"
@@ -197,19 +196,6 @@
           "english": "v1.1 Launch"
         },
         "description": "v1.1 Launch"
-      },
-      "4": {
-        "executable": "StartWindows.bat",
-        "type": "default",
-        "config": {
-          "oslist": "windows",
-          "osarch": "64",
-          "betakey": "experimental"
-        },
-        "description_loc": {
-          "english": "Experimental Windows Launch"
-        },
-        "description": "Experimental Windows Launch"
       }
     },
     "app_mappings": {
@@ -246,10 +232,15 @@
           "size": "39990147",
           "download": "23964240"
         },
+        "v1.3": {
+          "gid": "8803455117483822726",
+          "size": "85515000",
+          "download": "60079744"
+        },
         "experimental": {
-          "gid": "6941316150917951674",
-          "size": "52374249",
-          "download": "27885520"
+          "gid": "8803455117483822726",
+          "size": "85515000",
+          "download": "60079744"
         }
       }
     },
@@ -278,10 +269,15 @@
           "size": "47427050",
           "download": "26172224"
         },
+        "v1.3": {
+          "gid": "5405322624637069122",
+          "size": "94906484",
+          "download": "62784336"
+        },
         "experimental": {
-          "gid": "4486276048046679181",
-          "size": "61649026",
-          "download": "30779632"
+          "gid": "5405322624637069122",
+          "size": "94906484",
+          "download": "62784336"
         }
       }
     },
@@ -307,10 +303,15 @@
         "description": "Version v1.2.x",
         "timeupdated": "1754106434"
       },
+      "v1.3": {
+        "buildid": "20432050",
+        "description": "Version v1.3.x",
+        "timeupdated": "1760690185"
+      },
       "experimental": {
-        "buildid": "19994153",
+        "buildid": "20432050",
         "description": "Early preview builds",
-        "timeupdated": "1757996062"
+        "timeupdated": "1760690159"
       }
     },
     "privatebranches": "1"
