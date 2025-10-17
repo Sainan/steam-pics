@@ -313,28 +313,21 @@
         "root": "WinAppDataLocalLow",
         "path": "Weappy/Hollywood Animal/Saves",
         "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1"
-      },
-      "1": {
+      }
+    },
+    "rootoverrides": {
+      "0": {
         "root": "WinAppDataLocalLow",
-        "path": "Weappy/Holly/Saves",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1"
-      },
-      "2": {
-        "root": "MacAppSupport",
-        "path": "com.Weappy.Hollywood-Animal/Saves",
-        "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "recursive": "1"
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Weappy/Hollywood Animal/Saves",
+            "replace": "com.Weappy.Hollywood-Animal/Saves"
+          }
+        }
       }
     }
   }
