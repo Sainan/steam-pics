@@ -1,10 +1,9 @@
 {
   "appid": "3043580",
-  "public_only": "1",
   "common": {
     "name": "Keeper",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -217,9 +216,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760713324",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3043580",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4166",
@@ -239,6 +239,113 @@
       "15": "4182",
       "16": "4191",
       "17": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Double Fine Productions",
+    "publisher": "Xbox Game Studios",
+    "homepage": "https://www.doublefine.com/games/keeper"
+  },
+  "config": {
+    "installdir": "Keeper",
+    "launch": {
+      "0": {
+        "executable": "Keeper.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Keeper.exe",
+        "arguments": "-UnlockAllChapters",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "latest, trailer, compat_nvidia, compat_amd, compat_intel"
+        },
+        "description_loc": {
+          "english": "Keeper with all chapters unlocked"
+        },
+        "description": "Keeper with all chapters unlocked"
+      },
+      "2": {
+        "executable": "Keeper.exe",
+        "arguments": "-logPSO -clearPSODriverCache",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "latest"
+        },
+        "description_loc": {
+          "english": "Keeper with PSO logging enabled"
+        },
+        "description": "Keeper with PSO logging enabled"
+      },
+      "3": {
+        "executable": "Keeper.exe",
+        "arguments": "LVL_Minimal -gauntlet=Chart -log -unattended -gauntlet.heartbeatperiod=30 -paganidol.mode=ShuffleMaps -ExecCmds=\"t.FPSChart.DoCsvProfile 1\"",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "latest"
+        },
+        "description_loc": {
+          "english": "Keeper Automated Test"
+        },
+        "description": "Keeper Automated Test"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "8"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3043581": {
+      "manifests": {
+        "public": {
+          "gid": "5254024661753901371",
+          "size": "26113364033",
+          "download": "25683708992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20431786",
+        "timeupdated": "1760709594"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5242880",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Keeper/Saved/SaveGames",
+        "pattern": "KeeperSave*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Keeper/Saved/SaveGames",
+        "pattern": "KeeperUserData.sav"
+      }
     }
   }
 }
