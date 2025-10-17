@@ -1,6 +1,5 @@
 {
   "appid": "4002370",
-  "public_only": "1",
   "common": {
     "name": "Choice of Life: Samosbor Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "cca37e0a73e069e4feea2be6a5e64db1faf75106",
     "icon": "cca37e0a73e069e4feea2be6a5e64db1faf75106",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -116,10 +115,85 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760018367",
     "gameid": "4002370",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    },
+    "review_score": "6",
+    "review_percentage": "70"
+  },
+  "extended": {
+    "developer": "Blazing Planet Studio",
+    "publisher": "Blazing Planet Studio",
+    "homepage": "https://blazingplanetstudio.com/"
+  },
+  "config": {
+    "installdir": "Choice of Life Samosbor Demo",
+    "launch": {
+      "0": {
+        "executable": "Choice of Life - Samosbor.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Choice of Life - Samosbor.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Choice of Life - Samosbor.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4002371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8081966599311512806",
+          "size": "237463143",
+          "download": "105648656"
+        }
+      }
+    },
+    "4002372": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7670878027662849772",
+          "size": "224210408",
+          "download": "99623136"
+        }
+      }
+    },
+    "4002373": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5822445436956258781",
+          "size": "212862226",
+          "download": "97801600"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20321435",
+        "timeupdated": "1760018259"
+      }
     }
   }
 }
