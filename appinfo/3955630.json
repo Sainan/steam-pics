@@ -1,6 +1,5 @@
 {
   "appid": "3955630",
-  "public_only": "1",
   "common": {
     "name": "Mayor May Knott Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "eddbcaabbdd8e10afe29ebb54de55fc01ec66e25",
     "clienticon": "54fc0891576369c21ad210edd59d17eddcaf5168",
     "clienttga": "37385d755ca0f2753deb749735a81791cd4ee979",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -97,5 +96,76 @@
     },
     "gameid": "3955630",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ravenous Images",
+    "publisher": "Ravenous Images",
+    "homepage": "https://ravenousimages.com/may"
+  },
+  "config": {
+    "installdir": "Mayor May Knott Demo",
+    "launch": {
+      "0": {
+        "executable": "Mayor May Knott Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mayor May Knott Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3955631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3006998879672143850",
+          "size": "533796282",
+          "download": "203552944"
+        },
+        "beta": {
+          "gid": "743568133565959590",
+          "size": "554107522",
+          "download": "211487376"
+        }
+      }
+    },
+    "3955632": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4914843006672297598",
+          "size": "560430570",
+          "download": "213377296"
+        },
+        "beta": {
+          "gid": "565273522733424587",
+          "size": "580743730",
+          "download": "221336240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20309761",
+        "timeupdated": "1759956363"
+      },
+      "beta": {
+        "buildid": "20427256",
+        "description": "branch for public beta tests",
+        "timeupdated": "1760659265"
+      }
+    }
   }
 }
