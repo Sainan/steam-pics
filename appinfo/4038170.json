@@ -1,6 +1,5 @@
 {
   "appid": "4038170",
-  "public_only": "1",
   "common": {
     "name": "AI Snake",
     "type": "Game",
@@ -16,7 +15,7 @@
     "icon": "03c4b280f59ac40731cc9503fc4e9dc2e6efe359",
     "clienticon": "d52b3bd1a7e5e954c5f546f0496e68a76f7c437d",
     "clienticns": "ae156c9d01813f5113600a402fa3c555ee7ec65b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -131,9 +130,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4038170",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "1775",
@@ -155,6 +155,100 @@
       "17": "4400",
       "18": "4094",
       "19": "5154"
+    }
+  },
+  "extended": {
+    "developer": "AI Snake",
+    "publisher": "AI Snake",
+    "listofdlc": "4105820,4105830,4105840",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "AI Snake",
+    "launch": {
+      "0": {
+        "executable": "AI Snake.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AI Snake.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4038171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3257439024821693396",
+          "size": "2974055817",
+          "download": "2013011648"
+        }
+      }
+    },
+    "4038172": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1587926348060973626",
+          "size": "2986677488",
+          "download": "2020723488"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20435878",
+        "timeupdated": "1760706856"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "AI Snake/AI Snake",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "AI Snake/AI Snake",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
