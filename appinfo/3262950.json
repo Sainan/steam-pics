@@ -1,6 +1,5 @@
 {
   "appid": "3262950",
-  "public_only": "1",
   "common": {
     "name": "GunShop",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "d17dbde51ea4079b848437046a72984e9039b70c",
     "clienticns": "97ca6e1e2b58ab12d9dc0f84a3ab799944a3ce14",
     "icon": "44826b403798f86d2c8d8f814517a81210508382",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "portuguese": "1",
@@ -119,9 +118,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3262950",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "3978",
@@ -139,6 +138,56 @@
       "13": "3839",
       "14": "5923",
       "15": "4106"
+    }
+  },
+  "extended": {
+    "developer": "Two Shells",
+    "publisher": "Two Shells"
+  },
+  "config": {
+    "installdir": "GunShop",
+    "launch": {
+      "0": {
+        "executable": "GunShopV5.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3262951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7706628546656540643",
+          "size": "3855340327",
+          "download": "3568066432"
+        }
+      }
+    },
+    "baselanguages": "english,portuguese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20342614",
+        "timeupdated": "1760124277"
+      }
     }
   }
 }
