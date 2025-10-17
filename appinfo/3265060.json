@@ -1,6 +1,5 @@
 {
   "appid": "3265060",
-  "public_only": "1",
   "common": {
     "name": "东方异域见闻 ~ Touhou Dystopian",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -135,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760745254",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3265060",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -162,6 +162,55 @@
       "16": "4182",
       "17": "4085",
       "18": "180368"
+    }
+  },
+  "extended": {
+    "developer": "Kay Lnk",
+    "publisher": "Kay Lnk"
+  },
+  "config": {
+    "installdir": "Touhou Dystopian",
+    "launch": {
+      "0": {
+        "executable": "Touhou Dystopian.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3265061": {
+      "manifests": {
+        "public": {
+          "gid": "9191767081222538854",
+          "size": "9244905582",
+          "download": "3735027680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20437813",
+        "timeupdated": "1760715197"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/Touhou Dystopian",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
