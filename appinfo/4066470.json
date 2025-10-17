@@ -1,6 +1,5 @@
 {
   "appid": "4066470",
-  "public_only": "1",
   "common": {
     "name": "Just a Stay at the Inn (旅館に泊まっただけなのに)",
     "type": "Game",
@@ -13,7 +12,7 @@
     "osextended": "",
     "clienticon": "c5d688c9f124901fd4bfea8eb858965b56fde471",
     "icon": "c5d688c9f124901fd4bfea8eb858965b56fde471",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "japanese": "1"
@@ -117,9 +116,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760672930",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4066470",
-    "exfgls": "8",
     "store_tags": {
       "0": "5900",
       "1": "21",
@@ -130,6 +130,39 @@
       "6": "492",
       "7": "599",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "箱庭Prot",
+    "publisher": "箱庭Prot"
+  },
+  "config": {
+    "installdir": "Just a Stay at the Inn",
+    "launch": {
+      "0": {
+        "executable": "Just a Stay at the Inn\\Just a Stay at the Inn.exe"
+      }
+    }
+  },
+  "depots": {
+    "4066471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "621033077075919898",
+          "size": "1506848238",
+          "download": "589151472"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20258409",
+        "timeupdated": "1759652858"
+      }
     }
   }
 }
