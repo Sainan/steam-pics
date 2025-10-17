@@ -1,6 +1,5 @@
 {
   "appid": "4011870",
-  "public_only": "1",
   "common": {
     "name": "Shadow's Grove",
     "type": "Game",
@@ -17,7 +16,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -101,8 +100,7 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
-      "category_62": "1"
+      "category_28": "1"
     },
     "supported_languages": {
       "english": {
@@ -110,6 +108,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760742567",
     "community_hub_visible": "1",
     "gameid": "4011870",
     "exfgls": "3",
@@ -134,6 +133,51 @@
       "17": "4182",
       "18": "7702",
       "19": "4234"
+    }
+  },
+  "extended": {
+    "developer": "Fenris Games",
+    "publisher": "DigiPen Institute of Technology",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Shadow's Grove",
+    "launch": {
+      "0": {
+        "executable": "Shadow's Grove.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4011871": {
+      "manifests": {
+        "public": {
+          "gid": "5237914010679150139",
+          "size": "2019320693",
+          "download": "1689434464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20039713",
+        "timeupdated": "1758239944"
+      }
     }
   }
 }
