@@ -1,6 +1,5 @@
 {
   "appid": "1724490",
-  "public_only": "1",
   "common": {
     "name": "Bit ESC",
     "type": "Game",
@@ -12,7 +11,7 @@
     "icon": "25f9b351b31ae6e1f626b3fc3cad2e56d5c57a9f",
     "clienttga": "183ea6d67cb67d7476bcc54e10cf866b4af9bc09",
     "clienticon": "651c77faf5b5cc8742e30bece66353a644eb5760",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -138,9 +137,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760716824",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1724490",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "6426",
@@ -162,6 +162,82 @@
       "17": "5350",
       "18": "5432",
       "19": "4106"
+    }
+  },
+  "extended": {
+    "developer": "Essssam",
+    "publisher": "Essssam"
+  },
+  "config": {
+    "installdir": "Bit ESC",
+    "launch": {
+      "0": {
+        "executable": "BitESC.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1724491": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8414589591021762483",
+          "size": "180007466",
+          "download": "90830768"
+        }
+      }
+    },
+    "baselanguages": "english,french,spanish,schinese,japanese,arabic",
+    "branches": {
+      "public": {
+        "buildid": "20436973",
+        "timeupdated": "1760711595"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "4000000",
+    "maxnumfiles": "16",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Bit ESC/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Bit ESC/",
+            "replace": ".config/Bit ESC/"
+          }
+        }
+      }
     }
   }
 }
