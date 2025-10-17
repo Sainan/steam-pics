@@ -1,6 +1,5 @@
 {
   "appid": "4037520",
-  "public_only": "1",
   "common": {
     "name": "Pimpit",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "a0143ab795601810ea1daa96d0a26a59f88cb319",
     "icon": "a0143ab795601810ea1daa96d0a26a59f88cb319",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a2f9c57410e34c36e656e1227a2cdac124cc3532/capsule_231x87.jpg"
@@ -118,8 +117,7 @@
       "category_76": "1",
       "category_77": "1",
       "category_78": "1",
-      "category_79": "1",
-      "category_62": "1"
+      "category_79": "1"
     },
     "supported_languages": {
       "english": {
@@ -151,6 +149,55 @@
       "12": "7332",
       "13": "4182",
       "14": "4747"
+    }
+  },
+  "extended": {
+    "developer": "Ashot Movsisyan",
+    "publisher": "Pimpit",
+    "homepage": "https://pimpit.io/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Pimpit",
+    "launch": {
+      "0": {
+        "executable": "VehicleConfigurator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4037521": {
+      "manifests": {
+        "public": {
+          "gid": "8562531767881244973",
+          "size": "471159945",
+          "download": "345356880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20125102",
+        "timeupdated": "1758801616"
+      }
     }
   }
 }
