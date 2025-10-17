@@ -1,6 +1,5 @@
 {
   "appid": "3801380",
-  "public_only": "1",
   "common": {
     "name": "Dragon Ace Casino",
     "type": "Game",
@@ -32,7 +31,7 @@
         "version": "8"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -168,6 +167,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3801380",
     "exfgls": "3",
@@ -189,6 +189,62 @@
       "11": "1775",
       "12": "4182",
       "13": "3859"
+    }
+  },
+  "extended": {
+    "developer": "GameSpring Inc.",
+    "publisher": "GameSpring Inc.",
+    "homepage": "https://dragonacegames.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Dragon Ace Casino",
+    "launch": {
+      "5": {
+        "executable": "Dragon Ace.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "6": {
+        "executable": "Dragon Ace.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3801381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6889988270879500631",
+          "size": "214151233",
+          "download": "117842416"
+        }
+      }
+    },
+    "3801382": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6554275138509491708",
+          "size": "478411939",
+          "download": "159974816"
+        }
+      }
+    },
+    "baselanguages": "english,german,koreana,spanish,schinese,tchinese,russian,thai,japanese,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20428311",
+        "timeupdated": "1760666018"
+      }
     }
   }
 }
