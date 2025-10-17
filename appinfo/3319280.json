@@ -86,8 +86,18 @@
     "installdir": "Periodicity - Hats and scars Playtest",
     "launch": {
       "0": {
+        "executable": "Periodicity.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
         "executable": "Periodicity.app",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
