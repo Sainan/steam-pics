@@ -1,6 +1,5 @@
 {
   "appid": "3864530",
-  "public_only": "1",
   "common": {
     "name": "炽澜号",
     "type": "Game",
@@ -13,7 +12,7 @@
     "clienticon": "9308798e65a81d7feaaeb7ac9ffce2bc6d0a9a42",
     "clienttga": "9b13affd1c811aecd46c1390ae17eb29ea958696",
     "icon": "e2db518e0f7881971a49a65bdb5940e7da544e50",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -149,9 +148,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3864530",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -178,6 +177,67 @@
       "17": "5379",
       "18": "7208",
       "19": "11014"
+    }
+  },
+  "extended": {
+    "developer": "北京万合瑞晟文化传媒有限公司",
+    "publisher": "北京万合瑞晟文化传媒有限公司",
+    "listofdlc": "4051390",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "FLAM EVAW",
+    "launch": {
+      "0": {
+        "executable": "FLAM EVAW.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3864531": {
+      "manifests": {
+        "public": {
+          "gid": "8306032429671743840",
+          "size": "36253987662",
+          "download": "36063964544"
+        }
+      }
+    },
+    "4051390": {
+      "dlcappid": "4051390",
+      "manifests": {
+        "public": {
+          "gid": "8384543677550521010",
+          "size": "28095047496",
+          "download": "28056964384"
+        }
+      },
+      "config": {
+        "optionaldlc": "4051390"
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20430851",
+        "timeupdated": "1760684273"
+      }
+    },
+    "appmanagesdlc": "1"
+  },
+  "ufs": {
+    "quota": "1024000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.bytes"
+      }
     }
   }
 }
