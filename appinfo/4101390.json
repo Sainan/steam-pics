@@ -1,6 +1,5 @@
 {
   "appid": "4101390",
-  "public_only": "1",
   "common": {
     "name": "Breaking Enigma Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienticon": "668653d6a3a6f3510d214a0f1c67ee7269bb3bd9",
     "icon": "668653d6a3a6f3510d214a0f1c67ee7269bb3bd9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -103,5 +102,101 @@
     },
     "gameid": "4101390",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Alphanu Game Studios",
+    "publisher": "Alphanu Game Studios",
+    "homepage": "https://alphanugamestudios.co.uk/"
+  },
+  "config": {
+    "installdir": "Breaking Enigma Demo",
+    "launch": {
+      "0": {
+        "executable": "BE_demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "Breaking Enigma.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "BE_demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4101391": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2806071194063521739",
+          "size": "211787092",
+          "download": "78218848"
+        },
+        "beta": {
+          "gid": "2806071194063521739",
+          "size": "211787092",
+          "download": "78218848"
+        }
+      }
+    },
+    "4101392": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6637109745220476792",
+          "size": "218582173",
+          "download": "81725168"
+        },
+        "beta": {
+          "gid": "6637109745220476792",
+          "size": "218582173",
+          "download": "81725168"
+        }
+      }
+    },
+    "4101393": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4556530351732171963",
+          "size": "233321646",
+          "download": "88847248"
+        },
+        "beta": {
+          "gid": "4556530351732171963",
+          "size": "233321646",
+          "download": "88847248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20443032",
+        "timeupdated": "1760743633"
+      },
+      "beta": {
+        "buildid": "20443032",
+        "description": "beta",
+        "timeupdated": "1760743616"
+      }
+    }
   }
 }
