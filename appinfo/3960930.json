@@ -1,10 +1,9 @@
 {
   "appid": "3960930",
-  "public_only": "1",
   "common": {
     "name": "Umbral Crown: Mark",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "770665d65d19cfd691188b36a2f8d79b08ee5526",
     "icon": "770665d65d19cfd691188b36a2f8d79b08ee5526",
     "clienticns": "770665d65d19cfd691188b36a2f8d79b08ee5526",
@@ -114,6 +113,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760716775",
     "community_hub_visible": "1",
     "gameid": "3960930",
     "exfgls": "3",
@@ -142,5 +142,71 @@
       "18": "4726",
       "19": "5716"
     }
+  },
+  "extended": {
+    "developer": "WatermelonOwl",
+    "publisher": "WatermelonOwl",
+    "isfreeapp": "1",
+    "listofdlc": "4003630",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Umbral Crown Mark",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3960931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6843061294644575163",
+          "size": "382890815",
+          "download": "214672576"
+        }
+      }
+    },
+    "3960932": {
+      "dlcappid": "4003630",
+      "manifests": {
+        "public": {
+          "gid": "177989488354699517",
+          "size": "483044586",
+          "download": "460601120"
+        }
+      },
+      "config": {
+        "optionaldlc": "4003630"
+      }
+    },
+    "3960933": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3942147603579744324",
+          "size": "222621951",
+          "download": "219033120"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20429532",
+        "timeupdated": "1760674884"
+      }
+    },
+    "appmanagesdlc": "1"
   }
 }
