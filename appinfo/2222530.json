@@ -1,0 +1,241 @@
+{
+  "appid": "2222530",
+  "common": {
+    "name": "The Motorcycle",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "icon": "3c4485b371ccbeba8915d2a81eacced2545dbb1b",
+    "clienttga": "794a007827077083af27f2e0db89587d62aeb093",
+    "clienticon": "7c536a732f7a0b8c218d3467956ac75ec160c64f",
+    "clienticns": "d9ee95a409dd5b31183aaf8af295d3d7028fed91",
+    "linuxclienticon": "7c6ebf3203411f08e57d6c293d7cc036935475d9",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "55.99774154043064",
+        "height_pct": "50.696296296296254"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "55.99774154043064",
+          "height_pct": "50.696296296296254"
+        },
+        "image": {
+          "english": "logo.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1704829929",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Tobacom"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Tobacom"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "25",
+      "1": "4",
+      "2": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_18": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1685295101",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2222530",
+    "store_tags": {
+      "0": "597",
+      "1": "4191",
+      "2": "3839",
+      "3": "1667",
+      "4": "7481",
+      "5": "1687",
+      "6": "21",
+      "7": "4342",
+      "8": "4182",
+      "9": "3859",
+      "10": "492",
+      "11": "1775"
+    }
+  },
+  "extended": {
+    "developer": "Tobacom",
+    "publisher": "Tobacom"
+  },
+  "config": {
+    "installdir": "TheMotorcycle",
+    "launch": {
+      "0": {
+        "executable": "TheMotorcycle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Game for Windows"
+        },
+        "description": "Game for Windows"
+      },
+      "1": {
+        "executable": "mac.app/Contents/MacOS/TheMotorcycle",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Game for MacOS"
+        },
+        "description": "Game for MacOS"
+      },
+      "2": {
+        "executable": "TheMotorcycle.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Game for Linux"
+        },
+        "description": "Game for Linux"
+      }
+    }
+  },
+  "depots": {
+    "2222531": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3458241360364026176",
+          "size": "635342368",
+          "download": "270159616"
+        }
+      }
+    },
+    "2222532": {
+      "config": {
+        "language": "english",
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3718590670014418077",
+          "size": "675738932",
+          "download": "281241696"
+        }
+      }
+    },
+    "2222533": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7675577576324291296",
+          "size": "670247985",
+          "download": "282977440"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20434867",
+        "timeupdated": "1760702699"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tobacom/TheMotorcycle",
+        "pattern": "*.txt",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Tobacom/TheMotorcycle",
+            "replace": "Tobacom/TheMotorcycle"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Tobacom/TheMotorcycle",
+            "replace": "unity3d"
+          }
+        }
+      }
+    }
+  }
+}
