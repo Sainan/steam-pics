@@ -1,0 +1,311 @@
+{
+  "appid": "441960",
+  "common": {
+    "name": "American Truck Simulator Demo",
+    "type": "Demo",
+    "parent": "270880",
+    "oslist": "windows,macos,linux",
+    "logo": "12da7f0647d3d583ad119a1acb38a6752c66f74b",
+    "logo_small": "12da7f0647d3d583ad119a1acb38a6752c66f74b_thumb",
+    "icon": "2aec8af4b4b23cb6054d9aea06194621cdd66945",
+    "clienttga": "92f14a9894ddccf5bc5b0986dd0af85ae6ac39f7",
+    "clienticon": "bb3d5e390828e6acd0424566d77446b592d066b1",
+    "clienticns": "655dbadccf696a362947c1aaa30a66623164c39c",
+    "linuxclienticon": "0c20bcc840773d2babab9d2d42ba7812de220ba0",
+    "releasestate": "released",
+    "osarch": "64",
+    "osextended": "macos64,macosnotarized",
+    "metacritic_name": "American Truck Simulator Demo",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "21.80306905370844",
+        "height_pct": "56.25"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "21.80306905370844",
+          "height_pct": "56.25"
+        }
+      }
+    },
+    "store_asset_mtime": "1750169039",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "SCS Software"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "SCS Software"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "23",
+      "1": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_18": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "bulgarian": {
+        "supported": "true"
+      },
+      "czech": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "finnish": {
+        "supported": "true"
+      },
+      "greek": {
+        "supported": "true"
+      },
+      "hungarian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "romanian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "swedish": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1455037045",
+    "gameid": "441960",
+    "exfgls": "6",
+    "review_score": "8",
+    "review_percentage": "93"
+  },
+  "extended": {
+    "demoofappid": "270880",
+    "developer": "SCS Software",
+    "publisher": "SCS Software",
+    "homepage": "http://americantrucksimulator.com/"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "American Truck Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "bin/win_x64/amtrucks.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "bin/win_x64/amtrucks.exe",
+        "arguments": "-rdevice dx11",
+        "description": "Launch with DirectX",
+        "type": "none",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "bin/win_x64/amtrucks.exe",
+        "arguments": "-rdevice gl",
+        "description": "Launch with OpenGL",
+        "type": "none",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "3": {
+        "executable": "bin/win_x64/amtrucks.exe",
+        "arguments": "-safe",
+        "description": "Launch in Safe Mode",
+        "type": "none",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "4": {
+        "executable": "bin/linux_x64/amtrucks",
+        "workingdir": "bin/linux_x64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "5": {
+        "executable": "bin/linux_x64/amtrucks",
+        "arguments": "-safe",
+        "workingdir": "bin/linux_x64",
+        "description": "Launch in Safe Mode",
+        "type": "none",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "6": {
+        "executable": "American Truck Simulator.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "1940359159": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,testing",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "441961": {
+      "manifests": {
+        "public": {
+          "gid": "8374056801895827515",
+          "size": "7902786931",
+          "download": "7789972352"
+        }
+      }
+    },
+    "441962": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3530935898131991007",
+          "size": "35264360",
+          "download": "11618768"
+        }
+      }
+    },
+    "441963": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2833646196435094635",
+          "size": "41652141",
+          "download": "11806848"
+        }
+      }
+    },
+    "441964": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5656588754961397010",
+          "size": "35296442",
+          "download": "11498336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "8765577",
+        "timeupdated": "1653302766"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "270880"
+  }
+}
