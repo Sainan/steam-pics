@@ -1,11 +1,10 @@
 {
   "appid": "3985360",
-  "public_only": "1",
   "common": {
     "name": "Lost In The Backrooms: Day 100 Demo",
     "type": "Demo",
     "parent": "3964500",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "50af68420c32420fcdd1b37545bedd325f2d13e3",
     "clienticon": "50af68420c32420fcdd1b37545bedd325f2d13e3",
     "oslist": "windows",
@@ -42,7 +41,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3985360",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Rough Devs",
+    "publisher": "Rough Devs"
+  },
+  "config": {
+    "installdir": "Lost In The Backrooms Day 100 Demo",
+    "launch": {
+      "0": {
+        "executable": "backrooms.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3985361": {
+      "manifests": {
+        "public": {
+          "gid": "6865359859905040496",
+          "size": "1667919545",
+          "download": "1374034832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20156123",
+        "timeupdated": "1758993129"
+      }
+    }
   }
 }
