@@ -1,0 +1,160 @@
+{
+  "appid": "3791810",
+  "common": {
+    "name": "Nonogram Desserts Demo",
+    "type": "Demo",
+    "parent": "3791540",
+    "icon": "1a0dea29b0d7ffcfc68baee311c6383afa173eac",
+    "clienticon": "231a2f916de9364ca303b71a49f9fc2db752e39c",
+    "clienttga": "7dcbf2a391fcaf46fa9f675d21c2c6b96e9ae08e",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "ef3501437f3cb5ab3c4e52d6b87d40bb508f7d82/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "0998d1f8ed6f6d8090b8d165944956087ddfe313/header.jpg"
+    },
+    "store_asset_mtime": "1749448744",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Supernova Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Supernova Games"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Nonogram Series"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_79": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "french": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "german": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "portuguese": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "turkish": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1749449002",
+    "gameid": "3791810",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Supernova Games",
+    "publisher": "Supernova Games"
+  },
+  "config": {
+    "installdir": "Nonogram Desserts Demo",
+    "launch": {
+      "0": {
+        "executable": "Nonogram Desserts.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3791811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3126760774751413861",
+          "size": "85332889",
+          "download": "34071040"
+        }
+      }
+    },
+    "3791812": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1042479187002114329",
+          "size": "88909188",
+          "download": "35644688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18790488",
+        "timeupdated": "1749448977"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save Files",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": "Game.app/"
+      }
+    }
+  }
+}
