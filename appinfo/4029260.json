@@ -1,13 +1,15 @@
 {
   "appid": "4029260",
-  "public_only": "1",
   "common": {
     "name": "Yapori Dimensões Demo",
     "type": "Demo",
     "parent": "4020720",
     "clienticon": "c075506bfa49f031a4f39e42523b6a8cd13bf6bc",
     "icon": "c075506bfa49f031a4f39e42523b6a8cd13bf6bc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
     "small_capsule": {
       "english": "e20dfdba270117300770a917f66722a479f3af0f/capsule_231x87.jpg"
     },
@@ -70,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758647580",
+    "store_asset_mtime": "1759858290",
     "associations": {
       "0": {
         "type": "developer",
@@ -86,7 +88,9 @@
       }
     },
     "primary_genre": "0",
-    "category": {},
+    "category": {
+      "category_2": "1"
+    },
     "supported_languages": {
       "english": {
         "supported": "true"
@@ -100,5 +104,45 @@
     },
     "gameid": "4029260",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hayllon",
+    "publisher": "Hayllon Studios"
+  },
+  "config": {
+    "installdir": "Yapor Dimensoes Demo.exe",
+    "launch": {
+      "0": {
+        "executable": "Yapori Dimensoes Demo.exe",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "."
+        },
+        "description": "."
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4029261": {
+      "manifests": {
+        "public": {
+          "gid": "7294912786849199945",
+          "size": "370200939",
+          "download": "168399808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19948677",
+        "timeupdated": "1757628521"
+      }
+    }
   }
 }
