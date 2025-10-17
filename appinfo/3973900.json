@@ -1,12 +1,11 @@
 {
   "appid": "3973900",
-  "public_only": "1",
   "common": {
     "name": "What Was Home",
     "type": "Game",
     "clienticon": "da3bb52e082e25fb8ecca4541adbf01777d2871f",
     "icon": "da3bb52e082e25fb8ecca4541adbf01777d2871f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -108,9 +107,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760723367",
     "community_hub_visible": "1",
     "gameid": "3973900",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -135,6 +134,57 @@
       "17": "4182",
       "18": "5716",
       "19": "4234"
+    }
+  },
+  "extended": {
+    "developer": "Fogfjell",
+    "publisher": "Fogfjell"
+  },
+  "config": {
+    "installdir": "What Was Home",
+    "launch": {
+      "0": {
+        "executable": "What Was Home.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3973901": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5343445021500927279",
+          "size": "5610268280",
+          "download": "5153207184"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20406998",
+        "timeupdated": "1760551673"
+      }
     }
   }
 }
