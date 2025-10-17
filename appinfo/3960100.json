@@ -1,11 +1,10 @@
 {
   "appid": "3960100",
-  "public_only": "1",
   "common": {
     "name": "There Is mORE Demo",
     "type": "Demo",
     "parent": "3931000",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -105,7 +104,79 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1758103200",
     "gameid": "3960100",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": " ByteBeyond",
+    "publisher": " ByteBeyond",
+    "homepage": "https://bytebeyond.net"
+  },
+  "config": {
+    "installdir": "There Is mORE Demo",
+    "launch": {
+      "0": {
+        "executable": "thereismore_demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "thereismore_demo.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3960101": {
+      "manifests": {
+        "public": {
+          "gid": "5060769997985738713",
+          "size": "735083547",
+          "download": "297975280"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20422355",
+        "timeupdated": "1760633558"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "ThereIsMore",
+        "pattern": "save_demo.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "ThereIsMore",
+            "replace": ".local/share/ThereIsMore"
+          }
+        }
+      }
+    }
   }
 }
