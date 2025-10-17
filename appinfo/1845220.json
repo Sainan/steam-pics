@@ -1,6 +1,5 @@
 {
   "appid": "1845220",
-  "public_only": "1",
   "common": {
     "name": "Creator's Asteroid Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "DE",
     "small_capsule": {
       "english": "712e37f94bb77462f16b85306b8363e5521af5fc/capsule_231x87.jpg"
@@ -77,7 +76,43 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1641002400",
     "gameid": "1845220",
     "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1818580",
+    "developer": "decigraham",
+    "publisher": "decigraham"
+  },
+  "config": {
+    "installdir": "CreatorsAsteroid_Demo",
+    "launch": {
+      "0": {
+        "executable": "Creators_Asteroid.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1845221": {
+      "manifests": {
+        "public": {
+          "gid": "6175807608800481438",
+          "size": "391436072",
+          "download": "95996704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20439826",
+        "timeupdated": "1760724494"
+      }
+    },
+    "privatebranches": "1"
   }
 }
