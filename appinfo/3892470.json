@@ -1,6 +1,5 @@
 {
   "appid": "3892470",
-  "public_only": "1",
   "common": {
     "name": "Yindy",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -152,9 +151,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760712286",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3892470",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "6869",
@@ -176,6 +176,81 @@
       "17": "4252",
       "18": "4004",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Tidley 羊",
+    "publisher": "Lobo Seta Games",
+    "listofdlc": "3996380",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Yindy",
+    "launch": {
+      "0": {
+        "executable": "Yindy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3892479": {
+      "manifests": {
+        "public": {
+          "gid": "6727999052139059338",
+          "size": "1239931137",
+          "download": "958619408"
+        }
+      }
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20433227",
+        "timeupdated": "1760695502"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "%USERPROFILE%/AppData/Local/Yindy/Saved/SaveGames/",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "$LOCALAPPDATA\\Yindy\\Saved\\SaveGames",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "\\Yindy\\Saved\\SaveGames",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
