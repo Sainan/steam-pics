@@ -1,6 +1,5 @@
 {
   "appid": "4039720",
-  "public_only": "1",
   "common": {
     "name": "DFP - Disappear from Polizia Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -51,7 +50,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4039720",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "IOX S.r.l.",
+    "publisher": "IOX S.r.l."
+  },
+  "config": {
+    "installdir": "DFP - Disappear from Polizia Demo",
+    "launch": {
+      "0": {
+        "executable": "AVATAR_02.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4039721": {
+      "manifests": {
+        "public": {
+          "gid": "1017093325893292746",
+          "size": "1953733359",
+          "download": "1798965856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20437027",
+        "timeupdated": "1760712576"
+      }
+    }
   }
 }
