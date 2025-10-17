@@ -1,6 +1,5 @@
 {
   "appid": "4005130",
-  "public_only": "1",
   "common": {
     "name": "Junkman101",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2f3df181f6984c23a1203b729ed30db84bb175db/capsule_231x87.jpg"
@@ -121,6 +120,58 @@
       "10": "1662",
       "11": "5125",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "MaryIsHere",
+    "publisher": "MaryIsHere",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Junkman101",
+    "launch": {
+      "0": {
+        "executable": "Junkman101_Win/Junkman101.exe"
+      },
+      "1": {
+        "executable": "Junkman101_Mac.app/Contents/MacOS/Junkman101"
+      }
+    }
+  },
+  "depots": {
+    "4005131": {
+      "config": {
+        "language": "schinese",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1682205316409778952",
+          "size": "145393411",
+          "download": "57876224"
+        }
+      }
+    },
+    "4005132": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8478428863302969319",
+          "size": "121790426",
+          "download": "48940368"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "19842887",
+        "timeupdated": "1756915437"
+      }
     }
   }
 }
