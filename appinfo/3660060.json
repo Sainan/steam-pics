@@ -7,7 +7,7 @@
     "clienticon": "ac5b29ee08092d33489e91495a6e09698538c7b1",
     "clienttga": "09801f87da12572c4b0c29f650a912f06ef58600",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "languages": {
@@ -195,17 +195,31 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Mac.app\\Contents\\MacOS\\Cal _ Bomba",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "3660061": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "6076749700287810756",
           "size": "896797624",
           "download": "611699120"
         }
+      }
+    },
+    "3660062": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
