@@ -1,6 +1,5 @@
 {
   "appid": "2919450",
-  "public_only": "1",
   "common": {
     "name": "Luminastadt",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "83dccf4f82b4b10379bca9ede40c5b91fcb7b706",
     "clienticon": "cd369c1784d864bb28414bd7e9a92ad7fcb9df33",
     "clienttga": "b3620c713600fc0817571213dd5e2969477518a3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "841380d220c8c2142f1155fb7431d16b972268c5/capsule_231x87.jpg"
@@ -109,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760708079",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2919450",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "3810",
@@ -124,6 +124,54 @@
       "8": "4166",
       "9": "3839",
       "10": "7332"
+    }
+  },
+  "extended": {
+    "developer": "Markus Korda",
+    "publisher": "Markus Korda"
+  },
+  "config": {
+    "installdir": "Luminastadt",
+    "launch": {
+      "0": {
+        "executable": "Luminastadt/Luminastadt.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2919451": {
+      "manifests": {
+        "public": {
+          "gid": "8030883136437636542",
+          "size": "213678242",
+          "download": "76867504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20386204",
+        "timeupdated": "1760448384"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/Luminastadt/SavedGame/{64BitSteamID}",
+        "pattern": "*.png"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/Luminastadt/SavedGame/{64BitSteamID}",
+        "pattern": "*.bytes"
+      }
     }
   }
 }
