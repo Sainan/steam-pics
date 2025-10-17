@@ -1,6 +1,5 @@
 {
   "appid": "4072460",
-  "public_only": "1",
   "common": {
     "name": "Crownguard",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a10dc63c4c1f1b705f9bf43dbd2254a066f7661c/capsule_231x87.jpg"
@@ -105,9 +104,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4072460",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "3871",
@@ -127,6 +126,40 @@
       "15": "7250",
       "16": "6730",
       "17": "4234"
+    }
+  },
+  "extended": {
+    "developer": "DreamlessHero",
+    "publisher": "DreamlessHero"
+  },
+  "config": {
+    "installdir": "Crownguard",
+    "launch": {
+      "0": {
+        "executable": "CrownGuard.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4072461": {
+      "manifests": {
+        "public": {
+          "gid": "6158553295210053722",
+          "size": "149638050",
+          "download": "49742416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20175509",
+        "timeupdated": "1759161234"
+      }
     }
   }
 }
