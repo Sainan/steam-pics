@@ -1,10 +1,9 @@
 {
   "appid": "3956890",
-  "public_only": "1",
   "common": {
     "name": "Lady Umbrella",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "efe2a5cd529b80775f66d98d0b4feaec275946ed",
     "clienticon": "f8837a56c0dde74ec3ad8af1bd919cfb2373601d",
     "oslist": "windows,linux",
@@ -137,6 +136,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760727564",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3956890",
     "exfgls": "3",
@@ -158,6 +159,91 @@
       "14": "4191",
       "15": "113",
       "16": "492"
+    }
+  },
+  "extended": {
+    "developer": "Zulo Interactive",
+    "publisher": "Zulo Interactive",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "LadyUmbrella",
+    "launch": {
+      "0": {
+        "executable": "LadyUmbrella\\LadyUmbrella.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "LadyUmbrella\\LadyUmbrella.exe",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3956891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7640803072707513027",
+          "size": "2230736184",
+          "download": "1616310368"
+        }
+      }
+    },
+    "3956895": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "gid": "8953492639107345964",
+          "size": "2171784148",
+          "download": "1575454912"
+        }
+      }
+    },
+    "3956896": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "3956897": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20440345",
+        "timeupdated": "1760726890"
+      },
+      "beta": {
+        "buildid": "20241055",
+        "description": "Private beta branch",
+        "timeupdated": "1759503606"
+      }
     }
   }
 }
