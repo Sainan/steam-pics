@@ -1,10 +1,9 @@
 {
   "appid": "1430930",
-  "public_only": "1",
   "common": {
     "name": "Thief's Shelter",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "5e9d066e0bbd1d6c146218058cfc5857c264b81d",
     "logo_small": "5e9d066e0bbd1d6c146218058cfc5857c264b81d_thumb",
     "clienticon": "1eacf12ee8f7210b5df291ba50a641ee105dc32a",
@@ -152,9 +151,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760720238",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1430930",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -179,6 +179,92 @@
       "17": "4191",
       "18": "19",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Geo Games",
+    "publisher": " Restless Corp.",
+    "homepage": "https://restlesscorp.com/pages/thiefs-shelter"
+  },
+  "config": {
+    "installdir": "THIEF'S SHELTER",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "Thief's Shelter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1430931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7466467064810725585",
+          "size": "8308093441",
+          "download": "6901408416"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,russian,portuguese,greek,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20399140",
+        "timeupdated": "1760538745"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Geo Games\\Thief's Shelter (Release)\\BottomProfile",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Geo Games\\Thief's Shelter (Release)\\GameSettings",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Geo Games\\Thief's Shelter (Release)\\MiddleProfile",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "Geo Games\\Thief's Shelter (Release)\\TopProfile",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "4": {
+        "root": "WinAppDataLocalLow",
+        "path": "Geo Games\\Thief's Shelter (Release)\\Achievements",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
