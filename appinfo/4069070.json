@@ -85,7 +85,8 @@
       "category_2": "1",
       "category_68": "1",
       "category_69": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_23": "1"
     },
     "supported_languages": {
       "english": {
@@ -167,9 +168,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7721723638462755117",
-          "size": "459558837",
-          "download": "322330624"
+          "gid": "7627415626424241919",
+          "size": "459887466",
+          "download": "322551808"
         }
       }
     },
@@ -188,8 +189,35 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese",
     "branches": {
       "public": {
-        "buildid": "20284024",
-        "timeupdated": "1759830619"
+        "buildid": "20438023",
+        "timeupdated": "1760715985"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Foxy KK Squeaky ZZ/Another Day of My Life Demo",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Foxy KK Squeaky ZZ/Another Day of My Life Demo",
+            "replace": "Foxy KK Squeaky ZZ/Another Day of My Life Demo"
+          }
+        }
       }
     }
   }
