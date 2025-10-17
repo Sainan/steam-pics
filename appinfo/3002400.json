@@ -1,6 +1,5 @@
 {
   "appid": "3002400",
-  "public_only": "1",
   "common": {
     "name": "Black Annis",
     "type": "Game",
@@ -23,7 +22,7 @@
       "koreana": "블랙 안나",
       "japanese": "ブラック・アンナ"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -125,9 +124,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760727361",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3002400",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -154,6 +154,54 @@
       "17": "21",
       "18": "10808",
       "19": "5186"
+    }
+  },
+  "extended": {
+    "developer": "Man the Barricades Ltd",
+    "publisher": "Man the Barricades Ltd",
+    "homepage": "https://manthebarricades.co.uk"
+  },
+  "config": {
+    "installdir": "Black Annis",
+    "launch": {
+      "0": {
+        "executable": "BlackAnnis.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3002401": {
+      "manifests": {
+        "public": {
+          "gid": "8989328456076061722",
+          "size": "6594251030",
+          "download": "6207527296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20440335",
+        "timeupdated": "1760727037"
+      }
     }
   }
 }
