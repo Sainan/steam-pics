@@ -1,6 +1,5 @@
 {
   "appid": "3858510",
-  "public_only": "1",
   "common": {
     "name": "Mutual Harrow",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticns": "fe2b9fcac63a1479faf8b6c491f7b65f4c122fd8",
     "icon": "24d416c578ccc6896c327d3bec9b550675a57dc0",
     "linuxclienticon": "24d416c578ccc6896c327d3bec9b550675a57dc0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -178,9 +177,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760710183",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3858510",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -205,6 +205,77 @@
       "17": "4166",
       "18": "5984",
       "19": "4342"
+    }
+  },
+  "extended": {
+    "developer": "VAINSANE",
+    "publisher": "VAINSANE"
+  },
+  "config": {
+    "installdir": "Mutual Harrow",
+    "launch": {
+      "0": {
+        "executable": "MutualHarrow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "MutualHarrow.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "MutualHarrow.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3858511": {
+      "manifests": {
+        "public": {
+          "gid": "7518449855255640202",
+          "size": "1806740754",
+          "download": "1546684480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20436062",
+        "timeupdated": "1760707591"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*"
+      }
     }
   }
 }
