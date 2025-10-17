@@ -1,6 +1,5 @@
 {
   "appid": "4068410",
-  "public_only": "1",
   "common": {
     "name": "Spirit Guide",
     "type": "Application",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6e3d651e829ed1e59fb1feea4fcfc9fc8a9cb530/capsule_231x87.jpg"
@@ -119,6 +118,62 @@
       "5": "4191",
       "6": "6426",
       "7": "15277"
+    }
+  },
+  "extended": {
+    "developer": "Kevin Wacknov",
+    "publisher": "Mind Body Aware Games LLC",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Spirit Guide",
+    "launch": {
+      "0": {
+        "executable": "Spirit Guide.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Spirit Guide.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068411": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "583499573446776563",
+          "size": "267310218",
+          "download": "141137184"
+        }
+      }
+    },
+    "4068412": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8884364706377024203",
+          "size": "282764298",
+          "download": "149123920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20157346",
+        "timeupdated": "1759005610"
+      }
     }
   }
 }
