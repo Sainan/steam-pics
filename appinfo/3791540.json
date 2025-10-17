@@ -1,6 +1,5 @@
 {
   "appid": "3791540",
-  "public_only": "1",
   "common": {
     "name": "Nonogram Desserts",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "1a0dea29b0d7ffcfc68baee311c6383afa173eac",
     "clienticon": "231a2f916de9364ca303b71a49f9fc2db752e39c",
     "clienttga": "7dcbf2a391fcaf46fa9f675d21c2c6b96e9ae08e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ef3501437f3cb5ab3c4e52d6b87d40bb508f7d82/capsule_231x87.jpg"
@@ -135,9 +134,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3791540",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -149,6 +149,80 @@
       "7": "492",
       "8": "97376",
       "9": "552282"
+    }
+  },
+  "extended": {
+    "developer": "Supernova Games",
+    "publisher": "Supernova Games",
+    "homepage": "http://supernova.games/"
+  },
+  "config": {
+    "installdir": "Nonogram Sweets",
+    "launch": {
+      "0": {
+        "executable": "Nonogram Desserts.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3791541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8678762485196657122",
+          "size": "77668231",
+          "download": "26487856"
+        }
+      }
+    },
+    "3791542": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5214568371886182768",
+          "size": "80534779",
+          "download": "27575872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20430858",
+        "timeupdated": "1760684372"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save Files",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": "Game.app/"
+      }
     }
   }
 }
