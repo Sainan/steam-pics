@@ -1,6 +1,5 @@
 {
   "appid": "4039420",
-  "public_only": "1",
   "common": {
     "name": "Galaxy Card Game",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "f7d9dbd4b1f92f16868ac8c71d388c5e65a15bce",
     "icon": "f7d9dbd4b1f92f16868ac8c71d388c5e65a15bce",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -124,6 +123,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760688738",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4039420",
     "exfgls": "3",
@@ -137,6 +138,75 @@
       "6": "113",
       "7": "492",
       "8": "493"
+    }
+  },
+  "extended": {
+    "developer": "FOGMOE",
+    "publisher": "FOGMOE",
+    "homepage": "https://gcg.fog.moe/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "GalaxyCardGame",
+    "launch": {
+      "0": {
+        "executable": "GCG.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4039421": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2816510245207731682",
+          "size": "223322831",
+          "download": "169678864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20429394",
+        "timeupdated": "1760673747"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "deck",
+        "pattern": "*.ydk",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
