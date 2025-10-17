@@ -1,6 +1,5 @@
 {
   "appid": "4060630",
-  "public_only": "1",
   "common": {
     "name": "Soul Nine",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -105,9 +104,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760700949",
     "community_hub_visible": "1",
     "gameid": "4060630",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "6426",
@@ -122,6 +121,61 @@
       "10": "4191",
       "11": "3839",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "LuminaryFS",
+    "publisher": "LuminaryFS"
+  },
+  "config": {
+    "installdir": "Soul Nine",
+    "launch": {
+      "0": {
+        "executable": "Soul Nine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Soul Nine.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4060631": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3949234667280853892",
+          "size": "4523471872",
+          "download": "2077206048"
+        }
+      }
+    },
+    "4060632": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "218979278582534843",
+          "size": "4406671224",
+          "download": "2002744256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20434447",
+        "timeupdated": "1760700867"
+      }
     }
   }
 }
