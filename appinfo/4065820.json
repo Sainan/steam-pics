@@ -1,6 +1,5 @@
 {
   "appid": "4065820",
-  "public_only": "1",
   "common": {
     "name": "Iceburg Demo",
     "type": "Demo",
@@ -10,7 +9,10 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "5"
+    },
     "small_capsule": {
       "english": "1d1a1a0eee727fe7c8209a51b30243a1d3a4d67f/capsule_231x87.jpg"
     },
@@ -100,7 +102,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760668388",
     "gameid": "4065820",
-    "exfgls": "6"
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Demencion",
+    "publisher": "Demencion"
+  },
+  "config": {
+    "installdir": "Iceburg Demo",
+    "launch": {
+      "0": {
+        "executable": "Ant.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4065821": {
+      "manifests": {
+        "public": {
+          "gid": "625700719919295275",
+          "size": "2128617280",
+          "download": "1911705568"
+        }
+      }
+    },
+    "baselanguages": "english,ukrainian",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20200632",
+        "timeupdated": "1759295879"
+      }
+    }
   }
 }
