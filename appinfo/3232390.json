@@ -17,6 +17,7 @@
     "osextended": "",
     "releasestate": "released",
     "releasestatesteamchina": "released",
+    "controllertagwizard": "1",
     "small_capsule": {
       "english": "4bb0bcf4ef3cea7af9d43ffc32900da1d7dd8a5d/capsule_231x87.jpg",
       "schinese": "a55266ac1f295780f423fa43897bb0afe9a6fd99/capsule_231x87_schinese.jpg"
@@ -27,8 +28,15 @@
     },
     "library_assets": {
       "library_capsule": "zh-cn,en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "zh-cn,en",
-      "library_header": "zh-cn,en"
+      "library_header": "zh-cn,en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "56.85255145778633",
+        "height_pct": "60.763888888888886"
+      }
     },
     "library_assets_full": {
       "library_capsule": {
@@ -41,6 +49,19 @@
           "english": "4581b6272b71a2e60ff6426c3c5a445b34bda484/library_600x900_2x.jpg"
         }
       },
+      "library_hero": {
+        "image2x": {
+          "english": "b1e51fd6d1ce56cdb779080dc0004751e1095794/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "b1e51fd6d1ce56cdb779080dc0004751e1095794/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "b1e51fd6d1ce56cdb779080dc0004751e1095794/library_hero_blur.jpg"
+        }
+      },
       "library_logo": {
         "image": {
           "schinese": "3488b7caa5f16f0204ea85e8f98420a7cb4a7abf/logo_schinese.png",
@@ -49,6 +70,11 @@
         "image2x": {
           "schinese": "3488b7caa5f16f0204ea85e8f98420a7cb4a7abf/logo_schinese_2x.png",
           "english": "3f8755a675fc4ffe7721265f8cebc2f5ba94b3be/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "56.85255145778633",
+          "height_pct": "60.763888888888886"
         }
       },
       "library_header": {
@@ -62,7 +88,7 @@
         }
       }
     },
-    "store_asset_mtime": "1753181313",
+    "store_asset_mtime": "1760697683",
     "associations": {
       "0": {
         "type": "developer",
@@ -77,12 +103,19 @@
         "name": "IndieArk"
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "28",
+    "genres": {
+      "0": "28"
+    },
     "category": {
       "category_2": "1"
     },
     "supported_languages": {
       "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "english": {
         "supported": "true",
         "subtitles": "true"
       }
