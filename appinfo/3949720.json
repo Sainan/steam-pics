@@ -1,6 +1,5 @@
 {
   "appid": "3949720",
-  "public_only": "1",
   "common": {
     "name": "Catapult Girls",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "581e799017ec59a1ef627c257292a2be53b9e67a",
     "icon": "581e799017ec59a1ef627c257292a2be53b9e67a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -123,9 +122,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760681153",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3949720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -149,6 +149,49 @@
       "13": "7208",
       "14": "492",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Another Fire",
+    "publisher": "HighSpeed Games"
+  },
+  "config": {
+    "installdir": "Catapult Girls",
+    "launch": {
+      "0": {
+        "executable": "Catapult Girls.exe"
+      }
+    }
+  },
+  "depots": {
+    "3949721": {
+      "manifests": {
+        "public": {
+          "gid": "5560181321565361666",
+          "size": "677090700",
+          "download": "221088768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20010999",
+        "timeupdated": "1758091280"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "FGStudio/Catapult Girls",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
