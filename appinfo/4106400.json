@@ -1,6 +1,5 @@
 {
   "appid": "4106400",
-  "public_only": "1",
   "common": {
     "name": "The Final Flame Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7dcb460c52b2a657e1cc29cf7169274cfa108981/capsule_231x87.jpg"
     },
@@ -34,5 +33,43 @@
     },
     "gameid": "4106400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "The Bread Igniter",
+    "publisher": "The Bread Igniter"
+  },
+  "config": {
+    "installdir": "The Final Flame Demo",
+    "launch": {
+      "0": {
+        "executable": "mzff_demo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4106401": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6833104186756259396",
+          "size": "141114865",
+          "download": "124469968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20358555",
+        "timeupdated": "1760285821"
+      }
+    }
   }
 }
