@@ -1,6 +1,5 @@
 {
   "appid": "4012060",
-  "public_only": "1",
   "common": {
     "name": "Leadstorm Survivors",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2dc275459a16f9c70037271c031f4b82bdee1738/capsule_231x87.jpg"
@@ -97,9 +96,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760703271",
     "community_hub_visible": "1",
     "gameid": "4012060",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -118,6 +117,44 @@
       "14": "5125",
       "15": "6730",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Theodor N. Engøy",
+    "publisher": "Theodor N. Engøy"
+  },
+  "config": {
+    "installdir": "LeadstormSurvivors",
+    "launch": {
+      "0": {
+        "executable": "LeadstormSurvivors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Default launch"
+        },
+        "description": "Default launch"
+      }
+    }
+  },
+  "depots": {
+    "4012061": {
+      "manifests": {
+        "public": {
+          "gid": "3873546516540826762",
+          "size": "119830752",
+          "download": "51550128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20161475",
+        "timeupdated": "1759063918"
+      }
     }
   }
 }
