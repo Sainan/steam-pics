@@ -1,6 +1,5 @@
 {
   "appid": "4036300",
-  "public_only": "1",
   "common": {
     "name": "Roguelite: Square Run",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -107,9 +106,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4036300",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -124,6 +123,45 @@
       "10": "7481",
       "11": "7250",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "ZaneColeRileyDev",
+    "publisher": "ZaneColeRileyDev"
+  },
+  "config": {
+    "installdir": "Roguelite Square Run",
+    "launch": {
+      "0": {
+        "executable": "Version_1a/Roguelite_Square_Run.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4036301": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4477217357510110001",
+          "size": "109788384",
+          "download": "42844112"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20290460",
+        "timeupdated": "1759859033"
+      }
     }
   }
 }
