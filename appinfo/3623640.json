@@ -1,10 +1,9 @@
 {
   "appid": "3623640",
-  "public_only": "1",
   "common": {
     "name": "Unfound Footage",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "e14a11d32759aae5b348d5232f96f400e5c48b14",
     "icon": "f56d9211909ebb4e155bca0c12fc496ba5340bea",
     "clienticon": "9a7e7361c1af6dcc544edcc1d1a342f116194a24",
@@ -102,9 +101,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760713231",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3623640",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "492",
@@ -118,6 +118,53 @@
       "9": "4191",
       "10": "5900",
       "11": "4342"
+    }
+  },
+  "extended": {
+    "developer": "Frixxy Games",
+    "publisher": "Frixxy Games"
+  },
+  "config": {
+    "installdir": "Unfound Footage",
+    "launch": {
+      "0": {
+        "executable": "Unfound_Footage.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3623641": {
+      "manifests": {
+        "public": {
+          "gid": "1950592411579555843",
+          "size": "966700251",
+          "download": "824748672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20342903",
+        "timeupdated": "1760126088"
+      }
     }
   }
 }
