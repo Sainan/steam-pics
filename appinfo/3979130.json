@@ -1,6 +1,5 @@
 {
   "appid": "3979130",
-  "public_only": "1",
   "common": {
     "name": "Fit My Zoo",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "7b9cefa749bc21b3efd7b632ea4dad30be494e93",
     "clienticon": "7b9cefa749bc21b3efd7b632ea4dad30be494e93",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -117,9 +116,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760695503",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3979130",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -138,6 +138,55 @@
       "14": "4136",
       "15": "12057",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "RedDeer.Games",
+    "publisher": "RedDeer.Games",
+    "homepage": "https://www.reddeergames.com/"
+  },
+  "config": {
+    "installdir": "Fit My Zoo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "Fit My Zoo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3979131": {
+      "manifests": {
+        "public": {
+          "gid": "3076323545856121775",
+          "size": "897298847",
+          "download": "216078176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20043715",
+        "timeupdated": "1758267138"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "RedDeer_Games\\Fit My Zoo",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
