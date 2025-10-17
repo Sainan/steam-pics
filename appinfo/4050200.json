@@ -1,6 +1,5 @@
 {
   "appid": "4050200",
-  "public_only": "1",
   "common": {
     "name": "Ariokan Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -24,6 +23,7 @@
       "1": "2",
       "2": "5"
     },
+    "aicontenttype": "1",
     "small_capsule": {
       "english": "0e2f2a731910441cd38305799a3552c70b9bf7f4/capsule_231x87.jpg"
     },
@@ -67,12 +67,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759931772",
     "gameid": "4050200",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "Fatum Games SL",
+    "publisher": "Fatum Games SL",
+    "homepage": "https://playariokan.com/"
+  },
+  "config": {
+    "installdir": "Ariokan Demo",
+    "launch": {
+      "0": {
+        "executable": "Ariokan.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4050201": {},
+    "4050202": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1226742803057961717",
+          "size": "723543598",
+          "download": "556225408"
+        }
+      }
+    },
+    "baselanguages": "english,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20438669",
+        "timeupdated": "1760719237"
+      }
     }
   }
 }
