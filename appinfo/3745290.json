@@ -1,6 +1,5 @@
 {
   "appid": "3745290",
-  "public_only": "1",
   "common": {
     "name": "The Payphone",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "fcfb85ad83a1eff980fcfea46e3e99bee949dcd5",
     "clienticon": "820806975809312d88d6e057b5ba37f9f63416d2",
     "clienttga": "ca8d2b107c05851139d056fb8ac0c704c2026ff2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -136,9 +135,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3745290",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -154,5 +154,47 @@
       "7": "4182",
       "8": "4345"
     }
+  },
+  "extended": {
+    "developer": "Kosumic Interactive Studio",
+    "publisher": "Kosumic North"
+  },
+  "config": {
+    "installdir": "The Payphone",
+    "launch": {
+      "0": {
+        "executable": "The Payphone.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3745291": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9158782714607398140",
+          "size": "260232655",
+          "download": "109540032"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20423899",
+        "timeupdated": "1760640648"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100"
   }
 }
