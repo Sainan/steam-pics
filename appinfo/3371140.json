@@ -1,10 +1,9 @@
 {
   "appid": "3371140",
-  "public_only": "1",
   "common": {
     "name": "Warmongers",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "3eff7f38d9e6739ab5ffa4ddf454cfffd16e748c",
     "clienticon": "2ef7f8815fb884ee91ab7d55891d1aaf0e7856f0",
     "icon": "e23dc45c9daf12c448f29f55465cbbd038eaa9ce",
@@ -94,8 +93,7 @@
     "genres": {
       "0": "3",
       "1": "2",
-      "2": "37",
-      "3": "70"
+      "2": "70"
     },
     "category": {
       "category_1": "1",
@@ -115,9 +113,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760672520",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3371140",
-    "exfgls": "3",
     "store_tags": {
       "0": "9",
       "1": "122",
@@ -139,6 +138,70 @@
       "17": "12286",
       "18": "1775",
       "19": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Good Game Studio",
+    "publisher": "Good Game Studio"
+  },
+  "config": {
+    "installdir": "Warmongers",
+    "launch": {
+      "0": {
+        "executable": "Warmonger1.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3371141": {
+      "manifests": {
+        "public": {
+          "gid": "3435255706523837366",
+          "size": "3353331483",
+          "download": "3124495056"
+        }
+      }
+    },
+    "3371142": {
+      "manifests": {
+        "public": {
+          "gid": "7061108532936622866",
+          "size": "3353331483",
+          "download": "3124495056"
+        }
+      }
+    },
+    "3371143": {},
+    "branches": {
+      "public": {
+        "buildid": "20427682",
+        "timeupdated": "1760661778"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\Warmonger1\\Saved\\SaveGames",
+        "pattern": "*"
+      }
     }
   }
 }
