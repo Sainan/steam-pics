@@ -1,0 +1,192 @@
+{
+  "appid": "2420340",
+  "common": {
+    "name": "Reverie Demo",
+    "type": "Demo",
+    "parent": "2332600",
+    "icon": "27bd4e61e9299457888eda3c3e2854fc4f685a91",
+    "clienttga": "35e1bce0639d96b69d37031689bc02fe53c5593f",
+    "clienticon": "74768b11240e17ddae33c3aa3983be24e3e378aa",
+    "clienticns": "ae59d5f53c9ef3e3113466a0f24b7337b9b1e64f",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1723609964",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Min"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Min"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1687176031",
+    "gameid": "2420340",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Min",
+    "publisher": "Min"
+  },
+  "config": {
+    "installdir": "Reverie Demo",
+    "launch": {
+      "0": {
+        "executable": "Reverie.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows launch"
+        },
+        "description": "Windows launch"
+      },
+      "1": {
+        "executable": "Contents/MacOS/Reverie",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "MacOS launch"
+        },
+        "description": "MacOS launch"
+      }
+    }
+  },
+  "depots": {
+    "2420341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1053106512175736787",
+          "size": "206972592",
+          "download": "62852224"
+        }
+      }
+    },
+    "2420342": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4808651484889822054",
+          "size": "1124648398",
+          "download": "136612864"
+        }
+      }
+    },
+    "2420343": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8393155962879857230",
+          "size": "1203463709",
+          "download": "157501664"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "20431402",
+        "timeupdated": "1760687329"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "15",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\DefaultCompany\\Reverie\\save_1\\",
+        "pattern": "*"
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\DefaultCompany\\Reverie\\save_2\\",
+        "pattern": "*"
+      },
+      "4": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\DefaultCompany\\Reverie\\save_3\\",
+        "pattern": "*"
+      },
+      "5": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\DefaultCompany\\Reverie\\ExtraLevel\\",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "\\DefaultCompany\\Reverie\\save_1\\",
+            "replace": "unity.DefaultCompany.Reverie"
+          }
+        }
+      }
+    }
+  }
+}
