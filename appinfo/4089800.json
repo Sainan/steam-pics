@@ -1,6 +1,5 @@
 {
   "appid": "4089800",
-  "public_only": "1",
   "common": {
     "name": "Through the Nest Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -99,10 +98,49 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760673182",
     "gameid": "4089800",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Urdina Games",
+    "publisher": "Urdina Games"
+  },
+  "config": {
+    "installdir": "Through the Nest Demo",
+    "launch": {
+      "0": {
+        "executable": "ThroughTheNestDemo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4089801": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "900966600541788610",
+          "size": "8183439644",
+          "download": "1838205552"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20295532",
+        "timeupdated": "1759886507"
+      }
     }
   }
 }
