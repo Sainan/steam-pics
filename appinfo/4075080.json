@@ -1,12 +1,11 @@
 {
   "appid": "4075080",
-  "public_only": "1",
   "common": {
     "name": "The Roach Hotel",
     "type": "Game",
     "clienticon": "44a6635e51ab362506bfa1c7c5fc818edcee9c29",
     "icon": "58d88269598484fb3a94518307f8683158357808",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -102,6 +101,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760691655",
     "community_hub_visible": "1",
     "gameid": "4075080",
     "exfgls": "3",
@@ -125,5 +125,54 @@
       "16": "5716",
       "17": "6691"
     }
+  },
+  "extended": {
+    "developer": "Hawt Combo",
+    "publisher": "Hawt Combo",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Roach Hotel",
+    "launch": {
+      "0": {
+        "executable": "TheRoachHotel/TheRoachHotel.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4075081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1423824413227945691",
+          "size": "992845268",
+          "download": "470576896"
+        },
+        "theroachhotelv2": {
+          "gid": "1486183757695599070",
+          "size": "935518856",
+          "download": "423303488"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20431242",
+        "timeupdated": "1760686319"
+      },
+      "theroachhotelv2": {
+        "buildid": "20336131",
+        "description": "V2",
+        "timeupdated": "1760096762"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10000"
   }
 }
