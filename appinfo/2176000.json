@@ -158,30 +158,26 @@
     "installdir": "The Search For Paradisus",
     "launch": {
       "0": {
-        "executable": "TSForParadisus.exe"
+        "executable": "\\TSFPRE\\Binaries\\Win64\\TSFPRE.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
       },
       "1": {
         "executable": "\\TSFPRE\\Binaries\\Win64\\TSFPRE.exe",
         "config": {
           "oslist": "windows",
           "betakey": "private_test"
-        }
+        },
+        "description_loc": {
+          "english": "Private Test"
+        },
+        "description": "Private Test"
       }
     },
-    "steamcontrollertemplateindex": "1",
     "steamdecktouchscreen": "1",
-    "steamcontrollerconfigdetails": {
-      "2965750401": {
-        "controller_type": "controller_xboxone",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      },
-      "2965757430": {
-        "controller_type": "controller_steamcontroller_gordon",
-        "enabled_branches": "default",
-        "use_action_block": "false"
-      }
-    }
+    "steamconfigurator3rdpartynative": "65533"
   },
   "depots": {
     "228989": {
