@@ -1,10 +1,9 @@
 {
   "appid": "2989760",
-  "public_only": "1",
   "common": {
     "name": "Busty Idol Manor",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8932bc7600c3b50c43a8eb8ec6bef863dbd1fe67",
     "clienttga": "e659b6120c4543e36ba2499cffe78248f9cbaee8",
     "clienticon": "f02e00f083e377842b5fc7eb1aacdc881a173fe6",
@@ -185,9 +184,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760666506",
     "community_hub_visible": "1",
     "gameid": "2989760",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -208,6 +207,98 @@
       "10": "122",
       "11": "9130",
       "12": "24904"
+    }
+  },
+  "extended": {
+    "developer": "Mikan Batake",
+    "publisher": "Mango Party"
+  },
+  "config": {
+    "installdir": "Idol mom's house",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "2989761": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "783228241670053598",
+          "size": "1632728500",
+          "download": "1450973888"
+        }
+      }
+    },
+    "2989762": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5986827008188228549",
+          "size": "1596465203",
+          "download": "1417019312"
+        }
+      }
+    },
+    "2989763": {
+      "config": {
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1978005248878031031",
+          "size": "1602997422",
+          "download": "1420756992"
+        }
+      }
+    },
+    "2989764": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7107762403337141608",
+          "size": "1606431494",
+          "download": "1422659360"
+        }
+      }
+    },
+    "2989765": {
+      "config": {
+        "language": "koreana"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7152890772747359999",
+          "size": "1602073058",
+          "download": "1419530288"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20419047",
+        "timeupdated": "1760619792"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*.rpgsave"
+      }
     }
   }
 }
