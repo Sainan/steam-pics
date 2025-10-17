@@ -1,6 +1,5 @@
 {
   "appid": "3994690",
-  "public_only": "1",
   "common": {
     "name": "Alpine Skater",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "a45c367bc534257f699d89d4142d8323106b5a33",
     "icon": "05789ad83e360b54e1704037de7718c757f95ed3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -137,9 +136,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760697052",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3994690",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "599",
@@ -149,6 +149,57 @@
       "5": "4182",
       "6": "96359",
       "7": "9803"
+    }
+  },
+  "extended": {
+    "developer": "Yash Future Tech Solutions Pvt Ltd",
+    "publisher": "Yash Future Tech Solutions Pvt Ltd",
+    "homepage": "https://www.yashfuturetech.com"
+  },
+  "config": {
+    "installdir": "Skateboard_Game",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Skateboard_Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamconfigurator3rdpartynative": "1",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3994691": {
+      "manifests": {
+        "public": {
+          "gid": "5386580193561265146",
+          "size": "5893795275",
+          "download": "4862881744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19845922",
+        "timeupdated": "1756931485"
+      }
     }
   }
 }
