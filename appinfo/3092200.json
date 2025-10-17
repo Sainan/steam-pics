@@ -1,13 +1,12 @@
 {
   "appid": "3092200",
-  "public_only": "1",
   "common": {
     "name": "Me, You and Kaiju",
     "type": "Game",
     "icon": "3a420374aa9f06f09e7979e73da6b65c0e710a13",
     "clienttga": "7d3daf87e88f20045fc57034290b7e8abc4da409",
     "clienticon": "050f7516dc73f7216ae6a780ba5e84955d82c9a3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -110,9 +109,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760662820",
     "community_hub_visible": "1",
     "gameid": "3092200",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "856791",
@@ -136,5 +135,46 @@
       "18": "4195",
       "19": "4305"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Sleepy Coast Games",
+    "publisher": "Sleepy Coast Games"
+  },
+  "config": {
+    "installdir": "Me, You and Kaiju",
+    "launch": {
+      "0": {
+        "executable": "Me, You and Kaiju.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3092201": {},
+    "3092202": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7164058095689549034",
+          "size": "445046299",
+          "download": "185692048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20395401",
+        "timeupdated": "1760495223"
+      }
+    },
+    "privatebranches": "1"
   }
 }
