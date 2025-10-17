@@ -1,6 +1,5 @@
 {
   "appid": "4073900",
-  "public_only": "1",
   "common": {
     "name": "The Lightning Girl",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "180fd37a3b6ea877fa04ec4df33a0adda481731d",
     "icon": "180fd37a3b6ea877fa04ec4df33a0adda481731d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -117,9 +116,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760732467",
     "community_hub_visible": "1",
     "gameid": "4073900",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -145,6 +144,46 @@
       "17": "5608",
       "18": "5716",
       "19": "5186"
+    }
+  },
+  "extended": {
+    "developer": "HauntSoft",
+    "publisher": "HauntSoft"
+  },
+  "config": {
+    "installdir": "TheLightningGirl",
+    "launch": {
+      "0": {
+        "executable": "TheLightningGirl.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TheLightningGirl.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073901": {
+      "manifests": {
+        "public": {
+          "gid": "1528705755720290018",
+          "size": "687812578",
+          "download": "250713680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20294561",
+        "timeupdated": "1759880652"
+      }
     }
   }
 }
