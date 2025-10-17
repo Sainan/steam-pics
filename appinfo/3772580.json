@@ -138,10 +138,27 @@
     "launch": {
       "0": {
         "executable": "CarServiceTogether.exe",
+        "arguments": "-force-d3d12",
         "config": {
           "oslist": "windows",
           "osarch": "64"
-        }
+        },
+        "description_loc": {
+          "english": "Launch with DirectX 12 (Try DirectX 11 if your game crash)"
+        },
+        "description": "Launch with DirectX 12 (Try DirectX 11 if your game crash)"
+      },
+      "1": {
+        "executable": "CarServiceTogether.exe",
+        "arguments": "-force-d3d11",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch with DirectX 11 (Try DirectX 12 if your game crash)"
+        },
+        "description": "Launch with DirectX 11 (Try DirectX 12 if your game crash)"
       }
     }
   },
