@@ -1,6 +1,5 @@
 {
   "appid": "4082780",
-  "public_only": "1",
   "common": {
     "name": "Castle Hearts Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "b2f3904b37e118ab91ee31bf8e6ace0bad7e58e1",
     "icon": "b2f3904b37e118ab91ee31bf8e6ace0bad7e58e1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f127fb2d3bd58aafada927a443b9ff5e4e66aee7/capsule_231x87.jpg"
@@ -104,5 +103,37 @@
     },
     "gameid": "4082780",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "NearDream",
+    "publisher": "NearDream"
+  },
+  "config": {
+    "installdir": "Castle Hearts Demo",
+    "launch": {
+      "0": {
+        "executable": "Castle_Hearts.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4082781": {
+      "manifests": {
+        "public": {
+          "gid": "2633071639684611207",
+          "size": "3590168039",
+          "download": "453098416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20440034",
+        "timeupdated": "1760725273"
+      }
+    }
   }
 }
