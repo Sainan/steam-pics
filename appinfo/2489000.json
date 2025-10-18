@@ -1,10 +1,9 @@
 {
   "appid": "2489000",
-  "public_only": "1",
   "common": {
     "name": "RAGER",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -114,9 +113,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760029378",
     "community_hub_visible": "1",
     "gameid": "2489000",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "21978",
@@ -140,5 +139,44 @@
       "18": "8122",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Insane Prey",
+    "publisher": "Impact Inked",
+    "homepage": "https://insaneprey.com/"
+  },
+  "config": {
+    "installdir": "RAGER",
+    "launch": {
+      "0": {
+        "executable": "RAGER.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2489002": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4509534159181282345",
+          "size": "1172113715",
+          "download": "366021488"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20323265",
+        "timeupdated": "1760025363"
+      }
+    },
+    "privatebranches": "1"
   }
 }
