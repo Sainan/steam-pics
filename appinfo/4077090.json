@@ -1,6 +1,5 @@
 {
   "appid": "4077090",
-  "public_only": "1",
   "common": {
     "name": "Daydream Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -116,7 +115,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760758162",
     "gameid": "4077090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Stone",
+    "publisher": "Stone"
+  },
+  "config": {
+    "installdir": "Daydream Demo",
+    "launch": {
+      "0": {
+        "executable": "BRM\\HML.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4077091": {
+      "manifests": {
+        "public": {
+          "gid": "2773318829441281679",
+          "size": "6743123194",
+          "download": "6577806544"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20208548",
+        "timeupdated": "1759332439"
+      }
+    }
   }
 }
