@@ -1,6 +1,5 @@
 {
   "appid": "4099870",
-  "public_only": "1",
   "common": {
     "name": "Blood Vow: Survive the Night Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "67f90c2058d8902587f33a77719d004801f2a9e4",
     "clienticon": "67f90c2058d8902587f33a77719d004801f2a9e4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -48,6 +47,53 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Ship It",
+    "publisher": "Ship It"
+  },
+  "config": {
+    "installdir": "Blood Vow Survive the Night Demo",
+    "launch": {
+      "0": {
+        "executable": "BV_03.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4099871": {
+      "manifests": {
+        "public": {
+          "gid": "8667395647637161892",
+          "size": "5126259799",
+          "download": "4799119120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20317499",
+        "timeupdated": "1760001737"
+      }
     }
   }
 }
