@@ -1,6 +1,5 @@
 {
   "appid": "2143680",
-  "public_only": "1",
   "common": {
     "name": "梦灯花",
     "type": "Game",
@@ -9,6 +8,7 @@
     "osextended": "",
     "name_localized": {
       "english": "Noctuary",
+      "sc_schinese": "梦灯花 Noctuary",
       "japanese": "夢灯華 Noctuary",
       "tchinese": "夢燈花 Noctuary"
     },
@@ -22,6 +22,7 @@
       "tchinese": "1",
       "japanese": "1"
     },
+    "releasestatesteamchina": "prerelease",
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
@@ -224,5 +225,113 @@
     },
     "review_score": "9",
     "review_percentage": "95"
+  },
+  "extended": {
+    "developer": "Gratesca",
+    "publisher": "Serenity Forge",
+    "homepage": "http://www.gratesca.com",
+    "listofdlc": "2875660,3879310,3915560",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Noctuary",
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    },
+    "launch": {
+      "0": {
+        "executable": "Noctuary.exe",
+        "type": "default",
+        "config": {
+          "realm": "steamglobal"
+        },
+        "description_loc": {
+          "sc_schinese": "梦灯花"
+        }
+      },
+      "1": {
+        "executable": "THE ART STORY OF NOCTUARY/THE ART STORY OF NOCTUARY.pdf",
+        "type": "option1",
+        "config": {
+          "ownsdlc": "2875660"
+        },
+        "description_loc": {
+          "english": "THE ART STORY OF NOCTUARY",
+          "sc_schinese": "梦灯花电子美术设定集"
+        },
+        "description": "THE ART STORY OF NOCTUARY"
+      },
+      "2": {
+        "executable": "Noctuary.exe",
+        "config": {
+          "realm": "steamchina"
+        },
+        "description_loc": {
+          "sc_schinese": "梦灯花"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2143681": {
+      "manifests": {
+        "public": {
+          "gid": "885442258699377154",
+          "size": "9993812924",
+          "download": "8545242144"
+        }
+      }
+    },
+    "2143682": {
+      "config": {
+        "realm": "steamchina"
+      },
+      "manifests": {}
+    },
+    "2143683": {
+      "dlcappid": "3915560",
+      "manifests": {
+        "public": {
+          "gid": "6402765169993307547",
+          "size": "10976962280",
+          "download": "9511096560"
+        }
+      },
+      "config": {
+        "optionaldlc": "3915560"
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19820955",
+        "timeupdated": "1756795281"
+      }
+    },
+    "privatebranches": "1",
+    "appmanagesdlc": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "300",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gratesca/Noctuary",
+        "pattern": "*.noctuary",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gratesca/Noctuary",
+        "pattern": "*.head",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
