@@ -7,9 +7,9 @@
     "clienticon": "3d15b3371be126ea0555537746b5e7ee41699b27",
     "clienttga": "dfc48d39c8458e91931e387419465bdbb39cc1a3",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2d698e20527812a7067a5d7dbb54ac23336bc6a3/capsule_231x87.jpg"
@@ -117,8 +117,8 @@
       "8": "4182",
       "9": "1773"
     },
-    "review_score": "6",
-    "review_percentage": "73"
+    "review_score": "5",
+    "review_percentage": "66"
   },
   "extended": {
     "developer": "Soaring Games",
@@ -130,12 +130,24 @@
     "installdir": "Study Arcade",
     "launch": {
       "0": {
-        "executable": "Study Arcade.exe"
+        "executable": "Study Arcade.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Study Arcade.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "3595441": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "1942835465634412007",
@@ -144,10 +156,22 @@
         }
       }
     },
+    "3595442": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8662400025333406736",
+          "size": "202265136",
+          "download": "55556800"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "20160144",
-        "timeupdated": "1759046180"
+        "buildid": "20355939",
+        "timeupdated": "1760256590"
       }
     }
   }
