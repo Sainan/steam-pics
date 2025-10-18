@@ -1,6 +1,5 @@
 {
   "appid": "3527080",
-  "public_only": "1",
   "common": {
     "name": "Phantom Incident",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "5c63e7bf4fb533e9e9b6fd8c4bcca3ec3677609a",
     "clienttga": "17d37a5416f97688e85284c73983565b2d5d7a3f",
     "icon": "38b7af30324e21b7f3b01f439c71c1c5bab26f45",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -109,9 +108,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3527080",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -128,6 +127,39 @@
       "9": "3839",
       "10": "42089",
       "11": "7250"
+    }
+  },
+  "extended": {
+    "developer": "GZ Storm",
+    "publisher": "GZ Storm",
+    "homepage": "http://gzstorm.com"
+  },
+  "config": {
+    "installdir": "Phantom Incident",
+    "launch": {
+      "0": {
+        "executable": "PhantomIncident.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3527081": {
+      "manifests": {
+        "public": {
+          "gid": "7659168287214317697",
+          "size": "217297711",
+          "download": "140516432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20446847",
+        "timeupdated": "1760782843"
+      }
     }
   }
 }
