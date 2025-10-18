@@ -1,6 +1,5 @@
 {
   "appid": "3940820",
-  "public_only": "1",
   "common": {
     "name": "Dentist Simulator 2",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "c1db1205688f6f9b619b5cef75c2bb56b2bba53b",
     "icon": "c1db1205688f6f9b619b5cef75c2bb56b2bba53b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvroverlaysupport": "1",
     "openxrsupport": "1",
     "controllertagwizard": "1",
@@ -111,9 +110,9 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3940820",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "597",
@@ -133,6 +132,54 @@
       "14": "6730",
       "15": "6426",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Code Lab",
+    "publisher": "Code Lab",
+    "homepage": "https://codelabplay.com/dentist-simulator"
+  },
+  "config": {
+    "installdir": "Dentist Simulator 2",
+    "launch": {
+      "0": {
+        "executable": "Dentist_Simulator_2.exe",
+        "type": "openvroverlay",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Dentist_Simulator_2.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3940821": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6030984751927019968",
+          "size": "2357269124",
+          "download": "848513840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20443897",
+        "timeupdated": "1760750247"
+      }
     }
   }
 }
