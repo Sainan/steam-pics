@@ -1,6 +1,5 @@
 {
   "appid": "3870850",
-  "public_only": "1",
   "common": {
     "name": "Sunfinity",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "70195e9f034eeef821dd8e36a709ba227d4eec22",
     "clienttga": "824049af9197ae2d63ce55b349d471ad1bff3598",
     "linuxclienticon": "7938d12cb71707500a6a897f48e225de931c5487",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d3fc26e721677471fdfd866efa9baded1f2cacf4/capsule_231x87.jpg"
@@ -108,9 +107,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760779565",
     "community_hub_visible": "1",
     "gameid": "3870850",
-    "exfgls": "8",
     "store_tags": {
       "0": "379975",
       "1": "22602",
@@ -131,6 +130,54 @@
       "16": "4559",
       "17": "4182",
       "18": "4520"
+    }
+  },
+  "extended": {
+    "developer": "Varakers",
+    "publisher": "Varakers"
+  },
+  "config": {
+    "installdir": "Sunfinity",
+    "launch": {
+      "0": {
+        "executable": "Sunfinity.exe",
+        "workingdir": ".",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "press-preview"
+        }
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3870851": {
+      "manifests": {
+        "public": {
+          "gid": "8357484109452063865",
+          "size": "407855003",
+          "download": "73120640"
+        },
+        "press-preview": {
+          "gid": "8357484109452063865",
+          "size": "407855003",
+          "download": "73120640"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20188908",
+        "timeupdated": "1759233894"
+      },
+      "press-preview": {
+        "buildid": "20188908",
+        "description": "Build intended for journalists, curators, and content creators for testing, preview, and coverage of the game. This version is representative of the final content but may not reflect the quality or features of the commercial release.",
+        "timeupdated": "1759234009"
+      }
     }
   }
 }
