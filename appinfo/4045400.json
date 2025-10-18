@@ -1,6 +1,5 @@
 {
   "appid": "4045400",
-  "public_only": "1",
   "common": {
     "name": "Planet Chyton Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "1bbd8c2e67bffd787bd19a9ff9c3135f71d0f38e",
     "icon": "1bbd8c2e67bffd787bd19a9ff9c3135f71d0f38e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -48,7 +47,56 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760786057",
     "gameid": "4045400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Peter Lin Jr.",
+    "publisher": "Peter Lin Jr."
+  },
+  "config": {
+    "installdir": "content",
+    "launch": {
+      "0": {
+        "executable": "PlanetChyton.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4045408": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8334580063445070915",
+          "size": "3318664164",
+          "download": "439390048"
+        },
+        "publicdemo": {
+          "gid": "8334580063445070915",
+          "size": "3318664164",
+          "download": "439390048"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20372552",
+        "timeupdated": "1760373931"
+      },
+      "publicdemo": {
+        "buildid": "20372552",
+        "description": "Public Demo",
+        "timeupdated": "1760373943"
+      }
+    }
   }
 }
