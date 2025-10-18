@@ -1,0 +1,278 @@
+{
+  "appid": "748880",
+  "common": {
+    "name": "External Visions",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "logo": "a964b616935c25ad789c754f0d9b9d8035c8d85d",
+    "logo_small": "a964b616935c25ad789c754f0d9b9d8035c8d85d_thumb",
+    "clienticon": "7428ace6493c814de4994992db311a9fe2270037",
+    "clienttga": "c18fa9e2778c515329ddf4151e19611af4a97632",
+    "icon": "f325bdf7cd42b5ca30965e218403843235bc65df",
+    "linuxclienticon": "933e5a96de83a86b6da2eaeafc341d4226ab5127",
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1682553600",
+      "tested_build_id": "3325014",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "1",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "External Visions",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_ee91241d937aff1f97247441fda2c1a2cf22d99f.jpg",
+    "store_asset_mtime": "1510303691",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "team BitClub"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "team BitClub"
+      }
+    },
+    "primary_genre": "37",
+    "genres": {
+      "0": "37",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_18": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1510777626",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "748880",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "492",
+      "2": "1628",
+      "3": "3964",
+      "4": "1625",
+      "5": "3871",
+      "6": "4004"
+    },
+    "review_score": "6",
+    "review_percentage": "78"
+  },
+  "extended": {
+    "developer": "team BitClub",
+    "publisher": "team BitClub",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "External Visions",
+    "launch": {
+      "0": {
+        "executable": "external_visions.exe",
+        "description": "Launch External Visions (Windows)",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "compatibility_branch"
+        }
+      },
+      "1": {
+        "executable": "external_visions",
+        "description": "Launch External Visions (Linux)",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "betakey": "compatibility_branch"
+        }
+      },
+      "2": {
+        "executable": "bin/java",
+        "arguments": "-Dorg.lwjgl.librarypath=./natives/ -m growth_opengl/mainPackage.AppMain",
+        "workingdir": "bin/",
+        "description": "Launch External Visions",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "3": {
+        "executable": "bin/javaw.exe",
+        "arguments": "-Dorg.lwjgl.librarypath=.\\natives\\ -m growth_opengl/mainPackage.AppMain",
+        "workingdir": "bin/",
+        "description": "Launch External Visions",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "748881": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2360920642279327518",
+          "size": "315845272",
+          "download": "106992272"
+        },
+        "beta_branch": {
+          "gid": "2360920642279327518",
+          "size": "315845272",
+          "download": "106992272"
+        },
+        "compatibility_branch": {
+          "gid": "3318025595963949309",
+          "size": "315989000",
+          "download": "107219424"
+        }
+      }
+    },
+    "748882": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6856861106894970787",
+          "size": "139048092",
+          "download": "93503648"
+        },
+        "beta_branch": {
+          "gid": "6856861106894970787",
+          "size": "139048092",
+          "download": "93503648"
+        },
+        "compatibility_branch": {
+          "gid": "6440904713060387219",
+          "size": "327698296",
+          "download": "107944688"
+        }
+      }
+    },
+    "748883": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2152073107524867964",
+          "size": "322876824",
+          "download": "109711472"
+        },
+        "beta_branch": {
+          "gid": "2152073107524867964",
+          "size": "322876824",
+          "download": "109711472"
+        },
+        "compatibility_branch": {
+          "gid": "1575184600161851347",
+          "size": "322980255",
+          "download": "109825696"
+        }
+      }
+    },
+    "748884": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "661125064840978926",
+          "size": "149047012",
+          "download": "95097872"
+        },
+        "beta_branch": {
+          "gid": "661125064840978926",
+          "size": "149047012",
+          "download": "95097872"
+        },
+        "compatibility_branch": {
+          "gid": "6702819168145733833",
+          "size": "325093539",
+          "download": "107924032"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "3325014",
+        "timeupdated": "1542747693"
+      },
+      "beta_branch": {
+        "buildid": "3325014",
+        "description": "Branch for beta testing",
+        "timeupdated": "1542745831"
+      },
+      "compatibility_branch": {
+        "buildid": "2580145",
+        "timeupdated": "1542723452"
+      }
+    }
+  }
+}
