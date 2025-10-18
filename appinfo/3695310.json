@@ -1,10 +1,9 @@
 {
   "appid": "3695310",
-  "public_only": "1",
   "common": {
     "name": "Floodpunk",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "7873bd125ce6f5f32c4690b11ecb071931eb879e",
     "clienttga": "192a02358dd0b56023e8799e0173c27eeeee79d4",
     "linuxclienticon": "062796f84ac7b5cafbdf9f0bc3d914993d76a112",
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1754006731",
+    "store_asset_mtime": "1760417368",
     "associations": {
       "0": {
         "type": "developer",
@@ -104,9 +103,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760759370",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3695310",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "4328",
@@ -118,6 +118,65 @@
       "7": "492",
       "8": "3964",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Floodpunk LLC",
+    "publisher": "Floodpunk LLC",
+    "homepage": "https://www.floodpunk.com"
+  },
+  "config": {
+    "installdir": "Floodpunk",
+    "launch": {
+      "0": {
+        "executable": "FloodPunk.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mac.app/Contents/MacOS/FloodPunk",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3695311": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3934702669971217469",
+          "size": "400125993",
+          "download": "39332912"
+        }
+      }
+    },
+    "3695312": {
+      "config": {
+        "oslist": "macos",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135839366841789706",
+          "size": "562002556",
+          "download": "71813936"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20243807",
+        "timeupdated": "1759515293"
+      }
     }
   }
 }
