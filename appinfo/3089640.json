@@ -1,6 +1,5 @@
 {
   "appid": "3089640",
-  "public_only": "1",
   "common": {
     "name": "Bat Blitz",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "cacb9e479aae92bfbd83cd8c5e8860c032411788",
     "clienticon": "5b290822015e9046500b614dd0cf766064e9732a",
     "clienttga": "7091716765e83e7265784eeb6bf76461ab200ff8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -94,6 +93,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3089640",
     "exfgls": "3",
@@ -118,6 +118,60 @@
       "17": "7481",
       "18": "6730",
       "19": "32322"
+    },
+    "review_score": "7",
+    "review_percentage": "80"
+  },
+  "extended": {
+    "developer": "Beef Dust Studios",
+    "publisher": "Beef Dust Studios",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Bat Blitz",
+    "launch": {
+      "0": {
+        "executable": "Bat Blitz.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3089641": {
+      "manifests": {
+        "public": {
+          "gid": "6779202549005573668",
+          "size": "13714056",
+          "download": "6307616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20136161",
+        "timeupdated": "1758858585"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "8",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BatBlitz2",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
