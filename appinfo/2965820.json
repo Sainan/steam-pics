@@ -1,0 +1,210 @@
+{
+  "appid": "2965820",
+  "common": {
+    "name": "One Minute to Close Demo",
+    "type": "Demo",
+    "parent": "2953320",
+    "icon": "742340fa5f66d4f885add7348b41faade1118135",
+    "clienticon": "42112fbdf295ccceb4f9dbf839f3fb7944f1f4be",
+    "clienttga": "44a8cf82fbd1dcfb045f26dae4276e75c56fd49e",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "clienticns": "68aa042261eae1dc017dd4b39365f9624eb9f21f",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "88f843bdf6818223eb24145b1feaff9c8a3e4c57/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "37.194412107101286",
+        "height_pct": "80.39658038470672"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "dc0e52647563465b6d0d72a0ff554516f13c752c/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "dc0e52647563465b6d0d72a0ff554516f13c752c/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "37.194412107101286",
+          "height_pct": "80.39658038470672"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "fc0cf037872f82b9afb91e769f5189ab86e654f7/library_header.jpg"
+        },
+        "image2x": {
+          "english": "fc0cf037872f82b9afb91e769f5189ab86e654f7/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1739963248",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "SleepySwan Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "SleepySwan Studios"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_9": "1",
+      "category_39": "1",
+      "category_24": "1",
+      "category_1": "1",
+      "category_28": "1",
+      "category_59": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1740417349",
+    "gameid": "2965820",
+    "exfgls": "6"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "testing",
+    "developer": "SleepySwan Studios",
+    "publisher": "SleepySwan Studios"
+  },
+  "config": {
+    "installdir": "1 Minute to Close Demo",
+    "launch": {
+      "0": {
+        "executable": "OneMinuteToClose.exe",
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "One Minute To Close.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "OneMinuteToClose.exe",
+        "arguments": "--rendering-driver d3d12",
+        "description_loc": {
+          "english": "DirectX12 Mode (use if standard mode crashes)"
+        },
+        "description": "DirectX12 Mode (use if standard mode crashes)"
+      },
+      "3": {
+        "executable": "OneMinuteToClose.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "uselaunchcommandline": "1",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "2965821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6924656666117385845",
+          "size": "1286175638",
+          "download": "188946896"
+        },
+        "testing": {
+          "gid": "702679032474342381",
+          "size": "1286169490",
+          "download": "188946576"
+        }
+      }
+    },
+    "2965822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3563251276954661950",
+          "size": "1457992412",
+          "download": "230152640"
+        },
+        "testing": {
+          "gid": "3344492483943954321",
+          "size": "1457986264",
+          "download": "230152352"
+        }
+      }
+    },
+    "2965823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "testing": {
+          "gid": "5427706715214842659",
+          "size": "1144403002",
+          "download": "241486704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "17620040",
+        "timeupdated": "1741267988"
+      },
+      "testing": {
+        "buildid": "18534956",
+        "description": "Update test branch",
+        "timeupdated": "1747751024"
+      }
+    }
+  }
+}
