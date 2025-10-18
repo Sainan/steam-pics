@@ -1,13 +1,12 @@
 {
   "appid": "3862530",
-  "public_only": "1",
   "common": {
     "name": "Homunculus Meat",
     "type": "Game",
     "icon": "47261f3f6fab4eb8ec904832c275ec0c4358c698",
     "clienttga": "96de98889b8b07e4b4b4d0eed3bcc8b9d1b16878",
     "clienticon": "97ca8e0a0c2f8bddc664e7d4ea5ebb7e5eb0bfcf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -123,9 +122,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760019923",
     "community_hub_visible": "1",
     "gameid": "3862530",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1667",
@@ -144,6 +143,44 @@
       "14": "3964",
       "15": "7569",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Hyoga the Juggling Dragon",
+    "publisher": " Hyoga the Juggling Dragon",
+    "homepage": "https://www.jugglerhyoga.net/homunculus-meat-english"
+  },
+  "config": {
+    "installdir": "homunculus_meat",
+    "launch": {
+      "0": {
+        "executable": "homunculus_meat/Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3862531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "106754772165999920",
+          "size": "386413412",
+          "download": "219245520"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20445754",
+        "timeupdated": "1760770407"
+      }
     }
   }
 }
