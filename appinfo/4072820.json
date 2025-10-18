@@ -1,13 +1,12 @@
 {
   "appid": "4072820",
-  "public_only": "1",
   "common": {
     "name": "The Field Between Demo",
     "type": "Demo",
     "parent": "3962310",
     "clienticon": "f45a446b64fdebead0262e1e3abf90fa9ad57842",
     "icon": "f45a446b64fdebead0262e1e3abf90fa9ad57842",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -37,5 +36,38 @@
     },
     "gameid": "4072820",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Isaac Brewster",
+    "publisher": "Isaac Brewster"
+  },
+  "config": {
+    "installdir": "The Field Between Demo",
+    "launch": {
+      "0": {
+        "executable": "TheFieldBetweenDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4072821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7861748077542071336",
+          "size": "516310627",
+          "download": "453419504"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20382883",
+        "timeupdated": "1760433495"
+      }
+    }
   }
 }
