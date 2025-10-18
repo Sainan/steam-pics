@@ -1,0 +1,168 @@
+{
+  "appid": "2270410",
+  "common": {
+    "name": "Farmburgh",
+    "type": "Game",
+    "icon": "afd967649b739528d6ca84147e4a404f47d40652",
+    "clienticon": "b543fcccfa80339dc2fc4b720d62002abd06adc4",
+    "clienttga": "341e1621de308c8dc2675a027a9da8e27cce32e4",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "99.08999667160364",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "99.08999667160364",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1683061140",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "MuFox Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "MuFox Studios"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "4",
+      "1": "28"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1683061260",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2270410",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "599",
+      "1": "597",
+      "2": "87918",
+      "3": "615955",
+      "4": "1654",
+      "5": "1702",
+      "6": "4520",
+      "7": "5851",
+      "8": "4182",
+      "9": "1698",
+      "10": "4161"
+    },
+    "review_score": "6",
+    "review_percentage": "70"
+  },
+  "extended": {
+    "developer": "MuFox Studios",
+    "publisher": "MuFox Studios",
+    "homepage": "https://www.reddit.com/r/FarmburghTheGame/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Farmburgh",
+    "launch": {
+      "0": {
+        "executable": "Farmburgh/Farmburgh.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2270411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7367011973998821985",
+          "size": "346355176",
+          "download": "52045584"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "13943122",
+        "timeupdated": "1712190846"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MuFox Studios/Farmburgh/",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "MuFox Studios/Farmburgh/",
+            "replace": ".local/share/Steam/steamapps/compatdata/2270410/pfx/drive_c/users/steamuser/AppData/LocalLow/MuFox Studios/Farmburgh/"
+          }
+        }
+      }
+    }
+  }
+}
