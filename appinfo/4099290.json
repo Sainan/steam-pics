@@ -1,6 +1,5 @@
 {
   "appid": "4099290",
-  "public_only": "1",
   "common": {
     "name": "Manic Meeples Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6cfbf7bd2ae1edaa514e179ec9db5c3eadfa040a/capsule_231x87.jpg"
     },
@@ -51,5 +50,34 @@
     },
     "gameid": "4099290",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BerryBush",
+    "publisher": "BerryBush"
+  },
+  "config": {
+    "installdir": "Manic Meeples Demo",
+    "launch": {
+      "0": {
+        "executable": "manic_meeples.exe"
+      }
+    }
+  },
+  "depots": {
+    "4099291": {
+      "manifests": {
+        "public": {
+          "gid": "3266110252158184336",
+          "size": "183694863",
+          "download": "162892608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20444478",
+        "timeupdated": "1760755611"
+      }
+    }
   }
 }
