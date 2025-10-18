@@ -1,6 +1,5 @@
 {
   "appid": "4077930",
-  "public_only": "1",
   "common": {
     "name": "咒术牌Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "name_localized": {
       "english": "CarsteMagicDemo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "281f3d7825c96e50b062a09cebf8b9598308eadd/capsule_231x87.jpg",
       "schinese": "00187798825396e39062df31bad9b27e6b19c990/capsule_231x87_schinese.jpg"
@@ -110,7 +109,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4077930",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CarsteForgeGame",
+    "publisher": "CarsteForgeGame",
+    "homepage": "https://www.taptap.cn/app/726916"
+  },
+  "config": {
+    "installdir": "CarsteMagicDemo",
+    "launch": {
+      "0": {
+        "executable": "MagicCard.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4077931": {
+      "manifests": {
+        "public": {
+          "gid": "5228684024867101762",
+          "size": "622531283",
+          "download": "485831120"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20448154",
+        "timeupdated": "1760799889"
+      }
+    }
   }
 }
