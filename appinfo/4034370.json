@@ -1,6 +1,5 @@
 {
   "appid": "4034370",
-  "public_only": "1",
   "common": {
     "name": "Fawn The Florist Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "556225f7fd846793b699dec2bcbf76d6a59525fa/capsule_231x87.jpg"
@@ -104,5 +103,72 @@
     },
     "gameid": "4034370",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CozyBit Games",
+    "publisher": "CozyBit Games",
+    "homepage": "https://fawntheflorist.crd.co/"
+  },
+  "config": {
+    "installdir": "Fawn The Florist Demo",
+    "launch": {
+      "0": {
+        "executable": "Fawn The Florist.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4034371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6551652350614542235",
+          "size": "398128925",
+          "download": "78986512"
+        }
+      }
+    },
+    "4034372": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20313710",
+        "timeupdated": "1759980111"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "9",
+    "appidredirect": "3854120",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Cozybit Games\\Fawn The Florist\\",
+        "pattern": "*.xml",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Cozybit Games\\Fawn The Florist\\",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
