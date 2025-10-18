@@ -6,7 +6,7 @@
     "parent": "3364910",
     "icon": "05dbb062027312e8867c6615e978e5288f6a5975",
     "clienticon": "05dbb062027312e8867c6615e978e5288f6a5975",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -105,6 +105,19 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "HerbalHaven.exe",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "test"
       }
     }
   },
