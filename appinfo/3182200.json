@@ -16,7 +16,7 @@
       "spanish": "1",
       "latam": "1"
     },
-    "timeline_marker_updated": "1760661593",
+    "timeline_marker_updated": "1760769619",
     "timeline_marker_svg": "4aa41b165a4b126c7483a0f162b6b11950bfa6cc/markers.svg",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -178,7 +178,28 @@
     "launch": {
       "0": {
         "executable": "VetitumTapeFound.exe",
-        "type": "default"
+        "arguments": "-force-d3d11",
+        "type": "default",
+        "description_loc": {
+          "english": "Play DirectX11"
+        },
+        "description": "Play DirectX11"
+      },
+      "1": {
+        "executable": "VetitumTapeFound.exe",
+        "arguments": "-force-d3d12",
+        "description_loc": {
+          "english": "Play DirectX12"
+        },
+        "description": "Play DirectX12"
+      },
+      "2": {
+        "executable": "VetitumTapeFound.exe",
+        "arguments": "-force-vulkan",
+        "description_loc": {
+          "english": "Play Vulkan"
+        },
+        "description": "Play Vulkan"
       }
     },
     "app_mappings": {}
@@ -194,13 +215,19 @@
     "3182201": {
       "config": {
         "language": "english",
-        "oslist": "windows"
+        "oslist": "windows",
+        "osarch": "64"
       },
       "manifests": {
         "public": {
           "gid": "8563477022550219823",
           "size": "2087009909",
           "download": "1804678768"
+        },
+        "beta": {
+          "gid": "1199166646521404464",
+          "size": "2590137754",
+          "download": "1371806416"
         },
         "legacy": {
           "gid": "5048035326018591457",
@@ -216,6 +243,11 @@
         "buildid": "19367024",
         "timeupdated": "1753507056"
       },
+      "beta": {
+        "buildid": "20445691",
+        "description": "New version",
+        "timeupdated": "1760769605"
+      },
       "legacy": {
         "buildid": "16294386",
         "description": "Old Version",
@@ -226,6 +258,8 @@
   },
   "ufs": {
     "quota": "0",
-    "maxnumfiles": "0"
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
