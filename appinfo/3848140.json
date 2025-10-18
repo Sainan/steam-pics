@@ -1,6 +1,5 @@
 {
   "appid": "3848140",
-  "public_only": "1",
   "common": {
     "name": "鱼自会上钩 Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "b13b94ec90e18532263f5b6734751e8ddd7b3da8/capsule_231x87.jpg"
@@ -54,7 +53,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760008139",
     "gameid": "3848140",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "JLL",
+    "publisher": "JLL"
+  },
+  "config": {
+    "installdir": "鱼自会上钩 Demo",
+    "launch": {
+      "0": {
+        "executable": "EffortlessCatch.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3848141": {
+      "manifests": {
+        "public": {
+          "gid": "439969645197681915",
+          "size": "131223264",
+          "download": "61938480"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20444534",
+        "timeupdated": "1760756353"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "appidredirect": "3832360",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
