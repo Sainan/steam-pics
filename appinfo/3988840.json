@@ -1,11 +1,10 @@
 {
   "appid": "3988840",
-  "public_only": "1",
   "common": {
     "name": "Shadow of Ancients Demo",
     "type": "Demo",
     "parent": "3273380",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -103,7 +102,71 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3988840",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": " Activewind Studios",
+    "publisher": " Activewind Studios"
+  },
+  "config": {
+    "installdir": "Shadow of Ancients Demo",
+    "launch": {
+      "0": {
+        "executable": "ActiveWindsProject.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ActiveWindsProject.exe",
+        "arguments": "-d3d11",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "description": "DirectX 11"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3988841": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8820291887937352560",
+          "size": "4710135807",
+          "download": "4048317744"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20448629",
+        "timeupdated": "1760804445"
+      }
+    }
   }
 }
