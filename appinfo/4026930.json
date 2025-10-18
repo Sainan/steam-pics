@@ -100,6 +100,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759413382",
     "community_visible_stats": "1",
     "gameid": "4026930",
     "exfgls": "6"
@@ -115,7 +116,19 @@
     "steamconfigurator3rdpartynative": "65532",
     "launch": {
       "0": {
-        "executable": "Rhombus.exe"
+        "executable": "Rhombus.exe",
+        "description_loc": {
+          "english": "Rhombus Demo (DirectX 12 - default)"
+        },
+        "description": "Rhombus Demo (DirectX 12 - default)"
+      },
+      "1": {
+        "executable": "Rhombus.exe",
+        "arguments": "-force-d3d11",
+        "description_loc": {
+          "english": "Rhombus Demo (DirectX 11, stable in case of flickering or crashes due to outdated GPU drivers)"
+        },
+        "description": "Rhombus Demo (DirectX 11, stable in case of flickering or crashes due to outdated GPU drivers)"
       }
     }
   },
@@ -123,17 +136,17 @@
     "4026931": {
       "manifests": {
         "public": {
-          "gid": "4767263766252294752",
-          "size": "108289405",
-          "download": "39707664"
+          "gid": "1932299324710274611",
+          "size": "114941727",
+          "download": "46313792"
         }
       }
     },
     "baselanguages": "english,german,french,spanish",
     "branches": {
       "public": {
-        "buildid": "20175855",
-        "timeupdated": "1759162593"
+        "buildid": "20443654",
+        "timeupdated": "1760748410"
       }
     }
   },
