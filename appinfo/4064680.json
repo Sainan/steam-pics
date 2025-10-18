@@ -1,6 +1,5 @@
 {
   "appid": "4064680",
-  "public_only": "1",
   "common": {
     "name": "Omusubikororin KURENAI Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -47,5 +46,57 @@
     },
     "gameid": "4064680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Myorugi",
+    "publisher": "Myorugi"
+  },
+  "config": {
+    "installdir": "Omusubikororin KURENAI Demo",
+    "launch": {
+      "0": {
+        "executable": "omusubi2taiken.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4064681": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4102477358255955232",
+          "size": "2129212953",
+          "download": "1485778096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20447915",
+        "timeupdated": "1760796822"
+      }
+    }
   }
 }
