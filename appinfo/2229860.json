@@ -134,5 +134,61 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Holy Moka Games/Catching Spirits",
+        "pattern": "ProgressData.json",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Holy Moka Games/Catching Spirits",
+        "pattern": "StatsData.json",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Holy Moka Games/Catching Spirits",
+        "pattern": "SettingsData.json",
+        "recursive": "1"
+      },
+      "3": {
+        "root": "WinAppDataLocalLow",
+        "path": "Holy Moka Games/Catching Spirits",
+        "pattern": ".savekey",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Holy Moka Games/Catching Spirits",
+            "replace": "Library/Application Support/Holy Moka Games/Catching Spirits"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Holy Moka Games/Catching Spirits",
+            "replace": "unity3d/Holy Moka Games/Catching Spirits"
+          }
+        }
+      }
+    }
   }
 }
