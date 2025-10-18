@@ -1,6 +1,5 @@
 {
   "appid": "4032600",
-  "public_only": "1",
   "common": {
     "name": "滅竜剣ブラウディアHigh!",
     "type": "Game",
@@ -17,7 +16,7 @@
       "english": "1",
       "japanese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -137,9 +136,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4032600",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "4",
@@ -166,6 +165,64 @@
       "17": "14139",
       "18": "4195",
       "19": "7481"
+    }
+  },
+  "extended": {
+    "developer": "海のお魚パーティー",
+    "publisher": "海のお魚パーティー"
+  },
+  "config": {
+    "installdir": "DragonsbaneSwordBrawdiaHigh",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4032601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8152451550578916491",
+          "size": "276618982",
+          "download": "265101552"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20444671",
+        "timeupdated": "1760757815"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.env",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
