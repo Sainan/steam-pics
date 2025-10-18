@@ -35,20 +35,32 @@
       "latam": "1"
     },
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "1",
-      "test_timestamp": "1758844800",
-      "tested_build_id": "19574447",
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760140800",
+      "tested_build_id": "20281120",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
       "configuration": {
@@ -292,9 +304,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7519983710197283186",
-          "size": "2255184528",
-          "download": "1516481952"
+          "gid": "7149212067554402708",
+          "size": "2187779811",
+          "download": "1505686384"
         },
         "press": {
           "gid": "3528055256677834901",
@@ -315,8 +327,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20103529",
-        "timeupdated": "1759100781"
+        "buildid": "20342325",
+        "timeupdated": "1760217519"
       },
       "press": {
         "buildid": "19306955",
