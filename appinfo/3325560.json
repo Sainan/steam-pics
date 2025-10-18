@@ -10,9 +10,9 @@
     "clienttga": "cc2f3e1ec378bfff5d04282268507ed2708148fe",
     "clienticns": "d51d46845be723777fea9bd97b9a8d071f32a440",
     "linuxclienticon": "12c45310af5e4d56be3ce898b370bf911f86278d",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -104,6 +104,7 @@
         "subtitles": "true"
       }
     },
+    "community_hub_visible": "1",
     "gameid": "3325560",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
@@ -132,41 +133,6 @@
     }
   },
   "depots": {
-    "228981": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "228982": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "228983": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "228984": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "228985": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
     "228989": {
       "config": {
         "oslist": "windows"
@@ -182,12 +148,33 @@
       "sharedinstall": "1"
     },
     "3325562": {
+      "config": {
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "3242916848299918915",
           "size": "356677891",
           "download": "275898192"
         }
+      }
+    },
+    "3325563": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "3325564": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      }
+    },
+    "3325565": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
       }
     },
     "baselanguages": "schinese",
