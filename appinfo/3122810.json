@@ -1,4 +1,150 @@
 {
   "appid": "3122810",
-  "public_only": "1"
+  "common": {
+    "name": "Project Vesperi Playtest",
+    "type": "Beta",
+    "parent": "2536670",
+    "icon": "efc2b8023289a0c5c2b275229ad425ea09790729",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "clienttga": "5c3a4cda2b50d197e1db3d343e03ac86a5b132f2",
+    "clienticon": "1900f90d8b57d6a2afc8b93ee78a9d802a4b43bd",
+    "releasestate": "released",
+    "eulas": {
+      "0": {
+        "id": "3122810_eula_0",
+        "name": "Project Vesperi Playtest EULA",
+        "url": "https://store.steampowered.com//eula/3122810_eula_0",
+        "version": "1"
+      }
+    },
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "23.9405145437629",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "23.9405145437629",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1722156422",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1760813665",
+    "community_hub_visible": "1",
+    "gameid": "3122810",
+    "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default"
+  },
+  "config": {
+    "installdir": "Project Vesperi Beta",
+    "launch": {
+      "0": {
+        "executable": "Anomaly_Sprint1.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3122811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "124861482801352103",
+          "size": "11324878140",
+          "download": "10924914832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "16428122",
+        "timeupdated": "1731726248"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "300000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Anomaly_Sprint1\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
 }
