@@ -221,5 +221,34 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MysteryCrown/Back3/Steam",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "MysteryCrown/Back3/Steam",
+            "replace": "MysteryCrown/Back3/Steam"
+          }
+        }
+      }
+    }
   }
 }
