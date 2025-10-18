@@ -1,6 +1,5 @@
 {
   "appid": "4101220",
-  "public_only": "1",
   "common": {
     "name": "Echo of the DarkZone Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -89,11 +88,42 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4101220",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Archiducks",
+    "publisher": "Archiducks"
+  },
+  "config": {
+    "installdir": "Echo of the DarkZone Demo",
+    "launch": {
+      "0": {
+        "executable": "Echo of the DarkZone.exe"
+      }
+    }
+  },
+  "depots": {
+    "4101221": {
+      "manifests": {
+        "public": {
+          "gid": "4329990701432510689",
+          "size": "394047599",
+          "download": "145579776"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20446224",
+        "timeupdated": "1760775411"
+      }
     }
   }
 }
