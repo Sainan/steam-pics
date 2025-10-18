@@ -1,6 +1,5 @@
 {
   "appid": "4100220",
-  "public_only": "1",
   "common": {
     "name": "Pilgrim of Darkness Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ac652ebb1fbab1e58c898cbfb0b18508295a2ace/capsule_231x87.jpg"
@@ -91,7 +90,54 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4100220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "VIWESA GAMES",
+    "publisher": "VIWESA GAMES"
+  },
+  "config": {
+    "installdir": "Pilgrim of Darkness Demo",
+    "launch": {
+      "0": {
+        "executable": "Pilgrims_of_Darkness.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4100221": {
+      "manifests": {
+        "public": {
+          "gid": "5625298552133902200",
+          "size": "3882389129",
+          "download": "3566500768"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20446268",
+        "timeupdated": "1760776191"
+      }
+    }
   }
 }
