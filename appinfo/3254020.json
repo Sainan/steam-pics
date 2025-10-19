@@ -1,6 +1,5 @@
 {
   "appid": "3254020",
-  "public_only": "1",
   "common": {
     "name": "Exit Zone",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "be09074bec2374861e51b71a830a1978ec0ca4c3",
     "clienticon": "43ec5988b67c2e5a71d666f274571207d8d72c79",
     "clienttga": "5150648cf352cef0696185c0b93de6268381c8ca",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "58e0accf7ae6c0e1af10937fb3d0e26b1c7a082a/capsule_231x87.jpg"
@@ -113,9 +112,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3254020",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -138,5 +137,62 @@
       "18": "4175",
       "19": "493"
     }
+  },
+  "extended": {
+    "developer": "Daniel Seman",
+    "publisher": "Galactic Games",
+    "homepage": "https://galacticgames.site/"
+  },
+  "config": {
+    "installdir": "ExitZone",
+    "launch": {
+      "0": {
+        "executable": "ExitZone.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3254021": {
+      "manifests": {
+        "public": {
+          "gid": "8445943602142025497",
+          "size": "4456383959",
+          "download": "2071248320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20452680",
+        "timeupdated": "1760857818"
+      }
+    },
+    "privatebranches": "1"
   }
 }
