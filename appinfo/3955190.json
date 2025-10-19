@@ -1,6 +1,5 @@
 {
   "appid": "3955190",
-  "public_only": "1",
   "common": {
     "name": "Forgotten Eras Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "c66fa9c551134d918f7626a01200b9d538a960c3",
     "icon": "0787827a7d4c9f74a4f1d0d2478a6536843b6a89",
     "clienticns": "c66fa9c551134d918f7626a01200b9d538a960c3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -105,7 +104,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760119303",
+    "community_visible_stats": "1",
     "gameid": "3955190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Alexander Gorbenko",
+    "publisher": "Alexander Gorbenko",
+    "homepage": "https://behindthehump.com/"
+  },
+  "config": {
+    "installdir": "Forgotten Eras Demo",
+    "launch": {
+      "0": {
+        "executable": "ForgottenEras.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3955191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7068751389946303571",
+          "size": "4841043308",
+          "download": "4494214208"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20455230",
+        "timeupdated": "1760891901"
+      }
+    }
   }
 }
