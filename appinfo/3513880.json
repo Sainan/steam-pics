@@ -45,22 +45,32 @@
     "publisher": "aerealis"
   },
   "config": {
-    "installdir": "{ v e l o c i t y } demo",
+    "installdir": "{ v e l o c i t y } workingh",
     "launch": {
       "0": {
-        "executable": "v e l o c i t y demo/v e l o c i t y.exe",
+        "executable": "v e l o c i t y workingh/v e l o c i t y.exe",
         "type": "default"
       }
     }
   },
   "depots": {
     "3513881": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "3190586006984237366",
           "size": "133026815",
           "download": "61557488"
         }
+      }
+    },
+    "3513882": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
       }
     },
     "branches": {
