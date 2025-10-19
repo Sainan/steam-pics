@@ -1,6 +1,5 @@
 {
   "appid": "3813240",
-  "public_only": "1",
   "common": {
     "name": "Eleven",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5746e9b33863b26b04f2ad0ebdb6fe4c040d320e/capsule_231x87.jpg"
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760884658",
     "community_hub_visible": "1",
     "gameid": "3813240",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -132,5 +131,60 @@
       "18": "3859",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "PlayIEC",
+    "publisher": "PlayIEC",
+    "homepage": "https://playiec.com"
+  },
+  "config": {
+    "installdir": "Eleven",
+    "launch": {
+      "0": {
+        "executable": "Eleven.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3813241": {
+      "manifests": {
+        "public": {
+          "gid": "3169095495350278072",
+          "size": "1833183933",
+          "download": "1589948608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20453812",
+        "timeupdated": "1760874234"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
