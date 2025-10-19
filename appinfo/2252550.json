@@ -11,8 +11,8 @@
     },
     "clienticon": "85de0a098c2f8f02a538138f10d31f17e7400d90",
     "clienttga": "f18d819d873aac3f9f76cf22c7f46cd6925e6d60",
-    "oslist": "windows",
-    "osarch": "",
+    "oslist": "windows,linux",
+    "osarch": "64",
     "osextended": "",
     "icon": "77b82dbe8bc384500f48333c6132f700ecdb5284",
     "controllertagwizard": "1",
@@ -150,10 +150,20 @@
       }
     },
     "steamdecktouchscreen": "5",
-    "steamconfigurator3rdpartynative": "7"
+    "steamconfigurator3rdpartynative": "7",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
   },
   "depots": {
     "2252551": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "5936998665434893535",
@@ -162,6 +172,14 @@
         }
       }
     },
+    "2252552": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64",
+        "steamdeck": "1"
+      }
+    },
+    "hasdepotsindlc": "1",
     "branches": {
       "public": {
         "buildid": "20457269",
