@@ -1,6 +1,5 @@
 {
   "appid": "3848320",
-  "public_only": "1",
   "common": {
     "name": "WanYaoChao",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "ffa23bdc3e10805c333c146e114f6a76187083be",
     "clienticon": "e142335b4d2320a21cadaa46d39deadbce18f2b5",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4d8d3a5f0a84e88300c8b3e02c06ed6ee8dd8b3c/capsule_231x87.jpg"
@@ -109,7 +108,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3848320",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -131,6 +129,56 @@
       "17": "1775",
       "18": "4182",
       "19": "1685"
+    }
+  },
+  "extended": {
+    "developer": "否飞",
+    "publisher": "否飞"
+  },
+  "config": {
+    "installdir": "WanYaoChao",
+    "launch": {
+      "0": {
+        "executable": "WanYaoChao.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3848321": {
+      "manifests": {
+        "public": {
+          "gid": "5562329103427516080",
+          "size": "2264848344",
+          "download": "1033217472"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20300771",
+        "timeupdated": "1759916346"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "WanYaoChao/Chara",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
