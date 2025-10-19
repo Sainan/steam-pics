@@ -1,6 +1,5 @@
 {
   "appid": "3495040",
-  "public_only": "1",
   "common": {
     "name": "100 Dubai Cats",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "16272daa78a2f839be27ad1065b3e7ef89b03dfc",
     "clienttga": "69040c6a34197d0b2b1619f27b6fc8211ed267b1",
     "icon": "44456de287e57762f47a4914f4342f0e49a0b383",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7fd01522cc0252071d37682b355d5aad9f7829db/capsule_231x87.jpg"
@@ -419,9 +418,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760886051",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3495040",
-    "exfgls": "8",
     "store_tags": {
       "0": "113",
       "1": "597",
@@ -443,6 +443,51 @@
       "17": "3834",
       "18": "5652",
       "19": "5154"
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "publisher": "100 Cozy Games",
+    "listofdlc": "3934140",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "100 Dubai Cats",
+    "launch": {
+      "0": {
+        "executable": "100 Dubai Cats.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3495041": {
+      "manifests": {
+        "public": {
+          "gid": "8864492309383091140",
+          "size": "431618232",
+          "download": "49944432"
+        }
+      }
+    },
+    "3934140": {
+      "dlcappid": "3934140",
+      "manifests": {
+        "public": {
+          "gid": "2671959473669521769",
+          "size": "70888702",
+          "download": "68741360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19784654",
+        "timeupdated": "1756465311"
+      }
     }
   }
 }
