@@ -1,6 +1,5 @@
 {
   "appid": "3858230",
-  "public_only": "1",
   "common": {
     "name": "Toto à la plage",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "efa276033f14d47a564be9470077b7aff6272333",
     "clienticon": "efa276033f14d47a564be9470077b7aff6272333",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -94,8 +93,7 @@
       "4": "37"
     },
     "category": {
-      "category_2": "1",
-      "category_62": "1"
+      "category_2": "1"
     },
     "supported_languages": {
       "french": {
@@ -104,6 +102,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760863898",
     "community_hub_visible": "1",
     "gameid": "3858230",
     "exfgls": "3",
@@ -122,6 +121,48 @@
       "11": "4166",
       "12": "7250",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Totoludies",
+    "publisher": "Totoludies",
+    "homepage": "https://www.totoludies.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Toto à la plage",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "Toto à la plage.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3858231": {
+      "config": {
+        "language": "french",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8388313112937091689",
+          "size": "613012024",
+          "download": "218645856"
+        }
+      }
+    },
+    "baselanguages": "french",
+    "branches": {
+      "public": {
+        "buildid": "20048780",
+        "timeupdated": "1758289865"
+      }
     }
   }
 }
