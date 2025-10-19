@@ -1,6 +1,5 @@
 {
   "appid": "4017890",
-  "public_only": "1",
   "common": {
     "name": "ワンコワンコ大作戦 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
       "english": "WANKO WANKO ADVENTURE Demo",
       "schinese": "狗狗 伟大的冒险 Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -99,7 +98,57 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4017890",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Yamabico Games",
+    "publisher": "Yamabico Games"
+  },
+  "config": {
+    "installdir": "ワンコワンコ大作戦 Demo",
+    "launch": {
+      "0": {
+        "executable": "WindowsNoEditor/WWD.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017891": {
+      "manifests": {
+        "public": {
+          "gid": "2332099967893254627",
+          "size": "1638868560",
+          "download": "1534586496"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20452678",
+        "timeupdated": "1760857317"
+      }
+    }
   }
 }
