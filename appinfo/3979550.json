@@ -1,6 +1,5 @@
 {
   "appid": "3979550",
-  "public_only": "1",
   "common": {
     "name": "The Game Maker",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "53a33d942cc2eb3fb1945b0188146796b0fbee18",
     "icon": "53a33d942cc2eb3fb1945b0188146796b0fbee18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760907018",
     "community_hub_visible": "1",
     "gameid": "3979550",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -126,6 +125,47 @@
       "10": "4182",
       "11": "3871",
       "12": "492"
+    }
+  },
+  "extended": {
+    "developer": "MDNA Games",
+    "publisher": "MDNA Games",
+    "homepage": "http://www.mdna-games.com/Gamemaker/about.htm"
+  },
+  "config": {
+    "installdir": "The Game Maker",
+    "launch": {
+      "0": {
+        "executable": "The Game Maker.exe"
+      }
+    }
+  },
+  "depots": {
+    "3979551": {
+      "manifests": {
+        "public": {
+          "gid": "7363207282161745225",
+          "size": "2056584048",
+          "download": "2005694928"
+        },
+        "test": {
+          "gid": "8695292302973402618",
+          "size": "428796480",
+          "download": "382658160"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20121927",
+        "timeupdated": "1758794488"
+      },
+      "test": {
+        "buildid": "20188726",
+        "description": "Branch for debug test version",
+        "timeupdated": "1759233608"
+      }
     }
   }
 }
