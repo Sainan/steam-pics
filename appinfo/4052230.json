@@ -1,6 +1,5 @@
 {
   "appid": "4052230",
-  "public_only": "1",
   "common": {
     "name": "Journey to Slimetopia",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "5ed0a49ca3cc323065483cf9f19e9515c21a3e53",
     "icon": "5ed0a49ca3cc323065483cf9f19e9515c21a3e53",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3dba851a364763f216963076b79593acd52a1de4/capsule_231x87.jpg"
@@ -95,8 +94,7 @@
       "category_22": "1",
       "category_69": "1",
       "category_74": "1",
-      "category_78": "1",
-      "category_62": "1"
+      "category_78": "1"
     },
     "supported_languages": {
       "english": {
@@ -105,6 +103,8 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760895003",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4052230",
     "exfgls": "3",
@@ -130,5 +130,47 @@
       "18": "30358",
       "19": "3993"
     }
+  },
+  "extended": {
+    "developer": "Betula games",
+    "publisher": "Betula games",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Journey to Slimetopia",
+    "launch": {
+      "0": {
+        "executable": "Journey to Slimetopia.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Start game"
+        },
+        "description": "Start game"
+      }
+    }
+  },
+  "depots": {
+    "4052231": {
+      "manifests": {
+        "public": {
+          "gid": "2569412129860138101",
+          "size": "253615624",
+          "download": "107850800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20447856",
+        "timeupdated": "1760796366"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
