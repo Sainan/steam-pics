@@ -1,6 +1,5 @@
 {
   "appid": "3905590",
-  "public_only": "1",
   "common": {
     "name": "Chill Fox",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienttga": "81a6cc5e50326ffb9fc81807df7c63bdfb1aa743",
     "clienticon": "dfa70b50d80d9ae866ef50cab87a5babb3e19f73",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "29c62bd0a09d10184d683b2578bdb8abd6b86d5d/capsule_231x87.jpg"
@@ -120,9 +119,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3905590",
-    "exfgls": "8",
     "store_tags": {
       "0": "4136",
       "1": "599",
@@ -145,5 +145,83 @@
       "18": "3968",
       "19": "1638"
     }
+  },
+  "extended": {
+    "developer": "Xelo Games",
+    "publisher": "Xelo Games",
+    "homepage": "https://linktr.ee/chillfoxgame"
+  },
+  "config": {
+    "installdir": "Chill Fox",
+    "launch": {
+      "0": {
+        "executable": "ChillFox.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229032": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3905591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2934715213148530287",
+          "size": "2939810279",
+          "download": "2774322448"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20443264",
+        "timeupdated": "1760756478"
+      }
+    },
+    "privatebranches": "1"
   }
 }
