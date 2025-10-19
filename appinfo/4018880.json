@@ -1,16 +1,15 @@
 {
   "appid": "4018880",
-  "public_only": "1",
   "common": {
     "name": "みんなでPhysical TRAIN　～チャムランド国営鉄道～ Demo",
     "type": "Demo",
     "parent": "3897310",
     "icon": "ce531898391ebfdd559265cd42e48a1c5ff5ad17",
     "clienticon": "ce531898391ebfdd559265cd42e48a1c5ff5ad17",
-    "oslist": "windows,linux",
+    "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -45,7 +44,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4018880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Cham.",
+    "publisher": "Cham."
+  },
+  "config": {
+    "installdir": "PhysicalTrainChamDemo",
+    "launch": {
+      "0": {
+        "executable": "PhysicalTrainChamDemo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4018881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8539101858430016135",
+          "size": "5050365306",
+          "download": "1573864512"
+        },
+        "local": {
+          "gid": "981354471881596560",
+          "size": "5865698284",
+          "download": "1604154944"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20355815",
+        "timeupdated": "1760255070"
+      },
+      "local": {
+        "buildid": "20071980",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1758524459"
+      }
+    },
+    "privatebranches": "1"
   }
 }
