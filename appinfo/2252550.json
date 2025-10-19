@@ -146,7 +146,19 @@
     "launch": {
       "0": {
         "executable": "Hope.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Hope",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
       }
     },
     "steamdecktouchscreen": "5",
