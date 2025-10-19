@@ -1,6 +1,5 @@
 {
   "appid": "3994710",
-  "public_only": "1",
   "common": {
     "name": "Mr Toffee's Slow-Thermo Sudoku Puzzles",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "757f96172df921b5bbcb543894253ef322fb844c",
     "linuxclienticon": "796ca9fab6e712aed7032e396c9a57eefbc209e3",
     "clienticns": "57e5c51f26a204da3ad2fa0d25e59d2b7633f36a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3994710",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -116,6 +115,62 @@
       "5": "4182",
       "6": "492",
       "7": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Tom Fry",
+    "publisher": "Tom Fry"
+  },
+  "config": {
+    "installdir": "Mr Toffee's Slow-Thermo Sudoku Puzzles",
+    "launch": {
+      "0": {
+        "executable": "ToffeeMac.app/Contents/MacOS/ToffeeMac",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "TOFFEE-LINUX-1.0.4-linux-x86_64.AppImage",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3994711": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4605271368027932771",
+          "size": "119009939",
+          "download": "118725712"
+        }
+      }
+    },
+    "3994712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7867397989532449589",
+          "size": "441470645",
+          "download": "174787072"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20453933",
+        "timeupdated": "1760876014"
+      }
     }
   }
 }
