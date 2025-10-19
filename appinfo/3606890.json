@@ -266,6 +266,22 @@
         },
         "recursive": "1"
       }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      }
     }
   }
 }
