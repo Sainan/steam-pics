@@ -1,6 +1,5 @@
 {
   "appid": "3997030",
-  "public_only": "1",
   "common": {
     "name": "Abyss Dungeon",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -106,9 +105,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760915701",
     "community_hub_visible": "1",
     "gameid": "3997030",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4434",
@@ -122,6 +121,58 @@
       "9": "4791",
       "10": "4004",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "MildAcidMale",
+    "publisher": "MildAcidMale"
+  },
+  "config": {
+    "installdir": "AbyssDungeon",
+    "launch": {
+      "0": {
+        "executable": "AbyssDungeon.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3997031": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3444320484735405138",
+          "size": "205245878",
+          "download": "82064592"
+        }
+      }
+    },
+    "3997032": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9204171571901517744",
+          "size": "205051333",
+          "download": "82058480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20065485",
+        "timeupdated": "1758454118"
+      }
     }
   }
 }
