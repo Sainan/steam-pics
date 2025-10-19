@@ -1,6 +1,5 @@
 {
   "appid": "4068920",
-  "public_only": "1",
   "common": {
     "name": "Graviton Flux Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "30978fd80f3a57e02da7406a81897d66713f55fb/capsule_231x87.jpg"
     },
@@ -32,7 +31,46 @@
     "category": {
       "category_74": "1"
     },
+    "steam_release_date": "1761894000",
     "gameid": "4068920",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Feedbacc Studios",
+    "publisher": "Feedbacc Studios"
+  },
+  "config": {
+    "installdir": "Graviton Flux Demo",
+    "launch": {
+      "0": {
+        "executable": "Graviton Flux Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068921": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4039851130092775424",
+          "size": "100818303",
+          "download": "33305984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20448187",
+        "timeupdated": "1760799622"
+      }
+    }
   }
 }
