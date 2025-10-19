@@ -1,6 +1,5 @@
 {
   "appid": "4074170",
-  "public_only": "1",
   "common": {
     "name": "Floorball League 2010 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -98,7 +97,86 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4074170",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": " Prodigium Game Studios",
+    "publisher": " FIJOY Games"
+  },
+  "config": {
+    "installdir": "Floorball League 2010 Demo",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15",
+    "launch": {
+      "0": {
+        "executable": "FBL_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        }
+      },
+      "1": {
+        "executable": "Launcher.exe",
+        "type": "config",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "Settings"
+        },
+        "description": "Settings"
+      }
+    },
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "228982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4074171": {
+      "manifests": {
+        "public": {
+          "gid": "5177848827741095846",
+          "size": "318330173",
+          "download": "260188704"
+        }
+      }
+    },
+    "baselanguages": "english,finnish",
+    "branches": {
+      "public": {
+        "buildid": "20456753",
+        "timeupdated": "1760907830"
+      }
+    }
   }
 }
