@@ -1,0 +1,206 @@
+{
+  "appid": "2911520",
+  "common": {
+    "name": "Path Weaver",
+    "type": "Game",
+    "icon": "e5a4e790304a13a9bdf3e2944e8235a819819ddf",
+    "clienttga": "d474f67e3c03d55acad2b83c0196dfd4bf821bec",
+    "clienticns": "94f1c4ef5426d11d21fbc1323ad98a035601429a",
+    "linuxclienticon": "33cab73382e04c4d422769c5abe2a8dc0db5eb7d",
+    "clienticon": "33cab73382e04c4d422769c5abe2a8dc0db5eb7d",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "66.80290644868302",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "66.80290644868302",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1715852674",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Crow Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Crow Studios"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "25",
+      "1": "4",
+      "2": "23",
+      "3": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "turkish": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1716186313",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2911520",
+    "store_tags": {
+      "0": "597",
+      "1": "21",
+      "2": "1664",
+      "3": "1698",
+      "4": "3871",
+      "5": "1684",
+      "6": "4136",
+      "7": "16094",
+      "8": "1647",
+      "9": "492",
+      "10": "9",
+      "11": "1751",
+      "12": "4182",
+      "13": "11014"
+    },
+    "review_score": "5",
+    "review_percentage": "66"
+  },
+  "extended": {
+    "developer": "Crow Studios",
+    "publisher": "Crow Studios"
+  },
+  "config": {
+    "installdir": "Path Weaver",
+    "launch": {
+      "0": {
+        "executable": "Path Weaver.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Path Weaver Windows Version"
+        },
+        "description": "Path Weaver Windows Version"
+      }
+    }
+  },
+  "depots": {
+    "2911521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1052427009582395807",
+          "size": "1668390014",
+          "download": "263987376"
+        }
+      }
+    },
+    "2911522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7127939875690204858",
+          "size": "1695964172",
+          "download": "275671296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "14473298",
+        "timeupdated": "1716546559"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Crow Studios/Path Weaver",
+        "pattern": "*.game"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Crow Studios/Path Weaver",
+            "replace": "unity.Crow Studios.Path Weaver"
+          }
+        }
+      }
+    }
+  }
+}
