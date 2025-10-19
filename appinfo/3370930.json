@@ -1,0 +1,198 @@
+{
+  "appid": "3370930",
+  "common": {
+    "name": "SlimeBrew",
+    "type": "Game",
+    "releasestate": "released",
+    "name_localized": {
+      "japanese": "スライムブリュー"
+    },
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "7fd0a22c8e41bf58696b36d8740b21aa3ebe59da",
+    "clienticon": "b2b09b2be7674c59c186ac86606320fb063dffed",
+    "clienttga": "c48fdcc5f953c36e8811b052aebea853aad8cd6e",
+    "languages": {
+      "english": "1",
+      "japanese": "1"
+    },
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "acf343c76f2117c37cebd6ffa871f089334928c3/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomCenter",
+        "width_pct": "97.66627771295217",
+        "height_pct": "99.62004274519117"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "300f15a20aa4a8e828a286705d42472ed675e766/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "300f15a20aa4a8e828a286705d42472ed675e766/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "731fcd557d421fea8914b3e5e959b79c944a4935/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "731fcd557d421fea8914b3e5e959b79c944a4935/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "731fcd557d421fea8914b3e5e959b79c944a4935/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "a53130d1332e72d391449b6fd0ae5cace77d2646/logo.png"
+        },
+        "image2x": {
+          "english": "a53130d1332e72d391449b6fd0ae5cace77d2646/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomCenter",
+          "width_pct": "97.66627771295217",
+          "height_pct": "99.62004274519117"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "d345da295a7bd3b433e4bd847cb574557f4a4f37/library_header.jpg"
+        },
+        "image2x": {
+          "english": "d345da295a7bd3b433e4bd847cb574557f4a4f37/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1733204624",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "uptum"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "uptum"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "4"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_28": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1741044598",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "3370930",
+    "store_tags": {
+      "0": "1664",
+      "1": "4726",
+      "2": "19",
+      "3": "597",
+      "4": "4166",
+      "5": "3968",
+      "6": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "uptum",
+    "publisher": "uptum"
+  },
+  "config": {
+    "installdir": "SlimeBrew",
+    "launch": {
+      "0": {
+        "executable": "SlimeBrew.exe"
+      }
+    }
+  },
+  "depots": {
+    "3370931": {
+      "manifests": {
+        "public": {
+          "gid": "4441799307129481458",
+          "size": "75100371",
+          "download": "54878400"
+        },
+        "test": {
+          "gid": "8628404336532977272",
+          "size": "95549216",
+          "download": "65902688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19966462",
+        "timeupdated": "1757737373"
+      },
+      "test": {
+        "buildid": "20452410",
+        "description": "test",
+        "timeupdated": "1760853205"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SlimeBrew/Save/{64BitSteamID}/",
+        "pattern": "*.dat",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SlimeBrew/Save/{64BitSteamID}/",
+            "replace": "SlimeBrew/Save/{64BitSteamID}/"
+          }
+        }
+      }
+    }
+  }
+}
