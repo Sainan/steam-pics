@@ -1,6 +1,5 @@
 {
   "appid": "3854490",
-  "public_only": "1",
   "common": {
     "name": "FUN HOME",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -115,7 +114,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3854490",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -140,6 +138,43 @@
       "17": "122",
       "18": "492",
       "19": "5186"
+    }
+  },
+  "extended": {
+    "developer": "Deathink",
+    "publisher": "Deathink"
+  },
+  "config": {
+    "installdir": "FUN HOME",
+    "launch": {
+      "0": {
+        "executable": "fun_home.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3854491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4268633583134936572",
+          "size": "33564806",
+          "download": "27283264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20452151",
+        "timeupdated": "1760849581"
+      }
     }
   }
 }
