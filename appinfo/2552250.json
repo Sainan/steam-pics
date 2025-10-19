@@ -151,5 +151,44 @@
         "timeupdated": "1760889404"
       }
     }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "LionSword Studios/Cosmic Carnage",
+        "pattern": "*.cosmiccarnage"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "unity.lionswordstudios.cosmiccarnage"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".config/unity3d/LionSword Studios/Cosmic Carnage"
+          }
+        }
+      }
+    }
   }
 }
