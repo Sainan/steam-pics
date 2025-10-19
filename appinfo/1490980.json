@@ -209,5 +209,32 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Revolab/MirrorLayers",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Revolab/MirrorLayers/pinned",
+        "pattern": "*.mirror",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Revolab/MirrorLayers/statue",
+        "pattern": "*.mirror"
+      }
+    }
   }
 }
