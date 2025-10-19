@@ -1,10 +1,9 @@
 {
   "appid": "3998980",
-  "public_only": "1",
   "common": {
     "name": "Project Signal",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "4baa251c77eb067c45cde1adc6814f65078a15b3",
     "clienticon": "4baa251c77eb067c45cde1adc6814f65078a15b3",
     "oslist": "windows",
@@ -103,9 +102,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3998980",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4191",
@@ -117,6 +116,40 @@
       "7": "8369",
       "8": "6869",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "AcroGames",
+    "publisher": "AcroGames",
+    "homepage": "https://www.acrogamesfin.com/"
+  },
+  "config": {
+    "installdir": "Project Signal",
+    "launch": {
+      "0": {
+        "executable": "Project Signal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3998981": {
+      "manifests": {
+        "public": {
+          "gid": "4166382461414316082",
+          "size": "51312272",
+          "download": "41602464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20453179",
+        "timeupdated": "1760864568"
+      }
     }
   }
 }
