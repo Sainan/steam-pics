@@ -1,6 +1,5 @@
 {
   "appid": "3602750",
-  "public_only": "1",
   "common": {
     "name": "AO: Containment Breach Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,5 +47,35 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Prismatix-",
+    "publisher": "Prismatix-"
+  },
+  "config": {
+    "installdir": "AO Containment Breach Demo",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3602751": {
+      "manifests": {
+        "public": {
+          "gid": "1268077316063038514",
+          "size": "1266334216",
+          "download": "637505120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20457406",
+        "timeupdated": "1760919462"
+      }
+    },
+    "privatebranches": "1"
   }
 }
