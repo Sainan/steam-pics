@@ -1,6 +1,5 @@
 {
   "appid": "3593990",
-  "public_only": "1",
   "common": {
     "name": "番言薯语",
     "type": "Game",
@@ -19,13 +18,18 @@
         "version": "3"
       }
     },
-    "name_localized": {},
+    "name_localized": {
+      "sc_schinese": "番言薯语"
+    },
+    "releasestatesteamchina": "released",
     "controllertagwizard": "1",
     "small_capsule": {
-      "english": "8d15714958820e1d785b587a34b24d99fa7b9f10/capsule_231x87.jpg"
+      "english": "8d15714958820e1d785b587a34b24d99fa7b9f10/capsule_231x87.jpg",
+      "sc_schinese": "8d15714958820e1d785b587a34b24d99fa7b9f10/capsule_231x87_sc_schinese.jpg"
     },
     "header_image": {
-      "english": "e3774adbf73cf6341cf4dd53a03fc4189d8d7145/header.jpg"
+      "english": "e3774adbf73cf6341cf4dd53a03fc4189d8d7145/header.jpg",
+      "sc_schinese": "e3774adbf73cf6341cf4dd53a03fc4189d8d7145/header_sc_schinese.jpg"
     },
     "library_assets": {
       "library_capsule": "en,zh-xc",
@@ -42,10 +46,12 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "6239c8ee3cb142d1f24ae8b1fdf1053e13f6064f/library_600x900.jpg"
+          "english": "6239c8ee3cb142d1f24ae8b1fdf1053e13f6064f/library_600x900.jpg",
+          "sc_schinese": "6239c8ee3cb142d1f24ae8b1fdf1053e13f6064f/library_capsule_sc_schinese.jpg"
         },
         "image2x": {
-          "english": "6239c8ee3cb142d1f24ae8b1fdf1053e13f6064f/library_600x900_2x.jpg"
+          "english": "6239c8ee3cb142d1f24ae8b1fdf1053e13f6064f/library_600x900_2x.jpg",
+          "sc_schinese": "6239c8ee3cb142d1f24ae8b1fdf1053e13f6064f/library_capsule_sc_schinese_2x.jpg"
         }
       },
       "library_hero": {
@@ -68,10 +74,12 @@
           "height_pct": "49.99125713981907"
         },
         "image": {
-          "english": "6f650c73f02c8e39e3bd5a927d9b7f32cdb44ece/logo.png"
+          "english": "6f650c73f02c8e39e3bd5a927d9b7f32cdb44ece/logo.png",
+          "sc_schinese": "6f650c73f02c8e39e3bd5a927d9b7f32cdb44ece/logo_sc_schinese.png"
         },
         "image2x": {
-          "english": "6f650c73f02c8e39e3bd5a927d9b7f32cdb44ece/logo_2x.png"
+          "english": "6f650c73f02c8e39e3bd5a927d9b7f32cdb44ece/logo_2x.png",
+          "sc_schinese": "6f650c73f02c8e39e3bd5a927d9b7f32cdb44ece/logo_sc_schinese_2x.png"
         }
       },
       "library_header": {
@@ -144,5 +152,93 @@
     },
     "review_score": "7",
     "review_percentage": "96"
+  },
+  "extended": {
+    "developer": "六耳猕薯",
+    "publisher": "番薯宇宙"
+  },
+  "config": {
+    "installdir": "番言薯语",
+    "launch": {
+      "0": {
+        "executable": "VOOG\\PotatoVoice.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "realm": "steamglobal"
+        }
+      },
+      "1": {
+        "executable": "PotatoVoice.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "realm": "steamchina"
+        }
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    }
+  },
+  "depots": {
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3593991": {
+      "config": {
+        "realm": "steamglobal"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1298222636016960365",
+          "size": "765427657",
+          "download": "632391280"
+        }
+      }
+    },
+    "3593992": {
+      "config": {
+        "oslist": "windows",
+        "realm": "steamchina"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5745827320636253220",
+          "size": "899460668",
+          "download": "623067856"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20321123",
+        "timeupdated": "1760016914"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "/VOOG/save",
+        "pattern": "*oogl",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
   }
 }
