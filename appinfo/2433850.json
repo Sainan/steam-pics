@@ -1,13 +1,12 @@
 {
   "appid": "2433850",
-  "public_only": "1",
   "common": {
     "name": "Arcane Tower Survivors",
     "type": "Game",
     "icon": "53bde46c4e3f317f846621b1965aebf08e32f9fa",
     "clienticon": "2d001e5c4adbc7d179dc3304e78b37a3b6ff6abb",
     "clienttga": "4b3b6acb93895bfa5c84861748052face7b7ade0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -148,9 +147,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761224397",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2433850",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -172,6 +172,75 @@
       "17": "492",
       "18": "1684",
       "19": "5030"
+    }
+  },
+  "extended": {
+    "developer": "Red Horde Games",
+    "publisher": "Red Horde Games"
+  },
+  "config": {
+    "installdir": "Arcane Tower Survivors",
+    "launch": {
+      "0": {
+        "executable": "Arcane Tower Survivors.exe"
+      }
+    }
+  },
+  "depots": {
+    "2433851": {
+      "manifests": {
+        "public": {
+          "gid": "3801817473780077074",
+          "size": "758250765",
+          "download": "140616288"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,russian,japanese,polish,turkish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20512596",
+        "timeupdated": "1761222940"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Red Horde Games/Arcane Tower Survivors",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Red Horde Games/Arcane Tower Survivors",
+            "replace": "unity.Red Horde Games.Arcane Tower Survivors"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Red Horde Games/Arcane Tower Survivors",
+            "replace": ".config/unity3d/Red Horde Games/Arcane Tower Survivors"
+          }
+        }
+      }
     }
   }
 }
