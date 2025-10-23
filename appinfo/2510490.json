@@ -1,10 +1,9 @@
 {
   "appid": "2510490",
-  "public_only": "1",
   "common": {
     "name": "The Crazy Hyper-Dungeon Chronicles",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -114,7 +113,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760426862",
+    "store_asset_mtime": "1761201447",
     "associations": {
       "0": {
         "type": "developer",
@@ -132,7 +131,8 @@
     "primary_genre": "3",
     "genres": {
       "0": "25",
-      "1": "3"
+      "1": "23",
+      "2": "3"
     },
     "category": {
       "category_2": "1",
@@ -143,11 +143,10 @@
       "category_28": "1",
       "category_57": "1",
       "category_58": "1",
-      "category_64": "1",
       "category_68": "1",
       "category_69": "1",
       "category_75": "1",
-      "category_78": "1",
+      "category_29": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -176,9 +175,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761206452",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2510490",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "1720",
@@ -197,9 +197,104 @@
       "14": "4231",
       "15": "7208",
       "16": "4305",
-      "17": "1741",
-      "18": "3993",
-      "19": "4559"
+      "17": "492",
+      "18": "1741",
+      "19": "3993"
     }
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Fix-a-Bug",
+    "publisher": "Fix-a-Bug",
+    "homepage": "https://thecrazyhyperdungeonchronicles.com/"
+  },
+  "config": {
+    "installdir": "TheCrazyHyper-DungeonChronicles",
+    "launch": {
+      "0": {
+        "executable": "tchdc.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "The Crazy Hyper-Dungeon Chronicles.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "tchdc",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2510491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "451167729587932126",
+          "size": "867650911",
+          "download": "314949664"
+        }
+      }
+    },
+    "2510492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1401818830481858982",
+          "size": "1883758414",
+          "download": "370766640"
+        }
+      }
+    },
+    "2510493": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1403187529790014323",
+          "size": "822956579",
+          "download": "292101488"
+        }
+      }
+    },
+    "baselanguages": "english,italian",
+    "branches": {
+      "public": {
+        "buildid": "20508644",
+        "timeupdated": "1761203925"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100"
   }
 }
