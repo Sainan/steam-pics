@@ -1,6 +1,5 @@
 {
   "appid": "3610530",
-  "public_only": "1",
   "common": {
     "name": "D.P.S: Weapons Testing Facility 2",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "0c5ca32bdbc874fa034fd4d2f033df05113beac3",
     "clienttga": "ae51a25b41014175c9eb3e39168535e5ec49f573",
     "icon": "b04c2c100e43913221b6c8f49eb412b683368271",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a94c9716d77b393dc28171d1f80e1d3bd05dfa4a/capsule_231x87.jpg"
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1754466065",
+    "store_asset_mtime": "1761108798",
     "associations": {
       "0": {
         "type": "developer",
@@ -93,6 +92,13 @@
       "category_2": "1",
       "category_23": "1",
       "category_15": "1",
+      "category_22": "1",
+      "category_66": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_77": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -102,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761132744",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3610530",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1645",
@@ -118,6 +125,49 @@
       "9": "6730",
       "10": "1716",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Cool Smithy Games",
+    "publisher": "Cool Smithy Games"
+  },
+  "config": {
+    "installdir": "D.P.S Weapons Testing Facility 2",
+    "launch": {
+      "0": {
+        "executable": "DPSWTF2.exe"
+      }
+    }
+  },
+  "depots": {
+    "3610531": {
+      "manifests": {
+        "public": {
+          "gid": "1093790237025748129",
+          "size": "390025806",
+          "download": "82632432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20519285",
+        "timeupdated": "1761254365"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Cool Smithy Games/DPSWTF2/{64BitSteamID}/",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
