@@ -1,6 +1,5 @@
 {
   "appid": "4060120",
-  "public_only": "1",
   "common": {
     "name": "Between These Two Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "bcf6a68f28be99975bd3d39bfc598248912509d7",
     "icon": "f1b3b5fa48e65812500db96901a8ebae5d85a1e0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4254e7b75b61421711592535a2c3d6a5375cb3a5/capsule_231x87.jpg"
@@ -105,7 +104,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760979678",
+    "community_visible_stats": "1",
     "gameid": "4060120",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mihai Calarasanu",
+    "publisher": "Mihai Calarasanu"
+  },
+  "config": {
+    "installdir": "Between These Two Demo",
+    "launch": {
+      "0": {
+        "executable": "BetweenTheseTwo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4060121": {
+      "manifests": {
+        "public": {
+          "gid": "516964135653602878",
+          "size": "2452550310",
+          "download": "2327390416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514468",
+        "timeupdated": "1761231689"
+      }
+    }
   }
 }
