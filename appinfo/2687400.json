@@ -1,6 +1,5 @@
 {
   "appid": "2687400",
-  "public_only": "1",
   "common": {
     "name": "GODBREAKERS",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "0d2730575be9dd38ff5aafe58a6c5f6c58ed9504",
     "clienttga": "d53f116e6cd4390b4b547f091f73af2bbf9ec991",
     "icon": "6ffeb1a049c2e0f5c672375306332c7509b45e57",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2687400_eula_0",
@@ -18,6 +17,20 @@
         "url": "https://store.steampowered.com//eula/2687400_eula_0",
         "version": "1"
       }
+    },
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "koreana": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "russian": "1",
+      "japanese": "1",
+      "polish": "1",
+      "brazilian": "1",
+      "ukrainian": "1"
     },
     "steam_deck_compatibility": {
       "category": "3",
@@ -138,7 +151,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759842185",
+    "store_asset_mtime": "1761224469",
     "associations": {
       "0": {
         "type": "developer",
@@ -228,9 +241,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761227819",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2687400",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "3843",
@@ -252,6 +266,74 @@
       "17": "1685",
       "18": "4236",
       "19": "4158"
+    }
+  },
+  "extended": {
+    "developer": "To The Sky",
+    "publisher": "Thunderful Publishing",
+    "homepage": "https://www.godbreakers.com/"
+  },
+  "config": {
+    "installdir": "Godbreakers",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "3": {
+        "executable": "Godbreakers.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2687401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1157824163038620272",
+          "size": "13178198340",
+          "download": "5592140320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20302905",
+        "timeupdated": "1760354416"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20971520",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Godbreakers/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
