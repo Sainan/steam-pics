@@ -1,6 +1,5 @@
 {
   "appid": "3949040",
-  "public_only": "1",
   "common": {
     "name": "RV There Yet?",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "899e9d0c070aaf9c4bdb051c0d90adebc84ad76d",
     "clienticon": "899e9d0c070aaf9c4bdb051c0d90adebc84ad76d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "05b77bc86d227612ded8e54753063e43c44698c4/capsule_231x87.jpg"
@@ -104,18 +103,18 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761050175",
     "community_hub_visible": "1",
     "gameid": "3949040",
-    "exfgls": "8",
     "store_tags": {
       "0": "3859",
       "1": "1685",
       "2": "3968",
-      "3": "21",
-      "4": "4136",
+      "3": "4136",
+      "4": "21",
       "5": "3843",
-      "6": "4166",
-      "7": "3839",
+      "6": "3839",
+      "7": "4166",
       "8": "4191",
       "9": "3834",
       "10": "1644",
@@ -123,8 +122,149 @@
       "12": "4252",
       "13": "7622",
       "14": "4747",
-      "15": "19",
-      "16": "492"
+      "15": "492",
+      "16": "19"
+    },
+    "review_score": "8",
+    "review_percentage": "80"
+  },
+  "extended": {
+    "developer": "Nuggets Entertainment",
+    "publisher": "Nuggets Entertainment"
+  },
+  "config": {
+    "installdir": "Ride",
+    "launch": {
+      "0": {
+        "executable": "Ride.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "with DirectX 12 (default)"
+        },
+        "description": "with DirectX 12 (default)"
+      },
+      "1": {
+        "executable": "Ride.exe",
+        "arguments": "-d3d11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "with DirectX 11 (solves some startup crashes)"
+        },
+        "description": "with DirectX 11 (solves some startup crashes)"
+      },
+      "2": {
+        "executable": "Ride.exe",
+        "arguments": "-fullcrashdump",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "nightly"
+        },
+        "description_loc": {
+          "english": "with DirectX 12 (default)"
+        },
+        "description": "with DirectX 12 (default)"
+      },
+      "3": {
+        "executable": "Ride.exe",
+        "arguments": "-fullcrashdump -d3d11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "nightly"
+        },
+        "description_loc": {
+          "english": "with DirectX 11 (solves some startup crashes)"
+        },
+        "description": "with DirectX 11 (solves some startup crashes)"
+      },
+      "4": {
+        "executable": "Ride.exe",
+        "arguments": "-fullcrashdump",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "unstable"
+        },
+        "description_loc": {
+          "english": "with DirectX 12 (default)"
+        },
+        "description": "with DirectX 12 (default)"
+      },
+      "5": {
+        "executable": "Ride.exe",
+        "arguments": "-fullcrashdump -d3d11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "unstable"
+        },
+        "description_loc": {
+          "english": "with DirectX 11 (solves some startup crashes)"
+        },
+        "description": "with DirectX 11 (solves some startup crashes)"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "2"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3949041": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1600409744840229459",
+          "size": "3344812514",
+          "download": "1603219408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20508774",
+        "timeupdated": "1761212403"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ride/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
     }
   }
 }
