@@ -1,6 +1,5 @@
 {
   "appid": "3478650",
-  "public_only": "1",
   "common": {
     "name": "FreshWomen - Season 2",
     "type": "Game",
@@ -9,8 +8,8 @@
     "clienticon": "439d105fb07dd48d68d07fbb7841d10ba7d12654",
     "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "",
-    "releasestate": "prerelease",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -132,6 +131,16 @@
     "category": {
       "category_2": "1",
       "category_23": "1",
+      "category_22": "1",
+      "category_65": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_71": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_79": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -197,9 +206,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761217311",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3478650",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -228,5 +238,172 @@
       "18": "492",
       "19": "1719"
     }
+  },
+  "extended": {
+    "developer": "Pantsu Interactive",
+    "publisher": "OppaiMan Studios",
+    "listofdlc": "3930100",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "FreshWomen - Season 2",
+    "launch": {
+      "0": {
+        "executable": "FreshWomen.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "FreshWomen - Season 2"
+        },
+        "description": "FreshWomen - Season 2"
+      },
+      "1": {
+        "executable": "Julia In Japan/Julia in Japan.exe",
+        "type": "option1",
+        "config": {
+          "ownsdlc": "4104930"
+        },
+        "description_loc": {
+          "english": "Julia in Japan"
+        },
+        "description": "Julia in Japan"
+      },
+      "2": {
+        "executable": "FreshWomen.sh",
+        "type": "option1",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "FreshWomen - Season 2"
+        },
+        "description": "FreshWomen - Season 2"
+      },
+      "3": {
+        "executable": "FreshWomen.app",
+        "type": "option1",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "FreshWomen - Season 2"
+        },
+        "description": "FreshWomen - Season 2"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3115403766": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      },
+      "3115414106": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      },
+      "3115428504": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "1",
+    "steamcontrollertouchconfigdetails": {
+      "2851362451": {
+        "controller_type": "controller_mobile_touch",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3478651": {
+      "manifests": {
+        "public": {
+          "gid": "8993982351515281098",
+          "size": "24526327332",
+          "download": "24104210144"
+        },
+        "alpha_braintrust": {
+          "gid": "8993982351515281098",
+          "size": "24526327332",
+          "download": "24104210144"
+        }
+      }
+    },
+    "3930100": {
+      "dlcappid": "3930100",
+      "manifests": {
+        "public": {
+          "gid": "4193197436706874424",
+          "size": "912935984",
+          "download": "593229648"
+        },
+        "alpha_braintrust": {
+          "gid": "4193197436706874424",
+          "size": "912935984",
+          "download": "593229648"
+        }
+      }
+    },
+    "4104930": {
+      "dlcappid": "4104930"
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20507006",
+        "timeupdated": "1761191895"
+      },
+      "alpha_braintrust": {
+        "buildid": "20507006",
+        "description": "Alpha Braintrust",
+        "timeupdated": "1761191847"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "RenPy/FreshWomen-1593632962",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/FreshWomen-1593632962",
+            "replace": ".renpy/FreshWomen-1593632962"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/FreshWomen-1593632962",
+            "replace": "/Library/RenPy/FreshWomen-1593632962"
+          }
+        }
+      }
+    },
+    "appidredirect": "1350650"
   }
 }
