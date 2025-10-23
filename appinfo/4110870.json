@@ -4,9 +4,9 @@
     "name": "Culture Warz: Tactics Playtest",
     "type": "Beta",
     "parent": "3239850",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "clienticon": "3ce3dfcdc2b3fce9e118b362db55414582cc477d",
     "icon": "0d39b88d5517b375745c42d826c66c30fa55e7bc",
     "releasestate": "released",
@@ -89,6 +89,13 @@
         "type": "default",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mac Builds.app\\Contents\\MacOS\\Culture Warz Tactics",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
