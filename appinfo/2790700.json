@@ -1,18 +1,17 @@
 {
   "appid": "2790700",
-  "public_only": "1",
   "common": {
     "name": "SWAPMEAT",
     "type": "Game",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "clienticon": "2f7402ee3cc9b2c977df9d187adacf5bc27f45ab",
+    "clienticon": "8e14db40c7627025138893b1ee614e3109c1c43f",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "linuxclienticon": "4a4e94d223b40bc116bf29b0e273ab2db2f2ee9a",
     "clienticns": "0f8771de7b733babc7fb27a8dbb14136cf05851b",
-    "icon": "df441e0767005e1e304aea75adf42f123fdb992c",
-    "releasestate": "prerelease",
+    "icon": "8e14db40c7627025138893b1ee614e3109c1c43f",
+    "releasestate": "released",
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
@@ -130,7 +129,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760240525",
+    "store_asset_mtime": "1761001501",
     "associations": {
       "0": {
         "type": "developer",
@@ -176,9 +175,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761065340",
     "community_hub_visible": "1",
     "gameid": "2790700",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "3959",
@@ -200,6 +199,106 @@
       "17": "4236",
       "18": "4191",
       "19": "4295"
+    },
+    "review_score": "7",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "One More Game",
+    "publisher": "One More Game",
+    "homepage": "https://playswapmeat.com",
+    "listofdlc": "4098260,4098270,4098300",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Swapmeat",
+    "uselaunchcommandline": "1",
+    "launch": {
+      "0": {
+        "executable": "rog.exe",
+        "arguments": "--app-id=2790700 --discord-app-id=1423459835374080040 --app-environment=live --game-domain=prod.onemoregame.live -timestamps",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Swapmeat (Windows)"
+        },
+        "description": "Swapmeat (Windows)"
+      },
+      "1": {
+        "executable": "rog.app",
+        "arguments": "--app-id=2790700 --discord-app-id=1423459835374080040 --app-environment=live --game-domain=prod.onemoregame.live -screen-fullscreen 1 -timestamps",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Swapmeat (macOS)"
+        },
+        "description": "Swapmeat (macOS)"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2790701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7456398742536333052",
+          "size": "2940575732",
+          "download": "2409666880"
+        }
+      }
+    },
+    "2790702": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8487262116742691473",
+          "size": "3044325917",
+          "download": "2466563120"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20506947",
+        "timeupdated": "1761191557"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "OneMoreGame/rog/Storage/live",
+        "pattern": "Remote*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
