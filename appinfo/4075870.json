@@ -1,6 +1,5 @@
 {
   "appid": "4075870",
-  "public_only": "1",
   "common": {
     "name": "The Infinite Manor",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -119,9 +118,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761119972",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4075870",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "3834",
@@ -143,6 +143,67 @@
       "17": "6691",
       "18": "4726",
       "19": "1773"
+    }
+  },
+  "extended": {
+    "developer": "Judox Studio",
+    "publisher": "Judox Studio"
+  },
+  "config": {
+    "installdir": "The Infinite Manor",
+    "launch": {
+      "0": {
+        "executable": "The Infinite Manor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4075871": {
+      "manifests": {
+        "public": {
+          "gid": "3295574926288745867",
+          "size": "195835448",
+          "download": "72791056"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20510196",
+        "timeupdated": "1761211245"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Judox Studio/The Infinite Manor",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Judox Studio/The Infinite Manor",
+            "replace": ".config/unity3d/Judox Studio/The Infinite Manor"
+          }
+        }
+      }
     }
   }
 }
