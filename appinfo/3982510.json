@@ -1,6 +1,5 @@
 {
   "appid": "3982510",
-  "public_only": "1",
   "common": {
     "name": "Avoidthis",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -116,9 +115,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761224627",
     "community_hub_visible": "1",
     "gameid": "3982510",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -145,6 +144,39 @@
       "17": "7250",
       "18": "4182",
       "19": "16689"
+    }
+  },
+  "extended": {
+    "developer": "avoidthis_games",
+    "publisher": "avoidthis_games"
+  },
+  "config": {
+    "installdir": "Avoidthis",
+    "launch": {
+      "0": {
+        "executable": "Avoidthisgame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3982511": {
+      "manifests": {
+        "public": {
+          "gid": "6751782134466256902",
+          "size": "338864805",
+          "download": "197488464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19889337",
+        "timeupdated": "1757271728"
+      }
     }
   }
 }
