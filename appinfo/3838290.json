@@ -1,6 +1,5 @@
 {
   "appid": "3838290",
-  "public_only": "1",
   "common": {
     "name": "Refate: Echoes of Desire",
     "type": "Game",
@@ -22,7 +21,7 @@
       "tchinese": "天命重啓：心跳的抉擇",
       "schinese": "天命重启：心跳的抉择"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -163,20 +162,21 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761116423",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3838290",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
     },
     "store_tags": {
       "0": "122",
-      "1": "9204",
-      "2": "18594",
+      "1": "18594",
+      "2": "3839",
       "3": "21",
-      "4": "3839",
-      "5": "9551",
+      "4": "9551",
+      "5": "9204",
       "6": "4145",
       "7": "1742",
       "8": "6378",
@@ -187,10 +187,194 @@
       "13": "11014",
       "14": "4106",
       "15": "1664",
-      "16": "5984",
-      "17": "4947",
+      "16": "4947",
+      "17": "5984",
       "18": "1710",
       "19": "492"
+    },
+    "review_score": "8",
+    "review_percentage": "98"
+  },
+  "extended": {
+    "developer": "Terraflame Entertainment",
+    "publisher": "Mountain and Sea Studio"
+  },
+  "config": {
+    "installdir": "The Cycle of Fate",
+    "launch": {
+      "0": {
+        "executable": "CycleFate.exe"
+      }
+    }
+  },
+  "depots": {
+    "3838291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7760325701894380894",
+          "size": "247976569",
+          "download": "73473200"
+        },
+        "public_test": {
+          "gid": "7760325701894380894",
+          "size": "247976569",
+          "download": "73473200"
+        },
+        "v1.0": {
+          "gid": "7453873106580179159",
+          "size": "247975545",
+          "download": "73472544"
+        },
+        "v1.1": {
+          "gid": "7760325701894380894",
+          "size": "247976569",
+          "download": "73473200"
+        }
+      }
+    },
+    "3838292": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6168918856863223043",
+          "size": "2505491879",
+          "download": "2170313392"
+        },
+        "public_test": {
+          "gid": "6168918856863223043",
+          "size": "2505491879",
+          "download": "2170313392"
+        },
+        "v1.0": {
+          "gid": "2922045896617348149",
+          "size": "2505381287",
+          "download": "2170173296"
+        },
+        "v1.1": {
+          "gid": "6168918856863223043",
+          "size": "2505491879",
+          "download": "2170313392"
+        }
+      }
+    },
+    "3838293": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5404210993710030063",
+          "size": "6837320",
+          "download": "3808112"
+        },
+        "public_test": {
+          "gid": "5404210993710030063",
+          "size": "6837320",
+          "download": "3808112"
+        },
+        "v1.0": {
+          "gid": "500778178531233115",
+          "size": "6836960",
+          "download": "3807888"
+        },
+        "v1.1": {
+          "gid": "5404210993710030063",
+          "size": "6837320",
+          "download": "3808112"
+        }
+      }
+    },
+    "3838294": {
+      "manifests": {
+        "public": {
+          "gid": "4743512430883479420",
+          "size": "56678446576",
+          "download": "56012990688"
+        },
+        "public_test": {
+          "gid": "4743512430883479420",
+          "size": "56678446576",
+          "download": "56012990688"
+        },
+        "v1.0": {
+          "gid": "4743512430883479420",
+          "size": "56678446576",
+          "download": "56012990688"
+        },
+        "v1.1": {
+          "gid": "4743512430883479420",
+          "size": "56678446576",
+          "download": "56012990688"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20495367",
+        "timeupdated": "1761133706"
+      },
+      "public_test": {
+        "buildid": "20495367",
+        "description": "player test",
+        "timeupdated": "1761133676"
+      },
+      "v1.0": {
+        "buildid": "20478694",
+        "description": "v1.0",
+        "timeupdated": "1761099245"
+      },
+      "v1.1": {
+        "buildid": "20495367",
+        "description": "v1.1",
+        "timeupdated": "1761133735"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MountainSeaStudio/CycleFate",
+        "pattern": "*Data",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "MountainSeaStudio/CycleFate/ArchiveDatas",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "MacDocuments",
+        "path": "",
+        "pattern": "*Data",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      },
+      "3": {
+        "root": "MacDocuments",
+        "path": "ArchiveDatas",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
