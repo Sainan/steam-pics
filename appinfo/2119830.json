@@ -1,10 +1,9 @@
 {
   "appid": "2119830",
-  "public_only": "1",
   "common": {
     "name": "MISERY",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "5dad8d633082af6ad83cf023ea8e2ac5ecece72f",
     "clienttga": "b254cd874bcf1eeae81cfe02fe223aa312d7c1cd",
     "clienticon": "5dad8d633082af6ad83cf023ea8e2ac5ecece72f",
@@ -252,9 +251,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761231625",
     "community_hub_visible": "1",
     "gameid": "2119830",
-    "exfgls": "8",
     "store_tags": {
       "0": "3843",
       "1": "3859",
@@ -277,5 +276,90 @@
       "18": "4166",
       "19": "9204"
     }
+  },
+  "extended": {
+    "developer": "Platypus Entertainment",
+    "publisher": "Ytopia",
+    "homepage": "https://www.youtube.com/@PlatypusEntertainment69",
+    "listofdlc": "4119690",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "MISERY",
+    "launch": {
+      "0": {
+        "executable": "MISERY.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2119831": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3782181312966898440",
+          "size": "5895795273",
+          "download": "4227659856"
+        }
+      }
+    },
+    "2119832": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20512726",
+        "timeupdated": "1761223763"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
