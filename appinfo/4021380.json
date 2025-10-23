@@ -1,12 +1,14 @@
 {
   "appid": "4021380",
-  "public_only": "1",
   "common": {
     "name": "Absum",
     "type": "Game",
     "clienticon": "213fd5c9dc94d462b3d29f4298c8508d2f36aa0e",
     "icon": "213fd5c9dc94d462b3d29f4298c8508d2f36aa0e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
     "content_descriptors": {
       "0": "5"
     },
@@ -93,6 +95,7 @@
       "category_2": "1",
       "category_69": "1",
       "category_74": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -102,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4021380",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -117,6 +121,55 @@
       "5": "7250",
       "6": "492",
       "7": "9204"
+    }
+  },
+  "extended": {
+    "developer": "MixoGames",
+    "publisher": "MixoGames",
+    "homepage": "https://mixonat.com/"
+  },
+  "config": {
+    "installdir": "Absum",
+    "launch": {
+      "0": {
+        "executable": "Absum.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4021381": {
+      "manifests": {
+        "public": {
+          "gid": "6598819126422052467",
+          "size": "18665366587",
+          "download": "10692272704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20474350",
+        "timeupdated": "1761014431"
+      }
     }
   }
 }
