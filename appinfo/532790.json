@@ -1,10 +1,9 @@
 {
   "appid": "532790",
-  "public_only": "1",
   "common": {
     "name": "Vampire: The Masquerade - Bloodlines 2",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "clienttga": "859794d8b9e23ea3b7e6706fb2a98fbbbd869246",
@@ -41,6 +40,75 @@
       "0": "1",
       "1": "2",
       "2": "5"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1758585600",
+      "tested_build_id": "19819831",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+        },
+        "6": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_LauncherInteractionIssues"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+        },
+        "3": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "1",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
     },
     "metacritic_name": "Vampire: The Masquerade® - Bloodlines™ 2",
     "controllertagwizard": "1",
@@ -107,7 +175,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760432068",
+    "store_asset_mtime": "1761048342",
     "associations": {
       "0": {
         "type": "developer",
@@ -143,6 +211,7 @@
       "category_78": "1",
       "category_23": "1",
       "category_18": "1",
+      "category_29": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -196,9 +265,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761062388",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "532790",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -206,25 +276,172 @@
     },
     "store_tags": {
       "0": "19",
-      "1": "122",
-      "2": "4018",
-      "3": "4182",
-      "4": "3839",
+      "1": "4018",
+      "2": "122",
+      "3": "3839",
+      "4": "4182",
       "5": "4345",
       "6": "4667",
-      "7": "1742",
-      "8": "1695",
+      "7": "1695",
+      "8": "1742",
       "9": "1667",
-      "10": "6426",
-      "11": "6650",
+      "10": "6650",
+      "11": "44868",
       "12": "4166",
       "13": "4342",
       "14": "5228",
-      "15": "44868",
+      "15": "6426",
       "16": "4604",
       "17": "21",
       "18": "1687",
       "19": "4853"
+    },
+    "review_score": "5",
+    "review_percentage": "56"
+  },
+  "extended": {
+    "developer": "The Chinese Room",
+    "publisher": "Paradox Interactive",
+    "homepage": "https://pdxint.at/3GaD0Mp",
+    "listofdlc": "1048510,1048511,1048512,3992600,3996800,3996820",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Bloodlines 2",
+    "launch": {
+      "0": {
+        "executable": "Frasier.exe",
+        "arguments": "-NOSCREENMESSAGES Culture=En-Us",
+        "config": {
+          "oslist": "windows",
+          "betakey": "legacy_baseline"
+        }
+      },
+      "1": {
+        "executable": "Frasier.exe",
+        "arguments": "-Culture=En-Us",
+        "config": {
+          "oslist": "windows",
+          "betakey": "legacy_release"
+        }
+      },
+      "2": {
+        "executable": "Frasier.exe",
+        "arguments": "-NOSCREENMESSAGES Culture=En-Us",
+        "config": {
+          "oslist": "windows",
+          "betakey": "legacy_playtest"
+        }
+      },
+      "3": {
+        "executable": "Launcher/dowser.exe",
+        "arguments": "--pdxlEnableSteamDeckCompatibilityMode",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Default launcher option"
+        },
+        "description": "Default launcher option"
+      },
+      "4": {
+        "executable": "Bloodlines2.exe",
+        "arguments": "--pdxlEnableSteamDeckCompatibilityMode",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "influencer_demo1"
+        },
+        "description_loc": {
+          "english": "Skip Launcher"
+        },
+        "description": "Skip Launcher"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65528"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229033": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "532791": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4773644022543190207",
+          "size": "26569665426",
+          "download": "22293433392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20440051",
+        "timeupdated": "1760975569"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Bloodlines2/Steam/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Bloodlines2/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
