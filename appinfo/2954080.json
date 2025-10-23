@@ -1,10 +1,9 @@
 {
   "appid": "2954080",
-  "public_only": "1",
   "common": {
     "name": "Painted In Blood",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "eedc4185471db4cff22b7df101ddf8dbbe307595",
     "clienttga": "e4aa51b39a8a15395171e0b77a42df86032f2c18",
     "clienticon": "eedc4185471db4cff22b7df101ddf8dbbe307595",
@@ -100,9 +99,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761220631",
     "community_hub_visible": "1",
     "gameid": "2954080",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -129,6 +128,50 @@
       "17": "4166",
       "18": "1659",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "MadCraft",
+    "publisher": "Perp Games"
+  },
+  "config": {
+    "installdir": "Painted In Blood",
+    "launch": {
+      "0": {
+        "executable": "PaintedInBlood.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2954081": {
+      "manifests": {
+        "public": {
+          "gid": "829846285915905779",
+          "size": "2228503836",
+          "download": "2028012608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20511381",
+        "timeupdated": "1761217137"
+      }
     }
   }
 }
