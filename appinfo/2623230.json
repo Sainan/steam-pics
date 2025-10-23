@@ -1,0 +1,117 @@
+{
+  "appid": "2623230",
+  "common": {
+    "name": "BloodDome99 Demo",
+    "type": "Demo",
+    "parent": "2351890",
+    "icon": "57b6cdfcc3ec9e59977bc4565b048b903d4f14ff",
+    "clienticon": "8369eb45db76c239325d61f5b999ff1ec3a12766",
+    "clienttga": "b0699633b3cb7e29c4370d2bfcbaa4e58df061be",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "small_capsule": {
+      "english": "635e6bdcdae974da9271c4aaa41492043825c0b0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1724840010",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Halftone Gaming"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Halftone Gaming"
+      }
+    },
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1695903385",
+    "gameid": "2623230",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Halftone Gaming",
+    "publisher": "Halftone Gaming"
+  },
+  "config": {
+    "installdir": "BloodDome99 Demo",
+    "launch": {
+      "0": {
+        "executable": "BloodDome99.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BloodDome99.app\\Contents\\MacOS\\BloodDome99",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2623231": {
+      "manifests": {
+        "public": {
+          "gid": "5863634287390361037",
+          "size": "197069748",
+          "download": "115261600"
+        }
+      }
+    },
+    "2623232": {
+      "manifests": {
+        "public": {
+          "gid": "5205036221810196528",
+          "size": "190015921",
+          "download": "113283328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "16423441",
+        "timeupdated": "1731691154"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "2351890",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "HalftoneGaming/BloodDome99/{64BitSteamID}",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
