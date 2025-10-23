@@ -1,6 +1,5 @@
 {
   "appid": "2678330",
-  "public_only": "1",
   "common": {
     "name": "Gaze of Dread",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e40158b0dd08b2d33d2b263e01ea993d73d180eb",
     "clienticon": "725981ceba8e37b2967d1a9489bd2a0ea0dd47a8",
     "clienttga": "b393f6e03480135059533b574390d134c2f0eeab",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -103,9 +102,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761233320",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2678330",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "4018",
@@ -128,5 +128,54 @@
       "18": "4191",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Just Sauce Studio",
+    "publisher": "Just Sauce Studio"
+  },
+  "config": {
+    "installdir": "Gaze of Dread",
+    "launch": {
+      "0": {
+        "executable": "GazeOfDread.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2678331": {
+      "manifests": {
+        "public": {
+          "gid": "4915014153472452801",
+          "size": "8958020166",
+          "download": "8782109136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514810",
+        "timeupdated": "1761233008"
+      }
+    },
+    "privatebranches": "1"
   }
 }
