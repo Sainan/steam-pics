@@ -1,16 +1,15 @@
 {
   "appid": "3801290",
-  "public_only": "1",
   "common": {
     "name": "打工不如斗地主",
     "type": "Game",
     "icon": "a9e418a1d5f21e8e0194edd653926bf3c29c8b6e",
     "clienttga": "be30bb74e695c5458a6569147a0637bb98090656",
-    "clienticon": "1729c8c0d85c980b33f42e400d7fd423228c7087",
+    "clienticon": "1fe7403cf01f18fd08674b5eadec5edd8b2c5544",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Work Sucks, Let’s Play Dou Dizhu!"
     },
@@ -420,9 +419,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761004611",
     "community_hub_visible": "1",
     "gameid": "3801290",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1666",
@@ -444,6 +443,58 @@
       "17": "615955",
       "18": "4182",
       "19": "599"
+    }
+  },
+  "extended": {
+    "developer": "Schelling Point",
+    "publisher": "Schelling Point"
+  },
+  "config": {
+    "installdir": "任务栏：摸鱼不如摸牌",
+    "launch": {
+      "0": {
+        "executable": "ll.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3801291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5424531220150319384",
+          "size": "73325920",
+          "download": "28523936"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20510734",
+        "timeupdated": "1761213912"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveDir",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
