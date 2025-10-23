@@ -1,6 +1,5 @@
 {
   "appid": "3937150",
-  "public_only": "1",
   "common": {
     "name": "Cat's Rage",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -157,9 +156,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761231552",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3937150",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4026",
@@ -169,6 +169,70 @@
       "5": "4182",
       "6": "492",
       "7": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Dosy",
+    "publisher": "Dosy"
+  },
+  "config": {
+    "installdir": "Cat's Rage",
+    "launch": {
+      "0": {
+        "executable": "Cat's rage.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "3",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3937151": {
+      "manifests": {
+        "public": {
+          "gid": "4801238360427262485",
+          "size": "1248145961",
+          "download": "512761776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514443",
+        "timeupdated": "1761231453"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Dosy/Cat's rage",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacHome",
+        "path": "Library/Application Support/Dosy/Cat's rage",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "LinuxHome",
+        "path": ".config/unity3d/Dosy/Cat's rage",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
