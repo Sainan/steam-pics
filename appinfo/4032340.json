@@ -1,6 +1,5 @@
 {
   "appid": "4032340",
-  "public_only": "1",
   "common": {
     "name": "1492 - Colonization of the New World Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -100,7 +99,95 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760125025",
     "gameid": "4032340",
     "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1200",
+    "developer": "Salty Olives",
+    "publisher": "Salty Olives"
+  },
+  "config": {
+    "installdir": "1492 - Colonization of the New World Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "1492.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "1492.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    }
+  },
+  "depots": {
+    "4032341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3189273612591985921",
+          "size": "560039639",
+          "download": "222124016"
+        }
+      }
+    },
+    "4032342": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7898622642792332882",
+          "size": "567535293",
+          "download": "223461472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20337230",
+        "timeupdated": "1760100533"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5120000",
+    "maxnumfiles": "50",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Salty Olives/1492/Saves/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/Salty Olives/1492/Saves/{64BitSteamID}"
+      }
+    }
   }
 }
