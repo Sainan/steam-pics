@@ -1,6 +1,5 @@
 {
   "appid": "3548560",
-  "public_only": "1",
   "common": {
     "name": "BLOODLETTER Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -135,12 +134,72 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761231649",
     "gameid": "3548560",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
       "2": "5"
+    }
+  },
+  "extended": {
+    "developer": "ALDAMAMI GAMES",
+    "publisher": "ALDAMAMI GAMES"
+  },
+  "config": {
+    "installdir": "BLOODLETTER Demo",
+    "launch": {
+      "0": {
+        "executable": "BloodletterDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3548561": {
+      "manifests": {
+        "public": {
+          "gid": "3292236461320340143",
+          "size": "4191078740",
+          "download": "1108922208"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20096876",
+        "timeupdated": "1758647954"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "999999",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "ALDAMAMI GAMES/BloodletterDemo/SaveGames/",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/ALDAMAMI GAMES/Bloodletter/SaveGames/"
+      }
     }
   }
 }
