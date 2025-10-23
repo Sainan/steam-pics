@@ -1,10 +1,9 @@
 {
   "appid": "3705460",
-  "public_only": "1",
   "common": {
     "name": "Echoes in the Storm",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "5ab4c98aac780bab14b47d0a47187bbfb240cedb",
     "clienttga": "b4cfe8ec917ed024724138695852866f3a3788f8",
     "clienticon": "292cc43244830b5233b2fbc346f8c529b6e08c86",
@@ -102,6 +101,7 @@
     "category": {
       "category_2": "1",
       "category_28": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -127,9 +127,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761224441",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3705460",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -153,6 +154,45 @@
       "15": "7250",
       "16": "11014",
       "17": "3839"
+    }
+  },
+  "extended": {
+    "developer": "Dead Blue Screen",
+    "publisher": "Dead Blue Screen"
+  },
+  "config": {
+    "installdir": "EchoesInTheStorm",
+    "launch": {
+      "0": {
+        "executable": "EchoesInTheStorm.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "3705461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7810709783008841611",
+          "size": "8689705200",
+          "download": "3497377520"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20498203",
+        "timeupdated": "1761144875"
+      }
     }
   }
 }
