@@ -1,6 +1,5 @@
 {
   "appid": "3474800",
-  "public_only": "1",
   "common": {
     "name": "Highrise",
     "type": "Game",
@@ -13,11 +12,11 @@
       }
     },
     "icon": "282d29e74fc1a30efd5968d57e6f277a04699e97",
-    "clienttga": "e446b4f07aa2ae1629dc2121b64624a9b273ed0f",
+    "clienttga": "2de4e7c41ec27db6ee7a199a4ce9dfde58aab202",
     "clienticns": "54b6dac645757cfd08790409a305308d6c2cfbcd",
     "linuxclienticon": "54b6dac645757cfd08790409a305308d6c2cfbcd",
     "clienticon": "160b6fc66e6553a87d398ba90244c50b58abce82",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
@@ -178,8 +177,14 @@
         "supported": "true",
         "full_audio": "true",
         "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761156044",
     "community_hub_visible": "1",
     "gameid": "3474800",
     "exfgls": "3",
@@ -208,6 +213,68 @@
       "17": "4747",
       "18": "1643",
       "19": "1695"
-    }
+    },
+    "review_score": "7",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "Pocket Worlds",
+    "publisher": "Pocket Worlds",
+    "homepage": "https://highrise.game/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Highrise",
+    "launch": {
+      "0": {
+        "executable": "Highrise.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "Highrise.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3474801": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1663525996224714824",
+          "size": "370009973",
+          "download": "137232688"
+        }
+      }
+    },
+    "3474802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5147228179725057625",
+          "size": "722885511",
+          "download": "207584992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20496397",
+        "timeupdated": "1761143106"
+      }
+    },
+    "privatebranches": "1"
   }
 }
