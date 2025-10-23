@@ -1,6 +1,5 @@
 {
   "appid": "3822300",
-  "public_only": "1",
   "common": {
     "name": "記憶的主人",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "114aab5db35187cf83cd9e60ec3dab141e28df20",
     "clienticon": "792f4c6717f67bd34b90396130996448ae3d9c1c",
     "icon": "4437b28eeac585d18460d861e7d68e6dda59d6b3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ab6e0af0a6619e19c8b32a70ef8f6d8ac3a3f758/capsule_231x87.jpg"
@@ -109,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3822300",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -123,6 +123,88 @@
       "7": "492",
       "8": "6426",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "夜光",
+    "publisher": "RMAsia"
+  },
+  "config": {
+    "installdir": "記憶的主人",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3822301": {
+      "manifests": {
+        "public": {
+          "gid": "6373730415413562480",
+          "size": "398748549",
+          "download": "378702064"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20496921",
+        "timeupdated": "1761139383"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "30000000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save/",
+        "pattern": "*rxdata",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Save/",
+        "pattern": "*.jpg",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "Data/",
+        "pattern": "*rxdata",
+        "recursive": "1"
+      },
+      "3": {
+        "root": "gameinstall",
+        "path": "Data/",
+        "pattern": "*.jpg",
+        "recursive": "1"
+      },
+      "4": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*rxdata"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "addpath": "Library/Application Support/記憶的主人/"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/記憶的主人/"
+      }
     }
   }
 }
