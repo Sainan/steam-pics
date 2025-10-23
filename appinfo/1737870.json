@@ -13,20 +13,36 @@
     "osarch": "",
     "osextended": "",
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1746576000",
-      "tested_build_id": "1718778",
+      "test_timestamp": "1758067200",
+      "tested_build_id": "19959763",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
         }
       },
       "steamos_tests": {
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
       "configuration": {
@@ -38,7 +54,7 @@
         "small_text": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-9.0-3RC",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
