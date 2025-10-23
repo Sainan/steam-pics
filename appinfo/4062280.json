@@ -1,13 +1,12 @@
 {
   "appid": "4062280",
-  "public_only": "1",
   "common": {
     "name": "GladiMaker Demo",
     "type": "Demo",
     "parent": "3915400",
     "clienticon": "6f305810a35e2dfd804beb9e8900307dd3185194",
     "icon": "e195c9f57dbab39412ccff8909648e9a7e1b9a91",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,7 +100,41 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4062280",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Team CJNM",
+    "publisher": "Team CJNM"
+  },
+  "config": {
+    "installdir": "GladiMaker Demo",
+    "launch": {
+      "0": {
+        "executable": "GladiMaker.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4062281": {
+      "manifests": {
+        "public": {
+          "gid": "3855101680482953427",
+          "size": "2555678895",
+          "download": "270881056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20520390",
+        "timeupdated": "1761261050"
+      }
+    }
   }
 }
