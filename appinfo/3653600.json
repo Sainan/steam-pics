@@ -1,10 +1,9 @@
 {
   "appid": "3653600",
-  "public_only": "1",
   "common": {
     "name": "This Isn't Just Tower Defense",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "c9fcf93d08cb27c85c07c3f770f8d16d702b6847",
     "clienttga": "a931ac7dbab3756abe495439927c4eadf8f7394f",
     "clienticon": "a54cb8252bcee762cd96e9fdde58a9453954526a",
@@ -141,9 +140,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761234991",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3653600",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1645",
@@ -163,6 +163,44 @@
       "15": "1084988",
       "16": "1702",
       "17": "30358"
+    }
+  },
+  "extended": {
+    "developer": "Pri Games",
+    "publisher": "Pri Games"
+  },
+  "config": {
+    "installdir": "This Isnt Just Tower Defense",
+    "launch": {
+      "0": {
+        "executable": "This Isn't Just Tower Defense.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Start Game"
+        },
+        "description": "Start Game"
+      }
+    }
+  },
+  "depots": {
+    "3653601": {
+      "manifests": {
+        "public": {
+          "gid": "1063184301985141819",
+          "size": "914598961",
+          "download": "339809824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20493416",
+        "timeupdated": "1761123242"
+      }
     }
   }
 }
