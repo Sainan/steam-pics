@@ -1,6 +1,5 @@
 {
   "appid": "4072170",
-  "public_only": "1",
   "common": {
     "name": "Assslash!",
     "type": "Game",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b08acdf7ad473e1c4dd93db5a4121794b91f6b4e/capsule_231x87.jpg",
@@ -129,6 +128,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761121369",
     "community_hub_visible": "1",
     "gameid": "4072170",
     "exfgls": "3",
@@ -152,6 +152,57 @@
       "16": "1742",
       "17": "4182",
       "18": "1743"
+    }
+  },
+  "extended": {
+    "developer": "Ducksoo",
+    "publisher": "Ducksoo",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Assslash",
+    "launch": {
+      "0": {
+        "executable": "Assslash.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4072171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2417794461870068650",
+          "size": "3459260169",
+          "download": "2801932336"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,spanish,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20513332",
+        "timeupdated": "1761259395"
+      }
     }
   }
 }
