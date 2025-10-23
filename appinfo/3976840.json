@@ -1,6 +1,5 @@
 {
   "appid": "3976840",
-  "public_only": "1",
   "common": {
     "name": "FRUKT Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -50,11 +49,51 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761235212",
     "gameid": "3976840",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "tripledose",
+    "publisher": "tripledose"
+  },
+  "config": {
+    "installdir": "FRUKT Demo",
+    "launch": {
+      "0": {
+        "executable": "FRUKT.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3976842": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1275220305503203283",
+          "size": "1688279566",
+          "download": "308890016"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20505074",
+        "timeupdated": "1761180376"
+      }
     }
   }
 }
