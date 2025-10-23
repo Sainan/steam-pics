@@ -1,13 +1,12 @@
 {
   "appid": "3794810",
-  "public_only": "1",
   "common": {
     "name": "Pieceful Gallery",
     "type": "Game",
     "icon": "7f0413debb2d8a4b7494072aa64a59d84f28c2af",
     "clienttga": "be23e6c8ae027c9d2fd66057396a07d0c3d6ae71",
     "clienticon": "7f0413debb2d8a4b7494072aa64a59d84f28c2af",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -166,6 +165,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3794810",
     "exfgls": "3",
@@ -183,6 +184,57 @@
       "10": "1654",
       "11": "6426",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Catnip studio",
+    "publisher": "Catnip studio",
+    "homepage": "https://store.steampowered.com/curator/44786890-Catnip-studio/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Pieceful Gallery",
+    "launch": {
+      "0": {
+        "executable": "Pieceful Gallery.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3794811": {
+      "manifests": {
+        "public": {
+          "gid": "648450782550873553",
+          "size": "876624667",
+          "download": "736721200"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20499634",
+        "timeupdated": "1761151591"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "maobohe/Pieceful Gallery",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
