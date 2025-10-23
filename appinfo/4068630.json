@@ -1,12 +1,11 @@
 {
   "appid": "4068630",
-  "public_only": "1",
   "common": {
     "name": "Pumpkin Patch Simulator",
     "type": "Game",
     "clienticon": "a8b7e159449772085fc86c293ce15fc5e9879db5",
     "icon": "a8b7e159449772085fc86c293ce15fc5e9879db5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "",
@@ -102,9 +101,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4068630",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -125,7 +124,62 @@
       "16": "3968",
       "17": "16689",
       "18": "916648",
-      "19": "492"
+      "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "gamesbynav",
+    "publisher": "gamesbynav"
+  },
+  "config": {
+    "installdir": "Pumpkin Patch Simulator",
+    "launch": {
+      "0": {
+        "executable": "release/PumpkinPatchSimulator.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "pumpkinpatch.app/pumpkinpatch_mac.app/Contents/MacOS/PumpkinPatchSimulator",
+        "workingdir": "pumpkinpatch.app/pumpkinpatch_mac.app/Contents/MacOS",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068632": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9034416170078875977",
+          "size": "115990243",
+          "download": "39113248"
+        }
+      }
+    },
+    "4068633": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5367919276407279496",
+          "size": "171867270",
+          "download": "54008240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20342680",
+        "timeupdated": "1760124724"
+      }
     }
   }
 }
