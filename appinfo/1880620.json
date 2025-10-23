@@ -1,6 +1,5 @@
 {
   "appid": "1880620",
-  "public_only": "1",
   "common": {
     "name": "Once Upon A KATAMARI",
     "type": "Game",
@@ -35,7 +34,7 @@
     "clienticon": "39bafe23b9109518fb54d7cee071bfeda9700bd1",
     "clienttga": "45f297e01cfe3825c74e37e5c5489c2a8443a817",
     "icon": "5198bd0acaa1d9758a35ff958b9915f336f96613",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -251,9 +250,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761256832",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1880620",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "4191",
@@ -267,6 +267,110 @@
       "9": "12057",
       "10": "1742",
       "11": "1756"
+    }
+  },
+  "extended": {
+    "developer": "RENGAME",
+    "publisher": "Bandai Namco Entertainment Inc.",
+    "listofdlc": "3728480"
+  },
+  "config": {
+    "installdir": "OnceUponaKATAMARI",
+    "launch": {
+      "0": {
+        "executable": "OnceUponaKATAMARI.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1880621": {
+      "manifests": {
+        "public": {
+          "gid": "6919700104115655246",
+          "size": "2892000332",
+          "download": "2325003984"
+        }
+      }
+    },
+    "1880622": {},
+    "3644570": {
+      "dlcappid": "3644570",
+      "manifests": {
+        "public": {
+          "gid": "9147014397153249677",
+          "size": "640437450",
+          "download": "618846800"
+        }
+      }
+    },
+    "3644580": {
+      "dlcappid": "3644580",
+      "manifests": {
+        "public": {
+          "gid": "9152545763674469333",
+          "size": "375990280",
+          "download": "376344720"
+        }
+      }
+    },
+    "3644590": {
+      "dlcappid": "3644590",
+      "manifests": {
+        "public": {
+          "gid": "8211274313446883742",
+          "size": "39326996",
+          "download": "39286320"
+        }
+      }
+    },
+    "3644600": {
+      "dlcappid": "3644600",
+      "manifests": {
+        "public": {
+          "gid": "9203541824699181348",
+          "size": "43821802",
+          "download": "43811552"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20334406",
+        "timeupdated": "1761204280"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "16000000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Bandai Namco Entertainment/Once Upon A KATAMARI/Saved/SaveGames/{Steam3AccountID}",
+        "pattern": "*.bin"
+      }
     }
   }
 }
