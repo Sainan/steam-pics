@@ -1,0 +1,468 @@
+{
+  "appid": "1865780",
+  "common": {
+    "name": "Downfall - A Slay the Spire Fan Expansion",
+    "type": "Game",
+    "releasestate": "released",
+    "logo": "a2ff4fbb3f6529f3e89490a6ef7ad5dcd41d3e6f",
+    "logo_small": "a2ff4fbb3f6529f3e89490a6ef7ad5dcd41d3e6f_thumb",
+    "icon": "1a73ddfc8b6c23370c850a8398408055c036c30d",
+    "clienttga": "a831c01c2704f77b7c682f874a245eebcd8cc19d",
+    "clienticon": "05fc236cf81ce4ada18a9d1060c63a75d6980e24",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1652227200",
+      "tested_build_id": "8511465",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "3": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "93.30756379552247",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "93.30756379552247",
+          "height_pct": "100"
+        }
+      }
+    },
+    "store_asset_mtime": "1644865151",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Table 9 Studio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Table 9 Studio"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "23",
+      "1": "3",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "koreana": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1648249695",
+    "community_hub_visible": "1",
+    "gameid": "1865780",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "9",
+      "1": "492",
+      "2": "122",
+      "3": "1666",
+      "4": "1716",
+      "5": "5348",
+      "6": "1091588",
+      "7": "113"
+    },
+    "review_score": "9",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "requiredappid": "646570",
+    "isfreeapp": "1",
+    "developer": "Table 9 Studio",
+    "publisher": "Table 9 Studio",
+    "homepage": "https://steamcommunity.com/sharedfiles/filedetails/?id=1610056683"
+  },
+  "config": {
+    "installdir": "Downfall - A Slay the Spire Fan Expansion",
+    "launch": {
+      "0": {
+        "executable": "jre/bin/javaw.exe",
+        "arguments": "-jar desktop-1.0-modded.jar",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "jre/Contents/Home/bin/java",
+        "arguments": "-jar desktop-1.0-modded.jar",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "jre/bin/java",
+        "arguments": "-jar desktop-1.0-modded.jar",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1865781": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5014543935803033474",
+          "size": "875780277",
+          "download": "794897920"
+        },
+        "4.2finalupdate": {
+          "gid": "5014543935803033474",
+          "size": "875780277",
+          "download": "794897920"
+        },
+        "5.0version": {
+          "gid": "8252140703053342125",
+          "size": "871890959",
+          "download": "790996256"
+        },
+        "experimental": {
+          "gid": "5014543935803033474",
+          "size": "875780277",
+          "download": "794897920"
+        }
+      }
+    },
+    "1865782": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5447531814959596592",
+          "size": "900530469",
+          "download": "796303808"
+        },
+        "4.2finalupdate": {
+          "gid": "5447531814959596592",
+          "size": "900530469",
+          "download": "796303808"
+        },
+        "5.0version": {
+          "gid": "6276343642126150103",
+          "size": "896641151",
+          "download": "792402144"
+        },
+        "experimental": {
+          "gid": "5447531814959596592",
+          "size": "900530469",
+          "download": "796303808"
+        }
+      }
+    },
+    "1865783": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5829757110773035714",
+          "size": "884504823",
+          "download": "796008336"
+        },
+        "4.2finalupdate": {
+          "gid": "5829757110773035714",
+          "size": "884504823",
+          "download": "796008336"
+        },
+        "5.0version": {
+          "gid": "5804298179341628538",
+          "size": "880615505",
+          "download": "792106672"
+        },
+        "experimental": {
+          "gid": "5829757110773035714",
+          "size": "884504823",
+          "download": "796008336"
+        }
+      }
+    },
+    "1865784": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1541456131713019566",
+          "size": "870202196",
+          "download": "793731056"
+        },
+        "4.2finalupdate": {
+          "gid": "1541456131713019566",
+          "size": "870202196",
+          "download": "793731056"
+        },
+        "5.0version": {
+          "gid": "3913290556993771495",
+          "size": "866312878",
+          "download": "789829408"
+        },
+        "experimental": {
+          "gid": "1541456131713019566",
+          "size": "870202196",
+          "download": "793731056"
+        }
+      }
+    },
+    "1865785": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1152330680253568974",
+          "size": "918523535",
+          "download": "836850528"
+        },
+        "4.2finalupdate": {
+          "gid": "8323035574618338281",
+          "size": "876659290",
+          "download": "800061280"
+        },
+        "5.0version": {
+          "gid": "1152330680253568974",
+          "size": "918523535",
+          "download": "836850528"
+        },
+        "experimental": {
+          "gid": "1152330680253568974",
+          "size": "918523535",
+          "download": "836850528"
+        }
+      }
+    },
+    "1865786": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "642062010640099913",
+          "size": "912945454",
+          "download": "835682096"
+        },
+        "4.2finalupdate": {
+          "gid": "1684214818948686777",
+          "size": "871081209",
+          "download": "798892848"
+        },
+        "5.0version": {
+          "gid": "642062010640099913",
+          "size": "912945454",
+          "download": "835682096"
+        },
+        "experimental": {
+          "gid": "642062010640099913",
+          "size": "912945454",
+          "download": "835682096"
+        }
+      }
+    },
+    "1865787": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7852514813346549245",
+          "size": "943273727",
+          "download": "838256416"
+        },
+        "4.2finalupdate": {
+          "gid": "1974458726847074108",
+          "size": "901409482",
+          "download": "801467168"
+        },
+        "5.0version": {
+          "gid": "7852514813346549245",
+          "size": "943273727",
+          "download": "838256416"
+        },
+        "experimental": {
+          "gid": "7852514813346549245",
+          "size": "943273727",
+          "download": "838256416"
+        }
+      }
+    },
+    "1865788": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2230202403054772676",
+          "size": "927248081",
+          "download": "837960944"
+        },
+        "4.2finalupdate": {
+          "gid": "7975198656707174068",
+          "size": "885383836",
+          "download": "801171696"
+        },
+        "5.0version": {
+          "gid": "2230202403054772676",
+          "size": "927248081",
+          "download": "837960944"
+        },
+        "experimental": {
+          "gid": "2230202403054772676",
+          "size": "927248081",
+          "download": "837960944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18245092",
+        "timeupdated": "1745622668"
+      },
+      "4.2finalupdate": {
+        "buildid": "13053630",
+        "description": "The last update prior to 4.3's release",
+        "timeupdated": "1703995871"
+      },
+      "5.0version": {
+        "buildid": "19067663",
+        "description": "Build 5.0",
+        "timeupdated": "1751385765"
+      },
+      "experimental": {
+        "buildid": "18245092",
+        "description": "For testing purposes",
+        "timeupdated": "1745621094"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "300000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "preferences",
+        "pattern": "*.*"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "saves",
+        "pattern": "*.*"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "betapreferences",
+        "pattern": "*.*"
+      }
+    }
+  }
+}
