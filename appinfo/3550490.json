@@ -1,6 +1,5 @@
 {
   "appid": "3550490",
-  "public_only": "1",
   "common": {
     "name": "Overcome Your Fears - Caretaker",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "7d587f04adb30d7e102ceda311f1502280bae5a7",
     "clienticon": "ab40b07902ae0594671bd78c8236b7a4815152e8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -132,10 +131,6 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "schinese": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "polish": {
         "supported": "true",
         "subtitles": "true"
@@ -159,11 +154,16 @@
       "japanese": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1760981484",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3550490",
-    "exfgls": "8",
     "store_tags": {
       "0": "5900",
       "1": "1721",
@@ -185,6 +185,46 @@
       "17": "4004",
       "18": "4182",
       "19": "492"
+    },
+    "review_score": "6",
+    "review_percentage": "77"
+  },
+  "extended": {
+    "developer": "markuwaaaaa",
+    "publisher": "markuwaaaaa"
+  },
+  "config": {
+    "installdir": "Overcome Your Fears",
+    "launch": {
+      "0": {
+        "executable": "OvercomeYourFears v0.21\\Overcome Your Fears.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
     }
+  },
+  "depots": {
+    "3550492": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1305449963965415060",
+          "size": "3631834181",
+          "download": "1345414464"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20504124",
+        "timeupdated": "1761174402"
+      }
+    },
+    "privatebranches": "1"
   }
 }
