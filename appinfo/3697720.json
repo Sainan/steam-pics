@@ -1,13 +1,12 @@
 {
   "appid": "3697720",
-  "public_only": "1",
   "common": {
     "name": "雀エボライブ",
     "type": "Game",
-    "icon": "3c7a35152519ae1adeda3d2da0b2358131223ae7",
+    "icon": "9eb16228097086ebdfe7feb3271bc36b2b82e8d0",
     "clienttga": "46463c06a779bc1156b172acadeb71dec1daa5a6",
-    "clienticon": "e6fc749e42d705f7680fd6626eaa6b93d69cb274",
-    "releasestate": "prerelease",
+    "clienticon": "9eb16228097086ebdfe7feb3271bc36b2b82e8d0",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -132,6 +131,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760943100",
     "community_hub_visible": "1",
     "gameid": "3697720",
     "exfgls": "3",
@@ -156,6 +156,62 @@
       "13": "1775",
       "14": "4182",
       "15": "3859"
+    },
+    "review_score": "5",
+    "review_percentage": "63"
+  },
+  "extended": {
+    "developer": "enish,inc.",
+    "publisher": "enish,inc.",
+    "homepage": "https://jongevo.enish.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "jongevo",
+    "launch": {
+      "0": {
+        "executable": "build.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3697721": {
+      "manifests": {
+        "public": {
+          "gid": "7573369467447050138",
+          "size": "2271647944",
+          "download": "1024367104"
+        },
+        "develop": {
+          "gid": "3182282834665502266",
+          "size": "2300233541",
+          "download": "1038778256"
+        },
+        "production": {
+          "gid": "7573369467447050138",
+          "size": "2271647944",
+          "download": "1024367104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20431280",
+        "timeupdated": "1760924917"
+      },
+      "develop": {
+        "buildid": "20509085",
+        "description": "env = develop",
+        "timeupdated": "1761206448"
+      },
+      "production": {
+        "buildid": "20431280",
+        "description": "env = production",
+        "timeupdated": "1760686586"
+      }
     }
   }
 }
