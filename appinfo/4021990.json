@@ -1,4 +1,68 @@
 {
   "appid": "4021990",
-  "public_only": "1"
+  "common": {
+    "name": "The Demon's Apple - Otome Game Demo",
+    "type": "Demo",
+    "parent": "3936920",
+    "icon": "ececef1065bfe790383b46c9a2c0efdd14e06b21",
+    "clienticns": "a4072bb84d7ff0a8588770d91ab850aed5b03db1",
+    "clienticon": "ececef1065bfe790383b46c9a2c0efdd14e06b21",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4021990",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "The Demon's Apple - Otome Game Demo",
+    "launch": {
+      "0": {
+        "executable": "demonsappledemo-1.1-pc\\demonsappledemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "demonsappledemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4021991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1960980058311740390",
+          "size": "209674653",
+          "download": "134455552"
+        }
+      }
+    },
+    "4021992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7973049229223704158",
+          "size": "197167501",
+          "download": "129290064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20454650",
+        "timeupdated": "1760884871"
+      }
+    }
+  }
 }
