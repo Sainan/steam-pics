@@ -1,6 +1,5 @@
 {
   "appid": "3884500",
-  "public_only": "1",
   "common": {
     "name": "TYPE",
     "type": "Game",
@@ -11,7 +10,7 @@
     "osarch": "",
     "osextended": "",
     "linuxclienticon": "5794b275c451cd5cdd4315bb4e7701e398a28f47",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9eccf4da2ce0a55d84a345b12232b1c2f29783b3/capsule_231x87.jpg"
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760956281",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3884500",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -136,6 +136,37 @@
       "17": "5154",
       "18": "4791",
       "19": "6129"
+    }
+  },
+  "extended": {
+    "developer": "Parcyval",
+    "publisher": "Parcyval",
+    "homepage": "https://parsydev.github.io/"
+  },
+  "config": {
+    "installdir": "TYPE",
+    "launch": {
+      "0": {
+        "executable": "TYPE PC\\TYPE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3884501": {
+      "manifests": {
+        "public": {
+          "gid": "1475561524297988555",
+          "size": "147071017",
+          "download": "59682352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20508993",
+        "timeupdated": "1761205880"
+      }
     }
   }
 }
