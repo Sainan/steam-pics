@@ -1,10 +1,9 @@
 {
   "appid": "3290390",
-  "public_only": "1",
   "common": {
     "name": "NIGHT STRIKER GEAR",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "NIGHT STRIKER GEAR",
       "japanese": "ナイトストライカーGEAR"
@@ -83,7 +82,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760510543",
+    "store_asset_mtime": "1761145221",
     "associations": {
       "0": {
         "type": "developer",
@@ -128,9 +127,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761145209",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3290390",
-    "exfgls": "8",
     "store_tags": {
       "0": "1774",
       "1": "4255",
@@ -152,6 +152,68 @@
       "17": "3871",
       "18": "56690",
       "19": "5372"
-    }
+    },
+    "review_score": "7",
+    "review_percentage": "93"
+  },
+  "extended": {
+    "developer": "M2 Co., Ltd.",
+    "publisher": "M2 Co., Ltd.",
+    "homepage": "https://m2stg.com/night-striker-gear/"
+  },
+  "config": {
+    "installdir": "NIGHT STRIKER GEAR",
+    "launch": {
+      "0": {
+        "executable": "nsgear.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "1",
+    "steamcontrollertouchconfigdetails": {
+      "3381608160": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steaminputmanifestpath": "./steam/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3290391": {
+      "manifests": {
+        "public": {
+          "gid": "63834859673628173",
+          "size": "636444777",
+          "download": "604416288"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20431453",
+        "timeupdated": "1760687736"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10"
   }
 }
