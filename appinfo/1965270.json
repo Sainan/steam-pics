@@ -1,6 +1,5 @@
 {
   "appid": "1965270",
-  "public_only": "1",
   "common": {
     "name": "窒愛SUFFOCATE",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "b14605d18c227cedf4ec130f6c9afa8691aa9d4a",
     "clienticns": "148d562227242094a4a0495b0548ba1966e5b1e8",
     "clienticon": "c0fb5a2a4397885b7f384a4086cf027afa184218",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "窒爱SUFFOCATE",
       "english": "SUFFOCATE",
@@ -192,9 +191,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761206655",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1965270",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -221,6 +221,85 @@
       "17": "9204",
       "18": "180368",
       "19": "5984"
+    }
+  },
+  "extended": {
+    "developer": "Naughty Cow",
+    "publisher": "Naughty Cow",
+    "homepage": "https://www.facebook.com/gaming/NC.HorrorGame"
+  },
+  "config": {
+    "installdir": "SUFFOCATE",
+    "launch": {
+      "0": {
+        "executable": "HorrorEngine.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1965271": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8004997312542957637",
+          "size": "27913345633",
+          "download": "13604405248"
+        },
+        "alpha_test": {
+          "gid": "6631164952210528777",
+          "size": "24013859465",
+          "download": "10213147712"
+        }
+      }
+    },
+    "baselanguages": "english,german,koreana,schinese,tchinese,russian,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20509080",
+        "timeupdated": "1761206524"
+      },
+      "alpha_test": {
+        "buildid": "20124282",
+        "description": "test",
+        "timeupdated": "1758798833"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "HorrorEngine\\Saved\\SaveGames",
+        "pattern": "*"
+      }
     }
   }
 }
