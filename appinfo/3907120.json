@@ -1,6 +1,5 @@
 {
   "appid": "3907120",
-  "public_only": "1",
   "common": {
     "name": "Sweet Pirate",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -107,9 +106,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761238792",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3907120",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -137,6 +137,36 @@
       "17": "4182",
       "18": "9130",
       "19": "24904"
+    }
+  },
+  "extended": {
+    "developer": "King Kong",
+    "publisher": "King Kong Gaming"
+  },
+  "config": {
+    "installdir": "Sweet Pirate",
+    "launch": {
+      "0": {
+        "executable": "Sweet Pirate.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3907121": {
+      "manifests": {
+        "public": {
+          "gid": "3171958273529901673",
+          "size": "316469933",
+          "download": "296168208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19608620",
+        "timeupdated": "1755240713"
+      }
     }
   }
 }
