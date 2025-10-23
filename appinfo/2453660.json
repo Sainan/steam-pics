@@ -1,6 +1,5 @@
 {
   "appid": "2453660",
-  "public_only": "1",
   "common": {
     "name": "Hoop Land",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2453660_eula_0",
@@ -126,10 +125,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761062421",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "2453660",
-    "exfgls": "8",
     "store_tags": {
       "0": "701",
       "1": "599",
@@ -146,6 +145,66 @@
       "12": "4182",
       "13": "7368",
       "14": "3968"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Koality Game",
+    "publisher": "Koality Game"
+  },
+  "config": {
+    "installdir": "Hoop Land",
+    "launch": {
+      "0": {
+        "executable": "Hoop Land.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hoop Land.app/Contents/MacOS/Hoop Land",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2453661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1779547743797460730",
+          "size": "145512507",
+          "download": "71726288"
+        }
+      }
+    },
+    "2453662": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "159325484732690992",
+          "size": "237105037",
+          "download": "96928352"
+        }
+      }
+    },
+    "workshopdepot": "2453660",
+    "branches": {
+      "public": {
+        "buildid": "20492973",
+        "timeupdated": "1761120751"
+      }
     }
   }
 }
