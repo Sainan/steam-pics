@@ -1,6 +1,5 @@
 {
   "appid": "1560160",
-  "public_only": "1",
   "common": {
     "name": "ILA: A Frosty Glide",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "133bbb95924bee204dd9527e6911f46f19af48af",
     "clienticon": "92917a94abf11ecd661fae00f87b9048e7ca8000",
     "clienttga": "9ba022665a35c28be3db4636124f705a9d892eda",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -76,11 +75,14 @@
       },
       "library_header": {
         "image": {
-          "english": "library_header.jpg"
+          "english": "deddc1ed843a586fbc02fb0db41e37c2abb5a2e2/library_header.jpg"
+        },
+        "image2x": {
+          "english": "deddc1ed843a586fbc02fb0db41e37c2abb5a2e2/library_header_2x.jpg"
         }
       }
     },
-    "store_asset_mtime": "1759176281",
+    "store_asset_mtime": "1761040391",
     "associations": {
       "0": {
         "type": "developer",
@@ -149,9 +151,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760982878",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1560160",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "3834",
@@ -173,6 +176,71 @@
       "17": "1625",
       "18": "122",
       "19": "1695"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Magic Rain Studios",
+    "publisher": "First Break Labs",
+    "homepage": "https://www.magicrainstudios.com",
+    "listofdlc": "4112220",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "ILA",
+    "launch": {
+      "0": {
+        "executable": "ILA.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1560161": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7383566718818164371",
+          "size": "1388593389",
+          "download": "1225774400"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20496497",
+        "timeupdated": "1761138488"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "ILA/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
