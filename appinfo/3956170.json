@@ -1,6 +1,5 @@
 {
   "appid": "3956170",
-  "public_only": "1",
   "common": {
     "name": "ステータス確認探偵",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "6cef6a021c5d9ad3ffa7d9aa65cf5d02a5809b0b",
     "icon": "ae31db3d43ea8429010277efe0d2fb5fd6e8d235",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,6 +110,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3956170",
     "exfgls": "3",
@@ -131,6 +132,57 @@
       "10": "1742",
       "11": "3843",
       "12": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "風切羽",
+    "publisher": "風切羽",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "ステータス確認探偵",
+    "launch": {
+      "0": {
+        "executable": "Status.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3956171": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2359034706056787925",
+          "size": "937253926",
+          "download": "223234592"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20516739",
+        "timeupdated": "1761241722"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Kazakiribane/Status",
+        "pattern": "*.sav"
+      }
     }
   }
 }
