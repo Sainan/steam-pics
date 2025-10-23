@@ -1,6 +1,5 @@
 {
   "appid": "3591090",
-  "public_only": "1",
   "common": {
     "name": "Teach Me Master",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760984004",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3591090",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -149,6 +149,66 @@
       "17": "492",
       "18": "4182",
       "19": "4711"
+    },
+    "review_score": "6",
+    "review_percentage": "70"
+  },
+  "extended": {
+    "developer": "JellyFluff Games",
+    "publisher": "JellyFluff Games"
+  },
+  "config": {
+    "installdir": "Teach Me Master",
+    "launch": {
+      "0": {
+        "executable": "TeachMeMaster.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TeachMeMaster.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "TeachMeMaster.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3591091": {
+      "manifests": {
+        "public": {
+          "gid": "5111520992472690361",
+          "size": "1375909897",
+          "download": "1179512944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20009769",
+        "timeupdated": "1758083089"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*"
+      }
     }
   }
 }
