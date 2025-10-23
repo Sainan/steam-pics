@@ -1,6 +1,5 @@
 {
   "appid": "4006040",
-  "public_only": "1",
   "common": {
     "name": "VEGAS Pro 23 Steam Edition",
     "type": "Application",
@@ -17,7 +16,7 @@
     },
     "clienticon": "6071641d17dd50976b1a3470d18c32041767df73",
     "icon": "ead08d5dfe8729596b253676a81c08933d37b4f8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "9bafd432c3db1d683a2216cf1282f401ce48418c/capsule_231x87.jpg"
@@ -122,6 +121,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4006040",
     "exfgls": "6",
@@ -131,5 +131,45 @@
       "2": "872",
       "3": "1027"
     }
+  },
+  "extended": {
+    "developer": "MAGIX Software GmbH",
+    "publisher": "MAGIX Software GmbH",
+    "homepage": "https://www.vegascreativesoftware.com/"
+  },
+  "config": {
+    "installdir": "VEGAS Pro 23 Steam Edition",
+    "launch": {
+      "0": {
+        "executable": "App\\launch_vegas230.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4006041": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "790424365280806645",
+          "size": "6119899062",
+          "download": "4302146560"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20339991",
+        "timeupdated": "1760349944"
+      }
+    },
+    "privatebranches": "1"
   }
 }
