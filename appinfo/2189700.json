@@ -1,4 +1,131 @@
 {
   "appid": "2189700",
-  "public_only": "1"
+  "common": {
+    "name": "nanos world™ Halloween Playtest",
+    "type": "Beta",
+    "parent": "1841660",
+    "icon": "900a632da310c0ba67797594b05d916774fd06a0",
+    "clienttga": "841d001fed554e81cd0bacb4caf0fa5526e36a40",
+    "clienticon": "42539e1555a3c163603384de27228bf3b11a5cec",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "58.92448512585811",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "61d7f3d41d16d00a5c6b8a7b2478340e14097cb6/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "61d7f3d41d16d00a5c6b8a7b2478340e14097cb6/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "4c7a4a53d0da76c35b624203af27646309a0fbc1/logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "58.92448512585811",
+          "height_pct": "100"
+        },
+        "image2x": {
+          "english": "4c7a4a53d0da76c35b624203af27646309a0fbc1/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "13732b790d3dea8fab2fb04eaabf2955c7842c19/library_header.jpg"
+        },
+        "image2x": {
+          "english": "13732b790d3dea8fab2fb04eaabf2955c7842c19/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1760469469",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1761227497",
+    "community_hub_visible": "1",
+    "gameid": "2189700",
+    "exfgls": "6"
+  },
+  "extended": {
+    "betaforappid": "1841660",
+    "playtest_type": "0",
+    "playtestinvitecount": "3",
+    "playtestinviteendtime": "1762300800"
+  },
+  "config": {
+    "installdir": "nanos-world",
+    "launch": {
+      "0": {
+        "executable": "NanosWorld.exe",
+        "arguments": "--playtest",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1841661": {
+      "depotfromapp": "1841660",
+      "sharedinstall": "2"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20512584",
+        "timeupdated": "1761223773"
+      },
+      "bleeding-edge": {
+        "buildid": "20512584",
+        "description": "tmp",
+        "timeupdated": "1761222877"
+      }
+    }
+  }
 }
