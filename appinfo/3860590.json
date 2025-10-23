@@ -1,18 +1,17 @@
 {
   "appid": "3860590",
-  "public_only": "1",
   "common": {
     "name": "Barrel Roll",
     "type": "Game",
-    "icon": "bf2b20e11a3784ec1975f82d1fd4db5685c1be12",
+    "icon": "2716046e909dffdd8e278b68e2f0e573c06bb20e",
     "clienttga": "af1f49efcffba060aa9ddc8980e3aff2d0d0d6c1",
-    "clienticon": "294d9183c58d9e9eaf222d1adc9941e7c7c14ecc",
+    "clienticon": "c2124392fb32a2ce2cc9c08a07f0b7e81bd64820",
     "clienticns": "30bc18a74ec43a02043dd1d07aacdd66a5321d44",
     "linuxclienticon": "9d12ef02f19e9bd389a76a06c6ff9db4f67e089f",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "76bec26c49a6ac3fdcadbc4b33ef6d77461b601a/capsule_231x87.jpg"
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761206290",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3860590",
-    "exfgls": "8",
     "store_tags": {
       "0": "1716",
       "1": "32322",
@@ -126,5 +126,58 @@
       "12": "492",
       "13": "4295"
     }
+  },
+  "extended": {
+    "developer": "Barrel Roll",
+    "publisher": "Rubika Supinfogame"
+  },
+  "config": {
+    "installdir": "Barrel Roll",
+    "launch": {
+      "0": {
+        "executable": "BarrelRoll_25-10-22\\Barrel Roll.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3860591": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5951112512759295984",
+          "size": "1481086868",
+          "download": "1158489808"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20506252",
+        "timeupdated": "1761187518"
+      }
+    },
+    "privatebranches": "1"
   }
 }
