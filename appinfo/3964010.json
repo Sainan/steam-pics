@@ -1,6 +1,5 @@
 {
   "appid": "3964010",
-  "public_only": "1",
   "common": {
     "name": "Mr HappyFunFace",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "51ad09d793b22620c06bf37a88d086566fd795d8",
     "icon": "c1f5cce34481a87abd5ebfef0d6fbf0be4c82b25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -105,9 +104,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761238844",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3964010",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -132,6 +132,49 @@
       "17": "5984",
       "18": "1720",
       "19": "1664"
+    }
+  },
+  "extended": {
+    "developer": "Big Red Eight",
+    "publisher": "Big Red Eight"
+  },
+  "config": {
+    "installdir": "MrHappyFunFace",
+    "launch": {
+      "0": {
+        "executable": "MrHappyFunFace.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3964011": {
+      "manifests": {
+        "public": {
+          "gid": "6157673702406778105",
+          "size": "2531679928",
+          "download": "2281803696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20503169",
+        "timeupdated": "1761168817"
+      }
     }
   }
 }
