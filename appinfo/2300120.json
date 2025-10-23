@@ -1,16 +1,15 @@
 {
   "appid": "2300120",
-  "public_only": "1",
   "common": {
     "name": "Painkiller",
     "type": "Game",
     "oslist": "windows",
-    "osarch": "",
+    "osarch": "64",
     "osextended": "",
     "icon": "2c6c27d4b692d7efc4b9c669bd5694e80a59f151",
     "clienticon": "2c6c27d4b692d7efc4b9c669bd5694e80a59f151",
     "clienttga": "95ae2b51e947819a5de5082c341179bf3c51e1bc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2300120_eula_0",
@@ -33,6 +32,59 @@
     "content_descriptors": {
       "0": "2",
       "1": "5"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760572800",
+      "tested_build_id": "20242336",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
     },
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -98,7 +150,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760376883",
+    "store_asset_mtime": "1761066309",
     "associations": {
       "0": {
         "type": "developer",
@@ -171,9 +223,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761051714",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2300120",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -195,10 +248,76 @@
       "13": "4166",
       "14": "21",
       "15": "3993",
-      "16": "3859",
-      "17": "1685",
+      "16": "1685",
+      "17": "3859",
       "18": "1023537",
       "19": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "57"
+  },
+  "extended": {
+    "developer": "Anshar Studios",
+    "publisher": "3D Realms",
+    "listofdlc": "3751350,3751360,3751400",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Painkiller",
+    "launch": {
+      "0": {
+        "executable": "Painkiller.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2300122": {
+      "manifests": {
+        "public": {
+          "gid": "4702260100840626704",
+          "size": "27665825845",
+          "download": "26716802560"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,russian,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20417558",
+        "timeupdated": "1760985739"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Painkiller/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
