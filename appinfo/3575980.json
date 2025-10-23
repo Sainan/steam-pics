@@ -1,6 +1,5 @@
 {
   "appid": "3575980",
-  "public_only": "1",
   "common": {
     "name": "Fantasy Maiden Wars - DREAM OF THE STRAY DREAMER -",
     "type": "Game",
@@ -13,7 +12,7 @@
       "japanese": "幻想少女大戦 - DREAM OF THE STRAY DREAMER -"
     },
     "icon": "a7d1d30d61ec206597bd50219916e5f8c56384f3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "japanese": "1"
@@ -93,7 +92,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759991725",
+    "store_asset_mtime": "1761023878",
     "associations": {
       "0": {
         "type": "developer",
@@ -121,6 +120,7 @@
       "category_68": "1",
       "category_74": "1",
       "category_78": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -133,9 +133,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761015649",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3575980",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "599",
@@ -157,6 +158,87 @@
       "17": "4085",
       "18": "1742",
       "19": "1756"
+    },
+    "review_score": "8",
+    "review_percentage": "98"
+  },
+  "extended": {
+    "developer": "さんぼん堂",
+    "publisher": "Phoenixx Inc.",
+    "gamemanualurl": "https://store.steampowered.com/manual/3575980/"
+  },
+  "config": {
+    "installdir": "Fantasy Maiden Wars DoSD",
+    "launch": {
+      "0": {
+        "executable": "fmw_dosd.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3514588406": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,beta,debug",
+        "use_action_block": "false"
+      },
+      "3514591143": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,beta,debug",
+        "use_action_block": "false"
+      },
+      "3514622310": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,beta,debug",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "3575981": {
+      "manifests": {
+        "public": {
+          "gid": "126363585475863000",
+          "size": "1905169820",
+          "download": "1863693552"
+        }
+      }
+    },
+    "3575982": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1161340567499468595",
+          "size": "1905226942",
+          "download": "1867661072"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20493438",
+        "timeupdated": "1761125721"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "fmw_dosd/savedata",
+        "pattern": "*"
+      }
     }
   }
 }
