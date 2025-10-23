@@ -1,10 +1,9 @@
 {
   "appid": "3839150",
-  "public_only": "1",
   "common": {
     "name": "Teeny Tidy",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -106,9 +105,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761260455",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3839150",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "379975",
@@ -127,6 +127,67 @@
       "14": "3968",
       "15": "4182",
       "16": "492"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Nova Games",
+    "publisher": "Nova Games",
+    "homepage": "https://www.novagames.com.au/teeny-tidy"
+  },
+  "config": {
+    "installdir": "Teeny Tidy",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Teeny Tidy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "3839151": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6375890578239246154",
+          "size": "150624998",
+          "download": "45541808"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20512263",
+        "timeupdated": "1761221172"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "12",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Nova Games\\Teeny Tidy\\Data\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
