@@ -1,10 +1,9 @@
 {
   "appid": "1191050",
-  "public_only": "1",
   "common": {
     "name": "MotoTrials",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -228,9 +227,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1191050",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -256,6 +256,74 @@
       "17": "3798",
       "18": "1697",
       "19": "4975"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Proud Arts",
+    "publisher": "Proud Arts",
+    "homepage": "https://www.mototrialsgame.com"
+  },
+  "config": {
+    "installdir": "MotoTrials",
+    "launch": {
+      "0": {
+        "executable": "MotoTrials.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1191052": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3925590979894866076",
+          "size": "1631779885",
+          "download": "1336099328"
+        }
+      }
+    },
+    "workshopdepot": "1191050",
+    "branches": {
+      "public": {
+        "buildid": "20217148",
+        "timeupdated": "1759381732"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
