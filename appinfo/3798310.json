@@ -1,6 +1,5 @@
 {
   "appid": "3798310",
-  "public_only": "1",
   "common": {
     "name": "Misty Onsen",
     "type": "Game",
@@ -64,7 +63,7 @@
       "japanese": "1",
       "portuguese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -237,9 +236,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761033918",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3798310",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -264,6 +264,117 @@
       "17": "8666",
       "18": "492",
       "19": "6052"
+    },
+    "review_score": "5",
+    "review_percentage": "66"
+  },
+  "extended": {
+    "developer": "神 SHEN",
+    "publisher": "神 SHEN",
+    "homepage": "https://shen.technology/",
+    "listofdlc": "3945530,3945540",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "MistyOnsen",
+    "launch": {
+      "0": {
+        "executable": "MistyOnsen\\MistyOnsen.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65527"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3798311": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6989829336827474521",
+          "size": "11055786411",
+          "download": "10615459216"
+        }
+      }
+    },
+    "3945530": {
+      "dlcappid": "3945530",
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4539799739582534430",
+          "size": "11055786411",
+          "download": "10615096704"
+        }
+      }
+    },
+    "3945540": {
+      "dlcappid": "3945540",
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2740339959297531768",
+          "size": "11055786411",
+          "download": "10615096704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20506444",
+        "timeupdated": "1761188510"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "XEngine\\Saved\\SaveData\\MistyOnsen",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
