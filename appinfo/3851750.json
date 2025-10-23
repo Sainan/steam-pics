@@ -1,13 +1,12 @@
 {
   "appid": "3851750",
-  "public_only": "1",
   "common": {
     "name": "US Visual Novel",
     "type": "Game",
     "clienticon": "8e3766b238985511173042f145d6c5e5dc21f4c6",
     "clienttga": "754468a8c2a988b96325ec9299246be58f458998",
     "icon": "4e9270ef2b98b267b9d40a91098e82ab7e147517",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761212280",
     "community_hub_visible": "1",
     "gameid": "3851750",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "3799",
@@ -125,6 +124,49 @@
       "14": "3835",
       "15": "1742",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Us Studio",
+    "publisher": "Plug In Digital"
+  },
+  "config": {
+    "installdir": "Visual Novel",
+    "launch": {
+      "0": {
+        "executable": "us_visual_novel.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3851751": {
+      "manifests": {
+        "public": {
+          "gid": "7780929709581491211",
+          "size": "2982533730",
+          "download": "2346859200"
+        },
+        "testks": {
+          "gid": "925242935765102246",
+          "size": "2940807955",
+          "download": "2334127200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20270163",
+        "timeupdated": "1759753797"
+      },
+      "testks": {
+        "buildid": "20268581",
+        "description": "TestKS",
+        "timeupdated": "1759746662"
+      }
     }
   }
 }
