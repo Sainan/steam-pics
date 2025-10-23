@@ -4,9 +4,10 @@
     "name": "Squars Playtest",
     "type": "Beta",
     "parent": "3547120",
-    "clienticon": "34f85cba21de26586949c25ad83063445e9a6a64",
-    "icon": "34f85cba21de26586949c25ad83063445e9a6a64",
+    "clienticon": "5b12f15e673e184ffe1f459ca8ddeedeb9008909",
+    "icon": "5b12f15e673e184ffe1f459ca8ddeedeb9008909",
     "releasestate": "released",
+    "linuxclienticon": "5b12f15e673e184ffe1f459ca8ddeedeb9008909",
     "small_capsule": {
       "english": "9f4274e81984e996bb22714e282f6db105696171/capsule_231x87.jpg"
     },
@@ -84,17 +85,32 @@
       "0": {
         "executable": "Squars.exe",
         "type": "default"
+      },
+      "1": {
+        "executable": "Squars.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
   "depots": {
     "4102731": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "7020807659542235795",
           "size": "192209580",
           "download": "79089680"
         }
+      }
+    },
+    "4102732": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
