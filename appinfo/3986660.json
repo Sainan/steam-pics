@@ -1,17 +1,15 @@
 {
   "appid": "3986660",
-  "public_only": "1",
   "common": {
     "name": "Crop Survivor",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "04a43d3e81ee76e5de66b4a04aa5a225de709b38",
     "icon": "04a43d3e81ee76e5de66b4a04aa5a225de709b38",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
     "controllertagwizard": "1",
-    "controller_support": "full",
     "small_capsule": {
       "english": "2ebbf2486056646202cb2be75291f5b56dd17393/capsule_231x87.jpg"
     },
@@ -94,11 +92,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -108,9 +101,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761206861",
     "community_hub_visible": "1",
     "gameid": "3986660",
-    "exfgls": "8",
     "store_tags": {
       "0": "5900",
       "1": "87918",
@@ -132,6 +125,58 @@
       "17": "8369",
       "18": "21",
       "19": "4252"
+    }
+  },
+  "extended": {
+    "developer": "Parry Me Studio",
+    "publisher": "Parry Me Studio"
+  },
+  "config": {
+    "installdir": "Crop Survivor",
+    "launch": {
+      "0": {
+        "executable": "ZombieFarm\\Binaries\\Win64\\ZombieFarm-Win64-Shipping.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3986661": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5232132037149903818",
+          "size": "575906412",
+          "download": "418891168"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20492899",
+        "timeupdated": "1761120314"
+      }
     }
   }
 }
