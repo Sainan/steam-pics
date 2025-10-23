@@ -1,6 +1,5 @@
 {
   "appid": "3887500",
-  "public_only": "1",
   "common": {
     "name": "The Last Purge",
     "type": "Game",
@@ -20,7 +19,7 @@
     "icon": "b877e3d16a872b3e7193c25ddfb6f4931517121a",
     "clienttga": "234137a0853db7112fa5b0f6d31daef4521dc243",
     "clienticon": "850c3beaa6e049d15c9438b467a881b7f381898f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -169,9 +168,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3887500",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "9",
@@ -193,6 +192,61 @@
       "17": "6426",
       "18": "7250",
       "19": "1645"
+    }
+  },
+  "extended": {
+    "developer": "Third Singular",
+    "publisher": "Third Singular"
+  },
+  "config": {
+    "installdir": "The Last Purge",
+    "launch": {
+      "0": {
+        "executable": "the-last-purge.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3887501": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4285916684290737405",
+          "size": "206186548",
+          "download": "135857712"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,tchinese,russian,japanese,portuguese,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20509784",
+        "timeupdated": "1761209573"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "the-last-purge/config",
+        "pattern": "*.tres"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "the-last-purge/save",
+        "pattern": "*.tres"
+      }
     }
   }
 }
