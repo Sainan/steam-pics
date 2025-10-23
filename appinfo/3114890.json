@@ -1,13 +1,12 @@
 {
   "appid": "3114890",
-  "public_only": "1",
   "common": {
     "name": "Microvania",
     "type": "Game",
     "icon": "26c626254b8aede6c5663dff6b40ab41e5d77472",
     "clienticon": "af1f8a03d150590917d59a59152142ef1d8c6110",
     "clienttga": "147dc6a43884282d15f46a8119ae6cbc2644d49a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -115,9 +114,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761249235",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3114890",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1628",
@@ -138,6 +138,94 @@
       "16": "5752",
       "17": "4026",
       "18": "492"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "3840x2160",
+    "developer": "Dreampunk",
+    "publisher": "Dreampunk",
+    "homepage": "http://microvania.com"
+  },
+  "config": {
+    "installdir": "Microvania",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Microvania_Win.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Microvania_OSX.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524"
+  },
+  "depots": {
+    "3114891": {
+      "manifests": {
+        "public": {
+          "gid": "4189793093936555671",
+          "size": "223712196",
+          "download": "73527968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20510758",
+        "timeupdated": "1761214511"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "12",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "Dreampunk/Microvania/",
+        "pattern": "*.mvs"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Dreampunk/Microvania",
+        "pattern": "*.png"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "Dreampunk/Microvania/",
+            "replace": "Dreampunk/Microvania"
+          }
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Dreampunk/Microvania/",
+            "replace": ".config/unity3d/Dreampunk/Microvania"
+          }
+        }
+      }
     }
   }
 }
