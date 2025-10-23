@@ -210,14 +210,25 @@
   "ufs": {
     "quota": "10000000",
     "maxnumfiles": "100",
-    "appidredirect": "1541370",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "gameinstall",
-        "path": "UltimateTheaterSimulator_Data/SaveData",
-        "pattern": "*.save"
+        "path": "UltimateTheaterSimulatorDemo_Data/SaveData",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
       },
-      "copied_from_parent": "1"
+      "1": {
+        "root": "MacAppSupport",
+        "path": "UltimateTheaterSimulatorDemo_Data/SaveData",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
