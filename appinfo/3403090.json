@@ -1,6 +1,5 @@
 {
   "appid": "3403090",
-  "public_only": "1",
   "common": {
     "name": "Fire Hero - Pixel Rescue",
     "type": "Game",
@@ -11,14 +10,18 @@
     "clienticon": "caa58e9ed2574731187428c4a6d7fbe57c55b6f2",
     "clienttga": "63e49170d77dac7628e5226ec31fb80ec79befbe",
     "linuxclienticon": "8195c9ae3b8bd4420f0ba41beb9fb944b183f12a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "french": "1"
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
-      "english": "3dcb3a7d5066a47d188b1ae18de8ba4d0d9f4b3a/capsule_231x87.jpg"
+      "english": "34fb67b1dd75d9603fe8d5d6f3d55c325bbe1f0b/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "bd9c408a62eafb76d051642048b678d25bd186d8/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -35,10 +38,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image2x": {
-          "english": "1f7f08da1a234fa668d3290906aaecb7d857ab85/library_600x900_2x.jpg"
+          "english": "f1e084e3e6cfe9171e9d0e5c40d77d6aca63d010/library_capsule_2x.jpg"
         },
         "image": {
-          "english": "1f7f08da1a234fa668d3290906aaecb7d857ab85/library_600x900.jpg"
+          "english": "f1e084e3e6cfe9171e9d0e5c40d77d6aca63d010/library_capsule.jpg"
         }
       },
       "library_hero": {
@@ -69,14 +72,14 @@
       },
       "library_header": {
         "image": {
-          "english": "17ac2d9bd95064de7bbe07a1ee70c5d166c47fc2/library_header.jpg"
+          "english": "bd9c408a62eafb76d051642048b678d25bd186d8/library_header.jpg"
         },
         "image2x": {
-          "english": "17ac2d9bd95064de7bbe07a1ee70c5d166c47fc2/library_header_2x.jpg"
+          "english": "bd9c408a62eafb76d051642048b678d25bd186d8/library_header_2x.jpg"
         }
       }
     },
-    "store_asset_mtime": "1755115099",
+    "store_asset_mtime": "1761149483",
     "associations": {
       "0": {
         "type": "developer",
@@ -147,9 +150,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761065710",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3403090",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1625",
@@ -171,6 +175,49 @@
       "17": "30358",
       "18": "5608",
       "19": "4136"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Ravenlore Studio",
+    "publisher": "Ravenlore Studio",
+    "homepage": "https://ravenlore-studio.com/"
+  },
+  "config": {
+    "installdir": "Fire Hero - Pixel Rescue",
+    "launch": {
+      "0": {
+        "executable": "FireHero  Pixel Rescue.exe"
+      }
+    }
+  },
+  "depots": {
+    "3403091": {
+      "manifests": {
+        "public": {
+          "gid": "7553362554228472383",
+          "size": "631665737",
+          "download": "254618992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20500442",
+        "timeupdated": "1761154553"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "RavenLore/FireHero _ Pixel Rescue",
+        "pattern": "*"
+      }
     }
   }
 }
