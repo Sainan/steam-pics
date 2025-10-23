@@ -1,6 +1,5 @@
 {
   "appid": "3856650",
-  "public_only": "1",
   "common": {
     "name": "SNEAKALOT",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -176,9 +175,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761237847",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3856650",
-    "exfgls": "8",
     "store_tags": {
       "0": "1687",
       "1": "1695",
@@ -200,6 +200,54 @@
       "17": "7481",
       "18": "7250",
       "19": "6730"
+    }
+  },
+  "extended": {
+    "developer": "BMi Studio",
+    "publisher": "BMi Studio",
+    "homepage": "https://bmistudio.live"
+  },
+  "config": {
+    "installdir": "SNEAKALOT",
+    "launch": {
+      "0": {
+        "executable": "Sneakalot.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3856651": {
+      "manifests": {
+        "public": {
+          "gid": "762024596793679681",
+          "size": "8259473601",
+          "download": "7794310288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20512308",
+        "timeupdated": "1761221511"
+      }
     }
   }
 }
