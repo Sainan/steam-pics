@@ -1,6 +1,5 @@
 {
   "appid": "497120",
-  "public_only": "1",
   "common": {
     "name": "Wildcard",
     "type": "Game",
@@ -20,7 +19,7 @@
     "icon": "0a0e8cd7a3bb3afa51e496d7824d060fa3799fe3",
     "clienticon": "06db726984500f6d93d046b11c2d02d656e6fb5c",
     "clienticns": "06db726984500f6d93d046b11c2d02d656e6fb5c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f3ef1685e40a6cd15b9c42d8455884d5b7a57b8a/capsule_231x87.jpg"
@@ -121,6 +120,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761059405",
     "community_hub_visible": "1",
     "gameid": "497120",
     "exfgls": "3",
@@ -145,6 +145,81 @@
       "17": "32322",
       "18": "492",
       "19": "3814"
-    }
+    },
+    "review_score": "5",
+    "review_percentage": "63"
+  },
+  "extended": {
+    "developer": "The Wildcard Alliance",
+    "publisher": "The Wildcard Alliance",
+    "homepage": "https://www.wildcardgame.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Wildcard",
+    "launch": {
+      "0": {
+        "executable": "Timeless.exe",
+        "arguments": "-ExecCmds=DisableAllScreenMessages",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "497121": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3127972417953237711",
+          "size": "10689425377",
+          "download": "10002929184"
+        }
+      }
+    },
+    "workshopdepot": "497120",
+    "branches": {
+      "public": {
+        "buildid": "20475426",
+        "timeupdated": "1761058939"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5242880",
+    "maxnumfiles": "5",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
