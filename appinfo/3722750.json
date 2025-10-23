@@ -110,7 +110,8 @@
       "category_58": "1",
       "category_41": "1",
       "category_42": "1",
-      "category_43": "1"
+      "category_43": "1",
+      "category_23": "1"
     },
     "supported_languages": {
       "english": {
@@ -190,9 +191,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "4043213382524480467",
-          "size": "82714721",
-          "download": "45578128"
+          "gid": "1677264433342493199",
+          "size": "85860577",
+          "download": "47892960"
         }
       }
     },
@@ -211,8 +212,50 @@
     "baselanguages": "english,french,spanish,ukrainian,latam",
     "branches": {
       "public": {
-        "buildid": "20265738",
-        "timeupdated": "1759731083"
+        "buildid": "20516574",
+        "timeupdated": "1761240663"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "100",
+    "appidredirect": "3275440",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Pluralys",
+        "pattern": "savefile-1.pli"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Pluralys",
+        "pattern": "sharedopt.ini"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "Pluralys",
+        "pattern": "savefile-1-demo.pli"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Pluralys",
+        "pattern": "savefile-1-theatre.pli"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Pluralys",
+            "replace": "com.studiosivalys.pluralys"
+          }
+        }
       }
     }
   }
