@@ -1,13 +1,12 @@
 {
   "appid": "3212590",
-  "public_only": "1",
   "common": {
     "name": "Greedy Darts",
     "type": "Game",
     "icon": "2f06fb021ab2856927072f9634dd3f2a779041e8",
     "clienttga": "f5f62e02a26b05d8295c513ba9f949e098f6912e",
     "clienticon": "33af507e1c3308a41a4bbdc80c20988cb9785472",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -101,9 +100,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761263781",
     "community_hub_visible": "1",
     "gameid": "3212590",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "1666",
@@ -119,6 +118,70 @@
       "11": "4182",
       "12": "492",
       "13": "493"
+    }
+  },
+  "extended": {
+    "developer": "tamtam",
+    "publisher": "tamtam"
+  },
+  "config": {
+    "installdir": "Greedy Darts",
+    "launch": {
+      "0": {
+        "executable": "greedy_darts.exe"
+      }
+    }
+  },
+  "depots": {
+    "3212591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7749276409303251383",
+          "size": "201044657",
+          "download": "109997488"
+        },
+        "develop": {
+          "gid": "7317365993427290737",
+          "size": "199408980",
+          "download": "108293824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20511870",
+        "timeupdated": "1761219522"
+      },
+      "develop": {
+        "buildid": "20520556",
+        "description": "for dev",
+        "timeupdated": "1761262066"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/greedy_darts/{64BitSteamID}/userdata",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/greedy_darts/{64BitSteamID}/run_config",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
