@@ -1,20 +1,37 @@
 {
   "appid": "3593490",
-  "public_only": "1",
   "common": {
     "name": "Days Without Incident",
     "type": "Game",
     "clienticon": "9deed9e05e11043b9d52684008d04cca857facfb",
     "icon": "d09927580589c36c2f32800f5e102f01d13c4a30",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
+    "languages": {
+      "english": "1",
+      "french": "1",
+      "italian": "1",
+      "koreana": "1",
+      "spanish": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "russian": "1",
+      "japanese": "1",
+      "portuguese": "1",
+      "hungarian": "1",
+      "turkish": "1",
+      "brazilian": "1",
+      "ukrainian": "1",
+      "latam": "1"
+    },
     "content_descriptors": {
       "0": "2",
       "1": "5"
     },
     "controllertagwizard": "1",
+    "controller_support": "partial",
     "small_capsule": {
       "english": "223ac0c57945fe5b778cf94dcda9659b9532fbc6/capsule_231x87.jpg"
     },
@@ -98,7 +115,8 @@
       "category_2": "1",
       "category_23": "1",
       "category_69": "1",
-      "category_22": "1"
+      "category_22": "1",
+      "category_18": "1"
     },
     "supported_languages": {
       "english": {
@@ -152,8 +170,14 @@
       "ukrainian": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761148813",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3593490",
     "exfgls": "3",
@@ -181,6 +205,57 @@
       "16": "3993",
       "17": "1742",
       "18": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "We Create Stuff",
+    "publisher": "Black Lantern Collective",
+    "homepage": "https://wecreatestuff.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "DaysWithoutIncident",
+    "launch": {
+      "0": {
+        "executable": "dwi.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3593491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7635413333032202297",
+          "size": "645828056",
+          "download": "278662592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20472196",
+        "timeupdated": "1761001477"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "We Create Stuff/Days Without Incident/",
+        "pattern": "*.json"
+      }
     }
   }
 }
