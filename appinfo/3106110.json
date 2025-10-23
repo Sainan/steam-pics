@@ -1,6 +1,5 @@
 {
   "appid": "3106110",
-  "public_only": "1",
   "common": {
     "name": "HyperBlade 2050 - Dystopian Sports Manager",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "17516639d4f1ff0f4050f254f859617678baf8c5",
     "clienticon": "b918826102c515271b6102420bdf666163e0ef44",
     "linuxclienticon": "a33c1b0eeab19e540d47cf03497577924add6a96",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -110,9 +109,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760965870",
     "community_hub_visible": "1",
     "gameid": "3106110",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -137,6 +136,43 @@
       "17": "1708",
       "18": "6426",
       "19": "1742"
+    }
+  },
+  "extended": {
+    "developer": "Dejima Studios",
+    "publisher": "Dejima Studios",
+    "homepage": "https://www.dejimastudios.com/"
+  },
+  "config": {
+    "installdir": "HyperBlade2050",
+    "launch": {
+      "0": {
+        "executable": "HyperBlade 2050.exe",
+        "arguments": "-windowed",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3106115": {
+      "manifests": {
+        "public": {
+          "gid": "5824494220451460436",
+          "size": "1666713788",
+          "download": "775184912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20454409",
+        "timeupdated": "1760882103"
+      }
     }
   }
 }
