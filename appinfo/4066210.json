@@ -1,16 +1,15 @@
 {
   "appid": "4066210",
-  "public_only": "1",
   "common": {
     "name": "Skyborne Chronicles Demo",
     "type": "Demo",
     "parent": "4043570",
     "clienticon": "79a3dfcec541801b469a76f501afa6d05d210d96",
     "icon": "79a3dfcec541801b469a76f501afa6d05d210d96",
-    "oslist": "windows,macos,linux",
+    "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -112,10 +111,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761226553",
     "gameid": "4066210",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Ivan Gvozdanovic",
+    "publisher": "Skyborne Studios HQ",
+    "homepage": "https://linktr.ee/SkyborneHQ"
+  },
+  "config": {
+    "installdir": "Skyborne Chronicles Demo",
+    "launch": {
+      "0": {
+        "executable": "SkyborneChronicles.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066211": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5003369864449182112",
+          "size": "3242802383",
+          "download": "610154832"
+        }
+      }
+    },
+    "4066212": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20230305",
+        "timeupdated": "1759444357"
+      }
     }
   }
 }
