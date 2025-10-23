@@ -1,6 +1,5 @@
 {
   "appid": "3942610",
-  "public_only": "1",
   "common": {
     "name": "DriveWave",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -181,6 +180,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761216826",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3942610",
     "exfgls": "3",
@@ -205,6 +206,55 @@
       "17": "4115",
       "18": "1644",
       "19": "4295"
+    }
+  },
+  "extended": {
+    "developer": "Dumbbell Games",
+    "publisher": "Dumbbell Games",
+    "homepage": "http://www.dumbbellgames.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "DriveWave",
+    "launch": {
+      "0": {
+        "executable": "DriveWave.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3942611": {
+      "manifests": {
+        "public": {
+          "gid": "8324742312771591461",
+          "size": "448760765",
+          "download": "351184032"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,brazilian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20457135",
+        "timeupdated": "1760911625"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Dumbbell Games/DriveWave",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
