@@ -1,6 +1,5 @@
 {
   "appid": "3345950",
-  "public_only": "1",
   "common": {
     "name": "Capote",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "7d60b22a7a2d395c715ea0c15331560334ac11a0",
     "clienttga": "8df7a8091005f9527410e8135180e175b753fa6e",
     "clienticon": "3a47e014b356a9414fb1fc56dc3c6cc8280daa77",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -124,9 +123,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761242693",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3345950",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "492",
@@ -148,6 +148,162 @@
       "17": "1719",
       "18": "10397",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Luski Game Studio",
+    "publisher": "CriticalLeap",
+    "homepage": "https://www.luskigamestudio.com/capote"
+  },
+  "config": {
+    "installdir": "Capote",
+    "launch": {
+      "0": {
+        "executable": "Capote.exe",
+        "arguments": "-dx12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Capote using DX12",
+          "german": "Capote mit DX12 starten",
+          "french": "Jouer à Capote avec DX12",
+          "italian": "Gioca a Capote con DX12",
+          "koreana": "DX12로 Capote 실행",
+          "spanish": "Jugar Capote con DX12",
+          "schinese": "使用 DX12 启动 Capote",
+          "russian": "Играть в Capote через DX12",
+          "thai": "เล่น Capote ด้วย DX12",
+          "japanese": "DX12 で Capote をプレイ",
+          "portuguese": "Jogar Capote com DX12",
+          "polish": "Uruchom Capote z DX12",
+          "dutch": "Capote starten met DX12",
+          "turkish": "Capote’yi DX12 ile başlat",
+          "brazilian": "Jogar Capote usando DX12",
+          "ukrainian": "Запустити Capote через DX12",
+          "latam": "Jugar Capote con DX12",
+          "vietnamese": "Chơi Capote bằng DX12",
+          "indonesian": "Mainkan Capote dengan DX12"
+        },
+        "description": "Play Capote using DX12"
+      },
+      "1": {
+        "executable": "Capote.exe",
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Capote using DX11",
+          "german": "Capote mit DX11 starten",
+          "french": "Jouer à Capote avec DX11",
+          "italian": "Gioca a Capote con DX11",
+          "koreana": "DX11로 Capote 실행",
+          "spanish": "Jugar a Capote con DX11",
+          "schinese": "使用 DX11 启动 Capote",
+          "russian": "Запустить Capote с DX11",
+          "thai": "เล่น Capote ด้วย DX11",
+          "japanese": "DX11 で Capote をプレイ",
+          "portuguese": "Jogar Capote com DX11",
+          "dutch": "Capote starten met DX11",
+          "turkish": "Capote’yi DX11 ile başlat",
+          "brazilian": "Jogar Capote usando DX11",
+          "ukrainian": "Запустити Capote з DX11",
+          "latam": "Jugar Capote con DX11",
+          "vietnamese": "Chơi Capote bằng DX11",
+          "indonesian": "Mainkan Capote dengan DX11"
+        },
+        "description": "Play Capote using DX11"
+      },
+      "2": {
+        "executable": "Capote.exe",
+        "arguments": "-vulkan",
+        "description_loc": {
+          "english": "Play Capote using Vulkan",
+          "german": "Capote mit Vulkan starten",
+          "french": "Jouer à Capote avec Vulkan",
+          "italian": "Gioca a Capote con Vulkan",
+          "koreana": "Vulkan으로 Capote 실행",
+          "spanish": "Jugar a Capote con Vulkan",
+          "schinese": "使用 Vulkan 启动 Capote",
+          "thai": "เล่น Capote ด้วย Vulkan",
+          "japanese": "Vulkan で Capote をプレイ",
+          "portuguese": "Jogar Capote com Vulkan",
+          "dutch": "Capote starten met Vulkan",
+          "romanian": "Запустить Capote с Vulkan",
+          "turkish": "Capote’yi Vulkan ile başlat",
+          "brazilian": "Jogar Capote usando Vulkan",
+          "ukrainian": "Запустити Capote з Vulkan",
+          "latam": "Jugar Capote con Vulkan",
+          "vietnamese": "Chơi Capote bằng Vulkan"
+        },
+        "description": "Play Capote using Vulkan"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3345951": {
+      "manifests": {
+        "public": {
+          "gid": "154247094704952648",
+          "size": "1286174908",
+          "download": "913180384"
+        },
+        "beta": {
+          "gid": "6112983752213544515",
+          "size": "1336349480",
+          "download": "956411712"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,russian,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20516940",
+        "timeupdated": "1761242450"
+      },
+      "beta": {
+        "buildid": "20212827",
+        "description": "for providing feedback on WIP content",
+        "timeupdated": "1759352792"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "32000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Capote/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
