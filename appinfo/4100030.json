@@ -6,7 +6,7 @@
     "parent": "4053750",
     "clienticon": "3d978e3e951eae690754a79b42e1e56dc9be3579",
     "icon": "0651332d7b78b721c509fcbdb8c044be624194c2",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -82,7 +82,7 @@
     "exfgls": "6"
   },
   "extended": {
-    "playtest_type": "0",
+    "playtest_type": "1",
     "playtestinvitecount": "3",
     "playtestinviteendtime": "1776211200"
   },
@@ -95,6 +95,13 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Irezumi Defenders.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
@@ -105,17 +112,29 @@
       },
       "manifests": {
         "public": {
-          "gid": "3838874012958087582",
-          "size": "194490717",
-          "download": "47840736"
+          "gid": "9024592304380555009",
+          "size": "194575098",
+          "download": "47843856"
+        }
+      }
+    },
+    "4100032": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6207502242189677145",
+          "size": "190607176",
+          "download": "45749568"
         }
       }
     },
     "baselanguages": "english,french",
     "branches": {
       "public": {
-        "buildid": "20436785",
-        "timeupdated": "1760710921"
+        "buildid": "20514912",
+        "timeupdated": "1761233488"
       }
     }
   },
@@ -131,6 +150,15 @@
         "pattern": "*.sav",
         "platforms": {
           "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
         },
         "recursive": "1"
       }
