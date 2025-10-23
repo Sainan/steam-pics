@@ -1,6 +1,5 @@
 {
   "appid": "3621170",
-  "public_only": "1",
   "common": {
     "name": "Witch's Brew: Love and Lattes",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienttga": "9a917ada3a671812ef3a564f70fe7f5139d39da1",
     "clienticns": "df03889b16b012efe3d2dd98815ef43d052b1c1d",
     "linuxclienticon": "9dffc1d5561a37530617a18ed5459e5e00fb6a0c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1746724895",
+    "store_asset_mtime": "1760106626",
     "associations": {
       "0": {
         "type": "developer",
@@ -103,9 +102,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3621170",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "11014",
@@ -119,5 +118,81 @@
       "9": "6426",
       "10": "6971"
     }
+  },
+  "extended": {
+    "developer": "Heart's Choice",
+    "publisher": "Heart's Choice"
+  },
+  "config": {
+    "installdir": "Witch's Brew Love and Lattes",
+    "launch": {
+      "0": {
+        "executable": "WitchsBrewLoveAndLattes.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Witch's Brew Love and Lattes.app/Contents/MacOS/Witch's Brew Love and Lattes",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "WitchsBrewLoveAndLattes",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3621171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1630172215945827516",
+          "size": "238439932",
+          "download": "94255152"
+        }
+      }
+    },
+    "3621172": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4829682507174107154",
+          "size": "11950721",
+          "download": "4964224"
+        }
+      }
+    },
+    "3621173": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1657365308193356047",
+          "size": "241011465",
+          "download": "87307760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514406",
+        "timeupdated": "1761231261"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10000"
   }
 }
