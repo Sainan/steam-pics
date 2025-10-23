@@ -1,13 +1,15 @@
 {
   "appid": "3361070",
-  "public_only": "1",
   "common": {
     "name": "Hedge Fund Manager Simulator MMO",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "90495f1c1a5fb4384c546cf38e58e61f964bc175",
     "clienticon": "2a862050e2977334c66c0a8e1a2678c32cbc1550",
     "clienttga": "de199cd29c25de0a590b0f130657ffff6c55ccf9",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e80f78640702667f6d10bd7609ad8b56c86da4f9/capsule_231x87.jpg"
@@ -100,9 +102,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760950799",
     "community_hub_visible": "1",
     "gameid": "3361070",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -123,6 +125,44 @@
       "16": "615955",
       "17": "3871",
       "18": "493"
+    }
+  },
+  "extended": {
+    "developer": "Hot Soup Games",
+    "publisher": "Hot Soup Games"
+  },
+  "config": {
+    "installdir": "Hedge Fund Manager Simulator MMO",
+    "launch": {
+      "0": {
+        "executable": "HFMS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3361071": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1597987750225609799",
+          "size": "419130019",
+          "download": "89623216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20509443",
+        "timeupdated": "1761208026"
+      }
     }
   }
 }
