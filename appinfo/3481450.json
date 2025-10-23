@@ -1,6 +1,5 @@
 {
   "appid": "3481450",
-  "public_only": "1",
   "common": {
     "name": "Goblin Lands",
     "type": "Game",
@@ -27,7 +26,7 @@
     "clienticon": "3d213e96bc58e92b9d6bc987b3c7665bbf31b55f",
     "clienttga": "3afa3de84a0635a8614eb410ef4f759a88d597a3",
     "icon": "97eb504d29ce44bd31633540bb3b1310492c68e8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -46,6 +45,7 @@
       "brazilian": "1",
       "ukrainian": "1"
     },
+    "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3dbf37e0b662df458ebd949ebd18ee0501463f86/capsule_231x87.jpg"
@@ -192,9 +192,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3481450",
-    "exfgls": "8",
     "store_tags": {
       "0": "5923",
       "1": "4994",
@@ -216,6 +217,39 @@
       "17": "9",
       "18": "1697",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Hot Waffle Games",
+    "publisher": "Hot Waffle Games"
+  },
+  "config": {
+    "installdir": "Goblin Lands",
+    "launch": {
+      "0": {
+        "executable": "Goblin Lands.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3481451": {
+      "manifests": {
+        "public": {
+          "gid": "6495912590986629207",
+          "size": "221417113",
+          "download": "76699440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20510589",
+        "timeupdated": "1761213614"
+      }
     }
   }
 }
