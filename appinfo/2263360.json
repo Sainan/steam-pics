@@ -1,13 +1,12 @@
 {
   "appid": "2263360",
-  "public_only": "1",
   "common": {
     "name": "HYPERBEAT",
     "type": "Game",
     "icon": "27686ed22c24d413be551edd75df4df6312b7cd5",
     "clienttga": "1c8b813da48f3f2d4a49a3a046df8a672ae8dafb",
     "clienticon": "27686ed22c24d413be551edd75df4df6312b7cd5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760842387",
+    "store_asset_mtime": "1761087883",
     "associations": {
       "0": {
         "type": "developer",
@@ -83,15 +82,11 @@
       },
       "1": {
         "type": "developer",
-        "name": "CHANCELLOR"
+        "name": "Chancellor Wallin"
       },
       "2": {
         "type": "publisher",
-        "name": "Alice Bottino"
-      },
-      "3": {
-        "type": "publisher",
-        "name": "CHANCELLOR"
+        "name": "Dreamware Media"
       }
     },
     "primary_genre": "1",
@@ -122,10 +117,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761151994",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "2263360",
-    "exfgls": "8",
     "store_tags": {
       "0": "1752",
       "1": "4191",
@@ -136,6 +132,54 @@
       "6": "492",
       "7": "19",
       "8": "1773"
+    },
+    "review_score": "7",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "Alice Bottino",
+    "publisher": "Dreamware Media"
+  },
+  "config": {
+    "installdir": "HYPERBEAT",
+    "launch": {
+      "0": {
+        "executable": "HYPERBEAT.exe"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "2263361": {
+      "manifests": {
+        "public": {
+          "gid": "4150445067138732812",
+          "size": "447614213",
+          "download": "336329776"
+        }
+      }
+    },
+    "2263362": {},
+    "hasdepotsindlc": "0",
+    "workshopdepot": "2263360",
+    "branches": {
+      "public": {
+        "buildid": "20494150",
+        "timeupdated": "1761128726"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "1024",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "HYPERBEAT_Data/Saves",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
