@@ -1,6 +1,5 @@
 {
   "appid": "1983830",
-  "public_only": "1",
   "common": {
     "name": "东方三妖精大冒险~Take it Easy",
     "type": "Game",
@@ -22,7 +21,7 @@
     "clienttga": "c1149c249d7e8443e8031505b1c2a39fa862a5e2",
     "clienticon": "402eebc1b685b114649b69739a631a67c045775a",
     "icon": "45a4755dc8efb27677caaf65e01f42a0aefad233",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d2ea2c9460ba800fa2eae8cd58e02b881abbfb55/capsule_231x87.jpg"
@@ -108,9 +107,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761235478",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1983830",
-    "exfgls": "8",
     "store_tags": {
       "0": "4434",
       "1": "4026",
@@ -132,6 +132,46 @@
       "17": "5984",
       "18": "6971",
       "19": "7208"
+    }
+  },
+  "extended": {
+    "developer": "狐狸壶工作室",
+    "publisher": "狐狸壶工作室"
+  },
+  "config": {
+    "installdir": "TohoThreeFairiesAdventure_Take it Easy",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1983831": {
+      "manifests": {
+        "public": {
+          "gid": "5871852851921479043",
+          "size": "1244613569",
+          "download": "1207173440"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20515240",
+        "timeupdated": "1761234783"
+      }
     }
   }
 }
