@@ -1,13 +1,12 @@
 {
   "appid": "3740830",
-  "public_only": "1",
   "common": {
     "name": "A Court of Chaos",
     "type": "Game",
     "icon": "ecea2918d80b06c19ca7472d4ebf31ff9841ae4c",
     "clienttga": "6f728e008748468cd2e2fd080d9ce056e492b962",
     "clienticon": "a1baa81fce96e27ed7061f3227f0168124137af3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64",
@@ -110,13 +109,13 @@
     "supported_languages": {
       "english": {
         "supported": "true",
-        "full_audio": "true",
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761188066",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3740830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -144,6 +143,54 @@
       "17": "4604",
       "18": "4342",
       "19": "9551"
+    }
+  },
+  "extended": {
+    "developer": "The Sexy Chinaman",
+    "publisher": "The Sexy Chinaman",
+    "homepage": "https://thesexychinaman.com"
+  },
+  "config": {
+    "installdir": "Court of Chaos",
+    "launch": {
+      "0": {
+        "executable": "ACourtofChaos.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ACourtofChaos.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "ACourtofChaos.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3740831": {
+      "manifests": {
+        "public": {
+          "gid": "6701386904097754630",
+          "size": "1612598325",
+          "download": "1483595856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19733201",
+        "timeupdated": "1756169717"
+      }
     }
   }
 }
