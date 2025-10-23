@@ -1,6 +1,5 @@
 {
   "appid": "2542350",
-  "public_only": "1",
   "common": {
     "name": "Masks of the Void: Origins",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2542350_eula_0",
@@ -124,9 +123,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2542350",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1716",
@@ -149,5 +149,61 @@
       "18": "16094",
       "19": "4057"
     }
+  },
+  "extended": {
+    "developer": "ROLLDBOX GAMES",
+    "publisher": "Forthright Entertainment",
+    "homepage": "https://rolldbox.com/home/masks-of-the-void/"
+  },
+  "config": {
+    "installdir": "Masks of the Void",
+    "launch": {
+      "0": {
+        "executable": "DE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2542351": {
+      "manifests": {
+        "public": {
+          "gid": "6812401026415725753",
+          "size": "2375443866",
+          "download": "2020021872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20495508",
+        "timeupdated": "1761133824"
+      }
+    },
+    "privatebranches": "1"
   }
 }
