@@ -1,6 +1,5 @@
 {
   "appid": "4040500",
-  "public_only": "1",
   "common": {
     "name": "Sigils of Nightfall Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -115,5 +114,43 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "2 Wedges",
+    "publisher": "2 Wedges",
+    "homepage": "https://www.2wedges.com"
+  },
+  "config": {
+    "installdir": "Sigils of Nightfall Demo",
+    "launch": {
+      "0": {
+        "executable": "Sigils of Nightfall - Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4040501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6418470865285271511",
+          "size": "358609635",
+          "download": "246145104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20515574",
+        "timeupdated": "1761237291"
+      }
+    },
+    "privatebranches": "1"
   }
 }
