@@ -1,6 +1,5 @@
 {
   "appid": "4106460",
-  "public_only": "1",
   "common": {
     "name": "Wicked Cabins Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -101,5 +100,66 @@
     },
     "gameid": "4106460",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dariusz Pietrala",
+    "publisher": "Dariusz Pietrala"
+  },
+  "config": {
+    "installdir": "Wicked Cabins Demo",
+    "launch": {
+      "0": {
+        "executable": "Wicked Cabins Demo.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "WickedCabinsDemo.x86_64",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Linux"
+        },
+        "description": "Linux"
+      }
+    }
+  },
+  "depots": {
+    "4106461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3696190209835168298",
+          "size": "216637430",
+          "download": "102413376"
+        }
+      }
+    },
+    "4106462": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "993384942390247872",
+          "size": "242436340",
+          "download": "126514192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20515280",
+        "timeupdated": "1761234905"
+      }
+    }
   }
 }
