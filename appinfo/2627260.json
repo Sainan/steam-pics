@@ -1,13 +1,12 @@
 {
   "appid": "2627260",
-  "public_only": "1",
   "common": {
     "name": "Ninja Gaiden 4",
     "type": "Game",
     "icon": "4dceec063caa8531e8a3180c5b34243b4c31babf",
     "clienticon": "3a397bbf8e43631526ea51b58e2fc56dec5e8639",
     "clienttga": "6c70726c491977fb578d3a6f2ae9bcd137116337",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {},
     "languages": {
       "english": "1",
@@ -147,7 +146,7 @@
         }
       }
     },
-    "store_asset_mtime": "1755628961",
+    "store_asset_mtime": "1760974374",
     "associations": {
       "0": {
         "type": "developer",
@@ -172,6 +171,13 @@
       "category_58": "1",
       "category_22": "1",
       "category_29": "1",
+      "category_23": "1",
+      "category_66": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_70": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -226,9 +232,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761004740",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2627260",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -238,15 +245,153 @@
       "1": "21",
       "2": "1646",
       "3": "1688",
-      "4": "4106",
-      "5": "4667",
-      "6": "4345",
-      "7": "4191",
+      "4": "4667",
+      "5": "4106",
+      "6": "4191",
+      "7": "4345",
       "8": "4182",
       "9": "4777",
       "10": "3955",
       "11": "4026",
-      "12": "1697"
+      "12": "1697",
+      "13": "4115"
+    },
+    "review_score": "8",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "PlatinumGames Inc. / Team NINJA / KOEI TECMO GAMES CO., LTD.",
+    "publisher": "Xbox Game Studios",
+    "listofdlc": "3717100,3717110",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "NINJAGAIDEN4",
+    "launch": {
+      "0": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "qa_test"
+        }
+      },
+      "1": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "game_qa_qa_test"
+        }
+      },
+      "2": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": " release"
+        }
+      },
+      "3": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "staging"
+        }
+      },
+      "4": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "sq_shield"
+        }
+      },
+      "5": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "review_build"
+        }
+      },
+      "6": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "review_build_0625"
+        }
+      },
+      "7": {
+        "executable": "NINJAGAIDEN4-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "ms_ap_signed"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "65532"
+  },
+  "depots": {
+    "2627261": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4989820315570254152",
+          "size": "58644108257",
+          "download": "57187120512"
+        }
+      }
+    },
+    "2627262": {
+      "config": {
+        "oslist": "windows",
+        "steamdeck": "1",
+        "osarch": "64"
+      }
+    },
+    "3322910": {
+      "dlcappid": "3322910",
+      "config": {
+        "optionaldlc": "3322910"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,turkish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20221720",
+        "timeupdated": "1759483651"
+      }
+    },
+    "privatebranches": "1",
+    "appmanagesdlc": "1"
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "NINJAGAIDEN4",
+        "pattern": "*.dat"
+      }
     }
   }
 }
