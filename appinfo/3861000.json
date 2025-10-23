@@ -59,8 +59,16 @@
     "launch": {
       "0": {
         "executable": "ShipCrafter.exe",
+        "type": "default",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ShipCrafter.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
