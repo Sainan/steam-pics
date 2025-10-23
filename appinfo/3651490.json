@@ -1,10 +1,9 @@
 {
   "appid": "3651490",
-  "public_only": "1",
   "common": {
     "name": "Fire at Campsite",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "bdbe2560622832888292acd9200cbab8a58467f9",
     "clienticon": "4a5c86dca3f2c83ab4f2f6e176a668eb32a160d8",
     "clienttga": "f79ebf9a1d8d809c7cae9b0b8790cc31fa8ac6eb",
@@ -166,9 +165,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3651490",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "3959",
@@ -190,6 +190,87 @@
       "17": "5350",
       "18": "1755",
       "19": "1684"
+    }
+  },
+  "extended": {
+    "developer": "Salvador Palma",
+    "publisher": "ZOO Studios"
+  },
+  "config": {
+    "installdir": "Fire at Campsite",
+    "launch": {
+      "0": {
+        "executable": "Fire at Campsite.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows Version"
+        },
+        "description": "Windows Version"
+      },
+      "1": {
+        "executable": "MacOS.app/Contents/MacOS/Fire at Campsite",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "MacOS"
+        },
+        "description": "MacOS"
+      },
+      "2": {
+        "executable": "./FireAtCampsite.x86_64",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Linux"
+        },
+        "description": "Linux"
+      }
+    }
+  },
+  "depots": {
+    "3651491": {
+      "manifests": {
+        "public": {
+          "gid": "7470350307464143062",
+          "size": "1384561942",
+          "download": "102763344"
+        }
+      }
+    },
+    "3651492": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4206947882762582484",
+          "size": "1383782629",
+          "download": "101328272"
+        }
+      }
+    },
+    "3651493": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4753555300332430690",
+          "size": "1411098151",
+          "download": "110872560"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,russian,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20511718",
+        "timeupdated": "1761218778"
+      }
     }
   }
 }
