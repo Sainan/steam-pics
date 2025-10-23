@@ -1,13 +1,12 @@
 {
   "appid": "3128220",
-  "public_only": "1",
   "common": {
     "name": "Nerd Simulator",
     "type": "Game",
     "icon": "a67f7cc58f2c9f3736601b154dacaafc1d8497ae",
     "clienticon": "61763100fb7bcbd40f169e9f276f9438fa9bb070",
     "clienttga": "08f4aa9244878d1318244e2ce5b10b2a283a3170",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -151,9 +150,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761224096",
     "community_hub_visible": "1",
     "gameid": "3128220",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "10235",
@@ -176,5 +175,48 @@
       "18": "1742",
       "19": "4305"
     }
+  },
+  "extended": {
+    "developer": "Radikate",
+    "publisher": "Radikate",
+    "homepage": "https://www.radikate.com/"
+  },
+  "config": {
+    "installdir": "Nerd Simulator",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Nerd Simulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3128221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8143665349902506615",
+          "size": "1813391336",
+          "download": "558441792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20503427",
+        "timeupdated": "1761169933"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1000"
   }
 }
