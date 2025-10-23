@@ -1,6 +1,5 @@
 {
   "appid": "4032710",
-  "public_only": "1",
   "common": {
     "name": "Princess Covenant",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "f3cfd16763cd1bf7464dba7685cec8b5da6b99ab",
     "clienticon": "f3cfd16763cd1bf7464dba7685cec8b5da6b99ab",
     "linuxclienticon": "0dd459f8ff9097a212b4a48ef7b3282f66cad99d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5a1606224fba99495479584cd5c486f86c97d897/capsule_231x87.jpg"
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761220095",
     "community_hub_visible": "1",
     "gameid": "4032710",
-    "exfgls": "8",
     "store_tags": {
       "0": "1666",
       "1": "791774",
@@ -120,6 +119,77 @@
       "9": "4182",
       "10": "1684",
       "11": "1698"
+    }
+  },
+  "extended": {
+    "developer": "Lucky90Happy",
+    "publisher": "Lucky90Happy",
+    "homepage": "https://lucky90happy.com/princess-covenant"
+  },
+  "config": {
+    "installdir": "Princess Covenant",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "PrincessCovenant.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "PrincessCovenant_linux_x86_64.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "4032711": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8743491592324938700",
+          "size": "167566362",
+          "download": "91395664"
+        }
+      }
+    },
+    "4032712": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1514801649975485937",
+          "size": "148786279",
+          "download": "85557712"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20073499",
+        "timeupdated": "1758531402"
+      }
     }
   }
 }
