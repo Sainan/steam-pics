@@ -1,6 +1,5 @@
 {
   "appid": "3650690",
-  "public_only": "1",
   "common": {
     "name": "Stellar Destiny: The Last Survivor",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "80dda77b1b616999cf947d763f24786112de2ce4",
     "clienticon": "1984ba8644a84efe40eee3ac6297072e212e009d",
     "clienttga": "b1da54886efa5bd3a28e885c8f10fddd69ffcf54",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -90,10 +89,13 @@
         "name": "Amazing Vibes"
       }
     },
-    "primary_genre": "1",
+    "primary_genre": "70",
     "genres": {
       "0": "1",
-      "1": "70"
+      "1": "4",
+      "2": "23",
+      "3": "3",
+      "4": "70"
     },
     "category": {
       "category_2": "1",
@@ -156,21 +158,21 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761082659",
     "community_hub_visible": "1",
     "gameid": "3650690",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
     "store_tags": {
       "0": "42804",
       "1": "19",
-      "2": "3959",
-      "3": "4885",
-      "4": "4231",
-      "5": "1716",
-      "6": "4255",
-      "7": "122",
+      "2": "122",
+      "3": "3959",
+      "4": "4885",
+      "5": "4231",
+      "6": "1716",
+      "7": "4255",
       "8": "1773",
       "9": "1646",
       "10": "4791",
@@ -183,6 +185,58 @@
       "17": "1673",
       "18": "4182",
       "19": "4166"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Amazing Vibes",
+    "publisher": "Amazing Vibes"
+  },
+  "config": {
+    "installdir": "Stellar Destiny The Last Survivor",
+    "launch": {
+      "0": {
+        "executable": "Stellar Destiny - The Last Survivor.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3650691": {
+      "manifests": {
+        "public": {
+          "gid": "4711985994866802681",
+          "size": "4815798919",
+          "download": "1687134672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20487145",
+        "timeupdated": "1761082118"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Amazing Vibes s_r_o_/Stellar Destiny - The Last Survivor",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Amazing Vibes s_r_o_/Stellar Destiny - The Last Survivor",
+        "pattern": "*.json"
+      }
     }
   }
 }
