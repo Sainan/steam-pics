@@ -1,15 +1,14 @@
 {
   "appid": "4043470",
-  "public_only": "1",
   "common": {
-    "name": "High Fantasy: Lewd Story",
+    "name": "High Fantasy: Hentai Tale",
     "type": "Game",
     "clienticon": "359d22fb9e6c7dcfd359b3bfaf680b1ec6774de3",
     "icon": "129a4c9306692895d6aa1784cc3252d567a9a450",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -115,9 +114,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761218243",
     "community_hub_visible": "1",
     "gameid": "4043470",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -145,6 +144,78 @@
       "17": "3871",
       "18": "15172",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Rodrigo Piedras",
+    "publisher": "Rodrigo Piedras"
+  },
+  "config": {
+    "installdir": "HentaiHighFantasy",
+    "launch": {
+      "0": {
+        "executable": "HentaiHighFantasy-1.0-pc/HentaiHighFantasy.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Main .exe for playing game for Windows"
+        },
+        "description": "Main .exe for playing game for Windows"
+      },
+      "1": {
+        "executable": "HentaiHighFantasy-1.0-pc/HentaiHighFantasy.exe",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Main .exe for playing game for Linux"
+        },
+        "description": "Main .exe for playing game for Linux"
+      },
+      "2": {
+        "executable": "HentaiHighFantasy.app/Contents/MacOS/HentaiHighFantasy",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch option for MacOS"
+        },
+        "description": "Launch option for MacOS"
+      }
+    }
+  },
+  "depots": {
+    "4043471": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6289165994440438266",
+          "size": "916298075",
+          "download": "786259104"
+        }
+      }
+    },
+    "4043472": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4264702774487202076",
+          "size": "933192680",
+          "download": "793803888"
+        }
+      }
+    },
+    "baselanguages": "english,french,russian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20388392",
+        "timeupdated": "1760456955"
+      }
     }
   }
 }
