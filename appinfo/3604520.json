@@ -1,6 +1,5 @@
 {
   "appid": "3604520",
-  "public_only": "1",
   "common": {
     "name": "The Mare Show",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "6f34fa1fed61516331ad614d564a56ebbd533569",
     "clienttga": "1b96fd191a5175ca10b0344404313a365316306e",
     "clienticon": "b017ac453d794c83f28ca01aa81dfd7a961ce78b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -88,7 +87,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759970024",
+    "store_asset_mtime": "1761060661",
     "associations": {
       "0": {
         "type": "developer",
@@ -143,9 +142,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761044567",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3604520",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -171,6 +171,60 @@
       "17": "5652",
       "18": "6869",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "OutZoom",
+    "publisher": "GoGo Games Interactive",
+    "listofdlc": "3784960,4084100",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "The Mare Show",
+    "launch": {
+      "0": {
+        "executable": "TheMareShow.exe",
+        "arguments": "TheMareShow",
+        "type": "option1"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3604521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7516507949282957778",
+          "size": "2980846058",
+          "download": "739993008"
+        }
+      }
+    },
+    "3784960": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8348617754290842309",
+          "size": "83129460",
+          "download": "68147392"
+        }
+      },
+      "dlcappid": "3784960",
+      "depotfromapp": "3784960"
+    },
+    "baselanguages": "english,brazilian",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20490449",
+        "timeupdated": "1761103184"
+      }
     }
   }
 }
