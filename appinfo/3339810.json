@@ -1,6 +1,5 @@
 {
   "appid": "3339810",
-  "public_only": "1",
   "common": {
     "name": "Ballest of Them All",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -139,9 +138,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761263050",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3339810",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "699",
@@ -161,6 +161,124 @@
       "15": "4182",
       "16": "492",
       "17": "493"
+    }
+  },
+  "extended": {
+    "developer": "Gumption Games",
+    "publisher": "Gumption Games"
+  },
+  "config": {
+    "installdir": "Ballest of Them All",
+    "launch": {
+      "0": {
+        "executable": "Ballest\\Binaries\\Win64\\Ballest-Win64-Shipping.exe",
+        "workingdir": "Ballest\\Binaries\\Win64\\",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Ballest"
+        },
+        "description": "Play Ballest"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3339811": {
+      "manifests": {
+        "public": {
+          "gid": "5344881662726245958",
+          "size": "1808408310",
+          "download": "1658299760"
+        }
+      }
+    },
+    "workshopdepot": "3339810",
+    "branches": {
+      "public": {
+        "buildid": "20520523",
+        "timeupdated": "1761262901"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1500000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ballest/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Ballest/Saved/UserSavedMaps",
+        "pattern": "*.balledit"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "Ballest/Saved/UserSavedPlaylists",
+        "pattern": "*.balllist"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Ballest/Saved/UserSavedMaps",
+        "pattern": "*.ballmap",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Ballest/Saved/SaveGames",
+            "replace": "3448490/pfx/drive_c/users/steamuser/AppData/Local/Ballest/Saved/SaveGames"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Ballest/Saved/SaveGames",
+            "replace": "3448490/pfx/drive_c/users/steamuser/AppData/Local/Ballest/Saved/UserSavedMaps"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Ballest/Saved/SaveGames",
+            "replace": "3448490/pfx/drive_c/users/steamuser/AppData/Local/Ballest/Saved/UserSavedPlaylists"
+          }
+        }
+      }
     }
   }
 }
