@@ -1,6 +1,5 @@
 {
   "appid": "3349970",
-  "public_only": "1",
   "common": {
     "name": "GameStonk Simulator",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "电玩大亨： 肉鸽模拟器",
       "tchinese": "電玩大亨： 肉鴿模擬器"
@@ -139,9 +138,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760976506",
     "community_hub_visible": "1",
     "gameid": "3349970",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "12472",
@@ -161,8 +160,80 @@
       "15": "4305",
       "16": "603297",
       "17": "4136",
-      "18": "3916",
-      "19": "91114"
+      "18": "91114",
+      "19": "3916"
+    },
+    "review_score": "8",
+    "review_percentage": "87"
+  },
+  "extended": {
+    "developer": "simsum",
+    "publisher": "simsum"
+  },
+  "config": {
+    "installdir": "GameStonk Simulator",
+    "launch": {
+      "0": {
+        "executable": "GameStonkSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "3349971": {},
+    "3349972": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "68444288053163342",
+          "size": "1411484292",
+          "download": "405847184"
+        },
+        "v0.1.212": {
+          "gid": "4817834966162185728",
+          "size": "1411450661",
+          "download": "405808224"
+        },
+        "v0.1.214": {
+          "gid": "68444288053163342",
+          "size": "1411484292",
+          "download": "405847184"
+        }
+      }
+    },
+    "4054270": {
+      "dlcappid": "4054270"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20498539",
+        "timeupdated": "1761217788"
+      },
+      "v0.1.212": {
+        "buildid": "20484885",
+        "description": "For beta testing",
+        "timeupdated": "1761082911"
+      },
+      "v0.1.214": {
+        "buildid": "20498539",
+        "description": "v0.1.214",
+        "timeupdated": "1761146249"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
