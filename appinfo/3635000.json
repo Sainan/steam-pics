@@ -1,10 +1,9 @@
 {
   "appid": "3635000",
-  "public_only": "1",
   "common": {
     "name": "ZK1L4",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "0e55f6ce7d4f23fd0e4152da8455822b2df16af1",
     "clienticon": "b4358e3b9bd3e13dc83f9c7441bd4eaad21ef64a",
     "clienttga": "846449051a0602d8845dd6aa7ba5501853df25e0",
@@ -121,9 +120,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3635000",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -142,6 +142,123 @@
       "14": "3993",
       "15": "3841",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SantosaiDev",
+    "publisher": "SantosaiDev"
+  },
+  "config": {
+    "installdir": "ZK1L4",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "ZK1L4.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play ZK1L4"
+        },
+        "description": "Play ZK1L4"
+      },
+      "1": {
+        "executable": "ZK1L4.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Play ZK1L4"
+        },
+        "description": "Play ZK1L4"
+      }
+    }
+  },
+  "depots": {
+    "3635001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "474152601226625782",
+          "size": "413546848",
+          "download": "127064656"
+        }
+      }
+    },
+    "3635002": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2915481998631317518",
+          "size": "396561618",
+          "download": "121693952"
+        }
+      }
+    },
+    "3635003": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6921671633427160268",
+          "size": "812941501",
+          "download": "146541136"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20387524",
+        "timeupdated": "1760453732"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/ZK1L4",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ZK1L4",
+            "replace": "Library/Application Support/Godot/app_userdata/ZK1L4"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ZK1L4",
+            "replace": ".local/share/godot/app_userdata/ZK1L4"
+          }
+        }
+      }
     }
   }
 }
