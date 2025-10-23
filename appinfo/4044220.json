@@ -6,9 +6,9 @@
     "parent": "3084810",
     "clienticon": "3658c5cffe91fd52ab2392c6dbf82910d7115ec7",
     "icon": "3658c5cffe91fd52ab2392c6dbf82910d7115ec7",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "releasestate": "released",
     "small_capsule": {
       "english": "529c43607b575b940c5565062468c3020b81af15/capsule_231x87.jpg"
@@ -85,7 +85,16 @@
     "installdir": "Tower Lab Playtest",
     "launch": {
       "0": {
-        "executable": "TowerLab.exe"
+        "executable": "TowerLab.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TowerLab.app/Contents/MacOS/TowerLab",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -97,16 +106,29 @@
       },
       "manifests": {
         "public": {
-          "gid": "4733010653459342892",
-          "size": "1613751642",
-          "download": "472943520"
+          "gid": "2038600906632722097",
+          "size": "712391137",
+          "download": "525217440"
+        }
+      }
+    },
+    "4044222": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4931719562207668543",
+          "size": "904483707",
+          "download": "568772672"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20150327",
-        "timeupdated": "1758933250"
+        "buildid": "20510859",
+        "timeupdated": "1761214492"
       }
     }
   }
