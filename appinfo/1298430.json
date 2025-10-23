@@ -1,6 +1,5 @@
 {
   "appid": "1298430",
-  "public_only": "1",
   "common": {
     "name": "Power Of The Horde",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "32ae004d64a438532d13f041fbe5f47ed691a2e8",
     "clienticon": "32ae004d64a438532d13f041fbe5f47ed691a2e8",
     "clienticns": "3f9c6d455140fc6912fbab1fa01687f0e9678edc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ac8b792482a323a957ed3a613634a57685e7b771/capsule_231x87.jpg"
@@ -139,9 +138,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761239919",
     "community_hub_visible": "1",
     "gameid": "1298430",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1676",
@@ -163,6 +162,60 @@
       "17": "4172",
       "18": "1684",
       "19": "1678"
+    }
+  },
+  "extended": {
+    "developer": "Windforce",
+    "publisher": "Windforce",
+    "homepage": "https://x.com/StevenLuo4"
+  },
+  "config": {
+    "installdir": "PowerOfHorde",
+    "launch": {
+      "0": {
+        "executable": "WarsongRTS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1298432": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5154628575397559049",
+          "size": "3311759113",
+          "download": "3129728592"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20516369",
+        "timeupdated": "1761239866"
+      }
     }
   }
 }
