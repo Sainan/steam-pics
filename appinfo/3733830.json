@@ -1,6 +1,5 @@
 {
   "appid": "3733830",
-  "public_only": "1",
   "common": {
     "name": "Loser Got Isekai’d  -Gotta Conquer the Girls Before Conquering the World-",
     "type": "Game",
@@ -16,7 +15,7 @@
       "japanese": "Loser異世界穿越  -世界を征服する前に可愛い女の子を征服-",
       "schinese": "鲁蛇穿越异世界 - 征服世界前得先征服可爱妹子 -"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -152,9 +151,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761116517",
     "community_hub_visible": "1",
     "gameid": "3733830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -182,6 +181,75 @@
       "17": "4182",
       "18": "5379",
       "19": "1742"
+    },
+    "review_score": "7",
+    "review_percentage": "95"
+  },
+  "extended": {
+    "developer": "morexingame",
+    "publisher": "morexingame"
+  },
+  "config": {
+    "installdir": "LoserIsekaieGCGBCW",
+    "launch": {
+      "0": {
+        "executable": "LoserIsekaieGCGBCW.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3733831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2337168394627709734",
+          "size": "821721908",
+          "download": "687446944"
+        }
+      }
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20463383",
+        "timeupdated": "1760977499"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "LoserIsekaieGCGBCW\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
