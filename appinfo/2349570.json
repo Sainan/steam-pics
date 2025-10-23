@@ -1,10 +1,9 @@
 {
   "appid": "2349570",
-  "public_only": "1",
   "common": {
     "name": "oneway.exe",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "4c4d3853c4d3f2826e7c6d1f037c31e7b613f0ab",
     "clienttga": "b1c2987a3d812a5df7a4dc94f0deeaa5b08a6ac5",
     "clienticon": "1a54ca302785cc425933b85facb6e51625ad19e7",
@@ -102,9 +101,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761195592",
     "community_hub_visible": "1",
     "gameid": "2349570",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -130,5 +129,44 @@
       "18": "3839",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Disordered Media",
+    "publisher": "Disordered Media",
+    "homepage": "https://disorderedmedia.com"
+  },
+  "config": {
+    "installdir": "oneway",
+    "launch": {
+      "0": {
+        "executable": "release/oneway.exe.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2349571": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "242822973242938193",
+          "size": "11710422781",
+          "download": "1645974016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20510425",
+        "timeupdated": "1761212495"
+      }
+    },
+    "privatebranches": "1"
   }
 }
