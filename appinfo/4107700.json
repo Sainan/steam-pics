@@ -81,6 +81,11 @@
     "gameid": "4107700",
     "exfgls": "6"
   },
+  "extended": {
+    "playtest_type": "0",
+    "playtestinvitecount": "1",
+    "playtestinviteendtime": "1776816000"
+  },
   "config": {
     "installdir": "Starbrew Station Playtest",
     "launch": {
@@ -94,16 +99,29 @@
     "4107701": {
       "manifests": {
         "public": {
-          "gid": "5007568292649788448",
-          "size": "175261840",
-          "download": "107463776"
+          "gid": "4872601207760800902",
+          "size": "210037016",
+          "download": "139355760"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20365096",
-        "timeupdated": "1760341599"
+        "buildid": "20518260",
+        "timeupdated": "1761248704"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Starbrew Station",
+        "pattern": "*.json, *.tres, *.save, *.dat, *.cfg"
       }
     }
   }
