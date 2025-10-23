@@ -1,6 +1,5 @@
 {
   "appid": "3243410",
-  "public_only": "1",
   "common": {
     "name": "The Forbidden Flask",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "8dd25065241bae9976c535b2ecd5c926c8404c06",
     "clienticon": "ac80061327bd4fc2d8c4f710c37e32a21bd039ca",
     "clienttga": "895a76e446d023c5280bca0647e4bcaf25502062",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -98,6 +97,8 @@
       "category_2": "1",
       "category_18": "1",
       "category_23": "1",
+      "category_22": "1",
+      "category_15": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -105,9 +106,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761149327",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3243410",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "3871",
@@ -121,6 +123,47 @@
       "9": "3959",
       "10": "4004",
       "11": "6730"
+    }
+  },
+  "extended": {
+    "developer": "Qowface",
+    "publisher": "CowHammer Studios",
+    "homepage": "https://www.cowhammer.com"
+  },
+  "config": {
+    "installdir": "The Forbidden Flask",
+    "launch": {
+      "0": {
+        "executable": "theforbiddenflask.exe"
+      }
+    }
+  },
+  "depots": {
+    "3243411": {
+      "manifests": {
+        "public": {
+          "gid": "6682764612425220223",
+          "size": "131156368",
+          "download": "58886480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20520765",
+        "timeupdated": "1761263297"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/TheForbiddenFlask",
+        "pattern": "*.cfg"
+      }
     }
   }
 }
