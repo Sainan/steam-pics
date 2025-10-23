@@ -1,17 +1,16 @@
 {
   "appid": "4060280",
-  "public_only": "1",
   "common": {
     "name": "Snow Resort Simulator: Prologue",
     "type": "Demo",
     "parent": "3299080",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macosapplesilicon",
     "clienticon": "ad2b5211a0e3c7aa9dbeb780b83c08ef90c52c34",
     "icon": "ad2b5211a0e3c7aa9dbeb780b83c08ef90c52c34",
     "clienticns": "a968ad991e181d9bb24a1ec9a6bcd58de3864bb9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,9 +102,83 @@
       },
       "turkish": {
         "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4060280",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Vovel Games",
+    "publisher": "Vovel Games"
+  },
+  "config": {
+    "installdir": "Snow Resort Simulator Prologue",
+    "launch": {
+      "0": {
+        "executable": "Snow Resort Simulator.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Snow Resort Simulator.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4060281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2250311969380216791",
+          "size": "1241206120",
+          "download": "466296304"
+        }
+      }
+    },
+    "4060282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2819119629262319299",
+          "size": "1260715163",
+          "download": "475752496"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20497482",
+        "timeupdated": "1761141728"
+      }
+    },
+    "privatebranches": "1"
   }
 }
