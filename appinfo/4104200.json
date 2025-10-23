@@ -1,6 +1,5 @@
 {
   "appid": "4104200",
-  "public_only": "1",
   "common": {
     "name": "OrderUp! Demo",
     "type": "Demo",
@@ -8,9 +7,9 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "icon": "fa13fa5e2fa14c3e57229c2197ef71910f6c0fa0",
-    "clienticon": "fa13fa5e2fa14c3e57229c2197ef71910f6c0fa0",
-    "releasestate": "prerelease",
+    "icon": "75ee19adf91ece3d4e0f7e4fa53c08ae03b3b3ca",
+    "clienticon": "6bcb5bb61b02f0642fad941a477b323afd049082",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "3208ef85e7599d309c406439db23a1e042f69802/capsule_231x87.jpg"
@@ -177,7 +176,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761209524",
     "gameid": "4104200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "PandaGames",
+    "publisher": "PandaGames"
+  },
+  "config": {
+    "installdir": "OrderUp_Demo",
+    "launch": {
+      "0": {
+        "executable": "OrderUp.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Play"
+        },
+        "description": "Play"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4104201": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1972386139388360667",
+          "size": "1405280736",
+          "download": "1231598640"
+        }
+      }
+    },
+    "4104202": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,czech,turkish,brazilian,bulgarian,latam,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20434936",
+        "timeupdated": "1760738968"
+      }
+    },
+    "privatebranches": "1"
   }
 }
