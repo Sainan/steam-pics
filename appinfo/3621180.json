@@ -1,6 +1,5 @@
 {
   "appid": "3621180",
-  "public_only": "1",
   "common": {
     "name": "Witch's Brew: Love and Lattes Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "clienttga": "9a917ada3a671812ef3a564f70fe7f5139d39da1",
     "clienticns": "df03889b16b012efe3d2dd98815ef43d052b1c1d",
     "linuxclienticon": "9dffc1d5561a37530617a18ed5459e5e00fb6a0c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -33,7 +32,85 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1761894000",
     "gameid": "3621180",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Heart's Choice",
+    "publisher": "Heart's Choice"
+  },
+  "config": {
+    "installdir": "Witch's Brew Love and Lattes Demo",
+    "launch": {
+      "0": {
+        "executable": "WitchsBrewLoveAndLattes.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Witch's Brew Love and Lattes.app/Contents/MacOS/Witch's Brew Love and Lattes",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "WitchsBrewLoveAndLattes",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3621181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2619877470755779383",
+          "size": "234035185",
+          "download": "93291888"
+        }
+      }
+    },
+    "3621182": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5092721353729354494",
+          "size": "7546985",
+          "download": "3640144"
+        }
+      }
+    },
+    "3621183": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4198038491958957760",
+          "size": "236606714",
+          "download": "86344416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514389",
+        "timeupdated": "1761231341"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10000",
+    "appidredirect": "3621170"
   }
 }
