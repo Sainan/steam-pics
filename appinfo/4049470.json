@@ -1,6 +1,5 @@
 {
   "appid": "4049470",
-  "public_only": "1",
   "common": {
     "name": "INFERIAE",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -102,9 +101,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761231603",
     "community_hub_visible": "1",
     "gameid": "4049470",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -123,6 +122,53 @@
       "11": "1721",
       "12": "4342",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "ACCURST",
+    "publisher": "Accurst Ossuary"
+  },
+  "config": {
+    "installdir": "INFERIAE",
+    "launch": {
+      "0": {
+        "executable": "INFERIAE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "INFERIAE"
+        },
+        "description": "INFERIAE"
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "4049471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1093877597976980838",
+          "size": "2655301719",
+          "download": "2504185216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20450665",
+        "timeupdated": "1760828284"
+      }
     }
   }
 }
