@@ -1,6 +1,5 @@
 {
   "appid": "4050410",
-  "public_only": "1",
   "common": {
     "name": "Laser Hell",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "4abecdfa42197114bd2d5aeafc69632a2cadec4b",
     "icon": "4abecdfa42197114bd2d5aeafc69632a2cadec4b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4a008752e7e7f4224031aa6ea18c2d963b34e383/capsule_231x87.jpg"
@@ -100,9 +99,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4050410",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -112,6 +111,42 @@
       "5": "4094",
       "6": "492",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Vixen",
+    "publisher": "Medieval Vixens"
+  },
+  "config": {
+    "installdir": "Laser Hell",
+    "launch": {
+      "0": {
+        "executable": "Laser Hell.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4050411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8675403098206143310",
+          "size": "104102576",
+          "download": "35170880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514225",
+        "timeupdated": "1761230422"
+      }
     }
   }
 }
