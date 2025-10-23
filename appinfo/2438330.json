@@ -1,10 +1,9 @@
 {
   "appid": "2438330",
-  "public_only": "1",
   "common": {
     "name": "Pale Coins",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -79,7 +78,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758027220",
+    "store_asset_mtime": "1761135405",
     "associations": {
       "0": {
         "type": "developer",
@@ -114,9 +113,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761134488",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2438330",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -142,6 +142,113 @@
       "17": "21",
       "18": "19",
       "19": "492"
+    },
+    "review_score": "7",
+    "review_percentage": "89"
+  },
+  "extended": {
+    "developer": "Lukas Irzl",
+    "publisher": "Lukas Irzl",
+    "homepage": "https://www.palecoins.at/"
+  },
+  "config": {
+    "installdir": "Pale Coins",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Pale Coins.exe"
+      }
+    }
+  },
+  "depots": {
+    "2438331": {
+      "manifests": {
+        "public": {
+          "gid": "7341325560792936835",
+          "size": "937836650",
+          "download": "814396400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20467933",
+        "timeupdated": "1760982967"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "global_save*"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "save_state_*"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "world_save_*"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Pale_Coins",
+        "pattern": "global_save*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "4": {
+        "root": "WinAppDataLocal",
+        "path": "Pale_Coins/",
+        "pattern": "save_state_*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "5": {
+        "root": "WinAppDataLocal",
+        "path": "Pale_Coins/",
+        "pattern": "world_save_*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "Pale_Coins/"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/Pale_Coins/"
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
