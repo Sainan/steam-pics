@@ -1,11 +1,10 @@
 {
   "appid": "3823640",
-  "public_only": "1",
   "common": {
     "name": "Harper and Lyre Demo",
     "type": "Demo",
     "parent": "3579710",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3823640_eula_0",
@@ -78,5 +77,56 @@
     },
     "gameid": "3823640",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "StormSide Studios LLC",
+    "publisher": "StormSide Studios LLC",
+    "homepage": "https://www.harperandlyre.com/home"
+  },
+  "config": {
+    "installdir": "Harper and Lyre Demo",
+    "launch": {
+      "0": {
+        "executable": "Windows\\HarperNLyre.exe"
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3823641": {
+      "manifests": {
+        "public": {
+          "gid": "6064674210668617293",
+          "size": "409906747",
+          "download": "301415520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20501925",
+        "timeupdated": "1761162008"
+      }
+    }
   }
 }
