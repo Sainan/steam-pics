@@ -1,6 +1,5 @@
 {
   "appid": "3917330",
-  "public_only": "1",
   "common": {
     "name": "SAVEN",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -98,6 +97,7 @@
       "category_2": "1",
       "category_69": "1",
       "category_74": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -143,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761152427",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3917330",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1738",
@@ -167,6 +168,53 @@
       "17": "4166",
       "18": "8369",
       "19": "5716"
+    }
+  },
+  "extended": {
+    "developer": "Horrawr",
+    "publisher": "Horrawr",
+    "homepage": "https://www.reddit.com/user/horrawrindiegames/"
+  },
+  "config": {
+    "installdir": "SAVEN",
+    "launch": {
+      "0": {
+        "executable": "SAVEN.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3917331": {
+      "manifests": {
+        "public": {
+          "gid": "770722226138477857",
+          "size": "1129993438",
+          "download": "994615904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20511767",
+        "timeupdated": "1761219059"
+      }
     }
   }
 }
