@@ -1,6 +1,5 @@
 {
   "appid": "4081320",
-  "public_only": "1",
   "common": {
     "name": "Zoo Life Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "632968b7cf430c7cba31414ea348ae177b8e50c2",
     "icon": "632968b7cf430c7cba31414ea348ae177b8e50c2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "fc64308820befba5d506471ee2015f04ef2dd059/capsule_231x87.jpg"
@@ -141,7 +140,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760997995",
     "gameid": "4081320",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Hiraru",
+    "publisher": "Hiraru",
+    "homepage": "https://game.hiraru.com/"
+  },
+  "config": {
+    "installdir": "ZooLife Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "ZooSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4081321": {
+      "manifests": {
+        "public": {
+          "gid": "9019010420331396228",
+          "size": "11792220129",
+          "download": "11116826384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20517826",
+        "timeupdated": "1761250426"
+      }
+    }
   }
 }
