@@ -1,6 +1,5 @@
 {
   "appid": "2958130",
-  "public_only": "1",
   "common": {
     "name": "Jurassic World Evolution 3",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "f36dce785a8a06ae0d7bc2a1919ea2020239908d",
     "clienttga": "80bed67d46c2ed9854a0a60096f00ab363218df2",
     "icon": "bcdd97c9e5bd9d310592ba8b6d6043293a67025d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2958130_eula_0",
@@ -40,6 +39,59 @@
       "latam": "1"
     },
     "aicontenttype": "1",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759795200",
+      "tested_build_id": "20111268",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "1",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "2"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -112,7 +164,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760879963",
+    "store_asset_mtime": "1761046042",
     "associations": {
       "0": {
         "type": "developer",
@@ -148,6 +200,7 @@
       "category_23": "1",
       "category_45": "1",
       "category_46": "1",
+      "category_29": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -208,30 +261,123 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761054932",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2958130",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "5160",
       "2": "9",
       "3": "3810",
-      "4": "19",
-      "5": "5230",
+      "4": "5230",
+      "5": "19",
       "6": "4328",
       "7": "8945",
-      "8": "4166",
-      "9": "12472",
+      "8": "12472",
+      "9": "4166",
       "10": "4695",
-      "11": "1662",
-      "12": "3942",
+      "11": "3942",
+      "12": "1662",
       "13": "7332",
-      "14": "1695",
-      "15": "4182",
+      "14": "4182",
+      "15": "1695",
       "16": "1643",
       "17": "4667",
       "18": "3859",
       "19": "7926"
+    },
+    "review_score": "8",
+    "review_percentage": "91"
+  },
+  "extended": {
+    "developer": "Frontier Developments",
+    "publisher": "Frontier Developments",
+    "homepage": "https://www.jurassicworldevolution.com",
+    "listofdlc": "3651190,3651200",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Jurassic World Evolution 3",
+    "launch": {
+      "0": {
+        "executable": "Anning.release.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "qa_staging, internal_01, build_mainline_release, build_mainline_releaseprofile, internal_03, internal_04, build_branch1_release, build_branch1_releaseprofile, build_mainline2_release, build_branch2_release, internal_02, "
+        },
+        "description_loc": {
+          "english": "Release Build"
+        },
+        "description": "Release Build"
+      },
+      "1": {
+        "executable": "Anning.profile.exe",
+        "type": "option2",
+        "config": {
+          "betakey": "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_05, external_01, external_02, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02, "
+        },
+        "description_loc": {
+          "english": "Profile Build"
+        },
+        "description": "Profile Build"
+      },
+      "2": {
+        "executable": "JWE3.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2958131": {
+      "manifests": {
+        "public": {
+          "gid": "2821955008968499946",
+          "size": "21329645727",
+          "download": "13854453392"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,polish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20441763",
+        "timeupdated": "1761127143"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinSavedGames",
+        "path": "Frontier Developments/Jurassic World Evolution 3/{64BitSteamID}/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinSavedGames",
+        "path": "Frontier Developments/Jurassic World Evolution 3/{64BitSteamID}/Config",
+        "pattern": "*_remote.config.xml",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
