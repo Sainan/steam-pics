@@ -1,10 +1,9 @@
 {
   "appid": "3844830",
-  "public_only": "1",
   "common": {
     "name": "Tipsy Cat",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a91a4ad66198e74d5495fa73e872919d98ec5afa",
     "clienttga": "f7ef0bce9220c24b7f166c0c085bf114ce89a283",
     "clienticon": "a91a4ad66198e74d5495fa73e872919d98ec5afa",
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761231616",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3844830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -121,6 +121,51 @@
       "6": "4182",
       "7": "492",
       "8": "3799"
+    }
+  },
+  "extended": {
+    "developer": "Astergame",
+    "publisher": "Astergame"
+  },
+  "config": {
+    "installdir": "Tipsy Cat",
+    "launch": {
+      "0": {
+        "executable": "Tipsy Cat.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3844831": {
+      "manifests": {
+        "public": {
+          "gid": "4933695573052375846",
+          "size": "1562360943",
+          "download": "834501440"
+        },
+        "with_save_data": {
+          "gid": "4012413335678126456",
+          "size": "1311215039",
+          "download": "648328432"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20452807",
+        "timeupdated": "1760859341"
+      },
+      "with_save_data": {
+        "buildid": "20249739",
+        "description": "審査用のブランチ",
+        "timeupdated": "1759556840"
+      }
     }
   }
 }
