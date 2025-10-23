@@ -1,6 +1,5 @@
 {
   "appid": "4076010",
-  "public_only": "1",
   "common": {
     "name": "STATUS:GONE",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "eb02ffb343a5f390b2ff65f5a4148bbfc86051df",
     "clienticns": "eb02ffb343a5f390b2ff65f5a4148bbfc86051df",
     "linuxclienticon": "eb02ffb343a5f390b2ff65f5a4148bbfc86051df",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3b7a8af4c71e27302e70e4e910ba2e3f227b9d90/capsule_231x87.jpg"
@@ -105,9 +104,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760973264",
     "community_hub_visible": "1",
     "gameid": "4076010",
-    "exfgls": "8",
     "store_tags": {
       "0": "1755",
       "1": "1664",
@@ -119,6 +118,59 @@
       "7": "4182",
       "8": "3964",
       "9": "492"
+    }
+  },
+  "extended": {
+    "developer": "Melollo",
+    "publisher": "Melollo"
+  },
+  "config": {
+    "installdir": "STATUSGONE",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4076012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6646661203099738404",
+          "size": "344331709",
+          "download": "176402272"
+        }
+      }
+    },
+    "4076013": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1288041013221393605",
+          "size": "454582836",
+          "download": "214458640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20307684",
+        "timeupdated": "1759945838"
+      }
     }
   }
 }
