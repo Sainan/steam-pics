@@ -1,6 +1,5 @@
 {
   "appid": "3944070",
-  "public_only": "1",
   "common": {
     "name": "Blunderworld",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "bddce529750fb31e37ba94c6a6b94a576c19a9ce/capsule_231x87.jpg"
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761235234",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3944070",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "597",
@@ -128,5 +128,45 @@
       "10": "4182",
       "11": "4136"
     }
+  },
+  "extended": {
+    "developer": "Hidden Roll",
+    "publisher": "Hidden Roll",
+    "homepage": "https://hiddenroll.com/"
+  },
+  "config": {
+    "installdir": "Blunderworld",
+    "launch": {
+      "0": {
+        "executable": "Blunderworld.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3944071": {
+      "manifests": {
+        "public": {
+          "gid": "1293543320097772610",
+          "size": "972311682",
+          "download": "239164240"
+        }
+      }
+    },
+    "3944072": {},
+    "branches": {
+      "public": {
+        "buildid": "20508150",
+        "timeupdated": "1761200641"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1024",
+    "maxnumfiles": "4"
   }
 }
