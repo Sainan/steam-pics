@@ -4,9 +4,9 @@
     "name": "Inferna",
     "type": "Game",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macosapplesilicon",
     "clienticon": "4925e75311f46644abf63049c5c45c3cc6899c04",
     "clienttga": "45ef24c194f5c26f16aafd41b1e9b519a6fbad17",
     "icon": "f650fba1830e8b6f3124b899ecf70cbd60c1d59e",
@@ -216,6 +216,13 @@
         "config": {
           "oslist": "windows",
           "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Inferna.app/Contents/MacOS/Inferna",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
