@@ -1,16 +1,19 @@
 {
   "appid": "3899320",
-  "public_only": "1",
   "common": {
     "name": "Maze It Out",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
     "icon": "8469093fb0351dc1020b373a7e8e64ee2e0a8028",
     "clienttga": "b8e57edfcbed5bc3061df85d0aa0cace97e4c62e",
     "clienticon": "8469093fb0351dc1020b373a7e8e64ee2e0a8028",
+    "languages": {
+      "english": "1",
+      "french": "1"
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "fe6edac06cf881e6a08294df67549aec8ef6fcc0/capsule_231x87.jpg"
@@ -107,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760968305",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3899320",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "9",
@@ -130,6 +134,85 @@
       "16": "5608",
       "17": "7569",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Limit Test Games",
+    "publisher": "Limit Test Games"
+  },
+  "config": {
+    "installdir": "Maze It Out",
+    "launch": {
+      "0": {
+        "executable": "MazeItOut.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3899321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7272672103936955532",
+          "size": "205477936",
+          "download": "134960096"
+        }
+      }
+    },
+    "3899322": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "286407419479217070",
+          "size": "536027420",
+          "download": "425252208"
+        }
+      }
+    },
+    "3899323": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "3899324": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20513302",
+        "timeupdated": "1761226155"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Maze It Out/",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
