@@ -1,10 +1,9 @@
 {
   "appid": "1919900",
-  "public_only": "1",
   "common": {
     "name": "Dreamed Away",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "631cd218549c603f342aa9f27292aaf54e59e954",
     "logo_small": "631cd218549c603f342aa9f27292aaf54e59e954_thumb",
     "icon": "3c345ae676888a5b8072ac44c1ea06956ce6e327",
@@ -173,9 +172,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761224380",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1919900",
-    "exfgls": "8",
     "store_tags": {
       "0": "1742",
       "1": "3964",
@@ -197,6 +197,168 @@
       "17": "4305",
       "18": "4166",
       "19": "5608"
+    }
+  },
+  "extended": {
+    "developer": "Nicolas Petton",
+    "publisher": "Pineapple Works",
+    "homepage": "https://dreamedaway.com"
+  },
+  "config": {
+    "installdir": "Dreamed_Away",
+    "launch": {
+      "0": {
+        "executable": "dreamed_away.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "dreamed_away.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "dreamed_away.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1919901": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6061800037996309045",
+          "size": "656753905",
+          "download": "548517536"
+        },
+        "local": {
+          "gid": "834631720693861009",
+          "size": "112404944",
+          "download": "72027920"
+        }
+      }
+    },
+    "1919902": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4031476028168262077",
+          "size": "650178672",
+          "download": "549123232"
+        },
+        "local": {
+          "gid": "5155757734700448275",
+          "size": "110088512",
+          "download": "71119072"
+        }
+      }
+    },
+    "1919903": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4026228331764391088",
+          "size": "724341049",
+          "download": "560394976"
+        }
+      }
+    },
+    "1919904": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1082989491123675437",
+          "size": "656753905",
+          "download": "558063520"
+        }
+      }
+    },
+    "1919905": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "144659958017341555",
+          "size": "650178672",
+          "download": "556020640"
+        }
+      }
+    },
+    "1919906": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3644537594093188310",
+          "size": "724341049",
+          "download": "574120256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20496894",
+        "timeupdated": "1761140165"
+      },
+      "local": {
+        "buildid": "9941204",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1668515818"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20971520",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "dreamed_away",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "dreamed_away",
+            "replace": ".local/share/dreamed_away"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
