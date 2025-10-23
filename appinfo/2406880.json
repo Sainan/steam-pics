@@ -1,6 +1,5 @@
 {
   "appid": "2406880",
-  "public_only": "1",
   "common": {
     "name": "Casting Whispers",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5b3f866b593b796825e99036c264c5bfd2cf073e/capsule_231x87.jpg"
@@ -93,6 +92,10 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -102,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761152424",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2406880",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "4166",
@@ -126,6 +130,72 @@
       "17": "4598",
       "18": "4004",
       "19": "4064"
+    }
+  },
+  "extended": {
+    "developer": "Lantern Bay Entertainment",
+    "publisher": "Lantern Bay Entertainment",
+    "homepage": "https://www.castingwhispers.com/"
+  },
+  "config": {
+    "installdir": "Casting Whispers",
+    "launch": {
+      "0": {
+        "executable": "CastingWhispers.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2406881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4032122696073874021",
+          "size": "15176446340",
+          "download": "14907721392"
+        }
+      }
+    },
+    "2406882": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8708992480924294087",
+          "size": "6150665874",
+          "download": "5946925968"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20510775",
+        "timeupdated": "1761214043"
+      }
     }
   }
 }
