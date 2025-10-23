@@ -1,6 +1,5 @@
 {
   "appid": "4037070",
-  "public_only": "1",
   "common": {
     "name": "Jumping Eras",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "eb42d429add7d34d14b4a778209aa5fc2dd9e5d3/capsule_231x87.jpg"
@@ -106,9 +105,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761257037",
     "community_hub_visible": "1",
     "gameid": "4037070",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -125,5 +124,60 @@
       "12": "7250",
       "13": "4182"
     }
+  },
+  "extended": {
+    "developer": "Michi Soul Games",
+    "publisher": "Michi Soul Games"
+  },
+  "config": {
+    "installdir": "Jumping Eras",
+    "launch": {
+      "0": {
+        "executable": "Jumping_Eras.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4037071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "135039708936418655",
+          "size": "1715323178",
+          "download": "1399067744"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "19987703",
+        "timeupdated": "1757954471"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "sync_while_suspended": "1"
   }
 }
