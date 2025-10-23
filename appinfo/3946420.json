@@ -1,6 +1,5 @@
 {
   "appid": "3946420",
-  "public_only": "1",
   "common": {
     "name": "Scarecrow’s Curse",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "05fceffb9d55b0f20532906283109906769f87a6",
     "clienttga": "f070c7af0ce8496f62ded6bfd422a9bb7310af2f",
     "clienticon": "cf818f7519758d11ecc328d8094bd47a33fe1c77",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "94cff911981fae00046d035bea2b5e6852753e25/capsule_231x87.jpg"
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759775657",
+    "store_asset_mtime": "1761098938",
     "associations": {
       "0": {
         "type": "developer",
@@ -101,7 +100,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3946420",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "16689",
@@ -123,6 +121,52 @@
       "17": "5716",
       "18": "7926",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Silvain",
+    "publisher": "Ssyphus Games"
+  },
+  "config": {
+    "installdir": "Curse",
+    "launch": {
+      "0": {
+        "executable": "SC.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3946421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "3946422": {
+          "gid": "313256429378662668",
+          "size": "976009192",
+          "download": "409872192"
+        },
+        "public": {
+          "gid": "313256429378662668",
+          "size": "976009192",
+          "download": "409872192"
+        }
+      }
+    },
+    "branches": {
+      "3946422": {
+        "buildid": "20506332",
+        "description": "main",
+        "timeupdated": "1761188030"
+      },
+      "public": {
+        "buildid": "20506332",
+        "timeupdated": "1761188182"
+      }
     }
   }
 }
