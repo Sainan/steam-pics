@@ -1,10 +1,9 @@
 {
   "appid": "3387100",
-  "public_only": "1",
   "common": {
     "name": "15 minutes",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "german": "15 Minuten",
       "french": "15 Minutes",
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761235142",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3387100",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4342",
@@ -186,6 +186,69 @@
       "17": "4182",
       "18": "19",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Construct Games",
+    "publisher": "Construct Games"
+  },
+  "config": {
+    "installdir": "15Minutes",
+    "launch": {
+      "0": {
+        "executable": "Mineshaftanomaly.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3387102": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8441520127405427822",
+          "size": "2090022552",
+          "download": "1926354624"
+        },
+        "pre-release": {
+          "gid": "3029533636624390754",
+          "size": "3485472123",
+          "download": "3113782384"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,schinese,russian,japanese,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20515123",
+        "timeupdated": "1761234197"
+      },
+      "pre-release": {
+        "buildid": "20391241",
+        "description": "Pre-release prior to launch",
+        "timeupdated": "1760471167"
+      }
     }
   }
 }
