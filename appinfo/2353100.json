@@ -1,10 +1,9 @@
 {
   "appid": "2353100",
-  "public_only": "1",
   "common": {
     "name": "Ember the Werefox",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761238965",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2353100",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "16689",
@@ -141,6 +141,53 @@
       "17": "1684",
       "18": "17015",
       "19": "5350"
+    }
+  },
+  "extended": {
+    "developer": "LionArc",
+    "publisher": "LionArc",
+    "homepage": "http://LionArcGames.com"
+  },
+  "config": {
+    "installdir": "Ember the Werefox",
+    "launch": {
+      "0": {
+        "executable": "Ember the Werefox.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2353101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6697922746417369014",
+          "size": "433526256",
+          "download": "308857760"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20508044",
+        "timeupdated": "1761199798"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ember_the_Werefox/",
+        "pattern": "*"
+      }
     }
   }
 }
