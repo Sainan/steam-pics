@@ -1,13 +1,12 @@
 {
   "appid": "3597710",
-  "public_only": "1",
   "common": {
     "name": "Penguin's Dark Ascent: Rise of the Penguins 2",
     "type": "Game",
     "icon": "a0a24e9976b2b74a723ddf7111f0fa95b33a7160",
     "clienttga": "93d6755e28c1f4061709bfe16c3b3e101bda70d7",
     "clienticon": "c179af1d269618d68bc56b27e92e7710cebbadbf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -196,9 +195,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3597710",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1625",
@@ -218,5 +218,98 @@
       "15": "4026",
       "16": "1734"
     }
+  },
+  "extended": {
+    "developer": "Bill Woo",
+    "publisher": "Pwoo",
+    "homepage": "https://pengieyt.wixsite.com/pwoo"
+  },
+  "config": {
+    "installdir": "Penguin's Dark Ascent Rise of the Penguins 2",
+    "launch": {
+      "0": {
+        "executable": "Penguin's Dark Ascent Rise of the Penguins 2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "2d penguin platformer rop2"
+        },
+        "description": "2d penguin platformer rop2"
+      },
+      "1": {
+        "executable": "Penguin's Dark Ascent Rise of the Penguins 2.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "2d penguin platformer rop2"
+        },
+        "description": "2d penguin platformer rop2"
+      },
+      "2": {
+        "executable": "Contents\\MacOS\\Penguin's Dark Ascent- Rise of the Penguins 2",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "2d penguin platformer rop2"
+        },
+        "description": "2d penguin platformer rop2"
+      }
+    }
+  },
+  "depots": {
+    "3597711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3098214128780464432",
+          "size": "418764292",
+          "download": "266539552"
+        }
+      }
+    },
+    "3597712": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8051715531974449871",
+          "size": "420926492",
+          "download": "267819344"
+        }
+      }
+    },
+    "3597713": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3880853916935669603",
+          "size": "478170357",
+          "download": "280400160"
+        }
+      }
+    },
+    "workshopdepot": "3597710",
+    "branches": {
+      "public": {
+        "buildid": "20520327",
+        "timeupdated": "1761260732"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1"
   }
 }
