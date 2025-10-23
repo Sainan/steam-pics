@@ -7,10 +7,11 @@
     "clienticon": "8008f7f21a04ee1aa46b8afe1921ee95cd6768dd",
     "icon": "c7c76b9400c040ae13677404e7e117766d436cc5",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "linuxclienticon": "440fee299d60bca5b66331e592f04cf1fb399631",
+    "clienticns": "c14e69929e37b3f087755404b35d6ed189762642",
     "small_capsule": {
       "english": "b0d35a49270ef5c91f6bd6d6ca887408f80c9e4b/capsule_231x87.jpg"
     },
@@ -91,25 +92,49 @@
     "installdir": "饲养染的30 DAYS Playtest",
     "launch": {
       "0": {
-        "executable": "RaN-0.21DEMO-pc\\RaN.exe"
+        "executable": "RaN-0.23DEMO-pc\\RaN.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RaN.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "4045211": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "8781650269744448200",
-          "size": "555559518",
-          "download": "392922800"
+          "gid": "5722341405092642746",
+          "size": "565772343",
+          "download": "401438880"
+        }
+      }
+    },
+    "4045212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6168061322753750097",
+          "size": "510223324",
+          "download": "383352400"
         }
       }
     },
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "20451923",
-        "timeupdated": "1760846077"
+        "buildid": "20510377",
+        "timeupdated": "1761212203"
       }
     }
   }
