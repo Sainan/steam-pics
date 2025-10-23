@@ -1,10 +1,9 @@
 {
   "appid": "2999060",
-  "public_only": "1",
   "common": {
     "name": "Sejm The Game",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Politics The Game"
     },
@@ -112,9 +111,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761141513",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2999060",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "9",
@@ -136,6 +136,86 @@
       "17": "5984",
       "18": "6310",
       "19": "14139"
+    },
+    "review_score": "8",
+    "review_percentage": "96"
+  },
+  "extended": {
+    "developer": "Simplicity Games",
+    "publisher": "Simplicity Games",
+    "homepage": "https://simplicitygames.pl/"
+  },
+  "config": {
+    "installdir": "Sejm The Game",
+    "launch": {
+      "0": {
+        "executable": "SejmTheGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "2999061": {
+      "manifests": {
+        "public": {
+          "gid": "335031867504949054",
+          "size": "3072400901",
+          "download": "884663008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20480226",
+        "timeupdated": "1761138828"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "131072000",
+    "maxnumfiles": "3000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SimplicityGames/SejmTheGame/SteamSaves/{64BitSteamID}",
+        "pattern": "*.save"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "SimplicityGames/SejmTheGame/SteamSaves/{64BitSteamID}",
+        "pattern": "*.saveData"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "SimplicityGames/SejmTheGame/SteamSaves/{64BitSteamID}",
+        "pattern": "*.saveThumbnail"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SimplicityGames/SejmTheGame/SteamSaves/{64BitSteamID}",
+            "replace": "unity.SimplicityGames.SejmTheGame/SteamSaves/{64BitSteamID}"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SimplicityGames/SejmTheGame/SteamSaves/{64BitSteamID}",
+            "replace": ".config/unity3d/SimplicityGames/SejmTheGame/SteamSaves/{64BitSteamID}"
+          }
+        }
+      }
     }
   }
 }
