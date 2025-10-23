@@ -1,11 +1,10 @@
 {
   "appid": "3972240",
-  "public_only": "1",
   "common": {
     "name": "Yankee Rabbits Demo",
     "type": "Demo",
     "parent": "3922140",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -88,5 +87,39 @@
     "category": {},
     "gameid": "3972240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Yajueko",
+    "publisher": "indie.io"
+  },
+  "config": {
+    "installdir": "ヤンキーウサギ Demo",
+    "launch": {
+      "0": {
+        "executable": "Yankee Rabbits Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "3972241": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4368432233270229488",
+          "size": "1015918071",
+          "download": "229513696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19665348",
+        "timeupdated": "1755696361"
+      }
+    },
+    "privatebranches": "1"
   }
 }
