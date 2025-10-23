@@ -1,13 +1,12 @@
 {
   "appid": "3721890",
-  "public_only": "1",
   "common": {
     "name": "Maid of Salvation",
     "type": "Game",
     "icon": "ff3ae70f6ef29d27a8f149c33e4673603f360a0f",
     "clienticon": "931f077d4d1d35f682469c7a524be10d8e6b95f3",
     "clienttga": "79a0c979acdaf2ee8e0a720ed35825dc808dc16d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "koreana": "구원의 메이드",
       "japanese": "メイド・オブ・サルヴェイション"
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761181200",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3721890",
-    "exfgls": "8",
     "store_tags": {
       "0": "7208",
       "1": "1628",
@@ -186,6 +186,62 @@
       "17": "1684",
       "18": "21",
       "19": "4166"
+    },
+    "review_score": "7",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "ORANGE POPCORN",
+    "publisher": "ORANGE POPCORN"
+  },
+  "config": {
+    "installdir": "Maid of Salvation",
+    "steamcontrollertouchtemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "steamcontrollertouchconfigdetails": "",
+    "launch": {
+      "0": {
+        "executable": "Maid of Salvation.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3721891": {
+      "manifests": {
+        "public": {
+          "gid": "5796296255683718907",
+          "size": "2365098661",
+          "download": "1241639376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20492277",
+        "timeupdated": "1761119803"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "9999",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "ORANGE POPCORN/Maid of Salvation/{64BitSteamID}",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "ORANGE POPCORN/Maid of Salvation/{64BitSteamID}",
+        "pattern": "lastsave.dat"
+      }
     }
   }
 }
