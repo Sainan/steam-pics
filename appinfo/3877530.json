@@ -1,6 +1,5 @@
 {
   "appid": "3877530",
-  "public_only": "1",
   "common": {
     "name": "A Little Less Desperation Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "macos64",
     "clienticon": "1850dfaaf84ba1b21c63cce3e8ce0f62ce3ad4d0",
     "icon": "1850dfaaf84ba1b21c63cce3e8ce0f62ce3ad4d0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7e806c1fb65b5818d183aa038722e441ffa3a3b7/capsule_231x87.jpg"
     },
@@ -46,5 +45,84 @@
     },
     "gameid": "3877530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Deaf Bird, Dead Blue Friends",
+    "publisher": "Dionous Games"
+  },
+  "config": {
+    "installdir": "A Little Less Desperation Demo",
+    "launch": {
+      "0": {
+        "executable": "alld-demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "A Little Less Desperation.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "start",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3877531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7119798116962593708",
+          "size": "462216986",
+          "download": "413615328"
+        }
+      }
+    },
+    "3877532": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7958639890116268444",
+          "size": "456779253",
+          "download": "412677008"
+        }
+      }
+    },
+    "3877533": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6226722457154338633",
+          "size": "462943974",
+          "download": "414696896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20287813",
+        "timeupdated": "1759846555"
+      }
+    }
   }
 }
