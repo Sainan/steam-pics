@@ -1,6 +1,5 @@
 {
   "appid": "4014480",
-  "public_only": "1",
   "common": {
     "name": "Lightless",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "c7bdea41f737cd0de266312a105875ed93c53205",
     "icon": "c7bdea41f737cd0de266312a105875ed93c53205",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ff7f7658b58f6486789897e53fc13a63a1a3a333/capsule_231x87.jpg"
@@ -147,9 +146,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761228976",
     "community_hub_visible": "1",
     "gameid": "4014480",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1721",
@@ -164,5 +163,70 @@
       "10": "5900",
       "11": "4182"
     }
+  },
+  "extended": {
+    "developer": "Studio Nychta",
+    "publisher": "Studio Nychta"
+  },
+  "config": {
+    "installdir": "Lightless",
+    "launch": {
+      "0": {
+        "executable": "Lightless.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4014481": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "549975062548841317",
+          "size": "3188081511",
+          "download": "1874717408"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20487237",
+        "timeupdated": "1761082944"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saved/SaveGames/",
+        "pattern": "*.sav"
+      }
+    },
+    "sync_while_suspended": "1",
+    "appidredirect": "4014480"
   }
 }
