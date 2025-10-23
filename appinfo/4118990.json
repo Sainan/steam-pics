@@ -1,6 +1,5 @@
 {
   "appid": "4118990",
-  "public_only": "1",
   "common": {
     "name": "Claviator Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticon": "056decb71c53c8a1a4423244a55eec2912c580a5",
     "icon": "056decb71c53c8a1a4423244a55eec2912c580a5",
     "clienticns": "48e83c19fdb6a13b522de909218575ef547574ac",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4b10f805115958234976b46719bc9b25948b00af/capsule_231x87.jpg"
     },
@@ -45,7 +44,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761257622",
     "gameid": "4118990",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Zero Inches",
+    "publisher": "Zero Inches",
+    "homepage": "https://zeroinches.com/"
+  },
+  "config": {
+    "installdir": "Claviator Demo",
+    "launch": {
+      "0": {
+        "executable": "Claviator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Claviator.app/Contents/MacOS/Claviator",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4118991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5378559153347524339",
+          "size": "484256511",
+          "download": "161247680"
+        }
+      }
+    },
+    "4118992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4668569130900883668",
+          "size": "571615810",
+          "download": "184832048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20464871",
+        "timeupdated": "1760969144"
+      }
+    }
   }
 }
