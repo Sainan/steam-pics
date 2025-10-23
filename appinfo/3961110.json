@@ -1,10 +1,9 @@
 {
   "appid": "3961110",
-  "public_only": "1",
   "common": {
     "name": "Sleepover: reWake",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "fd0977ba4a1f195f8b33b9adeeb1fca8d54e4995",
     "icon": "d37e4cc9225294eeb4a287b742139804f222a7f0",
     "clienticns": "2d45a829743097cc27b822b1600ffc6ce0b447df",
@@ -115,9 +114,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761051370",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3961110",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -126,8 +126,8 @@
     },
     "store_tags": {
       "0": "12095",
-      "1": "6650",
-      "2": "44868",
+      "1": "44868",
+      "2": "6650",
       "3": "3799",
       "4": "9551",
       "5": "599",
@@ -135,8 +135,8 @@
       "7": "11014",
       "8": "4136",
       "9": "4947",
-      "10": "4562",
-      "11": "3871",
+      "10": "3871",
+      "11": "4562",
       "12": "4486",
       "13": "9204",
       "14": "4305",
@@ -145,6 +145,87 @@
       "17": "5984",
       "18": "5608",
       "19": "6426"
+    },
+    "review_score": "7",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "BLits Games",
+    "publisher": "BLits Games",
+    "homepage": "https://www.blitsgames.com/sleepover",
+    "listofdlc": "4070490",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Sleepover reWake",
+    "launch": {
+      "0": {
+        "executable": "SleepoverreWake.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SleepoverreWake.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "/Contents/MacOS/SleepoverreWake",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
     }
+  },
+  "depots": {
+    "3961111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2703533597365717257",
+          "size": "2249848291",
+          "download": "2043160096"
+        }
+      }
+    },
+    "3961112": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "289738800544552820",
+          "size": "2249848291",
+          "download": "2043160096"
+        }
+      }
+    },
+    "3961113": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "685027152238639766",
+          "size": "2193386342",
+          "download": "2024296976"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20447378",
+        "timeupdated": "1760789983"
+      }
+    },
+    "privatebranches": "1"
   }
 }
