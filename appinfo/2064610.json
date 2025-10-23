@@ -1,6 +1,5 @@
 {
   "appid": "2064610",
-  "public_only": "1",
   "common": {
     "name": "Relic Guardian",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e64dba7cb9f6e424fc860f84e46460bb4fa5c8db",
     "clienticon": "835339fa91809e16da5f35b04acdc112811ebe3f",
     "clienttga": "ffd64e36771332d88a561f3a77bf41e87f7e8927",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "遗物守护者 Relic Guardian",
       "tchinese": "遺物守護者 Relic Guardian"
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1756196245",
+    "store_asset_mtime": "1761116094",
     "associations": {
       "0": {
         "type": "developer",
@@ -112,27 +111,40 @@
     },
     "supported_languages": {
       "english": {
-        "supported": "true"
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       },
       "schinese": {
-        "supported": "true"
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       },
       "tchinese": {
-        "supported": "true"
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       },
       "spanish": {
-        "supported": "true"
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       },
       "russian": {
-        "supported": "true"
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       },
       "japanese": {
-        "supported": "true"
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761116428",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2064610",
-    "exfgls": "8",
     "store_tags": {
       "0": "1645",
       "1": "9",
@@ -154,6 +166,55 @@
       "17": "1719",
       "18": "122",
       "19": "4252"
+    },
+    "review_score": "8",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "Mystrigger",
+    "publisher": "Mystrigger"
+  },
+  "config": {
+    "installdir": "Relic Guardian",
+    "launch": {
+      "0": {
+        "executable": "RelicGuardian.exe"
+      }
+    }
+  },
+  "depots": {
+    "2064611": {
+      "manifests": {
+        "public": {
+          "gid": "8708134582680642175",
+          "size": "2254981596",
+          "download": "196539312"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20499448",
+        "timeupdated": "1761150437"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mystrigger/RelicGuardian",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
