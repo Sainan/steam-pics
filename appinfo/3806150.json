@@ -1,10 +1,9 @@
 {
   "appid": "3806150",
-  "public_only": "1",
   "common": {
     "name": "Exploding Judo Federation",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "9acd003647385168dc793e3c6743ec0fbecc5322",
     "clienticon": "70319c8e562df8ac0913832984c5addbd16f623c",
     "icon": "2ae8585f808b427a0e555e0be71540a5f2c47e9b",
@@ -114,6 +113,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761246000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3806150",
     "exfgls": "3",
@@ -141,6 +142,105 @@
       "17": "5752",
       "18": "5055",
       "19": "12057"
+    }
+  },
+  "extended": {
+    "developer": "Andrea Demetrio",
+    "publisher": "Der Mondhase",
+    "homepage": "https://dermondhase.github.io/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Exploding Judo Federation",
+    "launch": {
+      "0": {
+        "executable": "ExploJudo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "ExploJudo (x86 build)"
+        },
+        "description": "ExploJudo (x86 build)"
+      },
+      "1": {
+        "executable": "x64/ExploJudo_x64.exe",
+        "workingdir": "x64",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "ExploJudo (x64 build)"
+        },
+        "description": "ExploJudo (x64 build)"
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3806151": {
+      "manifests": {
+        "public": {
+          "gid": "269794661546574533",
+          "size": "649777815",
+          "download": "240384512"
+        }
+      }
+    },
+    "4043900": {
+      "dlcappid": "4043900"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20500628",
+        "timeupdated": "1761155367"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "config",
+        "pattern": "saveData.ini"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "config",
+        "pattern": "joypadToXboxMap.ini"
+      }
     }
   }
 }
