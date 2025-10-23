@@ -1,6 +1,5 @@
 {
   "appid": "3564820",
-  "public_only": "1",
   "common": {
     "name": "Lust Storm",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "81a498949149760514fddbe7d9cd991854a96d55",
     "clienticns": "31312fef595cd59632a56f79f7d2a1ac5f5f6c1f",
     "clienticon": "9cbe33ce9c14dbea861647bdb548fe923a590c93",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -134,9 +133,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761245876",
     "community_hub_visible": "1",
     "gameid": "3564820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -163,5 +162,51 @@
       "16": "492",
       "17": "4182"
     }
+  },
+  "extended": {
+    "developer": "Volcano Games",
+    "publisher": "Volcano Games"
+  },
+  "config": {
+    "installdir": "LustStorm",
+    "launch": {
+      "0": {
+        "executable": "LustStorm.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "LustStorm.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3564823": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7233622166388254971",
+          "size": "11327745000",
+          "download": "5559208464"
+        }
+      }
+    },
+    "baselanguages": "english,german,spanish,schinese,tchinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20004001",
+        "timeupdated": "1758046136"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
