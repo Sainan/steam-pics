@@ -1,6 +1,5 @@
 {
   "appid": "3739670",
-  "public_only": "1",
   "common": {
     "name": "Franchise Hockey Manager 12",
     "type": "Game",
@@ -18,7 +17,7 @@
     "clienticon": "6d77a104c574e69e97412e207bab2e582df6f1c8",
     "icon": "ec5bf785e0b3b1cb1e4a50320b36d5e677ba14c6",
     "clienticns": "6622d984583d8e6410f33c97eb814994b1504cf2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "61d22c6d246e5bd638b79eb7175f1fd5748a9cc3/capsule_231x87.jpg"
@@ -121,9 +120,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761220785",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3739670",
-    "exfgls": "8",
     "store_tags": {
       "0": "701",
       "1": "599",
@@ -145,5 +145,109 @@
       "17": "4182",
       "18": "7368"
     }
+  },
+  "extended": {
+    "developer": "game54 Software",
+    "publisher": "Out of the Park Developments",
+    "homepage": "https://www.ootpdevelopments.com/franchise-hockey-manager-home/"
+  },
+  "config": {
+    "installdir": "Franchise Hockey Manager 12",
+    "launch": {
+      "0": {
+        "executable": "fhm12.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch FHM 12"
+        },
+        "description": "Launch FHM 12"
+      },
+      "1": {
+        "executable": "Franchise Hockey Manager 12.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch FHM 12"
+        },
+        "description": "Launch FHM 12"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3739671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4167962652038416453",
+          "size": "58125230",
+          "download": "21521120"
+        }
+      }
+    },
+    "3739672": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1784597891415382299",
+          "size": "82668502",
+          "download": "28234064"
+        }
+      }
+    },
+    "3739673": {
+      "manifests": {
+        "public": {
+          "gid": "1126006755875710527",
+          "size": "207614",
+          "download": "185728"
+        }
+      }
+    },
+    "3739674": {
+      "manifests": {
+        "public": {
+          "gid": "5596707320999169555",
+          "size": "48073616",
+          "download": "25822192"
+        }
+      }
+    },
+    "3739675": {
+      "manifests": {
+        "public": {
+          "gid": "5765891856814258535",
+          "size": "2206328123",
+          "download": "905277056"
+        }
+      }
+    },
+    "workshopdepot": "3739670",
+    "branches": {
+      "public": {
+        "buildid": "20510977",
+        "timeupdated": "1761215133"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
