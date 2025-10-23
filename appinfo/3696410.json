@@ -1,6 +1,5 @@
 {
   "appid": "3696410",
-  "public_only": "1",
   "common": {
     "name": "FULL METAL SCHOOLGIRL",
     "type": "Game",
@@ -19,15 +18,52 @@
       "english": "FULL METAL SCHOOLGIRL",
       "schinese": "铁甲少女",
       "tchinese": "鐵甲少女",
-      "koreana": "풀 메탈 스쿨걸"
+      "koreana": "FULL METAL SCHOOLGIRL"
     },
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759449600",
+      "tested_build_id": "19440643",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
     },
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -172,9 +208,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761202896",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3696410",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -189,9 +226,99 @@
       "6": "42804",
       "7": "4191",
       "8": "4667",
-      "9": "4182",
-      "10": "4345",
-      "11": "6730"
+      "9": "6730",
+      "10": "4182",
+      "11": "4345",
+      "12": "4085"
+    },
+    "review_score": "7",
+    "review_percentage": "81"
+  },
+  "extended": {
+    "developer": "YUKE'S",
+    "publisher": "D3PUBLISHER",
+    "homepage": "https://www.d3p.co.jp/zmg/",
+    "listofdlc": "3786080,3786090,3786390,3786400,3786420,3786430,3786450,3786460,3786490,3786500,3786510,3786520,3786530,3786670,3786680,3786700,3786710",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "FULL METAL SCHOOLGIRL",
+    "launch": {
+      "0": {
+        "executable": "MG.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3696411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4212437559020264561",
+          "size": "6874725387",
+          "download": "5775837360"
+        }
+      }
+    },
+    "3696412": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19440643",
+        "timeupdated": "1755758551"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "9",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "FULL METAL SCHOOLGIRL/SaveData/{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
