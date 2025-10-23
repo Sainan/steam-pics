@@ -1,12 +1,11 @@
 {
   "appid": "4033430",
-  "public_only": "1",
   "common": {
     "name": "My Peephole: Hotel Harborview",
     "type": "Game",
     "clienticon": "5baf6f5561469447e2fdb8aab96e6125994112d7",
     "icon": "b7cac70bc356947daf8f5457271206a5b4764cd0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -91,6 +90,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -99,9 +99,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761235231",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4033430",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "492",
@@ -123,6 +124,56 @@
       "17": "1719",
       "18": "8369",
       "19": "5716"
+    }
+  },
+  "extended": {
+    "developer": "Limeless Studio",
+    "publisher": "Limeless Studio"
+  },
+  "config": {
+    "installdir": "My Peephole",
+    "launch": {
+      "0": {
+        "executable": "My_Peephole.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4033431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3596786455466186642",
+          "size": "853554923",
+          "download": "563109616"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20449891",
+        "timeupdated": "1760819789"
+      }
     }
   }
 }
