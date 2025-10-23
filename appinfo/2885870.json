@@ -7,9 +7,9 @@
     "clienticon": "c80b7fffdbba4f31fe7468b667b7e425bafa9552",
     "clienttga": "d6ee09fed922adf25c542bb78db57b7aec9436d3",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macosnotarized",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -286,12 +286,18 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "gid": "4580854142738545712",
+          "size": "2767065007",
+          "download": "933703600"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "20270995",
-        "timeupdated": "1759765498"
+        "buildid": "20479232",
+        "timeupdated": "1761140623"
       }
     },
     "privatebranches": "1"
@@ -304,6 +310,20 @@
         "root": "WinAppDataLocalLow",
         "path": "BadVikingLtd/Strange Antiquities",
         "pattern": "*.gd"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "BadVikingLtd/Strange Antiquities",
+            "replace": "com.badviking.strangeantiquities"
+          }
+        }
       }
     }
   }
