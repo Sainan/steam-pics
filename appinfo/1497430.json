@@ -1,10 +1,9 @@
 {
   "appid": "1497430",
-  "public_only": "1",
   "common": {
     "name": "Bounty Star",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -139,7 +138,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759783345",
+    "store_asset_mtime": "1760981846",
     "associations": {
       "0": {
         "type": "developer",
@@ -164,6 +163,7 @@
       "category_57": "1",
       "category_58": "1",
       "category_60": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -221,9 +221,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761224380",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1497430",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -247,6 +248,88 @@
       "15": "7332",
       "16": "5752",
       "17": "1647"
+    }
+  },
+  "extended": {
+    "developer": "DINOGOD",
+    "publisher": "Annapurna Interactive"
+  },
+  "config": {
+    "installdir": "Bounty Star",
+    "launch": {
+      "0": {
+        "executable": "BountyStar.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1497432": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "355154125787584442",
+          "size": "5579237752",
+          "download": "4939379536"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,turkish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20399850",
+        "timeupdated": "1760554779"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Dinogod/Bounty Star/Steam/{64BitSteamID}/",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Dinogod/Bounty Star/Steam/{64BitSteamID}/",
+            "replace": ".config/unity3d/Dinogod/Bounty Star/Steam/{64BitSteamID}/"
+          }
+        }
+      }
     }
   }
 }
