@@ -1,6 +1,5 @@
 {
   "appid": "3893830",
-  "public_only": "1",
   "common": {
     "name": "Brew or Die",
     "type": "Game",
@@ -10,7 +9,16 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "french": "1",
+      "italian": "1",
+      "spanish": "1",
+      "russian": "1",
+      "brazilian": "1"
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d2ad8dec0203ce4df5cec763f34992e9e6f19f44/capsule_231x87.jpg"
@@ -117,9 +125,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761061229",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3893830",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -141,6 +150,42 @@
       "17": "1684",
       "18": "4695",
       "19": "6971"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Crooked Road",
+    "publisher": "LT-Games"
+  },
+  "config": {
+    "installdir": "Brew or Die",
+    "launch": {
+      "0": {
+        "executable": "BrewOrDie.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3893831": {
+      "manifests": {
+        "public": {
+          "gid": "2709299314662869378",
+          "size": "86578054",
+          "download": "57697056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20469490",
+        "timeupdated": "1760991502"
+      }
     }
   }
 }
