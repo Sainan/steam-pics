@@ -1,8 +1,7 @@
 {
   "appid": "3979440",
-  "public_only": "1",
   "common": {
-    "name": "Jigsaw",
+    "name": "Puzzle Gallery: Jigsaw Art Collection",
     "type": "Game",
     "oslist": "windows",
     "osarch": "",
@@ -11,7 +10,7 @@
     "icon": "c23934272d2be8c3539d08b3939c0e8ac1c8822e",
     "clienticns": "c23934272d2be8c3539d08b3939c0e8ac1c8822e",
     "linuxclienticon": "c23934272d2be8c3539d08b3939c0e8ac1c8822e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "672f2a53cdcda823a0cca1a2a9968b157b0790e9/capsule_231x87.jpg"
@@ -83,6 +82,10 @@
       },
       "1": {
         "type": "publisher",
+        "name": "Minimol Games"
+      },
+      "2": {
+        "type": "franchise",
         "name": "Minimol Games"
       }
     },
@@ -159,6 +162,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3979440",
     "exfgls": "3",
@@ -180,5 +184,43 @@
       "14": "4305",
       "15": "4711"
     }
+  },
+  "extended": {
+    "developer": "Minimol Games",
+    "publisher": "Minimol Games",
+    "isfreeapp": "1",
+    "listofdlc": "4023090,4036940,4036950,4036960",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Puzzle Gallery Jigsaw Art Collection",
+    "launch": {
+      "0": {
+        "executable": "Jigsaw-Puzzle.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3979441": {
+      "manifests": {
+        "public": {
+          "gid": "7916229840013469191",
+          "size": "194009625",
+          "download": "77220304"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20271310",
+        "timeupdated": "1759777591"
+      }
+    },
+    "privatebranches": "1"
   }
 }
