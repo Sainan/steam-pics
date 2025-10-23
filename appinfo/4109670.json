@@ -1,4 +1,55 @@
 {
   "appid": "4109670",
-  "public_only": "1"
+  "common": {
+    "name": "Erebus-9 Demo",
+    "type": "Demo",
+    "parent": "4031350",
+    "icon": "31bc618236bc975e9d0c65a6e344e8927b03bb15",
+    "clienticon": "31bc618236bc975e9d0c65a6e344e8927b03bb15",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4109670",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Erebus-9 Demo",
+    "launch": {
+      "0": {
+        "executable": "Erebus9.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4109671": {
+      "manifests": {
+        "public": {
+          "gid": "6630204726044973774",
+          "size": "1907334594",
+          "download": "1765802880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20462597",
+        "timeupdated": "1760957448"
+      }
+    }
+  }
 }
