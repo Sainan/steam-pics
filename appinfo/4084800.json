@@ -1,6 +1,5 @@
 {
   "appid": "4084800",
-  "public_only": "1",
   "common": {
     "name": "Crude Survivor TD Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -136,11 +135,63 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761141787",
+    "community_visible_stats": "1",
     "gameid": "4084800",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Skunx Games",
+    "publisher": "Skunx Games"
+  },
+  "config": {
+    "installdir": "Crude Survivor TD Demo",
+    "launch": {
+      "0": {
+        "executable": "CrudeSurvivorTD.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
     }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4084801": {
+      "manifests": {
+        "public": {
+          "gid": "7468239835935016455",
+          "size": "2594236644",
+          "download": "2431534560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20466403",
+        "timeupdated": "1760976190"
+      }
+    },
+    "privatebranches": "1"
   }
 }
