@@ -169,10 +169,11 @@
     "installdir": "暗之光明传",
     "launch": {
       "0": {
-        "executable": "LowPoly.exe",
+        "executable": "暗之光明传.exe",
         "type": "default",
         "config": {
-          "oslist": "windows"
+          "oslist": "windows",
+          "osarch": "64"
         }
       }
     }
@@ -205,8 +206,8 @@
     "maxnumfiles": "5000",
     "savefiles": {
       "0": {
-        "root": "gameinstall",
-        "path": "LowPoly_Data/SavesDir/",
+        "root": "WinAppDataLocalLow",
+        "path": "SoulOfPSP/暗之光明传/SavesDir",
         "pattern": "*.sav"
       }
     }
