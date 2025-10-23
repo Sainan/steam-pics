@@ -1,6 +1,5 @@
 {
   "appid": "3107360",
-  "public_only": "1",
   "common": {
     "name": "Grooveyard",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0337a5eedaece983a55eb08d2d3817551c281249",
     "clienticon": "a91e0e54eda1bf364eb15ae4f0c114afa321a0f6",
     "clienttga": "36b606e47f53afbc8ce83e4bf127c7fb9cacc465",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3d757832bb0fdbf0d89664446aa1dfc5dc695dcb/capsule_231x87.jpg"
@@ -99,9 +98,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761238816",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3107360",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "5716",
@@ -121,6 +121,79 @@
       "15": "597",
       "16": "3854",
       "17": "3871"
+    }
+  },
+  "extended": {
+    "developer": "GuavaGoose Games",
+    "publisher": "GuavaGoose Games"
+  },
+  "config": {
+    "installdir": "Grooveyard",
+    "launch": {
+      "0": {
+        "executable": "Grooveyard.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Grooveyard.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3107361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6815047071801028831",
+          "size": "223541718",
+          "download": "92687520"
+        }
+      }
+    },
+    "3107362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1503459349111363455",
+          "size": "223736866",
+          "download": "92042816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20507147",
+        "timeupdated": "1761192888"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GuavaGoose Games/Grooveyard/",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
