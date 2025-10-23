@@ -1,14 +1,13 @@
 {
   "appid": "2948470",
-  "public_only": "1",
   "common": {
-    "name": "Mordfield",
+    "name": "Mordfield Command",
     "type": "Game",
     "clienticon": "8eb6c49511e743bbfeff40a35cab96aa272156b0",
     "linuxclienticon": "9557d8e301f369eb04bbb83e4e1c1c16ab6c0a9b",
     "icon": "7587c601ab4dfd25062562a6c0bcd7d49f67d676",
     "clienttga": "8b74d4e09d18d98e6f39eeb627291963d7b35326",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macosapplesilicon",
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761224453",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2948470",
-    "exfgls": "8",
     "store_tags": {
       "0": "1670",
       "1": "1741",
@@ -134,6 +134,85 @@
       "17": "3835",
       "18": "1676",
       "19": "1645"
+    }
+  },
+  "extended": {
+    "developer": "Software Verde, LLC",
+    "publisher": "Software Verde, LLC",
+    "homepage": "https://mordfield.com"
+  },
+  "config": {
+    "installdir": "Mordfield",
+    "launch": {
+      "0": {
+        "executable": "Mordfield.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Mordfield.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Mordfield",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2948471": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "636707940652658288",
+          "size": "1184084332",
+          "download": "582592352"
+        }
+      }
+    },
+    "2948472": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4940737574051587474",
+          "size": "1299286075",
+          "download": "612262832"
+        }
+      }
+    },
+    "2948474": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5224464088777039580",
+          "size": "1178548940",
+          "download": "579943824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20508661",
+        "timeupdated": "1761204034"
+      }
     }
   }
 }
