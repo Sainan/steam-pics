@@ -1,10 +1,9 @@
 {
   "appid": "2131660",
-  "public_only": "1",
   "common": {
     "name": "Call of the Golden Valley",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -77,7 +76,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760340908",
+    "store_asset_mtime": "1761021855",
     "associations": {
       "0": {
         "type": "developer",
@@ -111,9 +110,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761148846",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2131660",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,6 +138,88 @@
       "17": "51306",
       "18": "6378",
       "19": "4191"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "O'Saurus Studios",
+    "publisher": "O'Saurus Studios",
+    "homepage": "http://www.osaurusstudios.com"
+  },
+  "config": {
+    "installdir": "Call of the Golden Valley",
+    "launch": {
+      "0": {
+        "executable": "Call of the Golden Valley.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Call of the Golden Valley.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2131661": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1419931589955522763",
+          "size": "5265988959",
+          "download": "1956147312"
+        }
+      }
+    },
+    "2131662": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2746957947827860432",
+          "size": "5328317298",
+          "download": "1978280592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20504378",
+        "timeupdated": "1761175893"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "200000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "save_0.dat"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "*.png"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "photo*"
+      }
     }
   }
 }
