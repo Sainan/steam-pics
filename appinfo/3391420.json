@@ -1,10 +1,9 @@
 {
   "appid": "3391420",
-  "public_only": "1",
   "common": {
     "name": "修仙实操手册",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "16d2036a7cd18f9b03393acd36c36c9f415922ef",
     "linuxclienticon": "34f6ffdf0cf8e12d480020fd0498e29fb287c86e",
     "clienticon": "e5dafc714f87822031aaeba7b95c76b308801d5c",
@@ -127,9 +126,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761112732",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3391420",
-    "exfgls": "8",
     "store_tags": {
       "0": "1662",
       "1": "10235",
@@ -149,6 +149,57 @@
       "15": "6815",
       "16": "3871",
       "17": "4182"
+    },
+    "review_score": "5",
+    "review_percentage": "55"
+  },
+  "extended": {
+    "developer": "SourceIn Games",
+    "publisher": "SourceIn Games"
+  },
+  "config": {
+    "installdir": "修仙实操手册",
+    "launch": {
+      "0": {
+        "executable": "PracticalManuals.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3391421": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "671050349937893609",
+          "size": "1769325425",
+          "download": "312431088"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20507562",
+        "timeupdated": "1761196449"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "PracticalManuals_Data/StreamingAssets/",
+        "pattern": "*"
+      }
     }
   }
 }
