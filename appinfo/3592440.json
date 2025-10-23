@@ -1,6 +1,5 @@
 {
   "appid": "3592440",
-  "public_only": "1",
   "common": {
     "name": "Project Freefall",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "0ce9f41748dd293300fbf97fd5d8232670bd3a87",
     "clienttga": "0507447fb70576d3941c7392a2271dae95f61a6e",
     "icon": "1231e48893481ff4eb3c7b6b33ce2069f4feb138",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -111,6 +110,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761066027",
     "community_hub_visible": "1",
     "gameid": "3592440",
     "exfgls": "3",
@@ -126,5 +126,60 @@
       "8": "493",
       "9": "3859"
     }
+  },
+  "extended": {
+    "developer": "Schell Games",
+    "publisher": "Schell Games",
+    "homepage": "https://playfreefall.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Project Freefall",
+    "launch": {
+      "0": {
+        "executable": "ProjectFreefall.exe",
+        "arguments": "-fullscreen",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3592441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7368278715282879613",
+          "size": "2248145015",
+          "download": "1595311472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20471929",
+        "timeupdated": "1761065909"
+      }
+    },
+    "privatebranches": "1"
   }
 }
