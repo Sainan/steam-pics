@@ -1,10 +1,9 @@
 {
   "appid": "2592160",
-  "public_only": "1",
   "common": {
     "name": "Dispatch",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -35,6 +34,59 @@
     "content_descriptors": {
       "0": "1",
       "1": "5"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1761091200",
+      "tested_build_id": "20345107",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
     },
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -184,34 +236,114 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761141643",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2592160",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
     },
     "store_tags": {
-      "0": "9",
-      "1": "6426",
+      "0": "6426",
+      "1": "9",
       "2": "19",
-      "3": "4182",
-      "4": "1671",
-      "5": "1742",
+      "3": "1671",
+      "4": "1742",
+      "5": "4182",
       "6": "1698",
       "7": "4136",
-      "8": "4486",
-      "9": "1719",
+      "8": "1719",
+      "9": "4486",
       "10": "4242",
-      "11": "21",
-      "12": "492",
-      "13": "4145",
-      "14": "1751",
-      "15": "7948",
-      "16": "597",
-      "17": "4166",
-      "18": "4947",
-      "19": "4085"
+      "11": "492",
+      "12": "4947",
+      "13": "21",
+      "14": "4145",
+      "15": "1751",
+      "16": "7948",
+      "17": "597",
+      "18": "6650",
+      "19": "4166"
+    },
+    "review_score": "8",
+    "review_percentage": "87"
+  },
+  "extended": {
+    "developer": "AdHoc Studio",
+    "publisher": "AdHoc Studio",
+    "listofdlc": "3920280",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Dispatch",
+    "launch": {
+      "0": {
+        "executable": "Dispatch.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollerconfigdetails": {
+      "3583871132": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,advance-build,advance-build-ico,advance-sean-charlie,dev-test-branch-a,release-candidate,release-candidate-next,release-episodic-patch,valve-review,external,internal-playtests,localization,publisher",
+        "use_action_block": "false"
+      },
+      "3583871813": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,advance-build,advance-build-ico,advance-sean-charlie,dev-test-branch-a,release-candidate,release-candidate-next,release-episodic-patch,valve-review,external,internal-playtests,localization,publisher",
+        "use_action_block": "false"
+      },
+      "3590771210": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,advance-build,advance-build-ico,advance-sean-charlie,dev-test-branch-a,release-candidate,release-candidate-next,release-episodic-patch,valve-review,external,internal-playtests,localization,publisher",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2592161": {
+      "manifests": {
+        "public": {
+          "gid": "6073277710030489325",
+          "size": "3329986030",
+          "download": "3236686752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20504989",
+        "timeupdated": "1761184379"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "300000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Dispatch/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
