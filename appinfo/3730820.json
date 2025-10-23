@@ -108,12 +108,32 @@
     "launch": {
       "0": {
         "executable": "Dicewood.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Dicewood.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Dicewood.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
   "depots": {
     "3730821": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "6328662394256848867",
@@ -122,11 +142,22 @@
         }
       }
     },
+    "3730822": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "3730823": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
     "branches": {
       "public": {
         "buildid": "18510722",
         "timeupdated": "1747599505"
       }
-    }
+    },
+    "privatebranches": "1"
   }
 }
