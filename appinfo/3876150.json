@@ -1,6 +1,5 @@
 {
   "appid": "3876150",
-  "public_only": "1",
   "common": {
     "name": "The Secret of Weepstone Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,5 +109,38 @@
       "0": "2",
       "1": "5"
     }
+  },
+  "extended": {
+    "developer": "Talesworth Game Studio",
+    "publisher": "DreadXP"
+  },
+  "config": {
+    "installdir": "The Secret of Weepstone Demo",
+    "launch": {
+      "0": {
+        "executable": "Secret of Weepstone.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3876151": {
+      "manifests": {
+        "public": {
+          "gid": "7339141060517937631",
+          "size": "2752800605",
+          "download": "704901520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20404679",
+        "timeupdated": "1760542256"
+      }
+    },
+    "privatebranches": "1"
   }
 }
