@@ -1,6 +1,5 @@
 {
   "appid": "3540710",
-  "public_only": "1",
   "common": {
     "name": "Deskie",
     "type": "Application",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "桌小萌"
     },
@@ -114,6 +113,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3540710",
     "exfgls": "6",
@@ -129,6 +129,46 @@
       "8": "7926",
       "9": "8013",
       "10": "9204"
+    }
+  },
+  "extended": {
+    "developer": "SuperQ TEAM",
+    "publisher": "SuperQ TEAM",
+    "homepage": "https://deskie.me",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "deskie",
+    "launch": {
+      "0": {
+        "executable": "deskie.exe",
+        "arguments": "--steam",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3540711": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4765596419883417813",
+          "size": "386052800",
+          "download": "157213088"
+        }
+      }
+    },
+    "workshopdepot": "3540710",
+    "branches": {
+      "public": {
+        "buildid": "20510744",
+        "timeupdated": "1761214034"
+      }
     }
   }
 }
