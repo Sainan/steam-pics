@@ -1,6 +1,5 @@
 {
   "appid": "4012470",
-  "public_only": "1",
   "common": {
     "name": "暗之光明传",
     "type": "Game",
@@ -19,7 +18,7 @@
       "schinese": "1",
       "tchinese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c190424cc2f8add99e9b3b017848a58c29793d1e/capsule_231x87.jpg",
@@ -135,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761017785",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4012470",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -159,6 +159,56 @@
       "17": "4252",
       "18": "17894",
       "19": "16094"
+    }
+  },
+  "extended": {
+    "developer": "PSP之魂",
+    "publisher": "PSP之魂"
+  },
+  "config": {
+    "installdir": "暗之光明传",
+    "launch": {
+      "0": {
+        "executable": "LowPoly.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4012471": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3466420402536295110",
+          "size": "343669053",
+          "download": "134821056"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20491905",
+        "timeupdated": "1761114317"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "LowPoly_Data/SavesDir/",
+        "pattern": "*.sav"
+      }
     }
   }
 }
