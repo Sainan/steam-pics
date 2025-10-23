@@ -7,33 +7,26 @@
     "clienttga": "32c7e12c4e1e580db0f3460298bebfde173cca43",
     "clienticon": "dc1e12c1944539bb942a1c08477183eb0ad0623b",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "eulas": {
-      "0": {
-        "id": "2260260_eula_0",
-        "name": "Hack and Shoot Heroes EULA",
-        "url": "https://store.steampowered.com//eula/2260260_eula_0",
-        "version": "2"
-      }
-    },
     "content_descriptors": {
       "0": "2",
       "1": "5"
     },
     "controllertagwizard": "1",
-    "controller_support": "full",
+    "controller_support": "partial",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "c3e3f1a6fd3ff1619733fb17a139206401ac887f/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "67ff69e0185ef92d9d80575e634e42887a87534a/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
       "library_hero": "en",
       "library_logo": "en",
+      "library_header": "en",
       "logo_position": {
         "pinned_position": "CenterCenter",
         "width_pct": "36.09195402298849",
@@ -69,9 +62,17 @@
         "image": {
           "english": "logo.png"
         }
+      },
+      "library_header": {
+        "image": {
+          "english": "4c3bd5aafc5d303f2587902d52c98633379b0499/library_header.jpg"
+        },
+        "image2x": {
+          "english": "4c3bd5aafc5d303f2587902d52c98633379b0499/library_header_2x.jpg"
+        }
       }
     },
-    "store_asset_mtime": "1733914171",
+    "store_asset_mtime": "1760971008",
     "associations": {
       "0": {
         "type": "developer",
@@ -85,18 +86,21 @@
     "primary_genre": "4",
     "genres": {
       "0": "1",
-      "1": "4",
-      "2": "23",
-      "3": "3"
+      "1": "25",
+      "2": "4",
+      "3": "23",
+      "4": "3"
     },
     "category": {
       "category_2": "1",
       "category_22": "1",
       "category_15": "1",
-      "category_28": "1",
       "category_23": "1",
       "category_55": "1",
       "category_57": "1",
+      "category_18": "1",
+      "category_56": "1",
+      "category_58": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -105,6 +109,7 @@
       }
     },
     "steam_release_date": "1673284119",
+    "steam_deck_blog_url": "https://steamcommunity.com/games/2260260/partnerevents/preview/827098392374020019",
     "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2260260",
@@ -128,11 +133,11 @@
       "12": "4231",
       "13": "3871",
       "14": "4345",
-      "15": "42804",
-      "16": "3959",
-      "17": "1773",
-      "18": "1716",
-      "19": "1646"
+      "15": "21",
+      "16": "42804",
+      "17": "3959",
+      "18": "1773",
+      "19": "1716"
     }
   },
   "extended": {
@@ -146,8 +151,14 @@
         "executable": "Hack and Shoot Heroes.exe",
         "type": "default",
         "config": {
-          "oslist": "windows",
-          "osarch": "64"
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "hash.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
         }
       }
     },
@@ -158,21 +169,35 @@
   },
   "depots": {
     "2260261": {
+      "config": {
+        "oslist": "windows,macos"
+      },
       "manifests": {
         "public": {
-          "gid": "5796727767655649072",
-          "size": "348419461",
-          "download": "66636192"
+          "gid": "8746833560918358213",
+          "size": "375655150",
+          "download": "83495760"
+        }
+      }
+    },
+    "2260262": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7779894427956830823",
+          "size": "409700257",
+          "download": "90206928"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "10370716",
-        "timeupdated": "1674252758"
+        "buildid": "20509208",
+        "timeupdated": "1761206883"
       }
-    },
-    "privatebranches": "1"
+    }
   },
   "ufs": {
     "quota": "1000000",
