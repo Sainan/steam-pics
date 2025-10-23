@@ -1,6 +1,5 @@
 {
   "appid": "2464280",
-  "public_only": "1",
   "common": {
     "name": "Tormented Souls 2",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e23712655b3b2d8b088d01cc1c676c4e000d1027",
     "clienttga": "7a68ec0d7b9df36cee58f91b5298d8251c4156cf",
     "clienticon": "ea3d5d140896c3e3ca4edf3887415703245544a8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "受折磨的灵魂2",
       "tchinese": "受折磨的靈魂2",
@@ -223,9 +222,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761231557",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2464280",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -252,6 +252,80 @@
       "17": "4342",
       "18": "10808",
       "19": "6276"
+    }
+  },
+  "extended": {
+    "developer": "Dual Effect",
+    "publisher": "PQube",
+    "homepage": "https://pqube.co.uk/games/tormented-souls-2"
+  },
+  "config": {
+    "installdir": "Tormented Souls 2",
+    "launch": {
+      "0": {
+        "executable": "TormentedSouls2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launcher"
+        },
+        "description": "Launcher"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2464281": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7129172756902029567",
+          "size": "47692751607",
+          "download": "26030946544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20492046",
+        "timeupdated": "1761144028"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "300",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TormentedSouls2/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "TormentedSouls2/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
