@@ -1,6 +1,5 @@
 {
   "appid": "3926150",
-  "public_only": "1",
   "common": {
     "name": "Fortiori",
     "type": "Game",
@@ -13,7 +12,7 @@
       "english": "1"
     },
     "icon": "125a9c986cf964e78a15b49e9b2cb869f9fc653d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a787efa48966f7961696da12e8aed715fd48f51c/capsule_231x87.jpg"
@@ -116,9 +115,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3926150",
-    "exfgls": "8",
     "store_tags": {
       "0": "13070",
       "1": "791774",
@@ -141,5 +140,69 @@
       "18": "4400",
       "19": "3964"
     }
+  },
+  "extended": {
+    "developer": "79GAMES",
+    "publisher": "my dad :D",
+    "homepage": "https://fortiori.site/",
+    "listofdlc": "4083350",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Fortiori",
+    "launch": {
+      "0": {
+        "executable": "Fortiori.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3926151": {
+      "manifests": {
+        "public": {
+          "gid": "2515569315188736815",
+          "size": "99454511",
+          "download": "98658176"
+        }
+      }
+    },
+    "4083351": {
+      "dlcappid": "4083350",
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1423050400052310819",
+          "size": "44554200",
+          "download": "44309248"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20513539",
+        "timeupdated": "1761229023"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "stats.json",
+        "recursive": "1"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
