@@ -1,13 +1,12 @@
 {
   "appid": "2472940",
-  "public_only": "1",
   "common": {
     "name": "Wanderer: The Fragments of Fate",
     "type": "Game",
     "clienticon": "9937de37c0d285b9fa52ff17fa643d2431a2d7c1",
     "clienttga": "e4a948b45edb3497095468f798a7ae3801e531e0",
     "icon": "2dfaaadef93b2246bf6321c86d0010cb65f6abb8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761219545",
+    "store_asset_mtime": "1761233974",
     "associations": {
       "0": {
         "type": "developer",
@@ -148,9 +147,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761235205",
     "community_hub_visible": "1",
     "gameid": "2472940",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "5"
@@ -176,6 +175,64 @@
       "17": "3942",
       "18": "5395",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Mighty Eyes",
+    "publisher": "Mighty Eyes",
+    "homepage": "https://www.wanderervr.com/"
+  },
+  "config": {
+    "installdir": "Wanderer  The Fragments of Fate",
+    "launch": {
+      "0": {
+        "executable": "Wanderer.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Wanderer.exe",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2472941": {
+      "manifests": {
+        "public": {
+          "gid": "5086306755712006565",
+          "size": "40126568821",
+          "download": "39081551952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20505848",
+        "timeupdated": "1761188552"
+      }
     }
   }
 }
