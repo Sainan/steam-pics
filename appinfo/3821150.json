@@ -1,10 +1,9 @@
 {
   "appid": "3821150",
-  "public_only": "1",
   "common": {
     "name": "Burger Shift: Team Rush: Prologue",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -201,6 +200,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761119786",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3821150",
     "exfgls": "3",
@@ -223,6 +224,66 @@
       "15": "4166",
       "16": "5350",
       "17": "16689"
+    },
+    "review_score": "4",
+    "review_percentage": "38"
+  },
+  "extended": {
+    "developer": "Nova Telum Studio",
+    "publisher": "Nova Telum Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Burger Shift Team Rush Prologue",
+    "launch": {
+      "0": {
+        "executable": "Burger Shift Team Rush Prologue.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3821151": {
+      "manifests": {
+        "public": {
+          "gid": "929635387472039506",
+          "size": "5314479433",
+          "download": "5108538528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20506126",
+        "timeupdated": "1761187024"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "DDS_With_Exterior/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
     }
   }
 }
