@@ -1,10 +1,9 @@
 {
   "appid": "3819310",
-  "public_only": "1",
   "common": {
     "name": "The Scarlet Harvest",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "3744389b476f05a92fb7627ee5cc067fe5df0a0b",
     "clienticon": "47edbe8e1748548d27caa17892dfa133b20fe6a9",
     "clienttga": "a1564c4371d85dc9f599e3e7d523ca1405b84178",
@@ -144,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761231959",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3819310",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -172,6 +172,50 @@
       "17": "7250",
       "18": "21",
       "19": "597"
+    }
+  },
+  "extended": {
+    "developer": "@TonyDevGame",
+    "publisher": "@TonyDevGame",
+    "homepage": "http://www.tonydevgame.com"
+  },
+  "config": {
+    "installdir": "The Scarlet Harvest",
+    "launch": {
+      "0": {
+        "executable": "TheScarletHarvest.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3819311": {
+      "manifests": {
+        "public": {
+          "gid": "6423678586096274960",
+          "size": "15842481757",
+          "download": "15461063680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20448678",
+        "timeupdated": "1760805313"
+      }
     }
   }
 }
