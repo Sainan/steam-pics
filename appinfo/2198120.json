@@ -1,10 +1,9 @@
 {
   "appid": "2198120",
-  "public_only": "1",
   "common": {
     "name": "Dragon Inn",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "b3390578bb5731ca1171782f857610178b67bd3f",
     "clienttga": "3fcf950574489a58e7c8babab87356773301c60d",
     "clienticon": "961ee2813a6fe05de7c01788e8436f312a8a3dc4",
@@ -16,7 +15,7 @@
         "id": "2198120_eula_0",
         "name": "Dragon Inn EULA",
         "url": "https://store.steampowered.com//eula/2198120_eula_0",
-        "version": "3"
+        "version": "4"
       }
     },
     "controllertagwizard": "1",
@@ -108,9 +107,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761164077",
     "community_hub_visible": "1",
     "gameid": "2198120",
-    "exfgls": "8",
     "store_tags": {
       "0": "14153",
       "1": "17389",
@@ -129,6 +128,38 @@
       "14": "12472",
       "15": "4172",
       "16": "1708"
+    }
+  },
+  "extended": {
+    "developer": "Nordexa",
+    "publisher": "Nordexa"
+  },
+  "config": {
+    "installdir": "Dragon Inn",
+    "launch": {
+      "0": {
+        "executable": "Dragon Inn.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2198121": {
+      "manifests": {
+        "public": {
+          "gid": "5622473250067933641",
+          "size": "2210185665",
+          "download": "1899839392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20509642",
+        "timeupdated": "1761209666"
+      }
     }
   }
 }
