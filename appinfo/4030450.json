@@ -1,6 +1,5 @@
 {
   "appid": "4030450",
-  "public_only": "1",
   "common": {
     "name": "Halloween Trouble 7: The Apprentice",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "17763c4a8a3b565ad283593896bde5c41ceee988",
     "clienticns": "2add6eb6f0c3ddcd42fc19ffb0380aae97247d3c",
     "linuxclienticon": "2353543b2ccd08cb5865ffe99f55f3ca3a0acce7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -109,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761214649",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4030450",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1665",
@@ -128,6 +128,81 @@
       "12": "5716",
       "13": "4182",
       "14": "4136"
+    }
+  },
+  "extended": {
+    "developer": "Ironcode Gaming",
+    "publisher": "Ironcode Gaming"
+  },
+  "config": {
+    "installdir": "Halloween Trouble 7 The Apprentice",
+    "launch": {
+      "0": {
+        "executable": "Halloween Trouble 7 - The Apprentice.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "HalloweenTrouble7MacSteam.app/Contents/MacOS/Halloween Trouble 7 - The Apprentice",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "HalloweenTrouble7_Linux.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4030451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "251150429632046760",
+          "size": "525344337",
+          "download": "170245696"
+        }
+      }
+    },
+    "4030452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "78583875207557663",
+          "size": "596070868",
+          "download": "192125872"
+        }
+      }
+    },
+    "4030453": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6025954374079058351",
+          "size": "548618454",
+          "download": "172138304"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,dutch",
+    "branches": {
+      "public": {
+        "buildid": "20154665",
+        "timeupdated": "1758978375"
+      }
     }
   }
 }
