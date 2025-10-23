@@ -1,13 +1,12 @@
 {
   "appid": "3906800",
-  "public_only": "1",
   "common": {
     "name": "Poua! – Your Pomodoro Buddy & Minimal Desktop Timer",
     "type": "Game",
     "icon": "4a67fa61e9a5fbc21ab836270ff2fab2ec3867eb",
     "clienticon": "e153dd4f2d3d083088b8ed15172754ceaeaddac3",
     "clienttga": "d2a4e074e2d0f368623b6681cd58d0c825bf4158",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -126,9 +125,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761217643",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3906800",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "97376",
@@ -150,6 +150,57 @@
       "17": "10397",
       "18": "4136",
       "19": "1719"
+    }
+  },
+  "extended": {
+    "developer": "Filling Burrito Studio",
+    "publisher": "Filling Burrito Studio"
+  },
+  "config": {
+    "installdir": "Poua! – Your Pomodoro Buddy & Minimal Desktop Timer",
+    "launch": {
+      "0": {
+        "executable": "Poua.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Poua.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3906801": {
+      "manifests": {
+        "public": {
+          "gid": "3707732268160351678",
+          "size": "181950520",
+          "download": "113808288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20511087",
+        "timeupdated": "1761215593"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Godot/app_userdata/Poua/release/save",
+        "pattern": "*.dat"
+      }
     }
   }
 }
