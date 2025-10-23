@@ -1,10 +1,9 @@
 {
   "appid": "3187470",
-  "public_only": "1",
   "common": {
     "name": "Unfair Rampage: Knightfall",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -121,9 +120,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761230777",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3187470",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1625",
@@ -145,6 +145,118 @@
       "17": "3916",
       "18": "4182",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Imphenzia",
+    "publisher": "Imphenzia"
+  },
+  "config": {
+    "installdir": "Unfair Rampage Knightfall",
+    "launch": {
+      "0": {
+        "executable": "Unfair Rampage - Knightfall.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Contents/MacOS/Unfair Rampage - Knightfall",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "./Unfair Rampage Knightfall.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3187471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3012092920602255786",
+          "size": "411452110",
+          "download": "169506224"
+        }
+      }
+    },
+    "3187472": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5520525961429649424",
+          "size": "412971003",
+          "download": "177651120"
+        }
+      }
+    },
+    "3187473": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9059095421692433326",
+          "size": "433145021",
+          "download": "186133264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20474711",
+        "timeupdated": "1761016960"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Imphenzia/Unfair Rampage - Knightfall/SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Imphenzia/Unfair Rampage - Knightfall/SavesDir",
+            "replace": "unity.Unfair Rampage - Knightfall.SavesDir"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "pathtransforms": {
+          "0": {
+            "find": "Imphenzia/Unfair Rampage - Knightfall/SavesDir",
+            "replace": ".config/unity3d/Imphenzia/Unfair Rampage - Knightfall/SavesDir"
+          }
+        }
+      }
     }
   }
 }
