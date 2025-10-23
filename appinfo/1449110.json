@@ -1,10 +1,9 @@
 {
   "appid": "1449110",
-  "public_only": "1",
   "common": {
     "name": "The Outer Worlds 2",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -171,7 +170,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "1449110",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -182,21 +180,518 @@
       "2": "3834",
       "3": "44868",
       "4": "3839",
-      "5": "4754",
-      "6": "1695",
-      "7": "4853",
-      "8": "4182",
+      "5": "1695",
+      "6": "4754",
+      "7": "4182",
+      "8": "4853",
       "9": "21",
       "10": "19",
       "11": "4667",
       "12": "4345",
       "13": "3942",
-      "14": "26921",
-      "15": "1742",
-      "16": "4747",
-      "17": "4845",
-      "18": "6426",
-      "19": "7208"
+      "14": "1742",
+      "15": "4747",
+      "16": "4845",
+      "17": "6426",
+      "18": "26921",
+      "19": "1697"
+    }
+  },
+  "extended": {
+    "developer": "Obsidian Entertainment",
+    "publisher": "Xbox Game Studios"
+  },
+  "config": {
+    "installdir": "TheOuterWorlds2",
+    "launch": {
+      "0": {
+        "executable": "TheOuterWorlds2Dev.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "latest_mainline"
+        },
+        "description_loc": {
+          "english": "Arkansas Development Configuration"
+        },
+        "description": "Arkansas Development Configuration"
+      },
+      "1": {
+        "executable": "TheOuterWorlds2Test.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "latest_mainline"
+        },
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "description": "Arkansas Test Configuration"
+      },
+      "2": {
+        "executable": "TheOuterWorlds2.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "latest_mainline"
+        },
+        "description_loc": {
+          "english": "Arkansas Shipping Configuration"
+        },
+        "description": "Arkansas Shipping Configuration"
+      },
+      "3": {
+        "executable": "Arkansas.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "se_review"
+        }
+      },
+      "4": {
+        "executable": "ArkansasTest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "combat2_review"
+        }
+      },
+      "5": {
+        "executable": "ArkansasTest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "integrated_prototype"
+        }
+      },
+      "6": {
+        "executable": "ArkansasDev.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "ms_playtest"
+        },
+        "description_loc": {
+          "english": "Arkansas Development Configuration"
+        },
+        "description": "Arkansas Development Configuration"
+      },
+      "7": {
+        "executable": "ArkansasTest.exe",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "betakey": "ms_playtest"
+        },
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "description": "Arkansas Test Configuration"
+      },
+      "8": {
+        "executable": "Arkansas.exe",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "betakey": "ms_playtest"
+        },
+        "description_loc": {
+          "english": "Arkansas Shipping Configuration"
+        },
+        "description": "Arkansas Shipping Configuration"
+      },
+      "9": {
+        "executable": "ArkansasDev.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "vs_build"
+        },
+        "description_loc": {
+          "english": "Vertical Slice Development Configuration"
+        },
+        "description": "Vertical Slice Development Configuration"
+      },
+      "10": {
+        "executable": "ArkansasTest.exe",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "vs_build"
+        },
+        "description_loc": {
+          "english": "Vertical Slice Test Configuration"
+        },
+        "description": "Vertical Slice Test Configuration"
+      },
+      "11": {
+        "executable": "Arkansas.exe",
+        "type": "option3",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "vs_build"
+        },
+        "description_loc": {
+          "english": "Vertical Slice Shipping Configuration"
+        },
+        "description": "Vertical Slice Shipping Configuration"
+      },
+      "12": {
+        "executable": "ArkansasDev.exe",
+        "arguments": "-ExecCmds=\"stat fps,DisableAllScreenMessages,oei.ShowTextReview 0\"",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "team_playtest"
+        },
+        "description_loc": {
+          "english": "Blind Playtester Mode"
+        },
+        "description": "Blind Playtester Mode"
+      },
+      "14": {
+        "executable": "ArkansasTest.exe",
+        "arguments": "-ExecCmds=\"stat fps,DisableAllScreenMessages,oei.ShowTextReview 0\"",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "alpha_playtest"
+        },
+        "description_loc": {
+          "english": "Alpha Release Build in Test Config"
+        },
+        "description": "Alpha Release Build in Test Config"
+      },
+      "15": {
+        "executable": "TheOuterWorlds2Dev.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "qa_test3"
+        },
+        "description_loc": {
+          "english": "Arkansas Development Configuration"
+        },
+        "description": "Arkansas Development Configuration"
+      },
+      "16": {
+        "executable": "TheOuterWorlds2Test.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "qa_test3"
+        },
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "description": "Arkansas Test Configuration"
+      },
+      "17": {
+        "executable": "TheOuterWorlds2.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "qa_test3"
+        },
+        "description_loc": {
+          "english": "Arkansas Shipping Configuration"
+        },
+        "description": "Arkansas Shipping Configuration"
+      },
+      "18": {
+        "executable": "TheOuterWorlds2.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "latest_mainline_shipping"
+        },
+        "description_loc": {
+          "english": "Arkansas Shipping Configuration"
+        },
+        "description": "Arkansas Shipping Configuration"
+      },
+      "19": {
+        "executable": "ArkansasDev.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "rift_lab_demo"
+        },
+        "description_loc": {
+          "english": "Arkansas Development Configuration"
+        },
+        "description": "Arkansas Development Configuration"
+      },
+      "20": {
+        "executable": "ArkansasTest.exe",
+        "arguments": "-ExecCmds=DisableAllScreenMessages",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "rift_lab_demo"
+        },
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "description": "Arkansas Test Configuration"
+      },
+      "21": {
+        "executable": "Arkansas.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "rift_lab_demo"
+        },
+        "description_loc": {
+          "english": "Arkansas Shipping Configuration"
+        },
+        "description": "Arkansas Shipping Configuration"
+      },
+      "22": {
+        "executable": "Artbook/TOW2Artbook.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "latest_mainline_shipping",
+          "ownsdlc": "3729850"
+        },
+        "description_loc": {
+          "english": "Open Artbook & Soundtrack"
+        },
+        "description": "Open Artbook & Soundtrack"
+      },
+      "23": {
+        "executable": "TheOuterWorlds2Dev.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "lastverified"
+        },
+        "description_loc": {
+          "english": "Arkansas Development Configuration"
+        },
+        "description": "Arkansas Development Configuration"
+      },
+      "24": {
+        "executable": "TheOuterWorlds2Test.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "lastverified"
+        },
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "description": "Arkansas Test Configuration"
+      },
+      "25": {
+        "executable": "TheOuterWorlds2Test.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "user_research"
+        },
+        "description_loc": {
+          "english": "Arkansas Test Configuration"
+        },
+        "description": "Arkansas Test Configuration"
+      },
+      "26": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "betakey": "hpsdemo"
+        }
+      },
+      "27": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "betakey": "hpsdemo_shipping"
+        }
+      },
+      "28": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "betakey": "tomb_demo_shipping"
+        }
+      },
+      "29": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "betakey": "latest_release_shipping"
+        }
+      },
+      "30": {
+        "executable": "TheOuterWorlds2Dev.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "latest_release"
+        },
+        "description_loc": {
+          "english": "Launch Dev Configuration"
+        },
+        "description": "Launch Dev Configuration"
+      },
+      "31": {
+        "executable": "TheOuterWorlds2Test.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "latest_release"
+        },
+        "description_loc": {
+          "english": "Launch Test Configuration"
+        },
+        "description": "Launch Test Configuration"
+      },
+      "32": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "option1",
+        "config": {
+          "betakey": "latest_release"
+        },
+        "description_loc": {
+          "english": "Launch Shipping Configuration"
+        },
+        "description": "Launch Shipping Configuration"
+      },
+      "33": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "betakey": "release-1.0.0.0"
+        }
+      },
+      "34": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "betakey": "mockreviewerbranch"
+        }
+      },
+      "35": {
+        "executable": "TheOuterWorlds2Test.exe",
+        "config": {
+          "betakey": "esrb_branch"
+        }
+      },
+      "36": {
+        "executable": "Artbook/TOW2Artbook.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "latest_release_final",
+          "ownsdlc": "3729850"
+        },
+        "description_loc": {
+          "english": "Open Artbook & Soundtrack"
+        },
+        "description": "Open Artbook & Soundtrack"
+      },
+      "38": {
+        "executable": "TheOuterWorlds2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "39": {
+        "executable": "Artbook/TOW2Artbook.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "ownsdlc": "3729850"
+        },
+        "description_loc": {
+          "english": "Open Artbook & Soundtrack"
+        },
+        "description": "Open Artbook & Soundtrack"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1449111": {
+      "manifests": {
+        "public": {
+          "gid": "8925567079102516634",
+          "size": "82397979251",
+          "download": "80853515232"
+        }
+      }
+    },
+    "1449112": {
+      "manifests": {}
+    },
+    "3729850": {
+      "dlcappid": "3729850",
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7345451025778384948",
+          "size": "7934669657",
+          "download": "6249987360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20467470",
+        "timeupdated": "1760980813"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinSavedGames",
+        "path": "Arkansas",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinSavedGames",
+        "path": "TheOuterWorlds2",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
