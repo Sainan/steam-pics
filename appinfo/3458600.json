@@ -1,6 +1,5 @@
 {
   "appid": "3458600",
-  "public_only": "1",
   "common": {
     "name": "NINDO 星影の守護者",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "34690e77f90dcd6a20328dbb7358f7faaf094129",
     "clienttga": "85e31ce2d4e6025e997bceed0f9fac6704bdf52b",
     "clienticon": "34690e77f90dcd6a20328dbb7358f7faaf094129",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -121,9 +120,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760953715",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3458600",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "1666",
@@ -139,8 +139,63 @@
       "11": "3959",
       "12": "122",
       "13": "1677",
-      "14": "492",
-      "15": "493"
+      "14": "493",
+      "15": "492"
+    }
+  },
+  "extended": {
+    "developer": "MORIKICHIDO",
+    "publisher": "MORIKICHIDO"
+  },
+  "config": {
+    "installdir": "NINDO-GSS",
+    "launch": {
+      "0": {
+        "executable": "NINDO-GSS/NINDO-GSS.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3458601": {
+      "manifests": {
+        "public": {
+          "gid": "6216834771095886761",
+          "size": "1595113973",
+          "download": "389725472"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20512418",
+        "timeupdated": "1761222186"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "512000000",
+    "maxnumfiles": "3000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MORIKICHIDO/NINDO-GSS",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "MORIKICHIDO/NINDO-GSS/RunResults",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
