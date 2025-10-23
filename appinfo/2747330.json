@@ -1,10 +1,9 @@
 {
   "appid": "2747330",
-  "public_only": "1",
   "common": {
     "name": "Species: Unknown",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2747330_eula_0",
@@ -87,7 +86,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760104313",
+    "store_asset_mtime": "1761212748",
     "associations": {
       "0": {
         "type": "developer",
@@ -147,9 +146,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761220818",
     "community_hub_visible": "1",
     "gameid": "2747330",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -175,6 +174,81 @@
       "17": "492",
       "18": "4175",
       "19": "1755"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "WanadevStudio",
+    "publisher": "WanadevStudio",
+    "homepage": "https://www.species-unknown-game.com/"
+  },
+  "config": {
+    "installdir": "Species Unknown",
+    "launch": {
+      "0": {
+        "executable": "SpeciesUnknown.exe",
+        "arguments": "-nohmd",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2747331": {
+      "manifests": {
+        "public": {
+          "gid": "2686032745252834926",
+          "size": "5937295978",
+          "download": "5524596592"
+        }
+      }
+    },
+    "4030871": {
+      "dlcappid": "4030870",
+      "manifests": {
+        "public": {
+          "gid": "6165615706759493374",
+          "size": "102734757",
+          "download": "102742928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20508113",
+        "timeupdated": "1761220589"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "16",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SpeciesUnknown/Saved/SaveGames",
+        "pattern": "SaveGame_*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
