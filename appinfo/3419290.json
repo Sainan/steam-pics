@@ -1,25 +1,24 @@
 {
   "appid": "3419290",
-  "public_only": "1",
   "common": {
     "name": "神弃之地",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "50c02a8d03e4bca41aaa4b88f3e9a591d6bb15da",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "da18300f7224bc5e030ee7ad31b45643c0455279",
     "name_localized": {
       "english": "GOD FORSAKEN",
-      "german": "Das von Gott verlassen  Land",
-      "polish": "Ziemia opuszczona przez Boga",
-      "french": "La terre abandonnée par Dieu",
-      "koreana": "신이 버린 땅",
-      "japanese": "神に見捨てられた",
-      "tchinese": "神棄之地",
-      "russian": "Земля, покинутая Богом",
-      "spanish": "La tierra abandonada por Dios",
-      "portuguese": "A terra abandonada por Deus",
-      "brazilian": "A terra abandonada por Deus"
+      "german": "Das von Gott verlassen Land-GOD FORSAKEN",
+      "polish": "Ziemia opuszczona przez Boga-GOD FORSAKEN",
+      "french": "La terre abandonnée par Dieu-GOD FORSAKEN",
+      "koreana": "신이 버린 땅-GOD FORSAKEN",
+      "japanese": "神に見捨てられた - GOD FORSAKEN",
+      "tchinese": "神棄之地 - GOD FORSAKEN",
+      "russian": "Земля, покинутая Богом-GOD FORSAKEN",
+      "spanish": "Spain: La tierra abandonada por Dios-GOD FORSAKEN-",
+      "portuguese": "Portugal: A terra abandonada por Deus-GOD FORSAKEN",
+      "brazilian": "A terra abandonada por Deus-GOD FORSAKEN"
     },
     "oslist": "windows",
     "osarch": "",
@@ -107,7 +106,7 @@
         }
       }
     },
-    "store_asset_mtime": "1745483687",
+    "store_asset_mtime": "1761122719",
     "associations": {
       "0": {
         "type": "developer",
@@ -179,9 +178,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761116516",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3419290",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -203,6 +203,64 @@
       "17": "4182",
       "18": "493",
       "19": "492"
+    },
+    "review_score": "5",
+    "review_percentage": "69"
+  },
+  "extended": {
+    "developer": "insight studio",
+    "publisher": "insight studio",
+    "listofdlc": "3985080",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "GOD FORSAKEN",
+    "launch": {
+      "0": {
+        "executable": "GodForsaken.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3419291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6475501853937713754",
+          "size": "4733308425",
+          "download": "4069365936"
+        }
+      }
+    },
+    "3985081": {
+      "dlcappid": "3985080"
+    },
+    "baselanguages": "english,schinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20495712",
+        "timeupdated": "1761135434"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "InsightStudio/GodForsakenRelease/game_save/",
+        "pattern": "*.*"
+      }
     }
   }
 }
