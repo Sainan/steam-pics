@@ -1,6 +1,5 @@
 {
   "appid": "1486450",
-  "public_only": "1",
   "common": {
     "name": "The Lonesome Guild",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "29836c0956d67ef902219c0b66a2f5cc25ac0fe0",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "icon": "f0c31ad6572df3139667485f8fe9e39b6ed3e4db",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -86,7 +85,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760447952",
+    "store_asset_mtime": "1761206011",
     "associations": {
       "0": {
         "type": "developer",
@@ -148,9 +147,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761206394",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1486450",
-    "exfgls": "8",
     "store_tags": {
       "0": "4106",
       "1": "4182",
@@ -172,6 +172,77 @@
       "17": "21",
       "18": "4305",
       "19": "19"
+    }
+  },
+  "extended": {
+    "developer": "Tiny Bull Studios",
+    "publisher": "DON'T NOD",
+    "homepage": "https://dont-nod.com/"
+  },
+  "config": {
+    "installdir": "The Lonesome Guild",
+    "launch": {
+      "0": {
+        "executable": "TheLonesomeGuild.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1486451": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3970399957597811365",
+          "size": "20412023689",
+          "download": "8215567856"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20207065",
+        "timeupdated": "1761205709"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "40000000",
+    "maxnumfiles": "40",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tiny Bull Studios/TheLonesomeGuild/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      }
     }
   }
 }
