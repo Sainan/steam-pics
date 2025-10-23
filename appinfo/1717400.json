@@ -1,6 +1,5 @@
 {
   "appid": "1717400",
-  "public_only": "1",
   "common": {
     "name": "Bulb Boy 2: Jar of Despair",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "cd417a9c999fc9dd4d6e5493964a373a298d791e",
     "clienttga": "ed012aeb11e164e6af95faf92466ccc97cf31d9f",
     "clienticns": "4ae6134d1c1ecfe1d9c4ce477faf05464fbc88ba",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761230728",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1717400",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1664",
@@ -144,5 +144,60 @@
       "18": "7481",
       "19": "3834"
     }
+  },
+  "extended": {
+    "developer": "Bulbware",
+    "publisher": "Bulbware",
+    "homepage": "https://bulbboyjar.com/"
+  },
+  "config": {
+    "installdir": "Bulb Boy 2 - Jar of Despair",
+    "launch": {
+      "0": {
+        "executable": "Bulb Boy 2 - Jar of Despair.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "Bulb Boy 2 - Jar of Despair.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1717401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7352737878513571015",
+          "size": "2590623738",
+          "download": "295889696"
+        }
+      }
+    },
+    "1717402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7854538693751807072",
+          "size": "2797316088",
+          "download": "283711312"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20512741",
+        "timeupdated": "1761227927"
+      }
+    },
+    "privatebranches": "1"
   }
 }
