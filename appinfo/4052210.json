@@ -1,6 +1,5 @@
 {
   "appid": "4052210",
-  "public_only": "1",
   "common": {
     "name": "FuwaFuwa Survivors Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "osextended": "",
     "clienticon": "bc4bddda5325b088f63f5b510be9222f9608f860",
     "icon": "bc4bddda5325b088f63f5b510be9222f9608f860",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2521cb4970ae1042b8b370c4eef80239ca32c4d5/capsule_231x87.jpg"
@@ -66,7 +65,41 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4052210",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "開墾魂",
+    "publisher": "開墾魂"
+  },
+  "config": {
+    "installdir": "FuwaFuwaSurvivorsDemo",
+    "launch": {
+      "0": {
+        "executable": "FuwaFuwaSurvivors\\FuwaFuwaSurvivors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4052211": {
+      "manifests": {
+        "public": {
+          "gid": "3833350656668340900",
+          "size": "1731148102",
+          "download": "583674640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20509479",
+        "timeupdated": "1761208302"
+      }
+    }
   }
 }
