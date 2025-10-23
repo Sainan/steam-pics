@@ -1,10 +1,9 @@
 {
   "appid": "2483440",
-  "public_only": "1",
   "common": {
     "name": "Shroomtopia",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -168,9 +167,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761229711",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2483440",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "97376",
@@ -192,6 +192,108 @@
       "17": "4182",
       "18": "4562",
       "19": "1684"
+    }
+  },
+  "extended": {
+    "developer": "GXN Games",
+    "publisher": "QUByte Interactive"
+  },
+  "config": {
+    "installdir": "Shroomtopia",
+    "launch": {
+      "0": {
+        "executable": "Shroomtopia.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Shroomtopia.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "2483441": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8878240465190406305",
+          "size": "1127126915",
+          "download": "277781632"
+        },
+        "beta_testing_1": {
+          "gid": "8906785569788781481",
+          "size": "1012860854",
+          "download": "256304416"
+        }
+      }
+    },
+    "2483442": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2379582470776456684",
+          "size": "1164577284",
+          "download": "320629936"
+        },
+        "beta_testing_1": {
+          "gid": "1527626525251005397",
+          "size": "1014965637",
+          "download": "256708432"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,french,italian,koreana,spanish,schinese,russian,japanese,polish,dutch,brazilian",
+    "workshopdepot": "0",
+    "branches": {
+      "public": {
+        "buildid": "20410734",
+        "timeupdated": "1760632460"
+      },
+      "beta_testing_1": {
+        "buildid": "18224643",
+        "description": "Default branch for Beta Testing",
+        "timeupdated": "1745502202"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "64000000",
+    "maxnumfiles": "128",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "QUByte Interactive/Shroomtopia/{Steam3AccountID}/",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "QUByte Interactive/Shroomtopia/{Steam3AccountID}/",
+            "replace": ".config/unity3d/QUByte Interactive/Shroomtopia/{Steam3AccountID}/"
+          }
+        }
+      }
     }
   }
 }
