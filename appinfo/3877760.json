@@ -1,6 +1,5 @@
 {
   "appid": "3877760",
-  "public_only": "1",
   "common": {
     "name": "Twincantation",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "ccc14c0d37e1eca8de5771a73d7113537ed5dcfe",
     "clienticon": "fcf5c0c8a6989a0b4eec901da98ae684becbeaa3",
     "clienttga": "ee2ff56425ed5084d132c5c0bd056987d1d792d6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -109,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761138093",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3877760",
-    "exfgls": "8",
     "store_tags": {
       "0": "1742",
       "1": "97376",
@@ -133,6 +133,79 @@
       "17": "4145",
       "18": "4252",
       "19": "4064"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Little Nihilista Games",
+    "publisher": "Little Nihilista Games"
+  },
+  "config": {
+    "installdir": "Twincantation",
+    "launch": {
+      "0": {
+        "executable": "Twincantation.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "Twincantation.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "Twincantation.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3877761": {
+      "manifests": {
+        "public": {
+          "gid": "1047635758663333939",
+          "size": "538293425",
+          "download": "359095440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20508957",
+        "timeupdated": "1761205828"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*"
+      }
     }
   }
 }
