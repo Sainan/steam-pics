@@ -1,6 +1,5 @@
 {
   "appid": "3902980",
-  "public_only": "1",
   "common": {
     "name": "Haunting Invitation",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "aee1456b3e6423fb87873f6c76aca219b8e9e472",
     "icon": "a88f9daa80acafc57b322baf886d1e8297ea301a",
     "linuxclienticon": "18bda08cf6ecb45141ac27caeddd0299a8ffd96e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3ce07501581abd4c8b764f685acdf4b44551956e/capsule_231x87.jpg"
@@ -100,6 +99,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3902980",
     "exfgls": "3",
@@ -124,6 +124,53 @@
       "17": "7208",
       "18": "7250",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Bullseye",
+    "publisher": "DeMonGames",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Haunting Invitation",
+    "launch": {
+      "0": {
+        "executable": "Project_Haunting.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3902981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2899468431239168203",
+          "size": "1144264772",
+          "download": "777212240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20239215",
+        "timeupdated": "1759496594"
+      }
     }
   }
 }
