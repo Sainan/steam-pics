@@ -1,6 +1,5 @@
 {
   "appid": "4025250",
-  "public_only": "1",
   "common": {
     "name": "Anomaly Operation Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e5de3427d6a2a921e455adafc2b128582301b34f/capsule_231x87.jpg"
@@ -49,7 +48,52 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761232527",
     "gameid": "4025250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "for",
+    "publisher": "for"
+  },
+  "config": {
+    "installdir": "Anomaly Operation Demo",
+    "launch": {
+      "0": {
+        "executable": "AnomalyOperation.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4025251": {
+      "manifests": {
+        "public": {
+          "gid": "819077413115254729",
+          "size": "2324218574",
+          "download": "2152163632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19927522",
+        "timeupdated": "1757513168"
+      }
+    }
   }
 }
