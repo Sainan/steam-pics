@@ -95,35 +95,55 @@
     }
   },
   "depots": {
-    "228990": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
     "4049191": {
       "config": {
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "gid": "2723405945663569277",
-          "size": "83962428",
-          "download": "74805008"
+          "gid": "4434908012453041909",
+          "size": "84006107",
+          "download": "74842288"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20355408",
-        "timeupdated": "1760249405"
+        "buildid": "20501398",
+        "timeupdated": "1761159078"
       }
     }
   },
   "ufs": {
     "quota": "0",
     "maxnumfiles": "0",
-    "appidredirect": "3817260"
+    "appidredirect": "3817260",
+    "savefiles": {
+      "0": {
+        "root": "WinSavedGames",
+        "path": "The Myth of a Godslayer/",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinMyDocuments",
+        "path": "My Games/The Myth of a Godslayer/",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
