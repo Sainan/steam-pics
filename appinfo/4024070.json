@@ -1,6 +1,5 @@
 {
   "appid": "4024070",
-  "public_only": "1",
   "common": {
     "name": "Kellan Graves: Fallen",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f21518fafc584e6178845fed73fb1cb6331c1c9a/capsule_231x87.jpg"
@@ -73,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760680877",
+    "store_asset_mtime": "1761152079",
     "associations": {
       "0": {
         "type": "developer",
@@ -137,11 +136,20 @@
       "spanish": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "ukrainian": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761152186",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4024070",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1663",
@@ -163,6 +171,79 @@
       "17": "3993",
       "18": "4182",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Adrenaline Games",
+    "publisher": "Adrenaline Games"
+  },
+  "config": {
+    "installdir": "KellanGravesFallen",
+    "launch": {
+      "0": {
+        "executable": "KellanGravesV7.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Main Game Executable"
+        },
+        "description": "Main Game Executable"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4024071": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2249756436438374356",
+          "size": "4131619975",
+          "download": "3370359264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20512241",
+        "timeupdated": "1761221067"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "KellanGravesV7/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
