@@ -1,6 +1,5 @@
 {
   "appid": "4118540",
-  "public_only": "1",
   "common": {
     "name": "Pereelous Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4fd6039d93f9e4663bac4035558af4dafe4a1280/capsule_231x87.jpg"
     },
@@ -44,7 +43,53 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761215428",
     "gameid": "4118540",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "VANDERMAESEN GAMES",
+    "publisher": "VANDERMAESEN GAMES"
+  },
+  "config": {
+    "installdir": "Pereelous Demo",
+    "launch": {
+      "0": {
+        "executable": "Pereelous.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4118541": {
+      "manifests": {
+        "public": {
+          "gid": "2003201376333812857",
+          "size": "250253328",
+          "download": "144993760"
+        }
+      }
+    },
+    "4118542": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "608609541550305680",
+          "size": "224650082",
+          "download": "138657632"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20511036",
+        "timeupdated": "1761215362"
+      }
+    }
   }
 }
