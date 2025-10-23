@@ -1,6 +1,5 @@
 {
   "appid": "2996540",
-  "public_only": "1",
   "common": {
     "name": "THE GOOD OLD DAYS",
     "type": "Game",
@@ -17,7 +16,7 @@
       "tchinese": "1",
       "japanese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "koreana": "THE GOOD OLD DAYS: 누기스의 대모험",
       "japanese": "THE GOOD OLD DAYS～冒険団ヌーギーズの大冒険～",
@@ -97,7 +96,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757461488",
+    "store_asset_mtime": "1761211526",
     "associations": {
       "0": {
         "type": "developer",
@@ -154,9 +153,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761145232",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2996540",
-    "exfgls": "8",
     "store_tags": {
       "0": "1628",
       "1": "4106",
@@ -179,5 +179,77 @@
       "18": "4486",
       "19": "5537"
     }
+  },
+  "extended": {
+    "developer": "ヨコゴシステムズ",
+    "publisher": "GRAVITY",
+    "homepage": "https://www.yokogosystems.com/thegoodolddays/"
+  },
+  "config": {
+    "installdir": "THE GOOD OLD DAYS",
+    "launch": {
+      "0": {
+        "executable": "TheGoodOldDays.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "TheGoodOldDays.exe",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Steamdeck"
+        },
+        "description": "Steamdeck"
+      }
+    }
+  },
+  "depots": {
+    "2996541": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9091888562599923489",
+          "size": "994022882",
+          "download": "338534432"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20223120",
+        "timeupdated": "1759809645"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "YokogoSystems/TheGoodOldDays/Save/{64BitSteamID}/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "sync_while_suspended": "1",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
