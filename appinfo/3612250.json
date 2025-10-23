@@ -1,6 +1,5 @@
 {
   "appid": "3612250",
-  "public_only": "1",
   "common": {
     "name": "Arcana Academy",
     "type": "Game",
@@ -18,7 +17,7 @@
     "name_localized": {
       "schinese": "巫师与学徒"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -181,6 +180,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761187742",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3612250",
     "store_tags": {
@@ -204,6 +205,58 @@
       "17": "4018",
       "18": "6426",
       "19": "13070"
+    }
+  },
+  "extended": {
+    "developer": "2A Studio",
+    "publisher": "Luckycalf"
+  },
+  "config": {
+    "installdir": "Arcana Academy",
+    "launch": {
+      "0": {
+        "executable": "core/ArcanaAcademy_PC.exe",
+        "workingdir": "core",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3612251": {
+      "manifests": {
+        "public": {
+          "gid": "2667948165338651815",
+          "size": "1497313803",
+          "download": "1324552816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20506359",
+        "timeupdated": "1761188223"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "path": "CloudArchive",
+        "pattern": "*.sav"
+      }
     }
   }
 }
