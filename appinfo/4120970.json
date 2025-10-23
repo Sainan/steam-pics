@@ -1,6 +1,5 @@
 {
   "appid": "4120970",
-  "public_only": "1",
   "common": {
     "name": "Banishing You Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7d5dcac95c84e8cc1260ef4cf16db78d7f80cc6b/capsule_231x87.jpg"
     },
@@ -40,7 +39,85 @@
       "category_76": "1",
       "category_79": "1"
     },
+    "steam_release_date": "1761234342",
     "gameid": "4120970",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "lapys games",
+    "publisher": "lapys games"
+  },
+  "config": {
+    "installdir": "Banishing You Demo",
+    "launch": {
+      "0": {
+        "executable": "BanishingYou.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "BanishingYou.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "BanishingYou.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4120971": {
+      "manifests": {
+        "public": {
+          "gid": "7613456109427087628",
+          "size": "539064580",
+          "download": "432658192"
+        }
+      }
+    },
+    "4120972": {
+      "config": {
+        "language": "english"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20447833",
+        "timeupdated": "1760795845"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*"
+      }
+    }
   }
 }
