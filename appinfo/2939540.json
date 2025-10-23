@@ -1,4 +1,128 @@
 {
   "appid": "2939540",
-  "public_only": "1"
+  "common": {
+    "name": "Winds Of Arcana: Ruination Playtest",
+    "type": "Beta",
+    "parent": "2201910",
+    "releasestate": "released",
+    "icon": "50aad5c2a0603b5a9bdfe9f533dc2f6cd047f31e",
+    "clienttga": "48f6ad1fde1b779227447de2b0c590a30de16b93",
+    "clienticon": "841448cd6037e3fb9b5cb1c5171e7a9d6e68aabc",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "28.230582850989364",
+        "height_pct": "82.88057212455902"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "28.230582850989364",
+          "height_pct": "82.88057212455902"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1712900134",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1760989464",
+    "community_hub_visible": "1",
+    "gameid": "2939540",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Winds Of Arcana Ruination Playtest",
+    "launch": {
+      "0": {
+        "executable": "Winds Of Arcana.exe"
+      }
+    }
+  },
+  "depots": {
+    "2939541": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8647518008282811337",
+          "size": "14827055911",
+          "download": "3452989520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20468504",
+        "timeupdated": "1760988070"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Brewed Games/Winds Of Arcana/MainBeta/",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Brewed Games/Winds Of Arcana/MainBeta/"
+          }
+        }
+      }
+    }
+  }
 }
