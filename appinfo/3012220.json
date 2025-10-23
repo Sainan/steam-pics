@@ -1,6 +1,5 @@
 {
   "appid": "3012220",
-  "public_only": "1",
   "common": {
     "name": "Double Dragon Revive",
     "type": "Game",
@@ -14,7 +13,7 @@
       "tchinese": "雙截龍再臨",
       "schinese": "双截龙再临"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -201,9 +200,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761116412",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3012220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -228,6 +228,99 @@
       "17": "6730",
       "18": "5154",
       "19": "3859"
+    },
+    "review_score": "5",
+    "review_percentage": "68"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "internal",
+    "developer": "YUKE’S",
+    "publisher": "Arc System Works",
+    "homepage": "https://www.arcsystemworks.jp/ddrev/",
+    "listofdlc": "3386970",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "DoubleDragonRevive",
+    "launch": {
+      "0": {
+        "executable": "LaunchGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3012221": {
+      "manifests": {
+        "public": {
+          "gid": "3916142658254240125",
+          "size": "12154242603",
+          "download": "11083276768"
+        }
+      }
+    },
+    "3012222": {},
+    "3012223": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5877424028899311368",
+          "size": "1710788608",
+          "download": "369437216"
+        }
+      }
+    },
+    "3012229": {},
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20397875",
+        "timeupdated": "1760605404"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "33554432",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "ProjectDD/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "DoubleDragonRevive/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
