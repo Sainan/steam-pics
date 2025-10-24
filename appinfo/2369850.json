@@ -1,13 +1,12 @@
 {
   "appid": "2369850",
-  "public_only": "1",
   "common": {
     "name": "Dolven",
     "type": "Game",
     "icon": "037c498a4eb7c17d1953ddf1b12a36716d6d1659",
     "clienttga": "9113c30fb7654e45a73cbf0a83c61d1eb8b4fff6",
     "clienticon": "8aa4c3ba1c91c89519c3f3de7563bc5a166d353a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
@@ -100,9 +99,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761282049",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2369850",
-    "exfgls": "8",
     "store_tags": {
       "0": "1741",
       "1": "9",
@@ -124,6 +124,95 @@
       "17": "4172",
       "18": "21725",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Covyne Entertainment",
+    "publisher": "Covyne Entertainment",
+    "homepage": "https://www.dolvengame.com/"
+  },
+  "config": {
+    "installdir": "Dolven",
+    "launch": {
+      "0": {
+        "executable": "Dolven.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Dolven.app/Contents/MacOS/Dolven",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2369851": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6480576880148721585",
+          "size": "3371942980",
+          "download": "1232467360"
+        },
+        "closed_beta": {
+          "gid": "6480576880148721585",
+          "size": "3371942980",
+          "download": "1232467360"
+        },
+        "experimental": {
+          "gid": "2777023629646220479",
+          "size": "3462670967",
+          "download": "1300174704"
+        }
+      }
+    },
+    "2369852": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "248846149989014727",
+          "size": "3377209458",
+          "download": "1322500016"
+        },
+        "closed_beta": {
+          "gid": "248846149989014727",
+          "size": "3377209458",
+          "download": "1322500016"
+        },
+        "experimental": {
+          "gid": "8242980400443277740",
+          "size": "3375560488",
+          "download": "1320003920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20521430",
+        "timeupdated": "1761268043"
+      },
+      "closed_beta": {
+        "buildid": "20521430",
+        "description": "Branch for closed betas",
+        "timeupdated": "1761267304"
+      },
+      "experimental": {
+        "buildid": "20396046",
+        "description": "Branch for experimental features",
+        "timeupdated": "1760499154"
+      }
     }
   }
 }
