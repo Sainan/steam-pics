@@ -1,6 +1,5 @@
 {
   "appid": "3757820",
-  "public_only": "1",
   "common": {
     "name": "9 Souls",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -161,9 +160,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761314461",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3757820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -184,5 +184,40 @@
       "13": "9204",
       "14": "5608"
     }
+  },
+  "extended": {
+    "developer": "Sandstorm in a Bottle",
+    "publisher": "DreamStudios",
+    "homepage": "https://dream-studios.net/games/9Souls"
+  },
+  "config": {
+    "installdir": "9 Souls",
+    "launch": {
+      "0": {
+        "executable": "9Souls.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3757821": {
+      "manifests": {
+        "public": {
+          "gid": "7232824379732982079",
+          "size": "7095593386",
+          "download": "4400762912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20519649",
+        "timeupdated": "1761256526"
+      }
+    },
+    "privatebranches": "1"
   }
 }
