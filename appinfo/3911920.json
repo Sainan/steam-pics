@@ -1,6 +1,5 @@
 {
   "appid": "3911920",
-  "public_only": "1",
   "common": {
     "name": "无限升级的战士传说",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "6089dd24e11d34bf26b3763f99c4648b94ad24fb",
     "clienticon": "6089dd24e11d34bf26b3763f99c4648b94ad24fb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -109,6 +108,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760990603",
     "community_hub_visible": "1",
     "gameid": "3911920",
     "exfgls": "3",
@@ -121,6 +121,58 @@
       "5": "113",
       "6": "492",
       "7": "597"
+    }
+  },
+  "extended": {
+    "developer": "JellyStudio",
+    "publisher": "JellyStudio",
+    "isfreeapp": "1",
+    "listofdlc": "4014110",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "无限升级的战士传说",
+    "launch": {
+      "0": {
+        "executable": "wxsjdzscs/game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3911921": {
+      "manifests": {
+        "public": {
+          "gid": "5619907867531517342",
+          "size": "401786740",
+          "download": "194334480"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20469842",
+        "timeupdated": "1760994363"
+      }
     }
   }
 }
