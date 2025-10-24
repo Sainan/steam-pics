@@ -1,10 +1,9 @@
 {
   "appid": "3419690",
-  "public_only": "1",
   "common": {
     "name": "Chicken Run: Eggstraction",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -269,9 +268,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761292807",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3419690",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -290,6 +290,70 @@
       "14": "3841",
       "15": "1664",
       "16": "97376"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,development,shipping",
+    "developer": "Aardman Animations Limited",
+    "publisher": "Outright Games Ltd.",
+    "homepage": "https://outrightgames.com/games/"
+  },
+  "config": {
+    "installdir": "Wildcat",
+    "launch": {
+      "0": {
+        "executable": "CR2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3419691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3098885182857958825",
+          "size": "2300588751",
+          "download": "1769230896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20419198",
+        "timeupdated": "1761217572"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "CR2/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
