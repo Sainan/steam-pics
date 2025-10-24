@@ -12,7 +12,8 @@
     "oslist": "windows,macos,linux",
     "clienticns": "a8c0de507be615db14eff467d5db46e36e34a083",
     "linuxclienticon": "9a6db27e6fd54c2859af397797c4cf02fa79631d",
-    "osarch": "",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
@@ -76,6 +77,7 @@
     "library_assets": {
       "library_capsule": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
         "pinned_position": "UpperCenter",
@@ -94,7 +96,15 @@
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "f14578c8c2a87773ef5e5a97718da311da305c60/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "f14578c8c2a87773ef5e5a97718da311da305c60/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "f14578c8c2a87773ef5e5a97718da311da305c60/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -111,7 +121,7 @@
         }
       }
     },
-    "store_asset_mtime": "1643566520",
+    "store_asset_mtime": "1760749465",
     "associations": {
       "0": {
         "type": "developer",
@@ -119,7 +129,7 @@
       },
       "1": {
         "type": "developer",
-        "name": "Badru"
+        "name": "Kevin Maxon"
       },
       "2": {
         "type": "developer",
@@ -137,9 +147,9 @@
     "primary_genre": "4",
     "genres": {
       "0": "4",
-      "1": "37",
-      "2": "23",
-      "3": "28"
+      "1": "23",
+      "2": "28",
+      "3": "37"
     },
     "category": {
       "category_2": "1",
@@ -233,6 +243,11 @@
       },
       "manifests": {
         "public": {
+          "gid": "1856594438354392973",
+          "size": "205870242",
+          "download": "102280624"
+        },
+        "old-version": {
           "gid": "1495518089262172078",
           "size": "179774505",
           "download": "85697168"
@@ -246,6 +261,11 @@
       },
       "manifests": {
         "public": {
+          "gid": "487078221023293129",
+          "size": "230312175",
+          "download": "111495856"
+        },
+        "old-version": {
           "gid": "2620475860660837608",
           "size": "190618722",
           "download": "88759664"
@@ -259,6 +279,11 @@
       },
       "manifests": {
         "public": {
+          "gid": "1647629743934437334",
+          "size": "209216629",
+          "download": "102861840"
+        },
+        "old-version": {
           "gid": "1023335923866540698",
           "size": "229871345",
           "download": "103101376"
@@ -272,13 +297,23 @@
           "gid": "6815084039308159902",
           "size": "371206067",
           "download": "260234992"
+        },
+        "old-version": {
+          "gid": "6815084039308159902",
+          "size": "371206067",
+          "download": "260234992"
         }
       }
     },
     "branches": {
       "public": {
+        "buildid": "20503309",
+        "timeupdated": "1761169888"
+      },
+      "old-version": {
         "buildid": "3142042",
-        "timeupdated": "1537567379"
+        "description": "Older versions of Viridi",
+        "timeupdated": "1761324399"
       }
     },
     "privatebranches": "1"
