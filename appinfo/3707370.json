@@ -27,6 +27,47 @@
       "0": "1",
       "1": "5"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760486400",
+      "tested_build_id": "19853109",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8576e2948d2df42a07a072fc4c251b7543146880/capsule_231x87.jpg",
@@ -109,23 +150,15 @@
         }
       }
     },
-    "store_asset_mtime": "1756956514",
+    "store_asset_mtime": "1761288686",
     "associations": {
       "0": {
         "type": "developer",
         "name": "WWWave Corporation"
       },
       "1": {
-        "type": "developer",
-        "name": "https://lovestartsagain.jp/"
-      },
-      "2": {
         "type": "publisher",
         "name": "WWWave Corporation"
-      },
-      "3": {
-        "type": "publisher",
-        "name": "https://lovestartsagain.jp/"
       }
     },
     "primary_genre": "25",
@@ -226,17 +259,17 @@
       },
       "manifests": {
         "public": {
-          "gid": "5938853043101569320",
-          "size": "23793561752",
-          "download": "22996356768"
+          "gid": "3854403424793159364",
+          "size": "23793689211",
+          "download": "22996427344"
         }
       }
     },
     "baselanguages": "english,schinese,tchinese,japanese,vietnamese",
     "branches": {
       "public": {
-        "buildid": "20379049",
-        "timeupdated": "1760410263"
+        "buildid": "20491443",
+        "timeupdated": "1761113870"
       }
     }
   },
