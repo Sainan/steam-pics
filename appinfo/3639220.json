@@ -1,10 +1,9 @@
 {
   "appid": "3639220",
-  "public_only": "1",
   "common": {
     "name": "Escape: Mall",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "27c3314f8db55ce5d813b5a3552c50893ec07f0b",
     "oslist": "windows",
     "osarch": "",
@@ -144,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761289266",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3639220",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "492",
@@ -168,6 +168,67 @@
       "17": "4342",
       "18": "5186",
       "19": "6971"
+    }
+  },
+  "extended": {
+    "developer": "Vincent Chandra",
+    "publisher": "Vincent Chandra"
+  },
+  "config": {
+    "installdir": "EscapeMall",
+    "launch": {
+      "0": {
+        "executable": "Escape Mall.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3639221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8597645926005908224",
+          "size": "3007802988",
+          "download": "2896300096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20508622",
+        "timeupdated": "1761203845"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "ProjectExitMall/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
