@@ -1,6 +1,5 @@
 {
   "appid": "3256780",
-  "public_only": "1",
   "common": {
     "name": "Ghost Hunter Simulator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "466ddabced17daa769c1ce4c3c6ea0fc72106201",
     "clienttga": "537d48169b6c5bd3aab416d11552ebefef748734",
     "clienticon": "f7e571f910c8adb0712c0645d144f82a9af1866d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,9 +110,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3256780",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,6 +137,76 @@
       "17": "5613",
       "18": "12472",
       "19": "5716"
+    }
+  },
+  "extended": {
+    "developer": "Prime8 Entertainment",
+    "publisher": "Prime8 Entertainment",
+    "homepage": "https://ghosthuntersimulator.com/"
+  },
+  "config": {
+    "installdir": "Ghost Hunter Simulator",
+    "launch": {
+      "0": {
+        "executable": "GhostHunter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Ghost Hunter Simulator"
+        },
+        "description": "Launch Ghost Hunter Simulator"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3256781": {
+      "manifests": {
+        "public": {
+          "gid": "4227847204953562956",
+          "size": "29218301435",
+          "download": "28764869760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20524864",
+        "timeupdated": "1761291293"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "64000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "\\GhostHunter\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
