@@ -1,6 +1,5 @@
 {
   "appid": "3919230",
-  "public_only": "1",
   "common": {
     "name": "Inferis: Dead Below",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2477d1ab16794f6e55fa0521a170f4a2a16b5748",
     "clienticon": "2adf80bb9fd3d9fbe5fc476f305d18f414804df5",
     "clienttga": "3ae16b0e05f5eea9d92bece0b16a4903fffa130b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -126,10 +125,6 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "brazilian": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "indonesian": {
         "supported": "true",
         "subtitles": "true"
@@ -139,10 +134,6 @@
         "subtitles": "true"
       },
       "koreana": {
-        "supported": "true",
-        "subtitles": "true"
-      },
-      "latam": {
         "supported": "true",
         "subtitles": "true"
       },
@@ -167,9 +158,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3919230",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -195,6 +186,53 @@
       "17": "4175",
       "18": "4342",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Hemoria Studio",
+    "publisher": "Hemoria Studio"
+  },
+  "config": {
+    "installdir": "Inferis Dead Below",
+    "launch": {
+      "0": {
+        "executable": "INFERIS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3919231": {
+      "manifests": {
+        "public": {
+          "gid": "7645622305854423082",
+          "size": "4679452130",
+          "download": "4392240224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20454778",
+        "timeupdated": "1760886474"
+      }
     }
   }
 }
