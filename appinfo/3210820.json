@@ -1,0 +1,201 @@
+{
+  "appid": "3210820",
+  "common": {
+    "name": "DRONE PERSPECTIVE Demo",
+    "type": "Demo",
+    "parent": "2730700",
+    "icon": "2e932fa8ee8af8ea4cf011a83c19e19e62876d2e",
+    "clienticon": "f4094e480a9b1a0e970c2054ee0c94abd05a0c3e",
+    "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "6f3550af475f7bbad0acbb3bae5407ddd8b1e5e0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "76.70658682634732",
+        "height_pct": "69.03374605486769"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "76.70658682634732",
+          "height_pct": "69.03374605486769"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1742986326",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Demetri Lind"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "VEIL"
+      }
+    },
+    "primary_genre": "2",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_18": "1",
+      "category_55": "1",
+      "category_17": "1",
+      "category_30": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1726301685",
+    "community_visible_stats": "1",
+    "workshop_visible": "1",
+    "gameid": "3210820",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Demetri Lind",
+    "publisher": "VEIL",
+    "homepage": "https://www.tiktok.com/@invaders.go.home"
+  },
+  "config": {
+    "installdir": "Drone Perspective Demo",
+    "launch": {
+      "0": {
+        "executable": "Drone.exe",
+        "arguments": "-ExecCmds=\"DOMaxCharacterLOD 2\"",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3210821": {
+      "manifests": {
+        "public": {
+          "gid": "7907226378724911954",
+          "size": "4501116508",
+          "download": "4257344400"
+        },
+        "forward_shading": {
+          "gid": "4325214697597957637",
+          "size": "4478594606",
+          "download": "4237275936"
+        },
+        "non_rtx": {
+          "gid": "3004258852349402193",
+          "size": "4481037886",
+          "download": "4239180848"
+        },
+        "test": {
+          "gid": "6991109534158233158",
+          "size": "4533789531",
+          "download": "4288258480"
+        }
+      }
+    },
+    "workshopdepot": "3210820",
+    "branches": {
+      "public": {
+        "buildid": "19445811",
+        "timeupdated": "1754060741"
+      },
+      "forward_shading": {
+        "buildid": "19445962",
+        "description": "Branch for low spec PCs. It is using faster rendering technology, but lacking some visual features.",
+        "timeupdated": "1754060713"
+      },
+      "non_rtx": {
+        "buildid": "19446136",
+        "description": "Build with RTX explicitly turned off. Will not be using rtx features, regardless your graphics card. Good for 2060s",
+        "timeupdated": "1754061258"
+      },
+      "test": {
+        "buildid": "20528910",
+        "description": "If you discovered this one, you can have it. This is my test branch, it might have latest updates, or might be broken.",
+        "timeupdated": "1761310592"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "3000"
+  }
+}
