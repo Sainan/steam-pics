@@ -1,10 +1,9 @@
 {
   "appid": "3638500",
-  "public_only": "1",
   "common": {
     "name": "Juiced Fruit Racing",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64",
@@ -80,11 +79,11 @@
     "associations": {
       "0": {
         "type": "developer",
-        "name": "Cascadia Games LLC"
+        "name": "Cascadia Games"
       },
       "1": {
         "type": "publisher",
-        "name": "Cascadia Games LLC"
+        "name": "Cascadia Games"
       }
     },
     "primary_genre": "9",
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761266321",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3638500",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "4102",
@@ -135,6 +135,82 @@
       "16": "7368",
       "17": "3859",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Cascadia Games",
+    "publisher": "Cascadia Games",
+    "homepage": "https://www.fruitracing.com"
+  },
+  "config": {
+    "installdir": "Juiced Fruit Racing",
+    "launch": {
+      "0": {
+        "executable": "Juiced Fruit Racing.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "JuicedFruitRacing.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "KartRacing.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3638501": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2742898410426573129",
+          "size": "3356396561",
+          "download": "1488149920"
+        }
+      }
+    },
+    "3638502": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3675771667482613390",
+          "size": "3408793680",
+          "download": "1473226304"
+        }
+      }
+    },
+    "3638503": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5757220434164988866",
+          "size": "3461214624",
+          "download": "1519255024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20483733",
+        "timeupdated": "1761064272"
+      }
     }
   }
 }
