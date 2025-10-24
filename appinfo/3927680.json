@@ -1,13 +1,12 @@
 {
   "appid": "3927680",
-  "public_only": "1",
   "common": {
     "name": "Steel Defence",
     "type": "Game",
     "icon": "0bcd1ea7c5a970e83138396933d5245f7301163c",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "87d6230f55097817fc5f82f5c12e16a0fa251445",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -127,9 +126,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760979792",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3927680",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "122",
@@ -151,6 +151,93 @@
       "17": "4295",
       "18": "3993",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Storytime Entertainments",
+    "publisher": "Storytime Entertainments"
+  },
+  "config": {
+    "installdir": "Steel Defence",
+    "launch": {
+      "0": {
+        "executable": "Steel Defence.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229033": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3927681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4645478772606074225",
+          "size": "1471890767",
+          "download": "1322870944"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20456430",
+        "timeupdated": "1760904798"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Steel_Defence",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
