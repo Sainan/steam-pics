@@ -1,12 +1,11 @@
 {
   "appid": "4027810",
-  "public_only": "1",
   "common": {
     "name": "Kitty Combat",
     "type": "Game",
     "clienticon": "02fd3658c149b81d9e21ab514797091109a42703",
     "icon": "02fd3658c149b81d9e21ab514797091109a42703",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -73,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760725258",
+    "store_asset_mtime": "1761078303",
     "associations": {
       "0": {
         "type": "developer",
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761328479",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4027810",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "42804",
@@ -130,6 +130,46 @@
       "17": "1654",
       "18": "1695",
       "19": "1662"
+    }
+  },
+  "extended": {
+    "developer": "Lucius Braunstein",
+    "publisher": "Stefano_Gaming"
+  },
+  "config": {
+    "installdir": "Kitty Combat",
+    "launch": {
+      "0": {
+        "executable": "Kitty Combat.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "The default launch for Windows"
+        },
+        "description": "The default launch for Windows"
+      }
+    }
+  },
+  "depots": {
+    "4027811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4711216509206435431",
+          "size": "280807251",
+          "download": "138773264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20440327",
+        "timeupdated": "1760726733"
+      }
     }
   }
 }
