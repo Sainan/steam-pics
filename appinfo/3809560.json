@@ -1,6 +1,5 @@
 {
   "appid": "3809560",
-  "public_only": "1",
   "common": {
     "name": "Evolvania Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "0283c8c32ea0c35089e57f25ceda5942a034ccac",
     "clienticon": "d04acf0c5c0429f253e590a3368010dead62d2c7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -120,11 +119,45 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321937",
     "gameid": "3809560",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "IV Productions",
+    "publisher": "IV Productions",
+    "homepage": "https://power-up-team.com/evolvania/"
+  },
+  "config": {
+    "installdir": "Evolvania Demo",
+    "launch": {
+      "0": {
+        "executable": "Evolvania.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3809561": {
+      "manifests": {
+        "public": {
+          "gid": "887915105672622698",
+          "size": "518497423",
+          "download": "230968624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20531319",
+        "timeupdated": "1761319731"
+      }
     }
   }
 }
