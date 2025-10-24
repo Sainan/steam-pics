@@ -1,6 +1,5 @@
 {
   "appid": "4069920",
-  "public_only": "1",
   "common": {
     "name": "Chornobyl Breakout",
     "type": "Game",
@@ -12,7 +11,7 @@
     },
     "clienticon": "9c6c8145d5e88c88f1f31a353357f6078f443b19",
     "icon": "9c6c8145d5e88c88f1f31a353357f6078f443b19",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -85,7 +84,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760262253",
+    "store_asset_mtime": "1761056864",
     "associations": {
       "0": {
         "type": "developer",
@@ -121,34 +120,141 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761304856",
     "community_hub_visible": "1",
     "gameid": "4069920",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
     },
     "store_tags": {
-      "0": "1663",
-      "1": "3835",
-      "2": "4166",
-      "3": "19",
-      "4": "1685",
-      "5": "21",
-      "6": "4175",
-      "7": "4342",
-      "8": "1662",
-      "9": "3978",
-      "10": "1774",
+      "0": "3835",
+      "1": "4175",
+      "2": "1662",
+      "3": "4166",
+      "4": "1663",
+      "5": "19",
+      "6": "5900",
+      "7": "1774",
+      "8": "4168",
+      "9": "21",
+      "10": "3978",
       "11": "5179",
-      "12": "4168",
+      "12": "4182",
       "13": "4508",
-      "14": "4182",
-      "15": "5900",
-      "16": "3859",
-      "17": "1023537",
-      "18": "3916",
-      "19": "4191"
+      "14": "4342",
+      "15": "3859",
+      "16": "1685",
+      "17": "4191",
+      "18": "4255",
+      "19": "3834"
+    }
+  },
+  "extended": {
+    "developer": "Dark Duck Games",
+    "publisher": "Dark Duck Games"
+  },
+  "config": {
+    "installdir": "Chornobyl Breakout",
+    "launch": {
+      "0": {
+        "executable": "ChornobylBreakout.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "ChornobylBreakout.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4069921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9083276544064611529",
+          "size": "4080643075",
+          "download": "2315328192"
+        }
+      }
+    },
+    "4069922": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "229357760196601391",
+          "size": "4091142495",
+          "download": "2321007824"
+        }
+      }
+    },
+    "4069923": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "420328562754020512",
+          "size": "4105862591",
+          "download": "2324315824"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20478754",
+        "timeupdated": "1761041822"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1024000",
+    "maxnumfiles": "100",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/ChornobylBreakout",
+        "pattern": "*.gg",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "DefaultCompany/ChornobylBreakout",
+            "replace": "unity.DefaultCompany.ChornobylBreakout"
+          }
+        }
+      }
     }
   }
 }
