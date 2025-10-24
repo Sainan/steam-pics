@@ -1,6 +1,5 @@
 {
   "appid": "3966130",
-  "public_only": "1",
   "common": {
     "name": "Shadow Mansion 2",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticon": "f3f6efd53b2e91fe3e9c05ba2c99afc575fcb26e",
     "clienticns": "f3f6efd53b2e91fe3e9c05ba2c99afc575fcb26e",
     "linuxclienticon": "f3f6efd53b2e91fe3e9c05ba2c99afc575fcb26e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -115,7 +114,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3966130",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "1663",
@@ -127,6 +125,53 @@
       "7": "1667",
       "8": "1721",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "NEBULA NOVA GAMES",
+    "publisher": "NEBULA NOVA GAMES"
+  },
+  "config": {
+    "installdir": "Shadow Mansion 2",
+    "launch": {
+      "0": {
+        "executable": "Shadow Mansion 2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3966131": {
+      "manifests": {
+        "public": {
+          "gid": "8518266247930179837",
+          "size": "9773007289",
+          "download": "9534900144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20533267",
+        "timeupdated": "1761329006"
+      }
     }
   }
 }
