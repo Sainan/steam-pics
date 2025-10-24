@@ -1,6 +1,5 @@
 {
   "appid": "3901810",
-  "public_only": "1",
   "common": {
     "name": "Bruma Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -56,5 +55,42 @@
     },
     "gameid": "3901810",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "4HA Games Studio SpA",
+    "publisher": "4HA Games Studio SpA"
+  },
+  "config": {
+    "installdir": "BrumaDemo",
+    "launch": {
+      "0": {
+        "executable": "BrumaDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "enjoy"
+        },
+        "description": "enjoy"
+      }
+    }
+  },
+  "depots": {
+    "3901811": {
+      "manifests": {
+        "public": {
+          "gid": "3704612325958128331",
+          "size": "21539309580",
+          "download": "3351137888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20530601",
+        "timeupdated": "1761316944"
+      }
+    }
   }
 }
