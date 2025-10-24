@@ -1,6 +1,5 @@
 {
   "appid": "3894590",
-  "public_only": "1",
   "common": {
     "name": "Detective Worden",
     "type": "Game",
@@ -13,7 +12,7 @@
       "koreana": "워들 탐정",
       "japanese": "言葉探偵"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -166,9 +165,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761139019",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3894590",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "597",
@@ -187,5 +187,64 @@
       "14": "6971",
       "15": "4182"
     }
+  },
+  "extended": {
+    "developer": "Domestic Black Cat",
+    "publisher": " Studio Amateur"
+  },
+  "config": {
+    "installdir": "Detective Worden",
+    "launch": {
+      "0": {
+        "executable": "DetectiveWorden.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "DetectiveWorden_Mac.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3894591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7461121455719647184",
+          "size": "763733844",
+          "download": "333071536"
+        }
+      }
+    },
+    "3894592": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4297182252471690963",
+          "size": "789719936",
+          "download": "342869264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20531336",
+        "timeupdated": "1761320033"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "10"
   }
 }
