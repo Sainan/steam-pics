@@ -1,6 +1,5 @@
 {
   "appid": "4043990",
-  "public_only": "1",
   "common": {
     "name": "The Mailroom Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6b0b087bed4c4e191beb29a84e922decf1f14c84/capsule_231x87.jpg"
@@ -147,7 +146,88 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761325237",
+    "community_visible_stats": "1",
     "gameid": "4043990",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Crowfriend",
+    "publisher": "Crowfriend",
+    "homepage": "https://crowfriend.com/themailroom"
+  },
+  "config": {
+    "installdir": "The Mailroom Demo",
+    "launch": {
+      "0": {
+        "executable": "mailroom.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mailroom.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "mailroom.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4043991": {},
+    "4043992": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6479440934157173020",
+          "size": "130982053",
+          "download": "58297216"
+        }
+      }
+    },
+    "4043993": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7208451668808605381",
+          "size": "152922900",
+          "download": "64004656"
+        }
+      }
+    },
+    "4043994": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1427483126099356719",
+          "size": "247538043",
+          "download": "89110896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20522387",
+        "timeupdated": "1761273335"
+      }
+    }
   }
 }
