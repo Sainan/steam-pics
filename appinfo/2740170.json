@@ -1,6 +1,5 @@
 {
   "appid": "2740170",
-  "public_only": "1",
   "common": {
     "name": "Horse Racing Manager",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -102,9 +101,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761289225",
     "community_hub_visible": "1",
     "gameid": "2740170",
-    "exfgls": "8",
     "store_tags": {
       "0": "6041",
       "1": "599",
@@ -127,5 +126,86 @@
       "18": "8945",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Sheep Meadow Road Games",
+    "publisher": "Sheep Meadow Road Games",
+    "homepage": "https://sheepmeadowroad.games/"
+  },
+  "config": {
+    "installdir": "Horse Racing Manager",
+    "launch": {
+      "0": {
+        "executable": "windows.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Horse Racing Manager Alpha (Vulkan)"
+        },
+        "description": "Horse Racing Manager Alpha (Vulkan)"
+      },
+      "1": {
+        "executable": "mac_os.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Horse Racing Manager Alpha (MacOS)"
+        },
+        "description": "Horse Racing Manager Alpha (MacOS)"
+      },
+      "2": {
+        "executable": "windows.exe",
+        "arguments": "--rendering-driver opengl3",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Horse Racing Manager Alpha (OpenGL)"
+        },
+        "description": "Horse Racing Manager Alpha (OpenGL)"
+      }
+    }
+  },
+  "depots": {
+    "2740171": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5917695929089960958",
+          "size": "909420961",
+          "download": "640978704"
+        }
+      }
+    },
+    "2740172": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5986020253756863802",
+          "size": "1010072437",
+          "download": "669010384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20519529",
+        "timeupdated": "1761255720"
+      }
+    },
+    "privatebranches": "1"
   }
 }
