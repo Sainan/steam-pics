@@ -1,6 +1,5 @@
 {
   "appid": "3040910",
-  "public_only": "1",
   "common": {
     "name": "Hot Wheels Let's Race: Ultimate Speed",
     "type": "Game",
@@ -18,7 +17,52 @@
     },
     "clienticon": "d97598649276630c9abb22d7d0e93847ebc9880d",
     "clienttga": "80e3d342350453a6f0c93016de5a98a0bbb4fda5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1759190400",
+      "tested_build_id": "20093475",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -140,9 +184,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3040910",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "4191",
@@ -155,6 +200,80 @@
       "8": "4182",
       "9": "4840",
       "10": "7368"
+    }
+  },
+  "extended": {
+    "developer": "Bamtang Games",
+    "publisher": "GameMill Entertainment",
+    "homepage": "https://www.gamemill.com",
+    "listofdlc": "3574880",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Hot Wheels Let's Race Ultimate Speed",
+    "launch": {
+      "0": {
+        "executable": "Hwr\\Binaries\\Win64\\Hwr-Win64-ShippingDRM.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3040911": {
+      "manifests": {
+        "public": {
+          "gid": "1618069488071374823",
+          "size": "3175366216",
+          "download": "2932675568"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,dutch",
+    "branches": {
+      "public": {
+        "buildid": "20093475",
+        "timeupdated": "1759245064"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "4",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Hwr\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
