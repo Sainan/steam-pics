@@ -1,10 +1,9 @@
 {
   "appid": "3371110",
-  "public_only": "1",
   "common": {
     "name": "究极少女 阿尔特斯",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -149,9 +148,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761274742",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3371110",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -178,5 +178,65 @@
       "18": "4182",
       "19": "5611"
     }
+  },
+  "extended": {
+    "developer": "FutureInvention",
+    "publisher": "FutureInvention",
+    "listofdlc": "4071830",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "UltraGirl Alters",
+    "launch": {
+      "0": {
+        "executable": "Alters/Alters.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3536488539": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "3371111": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1843187535106120062",
+          "size": "5866065313",
+          "download": "5048966208"
+        }
+      }
+    },
+    "4071830": {
+      "dlcappid": "4071830"
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20515425",
+        "timeupdated": "1761235504"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000"
   }
 }
