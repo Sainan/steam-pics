@@ -1,6 +1,5 @@
 {
   "appid": "3948350",
-  "public_only": "1",
   "common": {
     "name": "Wolftown",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "92aba58499689c191384116e7c2816918759a950",
     "clienttga": "3d180798afd4d2a3c163e60500ad4d839de9d663",
     "linuxclienticon": "123a00f2da4edc02e29987e29575a69dec3af16f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f4a35f732481a4197f2e49b2f5e5b276da09f6aa/capsule_231x87.jpg"
@@ -108,9 +107,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3948350",
-    "exfgls": "8",
     "store_tags": {
       "0": "745697",
       "1": "597",
@@ -132,6 +131,64 @@
       "17": "26921",
       "18": "4195",
       "19": "4604"
+    }
+  },
+  "extended": {
+    "developer": "Portponky",
+    "publisher": "Shambles Software",
+    "homepage": "https://www.shamblessoftware.co.uk"
+  },
+  "config": {
+    "installdir": "Wolftown",
+    "launch": {
+      "0": {
+        "executable": "Wolftown.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Wolftown.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3948351": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8126279402245921727",
+          "size": "115431467",
+          "download": "60339664"
+        }
+      }
+    },
+    "3948352": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8376985126040276906",
+          "size": "118663008",
+          "download": "62478384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20521323",
+        "timeupdated": "1761266536"
+      }
     }
   }
 }
