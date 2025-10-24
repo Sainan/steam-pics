@@ -1,6 +1,5 @@
 {
   "appid": "3776590",
-  "public_only": "1",
   "common": {
     "name": "推手: Sokoban (Tui Shou: Sokoban)",
     "type": "Game",
@@ -16,7 +15,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -124,9 +123,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761306744",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3776590",
-    "exfgls": "8",
     "store_tags": {
       "0": "1730",
       "1": "1664",
@@ -139,6 +139,53 @@
       "8": "6129",
       "9": "4182",
       "10": "492"
+    }
+  },
+  "extended": {
+    "developer": "鲁搬三试",
+    "publisher": "鲁搬三试"
+  },
+  "config": {
+    "installdir": "Tui shou Sokoban",
+    "launch": {
+      "0": {
+        "executable": "Tui Shou Sokoban.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3776591": {
+      "manifests": {
+        "public": {
+          "gid": "7638303743320515624",
+          "size": "138990400",
+          "download": "68911936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20523410",
+        "timeupdated": "1761280298"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Tui Shou Sokoban/savedata",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
