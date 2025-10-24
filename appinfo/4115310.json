@@ -1,6 +1,5 @@
 {
   "appid": "4115310",
-  "public_only": "1",
   "common": {
     "name": "Slime Tales Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "597edf7df5d641d5e3b284c1c9f9c2ef8de1259c/capsule_231x87.jpg"
@@ -95,7 +94,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4115310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BK202",
+    "publisher": "BK202"
+  },
+  "config": {
+    "installdir": "Slime Tales Demo",
+    "launch": {
+      "0": {
+        "executable": "SlimeTales.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "SlimeTales.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4115311": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "879697658861833854",
+          "size": "6211906250",
+          "download": "350936576"
+        }
+      }
+    },
+    "4115312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7851638418154856321",
+          "size": "6278274885",
+          "download": "402751216"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20444710",
+        "timeupdated": "1760758443"
+      }
+    }
   }
 }
