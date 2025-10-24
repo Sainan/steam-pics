@@ -302,20 +302,34 @@
       "0": {
         "root": "WinAppDataRoaming",
         "path": "Upload Labs",
-        "pattern": "*.dat",
+        "pattern": "savegame.dat",
         "platforms": {
           "1": "Windows"
-        },
-        "recursive": "1"
+        }
       },
       "1": {
         "root": "LinuxXdgDataHome",
         "path": "Upload Labs",
+        "pattern": "savegame.dat",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "Upload Labs/schematics",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "LinuxXdgDataHome",
+        "path": "Upload Labs/schematics",
         "pattern": "*.dat",
         "platforms": {
           "1": "Linux"
-        },
-        "recursive": "1"
+        }
       }
     },
     "rootoverrides": {
