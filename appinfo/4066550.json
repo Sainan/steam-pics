@@ -1,6 +1,5 @@
 {
   "appid": "4066550",
-  "public_only": "1",
   "common": {
     "name": "Yorvik's Game",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "48b13276d78bbab2a984942e585f4f6bb937955e",
     "icon": "48b13276d78bbab2a984942e585f4f6bb937955e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -103,9 +102,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761310874",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4066550",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -129,6 +129,39 @@
       "16": "3839",
       "17": "8369",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Firewake///Trails",
+    "publisher": "Firewake///Trails"
+  },
+  "config": {
+    "installdir": "Yorvik's Game",
+    "launch": {
+      "0": {
+        "executable": "Yorvik's Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4066551": {
+      "manifests": {
+        "public": {
+          "gid": "5297877938467384122",
+          "size": "267951804",
+          "download": "100161456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20498858",
+        "timeupdated": "1761147744"
+      }
     }
   }
 }
