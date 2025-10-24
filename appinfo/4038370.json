@@ -1,6 +1,5 @@
 {
   "appid": "4038370",
-  "public_only": "1",
   "common": {
     "name": "Drugy",
     "type": "Game",
@@ -9,16 +8,16 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
     "controllertagwizard": "1",
     "small_capsule": {
-      "english": "148f9afc798e2b4e9205e2950db3ba8c98f752d7/capsule_231x87.jpg"
+      "english": "95452b5e0678c04318ef5158051a8988823dd4fa/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "9436e8ea699b8927692a289fa865f97ba781aca7/header.jpg"
+      "english": "edabee0c66d606f9810405adae28af07134cb8b9/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760527810",
+    "store_asset_mtime": "1761117557",
     "associations": {
       "0": {
         "type": "developer",
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761337015",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4038370",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -136,6 +136,60 @@
       "14": "5716",
       "15": "4182",
       "16": "12472"
+    }
+  },
+  "extended": {
+    "developer": "IFoxxI",
+    "publisher": "RFT"
+  },
+  "config": {
+    "installdir": "Drugy",
+    "launch": {
+      "0": {
+        "executable": "Drugy.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4038371": {
+      "manifests": {
+        "public": {
+          "gid": "1446503314368348777",
+          "size": "1222095664",
+          "download": "926914032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20195657",
+        "timeupdated": "1759263917"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "3000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
     }
   }
 }
