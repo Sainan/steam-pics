@@ -1,6 +1,5 @@
 {
   "appid": "2134980",
-  "public_only": "1",
   "common": {
     "name": "Soul Dier - Part 1",
     "type": "Game",
@@ -10,7 +9,7 @@
     "name_localized": {
       "tchinese": "凋靈戰士 Soul Dier - Part 1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "tchinese": "1"
@@ -127,9 +126,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761314305",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2134980",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "21725",
@@ -151,6 +151,72 @@
       "17": "7569",
       "18": "4182",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Gawehold",
+    "publisher": "Ponpoppocpok Software",
+    "homepage": "https://www.soul-dier.com/"
+  },
+  "config": {
+    "installdir": "Soul Dier",
+    "launch": {
+      "0": {
+        "executable": "Soul-Dier.exe"
+      }
+    }
+  },
+  "depots": {
+    "2134981": {
+      "manifests": {
+        "public": {
+          "gid": "1546349725746782232",
+          "size": "4880485797",
+          "download": "2380404016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20513820",
+        "timeupdated": "1761310687"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Soul Dier/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Soul Dier/{64BitSteamID}",
+            "replace": ".local/share/Soul Dier/{64BitSteamID}"
+          }
+        }
+      }
     }
   }
 }
