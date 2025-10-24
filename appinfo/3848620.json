@@ -1,6 +1,5 @@
 {
   "appid": "3848620",
-  "public_only": "1",
   "common": {
     "name": "渣男游戏",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "6515cd8210096b44f2f2c42374cfe88b31827603",
     "clienttga": "b8fbdebe4393d918d57483230d83b7f96b979804",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -130,7 +129,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3848620",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -150,6 +148,45 @@
       "11": "5984",
       "12": "4191",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SinoYAO",
+    "publisher": "SinoYAO"
+  },
+  "config": {
+    "installdir": "zhanan",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3848621": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1690776962598000421",
+          "size": "6316344050",
+          "download": "5957829888"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "19902298",
+        "timeupdated": "1757364548"
+      }
     }
   }
 }
