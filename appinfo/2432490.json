@@ -1,10 +1,9 @@
 {
   "appid": "2432490",
-  "public_only": "1",
   "common": {
     "name": "Broke Signal Badlands: A World of Desert Adventure",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "f59bae98816b45ba3db988e7c1f4f2340e2e5459",
     "clienticon": "7604be7143e9f655dcf1a020503e07a934c4793b",
     "clienttga": "f665867a6e8a81163aeb9c908a70417054269d74",
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761306419",
     "community_hub_visible": "1",
     "gameid": "2432490",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4166",
@@ -128,6 +127,84 @@
       "17": "3959",
       "18": "1667",
       "19": "1647"
+    }
+  },
+  "extended": {
+    "developer": "Forward Instinct",
+    "publisher": "Forward Instinct",
+    "homepage": "https://forwardinstinct.com/"
+  },
+  "config": {
+    "installdir": "BrokeSignalBadlands",
+    "launch": {
+      "0": {
+        "executable": "Broke Signal Badlands.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Broke Signal Badlands.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "BSB_Game_Mac_Final.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2432491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2161743495350812744",
+          "size": "1042764916",
+          "download": "370775392"
+        }
+      }
+    },
+    "2432492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5172287993765018366",
+          "size": "1064902646",
+          "download": "378846816"
+        }
+      }
+    },
+    "2432493": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4994078273046535928",
+          "size": "1044868670",
+          "download": "370359040"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20157775",
+        "timeupdated": "1759012673"
+      }
     }
   }
 }
