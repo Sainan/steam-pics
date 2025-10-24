@@ -1,10 +1,9 @@
 {
   "appid": "1857950",
-  "public_only": "1",
   "common": {
     "name": "VEIN",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -187,9 +186,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761318053",
     "community_hub_visible": "1",
     "gameid": "1857950",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -215,6 +214,115 @@
       "17": "4747",
       "18": "3839",
       "19": "3859"
+    }
+  },
+  "extended": {
+    "gamedir": "Vein",
+    "serverbrowsername": "VEIN",
+    "developer": "Ramjet Studios",
+    "publisher": "Ramjet Studios",
+    "homepage": "https://vein.gg"
+  },
+  "config": {
+    "installdir": "Vein",
+    "launch": {
+      "0": {
+        "executable": "Vein.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "VEIN"
+        },
+        "description": "VEIN"
+      },
+      "1": {
+        "executable": "Vein.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "VEIN"
+        },
+        "description": "VEIN"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1857951": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "585167941376512823",
+          "size": "56111218990",
+          "download": "22300291664"
+        },
+        "experimental": {
+          "gid": "7256238163129612443",
+          "size": "56756953734",
+          "download": "22499355792"
+        }
+      }
+    },
+    "1857952": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8752976509041287568",
+          "size": "62893236357",
+          "download": "23219565136"
+        },
+        "experimental": {
+          "gid": "2625289345647885478",
+          "size": "63583600188",
+          "download": "24505910544"
+        }
+      }
+    },
+    "workshopdepot": "1857950",
+    "branches": {
+      "public": {
+        "buildid": "20526620",
+        "timeupdated": "1761301461"
+      },
+      "experimental": {
+        "buildid": "20528329",
+        "description": "Bleeding-edge updates",
+        "timeupdated": "1761306721"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Vein/Saved/SaveGames",
+        "pattern": "*.vns"
+      }
     }
   }
 }
