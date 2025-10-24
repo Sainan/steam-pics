@@ -169,11 +169,14 @@
     "isfreeapp": "1"
   },
   "config": {
-    "installdir": "Null Gravity Labyrinth",
+    "installdir": "NGL",
     "launch": {
       "0": {
         "executable": "Null Gravity Labyrinth.exe",
         "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
         "description_loc": {
           "english": "Launch game"
         },
@@ -189,6 +192,13 @@
           "english": "Lauch game"
         },
         "description": "Lauch game"
+      },
+      "2": {
+        "executable": "ngl Mac.app/Contents/MacOS/Null Gravity Labyrinth",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -245,8 +255,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20535417",
-        "timeupdated": "1761341328"
+        "buildid": "20535649",
+        "timeupdated": "1761342642"
       }
     }
   },
