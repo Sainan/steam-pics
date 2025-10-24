@@ -1,13 +1,12 @@
 {
   "appid": "2414850",
-  "public_only": "1",
   "common": {
     "name": "Umbra: Veins of Vengeance",
     "type": "Game",
     "clienttga": "bf5f8c87629524366b6c2e5fa834b94f57061a0a",
     "clienticon": "7cdaa7c918efd83842d974d0b3f9415730b0f967",
     "icon": "9c8cb3e5a351d3b93551e613f3fbaefdf0d9eff3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -115,9 +114,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2414850",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -144,6 +143,49 @@
       "17": "1664",
       "18": "4175",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Leslie Phillips",
+    "publisher": "Leslie Phillips"
+  },
+  "config": {
+    "installdir": "UmbraVeinsOfVengeance",
+    "launch": {
+      "0": {
+        "executable": "VeinsOfVengeance.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2414851": {
+      "manifests": {
+        "public": {
+          "gid": "7294426897917373242",
+          "size": "8046258404",
+          "download": "3859929648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20524745",
+        "timeupdated": "1761289749"
+      }
     }
   }
 }
