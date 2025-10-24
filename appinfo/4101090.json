@@ -1,6 +1,5 @@
 {
   "appid": "4101090",
-  "public_only": "1",
   "common": {
     "name": "Wildwood: Graveyard Defense Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -42,5 +41,42 @@
     },
     "gameid": "4101090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Alan Vitek",
+    "publisher": "Alan Vitek"
+  },
+  "config": {
+    "installdir": "Wildwood Demo",
+    "launch": {
+      "0": {
+        "executable": "Wildwood.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4101091": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "898986038449858027",
+          "size": "236822011",
+          "download": "86541552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20527590",
+        "timeupdated": "1761303385"
+      }
+    }
   }
 }
