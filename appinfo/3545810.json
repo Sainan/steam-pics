@@ -1,6 +1,5 @@
 {
   "appid": "3545810",
-  "public_only": "1",
   "common": {
     "name": "伽蓝战歌",
     "type": "Game",
@@ -26,7 +25,7 @@
       "schinese": "伽蓝战歌",
       "brazilian": "Canção de Batalha de Galan"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -190,9 +189,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761005233",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3545810",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "492",
@@ -214,6 +214,111 @@
       "17": "3993",
       "18": "4434",
       "19": "3959"
+    }
+  },
+  "extended": {
+    "developer": "winwill工作室",
+    "publisher": "winwill工作室"
+  },
+  "config": {
+    "installdir": "GalanWarSong",
+    "launch": {
+      "0": {
+        "executable": "GalanWarSong.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "GalanWarSong",
+          "schinese": "伽蓝战歌",
+          "tchinese": "伽藍戰歌",
+          "japanese": "ガラン戦闘歌"
+        },
+        "description": "GalanWarSong"
+      },
+      "1": {
+        "executable": "GalanWarSong.app",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "GalanWarSong"
+        },
+        "description": "GalanWarSong"
+      }
+    }
+  },
+  "depots": {
+    "3545811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "537898934341072272",
+          "size": "225116494",
+          "download": "152191040"
+        }
+      }
+    },
+    "3545812": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2624031280350868861",
+          "size": "284868866",
+          "download": "173213568"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20526117",
+        "timeupdated": "1761297075"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Winwill Studio/Galan War Song/Chace",
+        "pattern": "*.data",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Winwill Studio/Galan War Song/Chace",
+            "replace": "unity.Winwill Studio.Galan War Song/Chace"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Winwill Studio/Galan War Song/Chace",
+            "replace": ".config/unity3d/Winwill Studio/Galan War Song/Chace"
+          }
+        }
+      }
     }
   }
 }
