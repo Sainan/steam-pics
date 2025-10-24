@@ -1,10 +1,9 @@
 {
   "appid": "3438840",
-  "public_only": "1",
   "common": {
     "name": "Kill Ralph",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -118,9 +117,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761088903",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3438840",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -146,6 +146,47 @@
       "17": "4947",
       "18": "6971",
       "19": "5094"
+    }
+  },
+  "extended": {
+    "developer": "Andrii Tuzenko",
+    "publisher": "Andrii Tuzenko"
+  },
+  "config": {
+    "installdir": "Kill Ralph",
+    "launch": {
+      "1": {
+        "executable": "KillRalph-pc\\KillRalph.exe"
+      }
+    }
+  },
+  "depots": {
+    "3438841": {
+      "manifests": {
+        "public": {
+          "gid": "4451638101311878709",
+          "size": "2228812294",
+          "download": "2102336896"
+        },
+        "killralphtest": {
+          "gid": "1520544203922002016",
+          "size": "2228813649",
+          "download": "2102344256"
+        }
+      }
+    },
+    "baselanguages": "english,ukrainian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20505698",
+        "timeupdated": "1761185729"
+      },
+      "killralphtest": {
+        "buildid": "20520914",
+        "description": "Beta Test",
+        "timeupdated": "1761265824"
+      }
     }
   }
 }
