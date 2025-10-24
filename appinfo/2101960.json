@@ -3,9 +3,9 @@
   "common": {
     "name": "Cronos: The New Dawn",
     "type": "Game",
-    "oslist": "windows,linux",
+    "oslist": "windows,macos,linux",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macosapplesilicon",
     "clienticon": "d2e2fa5fa2b3198c5401c2d6ab6728976cb0ee91",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "icon": "d832ad543e3335f6b75acadedcb0dae460770da4",
@@ -821,6 +821,17 @@
           "english": "Dev Builds"
         },
         "description": "Dev Builds"
+      },
+      "39": {
+        "executable": "Cronos.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
       }
     }
   },
