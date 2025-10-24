@@ -1,12 +1,11 @@
 {
   "appid": "4004810",
-  "public_only": "1",
   "common": {
     "name": "There's No Differences: Monsters",
     "type": "Game",
     "icon": "53d0e1abced019cd1dc62afa486eae6e377d02b5",
     "clienticon": "53d0e1abced019cd1dc62afa486eae6e377d02b5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosnotarized",
@@ -103,9 +102,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761337746",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4004810",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1698",
@@ -117,6 +117,81 @@
       "7": "492",
       "8": "1659",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Error 300",
+    "publisher": "Error 300",
+    "homepage": "https://error300.com/"
+  },
+  "config": {
+    "installdir": "There's No Differences Monsters",
+    "launch": {
+      "0": {
+        "executable": "There's No Differences Monsters.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "There's No Differences Monsters.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "There's No Differences Monsters.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4004811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6423359104229720761",
+          "size": "500943767",
+          "download": "115226080"
+        }
+      }
+    },
+    "4004812": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9059535293152121857",
+          "size": "580993250",
+          "download": "131253232"
+        }
+      }
+    },
+    "4004813": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3792125788061455423",
+          "size": "521742748",
+          "download": "115931312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20530119",
+        "timeupdated": "1761314635"
+      }
     }
   }
 }
