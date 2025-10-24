@@ -1,13 +1,12 @@
 {
   "appid": "3401530",
-  "public_only": "1",
   "common": {
     "name": "Seed Adventure",
     "type": "Game",
     "icon": "7318858fa629189db5fdb2670ab33f3ba5186aab",
     "clienticon": "7318858fa629189db5fdb2670ab33f3ba5186aab",
     "clienttga": "085995ceff8e031ba14f5a8553da350a48e361e4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -185,9 +184,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761153143",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3401530",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "4026",
@@ -209,6 +209,54 @@
       "17": "4252",
       "18": "1697",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "Ebuyubi Games",
+    "publisher": "Ebuyubi Games"
+  },
+  "config": {
+    "installdir": "Seed Adventure",
+    "launch": {
+      "0": {
+        "executable": "SeedAdventure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3401531": {
+      "manifests": {
+        "public": {
+          "gid": "1810283043102092716",
+          "size": "910984636",
+          "download": "628013232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20521153",
+        "timeupdated": "1761265811"
+      }
     }
   }
 }
