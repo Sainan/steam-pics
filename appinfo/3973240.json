@@ -1,6 +1,5 @@
 {
   "appid": "3973240",
-  "public_only": "1",
   "common": {
     "name": "Hope Company Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "e8c81a98fdb332a70018c9902f4966bf7e07c6d0",
     "clienticns": "f9604ff6776cc9f4c1a41d8475229f45af8b940c",
     "linuxclienticon": "f9604ff6776cc9f4c1a41d8475229f45af8b940c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -116,7 +115,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761300589",
+    "community_visible_stats": "1",
     "gameid": "3973240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Samuel Parker",
+    "publisher": "Samuel Parker"
+  },
+  "config": {
+    "installdir": "Hope Company Demo",
+    "launch": {
+      "0": {
+        "executable": "Hope Company.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3973241": {
+      "manifests": {
+        "public": {
+          "gid": "8012290171158085686",
+          "size": "285029132",
+          "download": "101807552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20513497",
+        "timeupdated": "1761227159"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\PowerTrip\\Hope Company\\SaveGames\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
