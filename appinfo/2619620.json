@@ -1,6 +1,5 @@
 {
   "appid": "2619620",
-  "public_only": "1",
   "common": {
     "name": "Cyber Fish King",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "0a2d2cbbb2b35d0cef0766a89306070277392304",
     "clienttga": "6f07b32c714f6cf69a335bab1cb80887d3803566",
     "icon": "0a2d2cbbb2b35d0cef0766a89306070277392304",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -153,9 +152,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761289929",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2619620",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "615955",
@@ -175,6 +175,82 @@
       "15": "4175",
       "16": "255534",
       "17": "492"
+    }
+  },
+  "extended": {
+    "developer": "Cozy Live",
+    "publisher": "Cozy Live"
+  },
+  "config": {
+    "installdir": "Cyber Fish King",
+    "launch": {
+      "0": {
+        "executable": "CyberFishKing.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CyberFishKing.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2619621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4369417829136734072",
+          "size": "693763841",
+          "download": "269987200"
+        }
+      }
+    },
+    "2619622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3003642271827208644",
+          "size": "712557865",
+          "download": "279366528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20522342",
+        "timeupdated": "1761273135"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DefaultCompany/CyberFishKing",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
