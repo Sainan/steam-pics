@@ -1,6 +1,5 @@
 {
   "appid": "3183410",
-  "public_only": "1",
   "common": {
     "name": "The Bench",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -168,9 +167,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321348",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3183410",
-    "exfgls": "8",
     "store_tags": {
       "0": "1654",
       "1": "4136",
@@ -192,6 +192,107 @@
       "17": "916648",
       "18": "4191",
       "19": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Voxel Studios",
+    "publisher": "Noovola",
+    "homepage": "https://www.voxel.it/en"
+  },
+  "config": {
+    "installdir": "The Bench",
+    "launch": {
+      "0": {
+        "executable": "TheBench.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "steamcontrollerconfigdetails": {
+      "3587390058": {
+        "controller_type": "controller_xbox360",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3183411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2081902617688802910",
+          "size": "1298213401",
+          "download": "994971680"
+        }
+      }
+    },
+    "baselanguages": "english,italian",
+    "branches": {
+      "public": {
+        "buildid": "20525202",
+        "timeupdated": "1761292392"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "101",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheBench/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "TheBench/Saved/Photo",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
