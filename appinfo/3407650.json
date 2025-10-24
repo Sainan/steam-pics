@@ -1,0 +1,174 @@
+{
+  "appid": "3407650",
+  "common": {
+    "name": "Dart Racer Playtest",
+    "type": "Beta",
+    "parent": "2401910",
+    "icon": "1e24739577f7c2112da5bdcf693bc943adf82821",
+    "clienticon": "98ee28d417d51cad74f4f2ff8bb3625406cb9113",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "openxrsupport": "1",
+    "small_capsule": {
+      "english": "32cb5f78413907001a77fa6c0d8d054a2f6b0157/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "25.629290617848966",
+        "height_pct": "34.802432315794775"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "879875bb5b564a9b6cdb26c8cd8cfb7525f4f4e5/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "879875bb5b564a9b6cdb26c8cd8cfb7525f4f4e5/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "049514d2896c7904c08e507fe580e1dfba55840f/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "049514d2896c7904c08e507fe580e1dfba55840f/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "049514d2896c7904c08e507fe580e1dfba55840f/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "1bf506f2a40730c15d738e9b617440b7bdb5c610/logo.png"
+        },
+        "image2x": {
+          "english": "1bf506f2a40730c15d738e9b617440b7bdb5c610/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "25.629290617848966",
+          "height_pct": "34.802432315794775"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "df4ee7a99e72f9a9c0043ab30a416425df3e7820/library_header.jpg"
+        },
+        "image2x": {
+          "english": "df4ee7a99e72f9a9c0043ab30a416425df3e7820/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1734129026",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {
+      "category_53": "1"
+    },
+    "steam_release_date": "1743168052",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "3407650",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "DartRacerPlaytest",
+    "launch": {
+      "0": {
+        "executable": "DartRacerPlaytest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Flat mode"
+        },
+        "description": "Flat mode"
+      },
+      "1": {
+        "executable": "DartRacerPlaytest.exe",
+        "arguments": "-vr",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "VR Mode"
+        },
+        "description": "VR Mode"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3407651": {
+      "manifests": {
+        "public": {
+          "gid": "7589408118117582459",
+          "size": "1133611415",
+          "download": "947552576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20536434",
+        "timeupdated": "1761348030"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "VRDartRacer/Saved/SaveGames/playtest/",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ""
+      }
+    }
+  }
+}
