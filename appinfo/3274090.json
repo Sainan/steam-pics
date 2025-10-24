@@ -1,10 +1,9 @@
 {
   "appid": "3274090",
-  "public_only": "1",
   "common": {
     "name": "Unbound Eternity",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -130,9 +129,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761309093",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3274090",
-    "exfgls": "8",
     "store_tags": {
       "0": "3959",
       "1": "32322",
@@ -154,6 +154,103 @@
       "17": "4155",
       "18": "3964",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "Yunicorn Studio",
+    "publisher": "Yunicorn Studio",
+    "homepage": "https://www.yunicornstudio.com/unbound-eternity"
+  },
+  "config": {
+    "installdir": "UnboundEternity",
+    "launch": {
+      "0": {
+        "executable": "UnboundEternity.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "UnboundEternity.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3274091": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3398661323057723518",
+          "size": "273414533",
+          "download": "196055360"
+        }
+      }
+    },
+    "3274092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4964093352077639141",
+          "size": "355709152",
+          "download": "217259696"
+        }
+      }
+    },
+    "baselanguages": "english,french,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20141019",
+        "timeupdated": "1758884752"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50",
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Unbound Eternity"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Unbound Eternity"
+          }
+        }
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
