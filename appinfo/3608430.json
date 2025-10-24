@@ -1,6 +1,5 @@
 {
   "appid": "3608430",
-  "public_only": "1",
   "common": {
     "name": "Ultima Nex",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "f74a13219454a38662d26fc5f74c33521ce34e87",
     "clienticon": "f74a13219454a38662d26fc5f74c33521ce34e87",
     "clienttga": "661ea31d4677be68acb8b568a10412b0beebcfe9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -157,6 +156,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761321617",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3608430",
     "exfgls": "3",
@@ -181,6 +182,110 @@
       "17": "4295",
       "18": "4342",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "Arhi Games",
+    "publisher": "Arhi Games",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Ultima Nex",
+    "launch": {
+      "0": {
+        "executable": "SpaceGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Start game"
+        },
+        "description": "Start game"
+      },
+      "1": {
+        "executable": "SpaceGame.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Start game"
+        },
+        "description": "Start game"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3608431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2479973720414829967",
+          "size": "465368809",
+          "download": "340033872"
+        }
+      }
+    },
+    "3608432": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3500289408887106849",
+          "size": "448798067",
+          "download": "290505104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20531595",
+        "timeupdated": "1761320936"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SpaceGame/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "SpaceGame/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
