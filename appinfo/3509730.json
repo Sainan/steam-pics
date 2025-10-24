@@ -1,6 +1,5 @@
 {
   "appid": "3509730",
-  "public_only": "1",
   "common": {
     "name": "Jackie Hart: Headhunter",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "06b053f2930d94872324bf9ca173045ee625aa96",
     "clienticon": "3b76b1fd111f1b94f2f044c9c4466b26fd71c014",
     "clienttga": "4cac5112348fa05c39d8ebf3900eee7a5935cdad",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "b8bc938500bd26e1248803e78f69209f7a95bafe",
     "linuxclienticon": "d5f5cf78b430278cf9644e455fe09d667b7452e1",
     "content_descriptors": {
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761303600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3509730",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -139,6 +139,82 @@
       "17": "16094",
       "18": "5716",
       "19": "8369"
+    }
+  },
+  "extended": {
+    "developer": "Studio Hazy",
+    "publisher": "Studio Hazy",
+    "homepage": "https://www.studiohazy.com"
+  },
+  "config": {
+    "installdir": "Jackie Hart Headhunter",
+    "launch": {
+      "0": {
+        "executable": "Headhunter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Jackie Hart-Headhunter.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Jackie Hart-Headhunter.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3509731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8340553657579461090",
+          "size": "697060292",
+          "download": "188924528"
+        }
+      }
+    },
+    "3509732": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7457641057187567465",
+          "size": "720984222",
+          "download": "197992336"
+        }
+      }
+    },
+    "3509733": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2508386795492429972",
+          "size": "698890105",
+          "download": "188194256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20521916",
+        "timeupdated": "1761270238"
+      }
     }
   }
 }
