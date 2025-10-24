@@ -1,6 +1,5 @@
 {
   "appid": "3890550",
-  "public_only": "1",
   "common": {
     "name": "Jam's Adjustable Mirrors",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "34fa45ec6f9bc5d4f26505a6892e70a06ba80794",
     "clienttga": "a146b986be946d44604325dde9d7fd8a96b3fc6f",
     "clienticon": "34fa45ec6f9bc5d4f26505a6892e70a06ba80794",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,10 +113,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761319533",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3890550",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "597",
@@ -131,6 +131,92 @@
       "9": "3964",
       "10": "1721",
       "11": "4845"
+    }
+  },
+  "extended": {
+    "developer": "Lycoris Studio Ltd.",
+    "publisher": "Lycoris Studio Ltd."
+  },
+  "config": {
+    "installdir": "Jam's Adjustable Mirrors",
+    "launch": {
+      "0": {
+        "executable": "GameJam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "JAM.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "3890551": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "604190598273666407",
+          "size": "141237684",
+          "download": "80706896"
+        }
+      }
+    },
+    "3890552": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6290041892088814541",
+          "size": "200212604",
+          "download": "87995904"
+        }
+      }
+    },
+    "workshopdepot": "3890550",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20531175",
+        "timeupdated": "1761319097"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "/Lycoris Studio/GameJam/",
+        "pattern": "*.jammy",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "/unity.Lycoris Studio.GameJam/",
+        "pattern": "*.jammy",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
