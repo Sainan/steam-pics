@@ -1,10 +1,9 @@
 {
   "appid": "3371630",
-  "public_only": "1",
   "common": {
     "name": "Age Of Warbots",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "bc367239d068cf9b4388e3af9ee24b5d3aa88c31",
     "clienticon": "3e7f8c8e5c2ccb7d91e1222323f7dac066db8097",
     "clienttga": "30ae8524ab58b77d5d30356dcc20c95e08153fd0",
@@ -132,10 +131,11 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761329947",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3371630",
-    "exfgls": "8",
     "store_tags": {
       "0": "3810",
       "1": "599",
@@ -158,5 +158,46 @@
       "18": "6730",
       "19": "4191"
     }
+  },
+  "extended": {
+    "developer": "VDimension",
+    "publisher": "VDimension",
+    "homepage": "https://vdimensionltd.wixsite.com/vdimension"
+  },
+  "config": {
+    "installdir": "Age Of Warbots",
+    "launch": {
+      "0": {
+        "executable": "Age Of Warbots.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3371631": {
+      "manifests": {
+        "public": {
+          "gid": "4296745721825406048",
+          "size": "902355529",
+          "download": "526490288"
+        }
+      }
+    },
+    "workshopdepot": "3371630",
+    "branches": {
+      "public": {
+        "buildid": "20480869",
+        "timeupdated": "1761052161"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100"
   }
 }
