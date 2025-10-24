@@ -1,10 +1,9 @@
 {
   "appid": "3441000",
-  "public_only": "1",
   "common": {
     "name": "Ardena",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "c81fab66968a4b4f37623849944ad24df49376c6",
     "clienticon": "c81fab66968a4b4f37623849944ad24df49376c6",
     "clienttga": "2cbe273b83fd3b43dbf8a979dd81a117e1d3eb37",
@@ -108,9 +107,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761325705",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3441000",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -134,6 +134,67 @@
       "15": "10808",
       "16": "1695",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "RRSTUDIO",
+    "publisher": "RRSTUDIO"
+  },
+  "config": {
+    "installdir": "Ardena",
+    "launch": {
+      "0": {
+        "executable": "Ardena.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3441001": {
+      "manifests": {
+        "public": {
+          "gid": "2603386976334647622",
+          "size": "4042497935",
+          "download": "3735534096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20372703",
+        "timeupdated": "1760373604"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "4",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
