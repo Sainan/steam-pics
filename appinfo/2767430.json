@@ -1,10 +1,9 @@
 {
   "appid": "2767430",
-  "public_only": "1",
   "common": {
     "name": "Wisps of the Elements",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -145,9 +144,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761329697",
     "community_hub_visible": "1",
     "gameid": "2767430",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "4026",
@@ -169,6 +168,111 @@
       "17": "5154",
       "18": "6276",
       "19": "3834"
+    }
+  },
+  "extended": {
+    "developer": "Benoît Ko",
+    "publisher": "Benoît Ko"
+  },
+  "config": {
+    "installdir": "Wisps of the Elements",
+    "launch": {
+      "1": {
+        "executable": "ewi",
+        "arguments": "--no-sandbox --disable-gpu-sandbox",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "ewi.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "3": {
+        "executable": "ewi.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2767431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1292976584716133952",
+          "size": "691409511",
+          "download": "265923568"
+        }
+      }
+    },
+    "2767432": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "539715223044901982",
+          "size": "658121803",
+          "download": "259095808"
+        }
+      }
+    },
+    "2767433": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "163166392875610441",
+          "size": "681424975",
+          "download": "255206784"
+        }
+      }
+    },
+    "2767434": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7739042916497131719",
+          "size": "667595808",
+          "download": "256384016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20454134",
+        "timeupdated": "1760878889"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*"
+      }
     }
   }
 }
