@@ -3,8 +3,8 @@
   "common": {
     "name": "Mr Toffee's Slow-Thermo Sudoku Puzzles",
     "type": "Game",
-    "oslist": "macos,linux",
-    "osarch": "",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "757f96172df921b5bbcb543894253ef322fb844c",
     "icon": "757f96172df921b5bbcb543894253ef322fb844c",
@@ -136,6 +136,13 @@
         "type": "default",
         "config": {
           "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "ToffeeWin.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
         }
       }
     }
