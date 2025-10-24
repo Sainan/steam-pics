@@ -1,12 +1,11 @@
 {
   "appid": "3926730",
-  "public_only": "1",
   "common": {
     "name": "Dorothy's Job",
     "type": "Game",
     "icon": "84dcd518c70929973327e16fbc99ffdf3abcd12b",
     "clienticon": "1f7f3cafd5c4e9d0ba0eb9e31ac2df0ead2ae8a9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -114,6 +113,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761328572",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3926730",
     "exfgls": "3",
@@ -136,6 +137,80 @@
       "15": "3993",
       "16": "1774",
       "17": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Bola 13 Studios",
+    "publisher": "Bola 13 Studios",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Dorothy's Job",
+    "launch": {
+      "0": {
+        "executable": "DorothysJob.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3926731": {
+      "manifests": {
+        "public": {
+          "gid": "515946760140764234",
+          "size": "1287256426",
+          "download": "953045616"
+        },
+        "beta": {
+          "gid": "5590459759310654117",
+          "size": "905546557",
+          "download": "736095152"
+        },
+        "gold": {
+          "gid": "5853752752103468093",
+          "size": "929111392",
+          "download": "752511600"
+        },
+        "release": {
+          "gid": "515946760140764234",
+          "size": "1287256426",
+          "download": "953045616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20533047",
+        "timeupdated": "1761327975"
+      },
+      "beta": {
+        "buildid": "19986691",
+        "description": "Build de la beta",
+        "timeupdated": "1758566193"
+      },
+      "gold": {
+        "buildid": "20324531",
+        "description": "Build de la Gold 2-10-25",
+        "timeupdated": "1760030842"
+      },
+      "release": {
+        "buildid": "20533047",
+        "description": "Build de la Release 24-10-25",
+        "timeupdated": "1761327984"
+      }
     }
   }
 }
