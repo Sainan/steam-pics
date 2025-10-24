@@ -1,6 +1,5 @@
 {
   "appid": "1271150",
-  "public_only": "1",
   "common": {
     "name": "Elsewhere",
     "type": "Game",
@@ -13,7 +12,7 @@
     "clienttga": "53e74da1ad25ae9bf94af8f2a3f5b49cf2861a94",
     "clienticon": "9323b00022f90da663bf36af331a2307c1dd2eb1",
     "linuxclienticon": "34b260d81eb0e186f127fbfc63a4c33b962d39d4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "618cd0b7b5a96c93f6f8d197aa4cdd6920089099/capsule_231x87.jpg"
@@ -112,9 +111,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761306512",
     "community_hub_visible": "1",
     "gameid": "1271150",
-    "exfgls": "8",
     "store_tags": {
       "0": "3810",
       "1": "1695",
@@ -136,6 +135,61 @@
       "17": "1777",
       "18": "3942",
       "19": "3920"
+    }
+  },
+  "extended": {
+    "developer": "Four White Cats",
+    "publisher": "Four White Cats",
+    "homepage": "http://elsewheregame.net"
+  },
+  "config": {
+    "installdir": "Elsewhere",
+    "launch": {
+      "0": {
+        "executable": "Launcher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "elsewhere.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1271151": {
+      "manifests": {
+        "public": {
+          "gid": "8847698183001884944",
+          "size": "627352170",
+          "download": "294255104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19741554",
+        "timeupdated": "1756218788"
+      }
     }
   }
 }
