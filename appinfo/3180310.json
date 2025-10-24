@@ -1,6 +1,5 @@
 {
   "appid": "3180310",
-  "public_only": "1",
   "common": {
     "name": "Billie's Wheelie",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "c01c9f0871ff73b595bd915fddae00b6b45946f9",
     "clienttga": "faf62bdd4390192cbaec6292b0d89c80336c7cf5",
     "icon": "23080d7ed6c743a2edfcf58e99d77ef934375d15",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758487689",
+    "store_asset_mtime": "1761136322",
     "associations": {
       "0": {
         "type": "developer",
@@ -151,9 +150,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761318035",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3180310",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4508",
@@ -176,5 +176,45 @@
       "18": "8666",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "M4DOOM",
+    "publisher": "M4DOOM"
+  },
+  "config": {
+    "installdir": "Billie's Wheelie",
+    "launch": {
+      "0": {
+        "executable": "Billie Wheelie.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3180311": {
+      "manifests": {
+        "public": {
+          "gid": "6713975802840376992",
+          "size": "891349966",
+          "download": "231352048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20417215",
+        "timeupdated": "1760610842"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1"
   }
 }
