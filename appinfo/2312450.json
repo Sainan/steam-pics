@@ -1,13 +1,12 @@
 {
   "appid": "2312450",
-  "public_only": "1",
   "common": {
     "name": "Slime Slayer",
     "type": "Game",
     "icon": "4963e6251eeaee314b230ec4ae93c5f4203ba7fb",
     "clienticon": "da607640419632883a0a79149b919e1a05d62b8e",
     "clienttga": "8f836b19992fc5ef6ef802596b315ffbc721f94b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -97,9 +96,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761324921",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2312450",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1646",
@@ -122,5 +122,43 @@
       "18": "3993",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "BOOSTED BYTES",
+    "publisher": "BOOSTED BYTES",
+    "homepage": "https://www.boostedbytes.games/"
+  },
+  "config": {
+    "installdir": "Slime Slayer",
+    "launch": {
+      "0": {
+        "executable": "SlimeSlayer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2312451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4559579323561332930",
+          "size": "800374008",
+          "download": "227798704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20522179",
+        "timeupdated": "1761276404"
+      }
+    },
+    "privatebranches": "1"
   }
 }
