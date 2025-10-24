@@ -1,6 +1,5 @@
 {
   "appid": "4086580",
-  "public_only": "1",
   "common": {
     "name": "執着学園 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -119,6 +118,63 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "mokosoft",
+    "publisher": "mokosoft"
+  },
+  "config": {
+    "installdir": "Syutyaku",
+    "launch": {
+      "0": {
+        "executable": "syutyaku.exe"
+      }
+    }
+  },
+  "depots": {
+    "4086581": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8295233862939848859",
+          "size": "569434969",
+          "download": "445426480"
+        }
+      }
+    },
+    "4086582": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3108149115954768284",
+          "size": "902966299",
+          "download": "778932928"
+        }
+      }
+    },
+    "4086583": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3745267979701517227",
+          "size": "902968646",
+          "download": "778946960"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20273645",
+        "timeupdated": "1759769852"
+      }
     }
   }
 }
