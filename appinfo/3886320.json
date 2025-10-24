@@ -1,6 +1,5 @@
 {
   "appid": "3886320",
-  "public_only": "1",
   "common": {
     "name": "Mazebound Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "863ee6d3ca7a9779a1abbd1939285291495aa440",
     "clienticon": "863ee6d3ca7a9779a1abbd1939285291495aa440",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -120,11 +119,65 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321780",
     "gameid": "3886320",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": " Absam Studios",
+    "publisher": " Absam Studios"
+  },
+  "config": {
+    "installdir": "Mazebound Demo",
+    "launch": {
+      "0": {
+        "executable": "Mazebound Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3886321": {
+      "manifests": {
+        "public": {
+          "gid": "6989506474060267590",
+          "size": "3464909797",
+          "download": "2090803040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20530505",
+        "timeupdated": "1761316366"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "AbsamStudios/Mazebound Demo/Saves",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "AbsamStudios/Mazebound Demo/Options",
+        "pattern": "*.json"
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "AbsamStudios/Mazebound Demo/Saves",
+        "pattern": "*.meta"
+      }
     }
   }
 }
