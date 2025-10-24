@@ -1,6 +1,5 @@
 {
   "appid": "3926230",
-  "public_only": "1",
   "common": {
     "name": "The Kitchen Knife",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "d07b17e41f7a0570aefde5096c94b75a382e0bd4",
     "clienttga": "d09e6ee5329a0b1e1344d8c2723d34df1da1ea96",
     "icon": "dc4897b3a9364949e751f667f5d8bffc29564f42",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761278037",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3926230",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -138,6 +138,53 @@
       "17": "7702",
       "18": "4064",
       "19": "5923"
+    }
+  },
+  "extended": {
+    "developer": "One Hand Studio",
+    "publisher": "One Hand Studio"
+  },
+  "config": {
+    "installdir": "The Kitchen Knife",
+    "launch": {
+      "0": {
+        "executable": "TheKitchenKnife.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3926231": {
+      "manifests": {
+        "public": {
+          "gid": "1525263202190255862",
+          "size": "3353169124",
+          "download": "1783164096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20520062",
+        "timeupdated": "1761259096"
+      }
     }
   }
 }
