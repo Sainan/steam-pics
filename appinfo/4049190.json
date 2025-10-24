@@ -122,9 +122,26 @@
       "0": {
         "root": "gameinstall",
         "path": "",
-        "pattern": "*.data"
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Linux"
+        }
       },
       "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinSavedGames",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "The Myth of a Godslayer"
+          }
+        }
+      }
     }
   }
 }
