@@ -1,13 +1,12 @@
 {
   "appid": "3860340",
-  "public_only": "1",
   "common": {
     "name": "Victoriam",
     "type": "Game",
     "icon": "7c88a49deeb641e4a5d89ff816cb4b089e1f053a",
     "clienticon": "530b5cb80b52ba917929c995c4c8cdaa16cc3fd4",
     "clienttga": "aa5ffd627d6c5ab0278e5adf87dd6fb3db85ba42",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3860340",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "599",
@@ -125,6 +124,38 @@
       "17": "12472",
       "18": "4172",
       "19": "16094"
+    }
+  },
+  "extended": {
+    "developer": "Phillip Hubbard",
+    "publisher": "Phillip Hubbard"
+  },
+  "config": {
+    "installdir": "Victoriam",
+    "launch": {
+      "0": {
+        "executable": "Victoriam.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3860341": {
+      "manifests": {
+        "public": {
+          "gid": "4010937718780092998",
+          "size": "199874529",
+          "download": "55551968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20457967",
+        "timeupdated": "1760921527"
+      }
     }
   }
 }
