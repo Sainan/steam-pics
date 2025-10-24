@@ -1,10 +1,9 @@
 {
   "appid": "3516220",
-  "public_only": "1",
   "common": {
     "name": "Squawky",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "282ce4caa474c855e49602cd0c753c174f044983",
     "clienttga": "f1829d2fa0825abeb0774597b25ab8c06815db61",
     "clienticns": "1a16ab81c058bfb8d544a8d10986f128fad06588",
@@ -94,7 +93,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -131,10 +129,6 @@
         "supported": "true",
         "subtitles": "true"
       },
-      "portuguese": {
-        "supported": "true",
-        "subtitles": "true"
-      },
       "schinese": {
         "supported": "true",
         "subtitles": "true"
@@ -152,9 +146,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761331638",
     "community_hub_visible": "1",
     "gameid": "3516220",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1664",
@@ -167,6 +161,49 @@
       "8": "4342",
       "9": "3978",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Spark Labs Gaming",
+    "publisher": "Spark Labs Gaming"
+  },
+  "config": {
+    "installdir": "Squawky",
+    "launch": {
+      "0": {
+        "executable": "Squawky.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3516221": {
+      "manifests": {
+        "public": {
+          "gid": "6827293942919379878",
+          "size": "4910109747",
+          "download": "4468667760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20532928",
+        "timeupdated": "1761327387"
+      }
     }
   }
 }
