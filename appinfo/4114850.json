@@ -1,6 +1,5 @@
 {
   "appid": "4114850",
-  "public_only": "1",
   "common": {
     "name": "...Vincent: Mansion of The Dead Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "3f0387f5d595f04fabb0905a1c6bdc3f9455f3bb",
     "icon": "f4f630190da66c7cda2f0a39e7d2921c15b5fcc5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -112,7 +111,98 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761347842",
     "gameid": "4114850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MarinoDev",
+    "publisher": "MarinoDev"
+  },
+  "config": {
+    "installdir": "...Vincent Mansion of The Dead Demo",
+    "launch": {
+      "0": {
+        "executable": "Vincent Mansion of The Dead.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Vincent Mansion of The Dead.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "11"
+  },
+  "depots": {
+    "4114851": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "986058704075182490",
+          "size": "168061551",
+          "download": "83049200"
+        }
+      }
+    },
+    "4114852": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2871173642809887845",
+          "size": "159849528",
+          "download": "78900288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20536357",
+        "timeupdated": "1761347509"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "512000000",
+    "maxnumfiles": "10",
+    "appidredirect": "4103720",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MarinoDev/Vincent_ Mansion of The Dead",
+        "pattern": "*.dat"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "MarinoDev/Vincent_ Mansion of The Dead",
+        "pattern": "*.vrm"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "MarinoDev/Vincent_ Mansion of The Dead",
+            "replace": ".config/unity3d/MarinoDev/Vincent_ Mansion of The Dead"
+          }
+        }
+      }
+    }
   }
 }
