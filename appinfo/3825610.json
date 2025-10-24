@@ -1,6 +1,5 @@
 {
   "appid": "3825610",
-  "public_only": "1",
   "common": {
     "name": "Desktop Colony",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "60a318754aba85a5cc3cec08b5156773aa8df361",
     "clienticon": "35cc55799e75388c55ca007b85f0ea2c9df74f91",
     "clienttga": "82dabf15bd2b8ea29b608fec3bdc2fea193871cd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "19a7b1ac89d6e9d160b0316e10dc48f6102a49c3/capsule_231x87.jpg"
@@ -136,10 +135,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761120533",
     "steam_deck_blog_url": "https://steamcommunity.com/games/3825610/announcements/detail/537740128432423048?snr=2___",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3825610",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "379975",
@@ -161,6 +161,79 @@
       "17": "9",
       "18": "1643",
       "19": "7332"
+    }
+  },
+  "extended": {
+    "developer": "Mechabit",
+    "publisher": "Mechabit"
+  },
+  "config": {
+    "installdir": "Desktop Colony",
+    "launch": {
+      "0": {
+        "executable": "DesktopColony.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DesktopColony.exe",
+        "arguments": "PROTON_USE_WINED3D=1 DXVK_ALLOW_LAYERED=1 WINEDLLOVERRIDES=\"user32=n,b\" %command%",
+        "type": "option1",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Proton fix (Experimental)"
+        },
+        "description": "Proton fix (Experimental)"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3825611": {
+      "manifests": {
+        "public": {
+          "gid": "1729836785896091808",
+          "size": "438269878",
+          "download": "168267664"
+        },
+        "beta": {
+          "gid": "8259164091390864152",
+          "size": "438282326",
+          "download": "168277648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20506480",
+        "timeupdated": "1761189005"
+      },
+      "beta": {
+        "buildid": "20522839",
+        "description": "beta",
+        "timeupdated": "1761276064"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mechabit/DesktopColony/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
