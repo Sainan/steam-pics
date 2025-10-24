@@ -1,10 +1,9 @@
 {
   "appid": "2084970",
-  "public_only": "1",
   "common": {
     "name": "Etheria: Restart",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "5f1023d0f7fc4096e2c86e2398e5add07798c8bc",
     "clienticon": "395ff1b7af91ff045691e86aa03315162053d881",
     "clienttga": "84185f6031d654a5eef37a6134d76cd4150bc818",
@@ -236,6 +235,75 @@
       "17": "113",
       "18": "3859",
       "19": "4295"
+    }
+  },
+  "extended": {
+    "developer": "XD",
+    "publisher": "XD",
+    "homepage": "https://etheria.xd.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Etheria",
+    "launch": {
+      "0": {
+        "executable": "Etheria.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Etheria Launch"
+        },
+        "description": "Etheria Launch"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2084971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7547735037514078606",
+          "size": "16522385527",
+          "download": "13068789680"
+        }
+      }
+    },
+    "2084972": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7312258992624176897",
+          "size": "16522476679",
+          "download": "13067091456"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20183375",
+        "timeupdated": "1759213420"
+      }
     }
   }
 }
