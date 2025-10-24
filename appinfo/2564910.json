@@ -1,6 +1,5 @@
 {
   "appid": "2564910",
-  "public_only": "1",
   "common": {
     "name": "CRYO",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e426213023b8561588087f68ec19682ef4fc1664",
     "clienttga": "511d44c3af049a06e8bc384dd0f109eb0c720385",
     "clienticon": "d27213d7287129589eacf4df87a247eae7bb6e88",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761329310",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2564910",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -141,6 +141,61 @@
       "17": "3843",
       "18": "4182",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Valko Game Studios",
+    "publisher": "Valko Game Studios"
+  },
+  "config": {
+    "installdir": "CRYO",
+    "launch": {
+      "0": {
+        "executable": "Cryo.exe"
+      }
+    }
+  },
+  "depots": {
+    "2564911": {
+      "manifests": {
+        "public": {
+          "gid": "6401943726390846509",
+          "size": "12980943474",
+          "download": "6343996784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20532887",
+        "timeupdated": "1761327099"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Valko Game Studios/CRYO/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Valko Game Studios/CRYO/{64BitSteamID}",
+            "replace": ".config/unity3d/Valko Game Studios/CRYO/{64BitSteamID}"
+          }
+        }
+      }
     }
   }
 }
