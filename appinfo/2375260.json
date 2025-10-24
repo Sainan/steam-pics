@@ -1,10 +1,9 @@
 {
   "appid": "2375260",
-  "public_only": "1",
   "common": {
     "name": "Tattoo Tycoon",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -82,7 +81,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758639314",
+    "store_asset_mtime": "1761124699",
     "associations": {
       "0": {
         "type": "developer",
@@ -135,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761310804",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2375260",
-    "exfgls": "8",
     "store_tags": {
       "0": "12472",
       "1": "1643",
@@ -159,6 +159,82 @@
       "17": "4305",
       "18": "4252",
       "19": "5673"
+    }
+  },
+  "extended": {
+    "developer": "CrazyBunch",
+    "publisher": "HandyGames",
+    "homepage": "https://handy-games.com/games/tattoo-tycoon",
+    "listofdlc": "3815930",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Tattoo Tycoon",
+    "launch": {
+      "0": {
+        "executable": "Tattoo Tycoon - Game/Tattoo Tycoon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2375261": {
+      "manifests": {
+        "public": {
+          "gid": "5039575246410285209",
+          "size": "26",
+          "download": "80"
+        }
+      }
+    },
+    "2375262": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2760473441220394202",
+          "size": "2102687399",
+          "download": "1819706800"
+        }
+      }
+    },
+    "3815930": {
+      "dlcappid": "3815930",
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "3815940": {
+      "dlcappid": "3815940",
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20357446",
+        "timeupdated": "1760617001"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Crazybunch/Tattoo Tycoon/savegames",
+        "pattern": "*.*banana",
+        "recursive": "1"
+      }
     }
   }
 }
