@@ -1,6 +1,5 @@
 {
   "appid": "3571640",
-  "public_only": "1",
   "common": {
     "name": "Mystic Jumper",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "5b1e3e81e3799f37848ea4b27f280fbd6aa00b80",
     "clienticon": "b8ad6eff6e1eba48164ba684fd89c607ae5d3321",
     "clienticns": "fb93f8d2d16548591b1f5b48cf3f275a606aa188",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -110,7 +109,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3571640",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "1625",
@@ -129,6 +127,63 @@
       "14": "4182",
       "15": "21",
       "16": "3968"
+    }
+  },
+  "extended": {
+    "developer": "GVS sp. z o. o.",
+    "publisher": "GVS sp. z o. o."
+  },
+  "config": {
+    "installdir": "Mystic Jumper",
+    "launch": {
+      "0": {
+        "executable": "MysticJumper.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "MysticJumper.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3571641": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7174405051589935462",
+          "size": "88735565",
+          "download": "28701584"
+        }
+      }
+    },
+    "3571642": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5372171144723460764",
+          "size": "86044629",
+          "download": "27288000"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20242901",
+        "timeupdated": "1759511384"
+      }
     }
   }
 }
