@@ -1,6 +1,5 @@
 {
   "appid": "3866620",
-  "public_only": "1",
   "common": {
     "name": "From The Dark",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "56f0887dd89198daa258124de2470be576138f96",
     "clienticon": "07ecd180cad2a00cc0ca6e1c363c19c0ed400810",
     "clienttga": "cde4e2fdf54cb3936600c040e7810a1b5b721c88",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "621ed48f10de224a7730519cec86af5a071c1644/capsule_231x87.jpg"
@@ -105,9 +104,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761323365",
     "community_hub_visible": "1",
     "gameid": "3866620",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "3959",
@@ -129,6 +128,53 @@
       "17": "3942",
       "18": "4064",
       "19": "4057"
+    }
+  },
+  "extended": {
+    "developer": "Caleb Tyson",
+    "publisher": "Caleb Tyson"
+  },
+  "config": {
+    "installdir": "From The Dark",
+    "launch": {
+      "0": {
+        "executable": "darkness.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3866621": {
+      "manifests": {
+        "public": {
+          "gid": "1700375309201631931",
+          "size": "574019181",
+          "download": "466561200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20522547",
+        "timeupdated": "1761274322"
+      }
     }
   }
 }
