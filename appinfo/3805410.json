@@ -1,6 +1,5 @@
 {
   "appid": "3805410",
-  "public_only": "1",
   "common": {
     "name": "Night of the Extinct",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0c672807a297fba85808802a6c88f4998c39e492",
     "clienticon": "de58322941b3adbfd1222c6f091fbe4020f301b3",
     "clienttga": "5b26fc41d3a7807a8ba28a4c11a6ac461775c28d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b323497233f23d2e23bd3c0e54eb17e780068cb8/capsule_231x87.jpg"
@@ -158,6 +157,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761314192",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3805410",
     "exfgls": "3",
@@ -182,6 +183,51 @@
       "17": "1687",
       "18": "1742",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Silvercity Sharks",
+    "publisher": "Silvercity Sharks",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Night of the Extinct",
+    "launch": {
+      "0": {
+        "executable": "Windows\\NightOfTheExtinct.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3805411": {
+      "manifests": {
+        "public": {
+          "gid": "6743860862877087198",
+          "size": "1475299119",
+          "download": "1193228048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20529985",
+        "timeupdated": "1761314134"
+      }
     }
   }
 }
