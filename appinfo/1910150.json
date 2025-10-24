@@ -1,13 +1,12 @@
 {
   "appid": "1910150",
-  "public_only": "1",
   "common": {
     "name": "Walk of Life",
     "type": "Game",
     "icon": "6ea74393052b97e9400772e3f56a5b0abfe1aea7",
     "clienticon": "aea257018824273515e4aaa57af02a6d7fefc21a",
     "clienttga": "ab0edb3eec2e06c39a4ece7d85312da6989a2f35",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -176,9 +175,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761310816",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1910150",
-    "exfgls": "8",
     "store_tags": {
       "0": "10235",
       "1": "7178",
@@ -201,5 +201,68 @@
       "18": "599",
       "19": "1719"
     }
+  },
+  "extended": {
+    "developer": "Porcelain Fortress",
+    "publisher": "Porcelain Fortress"
+  },
+  "config": {
+    "installdir": "Walk of Life",
+    "launch": {
+      "0": {
+        "executable": "Walk of Life.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Walk of Life.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1910151": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8209181361093623912",
+          "size": "803581888",
+          "download": "645013616"
+        }
+      }
+    },
+    "1910152": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5104400311718429506",
+          "size": "924987699",
+          "download": "675383824"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "workshopdepot": "1910150",
+    "branches": {
+      "public": {
+        "buildid": "20529066",
+        "timeupdated": "1761310522"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100"
   }
 }
