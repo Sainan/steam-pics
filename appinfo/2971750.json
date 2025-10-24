@@ -1,6 +1,5 @@
 {
   "appid": "2971750",
-  "public_only": "1",
   "common": {
     "name": "雙面夜孃",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Homebody Hostess",
       "koreana": "두 얼굴의 여왕님",
@@ -208,9 +207,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761271391",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2971750",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -238,6 +238,60 @@
       "17": "1719",
       "18": "6650",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "樹懶叫工作室",
+    "publisher": "Mango Party"
+  },
+  "config": {
+    "installdir": "雙面夜孃",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2971751": {
+      "manifests": {
+        "public": {
+          "gid": "8797572375793931671",
+          "size": "1078876334",
+          "download": "786300784"
+        },
+        "next_version": {
+          "gid": "8797572375793931671",
+          "size": "1078876334",
+          "download": "786300784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20513028",
+        "timeupdated": "1761225335"
+      },
+      "next_version": {
+        "buildid": "20513028",
+        "description": "next version",
+        "timeupdated": "1761224830"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "resources/save",
+        "pattern": "*"
+      }
     }
   }
 }
