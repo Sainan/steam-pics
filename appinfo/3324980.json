@@ -1,6 +1,5 @@
 {
   "appid": "3324980",
-  "public_only": "1",
   "common": {
     "name": "EVERDARK: Undead Apocalypse",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1"
@@ -136,9 +135,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761288362",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3324980",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -164,6 +164,68 @@
       "17": "10808",
       "18": "5923",
       "19": "1687"
+    }
+  },
+  "extended": {
+    "developer": "ESDIP_GAMES",
+    "publisher": "Dojo System"
+  },
+  "config": {
+    "installdir": "Everdark",
+    "launch": {
+      "0": {
+        "executable": "everdarkVR.exe"
+      }
+    }
+  },
+  "depots": {
+    "3324981": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "3324982": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7327765397323776236",
+          "size": "8940504216",
+          "download": "8580971376"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20511322",
+        "timeupdated": "1761216906"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "85000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "everdarkVR/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "addpath": ""
+      }
     }
   }
 }
