@@ -1,6 +1,5 @@
 {
   "appid": "3950770",
-  "public_only": "1",
   "common": {
     "name": "More Sushi!",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e7de215dc9c4d2a0d42e9cb3740bbe36b09a9475",
     "clienticon": "9b1cd5a8a62f6072c5db26a1a9d6ae94174a2b64",
     "clienttga": "8e970cea3fb96033ee9a5058d38098ad1e124a4a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c0e3b45910879c747977984479f0654f25571378/capsule_231x87.jpg"
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321616",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3950770",
-    "exfgls": "8",
     "store_tags": {
       "0": "379975",
       "1": "615955",
@@ -131,6 +131,53 @@
       "17": "4234",
       "18": "97376",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "pixelqube",
+    "publisher": "pixelqube"
+  },
+  "config": {
+    "installdir": "More Sushi!",
+    "launch": {
+      "0": {
+        "executable": "More Sushi!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3950771": {
+      "manifests": {
+        "public": {
+          "gid": "3063487205591946047",
+          "size": "60530368",
+          "download": "36541696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20273517",
+        "timeupdated": "1759768844"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "\\Godot\\app_userdata\\More Sushi!",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
