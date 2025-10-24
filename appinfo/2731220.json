@@ -1,0 +1,166 @@
+{
+  "appid": "2731220",
+  "common": {
+    "name": "Supersonic Bridge Racing Playtest",
+    "type": "Beta",
+    "parent": "2731160",
+    "clienticon": "316c94ee77ac7d3d20388f73816e799de09b441b",
+    "clienttga": "a4a0af48448ec5fc3388e7eba87a479496379cce",
+    "icon": "ec2af8a9a2ae72725a169abf0ed32ef31e4cee76",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "small_capsule": {
+      "english": "5ad83e415a0f536a3c334124fec23a196637a233/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "55.60093348891482",
+        "height_pct": "87.84722222222223"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "506e2123a95d2132630fb603001b49334cc7a5c8/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "506e2123a95d2132630fb603001b49334cc7a5c8/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "67708f036299f6ca18e81a9f6e64aecad9456a9b/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "67708f036299f6ca18e81a9f6e64aecad9456a9b/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "images": {
+          "english": "67708f036299f6ca18e81a9f6e64aecad9456a9b/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "2138034a3054ae07411777ea62bd100e426bf57e/logo.png"
+        },
+        "image2x": {
+          "english": "2138034a3054ae07411777ea62bd100e426bf57e/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "55.60093348891482",
+          "height_pct": "87.84722222222223"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "346fb5d86b4828c307263c3b76bb52dbf688a339/library_header.jpg"
+        },
+        "image2x": {
+          "english": "346fb5d86b4828c307263c3b76bb52dbf688a339/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1729267785",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1702651752",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2731220",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "1",
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,development"
+  },
+  "config": {
+    "installdir": "Supersonic Bridge Racing Playtest",
+    "launch": {
+      "0": {
+        "executable": "Supersonic Bridge Racing.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SupersonicBridgeRacing.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65531",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "2731221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6491587126464516388",
+          "size": "457857659",
+          "download": "142200000"
+        }
+      }
+    },
+    "2731222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7961937674401729066",
+          "size": "473427173",
+          "download": "148836208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19686988",
+        "timeupdated": "1755796325"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "500",
+    "appidredirect": "2731160",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Stumi Games/Supersonic Bridge Racing/Saves",
+        "pattern": "*.json",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
