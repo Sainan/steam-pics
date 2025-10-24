@@ -1,6 +1,5 @@
 {
   "appid": "3853400",
-  "public_only": "1",
   "common": {
     "name": "Farm Defence",
     "type": "Game",
@@ -13,7 +12,7 @@
     "icon": "104fb87da058c079080027197f49112ff82b22a7",
     "clienticon": "b736a371da2ec92acc7603a51d5f932ff052846f",
     "clienttga": "1eca76e913ce3ed22ce431badd6e3ac3271e027b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -122,9 +121,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761300012",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3853400",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "87918",
@@ -134,6 +134,55 @@
       "5": "4182",
       "6": "1645",
       "7": "255534"
+    }
+  },
+  "extended": {
+    "developer": "KEY CREATION INC.",
+    "publisher": "KEY CREATION INC."
+  },
+  "config": {
+    "installdir": "FarmDefence",
+    "launch": {
+      "0": {
+        "executable": "FarmDefence.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3853401": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7468803483527719943",
+          "size": "303485780",
+          "download": "104155152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20525129",
+        "timeupdated": "1761299505"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "KeyCreation/FarmDefence/",
+        "pattern": "*.es3"
+      }
     }
   }
 }
