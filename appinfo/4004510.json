@@ -1,12 +1,11 @@
 {
   "appid": "4004510",
-  "public_only": "1",
   "common": {
     "name": "Grand Poker Casino",
     "type": "Game",
     "clienticon": "9bcb224a4781365035f404c6017497b235806cc0",
     "icon": "9bcb224a4781365035f404c6017497b235806cc0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -110,9 +109,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761289549",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4004510",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1666",
@@ -121,6 +121,40 @@
       "4": "599",
       "5": "9",
       "6": "16250"
+    }
+  },
+  "extended": {
+    "developer": "Inlogic Games",
+    "publisher": "Dolores Entertainment"
+  },
+  "config": {
+    "installdir": "Grand Poker Casino",
+    "launch": {
+      "0": {
+        "executable": "Grand Poker Casino.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4004511": {
+      "manifests": {
+        "public": {
+          "gid": "998282029661355846",
+          "size": "190297724",
+          "download": "40210016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20027626",
+        "timeupdated": "1758180476"
+      }
     }
   }
 }
