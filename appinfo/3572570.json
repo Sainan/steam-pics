@@ -1,13 +1,12 @@
 {
   "appid": "3572570",
-  "public_only": "1",
   "common": {
     "name": "Pac's Revenge",
     "type": "Game",
     "icon": "243585cb33f857e6f8df3a177f0a4690a50155eb",
     "clienticon": "a5b8dcab85535a94228969b6644c8653db105fc4",
     "clienttga": "604cfb26350b5828ea4eeec2e40250e7d5c5899b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761342885",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3572570",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -135,6 +135,42 @@
       "13": "6971",
       "14": "4182",
       "15": "12057"
+    }
+  },
+  "extended": {
+    "developer": "ByteSize Games",
+    "publisher": "ByteSize Games"
+  },
+  "config": {
+    "installdir": "Pac's Revenge",
+    "launch": {
+      "0": {
+        "executable": "Pac's Revenge.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3572571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8721383859750576665",
+          "size": "463213726",
+          "download": "96937232"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20522649",
+        "timeupdated": "1761274882"
+      }
     }
   }
 }
