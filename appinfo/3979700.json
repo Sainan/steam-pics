@@ -1,6 +1,5 @@
 {
   "appid": "3979700",
-  "public_only": "1",
   "common": {
     "name": "Lust Campus",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticns": "f64ebcf2bc90dd61c9c86841a37f869b328074ee",
     "linuxclienticon": "f64ebcf2bc90dd61c9c86841a37f869b328074ee",
     "clienticon": "456b90470afe88586dafd3a955cd855d846b06d6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -113,9 +112,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761297766",
     "community_hub_visible": "1",
     "gameid": "3979700",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -143,6 +142,53 @@
       "17": "4305",
       "18": "4726",
       "19": "1719"
+    }
+  },
+  "extended": {
+    "developer": "RedLolly",
+    "publisher": "RedLolly"
+  },
+  "config": {
+    "installdir": "Lust Campus",
+    "launch": {
+      "0": {
+        "executable": "Lust_Campus.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Lust_Campus.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Lust_Campus.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3979701": {
+      "manifests": {
+        "public": {
+          "gid": "4761081040943598175",
+          "size": "289593022",
+          "download": "177192976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19797362",
+        "timeupdated": "1756563721"
+      }
     }
   }
 }
