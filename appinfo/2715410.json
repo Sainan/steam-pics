@@ -1,10 +1,9 @@
 {
   "appid": "2715410",
-  "public_only": "1",
   "common": {
     "name": "The HELL",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -166,9 +165,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761307425",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2715410",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -193,6 +193,75 @@
       "17": "9541",
       "18": "6730",
       "19": "1742"
+    }
+  },
+  "extended": {
+    "developer": "METROPOLICE",
+    "publisher": "METROPOLICE",
+    "homepage": "https://themetropolice.com/home"
+  },
+  "config": {
+    "installdir": "theHELL",
+    "launch": {
+      "0": {
+        "executable": "Windows/TheHellLauncher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2715411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5379318766817039710",
+          "size": "8095912940",
+          "download": "6806919936"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20527140",
+        "timeupdated": "1761301599"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "15",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheHell/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
