@@ -1,4 +1,84 @@
 {
   "appid": "4067060",
-  "public_only": "1"
+  "common": {
+    "name": "jumpfall-mod-manager",
+    "type": "Tool",
+    "parent": "4053230",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "fc860d231575d1c25dd655703bf80f61cf34a997",
+    "clienticon": "fc860d231575d1c25dd655703bf80f61cf34a997",
+    "releasestate": "released",
+    "community_hub_visible": "1",
+    "gameid": "4067060"
+  },
+  "config": {
+    "installdir": "jumpfall-mod-manager",
+    "launch": {
+      "0": {
+        "executable": "skin_tool/jumpfall_skin_tools.exe",
+        "workingdir": "skin_tool",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch-skin-tools"
+        },
+        "description": "Launch-skin-tools"
+      },
+      "1": {
+        "executable": "JumpfallPublisher-and-compiler/JumpfallPublisher.exe",
+        "workingdir": "JumpfallPublisher-and-compiler",
+        "type": "option2",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "jumpfall-compiler-and-publisher"
+        },
+        "description": "jumpfall-compiler-and-publisher"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4067061": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2215792443547375949",
+          "size": "244609555",
+          "download": "38340960"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20523184",
+        "timeupdated": "1761278573"
+      }
+    }
+  }
 }
