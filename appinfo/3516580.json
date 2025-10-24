@@ -1,6 +1,5 @@
 {
   "appid": "3516580",
-  "public_only": "1",
   "common": {
     "name": "无基之谈",
     "type": "Game",
@@ -14,7 +13,7 @@
     "icon": "4d924a8e73ac5b163ddbad5b8f6451d519b82f34",
     "clienttga": "e35d607c5deaaac5b98a51df9de0086606143c81",
     "clienticon": "4d924a8e73ac5b163ddbad5b8f6451d519b82f34",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "无基之谈",
       "tchinese": "無基之談",
@@ -159,9 +158,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761293055",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3516580",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -187,6 +187,79 @@
       "17": "6971",
       "18": "1719",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "疯兔游戏（FUNTOO Studio）",
+    "publisher": "疯兔游戏（FUNTOO Studio）"
+  },
+  "config": {
+    "installdir": "无基之谈",
+    "launch": {
+      "0": {
+        "executable": "WJZT.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3516581": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4225750292150369248",
+          "size": "5063659446",
+          "download": "3574305376"
+        },
+        "gamevideo": {
+          "gid": "8986100694580323208",
+          "size": "2478548412",
+          "download": "2442649536"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20523259",
+        "timeupdated": "1761287056"
+      },
+      "gamevideo": {
+        "buildid": "19708120",
+        "description": "allgamevideo",
+        "timeupdated": "1755939374"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "FUNTOO\\WJZT\\saveData\\0",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
