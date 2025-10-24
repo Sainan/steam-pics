@@ -1,10 +1,9 @@
 {
   "appid": "2092170",
-  "public_only": "1",
   "common": {
     "name": "By Grit Alone",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllervr": {
       "steamvr": "1",
       "oculus": "1"
@@ -128,9 +127,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2092170",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "2",
@@ -157,6 +157,60 @@
       "17": "492",
       "18": "4345",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Crooks Peak",
+    "publisher": "Crooks Peak",
+    "homepage": "https://bygritalone.com"
+  },
+  "config": {
+    "installdir": "ByGritAlone",
+    "launch": {
+      "0": {
+        "executable": "ByGritAlone.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2092171": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7916198989091247923",
+          "size": "2257106846",
+          "download": "1110947280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514866",
+        "timeupdated": "1761233207"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CrooksPeak/ByGritAlone/",
+        "pattern": "saveSlots.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
