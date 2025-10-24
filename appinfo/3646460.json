@@ -240,8 +240,32 @@
       },
       "2": {
         "executable": "Devil Spire Falls.exe",
-        "arguments": "--rendering-driver opengl3",
+        "arguments": "--rendering-driver d3d12",
         "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "using Direct3D 12 (Alternative)"
+        },
+        "description": "using Direct3D 12 (Alternative)"
+      },
+      "3": {
+        "executable": "Devil Spire Falls.x86_64",
+        "arguments": "--rendering-driver d3d12",
+        "type": "option2",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "using Direct3D 12 (Alternative)"
+        },
+        "description": "using Direct3D 12 (Alternative)"
+      },
+      "4": {
+        "executable": "Devil Spire Falls.exe",
+        "arguments": "--rendering-driver opengl3",
+        "type": "option3",
         "config": {
           "oslist": "windows"
         },
@@ -250,10 +274,10 @@
         },
         "description": "using OpenGL (Stable)"
       },
-      "3": {
+      "5": {
         "executable": "Devil Spire Falls.x86_64",
         "arguments": "--rendering-driver opengl3",
-        "type": "option2",
+        "type": "option3",
         "config": {
           "oslist": "linux"
         },
@@ -271,16 +295,16 @@
     "3646461": {
       "manifests": {
         "public": {
-          "gid": "7195500374906733879",
-          "size": "489332079",
-          "download": "351640576"
+          "gid": "4595880109079296555",
+          "size": "489351475",
+          "download": "351653296"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20438745",
-        "timeupdated": "1760719433"
+        "buildid": "20529374",
+        "timeupdated": "1761312569"
       }
     }
   }
