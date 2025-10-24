@@ -1,6 +1,5 @@
 {
   "appid": "4028870",
-  "public_only": "1",
   "common": {
     "name": "Les aventures d'Emilie à Paris",
     "type": "Game",
@@ -14,7 +13,7 @@
     "name_localized": {
       "english": "The Adventures of Emilie in Paris"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -136,9 +135,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761145930",
     "community_hub_visible": "1",
     "gameid": "4028870",
-    "exfgls": "8",
     "store_tags": {
       "0": "1625",
       "1": "5379",
@@ -156,6 +155,71 @@
       "13": "4136",
       "14": "7481",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Vernepixel lab",
+    "publisher": "Vernepixel lab",
+    "homepage": "https://vernepixellab.fr/"
+  },
+  "config": {
+    "installdir": "AventuresEmilieParis",
+    "launch": {
+      "0": {
+        "executable": "AventuresEmilieParis.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AventuresEmilieParis.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4028871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5474087999958845109",
+          "size": "233788151",
+          "download": "149563744"
+        }
+      }
+    },
+    "4028872": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3322523907125616974",
+          "size": "207068879",
+          "download": "142902720"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20526484",
+        "timeupdated": "1761298670"
+      }
     }
   }
 }
