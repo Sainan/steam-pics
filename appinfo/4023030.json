@@ -1,6 +1,5 @@
 {
   "appid": "4023030",
-  "public_only": "1",
   "common": {
     "name": "The Baby is Here",
     "type": "Game",
@@ -9,7 +8,11 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "latam": "1"
+    },
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -94,6 +97,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -108,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760925776",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4023030",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -132,6 +137,43 @@
       "17": "4559",
       "18": "8945",
       "19": "1687"
+    }
+  },
+  "extended": {
+    "developer": "El Abrigo de Paulo",
+    "publisher": "El Abrigo de Paulo"
+  },
+  "config": {
+    "installdir": "The Baby is Here",
+    "launch": {
+      "0": {
+        "executable": "TheBabyIsHere.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4023031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9104667874145664928",
+          "size": "717262255",
+          "download": "571478336"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20524173",
+        "timeupdated": "1761285962"
+      }
     }
   }
 }
