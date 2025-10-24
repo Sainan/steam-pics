@@ -1,13 +1,12 @@
 {
   "appid": "3589350",
-  "public_only": "1",
   "common": {
     "name": "Hayo and the Emporium",
     "type": "Game",
     "icon": "e1ccbd2ba3bd11682ab085de524b876a7ffc2ae1",
     "clienttga": "4288dbf4414adf6e5eb4b60a7bec631932050834",
     "clienticon": "93aa449ec8c135cd9b1abbc8e2ba943e6b97c8c0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -133,9 +132,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761296454",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3589350",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -154,6 +154,51 @@
       "11": "4136",
       "12": "3871",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Catdoors",
+    "publisher": "Catdoors"
+  },
+  "config": {
+    "installdir": "Hayo and the Emporium",
+    "launch": {
+      "0": {
+        "executable": "Hayo and the Emporium.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3589351": {
+      "manifests": {
+        "public": {
+          "gid": "3449272870412826170",
+          "size": "2024492999",
+          "download": "186414112"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20525986",
+        "timeupdated": "1761296388"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "20",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Hayo and the Emporium_Data/Data",
+        "pattern": "*"
+      }
     }
   }
 }
