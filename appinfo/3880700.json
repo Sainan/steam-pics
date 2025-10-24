@@ -1,6 +1,5 @@
 {
   "appid": "3880700",
-  "public_only": "1",
   "common": {
     "name": "Sokker",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -116,9 +115,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761320838",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3880700",
-    "exfgls": "8",
     "store_tags": {
       "0": "701",
       "1": "19",
@@ -140,6 +140,94 @@
       "17": "1775",
       "18": "3859",
       "19": "5711"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Sokpop Collective",
+    "publisher": "Sokpop Collective"
+  },
+  "config": {
+    "installdir": "Sokker",
+    "launch": {
+      "0": {
+        "executable": "sokker.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "sokker.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3880701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "409568527443423993",
+          "size": "72983298",
+          "download": "54103248"
+        }
+      }
+    },
+    "3880702": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1528216861219091961",
+          "size": "91492217",
+          "download": "60511504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20529110",
+        "timeupdated": "1761310262"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "sokker97",
+            "replace": "com.sokpop.sokker"
+          }
+        }
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "sokker97",
+        "pattern": "*"
+      }
     }
   }
 }
