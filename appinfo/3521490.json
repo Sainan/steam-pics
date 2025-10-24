@@ -95,6 +95,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -132,7 +133,7 @@
       "18": "6378",
       "19": "6129"
     },
-    "review_score": "7",
+    "review_score": "8",
     "review_percentage": "100"
   },
   "extended": {
@@ -166,6 +167,35 @@
       "public": {
         "buildid": "20205491",
         "timeupdated": "1759319360"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "/GameplaySupremacy/Malign",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "/GameplaySupremacy/Malign",
+            "replace": ".config/unity3d/GameplaySupremacy/Malign"
+          }
+        }
       }
     }
   }
