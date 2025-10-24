@@ -1,6 +1,5 @@
 {
   "appid": "4068800",
-  "public_only": "1",
   "common": {
     "name": "The Call of Darkness",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "16c0032c34afdcc4370a2c51434c661e4a82978f",
     "icon": "16c0032c34afdcc4370a2c51434c661e4a82978f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -128,9 +127,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4068800",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -159,6 +158,66 @@
       "17": "1719",
       "18": "10808",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Ace_Games_",
+    "publisher": "Ace_Games_",
+    "homepage": "https://x.com/AceDevTCOD",
+    "listofdlc": "4070970",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "The Call of Darkness",
+    "launch": {
+      "0": {
+        "executable": "TheCallofDarkness.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "TheCallofDarkness.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "TheCallofDarkness.app\\Contents\\MacOS\\TheCallofDarkness",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4068801": {
+      "manifests": {
+        "public": {
+          "gid": "783840473985766551",
+          "size": "2160459561",
+          "download": "2010726576"
+        }
+      }
+    },
+    "4070970": {
+      "dlcappid": "4070970",
+      "manifests": {
+        "public": {
+          "gid": "5509645714934715184",
+          "size": "1357399498",
+          "download": "1357526704"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20531426",
+        "timeupdated": "1761320141"
+      }
     }
   }
 }
