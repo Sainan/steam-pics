@@ -1,10 +1,9 @@
 {
   "appid": "4002520",
-  "public_only": "1",
   "common": {
     "name": "アルタイル号の殺人",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -108,6 +107,12 @@
       "category_22": "1",
       "category_15": "1",
       "category_28": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1",
+      "category_79": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -116,9 +121,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759914521",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4002520",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -128,12 +134,52 @@
       "2": "4486",
       "3": "4182",
       "4": "3799",
-      "5": "1742",
-      "6": "1755",
-      "7": "3871",
-      "8": "4726",
-      "9": "6426",
-      "10": "21"
+      "5": "21",
+      "6": "1742",
+      "7": "1755",
+      "8": "3871",
+      "9": "4726",
+      "10": "6426",
+      "11": "5613"
     }
+  },
+  "extended": {
+    "developer": "orange",
+    "publisher": "orange",
+    "homepage": "http://orange-app.jp/game/Altair/index.html"
+  },
+  "config": {
+    "installdir": "Altair",
+    "launch": {
+      "0": {
+        "executable": "Altair/Altair.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4002521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8572108135309050946",
+          "size": "842910329",
+          "download": "202300048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19956684",
+        "timeupdated": "1757677489"
+      }
+    },
+    "privatebranches": "1"
   }
 }
