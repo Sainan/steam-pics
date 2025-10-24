@@ -1,6 +1,5 @@
 {
   "appid": "3782250",
-  "public_only": "1",
   "common": {
     "name": "HaeTae: Guardians Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -120,5 +119,50 @@
     },
     "gameid": "3782250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": " JipangYiGames.Corp",
+    "publisher": " JipangYiGames.Corp"
+  },
+  "config": {
+    "installdir": "Build",
+    "launch": {
+      "0": {
+        "executable": "HaeTaeGuardiansDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "This is the demo version of Haetae: Guardians. You can experience the fun of combat, a simple boss battle, and character growth.",
+          "koreana": "해태: 가디언즈 데모 버전입니다. 전투와 간단한 보스전, 그리고 육성을 통한 재미를 볼 수 있습니다.",
+          "schinese": "这是《獬豸：Guardians》的试玩版。您可以体验战斗、简单的BOSS战，以及通过养成带来的乐趣。",
+          "tchinese": "這是《獬豸：Guardians》的試玩版。您可以體驗戰鬥、簡單的BOSS戰，以及透過養成帶來的樂趣。",
+          "japanese": "『ヘテ：ガーディアンズ』の体験版です。戦闘や簡単なボス戦、そして育成を通じた楽しさを味わうことができます。"
+        },
+        "description": "This is the demo version of Haetae: Guardians. You can experience the fun of combat, a simple boss battle, and character growth."
+      }
+    }
+  },
+  "depots": {
+    "3782251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8333978045139725435",
+          "size": "1898423020",
+          "download": "1615647104"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20514075",
+        "timeupdated": "1761229670"
+      }
+    }
   }
 }
