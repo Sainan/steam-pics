@@ -1,6 +1,5 @@
 {
   "appid": "2230840",
-  "public_only": "1",
   "common": {
     "name": "QLewds",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "a9af4734046bfde7b1b427a9a9a21740c17f60ea",
     "clienttga": "41fbc4be21bc0a67e7ec68a94417c07c4ab9a9cb",
     "linuxclienticon": "a9af4734046bfde7b1b427a9a9a21740c17f60ea",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "DE",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -125,7 +124,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2230840",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "4736",
@@ -147,6 +145,72 @@
       "17": "3993",
       "18": "492",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Popple Dungeon Games LLC",
+    "publisher": "Popple Dungeon Games LLC",
+    "homepage": "https://qlewds.gg"
+  },
+  "config": {
+    "installdir": "QLewds",
+    "launch": {
+      "0": {
+        "executable": "qlewds.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "./qlewds",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2230841": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2390454153133325373",
+          "size": "242711159",
+          "download": "104240928"
+        }
+      }
+    },
+    "2230842": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4825476736023340674",
+          "size": "1464881307",
+          "download": "1175624832"
+        }
+      }
+    },
+    "2230843": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5247366251856579224",
+          "size": "398897732",
+          "download": "235498192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20530954",
+        "timeupdated": "1761318206"
+      }
     }
   }
 }
