@@ -1,6 +1,5 @@
 {
   "appid": "4117270",
-  "public_only": "1",
   "common": {
     "name": "Drone Arsenal ",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "de4443a973b2e0ab7c3629fdac290dec61785fee/capsule_231x87.jpg"
     },
@@ -42,5 +41,39 @@
     },
     "gameid": "4117270",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MOLOTKOV",
+    "publisher": "MOLOTKOV"
+  },
+  "config": {
+    "installdir": "Drone Arsenal",
+    "launch": {
+      "1": {
+        "executable": "DroneArsenal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4117271": {
+      "manifests": {
+        "public": {
+          "gid": "2930195939671545447",
+          "size": "1474361204",
+          "download": "476745664"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20470545",
+        "timeupdated": "1760997363"
+      }
+    }
   }
 }
