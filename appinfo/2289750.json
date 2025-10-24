@@ -1,10 +1,9 @@
 {
   "appid": "2289750",
-  "public_only": "1",
   "common": {
     "name": "Super Fantasy Kingdom",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "1fef27acdb71f5880ce846c21476200d1ce9629a",
     "clienticon": "58eb1f7c2d78fe79cec06a998452f420d6a1eedb",
     "clienttga": "5fd6fc78d679669976efe3f703f25acdb051985f",
@@ -164,7 +163,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760624843",
+    "store_asset_mtime": "1761307001",
     "associations": {
       "0": {
         "type": "developer",
@@ -197,6 +196,9 @@
       "category_56": "1",
       "category_57": "1",
       "category_58": "1",
+      "category_29": "1",
+      "category_25": "1",
+      "category_30": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -274,10 +276,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761310520",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "2289750",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "599",
@@ -299,6 +302,65 @@
       "17": "3987",
       "18": "4711",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Super Fantasy Games",
+    "publisher": "Hooded Horse",
+    "homepage": "https://hoodedhorse.com/games/super-fantasy-kingdom"
+  },
+  "config": {
+    "installdir": "Super Fantasy Kingdom",
+    "launch": {
+      "0": {
+        "executable": "Super Fantasy Kingdom.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2289751": {
+      "manifests": {
+        "public": {
+          "gid": "7373863007118817477",
+          "size": "710290335",
+          "download": "266778640"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,hungarian,czech,turkish,brazilian,ukrainian,latam",
+    "workshopdepot": "2289750",
+    "branches": {
+      "public": {
+        "buildid": "20528164",
+        "timeupdated": "1761307158"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Super Fantasy Games/Super Fantasy Kingdom",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
