@@ -1,10 +1,9 @@
 {
   "appid": "3282980",
-  "public_only": "1",
   "common": {
     "name": "Urbex Murder",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "2dc182c3cba8780d514b84cb29c070bcb46f9781",
     "clienticon": "a2926352c27f6e57d841923cf91bef478554fb4f",
     "clienttga": "321a719ecaa6056cf40fe3dfd9a796ec425e1097",
@@ -156,7 +155,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3282980",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -182,5 +180,59 @@
       "18": "1662",
       "19": "4166"
     }
+  },
+  "extended": {
+    "developer": "Rantabl",
+    "publisher": "Rantabl",
+    "homepage": "https://www.rantabl.com"
+  },
+  "config": {
+    "installdir": "Urbex Murder",
+    "launch": {
+      "0": {
+        "executable": "ProjectUrbex.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3282981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6623427347016683535",
+          "size": "5003550690",
+          "download": "4813157856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20529965",
+        "timeupdated": "1761313996"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
