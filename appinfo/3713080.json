@@ -80,6 +80,7 @@
     "category": {},
     "steam_release_date": "1752166646",
     "community_visible_stats": "1",
+    "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3713080",
     "exfgls": "6"
@@ -92,9 +93,23 @@
     "installdir": "Carbrix Playtest",
     "launch": {
       "0": {
-        "executable": "Carbrix.exe"
+        "executable": "Carbrix.exe",
+        "arguments": "Carbrix.exe --rendering-driver vulkan",
+        "description_loc": {
+          "english": "Vulkan Suggested"
+        },
+        "description": "Vulkan Suggested"
+      },
+      "1": {
+        "executable": "Carbrix.exe",
+        "arguments": "Carbrix.exe --rendering-driver d3d12",
+        "description_loc": {
+          "english": "Directx12 Alternitive"
+        },
+        "description": "Directx12 Alternitive"
       }
-    }
+    },
+    "uselaunchcommandline": "1"
   },
   "depots": {
     "3713081": {
@@ -105,9 +120,14 @@
       },
       "manifests": {
         "public": {
-          "gid": "3741416025956801848",
-          "size": "234805768",
-          "download": "91698368"
+          "gid": "3837434557924267453",
+          "size": "233603672",
+          "download": "91295264"
+        },
+        "testbranch": {
+          "gid": "8495379562732509127",
+          "size": "233599672",
+          "download": "91287504"
         }
       }
     },
@@ -115,8 +135,13 @@
     "workshopdepot": "3713080",
     "branches": {
       "public": {
-        "buildid": "20451656",
-        "timeupdated": "1760841930"
+        "buildid": "20522224",
+        "timeupdated": "1761272230"
+      },
+      "testbranch": {
+        "buildid": "20506570",
+        "description": "Testers",
+        "timeupdated": "1761189329"
       }
     }
   }
