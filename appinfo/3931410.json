@@ -1,6 +1,5 @@
 {
   "appid": "3931410",
-  "public_only": "1",
   "common": {
     "name": "Super Dragon Ninja",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7f56b7d022d4b8d3874f8a25ca65b7d58e15fcc5/capsule_231x87.jpg"
@@ -73,7 +72,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758909459",
+    "store_asset_mtime": "1760125391",
     "associations": {
       "0": {
         "type": "developer",
@@ -99,9 +98,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760133144",
     "community_hub_visible": "1",
     "gameid": "3931410",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "19",
@@ -120,6 +119,54 @@
       "14": "4004",
       "15": "4182",
       "16": "8093"
+    }
+  },
+  "extended": {
+    "developer": "Sean Guidry",
+    "publisher": "Sean Guidry"
+  },
+  "config": {
+    "installdir": "Super Dragon Ninja",
+    "launch": {
+      "0": {
+        "executable": "SuperDragonNinja.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3931411": {
+      "manifests": {
+        "public": {
+          "gid": "2599803830713874314",
+          "size": "767449661",
+          "download": "643829712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20535247",
+        "timeupdated": "1761340098"
+      }
     }
   }
 }
