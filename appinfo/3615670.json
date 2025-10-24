@@ -1,6 +1,5 @@
 {
   "appid": "3615670",
-  "public_only": "1",
   "common": {
     "name": "Geometry Factory",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Geometry Factory",
       "schinese": "几何工厂",
@@ -145,7 +144,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3615670",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -163,6 +161,51 @@
       "13": "5154",
       "14": "7250",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "LINGXI GAMES",
+    "publisher": "LINGXI GAMES"
+  },
+  "config": {
+    "installdir": "Geometry Factory",
+    "launch": {
+      "0": {
+        "executable": "Geometry Factory.exe"
+      }
+    }
+  },
+  "depots": {
+    "3615671": {
+      "manifests": {
+        "public": {
+          "gid": "2470356471603673010",
+          "size": "305091659",
+          "download": "154561072"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20482609",
+        "timeupdated": "1761059794"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "9000000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "LX Games/Geometry Factory",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
