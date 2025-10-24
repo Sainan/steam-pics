@@ -1,6 +1,5 @@
 {
   "appid": "4097530",
-  "public_only": "1",
   "common": {
     "name": "神游课本 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "fb7725b7a3b5bd7211fb21d9317afb78c6aa28b5/capsule_231x87.jpg",
@@ -115,7 +114,46 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4097530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DayDayDreamers",
+    "publisher": "DayDayDreamers"
+  },
+  "config": {
+    "installdir": "DayDayDreamDemo",
+    "launch": {
+      "0": {
+        "executable": "DayDayDream.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Start Game"
+        },
+        "description": "Start Game"
+      }
+    }
+  },
+  "depots": {
+    "4097531": {
+      "manifests": {
+        "public": {
+          "gid": "1014945277855282011",
+          "size": "1714541789",
+          "download": "219291056"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20357740",
+        "timeupdated": "1760278114"
+      }
+    }
   }
 }
