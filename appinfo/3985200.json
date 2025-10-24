@@ -1,6 +1,5 @@
 {
   "appid": "3985200",
-  "public_only": "1",
   "common": {
     "name": "Steel Ark Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "93316653ea9cff2c729bb045bfaa89d56c24109b/capsule_231x87.jpg"
@@ -94,7 +93,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761310722",
     "gameid": "3985200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "4Tale Production",
+    "publisher": "4Tale Production",
+    "homepage": "https://www.4taleproduction.com/game/steel-ark"
+  },
+  "config": {
+    "installdir": "Steel Ark Demo",
+    "launch": {
+      "0": {
+        "executable": "TheLastStation.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3985201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2488629454069665767",
+          "size": "13590772937",
+          "download": "12590174448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20403061",
+        "timeupdated": "1760542326"
+      }
+    }
   }
 }
