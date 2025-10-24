@@ -1,6 +1,5 @@
 {
   "appid": "3982130",
-  "public_only": "1",
   "common": {
     "name": "Hijong Park's Defender Patrol",
     "type": "Game",
@@ -14,7 +13,7 @@
       "english": "1",
       "koreana": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Hijong Park's Defender Patrol",
       "koreana": "박희종의 디펜더 정찰"
@@ -121,9 +120,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761292850",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3982130",
-    "exfgls": "8",
     "store_tags": {
       "0": "15045",
       "1": "4684",
@@ -145,6 +145,56 @@
       "17": "6691",
       "18": "4004",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Hijong Park",
+    "publisher": "PsychoFlux Entertainment"
+  },
+  "config": {
+    "installdir": "Hijong Park's Defender Patrol",
+    "launch": {
+      "0": {
+        "executable": "Defender Patrol.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "Defender Patrol.exe",
+        "arguments": "-VR",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "3982131": {
+      "manifests": {
+        "public": {
+          "gid": "8572839043455532484",
+          "size": "241078862",
+          "download": "61889856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20494237",
+        "timeupdated": "1761127486"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "8192",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Hijong Park/Defender Patrol",
+        "pattern": "Defender-Patrol-SaveFiles",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
