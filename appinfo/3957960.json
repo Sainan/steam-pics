@@ -1,10 +1,9 @@
 {
   "appid": "3957960",
-  "public_only": "1",
   "common": {
     "name": "Ether Core",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "ce88d14e6664add8ae59c0c6a6e73ee0a7df8edc",
     "icon": "ec8cee324f25cb6c6d4fe4c1e938fa7633c20f4d",
     "oslist": "windows",
@@ -101,9 +100,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761068519",
     "community_hub_visible": "1",
     "gameid": "3957960",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -124,6 +123,43 @@
       "16": "4158",
       "17": "4255",
       "18": "1662"
+    }
+  },
+  "extended": {
+    "developer": "Cogetsu",
+    "publisher": "Cogetsu"
+  },
+  "config": {
+    "installdir": "EtherCore",
+    "launch": {
+      "0": {
+        "executable": "ether.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3957961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3306659299273201797",
+          "size": "1161875358",
+          "download": "608381984"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20484059",
+        "timeupdated": "1761065957"
+      }
     }
   }
 }
