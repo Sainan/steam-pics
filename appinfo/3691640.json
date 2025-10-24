@@ -1,13 +1,12 @@
 {
   "appid": "3691640",
-  "public_only": "1",
   "common": {
     "name": "Love Craft",
     "type": "Game",
     "icon": "27996494754f1de158000e0baabc788ca6f9bfd5",
     "clienttga": "9344f5577131717d8bb2c59193ead90551d2c8a4",
     "clienticon": "27996494754f1de158000e0baabc788ca6f9bfd5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -114,9 +113,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3691640",
-    "exfgls": "8",
     "store_tags": {
       "0": "4136",
       "1": "44868",
@@ -138,6 +138,59 @@
       "17": "5984",
       "18": "5608",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "Toiu",
+    "publisher": "Toiu"
+  },
+  "config": {
+    "installdir": "LoveCraft",
+    "launch": {
+      "0": {
+        "executable": "Love Craft.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3691641": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "553214705997768894",
+          "size": "374631980",
+          "download": "315594592"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20529868",
+        "timeupdated": "1761313522"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Love_Craft",
+        "pattern": "*.json"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "Love_Craft/dialogic/saves",
+        "pattern": "*.txt"
+      }
     }
   }
 }
