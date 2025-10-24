@@ -1,6 +1,5 @@
 {
   "appid": "3305060",
-  "public_only": "1",
   "common": {
     "name": "Escape Floor 13",
     "type": "Game",
@@ -21,7 +20,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -137,9 +136,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761321623",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3305060",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "599",
@@ -152,6 +152,70 @@
       "8": "4182",
       "9": "7208",
       "10": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Fit'n'Crispy Games",
+    "publisher": "Fit'n'Crispy Games"
+  },
+  "config": {
+    "installdir": "Escape Floor 13",
+    "launch": {
+      "0": {
+        "executable": "Escape Floor 13.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Escape_Floor_13.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "3305061": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2509638434924074337",
+          "size": "270436307",
+          "download": "108528960"
+        }
+      }
+    },
+    "3305062": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "214412647234719503",
+          "size": "500464712",
+          "download": "225803728"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,japanese,dutch",
+    "branches": {
+      "public": {
+        "buildid": "20500914",
+        "timeupdated": "1761156742"
+      }
     }
   }
 }
