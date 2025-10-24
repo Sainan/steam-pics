@@ -1,13 +1,12 @@
 {
   "appid": "4015120",
-  "public_only": "1",
   "common": {
     "name": "Luce Spenta",
     "type": "Game",
     "icon": "e2be3c4003c7ca899899eacf661528cdc67e96bc",
     "clienticns": "b041e08a806e5794adbd45157a1b99c613e0ae29",
     "clienticon": "e2be3c4003c7ca899899eacf661528cdc67e96bc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -189,9 +188,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761328816",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4015120",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -217,6 +217,55 @@
       "17": "1651",
       "18": "1721",
       "19": "13070"
+    }
+  },
+  "extended": {
+    "developer": "MrFaabry",
+    "publisher": "MrFaabry"
+  },
+  "config": {
+    "installdir": "Luce Spenta",
+    "launch": {
+      "0": {
+        "executable": "Luce_Spenta.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4015121": {
+      "manifests": {
+        "public": {
+          "gid": "5257420256169046603",
+          "size": "1708823761",
+          "download": "1622598064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20522824",
+        "timeupdated": "1761275937"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "RenPy/LuceSpentaSaves/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
