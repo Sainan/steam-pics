@@ -1,10 +1,9 @@
 {
   "appid": "4005830",
-  "public_only": "1",
   "common": {
     "name": "Taskbarn",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761321600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4005830",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "615955",
@@ -121,6 +121,71 @@
       "11": "87918",
       "12": "5350",
       "13": "4094"
+    }
+  },
+  "extended": {
+    "developer": "Goop Games",
+    "publisher": "Goop Games"
+  },
+  "config": {
+    "installdir": "Taskbarn",
+    "launch": {
+      "0": {
+        "executable": "Taskbarn.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4005831": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8782015670450560758",
+          "size": "628287201",
+          "download": "385617968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20520764",
+        "timeupdated": "1761263255"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\Taskbarn\\Saved\\SaveGames\\MySaveGame",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
