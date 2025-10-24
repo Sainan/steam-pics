@@ -1,6 +1,5 @@
 {
   "appid": "3631290",
-  "public_only": "1",
   "common": {
     "name": "Slots & Daggers",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "c4bac705deb5dbeb9d2b130454bba7b2fbd3dda1",
     "clienttga": "5d2aefe0722e087228f72410443032058bccac6e",
     "icon": "bb96d9504759b09d384a4bf934dfe94fc19f57e3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "命运转轮 | Slots & Daggers",
       "japanese": "スロット＆ダガー | Slots & Daggers",
@@ -120,7 +119,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758556687",
+    "store_asset_mtime": "1761320170",
     "associations": {
       "0": {
         "type": "developer",
@@ -190,9 +189,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321822",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3631290",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "597",
@@ -214,6 +214,118 @@
       "17": "3916",
       "18": "3993",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Friedemann",
+    "publisher": "Future Friends Games"
+  },
+  "config": {
+    "installdir": "Slots and Daggers",
+    "launch": {
+      "0": {
+        "executable": "Slots and Daggers.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Slots and Daggers.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3631291": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2428537962878898152",
+          "size": "244724245",
+          "download": "104684688"
+        },
+        "beta": {
+          "gid": "2428537962878898152",
+          "size": "244724245",
+          "download": "104684688"
+        }
+      }
+    },
+    "3631292": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4372927126606438701",
+          "size": "227478277",
+          "download": "96506480"
+        },
+        "beta": {
+          "gid": "4372927126606438701",
+          "size": "227478277",
+          "download": "96506480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20529932",
+        "timeupdated": "1761319950"
+      },
+      "beta": {
+        "buildid": "20529932",
+        "description": "For beta testing",
+        "timeupdated": "1761313978"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Friedemann/SlotsAndDaggers",
+        "pattern": "*.save",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Friedemann/SlotsAndDaggers",
+        "pattern": "*.tutProg",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Friedemann/SlotsAndDaggers",
+            "replace": "com.Friedemann.SlotsAndDaggers"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Friedemann/SlotsAndDaggers",
+            "replace": ".config/unity3D/Friedemann/SlotsAndDaggers"
+          }
+        }
+      }
     }
   }
 }
