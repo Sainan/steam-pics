@@ -1,10 +1,9 @@
 {
   "appid": "3512300",
-  "public_only": "1",
   "common": {
     "name": "Dead Finger Dice",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -15,6 +14,13 @@
       "schinese": "断指游戏",
       "koreana": "데드 핑거 게임",
       "tchinese": "斷指遊戲"
+    },
+    "languages": {
+      "english": "1",
+      "koreana": "1",
+      "schinese": "1",
+      "tchinese": "1",
+      "japanese": "1"
     },
     "content_descriptors": {
       "0": "2",
@@ -211,9 +217,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761303610",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3512300",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -240,5 +247,68 @@
       "18": "32322",
       "19": "6971"
     }
+  },
+  "extended": {
+    "developer": "Rocket Adrift Games",
+    "publisher": "Black Lantern Collective",
+    "homepage": "https://rocketadrift.com/"
+  },
+  "config": {
+    "installdir": "Dead Finger Dice",
+    "launch": {
+      "0": {
+        "executable": "windows 1.0.4.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "executables\\linux 1.0.4.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3512301": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2792860605093629552",
+          "size": "414049376",
+          "download": "300610944"
+        }
+      }
+    },
+    "3512302": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4137671626484130952",
+          "size": "386968800",
+          "download": "293943856"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "20527622",
+        "timeupdated": "1761303553"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100",
+    "maxnumfiles": "256",
+    "sync_while_suspended": "1",
+    "appidredirect": "3512300",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
