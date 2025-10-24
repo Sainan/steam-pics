@@ -1,6 +1,5 @@
 {
   "appid": "4041870",
-  "public_only": "1",
   "common": {
     "name": "BANE-FALL",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -141,9 +140,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761339762",
     "community_hub_visible": "1",
     "gameid": "4041870",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -168,6 +167,39 @@
       "16": "7250",
       "17": "4191",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SJ3",
+    "publisher": "SJ3",
+    "homepage": "https://x.com/SJ3_games"
+  },
+  "config": {
+    "installdir": "BANE-FALL",
+    "launch": {
+      "0": {
+        "executable": "BANE-FALL.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4041871": {
+      "manifests": {
+        "public": {
+          "gid": "8821189612487459165",
+          "size": "3468385618",
+          "download": "1266158496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20534884",
+        "timeupdated": "1761338221"
+      }
     }
   }
 }
