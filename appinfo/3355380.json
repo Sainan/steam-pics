@@ -1,10 +1,9 @@
 {
   "appid": "3355380",
-  "public_only": "1",
   "common": {
     "name": "Pal-Mon",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "5ee241aa32825643e59c5e2eee62dcec638fcdb3",
     "clienttga": "b6e4ed22455359280698d8ffa93f1528e8046405",
     "clienticon": "8f64c351ab600eb8f49ab81e936d30777ef92c8a",
@@ -93,7 +92,7 @@
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_22": "1"
     },
     "supported_languages": {
       "english": {
@@ -101,6 +100,7 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3355380",
     "exfgls": "3",
@@ -122,6 +122,46 @@
       "14": "1742",
       "15": "3799",
       "16": "4878"
+    }
+  },
+  "extended": {
+    "developer": "Gavin Ray",
+    "publisher": "Gavin Ray",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Pal_Mon",
+    "launch": {
+      "0": {
+        "executable": "Pal_mon_Default_build\\Pal_Mon_Win.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3355381": {
+      "manifests": {
+        "public": {
+          "gid": "7573211424122651619",
+          "size": "118032640",
+          "download": "56979712"
+        }
+      }
+    },
+    "3355382": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19602740",
+        "timeupdated": "1755200816"
+      }
     }
   }
 }
