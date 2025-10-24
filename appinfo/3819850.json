@@ -1,6 +1,5 @@
 {
   "appid": "3819850",
-  "public_only": "1",
   "common": {
     "name": "Silent Street",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "74c1bd962f5b59c821315e36a1da858120e7a3ae",
     "clienticon": "81d46faf832a9fcec31f3cb9d3c2a888290bec51",
     "icon": "81d46faf832a9fcec31f3cb9d3c2a888290bec51",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "27a72cbcf3e89f387d2fc1ce1db1013912d689ca/capsule_231x87.jpg"
@@ -97,14 +96,11 @@
       "english": {
         "full_audio": "true",
         "supported": "true"
-      },
-      "french": {
-        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761289206",
     "community_hub_visible": "1",
     "gameid": "3819850",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "5900",
@@ -114,6 +110,58 @@
       "5": "1667",
       "6": "492",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SolarWireStudios",
+    "publisher": "SolarWireStudios"
+  },
+  "config": {
+    "installdir": "Silent Street",
+    "launch": {
+      "0": {
+        "executable": "Silent.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3819851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1084356827320502994",
+          "size": "8798035935",
+          "download": "8481369328"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20503476",
+        "timeupdated": "1761170723"
+      }
     }
   }
 }
