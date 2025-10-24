@@ -32,6 +32,63 @@
       "sc_schinese": "1"
     },
     "releasestate": "released",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760659200",
+      "tested_build_id": "20417796",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "48a2c5ada59acf3693fd4944cd0bd9e723b258b0/capsule_231x87_schinese.jpg",
@@ -116,7 +173,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760337364",
+    "store_asset_mtime": "1761034246",
     "associations": {
       "0": {
         "type": "developer",
@@ -199,15 +256,15 @@
       "1": "19",
       "2": "353880",
       "3": "1774",
-      "4": "3814",
-      "5": "4637",
+      "4": "4637",
+      "5": "3814",
       "6": "3834",
       "7": "1199779",
       "8": "1662",
       "9": "7332",
       "10": "4726",
-      "11": "4562",
-      "12": "4791",
+      "11": "4791",
+      "12": "4562",
       "13": "5765",
       "14": "4136",
       "15": "4106",
@@ -217,7 +274,7 @@
       "19": "492"
     },
     "review_score": "9",
-    "review_percentage": "95"
+    "review_percentage": "96"
   },
   "extended": {
     "developer": "Team Soda",
@@ -254,9 +311,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "5392261063067559256",
-          "size": "2311916357",
-          "download": "828091424"
+          "gid": "776515690643303057",
+          "size": "2264720155",
+          "download": "781058096"
         }
       }
     },
@@ -267,17 +324,17 @@
       },
       "manifests": {
         "public": {
-          "gid": "9054744255918516726",
-          "size": "2322467068",
-          "download": "965564544"
+          "gid": "2189816758559323339",
+          "size": "2275274002",
+          "download": "918534032"
         }
       }
     },
     "workshopdepot": "3167020",
     "branches": {
       "public": {
-        "buildid": "20435901",
-        "timeupdated": "1760706895"
+        "buildid": "20508321",
+        "timeupdated": "1761201584"
       }
     },
     "privatebranches": "1"
@@ -291,18 +348,6 @@
         "path": "TeamSoda/Duckov/",
         "pattern": "*.sav",
         "recursive": "1"
-      },
-      "1": {
-        "root": "WinAppDataLocalLow",
-        "path": "TeamSoda/Duckov/",
-        "pattern": "*.bac",
-        "recursive": "1"
-      },
-      "2": {
-        "root": "WinAppDataLocalLow",
-        "path": "TeamSoda/Duckov/",
-        "pattern": "*.bac.*",
-        "recursive": "1"
       }
     },
     "rootoverrides": {
@@ -311,12 +356,7 @@
         "os": "MacOS",
         "oscompare": "=",
         "useinstead": "MacAppSupport",
-        "pathtransforms": {
-          "0": {
-            "find": "TeamSoda/Duckov/",
-            "replace": ""
-          }
-        }
+        "addpath": ""
       }
     }
   }
