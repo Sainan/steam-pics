@@ -1,10 +1,9 @@
 {
   "appid": "3334570",
-  "public_only": "1",
   "common": {
     "name": "Lone Warrior's Fist",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -130,9 +129,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3334570",
-    "exfgls": "8",
     "store_tags": {
       "0": "4736",
       "1": "19",
@@ -154,6 +153,65 @@
       "17": "1684",
       "18": "4295",
       "19": "7926"
+    }
+  },
+  "extended": {
+    "developer": "CreatiCell Games",
+    "publisher": "CreatiCell Games"
+  },
+  "config": {
+    "installdir": "Lone Warrior's Fist",
+    "launch": {
+      "0": {
+        "executable": "valorfist-pro.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3334571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8972348540768400520",
+          "size": "762987267",
+          "download": "192094976"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20529831",
+        "timeupdated": "1761313393"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "524288000",
+    "maxnumfiles": "500",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Creaticell Games/valorfist-pro/{Steam3AccountID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
