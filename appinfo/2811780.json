@@ -1,6 +1,5 @@
 {
   "appid": "2811780",
-  "public_only": "1",
   "common": {
     "name": "Deck Vs Doom",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "ef4ac2abc6d17ce3a17464fa9124eeba93a073f1",
     "clienttga": "f3a79e5290a01d83a3fa79e0fee310906c2f8dcc",
     "clienticon": "26e5cb50f48d7161fac4d525e2ade5e4b23501fc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -107,9 +106,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2811780",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1645",
@@ -131,6 +131,102 @@
       "17": "9541",
       "18": "4046",
       "19": "12472"
+    }
+  },
+  "extended": {
+    "developer": "Danial Rashidi",
+    "publisher": "Rashidi Interactive"
+  },
+  "config": {
+    "installdir": "DeckVsDoom",
+    "launch": {
+      "0": {
+        "executable": "Windows\\CardDefense.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2811781": {
+      "manifests": {
+        "public": {
+          "gid": "8030690846945572642",
+          "size": "1375967570",
+          "download": "1254188704"
+        },
+        "beta": {
+          "gid": "8030690846945572642",
+          "size": "1375967570",
+          "download": "1254188704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20495696",
+        "timeupdated": "1761141119"
+      },
+      "beta": {
+        "buildid": "20495696",
+        "description": "Beta branch to test stuff",
+        "timeupdated": "1761134206"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "CardDefense/Saved/SaveGames"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "/deck/.local/share/Steam/steamapps/compatdata/2811780"
+          }
+        }
+      }
     }
   }
 }
