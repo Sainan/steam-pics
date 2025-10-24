@@ -31,8 +31,8 @@
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1746835200",
-      "tested_build_id": "18390227",
+      "test_timestamp": "1760659200",
+      "tested_build_id": "20334778",
       "tests": {
         "0": {
           "display": "3",
@@ -40,15 +40,15 @@
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         },
         "2": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "3": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "4": {
           "display": "4",
@@ -82,12 +82,13 @@
         "requires_manual_keyboard_invoke": "1",
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "1",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "small_text": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-9.0-4RC",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
+        "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0"
       }
@@ -299,17 +300,17 @@
     "3179731": {
       "manifests": {
         "public": {
-          "gid": "6415210587797737294",
-          "size": "1534973918",
-          "download": "1391006832"
+          "gid": "5705282153581353123",
+          "size": "1539772031",
+          "download": "1395593056"
         }
       }
     },
     "workshopdepot": "3179730",
     "branches": {
       "public": {
-        "buildid": "20369698",
-        "timeupdated": "1760363065"
+        "buildid": "20438258",
+        "timeupdated": "1761053286"
       }
     },
     "privatebranches": "1"
