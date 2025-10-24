@@ -1,10 +1,9 @@
 {
   "appid": "3371510",
-  "public_only": "1",
   "common": {
     "name": "Roulette Hero",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "Roulette Hero",
       "schinese": "轮盘英雄",
@@ -25,8 +24,8 @@
     "osextended": "",
     "controllertagwizard": "1",
     "small_capsule": {
-      "english": "ab595979645dfca8e1ecab48816c1ade7a3f1a17/capsule_231x87.jpg",
-      "schinese": "19426271048885d5a3bbf4633d87fe370a5ff421/capsule_231x87_schinese.jpg"
+      "english": "14fcf8e290d9d56f7b8340c5678c6524894c9e69/capsule_231x87.jpg",
+      "schinese": "587d56a495dc7dd1a649d877e174fc5304c19a12/capsule_231x87_schinese.jpg"
     },
     "header_image": {
       "schinese": "40ba56f4964ec808c2abeb3e27ff1ca068aa38bf/header_schinese.jpg",
@@ -95,7 +94,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760686579",
+    "store_asset_mtime": "1761272198",
     "associations": {
       "0": {
         "type": "developer",
@@ -141,9 +140,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761272418",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3371510",
-    "exfgls": "8",
     "store_tags": {
       "0": "1773",
       "1": "32322",
@@ -163,6 +163,88 @@
       "15": "4562",
       "16": "1741",
       "17": "4325"
+    }
+  },
+  "extended": {
+    "developer": "CLLC Studio",
+    "publisher": "Spiral Up Games"
+  },
+  "config": {
+    "installdir": "RouletteHero",
+    "launch": {
+      "0": {
+        "executable": "RouletteHero.exe"
+      },
+      "1": {
+        "executable": "Mod\\ModTool\\ModEditor\\RouletteHeroEditor.exe",
+        "type": "editor",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "ModEditor"
+        },
+        "description": "ModEditor"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3371511": {
+      "manifests": {
+        "public": {
+          "gid": "3947591497633319911",
+          "size": "167576237",
+          "download": "89284128"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "workshopdepot": "3371510",
+    "branches": {
+      "public": {
+        "buildid": "20478924",
+        "timeupdated": "1761042450"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "512000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CLLC/RouletteHero",
+        "pattern": "*.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "CLLC/RouletteHero",
+            "replace": "CLLC/RouletteHero"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "CLLC/RouletteHero",
+            "replace": ".config/unity3d/CLLC/RouletteHero"
+          }
+        }
+      }
     }
   }
 }
