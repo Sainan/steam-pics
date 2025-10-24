@@ -1,6 +1,5 @@
 {
   "appid": "3902220",
-  "public_only": "1",
   "common": {
     "name": "黒歴史ファイターズ",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2d02487873721f058bea27a0bc5e043363705c78",
     "clienticon": "3af68a59835498fe3930f29c17c0435138bdd9a1",
     "clienttga": "182d6327daa087f7a276ce055344ffe6fa303fc4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,10 +113,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761267836",
     "steam_deck_blog_url": "https://steamcommunity.com/app/3902220/discussions/0/604168222932271780/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3902220",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1684",
@@ -135,6 +135,70 @@
       "13": "1751",
       "14": "1719",
       "15": "1646"
+    }
+  },
+  "extended": {
+    "developer": "ジェッドム",
+    "publisher": "ジェッドム"
+  },
+  "config": {
+    "installdir": "黒歴史ファイターズ",
+    "launch": {
+      "0": {
+        "executable": "Windows/DarkHistory.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3902221": {},
+    "3902222": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4226186594595369542",
+          "size": "1802328966",
+          "download": "1030535984"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20272412",
+        "timeupdated": "1759763631"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000",
+    "maxnumfiles": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "jeddom/DarkHistory/Save/Standalone",
+        "pattern": "*.bin"
+      }
     }
   }
 }
