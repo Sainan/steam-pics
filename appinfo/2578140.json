@@ -1,6 +1,5 @@
 {
   "appid": "2578140",
-  "public_only": "1",
   "common": {
     "name": "I Mother",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "以母之名",
       "tchinese": "以母之名",
@@ -99,7 +98,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759797082",
+    "store_asset_mtime": "1761081240",
     "associations": {
       "0": {
         "type": "developer",
@@ -169,9 +168,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761148802",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2578140",
-    "exfgls": "8",
     "store_tags": {
       "0": "1662",
       "1": "21",
@@ -193,6 +193,111 @@
       "17": "19",
       "18": "9",
       "19": "4191"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "HellYeah!",
+    "publisher": "indie.io",
+    "homepage": "https://hellyeah.jp"
+  },
+  "config": {
+    "installdir": "I_Mother",
+    "launch": {
+      "0": {
+        "executable": "I_Mother.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "I_Mother.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
     }
+  },
+  "depots": {
+    "2578141": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5197183560179421257",
+          "size": "6999636254",
+          "download": "2584073808"
+        },
+        "demo": {
+          "gid": "5116313134749693963",
+          "size": "4760940162",
+          "download": "1766774448"
+        },
+        "iio-dev": {
+          "gid": "7026266979392780353",
+          "size": "7043713851",
+          "download": "2586393472"
+        },
+        "iio-testing": {
+          "gid": "6517288501322935867",
+          "size": "7785634531",
+          "download": "2906535936"
+        }
+      }
+    },
+    "2578142": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2116312234581943864",
+          "size": "7061138577",
+          "download": "2761944896"
+        },
+        "demo": {
+          "gid": "9203514807639500495",
+          "size": "5071142645",
+          "download": "1870209296"
+        },
+        "iio-dev": {
+          "gid": "2186791013338358210",
+          "size": "7104929809",
+          "download": "2764194528"
+        },
+        "iio-testing": {
+          "gid": "439707247373294867",
+          "size": "8068858718",
+          "download": "3009391536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365300",
+        "timeupdated": "1760652181"
+      },
+      "demo": {
+        "buildid": "17890384",
+        "description": "demo builds",
+        "timeupdated": "1743118412"
+      },
+      "iio-dev": {
+        "buildid": "20451372",
+        "description": "iio-dev",
+        "timeupdated": "1760836924"
+      },
+      "iio-testing": {
+        "buildid": "19019941",
+        "description": "iio-testing",
+        "timeupdated": "1751061074"
+      }
+    },
+    "privatebranches": "1"
   }
 }
