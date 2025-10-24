@@ -1,4 +1,119 @@
 {
   "appid": "3983530",
-  "public_only": "1"
+  "common": {
+    "name": "简单飞行 Demo",
+    "type": "Demo",
+    "parent": "3912830",
+    "clienticon": "8b88df0a7b9657fa4fc814b9f7abfa01c7f3b2fe",
+    "icon": "8b88df0a7b9657fa4fc814b9f7abfa01c7f3b2fe",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "b56af13667d9feac7c592e03594c23d63646d72c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "578421a65214f708e8075c9d3dd166d89da45cd7/header.jpg"
+    },
+    "store_asset_mtime": "1760422541",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "jaxleon"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "jaxleon"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_25": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1760930919",
+    "gameid": "3983530",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "jaxleon",
+    "publisher": "jaxleon"
+  },
+  "config": {
+    "installdir": "简单飞行 Demo",
+    "launch": {
+      "0": {
+        "executable": "JianDanFX.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3983531": {
+      "manifests": {
+        "public": {
+          "gid": "5157386517628599394",
+          "size": "2150608001",
+          "download": "1968720624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20526370",
+        "timeupdated": "1761298212"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "JianDanFX",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
+  }
 }
