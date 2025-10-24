@@ -1,6 +1,5 @@
 {
   "appid": "4080360",
-  "public_only": "1",
   "common": {
     "name": "Deceived Of Joy Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -159,10 +158,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761270342",
     "gameid": "4080360",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "LevelBound Studios",
+    "publisher": "LevelBound Studios"
+  },
+  "config": {
+    "installdir": "Deceived Of Joy Demo",
+    "launch": {
+      "0": {
+        "executable": "DeceivedOfJoyDEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4080361": {
+      "manifests": {
+        "public": {
+          "gid": "1297686933619586927",
+          "size": "893280186",
+          "download": "621997984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20433418",
+        "timeupdated": "1760698559"
+      }
     }
   }
 }
