@@ -1,6 +1,5 @@
 {
   "appid": "3962400",
-  "public_only": "1",
   "common": {
     "name": "YogLabs: Testing Initiative",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -109,6 +108,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761301104",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3962400",
     "exfgls": "3",
@@ -127,6 +128,57 @@
       "11": "1755",
       "12": "1742",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Four White Cats",
+    "publisher": "Four White Cats",
+    "homepage": "https://elsewheregame.net",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "YogLabs",
+    "launch": {
+      "1": {
+        "executable": "data\\game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3962402": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6551212656371098568",
+          "size": "465861370",
+          "download": "317417024"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20526638",
+        "timeupdated": "1761299201"
+      }
     }
   }
 }
