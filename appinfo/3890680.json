@@ -1,6 +1,5 @@
 {
   "appid": "3890680",
-  "public_only": "1",
   "common": {
     "name": "69 Seconds Later",
     "type": "Game",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -115,9 +114,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761321600",
     "community_hub_visible": "1",
     "gameid": "3890680",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -145,6 +144,65 @@
       "17": "492",
       "18": "5923",
       "19": "1667"
+    }
+  },
+  "extended": {
+    "developer": "SinVR",
+    "publisher": "SinVR",
+    "homepage": "https://sinvr.co"
+  },
+  "config": {
+    "installdir": "Forbidden World",
+    "launch": {
+      "0": {
+        "executable": "69 Seconds Later/69 Seconds Later.exe",
+        "arguments": "SteamPC",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "69 Seconds Later/69 Seconds Later.exe",
+        "arguments": "SteamVR",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3890681": {
+      "manifests": {
+        "public": {
+          "gid": "4105117988195822690",
+          "size": "1114041139",
+          "download": "294843600"
+        }
+      }
+    },
+    "3890682": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3309895125814610154",
+          "size": "667461486",
+          "download": "667512816"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20498485",
+        "timeupdated": "1761146481"
+      }
     }
   }
 }
