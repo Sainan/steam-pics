@@ -1,6 +1,5 @@
 {
   "appid": "3857380",
-  "public_only": "1",
   "common": {
     "name": "NIGHTRAVEL",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienttga": "210aa6f569fd9d6fa52c55d806d16d14dc36f555",
     "clienticns": "ff643bd270cd1a14e23af077f49ca045b7820041",
     "linuxclienticon": "ff643bd270cd1a14e23af077f49ca045b7820041",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -129,6 +128,53 @@
       "14": "7208",
       "15": "4182",
       "16": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Yoshida Gakuen",
+    "publisher": "Yoshida Gakuen",
+    "homepage": "https://jolly-desert-09ff0f700.1.azurestaticapps.net/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "NIGHTRAVEL",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3857381": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4709857249494082496",
+          "size": "1512503271",
+          "download": "123003568"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20524369",
+        "timeupdated": "1761286968"
+      }
     }
   }
 }
