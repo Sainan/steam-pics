@@ -1,6 +1,5 @@
 {
   "appid": "1932190",
-  "public_only": "1",
   "common": {
     "name": "Outbreak: Shades of Horror",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "78df5a91ae5fef40e8d0b93737d513046bcfa4b8",
     "clienticon": "0c6d66f24f0ac95c568eb80c9cd1e4f6fb8573fe",
     "clienttga": "c221b2be1fe68ed15fda364072775e5974a9113a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -159,9 +158,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761343611",
     "community_hub_visible": "1",
     "gameid": "1932190",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -189,5 +188,75 @@
       "18": "1667",
       "19": "4175"
     }
+  },
+  "extended": {
+    "developer": "Dead Drop Studios LLC",
+    "publisher": "Dead Drop Studios LLC",
+    "homepage": "https://www.deaddroppublishing.com"
+  },
+  "config": {
+    "installdir": "Outbreak Shades of Horror",
+    "launch": {
+      "0": {
+        "executable": "ShadesOfHorror.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ShadesOfHorror.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "private"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1932191": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6533661731796547679",
+          "size": "68891377194",
+          "download": "66206214368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20535185",
+        "timeupdated": "1761342975"
+      }
+    },
+    "privatebranches": "1"
   }
 }
