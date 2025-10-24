@@ -1,4 +1,95 @@
 {
   "appid": "4051160",
-  "public_only": "1"
+  "common": {
+    "name": "SENSE: The Game Customizer",
+    "type": "Tool",
+    "parent": "3832650",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "icon": "f4e89cf18267b756180cdb1b3f6a2bb99939a2c5",
+    "clienticns": "e200750046d9437dacc68269c4f1c966df6997b5",
+    "linuxclienticon": "c6fc79bac327fb33c9ac61b2940ba01381ba981a",
+    "clienticon": "16f893375d2d71285117a859dc35f6e752728b88",
+    "releasestate": "released",
+    "gameid": "4051160"
+  },
+  "config": {
+    "installdir": "SENSE-The-Game-Customizer",
+    "launch": {
+      "0": {
+        "executable": "SENSE_THE_GAME_CUSTOMIZER.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SENSE_THE_GAME_CUSTOMIZER.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4051161": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5277385857120319167",
+          "size": "8660576",
+          "download": "3498208"
+        }
+      }
+    },
+    "4051162": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2749753702967884863",
+          "size": "8098400",
+          "download": "3242368"
+        }
+      }
+    },
+    "4051163": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4467025717926860559",
+          "size": "14934736",
+          "download": "3312112"
+        }
+      }
+    },
+    "4051164": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2400820807899823146",
+          "size": "9075313",
+          "download": "3263536"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20522788",
+        "timeupdated": "1761275702"
+      }
+    }
+  }
 }
