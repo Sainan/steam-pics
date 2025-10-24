@@ -1,10 +1,9 @@
 {
   "appid": "1653800",
-  "public_only": "1",
   "common": {
     "name": "On the Hunt",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "8813e3072a8cac2447a1d407eee85e325feb282a",
     "logo_small": "8813e3072a8cac2447a1d407eee85e325feb282a_thumb",
     "icon": "f5929b154f20159f70d2585ad98bf6f3bafb6174",
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761328914",
     "community_hub_visible": "1",
     "gameid": "1653800",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "5900",
@@ -128,6 +127,44 @@
       "17": "4182",
       "18": "492",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "Alekseev",
+    "publisher": "Alekseev",
+    "homepage": "https://onthehunt.ru/"
+  },
+  "config": {
+    "installdir": "On the Hunt",
+    "launch": {
+      "0": {
+        "executable": "OnTheHunt.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1653802": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2999152762076181879",
+          "size": "4661754744",
+          "download": "2382289168"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20357295",
+        "timeupdated": "1760273034"
+      }
     }
   }
 }
