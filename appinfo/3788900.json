@@ -1,6 +1,5 @@
 {
   "appid": "3788900",
-  "public_only": "1",
   "common": {
     "name": "Egglets - The Long 10 Days",
     "type": "Game",
@@ -16,7 +15,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -139,9 +138,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761296400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3788900",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -163,6 +163,72 @@
       "17": "6815",
       "18": "492",
       "19": "597"
+    }
+  },
+  "extended": {
+    "developer": "wieLuft Studio",
+    "publisher": "Halbekarrotte Game Studio"
+  },
+  "config": {
+    "installdir": "Egglets - The Long 10 Days",
+    "launch": {
+      "0": {
+        "executable": "The Long 10 Days.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "eggletsTheLongTenDay.app/Contents/MacOS/The Long 10 Days",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3788901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3163081579564416940",
+          "size": "876451941",
+          "download": "227468544"
+        }
+      }
+    },
+    "3788902": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9128644641638958273",
+          "size": "901265000",
+          "download": "236908992"
+        }
+      }
+    },
+    "baselanguages": "english,german,schinese",
+    "branches": {
+      "public": {
+        "buildid": "19915286",
+        "timeupdated": "1757441081"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "900000000",
+    "maxnumfiles": "900",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
