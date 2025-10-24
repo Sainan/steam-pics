@@ -1,6 +1,5 @@
 {
   "appid": "3585790",
-  "public_only": "1",
   "common": {
     "name": "Battle Tokens",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -152,6 +151,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3585790",
     "exfgls": "3",
@@ -176,6 +176,125 @@
       "17": "3859",
       "18": "4604",
       "19": "4791"
+    }
+  },
+  "extended": {
+    "developer": "ArchDawn",
+    "publisher": "ArchDawn",
+    "isfreeapp": "1",
+    "listofdlc": "4003420",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "BattleTokens",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "3",
+    "launch": {
+      "0": {
+        "executable": "BattleTokens.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BattleTokens.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Mac.app/Contents/MacOS/BattleTokens",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3585791": {
+      "manifests": {
+        "public": {
+          "gid": "3240013459622917349",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "3585792": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4679275135289279794",
+          "size": "339305413",
+          "download": "121466288"
+        }
+      }
+    },
+    "3585793": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1767749093502725204",
+          "size": "358780186",
+          "download": "130803856"
+        }
+      }
+    },
+    "3585794": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4382069139519403948",
+          "size": "334512611",
+          "download": "118486864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20533418",
+        "timeupdated": "1761329842"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "ArchDawn/BattleTokens/",
+        "pattern": "playerprefs.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "unity.<ArchDawn>.<BattleTokens>"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/<ArchDawn>/<BattleTokens>"
+      }
     }
   }
 }
