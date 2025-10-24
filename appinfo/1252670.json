@@ -20,73 +20,26 @@
   "config": {
     "installdir": "Logic World Dedicated Server",
     "launch": {
-      "0": {
-        "executable": "net7.0/Server.exe",
-        "type": "default",
-        "config": {
-          "oslist": "windows",
-          "osarch": "64"
-        },
-        "description_loc": {
-          "english": "net7.0 (LW v0.91.3)"
-        },
-        "description": "net7.0 (LW v0.91.3)"
-      },
-      "1": {
-        "executable": "net7.0/Server",
-        "type": "default",
-        "config": {
-          "oslist": "linux",
-          "osarch": "64"
-        },
-        "description_loc": {
-          "english": "net7.0 (LW v0.91.3)"
-        },
-        "description": "net7.0 (LW v0.91.3)"
-      },
-      "2": {
-        "executable": "net7.0/Server",
-        "type": "default",
-        "config": {
-          "oslist": "macos"
-        },
-        "description_loc": {
-          "english": "net7.0 (LW v0.91.3)"
-        },
-        "description": "net7.0 (LW v0.91.3)"
-      },
       "3": {
         "executable": "net9.0/Server.exe",
         "type": "default",
         "config": {
           "oslist": "windows"
-        },
-        "description_loc": {
-          "english": "net9.0 (LW v0.92+)"
-        },
-        "description": "net9.0 (LW v0.92+)"
+        }
       },
       "4": {
         "executable": "net9.0/Server",
         "type": "default",
         "config": {
           "oslist": "linux"
-        },
-        "description_loc": {
-          "english": "net9.0 (LW v0.92+)"
-        },
-        "description": "net9.0 (LW v0.92+)"
+        }
       },
       "5": {
         "executable": "net9.0/Server",
         "type": "default",
         "config": {
           "oslist": "macos"
-        },
-        "description_loc": {
-          "english": "net9.0 (LW v0.92+)"
-        },
-        "description": "net9.0 (LW v0.92+)"
+        }
       }
     }
   },
@@ -138,9 +91,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "935264613243643626",
-          "size": "212333852",
-          "download": "61091456"
+          "gid": "1403939679625182726",
+          "size": "109092892",
+          "download": "37087888"
         },
         "older-version-0.90.0": {
           "gid": "9001356186654937824",
@@ -177,10 +130,15 @@
           "size": "212080613",
           "download": "60965968"
         },
+        "older-version-0.91.3": {
+          "gid": "935264613243643626",
+          "size": "212333852",
+          "download": "61091456"
+        },
         "public-previews": {
-          "gid": "2609496587250598579",
-          "size": "109091076",
-          "download": "37087168"
+          "gid": "1403939679625182726",
+          "size": "109092892",
+          "download": "37087888"
         }
       }
     },
@@ -192,9 +150,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "3710104161112842155",
-          "size": "214924049",
-          "download": "61850640"
+          "gid": "2184912872298230899",
+          "size": "110676270",
+          "download": "37269712"
         },
         "older-version-0.90.0": {
           "gid": "7333620006893949728",
@@ -231,10 +189,15 @@
           "size": "214710099",
           "download": "61764192"
         },
+        "older-version-0.91.3": {
+          "gid": "3710104161112842155",
+          "size": "214924049",
+          "download": "61850640"
+        },
         "public-previews": {
-          "gid": "7605976915133400831",
-          "size": "110674450",
-          "download": "37269024"
+          "gid": "2184912872298230899",
+          "size": "110676270",
+          "download": "37269712"
         }
       }
     },
@@ -246,9 +209,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7121414239711071155",
-          "size": "212134939",
-          "download": "60901232"
+          "gid": "2744531514894034593",
+          "size": "109572422",
+          "download": "36808272"
         },
         "older-version-0.90.0": {
           "gid": "638188199948156965",
@@ -285,17 +248,22 @@
           "size": "211971045",
           "download": "60818592"
         },
+        "older-version-0.91.3": {
+          "gid": "7121414239711071155",
+          "size": "212134939",
+          "download": "60901232"
+        },
         "public-previews": {
-          "gid": "3779401360094229099",
-          "size": "109570606",
-          "download": "36807552"
+          "gid": "2744531514894034593",
+          "size": "109572422",
+          "download": "36808272"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "13827549",
-        "timeupdated": "1711142375"
+        "buildid": "20502841",
+        "timeupdated": "1761171979"
       },
       "older-version-0.90.0": {
         "buildid": "7579056",
@@ -332,10 +300,15 @@
         "description": "Version 0.91.2, released 2023-12-20",
         "timeupdated": "1703102693"
       },
+      "older-version-0.91.3": {
+        "buildid": "13827549",
+        "description": "Version 0.91.3, released 2024-03-22",
+        "timeupdated": "1711142398"
+      },
       "public-previews": {
-        "buildid": "20451665",
+        "buildid": "20502841",
         "description": "Public previews of upcoming LW updates",
-        "timeupdated": "1760842008"
+        "timeupdated": "1761168858"
       }
     },
     "privatebranches": "1"
