@@ -1,10 +1,9 @@
 {
   "appid": "2944350",
-  "public_only": "1",
   "common": {
     "name": "Undead Kingdom Survivors",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "6e568181c3adfc5f34545bb44608d629b480e008",
     "clienticon": "3e04f7c16ab3d0f60c169a9b5849000b0780cf17",
     "clienttga": "8f0b2a809a00b70b1d1d6776f7b93db251ec71c7",
@@ -105,9 +104,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761328811",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2944350",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -124,6 +124,63 @@
       "12": "4182",
       "13": "492",
       "14": "1685"
+    }
+  },
+  "extended": {
+    "developer": "Jinvira",
+    "publisher": "Jinvira"
+  },
+  "config": {
+    "installdir": "Undead Kingdom Survivors",
+    "launch": {
+      "0": {
+        "executable": "UndeadKingdom.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2944351": {
+      "manifests": {
+        "public": {
+          "gid": "7424699518935698556",
+          "size": "4028888173",
+          "download": "3595050736"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "19773741",
+        "timeupdated": "1756399658"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "rootoverrides": {
+      "0": {
+        "root": "MacHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
