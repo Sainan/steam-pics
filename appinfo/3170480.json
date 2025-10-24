@@ -1,6 +1,5 @@
 {
   "appid": "3170480",
-  "public_only": "1",
   "common": {
     "name": "Phasmonauts Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -107,11 +106,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761337254",
     "gameid": "3170480",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Dougie",
+    "publisher": "Dougie",
+    "homepage": "https://dougie.cool"
+  },
+  "config": {
+    "installdir": "Phasmonauts Demo",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Phasmonauts.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Happy hunting"
+        },
+        "description": "Happy hunting"
+      }
+    }
+  },
+  "depots": {
+    "3170481": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7772203756496094027",
+          "size": "76059721",
+          "download": "53839920"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20449651",
+        "timeupdated": "1760816336"
+      }
     }
   }
 }
