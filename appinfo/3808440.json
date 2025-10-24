@@ -1,6 +1,5 @@
 {
   "appid": "3808440",
-  "public_only": "1",
   "common": {
     "name": "Sightline",
     "type": "Game",
@@ -9,8 +8,9 @@
     "osarch": "",
     "osextended": "",
     "clienticon": "77a74c85cd897bc9175186ab85be14ebe86ce0fb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
+    "controller_support": "full",
     "small_capsule": {
       "english": "04a05777bc8c328b726beaff8ff8db4419b40743/capsule_231x87.jpg"
     },
@@ -92,6 +92,11 @@
     },
     "category": {
       "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -101,9 +106,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3808440",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -122,5 +127,46 @@
       "14": "4182",
       "15": "3993"
     }
+  },
+  "extended": {
+    "developer": "CarlRox55",
+    "publisher": "CarlRox55"
+  },
+  "config": {
+    "installdir": "Sightline",
+    "launch": {
+      "0": {
+        "executable": "Sightline.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch the .exe"
+        },
+        "description": "Launch the .exe"
+      }
+    }
+  },
+  "depots": {
+    "3808441": {
+      "manifests": {
+        "public": {
+          "gid": "4269260023833136215",
+          "size": "665940456",
+          "download": "252130400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20327785",
+        "timeupdated": "1760047575"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
