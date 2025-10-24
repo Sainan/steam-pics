@@ -1,13 +1,12 @@
 {
   "appid": "3566840",
-  "public_only": "1",
   "common": {
     "name": "Bleak Haven",
     "type": "Game",
     "icon": "cb617cabdc3b9eb6f8ca21be713ccd68eb19e789",
     "clienttga": "a9307c100aaa77483bf41f1a215c61a686a0f696",
     "clienticon": "e8073163c4a423947a1b60d5b21b4de2aec4b2ea",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -158,9 +157,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321694",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3566840",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -185,6 +185,88 @@
       "17": "4342",
       "18": "4345",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Hitori De Productions",
+    "publisher": "Hitori De Productions",
+    "homepage": "https://hitorideproductions.com"
+  },
+  "config": {
+    "installdir": "Bleak Haven",
+    "launch": {
+      "0": {
+        "executable": "Bleak Haven.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Bleak Haven.exe",
+        "arguments": "-dx11",
+        "type": "config",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX 11 - Use if the game crashes or performs poorly (low end visuals, FSR not supported)"
+        },
+        "description": "DirectX 11 - Use if the game crashes or performs poorly (low end visuals, FSR not supported)"
+      },
+      "2": {
+        "executable": "Bleak Haven.exe",
+        "arguments": "-dx12",
+        "type": "config",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX 12 - Use for the best perfomance (only high end PCs)"
+        },
+        "description": "DirectX 12 - Use for the best perfomance (only high end PCs)"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3566841": {
+      "manifests": {
+        "public": {
+          "gid": "5108524215797668860",
+          "size": "25171169260",
+          "download": "24184477616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20527462",
+        "timeupdated": "1761302797"
+      }
     }
   }
 }
