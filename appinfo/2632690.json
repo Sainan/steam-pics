@@ -137,15 +137,24 @@
     "installdir": "FoMO",
     "launch": {
       "0": {
-        "executable": "Third Eye.exe",
+        "executable": "FoMO.exe",
         "config": {
           "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FoMO.x86_64",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
   },
   "depots": {
     "2632691": {
+      "config": {
+        "oslist": "windows,macos"
+      },
       "manifests": {
         "public": {
           "gid": "7733659571848785869",
