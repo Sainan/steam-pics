@@ -1,6 +1,5 @@
 {
   "appid": "4062180",
-  "public_only": "1",
   "common": {
     "name": "吸血鬼の花嫁 ヴァンプドールのはなよめ The Novel Game Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -132,6 +131,68 @@
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Waterfall",
+    "publisher": "Waterfall",
+    "homepage": "https://vampdoll.dojin.com/"
+  },
+  "config": {
+    "installdir": "吸血鬼の花嫁 ヴァンプドールのはなよめ The Novel Game Demo",
+    "launch": {
+      "0": {
+        "executable": "吸血鬼の花嫁TheNovelGame_体験版/吸血鬼の花嫁TheNovelGame_体験版.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "吸血鬼の花嫁TheNovelGame_体験版/吸血鬼の花嫁TheNovelGame_体験版.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4062181": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4052959647069947866",
+          "size": "1621262238",
+          "download": "1402318368"
+        }
+      }
+    },
+    "4062183": {
+      "config": {
+        "language": "japanese",
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5524880556996896943",
+          "size": "1607217215",
+          "download": "1395149712"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20453343",
+        "timeupdated": "1760867491"
+      }
     }
   }
 }
