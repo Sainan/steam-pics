@@ -1,6 +1,5 @@
 {
   "appid": "2645670",
-  "public_only": "1",
   "common": {
     "name": "Eldritch Climb: A Cursed Ascent",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "d60f9ed7e065405b2e901e15c27f20fafc38e6ea",
     "clienticon": "41ce5ba7a884a58ac44f7083f3295820cfd87dd5",
     "clienttga": "9335e6d2051aa2fbab7e6273014f67ee1e46df19",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,9 +112,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2645670",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "3877",
@@ -138,5 +138,42 @@
       "18": "3978",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Covert Wonders",
+    "publisher": "Covert Wonders",
+    "homepage": "https://www.covertwonders.games/"
+  },
+  "config": {
+    "installdir": "EldritchClimb",
+    "launch": {
+      "0": {
+        "executable": "EldritchClimb.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2645671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8017093345256410489",
+          "size": "853351158",
+          "download": "136541200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20522057",
+        "timeupdated": "1761271191"
+      }
+    },
+    "privatebranches": "1"
   }
 }
