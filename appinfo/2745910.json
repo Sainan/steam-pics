@@ -1,10 +1,9 @@
 {
   "appid": "2745910",
-  "public_only": "1",
   "common": {
     "name": "Roxy Raccoon 3: Troubles in Time",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761280927",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2745910",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "5652",
@@ -136,6 +136,58 @@
       "17": "1681",
       "18": "4172",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Sinomod Studios",
+    "publisher": "Sinomod Studios"
+  },
+  "config": {
+    "installdir": "Roxy Raccoon Troubles in Time",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "TroublesInTime.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2745911": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5293594183137942067",
+          "size": "6505960677",
+          "download": "1854598624"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20341931",
+        "timeupdated": "1760124310"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Sinomod Studios/TroublesInTime",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
