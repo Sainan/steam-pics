@@ -1,6 +1,5 @@
 {
   "appid": "4107600",
-  "public_only": "1",
   "common": {
     "name": "推箱子3D Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ead5c4fbccb69949d3aef13c742868ae9096ae71/capsule_231x87.jpg"
@@ -93,7 +92,65 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4107600",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "guochao liu",
+    "publisher": "guochao liu"
+  },
+  "config": {
+    "installdir": "PushBox3DDemo",
+    "launch": {
+      "0": {
+        "executable": "PushBox3DDemo\\PushBox3DDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "PushBox3DDemo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4107601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6091360181444229967",
+          "size": "100843424",
+          "download": "34585472"
+        }
+      }
+    },
+    "4107602": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4299268303879558199",
+          "size": "191276513",
+          "download": "58414368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20414084",
+        "timeupdated": "1760595104"
+      }
+    }
   }
 }
