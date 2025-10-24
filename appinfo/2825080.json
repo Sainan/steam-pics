@@ -1,13 +1,12 @@
 {
   "appid": "2825080",
-  "public_only": "1",
   "common": {
     "name": "Sanguine",
     "type": "Game",
     "icon": "128115099e95cb017ae490edcbd465591315165e",
     "clienttga": "db915b1bd7d2551d7d33c0497cc2c0aedb926587",
     "clienticon": "f9fcb97ddd283ae8dea44c21c7cf1dee28b073e5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -126,10 +125,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321606",
     "steam_deck_blog_url": "https://steamcommunity.com/app/2825080/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2825080",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -155,6 +155,56 @@
       "17": "8945",
       "18": "4345",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Ryan Berg",
+    "publisher": "Seeker Studios",
+    "homepage": "http://www.sanguinegame.com"
+  },
+  "config": {
+    "installdir": "Sanguine",
+    "launch": {
+      "0": {
+        "executable": "SanguineGame.exe"
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "6"
+  },
+  "depots": {
+    "2825081": {
+      "manifests": {
+        "public": {
+          "gid": "7834997335799739234",
+          "size": "1752913228",
+          "download": "723180352"
+        }
+      }
+    },
+    "2825082": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20521236",
+        "timeupdated": "1761266078"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "12",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Seeker Studios\\SanguineGame\\",
+        "pattern": "*"
+      }
     }
   }
 }
