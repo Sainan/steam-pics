@@ -1,6 +1,5 @@
 {
   "appid": "3364520",
-  "public_only": "1",
   "common": {
     "name": "Scenes from the Heart - Part 1",
     "type": "Game",
@@ -11,7 +10,7 @@
     "osextended": "",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticon": "3ed0e7465d66fa480a30e4063586d2defb8b1d73",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "japanese": "1",
@@ -129,9 +128,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761321618",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3364520",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "4085",
@@ -153,6 +153,61 @@
       "17": "4182",
       "18": "492",
       "19": "5608"
+    }
+  },
+  "extended": {
+    "developer": "Zamius",
+    "publisher": "Zamius",
+    "homepage": "https://impress.games/press-kit/zamius/scenes-from-the-heart---part-1"
+  },
+  "config": {
+    "installdir": "Scenes from the Heart - Part 1",
+    "launch": {
+      "0": {
+        "executable": "Scenes_from_the_Heart-Part-1.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3364521": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1065977604173156909",
+          "size": "810570707",
+          "download": "673585824"
+        },
+        "beta": {
+          "gid": "642251974859318325",
+          "size": "786037598",
+          "download": "648895584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20185244",
+        "timeupdated": "1759218100"
+      },
+      "beta": {
+        "buildid": "19573604",
+        "description": "Beta builds",
+        "timeupdated": "1755963062"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2500000",
+    "maxnumfiles": "2500",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
