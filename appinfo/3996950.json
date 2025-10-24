@@ -1,6 +1,5 @@
 {
   "appid": "3996950",
-  "public_only": "1",
   "common": {
     "name": "Lizard Brain",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -146,9 +145,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761319800",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3996950",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -170,6 +170,108 @@
       "17": "4295",
       "18": "1654",
       "19": "3916"
+    }
+  },
+  "extended": {
+    "developer": "Voidville Studios",
+    "publisher": "Voidville Studios"
+  },
+  "config": {
+    "installdir": "Lizard Brain",
+    "launch": {
+      "0": {
+        "executable": "Lizard Brain.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Lizard Brain.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3996951": {},
+    "3996952": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6332675164869454950",
+          "size": "511312964",
+          "download": "216914784"
+        }
+      }
+    },
+    "3996953": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2891234728183724635",
+          "size": "516364088",
+          "download": "220037984"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20531339",
+        "timeupdated": "1761320014"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Voidville Studios/Lizard Brain",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Voidville Studios\\Lizard Brain",
+            "replace": "unity.VoidvilleStudios.LizardBrain"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Voidville Studios\\Lizard Brain",
+            "replace": ".config/unity3d/Voidville Studios/Lizard Brain"
+          }
+        }
+      }
     }
   }
 }
