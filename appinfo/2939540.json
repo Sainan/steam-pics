@@ -74,7 +74,19 @@
     "installdir": "Winds Of Arcana Ruination Playtest",
     "launch": {
       "0": {
-        "executable": "Winds Of Arcana.exe"
+        "executable": "Winds Of Arcana.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Winds_Of_Arcana_MAC.app/Contents/MacOS/Winds Of Arcana",
+        "workingdir": "Winds_Of_Arcana_MAC.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -91,6 +103,12 @@
         }
       }
     },
+    "2939542": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "english,german,french,spanish,russian,brazilian",
     "branches": {
       "public": {
         "buildid": "20517505",
