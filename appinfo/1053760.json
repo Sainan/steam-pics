@@ -1,0 +1,183 @@
+{
+  "appid": "1053760",
+  "common": {
+    "name": "Arkio",
+    "type": "Application",
+    "oslist": "windows",
+    "osarch": "",
+    "eulas": {
+      "0": {
+        "id": "1053760_eula_1",
+        "name": "Arkio EULA",
+        "url": "https://store.steampowered.com//eula/1053760_eula_1",
+        "version": "3"
+      }
+    },
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "seated": "1",
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      }
+    },
+    "clienttga": "787abf6f2bae6a493712afaa689f2d6f15c9f1fb",
+    "clienticon": "35da3bcf27074c1319aae5d06a81ad44fcb66e48",
+    "icon": "7917b9f1220846ff9bc901af66aa55d7f46618e2",
+    "logo": "97af4d489d90b5be78a3bb79d9b4bb494c4c4e37",
+    "logo_small": "97af4d489d90b5be78a3bb79d9b4bb494c4c4e37_thumb",
+    "openvr_action_manifest_path": "Arkio_Data\\StreamingAssets\\SteamVR\\actions.json",
+    "releasestate": "released",
+    "openvrsupport": "1",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "64.69056365639072",
+        "height_pct": "58.61161565596002"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "64.69056365639072",
+          "height_pct": "58.61161565596002"
+        },
+        "image": {
+          "english": "logo.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1756488386",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Arkio ehf."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Arkio ehf."
+      }
+    },
+    "primary_genre": "53",
+    "genres": {
+      "0": "51",
+      "1": "53"
+    },
+    "category": {
+      "category_52": "1",
+      "category_13": "1",
+      "category_17": "1",
+      "category_35": "1",
+      "category_67": "1",
+      "category_74": "1",
+      "category_79": "1",
+      "category_53": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1671478342",
+    "community_hub_visible": "1",
+    "gameid": "1053760",
+    "exfgls": "6",
+    "store_tags": {
+      "0": "84",
+      "1": "872",
+      "2": "1643",
+      "3": "3859",
+      "4": "21978"
+    },
+    "review_score": "7",
+    "review_percentage": "89"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Arkio ehf.",
+    "publisher": "Arkio ehf.",
+    "homepage": "https://www.arkio.is/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Arkio",
+    "launch": {
+      "1": {
+        "executable": "Arkio.exe",
+        "arguments": "-vrnomirror",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Arkio in VR"
+        },
+        "description": "Arkio in VR"
+      },
+      "2": {
+        "executable": "Arkio.exe",
+        "arguments": "-novr -vrnomirror",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Arkio in Vrless"
+        },
+        "description": "Arkio in Vrless"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "1053761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2796485402113803063",
+          "size": "461576377",
+          "download": "198649248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20509327",
+        "timeupdated": "1761295900"
+      }
+    }
+  }
+}
