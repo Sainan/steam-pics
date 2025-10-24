@@ -1,11 +1,10 @@
 {
   "appid": "3909990",
-  "public_only": "1",
   "common": {
     "name": "Black Geyser: Couriers of Darkness - Tales of the Moon Cult",
     "type": "DLC",
     "parent": "1374930",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosnotarized",
@@ -99,8 +98,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761134438",
     "gameid": "3909990",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -111,5 +110,61 @@
       "1": "492",
       "2": "4667"
     }
+  },
+  "extended": {
+    "dlcforappid": "1374930",
+    "mustownapptopurchase": "1374930",
+    "developer": "GrapeOcean Technologies",
+    "publisher": "V Publishing",
+    "homepage": "https://www.blackgeyser.com",
+    "dlcavailableonstore": "1"
+  },
+  "depots": {
+    "3909991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5507736491531180310",
+          "size": "26075325",
+          "download": "4156272"
+        }
+      },
+      "dlcappid": "3909990"
+    },
+    "3909992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4219715137463598757",
+          "size": "26081473",
+          "download": "4152896"
+        }
+      },
+      "dlcappid": "3909990"
+    },
+    "3909993": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4867230168588167528",
+          "size": "26075325",
+          "download": "4152624"
+        }
+      },
+      "dlcappid": "3909990"
+    },
+    "branches": {
+      "public": {
+        "buildid": "20494950",
+        "timeupdated": "1761130697"
+      }
+    },
+    "privatebranches": "1"
   }
 }
