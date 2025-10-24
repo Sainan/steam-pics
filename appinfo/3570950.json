@@ -125,12 +125,22 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Odd Dreams Digital/Everything is Crab/SyncedData",
-        "pattern": "Slot_*_CoreData_V*.save"
+        "pattern": "Slot_*_CoreData*V*.save"
       },
       "1": {
         "root": "WinAppDataLocalLow",
         "path": "Odd Dreams Digital/Everything is Crab/SyncedData",
-        "pattern": "Slot_*_CTDs_V*.save"
+        "pattern": "Slot_*_CDTs*V*.save"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "Odd Dreams Digital/Everything is Crab/SyncedData",
+        "pattern": "Slot_*_CoreData*V*.devsave"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Odd Dreams Digital/Everything is Crab/SyncedData",
+        "pattern": "Slot_*_CDTs*V*.devsave"
       },
       "copied_from_parent": "1"
     }
