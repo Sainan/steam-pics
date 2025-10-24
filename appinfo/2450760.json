@@ -1,0 +1,188 @@
+{
+  "appid": "2450760",
+  "common": {
+    "name": "Waterfall Prisoner Demo",
+    "type": "Demo",
+    "parent": "2292710",
+    "clienticon": "924082a68427da869c4b613700247e69f0dde636",
+    "clienttga": "e21924310b2ef96350c055279f7ecd7236bb0e4b",
+    "icon": "b04f2c51acab3de2a8821b98b57437034e83a4ec",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1687187165",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "APA estudi"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "APA estudi"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "catalan": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1686735471",
+    "gameid": "2450760",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "APA estudi",
+    "publisher": "APA estudi",
+    "homepage": "http://www.albertpages.com"
+  },
+  "config": {
+    "installdir": "Waterfall Prisoner Demo",
+    "launch": {
+      "0": {
+        "executable": "WaterfallPrisoner.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Contents\\MacOS\\WaterfallPrisoner",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2450761": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7163620772936394525",
+          "size": "1910768183",
+          "download": "1763136544"
+        }
+      }
+    },
+    "2450762": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1738816945053338150",
+          "size": "1902823006",
+          "download": "1760056528"
+        }
+      }
+    },
+    "2450763": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8570606949690463182",
+          "size": "1930793307",
+          "download": "1771273168"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20527898",
+        "timeupdated": "1761322648"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "appidredirect": "2292710",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "APAEstudi/WaterfallPrisoner/SaveGame",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "APAEstudi/WaterfallPrisoner/SaveGame",
+        "pattern": "*.json",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "APAEstudi/WaterfallPrisoner/SaveGame",
+            "replace": "APAEstudi/WaterfallPrisoner/SaveGame"
+          }
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "com.APAEstudi.WaterfallPrisoner/Savegame"
+          }
+        }
+      }
+    }
+  }
+}
