@@ -1,0 +1,194 @@
+{
+  "appid": "458410",
+  "common": {
+    "name": "Cabals: Magic & Battle Cards",
+    "type": "Game",
+    "oslist": "windows,macos",
+    "clienttga": "c51c87a78c6975e6b60c90622b7c9fa2b22ced52",
+    "clienticon": "e9571cb8d83b5a9c0b31a8bf6bdc7c126dabc5db",
+    "icon": "9e1d1e09837abf7e6eec60c6e6e4dc1210d866c8",
+    "logo": "c84e02a0ad2645ce44d91260ce3e3a0607c0d054",
+    "logo_small": "c84e02a0ad2645ce44d91260ce3e3a0607c0d054_thumb",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1730505600",
+      "tested_build_id": "2503139",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Retired"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport_Retired"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-9.0-3RC",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Cabals: Magic &amp;amp; Battle Cards",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_2e2b40ec99dfefd27db7a6860a1496ae8b4a9dab.jpg",
+    "store_asset_mtime": "1464183027",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Kyy Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Kyy Games"
+      }
+    },
+    "primary_genre": "70",
+    "genres": {
+      "0": "37",
+      "1": "2",
+      "2": "70"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_27": "1",
+      "category_35": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1517950591",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "458410",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "9",
+      "2": "493",
+      "3": "1666"
+    },
+    "review_score": "5",
+    "review_percentage": "65"
+  },
+  "extended": {
+    "developer": "Kyy Games",
+    "publisher": "Kyy Games",
+    "homepage": "http://www.cabalsgame.com",
+    "isfreeapp": "1",
+    "listofdlc": "486050",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Cabals",
+    "launch": {
+      "0": {
+        "executable": "cabals.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "cabals.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "cabals.exe",
+        "arguments": "-show-screen-selector",
+        "description": "Launch with configuration screen",
+        "type": "none",
+        "config": {
+          "oslist": "windows",
+          "betakey": "local"
+        }
+      },
+      "3": {
+        "executable": "cabals.app",
+        "arguments": "-show-screen-selector",
+        "description": "Launch with configuration screen",
+        "type": "none",
+        "config": {
+          "oslist": "macos",
+          "betakey": "local"
+        }
+      }
+    }
+  },
+  "depots": {
+    "458411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6645383856616341969",
+          "size": "1411519180",
+          "download": "466758944"
+        },
+        "local": {
+          "gid": "127413544663454377",
+          "size": "747049577",
+          "download": "207212944"
+        }
+      }
+    },
+    "458412": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3469906246944975961",
+          "size": "1425666798",
+          "download": "470803712"
+        },
+        "local": {
+          "gid": "7668903061939537236",
+          "size": "751274372",
+          "download": "209637440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "2503139",
+        "timeupdated": "1517958696"
+      },
+      "local": {
+        "buildid": "1100463",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1461848918"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
