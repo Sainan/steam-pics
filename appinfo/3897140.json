@@ -3,9 +3,9 @@
   "common": {
     "name": "Sunday League Manager: Horse & Spoon",
     "type": "Game",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64",
     "icon": "0a853a3321d1fc588a593d17f481170847b12400",
     "clienttga": "e981478d46a17b1d941e284d4d4ea0f97a6e7549",
     "clienticon": "5de22578e2999202e52fa4f1203f48cf01e2e38a",
@@ -102,6 +102,7 @@
       }
     },
     "steam_release_date": "1756469270",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3897140",
     "store_tags": {
@@ -139,6 +140,13 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Horse and Spoon FC.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -150,14 +158,14 @@
       },
       "manifests": {
         "public": {
-          "gid": "5061377975607904222",
-          "size": "358399075",
-          "download": "136243984"
+          "gid": "5184686571736884249",
+          "size": "361597988",
+          "download": "139135056"
         },
         "matchengine": {
-          "gid": "5061377975607904222",
-          "size": "358399075",
-          "download": "136243984"
+          "gid": "7072942265933390414",
+          "size": "360757495",
+          "download": "138552240"
         }
       }
     },
@@ -168,9 +176,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7943210601984246583",
-          "size": "389784388",
-          "download": "149095296"
+          "gid": "5249371063309487448",
+          "size": "392880184",
+          "download": "151883936"
         },
         "matchengine": {
           "gid": "7943210601984246583",
@@ -182,19 +190,21 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20456812",
-        "timeupdated": "1760908449"
+        "buildid": "20487210",
+        "timeupdated": "1761083266"
       },
       "matchengine": {
-        "buildid": "20456812",
+        "buildid": "20462487",
         "description": "test branch for new match engine",
-        "timeupdated": "1760908337"
+        "timeupdated": "1760956350"
       }
     },
     "privatebranches": "1"
   },
   "ufs": {
     "quota": "100000",
-    "maxnumfiles": "100"
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
