@@ -1,4 +1,104 @@
 {
   "appid": "3523090",
-  "public_only": "1"
+  "common": {
+    "name": "Collapse Server",
+    "type": "Tool",
+    "parent": "2955210",
+    "oslist": "linux",
+    "osarch": "",
+    "osextended": "",
+    "icon": "71f7b949b09ab6c3dec28c3753045a1f7f418cab",
+    "clienticon": "47ec75d6dabb93b0a07bb5f1bdaf079594bf02b3",
+    "releasestate": "released",
+    "gameid": "3523090"
+  },
+  "extended": {
+    "gamedir": "Collapse"
+  },
+  "config": {
+    "installdir": "collapseserver",
+    "launch": {
+      "1": {
+        "executable": "LyraServer.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8904491048620934740",
+          "size": "68697032",
+          "download": "20552544"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2135359612286175146",
+          "size": "0",
+          "download": "0"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "1006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5587033981095108078",
+          "size": "107476144",
+          "download": "29272144"
+        }
+      },
+      "depotfromapp": "1007"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3523091": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2427795035081032209",
+          "size": "595509741",
+          "download": "153941856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "17328584",
+        "timeupdated": "1739317948"
+      }
+    }
+  }
 }
