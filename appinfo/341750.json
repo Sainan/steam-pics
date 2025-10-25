@@ -1,0 +1,220 @@
+{
+  "appid": "341750",
+  "common": {
+    "name": "A.V.",
+    "type": "Game",
+    "oslist": "windows,macos,linux",
+    "logo": "2dcafbad24dc95c22ee471430ff02dc42a2d25b8",
+    "logo_small": "2dcafbad24dc95c22ee471430ff02dc42a2d25b8_thumb",
+    "icon": "855b28b914b4fa7c043a431ceea261ad758b88bb",
+    "clienttga": "787eebb12896165f6c7030f025706c9ea2912833",
+    "linuxclienticon": "f1008359353029b0d7cf94681bf917cf1169658e",
+    "clienticns": "139920a944180f7a2f6d32d648b3047c71d253d4",
+    "clienticon": "74a013415fe26845be763bbcb117a7756adca2c0",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "metacritic_name": "A.V.",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_77452fa892c2f56c3080ad8e9e9a0eb3be4173db.jpg",
+    "store_asset_mtime": "1420494877",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "FirstForever Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "MAGIC Spell Studios"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "25",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_13": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1423875420",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "341750",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "492",
+      "1": "21",
+      "2": "1687",
+      "3": "1621",
+      "4": "1664",
+      "5": "3839"
+    },
+    "review_score": "5",
+    "review_percentage": "64"
+  },
+  "extended": {
+    "developer": "FirstForever Studios",
+    "publisher": "MAGIC Spell Studios",
+    "homepage": "https://avthegame.com",
+    "isfreeapp": "1",
+    "listofdlc": "342050,342051",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "AV",
+    "launch": {
+      "0": {
+        "executable": "AV.exe",
+        "arguments": "-force-d3d11 -show-screen-selector",
+        "description": "A.V. DX 11 (Recommended)",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AV.x86",
+        "arguments": "-show-screen-selector",
+        "description": "A.V. (x86)",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "AV.app",
+        "description": "A.V. Launch",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "AV_DirectToRift.exe",
+        "arguments": "-force-d3d11",
+        "description": "VR DX 11",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "5": {
+        "executable": "AV.exe",
+        "arguments": "-force-d3d9 -show-screen-selector",
+        "description": "A.V. DX 9",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "6": {
+        "executable": "AV.app",
+        "arguments": "-VR",
+        "description": "VR Mode (Unstable)",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "7": {
+        "executable": "AV.x86_64",
+        "arguments": "-show-screen-selector",
+        "description": "A.V. (x64)",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "341751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5129840819788390234",
+          "size": "2471147042",
+          "download": "1050810016"
+        }
+      }
+    },
+    "341752": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9172554237464488085",
+          "size": "2503023407",
+          "download": "1061592208"
+        }
+      }
+    },
+    "341753": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6491464218272996321",
+          "size": "2481318598",
+          "download": "1053041296"
+        }
+      }
+    },
+    "341754": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "342050": {
+      "manifests": {
+        "public": {
+          "gid": "1122659864163581727",
+          "size": "17978605",
+          "download": "16789808"
+        }
+      },
+      "dlcappid": "342050"
+    },
+    "342051": {
+      "manifests": {
+        "public": {
+          "gid": "9063880502843104552",
+          "size": "1705012460",
+          "download": "1132972928"
+        }
+      },
+      "dlcappid": "342051"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "582303"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10240000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveGames",
+        "pattern": "saves"
+      }
+    }
+  }
+}
