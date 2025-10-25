@@ -1,13 +1,12 @@
 {
   "appid": "3019550",
-  "public_only": "1",
   "common": {
     "name": "Riddlewood Manor",
     "type": "Game",
     "icon": "b20cc70f52d8b654f6237c6eef3addf0649365cc",
     "clienticon": "87ecb2640f61b39b5c8f33a8a9e8620cce1a3a83",
     "clienttga": "b3b46be203bf055b026a5416dc5e4aef8b014a69",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760385628",
+    "store_asset_mtime": "1761149431",
     "associations": {
       "0": {
         "type": "developer",
@@ -146,17 +145,18 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761139546",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3019550",
-    "exfgls": "8",
     "store_tags": {
       "0": "5923",
-      "1": "1742",
-      "2": "1664",
+      "1": "1664",
+      "2": "1742",
       "3": "21",
       "4": "1667",
-      "5": "4136",
-      "6": "1698",
+      "5": "1698",
+      "6": "4136",
       "7": "769306",
       "8": "1719",
       "9": "5716",
@@ -170,6 +170,82 @@
       "17": "9541",
       "18": "3952",
       "19": "4166"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Peanut Button",
+    "publisher": "Peanut Button",
+    "homepage": "https://www.peanutbutton.net/riddlewoodmanor"
+  },
+  "config": {
+    "installdir": "Riddlewood Manor",
+    "launch": {
+      "0": {
+        "executable": "RiddlewoodManor.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RiddlewoodManor.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3019551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "472502325226548643",
+          "size": "4695972297",
+          "download": "1606190768"
+        }
+      }
+    },
+    "3019552": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5145160238588809832",
+          "size": "4745665250",
+          "download": "1617813392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20175049",
+        "timeupdated": "1759159922"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "PeanutButton\\RiddlewoodManor",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
