@@ -1,6 +1,5 @@
 {
   "appid": "4079460",
-  "public_only": "1",
   "common": {
     "name": "Rotten Life: Desert Prisoner Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
       "schinese": "烂命：沙漠囚徒 Demo",
       "english": "Rotten Life: Desert Prisoner Demo"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -128,11 +127,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761108112",
+    "community_visible_stats": "1",
     "gameid": "4079460",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "机遇猫研究所",
+    "publisher": "机遇猫研究所"
+  },
+  "config": {
+    "installdir": "Rotten Life Desert Prisoner Demo",
+    "launch": {
+      "0": {
+        "executable": "RottenLifeDemo\\Windows\\RottenLifeDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4079461": {
+      "manifests": {
+        "public": {
+          "gid": "2760347270638853032",
+          "size": "4036209544",
+          "download": "3685800640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20540894",
+        "timeupdated": "1761398273"
+      }
     }
   }
 }
