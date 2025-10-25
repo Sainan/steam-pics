@@ -156,6 +156,15 @@
   },
   "ufs": {
     "quota": "1000000",
-    "maxnumfiles": "10000"
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "BRRR",
+        "pattern": "*.vndata"
+      }
+    }
   }
 }
