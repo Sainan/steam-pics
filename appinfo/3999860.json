@@ -1,10 +1,9 @@
 {
   "appid": "3999860",
-  "public_only": "1",
   "common": {
     "name": "光谱启示录：七色试炼",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -29,7 +28,6 @@
     "clienticon": "47b72ca24ca242270fa8cf0d9d3bfbd150a119bd",
     "icon": "47b72ca24ca242270fa8cf0d9d3bfbd150a119bd",
     "controllertagwizard": "1",
-    "controller_support": "full",
     "small_capsule": {
       "english": "48ceb05b5969c2698dbedc44a6cd0c9caf432022/capsule_231x87.jpg"
     },
@@ -120,11 +118,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_28": "1",
-      "category_55": "1",
-      "category_56": "1",
-      "category_57": "1",
-      "category_58": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -179,7 +172,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3999860",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -201,6 +193,53 @@
       "17": "1684",
       "18": "1742",
       "19": "4305"
+    }
+  },
+  "extended": {
+    "developer": "CJ",
+    "publisher": "CJ"
+  },
+  "config": {
+    "installdir": "光谱启示录：七色试炼",
+    "launch": {
+      "0": {
+        "executable": "QS\\QS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3999861": {
+      "manifests": {
+        "public": {
+          "gid": "4704726987159937656",
+          "size": "4478279521",
+          "download": "4262363488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20537515",
+        "timeupdated": "1761357284"
+      }
     }
   }
 }
