@@ -1,10 +1,9 @@
 {
   "appid": "2365410",
-  "public_only": "1",
   "common": {
     "name": "A Call From Under the House",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "788c99ca1c4f50ccc6e08629fcc685f28832a263",
     "clienttga": "f545abbff49840df40a286c0ab9e7d82eb058522",
     "clienticns": "6d8c97337a3b2487ba96777a6db122d2e9d77136",
@@ -99,9 +98,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761353995",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2365410",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1698",
@@ -120,6 +120,41 @@
       "14": "3871",
       "15": "1667",
       "16": "3968"
+    }
+  },
+  "extended": {
+    "developer": "Party Crasher Studios",
+    "publisher": "Party Crasher Studios"
+  },
+  "config": {
+    "installdir": "ACFUTH_windows",
+    "launch": {
+      "0": {
+        "executable": "ACFUTH.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2365411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7815306208927601516",
+          "size": "586985532",
+          "download": "118531456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20536715",
+        "timeupdated": "1761350245"
+      }
     }
   }
 }
