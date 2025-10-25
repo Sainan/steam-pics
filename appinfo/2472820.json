@@ -1,10 +1,9 @@
 {
   "appid": "2472820",
-  "public_only": "1",
   "common": {
     "name": "Hunt Grounds",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "debd607b54e166154f8116b3d4545b802269ca88",
     "clienttga": "4dfa02a0956eb8fe73da31ceeaceee18fa5669ac",
     "clienticon": "9170ce908fa130d90f46f68d185c7419d5a6d6b1",
@@ -157,9 +156,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760983712",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2472820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -185,6 +185,47 @@
       "17": "11014",
       "18": "3834",
       "19": "1662"
+    }
+  },
+  "extended": {
+    "developer": "Bytale Games",
+    "publisher": "Bytale Games"
+  },
+  "config": {
+    "installdir": "Hunt Grounds",
+    "launch": {
+      "0": {
+        "executable": "Hunt Grounds.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Hunt Grounds"
+        },
+        "description": "Hunt Grounds"
+      }
+    }
+  },
+  "depots": {
+    "2472822": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2816302340628069414",
+          "size": "7069134128",
+          "download": "2972339056"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20538390",
+        "timeupdated": "1761365372"
+      }
     }
   }
 }
