@@ -1,13 +1,12 @@
 {
   "appid": "2750970",
-  "public_only": "1",
   "common": {
     "name": "Backrooms: Facility Unknown",
     "type": "Game",
     "clienttga": "80cf5a4937ad445fec39cafb0738d8593953e1fc",
     "clienticon": "ce714b38062429fce1641c6d1d7b9a62aced5a4a",
     "icon": "09ed928abdb8d229eeef6c2466894bcc311e88bb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -133,9 +132,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761417635",
     "community_hub_visible": "1",
     "gameid": "2750970",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -161,6 +160,69 @@
       "17": "6276",
       "18": "1738",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Triple E Games",
+    "publisher": "Triple E Games"
+  },
+  "config": {
+    "installdir": "Backrooms Facility Unknown",
+    "launch": {
+      "0": {
+        "executable": "insanehorror3D.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2750971": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8729915220188503633",
+          "size": "2759545594",
+          "download": "2381422080"
+        },
+        "public_test": {
+          "gid": "3090312535800459851",
+          "size": "2759545594",
+          "download": "2381422048"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20542989",
+        "timeupdated": "1761417589"
+      },
+      "public_test": {
+        "buildid": "20542938",
+        "description": "for testing new updates",
+        "timeupdated": "1761417011"
+      }
     }
   }
 }
