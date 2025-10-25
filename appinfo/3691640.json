@@ -7,9 +7,9 @@
     "clienttga": "9344f5577131717d8bb2c59193ead90551d2c8a4",
     "clienticon": "27996494754f1de158000e0baabc788ca6f9bfd5",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -155,6 +155,20 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "Love Craft.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Love Craft.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
@@ -205,6 +219,22 @@
         "root": "WinAppDataRoaming",
         "path": "Love_Craft/dialogic/saves",
         "pattern": "*.txt"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".local/share/"
       }
     }
   }
