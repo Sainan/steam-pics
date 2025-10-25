@@ -33,12 +33,12 @@
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1745280000",
-      "tested_build_id": "18128934",
+      "test_timestamp": "1760745600",
+      "tested_build_id": "20397612",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
         },
         "1": {
           "display": "4",
@@ -49,6 +49,10 @@
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -65,7 +69,7 @@
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "0",
         "non_deck_display_glyphs": "0",
-        "small_text": "1",
+        "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
         "recommended_runtime": "native",
