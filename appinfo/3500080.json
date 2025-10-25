@@ -98,6 +98,10 @@
       "english": {
         "supported": "true",
         "full_audio": "true"
+      },
+      "brazilian": {
+        "supported": "true",
+        "full_audio": "true"
       }
     },
     "steam_release_date": "1744373483",
@@ -120,8 +124,8 @@
       "12": "4004",
       "13": "7743",
       "14": "1684",
-      "15": "31579",
-      "16": "1698",
+      "15": "1698",
+      "16": "31579",
       "17": "379975",
       "18": "6691",
       "19": "4252"
@@ -141,28 +145,47 @@
         "type": "default",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "English"
+        },
+        "description": "English"
       }
     }
   },
   "depots": {
-    "3500081": {
+    "3500084": {
       "config": {
+        "language": "english",
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "gid": "7611218189675386720",
+          "gid": "9129265514028894868",
           "size": "590934615",
-          "download": "548793744"
+          "download": "558652640"
         }
       }
     },
-    "hasdepotsindlc": "1",
+    "3500085": {
+      "config": {
+        "language": "brazilian",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5992068961699858096",
+          "size": "590798215",
+          "download": "558469168"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,brazilian",
     "branches": {
       "public": {
-        "buildid": "20178002",
-        "timeupdated": "1759174751"
+        "buildid": "20483548",
+        "timeupdated": "1761068930"
       }
     }
   }
