@@ -229,6 +229,25 @@
         "root": "gameinstall",
         "path": "save",
         "pattern": "game.dat"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "Soko Spectacle",
+        "pattern": "settings.dat"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Soko Spectacle",
+        "pattern": "game.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
       }
     }
   }
