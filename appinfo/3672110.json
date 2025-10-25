@@ -1,6 +1,5 @@
 {
   "appid": "3672110",
-  "public_only": "1",
   "common": {
     "name": "裂隙驱动 / Fracture",
     "type": "Game",
@@ -16,7 +15,7 @@
     "clienticns": "1e56b4680f9a7c976e30b0d826822e9e8a8cd141",
     "clienticon": "cb4fd95ec45a4a9abbe7be311656fd52678c5633",
     "clienttga": "eb955ef5485c9fbe229959a91278fe37c71b7e98",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "7051f407fa03c3c772dbf440ad4eb61e9b7cda2b/capsule_231x87_schinese.jpg",
@@ -118,7 +117,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3672110",
-    "exfgls": "8",
     "store_tags": {
       "0": "3959",
       "1": "4885",
@@ -140,6 +138,62 @@
       "17": "1773",
       "18": "19",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Benkimchi",
+    "publisher": "Benkimchi"
+  },
+  "config": {
+    "installdir": "FRACTURE",
+    "launch": {
+      "0": {
+        "executable": "FRACTURE_Released.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3672111": {
+      "manifests": {
+        "public": {
+          "gid": "1024106592210135969",
+          "size": "805185409",
+          "download": "280508048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20538470",
+        "timeupdated": "1761366328"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "9000000000",
+    "maxnumfiles": "9000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
