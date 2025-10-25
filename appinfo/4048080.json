@@ -1,6 +1,5 @@
 {
   "appid": "4048080",
-  "public_only": "1",
   "common": {
     "name": "Normis Simulator",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -143,16 +142,17 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761131150",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4048080",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
     "store_tags": {
-      "0": "21",
-      "1": "122",
-      "2": "599",
+      "0": "599",
+      "1": "21",
+      "2": "122",
       "3": "19",
       "4": "597",
       "5": "10235",
@@ -170,6 +170,92 @@
       "17": "3993",
       "18": "6971",
       "19": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "PropilGames",
+    "publisher": "PropilGames"
+  },
+  "config": {
+    "installdir": "Normis Simulator",
+    "launch": {
+      "0": {
+        "executable": "NormisSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229030": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4048081": {
+      "manifests": {
+        "public": {
+          "gid": "7247865919510042565",
+          "size": "5903216539",
+          "download": "5424724160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20490560",
+        "timeupdated": "1761103745"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "NormisSimulator/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
