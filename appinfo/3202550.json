@@ -8,7 +8,7 @@
     "icon": "e58adac98edf65cff336b3450a445f3cbb76a1e0",
     "clienttga": "886c532232c801bc0977098b4de0f4223f927a4d",
     "clienticon": "1e3064b6790551156d379935ab6c107abd292588",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
     "controllertagwizard": "1",
@@ -197,27 +197,110 @@
     "publisher": "KennyMakesGames"
   },
   "config": {
-    "installdir": "PiN Demo",
+    "installdir": "CultOfPiNDemo",
     "launch": {
       "0": {
-        "executable": "PiN.exe"
+        "executable": "CultOfPiN.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CultOfPiN.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "CultOfPin.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
       }
     }
   },
   "depots": {
     "3202551": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "7617805119195706427",
-          "size": "203047724",
-          "download": "146284496"
+          "gid": "7595007215769168717",
+          "size": "208674235",
+          "download": "149412752"
         }
       }
     },
+    "3202552": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5171587103164646535",
+          "size": "205918906",
+          "download": "153266944"
+        }
+      }
+    },
+    "3202553": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6532147430665717647",
+          "size": "224212702",
+          "download": "161667616"
+        }
+      }
+    },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "19689907",
-        "timeupdated": "1755813894"
+        "buildid": "20543083",
+        "timeupdated": "1761420629"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "KennyMakesGames/CultOfPiN/SaveData/",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "KennyMakesGames/CultOfPiN/SaveData/",
+            "replace": "unity.KennyMakesGames.CultOfPiN.SaveData/"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": ".config.unity3d/KennyMakesGames/SaveData/"
+          }
+        }
       }
     }
   }
