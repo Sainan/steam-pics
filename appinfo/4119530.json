@@ -1,6 +1,5 @@
 {
   "appid": "4119530",
-  "public_only": "1",
   "common": {
     "name": "BioKept Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "057898263af79e620711d54263bf363f4a354639/capsule_231x87.jpg"
     },
@@ -30,7 +29,62 @@
     },
     "primary_genre": "0",
     "category": {},
+    "steam_release_date": "1761415933",
     "gameid": "4119530",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "A9019.Inc",
+    "publisher": "A9019.Inc"
+  },
+  "config": {
+    "installdir": "BioKept Demo",
+    "launch": {
+      "0": {
+        "executable": "LootBox.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "LootBox.app/Contents/MacOS/LootBox",
+        "workingdir": "LootBox.app/Contents/MacOS",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4119531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3567306285762845910",
+          "size": "501256804",
+          "download": "102049696"
+        }
+      }
+    },
+    "4119532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "595055084873277755",
+          "size": "523182720",
+          "download": "113976864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20542810",
+        "timeupdated": "1761415795"
+      }
+    }
   }
 }
