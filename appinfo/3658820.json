@@ -1,6 +1,5 @@
 {
   "appid": "3658820",
-  "public_only": "1",
   "common": {
     "name": "Corporate Slave Succubus",
     "type": "Game",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -106,7 +105,7 @@
         }
       }
     },
-    "store_asset_mtime": "1751245199",
+    "store_asset_mtime": "1761109725",
     "associations": {
       "0": {
         "type": "developer",
@@ -148,9 +147,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761361200",
     "community_hub_visible": "1",
     "gameid": "3658820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -178,6 +177,86 @@
       "17": "1719",
       "18": "4136",
       "19": "5673"
+    }
+  },
+  "extended": {
+    "developer": "Momodonya",
+    "publisher": "HENTAI Plan"
+  },
+  "config": {
+    "installdir": "Corporate Slave Succubus",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3658821": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3678942372636663393",
+          "size": "1416979436",
+          "download": "1233326352"
+        }
+      }
+    },
+    "3658822": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7037562970598909609",
+          "size": "1463117735",
+          "download": "1254936192"
+        }
+      }
+    },
+    "3658823": {
+      "config": {
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9130285353460350465",
+          "size": "1463370208",
+          "download": "1255147648"
+        }
+      }
+    },
+    "3658824": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2723261797941569380",
+          "size": "1422946428",
+          "download": "1247601472"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20507534",
+        "timeupdated": "1761196132"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "www/save",
+        "pattern": "*.rpgsave"
+      }
     }
   }
 }
