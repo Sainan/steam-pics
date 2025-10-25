@@ -1,6 +1,5 @@
 {
   "appid": "4037540",
-  "public_only": "1",
   "common": {
     "name": "Vesper Hotel Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0898a6a1e0af552d35acf9aa26b551454da6338/capsule_231x87.jpg"
     },
@@ -85,7 +84,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1759929212",
     "gameid": "4037540",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Yufuk Games",
+    "publisher": "Yufuk Games"
+  },
+  "config": {
+    "installdir": "oyun",
+    "launch": {
+      "0": {
+        "executable": "Twins_Academy.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4037541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7796565431293388252",
+          "size": "6193918320",
+          "download": "5879312992"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20540189",
+        "timeupdated": "1761387550"
+      }
+    }
   }
 }
