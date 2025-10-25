@@ -1,10 +1,9 @@
 {
   "appid": "3991210",
-  "public_only": "1",
   "common": {
     "name": "Survive From Museum",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -124,6 +123,60 @@
       "17": "6730",
       "18": "6426",
       "19": "12057"
+    }
+  },
+  "extended": {
+    "developer": "HYGY Games",
+    "publisher": "HYGY Games",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Survive From Museum",
+    "launch": {
+      "0": {
+        "executable": "AGSD.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3991211": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2745765423973022911",
+          "size": "2338022532",
+          "download": "2058801216"
+        }
+      }
+    },
+    "baselanguages": "koreana",
+    "branches": {
+      "public": {
+        "buildid": "20540289",
+        "timeupdated": "1761388373"
+      }
     }
   }
 }
