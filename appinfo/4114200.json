@@ -1,6 +1,5 @@
 {
   "appid": "4114200",
-  "public_only": "1",
   "common": {
     "name": "Unchained Relic Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -103,6 +102,60 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Royo Games",
+    "publisher": "Royo Games"
+  },
+  "config": {
+    "installdir": "Unchained Relic Demo",
+    "launch": {
+      "0": {
+        "executable": "Unchained Relic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4114201": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2725649154258633022",
+          "size": "1672400644",
+          "download": "560533584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20404380",
+        "timeupdated": "1760540309"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "5",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Royo Games/Unchained Relic/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
