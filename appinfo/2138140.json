@@ -176,7 +176,16 @@
     "installdir": "Didactic Jesus Game",
     "launch": {
       "0": {
-        "executable": "Game.exe"
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
