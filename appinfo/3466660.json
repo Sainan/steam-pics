@@ -1,6 +1,5 @@
 {
   "appid": "3466660",
-  "public_only": "1",
   "common": {
     "name": "Isekai Revitalizer",
     "type": "Game",
@@ -11,7 +10,7 @@
       "schinese": "异界大叔漂泊记～精灵之村篇～",
       "japanese": "おじさん異世界へ ~エルフの里へ流れ着く編~"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -119,9 +118,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761364808",
     "community_hub_visible": "1",
     "gameid": "3466660",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -129,6 +128,71 @@
       "3": "4325",
       "4": "4182",
       "5": "12095"
+    }
+  },
+  "extended": {
+    "developer": "Orcsoft",
+    "publisher": "Kagura Games",
+    "homepage": "https://www.kaguragames.com/"
+  },
+  "config": {
+    "installdir": "Isekai Revitalizer",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3466661": {
+      "manifests": {
+        "public": {
+          "gid": "2879685839170068574",
+          "size": "252220735",
+          "download": "241838112"
+        }
+      }
+    },
+    "3466662": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4543376894432783749",
+          "size": "235826499",
+          "download": "229442192"
+        }
+      }
+    },
+    "3466663": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2134027711475525179",
+          "size": "241632613",
+          "download": "234135408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20485019",
+        "timeupdated": "1761071040"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "201",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "savedata",
+        "pattern": "*.*"
+      }
     }
   }
 }
