@@ -1,6 +1,5 @@
 {
   "appid": "3844910",
-  "public_only": "1",
   "common": {
     "name": "Historic Helix",
     "type": "Game",
@@ -17,7 +16,7 @@
     },
     "clienticon": "901170a97a117591510e4bea1ed62eb2d346c1f1",
     "icon": "901170a97a117591510e4bea1ed62eb2d346c1f1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -102,8 +101,7 @@
     "genres": {
       "0": "1",
       "1": "25",
-      "2": "4",
-      "3": "70"
+      "2": "4"
     },
     "category": {
       "category_2": "1",
@@ -129,9 +127,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1760115709",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3844910",
-    "exfgls": "8",
     "store_tags": {
       "0": "5186",
       "1": "3834",
@@ -153,6 +152,63 @@
       "17": "3799",
       "18": "1628",
       "19": "3871"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Tonkers Tinkers",
+    "publisher": "Tonkers Tinkers"
+  },
+  "config": {
+    "installdir": "Historic Helix",
+    "launch": {
+      "0": {
+        "executable": "HistoricHelix.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Full Version"
+        },
+        "description": "Full Version"
+      }
+    }
+  },
+  "depots": {
+    "3844912": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2133181621352524378",
+          "size": "510504343",
+          "download": "239647296"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20536811",
+        "timeupdated": "1761350998"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "HHFileSave",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "HHFileSave",
+        "pattern": "*.bak"
+      }
     }
   }
 }
