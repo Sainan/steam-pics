@@ -1,6 +1,5 @@
 {
   "appid": "4064520",
-  "public_only": "1",
   "common": {
     "name": "AFAR: An Interactive Horror Film",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "90dac7a2c01a31e20040d46186108efdc3a8f66a",
     "icon": "90dac7a2c01a31e20040d46186108efdc3a8f66a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -105,9 +104,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761126027",
     "community_hub_visible": "1",
     "gameid": "4064520",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -132,6 +131,82 @@
       "17": "8369",
       "18": "5716",
       "19": "21"
+    },
+    "review_score": "6",
+    "review_percentage": "70"
+  },
+  "extended": {
+    "developer": "Jason Trost",
+    "publisher": "Jason Trost",
+    "homepage": "https://linktr.ee/JTROPresents"
+  },
+  "config": {
+    "installdir": "AFAR An Interactive Horror Film",
+    "launch": {
+      "0": {
+        "executable": "AFAR.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AFAR MAC.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4064521": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7341722318986968918",
+          "size": "7070637115",
+          "download": "7006730576"
+        },
+        "afar-mac": {
+          "gid": "7341722318986968918",
+          "size": "7070637115",
+          "download": "7006730576"
+        }
+      }
+    },
+    "4064522": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7161409343388080193",
+          "size": "7046544331",
+          "download": "6997538080"
+        },
+        "afar-mac": {
+          "gid": "7161409343388080193",
+          "size": "7046544331",
+          "download": "6997538080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20255646",
+        "timeupdated": "1759615751"
+      },
+      "afar-mac": {
+        "buildid": "20255646",
+        "description": "AFAR-MAC",
+        "timeupdated": "1759615721"
+      }
     }
   }
 }
