@@ -1,4 +1,75 @@
 {
   "appid": "4098780",
-  "public_only": "1"
+  "common": {
+    "name": "Sea of Tranquility Demo",
+    "type": "Demo",
+    "parent": "3784750",
+    "icon": "1105431638ced6d987abe562aa338a5f53d81edd",
+    "clienticon": "1105431638ced6d987abe562aa338a5f53d81edd",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "eulas": {
+      "0": {
+        "id": "4098780_eula_0",
+        "name": "Sea of Tranquility Demo EULA",
+        "url": "https://store.steampowered.com//eula/4098780_eula_0",
+        "version": "1"
+      }
+    },
+    "releasestate": "released",
+    "gameid": "4098780",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Sea of Tranquility Demo",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "4",
+    "launch": {
+      "0": {
+        "executable": "windows_content\\SeaOfTranquility.exe",
+        "workingdir": "windows_content",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4098781": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "149492620310077041",
+          "size": "3156372295",
+          "download": "2886051488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20541472",
+        "timeupdated": "1761402724"
+      }
+    }
+  }
 }
