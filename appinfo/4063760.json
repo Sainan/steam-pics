@@ -1,6 +1,5 @@
 {
   "appid": "4063760",
-  "public_only": "1",
   "common": {
     "name": "Spacejet Pilot",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "e381cedd1803d91a6f0031db8c8636c996313f3d",
     "icon": "e381cedd1803d91a6f0031db8c8636c996313f3d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,6 +100,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4063760",
     "exfgls": "3",
@@ -125,6 +125,57 @@
       "17": "92092",
       "18": "3942",
       "19": "5094"
+    }
+  },
+  "extended": {
+    "developer": "Corey Dimond",
+    "publisher": "Corey Dimond",
+    "homepage": "https://spacejetpilot.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Spacejet Pilot",
+    "launch": {
+      "0": {
+        "executable": "GalleryIsland.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4063761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4660306994989797166",
+          "size": "18442539038",
+          "download": "17485021712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20534711",
+        "timeupdated": "1761336960"
+      }
     }
   }
 }
