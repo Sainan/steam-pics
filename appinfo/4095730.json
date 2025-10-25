@@ -1,6 +1,5 @@
 {
   "appid": "4095730",
-  "public_only": "1",
   "common": {
     "name": "Shifting To The Backrooms Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759872238",
+    "store_asset_mtime": "1761059027",
     "associations": {
       "0": {
         "type": "developer",
@@ -92,7 +91,12 @@
         "name": "Oopsome Games"
       }
     },
-    "primary_genre": "0",
+    "primary_genre": "25",
+    "genres": {
+      "0": "25",
+      "1": "23",
+      "2": "28"
+    },
     "category": {
       "category_2": "1",
       "category_13": "1",
@@ -115,10 +119,61 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760979723",
     "gameid": "4095730",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    },
+    "review_score": "7",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "Oopsome Games",
+    "publisher": "Oopsome Games"
+  },
+  "config": {
+    "installdir": "Shifting To The Backrooms Demo",
+    "launch": {
+      "0": {
+        "executable": "STTB_Release.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
     }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4095731": {
+      "manifests": {
+        "public": {
+          "gid": "8389363914407292553",
+          "size": "3694818615",
+          "download": "3442833360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20505533",
+        "timeupdated": "1761183027"
+      }
+    },
+    "privatebranches": "1"
   }
 }
