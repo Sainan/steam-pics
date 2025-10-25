@@ -1,6 +1,5 @@
 {
   "appid": "3658680",
-  "public_only": "1",
   "common": {
     "name": "The Gurgling",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,9 +110,9 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3658680",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -127,6 +126,74 @@
       "5": "19",
       "6": "4345",
       "7": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Brainrot Entertainment",
+    "publisher": "Brainrot Entertainment"
+  },
+  "config": {
+    "installdir": "The Gurgling",
+    "launch": {
+      "0": {
+        "executable": "The Gurgling.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "the_32gurgling",
+        "arguments": "--no-sandbox",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3465693122": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3658681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5415839865823707781",
+          "size": "827949138",
+          "download": "584898208"
+        }
+      }
+    },
+    "3658683": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5727832541058509902",
+          "size": "829523737",
+          "download": "577541376"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20538918",
+        "timeupdated": "1761371470"
+      }
     }
   }
 }
