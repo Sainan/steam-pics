@@ -151,13 +151,23 @@
     "launch": {
       "0": {
         "executable": "Love Craft.exe",
-        "type": "default"
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
       },
       "1": {
         "executable": "Love Craft.app",
         "type": "default",
         "config": {
           "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Love Craft.exe",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
         }
       }
     }
