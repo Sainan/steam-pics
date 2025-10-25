@@ -1,6 +1,5 @@
 {
   "appid": "3984710",
-  "public_only": "1",
   "common": {
     "name": "OS Engine",
     "type": "Application",
@@ -10,7 +9,7 @@
     "icon": "fe49647243a24364c886096ae9750d0a945dba61",
     "clienticon": "fe49647243a24364c886096ae9750d0a945dba61",
     "clienticns": "dd784573ccf7abaa0f97dd2f34b7794df7d071fe",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -106,6 +105,103 @@
     "exfgls": "6",
     "store_tags": {
       "0": "87"
+    }
+  },
+  "extended": {
+    "developer": "Vision Algorithms",
+    "publisher": "Vision Algorithms"
+  },
+  "config": {
+    "installdir": "OS Engine",
+    "launch": {
+      "0": {
+        "executable": "OS Engine.app/Contents/MacOS/OS Engine",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "macOS Launch"
+        },
+        "description": "macOS Launch"
+      }
+    }
+  },
+  "depots": {
+    "3984711": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "823217746081180221",
+          "size": "42686155",
+          "download": "26323056"
+        },
+        "release-canidate": {
+          "gid": "6800685504825785949",
+          "size": "42685787",
+          "download": "26324464"
+        }
+      }
+    },
+    "3984712": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      }
+    },
+    "workshopdepot": "3984710",
+    "branches": {
+      "public": {
+        "buildid": "20542787",
+        "timeupdated": "1761415371"
+      },
+      "release-canidate": {
+        "buildid": "20411625",
+        "description": "pre-release",
+        "timeupdated": "1760578565"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "OS Engine/WallpaperData.store",
+        "pattern": "WallpaperData.store*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "OS Engine/screensaver_state.json",
+        "pattern": "screensaver_state.json",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "2": {
+        "root": "MacAppSupport",
+        "path": "OS Engine",
+        "pattern": "preferences.json",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "3": {
+        "root": "MacAppSupport",
+        "path": "OS Engine",
+        "pattern": "automation_rules.json",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
