@@ -1,6 +1,5 @@
 {
   "appid": "4045430",
-  "public_only": "1",
   "common": {
     "name": "夢迷 -Mumei- Demo",
     "type": "Demo",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -120,10 +119,53 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761390984",
     "gameid": "4045430",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Tomanegi",
+    "publisher": "Tomanegi"
+  },
+  "config": {
+    "installdir": "夢迷 -Mumei- Demo",
+    "launch": {
+      "0": {
+        "executable": "夢迷 -Mumei- Demo/Mumei.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": " app launch file",
+          "japanese": "アプリ起動ファイル"
+        },
+        "description": " app launch file"
+      }
+    }
+  },
+  "depots": {
+    "4045431": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5312464475374709624",
+          "size": "341216833",
+          "download": "143673632"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20540384",
+        "timeupdated": "1761389645"
+      }
     }
   }
 }
