@@ -1,6 +1,5 @@
 {
   "appid": "3845600",
-  "public_only": "1",
   "common": {
     "name": "Living with a Little Fox Girl",
     "type": "Game",
@@ -13,7 +12,7 @@
     "icon": "5058d30bd73ff735127b9adae41be78973bd102e",
     "clienticon": "3888e0fe2793deb65dfb8e2ef05ba90957bdd6e3",
     "clienttga": "a4a0fb76c5d8d012d07e8adffd85a8a7b58f6d48",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -165,9 +164,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761360853",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3845600",
-    "exfgls": "8",
     "store_tags": {
       "0": "9130",
       "1": "599",
@@ -189,6 +189,106 @@
       "17": "15172",
       "18": "4182",
       "19": "9551"
+    }
+  },
+  "extended": {
+    "developer": "Flash Club",
+    "publisher": "Saikey Studios"
+  },
+  "config": {
+    "installdir": "Living with a Little Fox Girl",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3845601": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4832271126686775499",
+          "size": "312905386",
+          "download": "80003568"
+        }
+      }
+    },
+    "3845602": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6515101814037182785",
+          "size": "312889786",
+          "download": "80000800"
+        }
+      }
+    },
+    "3845603": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "619247420104831004",
+          "size": "324824698",
+          "download": "87577792"
+        }
+      }
+    },
+    "3845604": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6420451039250001022",
+          "size": "324824698",
+          "download": "87577840"
+        }
+      }
+    },
+    "3845605": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2215764337482216122",
+          "size": "324827730",
+          "download": "87577776"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20520070",
+        "timeupdated": "1761259706"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Saikey/Living with a Little Fox Girl/Savedata",
+        "pattern": "*"
+      }
     }
   }
 }
