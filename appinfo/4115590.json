@@ -1,4 +1,131 @@
 {
   "appid": "4115590",
-  "public_only": "1"
+  "common": {
+    "name": "Infinity Islets Demo",
+    "type": "Demo",
+    "parent": "2546480",
+    "clienticon": "d711f1011500f584d5666c0fdf3ed822a93c3518",
+    "icon": "d711f1011500f584d5666c0fdf3ed822a93c3518",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "e0fd622a285617fb3ede702b069fe97f7bcf1f09/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "be7573b149aca2bf3e4ba7239f870c3568fecd0c/header.jpg"
+    },
+    "store_asset_mtime": "1760594056",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Suspicious Penguin"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Suspicious Penguin"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_69": "1",
+      "category_70": "1",
+      "category_74": "1",
+      "category_66": "1",
+      "category_75": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_15": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "gameid": "4115590",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Suspicious Penguin",
+    "publisher": "Suspicious Penguin"
+  },
+  "config": {
+    "installdir": "Infinity Islets Demo",
+    "launch": {
+      "0": {
+        "executable": "Infinity Islets Demo/Infinity Islets.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "2"
+  },
+  "depots": {
+    "4115591": {
+      "manifests": {
+        "public": {
+          "gid": "6568951205518362462",
+          "size": "2222167535",
+          "download": "1958076144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20540123",
+        "timeupdated": "1761386151"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "30",
+    "appidredirect": "2546480",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Suspicious Penguin\\Infinity Islets/MainSave/{64BitSteamID}",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Suspicious Penguin\\Infinity Islets/PCSaves/Controls/{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Suspicious Penguin\\Infinity Islets/SteamDeckSaves/Controls/{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      }
+    }
+  }
 }
