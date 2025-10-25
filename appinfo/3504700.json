@@ -1,12 +1,11 @@
 {
   "appid": "3504700",
-  "public_only": "1",
   "common": {
     "name": "4wheel Challenge",
     "type": "Game",
-    "releasestate": "prerelease",
-    "icon": "bc806be2db39d7ba656d71d3e515e5f0add5b23b",
-    "clienticon": "3f5a283d0f221709cca1d17c7af0355bbe6d3561",
+    "releasestate": "released",
+    "icon": "c272cc459749b5da44617500dafb544da68e80dd",
+    "clienticon": "c272cc459749b5da44617500dafb544da68e80dd",
     "clienttga": "e6ce643b6f5efe28e09afc7eecc81ca5e5882c75",
     "oslist": "windows",
     "osarch": "64",
@@ -16,17 +15,21 @@
       "german": "1",
       "french": "1",
       "italian": "1",
+      "koreana": "1",
       "spanish": "1",
+      "schinese": "1",
+      "russian": "1",
+      "japanese": "1",
       "brazilian": "1",
       "latam": "1"
     },
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
-      "english": "36219cdfd6bf0835448e4bb5ada632c353521f2a/capsule_231x87.jpg"
+      "english": "15eae4c582a7e508966dc33bd6061ec7568c309a/capsule_231x87.jpg"
     },
     "header_image": {
-      "english": "44e75771941b9db69199ec0fd0397b4348f1d268/header.jpg"
+      "english": "a33e9278e515b328b64ec229c99d7f07d53672c3/header.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -84,7 +87,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759725961",
+    "store_asset_mtime": "1760243890",
     "associations": {
       "0": {
         "type": "developer",
@@ -95,12 +98,13 @@
         "name": "LJ3D"
       }
     },
-    "primary_genre": "1",
+    "primary_genre": "9",
     "genres": {
       "0": "1",
-      "1": "23",
-      "2": "9",
-      "3": "18"
+      "1": "4",
+      "2": "23",
+      "3": "9",
+      "4": "18"
     },
     "category": {
       "category_2": "1",
@@ -110,6 +114,7 @@
       "category_75": "1",
       "category_79": "1",
       "category_22": "1",
+      "category_15": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -133,11 +138,24 @@
       },
       "latam": {
         "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
       }
     },
+    "steam_release_date": "1760026082",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3504700",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "699",
@@ -159,6 +177,46 @@
       "17": "6730",
       "18": "7250",
       "19": "5154"
+    }
+  },
+  "extended": {
+    "developer": "LJ3D",
+    "publisher": "LJ3D",
+    "homepage": "https://sites.google.com/view/4wheelchallenge/"
+  },
+  "config": {
+    "installdir": "4WheelChallenge",
+    "launch": {
+      "0": {
+        "executable": "4Wheel Challenge.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3504701": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4588752049518128827",
+          "size": "1559051728",
+          "download": "299041520"
+        }
+      }
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20536607",
+        "timeupdated": "1761351037"
+      }
     }
   }
 }
