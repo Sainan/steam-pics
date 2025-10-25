@@ -1,10 +1,9 @@
 {
   "appid": "3135270",
-  "public_only": "1",
   "common": {
     "name": "Slasher",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,7 +102,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3135270",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -129,6 +127,56 @@
       "17": "4191",
       "18": "3834",
       "19": "1697"
+    },
+    "review_score": "7",
+    "review_percentage": "80"
+  },
+  "extended": {
+    "developer": "Horrid Vision LLC",
+    "publisher": "Horrid Vision LLC"
+  },
+  "config": {
+    "installdir": "Slasher",
+    "launch": {
+      "0": {
+        "executable": "KillerMultiplayer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3135271": {
+      "manifests": {
+        "public": {
+          "gid": "1857590656081243886",
+          "size": "1576632164",
+          "download": "1438418752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20311083",
+        "timeupdated": "1759963808"
+      }
     }
   }
 }
