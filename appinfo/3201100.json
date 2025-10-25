@@ -1,0 +1,183 @@
+{
+  "appid": "3201100",
+  "common": {
+    "name": "Tartaros Demo",
+    "type": "Demo",
+    "parent": "3124820",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "icon": "82afaac7f0cf847bec5f0a566c3493a8528bb1d0",
+    "clienttga": "f4d025852dc19ee825b8c8aa7cb9cdecf42fb9b3",
+    "clienticon": "695efb9d931427e444aa52b049577d2725e9bbbf",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "2720e277f7050bef695b0f7d1a3d5b9ddc8e03ed/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "ce585a8b23dcb04b8bba82d5bfc3f3b4803d8ae7/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomCenter",
+        "width_pct": "100",
+        "height_pct": "66.54216598339116"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "3620d12f446fa47e3263b15ad21d97e43b3c0de8/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "3620d12f446fa47e3263b15ad21d97e43b3c0de8/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "9576d66c350d9c74962b3136e68c9f79095aeb02/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "9576d66c350d9c74962b3136e68c9f79095aeb02/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "9576d66c350d9c74962b3136e68c9f79095aeb02/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "6720b39381eb5fcf6a6ed46a850046303e26f8a3/logo.png"
+        },
+        "image2x": {
+          "english": "6720b39381eb5fcf6a6ed46a850046303e26f8a3/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomCenter",
+          "width_pct": "100",
+          "height_pct": "66.54216598339116"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "b7b7b2f387d2f6eb6ca991ae550fd7bb6f54a902/library_header.jpg"
+        },
+        "image2x": {
+          "english": "b7b7b2f387d2f6eb6ca991ae550fd7bb6f54a902/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1753720450",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Red Spark"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "TEDI Games"
+      }
+    },
+    "primary_genre": "25",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1726511398",
+    "community_visible_stats": "1",
+    "gameid": "3201100",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Red Spark",
+    "publisher": "TEDI Games",
+    "homepage": "https://tedigames.sk/redspark/"
+  },
+  "config": {
+    "installdir": "Tartaros_Demo",
+    "launch": {
+      "1": {
+        "executable": "Tartaros.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "\"C:\\Users\\pouzivatel\\Desktop\\sdk\\tools\\ContentBuilder\\content\\TartarosDemo\\Tartaros.exe\""
+        },
+        "description": "\"C:\\Users\\pouzivatel\\Desktop\\sdk\\tools\\ContentBuilder\\content\\TartarosDemo\\Tartaros.exe\""
+      }
+    }
+  },
+  "depots": {
+    "3201102": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3156850221953165389",
+          "size": "4725",
+          "download": "3312"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20544166",
+        "timeupdated": "1761431554"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Red Spark/Tartaros/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      }
+    }
+  }
+}
