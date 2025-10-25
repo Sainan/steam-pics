@@ -1,10 +1,9 @@
 {
   "appid": "3305830",
-  "public_only": "1",
   "common": {
     "name": "Koumi-Jima after Training with Konomi-chan Live2D",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a455abc31dcf7de515b210f1e04ffeb1a079d0c3",
     "clienticon": "a455abc31dcf7de515b210f1e04ffeb1a079d0c3",
     "clienttga": "c6dc4c6885bcbbf14ef9853880be1fb5f55e8194",
@@ -176,9 +175,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761357631",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3305830",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -203,6 +203,57 @@
       "14": "18594",
       "15": "4726",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "やぶから堂",
+    "publisher": "LewdLoco"
+  },
+  "config": {
+    "installdir": "子産み島",
+    "launch": {
+      "0": {
+        "executable": "ExSim02.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3305831": {
+      "manifests": {
+        "public": {
+          "gid": "7357239784716537690",
+          "size": "275674577",
+          "download": "211837584"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20355504",
+        "timeupdated": "1760250945"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Yabukaradoo\\ExSim02\\BackupSteam",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
