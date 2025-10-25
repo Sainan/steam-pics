@@ -12,20 +12,44 @@
     "releasestate": "released",
     "aicontenttype": "1",
     "steam_deck_compatibility": {
-      "category": "1",
-      "steamos_compatibility": "1",
-      "test_timestamp": "1758326400",
-      "tested_build_id": "19602160",
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1761091200",
+      "tested_build_id": "20447742",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "4": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
       "configuration": {
@@ -243,16 +267,16 @@
       },
       "manifests": {
         "public": {
-          "gid": "2688909175918566486",
-          "size": "6683366411",
-          "download": "3842491520"
+          "gid": "307832718816338623",
+          "size": "6683386891",
+          "download": "3842340992"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "20447742",
-        "timeupdated": "1760794762"
+        "buildid": "20542931",
+        "timeupdated": "1761417182"
       }
     }
   },
