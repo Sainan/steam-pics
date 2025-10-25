@@ -1,6 +1,5 @@
 {
   "appid": "3987730",
-  "public_only": "1",
   "common": {
     "name": "Medalla de Héroe",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "84b6010ee63b7910b0a219a781625c4bb98d9aad",
     "icon": "84b6010ee63b7910b0a219a781625c4bb98d9aad",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -116,9 +115,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3987730",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4434",
@@ -128,5 +127,55 @@
       "5": "4325",
       "6": "4182"
     }
+  },
+  "extended": {
+    "developer": "Cordon`s Dream",
+    "publisher": "Cordon`s Dream"
+  },
+  "config": {
+    "installdir": "Medalla de Heroe",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Press F4 to toggle fullscreen mode. F5 restarts the game.",
+          "spanish": "Pulsa F4 para cambiar a pantalla completa. F5 reinicia el juego."
+        },
+        "description": "Press F4 to toggle fullscreen mode. F5 restarts the game."
+      }
+    }
+  },
+  "depots": {
+    "3987731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8521702771822739820",
+          "size": "322969863",
+          "download": "214130192"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "spanish",
+    "branches": {
+      "public": {
+        "buildid": "20063086",
+        "timeupdated": "1760752217"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3987730",
+    "sync_while_suspended": "1"
   }
 }
