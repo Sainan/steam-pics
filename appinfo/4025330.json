@@ -1,6 +1,5 @@
 {
   "appid": "4025330",
-  "public_only": "1",
   "common": {
     "name": "Mourningwood Lodge2:Hidden Voice",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -135,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761377348",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4025330",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -164,5 +164,46 @@
       "18": "1662",
       "19": "8369"
     }
+  },
+  "extended": {
+    "developer": "MYSTERY CROWN",
+    "publisher": "MYSTERY CROWN"
+  },
+  "config": {
+    "installdir": "Mourningwood Lodge2Hidden Voice",
+    "launch": {
+      "0": {
+        "executable": "Mourningwood Lodge2Hidden Voice.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4025331": {},
+    "4025332": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2067297865888656545",
+          "size": "32848287499",
+          "download": "32795081728"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20509975",
+        "timeupdated": "1761210277"
+      }
+    },
+    "privatebranches": "1"
   }
 }
