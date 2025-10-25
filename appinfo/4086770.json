@@ -1,6 +1,5 @@
 {
   "appid": "4086770",
-  "public_only": "1",
   "common": {
     "name": "Last Shift",
     "type": "Game",
@@ -17,7 +16,7 @@
         "version": "3"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -113,9 +112,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761414682",
     "community_hub_visible": "1",
     "gameid": "4086770",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -141,5 +140,49 @@
       "18": "8369",
       "19": "9541"
     }
+  },
+  "extended": {
+    "developer": "Last Save",
+    "publisher": "Last Save"
+  },
+  "config": {
+    "installdir": "Last Shift",
+    "launch": {
+      "0": {
+        "executable": "Last Shift.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4086771": {},
+    "4086772": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2347327665174181816",
+          "size": "3670430786",
+          "download": "1792559248"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20542614",
+        "timeupdated": "1761413913"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "300000",
+    "maxnumfiles": "5",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
