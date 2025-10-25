@@ -1,0 +1,198 @@
+{
+  "appid": "3017440",
+  "common": {
+    "name": "Lovely Traps Dungeon Demo",
+    "type": "Demo",
+    "parent": "2071100",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "clienticon": "eab405687e479802dc01f1e0cf24168f2b4e8cfe",
+    "clienttga": "f672ca5c2ecf3effed729c6dce2c284b3c7ec3c4",
+    "linuxclienticon": "0596e4a10fc52ddd8d017ef1bbd2ee7b2b99f261",
+    "icon": "93a1b524296e15fdb69c48d1936e792f53bdec0c",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "c8408324d943fa6c30a5115a792e80730b307e62/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "100",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image2x": {
+          "english": "aa2aa3f76cb7bf0e0f22711af60a3b4206ca806d/library_600x900_2x.jpg"
+        },
+        "image": {
+          "english": "aa2aa3f76cb7bf0e0f22711af60a3b4206ca806d/library_600x900.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "7a2c205dac9398093b6ee9817614cc7648f48371/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "7a2c205dac9398093b6ee9817614cc7648f48371/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "7a2c205dac9398093b6ee9817614cc7648f48371/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "100",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "8023e6fd6196db3219d3ee4ae2f92ef1ae0becb8/library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1734521795",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Jau Studio"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Jau Studio"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1718756782",
+    "gameid": "3017440",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jau Studio",
+    "publisher": "Jau Studio"
+  },
+  "config": {
+    "installdir": "Lovely Traps Dungeon Demo",
+    "launch": {
+      "0": {
+        "executable": "LovelyTrapsDungeon_Demo.bat",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Windows launch script"
+        },
+        "description": "Windows launch script"
+      },
+      "1": {
+        "executable": "LovelyTrapsDungeon_Demo.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Gnu/Linux launch script"
+        },
+        "description": "Gnu/Linux launch script"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3017441": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1727009012715487392",
+          "size": "4031869772",
+          "download": "2135585824"
+        }
+      }
+    },
+    "3017442": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7688365100939353971",
+          "size": "2151423707",
+          "download": "1832443040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20542524",
+        "timeupdated": "1761413348"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "LovelyTrapsDungeon_Demo/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    }
+  }
+}
