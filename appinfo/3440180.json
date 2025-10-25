@@ -1,4 +1,201 @@
 {
   "appid": "3440180",
-  "public_only": "1"
+  "common": {
+    "name": "Chronicle of Innsmouth: Curse of Chaos Demo",
+    "type": "Demo",
+    "parent": "3440160",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "10e59524deca5a6e8d3f7653b12c5835224f5c1d",
+    "icon": "10e59524deca5a6e8d3f7653b12c5835224f5c1d",
+    "linuxclienticon": "2f338a73e604dcdb810f025988c9e3f89df4d4ed",
+    "clienticns": "d67900892416d5c08e4b0f113e3987c4da47eb1f",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "small_capsule": {
+      "english": "df180ba313bf0e46232cffd97b37bb878e7779a9/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "61bd28561daf1e830698dff7ec8c645c07b0a321/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "e95eebef0f59bbaa6f67d920b83214f8ef86b3b8/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "e95eebef0f59bbaa6f67d920b83214f8ef86b3b8/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "cfe1b2c129e9cbd3d89e6793afeabfeeb736c698/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "cfe1b2c129e9cbd3d89e6793afeabfeeb736c698/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "cfe1b2c129e9cbd3d89e6793afeabfeeb736c698/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "2b435ba17f0e33be62312c73d77b13b6e0ae13de/logo.png"
+        },
+        "image2x": {
+          "english": "2b435ba17f0e33be62312c73d77b13b6e0ae13de/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "ab9dd71be150efe92492df9ec9b4ee96d96815c8/library_header.jpg"
+        },
+        "image2x": {
+          "english": "ab9dd71be150efe92492df9ec9b4ee96d96815c8/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1760691701",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "AtomicHorde"
+      },
+      "1": {
+        "type": "developer",
+        "name": "https://www.atomichorde.com/"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "AtomicHorde"
+      },
+      "3": {
+        "type": "publisher",
+        "name": "https://www.atomichorde.com/"
+      },
+      "4": {
+        "type": "franchise",
+        "name": "Chronicle of Innsmouth"
+      },
+      "5": {
+        "type": "franchise",
+        "name": "https://www.atomichorde.com/"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_64": "1",
+      "category_65": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_79": "1",
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "3440180",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "AtomicHorde",
+    "publisher": "AtomicHorde",
+    "homepage": "https://www.atomichorde.com/curse-of-chaos/"
+  },
+  "config": {
+    "installdir": "Chronicle of Innsmouth Curse of Chaos Demo",
+    "launch": {
+      "0": {
+        "executable": "Curse_of_Chaos.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Chronicle of Innsmouth_ Curse of Chaos.app/Contents/MacOS/Chronicle of Innsmouth Curse of Chaos",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Chronicle of Innsmouth_ Curse of Chaos",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3440181": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7609008119920995620",
+          "size": "4125232230",
+          "download": "753957856"
+        }
+      }
+    },
+    "3440182": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1156820406478182743",
+          "size": "4120435260",
+          "download": "748000992"
+        }
+      }
+    },
+    "3440183": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "491810876588253616",
+          "size": "4929145814",
+          "download": "1518894272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20499754",
+        "timeupdated": "1761151659"
+      }
+    }
+  }
 }
