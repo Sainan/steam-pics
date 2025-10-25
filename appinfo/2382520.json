@@ -240,6 +240,15 @@
         "path": "Burgee Media/Erenshor/ESSaveData/",
         "pattern": "*"
       }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": "unity3d/Burgee Media/Erenshor/ESSaveData"
+      }
     }
   }
 }
