@@ -1,6 +1,5 @@
 {
   "appid": "4060720",
-  "public_only": "1",
   "common": {
     "name": "Arrow Survival: 15 Seconds",
     "type": "Game",
@@ -13,7 +12,7 @@
       "english": "1",
       "brazilian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -132,10 +131,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761142355",
     "steam_deck_blog_url": "https://steamcommunity.com/games/4060720/announcements/detail/538866028337170386?snr=2___",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4060720",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -152,6 +152,66 @@
       "12": "7481",
       "13": "7250",
       "14": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Low Pixel Byte",
+    "publisher": "Low Pixel Byte"
+  },
+  "config": {
+    "installdir": "arrowsurvival15seconds",
+    "launch": {
+      "0": {
+        "executable": "Arrow Survival 15 Seconds.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "4060721": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9048732956849142189",
+          "size": "278328792",
+          "download": "128048176"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,french,italian,spanish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20496952",
+        "timeupdated": "1761139356"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.save",
+        "recursive": "1"
+      }
     }
   }
 }
