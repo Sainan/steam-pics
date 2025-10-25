@@ -217,28 +217,37 @@
     "maxnumfiles": "3",
     "savefiles": {
       "0": {
-        "root": "WinAppDataRoaming",
+        "root": "gameinstall",
         "path": "Godot/app_userdata/CavemanCaravan/CCsaveData",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        }
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
       },
       "1": {
-        "root": "LinuxHome",
-        "path": ".local/share/godot/app_userdata/CavemanCaravan/CCsaveData",
-        "pattern": "*",
-        "platforms": {
-          "1": "Linux"
+        "root": "gameinstall",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/CavemanCaravan/CCsaveData",
+            "replace": ".local/share/godot/app_userdata/CavemanCaravan/CCsaveData"
+          }
         }
       },
       "2": {
-        "root": "MacAppSupport",
-        "path": "Godot/app_userdata/CavemanCaravan/CCsaveData",
-        "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        }
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
       }
     }
   }
