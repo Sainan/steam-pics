@@ -1,11 +1,10 @@
 {
   "appid": "3970850",
-  "public_only": "1",
   "common": {
     "name": "Stoplights Demo",
     "type": "Demo",
     "parent": "3107050",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "linuxclienticon": "177d3674fa4f90e8e28de1509b4b736dab83d026",
     "clienticns": "1037638cc410f9a96ab70a3827835cdde6f9317e",
     "icon": "856bf696900b9904223482c8a8191556c253ea93",
@@ -409,7 +408,44 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761394860",
     "gameid": "3970850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Wicked Blobfish",
+    "publisher": "Wicked Blobfish"
+  },
+  "config": {
+    "installdir": "Stoplights Demo",
+    "launch": {
+      "0": {
+        "executable": "Stoplights.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3970851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4091453534405416423",
+          "size": "231532422",
+          "download": "82323232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20387364",
+        "timeupdated": "1760453045"
+      }
+    }
   }
 }
