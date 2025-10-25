@@ -1,10 +1,9 @@
 {
   "appid": "3823300",
-  "public_only": "1",
   "common": {
     "name": "Rebloom",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -187,9 +186,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761350734",
     "community_hub_visible": "1",
     "gameid": "3823300",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "3959",
@@ -211,6 +210,49 @@
       "17": "1702",
       "18": "30358",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Innocentzebra",
+    "publisher": "Innocentzebra"
+  },
+  "config": {
+    "installdir": "Rebloom",
+    "launch": {
+      "0": {
+        "executable": "Rebloom.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3823301": {
+      "manifests": {
+        "public": {
+          "gid": "5052993341865222245",
+          "size": "597125166",
+          "download": "105373568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20535238",
+        "timeupdated": "1761340455"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.json"
+      }
     }
   }
 }
