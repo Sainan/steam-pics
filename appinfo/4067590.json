@@ -1,6 +1,5 @@
 {
   "appid": "4067590",
-  "public_only": "1",
   "common": {
     "name": "VirtuStick",
     "type": "Application",
@@ -21,7 +20,7 @@
     "osextended": "",
     "icon": "82be32bbb6860d41dd952ddf7503ef8438a8e2f1",
     "clienticon": "82be32bbb6860d41dd952ddf7503ef8438a8e2f1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7c76bd7700e8955dd1c83470e710191ed940412/capsule_231x87.jpg"
     },
@@ -140,6 +139,40 @@
     "store_tags": {
       "0": "87",
       "1": "13906"
+    }
+  },
+  "extended": {
+    "developer": "Little fatty studio",
+    "publisher": "Little fatty studio"
+  },
+  "config": {
+    "installdir": "VirtuStick",
+    "launch": {
+      "0": {
+        "executable": "mainapp_fz.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4067591": {
+      "manifests": {
+        "public": {
+          "gid": "7560791447856136091",
+          "size": "182952809",
+          "download": "66002464"
+        }
+      }
+    },
+    "baselanguages": "english,french,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20503542",
+        "timeupdated": "1761170869"
+      }
     }
   }
 }
