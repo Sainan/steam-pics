@@ -1,6 +1,5 @@
 {
   "appid": "3909220",
-  "public_only": "1",
   "common": {
     "name": "Yuki「清醒梦」",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e09b123726193b9992891b6a08043bd04f271714/capsule_231x87.jpg",
@@ -106,6 +105,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761370790",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3909220",
     "exfgls": "3",
@@ -129,6 +130,53 @@
       "16": "7481",
       "17": "6971",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "visualmemoryunit_",
+    "publisher": "visualmemoryunit_",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Yuki「清醒梦」",
+    "launch": {
+      "0": {
+        "executable": "Windows\\yumenikki\\Binaries\\Win64\\yumenikki-Win64-Shipping.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3909221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2459154915215099034",
+          "size": "941727669",
+          "download": "785186576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19718692",
+        "timeupdated": "1756078324"
+      }
     }
   }
 }
