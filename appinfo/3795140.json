@@ -1,6 +1,5 @@
 {
   "appid": "3795140",
-  "public_only": "1",
   "common": {
     "name": "ふみきり あそび",
     "type": "Game",
@@ -15,7 +14,7 @@
     "name_localized": {
       "english": "Railroad crossing play"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -125,9 +124,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3795140",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -147,6 +147,41 @@
       "15": "4195",
       "16": "7481",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "RucKyGAMES",
+    "publisher": "RucKyGAMES",
+    "homepage": "https://ruckygames.com/"
+  },
+  "config": {
+    "installdir": "ふみきりあそび",
+    "launch": {
+      "0": {
+        "executable": "fumikiri.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3795141": {
+      "manifests": {
+        "public": {
+          "gid": "7017433928848279999",
+          "size": "110825131",
+          "download": "33174896"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20333057",
+        "timeupdated": "1760082162"
+      }
     }
   }
 }
