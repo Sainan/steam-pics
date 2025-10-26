@@ -1,10 +1,9 @@
 {
   "appid": "3552470",
-  "public_only": "1",
   "common": {
     "name": "The Light of Celestia",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "8ccf2a582f28671b35965f430f55b0416a870de9",
     "clienticon": "8ccf2a582f28671b35965f430f55b0416a870de9",
     "clienttga": "b8f75a505e4a9af94799e384aee70a4b63070162",
@@ -105,9 +104,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761453015",
     "community_hub_visible": "1",
     "gameid": "3552470",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -129,6 +128,51 @@
       "17": "7481",
       "18": "7208",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Rivox Games",
+    "publisher": "Rivox Games",
+    "homepage": "https://www.rivoxgames.com/games"
+  },
+  "config": {
+    "installdir": "The Light of Celestia",
+    "launch": {
+      "0": {
+        "executable": "TheLightOfCelestia.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3552471": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2086947381462991336",
+          "size": "9788117470",
+          "download": "8964796816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20418433",
+        "timeupdated": "1760617947"
+      }
     }
   }
 }
