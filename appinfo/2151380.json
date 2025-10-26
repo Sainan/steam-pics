@@ -1,10 +1,9 @@
 {
   "appid": "2151380",
-  "public_only": "1",
   "common": {
     "name": "Chaosborn",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "40ce4f9976fbaf0e5a0f5def1220c4307d8609b5",
     "clienttga": "df3cc7f20b4c67bd44d74f04b03ff18542732a95",
     "linuxclienticon": "89c0593c46cbc5a7ddecab7036a3da3613e259ec",
@@ -118,9 +117,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761520558",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2151380",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -143,5 +143,61 @@
       "18": "3993",
       "19": "1702"
     }
+  },
+  "extended": {
+    "developer": "Erich Meurer",
+    "publisher": "OwlGames"
+  },
+  "config": {
+    "installdir": "ChaosBorn",
+    "launch": {
+      "0": {
+        "executable": "Chaosborn.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "Sim"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2151382": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "408201958653108119",
+          "size": "14327499759",
+          "download": "6005376528"
+        },
+        "demo": {
+          "gid": "408201958653108119",
+          "size": "14327499759",
+          "download": "6005376528"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20533963",
+        "timeupdated": "1761333049"
+      },
+      "demo": {
+        "buildid": "20533963",
+        "description": "Steam vem ai",
+        "timeupdated": "1761332934"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
