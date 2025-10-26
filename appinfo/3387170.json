@@ -106,12 +106,39 @@
         "config": {
           "oslist": "windows",
           "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Vulkan (preferred)"
+        },
+        "description": "Vulkan (preferred)"
+      },
+      "1": {
+        "executable": "UnitedHeistFacilityZero.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
         }
+      },
+      "2": {
+        "executable": "UnitedHeistFacilityZero.exe",
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "DirectX 12 (compatibility mode)"
+        },
+        "description": "DirectX 12 (compatibility mode)"
       }
     }
   },
   "depots": {
     "3387171": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
       "manifests": {
         "public": {
           "gid": "7591098668496101288",
@@ -120,6 +147,13 @@
         }
       }
     },
+    "3387172": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "",
     "branches": {
       "public": {
         "buildid": "20463179",
