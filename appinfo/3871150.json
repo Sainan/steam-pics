@@ -1,6 +1,5 @@
 {
   "appid": "3871150",
-  "public_only": "1",
   "common": {
     "name": "Throne Alone",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "41c5db82f54c779369475ecbc2b41fed018c03c1",
     "clienticon": "ccf9098b7e545c560e91166f73ee60ea80b62319",
     "clienttga": "757679dfc53ea57cb6618107ea7d3d92cb998bf5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -125,9 +124,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761127903",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3871150",
-    "exfgls": "8",
     "store_tags": {
       "0": "5395",
       "1": "4036",
@@ -149,6 +149,59 @@
       "17": "3978",
       "18": "4182",
       "19": "4711"
+    }
+  },
+  "extended": {
+    "developer": "Phase Vault",
+    "publisher": "Phase Vault"
+  },
+  "config": {
+    "installdir": "Throne Alone",
+    "launch": {
+      "0": {
+        "executable": "Throne Alone.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3871151": {},
+    "3871152": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "740135322767936770",
+          "size": "4495235711",
+          "download": "1304197824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20550580",
+        "timeupdated": "1761513240"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "/Phase Vault/Throne Alone/",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
