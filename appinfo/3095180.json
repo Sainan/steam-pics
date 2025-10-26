@@ -1,6 +1,5 @@
 {
   "appid": "3095180",
-  "public_only": "1",
   "common": {
     "name": "Delta Directive",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "22e566c90f9a711da20617f07aafccd7fd9cc3e2/capsule_231x87.jpg"
@@ -98,7 +97,6 @@
     },
     "category": {
       "category_1": "1",
-      "category_2": "1",
       "category_49": "1",
       "category_36": "1",
       "category_62": "1"
@@ -108,9 +106,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761442041",
     "community_hub_visible": "1",
     "gameid": "3095180",
-    "exfgls": "8",
     "store_tags": {
       "0": "1774",
       "1": "4255",
@@ -125,6 +123,49 @@
       "10": "492",
       "11": "4182",
       "12": "13276"
+    }
+  },
+  "extended": {
+    "developer": "CODEHUB",
+    "publisher": "CODEHUB STUDIOS"
+  },
+  "config": {
+    "installdir": "Delta Directive",
+    "launch": {
+      "0": {
+        "executable": "Delta Directive.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Delta Directive"
+        },
+        "description": "Delta Directive"
+      }
+    }
+  },
+  "depots": {
+    "3095182": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6191971927061327713",
+          "size": "1057063445",
+          "download": "310150192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20465606",
+        "timeupdated": "1760972467"
+      }
     }
   }
 }
