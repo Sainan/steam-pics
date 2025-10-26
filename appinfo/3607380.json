@@ -248,7 +248,12 @@
         "os": "Linux",
         "oscompare": "=",
         "useinstead": "LinuxHome",
-        "addpath": ".local/share/"
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/A Bottled Up Island",
+            "replace": ".local/share/godot/app_userdata/A Bottled Up Island/"
+          }
+        }
       }
     }
   }
