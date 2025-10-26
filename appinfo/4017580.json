@@ -1,6 +1,5 @@
 {
   "appid": "4017580",
-  "public_only": "1",
   "common": {
     "name": "Within The Mind",
     "type": "Game",
@@ -13,7 +12,7 @@
       "english": "1",
       "french": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "ca377b3eb6ec59f2cf6d2fc15e4dde9656c9c607/capsule_231x87.jpg"
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761470739",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4017580",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "6129",
@@ -141,6 +141,69 @@
       "17": "4400",
       "18": "4342",
       "19": "5716"
+    }
+  },
+  "extended": {
+    "developer": "RC-LP",
+    "publisher": "RC-LP"
+  },
+  "config": {
+    "installdir": "Within The Mind",
+    "launch": {
+      "0": {
+        "executable": "Within_The_Mind.exe"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "4"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4017581": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8017906576336064284",
+          "size": "182779103",
+          "download": "99553616"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20516661",
+        "timeupdated": "1761241137"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Within_The_Mind/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
