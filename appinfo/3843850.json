@@ -1,10 +1,9 @@
 {
   "appid": "3843850",
-  "public_only": "1",
   "common": {
     "name": "The Black Pool: Arena Survivors",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -22,7 +21,7 @@
       "latam": "1"
     },
     "controllertagwizard": "1",
-    "controller_support": "partial",
+    "controller_support": "full",
     "small_capsule": {
       "english": "3dc4c17dd634c189dc693eed6ec92d61fa04354c/capsule_231x87.jpg"
     },
@@ -117,7 +116,8 @@
       "category_70": "1",
       "category_74": "1",
       "category_78": "1",
-      "category_18": "1"
+      "category_28": "1",
+      "category_55": "1"
     },
     "supported_languages": {
       "english": {
@@ -154,8 +154,15 @@
         "supported": "true",
         "full_audio": "true",
         "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3843850",
     "exfgls": "3",
@@ -180,6 +187,71 @@
       "17": "6730",
       "18": "1685",
       "19": "3841"
+    },
+    "review_score": "5",
+    "review_percentage": "53"
+  },
+  "extended": {
+    "developer": "Smug Marmot Studios",
+    "publisher": "Smug Marmot Studios",
+    "homepage": "https://smugmarmot.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Black Pool Arena Survivors",
+    "launch": {
+      "0": {
+        "executable": "TheBlackPool.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3843851": {
+      "manifests": {
+        "public": {
+          "gid": "6280492381004949925",
+          "size": "10623986362",
+          "download": "10249815936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20388231",
+        "timeupdated": "1760460303"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheBlackPool/Saved/SaveGames",
+        "pattern": "SavePreservedSettingsSlot"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "TheBlackPool/Saved/SaveGames",
+        "pattern": "SaveGameSlot*.sav"
+      }
     }
   }
 }
