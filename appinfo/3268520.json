@@ -1,6 +1,5 @@
 {
   "appid": "3268520",
-  "public_only": "1",
   "common": {
     "name": "Before Exit: Gas Station",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "b662503ef5f7501c4c327196a7c475729ca3fd89",
     "icon": "6116df39877e481e945967643b24774389fdba78",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758718597",
+    "store_asset_mtime": "1760099084",
     "associations": {
       "0": {
         "type": "developer",
@@ -164,9 +163,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760034269",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3268520",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -188,6 +188,58 @@
       "17": "492",
       "18": "5716",
       "19": "1714"
+    },
+    "review_score": "7",
+    "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "Take IT Studio!",
+    "publisher": "Take IT Studio!",
+    "homepage": "https://takeitstudio.com/"
+  },
+  "config": {
+    "installdir": "Before Exit - Gas Station",
+    "launch": {
+      "0": {
+        "executable": "BeforeExitGasStation.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
     }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3268521": {
+      "manifests": {
+        "public": {
+          "gid": "5037778095884314241",
+          "size": "5136573587",
+          "download": "4918327504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20302758",
+        "timeupdated": "1760005483"
+      }
+    },
+    "privatebranches": "1"
   }
 }
