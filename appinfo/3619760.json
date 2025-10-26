@@ -1,6 +1,5 @@
 {
   "appid": "3619760",
-  "public_only": "1",
   "common": {
     "name": "Yoiyami Biscuit",
     "type": "Game",
@@ -13,7 +12,7 @@
     "osextended": "",
     "icon": "83cc55795be2f4b39144491183b71adf9a2ad51f",
     "clienticon": "1d31409753aefa791b47f968243b531815ddcea3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -123,9 +122,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761490815",
     "community_hub_visible": "1",
     "gameid": "3619760",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -139,6 +138,71 @@
       "9": "493",
       "10": "7208",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "tripper_room",
+    "publisher": "Mediascape Co., Ltd."
+  },
+  "config": {
+    "installdir": "rumiaVSv_yoiyamibiscuit",
+    "launch": {
+      "0": {
+        "executable": "rumiaVSv.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3588632113": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3619761": {
+      "manifests": {
+        "public": {
+          "gid": "9016071179742538762",
+          "size": "209828053",
+          "download": "199872432"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20548106",
+        "timeupdated": "1761487034"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.ybs"
+      }
     }
   }
 }
