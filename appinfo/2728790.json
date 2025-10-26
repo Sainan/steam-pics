@@ -1,0 +1,144 @@
+{
+  "appid": "2728790",
+  "common": {
+    "name": "Pryzm Demo",
+    "type": "Demo",
+    "parent": "2725520",
+    "icon": "f1fa977307c256ea81270245b06c9a065bdb5e6f",
+    "clienticon": "5347f3ca058a2f66438425378b5ef0ae7cfc3f21",
+    "clienttga": "d3c4fb0e3d1bbebd9d4fd66abebe14da7b9f7e3f",
+    "clienticns": "9541a0610cca2edfd0e83c1c4b2b211558071f32",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "97d7522bdbce29a78bac6627ccdac1e08c291604/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1723022805",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "DrearyWeary"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "DrearyWeary"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_57": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1706788815",
+    "gameid": "2728790",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DrearyWeary",
+    "publisher": "DrearyWeary"
+  },
+  "config": {
+    "installdir": "Pryzm Demo",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15",
+    "launch": {
+      "0": {
+        "executable": "Pryzm.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Pryzm.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2728791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "349315495542924633",
+          "size": "78294144",
+          "download": "30832416"
+        }
+      }
+    },
+    "2728792": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2403292034168012936",
+          "size": "161093941",
+          "download": "51780000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18925472",
+        "timeupdated": "1750330427"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "10",
+    "appidredirect": "2725520",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "DrearyWeary/pryzm",
+        "pattern": "*.dwx"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "DrearyWeary/pryzm",
+        "pattern": "*.cfg"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
+    }
+  }
+}
