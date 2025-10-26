@@ -1,10 +1,9 @@
 {
   "appid": "3772060",
-  "public_only": "1",
   "common": {
     "name": "Bunny's Tea Time",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "4e381cb17f894f09f8464f56b86ca3879d0b180e",
     "clienticon": "b8288253e99a963307f6469ea7eda622d327a353",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
@@ -155,9 +154,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3772060",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "16689",
@@ -170,6 +169,54 @@
       "8": "3964",
       "9": "492",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "혜패 HYEPÆ",
+    "publisher": "혜패 HYEPÆ"
+  },
+  "config": {
+    "installdir": "토끼의 시간 Bunny's Tea Time",
+    "launch": {
+      "0": {
+        "executable": "Bunny'sTeaTime.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3772061": {
+      "manifests": {
+        "public": {
+          "gid": "504452307867583623",
+          "size": "581002775",
+          "download": "143703424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20548711",
+        "timeupdated": "1761493445"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "HYEPAE/Bunny'sTeaTime/SaveData",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
