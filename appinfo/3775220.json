@@ -1,11 +1,10 @@
 {
   "appid": "3775220",
-  "public_only": "1",
   "common": {
     "name": "Hellbound, Inc. Demo",
     "type": "Demo",
     "parent": "3746940",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "930403ad3865b4fcad111b2ade2ae76aadefa4dc",
     "clienticns": "591e5d291cd9102f685b9edb8e4b9b1e84774bd6",
     "linuxclienticon": "5d9e1e69b8cd46d76cb646523aa36dc7694b2aab",
@@ -112,7 +111,6 @@
       "category_56": "1",
       "category_57": "1",
       "category_58": "1",
-      "category_59": "1",
       "category_60": "1",
       "category_22": "1"
     },
@@ -122,7 +120,52 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3775220",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Templo",
+    "publisher": "Templo",
+    "homepage": "https://www.rewildergames.com/hellbound-inc"
+  },
+  "config": {
+    "installdir": "Hellbound, Inc. Demo",
+    "launch": {
+      "0": {
+        "executable": "Hellbound_PCDemo/Hellbound.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hellbound_MACDemo/Hellbound.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "0",
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertouchtemplateindex": "9"
+  },
+  "depots": {
+    "3775221": {
+      "manifests": {
+        "public": {
+          "gid": "6988873259600476501",
+          "size": "644309681",
+          "download": "216678544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20536202",
+        "timeupdated": "1761346482"
+      }
+    }
   }
 }
