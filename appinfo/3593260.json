@@ -1,6 +1,5 @@
 {
   "appid": "3593260",
-  "public_only": "1",
   "common": {
     "name": "Flesh Farm",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticon": "b1fcb1f1823726d0897f1760a3965ef0a4f90ce6",
     "clienticns": "b1fcb1f1823726d0897f1760a3965ef0a4f90ce6",
     "linuxclienticon": "1442f6ca624babe538955c22b240d61dfc5f20fa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,9 +111,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761511529",
     "community_hub_visible": "1",
     "gameid": "3593260",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,6 +139,74 @@
       "17": "4342",
       "18": "4004",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "RABIDFROTH",
+    "publisher": "RABIDFROTH"
+  },
+  "config": {
+    "installdir": "Flesh Farm",
+    "launch": {
+      "0": {
+        "executable": "FleshFarm.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Start game"
+        },
+        "description": "Start game"
+      }
+    }
+  },
+  "depots": {
+    "3593261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "705300678704091741",
+          "size": "302238986",
+          "download": "192685040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20211961",
+        "timeupdated": "1759349202"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "RABIDFROTH/Flesh Farm/FF/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "RABIDFROTH/Flesh Farm/FF/Saves",
+            "replace": ".config/unity3d/RABIDFROTH/Flesh Farm/FF/Saves"
+          }
+        }
+      }
     }
   }
 }
