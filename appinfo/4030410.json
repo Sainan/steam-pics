@@ -1,6 +1,5 @@
 {
   "appid": "4030410",
-  "public_only": "1",
   "common": {
     "name": "Evil Pongon Game",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "a044c2391b511503a57f2d1396389d2134b546f8",
     "clienticon": "a044c2391b511503a57f2d1396389d2134b546f8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a859cff20e368318b09556c2341585a89fe2d266/capsule_231x87.jpg"
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4030410",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -135,5 +135,48 @@
       "12": "3993",
       "13": "4182"
     }
+  },
+  "extended": {
+    "developer": "Pongon",
+    "publisher": "idk dude me?"
+  },
+  "config": {
+    "installdir": "Evil Pongon Game",
+    "launch": {
+      "0": {
+        "executable": "EvilPongonGameDevTEST.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4030411": {
+      "manifests": {
+        "public": {
+          "gid": "4527627413214971717",
+          "size": "272762448",
+          "download": "192771040"
+        },
+        "linux": {
+          "gid": "7728936437592672318",
+          "size": "245900016",
+          "download": "186048080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20355365",
+        "timeupdated": "1760248909"
+      },
+      "linux": {
+        "buildid": "20331457",
+        "description": "linux version of the game",
+        "timeupdated": "1760070528"
+      }
+    },
+    "privatebranches": "1"
   }
 }
