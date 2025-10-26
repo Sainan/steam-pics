@@ -1,6 +1,5 @@
 {
   "appid": "3644510",
-  "public_only": "1",
   "common": {
     "name": "Uncanny Valley: Le Petit Morte",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -116,9 +115,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760974680",
     "community_hub_visible": "1",
     "gameid": "3644510",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -143,6 +142,82 @@
       "17": "1659",
       "18": "5673",
       "19": "3978"
+    }
+  },
+  "extended": {
+    "developer": "Chris King",
+    "publisher": "Chris King",
+    "homepage": "https://www.uncanny-valley.me/"
+  },
+  "config": {
+    "installdir": "Le Petit Morte",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Game.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3644511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8690429029129026869",
+          "size": "1059086806",
+          "download": "808753520"
+        }
+      }
+    },
+    "3644512": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3954268493703153969",
+          "size": "1363366492",
+          "download": "843954976"
+        }
+      }
+    },
+    "3644513": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20549868",
+        "timeupdated": "1761505889"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
