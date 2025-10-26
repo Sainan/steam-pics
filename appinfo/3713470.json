@@ -1,6 +1,5 @@
 {
   "appid": "3713470",
-  "public_only": "1",
   "common": {
     "name": "Moonvile",
     "type": "Game",
@@ -12,7 +11,7 @@
     "linuxclienticon": "8a7e2372d97f4ab7d8b267c1976b49708bc1f96d",
     "clienticns": "8a7e2372d97f4ab7d8b267c1976b49708bc1f96d",
     "clienticon": "9c190a3db345ffa53bfadf09a87b9934a1bb5c48",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3713470_eula_0",
@@ -155,9 +154,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761505789",
     "community_hub_visible": "1",
     "gameid": "3713470",
-    "exfgls": "8",
     "store_tags": {
       "0": "1663",
       "1": "1775",
@@ -179,6 +178,58 @@
       "17": "1687",
       "18": "1708",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Shadow Wrought Games",
+    "publisher": "Shadow Wrought Games"
+  },
+  "config": {
+    "installdir": "Moonvile",
+    "launch": {
+      "0": {
+        "executable": "Moonvile.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Moonvile"
+        },
+        "description": "Moonvile"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3713471": {
+      "manifests": {
+        "public": {
+          "gid": "7127062923785581695",
+          "size": "2972616712",
+          "download": "2687918992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20549850",
+        "timeupdated": "1761505553"
+      }
     }
   }
 }
