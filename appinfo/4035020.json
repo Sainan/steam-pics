@@ -1,16 +1,15 @@
 {
   "appid": "4035020",
-  "public_only": "1",
   "common": {
     "name": "Tales of Tonbrook Demo",
     "type": "Demo",
     "parent": "3931490",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "clienticon": "25b58e35736bf1821d832bb5dbeb2a71d3099651",
     "icon": "25b58e35736bf1821d832bb5dbeb2a71d3099651",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -105,7 +104,70 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761165608",
     "gameid": "4035020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Sapient Games LLC",
+    "publisher": "Sapient Games LLC",
+    "homepage": "https://sapientgames.com/games/tales-of-tonbrook/"
+  },
+  "config": {
+    "installdir": "Tales of Tonbrook Demo",
+    "launch": {
+      "0": {
+        "executable": "tonbrook-demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "tonbrook-demo.app/Contents/MacOS/tonbrook-demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "controller_config/game_actions_4035020",
+    "steamconfigurator3rdpartynative": "65524"
+  },
+  "depots": {
+    "4035021": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4063613162355977931",
+          "size": "641184361",
+          "download": "291632848"
+        }
+      }
+    },
+    "4035022": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5505214772646353392",
+          "size": "724883505",
+          "download": "276445808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20550061",
+        "timeupdated": "1761507722"
+      }
+    }
   }
 }
