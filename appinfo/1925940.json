@@ -1,10 +1,9 @@
 {
   "appid": "1925940",
-  "public_only": "1",
   "common": {
     "name": "The Office Rooms",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -104,9 +103,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761488465",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1925940",
-    "exfgls": "8",
     "store_tags": {
       "0": "5900",
       "1": "5716",
@@ -129,5 +129,70 @@
       "18": "4106",
       "19": "6129"
     }
+  },
+  "extended": {
+    "developer": "Lowkey GameDev",
+    "publisher": "Lowkey GameDev"
+  },
+  "config": {
+    "installdir": "TheOfficeRooms",
+    "launch": {
+      "0": {
+        "executable": "TheOfficeRooms.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1925941": {
+      "manifests": {
+        "public": {
+          "gid": "1086896495007315595",
+          "size": "3845863178",
+          "download": "3672036496"
+        },
+        "development": {
+          "gid": "1086896495007315595",
+          "size": "3845863178",
+          "download": "3672036496"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20371246",
+        "timeupdated": "1760367971"
+      },
+      "development": {
+        "buildid": "20371246",
+        "description": "development",
+        "timeupdated": "1760367904"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000000",
+    "maxnumfiles": "100"
   }
 }
