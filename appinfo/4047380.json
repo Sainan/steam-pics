@@ -1,12 +1,11 @@
 {
   "appid": "4047380",
-  "public_only": "1",
   "common": {
     "name": "Full Steam",
     "type": "Game",
     "clienticon": "e21e253b0f4b19c2c6b8945705d624f54be0086f",
     "icon": "f51178b2f3bd6458dfada02e6e4b71e9df38a964",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -117,5 +116,48 @@
       "10": "3993",
       "11": "4182"
     }
+  },
+  "extended": {
+    "developer": "FoundTree Studios",
+    "publisher": "FoundTree Studios",
+    "homepage": "https://fullsteam-presskit.my.canva.site/#main",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Full Steam",
+    "launch": {
+      "0": {
+        "executable": "Full-Steam.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4047381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6461458435695992434",
+          "size": "818890587",
+          "download": "57101792"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20546217",
+        "timeupdated": "1761462197"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10000"
   }
 }
