@@ -1,0 +1,225 @@
+{
+  "appid": "2923870",
+  "common": {
+    "name": "Exfil Demo",
+    "type": "Demo",
+    "parent": "860020",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "icon": "f8348007b891296f314c1162b0769c3145770b48",
+    "clienttga": "8c2d111c302bde042b28a6d0f20a963782bbbdf4",
+    "clienticon": "33737b8b5f5423d893b052648200821b5133cc62",
+    "eulas": {
+      "0": {
+        "id": "2923870_eula_0",
+        "name": "Exfil Demo EULA",
+        "url": "https://store.steampowered.com//eula/2923870_eula_0",
+        "version": "6"
+      }
+    },
+    "controllertagwizard": "1",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "96.90781796966161",
+        "height_pct": "87.9957254808834"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "96.90781796966161",
+          "height_pct": "87.9957254808834"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1742489884",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Misultin Studios"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "MicroProse Software"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "28"
+    },
+    "category": {
+      "category_1": "1",
+      "category_49": "1",
+      "category_36": "1",
+      "category_18": "1",
+      "category_2": "1",
+      "category_37": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_39": "1",
+      "category_24": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "ukrainian": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1713201841",
+    "community_visible_stats": "1",
+    "gameid": "2923870",
+    "exfgls": "6"
+  },
+  "extended": {
+    "gamedir": "exfil",
+    "serverbrowsername": "Exfil",
+    "developer": "Misultin Studios",
+    "publisher": "MicroProse Software",
+    "homepage": "http://www.misultin.com"
+  },
+  "config": {
+    "installdir": "Exfil Demo",
+    "launch": {
+      "0": {
+        "executable": "ExfilDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2923871": {
+      "manifests": {
+        "public": {
+          "gid": "6461653976907915830",
+          "size": "11851608483",
+          "download": "10261572304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18693135",
+        "timeupdated": "1748794663"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Exfil/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Exfil/Saved/Config/Windows",
+        "pattern": "Settings.ini"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "addpath": ""
+      }
+    }
+  }
+}
