@@ -1,6 +1,5 @@
 {
   "appid": "3831160",
-  "public_only": "1",
   "common": {
     "name": "ARMORY SIMULATOR Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -72,5 +71,68 @@
     },
     "gameid": "3831160",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CEMA GAMES",
+    "publisher": "CEMA GAMES"
+  },
+  "config": {
+    "installdir": "ARMORY SIMULATOR Demo",
+    "launch": {
+      "0": {
+        "executable": "Armory_Simulator\\Armory_Simulator.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3831161": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2300813452556246134",
+          "size": "4641635472",
+          "download": "4277082224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20548497",
+        "timeupdated": "1761491097"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "40000000",
+    "maxnumfiles": "5000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Armory_Simulator\\Armory_Simulator\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    }
   }
 }
