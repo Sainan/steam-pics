@@ -1,4 +1,101 @@
 {
   "appid": "4062500",
-  "public_only": "1"
+  "common": {
+    "name": "First Demo",
+    "type": "Demo",
+    "parent": "4062490",
+    "clienticon": "a530fba7528cc31d12dd1d99bfd41d39a6843969",
+    "icon": "a530fba7528cc31d12dd1d99bfd41d39a6843969",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "0b4c6af128547b541eab6ec5f85a5f92649648ef/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "af98c028f19beb8768d7c3b4fd88e4406807113a/header.jpg"
+    },
+    "store_screenshot": "e5f808be51fcbbd54f00941b859269510cfbd3ca/ss_e5f808be51fcbbd54f00941b859269510cfbd3ca.jpg",
+    "store_asset_mtime": "1760185913",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "badd"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "badd"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1761103082",
+    "gameid": "4062500",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "badd",
+    "publisher": "badd"
+  },
+  "config": {
+    "installdir": "First Demo",
+    "launch": {
+      "0": {
+        "executable": "first.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4062501": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5312527053561395868",
+          "size": "597497402",
+          "download": "452359344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20279064",
+        "timeupdated": "1759800107"
+      }
+    }
+  }
 }
