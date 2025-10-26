@@ -159,6 +159,24 @@
     "quota": "52428800",
     "maxnumfiles": "30",
     "ignoreexternalfiles": "1",
-    "hidecloudui": "1"
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "BesertBydra\\data",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "BesertBydra\\data",
+        "pattern": ".key",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
