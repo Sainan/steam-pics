@@ -1,0 +1,200 @@
+{
+  "appid": "3820720",
+  "common": {
+    "name": "Wasteland Bites Demo",
+    "type": "Demo",
+    "parent": "3748640",
+    "releasestate": "released",
+    "icon": "e498255a2bb504d3bb6918b31976233baaa8d537",
+    "clienttga": "554a783e819753adba73a440cef29970297f1605",
+    "clienticon": "7ef6af662f90557716b76157cc2147d93fdf280d",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "e78941d8554a7f65caf2be123477116b72f47f1e/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "39ab20524c0428514d0c94cae41633b866abe279/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "6dd3e5d93f5b1d00d093afce0cc4c788815e6e66/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "6dd3e5d93f5b1d00d093afce0cc4c788815e6e66/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "8ea650d495af267f54049ed03870b77f9f70aa89/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "8ea650d495af267f54049ed03870b77f9f70aa89/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "8ea650d495af267f54049ed03870b77f9f70aa89/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "2504ed752f29eabf34f257a8bda2db0d2512cd80/logo.png"
+        },
+        "image2x": {
+          "english": "2504ed752f29eabf34f257a8bda2db0d2512cd80/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "d17b9314669c7d2946eae18fa425566ba54015aa/library_header.jpg"
+        },
+        "image2x": {
+          "english": "d17b9314669c7d2946eae18fa425566ba54015aa/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1752533725",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "CosmicDev"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "CosmicDev"
+      }
+    },
+    "primary_genre": "28",
+    "genres": {
+      "0": "23",
+      "1": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "turkish": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1750718547",
+    "gameid": "3820720",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "CosmicDev",
+    "publisher": "CosmicDev"
+  },
+  "config": {
+    "installdir": "Wasteland Bites Demo",
+    "launch": {
+      "0": {
+        "executable": "WastelandBites.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Wasteland Bites DEMO.app/Contents/MacOS/Wasteland Bites DEMO",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "./WastelandBites.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "WastelandBites.exe",
+        "arguments": "--rendering-driver opengl3",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Compatibility Mode (Non-Vulkan)"
+        },
+        "description": "Compatibility Mode (Non-Vulkan)"
+      }
+    }
+  },
+  "depots": {
+    "3820721": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6472938257415920375",
+          "size": "325391760",
+          "download": "181823520"
+        }
+      }
+    },
+    "3820722": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5637873643479526891",
+          "size": "299996464",
+          "download": "175187152"
+        }
+      }
+    },
+    "3820723": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "56766683772245396",
+          "size": "421307078",
+          "download": "208314016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20551562",
+        "timeupdated": "1761522402"
+      }
+    }
+  }
+}
