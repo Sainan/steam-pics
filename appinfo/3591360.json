@@ -1,6 +1,5 @@
 {
   "appid": "3591360",
-  "public_only": "1",
   "common": {
     "name": "Bad Bitch Blasters",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -111,9 +110,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3591360",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,6 +137,50 @@
       "17": "6971",
       "18": "7250",
       "19": "17305"
+    }
+  },
+  "extended": {
+    "developer": "Goiaba Megas Xellox",
+    "publisher": "Goiaba Megas Xellox"
+  },
+  "config": {
+    "installdir": "Bad Bitch Blasters",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3591361": {
+      "manifests": {
+        "public": {
+          "gid": "9016064785390196360",
+          "size": "605854796",
+          "download": "374877344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20479154",
+        "timeupdated": "1761043641"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
