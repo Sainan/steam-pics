@@ -1,0 +1,164 @@
+{
+  "appid": "3556850",
+  "common": {
+    "name": "A Case of Fraud Demo",
+    "type": "Demo",
+    "parent": "3036350",
+    "releasestate": "released",
+    "icon": "80cf24f5ac6e4ba9400f46afadbd9a070d1b1fd4",
+    "clienttga": "46052b08b1b8eb8f450f5c5af7106f620269d52f",
+    "clienticon": "50ab1d24070900d1d531cf15878832e65ec6f981",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "small_capsule": {
+      "english": "d7d5e9e98e9cf0a07d8b4c75f1b0f175747c69ce/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "0411c21368aac8a63cc991fd9bf1d5a1b2815086/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "2eeb18bbcaa95616e4bb0060d9c84be2f2451be5/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "2eeb18bbcaa95616e4bb0060d9c84be2f2451be5/library_600x900_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "0411c21368aac8a63cc991fd9bf1d5a1b2815086/library_header.jpg"
+        },
+        "image2x": {
+          "english": "0411c21368aac8a63cc991fd9bf1d5a1b2815086/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1752118288",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Hesperus Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Hesperus Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_66": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1741065207",
+    "gameid": "3556850",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Hesperus Games",
+    "publisher": "Hesperus Games",
+    "homepage": "https://www.hesperusgames.com/"
+  },
+  "config": {
+    "installdir": "A Case of Fraud Demo",
+    "launch": {
+      "0": {
+        "executable": "ACaseOfFraud/ACaseOfFraud.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ACaseOfFraud/ACaseOfFraud.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3556851": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8955099218719553029",
+          "size": "166516243",
+          "download": "88115040"
+        }
+      }
+    },
+    "3556852": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2705048066084220690",
+          "size": "251157281",
+          "download": "106091264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20006554",
+        "timeupdated": "1758060425"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/A Case of Fraud Demo",
+        "pattern": "*.tres"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/A Case of Fraud Demo",
+            "replace": "Library/Application Support/Godot/app_userdata/A Case of Fraud Demo"
+          }
+        }
+      }
+    }
+  }
+}
