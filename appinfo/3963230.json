@@ -1,10 +1,9 @@
 {
   "appid": "3963230",
-  "public_only": "1",
   "common": {
     "name": "Train Station Simulator: Together in Japan",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "9a8e599602bf7893654fe350502dd1d1d200ab2e",
     "clienticon": "82d37c55b3d4a025b331bfa1cad736baa4ad6589",
     "clienttga": "abbdfdd41d10c5fbfc7898fb3ba7507bb54bcfa2",
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758812731",
+    "store_asset_mtime": "1760945820",
     "associations": {
       "0": {
         "type": "developer",
@@ -219,9 +218,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3963230",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "599",
@@ -238,6 +238,71 @@
       "12": "4145",
       "13": "3859",
       "14": "4182"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Çınar's Art",
+    "publisher": "Çınar's Art"
+  },
+  "config": {
+    "installdir": "Train Station Simulator Together in Japan",
+    "launch": {
+      "0": {
+        "executable": "TrainStationSim.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3963231": {
+      "manifests": {
+        "public": {
+          "gid": "4213297696503942491",
+          "size": "1320124029",
+          "download": "1166927824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20481288",
+        "timeupdated": "1761053995"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "20",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TrainStationSim/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
