@@ -1,0 +1,248 @@
+{
+  "appid": "269170",
+  "common": {
+    "name": "SportsBar VR ",
+    "type": "Game",
+    "releasestate": "released",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      }
+    },
+    "oslist": "windows",
+    "logo": "c21892b684eb81bdcda7479bfc9bce07184b2861",
+    "logo_small": "c21892b684eb81bdcda7479bfc9bce07184b2861_thumb",
+    "icon": "3dd2d3e629dee5bc535b415cceb423fb2975afc7",
+    "clienttga": "3deefd8cf44aeec0fa488bb9896e3bbeef06e145",
+    "clienticon": "9351b36627f62b221951bf042e428e1a7ff81733",
+    "openvrsupport": "1",
+    "eulas": {
+      "0": {
+        "id": "269170_eula_0",
+        "name": "SportsBar VR  EULA",
+        "url": "http://store.steampowered.com//eula/269170_eula_0"
+      }
+    },
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "0",
+      "test_timestamp": "1644278400",
+      "tested_build_id": "0",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+        }
+      },
+      "steamos_tests": {},
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Pool Nation VR",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_2c1d878bfca36cacabf55c57dd3e60af6bbc9e01.jpg",
+    "store_asset_mtime": "1512070332",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Cherry Pop Games"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Perilous Orbit"
+      },
+      "2": {
+        "type": "publisher",
+        "name": "Perilous Orbit"
+      }
+    },
+    "primary_genre": "18",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "28",
+      "3": "18",
+      "4": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_23": "1",
+      "category_36": "1",
+      "category_38": "1",
+      "category_49": "1",
+      "category_9": "1",
+      "category_52": "1",
+      "category_54": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "original_release_date": "1464764400",
+    "steam_release_date": "1464801960",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "269170",
+    "onlyvrsupport": "1",
+    "store_tags": {
+      "0": "21978",
+      "1": "701",
+      "2": "363767",
+      "3": "599",
+      "4": "597",
+      "5": "17927",
+      "6": "492",
+      "7": "7368",
+      "8": "9",
+      "9": "3968",
+      "10": "3859",
+      "11": "4190"
+    },
+    "review_score": "8",
+    "review_percentage": "83"
+  },
+  "extended": {
+    "developer": "Cherry Pop Games",
+    "publisher": "Perilous Orbit",
+    "homepage": "http://www.sportsbarvrexperience.com"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "PoolNationVR",
+    "launch": {
+      "0": {
+        "executable": "PoolNationVR.exe",
+        "arguments": "-culture=\"en\" ",
+        "description": "Vive",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "PoolNationVR.exe",
+        "arguments": "-culture=\"en\"",
+        "description": "Multi-Platform",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "betakey": "staging"
+        }
+      },
+      "2": {
+        "executable": "PoolNationVR.exe",
+        "arguments": "-culture=\"en\" -VRPlatform=SteamVR -ForceLogFlush",
+        "description": "Vive (-ForceLogFlush)",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "betakey": "development"
+        }
+      },
+      "3": {
+        "executable": "PoolNationVR.exe",
+        "arguments": "-culture=\"en\"",
+        "description": "Multi-Platform",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "betakey": "oculus"
+        }
+      },
+      "4": {
+        "executable": "PoolNationVR.exe",
+        "arguments": "-culture=\"en\"",
+        "description": "Miller Branch",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "betakey": "miller"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "269171": {
+      "systemdefined": "1",
+      "manifests": {
+        "public": {
+          "gid": "2629744644182942215",
+          "size": "1251853413",
+          "download": "1138694240"
+        },
+        "pool_nation_vr": {
+          "gid": "8920018966838033888",
+          "size": "731906352",
+          "download": "636232544"
+        }
+      }
+    },
+    "overridescddb": "1",
+    "branches": {
+      "public": {
+        "buildid": "2357894",
+        "timeupdated": "1513075341"
+      },
+      "pool_nation_vr": {
+        "buildid": "1447162",
+        "description": "Pool Nation VR Full Release",
+        "timeupdated": "1481768666"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000"
+  }
+}
