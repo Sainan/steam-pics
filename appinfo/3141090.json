@@ -1,6 +1,5 @@
 {
   "appid": "3141090",
-  "public_only": "1",
   "common": {
     "name": "100 Thailand Cats",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "904a7989009b6d469fd8195ec07a7876d3185aee",
     "clienttga": "16d9fc6c4bfa7151160658dc0fc5e74b7b98f96f",
     "icon": "bcd2447aa28b480f42601c2e761100df8f5219e0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -410,9 +409,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761490846",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3141090",
-    "exfgls": "8",
     "store_tags": {
       "0": "113",
       "1": "597",
@@ -434,6 +434,51 @@
       "17": "3834",
       "18": "5652",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "publisher": "100 Cozy Games",
+    "listofdlc": "3801920",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "100 Thailand Cats",
+    "launch": {
+      "0": {
+        "executable": "100 Thailand Cats.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3141091": {
+      "manifests": {
+        "public": {
+          "gid": "4207640200199281622",
+          "size": "374165371",
+          "download": "48797760"
+        }
+      }
+    },
+    "3801920": {
+      "dlcappid": "3801920",
+      "manifests": {
+        "public": {
+          "gid": "8084322142800729900",
+          "size": "51831277",
+          "download": "51448928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20355595",
+        "timeupdated": "1760252197"
+      }
     }
   }
 }
