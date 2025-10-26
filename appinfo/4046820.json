@@ -159,5 +159,33 @@
         "timeupdated": "1761434648"
       }
     }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Hydrobates/CiniCross_Demo",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Hydrobates/CiniCross_Demo",
+            "replace": ".config/unity3d/Hydrobates/CiniCross_Demo"
+          }
+        }
+      }
+    }
   }
 }
