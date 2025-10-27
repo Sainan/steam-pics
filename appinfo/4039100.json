@@ -1,12 +1,11 @@
 {
   "appid": "4039100",
-  "public_only": "1",
   "common": {
     "name": "Table Battle Simulator: Prologue",
     "type": "Game",
     "clienticon": "8c239e4cbc309b88a87e54c0eb10b2102fe2de22",
     "icon": "8c239e4cbc309b88a87e54c0eb10b2102fe2de22",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -186,6 +185,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761568103",
     "community_hub_visible": "1",
     "gameid": "4039100",
     "exfgls": "3",
@@ -210,6 +210,53 @@
       "17": "4182",
       "18": "1708",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Kiki Games",
+    "publisher": "Kiki Games",
+    "homepage": "https://tablebattlesimulator.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "TableBattleSimulatorPrologue",
+    "launch": {
+      "0": {
+        "executable": "Table Battle Simulator Prologue.exe"
+      }
+    }
+  },
+  "depots": {
+    "4039101": {
+      "manifests": {
+        "public": {
+          "gid": "7263263426170394409",
+          "size": "6528812183",
+          "download": "2648505872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20555070",
+        "timeupdated": "1761552685"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "2000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "KikiGames\\Table Battle Simulator Prologue\\Saves\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
