@@ -1,13 +1,12 @@
 {
   "appid": "3006080",
-  "public_only": "1",
   "common": {
     "name": "Aris Arcanum",
     "type": "Game",
     "icon": "a48d334a2e911ecaeea1b9598a3ace586ed0c53b",
     "clienticon": "3fb047b581d3261c4ff80d6045d0fbd87a310e9c",
     "clienttga": "aa4ac151ec773dd6607b6bf5624867b2d3363905",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -80,7 +79,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760024827",
+    "store_asset_mtime": "1761543855",
     "associations": {
       "0": {
         "type": "developer",
@@ -115,9 +114,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761577096",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3006080",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -143,6 +143,65 @@
       "17": "5851",
       "18": "4057",
       "19": "1702"
+    }
+  },
+  "extended": {
+    "developer": "Broken Cane",
+    "publisher": "indie.io",
+    "homepage": "https://arisarcanum.com/"
+  },
+  "config": {
+    "installdir": "Aris Arcanum",
+    "launch": {
+      "0": {
+        "executable": "ArisArcanum.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3006081": {
+      "manifests": {
+        "public": {
+          "gid": "731677884522743614",
+          "size": "3881716277",
+          "download": "577203504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20484728",
+        "timeupdated": "1761296568"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BrokenCane/ArisArcanum",
+        "pattern": "savefile.bin",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "BrokenCane/ArisArcanum",
+        "pattern": "controlsRebind.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
