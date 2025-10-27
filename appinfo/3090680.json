@@ -1,13 +1,12 @@
 {
   "appid": "3090680",
-  "public_only": "1",
   "common": {
     "name": "诡异迷域",
     "type": "Game",
     "icon": "82d79ee1853da46ba22a8317a1b4d0cec4dd04cb",
     "clienttga": "0d28f63195a5cc4d034d89c073d7dd6494ebdf84",
     "clienticon": "7a0ff1886382ceb34fd245728a6d4ce27029bc1b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,7 +103,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3090680",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -126,6 +124,41 @@
       "17": "4747",
       "18": "4182",
       "19": "493"
+    }
+  },
+  "extended": {
+    "developer": "幻想理戈游戏开发工作室",
+    "publisher": "幻想理戈游戏开发工作室"
+  },
+  "config": {
+    "installdir": "诡异迷域",
+    "launch": {
+      "0": {
+        "executable": "Ghost\\Ghosts.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3090681": {
+      "manifests": {
+        "public": {
+          "gid": "6517130772326912294",
+          "size": "1179501361",
+          "download": "147395248"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20445852",
+        "timeupdated": "1760773186"
+      }
     }
   }
 }
