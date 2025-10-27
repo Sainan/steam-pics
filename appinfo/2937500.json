@@ -1,10 +1,9 @@
 {
   "appid": "2937500",
-  "public_only": "1",
   "common": {
     "name": "Making Friends",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "bb185b83bf0268d410e7bcd9ac8667b7fc1937c5",
     "clienticon": "850bb2d0562bcf6f81e03a6d929ffef772488512",
     "clienttga": "f688563d48721b72c729cbc587c78e639f4d10b0",
@@ -90,7 +89,8 @@
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
-      "category_58": "1"
+      "category_58": "1",
+      "category_62": "1"
     },
     "supported_languages": {
       "english": {
@@ -99,7 +99,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2937500",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "44868",
@@ -121,6 +120,84 @@
       "17": "4136",
       "18": "3952",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "Mortally Moonstruck Games",
+    "publisher": "Mortally Moonstruck Games",
+    "homepage": "https://mortallymoonstruckgames.com/"
+  },
+  "config": {
+    "installdir": "Making Friends",
+    "launch": {
+      "0": {
+        "executable": "MakingFriends.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "MakingFriends.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "MakingFriends.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "2937502": {
+      "manifests": {
+        "public": {
+          "gid": "1083105155950198028",
+          "size": "233126727",
+          "download": "141255088"
+        }
+      }
+    },
+    "2937503": {
+      "manifests": {
+        "public": {
+          "gid": "1963194395650942330",
+          "size": "221765234",
+          "download": "136716208"
+        }
+      }
+    },
+    "2937504": {
+      "manifests": {
+        "public": {
+          "gid": "5531882949481625170",
+          "size": "189951668",
+          "download": "125215088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20564522",
+        "timeupdated": "1761599332"
+      }
     }
   }
 }
