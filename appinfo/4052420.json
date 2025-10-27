@@ -1,6 +1,5 @@
 {
   "appid": "4052420",
-  "public_only": "1",
   "common": {
     "name": "In Silent Walls : Sujet 13 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "8ff466230d28db48b35d15d996435cc9d1f0be01",
     "icon": "8ff466230d28db48b35d15d996435cc9d1f0be01",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -114,6 +113,59 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Hollow Signal Games",
+    "publisher": "Hollow Signal Games",
+    "homepage": "http://www.hollowsignalgames.com"
+  },
+  "config": {
+    "installdir": "In Silent Walls  Sujet 13 Demo",
+    "launch": {
+      "0": {
+        "executable": "InSilentWallsDEMO.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4052421": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1524188151257598087",
+          "size": "1548294717",
+          "download": "1394402768"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20274962",
+        "timeupdated": "1759775968"
+      }
     }
   }
 }
