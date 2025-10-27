@@ -1,6 +1,5 @@
 {
   "appid": "3977400",
-  "public_only": "1",
   "common": {
     "name": "Conquering of the Royal Keep",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3c25eea46131467ec3f6765d533732f3feeee946/capsule_231x87.jpg"
@@ -121,5 +120,66 @@
       "14": "31275",
       "15": "4182"
     }
+  },
+  "extended": {
+    "developer": "Black Banshee Studios",
+    "publisher": "Black Banshee Studios",
+    "homepage": "https://www.blackbansheestudios.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Conquering of the Royal Keep",
+    "launch": {
+      "0": {
+        "executable": "CRKTransitionPractice.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CRK_build_mac.app\\Contents\\MacOS\\CRKTransitionPractice",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3977401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5534862585188499824",
+          "size": "463557270",
+          "download": "384782000"
+        }
+      }
+    },
+    "3977402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2726148986475838017",
+          "size": "487613722",
+          "download": "393321840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20292590",
+        "timeupdated": "1759869259"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5000"
   }
 }
