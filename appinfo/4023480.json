@@ -1,6 +1,5 @@
 {
   "appid": "4023480",
-  "public_only": "1",
   "common": {
     "name": "Arena Fighter",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "095b10d122a5a52bbb522b8ad66cf49bdda9e4d9/capsule_231x87.jpg"
@@ -101,7 +100,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4023480",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -115,6 +113,60 @@
       "9": "30358",
       "10": "1662",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Taha Games",
+    "publisher": "Taha Games"
+  },
+  "config": {
+    "installdir": "ArenaFighterGame.zip",
+    "launch": {
+      "0": {
+        "executable": "ArenaFighter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4023481": {
+      "manifests": {
+        "public": {
+          "gid": "6878538613193674839",
+          "size": "2548872750",
+          "download": "1578993632"
+        }
+      }
+    },
+    "4023482": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20055681",
+        "timeupdated": "1758329998"
+      }
     }
   }
 }
