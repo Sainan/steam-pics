@@ -1,6 +1,5 @@
 {
   "appid": "3321000",
-  "public_only": "1",
   "common": {
     "name": "The House of Toys",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "ac2be3d2286e743b479311d6e9f6aa8ddb9e0142",
     "clienttga": "d6fdc488b7acbc487d0927a2befb2dfebc90a287",
     "clienticon": "ac2be3d2286e743b479311d6e9f6aa8ddb9e0142",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -115,9 +114,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761584400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3321000",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1664",
@@ -139,6 +139,77 @@
       "17": "5613",
       "18": "4191",
       "19": "19"
+    }
+  },
+  "extended": {
+    "developer": "Old School Bros",
+    "publisher": "Old School Bros"
+  },
+  "config": {
+    "installdir": "The House of Toys",
+    "launch": {
+      "0": {
+        "executable": "Toys.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3321001": {
+      "manifests": {
+        "public": {
+          "gid": "2337223552130186066",
+          "size": "2175380655",
+          "download": "1766033248"
+        }
+      }
+    },
+    "3321002": {
+      "config": {
+        "oslist": "windows",
+        "language": "spanish"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3327995592151768480",
+          "size": "532480",
+          "download": "252704"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20542581",
+        "timeupdated": "1761577537"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\Toys\\Saved\\SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
