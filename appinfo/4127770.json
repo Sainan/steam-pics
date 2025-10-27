@@ -1,6 +1,5 @@
 {
   "appid": "4127770",
-  "public_only": "1",
   "common": {
     "name": "Parasomnia: No REM Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -112,6 +111,41 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "BELS Games",
+    "publisher": "BELS Games",
+    "homepage": "https://belsgames.com/"
+  },
+  "config": {
+    "installdir": "Parasomnia No REM Demo",
+    "launch": {
+      "0": {
+        "executable": "Parasomnia No REM.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4127771": {
+      "manifests": {
+        "public": {
+          "gid": "6974924047086625258",
+          "size": "3814604659",
+          "download": "1795011648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20486262",
+        "timeupdated": "1761077125"
+      }
     }
   }
 }
