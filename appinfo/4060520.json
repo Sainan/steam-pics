@@ -1,12 +1,11 @@
 {
   "appid": "4060520",
-  "public_only": "1",
   "common": {
     "name": "Don't Look!",
     "type": "Game",
     "clienticon": "9d9058dee0d40ffd720eed3453f617835d58734c",
     "icon": "9d9058dee0d40ffd720eed3453f617835d58734c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -106,11 +105,29 @@
       },
       "koreana": {
         "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
       }
     },
+    "steam_release_date": "1761562818",
     "community_hub_visible": "1",
     "gameid": "4060520",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "5900",
@@ -132,6 +149,54 @@
       "17": "4064",
       "18": "4400",
       "19": "8369"
+    }
+  },
+  "extended": {
+    "developer": "YKey Games",
+    "publisher": "YKey Games"
+  },
+  "config": {
+    "installdir": "DontLook",
+    "launch": {
+      "0": {
+        "executable": "DontLook.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4060521": {
+      "manifests": {
+        "public": {
+          "gid": "5231785898291569689",
+          "size": "2043014831",
+          "download": "1893608448"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20467691",
+        "timeupdated": "1760981732"
+      }
     }
   }
 }
