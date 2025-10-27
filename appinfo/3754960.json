@@ -1,6 +1,5 @@
 {
   "appid": "3754960",
-  "public_only": "1",
   "common": {
     "name": "Brain",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761584372",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3754960",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,5 +140,59 @@
       "13": "4182",
       "14": "113"
     }
+  },
+  "extended": {
+    "developer": "FadaStudio",
+    "publisher": "FadaStudio"
+  },
+  "config": {
+    "installdir": "Brain",
+    "launch": {
+      "0": {
+        "executable": "Brain.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3754961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3227928186273955630",
+          "size": "17781982401",
+          "download": "15797962096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19970310",
+        "timeupdated": "1757785852"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
