@@ -1,6 +1,5 @@
 {
   "appid": "4042460",
-  "public_only": "1",
   "common": {
     "name": "Tanks: 1985",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -116,9 +115,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4042460",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "19",
@@ -141,5 +141,40 @@
       "18": "492",
       "19": "6691"
     }
+  },
+  "extended": {
+    "developer": "CODEHUB",
+    "publisher": "CODEHUB",
+    "homepage": "https://battle-city-online.codehubhq.serv00.net/"
+  },
+  "config": {
+    "installdir": "Tanks 1985",
+    "launch": {
+      "0": {
+        "executable": "Tanks1985.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4042461": {
+      "manifests": {
+        "public": {
+          "gid": "3124789468814860749",
+          "size": "848971897",
+          "download": "109404640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20419913",
+        "timeupdated": "1760623153"
+      }
+    },
+    "privatebranches": "1"
   }
 }
