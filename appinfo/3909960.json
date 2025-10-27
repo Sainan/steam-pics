@@ -1,6 +1,5 @@
 {
   "appid": "3909960",
-  "public_only": "1",
   "common": {
     "name": "Dementium: The Ward",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "344434f2522c5655974e767a16c23287a4bfdfa9",
     "icon": "344434f2522c5655974e767a16c23287a4bfdfa9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -125,10 +124,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761567216",
     "steam_deck_blog_url": "https://steamcommunity.com/app/3909960/discussions/0/506216918921989042/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3909960",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -155,5 +155,49 @@
       "18": "7432",
       "19": "3964"
     }
+  },
+  "extended": {
+    "developer": "Atooi",
+    "publisher": "Atooi",
+    "homepage": "https://www.atooi.com/"
+  },
+  "config": {
+    "installdir": "Dementium - The Ward",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "Dementium.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3909961": {
+      "manifests": {
+        "public": {
+          "gid": "5158117522007988906",
+          "size": "685053206",
+          "download": "665515552"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20553064",
+        "timeupdated": "1761535654"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "10"
   }
 }
