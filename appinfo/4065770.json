@@ -1,6 +1,5 @@
 {
   "appid": "4065770",
-  "public_only": "1",
   "common": {
     "name": "EraClicker",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -147,9 +146,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761566438",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4065770",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "492",
@@ -166,6 +166,52 @@
       "12": "599",
       "13": "4305",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Reard Studio",
+    "publisher": "Reard Studio"
+  },
+  "config": {
+    "installdir": "EraClicker",
+    "launch": {
+      "0": {
+        "executable": "EraClicker.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4065771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3740201821921752469",
+          "size": "183748660",
+          "download": "68623904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20502593",
+        "timeupdated": "1761165235"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "6",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Reard/EraClicker",
+        "pattern": "*.save"
+      }
     }
   }
 }
