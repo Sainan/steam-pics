@@ -149,7 +149,16 @@
     "installdir": "Sejm The Game",
     "launch": {
       "0": {
-        "executable": "SejmTheGame.exe"
+        "executable": "SejmTheGame.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SejmTheGame.app/Contents/MacOS/SejmTheGame",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
