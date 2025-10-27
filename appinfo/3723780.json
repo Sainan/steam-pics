@@ -221,17 +221,16 @@
     "privatebranches": "1"
   },
   "ufs": {
-    "quota": "280000",
-    "maxnumfiles": "5",
+    "quota": "1000000",
+    "maxnumfiles": "50",
     "savefiles": {
       "0": {
-        "root": "WinAppDataRoaming",
-        "path": "Godot\\app_userdata\\My Card Is Better Than Your Card!\\SaveData-DEMO",
+        "root": "gameinstall",
+        "path": "SaveData-EA/",
         "pattern": "*.save",
-        "platforms": {
-          "1": "Windows"
-        }
+        "recursive": "1"
       }
-    }
+    },
+    "appidredirect": "3723780"
   }
 }
