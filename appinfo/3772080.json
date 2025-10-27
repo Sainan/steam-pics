@@ -1,6 +1,5 @@
 {
   "appid": "3772080",
-  "public_only": "1",
   "common": {
     "name": "iblis3phenomena",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "04d0558f89ed9bd870b353e636e37663f8098b68",
     "clienttga": "97c438785b6cb035172f03354d161e8485234ea0",
     "clienticon": "56b83b28da4bf5a5dafcd8803783bf10039e7204",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -172,9 +171,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761583503",
     "community_hub_visible": "1",
     "gameid": "3772080",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "1667",
@@ -196,6 +195,61 @@
       "17": "19",
       "18": "4004",
       "19": "1687"
+    }
+  },
+  "extended": {
+    "developer": "Bulut ULU",
+    "publisher": "FND GAME"
+  },
+  "config": {
+    "installdir": "iblis3phenomena",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "iblis3phenomena.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3772081": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8506667784320683828",
+          "size": "6320511599",
+          "download": "6152165744"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20548223",
+        "timeupdated": "1761488054"
+      }
     }
   }
 }
