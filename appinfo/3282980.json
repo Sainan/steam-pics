@@ -191,9 +191,27 @@
     "launch": {
       "0": {
         "executable": "ProjectUrbex.exe",
+        "arguments": "-dx12",
+        "type": "option1",
         "config": {
           "oslist": "windows"
-        }
+        },
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "description": "DirectX 12"
+      },
+      "1": {
+        "executable": "ProjectUrbex.exe",
+        "arguments": "-dx11",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "description": "DirectX 11"
       }
     }
   },
