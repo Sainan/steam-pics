@@ -1,6 +1,5 @@
 {
   "appid": "2879840",
-  "public_only": "1",
   "common": {
     "name": "Escape Simulator 2",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "d417f6e9a6060e72de5afe785a787d506bdf4989",
     "clienticon": "5fd963b87ec19ed942e10b89c98b6204b0cd191a",
     "icon": "da45fbbb529fe25faa6ea2ec45e77266f53cada9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "tchinese": "密室逃脫模擬器2",
       "schinese": "密室逃脱模拟器2",
@@ -147,6 +146,7 @@
       "category_70": "1",
       "category_74": "1",
       "category_79": "1",
+      "category_13": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -212,9 +212,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761577719",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2879840",
-    "exfgls": "8",
     "store_tags": {
       "0": "6129",
       "1": "8122",
@@ -236,6 +237,474 @@
       "17": "3843",
       "18": "8369",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Pine Studio",
+    "publisher": "Pine Studio",
+    "homepage": "https://pinestudio.com/games/"
+  },
+  "config": {
+    "installdir": "Escape Simulator 2",
+    "launch": {
+      "0": {
+        "executable": "Escape Simulator 2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "EscapeSimulator2.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Controller/manifest.vdf",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "2879841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6670599599458327950",
+          "size": "14599754983",
+          "download": "13389768208"
+        }
+      }
+    },
+    "2879842": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2432629537034745847",
+          "size": "15362467790",
+          "download": "13842493456"
+        }
+      }
+    },
+    "2879843": {
+      "config": {
+        "oslist": "windows",
+        "language": "french"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3671552107551243205",
+          "size": "68229946",
+          "download": "65582848"
+        }
+      }
+    },
+    "2879844": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "335146729654875731",
+          "size": "66506293",
+          "download": "63918816"
+        }
+      }
+    },
+    "2879845": {
+      "config": {
+        "language": "japanese",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7477095366836060339",
+          "size": "66506259",
+          "download": "63922176"
+        }
+      }
+    },
+    "2879846": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5755751830445325248",
+          "size": "66017140",
+          "download": "63424256"
+        }
+      }
+    },
+    "2879847": {
+      "config": {
+        "language": "schinese",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6036089402411133753",
+          "size": "66017103",
+          "download": "63423088"
+        }
+      }
+    },
+    "2879848": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9196703318678688803",
+          "size": "66005049",
+          "download": "63402224"
+        }
+      }
+    },
+    "2879849": {
+      "config": {
+        "oslist": "macos",
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8740353744477857639",
+          "size": "66005033",
+          "download": "63401264"
+        }
+      }
+    },
+    "3834070": {
+      "config": {
+        "language": "french",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3487418797051053836",
+          "size": "68229917",
+          "download": "65577888"
+        }
+      }
+    },
+    "3834071": {
+      "config": {
+        "language": "german",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3856823004191490128",
+          "size": "68260739",
+          "download": "65578720"
+        }
+      }
+    },
+    "3834072": {
+      "config": {
+        "language": "german",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1852839069437083536",
+          "size": "68260704",
+          "download": "65577504"
+        }
+      }
+    },
+    "3834073": {
+      "config": {
+        "language": "italian",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6148538452333424425",
+          "size": "68320891",
+          "download": "65671184"
+        }
+      }
+    },
+    "3834074": {
+      "config": {
+        "language": "italian",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7540974830564518475",
+          "size": "68320855",
+          "download": "65664032"
+        }
+      }
+    },
+    "3834075": {
+      "config": {
+        "language": "koreana",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8684090903531721803",
+          "size": "65355638",
+          "download": "62794000"
+        }
+      }
+    },
+    "3834076": {
+      "config": {
+        "language": "koreana",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5764231209202379518",
+          "size": "65355604",
+          "download": "62785664"
+        }
+      }
+    },
+    "3834077": {
+      "config": {
+        "language": "portuguese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4318718035089807823",
+          "size": "68330432",
+          "download": "65671408"
+        }
+      }
+    },
+    "3834078": {
+      "config": {
+        "language": "portuguese",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8098974009764314213",
+          "size": "68330400",
+          "download": "65682528"
+        }
+      }
+    },
+    "3834079": {
+      "config": {
+        "language": "brazilian",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6923398699458579441",
+          "size": "68341529",
+          "download": "65706704"
+        }
+      }
+    },
+    "3834080": {
+      "config": {
+        "language": "brazilian",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7154805618742821614",
+          "size": "68341493",
+          "download": "65707376"
+        }
+      }
+    },
+    "3834081": {
+      "config": {
+        "language": "spanish",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7962692477951876172",
+          "size": "68299340",
+          "download": "65636080"
+        }
+      }
+    },
+    "3834082": {
+      "config": {
+        "language": "spanish",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2671273088750438522",
+          "size": "68299290",
+          "download": "65641024"
+        }
+      }
+    },
+    "3834083": {
+      "config": {
+        "language": "latam",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3952849284452788379",
+          "size": "68198842",
+          "download": "65534224"
+        }
+      }
+    },
+    "3834084": {
+      "config": {
+        "language": "latam",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7139954795979793898",
+          "size": "68198808",
+          "download": "65539664"
+        }
+      }
+    },
+    "3834085": {
+      "config": {
+        "language": "turkish",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6475218932255301271",
+          "size": "67900422",
+          "download": "65255632"
+        }
+      }
+    },
+    "3834086": {
+      "config": {
+        "language": "turkish",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "847089578400443568",
+          "size": "67900388",
+          "download": "65248800"
+        }
+      }
+    },
+    "3834087": {
+      "config": {
+        "language": "polish",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4657799087912643255",
+          "size": "68413073",
+          "download": "65723184"
+        }
+      }
+    },
+    "3834088": {
+      "config": {
+        "language": "polish",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "988653627370368055",
+          "size": "68413040",
+          "download": "65736656"
+        }
+      }
+    },
+    "3834089": {
+      "config": {
+        "language": "russian",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "198480213874111273",
+          "size": "67723787",
+          "download": "65083328"
+        }
+      }
+    },
+    "4105228": {
+      "config": {
+        "language": "russian",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3814356514370082037",
+          "size": "67723751",
+          "download": "65080128"
+        }
+      }
+    },
+    "workshopdepot": "2879840",
+    "branches": {
+      "public": {
+        "buildid": "20559635",
+        "timeupdated": "1761576321"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Pine Studio/Escape Simulator 2",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "Pine Studio/Escape Simulator 2/LevelSaves",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "Pine Studio/Escape Simulator 2",
+            "replace": "Pine Studio/Escape Simulator 2"
+          }
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Pine Studio/Escape Simulator 2",
+            "replace": "Pine Studio/Escape Simulator 2"
+          }
+        }
+      }
     }
   }
 }
