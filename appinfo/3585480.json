@@ -1,6 +1,5 @@
 {
   "appid": "3585480",
-  "public_only": "1",
   "common": {
     "name": "Soul Gather",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "7f39d0a514a58a57d84445c80667085192794bee",
     "clienticon": "fd95f4c88d227792739f52e6c95615581892857e",
     "clienttga": "26b7930d6e92f5e69cc8bae94498cba55dd39ca1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -105,9 +104,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761586234",
     "community_hub_visible": "1",
     "gameid": "3585480",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -123,6 +122,46 @@
       "8": "493",
       "9": "4106",
       "10": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Dinoworldgames",
+    "publisher": "Dinoworldgames"
+  },
+  "config": {
+    "installdir": "Soul Gather",
+    "launch": {
+      "0": {
+        "executable": "Soul Gather.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3585481": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4323967163303201658",
+          "size": "645054304",
+          "download": "335901088"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20468784",
+        "timeupdated": "1760987583"
+      }
     }
   }
 }
