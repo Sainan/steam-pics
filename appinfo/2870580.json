@@ -191,11 +191,16 @@
   },
   "ufs": {
     "quota": "10000000",
-    "maxnumfiles": "12",
+    "maxnumfiles": "20",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Ace High Arcade/Cubed and Dangerous/GameData",
+        "pattern": "data*"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Ace High Arcade/Cubed and Dangerous/GameDataReshaped",
         "pattern": "data*"
       }
     },
