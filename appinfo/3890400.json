@@ -1,6 +1,5 @@
 {
   "appid": "3890400",
-  "public_only": "1",
   "common": {
     "name": "Mittelland AD",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "72b204ae0f90e9ac99531a3a591d17b39df611ad",
     "clienticon": "569b771f6f69313b4a561d7e0f93c7293dc8f1bb",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -115,9 +114,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761606029",
     "community_hub_visible": "1",
     "gameid": "3890400",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "599",
@@ -129,5 +128,67 @@
       "7": "4182",
       "8": "7368"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,local",
+    "developer": "BKM",
+    "publisher": "BKM",
+    "gamemanualurl": "https://store.steampowered.com/manual/3890400/"
+  },
+  "config": {
+    "installdir": "Mittelland AD",
+    "launch": {
+      "0": {
+        "executable": "dosbox/dosbox-x.exe",
+        "arguments": "-conf \"..\\config\\mittelland_ad.conf\"",
+        "workingdir": "dosbox",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3890401": {
+      "config": {
+        "language": "german",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6850268246108554829",
+          "size": "800411968",
+          "download": "358804272"
+        }
+      }
+    },
+    "3890402": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3667517802053410396",
+          "size": "821438526",
+          "download": "438492624"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20550457",
+        "timeupdated": "1761512194"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10"
   }
 }
