@@ -1,6 +1,5 @@
 {
   "appid": "2824320",
-  "public_only": "1",
   "common": {
     "name": "AstroMart Adventures",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "8aa2a9d00d06392aa178f501ed96f7862847e8ad",
     "clienticns": "b86013fc89af365c5e7d87f018656b1dc8b0b95d",
     "clienticon": "dd41d4f55a736fa2c9b145c641c57db650bf90cb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvrsupport": "1",
     "aicontenttype": "1",
     "controllertagwizard": "1",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761579399",
     "community_hub_visible": "1",
     "gameid": "2824320",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "19",
@@ -129,6 +128,60 @@
       "17": "1643",
       "18": "4845",
       "19": "3920"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "developer": "Prime Rendering",
+    "publisher": "Prime Rendering",
+    "homepage": "https://astromartadventures.com"
+  },
+  "config": {
+    "installdir": "AstroMart Adventures",
+    "launch": {
+      "1": {
+        "executable": "AstroMart Adventures.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2824321": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8027940640121137424",
+          "size": "457611972",
+          "download": "105067632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20558421",
+        "timeupdated": "1761570100"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Prime Rendering/AstroMart Adventures/Saves",
+        "pattern": "*.bin, *.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
