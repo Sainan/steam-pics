@@ -5,9 +5,9 @@
     "type": "Game",
     "icon": "556f25b72c97d36464d491e708595bd9433a5418",
     "clienticon": "556f25b72c97d36464d491e708595bd9433a5418",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "releasestate": "released",
     "languages": {
       "english": "1",
@@ -181,6 +181,14 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "ohitf2.app/Contents/MacOS/MourningwoodLodge2HiddenVoice",
+        "workingdir": "ohitf2.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -199,6 +207,12 @@
         }
       }
     },
+    "4025333": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      }
+    },
     "baselanguages": "schinese",
     "branches": {
       "public": {
@@ -207,5 +221,29 @@
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MysteryCrown/ohitf2/Steam",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "MysteryCrown/ohitf2/Steam"
+      }
+    }
   }
 }
