@@ -1,13 +1,12 @@
 {
   "appid": "3039930",
-  "public_only": "1",
   "common": {
     "name": "Seedborne Soldiers",
     "type": "Game",
     "icon": "ee9a6b0edc07c37ebeb9298c399d4fb756746003",
     "clienticon": "e2da8f8a3816108169d019af4f079748ea694231",
     "clienttga": "6ab95494e9ae15455f2536b2689d503a3042bcfb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3039930",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1084988",
@@ -125,6 +124,43 @@
       "17": "6691",
       "18": "10695",
       "19": "12472"
+    }
+  },
+  "extended": {
+    "developer": "Hat Wobble Games",
+    "publisher": "Hat Wobble Games",
+    "homepage": "https://hatwobblegames.com/game.html"
+  },
+  "config": {
+    "installdir": "Seedborne Soldiers",
+    "launch": {
+      "0": {
+        "executable": "SeedborneSoldiers.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3039931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5970885558892072538",
+          "size": "1466453440",
+          "download": "816981120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20552979",
+        "timeupdated": "1761534917"
+      }
     }
   }
 }
