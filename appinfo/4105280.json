@@ -1,4 +1,61 @@
 {
   "appid": "4105280",
-  "public_only": "1"
+  "common": {
+    "name": "Saint of Chains Demo",
+    "type": "Demo",
+    "parent": "4079340",
+    "clienticon": "be9a1ac820063a97b86a25fcfe6064dc6327cfbe",
+    "icon": "be9a1ac820063a97b86a25fcfe6064dc6327cfbe",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4105280",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Saint of Chains Demo",
+    "launch": {
+      "0": {
+        "executable": "Saint_Of_Chains.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4105281": {
+      "manifests": {
+        "public": {
+          "gid": "1327956423196504465",
+          "size": "559617091",
+          "download": "449162224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20550922",
+        "timeupdated": "1761516526"
+      }
+    },
+    "privatebranches": "1"
+  }
 }
