@@ -1,6 +1,5 @@
 {
   "appid": "3526450",
-  "public_only": "1",
   "common": {
     "name": "Exitless",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienticon": "4443baa48dd7b2ddc9d6d64ae127056308d757fd",
     "clienttga": "624e8d448e248a99f80bc3441f6adcf7763c02e5",
     "clienticns": "de72248bf3433d8616197557a777469ffaaf16c5",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -132,9 +131,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761558673",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3526450",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "3834",
@@ -156,6 +156,59 @@
       "17": "3839",
       "18": "4191",
       "19": "5125"
+    }
+  },
+  "extended": {
+    "developer": "CasticalGames",
+    "publisher": "CasticalGames",
+    "homepage": "https://casticalgames.github.io/CasticalGames/"
+  },
+  "config": {
+    "installdir": "Exitless",
+    "launch": {
+      "0": {
+        "executable": "Exitless.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3526451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5274857142060428799",
+          "size": "466507045",
+          "download": "240190560"
+        }
+      }
+    },
+    "baselanguages": "english,german,spanish,schinese,russian",
+    "branches": {
+      "public": {
+        "buildid": "20542941",
+        "timeupdated": "1761417034"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CasticalGames/Exitless",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
