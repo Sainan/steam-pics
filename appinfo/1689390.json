@@ -1,6 +1,5 @@
 {
   "appid": "1689390",
-  "public_only": "1",
   "common": {
     "name": "Mythrealm",
     "type": "Game",
@@ -9,7 +8,7 @@
     "icon": "6116df3b5755820f154c3767bdec945f8cfac0f8",
     "clienticon": "bad36b8474ed3698133f380e4a4be4ec0b2af5a7",
     "clienttga": "77afa2d9ec1c189f18497c5947edf5a0a48be28b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -77,7 +76,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758572994",
+    "store_asset_mtime": "1761576358",
     "associations": {
       "0": {
         "type": "developer",
@@ -112,9 +111,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761582575",
     "community_hub_visible": "1",
     "gameid": "1689390",
-    "exfgls": "8",
     "store_tags": {
       "0": "29482",
       "1": "122",
@@ -137,5 +136,54 @@
       "18": "7208",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "Delta Video Games",
+    "publisher": "indie.io",
+    "homepage": "https://interastral.wixsite.com/website"
+  },
+  "config": {
+    "installdir": "Mythrealm",
+    "launch": {
+      "0": {
+        "executable": "Mythrealm.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1689391": {
+      "manifests": {
+        "public": {
+          "gid": "6465496332319540927",
+          "size": "5275984270",
+          "download": "1668692096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20461036",
+        "timeupdated": "1761232854"
+      }
+    },
+    "privatebranches": "1"
   }
 }
