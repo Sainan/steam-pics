@@ -1,6 +1,5 @@
 {
   "appid": "3734200",
-  "public_only": "1",
   "common": {
     "name": "Desktop Heroes",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0ea7e1e92c95b1be87d4e7dcfea9990d778cc4a9",
     "clienttga": "87f595ed5e00ac88c5f8737ffbb406020f48ca5f",
     "clienticon": "13eba3c911ead5562377717986cce2e653098fe7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "64577602bc80100ab0f919da3ad59db7fb2a502a",
     "linuxclienticon": "0e2709c7be55bae4c174607f2e7f560997a38619",
     "languages": {
@@ -176,9 +175,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761588051",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3734200",
-    "exfgls": "8",
     "store_tags": {
       "0": "30358",
       "1": "615955",
@@ -201,5 +201,88 @@
       "18": "1646",
       "19": "42804"
     }
+  },
+  "extended": {
+    "developer": "Telazer",
+    "publisher": "Blackburne Games Studio FZ LLC , Telazer",
+    "listofdlc": "4084080",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Desktop Heroes",
+    "launch": {
+      "0": {
+        "executable": "Desktop Heroes.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Desktop Heroes.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Desktop Heroes-linux-x64/Desktop Heroes",
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3734202": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1858989849367371987",
+          "size": "504851047",
+          "download": "215782608"
+        }
+      }
+    },
+    "3734203": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2351439535940629504",
+          "size": "548891103",
+          "download": "229655008"
+        }
+      }
+    },
+    "3734204": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7354251878967380620",
+          "size": "538486957",
+          "download": "219228768"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20561257",
+        "timeupdated": "1761582679"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100"
   }
 }
