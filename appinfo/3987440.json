@@ -1,10 +1,9 @@
 {
   "appid": "3987440",
-  "public_only": "1",
   "common": {
     "name": "Press&Release",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "f9c70b1c21ee1405d0853789f7b61f5527b2939b",
     "clienticon": "f9c70b1c21ee1405d0853789f7b61f5527b2939b",
     "oslist": "windows",
@@ -120,9 +119,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761008429",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3987440",
-    "exfgls": "8",
     "store_tags": {
       "0": "1674",
       "1": "1773",
@@ -133,17 +133,60 @@
       "6": "5390",
       "7": "1664",
       "8": "10397",
-      "9": "5652",
-      "10": "7569",
-      "11": "1752",
-      "12": "12057",
-      "13": "6129",
-      "14": "4094",
-      "15": "4726",
-      "16": "4252",
-      "17": "4195",
-      "18": "4182",
-      "19": "3871"
+      "9": "597",
+      "10": "492",
+      "11": "4726",
+      "12": "7569",
+      "13": "8093"
+    }
+  },
+  "extended": {
+    "developer": "악마",
+    "publisher": "악마"
+  },
+  "config": {
+    "installdir": "Press&Release",
+    "launch": {
+      "0": {
+        "executable": "Press&Release.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3987441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "355265008432595613",
+          "size": "130070654",
+          "download": "112942832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20410221",
+        "timeupdated": "1760569660"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Press_And_Release",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
