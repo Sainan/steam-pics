@@ -140,6 +140,7 @@
       "category_79": "1",
       "category_15": "1",
       "category_25": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -219,10 +220,10 @@
           "size": "266993980",
           "download": "82433952"
         },
-        "windows-beta": {
-          "gid": "6274670290174003364",
-          "size": "258650982",
-          "download": "74803024"
+        "beta": {
+          "gid": "3406641862850758774",
+          "size": "266993980",
+          "download": "82433952"
         }
       }
     },
@@ -236,10 +237,10 @@
           "size": "239757611",
           "download": "78987504"
         },
-        "windows-beta": {
-          "gid": "4791349149652870089",
-          "size": "231444659",
-          "download": "71311312"
+        "beta": {
+          "gid": "3115091641009235198",
+          "size": "239757611",
+          "download": "78987504"
         }
       }
     },
@@ -253,10 +254,10 @@
           "size": "331989212",
           "download": "92383008"
         },
-        "windows-beta": {
-          "gid": "3558409573717059773",
-          "size": "320954806",
-          "download": "82573056"
+        "beta": {
+          "gid": "1622030721361866791",
+          "size": "331989212",
+          "download": "92383008"
         }
       }
     },
@@ -265,10 +266,34 @@
         "oslist": "windows"
       },
       "manifests": {
-        "windows-beta": {
-          "gid": "4862706390568992428",
-          "size": "266993980",
-          "download": "82540608"
+        "beta": {
+          "gid": "51982242461731418",
+          "size": "269578504",
+          "download": "84359328"
+        }
+      }
+    },
+    "2940005": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "gid": "1977548100355529805",
+          "size": "242282021",
+          "download": "80736048"
+        }
+      }
+    },
+    "2940006": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "gid": "4526341895476413592",
+          "size": "334506571",
+          "download": "94104976"
         }
       }
     },
@@ -277,21 +302,27 @@
         "buildid": "20259048",
         "timeupdated": "1759661540"
       },
-      "windows-beta": {
-        "buildid": "20259154",
-        "description": "unstable",
-        "timeupdated": "1759662428"
+      "beta": {
+        "buildid": "20507181",
+        "description": "1.4",
+        "timeupdated": "1761193190"
       }
     }
   },
   "ufs": {
-    "quota": "0",
-    "maxnumfiles": "0",
+    "quota": "10000000000",
+    "maxnumfiles": "24",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Blindsided Games/Echoes of Vasteria",
-        "pattern": "*.es3",
+        "pattern": "*.bin",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Blindsided Games/Echoes of Vasteria",
+        "pattern": "*.json",
         "recursive": "1"
       }
     },
@@ -310,8 +341,6 @@
         "useinstead": "LinuxHome",
         "addpath": ".config/unity3d"
       }
-    },
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1"
+    }
   }
 }
