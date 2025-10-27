@@ -1,13 +1,12 @@
 {
   "appid": "3878830",
-  "public_only": "1",
   "common": {
     "name": "Blanket Fort",
     "type": "Game",
     "icon": "c4826cfddb9650203ea3ad403a185ca45e68ca5e",
     "clienttga": "f3c75d973c2947cf7cdbd86e8a9340c1f01e1211",
     "clienticon": "a1bdf327d0b62848fbacd28ef9ae584b919674b6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761591805",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3878830",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1721",
@@ -132,6 +132,71 @@
       "17": "599",
       "18": "4726",
       "19": "4305"
+    }
+  },
+  "extended": {
+    "developer": "Stingray Studios",
+    "publisher": "Stingray Studios",
+    "homepage": "https://www.stingray-studios.com/"
+  },
+  "config": {
+    "installdir": "Blanket Fort",
+    "launch": {
+      "0": {
+        "executable": "SteamWindows\\BlanketFort.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default"
+        },
+        "description": "Default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3878831": {
+      "manifests": {
+        "public": {
+          "gid": "7148274446137563509",
+          "size": "1760201688",
+          "download": "1471210432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20563110",
+        "timeupdated": "1761591682"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "BlanketFort/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
