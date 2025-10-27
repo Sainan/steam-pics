@@ -1,6 +1,5 @@
 {
   "appid": "3489460",
-  "public_only": "1",
   "common": {
     "name": "Loop//Error",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "4724b345a6160f81445af387cd56d2565e090cf5",
     "clienticon": "4724b345a6160f81445af387cd56d2565e090cf5",
     "clienttga": "9e28dc75f263215335543cce0b4d8b15226a32f1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,9 +111,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761555565",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3489460",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,6 +140,39 @@
       "17": "1698",
       "18": "4486",
       "19": "1759"
+    }
+  },
+  "extended": {
+    "developer": "Koro Pixel Studio",
+    "publisher": "CULT Games"
+  },
+  "config": {
+    "installdir": "LoopError",
+    "launch": {
+      "0": {
+        "executable": "looperror.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3489461": {
+      "manifests": {
+        "public": {
+          "gid": "7136475198669191170",
+          "size": "36203038",
+          "download": "23482880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20501037",
+        "timeupdated": "1761157033"
+      }
     }
   }
 }
