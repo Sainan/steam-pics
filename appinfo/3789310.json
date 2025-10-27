@@ -1,6 +1,5 @@
 {
   "appid": "3789310",
-  "public_only": "1",
   "common": {
     "name": "Dreamrealm's Tower of Despair",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3789310_eula_0",
@@ -132,9 +131,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761594638",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3789310",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -160,5 +160,76 @@
       "18": "4172",
       "19": "5716"
     }
+  },
+  "extended": {
+    "developer": "CaffeineBoosterGames",
+    "publisher": "CaffeineBoosterGames"
+  },
+  "config": {
+    "installdir": "Dreamrealm's Tower of Despair",
+    "launch": {
+      "0": {
+        "executable": "Dreamrealm's Tower of Despair\\Dreamrealm's Tower of Despair.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Dreamrealm's Tower of Despair.app/Contents/MacOS/Dreamrealm's Tower of Despair",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3789311": {
+      "manifests": {
+        "public": {
+          "gid": "1969673162917226350",
+          "size": "1905717389",
+          "download": "505276704"
+        }
+      }
+    },
+    "3789313": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5605508890971341577",
+          "size": "1900094740",
+          "download": "502773232"
+        }
+      }
+    },
+    "3789314": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3846167623947413529",
+          "size": "1906929485",
+          "download": "505434592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19791449",
+        "timeupdated": "1756499701"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
