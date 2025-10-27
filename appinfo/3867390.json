@@ -1,6 +1,5 @@
 {
   "appid": "3867390",
-  "public_only": "1",
   "common": {
     "name": "Path of the Zenith Master",
     "type": "Game",
@@ -24,7 +23,7 @@
     "icon": "2b9b48294a30fa1f356a82b77eb8805c4f9c20ea",
     "clienttga": "5cf7a5b2d1338955658a39e177f4ad8a3bd14e0e",
     "clienticon": "c2f2a44cc77fd8f7419eca4e28a533bd75de621f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "koreana": "da64febac21306c25311a6adbdec7af0e092d5f0/capsule_231x87_koreana.jpg",
@@ -200,9 +199,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761556539",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3867390",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -218,6 +218,54 @@
       "11": "3993",
       "12": "7250",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "十年",
+    "publisher": "十年"
+  },
+  "config": {
+    "installdir": "Path of the Zenith Master",
+    "launch": {
+      "0": {
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3867391": {
+      "manifests": {
+        "public": {
+          "gid": "1017299990679057523",
+          "size": "6616144954",
+          "download": "4934104544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20553258",
+        "timeupdated": "1761537176"
+      }
     }
   }
 }
