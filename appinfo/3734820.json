@@ -222,18 +222,6 @@
         "root": "WinAppDataLocalLow",
         "path": "AgustinRambaldo/Truco Argentino",
         "pattern": "jugador.*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1"
-      },
-      "1": {
-        "root": "MacAppSupport",
-        "path": "AgustinRambaldo/Truco Argentino",
-        "pattern": "jugador.*",
-        "platforms": {
-          "1": "MacOS"
-        },
         "recursive": "1"
       },
       "2": {
@@ -242,6 +230,20 @@
         "pattern": "unity.AgustinRambaldo.Truco Argentino.plist",
         "platforms": {
           "1": "MacOS"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "AgustinRambaldo/Truco Argentino",
+            "replace": ""
+          }
         }
       }
     }
