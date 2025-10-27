@@ -1,10 +1,9 @@
 {
   "appid": "2372370",
-  "public_only": "1",
   "common": {
     "name": "Blood Moon Horror",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,9 +103,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2372370",
-    "exfgls": "8",
     "store_tags": {
       "0": "3978",
       "1": "1720",
@@ -128,6 +127,88 @@
       "17": "3843",
       "18": "3859",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "gamedir": "midnight horror hunt",
+    "serverbrowsername": "Midnight Horror Hunt",
+    "developer": "Blood Moon Games",
+    "publisher": "Blood Moon Games",
+    "homepage": "http://bloodmoongames.net/"
+  },
+  "config": {
+    "installdir": "Blood Moon Horror",
+    "launch": {
+      "0": {
+        "executable": "BloodMoonHorrorNew.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows build"
+        },
+        "description": "Windows build"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2372371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7301900021259362278",
+          "size": "2087646316",
+          "download": "1867272096"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20556025",
+        "timeupdated": "1761559951"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveGame",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
