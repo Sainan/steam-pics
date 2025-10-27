@@ -1,6 +1,5 @@
 {
   "appid": "2138360",
-  "public_only": "1",
   "common": {
     "name": "Amerta",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "f3e216a94a00acd88b7a0685e1e582b5f5372f6b",
     "clienticon": "e4e04167503f9aff427070bd72b4ad79134e51fe",
     "clienttga": "9f1d035afa8b9e672df036f384cf60d08b39fa05",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "linuxclienticon": "b154856a2e8a441d9a6c2c378333a7efa8e7bb7f",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,9 +100,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761531448",
     "community_hub_visible": "1",
     "gameid": "2138360",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -125,6 +124,86 @@
       "17": "4255",
       "18": "4342",
       "19": "5154"
+    }
+  },
+  "extended": {
+    "developer": "Manja Studio",
+    "publisher": "Manja Studio",
+    "homepage": "https://manja.studio"
+  },
+  "config": {
+    "installdir": "Amerta",
+    "launch": {
+      "0": {
+        "executable": "amerta.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "amerta.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "2138361": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6637049855918272189",
+          "size": "118675520",
+          "download": "52473568"
+        }
+      }
+    },
+    "2138362": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3857664603249958189",
+          "size": "92316496",
+          "download": "45771840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20448737",
+        "timeupdated": "1760805837"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": "/.local/share/godot/app_userdata/Amerta",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "/Godot/app_userdata/Amerta",
+        "pattern": "*.json"
+      }
     }
   }
 }
