@@ -1,0 +1,197 @@
+{
+  "appid": "493430",
+  "common": {
+    "name": "Nanome",
+    "type": "Application",
+    "releasestate": "released",
+    "oslist": "windows",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      },
+      "seated": "1"
+    },
+    "logo": "3b214138a5f464e36fbbd2c72c15fed863a2d24a",
+    "logo_small": "3b214138a5f464e36fbbd2c72c15fed863a2d24a_thumb",
+    "icon": "0e3de05f75f0c8fbb99497e6255a8146154def92",
+    "clienttga": "4026bc1b8cf89afd0e16e152939a136bed578cec",
+    "clienticns": "18275c6c72794f051718d4176877ac0191aa8117",
+    "linuxclienticon": "18275c6c72794f051718d4176877ac0191aa8117",
+    "clienticon": "c4cd7b32392d56c64f29d5236e5646c2809fafed",
+    "eulas": {
+      "0": {
+        "id": "493430_eula_0",
+        "name": "Nanome EULA",
+        "url": "https://store.steampowered.com//eula/493430_eula_0"
+      }
+    },
+    "openvrsupport": "1",
+    "othervrsupport": "1",
+    "othervrsupport_rift_13": "1",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "0",
+      "test_timestamp": "1644278400",
+      "tested_build_id": "0",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+        }
+      },
+      "steamos_tests": {},
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Nanome",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_cad7c3f000402866ae7d3975073728831cf72408.jpg",
+    "store_asset_mtime": "1593628250",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Nanome Inc."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Nanome Inc."
+      }
+    },
+    "primary_genre": "51",
+    "genres": {
+      "0": "51",
+      "1": "53",
+      "2": "54",
+      "3": "57"
+    },
+    "category": {
+      "category_52": "1",
+      "category_54": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1535562146",
+    "community_hub_visible": "1",
+    "gameid": "493430",
+    "exfgls": "6",
+    "onlyvrsupport": "1",
+    "store_tags": {
+      "0": "1036",
+      "1": "84",
+      "2": "87",
+      "3": "872",
+      "4": "21978"
+    },
+    "review_score": "7",
+    "review_percentage": "89"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Nanome Inc.",
+    "publisher": "Nanome Inc.",
+    "homepage": "http://www.nanome.ai",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "nanome",
+    "launch": {
+      "0": {
+        "executable": "Build\\nanome.exe",
+        "arguments": "-vrmode OpenVR",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Build\\nanome.exe",
+        "arguments": "-vrmode Oculus",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "493431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2325389931203300174",
+          "size": "1285459974",
+          "download": "442533808"
+        },
+        "nano-one": {
+          "gid": "6072685086354122200",
+          "size": "90675122",
+          "download": "14272352"
+        },
+        "test": {
+          "gid": "4136780416957365143",
+          "size": "1519228214",
+          "download": "406736864"
+        },
+        "beta": {
+          "gid": "2325389931203300174",
+          "size": "1285459974",
+          "download": "442533808"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20309069",
+        "timeupdated": "1759953282"
+      },
+      "nano-one": {
+        "buildid": "1463966",
+        "description": "testing nano-one",
+        "timeupdated": "1648783405"
+      },
+      "test": {
+        "buildid": "8768282",
+        "description": "Branch for update test",
+        "timeupdated": "1652941101"
+      },
+      "beta": {
+        "buildid": "20309069",
+        "timeupdated": "1759953014"
+      }
+    }
+  }
+}
