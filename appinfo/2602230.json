@@ -1,13 +1,12 @@
 {
   "appid": "2602230",
-  "public_only": "1",
   "common": {
     "name": "MotionRec",
     "type": "Game",
     "clienttga": "d18aa85ed11b2bda1b689fbf3a4ad87e761b0608",
     "clienticon": "4382c84ec66ffb26a254ee58cc9b21c96cc44176",
     "icon": "deb138884853eb7630975afaf3b7e1f1660e240f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "径迹回响",
       "tchinese": "徑跡迴響"
@@ -179,9 +178,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761548440",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2602230",
-    "exfgls": "8",
     "store_tags": {
       "0": "5537",
       "1": "5379",
@@ -203,6 +203,48 @@
       "17": "21",
       "18": "4004",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "HANDSUM",
+    "publisher": "PLAYISM",
+    "homepage": "https://playism.com/game/motionrec/"
+  },
+  "config": {
+    "installdir": "MOTIONREC",
+    "launch": {
+      "0": {
+        "executable": "MotionRec.exe"
+      }
+    }
+  },
+  "depots": {
+    "2602231": {
+      "manifests": {
+        "public": {
+          "gid": "4123252121439417707",
+          "size": "651394905",
+          "download": "517324800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20525622",
+        "timeupdated": "1761294736"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "MotionRec",
+        "pattern": "savefile_motionrec.json"
+      }
     }
   }
 }
