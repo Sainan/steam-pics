@@ -1,0 +1,172 @@
+{
+  "appid": "584200",
+  "common": {
+    "name": "MultiVR.se",
+    "type": "Application",
+    "releasestate": "released",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "seated": "1",
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      }
+    },
+    "oslist": "windows",
+    "osarch": "64",
+    "clienttga": "2e2de1f37d1d8ffb3295301e7b5d86856b47ea31",
+    "clienticon": "9d6790cded0c5b5acce25b7173fb13b1e42458f5",
+    "icon": "aab652dc505891d47d5af620ac15a12a89fd43e6",
+    "logo": "66e3e68e52dbef18428ffc88435c75946c313de0",
+    "logo_small": "66e3e68e52dbef18428ffc88435c75946c313de0_thumb",
+    "openvrsupport": "1",
+    "metacritic_name": "MultiVR.se",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_29700fccf7cc997da4596ca0e56d4295321e0d86.jpg",
+    "store_asset_mtime": "1497634761",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "VRider, Inc."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "VRider, Inc."
+      }
+    },
+    "primary_genre": "57",
+    "genres": {
+      "0": "57"
+    },
+    "category": {
+      "category_52": "1",
+      "category_54": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1497962177",
+    "community_hub_visible": "1",
+    "gameid": "584200",
+    "exfgls": "6",
+    "onlyvrsupport": "1",
+    "store_tags": {
+      "0": "87",
+      "1": "21978",
+      "2": "493"
+    },
+    "review_score": "5",
+    "review_percentage": "69"
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "VRider, Inc.",
+    "publisher": "VRider, Inc.",
+    "homepage": "http://www.multivr.se/",
+    "isfreeapp": "1",
+    "listofdlc": "660250",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "MultiVR.se",
+    "launch": {
+      "0": {
+        "executable": "main\\main\\MultiVR.se.exe",
+        "arguments": "-force-d3d11",
+        "description": "Free Base Version",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "dlc\\dlc\\MultiVR.se.exe",
+        "arguments": "-force-d3d11",
+        "description": "Full Version All Scenes",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "ownsdlc": "660250"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "584201": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1005004272564804147",
+          "size": "2224936643",
+          "download": "331239888"
+        }
+      }
+    },
+    "660250": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "dlcappid": "660250",
+      "manifests": {
+        "public": {
+          "gid": "4099343681382899113",
+          "size": "2224936643",
+          "download": "331228032"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "1978651",
+        "timeupdated": "1500662657"
+      }
+    }
+  }
+}
