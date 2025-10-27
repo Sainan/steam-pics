@@ -6,10 +6,10 @@
     "releasestate": "released",
     "clienticon": "cf95923a6a3ae16d8b8c89d1092b28ff2e084db7",
     "clienttga": "00841b11ba7339dbbb57c4c157391f2bbbefda53",
-    "icon": "256b74e935280a11e9cfdfc03e02137bbf0c9a7a",
-    "oslist": "windows",
+    "icon": "d9dfcab8f300a9548439f70bef7b5f4e53d0fc28",
+    "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "languages": {
       "english": "1",
       "german": "1",
@@ -28,6 +28,8 @@
     "name_localized": {
       "schinese": "土豆兄弟(Brotato)"
     },
+    "clienticns": "c096e6b30bcb9749183fe5d1b78f77de7ae89383",
+    "linuxclienticon": "5be796e155133a984a61e279b490792a852c553c",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -248,7 +250,7 @@
   },
   "extended": {
     "absolutemousecoordinates": "0",
-    "remoteplaytogethertestingbranches": "default,beta,dlc_beta,testing,testing-dlc-seaven,testing-seaven,v1.1.0.0-compat",
+    "remoteplaytogethertestingbranches": "default,beta,legacy,modding,closed-beta,testing,v1.1.0.0-compat,v1.1.7.1-godot-353",
     "developer": "Blobfish",
     "publisher": "Blobfish",
     "homepage": "https://blobfishgames.com/press/brotato/",
@@ -266,6 +268,20 @@
         }
       },
       "1": {
+        "executable": "Brotato.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Brotato.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
         "executable": "GodotWorkshopUtility.exe",
         "type": "editor",
         "config": {
@@ -273,28 +289,20 @@
           "betakey": "modding"
         }
       },
-      "2": {
-        "executable": "GodotWorkshopUtility.exe",
+      "4": {
+        "executable": "GodotWorkshopUtility.x86_64",
         "type": "editor",
         "config": {
-          "oslist": "windows",
-          "betakey": "testing"
-        }
-      },
-      "3": {
-        "executable": "Brotato.x86_64",
-        "type": "default",
-        "config": {
           "oslist": "linux",
-          "betakey": "closed-beta"
+          "betakey": "modding"
         }
       },
-      "4": {
-        "executable": "Brotato.app",
-        "type": "default",
+      "5": {
+        "executable": "GodotWorkshopUtility.app",
+        "type": "editor",
         "config": {
           "oslist": "macos",
-          "betakey": "closed-beta"
+          "betakey": "modding"
         }
       }
     },
@@ -304,8 +312,7 @@
     "app_mappings": {
       "0": {
         "platform": "linux",
-        "tool": "SteamLinuxRuntime_sniper",
-        "branch": "closed-beta"
+        "tool": "SteamLinuxRuntime_sniper"
       }
     }
   },
