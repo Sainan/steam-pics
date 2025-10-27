@@ -1,6 +1,5 @@
 {
   "appid": "3815160",
-  "public_only": "1",
   "common": {
     "name": "Nexen",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1"
     },
@@ -168,9 +167,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761584400",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3815160",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1759",
@@ -193,5 +193,36 @@
       "18": "492",
       "19": "4166"
     }
+  },
+  "extended": {
+    "developer": "UNCERT Games",
+    "publisher": "UNCERT Games",
+    "homepage": "https://uncertgames.com/"
+  },
+  "config": {
+    "installdir": "Nexen",
+    "launch": {
+      "0": {
+        "executable": "NEXEN.exe"
+      }
+    }
+  },
+  "depots": {
+    "3815161": {
+      "manifests": {
+        "public": {
+          "gid": "922580099354455678",
+          "size": "285317906",
+          "download": "176360096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20561230",
+        "timeupdated": "1761582622"
+      }
+    },
+    "privatebranches": "1"
   }
 }
