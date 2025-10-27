@@ -1,6 +1,5 @@
 {
   "appid": "4133650",
-  "public_only": "1",
   "common": {
     "name": "Trick or Truth Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df39eb6652e8865e0890f00f70b981ca980b87cb/capsule_231x87.jpg"
     },
@@ -40,5 +39,43 @@
     },
     "gameid": "4133650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "MythWake Games",
+    "publisher": "MythWake Games"
+  },
+  "config": {
+    "installdir": "Trick or Truth Demo",
+    "launch": {
+      "0": {
+        "executable": "TrickorTruthDemo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4133651": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8067575166715854546",
+          "size": "938257306",
+          "download": "124271328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20523808",
+        "timeupdated": "1761283358"
+      }
+    }
   }
 }
