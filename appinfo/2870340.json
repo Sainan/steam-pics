@@ -1,13 +1,12 @@
 {
   "appid": "2870340",
-  "public_only": "1",
   "common": {
     "name": "Decktamer",
     "type": "Game",
     "clienticon": "48015279d518d2335b88e34074d20c940c8b3609",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "icon": "3018a3917f239af2ef89902714ad4a63ecc8fc6c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -125,9 +124,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761573600",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2870340",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "9",
@@ -142,6 +142,60 @@
       "10": "6815",
       "11": "7481",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Horizon Edge",
+    "publisher": "Assemble Entertainment"
+  },
+  "config": {
+    "installdir": "Decktamer",
+    "launch": {
+      "0": {
+        "executable": "Decktamer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2870341": {
+      "manifests": {
+        "public": {
+          "gid": "2096025586539109706",
+          "size": "6949006171",
+          "download": "1688227408"
+        },
+        "beta": {
+          "gid": "2096025586539109706",
+          "size": "6949006171",
+          "download": "1688227408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20552405",
+        "timeupdated": "1761530099"
+      },
+      "beta": {
+        "buildid": "20552405",
+        "description": "for beta testing",
+        "timeupdated": "1761530108"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "HORIZON EDGE/Decktamer",
+        "pattern": "*.dat"
+      }
     }
   }
 }
