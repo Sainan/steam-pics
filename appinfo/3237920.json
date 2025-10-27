@@ -1,13 +1,12 @@
 {
   "appid": "3237920",
-  "public_only": "1",
   "common": {
     "name": "Mech Havoc",
     "type": "Game",
     "icon": "618a6b8c6164cceabbdf579640a43a41efff75a6",
     "clienticon": "98591e1d00808384b8fd4009f471f256b161a77d",
     "clienttga": "b66955420677680bf9c3865517b6c7a37e0a9c2a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -149,9 +148,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761577200",
     "community_hub_visible": "1",
     "gameid": "3237920",
-    "exfgls": "8",
     "store_tags": {
       "0": "4821",
       "1": "4637",
@@ -173,6 +172,62 @@
       "17": "3871",
       "18": "3964",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Mid Development",
+    "publisher": "Pretty Soon"
+  },
+  "config": {
+    "installdir": "MechHavoc",
+    "launch": {
+      "0": {
+        "executable": "MechHavoc.exe"
+      }
+    }
+  },
+  "depots": {
+    "3237921": {
+      "manifests": {
+        "public": {
+          "gid": "5514103010334734337",
+          "size": "2917249933",
+          "download": "286531984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20559097",
+        "timeupdated": "1761573478"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MidDevelopment/MechHavoc/Saves",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "MidDevelopment/MechHavoc/Saves",
+            "replace": "unity.MidDevelopment.MechHavoc.Saves"
+          }
+        }
+      }
     }
   }
 }
