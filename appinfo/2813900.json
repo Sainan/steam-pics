@@ -1,6 +1,5 @@
 {
   "appid": "2813900",
-  "public_only": "1",
   "common": {
     "name": "The Office Killer",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "f3689297dc6bb4b1b344f62111173d0621a23f19",
     "clienticon": "3099eda42eb8b87e555c0b0578eb2de28540eb94",
     "clienttga": "58d65e7514ce9ecf7a5485cef8d64463b1df1b8b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -182,9 +181,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761584612",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2813900",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -209,6 +209,53 @@
       "17": "3859",
       "18": "8369",
       "19": "4106"
+    }
+  },
+  "extended": {
+    "developer": "IceMoon Games",
+    "publisher": "IceMoon Games"
+  },
+  "config": {
+    "installdir": "The Office Killer",
+    "launch": {
+      "0": {
+        "executable": "The Office Killer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2813901": {
+      "manifests": {
+        "public": {
+          "gid": "7554810654895528283",
+          "size": "10099688384",
+          "download": "3530443712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20556850",
+        "timeupdated": "1761562147"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Icemoon Games/The Office Killer",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
