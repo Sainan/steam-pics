@@ -1,6 +1,5 @@
 {
   "appid": "3722910",
-  "public_only": "1",
   "common": {
     "name": "Legends of Azamar Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -97,11 +96,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760078124",
     "gameid": "3722910",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Gronkins",
+    "publisher": "Gronkins"
+  },
+  "config": {
+    "installdir": "Legends of Azamar Demo",
+    "launch": {
+      "0": {
+        "executable": "LegendsOfAzamar.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3722911": {
+      "manifests": {
+        "public": {
+          "gid": "1334049602413937408",
+          "size": "3938527911",
+          "download": "775106000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20480903",
+        "timeupdated": "1761106532"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "25",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gronkins/LegendsOfAzamar",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
