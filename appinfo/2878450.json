@@ -1,13 +1,12 @@
 {
   "appid": "2878450",
-  "public_only": "1",
   "common": {
     "name": "Master of Command",
     "type": "Game",
     "icon": "881417f88658a86f4bcaf3ef0604b5abfc991096",
     "clienttga": "fa6028bda186dd14bfc538a36b908ec71296991b",
     "clienticon": "881417f88658a86f4bcaf3ef0604b5abfc991096",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -139,9 +138,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761588000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2878450",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "3987",
@@ -164,5 +164,56 @@
       "18": "5125",
       "19": "7948"
     }
+  },
+  "extended": {
+    "developer": "Armchair History Interactive",
+    "publisher": "Armchair History Interactive",
+    "homepage": "https://armchairhistory.tv/",
+    "listofdlc": "4130010",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Master of Command",
+    "launch": {
+      "0": {
+        "executable": "Master Of Command.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Master Of Command"
+        },
+        "description": "Master Of Command"
+      }
+    }
+  },
+  "depots": {
+    "2878451": {
+      "manifests": {
+        "public": {
+          "gid": "7620228253445057956",
+          "size": "10085894221",
+          "download": "3457027888"
+        }
+      }
+    },
+    "4130010": {
+      "dlcappid": "4130010",
+      "manifests": {
+        "public": {
+          "gid": "4145527296027633678",
+          "size": "2531729009",
+          "download": "2170914896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20558530",
+        "timeupdated": "1761570582"
+      }
+    },
+    "privatebranches": "1"
   }
 }
