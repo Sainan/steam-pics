@@ -1,6 +1,5 @@
 {
   "appid": "1593230",
-  "public_only": "1",
   "common": {
     "name": "Beneath",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "渊域"
     },
@@ -180,9 +179,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761573591",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1593230",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -208,6 +208,67 @@
       "17": "4182",
       "18": "5363",
       "19": "9157"
+    }
+  },
+  "extended": {
+    "developer": "Camel 101",
+    "publisher": "Wired Productions",
+    "homepage": "https://www.beneathgame.net/"
+  },
+  "config": {
+    "installdir": "Beneath",
+    "launch": {
+      "0": {
+        "executable": "Beneath.exe",
+        "arguments": "1875bvhj4yudAwhPo9r",
+        "config": {
+          "betakey": "Combat"
+        },
+        "description_loc": {
+          "english": "Combat demo"
+        },
+        "description": "Combat demo"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1593231": {
+      "manifests": {
+        "public": {
+          "gid": "5948973248540586859",
+          "size": "24411354198",
+          "download": "8736609088"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20507991",
+        "timeupdated": "1761307102"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "2000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Camel101\\Beneath",
+        "pattern": "*.txt",
+        "recursive": "1"
+      }
     }
   }
 }
