@@ -1,10 +1,9 @@
 {
   "appid": "3156450",
-  "public_only": "1",
   "common": {
     "name": "Hoomanz!",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -122,9 +121,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761548711",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3156450",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4726",
@@ -146,6 +146,110 @@
       "17": "1667",
       "18": "4182",
       "19": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Koffeecup",
+    "publisher": "Koffeecup",
+    "homepage": "https://www.hoomanz.game/"
+  },
+  "config": {
+    "installdir": "Hoomanz",
+    "launch": {
+      "0": {
+        "executable": "Hoomanz.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "15"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3156451": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6980030969189393875",
+          "size": "3288502305",
+          "download": "3090286368"
+        },
+        "beta": {
+          "gid": "8233939574713255668",
+          "size": "1375651858",
+          "download": "1148725824"
+        }
+      }
+    },
+    "3156452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20518831",
+        "timeupdated": "1761308882"
+      },
+      "beta": {
+        "buildid": "18404770",
+        "description": "Beta release channel",
+        "timeupdated": "1746802289"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Hoomanz/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
