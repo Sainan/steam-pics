@@ -1,13 +1,12 @@
 {
   "appid": "3590790",
-  "public_only": "1",
   "common": {
     "name": "Bloodright",
     "type": "Game",
     "clienttga": "519b5ff7560c30de4e8b504c517f77a515f75fca",
     "clienticon": "643e43b65ad30fd3780dfec2077ee4f3881694eb",
     "icon": "a4440e54bfb5b4c2da666432e3c71b843b06d9a7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -102,9 +101,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761567913",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3590790",
-    "exfgls": "8",
     "store_tags": {
       "0": "4342",
       "1": "3834",
@@ -126,6 +126,39 @@
       "17": "6971",
       "18": "6276",
       "19": "1702"
+    }
+  },
+  "extended": {
+    "developer": "OcO",
+    "publisher": "OcO"
+  },
+  "config": {
+    "installdir": "Bloodright",
+    "launch": {
+      "0": {
+        "executable": "Bloodright.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3590791": {
+      "manifests": {
+        "public": {
+          "gid": "13414369579724775",
+          "size": "100695257",
+          "download": "81413424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20440253",
+        "timeupdated": "1760726498"
+      }
     }
   }
 }
