@@ -1,6 +1,5 @@
 {
   "appid": "3877320",
-  "public_only": "1",
   "common": {
     "name": "The Next Stop Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "e31f457b6276a1a3428ba3610d780628bbf0fc8d",
     "clienticon": "a9e8ae6a4226f6c93a8c58a69b236e4134e6abd5",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -97,7 +96,11 @@
       "2": "28"
     },
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_66": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1"
     },
     "supported_languages": {
       "english": {
@@ -116,6 +119,43 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Paranoid Delusion",
+    "publisher": "Paranoid Delusion"
+  },
+  "config": {
+    "installdir": "The Next Stop Demo",
+    "launch": {
+      "0": {
+        "executable": "The Next Stop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Point&Click"
+        },
+        "description": "Point&Click"
+      }
+    }
+  },
+  "depots": {
+    "3877321": {
+      "manifests": {
+        "public": {
+          "gid": "3335679552024771515",
+          "size": "880953981",
+          "download": "209189456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20552465",
+        "timeupdated": "1761530638"
+      }
     }
   }
 }
