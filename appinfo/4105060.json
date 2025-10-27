@@ -1,4 +1,101 @@
 {
   "appid": "4105060",
-  "public_only": "1"
+  "common": {
+    "name": "Max’s Adventures: Christmas Edition Demo",
+    "type": "Demo",
+    "parent": "4091700",
+    "clienticon": "d0461dc313e1c67685ad3895144aeb6820a5f41d",
+    "icon": "d0461dc313e1c67685ad3895144aeb6820a5f41d",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "b81263ab603e329bfc7c76543eff130378424b93/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "2953a397e9539654d4df14a02bb2484fba31dd55/header.jpg"
+    },
+    "store_asset_mtime": "1760248939",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "J Indie Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "J Indie Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "4105060",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "J Indie Games",
+    "publisher": "J Indie Games"
+  },
+  "config": {
+    "installdir": "Max’s Adventures Christmas Edition Demo",
+    "launch": {
+      "0": {
+        "executable": "Christmas game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Builds.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4105061": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5640431127250000031",
+          "size": "637388219",
+          "download": "269492160"
+        }
+      }
+    },
+    "4105062": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8423348735801363133",
+          "size": "669025859",
+          "download": "279736208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20512093",
+        "timeupdated": "1761220468"
+      }
+    }
+  }
 }
