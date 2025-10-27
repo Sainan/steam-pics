@@ -1,6 +1,5 @@
 {
   "appid": "4072300",
-  "public_only": "1",
   "common": {
     "name": "Miiridian Prime",
     "type": "Game",
@@ -17,7 +16,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "linuxclienticon": "ac12fe62830ac81096d8fac65009afee71fcefed",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -135,5 +134,53 @@
       "18": "5711",
       "19": "3859"
     }
+  },
+  "extended": {
+    "developer": "Moonray PBC",
+    "publisher": "Moonray PBC",
+    "homepage": "https://www.miiridianprime.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Miiridian Prime",
+    "launch": {
+      "0": {
+        "executable": "MiiridianPrime.exe",
+        "arguments": "-steam",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4072301": {
+      "manifests": {
+        "public": {
+          "gid": "8079759987602640509",
+          "size": "15178502437",
+          "download": "14555557488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20556854",
+        "timeupdated": "1761561990"
+      }
+    },
+    "privatebranches": "1"
   }
 }
