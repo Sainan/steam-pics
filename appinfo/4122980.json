@@ -1,6 +1,5 @@
 {
   "appid": "4122980",
-  "public_only": "1",
   "common": {
     "name": "Victory Saber 2D Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -46,5 +45,61 @@
     },
     "gameid": "4122980",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Zephyr Studio Limited",
+    "publisher": "Zephyr Studio Limited",
+    "homepage": "https://www.zephyrstudio.xyz/VictorySaber2D/"
+  },
+  "config": {
+    "installdir": "Victory Saber 2D Demo",
+    "launch": {
+      "0": {
+        "executable": "VictorySaber2D Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "VictorySaber2D Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4122981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1904266955555887432",
+          "size": "410438990",
+          "download": "129746752"
+        }
+      }
+    },
+    "4122982": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5223339859690013407",
+          "size": "446724555",
+          "download": "132277104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20535916",
+        "timeupdated": "1761344764"
+      }
+    }
   }
 }
