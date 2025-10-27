@@ -1,6 +1,5 @@
 {
   "appid": "4066290",
-  "public_only": "1",
   "common": {
     "name": "WTC : The Manchester Report",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -118,9 +117,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4066290",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -140,6 +139,120 @@
       "15": "1742",
       "16": "31275",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Triority Interactive Novels",
+    "publisher": "Triority Interactive Novels"
+  },
+  "config": {
+    "installdir": "WTC  The Manchester Report",
+    "launch": {
+      "0": {
+        "executable": "WTCManchesterReport.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "WTCManchesterReport.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "WTCManchesterReport.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4066291": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8622127357324182819",
+          "size": "212107411",
+          "download": "118315072"
+        }
+      }
+    },
+    "4066292": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2317618738114761804",
+          "size": "163761629",
+          "download": "101765040"
+        }
+      }
+    },
+    "4066293": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7885330634296802009",
+          "size": "198028525",
+          "download": "114287648"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20485755",
+        "timeupdated": "1761074213"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "301989888",
+    "maxnumfiles": "108",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "Library/RenPy/WTCManchesterReport-D136F225B1",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
