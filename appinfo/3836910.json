@@ -1,6 +1,5 @@
 {
   "appid": "3836910",
-  "public_only": "1",
   "common": {
     "name": "The Observatory",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4bb2417d8db1b7b6e3c015d0a83101cde07108d2/capsule_231x87.jpg"
@@ -194,9 +193,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761584459",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3836910",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "1667",
@@ -213,6 +213,46 @@
       "12": "5716",
       "13": "4175",
       "14": "492"
+    }
+  },
+  "extended": {
+    "developer": "Universe 24",
+    "publisher": "Universe 24"
+  },
+  "config": {
+    "installdir": "The Observatory",
+    "launch": {
+      "0": {
+        "executable": "The Observatory.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3836911": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4889273043072319931",
+          "size": "1556434319",
+          "download": "734315360"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20542388",
+        "timeupdated": "1761411943"
+      }
     }
   }
 }
