@@ -24,6 +24,51 @@
     "name_localized": {
       "japanese": "グルーミーの瞳(Gloomy Eyes)"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1761091200",
+      "tested_build_id": "19959910",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -88,7 +133,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757672066",
+    "store_asset_mtime": "1761572017",
     "associations": {
       "0": {
         "type": "developer",
@@ -256,9 +301,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "91914357347489762",
-          "size": "4547167039",
-          "download": "3988204432"
+          "gid": "1051551683066938242",
+          "size": "4547168823",
+          "download": "3988648592"
         }
       }
     },
@@ -268,9 +313,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "3537134076302978464",
-          "size": "4755072580",
-          "download": "4078169856"
+          "gid": "3190979451319192000",
+          "size": "4755038087",
+          "download": "4078169840"
         }
       }
     },
@@ -286,8 +331,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20138366",
-        "timeupdated": "1759135360"
+        "buildid": "20318072",
+        "timeupdated": "1760004320"
       }
     },
     "privatebranches": "1"
