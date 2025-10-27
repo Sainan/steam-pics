@@ -1,10 +1,9 @@
 {
   "appid": "3985920",
-  "public_only": "1",
   "common": {
     "name": "Another Day of My Life",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "9c57ebaf55dc831ac851fbab6a83b062318370fa",
     "clienticon": "9c57ebaf55dc831ac851fbab6a83b062318370fa",
     "oslist": "windows,macos",
@@ -162,9 +161,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761600157",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3985920",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -188,6 +188,91 @@
       "16": "597",
       "17": "21",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Foxy KK &amp; Squeaky ZZ",
+    "publisher": "Foxy KK &amp; Squeaky ZZ"
+  },
+  "config": {
+    "installdir": "AnotherDayofMyLife_FullEdition",
+    "launch": {
+      "0": {
+        "executable": "AnotherDayofMyLife_FullEdition\\Another Day of My Life.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AnotherDayofMyLife_FullEdition\\Another Day of My Life.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3985921": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6951840794021407955",
+          "size": "1737357441",
+          "download": "1267698672"
+        }
+      }
+    },
+    "3985922": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4637385083597973556",
+          "size": "1812912465",
+          "download": "1290064592"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "20559666",
+        "timeupdated": "1761575652"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "2000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Foxy KK Squeaky ZZ/Another Day of My Life",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Foxy KK Squeaky ZZ/Another Day of My Life",
+            "replace": "Foxy KK Squeaky ZZ/Another Day of My Life"
+          }
+        }
+      }
     }
   }
 }
