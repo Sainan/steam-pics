@@ -1,10 +1,9 @@
 {
   "appid": "3648370",
-  "public_only": "1",
   "common": {
     "name": "Node Math",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "65053d1855602cc142f92f32879c75bbae16359b",
     "clienttga": "6e67fda66f52585c288ce812ac1fcde8b31e5bd2",
     "clienticon": "deaf6679338d94970c1b971c651702ae224eb860",
@@ -411,9 +410,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761587898",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3648370",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "255534",
@@ -435,6 +435,50 @@
       "17": "4182",
       "18": "3871",
       "19": "1654"
+    }
+  },
+  "extended": {
+    "developer": "ByerN",
+    "publisher": "ByerN"
+  },
+  "config": {
+    "installdir": "Node Math",
+    "launch": {
+      "0": {
+        "executable": "NodeMath.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3648371": {
+      "manifests": {
+        "public": {
+          "gid": "3590314603099918311",
+          "size": "549927614",
+          "download": "404196560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20561895",
+        "timeupdated": "1761585555"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "steam/saves",
+        "pattern": "*"
+      }
     }
   }
 }
