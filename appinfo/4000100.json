@@ -1,6 +1,5 @@
 {
   "appid": "4000100",
-  "public_only": "1",
   "common": {
     "name": "Dark Watching Chapter 1 ",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "916bbd49bd4ef1b0b36a345ab122fe4bdd4a6a04",
     "clienticns": "12b6b7fa774b22b3475eec2f6d4349c796b80b25",
     "linuxclienticon": "12b6b7fa774b22b3475eec2f6d4349c796b80b25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -145,5 +144,92 @@
       "10": "113",
       "11": "4345"
     }
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "vrheadsetstreaming": "1",
+    "gamedir": "",
+    "developer": "Cannedheart's studios",
+    "publisher": "Cannedheart's studios",
+    "homepage": "https://www.cannedheart.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Dark Watching Chapter 1 The Bunker",
+    "launch": {
+      "0": {
+        "executable": "Dark_watching.exe",
+        "arguments": "-fullscreen",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "betakey": "-",
+          "ownsdlc": "-"
+        },
+        "description_loc": {
+          "english": "start dark Watching chapter 1"
+        },
+        "description": "start dark Watching chapter 1"
+      }
+    },
+    "uselaunchcommandline": "1",
+    "steamdecktouchscreen": "5",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229030": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4000101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3129079706319579987",
+          "size": "7198029720",
+          "download": "6963479488"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20515326",
+        "timeupdated": "1761235977"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1"
   }
 }
