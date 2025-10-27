@@ -1,6 +1,5 @@
 {
   "appid": "4085860",
-  "public_only": "1",
   "common": {
     "name": "Recurrence Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "5661e64eda7ce3b4e40151ae29341d0b88f98bcf",
     "clienticon": "5661e64eda7ce3b4e40151ae29341d0b88f98bcf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -104,10 +103,45 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4085860",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Equinox Interactive",
+    "publisher": "Equinox Interactive"
+  },
+  "config": {
+    "installdir": "Recurrence Demo",
+    "launch": {
+      "0": {
+        "executable": "RecurrenceDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4085861": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "946067161560000780",
+          "size": "2054820017",
+          "download": "1006061056"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20561789",
+        "timeupdated": "1761584922"
+      }
     }
   }
 }
