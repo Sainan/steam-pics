@@ -1,6 +1,5 @@
 {
   "appid": "4071330",
-  "public_only": "1",
   "common": {
     "name": "Avalon Jewels",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "macos64,macosnotarized",
     "clienticns": "8195502d8af81d46cb42857917329ba4d7326f92",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -132,9 +131,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761569203",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4071330",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1665",
@@ -152,6 +152,65 @@
       "13": "4172",
       "14": "7250",
       "15": "12057"
+    }
+  },
+  "extended": {
+    "developer": "Anawiki Games",
+    "publisher": "Anawiki Games",
+    "homepage": "https://www.anawiki.com"
+  },
+  "config": {
+    "installdir": "Avalon Jewels",
+    "launch": {
+      "0": {
+        "executable": "Avalon Jewels.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Avalon Jewels.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4071331": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5960265840989711305",
+          "size": "353104606",
+          "download": "131143136"
+        }
+      }
+    },
+    "4071332": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8461376744759001756",
+          "size": "348609578",
+          "download": "130057136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20364873",
+        "timeupdated": "1760340310"
+      }
     }
   }
 }
