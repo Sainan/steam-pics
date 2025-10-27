@@ -1,6 +1,5 @@
 {
   "appid": "3422930",
-  "public_only": "1",
   "common": {
     "name": "Whisper Of Anima",
     "type": "Game",
@@ -10,8 +9,9 @@
     "clienttga": "a71f1e5e8d46354d1448c0470ef2b878e457e585",
     "icon": "b9be2b1b92b1897489739b145e2d17242a70e785",
     "clienticon": "b4d325b99fc5ccbcba7ca48ca55f7c4ac836cf9d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
+    "controller_support": "partial",
     "small_capsule": {
       "english": "a7b39b5b5373b30f21ac4e3a21ed320f2ae70b79/capsule_231x87.jpg"
     },
@@ -97,7 +97,8 @@
       "category_2": "1",
       "category_23": "1",
       "category_69": "1",
-      "category_78": "1"
+      "category_78": "1",
+      "category_18": "1"
     },
     "supported_languages": {
       "english": {
@@ -110,6 +111,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761591253",
     "community_hub_visible": "1",
     "gameid": "3422930",
     "exfgls": "3",
@@ -131,6 +133,71 @@
       "14": "4064",
       "15": "113",
       "16": "492"
+    }
+  },
+  "extended": {
+    "developer": "ICAT Game Studio",
+    "publisher": "ICAT Game Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Whisper Of Anima",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "WhisperOfAnima.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamconfigurator3rdpartynative": "6"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3422931": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7548587997747547780",
+          "size": "670719577",
+          "download": "387551376"
+        }
+      }
+    },
+    "baselanguages": "english,thai",
+    "branches": {
+      "public": {
+        "buildid": "20508003",
+        "timeupdated": "1761199579"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "WhisperOfAnima/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
