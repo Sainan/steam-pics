@@ -1,6 +1,5 @@
 {
   "appid": "3704160",
-  "public_only": "1",
   "common": {
     "name": "Aether’s Echo: Yazid’s Paradox",
     "type": "Game",
@@ -23,7 +22,7 @@
       "koreana": "에테르의 메아리: 야지드의 패러독스",
       "schinese": "以太回响：雅兹德的悖论"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "29d7bc6e2f496de79d8d93824c61fee9d5ac2185/capsule_231x87.jpg"
@@ -116,7 +115,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3704160",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -130,6 +128,80 @@
       "9": "3916",
       "10": "7250",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Yazan ili pika",
+    "publisher": "QuanticXero"
+  },
+  "config": {
+    "installdir": "Ather Echo",
+    "launch": {
+      "1": {
+        "executable": "Aethers Echo.exe",
+        "arguments": "safe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Actions Echo (Safe Mode)"
+        },
+        "description": "Play Actions Echo (Safe Mode)"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3704161": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2777117392633530362",
+          "size": "159445760",
+          "download": "70988224"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20518237",
+        "timeupdated": "1761249048"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
