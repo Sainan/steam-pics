@@ -1,6 +1,5 @@
 {
   "appid": "4078940",
-  "public_only": "1",
   "common": {
     "name": "Vicarius Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "f00ae938641051396270af726f525e042a080fbc",
     "clienticon": "f00ae938641051396270af726f525e042a080fbc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -195,7 +194,41 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761577259",
     "gameid": "4078940",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nocten",
+    "publisher": "Nocten"
+  },
+  "config": {
+    "installdir": "Vicarius Demo",
+    "launch": {
+      "0": {
+        "executable": "VicariusDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4078941": {
+      "manifests": {
+        "public": {
+          "gid": "9203087056672918210",
+          "size": "109843333",
+          "download": "43365056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20540183",
+        "timeupdated": "1761387097"
+      }
+    }
   }
 }
