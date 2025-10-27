@@ -1,6 +1,5 @@
 {
   "appid": "3964660",
-  "public_only": "1",
   "common": {
     "name": "Night Shippers Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -173,10 +172,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761606364",
     "gameid": "3964660",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Young Buffalo",
+    "publisher": "Young Buffalo"
+  },
+  "config": {
+    "installdir": "Night Shippers Demo",
+    "launch": {
+      "0": {
+        "executable": "ProjectSH.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3964661": {
+      "manifests": {
+        "public": {
+          "gid": "6370356767870361827",
+          "size": "1244671715",
+          "download": "951943168"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,schinese,tchinese,russian,japanese,brazilian,latam,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "20555368",
+        "timeupdated": "1761554231"
+      }
     }
   }
 }
