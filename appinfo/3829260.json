@@ -1,6 +1,5 @@
 {
   "appid": "3829260",
-  "public_only": "1",
   "common": {
     "name": "Riftborn",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761586789",
     "community_hub_visible": "1",
     "gameid": "3829260",
-    "exfgls": "8",
     "store_tags": {
       "0": "7926",
       "1": "3993",
@@ -130,6 +129,41 @@
       "17": "42804",
       "18": "5711",
       "19": "1742"
+    }
+  },
+  "extended": {
+    "developer": "MoonRift LLC",
+    "publisher": "MoonRift LLC"
+  },
+  "config": {
+    "installdir": "Riftborn",
+    "launch": {
+      "0": {
+        "executable": "RiftBorn.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3829261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3030995157655231246",
+          "size": "4491251920",
+          "download": "2115780128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19913039",
+        "timeupdated": "1757430127"
+      }
     }
   }
 }
