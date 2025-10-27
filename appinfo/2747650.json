@@ -1,10 +1,9 @@
 {
   "appid": "2747650",
-  "public_only": "1",
   "common": {
     "name": "Nuclear Day Survival",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "6efb3cdaaa8b258a920abc060a6394aeeab19a8e",
     "clienttga": "dd76ac6d81c3e94eb16fab063933f699071260e5",
     "clienticon": "7e29bd78bc8ac0364a7f02ed64030f8dc3b165e1",
@@ -90,7 +89,8 @@
     "genres": {
       "0": "1",
       "1": "25",
-      "2": "3"
+      "2": "3",
+      "3": "37"
     },
     "category": {
       "category_2": "1",
@@ -110,7 +110,7 @@
     },
     "community_hub_visible": "1",
     "gameid": "2747650",
-    "exfgls": "8",
+    "exfgls": "3",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -132,6 +132,103 @@
       "17": "4175",
       "18": "6815",
       "19": "4252"
+    }
+  },
+  "extended": {
+    "developer": "Garden of Dreams",
+    "publisher": "Garden of Dreams",
+    "homepage": "https://godreams.games/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Nuclear Day Survival",
+    "launch": {
+      "0": {
+        "executable": "NuclearDay.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Windows"
+        },
+        "description": "Windows"
+      },
+      "1": {
+        "executable": "NuclearDay.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Nuclear_mac_build.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2747651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "433851389263787540",
+          "size": "1725300947",
+          "download": "276593440"
+        },
+        "test": {
+          "gid": "433851389263787540",
+          "size": "1725300947",
+          "download": "276593440"
+        }
+      }
+    },
+    "2747652": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "52461119097109389",
+          "size": "1920848640",
+          "download": "304879280"
+        },
+        "test": {
+          "gid": "52461119097109389",
+          "size": "1920848640",
+          "download": "304879280"
+        }
+      }
+    },
+    "2747653": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8343621118748435143",
+          "size": "1825532611",
+          "download": "290639728"
+        },
+        "test": {
+          "gid": "8343621118748435143",
+          "size": "1825532611",
+          "download": "290639728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20511296",
+        "timeupdated": "1761217076"
+      },
+      "test": {
+        "buildid": "20511296",
+        "description": "developer",
+        "timeupdated": "1761216675"
+      }
     }
   }
 }
