@@ -1,6 +1,5 @@
 {
   "appid": "3552820",
-  "public_only": "1",
   "common": {
     "name": "The Horde Wants You Dead",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "db93a961a9bfd43f76470aa098f14b3e33148b68",
     "clienticon": "f4b02342387f8e410c24e9ddfef7896221148782",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -116,9 +115,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761552013",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3552820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -145,5 +145,40 @@
       "18": "4252",
       "19": "4400"
     }
+  },
+  "extended": {
+    "developer": "Bellyflop Games",
+    "publisher": "Bellyflop Games"
+  },
+  "config": {
+    "installdir": "The Horde Wants You Dead",
+    "launch": {
+      "0": {
+        "executable": "TheHordeWantsYouDead.exe",
+        "arguments": "-language=en-GB",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3552821": {
+      "manifests": {
+        "public": {
+          "gid": "2700333409087161553",
+          "size": "797442806",
+          "download": "502532976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20517837",
+        "timeupdated": "1761247009"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "10"
   }
 }
