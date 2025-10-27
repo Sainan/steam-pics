@@ -154,7 +154,7 @@
     "launch": {
       "0": {
         "executable": "MyCardIsBetterThanYourCard.exe",
-        "arguments": "--rendering-method mobile",
+        "arguments": "--rendering-method mobile --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
         "type": "option1",
         "config": {
           "oslist": "windows"
@@ -175,7 +175,7 @@
       },
       "1": {
         "executable": "MyCardIsBetterThanYourCard.exe",
-        "arguments": "--rendering-method gl_compatibility",
+        "arguments": "--rendering-method gl_compatibility --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
         "type": "option2",
         "config": {
           "oslist": "windows"
