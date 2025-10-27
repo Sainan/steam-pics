@@ -1,6 +1,5 @@
 {
   "appid": "4015330",
-  "public_only": "1",
   "common": {
     "name": "loongwu gaming assistant",
     "type": "Application",
@@ -9,12 +8,14 @@
     "osextended": "",
     "clienticon": "80106b8680926993f53be934bf5b782029900043",
     "icon": "80106b8680926993f53be934bf5b782029900043",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "5cbb93f31c7a6793006ee7da75f8fcbe93a0d0f4/capsule_231x87.jpg"
+      "english": "5cbb93f31c7a6793006ee7da75f8fcbe93a0d0f4/capsule_231x87.jpg",
+      "schinese": "9bc5c85933bb9be4737a16d875857c48a7578185/capsule_231x87_schinese.jpg"
     },
     "header_image": {
-      "english": "5da0b9c1bc3684c2ac7b9be4293205888769b44f/header.jpg"
+      "english": "5da0b9c1bc3684c2ac7b9be4293205888769b44f/header.jpg",
+      "schinese": "0b6a1c2e0568651dd91c48d2590059389bf9e0ab/header_schinese.jpg"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -72,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1758853738",
+    "store_asset_mtime": "1760167971",
     "associations": {
       "0": {
         "type": "developer",
@@ -85,7 +86,8 @@
     },
     "primary_genre": "57",
     "genres": {
-      "0": "57"
+      "0": "23",
+      "1": "57"
     },
     "category": {
       "category_23": "1"
@@ -113,11 +115,78 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759999466",
     "community_hub_visible": "1",
     "gameid": "4015330",
     "exfgls": "6",
     "store_tags": {
-      "0": "87"
+      "0": "492",
+      "1": "87",
+      "2": "8013"
+    }
+  },
+  "extended": {
+    "developer": "Loongwu Software",
+    "publisher": "Loongwu Software"
+  },
+  "config": {
+    "installdir": "loongwu gaming assistant",
+    "launch": {
+      "0": {
+        "executable": "loongwu_gaming_assistant.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "default"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4015331": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4037958050523026491",
+          "size": "94517671",
+          "download": "38868624"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20557801",
+        "timeupdated": "1761566958"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "loongwu-game-assistant",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
