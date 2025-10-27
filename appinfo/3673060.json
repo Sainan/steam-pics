@@ -1,6 +1,5 @@
 {
   "appid": "3673060",
-  "public_only": "1",
   "common": {
     "name": "How to Train Your Cock",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "c3072216b7c025734826a8c20553ed088280d5fc",
     "clienticon": "c37f6d90a93c54b1467d6357ccbe4c1b27239d70",
     "clienttga": "23b5100dc9a1048d2d3fe3fc6812d04630404db3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "brazilian": "Como Treinar o Seu Pinto",
       "schinese": "鸡你太壮",
@@ -195,9 +194,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761552157",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3673060",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "597",
@@ -219,6 +219,55 @@
       "17": "4562",
       "18": "4182",
       "19": "255534"
+    }
+  },
+  "extended": {
+    "developer": "Little Horror Studios",
+    "publisher": "Little Horror Studios",
+    "homepage": "https://bit.ly/TrainCockPressKit"
+  },
+  "config": {
+    "installdir": "How to Train Your Cock",
+    "launch": {
+      "0": {
+        "executable": "How to Train Your Cock.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3673061": {
+      "manifests": {
+        "public": {
+          "gid": "1192246227962329560",
+          "size": "358763011",
+          "download": "106300672"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20552474",
+        "timeupdated": "1761530674"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Little Horror Studios/How to Train Your Cock",
+        "pattern": "*.data"
+      }
     }
   }
 }
