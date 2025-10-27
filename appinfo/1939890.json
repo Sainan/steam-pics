@@ -1,13 +1,12 @@
 {
   "appid": "1939890",
-  "public_only": "1",
   "common": {
     "name": "Simon the Sorcerer Origins",
     "type": "Game",
     "clienticon": "612a69b2cf4631761223d1bc6e7d65149733d139",
     "clienttga": "e2aa1fde7cdcd40d501370ebbe830ce57003d96a",
     "icon": "db087e63f1e6cfff51b30c3cf6047c230ce27657",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -176,9 +175,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761605827",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1939890",
-    "exfgls": "8",
     "store_tags": {
       "0": "1698",
       "1": "21",
@@ -200,6 +200,164 @@
       "17": "7702",
       "18": "7481",
       "19": "3834"
+    }
+  },
+  "extended": {
+    "developer": "Smallthing Studios",
+    "publisher": "ININ",
+    "homepage": "https://iningames.com/",
+    "listofdlc": "2677810,3823920",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Simon the Sorcerer Origins",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Simon the Sorcerer Origins.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "Simon the Sorcerer Origins.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "Simon the Sorcerer Origins.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "Artbook/Artbook.pdf",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "3823920"
+        },
+        "description_loc": {
+          "english": "Artbook"
+        },
+        "description": "Artbook"
+      },
+      "4": {
+        "executable": "./Artbook.sh",
+        "type": "option1",
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "3823920"
+        },
+        "description_loc": {
+          "english": "Artbook"
+        },
+        "description": "Artbook"
+      },
+      "5": {
+        "executable": "./Artbook.sh",
+        "type": "option1",
+        "config": {
+          "oslist": "linux",
+          "ownsdlc": "3823920"
+        },
+        "description_loc": {
+          "english": "Artbook"
+        },
+        "description": "Artbook"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "1939891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8989728107585579077",
+          "size": "1981037483",
+          "download": "1781516624"
+        }
+      }
+    },
+    "1939892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2011986690318405147",
+          "size": "2108553573",
+          "download": "1854914976"
+        }
+      }
+    },
+    "1939893": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8286342843179588012",
+          "size": "1816632472",
+          "download": "1589749008"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20531253",
+        "timeupdated": "1761554652"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "16384000",
+    "maxnumfiles": "10",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Smallthing Studios/Simon the Sorcerer Origins",
+        "pattern": "*.dat",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Smallthing Studios/Simon the Sorcerer Origins",
+            "replace": "unity3d/Smallthing Studios/Simon the Sorcerer Origins"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Smallthing Studios/Simon the Sorcerer Origins",
+            "replace": "Smallthing Studios/Simon the Sorcerer Origins"
+          }
+        }
+      }
     }
   }
 }
