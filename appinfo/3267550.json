@@ -1,6 +1,5 @@
 {
   "appid": "3267550",
-  "public_only": "1",
   "common": {
     "name": "The Backrooms: Rescue Expedition",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "bcc5fe6d97c1386ecc4b37ad429f504327a95507",
     "clienticon": "e884ba79b1f5204fd1eb40c197bdb02310137fe6",
     "clienttga": "aad6812310c2cfff925d7900109400937b6f6853",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -77,7 +76,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760724480",
+    "store_asset_mtime": "1761534297",
     "associations": {
       "0": {
         "type": "developer",
@@ -157,9 +156,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760979750",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3267550",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -185,5 +185,63 @@
       "18": "1714",
       "19": "21"
     }
+  },
+  "extended": {
+    "developer": "{CRYTIME}",
+    "publisher": "{CRYTIME}"
+  },
+  "config": {
+    "installdir": "The Backrooms Rescue Expedition",
+    "launch": {
+      "0": {
+        "executable": "RescueExpedition.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3267551": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8694762053294621838",
+          "size": "8302554071",
+          "download": "7765599312"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20502363",
+        "timeupdated": "1761164062"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "999999",
+    "maxnumfiles": "99"
   }
 }
