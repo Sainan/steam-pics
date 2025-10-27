@@ -1,10 +1,9 @@
 {
   "appid": "3503720",
-  "public_only": "1",
   "common": {
     "name": "Letters of longing",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "78830a65a6ada9839e24acfde9624ed36c231eac",
     "clienttga": "a5fa72c4079a9d047d014985a05aa9477e714bc3",
     "linuxclienticon": "e500fc8f57962f9b9e1dda14d521c801dc6ab68b",
@@ -115,9 +114,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761580817",
     "community_hub_visible": "1",
     "gameid": "3503720",
-    "exfgls": "8",
     "store_tags": {
       "0": "3987",
       "1": "3834",
@@ -140,5 +139,58 @@
       "18": "5716",
       "19": "7250"
     }
+  },
+  "extended": {
+    "developer": "Happy Break Bones",
+    "publisher": "Happy Break Bones"
+  },
+  "config": {
+    "installdir": "Letters of longing",
+    "launch": {
+      "0": {
+        "executable": "LettersOfLongingWindows.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3503721": {
+      "manifests": {
+        "public": {
+          "gid": "3423699621715404527",
+          "size": "842721837",
+          "download": "590407984"
+        }
+      }
+    },
+    "3503722": {
+      "config": {
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20204846",
+        "timeupdated": "1759316625"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1"
   }
 }
