@@ -1,4 +1,132 @@
 {
   "appid": "4128190",
-  "public_only": "1"
+  "common": {
+    "name": "Blood &  Money Demo",
+    "type": "Demo",
+    "parent": "3921270",
+    "clienticon": "7851207eabc9d2e0db9ea52c7d711116e94a0820",
+    "icon": "7851207eabc9d2e0db9ea52c7d711116e94a0820",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "2",
+      "1": "5"
+    },
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "96850ad29301cc935c688a4ed83a8c3d9f20976d/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "cd524dc3be6d59164a08de03c6a3adcd8560bf9b/header.jpg"
+    },
+    "store_asset_mtime": "1761289982",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Paradise Multimedia"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Paradise Multimedia"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_44": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_60": "1",
+      "category_68": "1",
+      "category_75": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "gameid": "4128190",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "2",
+      "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Paradise Multimedia",
+    "publisher": "Paradise Multimedia"
+  },
+  "config": {
+    "installdir": "Blood & Money Demo",
+    "launch": {
+      "0": {
+        "executable": "Blood & Money - STEAM DEMO.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Blood & Money DEMO"
+        },
+        "description": "Blood & Money DEMO"
+      },
+      "1": {
+        "executable": "bmdemo-linux.AppImage",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Blood & Money DEMO"
+        },
+        "description": "Blood & Money DEMO"
+      }
+    }
+  },
+  "depots": {
+    "4128191": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1883804934007784951",
+          "size": "315654446",
+          "download": "182635696"
+        }
+      }
+    },
+    "4128192": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4096361009277932839",
+          "size": "187908205",
+          "download": "187633008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20544232",
+        "timeupdated": "1761432121"
+      }
+    }
+  }
 }
