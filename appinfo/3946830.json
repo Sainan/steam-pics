@@ -3,9 +3,9 @@
   "common": {
     "name": "Mourningwood Lodge",
     "type": "Game",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "64",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "icon": "d4c45fb123f1d0ad7a3083537b7cdd5ba618e5de",
     "clienttga": "d047d2e5ea3c6e0dbc8f2896c917f69cdbb2ad6e",
     "clienticon": "20cc3f5d45c7d3e4041a36580fd9c9d37989b4f2",
@@ -181,8 +181,8 @@
       "18": "599",
       "19": "3978"
     },
-    "review_score": "8",
-    "review_percentage": "80"
+    "review_score": "6",
+    "review_percentage": "78"
   },
   "extended": {
     "developer": "MYSTERY CROWN",
@@ -197,6 +197,14 @@
         "config": {
           "oslist": "windows",
           "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ohitf.app/Contents/MacOS/MourningwoodLodge",
+        "workingdir": "ohitf.app/Contents/MacOS",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
@@ -216,13 +224,49 @@
         }
       }
     },
+    "3946833": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3552527466065627997",
+          "size": "14079860579",
+          "download": "13982185104"
+        }
+      }
+    },
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "20103185",
-        "timeupdated": "1758687671"
+        "buildid": "20507999",
+        "timeupdated": "1761199534"
       }
     },
     "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MysteryCrown/ohitf/Steam",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "MysteryCrown/ohitf/Steam"
+      }
+    }
   }
 }
