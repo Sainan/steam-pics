@@ -1,10 +1,9 @@
 {
   "appid": "3383720",
-  "public_only": "1",
   "common": {
     "name": "Slumber Party",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -124,9 +123,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761600159",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3383720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -152,6 +152,54 @@
       "17": "492",
       "18": "1773",
       "19": "597"
+    }
+  },
+  "extended": {
+    "developer": "70BB",
+    "publisher": "70BB"
+  },
+  "config": {
+    "installdir": "Slumber Party",
+    "launch": {
+      "0": {
+        "executable": "SlumberParty.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3383721": {
+      "manifests": {
+        "public": {
+          "gid": "3625047164709533234",
+          "size": "11526311171",
+          "download": "4975577328"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20552308",
+        "timeupdated": "1761529686"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "90000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "70BB/SlumberParty",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
