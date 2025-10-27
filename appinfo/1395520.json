@@ -1,10 +1,9 @@
 {
   "appid": "1395520",
-  "public_only": "1",
   "common": {
     "name": "The Seance of Blake Manor",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "1814e935667a006a32849166b95fbf7ffa9c7da9",
     "logo_small": "1814e935667a006a32849166b95fbf7ffa9c7da9_thumb",
     "icon": "b7602bf81698c807ec8fbf228d174ca3304e5135",
@@ -174,9 +173,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761569793",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1395520",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -201,6 +201,141 @@
       "17": "6426",
       "18": "1667",
       "19": "1721"
+    }
+  },
+  "extended": {
+    "developer": "Spooky Doorway",
+    "publisher": "Raw Fury",
+    "homepage": "http://www.spookydoorway.com/"
+  },
+  "config": {
+    "installdir": "The Seance of Blake Manor",
+    "launch": {
+      "0": {
+        "executable": "The Seance of Blake Manor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor",
+        "type": "default",
+        "config": {
+          "oslist": "macos",
+          "betakey": "development"
+        }
+      },
+      "2": {
+        "executable": "The Seance of Blake Manor.x86_64",
+        "arguments": "-force-vulkan",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "3": {
+        "executable": "The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor",
+        "arguments": "-screen-quality \"Faster\" -screen-height 1080 -screen-width 1920",
+        "config": {
+          "betakey": "current"
+        },
+        "description_loc": {
+          "english": "Reduced Quality Mode"
+        },
+        "description": "Reduced Quality Mode"
+      },
+      "4": {
+        "executable": "The Seance of Blake Manor.exe",
+        "arguments": "-screen-quality \"Very Low\" -screen-height 1080 -screen-width 1920",
+        "config": {
+          "oslist": "windows",
+          "betakey": "current"
+        },
+        "description_loc": {
+          "english": "Laptop Mode"
+        },
+        "description": "Laptop Mode"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65524"
+  },
+  "depots": {
+    "1395521": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9101124992665427022",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "1395525": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4359123112541269428",
+          "size": "11149789413",
+          "download": "1349830368"
+        }
+      }
+    },
+    "1395526": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5225645535936641390",
+          "size": "11159796380",
+          "download": "1351864208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20548248",
+        "timeupdated": "1761562639"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "40",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Spooky Doorway/The Seance of Blake Manor",
+        "pattern": "*.savj",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Spooky Doorway/The Seance of Blake Manor",
+        "pattern": "SOBMOptions"
+      }
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Spooky Doorway/The Seance of Blake Manor",
+            "replace": ".config/unity3d/Spooky Doorway/The Seance of Blake Manor"
+          }
+        }
+      }
     }
   }
 }
