@@ -1,13 +1,12 @@
 {
   "appid": "4074410",
-  "public_only": "1",
   "common": {
     "name": "Kindling Demo",
     "type": "Demo",
     "parent": "3961820",
     "clienticon": "68a0a1ed1f309487c4dd85fa7096824b59cffcd3",
     "icon": "68a0a1ed1f309487c4dd85fa7096824b59cffcd3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macosapplesilicon",
@@ -124,10 +123,76 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761558750",
     "gameid": "4074410",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
     }
+  },
+  "extended": {
+    "developer": "Talonbyte Games",
+    "publisher": "Talonbyte Games",
+    "homepage": "https://press.talonbyte.gg/"
+  },
+  "config": {
+    "installdir": "Kindling Demo",
+    "launch": {
+      "0": {
+        "executable": "Kindling Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Kindling.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4074412": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4750029469464790595",
+          "size": "1435622672",
+          "download": "646883232"
+        }
+      }
+    },
+    "4074413": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "419775622857267079",
+          "size": "1594714572",
+          "download": "691941488"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20556139",
+        "timeupdated": "1761558236"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "50"
   }
 }
