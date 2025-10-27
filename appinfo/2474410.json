@@ -1,0 +1,162 @@
+{
+  "appid": "2474410",
+  "common": {
+    "name": "Wrangler Demo",
+    "type": "Demo",
+    "parent": "2474290",
+    "icon": "e396454d9b77591166f2637459040590eaaf6b73",
+    "clienticon": "7bcfa59fada9c51427928ce8ea519033c1e0747c",
+    "clienttga": "41c25df4d2232b423fe10d5fab1bdffcbf5dba86",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "content_descriptors": {
+      "0": "1",
+      "1": "3",
+      "2": "4",
+      "3": "5"
+    },
+    "restricted_countries": "CN,DE,SA",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1686803687",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "desiran, LLC"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "desiran, LLC"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1687969034",
+    "gameid": "2474410",
+    "exfgls": "6",
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "3",
+      "2": "4",
+      "3": "5"
+    }
+  },
+  "extended": {
+    "developer": "desiran, LLC",
+    "publisher": "desiran, LLC"
+  },
+  "config": {
+    "installdir": "Wrangler Demo",
+    "launch": {
+      "0": {
+        "executable": "Wrangler.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Wrangler.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2474411": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5696284267587320064",
+          "size": "251462631",
+          "download": "130302032"
+        }
+      }
+    },
+    "2474412": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7825727762411242318",
+          "size": "244839329",
+          "download": "127381504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "13119703",
+        "timeupdated": "1704821513"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000",
+    "maxnumfiles": "2",
+    "appidredirect": "2474290",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".local/share/Wrangler/",
+        "pattern": "*.savefile",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Wrangler/",
+        "pattern": "*.savefile",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}
