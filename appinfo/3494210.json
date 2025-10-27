@@ -1,6 +1,5 @@
 {
   "appid": "3494210",
-  "public_only": "1",
   "common": {
     "name": "Choo Choo Survivor 2",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -130,9 +129,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761551678",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3494210",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -157,6 +157,99 @@
       "17": "1708",
       "18": "4342",
       "19": "1667"
+    }
+  },
+  "extended": {
+    "developer": "GTGD",
+    "publisher": "GTGD",
+    "homepage": "https://www.gamertogamedeveloper.com/"
+  },
+  "config": {
+    "installdir": "Choo Choo Survivor 2",
+    "launch": {
+      "0": {
+        "executable": "Choo Choo Survivor 2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Choo Choo Survivor 2.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3494211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5377290944104371701",
+          "size": "945111185",
+          "download": "77352160"
+        }
+      }
+    },
+    "3494212": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5075248120573262124",
+          "size": "961797461",
+          "download": "85419664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20554204",
+        "timeupdated": "1761545400"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Gamer To Game Developer/Choo Choo Survivor 2",
+        "pattern": "*.es3"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Gamer To Game Developer/Choo Choo Survivor 2",
+            "replace": "Gamer To Game Developer/Choo Choo Survivor 2"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Gamer To Game Developer/Choo Choo Survivor 2",
+            "replace": ".config/unity3d/Gamer To Game Developer/Choo Choo Survivor 2"
+          }
+        }
+      }
     }
   }
 }
