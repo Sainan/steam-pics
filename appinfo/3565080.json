@@ -1,6 +1,5 @@
 {
   "appid": "3565080",
-  "public_only": "1",
   "common": {
     "name": "Cyber Rats",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e9fe2d01e069726e53b8fa575b3148818abfb3a3",
     "clienttga": "52f9fac1729657a46f3bb3e8dd4b07dd2d4e52df",
     "clienticon": "e553efd1b1c29289f841ff4b549621c726d9a935",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -111,9 +110,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761576947",
     "community_hub_visible": "1",
     "gameid": "3565080",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -134,6 +133,53 @@
       "12": "4115",
       "13": "4342",
       "14": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Outpost Games",
+    "publisher": "Outpost Games"
+  },
+  "config": {
+    "installdir": "Cyber Rats",
+    "launch": {
+      "0": {
+        "executable": "Cyber Rats.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3565081": {
+      "manifests": {
+        "public": {
+          "gid": "2403536511860402410",
+          "size": "590496407",
+          "download": "446529568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20544437",
+        "timeupdated": "1761434871"
+      }
     }
   }
 }
