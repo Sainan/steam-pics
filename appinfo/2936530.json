@@ -1,10 +1,9 @@
 {
   "appid": "2936530",
-  "public_only": "1",
   "common": {
     "name": "Science Skaters",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -149,9 +148,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761560765",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2936530",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "4106",
@@ -174,5 +174,82 @@
       "18": "5537",
       "19": "7250"
     }
+  },
+  "extended": {
+    "developer": "Didactoons",
+    "publisher": "Artax Games"
+  },
+  "config": {
+    "installdir": "Science Skaters",
+    "launch": {
+      "0": {
+        "executable": "Science Skaters.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Contents/MacOS/Science Skaters",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Science Skaters.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2936531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7038996452110997200",
+          "size": "679907088",
+          "download": "70996096"
+        }
+      }
+    },
+    "2936532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4355906857673385298",
+          "size": "674231201",
+          "download": "74976160"
+        }
+      }
+    },
+    "2936533": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2803840207643695466",
+          "size": "719306945",
+          "download": "82279872"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,russian,japanese,portuguese",
+    "branches": {
+      "public": {
+        "buildid": "19957308",
+        "timeupdated": "1757679727"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "500"
   }
 }
