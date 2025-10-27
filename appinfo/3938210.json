@@ -1,6 +1,5 @@
 {
   "appid": "3938210",
-  "public_only": "1",
   "common": {
     "name": "Mindfall: Song of the Echo",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -105,7 +104,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3938210",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -118,6 +116,46 @@
       "5": "4325",
       "6": "6691",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Luke De Salvo",
+    "publisher": "Luke De Salvo",
+    "homepage": "https://www.lukedesalvo.com"
+  },
+  "config": {
+    "installdir": "Mindfall SotE",
+    "launch": {
+      "0": {
+        "executable": "Mindfall SotE\\game.exe.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Mindfall: Song of the Echo"
+        },
+        "description": "Mindfall: Song of the Echo"
+      }
+    }
+  },
+  "depots": {
+    "3938218": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5330578666688351816",
+          "size": "388159733",
+          "download": "265790832"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20488925",
+        "timeupdated": "1761093195"
+      }
     }
   }
 }
