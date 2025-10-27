@@ -1,6 +1,5 @@
 {
   "appid": "4036740",
-  "public_only": "1",
   "common": {
     "name": "Edge",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d937baec2ab51f0f23d9a2e2adc4c48d8d69a569/capsule_231x87.jpg"
@@ -134,9 +133,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761566607",
     "community_hub_visible": "1",
     "gameid": "4036740",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "599",
@@ -156,6 +155,61 @@
       "15": "1742",
       "16": "7250",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "TEStudio",
+    "publisher": "TEStudio"
+  },
+  "config": {
+    "installdir": "EVA",
+    "launch": {
+      "0": {
+        "executable": "Edge.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4036741": {
+      "manifests": {
+        "public": {
+          "gid": "7797182924307421003",
+          "size": "13403352062",
+          "download": "13029675936"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20557690",
+        "timeupdated": "1761566323"
+      }
     }
   }
 }
