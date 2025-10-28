@@ -1,10 +1,9 @@
 {
   "appid": "1059110",
-  "public_only": "1",
   "common": {
     "name": "Superball",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "457f14d744b9a86cc6671df76c69e53738746e95",
     "logo": "4a202c1cebfb9cf791140d7a1a12c975814c53ae",
     "logo_small": "4a202c1cebfb9cf791140d7a1a12c975814c53ae_thumb",
@@ -166,6 +165,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761674368",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1059110",
     "exfgls": "3",
@@ -190,6 +191,70 @@
       "17": "19",
       "18": "4252",
       "19": "1718"
+    }
+  },
+  "extended": {
+    "developer": "Pathea Games",
+    "publisher": "Logoi Games",
+    "homepage": "https://sbt.patheagames.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Superball",
+    "launch": {
+      "3": {
+        "executable": "SUPERBALL.exe",
+        "arguments": "-platform=Steam",
+        "type": "default",
+        "description_loc": {
+          "english": "Superball default",
+          "schinese": "超级巴基球默认"
+        },
+        "description": "Superball default"
+      }
+    },
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "7"
+  },
+  "depots": {
+    "1059111": {
+      "manifests": {
+        "public": {
+          "gid": "4800039903043177807",
+          "size": "11150006084",
+          "download": "9481888688"
+        }
+      }
+    },
+    "1472230": {
+      "dlcappid": "1472230"
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20553230",
+        "timeupdated": "1761542904"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "40",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "SBT/SingleGameSave_steam/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
