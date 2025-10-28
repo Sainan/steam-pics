@@ -1,6 +1,5 @@
 {
   "appid": "3868490",
-  "public_only": "1",
   "common": {
     "name": "Marshals of Yore",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "c25b993afdc70ae21a358ebd9d05d1672273fc82",
     "clienticon": "82de23f5fb7a6ab3ae825a4b18de3343d1145f1e",
     "clienttga": "64f5788b0a9ebad157282404917c6803b9f79fd2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -108,9 +107,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761187794",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3868490",
-    "exfgls": "8",
     "store_tags": {
       "0": "1676",
       "1": "1645",
@@ -131,6 +131,65 @@
       "16": "791774",
       "17": "8945",
       "18": "6276"
+    }
+  },
+  "extended": {
+    "developer": "One Man Horde",
+    "publisher": "One Man Horde"
+  },
+  "config": {
+    "installdir": "Marshals of Yore",
+    "launch": {
+      "0": {
+        "executable": "Marshals of Yore.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3868491": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "489899375541244514",
+          "size": "466582948",
+          "download": "314308000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20579458",
+        "timeupdated": "1761680980"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "MarshalsofYore\\User Data\\Default\\IndexedDB\\chrome-extension_khddkfnnjniaifoeefjiliacneeioaii_0.indexeddb.leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "MarshalsofYore\\User Data\\Default\\Local Storage\\leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
