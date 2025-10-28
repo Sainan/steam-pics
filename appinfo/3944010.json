@@ -1,6 +1,5 @@
 {
   "appid": "3944010",
-  "public_only": "1",
   "common": {
     "name": "Mindscorn",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -109,9 +108,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3944010",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -138,5 +137,46 @@
       "18": "6730",
       "19": "8945"
     }
+  },
+  "extended": {
+    "developer": "Mystic Craftz",
+    "publisher": "Mystic Craftz"
+  },
+  "config": {
+    "installdir": "Mindscorn",
+    "launch": {
+      "0": {
+        "executable": "Mindscorn.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Mindscorn"
+        },
+        "description": "Play Mindscorn"
+      }
+    }
+  },
+  "depots": {
+    "3944011": {
+      "manifests": {
+        "public": {
+          "gid": "705088198121189516",
+          "size": "328351465",
+          "download": "103600176"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20577971",
+        "timeupdated": "1761673595"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
