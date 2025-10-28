@@ -149,7 +149,7 @@
       "19": "22602"
     },
     "review_score": "7",
-    "review_percentage": "100"
+    "review_percentage": "97"
   },
   "extended": {
     "developer": "Mango Leaf Games",
@@ -160,7 +160,7 @@
     "installdir": "Kokoro Kitchen",
     "launch": {
       "0": {
-        "executable": "Kokoro Kitchen_Updated Launch Version_1.0.2\\Kokoro Kitchen.exe",
+        "executable": "Kokoro Kitchen_1.0.3.1_Updated Launch Version\\Kokoro Kitchen.exe",
         "config": {
           "oslist": "windows"
         }
@@ -180,9 +180,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "3615639071881343511",
-          "size": "3127311770",
-          "download": "313404432"
+          "gid": "7289233639343848270",
+          "size": "3127246330",
+          "download": "313380592"
         }
       }
     },
@@ -192,23 +192,109 @@
       },
       "manifests": {
         "public": {
-          "gid": "9071023222459896030",
-          "size": "3151352311",
-          "download": "325887552"
+          "gid": "5197867020895774818",
+          "size": "3151286855",
+          "download": "325863248"
         }
       }
     },
     "baselanguages": "english,schinese,japanese",
     "branches": {
       "public": {
-        "buildid": "20441778",
-        "timeupdated": "1760735574"
+        "buildid": "20502432",
+        "timeupdated": "1761164698"
       }
     }
   },
   "ufs": {
     "quota": "104857600",
     "maxnumfiles": "100",
-    "sync_while_suspended": "1"
+    "sync_while_suspended": "1",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "SteamCloudDocuments",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      },
+      "2": {
+        "root": "WinMyDocuments",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "4": {
+        "root": "WinAppDataLocalLow",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "5": {
+        "root": "WinAppDataRoaming",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "6": {
+        "root": "WinSavedGames",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "7": {
+        "root": "WindowsHome",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "8": {
+        "root": "MacHome",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "9": {
+        "root": "MacAppSupport",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      },
+      "10": {
+        "root": "MacDocuments",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
+    }
   }
 }
