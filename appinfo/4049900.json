@@ -1,6 +1,5 @@
 {
   "appid": "4049900",
-  "public_only": "1",
   "common": {
     "name": "Faded Forest",
     "type": "Game",
@@ -17,7 +16,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f8f5dc14b5e99bc9fa705437bbdafc4c7662f539/capsule_231x87.jpg"
@@ -136,9 +135,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761627907",
     "community_hub_visible": "1",
     "gameid": "4049900",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1667",
@@ -160,6 +159,49 @@
       "17": "1676",
       "18": "3839",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "HobakGrove",
+    "publisher": "HobakGrove"
+  },
+  "config": {
+    "installdir": "FadedForest",
+    "launch": {
+      "0": {
+        "executable": "fadedforest.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4049901": {
+      "manifests": {
+        "public": {
+          "gid": "4513727105246505101",
+          "size": "1794280558",
+          "download": "1618537232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20282501",
+        "timeupdated": "1759824298"
+      }
     }
   }
 }
