@@ -1,6 +1,5 @@
 {
   "appid": "4049620",
-  "public_only": "1",
   "common": {
     "name": "Weasel Wes's Cycling Simulator",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "82d4ca2e9a63f31e77586fe1cf22228c3236f47e/capsule_231x87.jpg"
@@ -86,7 +85,8 @@
     },
     "primary_genre": "28",
     "genres": {
-      "0": "28"
+      "0": "28",
+      "1": "70"
     },
     "category": {
       "category_2": "1",
@@ -99,7 +99,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4049620",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "19568",
@@ -110,9 +109,54 @@
       "6": "5379",
       "7": "6815",
       "8": "3968",
-      "9": "8122",
-      "10": "1100687",
-      "11": "5900"
+      "9": "493",
+      "10": "8122",
+      "11": "1100687",
+      "12": "5900"
+    }
+  },
+  "extended": {
+    "developer": "PzenQ",
+    "publisher": "PzenQ",
+    "homepage": "https://weaselwes.ca"
+  },
+  "config": {
+    "installdir": "Weasel Wes's Cycling Simulator",
+    "launch": {
+      "0": {
+        "executable": "WeaselWesCyclingSimulator\\weaselwescyclingsimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launches Weasel Wes's Cycling Simulator"
+        },
+        "description": "Launches Weasel Wes's Cycling Simulator"
+      }
+    }
+  },
+  "depots": {
+    "4049621": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3415712604866538606",
+          "size": "320649358",
+          "download": "114913456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20567016",
+        "timeupdated": "1761614620"
+      }
     }
   }
 }
