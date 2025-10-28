@@ -1,10 +1,9 @@
 {
   "appid": "1598780",
-  "public_only": "1",
   "common": {
     "name": "Silly Polly Beast",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "abd639f427232c85baba0b8de69b47dd714b418f",
     "logo_small": "abd639f427232c85baba0b8de69b47dd714b418f_thumb",
     "icon": "983d92508118703b60c6f9a6424beb9545bffbda",
@@ -156,9 +155,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761663623",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1598780",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -184,6 +184,88 @@
       "17": "4166",
       "18": "1667",
       "19": "4345"
+    }
+  },
+  "extended": {
+    "developer": "Andrei Chernyshov",
+    "publisher": "Top Hat Studios, Inc."
+  },
+  "config": {
+    "installdir": "Silly Polly Beast",
+    "launch": {
+      "0": {
+        "executable": "Silly Polly Beast.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Silly Polly Beast.x86_64",
+        "arguments": "-screen-fullscreen 0",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1598781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6244271644999325962",
+          "size": "4255270959",
+          "download": "1712469088"
+        }
+      }
+    },
+    "1598782": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3410090749727811762",
+          "size": "1299483268",
+          "download": "486053872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20562931",
+        "timeupdated": "1761602805"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Andrei Chernyshov/Silly Polly Beast",
+        "pattern": "*.spb"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Andrei Chernyshov/Silly Polly Beast",
+            "replace": "Andrei Chernyshov/Silly Polly Beast"
+          }
+        }
+      }
     }
   }
 }
