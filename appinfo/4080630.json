@@ -1,6 +1,5 @@
 {
   "appid": "4080630",
-  "public_only": "1",
   "common": {
     "name": "MALMIJAL - Modeling",
     "type": "Application",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "cd0729c16422b6285164300bec483e7541ecaa32",
     "icon": "72ced813e0ec7e2a8aa2905ee823cd35b61a46ac",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "34d7be890d505bfa91367d012387ae5e7a44ad5f/capsule_231x87.jpg"
@@ -98,6 +97,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761031569",
     "community_hub_visible": "1",
     "gameid": "4080630",
     "exfgls": "6",
@@ -106,6 +106,50 @@
       "1": "872",
       "2": "1036",
       "3": "1445"
+    }
+  },
+  "extended": {
+    "developer": "PANAX SYSTEM Co., Ltd.",
+    "publisher": "PANAX SYSTEM Co., Ltd.",
+    "homepage": "https://www.mmjal.com/"
+  },
+  "config": {
+    "installdir": "MALMIJAL - Modeling",
+    "launch": {
+      "0": {
+        "executable": "Malmijal-M.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "Malmijal-M-beta.exe"
+        }
+      }
+    }
+  },
+  "depots": {
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4080631": {
+      "manifests": {
+        "public": {
+          "gid": "1917349914750098200",
+          "size": "192124853",
+          "download": "118186928"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "20430107",
+        "timeupdated": "1760679355"
+      }
     }
   }
 }
