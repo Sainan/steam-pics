@@ -1,6 +1,5 @@
 {
   "appid": "4115600",
-  "public_only": "1",
   "common": {
     "name": "恐怖地牢 Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -96,6 +95,61 @@
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "XUZHIHAO",
+    "publisher": "XUZHIHAO"
+  },
+  "config": {
+    "installdir": "恐怖地牢 Demo",
+    "launch": {
+      "0": {
+        "executable": "HorrorDungeonDemo\\GameA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4115601": {
+      "manifests": {
+        "public": {
+          "gid": "4457475600475137428",
+          "size": "1102700078",
+          "download": "955371120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20570591",
+        "timeupdated": "1761639674"
+      }
     }
   }
 }
