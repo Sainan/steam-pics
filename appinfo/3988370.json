@@ -1,6 +1,5 @@
 {
   "appid": "3988370",
-  "public_only": "1",
   "common": {
     "name": "Rise & Pop!",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "icon": "a869b93c9026ab8d9391d05f79e320e897979738",
     "clienticon": "a869b93c9026ab8d9391d05f79e320e897979738",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -235,9 +234,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761617870",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3988370",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "615955",
@@ -250,6 +250,70 @@
       "8": "3964",
       "9": "492",
       "10": "3968"
+    }
+  },
+  "extended": {
+    "developer": "HyperstasisGaming",
+    "publisher": "HyperstasisGaming"
+  },
+  "config": {
+    "installdir": "Rise & Pop!",
+    "launch": {
+      "0": {
+        "executable": "Rise & Pop!\\Rise & Pop!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3988371": {
+      "manifests": {
+        "public": {
+          "gid": "5705302708736909974",
+          "size": "200215806",
+          "download": "83184176"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,hungarian,czech,turkish,brazilian,ukrainian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20556578",
+        "timeupdated": "1761560602"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "HyperstasisGaming\\Rise & Pop!",
+        "pattern": "*.sd",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
