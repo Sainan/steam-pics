@@ -1,6 +1,5 @@
 {
   "appid": "4021400",
-  "public_only": "1",
   "common": {
     "name": "Can't Stop Running Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,5 +110,41 @@
     },
     "gameid": "4021400",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "LY Studios",
+    "publisher": "LY Studios"
+  },
+  "config": {
+    "installdir": "Can't Stop Running Demo",
+    "launch": {
+      "0": {
+        "executable": "Can´t Stop Running.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4021401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "348681648561152149",
+          "size": "125684344",
+          "download": "46449920"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20350165",
+        "timeupdated": "1760188750"
+      }
+    }
   }
 }
