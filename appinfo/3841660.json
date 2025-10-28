@@ -1,10 +1,9 @@
 {
   "appid": "3841660",
-  "public_only": "1",
   "common": {
     "name": "Box Bunny",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "12239196de3e4c7c000efb420a77cacad79ae965",
     "clienticns": "12239196de3e4c7c000efb420a77cacad79ae965",
     "linuxclienticon": "12239196de3e4c7c000efb420a77cacad79ae965",
@@ -97,8 +96,7 @@
       "category_68": "1",
       "category_75": "1",
       "category_79": "1",
-      "category_23": "1",
-      "category_62": "1"
+      "category_23": "1"
     },
     "supported_languages": {
       "koreana": {
@@ -127,6 +125,51 @@
       "15": "30358",
       "16": "3993",
       "17": "3955"
+    }
+  },
+  "extended": {
+    "developer": "Mormotte",
+    "publisher": "Mormotte",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Project_SP",
+    "launch": {
+      "0": {
+        "executable": "ProjectSP.exe"
+      }
+    }
+  },
+  "depots": {
+    "3841661": {
+      "manifests": {
+        "public": {
+          "gid": "2382626537841072585",
+          "size": "339760419",
+          "download": "57703984"
+        }
+      }
+    },
+    "3841662": {},
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20218302",
+        "timeupdated": "1759389066"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
