@@ -1,12 +1,11 @@
 {
   "appid": "3999440",
-  "public_only": "1",
   "common": {
     "name": "The Erased Student",
     "type": "Game",
     "icon": "7b2f660d7fcd808f3a6c2430cd1679c39445e1cf",
     "clienticon": "7b2f660d7fcd808f3a6c2430cd1679c39445e1cf",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,9 +100,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761680362",
     "community_hub_visible": "1",
     "gameid": "3999440",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1664",
@@ -115,6 +114,60 @@
       "7": "492",
       "8": "4345",
       "9": "1721"
+    }
+  },
+  "extended": {
+    "developer": "VimmGames",
+    "publisher": "VimmGames",
+    "homepage": "https://store.steampowered.com/app/3905340/No_forgiveness/"
+  },
+  "config": {
+    "installdir": "The Erased Student",
+    "launch": {
+      "0": {
+        "executable": "FP_Horror.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3999441": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "597864394079488119",
+          "size": "5532846325",
+          "download": "5322097632"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20576174",
+        "timeupdated": "1761665710"
+      }
     }
   }
 }
