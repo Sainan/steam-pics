@@ -1,13 +1,12 @@
 {
   "appid": "3582440",
-  "public_only": "1",
   "common": {
     "name": "DSS 2: War Industry",
     "type": "Game",
     "icon": "8619114f62da14e0193687f2d3f47399cc003ff4",
     "clienttga": "a69a16e4c2355ba92c2dc28a5faf397c2b2eebe6",
     "clienticon": "8619114f62da14e0193687f2d3f47399cc003ff4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -155,9 +154,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761670625",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3582440",
-    "exfgls": "8",
     "store_tags": {
       "0": "4684",
       "1": "4328",
@@ -179,6 +179,76 @@
       "17": "3859",
       "18": "4182",
       "19": "7368"
+    }
+  },
+  "extended": {
+    "developer": "vikingfabian",
+    "publisher": "vikingfabian",
+    "homepage": "http://vikingfabian.com/"
+  },
+  "config": {
+    "installdir": "DSS 2 War Industry",
+    "launch": {
+      "0": {
+        "executable": "VikingEngine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3582441": {
+      "manifests": {
+        "public": {
+          "gid": "8026528928097472386",
+          "size": "2354109003",
+          "download": "1593543776"
+        },
+        "beta_test": {
+          "gid": "8026528928097472386",
+          "size": "2354109003",
+          "download": "1593543776"
+        },
+        "experimental": {
+          "gid": "8026528928097472386",
+          "size": "2354109003",
+          "download": "1593543776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20496908",
+        "timeupdated": "1761139442"
+      },
+      "beta_test": {
+        "buildid": "20496908",
+        "description": "Test upcoming features. English only. Saves may corrupt. Higher chance of crashes.",
+        "timeupdated": "1761418793"
+      },
+      "experimental": {
+        "buildid": "20496908",
+        "description": "Only use when instructed",
+        "timeupdated": "1761469869"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000000",
+    "maxnumfiles": "40",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "My Games/DSS_war_storage",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
