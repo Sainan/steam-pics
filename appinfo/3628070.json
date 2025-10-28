@@ -8,7 +8,7 @@
     "osextended": "",
     "clienttga": "8a831f8537a7b704e3b6b284643ee8be05e80621",
     "clienticon": "00e24913356158d9f2a7310bfed202205c8dd683",
-    "clienticns": "00e24913356158d9f2a7310bfed202205c8dd683",
+    "clienticns": "e98abc37153790312d4b71cb9046d27683ceeb64",
     "icon": "d60744da7654dd8fbcf5879f603e54b87e29a6f8",
     "name_localized": {
       "english": "XFlight: FPV Drone Simulator",
@@ -174,6 +174,13 @@
           "oslist": "windows",
           "osarch": "64"
         }
+      },
+      "1": {
+        "executable": "XGame.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
@@ -193,12 +200,20 @@
       "sharedinstall": "1"
     },
     "3628071": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "5168854337087614658",
           "size": "4707459492",
           "download": "4270631328"
         }
+      }
+    },
+    "3628072": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "hasdepotsindlc": "0",
@@ -228,6 +243,14 @@
         "pattern": "*.ini",
         "platforms": {
           "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "MacAppSupport",
+        "path": "Epic\\XGame\\Saved\\SaveGames\\Steam",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
         }
       }
     }
