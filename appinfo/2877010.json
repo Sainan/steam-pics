@@ -1,6 +1,5 @@
 {
   "appid": "2877010",
-  "public_only": "1",
   "common": {
     "name": "Einherjar's Ascent",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3bd68840c92c5c9ffa1be135e253b98d6f48e9d8/capsule_231x87.jpg"
@@ -102,9 +101,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761670111",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2877010",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -126,6 +126,39 @@
       "17": "3993",
       "18": "4172",
       "19": "1646"
+    }
+  },
+  "extended": {
+    "developer": "Andrew Skillett",
+    "publisher": "Andrew Skillett"
+  },
+  "config": {
+    "installdir": "Einherjar's Ascent",
+    "launch": {
+      "0": {
+        "executable": "EinherjarsAscent.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2877011": {
+      "manifests": {
+        "public": {
+          "gid": "6568477463629591660",
+          "size": "370392111",
+          "download": "103726272"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20546159",
+        "timeupdated": "1761460921"
+      }
     }
   }
 }
