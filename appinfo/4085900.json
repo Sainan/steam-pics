@@ -1,6 +1,5 @@
 {
   "appid": "4085900",
-  "public_only": "1",
   "common": {
     "name": "9 To Ashes",
     "type": "Game",
@@ -9,9 +8,8 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
-    "controller_support": "partial",
     "small_capsule": {
       "english": "0b7635d0be9515704c87f06b2c93281e5d43fff7/capsule_231x87.jpg"
     },
@@ -92,7 +90,6 @@
     },
     "category": {
       "category_2": "1",
-      "category_18": "1",
       "category_68": "1",
       "category_71": "1",
       "category_62": "1"
@@ -106,7 +103,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4085900",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "1664",
@@ -127,6 +123,58 @@
       "16": "4342",
       "17": "10808",
       "18": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Noctavera Creative Works",
+    "publisher": "Noctavera Creative Works",
+    "gamemanualurl": "https://store.steampowered.com/manual/4085900/"
+  },
+  "config": {
+    "installdir": "WindowsNoEditor",
+    "launch": {
+      "0": {
+        "executable": "NineToAshes.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4085901": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2908293031559148167",
+          "size": "1488232311",
+          "download": "1378593216"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20327818",
+        "timeupdated": "1760049154"
+      }
     }
   }
 }
