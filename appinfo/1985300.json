@@ -1,6 +1,5 @@
 {
   "appid": "1985300",
-  "public_only": "1",
   "common": {
     "name": "SIR ABANDON",
     "type": "Game",
@@ -18,7 +17,7 @@
         "version": "2"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "french": "1"
@@ -143,9 +142,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1985300",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4231",
@@ -167,6 +166,82 @@
       "17": "3871",
       "18": "4085",
       "19": "1751"
+    }
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=1985300",
+    "developer": "Retro-Role-Playing-Game",
+    "publisher": "RRPG2022"
+  },
+  "config": {
+    "installdir": "SIR ABANDON",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "/win64/sirabandon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1985301": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8983369512958297513",
+          "size": "619051257",
+          "download": "418983968"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english,german,french,italian,portuguese,latam",
+    "branches": {
+      "public": {
+        "buildid": "20566065",
+        "timeupdated": "1761608532"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000",
+    "maxnumfiles": "500",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
