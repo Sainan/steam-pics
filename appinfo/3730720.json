@@ -1,6 +1,5 @@
 {
   "appid": "3730720",
-  "public_only": "1",
   "common": {
     "name": "Chains on Sand",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "cf27e8fc7feaf0072ea87c0c7f7b96130f19463c",
     "clienttga": "ced0b8c0ec4336bd843cfe3a8051c8541c719a9d",
     "clienticon": "396f8d37ba9dd6c42dc40a46bcc5e4f89bbdac47",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761670824",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3730720",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,6 +140,80 @@
       "17": "122",
       "18": "4057",
       "19": "1708"
+    }
+  },
+  "extended": {
+    "developer": "Tabula Forge",
+    "publisher": "Tabula Forge",
+    "homepage": "https://pumped-stranger-dec.notion.site/Chains-on-Sand-Press-Kit-27a467f38eef807bb528e3dce7d7d4d9"
+  },
+  "config": {
+    "installdir": "Chains on Sand",
+    "launch": {
+      "0": {
+        "executable": "Chains on Sand.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "3730721": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5218283073892785223",
+          "size": "1960303431",
+          "download": "571726000"
+        }
+      }
+    },
+    "3730722": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20574585",
+        "timeupdated": "1761659147"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "67108864",
+    "maxnumfiles": "6",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tabula Forge/Chains on Sand",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tabula Forge/Chains on Sand",
+        "pattern": "highscores.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "path": "Tabula Forge/Chains on Sand",
+        "pattern": "legacy_bosses.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
