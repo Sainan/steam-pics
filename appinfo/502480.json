@@ -1,0 +1,198 @@
+{
+  "appid": "502480",
+  "common": {
+    "name": "VoxVR",
+    "type": "Application",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1"
+    },
+    "playareavr": {
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      },
+      "seated": "1",
+      "standing": "1"
+    },
+    "oslist": "windows",
+    "logo": "ed0b3d2d4a09a6e6e2381c84d4aacb3d4da11578",
+    "logo_small": "ed0b3d2d4a09a6e6e2381c84d4aacb3d4da11578_thumb",
+    "icon": "cc23dd11231ec20217f3e31484392c76e5ab27cc",
+    "clienticon": "b7ac83222bb38158d4322d2985ed5b3e4975899d",
+    "clienttga": "013a827ed6be7e9f4d745b2a26be5bda4ee18516",
+    "clienticns": "a5665b4ef2f0ec0824a2c8a54c4bf5e548e48745",
+    "linuxclienticon": "08242fc0960882c4b1027715ce3bf367198bd7f6",
+    "eulas": {
+      "1": {
+        "id": "502480_eula_1",
+        "name": "VoxVR EULA 1",
+        "url": "http://store.steampowered.com//eula/502480_eula_1"
+      }
+    },
+    "releasestate": "released",
+    "osarch": "64",
+    "openvrsupport": "1",
+    "othervrsupport": "1",
+    "othervrsupport_rift_13": "1",
+    "metacritic_name": "VoxVR",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_210060458b44f51476a668721a85f72949ababeb.jpg",
+    "store_asset_mtime": "1526838124",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Broken Vector"
+      },
+      "1": {
+        "type": "developer",
+        "name": "Michael Lohr"
+      },
+      "2": {
+        "type": "developer",
+        "name": "Jack Dähn"
+      },
+      "3": {
+        "type": "developer",
+        "name": "Lars Grevsmühl"
+      },
+      "4": {
+        "type": "developer",
+        "name": "Nico Thomas"
+      },
+      "5": {
+        "type": "developer",
+        "name": "Robin Quint"
+      },
+      "6": {
+        "type": "publisher",
+        "name": "Broken Vector"
+      }
+    },
+    "primary_genre": "51",
+    "genres": {
+      "0": "51",
+      "1": "53",
+      "2": "57"
+    },
+    "category": {
+      "category_30": "1",
+      "category_23": "1",
+      "category_52": "1",
+      "category_54": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1508511420",
+    "workshop_visible": "1",
+    "community_hub_visible": "1",
+    "gameid": "502480",
+    "exfgls": "6",
+    "onlyvrsupport": "1",
+    "store_tags": {
+      "0": "872",
+      "1": "84",
+      "2": "87",
+      "3": "21978",
+      "4": "1732"
+    },
+    "review_score": "6",
+    "review_percentage": "78"
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "enablegameoverlayforapp": "1",
+    "developer": "Broken Vector",
+    "publisher": "Broken Vector",
+    "homepage": "https://www.brokenvector.com/voxvr/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "VoxVR",
+    "enablegameoverlayforapp": "1",
+    "launch": {
+      "2": {
+        "executable": "VoxVR.exe",
+        "arguments": "--vr=1",
+        "type": "othervr",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "3": {
+        "executable": "VoxVR.exe",
+        "arguments": "--vr=2",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "502482": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3229568372077233084",
+          "size": "122213386",
+          "download": "24248160"
+        },
+        "pre-release": {
+          "gid": "3229568372077233084",
+          "size": "122213386",
+          "download": "24248160"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "workshopdepot": "502480",
+    "branches": {
+      "public": {
+        "buildid": "2922024",
+        "timeupdated": "1530870160"
+      },
+      "pre-release": {
+        "buildid": "2922024",
+        "description": "public pre-release branch",
+        "timeupdated": "1530870152"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Broken Vector/VoxVR/Saves",
+        "pattern": "*.vxvr",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    }
+  }
+}
