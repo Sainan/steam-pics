@@ -1,0 +1,160 @@
+{
+  "appid": "1804370",
+  "common": {
+    "name": "Airball",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "logo": "cd4d59e8a1c24e0cfc571b15f81941a80ff946f7",
+    "logo_small": "cd4d59e8a1c24e0cfc571b15f81941a80ff946f7_thumb",
+    "clienticon": "7e4fa83c0d96e9dd836078ce64a53d23498b5c60",
+    "clienttga": "fa96fcdee44904c1da3b502ee83f23533686f5df",
+    "icon": "014c0c0ba13cfad31db606d4630ab891e6af5423",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "69.8846157347098"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "69.8846157347098"
+        }
+      }
+    },
+    "store_asset_mtime": "1636034338",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "MicroDeal Ltd."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Pixel Games UK"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "2"
+    },
+    "category": {
+      "category_2": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1637569812",
+    "community_hub_visible": "1",
+    "gameid": "1804370",
+    "store_tags": {
+      "0": "9",
+      "1": "19",
+      "2": "3834",
+      "3": "1664",
+      "4": "5851",
+      "5": "1710",
+      "6": "3964",
+      "7": "4305",
+      "8": "1684",
+      "9": "4004",
+      "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "MicroDeal Ltd.",
+    "publisher": "Pixel Games UK"
+  },
+  "config": {
+    "installdir": "Airball",
+    "launch": {
+      "0": {
+        "executable": "DOSBox.exe",
+        "arguments": "-conf airball.conf -noconsole",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "in original resolution"
+        },
+        "description": "in original resolution"
+      },
+      "1": {
+        "executable": "DOSBox.exe",
+        "arguments": "-conf airball720.conf -noconsole",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "in 720p resolution"
+        },
+        "description": "in 720p resolution"
+      },
+      "2": {
+        "executable": "DOSBox.exe",
+        "arguments": "-conf airball1080.conf -noconsole",
+        "type": "option3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "in 1080p resolution"
+        },
+        "description": "in 1080p resolution"
+      }
+    }
+  },
+  "depots": {
+    "1804371": {
+      "manifests": {
+        "public": {
+          "gid": "2612193467932270482",
+          "size": "4554141",
+          "download": "1486784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "7657114",
+        "timeupdated": "1636034229"
+      }
+    }
+  }
+}
