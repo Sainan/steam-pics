@@ -1,6 +1,5 @@
 {
   "appid": "3714180",
-  "public_only": "1",
   "common": {
     "name": "Cropia",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "3f20687771c13f87cd890ee80df7ff1f90454349",
     "clienticon": "3f20687771c13f87cd890ee80df7ff1f90454349",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -205,9 +204,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761639378",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3714180",
-    "exfgls": "8",
     "store_tags": {
       "0": "87918",
       "1": "10235",
@@ -229,6 +229,51 @@
       "17": "8945",
       "18": "4182",
       "19": "4747"
+    }
+  },
+  "extended": {
+    "developer": "Cropstone Studio",
+    "publisher": "Cropstone Studio"
+  },
+  "config": {
+    "installdir": "Cropia",
+    "launch": {
+      "0": {
+        "executable": "Cropia.exe"
+      }
+    }
+  },
+  "depots": {
+    "3714181": {
+      "manifests": {
+        "public": {
+          "gid": "6932547112443166741",
+          "size": "5290826677",
+          "download": "1780185376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20570377",
+        "timeupdated": "1761638511"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Cropstone Studio/Cropia",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
