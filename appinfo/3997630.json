@@ -1,12 +1,11 @@
 {
   "appid": "3997630",
-  "public_only": "1",
   "common": {
     "name": "Spartan Survivors",
     "type": "Game",
     "clienticon": "5a7f793bd5d9d40361f46668d193f5e859f0d330",
     "icon": "51b90a16e1c64083b3c15132f8e57859a0fd605d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -107,6 +106,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761655070",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3997630",
     "exfgls": "3",
@@ -131,6 +132,55 @@
       "17": "4004",
       "18": "6730",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Bathrobe",
+    "publisher": "Bathrobe",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Spartan Survivors",
+    "launch": {
+      "0": {
+        "executable": "Spartan Survivors.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3997631": {
+      "manifests": {
+        "public": {
+          "gid": "4263106452305933025",
+          "size": "544739314",
+          "download": "170990704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20569403",
+        "timeupdated": "1761631381"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Bathrobe/Spartan Survivors",
+        "pattern": "*.ss",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
