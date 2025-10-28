@@ -1,6 +1,5 @@
 {
   "appid": "3982330",
-  "public_only": "1",
   "common": {
     "name": "The Swap",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "acff620d3941f71433cc11f14bec0f9c17f4b84e",
     "clienticon": "d1ae197c5bf0c3be79e6cb2f859f2c60743dea14",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,9 +102,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761665560",
     "community_hub_visible": "1",
     "gameid": "3982330",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -121,6 +120,58 @@
       "11": "1759",
       "12": "5154",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "IchoVeilStudios",
+    "publisher": "IchoVeilStudios"
+  },
+  "config": {
+    "installdir": "The Swap",
+    "launch": {
+      "0": {
+        "executable": "TheSwap.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3982331": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "583385781076632886",
+          "size": "598736011",
+          "download": "157767568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20463173",
+        "timeupdated": "1760960230"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "IchoVeilStudios/The Swap",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
