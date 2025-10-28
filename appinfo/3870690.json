@@ -202,6 +202,11 @@
         "path": ".config/Epic/Cronos/Saved/SaveGames/{64BitSteamID}",
         "pattern": "*.sav"
       },
+      "2": {
+        "root": "MacAppSupport",
+        "path": "Epic/Cronos/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav"
+      },
       "copied_from_parent": "1"
     },
     "rootoverrides": {
@@ -226,6 +231,30 @@
           "0": {
             "find": "Cronos/Saved/SaveGames/{64BitSteamID}",
             "replace": ".config/Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Cronos/Saved/SaveGames/{64BitSteamID}",
+            "replace": "Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
+          }
+        }
+      },
+      "3": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "pathtransforms": {
+          "0": {
+            "find": "Epic/Cronos/Saved/SaveGames/{64BitSteamID}",
+            "replace": "Cronos/Saved/SaveGames/{64BitSteamID}"
           }
         }
       }
