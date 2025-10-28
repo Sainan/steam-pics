@@ -1,10 +1,9 @@
 {
   "appid": "3841220",
-  "public_only": "1",
   "common": {
     "name": "Midnight Crane",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -115,9 +114,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761670818",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3841220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,6 +138,53 @@
       "13": "6691",
       "14": "4182",
       "15": "1742"
+    }
+  },
+  "extended": {
+    "developer": "Dekaizen Studios LLC",
+    "publisher": "Dekaizen Studios LLC"
+  },
+  "config": {
+    "installdir": "Midnight Crane",
+    "launch": {
+      "0": {
+        "executable": "MidnightCrane.exe",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3841221": {
+      "manifests": {
+        "public": {
+          "gid": "7203628457196883342",
+          "size": "2218619881",
+          "download": "1922585520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20565545",
+        "timeupdated": "1761605323"
+      }
     }
   }
 }
