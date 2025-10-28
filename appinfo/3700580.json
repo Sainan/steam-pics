@@ -1,10 +1,9 @@
 {
   "appid": "3700580",
-  "public_only": "1",
   "common": {
     "name": "Livber: Smoke and Mirrors",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d1ec8f148b4e6102bdac337e222467212d328cf2",
     "clienttga": "53b75a0e02926ae3db67e0ccd6a4282bd2bffe9a",
     "clienticon": "a4eae91daaa7bde829ea8527cb084b5607943ea6",
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761670842",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3700580",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -147,6 +147,105 @@
       "17": "4234",
       "18": "6815",
       "19": "1684"
+    }
+  },
+  "extended": {
+    "developer": "InEv Games",
+    "publisher": "InEv Games",
+    "homepage": "https://www.inevgames.com/"
+  },
+  "config": {
+    "installdir": "Livber Smoke and Mirros",
+    "launch": {
+      "0": {
+        "executable": "Build/LivberSmokeandMirrors.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Livber_Mac/Livber_Mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "LivberLinux/Livber.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3700584": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6600293568345853557",
+          "size": "370681810",
+          "download": "176643344"
+        }
+      }
+    },
+    "3700585": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8709263872637538684",
+          "size": "388074423",
+          "download": "184048544"
+        }
+      }
+    },
+    "3700586": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4399036857587922547",
+          "size": "367937066",
+          "download": "173402720"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20565188",
+        "timeupdated": "1761603119"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "3000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "InEvGames/LivberSmokeandMirrors/65",
+        "pattern": "*.months"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "InEvGames/LivberSmokeandMirrors/65",
+            "replace": "Library/Application Support/unity.InEvGames.LivberSmokeandMirrors/65"
+          }
+        }
+      }
     }
   }
 }
