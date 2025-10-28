@@ -1,6 +1,5 @@
 {
   "appid": "3953580",
-  "public_only": "1",
   "common": {
     "name": "Vendigo Corporation",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "19de1d1593886e95edaf8a7c4dd62cd24bcc2844/capsule_231x87.jpg"
@@ -126,7 +125,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3953580",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1721",
@@ -148,5 +146,58 @@
       "17": "19",
       "18": "4191"
     }
+  },
+  "extended": {
+    "developer": "Ametronix",
+    "publisher": "Ametronix"
+  },
+  "config": {
+    "installdir": "Vendigo",
+    "launch": {
+      "0": {
+        "executable": "Vendigo",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3953581": {
+      "manifests": {
+        "public": {
+          "gid": "7057908907271150375",
+          "size": "1910038750",
+          "download": "1756437968"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20564114",
+        "timeupdated": "1761597257"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
