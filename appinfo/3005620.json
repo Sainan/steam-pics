@@ -222,8 +222,8 @@
       "18": "4182",
       "19": "493"
     },
-    "review_score": "6",
-    "review_percentage": "79"
+    "review_score": "8",
+    "review_percentage": "81"
   },
   "extended": {
     "developer": "Children of Madness",
@@ -244,6 +244,12 @@
         "type": "default",
         "config": {
           "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "game.exe",
+        "config": {
+          "oslist": "macos"
         }
       }
     },
@@ -297,6 +303,11 @@
         }
       }
     },
+    "3005624": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
     "branches": {
       "public": {
         "buildid": "20176514",
@@ -307,8 +318,29 @@
   },
   "ufs": {
     "quota": "300000",
-    "maxnumfiles": "1",
+    "maxnumfiles": "10",
     "ignoreexternalfiles": "1",
-    "hidecloudui": "1"
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Children of Madness\\Drop Pockets",
+        "pattern": "*.ini"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Children of Madness\\Drop Pockets",
+            "replace": ".local\\share\\Children of Madness\\Drop Pockets"
+          }
+        }
+      }
+    }
   }
 }
