@@ -1,10 +1,9 @@
 {
   "appid": "1272290",
-  "public_only": "1",
   "common": {
     "name": "Space Chef",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "logo": "007878619620bc10dcba43164417247e612b5cb5",
     "logo_small": "007878619620bc10dcba43164417247e612b5cb5_thumb",
     "icon": "189f03eb8d80f0adda9646047e6fecdd0525e107",
@@ -88,7 +87,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759417406",
+    "store_asset_mtime": "1761643369",
     "associations": {
       "0": {
         "type": "developer",
@@ -131,9 +130,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761665891",
+    "steam_deck_blog_url": "https://steamcommunity.com/app/1272290/discussions/0/596289845781080036/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1272290",
-    "exfgls": "8",
     "store_tags": {
       "0": "4195",
       "1": "4305",
@@ -155,6 +156,58 @@
       "17": "1673",
       "18": "1695",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Blue Goo Games",
+    "publisher": "Kwalee"
+  },
+  "config": {
+    "installdir": "spacechef",
+    "launch": {
+      "0": {
+        "executable": "spacechef.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1272291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1443748397698477333",
+          "size": "5648498468",
+          "download": "424554736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20302098",
+        "timeupdated": "1761228945"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BlueGooGames/Space Chef/Saves/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
