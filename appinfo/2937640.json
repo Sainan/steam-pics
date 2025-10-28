@@ -1,16 +1,23 @@
 {
   "appid": "2937640",
-  "public_only": "1",
   "common": {
     "name": "Jötunn's Greed",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
     "clienticon": "be8c27c3cab52318a90594dd91010da4406026a2",
     "clienttga": "41c8de1fe9878ae1d66dd43867f365e3c4f6204f",
     "icon": "200b2f826073423323eb5aec31e0965af9053438",
+    "eulas": {
+      "0": {
+        "id": "2937640_eula_0",
+        "name": "Jötunn's Greed EULA",
+        "url": "https://store.steampowered.com//eula/2937640_eula_0",
+        "version": "1"
+      }
+    },
     "content_descriptors": {
       "0": "5"
     },
@@ -98,9 +105,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761658097",
     "community_hub_visible": "1",
     "gameid": "2937640",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -125,6 +132,55 @@
       "17": "7926",
       "18": "5363",
       "19": "8945"
+    }
+  },
+  "extended": {
+    "developer": "Fried Squid Games LLC",
+    "publisher": "Fried Squid Games LLC",
+    "homepage": "https://www.friedsquidgames.com"
+  },
+  "config": {
+    "installdir": "Jötunn's Greed",
+    "launch": {
+      "0": {
+        "executable": "JotunnsGreed.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2937641": {
+      "manifests": {
+        "public": {
+          "gid": "656986141112922461",
+          "size": "791407741",
+          "download": "617790096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20564445",
+        "timeupdated": "1761598739"
+      }
     }
   }
 }
