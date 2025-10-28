@@ -1,4 +1,143 @@
 {
   "appid": "4003230",
-  "public_only": "1"
+  "common": {
+    "name": "Salvage Unlimited Playtest",
+    "type": "Beta",
+    "parent": "3961130",
+    "releasestate": "released",
+    "clienticon": "ddac53f1da5b5169c13e74f64519e94d2ae9ac76",
+    "icon": "ddac53f1da5b5169c13e74f64519e94d2ae9ac76",
+    "oslist": "windows,linux",
+    "osarch": "64",
+    "osextended": "",
+    "small_capsule": {
+      "english": "0ed13f597555df647c1e89c3472cfc6d37079c7c/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "746b698ab65b9ab09b2f578c356e64bea519ac25/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "56.71355498721227",
+        "height_pct": "85.76388888888891"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "76b29ed5ab403bcbe848be1ce1b618e19f6a5505/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "76b29ed5ab403bcbe848be1ce1b618e19f6a5505/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "d7575d79a6fe31c9bac3e1101e164870fa4e1b7e/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "d7575d79a6fe31c9bac3e1101e164870fa4e1b7e/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "d7575d79a6fe31c9bac3e1101e164870fa4e1b7e/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "b3dbdb65150cb1242ae0cb892c6db8fa7f5cdd30/logo.png"
+        },
+        "image2x": {
+          "english": "b3dbdb65150cb1242ae0cb892c6db8fa7f5cdd30/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "56.71355498721227",
+          "height_pct": "85.76388888888891"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "746b698ab65b9ab09b2f578c356e64bea519ac25/library_header.jpg"
+        },
+        "image2x": {
+          "english": "746b698ab65b9ab09b2f578c356e64bea519ac25/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1757028657",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1761616860",
+    "community_hub_visible": "1",
+    "gameid": "4003230",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "0",
+    "playtestinvitecount": "0"
+  },
+  "config": {
+    "installdir": "Salvage Unlimited Playtest",
+    "launch": {
+      "0": {
+        "executable": "Salvage Unlimited.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Salvage Unlimited.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4003233": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7148091949113336267",
+          "size": "183141236",
+          "download": "123744048"
+        }
+      }
+    },
+    "4003234": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4469310525427960686",
+          "size": "208375220",
+          "download": "130280800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20567220",
+        "timeupdated": "1761615781"
+      }
+    }
+  }
 }
