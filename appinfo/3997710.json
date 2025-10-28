@@ -1,11 +1,10 @@
 {
   "appid": "3997710",
-  "public_only": "1",
   "common": {
     "name": "Vr4Life Demo",
     "type": "Demo",
     "parent": "3914520",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "3f93773d3cb8c2237f7408a84dd932c4231aa907",
     "clienticns": "33fabd5ab3891c80ddb6a86b29403f47b718035f",
     "oslist": "windows",
@@ -113,5 +112,48 @@
     },
     "gameid": "3997710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Immerse Game",
+    "publisher": "Immerse Game",
+    "homepage": "https://vr4life.com/"
+  },
+  "config": {
+    "installdir": "Vr4Life Demo",
+    "launch": {
+      "0": {
+        "executable": "VR4Life.exe",
+        "type": "default"
+      },
+      "1": {
+        "executable": "VR4Life.exe",
+        "type": "vr"
+      },
+      "2": {
+        "executable": "VR4Life.exe",
+        "type": "openxr"
+      },
+      "3": {
+        "executable": "VR4Life.exe",
+        "type": "othervr"
+      }
+    }
+  },
+  "depots": {
+    "3997711": {
+      "manifests": {
+        "public": {
+          "gid": "3290105802732572980",
+          "size": "1682079674",
+          "download": "321603248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20559241",
+        "timeupdated": "1761574129"
+      }
+    }
   }
 }
