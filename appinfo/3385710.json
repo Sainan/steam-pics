@@ -1,6 +1,5 @@
 {
   "appid": "3385710",
-  "public_only": "1",
   "common": {
     "name": "WASTED Bloodline",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "64",
     "osextended": "",
     "icon": "416369326f512bf03340b0de823fee13acf8d879",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -169,9 +168,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761660042",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3385710",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -195,5 +195,96 @@
       "15": "6730",
       "16": "4182"
     }
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=3385710",
+    "developer": "3C Games",
+    "publisher": "3C Games",
+    "homepage": "https://www.3cgames.net/"
+  },
+  "config": {
+    "installdir": "WABL",
+    "launch": {
+      "0": {
+        "executable": "WABL.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "FORCE-EAC-INST.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Force Easy Anti-Cheat Installation",
+          "german": "Erzwinge Easy Anti-Cheat-Installation",
+          "french": "Forcer l’installation d’Easy Anti-Cheat",
+          "italian": "Forza Installazione Easy Anti-Cheat",
+          "spanish": "Forzar instalación de Easy Anti-Cheat",
+          "russian": "Принудительная установка Easy Anti-Cheat",
+          "polish": "Wymuś instalację Easy Anti-Cheat",
+          "ukrainian": "Примусове встановлення Easy Anti-Cheat"
+        },
+        "description": "Force Easy Anti-Cheat Installation"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229033": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3385711": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4408976230280512175",
+          "size": "58048194392",
+          "download": "38858924624"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,russian,polish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "20574647",
+        "timeupdated": "1761659388"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
