@@ -1,6 +1,5 @@
 {
   "appid": "3174050",
-  "public_only": "1",
   "common": {
     "name": "地球腐烂指南 Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "osextended": "",
     "clienticon": "b9ce3cc07f509a2280f5f73d7d0973b487739e92",
     "icon": "b9ce3cc07f509a2280f5f73d7d0973b487739e92",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -136,11 +135,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761624264",
     "gameid": "3174050",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "商商",
+    "publisher": "商商游戏制造商"
+  },
+  "config": {
+    "installdir": "GuideToApocalypseDEMO",
+    "launch": {
+      "0": {
+        "executable": "GuideToApocalypse.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3174051": {
+      "manifests": {
+        "public": {
+          "gid": "6391792016425126917",
+          "size": "24931279974",
+          "download": "24050037120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20563739",
+        "timeupdated": "1761595061"
+      }
     }
   }
 }
