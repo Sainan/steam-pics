@@ -1,6 +1,5 @@
 {
   "appid": "4037130",
-  "public_only": "1",
   "common": {
     "name": "WRONG WAY",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "b9c136e005e1cd7efc82b84fd49380da7ee1a1b4",
     "icon": "6a5119adb527c51bb71ce95985fb20ab37c399aa",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "2cdae685cff4704ff34fc3301c80ffb93cf5795b/capsule_231x87.jpg"
@@ -90,14 +89,15 @@
       "1": "37"
     },
     "category": {
-      "category_2": "1",
-      "category_62": "1"
+      "category_2": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true"
       }
     },
+    "steam_release_date": "1761660983",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4037130",
     "exfgls": "3",
@@ -118,5 +118,64 @@
       "13": "4182",
       "14": "1720"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Andrei Serbanescu",
+    "publisher": "Andrei Serbanescu",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "WRONG_WAYS",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "TemplateHorror.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4037131": {
+      "manifests": {
+        "public": {
+          "gid": "8219258022096805597",
+          "size": "992148043",
+          "download": "706951344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20037835",
+        "timeupdated": "1758296783"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1"
   }
 }
