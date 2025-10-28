@@ -1,6 +1,5 @@
 {
   "appid": "3918240",
-  "public_only": "1",
   "common": {
     "name": "Defectant",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3683188330a147b56957c6e13d8a25c5ec025e20/capsule_231x87.jpg"
@@ -108,7 +107,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3918240",
-    "exfgls": "8",
     "store_tags": {
       "0": "5547",
       "1": "122",
@@ -130,6 +128,55 @@
       "17": "1702",
       "18": "1662",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "FyrusTech火棠科技",
+    "publisher": "FyrusTech火棠科技"
+  },
+  "config": {
+    "installdir": "Defectant",
+    "launch": {
+      "0": {
+        "executable": "\\DefectantProject\\DefectantProject.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3918241": {
+      "manifests": {
+        "public": {
+          "gid": "2085165492086031888",
+          "size": "1493959875",
+          "download": "1108218016"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20555990",
+        "timeupdated": "1761557519"
+      }
     }
   }
 }
