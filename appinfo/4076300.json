@@ -1,6 +1,5 @@
 {
   "appid": "4076300",
-  "public_only": "1",
   "common": {
     "name": "Geo Fighters",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0b84d7fb2f6d7265cf2747e62c9fa0986b565566",
     "linuxclienticon": "54a9045498b80795133a1a2de735446341150568",
     "clienticon": "0b84d7fb2f6d7265cf2747e62c9fa0986b565566",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -117,9 +116,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4076300",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1774",
@@ -129,6 +128,152 @@
       "5": "1755",
       "6": "492",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "BoucyGames",
+    "publisher": "Alphanu Game Studios"
+  },
+  "config": {
+    "installdir": "Geo Fighters",
+    "launch": {
+      "0": {
+        "executable": "Geofighters.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Geo Fighters.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Geo Fighters.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "4076301": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7407372712627897029",
+          "size": "146965853",
+          "download": "50731056"
+        },
+        "beta": {
+          "gid": "7407372712627897029",
+          "size": "146965853",
+          "download": "50731056"
+        }
+      }
+    },
+    "4076302": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8879200214562575867",
+          "size": "149784359",
+          "download": "52620336"
+        },
+        "beta": {
+          "gid": "8879200214562575867",
+          "size": "149784359",
+          "download": "52620336"
+        }
+      }
+    },
+    "4076303": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5267044687090391624",
+          "size": "166506381",
+          "download": "60695904"
+        },
+        "beta": {
+          "gid": "5267044687090391624",
+          "size": "166506381",
+          "download": "60695904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20558022",
+        "timeupdated": "1761572191"
+      },
+      "beta": {
+        "buildid": "20558022",
+        "description": "Beta",
+        "timeupdated": "1761568114"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".config/unity3d/BoucyGames _ Sonicrings66 Games Studios/Geo Fighters/",
+        "pattern": "*.gfs"
+      }
+    },
+    "rootoverrides": {
+      "1": {
+        "root": "LinuxHome",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": ".config/unity3d/BoucyGames _ Sonicrings66 Games Studios/Geo Fighters/",
+            "replace": "Library/Application Support/com.BoucyGames-SGS.GeoFIghters/"
+          }
+        }
+      },
+      "2": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": ".config/unity3d/BoucyGames _ Sonicrings66 Games Studios/Geo Fighters/",
+            "replace": "BoucyGames _ Sonicrings66 Games Studios/Geo Fighters/"
+          }
+        }
+      }
     }
   }
 }
