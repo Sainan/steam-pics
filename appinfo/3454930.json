@@ -1,10 +1,9 @@
 {
   "appid": "3454930",
-  "public_only": "1",
   "common": {
     "name": "Shadows Of Memory",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "fc1c55e43d464688169b04bdcdcacdc3c5dad14d",
     "clienttga": "519ca1452297f69399f12e6881c8b503794d9681",
     "clienticon": "fc1c55e43d464688169b04bdcdcacdc3c5dad14d",
@@ -102,9 +101,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3454930",
-    "exfgls": "8",
     "store_tags": {
       "0": "4486",
       "1": "3799",
@@ -118,6 +117,47 @@
       "9": "4166",
       "10": "4182",
       "11": "493"
+    }
+  },
+  "extended": {
+    "developer": "Pixelyarn",
+    "publisher": "Pixelyarn"
+  },
+  "config": {
+    "installdir": "Shadows of Memory ll",
+    "launch": {
+      "0": {
+        "executable": "win-unpacked/Shadows of Memory.exe",
+        "arguments": "-fullscreen",
+        "type": "config",
+        "config": {
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Game"
+        },
+        "description": "Game"
+      }
+    }
+  },
+  "depots": {
+    "3454931": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7374028657355145867",
+          "size": "1193872316",
+          "download": "930100816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20423408",
+        "timeupdated": "1760638313"
+      }
     }
   }
 }
