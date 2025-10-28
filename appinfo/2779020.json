@@ -1,10 +1,9 @@
 {
   "appid": "2779020",
-  "public_only": "1",
   "common": {
     "name": "Sire",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "ff0496d21f5fa46841c1268df50c5173ea0d575d",
     "clienttga": "17742bccb5e02f211e9df324e77352d0bcffd6a5",
     "clienticon": "ff0496d21f5fa46841c1268df50c5173ea0d575d",
@@ -91,8 +90,7 @@
     },
     "primary_genre": "25",
     "genres": {
-      "0": "25",
-      "1": "37"
+      "0": "25"
     },
     "category": {
       "category_2": "1",
@@ -111,7 +109,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2779020",
-    "exfgls": "3",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -138,5 +135,61 @@
       "18": "4166",
       "19": "5984"
     }
+  },
+  "extended": {
+    "developer": "heartcase",
+    "publisher": "heartcase",
+    "homepage": "https://www.milanlefferts.com/"
+  },
+  "config": {
+    "installdir": "Sire",
+    "launch": {
+      "0": {
+        "executable": "SIRE.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SIRE.app\\Contents\\MacOS\\SIRE",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2779022": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "90584336414023580",
+          "size": "531481860",
+          "download": "345840480"
+        }
+      }
+    },
+    "2779023": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1329332432111051782",
+          "size": "507464653",
+          "download": "338721456"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20530205",
+        "timeupdated": "1761315018"
+      }
+    },
+    "privatebranches": "1"
   }
 }
