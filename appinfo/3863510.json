@@ -1,6 +1,5 @@
 {
   "appid": "3863510",
-  "public_only": "1",
   "common": {
     "name": "Carteado",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "brazilian": "1",
@@ -121,9 +120,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761680593",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3863510",
-    "exfgls": "8",
     "store_tags": {
       "0": "3959",
       "1": "1666",
@@ -140,5 +140,110 @@
       "12": "492",
       "13": "1716"
     }
+  },
+  "extended": {
+    "developer": "gump.dev",
+    "publisher": "gump.dev",
+    "homepage": "https://gump.dev/project/carteado"
+  },
+  "config": {
+    "installdir": "Carteado",
+    "launch": {
+      "0": {
+        "executable": "carteado.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "carteado.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "carteado.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3863511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9075166301821267759",
+          "size": "139434280",
+          "download": "57632288"
+        }
+      }
+    },
+    "3863512": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7812219772572814389",
+          "size": "234799559",
+          "download": "83912656"
+        }
+      }
+    },
+    "3863513": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5474189473617565515",
+          "size": "117561888",
+          "download": "52196272"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "workshopdepot": "3863510",
+    "branches": {
+      "public": {
+        "buildid": "20435415",
+        "timeupdated": "1760704845"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "24",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "carteado",
+        "pattern": "*.tres"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
