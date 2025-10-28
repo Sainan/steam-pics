@@ -1,10 +1,9 @@
 {
   "appid": "3956470",
-  "public_only": "1",
   "common": {
     "name": "NightMare King",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "english": "NightMare King",
       "schinese": "梦魇之王",
@@ -210,9 +209,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761634705",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3956470",
-    "exfgls": "8",
     "store_tags": {
       "0": "1716",
       "1": "19",
@@ -235,5 +235,60 @@
       "18": "32322",
       "19": "5125"
     }
+  },
+  "extended": {
+    "developer": "Starmoon Cat",
+    "publisher": "Starmoon Cat"
+  },
+  "config": {
+    "installdir": "NightMare King",
+    "launch": {
+      "0": {
+        "executable": "NightMare King.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3956471": {
+      "manifests": {
+        "public": {
+          "gid": "4784001511694629773",
+          "size": "192653360",
+          "download": "114865024"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20560888",
+        "timeupdated": "1761581280"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/NightMare King",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/NightMare King",
+        "pattern": "*.cfg"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
