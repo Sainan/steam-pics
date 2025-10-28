@@ -1,13 +1,12 @@
 {
   "appid": "3547420",
-  "public_only": "1",
   "common": {
     "name": "Ire: A Prologue",
     "type": "Game",
     "icon": "6cf93b4ee83c84cccf837d1e0241728cb7cd5e05",
     "clienttga": "d180387b50b179683e5d876b0b862b2cfb9f9798",
     "clienticon": "6cf93b4ee83c84cccf837d1e0241728cb7cd5e05",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3547420_eula_0",
@@ -128,9 +127,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761670334",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3547420",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -155,6 +155,69 @@
       "17": "6129",
       "18": "21",
       "19": "7743"
+    }
+  },
+  "extended": {
+    "developer": "ProbablyMonsters",
+    "publisher": "ProbablyMonsters",
+    "homepage": "http://playire.com/"
+  },
+  "config": {
+    "installdir": "Ire A Prologue",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "11",
+    "launch": {
+      "0": {
+        "executable": "Ire.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3547421": {
+      "manifests": {
+        "public": {
+          "gid": "4131009758390513735",
+          "size": "9418273840",
+          "download": "8888606288"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20292717",
+        "timeupdated": "1759871334"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "150000",
+    "maxnumfiles": "3",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ire/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
