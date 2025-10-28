@@ -1,6 +1,5 @@
 {
   "appid": "3993350",
-  "public_only": "1",
   "common": {
     "name": "Loreninha Paints Dreams and Rainbows",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticns": "2f90f1be4ef198aff5f8774f24a4fe62d68e129d",
     "icon": "3b22e3870e3ff0afa93c6189b1c2f35e363dd39b",
     "clienticon": "3b22e3870e3ff0afa93c6189b1c2f35e363dd39b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -130,9 +129,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761670821",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3993350",
-    "exfgls": "8",
     "store_tags": {
       "0": "4026",
       "1": "1628",
@@ -152,6 +152,67 @@
       "15": "492",
       "16": "3871",
       "17": "7208"
+    }
+  },
+  "extended": {
+    "developer": "Eminho &amp; Lorena Team",
+    "publisher": "Eminho &amp; Lorena Team"
+  },
+  "config": {
+    "installdir": "Loreninha Paints Dreams and Rainbows",
+    "launch": {
+      "0": {
+        "executable": "Loreninha Paints Dreams and Rainbows.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3993351": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1832408048349453391",
+          "size": "287673778",
+          "download": "136020480"
+        }
+      }
+    },
+    "3993352": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4261658773375309588",
+          "size": "282400046",
+          "download": "132835776"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20540454",
+        "timeupdated": "1761390573"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves",
+        "pattern": "saveSlot*.json"
+      }
     }
   }
 }
