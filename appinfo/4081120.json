@@ -1,4 +1,157 @@
 {
   "appid": "4081120",
-  "public_only": "1"
+  "common": {
+    "name": "Chipmatic Playtest",
+    "type": "Beta",
+    "parent": "3780950",
+    "clienticon": "aeccf36a2b102236b0ad2eac920011b4317eb807",
+    "icon": "aeccf36a2b102236b0ad2eac920011b4317eb807",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "f2ad4eeafb8a868c774da6d3182bcbc69dd5c25b/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "999a70561cf1855d99bb6af7fb36429a5c99228f/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "e82bdd3e1b9d47e05fce75374d913e2b42474e49/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "e82bdd3e1b9d47e05fce75374d913e2b42474e49/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "e11162fbbfa4f1826803846a13b59011c0e82388/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "e11162fbbfa4f1826803846a13b59011c0e82388/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "e11162fbbfa4f1826803846a13b59011c0e82388/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "4b605e1529192ca3187f9301a2a082c54c070f99/logo.png"
+        },
+        "image2x": {
+          "english": "4b605e1529192ca3187f9301a2a082c54c070f99/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "999a70561cf1855d99bb6af7fb36429a5c99228f/library_header.jpg"
+        },
+        "image2x": {
+          "english": "999a70561cf1855d99bb6af7fb36429a5c99228f/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1759402836",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1761678082",
+    "community_hub_visible": "1",
+    "gameid": "4081120",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "0",
+    "playtestinvitecount": "2",
+    "playtestinviteendtime": "1775520000"
+  },
+  "config": {
+    "installdir": "Chipmatic Playtest",
+    "launch": {
+      "0": {
+        "executable": "Chipmatic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Chipmatic.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Chipmatic",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4081122": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1402267926526117727",
+          "size": "346351720",
+          "download": "148147152"
+        }
+      }
+    },
+    "4081123": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7557332887032338388",
+          "size": "433132296",
+          "download": "151356032"
+        }
+      }
+    },
+    "4081124": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2301276383700330993",
+          "size": "385292303",
+          "download": "148222416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20578868",
+        "timeupdated": "1761678044"
+      }
+    }
+  }
 }
