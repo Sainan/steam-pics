@@ -1,6 +1,5 @@
 {
   "appid": "3810890",
-  "public_only": "1",
   "common": {
     "name": "Grit the Dark World",
     "type": "Game",
@@ -18,7 +17,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -125,7 +124,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3810890",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -150,6 +148,40 @@
       "17": "122",
       "18": "1773",
       "19": "4637"
+    }
+  },
+  "extended": {
+    "developer": "EdgeStudios",
+    "publisher": "EdgeStudios"
+  },
+  "config": {
+    "installdir": "Grit the Dark World",
+    "launch": {
+      "0": {
+        "executable": "Grit The Dark World.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3810891": {
+      "manifests": {
+        "public": {
+          "gid": "6863698222038280224",
+          "size": "772308385",
+          "download": "268124464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20567503",
+        "timeupdated": "1761617770"
+      }
     }
   }
 }
