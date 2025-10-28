@@ -1,6 +1,5 @@
 {
   "appid": "3966090",
-  "public_only": "1",
   "common": {
     "name": "The Mushroom Adventrue:Call of Distant Realms",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "95be5b48af72c5a29d9bf2ed92e07dacb322077c",
     "clienticon": "95be5b48af72c5a29d9bf2ed92e07dacb322077c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f04f173dfd5feb5b5b9563c30db47715c55ef023/capsule_231x87.jpg"
@@ -103,9 +102,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761609977",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3966090",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -127,6 +127,74 @@
       "17": "599",
       "18": "1654",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Shenzhen Yiling Industrial Design Center",
+    "publisher": "Shenzhen Yiling Industrial Design Center"
+  },
+  "config": {
+    "installdir": "The Mushroom AdventrueCall of Distant Realms",
+    "launch": {
+      "0": {
+        "executable": "Mushrooms.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3966091": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1694474340503336960",
+          "size": "3155202899",
+          "download": "2526057744"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "19973457",
+        "timeupdated": "1757858034"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Mushroom",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
