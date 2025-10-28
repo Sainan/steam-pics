@@ -1,6 +1,5 @@
 {
   "appid": "3919950",
-  "public_only": "1",
   "common": {
     "name": "WhatJustFlashed",
     "type": "Application",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "dd149fbce3ef945a5d496a12685a6c16f7056dea",
     "icon": "382a556d802de5d80bafa02231585f6a48143bb3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "26f0bb1ee17646ecc463748977b257a271134ae4/capsule_231x87.jpg"
     },
@@ -121,6 +120,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3919950",
     "exfgls": "6",
@@ -128,6 +128,46 @@
       "0": "87",
       "1": "113",
       "2": "8013"
+    }
+  },
+  "extended": {
+    "developer": "Eduard Georgiev",
+    "publisher": "Eduard Georgiev",
+    "homepage": "https://ergeorgiev.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "WhatJustFlashed",
+    "launch": {
+      "0": {
+        "executable": "WhatJustFlashed.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3919951": {
+      "manifests": {
+        "public": {
+          "gid": "7917870711596849809",
+          "size": "2932864",
+          "download": "2242128"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,schinese,russian,japanese,bulgarian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20027803",
+        "timeupdated": "1758181356"
+      }
     }
   }
 }
