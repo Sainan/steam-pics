@@ -1,6 +1,5 @@
 {
   "appid": "4062570",
-  "public_only": "1",
   "common": {
     "name": "A Spooky Hunt With Malvina",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "5706e005b7e715ebbf930356d3a9d8c6feb850d4",
     "icon": "5706e005b7e715ebbf930356d3a9d8c6feb850d4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -154,9 +153,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761670771",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4062570",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -184,6 +184,54 @@
       "17": "7926",
       "18": "5608",
       "19": "4726"
+    }
+  },
+  "extended": {
+    "developer": "Hentai Panda",
+    "publisher": "Hentai Panda",
+    "homepage": "https://www.hentaipanda.games/"
+  },
+  "config": {
+    "installdir": "A Spooky Hunt With Malvina",
+    "launch": {
+      "0": {
+        "executable": "ASpookyHuntWithMalvina.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4062571": {
+      "manifests": {
+        "public": {
+          "gid": "6760022190987996381",
+          "size": "231186182",
+          "download": "92423648"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20122384",
+        "timeupdated": "1758790540"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Hentai Panda\\ASpookyHuntWithMalvina",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
