@@ -1,6 +1,5 @@
 {
   "appid": "3739960",
-  "public_only": "1",
   "common": {
     "name": "Retro Racing 2",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticns": "cc971e79cc06be368ee0c6eadce31a9ea2198b13",
     "clienticon": "49cb7ec745f98db2c6454d5024aba7e7a04922ef",
     "clienttga": "a49ab1fd9ffcf54328da876481bcf2bc5601eb4a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -128,9 +127,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3739960",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "1775",
@@ -152,6 +151,56 @@
       "17": "7368",
       "18": "3859",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Mr Qwak",
+    "publisher": "Mr Qwak",
+    "homepage": "https://www.mrqwak.com/games/retro-racing-2/",
+    "listofdlc": "3835270",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Retro Racing 2",
+    "launch": {
+      "0": {
+        "executable": "retroracing_2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3739961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8925304877895762157",
+          "size": "39742139",
+          "download": "34097456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20514783",
+        "timeupdated": "1761233086"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Mr Qwak/Retro Racing 2/player/",
+        "pattern": "*"
+      }
     }
   }
 }
