@@ -1,6 +1,5 @@
 {
   "appid": "1442530",
-  "public_only": "1",
   "common": {
     "name": "Outbreak Island",
     "type": "Game",
@@ -9,7 +8,7 @@
     "icon": "c39b86c16ba32b0eb76f15ffc9e3177484076be5",
     "clienttga": "742da44fa3914df3e9f0607364bc1e9677d5512d",
     "clienticon": "c608bc81f02fbfbcceaef2db3ad80bf0a6492d02",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -224,9 +223,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761661825",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1442530",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -252,6 +252,71 @@
       "17": "5613",
       "18": "4667",
       "19": "30358"
+    }
+  },
+  "extended": {
+    "developer": "Tiny Magicians",
+    "publisher": "Tiny Magicians",
+    "homepage": "https://www.tinymagicians.com/outbreakisland/report/"
+  },
+  "config": {
+    "installdir": "Outbreak Island",
+    "launch": {
+      "0": {
+        "executable": "OI_World.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1442531": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "924857029365251181",
+          "size": "16336909120",
+          "download": "15873226464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20575035",
+        "timeupdated": "1761661073"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "OI_World/Saved/SaveGames/",
+        "pattern": "*.sav"
+      }
     }
   }
 }
