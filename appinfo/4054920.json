@@ -1,6 +1,5 @@
 {
   "appid": "4054920",
-  "public_only": "1",
   "common": {
     "name": "Resizer Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8bc7991964323433d9e01c5820ec0cb7c2046e41/capsule_231x87.jpg"
@@ -399,5 +398,50 @@
     },
     "gameid": "4054920",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jfred",
+    "publisher": "Jfred"
+  },
+  "config": {
+    "installdir": "Resizer Demo",
+    "launch": {
+      "0": {
+        "executable": "Resizer.exe"
+      }
+    }
+  },
+  "depots": {
+    "4054921": {
+      "manifests": {
+        "public": {
+          "gid": "8537272573642978918",
+          "size": "195942902",
+          "download": "77618800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20540451",
+        "timeupdated": "1761390691"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "5000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Resizer/",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
