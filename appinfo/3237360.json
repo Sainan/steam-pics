@@ -1,10 +1,9 @@
 {
   "appid": "3237360",
-  "public_only": "1",
   "common": {
     "name": "Lone Soul",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -81,7 +80,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760802198",
+    "store_asset_mtime": "1761676958",
     "associations": {
       "0": {
         "type": "developer",
@@ -143,9 +142,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1760979554",
     "community_hub_visible": "1",
     "gameid": "3237360",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1646",
@@ -165,6 +164,58 @@
       "15": "6276",
       "16": "4604",
       "17": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Laughing Fox Games",
+    "publisher": "Laughing Fox Games",
+    "homepage": "https://laughingfox.games",
+    "listofdlc": "4078090",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Lone Soul",
+    "launch": {
+      "0": {
+        "executable": "Lone Soul.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3237361": {
+      "manifests": {
+        "public": {
+          "gid": "158894510370788415",
+          "size": "8308914394",
+          "download": "2470836576"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20488990",
+        "timeupdated": "1761093679"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Laughing fox games/Lone Soul",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
