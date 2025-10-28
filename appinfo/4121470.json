@@ -1,6 +1,5 @@
 {
   "appid": "4121470",
-  "public_only": "1",
   "common": {
     "name": "Veilborne Sacrament Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -98,6 +97,49 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Veilborne Studio",
+    "publisher": "Veilborne Studio "
+  },
+  "config": {
+    "installdir": "Veilborne Sacrament Demo",
+    "launch": {
+      "0": {
+        "executable": "Veilborne_Sacrament.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4121471": {
+      "manifests": {
+        "public": {
+          "gid": "7021959435918037743",
+          "size": "3915626027",
+          "download": "3718655536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20457086",
+        "timeupdated": "1760911202"
+      }
     }
   }
 }
