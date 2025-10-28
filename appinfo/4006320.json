@@ -1,10 +1,9 @@
 {
   "appid": "4006320",
-  "public_only": "1",
   "common": {
     "name": "lil' Henry and Penny's Big Adventure Pack",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "80219b6f336b847b8beed1baca32377152ab03ac",
     "icon": "80219b6f336b847b8beed1baca32377152ab03ac",
     "clienticns": "234876087d37f8fef7c700c185f5f4d203d01122",
@@ -108,9 +107,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761667420",
     "community_hub_visible": "1",
     "gameid": "4006320",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "5350",
@@ -126,6 +125,124 @@
       "11": "3916",
       "12": "4182",
       "13": "3871"
+    }
+  },
+  "extended": {
+    "developer": "Bennethon",
+    "publisher": "Bennethon",
+    "homepage": "http://lilhenryandpenny.com/"
+  },
+  "config": {
+    "installdir": "BigAdventurePack",
+    "launch": {
+      "0": {
+        "executable": "BigAdventurePack.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "BigAdventurePack.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "BigAdventurePack.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4006321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2178008980317008089",
+          "size": "174953496",
+          "download": "63671872"
+        },
+        "beta": {
+          "gid": "2178008980317008089",
+          "size": "174953496",
+          "download": "63671872"
+        }
+      }
+    },
+    "4006322": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7560073933141913168",
+          "size": "197956340",
+          "download": "72532960"
+        },
+        "beta": {
+          "gid": "7560073933141913168",
+          "size": "197956340",
+          "download": "72532960"
+        }
+      }
+    },
+    "4006323": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6681646502131427606",
+          "size": "216943877",
+          "download": "64707456"
+        },
+        "beta": {
+          "gid": "6681646502131427606",
+          "size": "216943877",
+          "download": "64707456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20568337",
+        "timeupdated": "1761623786"
+      },
+      "beta": {
+        "buildid": "20568337",
+        "description": "For testers",
+        "timeupdated": "1761623795"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "20",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "com.Bennethon.BigAdventurePack"
+      }
     }
   }
 }
