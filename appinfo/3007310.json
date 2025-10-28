@@ -1,6 +1,5 @@
 {
   "appid": "3007310",
-  "public_only": "1",
   "common": {
     "name": "Remote Position",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -117,9 +116,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761201304",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3007310",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -145,5 +145,46 @@
       "18": "379975",
       "19": "3839"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "SuloSounds",
+    "publisher": "SuloSounds"
+  },
+  "config": {
+    "installdir": "Remote Position",
+    "launch": {
+      "0": {
+        "executable": "Remote Position.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3007311": {
+      "manifests": {
+        "public": {
+          "gid": "7952167762483105895",
+          "size": "7941522227",
+          "download": "3516545472"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20575992",
+        "timeupdated": "1761665281"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
