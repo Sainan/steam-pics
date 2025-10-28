@@ -1,10 +1,9 @@
 {
   "appid": "2743530",
-  "public_only": "1",
   "common": {
     "name": "A Package For Space",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -119,7 +118,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2743530",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -146,5 +144,72 @@
       "18": "6730",
       "19": "1695"
     }
+  },
+  "extended": {
+    "developer": "Reading Time Studio",
+    "publisher": "Reading Time Studio",
+    "homepage": "https://a-package-for-space.webador.fr"
+  },
+  "config": {
+    "installdir": "A Package For Space",
+    "launch": {
+      "0": {
+        "executable": "APackageForSpace.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2743531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5966184479803979612",
+          "size": "17645893365",
+          "download": "7416769728"
+        },
+        "closedbeta": {
+          "gid": "5966184479803979612",
+          "size": "17645893365",
+          "download": "7416769728"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20581892",
+        "timeupdated": "1761695282"
+      },
+      "closedbeta": {
+        "buildid": "20581892",
+        "description": "Test version",
+        "timeupdated": "1761694975"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
