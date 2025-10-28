@@ -1,10 +1,9 @@
 {
   "appid": "3687940",
-  "public_only": "1",
   "common": {
     "name": "Missing Hearts: Crimson Cruise Collector's Edition",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "2ca77cb03cf1ebca2944f274b3a6a8350c0da7b7",
     "clienticon": "c150bae9edde2be7542dd0a79ebd332abe10fe96",
     "clienttga": "a940fb44fc86d9c4effb680c55f83b906b1a79cd",
@@ -140,9 +139,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3687940",
-    "exfgls": "8",
     "store_tags": {
       "0": "1738",
       "1": "1664",
@@ -164,6 +163,75 @@
       "17": "7250",
       "18": "5716",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Do Games Limited",
+    "publisher": "Do Games Limited"
+  },
+  "config": {
+    "installdir": "Missing Hearts Crimson Cruise Collector`s Edition",
+    "launch": {
+      "0": {
+        "executable": "Crimson Cruise.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Missing_Hearts_Crimson_Cruise_CE.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3687942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "201123718816331703",
+          "size": "1271224923",
+          "download": "1141064592"
+        }
+      }
+    },
+    "3687943": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7464763579029644103",
+          "size": "1251428964",
+          "download": "1136511984"
+        }
+      }
+    },
+    "4045410": {
+      "dlcappid": "4045410",
+      "config": {
+        "oslist": "windows,macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8389868087648495003",
+          "size": "642414047",
+          "download": "549452368"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20572991",
+        "timeupdated": "1761651350"
+      }
     }
   }
 }
