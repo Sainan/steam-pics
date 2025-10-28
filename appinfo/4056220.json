@@ -1,6 +1,5 @@
 {
   "appid": "4056220",
-  "public_only": "1",
   "common": {
     "name": "Samuel Prince Attorney at Law Chapter 3",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "4d4b43ede1231bb4d4514d8eacb9f25c210140c9",
     "icon": "4d4b43ede1231bb4d4514d8eacb9f25c210140c9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761611577",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4056220",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "6129",
@@ -126,5 +126,82 @@
       "12": "4195",
       "13": "4182"
     }
+  },
+  "extended": {
+    "developer": "Nate Ennay",
+    "publisher": "White Tophat"
+  },
+  "config": {
+    "installdir": "Samuel Prince Attorney at Law Chapter 3",
+    "launch": {
+      "0": {
+        "executable": "Samuel Prince Attorney at Law Chapter 3.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Samuel Prince Attorney at Law Chapter 3.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Samuel Prince Attorney at Law Chapter 3.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4056221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4872590952783407097",
+          "size": "1505245552",
+          "download": "201358800"
+        }
+      }
+    },
+    "4056222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2867037782331591055",
+          "size": "1528677546",
+          "download": "210328272"
+        }
+      }
+    },
+    "4056223": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3211646185126529481",
+          "size": "1548543496",
+          "download": "203071984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20449953",
+        "timeupdated": "1761611227"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
