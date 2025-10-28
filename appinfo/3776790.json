@@ -1,6 +1,5 @@
 {
   "appid": "3776790",
-  "public_only": "1",
   "common": {
     "name": "Enchanted Stories: PAWisoned Kingdom Collector's Edition",
     "type": "Game",
@@ -20,7 +19,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "823213862e614ad81bfeea0f5801f4622011528e/capsule_231x87.jpg"
@@ -105,6 +104,7 @@
       "category_68": "1",
       "category_78": "1",
       "category_79": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -142,9 +142,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3776790",
-    "exfgls": "8",
     "store_tags": {
       "0": "1738",
       "1": "1664",
@@ -166,6 +166,75 @@
       "17": "6276",
       "18": "7702",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Do Games Limited",
+    "publisher": "Do Games Limited"
+  },
+  "config": {
+    "installdir": "Enchanted Stories PAWisoned Kingdom Collector's Edition",
+    "launch": {
+      "0": {
+        "executable": "Enchanted_Stories_PAWisoned_Kingdom_CE.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Enchanted_Stories_PAWisoned_Kingdom_CE.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3776791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6825421986530619474",
+          "size": "807475925",
+          "download": "689109072"
+        }
+      }
+    },
+    "3776792": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4004399991044861512",
+          "size": "825670639",
+          "download": "692643520"
+        }
+      }
+    },
+    "3777380": {
+      "dlcappid": "3777380",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "862256542098552158",
+          "size": "69881977",
+          "download": "26120720"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20402326",
+        "timeupdated": "1760531620"
+      }
     }
   }
 }
