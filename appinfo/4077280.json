@@ -1,6 +1,5 @@
 {
   "appid": "4077280",
-  "public_only": "1",
   "common": {
     "name": "Aakihiko Aruberutasu Adisony Apurinsu Azumeragi",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "9eaf96a38a9066e5b5978a2e5ec0b33cc0f6f628",
     "icon": "9eaf96a38a9066e5b5978a2e5ec0b33cc0f6f628",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -113,7 +112,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4077280",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -128,6 +126,41 @@
       "7": "492",
       "8": "5577",
       "9": "4085"
+    }
+  },
+  "extended": {
+    "developer": "Akihiko Prince",
+    "publisher": "Akihiko Prince"
+  },
+  "config": {
+    "installdir": "Aakihiko Aruberutasu Adisony Apurinsu Azumeragi",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4077281": {
+      "manifests": {
+        "public": {
+          "gid": "7008253366535265444",
+          "size": "984720354",
+          "download": "777373536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20547955",
+        "timeupdated": "1761485166"
+      }
     }
   }
 }
