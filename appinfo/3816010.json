@@ -1,6 +1,5 @@
 {
   "appid": "3816010",
-  "public_only": "1",
   "common": {
     "name": "Cat and Shadow and Death's Four Friends",
     "type": "Game",
@@ -16,7 +15,7 @@
     },
     "clienticon": "50e681bec648c2838236e302e5c2aef10bc046da",
     "icon": "50e681bec648c2838236e302e5c2aef10bc046da",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -194,9 +193,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3816010",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -218,6 +217,41 @@
       "17": "1654",
       "18": "18594",
       "19": "15172"
+    }
+  },
+  "extended": {
+    "developer": "灯咸",
+    "publisher": "灯咸"
+  },
+  "config": {
+    "installdir": "cat shadow death",
+    "launch": {
+      "0": {
+        "executable": "cat_shadow_death/cat_shadow_death.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3816011": {
+      "manifests": {
+        "public": {
+          "gid": "5984107445861041983",
+          "size": "225228656",
+          "download": "150350624"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20553948",
+        "timeupdated": "1761543482"
+      }
     }
   }
 }
