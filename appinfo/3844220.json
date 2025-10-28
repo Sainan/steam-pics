@@ -467,27 +467,42 @@
         "config": {
           "oslist": "windows"
         }
+      },
+      "1": {
+        "executable": "start.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "linux"
       }
     }
   },
   "depots": {
     "3844221": {
       "config": {
-        "oslist": "windows"
+        "oslist": "windows,linux"
       },
       "manifests": {
         "public": {
-          "gid": "5670339737948670349",
-          "size": "279724281",
-          "download": "132105056"
+          "gid": "1219820895968365525",
+          "size": "279979867",
+          "download": "132306144"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20163881",
-        "timeupdated": "1759087573"
+        "buildid": "20578534",
+        "timeupdated": "1761676498"
       }
     }
   }
