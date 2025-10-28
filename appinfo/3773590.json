@@ -1,10 +1,9 @@
 {
   "appid": "3773590",
-  "public_only": "1",
   "common": {
     "name": "Death by Scrolling",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "3c00546f2e7a4ca6019874da091d298413de2871",
     "clienticon": "9b3c41df09e40938fc867db6b2f162baeccf24a7",
     "clienttga": "e582e02963f2299c923f51477f09f5ae369b389c",
@@ -91,7 +90,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761550723",
+    "store_asset_mtime": "1761634956",
     "associations": {
       "0": {
         "type": "developer",
@@ -159,9 +158,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761641728",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3773590",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -176,6 +176,123 @@
       "10": "3964",
       "11": "4182",
       "12": "4236"
+    }
+  },
+  "extended": {
+    "developer": "Terrible Toybox NZ",
+    "publisher": "MicroProse Software"
+  },
+  "config": {
+    "installdir": "Death By Scrolling",
+    "launch": {
+      "0": {
+        "executable": "Death by Scrolling.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Death by Scrolling.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Death by Scrolling",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3773591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3341673996458817060",
+          "size": "181173891",
+          "download": "107876768"
+        }
+      }
+    },
+    "3773592": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3279071715177258526",
+          "size": "171584509",
+          "download": "104234480"
+        }
+      }
+    },
+    "3773593": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3113492054973238155",
+          "size": "159231621",
+          "download": "99043856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20544287",
+        "timeupdated": "1761512216"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "4500000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "Terrible Toybox/Death by Scrolling",
+        "pattern": "*.bin"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "Terrible Toybox/Death by Scrolling",
+            "replace": "Terrible Toybox/Death by Scrolling"
+          }
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Terrible Toybox/Death by Scrolling",
+            "replace": "Terrible Toybox/Death by Scrolling"
+          }
+        }
+      }
     }
   }
 }
