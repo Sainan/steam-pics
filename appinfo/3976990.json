@@ -1,12 +1,11 @@
 {
   "appid": "3976990",
-  "public_only": "1",
   "common": {
     "name": "DON'T LOOK AT GRANDMA",
     "type": "Game",
     "clienticon": "b5fd3f131b7e1972c16ad0464c341b073d2b61a4",
     "icon": "b5fd3f131b7e1972c16ad0464c341b073d2b61a4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -106,9 +105,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3976990",
-    "exfgls": "8",
     "store_tags": {
       "0": "3834",
       "1": "9541",
@@ -130,6 +129,57 @@
       "17": "4191",
       "18": "1667",
       "19": "4175"
+    }
+  },
+  "extended": {
+    "developer": "Danger Sauce LLC",
+    "publisher": "Danger Sauce LLC"
+  },
+  "config": {
+    "installdir": "DontLookAtGrandma",
+    "launch": {
+      "0": {
+        "executable": "dlag.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3976991": {
+      "manifests": {
+        "public": {
+          "gid": "3474129420873795369",
+          "size": "2682127196",
+          "download": "1384498352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20573294",
+        "timeupdated": "1761653649"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "100",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Danger Sauce LLC\\dlag\\DLAG",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
