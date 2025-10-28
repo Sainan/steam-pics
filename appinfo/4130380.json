@@ -1,6 +1,5 @@
 {
   "appid": "4130380",
-  "public_only": "1",
   "common": {
     "name": "Mr Investigator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -94,6 +93,53 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Haoning Wu",
+    "publisher": "Haoning Wu"
+  },
+  "config": {
+    "installdir": "Mr Investigator Demo",
+    "launch": {
+      "0": {
+        "executable": "Mr_Investigator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4130381": {
+      "manifests": {
+        "public": {
+          "gid": "3678447071447864467",
+          "size": "1459061571",
+          "download": "1268221216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20500752",
+        "timeupdated": "1761155993"
+      }
     }
   }
 }
