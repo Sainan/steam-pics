@@ -1,6 +1,5 @@
 {
   "appid": "2521400",
-  "public_only": "1",
   "common": {
     "name": "愚人船 NARRENSCHIFF",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "69484a9048401fa508f1c52da613182bac133b0c",
     "clienttga": "78925b4d8a3a0200a1390e9a36b9baf9236b96cd",
     "clienticon": "12e37af555d834003b0e966889da9f17914e3c5e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -123,7 +122,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2521400",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -148,6 +146,53 @@
       "16": "31275",
       "17": "492",
       "18": "493"
+    }
+  },
+  "extended": {
+    "developer": "Anonymous",
+    "publisher": "Anonymous",
+    "gamemanualurl": "https://store.steampowered.com/manual/2521400/"
+  },
+  "config": {
+    "installdir": "愚人船 NARRENSCHIFF",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2521401": {
+      "manifests": {
+        "public": {
+          "gid": "6981023562958172906",
+          "size": "860631256",
+          "download": "571884368"
+        },
+        "beta": {
+          "gid": "7013804508124947033",
+          "size": "860646038",
+          "download": "571896400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20242077",
+        "timeupdated": "1759507951"
+      },
+      "beta": {
+        "buildid": "20446572",
+        "description": "beta branch for steam review",
+        "timeupdated": "1760779028"
+      }
     }
   }
 }
