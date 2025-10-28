@@ -1,10 +1,9 @@
 {
   "appid": "3649950",
-  "public_only": "1",
   "common": {
     "name": "Bside",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "dfe49b88ab7cc6e2dfedb143cdaf346a09eba1d2",
     "clienticns": "ae2e8ebd48c3d5c2dadc38ac1d8c5b4054b5aeec",
     "clienticon": "aaeeb5afbfedd690fc5865ab255d29c88b6e8b31",
@@ -113,6 +112,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3649950",
     "exfgls": "3",
@@ -138,5 +138,47 @@
       "18": "3834",
       "19": "4085"
     }
+  },
+  "extended": {
+    "developer": "Kotoko Inc.",
+    "publisher": "Kotoko Inc.",
+    "homepage": "https://bside.zone/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Bside",
+    "launch": {
+      "0": {
+        "executable": "Bside.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3649951": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7671325593450717920",
+          "size": "846367813",
+          "download": "298891344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20538777",
+        "timeupdated": "1761620529"
+      }
+    },
+    "privatebranches": "1"
   }
 }
