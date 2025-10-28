@@ -1,6 +1,5 @@
 {
   "appid": "4067430",
-  "public_only": "1",
   "common": {
     "name": "Dubious Depot",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "095932d44c65bfc85c419ded398a60df6f5a8099",
     "icon": "095932d44c65bfc85c419ded398a60df6f5a8099",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -136,9 +135,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761630553",
     "community_hub_visible": "1",
     "gameid": "4067430",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "3978",
@@ -152,6 +151,96 @@
       "9": "5900",
       "10": "4191",
       "11": "3916"
+    }
+  },
+  "extended": {
+    "developer": "FractureGamesLLC",
+    "publisher": "FractureGamesLLC"
+  },
+  "config": {
+    "installdir": "Dubious Depot",
+    "launch": {
+      "0": {
+        "executable": "Dubious Depot.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Dubious Depot.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4067431": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5400632509512528838",
+          "size": "52519360",
+          "download": "35834576"
+        },
+        "testing": {
+          "gid": "7424375968339345076",
+          "size": "52536272",
+          "download": "35852928"
+        }
+      }
+    },
+    "4067432": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "392469803017703629",
+          "size": "95168000",
+          "download": "28539808"
+        },
+        "testing": {
+          "gid": "392469803017703629",
+          "size": "95168000",
+          "download": "28539808"
+        }
+      }
+    },
+    "4067433": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1781944312417284001",
+          "size": "69688024",
+          "download": "23665504"
+        },
+        "testing": {
+          "gid": "1411502318454353236",
+          "size": "70019832",
+          "download": "22709152"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,russian,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20498405",
+        "timeupdated": "1761145664"
+      },
+      "testing": {
+        "buildid": "20153179",
+        "description": "Build Testing",
+        "timeupdated": "1758961399"
+      }
     }
   }
 }
