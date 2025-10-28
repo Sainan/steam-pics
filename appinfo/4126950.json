@@ -1,4 +1,184 @@
 {
   "appid": "4126950",
-  "public_only": "1"
+  "common": {
+    "name": "Void Raider Demo",
+    "type": "Demo",
+    "parent": "3724750",
+    "clienticon": "5d804777ceaa9c7a5a74a14672399bcd759e843c",
+    "icon": "5d804777ceaa9c7a5a74a14672399bcd759e843c",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "controllertagwizard": "1",
+    "small_capsule": {
+      "english": "8d203306101be5ae97d16edcec53e7227e15fef0/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "d73a8db025fa9128b9ea77fc1ddd94ed31452546/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "3d7e49db6e53bb6e122d40888fc85bbeb18f2545/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "3d7e49db6e53bb6e122d40888fc85bbeb18f2545/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "7696aaafed954b4d06fef3c42e21cb7f3112697f/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "7696aaafed954b4d06fef3c42e21cb7f3112697f/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "7696aaafed954b4d06fef3c42e21cb7f3112697f/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "b2a27bba05f398bd1e1edcc71ec4a3b8ad3573de/logo.png"
+        },
+        "image2x": {
+          "english": "b2a27bba05f398bd1e1edcc71ec4a3b8ad3573de/logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "0b25559a40846b3629af775f1cbc2e15348ca146/library_header.jpg"
+        },
+        "image2x": {
+          "english": "0b25559a40846b3629af775f1cbc2e15348ca146/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1761574714",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "BlackCrow"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "BlackCrow"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_48": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_70": "1",
+      "category_74": "1",
+      "category_75": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      }
+    },
+    "gameid": "4126950",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "BlackCrow",
+    "publisher": "BlackCrow"
+  },
+  "config": {
+    "installdir": "Void Raider Demo",
+    "launch": {
+      "0": {
+        "executable": "VoidRaider.exe",
+        "type": "option1",
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "description": "DirectX 12"
+      },
+      "1": {
+        "executable": "VoidRaider.exe",
+        "arguments": "-D3D11",
+        "type": "option2",
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "description": "DirectX 11"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4126951": {
+      "manifests": {
+        "public": {
+          "gid": "2965364982268546801",
+          "size": "3303023005",
+          "download": "3118247776"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20513338",
+        "timeupdated": "1761226331"
+      }
+    }
+  }
 }
