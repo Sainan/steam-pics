@@ -1,12 +1,11 @@
 {
   "appid": "4055610",
-  "public_only": "1",
   "common": {
     "name": "Tetramorph",
     "type": "Game",
     "icon": "f594fce33f83fb6d4f989a4179b015ef62c33eeb",
     "clienticon": "f594fce33f83fb6d4f989a4179b015ef62c33eeb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -104,9 +103,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761665377",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4055610",
-    "exfgls": "8",
     "store_tags": {
       "0": "1698",
       "1": "6815",
@@ -126,6 +126,72 @@
       "15": "4252",
       "16": "1710",
       "17": "7250"
+    }
+  },
+  "extended": {
+    "developer": "R Button",
+    "publisher": "Hierarch Games"
+  },
+  "config": {
+    "installdir": "Tetramorph",
+    "launch": {
+      "0": {
+        "executable": "tetramorph.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Tetramorph/Contents/MacOS/Tetramorph",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4055611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1565939872388651381",
+          "size": "302571623",
+          "download": "231339104"
+        }
+      }
+    },
+    "4055612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "291977859905965665",
+          "size": "385550094",
+          "download": "252954336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20390650",
+        "timeupdated": "1760467253"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
