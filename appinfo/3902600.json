@@ -1,6 +1,5 @@
 {
   "appid": "3902600",
-  "public_only": "1",
   "common": {
     "name": "Sunrise Of The Time: End Of Blue",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3902600",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -147,6 +147,63 @@
       "17": "4604",
       "18": "6971",
       "19": "6276"
+    }
+  },
+  "extended": {
+    "developer": "EOSGAMES",
+    "publisher": "EOSGAMES",
+    "homepage": "https://www.eosgames.com.tr/"
+  },
+  "config": {
+    "installdir": "Sunrise Of The Time End Of Blue",
+    "launch": {
+      "0": {
+        "executable": "Sunrise Of The Time.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Sunrise Of The Time.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3902601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3333206430291684056",
+          "size": "5037588128",
+          "download": "294143424"
+        }
+      }
+    },
+    "3902602": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5361849182834286082",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20532271",
+        "timeupdated": "1761323953"
+      }
     }
   }
 }
