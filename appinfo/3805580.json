@@ -1,6 +1,5 @@
 {
   "appid": "3805580",
-  "public_only": "1",
   "common": {
     "name": "Daydreams",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienttga": "f9b4f49d4b22206553c332dfb8e1d5998501d61b",
     "clienticns": "b271f2a2abd76867123b000e76de1f5df2d320d1",
     "linuxclienticon": "b271f2a2abd76867123b000e76de1f5df2d320d1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -114,9 +113,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3805580",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -138,6 +137,97 @@
       "17": "492",
       "18": "4947",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "QuadraTron Games",
+    "publisher": "QuadraTron Games"
+  },
+  "config": {
+    "installdir": "Daydreams",
+    "launch": {
+      "0": {
+        "executable": "Daydreams.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Daydreams.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "Daydreams.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3805581": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6728723994440019841",
+          "size": "1885092451",
+          "download": "736415904"
+        }
+      }
+    },
+    "3805582": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6545397718989965451",
+          "size": "1936475695",
+          "download": "759095552"
+        }
+      }
+    },
+    "3805583": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2252530593376960263",
+          "size": "2012372917",
+          "download": "821301088"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20535049",
+        "timeupdated": "1761338808"
+      }
     }
   }
 }
