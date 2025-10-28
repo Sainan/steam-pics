@@ -1,6 +1,5 @@
 {
   "appid": "1940870",
-  "public_only": "1",
   "common": {
     "name": "The Creator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "74619a4b702789efc360bd8a2a35b79715762991",
     "clienticon": "74619a4b702789efc360bd8a2a35b79715762991",
     "clienttga": "f491cdb0d0be04090686d0977eca02a3a55b3e7f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -157,9 +156,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761656413",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1940870",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "84",
@@ -181,6 +181,97 @@
       "17": "3839",
       "18": "7926",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Mark Miller",
+    "publisher": "Mark Miller",
+    "listofdlc": "3944370,4050450",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "TheCreator",
+    "steamdecktouchscreen": "5",
+    "launch": {
+      "0": {
+        "executable": "Creator\\Binaries\\Win64\\Creator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228984": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1940872": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7825500245753489447",
+          "size": "13604848114",
+          "download": "13382452528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20573705",
+        "timeupdated": "1761655087"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Creator/Saved/SaveGames",
+        "pattern": "cr_*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
