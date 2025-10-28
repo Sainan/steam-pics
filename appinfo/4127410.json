@@ -1,6 +1,5 @@
 {
   "appid": "4127410",
-  "public_only": "1",
   "common": {
     "name": "School Night Seance Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "079089ff0c25ea1d31c273db40eb2354c3a39c1c",
     "clienticns": "079089ff0c25ea1d31c273db40eb2354c3a39c1c",
     "linuxclienticon": "079089ff0c25ea1d31c273db40eb2354c3a39c1c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9ff67a65dc71e80e0c1c77cd742f0fa3149d744f/capsule_231x87.jpg"
@@ -89,7 +88,89 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761653544",
     "gameid": "4127410",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ghosts in the Garden",
+    "publisher": "Ghosts in the Garden"
+  },
+  "config": {
+    "installdir": "School Night Seance Demo",
+    "launch": {
+      "0": {
+        "executable": "School Night Seance Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SchoolNightSeanceDemoMac1.10.app\\Contents\\MacOS\\School Night Seance Demo",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4127411": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2905767844239966110",
+          "size": "4212833229",
+          "download": "698629936"
+        }
+      }
+    },
+    "4127412": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5857482632097130504",
+          "size": "4228391225",
+          "download": "707143184"
+        }
+      }
+    },
+    "4127413": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7750387856351889924",
+          "size": "4260153601",
+          "download": "710865920"
+        }
+      }
+    },
+    "4127414": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8432254044319157315",
+          "size": "4244595589",
+          "download": "702351968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20569682",
+        "timeupdated": "1761633298"
+      }
+    }
   }
 }
