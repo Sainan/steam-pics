@@ -1,6 +1,5 @@
 {
   "appid": "3868850",
-  "public_only": "1",
   "common": {
     "name": "MISHA",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "c98e8c923fcf6035b288d651ea63d1d87a151796",
     "clienticon": "bc74f4de080ef11627a56631ff8c38db9af38525",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -124,6 +123,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3868850",
     "exfgls": "3",
@@ -144,5 +145,46 @@
       "13": "1654",
       "14": "7481"
     }
+  },
+  "extended": {
+    "disableoverlay": "1",
+    "developer": "RPGames",
+    "publisher": "RPGames",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "MISHA",
+    "launch": {
+      "0": {
+        "executable": "MISHA.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3868851": {
+      "manifests": {
+        "public": {
+          "gid": "7239370262592208894",
+          "size": "229262635",
+          "download": "60965520"
+        }
+      }
+    },
+    "workshopdepot": "3868850",
+    "branches": {
+      "public": {
+        "buildid": "20563249",
+        "timeupdated": "1761592510"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10"
   }
 }
