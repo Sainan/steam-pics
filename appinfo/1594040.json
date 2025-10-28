@@ -1,10 +1,9 @@
 {
   "appid": "1594040",
-  "public_only": "1",
   "common": {
     "name": "Wreckreation",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -190,9 +189,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761659733",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1594040",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "8122",
@@ -214,6 +214,64 @@
       "17": "10816",
       "18": "255534",
       "19": "1775"
+    }
+  },
+  "extended": {
+    "developer": "Three Fields Entertainment",
+    "publisher": "THQ Nordic",
+    "homepage": "https://wreckreation.thqnordic.com/"
+  },
+  "config": {
+    "installdir": "Wreckreation",
+    "launch": {
+      "0": {
+        "executable": "Wreckreation.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1594041": {
+      "manifests": {
+        "public": {
+          "gid": "3022928764911743046",
+          "size": "38697241165",
+          "download": "38254930128"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20561074",
+        "timeupdated": "1761654345"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Wreckreation/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
