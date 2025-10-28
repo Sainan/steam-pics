@@ -1,6 +1,5 @@
 {
   "appid": "4106740",
-  "public_only": "1",
   "common": {
     "name": "Dinoblade Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -105,10 +104,54 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4106740",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Team Spino LLC",
+    "publisher": "Team Spino LLC"
+  },
+  "config": {
+    "installdir": "Dinoblade Demo",
+    "launch": {
+      "0": {
+        "executable": "DinoBlade.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4106741": {
+      "manifests": {
+        "public": {
+          "gid": "7488778914176677913",
+          "size": "6766945553",
+          "download": "6005929856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20569523",
+        "timeupdated": "1761632081"
+      }
     }
   }
 }
