@@ -1,6 +1,5 @@
 {
   "appid": "2629280",
-  "public_only": "1",
   "common": {
     "name": "Dread Protocol",
     "type": "Game",
@@ -8,7 +7,7 @@
     "clienttga": "d3a57b45d8c88ca5b7f8f02e4e2ce14b9db59830",
     "linuxclienticon": "f43af389df96b0946272cc25f39d9f4ac77d6fa6",
     "clienticon": "90099ce99bac1bf65abee1169fb6e39c30652e43",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -109,9 +108,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2629280",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -137,6 +137,47 @@
       "17": "3993",
       "18": "4345",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "Meat Lab",
+    "publisher": "Meat Lab"
+  },
+  "config": {
+    "installdir": "Dread Protocol",
+    "launch": {
+      "0": {
+        "executable": "Dread Protocol.exe"
+      }
+    }
+  },
+  "depots": {
+    "2629281": {
+      "manifests": {
+        "public": {
+          "gid": "7473687112384725486",
+          "size": "4499597730",
+          "download": "1213571776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20566351",
+        "timeupdated": "1761610319"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Meat Lab\\Dread Protocol\\SaveData",
+        "pattern": "*.dat"
+      }
     }
   }
 }
