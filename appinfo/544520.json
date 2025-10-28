@@ -1,0 +1,203 @@
+{
+  "appid": "544520",
+  "common": {
+    "name": "The Puppet Master",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "clienticon": "fd5c9232bb4ae75b4fa4f6ee91af8a006e67333b",
+    "clienttga": "0c984eab839c4a88b7bf9b42c1939f7eac416a4c",
+    "icon": "114e3e84fcb8bc332445baabb03dbc7091d915fd",
+    "clienticns": "92f58ee799d2c2fd52dae0cda6c01219cbda44b2",
+    "linuxclienticon": "29d28f2761f615551d33b6de6adc201c004c0460",
+    "logo": "a0ccabc2b1f860b1b58f46d932e6cb5ce15e6702",
+    "logo_small": "a0ccabc2b1f860b1b58f46d932e6cb5ce15e6702_thumb",
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1677628800",
+      "tested_build_id": "1397953",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_LauncherInteractionIssues"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "The Puppet Master",
+    "controller_support": "partial",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_0308bc3a2c61b8b14824acd8bef2b5931ea2f4d9.jpg",
+    "store_asset_mtime": "1476741806",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "AMS Game Development Association"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "AMS Game Development Association"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "37",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_18": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1477095857",
+    "community_hub_visible": "1",
+    "gameid": "544520",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "492",
+      "2": "1664"
+    },
+    "review_score": "7",
+    "review_percentage": "83"
+  },
+  "extended": {
+    "developer": "AMS Game Development Association",
+    "publisher": "AMS Game Development Association",
+    "homepage": "http://amsgda.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Puppet Master",
+    "launch": {
+      "0": {
+        "executable": "windows.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Default Mac desktop Universal.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Default Linux desktop Universal.x86",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "32"
+        }
+      },
+      "3": {
+        "executable": "Default Linux desktop Universal.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "544521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6537893218479696463",
+          "size": "824431270",
+          "download": "74973120"
+        }
+      }
+    },
+    "544522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7381852704156876511",
+          "size": "866140957",
+          "download": "85945968"
+        }
+      }
+    },
+    "544523": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2071158950399952861",
+          "size": "857676175",
+          "download": "84808528"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "1397953",
+        "timeupdated": "1476777146"
+      }
+    }
+  }
+}
