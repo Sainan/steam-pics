@@ -1,6 +1,5 @@
 {
   "appid": "4105880",
-  "public_only": "1",
   "common": {
     "name": "Shutter Evidence Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticns": "23d94f94de8481dcdee1b467c450a2f7fb0470d1",
     "clienticon": "4e1fbd8aca013bba7c9f58c0f5b8457e5083d05a",
     "icon": "4e1fbd8aca013bba7c9f58c0f5b8457e5083d05a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "e872df4d9818609b0a105a3d385973babee2ace7/capsule_231x87.jpg"
@@ -160,8 +159,50 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4105880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mad Turtle Studios",
+    "publisher": "Mad Turtle Studios",
+    "homepage": "https://madturtlestudios.com/"
+  },
+  "config": {
+    "installdir": "Shutter Evidence Demo",
+    "launch": {
+      "0": {
+        "executable": "Shutter Evidence.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Contents/MacOS/Shutter Evidence",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4105881": {
+      "manifests": {
+        "public": {
+          "gid": "6284213226264228808",
+          "size": "1465790406",
+          "download": "133835424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20430962",
+        "timeupdated": "1760685047"
+      }
+    }
   }
 }
