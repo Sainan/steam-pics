@@ -1,6 +1,5 @@
 {
   "appid": "3838280",
-  "public_only": "1",
   "common": {
     "name": "极乐妹土！3",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "1cb14ced53dbf547d363342a4eed41d0fb06fa19/capsule_231x87_schinese.jpg",
@@ -118,9 +117,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761634978",
     "community_hub_visible": "1",
     "gameid": "3838280",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "3799",
@@ -131,6 +130,63 @@
       "6": "1719",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "MOONSTONE",
+    "publisher": "Kagami Games",
+    "homepage": "https://kagamigames.com/"
+  },
+  "config": {
+    "installdir": "imopara3",
+    "launch": {
+      "0": {
+        "executable": "imopara3.exe"
+      }
+    }
+  },
+  "depots": {
+    "3838281": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7923569640648780689",
+          "size": "540928203",
+          "download": "442203696"
+        }
+      }
+    },
+    "3838282": {
+      "config": {
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5905223005704569825",
+          "size": "540928195",
+          "download": "442204896"
+        }
+      }
+    },
+    "baselanguages": "schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20544548",
+        "timeupdated": "1761436314"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "userdata",
+        "pattern": "*"
+      }
     }
   }
 }
