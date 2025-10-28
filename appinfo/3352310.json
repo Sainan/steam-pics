@@ -1,10 +1,9 @@
 {
   "appid": "3352310",
-  "public_only": "1",
   "common": {
     "name": "Spooky Express",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "fddf4ab82d8ac4a8af90966c2128e4912ebafc73",
     "clienttga": "6178d4eecab4c72ec76f7a2a3bd041ae4564634f",
     "clienticon": "45e02452d6203da4c28bcd5389a181650cfbc023",
@@ -90,7 +89,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757159247",
+    "store_asset_mtime": "1761066137",
     "associations": {
       "0": {
         "type": "developer",
@@ -168,9 +167,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761062392",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3352310",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "9",
@@ -192,6 +192,105 @@
       "17": "4018",
       "18": "1659",
       "19": "4604"
+    },
+    "review_score": "7",
+    "review_percentage": "100"
+  },
+  "extended": {
+    "developer": "Draknek and Friends",
+    "publisher": "Draknek and Friends",
+    "homepage": "http://spooky.express/"
+  },
+  "config": {
+    "installdir": "Spooky Express",
+    "launch": {
+      "0": {
+        "executable": "Spooky Express.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Spooky Express.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3352311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4615896366752315775",
+          "size": "385555892",
+          "download": "231082800"
+        }
+      }
+    },
+    "3352312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5315579428997880523",
+          "size": "483819876",
+          "download": "257842656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20498409",
+        "timeupdated": "1761145857"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express",
+        "pattern": "profiles.tres"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express/profile_a",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express/profile_b",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "3": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Spooky Express/profile_c",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
