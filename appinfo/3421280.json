@@ -1,10 +1,9 @@
 {
   "appid": "3421280",
-  "public_only": "1",
   "common": {
     "name": "Pete's World",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "f87a0088ec82b80ab44454fa2d10409f64044181",
     "clienticon": "ac2dc4b323f23512dddf8831d0f7d72aa38c14f0",
     "icon": "fe0a1b099fa113bae9a21851aee36ba798c43401",
@@ -103,6 +102,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3421280",
     "exfgls": "3",
@@ -116,6 +116,43 @@
       "6": "113",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Serious Penguin Studios Inc.",
+    "publisher": "Serious Penguin Studios Inc.",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "PetesWorld",
+    "launch": {
+      "0": {
+        "executable": "petesworld.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3421281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "865067761815042955",
+          "size": "87317668",
+          "download": "27390992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20538807",
+        "timeupdated": "1761370693"
+      }
     }
   }
 }
