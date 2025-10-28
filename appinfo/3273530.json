@@ -1,10 +1,9 @@
 {
   "appid": "3273530",
-  "public_only": "1",
   "common": {
     "name": "1998: The Toll Keeper Story",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,7 +102,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761579402",
+    "store_asset_mtime": "1761635904",
     "associations": {
       "0": {
         "type": "developer",
@@ -149,9 +148,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761636238",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3273530",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -176,5 +176,76 @@
       "17": "7702",
       "18": "492"
     }
+  },
+  "extended": {
+    "developer": "GameChanger Studio",
+    "publisher": "GameChanger Studio",
+    "homepage": "https://gamechangerstudio.net/",
+    "listofdlc": "4102090",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "1998 The Toll Keeper Story",
+    "launch": {
+      "0": {
+        "executable": "1998 The Toll Keeper Story.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3273531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2327672552423060585",
+          "size": "2115154847",
+          "download": "1228221440"
+        },
+        "press": {
+          "gid": "2327672552423060585",
+          "size": "2115154847",
+          "download": "1228221440"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20559465",
+        "timeupdated": "1761575538"
+      },
+      "press": {
+        "buildid": "20559465",
+        "description": "For press",
+        "timeupdated": "1761575907"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "4096000",
+    "maxnumfiles": "250",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GameChanger Studio/1998 The Toll Keeper Story/Saves/",
+        "pattern": "*.tolldays",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "GameChanger Studio/1998 The Toll Keeper Story (Full)/Saves/",
+        "pattern": "*.tolldays",
+        "recursive": "1"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
