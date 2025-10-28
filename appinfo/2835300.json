@@ -1,13 +1,12 @@
 {
   "appid": "2835300",
-  "public_only": "1",
   "common": {
     "name": "Mod Shooter",
     "type": "Game",
     "icon": "2ff63630b2450067ada78d847c55f6f5b53bedfb",
     "clienticon": "0f513d672a1d64102a72c1f33cb74f80f1fdf75a",
     "clienttga": "25165f11475c9911b356f4483a7b96f6a401ba18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -106,9 +105,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761624807",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2835300",
-    "exfgls": "8",
     "store_tags": {
       "0": "5547",
       "1": "3859",
@@ -130,6 +130,64 @@
       "17": "1708",
       "18": "4166",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "developer": "KSD Media Studios",
+    "publisher": "KSD Media Studios"
+  },
+  "config": {
+    "installdir": "Mod Shooter",
+    "launch": {
+      "0": {
+        "executable": "ModShooter.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2835301": {
+      "manifests": {
+        "public": {
+          "gid": "2672955766598912598",
+          "size": "2086848748",
+          "download": "1806784832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19833626",
+        "timeupdated": "1756867343"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "ModShooter/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
