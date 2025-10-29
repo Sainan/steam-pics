@@ -1,6 +1,5 @@
 {
   "appid": "3523840",
-  "public_only": "1",
   "common": {
     "name": "Harvest Moon: Home Sweet Home Special Edition",
     "type": "Game",
@@ -13,7 +12,7 @@
     "osextended": "",
     "clienticon": "5ee4373f5563526c3557bc165372c68dc16d9613",
     "icon": "5ee4373f5563526c3557bc165372c68dc16d9613",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "nokeyboardmouse": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -123,9 +122,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761780076",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3523840",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "122",
@@ -141,6 +141,69 @@
       "11": "1742",
       "12": "1643",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "IMAGICA GEEQ Inc.",
+    "publisher": "Natsume Inc.",
+    "listofdlc": "3761530",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Harvest Moon Home Sweet Home Special Edition",
+    "launch": {
+      "0": {
+        "executable": "Harvest_Moon_Home_Sweet_Home_Special_Edition.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535"
+  },
+  "depots": {
+    "3523841": {
+      "manifests": {
+        "public": {
+          "gid": "4471990994572788674",
+          "size": "1536933107",
+          "download": "1197542112"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20301083",
+        "timeupdated": "1760497978"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "40000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": "natsume/HM_ HOME"
+      },
+      "1": {
+        "root": "gameinstall",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": "natsume/HM_ HOME"
+      }
     }
   }
 }
