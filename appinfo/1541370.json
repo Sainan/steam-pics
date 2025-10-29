@@ -1,6 +1,5 @@
 {
   "appid": "1541370",
-  "public_only": "1",
   "common": {
     "name": "Ultimate Theater Simulator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2f55b8fe64e62d8c78929cce382c3e52e16c3f58",
     "clienticon": "2f55b8fe64e62d8c78929cce382c3e52e16c3f58",
     "clienttga": "edc4d695e889f6e91cea761d895ed9fa229f37a2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -159,9 +158,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761762782",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1541370",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "10235",
@@ -179,6 +179,76 @@
       "13": "12057",
       "14": "4182",
       "15": "16250"
+    }
+  },
+  "extended": {
+    "gamedir": "",
+    "developer": "RAKTWO Games",
+    "publisher": "steelbox Games"
+  },
+  "config": {
+    "installdir": "UltimateTheaterSimulator",
+    "launch": {
+      "0": {
+        "executable": "UltimateTheaterSimulator.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65523",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamcontrollertemplateindex": "2"
+  },
+  "depots": {
+    "1541371": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "1541373": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "636482894554789639",
+          "size": "1930635732",
+          "download": "894135984"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20594464",
+        "timeupdated": "1761762676"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "UltimateTheaterSimulator_Data/SaveData",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "UltimateTheaterSimulator_Data/SaveData",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
