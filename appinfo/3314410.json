@@ -1,4 +1,139 @@
 {
   "appid": "3314410",
-  "public_only": "1"
+  "common": {
+    "name": "Vortica Playtest",
+    "type": "Beta",
+    "parent": "2980170",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "80d8cf03e22793db161ac358ff1de415574ac875",
+    "clienttga": "11d1d3600ddbf32be72f9a494031c872d69b55ec",
+    "icon": "80d8cf03e22793db161ac358ff1de415574ac875",
+    "small_capsule": {
+      "english": "64c7b46a2961a5e60d6ea42fd195adb2dfe742fc/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "c054248cace92f55f8915438cae738a9452a2b7b/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "UpperCenter",
+        "width_pct": "97.84130688448073",
+        "height_pct": "69.22492543948441"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "267e4126ad11b00d624dd62bef33673773922f98/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "267e4126ad11b00d624dd62bef33673773922f98/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "3a52c947560d5a4c7f3b2193d44ff5b1169fff8e/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "3a52c947560d5a4c7f3b2193d44ff5b1169fff8e/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "3a52c947560d5a4c7f3b2193d44ff5b1169fff8e/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "5d3d66b5255ce39206af1a8d89a4bcba84ea4d1d/logo.png"
+        },
+        "image2x": {
+          "english": "5d3d66b5255ce39206af1a8d89a4bcba84ea4d1d/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "UpperCenter",
+          "width_pct": "97.84130688448073",
+          "height_pct": "69.22492543948441"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "c054248cace92f55f8915438cae738a9452a2b7b/library_header.jpg"
+        },
+        "image2x": {
+          "english": "c054248cace92f55f8915438cae738a9452a2b7b/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1761759875",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1761759956",
+    "community_hub_visible": "1",
+    "gameid": "3314410",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "0",
+    "playtestinvitecount": "0"
+  },
+  "config": {
+    "installdir": "Vortica Playtest",
+    "launch": {
+      "0": {
+        "executable": "Vortica.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3314411": {
+      "manifests": {
+        "public": {
+          "gid": "2317897426417235176",
+          "size": "4847841727",
+          "download": "1635451488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20593824",
+        "timeupdated": "1761759349"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Vortica/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
 }
