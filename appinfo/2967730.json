@@ -1,6 +1,5 @@
 {
   "appid": "2967730",
-  "public_only": "1",
   "common": {
     "name": "THE SACRED MEMORY",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "russian": "1"
@@ -112,9 +111,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761732025",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2967730",
-    "exfgls": "8",
     "store_tags": {
       "0": "5030",
       "1": "4166",
@@ -136,6 +136,53 @@
       "17": "9592",
       "18": "6869",
       "19": "4085"
+    }
+  },
+  "extended": {
+    "developer": "VISUAL FLOSS",
+    "publisher": "Visual Floss GALANOS"
+  },
+  "config": {
+    "installdir": "THE SACRED MEMORY",
+    "launch": {
+      "0": {
+        "executable": "TSM.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TSM.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "TSM.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2967731": {
+      "manifests": {
+        "public": {
+          "gid": "6003922263463317061",
+          "size": "419874100",
+          "download": "303462656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20587676",
+        "timeupdated": "1761731779"
+      }
     }
   }
 }
