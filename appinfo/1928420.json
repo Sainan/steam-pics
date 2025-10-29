@@ -22,28 +22,32 @@
       "schinese": "远光84"
     },
     "steam_deck_compatibility": {
-      "category": "3",
+      "category": "2",
       "steamos_compatibility": "2",
-      "test_timestamp": "1699056000",
-      "tested_build_id": "12553149",
+      "test_timestamp": "1761350400",
+      "tested_build_id": "19580595",
       "tests": {
         "0": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
         },
         "1": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "2": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "3": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
           "display": "1",
           "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
@@ -55,19 +59,23 @@
         },
         "1": {
           "display": "1",
+          "token": "#SteamOS_TestResult_LauncherInteractionIssues"
+        },
+        "2": {
+          "display": "1",
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
       "configuration": {
         "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
-        "requires_non_controller_launcher_nav": "0",
+        "requires_non_controller_launcher_nav": "1",
         "primary_player_is_controller_slot_0": "1",
         "non_deck_display_glyphs": "0",
-        "small_text": "0",
+        "small_text": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-stable",
+        "recommended_runtime": "proton-experimental",
         "requires_h264": "1",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
