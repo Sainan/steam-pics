@@ -1,4 +1,90 @@
 {
   "appid": "4138900",
-  "public_only": "1"
+  "common": {
+    "name": "Back From Earth Demo",
+    "type": "Demo",
+    "parent": "4074220",
+    "icon": "3c9b53e833e5f2cc56e5de3c8c2c292c62fe09f6",
+    "linuxclienticon": "c5f3debac19a65b041c48cefcd98bc892f48971c",
+    "clienticns": "1b8247cf37d6a213984d3ee7263dcad539f50f66",
+    "clienticon": "3c9b53e833e5f2cc56e5de3c8c2c292c62fe09f6",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "aicontenttype": "1",
+    "gameid": "4138900",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Back From Earth Demo",
+    "launch": {
+      "0": {
+        "executable": "BackFromEarth_Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BuildMac.app/Contents/MacOS/BackFromEarth_Demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "BackFromEarth.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4138901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7669062037460036815",
+          "size": "474454853",
+          "download": "322742960"
+        }
+      }
+    },
+    "4138902": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6720435625825103512",
+          "size": "491006129",
+          "download": "330996832"
+        }
+      }
+    },
+    "4138903": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3462080030947670304",
+          "size": "471167079",
+          "download": "320727488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20561212",
+        "timeupdated": "1761582490"
+      }
+    }
+  }
 }
