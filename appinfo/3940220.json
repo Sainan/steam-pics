@@ -1,6 +1,5 @@
 {
   "appid": "3940220",
-  "public_only": "1",
   "common": {
     "name": "Lazy Lord: War on the Desktop",
     "type": "Game",
@@ -16,7 +15,7 @@
       "schinese": "躺平魔王：桌面上的战争",
       "japanese": "怠惰魔王：デスクトップの上の戦争"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -159,9 +158,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761073682",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3940220",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1645",
@@ -176,5 +176,53 @@
       "10": "8945",
       "11": "4182"
     }
+  },
+  "extended": {
+    "developer": "Restart Studio",
+    "publisher": "Restart Studio"
+  },
+  "config": {
+    "installdir": "Lazy Lord - Desktop War",
+    "launch": {
+      "0": {
+        "executable": "Lazy Lord - War on the Desktop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3940221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3688208066160536465",
+          "size": "382822240",
+          "download": "106198384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20589833",
+        "timeupdated": "1761742180"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1250000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Restart Studio\\Lazy Lord - War on the Desktop\\Saves",
+        "pattern": "*.json"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
