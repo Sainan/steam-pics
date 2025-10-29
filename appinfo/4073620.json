@@ -1,6 +1,5 @@
 {
   "appid": "4073620",
-  "public_only": "1",
   "common": {
     "name": "Rookie to Master Driver",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "e867e8d63c67460f5c7c593599fc96628d0c8363",
     "icon": "e867e8d63c67460f5c7c593599fc96628d0c8363",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "52aa48386d498c59bc26cbd82614ad142b2e850c/capsule_231x87.jpg"
@@ -109,7 +108,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4073620",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "1100687",
@@ -121,6 +119,41 @@
       "7": "492",
       "8": "3968",
       "9": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Liu Polun",
+    "publisher": "Lupo24"
+  },
+  "config": {
+    "installdir": "Rookie to Master Driver",
+    "launch": {
+      "0": {
+        "executable": "build/RookieToMasterDriver.exe",
+        "type": "config"
+      }
+    }
+  },
+  "depots": {
+    "4073621": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2828760142758869802",
+          "size": "1733944807",
+          "download": "436957440"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20591197",
+        "timeupdated": "1761748234"
+      }
     }
   }
 }
