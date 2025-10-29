@@ -1,6 +1,5 @@
 {
   "appid": "4100330",
-  "public_only": "1",
   "common": {
     "name": "Galactic Gardener",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,9 +100,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "4100330",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "19",
@@ -125,6 +124,59 @@
       "17": "1654",
       "18": "3942",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "SteelSky",
+    "publisher": "Grefau"
+  },
+  "config": {
+    "installdir": "Galactic Gardener",
+    "launch": {
+      "0": {
+        "executable": "Galactic Gardener.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Galactic Gardener.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4100331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7907023606875323755",
+          "size": "324953186",
+          "download": "207205072"
+        }
+      }
+    },
+    "4100332": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8876940717285793073",
+          "size": "297412382",
+          "download": "200539824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20532199",
+        "timeupdated": "1761323710"
+      }
     }
   }
 }
