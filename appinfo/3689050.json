@@ -1,11 +1,10 @@
 {
   "appid": "3689050",
-  "public_only": "1",
   "common": {
     "name": "Rogue Runner Demo",
     "type": "Demo",
     "parent": "3332790",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "df119ac4367667dc850bc702249e47c5c9382f0a",
     "icon": "df119ac4367667dc850bc702249e47c5c9382f0a",
     "oslist": "windows",
@@ -150,5 +149,49 @@
     },
     "gameid": "3689050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "42nd Machine",
+    "publisher": "42nd Machine"
+  },
+  "config": {
+    "installdir": "Rogue Runner Demo",
+    "launch": {
+      "0": {
+        "executable": "RogueRunner.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3689051": {
+      "manifests": {
+        "public": {
+          "gid": "401441694155383635",
+          "size": "1370438013",
+          "download": "1232966336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20595188",
+        "timeupdated": "1761766224"
+      }
+    }
   }
 }
