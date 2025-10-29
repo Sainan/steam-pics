@@ -1,10 +1,9 @@
 {
   "appid": "3299830",
-  "public_only": "1",
   "common": {
     "name": "Hollywood Story: Fashion Star",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -134,5 +133,42 @@
       "18": "4700",
       "19": "4947"
     }
+  },
+  "extended": {
+    "developer": "NANOBIT",
+    "publisher": "NANOBIT",
+    "homepage": "https://www.nanobit.com/games/hollywood-story-fashion-star",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "hollywood",
+    "launch": {
+      "0": {
+        "executable": "HollywoodWindows\\Bin\\x64\\Hollywood.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3299831": {
+      "manifests": {
+        "public": {
+          "gid": "821762767730852422",
+          "size": "379307389",
+          "download": "219920544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20159144",
+        "timeupdated": "1759031214"
+      }
+    },
+    "privatebranches": "1"
   }
 }
