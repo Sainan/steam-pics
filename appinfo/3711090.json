@@ -1,6 +1,5 @@
 {
   "appid": "3711090",
-  "public_only": "1",
   "common": {
     "name": "Bru & Boegie: Episode 1 - Get da MILK!",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticns": "52b8b4b33d0bb2fc6da5c48052325700e78e9a63",
     "linuxclienticon": "ff6d3be35d830c3db143597e6a432c18146cba52",
     "icon": "8d94dfd1d39dfe97ed133e030464bf2a6610ac42",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -133,10 +132,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761731991",
     "steam_deck_blog_url": "https://steamcommunity.com/games/3711090/announcements/detail/501710244523541462",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3711090",
-    "exfgls": "8",
     "store_tags": {
       "0": "1710",
       "1": "1698",
@@ -158,6 +158,120 @@
       "17": "4252",
       "18": "4305",
       "19": "5094"
+    }
+  },
+  "extended": {
+    "developer": "MIKDOG",
+    "publisher": "MIKDOG",
+    "homepage": "https://www.mikdog.com/bru-boegie-episode-1-get-da-milk/"
+  },
+  "config": {
+    "installdir": "Bru & Boegie Episode 1 - Get da MILK!",
+    "launch": {
+      "0": {
+        "executable": "bb_ep1.app/Contents/MacOS/bb_ep1",
+        "workingdir": "bb_ep1.app/Contents/MacOS/",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "bb_ep1.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "3": {
+        "executable": "bb_ep1.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3711092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "300482035321799958",
+          "size": "680306852",
+          "download": "170979360"
+        }
+      }
+    },
+    "3711093": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6504738243995342680",
+          "size": "663736012",
+          "download": "162810432"
+        }
+      }
+    },
+    "3711094": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2792012366629886242",
+          "size": "660892972",
+          "download": "160891264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20484147",
+        "timeupdated": "1761066271"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mikdog/bb_ep1",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Mikdog/bb_ep1",
+            "replace": "Mikdog"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Mikdog/bb_ep1",
+            "replace": ".config/unity3d/Mikdog/bb_ep1"
+          }
+        }
+      }
     }
   }
 }
