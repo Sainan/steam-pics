@@ -1,6 +1,5 @@
 {
   "appid": "4111060",
-  "public_only": "1",
   "common": {
     "name": "WizardsBane Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "08f2f0ef29ef8e6d5c83e76ec8fe874d08a4688f/capsule_231x87.jpg"
@@ -45,7 +44,79 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761738901",
     "gameid": "4111060",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "gugu games",
+    "publisher": "gugu games"
+  },
+  "config": {
+    "installdir": "WizardsBane Demo",
+    "launch": {
+      "0": {
+        "executable": "wizardsbane.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "wizardsbane.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "WizardsBane.app/Contents/MacOS/WizardsBane",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4111061": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2604662751767017594",
+          "size": "123177224",
+          "download": "49769136"
+        }
+      }
+    },
+    "4111062": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2434380064741668",
+          "size": "99077056",
+          "download": "44127808"
+        }
+      }
+    },
+    "4111063": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1121849812698017288",
+          "size": "215597120",
+          "download": "73390336"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20466502",
+        "timeupdated": "1760976556"
+      }
+    }
   }
 }
