@@ -1,6 +1,5 @@
 {
   "appid": "2978460",
-  "public_only": "1",
   "common": {
     "name": "HARD VOID",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "05333b183bb82b1298bcd8c8da168e8ce5026903",
     "clienticns": "0cd68e25b4db36fc388ba0004a2b12f016d30bd8",
     "clienticon": "361d39cadc0ff2f2fc2f7bd7d96acba2946c7c18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
@@ -112,9 +111,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "2978460",
-    "exfgls": "8",
     "store_tags": {
       "0": "1670",
       "1": "1755",
@@ -136,6 +135,81 @@
       "17": "4684",
       "18": "12472",
       "19": "6310"
+    }
+  },
+  "extended": {
+    "developer": "jejoxdev",
+    "publisher": "jejoxdev",
+    "homepage": "https://hardvoid.com/"
+  },
+  "config": {
+    "installdir": "HARD VOID",
+    "launch": {
+      "0": {
+        "executable": "hardvoid.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "hardvoid",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2978461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6256528159562001184",
+          "size": "128391670",
+          "download": "84343184"
+        },
+        "beta": {
+          "gid": "6256528159562001184",
+          "size": "128391670",
+          "download": "84343184"
+        }
+      }
+    },
+    "2978462": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1888082510780228001",
+          "size": "128183086",
+          "download": "84266304"
+        },
+        "beta": {
+          "gid": "1888082510780228001",
+          "size": "128183086",
+          "download": "84266304"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20588285",
+        "timeupdated": "1761734682"
+      },
+      "beta": {
+        "buildid": "20588285",
+        "description": "testing",
+        "timeupdated": "1761734562"
+      }
     }
   }
 }
