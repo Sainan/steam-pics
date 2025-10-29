@@ -1,6 +1,5 @@
 {
   "appid": "4092120",
-  "public_only": "1",
   "common": {
     "name": "Bililitz Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -118,5 +117,44 @@
     },
     "gameid": "4092120",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DougVeiraDev",
+    "publisher": "DougVeiraDev"
+  },
+  "config": {
+    "installdir": "Bililitz Demo",
+    "launch": {
+      "0": {
+        "executable": "Projeto_Demo\\bililitz_demo.exe",
+        "arguments": "After clicking on the executable it is enough to start the game",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "No"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4092121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2591955603538030727",
+          "size": "297234688",
+          "download": "192366736"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20274887",
+        "timeupdated": "1759775725"
+      }
+    }
   }
 }
