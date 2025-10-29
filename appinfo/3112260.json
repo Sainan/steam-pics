@@ -1,7 +1,7 @@
 {
   "appid": "3112260",
   "common": {
-    "name": "Virtua Fighter 5 R.E.V.O.",
+    "name": "Virtua Fighter 5 R.E.V.O. World Stage",
     "type": "Game",
     "languages": {
       "english": "1",
@@ -12,14 +12,16 @@
       "spanish": "1",
       "schinese": "1",
       "tchinese": "1",
-      "japanese": "1"
+      "japanese": "1",
+      "brazilian": "1",
+      "latam": "1"
     },
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "clienticon": "3077594ccedd5458de15c46b0bbb0cc248ed35f1",
+    "clienticon": "a7b58bc3ebdebd29f510fc56badb38f194c0c862",
     "clienttga": "c68ce7469542f5ce3ef54325921d7487cbd2eeb2",
-    "icon": "874cb015403f591bec755c951b57ed2e1db3c044",
+    "icon": "a7b58bc3ebdebd29f510fc56badb38f194c0c862",
     "releasestate": "released",
     "eulas": {
       "0": {
@@ -249,19 +251,19 @@
     "installdir": "VFREVO",
     "launch": {
       "0": {
-        "executable": "runtime/media/VFREVO.exe",
+        "executable": "runtime/media/start_protected_game.exe",
         "workingdir": "runtime/media/"
       },
       "1": {
-        "executable": "runtime/media/start_protected_game.exe",
+        "executable": "runtime/media/VFREVO.exe",
         "workingdir": "runtime/media/",
         "config": {
-          "betakey": "retail for_o2 for_nvidia"
+          "betakey": "release"
         },
         "description_loc": {
-          "english": "start_protected_game.exe を実行（EAC有効） ver106_retail ver106_release retail_product release_product ws_test rom_test o2test"
+          "english": "VFREVO.exe を実行（EAC無効）"
         },
-        "description": "start_protected_game.exe を実行（EAC有効） ver106_retail ver106_release retail_product release_product ws_test rom_test o2test"
+        "description": "VFREVO.exe を実行（EAC無効）"
       }
     },
     "uselaunchcommandline": "1",
@@ -309,7 +311,7 @@
     "3353790": {
       "dlcappid": "3353790"
     },
-    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese",
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,brazilian,latam",
     "hasdepotsindlc": "1",
     "branches": {
       "public": {
