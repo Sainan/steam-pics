@@ -1,6 +1,5 @@
 {
   "appid": "4072010",
-  "public_only": "1",
   "common": {
     "name": "Backgammon Premium",
     "type": "Game",
@@ -18,7 +17,7 @@
         "version": "3"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -138,6 +137,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761725990",
     "community_hub_visible": "1",
     "gameid": "4072010",
     "exfgls": "3",
@@ -152,5 +152,64 @@
       "7": "1775",
       "8": "3859"
     }
+  },
+  "extended": {
+    "developer": "Spectrum.Games International Ltd",
+    "publisher": "Spectrum.Games International Ltd",
+    "homepage": "https://backgammonpremium.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Backgammon Premium",
+    "launch": {
+      "0": {
+        "executable": "Backgammon.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Backgammon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4072011": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7345988648091014551",
+          "size": "415352865",
+          "download": "71651312"
+        }
+      }
+    },
+    "4072012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7684369102220519233",
+          "size": "407113365",
+          "download": "66893632"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20556900",
+        "timeupdated": "1761564339"
+      }
+    },
+    "privatebranches": "1"
   }
 }
