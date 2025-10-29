@@ -1,0 +1,221 @@
+{
+  "appid": "411480",
+  "common": {
+    "name": "BATTLECREW Space Pirates",
+    "type": "Game",
+    "releasestate": "released",
+    "oslist": "windows",
+    "clienticon": "9e4c97f063d6e7e55ae75cfb83d58ae72a379790",
+    "clienttga": "09e36afa678c20cdb83b55952aa1c05432cb19af",
+    "icon": "57ea7e24ccc42a2134c761fbe6a9ea9adffaba69",
+    "logo": "ed999b404248fb9ba7958fbf0fee9cc4cf3df311",
+    "logo_small": "ed999b404248fb9ba7958fbf0fee9cc4cf3df311_thumb",
+    "osarch": "64",
+    "languages": {
+      "english": "1",
+      "french": "1"
+    },
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1678924800",
+      "tested_build_id": "2982950",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Retired"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport_Retired"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "market_presence": "0",
+    "metacritic_name": "BATTLECREW™ Space Pirates",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_a36f30d888020798bf316460b81fd531465889da.jpg",
+    "store_asset_mtime": "1750428539",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "DONTNOD ELEVEN"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "DONTNOD ELEVEN"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "37"
+    },
+    "category": {
+      "category_1": "1",
+      "category_36": "1",
+      "category_28": "1",
+      "category_38": "1",
+      "category_23": "1",
+      "category_29": "1",
+      "category_25": "1",
+      "category_22": "1",
+      "category_35": "1",
+      "category_49": "1",
+      "category_9": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1499699280",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "411480",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "492",
+      "2": "3859",
+      "3": "19",
+      "4": "3878",
+      "5": "3843",
+      "6": "1685",
+      "7": "4758",
+      "8": "1681",
+      "9": "3871",
+      "10": "3942",
+      "11": "1625",
+      "12": "493",
+      "13": "1774",
+      "14": "4182",
+      "15": "1718"
+    },
+    "review_score": "5",
+    "review_percentage": "55"
+  },
+  "extended": {
+    "gamedir": "battlecrew",
+    "developer": "DONTNOD ELEVEN",
+    "publisher": "DONTNOD ELEVEN",
+    "homepage": "http://www.battlecrew-game.com",
+    "isfreeapp": "1",
+    "listofdlc": "653090,658860",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Battlecrew Space Pirates",
+    "steamcontrollertemplateindex": "2",
+    "launch": {
+      "0": {
+        "executable": "BSP.exe",
+        "description": "Version QA",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "qa_btc"
+        }
+      },
+      "2": {
+        "executable": "\\WAL\\Binaries\\Win64\\WAL.exe",
+        "description": "BATTLECREW Beta Interne",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "betakey": "battlecrew"
+        }
+      },
+      "4": {
+        "executable": "BSP.exe",
+        "description": "BATTLECREW Space Pirate",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "usemms": "1"
+  },
+  "depots": {
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "411481": {
+      "manifests": {
+        "public": {
+          "gid": "4504354957037061857",
+          "size": "5151067588",
+          "download": "1465563536"
+        }
+      }
+    },
+    "workshopdepot": "411480",
+    "branches": {
+      "public": {
+        "buildid": "2982950",
+        "timeupdated": "1532700962"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1512000",
+    "maxnumfiles": "12",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "WAL/Saved/SaveGames",
+        "pattern": "WAL.sav"
+      }
+    }
+  }
+}
