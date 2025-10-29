@@ -1,6 +1,5 @@
 {
   "appid": "3764070",
-  "public_only": "1",
   "common": {
     "name": "Heroic Hop: A New Adventure Begins",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "fe471cf8da37f250ca7a0d62e6df3afa856b61c8",
     "linuxclienticon": "efc702c8c77e57afb1fdc5e7dff87a6531ff8745",
     "clienticon": "cd437f9fd501ecf125585c86646af88ecc94ea5d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757213040",
+    "store_asset_mtime": "1761155801",
     "associations": {
       "0": {
         "type": "developer",
@@ -124,9 +123,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761711878",
     "community_hub_visible": "1",
     "gameid": "3764070",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -140,5 +139,92 @@
       "9": "5379",
       "10": "4004"
     }
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Ray C Rivera Morales",
+    "publisher": "Realm Chronicles Game Studio",
+    "gamemanualurl": "https://store.steampowered.com/manual/3764070/"
+  },
+  "config": {
+    "installdir": "Heroic Hop A New Adventure Begins",
+    "launch": {
+      "0": {
+        "executable": "HeroicHopGameWindows\\Heroic Hop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "none",
+          "ownsdlc": "none"
+        }
+      },
+      "1": {
+        "executable": "HeroicHopGameWindows\\Heroic Hop.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32",
+          "betakey": "none",
+          "ownsdlc": "none"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3764071": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "475037345366113719",
+          "size": "283217457",
+          "download": "170821952"
+        },
+        "windows64": {
+          "gid": "1485363374985924330",
+          "size": "249725570",
+          "download": "165230704"
+        }
+      }
+    },
+    "3764072": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "333241589851995112",
+          "size": "272982593",
+          "download": "166715248"
+        },
+        "windows64": {
+          "gid": "1189923790675800699",
+          "size": "259934338",
+          "download": "169324528"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,portuguese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20489637",
+        "timeupdated": "1761097647"
+      },
+      "windows64": {
+        "buildid": "18814278",
+        "description": "64",
+        "timeupdated": "1749579535"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "0",
+    "maxnumfiles": "0"
   }
 }
