@@ -1,4 +1,171 @@
 {
   "appid": "4133340",
-  "public_only": "1"
+  "common": {
+    "name": "Soko Spectacle Demo",
+    "type": "Demo",
+    "parent": "3359440",
+    "clienticon": "210d57bff67ba337db87693267f3bc0aee0c43cd",
+    "icon": "210d57bff67ba337db87693267f3bc0aee0c43cd",
+    "clienticns": "999e27c532ee2247da7bb361d0453d0f801de60c",
+    "linuxclienticon": "6a4144a15c998d8b8a57387f576a07dc3d743dcd",
+    "oslist": "windows,linux",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "396eda2eef7e4270942fca1ad3ac74a90f617a65/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "7c6ed83c3b8c9f09884570dd1ea1209ccbd5efe0/header.jpg"
+    },
+    "store_asset_mtime": "1761262557",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Jeremy Bouin"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Jeremy Bouin"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_23": "1",
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      }
+    },
+    "gameid": "4133340",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Jeremy Bouin",
+    "publisher": "Jeremy Bouin"
+  },
+  "config": {
+    "installdir": "Soko Spectacle Demo",
+    "launch": {
+      "0": {
+        "executable": "runDemo.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "Soko Spectacle Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4133341": {
+      "manifests": {
+        "public": {
+          "gid": "7691987643490264567",
+          "size": "27366219",
+          "download": "15554432"
+        }
+      }
+    },
+    "4133342": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2906459585995524083",
+          "size": "10204156",
+          "download": "4070608"
+        }
+      }
+    },
+    "4133343": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5916906800067592362",
+          "size": "12573050",
+          "download": "4891168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20595853",
+        "timeupdated": "1761770054"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "settings.dat"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "game.dat"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "Soko Spectacle",
+        "pattern": "settings.dat"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "Soko Spectacle",
+        "pattern": "game.dat"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "addpath": ""
+      }
+    },
+    "appidredirect": "3359440"
+  }
 }
