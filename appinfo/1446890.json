@@ -1,6 +1,5 @@
 {
   "appid": "1446890",
-  "public_only": "1",
   "common": {
     "name": "Shadow Fight Arena",
     "type": "Game",
@@ -12,7 +11,7 @@
     "icon": "53c590ab51314fd1ea9fc01c414123ff18911478",
     "clienttga": "30b2d5c0ea9892657ba8cc87bceb7a1b1a12e3ad",
     "clienticon": "239037ba6a383fd45db2ff9e5441064db7eff992",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "1446890_eula_0",
@@ -196,5 +195,47 @@
       "18": "1688",
       "19": "1684"
     }
+  },
+  "extended": {
+    "developer": "Nekki Limited",
+    "publisher": "Nekki Limited",
+    "homepage": "https://shadowfight.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Shadow Fight Arena",
+    "launch": {
+      "0": {
+        "executable": "SFA.exe",
+        "type": "none",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "1446891": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "8989761453499949455",
+          "size": "7790470568",
+          "download": "6984581632"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20530147",
+        "timeupdated": "1761321562"
+      }
+    },
+    "privatebranches": "1"
   }
 }
