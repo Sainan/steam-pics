@@ -1,10 +1,9 @@
 {
   "appid": "3022010",
-  "public_only": "1",
   "common": {
     "name": "Bonanit",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "32d6fdc28e2b1c05ec10e16c4ffb37b6e91e9a9d",
     "clienttga": "05d0d4330bb1faf8785e6f0ce490b6a2d99ba939",
     "clienticon": "bdd91d2fc2f9200526f9ec075bd3f66e186fa9e5",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761729912",
     "community_hub_visible": "1",
     "gameid": "3022010",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -126,6 +125,57 @@
       "11": "3978",
       "12": "6426",
       "13": "492"
+    }
+  },
+  "extended": {
+    "developer": "Necesito Estudios",
+    "publisher": "Necesito Estudios",
+    "homepage": "https://www.necesitoestudios.com"
+  },
+  "config": {
+    "installdir": "Bonanit",
+    "launch": {
+      "0": {
+        "executable": "Bonanit.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3022011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1850694056301044261",
+          "size": "3607089025",
+          "download": "3449203424"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20582504",
+        "timeupdated": "1761698903"
+      }
     }
   }
 }
