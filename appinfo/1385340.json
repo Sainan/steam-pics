@@ -1,6 +1,5 @@
 {
   "appid": "1385340",
-  "public_only": "1",
   "common": {
     "name": "Orbyss",
     "type": "Game",
@@ -26,7 +25,7 @@
       "polish": "1",
       "brazilian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -179,9 +178,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761731655",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1385340",
-    "exfgls": "8",
     "store_tags": {
       "0": "1664",
       "1": "6625",
@@ -203,6 +203,81 @@
       "17": "4026",
       "18": "4106",
       "19": "1697"
+    }
+  },
+  "extended": {
+    "developer": "Misty Whale",
+    "publisher": "Misty Whale",
+    "homepage": "https://mistywhale.com"
+  },
+  "config": {
+    "installdir": "Orbyss",
+    "launch": {
+      "0": {
+        "executable": "Orbyss.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1385341": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "7984114005383340789",
+          "size": "1399901132",
+          "download": "506079472"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20573371",
+        "timeupdated": "1761658293"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Orbyss/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
