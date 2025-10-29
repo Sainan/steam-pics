@@ -1,6 +1,5 @@
 {
   "appid": "2451190",
-  "public_only": "1",
   "common": {
     "name": "Kebabstar",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "5fe50d995048f01666c327d0f5fa959372bb1b41",
     "clienticon": "1832c1be0fa0bb33534e6287d3fe31acfc687679",
     "clienticns": "f1e587ad1bd177fbab4b1b4dc36f0904611115f8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "2451190_eula_0",
@@ -230,9 +229,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761771574",
     "community_hub_visible": "1",
     "gameid": "2451190",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -258,6 +257,53 @@
       "17": "5984",
       "18": "21",
       "19": "4726"
+    }
+  },
+  "extended": {
+    "developer": "Zeybek",
+    "publisher": "Zeybek",
+    "homepage": "https://zeybek.games/"
+  },
+  "config": {
+    "installdir": "Kebabstar",
+    "launch": {
+      "0": {
+        "executable": "Chef.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2451191": {
+      "manifests": {
+        "public": {
+          "gid": "5053803022747300664",
+          "size": "6941660517",
+          "download": "6273911808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19742303",
+        "timeupdated": "1756225327"
+      }
     }
   }
 }
