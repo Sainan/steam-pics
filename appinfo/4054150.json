@@ -1,12 +1,11 @@
 {
   "appid": "4054150",
-  "public_only": "1",
   "common": {
     "name": "Collector: 10 Lives Challenge",
     "type": "Game",
     "clienticon": "2c8680abe95fe6181f6046876ecb1e1ebd741974",
     "icon": "2c8680abe95fe6181f6046876ecb1e1ebd741974",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
@@ -101,9 +100,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761740479",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4054150",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -121,5 +121,63 @@
       "13": "7250",
       "14": "4182"
     }
+  },
+  "extended": {
+    "developer": "RH POSITIVE",
+    "publisher": "RH POSITIVE"
+  },
+  "config": {
+    "installdir": "Collector 10 Lives Challenge",
+    "launch": {
+      "0": {
+        "executable": "Collector.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Collector.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4054152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7326679674019740074",
+          "size": "113073831",
+          "download": "46644144"
+        }
+      }
+    },
+    "4054153": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6517173654754414702",
+          "size": "127421180",
+          "download": "37514560"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20357172",
+        "timeupdated": "1760271403"
+      }
+    },
+    "privatebranches": "1"
   }
 }
