@@ -1,10 +1,9 @@
 {
   "appid": "3965840",
-  "public_only": "1",
   "common": {
     "name": "魔卡棋兵",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "linuxclienticon": "5c30de6e7bddecec0e6f2476bdc05a0a0f8d603a",
     "icon": "22d435fd8e054ddbf042895e2f418895380f1576",
     "name_localized": {
@@ -127,11 +126,20 @@
       "schinese": {
         "supported": "true",
         "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1761014546",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3965840",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -153,6 +161,58 @@
       "17": "1708",
       "18": "4057",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "烛星游戏",
+    "publisher": "烛星游戏"
+  },
+  "config": {
+    "installdir": "ArcaneDeckChessWraith",
+    "launch": {
+      "0": {
+        "executable": "ArcaneDeckChessWraith.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3965841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7007288151351551535",
+          "size": "1426403765",
+          "download": "276744160"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20587115",
+        "timeupdated": "1761729155"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "150000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "CometaGamming/ArcaneDeckChessWraith",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
