@@ -1,6 +1,5 @@
 {
   "appid": "3939550",
-  "public_only": "1",
   "common": {
     "name": "Sunset Street Ninja",
     "type": "Game",
@@ -18,7 +17,7 @@
       }
     },
     "clienticon": "89dcad0420f35105cdfb938cadfa6f7622f8be20",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -123,9 +122,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761778122",
     "community_hub_visible": "1",
     "gameid": "3939550",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -152,5 +151,73 @@
       "18": "4182",
       "19": "4345"
     }
+  },
+  "extended": {
+    "developer": "SkeletronMK",
+    "publisher": "SkeletronMK"
+  },
+  "config": {
+    "installdir": "Sunset Street Ninja",
+    "launch": {
+      "0": {
+        "executable": "gzdoom.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Sunset Street Ninja for GZDoom"
+        },
+        "description": "Launch Sunset Street Ninja for GZDoom"
+      }
+    }
+  },
+  "depots": {
+    "3939552": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1376280205170584106",
+          "size": "124847841",
+          "download": "110995984"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20563235",
+        "timeupdated": "1761593018"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": "sunset saves"
+      }
+    },
+    "sync_while_suspended": "1",
+    "appidredirect": "3939550"
   }
 }
