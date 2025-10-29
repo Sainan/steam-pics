@@ -1,0 +1,184 @@
+{
+  "appid": "3678100",
+  "common": {
+    "name": "Tessel Run Playtest",
+    "type": "Beta",
+    "parent": "3661660",
+    "icon": "0f8b3855ab5fccd80bdcce12161de610eba04a8b",
+    "clienticon": "fd2a7efc63cfa5b42b3d6e5fbac3f81032ddb670",
+    "clienttga": "7accca3037bad9a7d4120972b715a210f1c238b7",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "af54f759895d9465b1ed3282c3623f42c5792159/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "d320d9ba9fb4dc81643bdb7187926894c394fb15/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "51.74050632911393",
+        "height_pct": "62.245897075118606"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "3108f565bf16d6863602bed64c01f9a71bd4222c/library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "3108f565bf16d6863602bed64c01f9a71bd4222c/library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "610238ee57d43fc28900d3a87623ef98563fce47/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "610238ee57d43fc28900d3a87623ef98563fce47/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "610238ee57d43fc28900d3a87623ef98563fce47/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "50938b8d316b06230beccd76810a721ec3a0ce46/logo.png"
+        },
+        "image2x": {
+          "english": "50938b8d316b06230beccd76810a721ec3a0ce46/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "51.74050632911393",
+          "height_pct": "62.245897075118606"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "61151b89fd09da1aed1f13434902c74a71aca2d2/library_header.jpg"
+        },
+        "image2x": {
+          "english": "61151b89fd09da1aed1f13434902c74a71aca2d2/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1744852967",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1745344541",
+    "community_hub_visible": "1",
+    "gameid": "3678100",
+    "exfgls": "6"
+  },
+  "extended": {
+    "playtest_type": "1"
+  },
+  "config": {
+    "installdir": "Tessel Run Playtest",
+    "launch": {
+      "0": {
+        "executable": "Tessel Run.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Tessel Run.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Tessel Run.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3678101": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6406760178590796538",
+          "size": "116568044",
+          "download": "30412416"
+        },
+        "playtest_multiplatform": {
+          "gid": "6406760178590796538",
+          "size": "116568044",
+          "download": "30412416"
+        }
+      }
+    },
+    "3678102": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3722890561646828614",
+          "size": "133342979",
+          "download": "37924048"
+        },
+        "playtest_multiplatform": {
+          "gid": "3722890561646828614",
+          "size": "133342979",
+          "download": "37924048"
+        }
+      }
+    },
+    "3678103": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6232902198426028206",
+          "size": "111403309",
+          "download": "28506256"
+        },
+        "playtest_multiplatform": {
+          "gid": "6232902198426028206",
+          "size": "111403309",
+          "download": "28506256"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18275094",
+        "timeupdated": "1745905327"
+      },
+      "playtest_multiplatform": {
+        "buildid": "18275094",
+        "description": "All of the OSes",
+        "timeupdated": "1745905280"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
