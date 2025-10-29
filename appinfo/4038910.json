@@ -128,7 +128,16 @@
     "installdir": "A Home Is Safe",
     "launch": {
       "0": {
-        "executable": "A Home Is Safe.exe"
+        "executable": "A Home Is Safe.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "A Home Is Safe.app",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
