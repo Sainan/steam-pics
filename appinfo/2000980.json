@@ -131,7 +131,11 @@
     "launch": {
       "0": {
         "executable": "Maku/Maku.exe",
-        "type": "default"
+        "type": "option1",
+        "description_loc": {
+          "english": "Maku (Current)"
+        },
+        "description": "Maku (Current)"
       },
       "1": {
         "executable": "IdleMaku/IdleMaku.exe",
@@ -148,6 +152,15 @@
     "uselaunchcommandline": "1"
   },
   "depots": {
+    "2000981": {
+      "manifests": {
+        "idlemaku": {
+          "gid": "3710876574994252242",
+          "size": "119160513",
+          "download": "40925408"
+        }
+      }
+    },
     "2000982": {
       "manifests": {
         "public": {
