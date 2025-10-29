@@ -1,6 +1,5 @@
 {
   "appid": "4123610",
-  "public_only": "1",
   "common": {
     "name": "Terrier Manager Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c4e591e7912e53aa295590fddb81c0d296552aba/capsule_231x87.jpg"
@@ -102,5 +101,49 @@
     },
     "gameid": "4123610",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Aggroblakh",
+    "publisher": "Aggroblakh"
+  },
+  "config": {
+    "installdir": "Terrier Manager Demo",
+    "launch": {
+      "0": {
+        "executable": "TerrierManagerDemo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4123611": {
+      "manifests": {
+        "public": {
+          "gid": "410851939280714557",
+          "size": "84430709",
+          "download": "50364672"
+        },
+        "local": {
+          "gid": "4674056900127963767",
+          "size": "84430709",
+          "download": "50364672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20539331",
+        "timeupdated": "1761375699"
+      },
+      "local": {
+        "buildid": "20539312",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1761375490"
+      }
+    }
   }
 }
