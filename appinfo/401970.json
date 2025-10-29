@@ -1,0 +1,188 @@
+{
+  "appid": "401970",
+  "common": {
+    "name": "Hypatia",
+    "type": "Game",
+    "oslist": "windows,linux",
+    "logo": "95638be917d28b0ad9ddf0ee215bc0772400dab0",
+    "logo_small": "95638be917d28b0ad9ddf0ee215bc0772400dab0_thumb",
+    "icon": "d27bb8d99e5b65b6b3db8185d50b5c5f0e310d1e",
+    "clienticon": "d1d114c727d3186501485c116021b32cc27ffea9",
+    "clienttga": "f99d34763f94d735469f16d31817d3362c868bae",
+    "controllervr": {
+      "steamvr": "1",
+      "oculus": "1",
+      "kbm": "1"
+    },
+    "playareavr": {
+      "seated": "1",
+      "standing": "1",
+      "roomscale": {
+        "width": "2",
+        "depth": "1.5",
+        "360_required": "0"
+      }
+    },
+    "releasestate": "released",
+    "openvrsupport": "1",
+    "osarch": "64",
+    "osextended": "",
+    "restricted_countries": "DE",
+    "metacritic_name": "Hypatia",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_2c11be9ed3a89353387b8cbd0ca911f8d4ed2216.jpg",
+    "store_asset_mtime": "1551827382",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "TimefireVR LLC"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "TimefireVR LLC"
+      }
+    },
+    "primary_genre": "29",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "4",
+      "3": "37",
+      "4": "29"
+    },
+    "category": {
+      "category_36": "1",
+      "category_20": "1",
+      "category_1": "1",
+      "category_27": "1",
+      "category_49": "1",
+      "category_52": "1",
+      "category_53": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1535575553",
+    "community_hub_visible": "1",
+    "gameid": "401970",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "128",
+      "1": "21978",
+      "2": "597",
+      "3": "21",
+      "4": "113",
+      "5": "19"
+    },
+    "review_score": "6",
+    "review_percentage": "70"
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "developer": "TimefireVR LLC",
+    "publisher": "TimefireVR LLC",
+    "homepage": "http://www.timefirevr.com/hypatia",
+    "isfreeapp": "1",
+    "listofdlc": "926970,968180",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Hypatia",
+    "launch": {
+      "0": {
+        "executable": "Hypatia.exe",
+        "arguments": "OSS=Steam",
+        "type": "vr",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hypatia.exe",
+        "arguments": "OSS=Steam -noHMD",
+        "description": "with Mouse and Keyboard",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "2": {
+        "executable": "hypatia.sh",
+        "arguments": "OSS=Steam",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228986": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "401971": {
+      "config": {
+        "oslist": "windows",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "3410384932121685477",
+          "size": "7443914415",
+          "download": "6528145456"
+        },
+        "local": {
+          "gid": "4683286835531681989",
+          "size": "9467174181",
+          "download": "9132986080"
+        }
+      }
+    },
+    "401972": {
+      "config": {
+        "oslist": "linux",
+        "language": ""
+      },
+      "manifests": {
+        "public": {
+          "gid": "1486538539776772953",
+          "size": "8603964595",
+          "download": "6928515968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "5824009",
+        "timeupdated": "1605236427"
+      },
+      "local": {
+        "buildid": "1878017",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1496964029"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
