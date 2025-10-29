@@ -1,6 +1,5 @@
 {
   "appid": "3808860",
-  "public_only": "1",
   "common": {
     "name": "奇怪的梦",
     "type": "Game",
@@ -21,7 +20,7 @@
     "name_localized": {
       "english": "StrangeDream"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1",
@@ -166,9 +165,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761757515",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3808860",
-    "exfgls": "8",
     "store_tags": {
       "0": "5900",
       "1": "3834",
@@ -191,5 +191,75 @@
       "18": "6971",
       "19": "8122"
     }
+  },
+  "extended": {
+    "developer": "草地w",
+    "publisher": "草地w"
+  },
+  "config": {
+    "installdir": "奇怪的梦",
+    "launch": {
+      "0": {
+        "executable": "Windows/StrangeDream.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "default"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3808861": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5011775378177439417",
+          "size": "2402404172",
+          "download": "2162670816"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20575076",
+        "timeupdated": "1761661322"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "StrangeDream",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
