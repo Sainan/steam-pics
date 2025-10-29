@@ -1,6 +1,5 @@
 {
   "appid": "4020720",
-  "public_only": "1",
   "common": {
     "name": "Yapori Dimensões",
     "type": "Game",
@@ -8,7 +7,7 @@
     "linuxclienticon": "f34355324712dace7a0c8cbabaaa50971b394eab",
     "clienticns": "f34355324712dace7a0c8cbabaaa50971b394eab",
     "clienticon": "c075506bfa49f031a4f39e42523b6a8cd13bf6bc",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -117,7 +116,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4020720",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "19",
@@ -136,6 +134,40 @@
       "14": "3993",
       "15": "7250",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Hayllon",
+    "publisher": "Hayllon Studios"
+  },
+  "config": {
+    "installdir": "Yapori Dimensoes.exe",
+    "launch": {
+      "0": {
+        "executable": "Yapori Dimensoes.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4020721": {
+      "manifests": {
+        "public": {
+          "gid": "4806051061443609460",
+          "size": "87406720",
+          "download": "32549216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20551152",
+        "timeupdated": "1761518495"
+      }
     }
   }
 }
