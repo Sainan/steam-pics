@@ -1,0 +1,161 @@
+{
+  "appid": "3392860",
+  "common": {
+    "name": "Mechanical Pulse Playtest",
+    "type": "Beta",
+    "parent": "3355930",
+    "icon": "20d5400ea6e53a1a3845917fd89fa87df5b93dbc",
+    "clienticon": "7f56b64c261cb3d80b6a7b100a46928ad58c59f1",
+    "clienttga": "4ccd1e7e7f22d5110b2e9ad76fc83a16ffc17c45",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "koreana": "1"
+    },
+    "name_localized": {
+      "koreana": "기계 심장의 맥박 Playtest"
+    },
+    "small_capsule": {
+      "english": "12e74215e97f01c0b221c067067c95eae9d6c6ee/capsule_231x87.jpg",
+      "koreana": "5bd684738b6b416423c810dfbdb797a38be32b2a/capsule_231x87_koreana.jpg"
+    },
+    "header_image": {
+      "english": "fbfffdb2c015283ca67916c0856d01aa2e91fe9f/header.jpg",
+      "koreana": "0a3b92c12db1799821f1f5c651784d059af88135/header_koreana.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en,ko",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en,ko",
+      "library_header": "en,ko",
+      "logo_position": {
+        "pinned_position": "CenterCenter",
+        "width_pct": "56.66666666666666",
+        "height_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "200630ad2d4c56db399680f653c1d5d801440796/library_capsule.jpg",
+          "koreana": "32ecd94090275f7d97ef09aa6685b0d887ce513c/library_capsule_koreana.jpg"
+        },
+        "image2x": {
+          "english": "200630ad2d4c56db399680f653c1d5d801440796/library_capsule_2x.jpg",
+          "koreana": "32ecd94090275f7d97ef09aa6685b0d887ce513c/library_capsule_koreana_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "78952c6229fe29a3bd418547a72dd2ed680dc8c6/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "78952c6229fe29a3bd418547a72dd2ed680dc8c6/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "78952c6229fe29a3bd418547a72dd2ed680dc8c6/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "c7a5b5474607ddcc59a6d7b1165dbc604db914ac/logo.png",
+          "koreana": "992b8de6aa0fc7ee29ca037555465f6762899a4d/logo_koreana.png"
+        },
+        "image2x": {
+          "english": "c7a5b5474607ddcc59a6d7b1165dbc604db914ac/logo_2x.png",
+          "koreana": "992b8de6aa0fc7ee29ca037555465f6762899a4d/logo_koreana_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "CenterCenter",
+          "width_pct": "56.66666666666666",
+          "height_pct": "100"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "fbfffdb2c015283ca67916c0856d01aa2e91fe9f/library_header.jpg",
+          "koreana": "0a3b92c12db1799821f1f5c651784d059af88135/library_header_koreana.jpg"
+        },
+        "image2x": {
+          "english": "fbfffdb2c015283ca67916c0856d01aa2e91fe9f/library_header_2x.jpg",
+          "koreana": "0a3b92c12db1799821f1f5c651784d059af88135/library_header_koreana_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1754602102",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1733814420",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "3392860",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Mechanical_Pulse_Playtest",
+    "launch": {
+      "0": {
+        "executable": "Mechanical_Pulse/Game.exe",
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3392861": {
+      "config": {
+        "language": "koreana"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2009660212799437079",
+          "size": "492491571",
+          "download": "368773104"
+        }
+      }
+    },
+    "3392862": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4623914518229332262",
+          "size": "492491567",
+          "download": "368773104"
+        }
+      }
+    },
+    "baselanguages": "koreana",
+    "branches": {
+      "public": {
+        "buildid": "19519568",
+        "timeupdated": "1754603634"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Mechanical_Pulse/www/save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
+  }
+}
