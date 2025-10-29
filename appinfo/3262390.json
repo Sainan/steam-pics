@@ -1,6 +1,5 @@
 {
   "appid": "3262390",
-  "public_only": "1",
   "common": {
     "name": "Academy Love Saga: Tennis Angels Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -171,11 +170,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "3262390",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Tora Creatives",
+    "publisher": "Tora Creatives"
+  },
+  "config": {
+    "installdir": "Academy Love Saga Tennis Angels Demo",
+    "launch": {
+      "0": {
+        "executable": "Tennis Angels Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3262391": {
+      "manifests": {
+        "public": {
+          "gid": "8308322298694252670",
+          "size": "1581276221",
+          "download": "863867792"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20297509",
+        "timeupdated": "1759900001"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "appidredirect": "3099630",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Tennis Angels_Data/SaveData",
+        "pattern": "*.ms"
+      },
+      "copied_from_parent": "1"
     }
   }
 }
