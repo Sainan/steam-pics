@@ -1,6 +1,5 @@
 {
   "appid": "3453730",
-  "public_only": "1",
   "common": {
     "name": "TORMENTOR Demo",
     "type": "Demo",
@@ -8,7 +7,7 @@
     "icon": "57ae403e081c3d8504fa70989d22d14c78f481b7",
     "clienttga": "d93f27a2048e4bc97e9b487444c1888bbe41ba46",
     "clienticon": "95136ac5d70eca1916b575e2e5618298c05129ec",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -59,5 +58,54 @@
       "1": "2",
       "2": "5"
     }
+  },
+  "extended": {
+    "developer": "Madmind Studio",
+    "publisher": "Madmind Studio"
+  },
+  "config": {
+    "installdir": "TORMENTOR Demo",
+    "launch": {
+      "0": {
+        "executable": "Tormentor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3453731": {
+      "manifests": {
+        "public": {
+          "gid": "3434121150112194483",
+          "size": "12722525916",
+          "download": "12404645968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20405648",
+        "timeupdated": "1760551304"
+      }
+    },
+    "privatebranches": "1"
   }
 }
