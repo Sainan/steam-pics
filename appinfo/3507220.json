@@ -1,6 +1,5 @@
 {
   "appid": "3507220",
-  "public_only": "1",
   "common": {
     "name": "Locked Together",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticns": "40e1c9766e528335487c4eb2d4e03bcba7e007bc",
     "linuxclienticon": "40e1c9766e528335487c4eb2d4e03bcba7e007bc",
     "clienticon": "ef9a40964f918684e5aaed7812de8c52a1f562c2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3507220",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -139,6 +139,54 @@
       "11": "492",
       "12": "4667",
       "13": "6129"
+    }
+  },
+  "extended": {
+    "developer": "OMA Production",
+    "publisher": "OMA Production"
+  },
+  "config": {
+    "installdir": "Locked Together",
+    "launch": {
+      "0": {
+        "executable": "Locked Together.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3507221": {
+      "manifests": {
+        "public": {
+          "gid": "1091221672309981707",
+          "size": "1672949772",
+          "download": "1067191488"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20572767",
+        "timeupdated": "1761650350"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "OMA Production/Locked Together",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
