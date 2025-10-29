@@ -1,6 +1,5 @@
 {
   "appid": "3753290",
-  "public_only": "1",
   "common": {
     "name": "Dartmour: Tablets of the Ancients Demo",
     "type": "Demo",
@@ -11,11 +10,7 @@
     "icon": "d830606f472237cfb841d3186060414d67a84f0c",
     "clienttga": "a404359014afe641093254dbc4474ef69f6b7cef",
     "clienticon": "e4f8878265cfa8a038bb74b4d3a3906cc05871fb",
-    "releasestate": "prerelease",
-    "content_descriptors": {
-      "0": "1",
-      "1": "5"
-    },
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -107,10 +102,71 @@
       }
     },
     "gameid": "3753290",
-    "exfgls": "6",
-    "content_descriptors_including_dlc": {
-      "0": "1",
-      "1": "5"
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Runemythic Games",
+    "publisher": "Runemythic Games"
+  },
+  "config": {
+    "installdir": "Dartmour Demo",
+    "launch": {
+      "0": {
+        "executable": "Dartmour Alpha 0.8.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3753291": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1055058138057922858",
+          "size": "2864956631",
+          "download": "1574526384"
+        },
+        "alpha_0_8_2": {
+          "gid": "1055058138057922858",
+          "size": "2864956631",
+          "download": "1574526384"
+        }
+      }
+    },
+    "3753292": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "alpha_0_8_2": {
+          "gid": "7935680039335323328",
+          "size": "2864956631",
+          "download": "1575239248"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20326951",
+        "timeupdated": "1760043795"
+      },
+      "alpha_0_8_2": {
+        "buildid": "20417983",
+        "description": "alpha demo",
+        "timeupdated": "1760614719"
+      }
     }
   }
 }
