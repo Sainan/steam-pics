@@ -1,6 +1,5 @@
 {
   "appid": "4097890",
-  "public_only": "1",
   "common": {
     "name": "Sweetie Candy Maze: Pink Raspberry",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "f97d35d0b037f29b970bede3e1b911072b06ceda",
     "clienticon": "f97d35d0b037f29b970bede3e1b911072b06ceda",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -623,9 +622,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761724640",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4097890",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "3871",
@@ -648,5 +648,54 @@
       "18": "4711",
       "19": "5350"
     }
+  },
+  "extended": {
+    "developer": "Cute Hannah's Games",
+    "publisher": "Cute Hannah's Games"
+  },
+  "config": {
+    "installdir": "Sweetie Candy Maze Pink Raspberry",
+    "launch": {
+      "0": {
+        "executable": "Sweetie Candy Maze Pink Raspberry.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4097891": {
+      "manifests": {
+        "public": {
+          "gid": "3543580382462997466",
+          "size": "624860922",
+          "download": "621801712"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20349653",
+        "timeupdated": "1760183649"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "2",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": ".",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
