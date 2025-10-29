@@ -1,6 +1,5 @@
 {
   "appid": "3478600",
-  "public_only": "1",
   "common": {
     "name": "Perpetuo Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "574fde1b0913cb30f367520230d6a7c8ef72adc3",
     "icon": "574fde1b0913cb30f367520230d6a7c8ef72adc3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -63,7 +62,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761730418",
     "gameid": "3478600",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Nightwolf Games",
+    "publisher": "Nightwolf Games"
+  },
+  "config": {
+    "installdir": "Perpetuo Demo",
+    "launch": {
+      "0": {
+        "executable": "Perpetuo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3478601": {
+      "manifests": {
+        "public": {
+          "gid": "3106584924822753447",
+          "size": "8721935286",
+          "download": "3964512912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20547087",
+        "timeupdated": "1761480406"
+      }
+    }
   }
 }
