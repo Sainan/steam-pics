@@ -1,6 +1,5 @@
 {
   "appid": "4073650",
-  "public_only": "1",
   "common": {
     "name": "Rookie to Master Driver Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f6c35bfc75ddce4def657923f7bfdc18bf42f394/capsule_231x87.jpg"
     },
@@ -50,5 +49,42 @@
     },
     "gameid": "4073650",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Liu Polun",
+    "publisher": "Lupo24"
+  },
+  "config": {
+    "installdir": "Rookie to Master Driver Demo",
+    "launch": {
+      "0": {
+        "executable": "build/RookieToMasterDriver.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4073651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7453641695067624656",
+          "size": "1733947783",
+          "download": "437070928"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20591712",
+        "timeupdated": "1761750332"
+      }
+    }
   }
 }
