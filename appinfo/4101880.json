@@ -1,6 +1,5 @@
 {
   "appid": "4101880",
-  "public_only": "1",
   "common": {
     "name": "死灵法师 Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -26,7 +25,7 @@
       "schinese": "57498f3532bfcfbd55d8cc1b03756bfae71952c8/header_schinese.jpg"
     },
     "store_screenshot": "b21098d7ed1c048081b599759eb882d70193bda6/ss_b21098d7ed1c048081b599759eb882d70193bda6.jpg",
-    "store_asset_mtime": "1760070421",
+    "store_asset_mtime": "1761386408",
     "associations": {
       "0": {
         "type": "developer",
@@ -56,7 +55,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761698256",
     "gameid": "4101880",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "龙学派猎魔人",
+    "publisher": "龙学派猎魔人"
+  },
+  "config": {
+    "installdir": "Necromancer_Demo",
+    "launch": {
+      "0": {
+        "executable": "Necromancer_D1.0\\Necromancer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4101881": {
+      "manifests": {
+        "public": {
+          "gid": "3758430813342249768",
+          "size": "1404975433",
+          "download": "945102224"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20545385",
+        "timeupdated": "1761448336"
+      }
+    }
   }
 }
