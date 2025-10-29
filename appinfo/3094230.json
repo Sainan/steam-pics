@@ -1,13 +1,12 @@
 {
   "appid": "3094230",
-  "public_only": "1",
   "common": {
     "name": "Stream Olympique",
     "type": "Game",
     "icon": "81b1ea6fcd0805763160fa92605773b8802a7920",
     "clienttga": "af101a20181c77d2fa02c443631d9fee7507cf32",
     "clienticon": "a1625336da16bf6f7858189c51d0b34675bf6a8f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -67,14 +66,14 @@
       },
       "library_header": {
         "image": {
-          "english": "bb1ffed986e84b431a2964cbfb63d12861b63cb6/library_header.jpg"
+          "english": "9e600aad41d8f280f744b7e71589f7ed3b28b699/library_header.jpg"
         },
         "image2x": {
-          "english": "bb1ffed986e84b431a2964cbfb63d12861b63cb6/library_header_2x.jpg"
+          "english": "9e600aad41d8f280f744b7e71589f7ed3b28b699/library_header_2x.jpg"
         }
       }
     },
-    "store_asset_mtime": "1760468518",
+    "store_asset_mtime": "1761062035",
     "associations": {
       "0": {
         "type": "developer",
@@ -105,7 +104,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3094230",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4191",
@@ -127,6 +125,58 @@
       "17": "1773",
       "18": "5395",
       "19": "128"
+    }
+  },
+  "extended": {
+    "developer": "Fini",
+    "publisher": "YannUE5"
+  },
+  "config": {
+    "installdir": "Stream Olympique",
+    "launch": {
+      "0": {
+        "executable": "Windows\\StreamOlympique.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3094231": {
+      "manifests": {
+        "public": {
+          "gid": "4222267811612771666",
+          "size": "652282308",
+          "download": "498866976"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20389833",
+        "timeupdated": "1760462951"
+      }
     }
   }
 }
