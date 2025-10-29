@@ -1,6 +1,5 @@
 {
   "appid": "3269230",
-  "public_only": "1",
   "common": {
     "name": "Earth vs Mars",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "5c5b4bd50b7ce08b45f98145b42e77232932a387",
     "clienticon": "c4c0ff55332ff469b909d43517b44107b5892d6a",
     "clienttga": "f88ba439ea3cd48c40736629069eaf763cc037c4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3269230_eula_0",
@@ -143,9 +142,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761757148",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3269230",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "1741",
@@ -167,6 +167,90 @@
       "17": "4598",
       "18": "4305",
       "19": "4791"
+    }
+  },
+  "extended": {
+    "developer": "Relic Labs",
+    "publisher": "Relic Labs"
+  },
+  "config": {
+    "installdir": "Earth vs Mars",
+    "launch": {
+      "0": {
+        "executable": "corman\\Binaries\\Win64\\corman-Win64-Shipping.exe",
+        "workingdir": "corman\\Binaries\\Win64\\",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "corman\\Binaries\\Win64\\corman.exe",
+        "arguments": "corman\\Binaries\\Win64\\",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64",
+          "betakey": "playtest_development"
+        },
+        "description_loc": {
+          "english": "playtest_development"
+        },
+        "description": "playtest_development"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3269231": {
+      "manifests": {
+        "public": {
+          "gid": "6835815781019428331",
+          "size": "1476221583",
+          "download": "1256259584"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20566121",
+        "timeupdated": "1761665971"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "corman/Saved/Config",
+        "pattern": "*.ini",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "corman/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
