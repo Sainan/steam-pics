@@ -17,8 +17,8 @@
         "url": "https://store.steampowered.com//eula/468070_eula_1"
       }
     },
-    "osarch": "",
-    "osextended": "macos64",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
     "metacritic_name": "90 Minute Fever",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -146,16 +146,6 @@
     "contenttype": "3",
     "installdir": "90 Minute Fever",
     "launch": {
-      "0": {
-        "executable": "Windows/x86/90 Minute Fever.exe",
-        "arguments": "webservice=https://live.90minutefever.com/90mf-api-server/restenc/ accountConnect=true",
-        "description": "32 bit",
-        "type": "none",
-        "config": {
-          "oslist": "windows",
-          "osarch": "32"
-        }
-      },
       "3": {
         "executable": "Mac/90 Minute Fever.app",
         "arguments": "webservice=https://live.90minutefever.com/90mf-api-server/restenc/ accountConnect=true",
@@ -178,28 +168,15 @@
     }
   },
   "depots": {
-    "468071": {
-      "config": {
-        "oslist": "windows",
-        "osarch": "32"
-      },
-      "manifests": {
-        "public": {
-          "gid": "4475031991276864616",
-          "size": "2195912412",
-          "download": "315760064"
-        }
-      }
-    },
     "468072": {
       "config": {
         "oslist": "macos"
       },
       "manifests": {
         "public": {
-          "gid": "4983975982821494460",
-          "size": "2007414412",
-          "download": "268107376"
+          "gid": "8538521893275747436",
+          "size": "1297588323",
+          "download": "289303712"
         }
       }
     },
@@ -210,9 +187,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "3901979491516647354",
-          "size": "1585314316",
-          "download": "300513488"
+          "gid": "5027077491933736704",
+          "size": "1588510135",
+          "download": "301512848"
         }
       }
     },
@@ -234,8 +211,8 @@
     },
     "branches": {
       "public": {
-        "buildid": "20242653",
-        "timeupdated": "1759643712"
+        "buildid": "20588099",
+        "timeupdated": "1761733735"
       }
     }
   }
