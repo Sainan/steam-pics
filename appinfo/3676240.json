@@ -1,10 +1,9 @@
 {
   "appid": "3676240",
-  "public_only": "1",
   "common": {
     "name": "EmyLiveShow: Dungeon & Mistresses Tale",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "a31b7a7801fc3743df7f905828ad1474b90b4f74",
     "clienticon": "064eb34c8d76d85152fab60146f7a267e625fb77",
     "clienttga": "67de653e51c5c254d832b88e8d9f710ed745c95d",
@@ -171,9 +170,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761740435",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3676240",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -201,6 +201,77 @@
       "17": "6971",
       "18": "12095",
       "19": "5094"
+    }
+  },
+  "extended": {
+    "developer": "Team Emily",
+    "publisher": "Team Emily"
+  },
+  "config": {
+    "installdir": "EmyLiveShow Dungeon & Mistresses Tale",
+    "launch": {
+      "0": {
+        "executable": "EmyLiveShow Dungeon & Mistresses.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "EmyLiveShow Dungeon And Mistresses.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3676241": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6171674104465494542",
+          "size": "5700716682",
+          "download": "975806048"
+        }
+      }
+    },
+    "3676242": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6845923244361248253",
+          "size": "5768430039",
+          "download": "995234160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20587026",
+        "timeupdated": "1761728817"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Team Emily/EmyLiveShow_ Dungeon & Mistresses",
+        "pattern": "*.sv",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
