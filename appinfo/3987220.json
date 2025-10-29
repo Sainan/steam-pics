@@ -1,10 +1,9 @@
 {
   "appid": "3987220",
-  "public_only": "1",
   "common": {
     "name": "Graftage",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3987220",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -134,6 +134,49 @@
       "17": "15172",
       "18": "7250",
       "19": "1664"
+    }
+  },
+  "extended": {
+    "developer": "Vagus Truman",
+    "publisher": "Vagus Truman"
+  },
+  "config": {
+    "installdir": "Graftage",
+    "launch": {
+      "0": {
+        "executable": "Graftage.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3987221": {
+      "manifests": {
+        "public": {
+          "gid": "6377134090145291128",
+          "size": "1551984834",
+          "download": "1253854800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20411001",
+        "timeupdated": "1760574019"
+      }
     }
   }
 }
