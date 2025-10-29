@@ -1,0 +1,283 @@
+{
+  "appid": "336160",
+  "common": {
+    "name": "Monsters!",
+    "type": "Game",
+    "oslist": "windows,macos,linux",
+    "logo": "6013bfa76b082ddc58b080b48a045611830ee3cf",
+    "logo_small": "6013bfa76b082ddc58b080b48a045611830ee3cf_thumb",
+    "icon": "d1047e72ce8fee89ec69f9118c20da421bce1137",
+    "clienttga": "079e81863bb19efb57a637d5bbff8e5f4a488b58",
+    "linuxclienticon": "be151f93e55b94f0e4ea88eb77bade72f79c8605",
+    "clienticns": "634275148dc896ef0bb60d29e9e74d3c0dbc37b4",
+    "clienticon": "2991045c1d2f7769c7fe398f4a4ccdd14987749b",
+    "releasestate": "released",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1702684800",
+      "tested_build_id": "12325341",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "0",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Monsters!",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1699537866",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "QuadraTron Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "QuadraTron Games"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true"
+      }
+    },
+    "steam_release_date": "1477404540",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "336160",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "19",
+      "1": "492",
+      "2": "4758",
+      "3": "3871",
+      "4": "3964"
+    },
+    "review_score": "7",
+    "review_percentage": "87"
+  },
+  "extended": {
+    "developer": "QuadraTron Games",
+    "publisher": "QuadraTron Games",
+    "homepage": "http://monsters.quadratron.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Monsters! Reborn!",
+    "launch": {
+      "0": {
+        "executable": "Monsters.exe",
+        "description": "Launch",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Monsters.app",
+        "description": "Launch",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Monsters.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "4": {
+        "executable": "Monsters.exe",
+        "arguments": "-show-screen-selector",
+        "description": "Launch Resolution Dialog",
+        "type": "config",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "5": {
+        "executable": "Monsters.app",
+        "arguments": "-show-screen-selector",
+        "description": "Launch Resolution Dialog",
+        "type": "config",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "6": {
+        "executable": "Monsters.x86_64",
+        "type": "config",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch Resolution Dialog"
+        },
+        "description": "Launch Resolution Dialog"
+      }
+    },
+    "steamcontrollertemplateindex": "2"
+  },
+  "depots": {
+    "336164": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8843488497604858660",
+          "size": "197627822",
+          "download": "101211120"
+        },
+        "anniversaryedition": {
+          "gid": "8843488497604858660",
+          "size": "197627822",
+          "download": "101211120"
+        }
+      }
+    },
+    "336165": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5590172572394147018",
+          "size": "220992286",
+          "download": "108233600"
+        },
+        "anniversaryedition": {
+          "gid": "5590172572394147018",
+          "size": "220992286",
+          "download": "108233600"
+        }
+      }
+    },
+    "336166": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1441052157691500667",
+          "size": "195497108",
+          "download": "99327936"
+        },
+        "anniversaryedition": {
+          "gid": "1441052157691500667",
+          "size": "195497108",
+          "download": "99327936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "12325341",
+        "timeupdated": "1696086976"
+      },
+      "anniversaryedition": {
+        "buildid": "12325341",
+        "description": "Anniversary Edition",
+        "timeupdated": "1696086959"
+      }
+    }
+  }
+}
