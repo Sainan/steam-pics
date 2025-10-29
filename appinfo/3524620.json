@@ -1,6 +1,5 @@
 {
   "appid": "3524620",
-  "public_only": "1",
   "common": {
     "name": "杀戮剧院",
     "type": "Game",
@@ -15,7 +14,7 @@
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "clienticns": "acc9e142464c457c20e654f4fb2f37d950c76e39",
     "clienticon": "62ad5e11b2294a596358ea031ca1af0a8dcbe5d9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "22ed72d85bc07e6c88a932a5729db83a8279e6ca/capsule_231x87.jpg",
@@ -118,9 +117,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3524620",
-    "exfgls": "8",
     "store_tags": {
       "0": "14139",
       "1": "3959",
@@ -143,5 +142,46 @@
       "18": "7432",
       "19": "16094"
     }
+  },
+  "extended": {
+    "developer": "CHENSI NETWORK",
+    "publisher": "CHENSI NETWORK"
+  },
+  "config": {
+    "installdir": "sljy",
+    "launch": {
+      "0": {
+        "executable": "sljy/start.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3524621": {
+      "manifests": {
+        "public": {
+          "gid": "2312126940054616012",
+          "size": "588980255",
+          "download": "337814912"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20186046",
+        "timeupdated": "1759221660"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
