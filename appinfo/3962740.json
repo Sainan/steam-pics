@@ -1,10 +1,9 @@
 {
   "appid": "3962740",
-  "public_only": "1",
   "common": {
     "name": "Pediluvium",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -409,9 +408,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3962740",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "615955",
@@ -431,6 +430,49 @@
       "15": "3810",
       "16": "4094",
       "17": "3839"
+    }
+  },
+  "extended": {
+    "developer": " Alice Karaush",
+    "publisher": " Alice Karaush"
+  },
+  "config": {
+    "installdir": "Pediluvium",
+    "launch": {
+      "0": {
+        "executable": "Pediluvium.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3962741": {
+      "manifests": {
+        "public": {
+          "gid": "4203174332545967565",
+          "size": "497374343",
+          "download": "362210592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20595554",
+        "timeupdated": "1761768259"
+      }
     }
   }
 }
