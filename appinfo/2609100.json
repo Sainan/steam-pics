@@ -1,6 +1,5 @@
 {
   "appid": "2609100",
-  "public_only": "1",
   "common": {
     "name": "AFK Companion",
     "type": "Application",
@@ -10,7 +9,7 @@
     "icon": "d1f15e656a77692762b150739b6289e5633848c4",
     "clienticon": "d1f15e656a77692762b150739b6289e5633848c4",
     "clienttga": "d2f1c17ad14d9eacf1d314f46196496951e9f066",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce7240c5af7b8933aa814b431ec1ce715761fc09/capsule_231x87.jpg"
     },
@@ -103,6 +102,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2609100",
     "exfgls": "6",
@@ -113,6 +114,92 @@
       "3": "3871",
       "4": "4182",
       "5": "8013"
+    }
+  },
+  "extended": {
+    "developer": "Artur Khutak",
+    "publisher": "Artur Khutak"
+  },
+  "config": {
+    "installdir": "AFK Companion",
+    "launch": {
+      "0": {
+        "executable": "afk-companion.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "afk-companion",
+        "arguments": "--no-sandbox --disable-gpu-sandbox --disable-dev-shm-usage",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "afk-companion.app/Contents/MacOS/afk-companion",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2609101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "741284650903960333",
+          "size": "92659377",
+          "download": "92507008"
+        }
+      }
+    },
+    "2609102": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1947305777547528386",
+          "size": "400452377",
+          "download": "126488496"
+        }
+      }
+    },
+    "2609103": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8055422910949897489",
+          "size": "1503350055",
+          "download": "202398064"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20350272",
+        "timeupdated": "1760190064"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "storage",
+        "pattern": "*.sav"
+      }
     }
   }
 }
