@@ -11,14 +11,14 @@
     "osextended": "macosapplesilicon",
     "releasestate": "released",
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "steamos_compatibility": "2",
-      "test_timestamp": "1744675200",
-      "tested_build_id": "17186631",
+      "test_timestamp": "1759449600",
+      "tested_build_id": "20178340",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "1": {
           "display": "4",
@@ -33,14 +33,10 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
       "configuration": {
-        "supported_input": "other",
+        "supported_input": "gamepad",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "0",
@@ -48,7 +44,7 @@
         "small_text": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-9.0-4RC",
+        "recommended_runtime": "proton-10.0-beta",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
@@ -119,7 +115,7 @@
         }
       }
     },
-    "store_asset_mtime": "1747408069",
+    "store_asset_mtime": "1760994948",
     "associations": {
       "0": {
         "type": "developer",
@@ -152,7 +148,6 @@
       }
     },
     "steam_release_date": "1725881870",
-    "steam_deck_blog_url": "https://steamcommunity.com/app/2849680/discussions/0/597386590728345355/",
     "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2849680",
@@ -221,14 +216,14 @@
       },
       "manifests": {
         "public": {
-          "gid": "8115910478827366844",
-          "size": "331291125",
-          "download": "152271936"
-        },
-        "beta": {
           "gid": "763013945446641021",
           "size": "410000319",
           "download": "192178592"
+        },
+        "beta": {
+          "gid": "3281197333203018437",
+          "size": "410004309",
+          "download": "192177920"
         },
         "intel_mac": {
           "gid": "3989315577374124525",
@@ -248,14 +243,14 @@
       },
       "manifests": {
         "public": {
-          "gid": "8281865306632577465",
-          "size": "362422305",
-          "download": "167499792"
-        },
-        "beta": {
           "gid": "1578928372725645217",
           "size": "451934462",
           "download": "204925728"
+        },
+        "beta": {
+          "gid": "5133332857491407510",
+          "size": "451938452",
+          "download": "204925920"
         },
         "intel_mac": {
           "gid": "8281865306632577465",
@@ -271,13 +266,13 @@
     },
     "branches": {
       "public": {
-        "buildid": "18493223",
-        "timeupdated": "1747414647"
+        "buildid": "20426909",
+        "timeupdated": "1761054476"
       },
       "beta": {
-        "buildid": "20426909",
+        "buildid": "20589778",
         "description": "testing branch",
-        "timeupdated": "1760657073"
+        "timeupdated": "1761741843"
       },
       "intel_mac": {
         "buildid": "18518726",
