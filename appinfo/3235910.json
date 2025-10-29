@@ -1,10 +1,9 @@
 {
   "appid": "3235910",
-  "public_only": "1",
   "common": {
     "name": "Halloween 1985",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "248134b433587184e9ab19c366a8ba67ae6f40e6",
     "clienttga": "2697ac17a48d2c4cf08ddb2c049ad3df66317f7a",
     "oslist": "windows,linux",
@@ -79,7 +78,7 @@
     "associations": {
       "0": {
         "type": "developer",
-        "name": "Spoonbox Studio"
+        "name": "SpoonBox Studio"
       },
       "1": {
         "type": "publisher",
@@ -111,9 +110,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761723377",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3235910",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "5379",
@@ -135,6 +135,68 @@
       "17": "17015",
       "18": "7743",
       "19": "4018"
+    }
+  },
+  "extended": {
+    "developer": "SpoonBox Studio",
+    "publisher": "Spoonbox Studio"
+  },
+  "config": {
+    "installdir": "Halloween 1985",
+    "launch": {
+      "0": {
+        "executable": "Halloween_1985.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Halloween_1985",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3235911": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2936309647230055621",
+          "size": "98917451",
+          "download": "57775776"
+        }
+      }
+    },
+    "3235912": {
+      "config": {
+        "oslist": "linux",
+        "steamdeck": "1",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3748234073133407554",
+          "size": "373891861",
+          "download": "167973168"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19686055",
+        "timeupdated": "1755791263"
+      }
     }
   }
 }
