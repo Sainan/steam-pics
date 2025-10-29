@@ -1,0 +1,207 @@
+{
+  "appid": "2802200",
+  "common": {
+    "name": "Vault of the Void Demo",
+    "type": "Demo",
+    "parent": "1135810",
+    "releasestate": "released",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "icon": "1c7cf6a9ef2baee528e355f09d4b76fbd06b9e42",
+    "clienticon": "7f2dff50ce892b5b83f8a7c616c264914be37f02",
+    "clienttga": "12f9e4a2b48120f141b5067baec80162716ef540",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_asset_mtime": "1706047762",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Spider Nest Games"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Spider Nest Games"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_29": "1",
+      "category_23": "1",
+      "category_15": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "french": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "italian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "spanish": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "japanese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1706581563",
+    "gameid": "2802200",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Spider Nest Games",
+    "publisher": "Spider Nest Games",
+    "homepage": "http://www.vaultofthevoid.com"
+  },
+  "config": {
+    "installdir": "Vault of the Void Demo",
+    "launch": {
+      "0": {
+        "executable": "VaultoftheVoid.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "VaultoftheVoid.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2802201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1726343435045098803",
+          "size": "557449543",
+          "download": "361352288"
+        },
+        "beta": {
+          "gid": "1726343435045098803",
+          "size": "557449543",
+          "download": "361352288"
+        }
+      }
+    },
+    "2802202": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "335138190231600284",
+          "size": "612244876",
+          "download": "378067888"
+        },
+        "beta": {
+          "gid": "5866368760924686683",
+          "size": "610142712",
+          "download": "390807376"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "18681072",
+        "timeupdated": "1748645641"
+      },
+      "beta": {
+        "buildid": "20595088",
+        "description": "beta testing",
+        "timeupdated": "1761765631"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "VaultoftheVoid",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "VaultoftheVoid/Runs",
+        "pattern": "*.json"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "VaultoftheVoid",
+        "pattern": "PlayerProgress.json"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "VaultoftheVoid",
+        "pattern": "PlayerRun.json"
+      },
+      "4": {
+        "root": "WinAppDataLocal",
+        "path": "VaultoftheVoid",
+        "pattern": "PlayerRunChecksum.txt"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "VaultoftheVoid",
+            "replace": "com.vaultofthevoid"
+          }
+        }
+      }
+    }
+  }
+}
