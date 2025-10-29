@@ -1,6 +1,5 @@
 {
   "appid": "4127380",
-  "public_only": "1",
   "common": {
     "name": "Unattached: City of Shadows Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -103,10 +102,64 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761767130",
     "gameid": "4127380",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Fahlawa Studio FZE",
+    "publisher": "Fahlawa Studio FZE",
+    "homepage": "https://unattachedgame.com/"
+  },
+  "config": {
+    "installdir": "Unattached City of Shadows Demo",
+    "launch": {
+      "0": {
+        "executable": "Attempt11.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4127381": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3944765338931963334",
+          "size": "6559921389",
+          "download": "6157031952"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20500206",
+        "timeupdated": "1761154767"
+      }
     }
   }
 }
