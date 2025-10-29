@@ -1,13 +1,12 @@
 {
   "appid": "3911340",
-  "public_only": "1",
   "common": {
     "name": "Galaxy for Dummies",
     "type": "Game",
     "icon": "6ba0b02eb71219cf920bb83277dccb27ee2254df",
     "clienticon": "0ebc32db77590131a2193580b61e2e5f3cd8e803",
     "clienttga": "20da0a38263274a3873e3f0dd2488ae806df3fe7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -109,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3911340",
-    "exfgls": "8",
     "store_tags": {
       "0": "3959",
       "1": "1084988",
@@ -133,6 +133,47 @@
       "17": "1719",
       "18": "5752",
       "19": "4295"
+    }
+  },
+  "extended": {
+    "developer": "Alien Abduction Art",
+    "publisher": "Eelsmooth"
+  },
+  "config": {
+    "installdir": "Galaxy for Dummies",
+    "launch": {
+      "0": {
+        "executable": "GalaxyForDummies.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3911341": {
+      "manifests": {
+        "public": {
+          "gid": "7607139819792964770",
+          "size": "463205201",
+          "download": "157611520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20468264",
+        "timeupdated": "1760984823"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "AlienAbductionArt\\GalaxyForDummies",
+        "pattern": "*"
+      }
     }
   }
 }
