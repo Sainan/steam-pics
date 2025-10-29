@@ -1,6 +1,5 @@
 {
   "appid": "4113130",
-  "public_only": "1",
   "common": {
     "name": "Meritaton Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "caebbb91f3502f0ab7730d23e3b86a6c41f8469d/capsule_231x87.jpg"
     },
@@ -47,7 +46,44 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4113130",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Eclipse",
+    "publisher": "Eclipse"
+  },
+  "config": {
+    "installdir": "Meritator Demo",
+    "launch": {
+      "0": {
+        "executable": "Meritaton.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4113131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5268084546469164110",
+          "size": "742110351",
+          "download": "225698352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20588969",
+        "timeupdated": "1761738099"
+      }
+    }
   }
 }
