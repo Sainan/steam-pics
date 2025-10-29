@@ -1,6 +1,5 @@
 {
   "appid": "2601510",
-  "public_only": "1",
   "common": {
     "name": "HANGRY",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "ab2a54a943edef8efa8240ccd93719f4a3079bc4",
     "clienticon": "254c75acddad6204de4781255349b40391ad0263",
     "clienttga": "933fb88e02a6b7ad8b0bdf6a300e8ac8ba73b729",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -126,7 +125,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2601510",
-    "exfgls": "8",
     "store_tags": {
       "0": "1751",
       "1": "1646",
@@ -149,5 +147,90 @@
       "18": "1673",
       "19": "3993"
     }
+  },
+  "extended": {
+    "developer": "Game Pill",
+    "publisher": "Game Pill",
+    "homepage": "https://www.hangrygame.com/",
+    "listofdlc": "3336060",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "HANGRY",
+    "launch": {
+      "0": {
+        "executable": "Hangry.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Hangry_Comic_PC_PDF_Version_Final.pdf",
+        "type": "option1",
+        "config": {
+          "ownsdlc": "3336060"
+        },
+        "description_loc": {
+          "english": "HANGRY Comic \"First Course\""
+        },
+        "description": "HANGRY Comic \"First Course\""
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2601511": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6518824442625390726",
+          "size": "11786381070",
+          "download": "9546493072"
+        }
+      }
+    },
+    "3336060": {
+      "dlcappid": "3336060",
+      "config": {
+        "oslist": "windows,macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6394041362485674757",
+          "size": "13792936",
+          "download": "13461120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20248916",
+        "timeupdated": "1759548339"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "200",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1"
   }
 }
