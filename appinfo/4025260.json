@@ -1,6 +1,5 @@
 {
   "appid": "4025260",
-  "public_only": "1",
   "common": {
     "name": "Kitty Cauldron",
     "type": "Game",
@@ -27,7 +26,7 @@
       "polish": "1",
       "brazilian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -171,9 +170,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761782221",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4025260",
-    "exfgls": "8",
     "store_tags": {
       "0": "4106",
       "1": "7250",
@@ -193,6 +193,71 @@
       "15": "1654",
       "16": "3993",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Team QiLin",
+    "publisher": "Team QiLin"
+  },
+  "config": {
+    "installdir": "Kitty Cauldron",
+    "launch": {
+      "0": {
+        "executable": "KittyCauldron\\KittyCauldron.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4025261": {
+      "manifests": {
+        "public": {
+          "gid": "5050110876996657673",
+          "size": "302147995",
+          "download": "211830640"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "19973571",
+        "timeupdated": "1757831729"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "1000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "KittyCauldron\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
