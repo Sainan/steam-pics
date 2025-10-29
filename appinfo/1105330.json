@@ -1,10 +1,9 @@
 {
   "appid": "1105330",
-  "public_only": "1",
   "common": {
     "name": "Dark Moon",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -143,9 +142,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761753575",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1105330",
-    "exfgls": "8",
     "store_tags": {
       "0": "12472",
       "1": "7332",
@@ -167,6 +167,61 @@
       "17": "599",
       "18": "1734",
       "19": "1773"
+    }
+  },
+  "extended": {
+    "developer": "Jujubee S.A.",
+    "publisher": "101XP",
+    "homepage": "http://jujubee.pl/en"
+  },
+  "config": {
+    "installdir": "Dark Moon",
+    "launch": {
+      "0": {
+        "executable": "DM.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1105331": {
+      "manifests": {
+        "public": {
+          "gid": "1128891830733021504",
+          "size": "26031079772",
+          "download": "21069221744"
+        }
+      }
+    },
+    "1105332": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20591880",
+        "timeupdated": "1761753209"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Jujubee/DM",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
