@@ -6,7 +6,7 @@
     "parent": "3806010",
     "icon": "2e713e0bf8ae04d597fd0b4678a39548c92d4163",
     "clienticon": "2e713e0bf8ae04d597fd0b4678a39548c92d4163",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
     "releasestate": "released",
@@ -131,12 +131,20 @@
   },
   "depots": {
     "4036471": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "6386190898887369496",
           "size": "1694323529",
           "download": "420112016"
         }
+      }
+    },
+    "4036472": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
