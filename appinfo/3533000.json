@@ -5,12 +5,17 @@
     "type": "Demo",
     "parent": "3362960",
     "releasestate": "released",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "icon": "e7c4c507a0cfba7e5b5cc994794b998293c7d523",
     "clienttga": "1bd6f0ed96a9621a6c92f66b5da29e1b51efa776",
     "clienticon": "670a3269950c998922329e8975e0ceebb976997e",
+    "name_localized": {
+      "schinese": "Twinkleby 汀可镇 试玩版",
+      "tchinese": "Twinkleby 汀可鎮 試玩版",
+      "japanese": "Twinkleby トゥインクルビー 体験版"
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -124,6 +129,24 @@
         "type": "default",
         "config": {
           "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "Twinkleby Demo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Twinkleby Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
         }
       }
     }
@@ -155,6 +178,18 @@
         }
       }
     },
+    "3533003": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "3533004": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
     "branches": {
       "public": {
         "buildid": "18621267",
@@ -168,11 +203,18 @@
     "maxnumfiles": "1",
     "rootoverrides": {
       "0": {
-        "root": "gameinstall",
-        "os": "Windows",
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
         "oscompare": "=",
-        "useinstead": "gameinstall",
+        "useinstead": "MacAppSupport",
         "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/unity3d/"
       }
     },
     "ignoreexternalfiles": "1",
