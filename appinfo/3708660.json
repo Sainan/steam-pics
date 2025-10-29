@@ -1,13 +1,12 @@
 {
   "appid": "3708660",
-  "public_only": "1",
   "common": {
     "name": "DOCTOR VISCERA",
     "type": "Game",
     "icon": "cf9a90f3f5b2643784c8ead206f6bd021f32b8e8",
     "clienticon": "8ff2edff223f82039338a9dd24c4b53cf04269e0",
     "clienttga": "2c7fbdfe6750ded7b75f0cb2b7335a4cff207ed3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -118,9 +117,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761685200",
     "community_hub_visible": "1",
     "gameid": "3708660",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -145,6 +144,54 @@
       "16": "492",
       "17": "4345",
       "18": "4667"
+    }
+  },
+  "extended": {
+    "developer": "Liminal Road",
+    "publisher": "Liminal Road"
+  },
+  "config": {
+    "installdir": "DOCTOR VISCERA",
+    "launch": {
+      "0": {
+        "executable": "DOCTOR VISCERA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3708661": {
+      "manifests": {
+        "public": {
+          "gid": "6106802816796600331",
+          "size": "787805205",
+          "download": "643370368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20592295",
+        "timeupdated": "1761752761"
+      }
     }
   }
 }
