@@ -1,6 +1,5 @@
 {
   "appid": "3825850",
-  "public_only": "1",
   "common": {
     "name": "Hoofobia: Alien Invasion",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "ae340e988ffca89084fa05a275b152ed8c31631a",
     "clienttga": "5009e836af521e92082933727f711ca9eeb360a6",
     "clienticon": "113f4852ead346fa84ec45aa7a43ebebb402998b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -110,9 +109,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761756291",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3825850",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -138,5 +138,52 @@
       "18": "3859",
       "19": "17770"
     }
+  },
+  "extended": {
+    "developer": "Deathyell Games",
+    "publisher": "Deathyell Games"
+  },
+  "config": {
+    "installdir": "Hoofobia Alien Invasion",
+    "launch": {
+      "0": {
+        "executable": "hoofobia.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3825851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "100170755365820887",
+          "size": "10249714122",
+          "download": "9707998048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20588629",
+        "timeupdated": "1761736320"
+      }
+    },
+    "privatebranches": "1"
   }
 }
