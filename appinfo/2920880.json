@@ -1,13 +1,12 @@
 {
   "appid": "2920880",
-  "public_only": "1",
   "common": {
     "name": "Truth Universally Acknowledged",
     "type": "Game",
     "clienttga": "51098a293a062d857dc13ff6c5ee2b2b311f4880",
     "clienticon": "7a89c07381595b135effbe30a1cf15dccb855985",
     "icon": "0dc3d3274412857eaca98ed427a083ebc31a72a3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -110,7 +109,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2920880",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "9551",
@@ -132,6 +130,55 @@
       "17": "599",
       "18": "6971",
       "19": "12472"
+    }
+  },
+  "extended": {
+    "developer": "ChaseFOX",
+    "publisher": "ChaseFOX"
+  },
+  "config": {
+    "installdir": "Truth Universally Acknowledged",
+    "launch": {
+      "0": {
+        "executable": "Truth Universally Acknowledged Ver 1.3/Truth Universally Acknowledged.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Launch the game"
+        },
+        "description": "Launch the game"
+      }
+    }
+  },
+  "depots": {
+    "2920881": {
+      "manifests": {
+        "public": {
+          "gid": "6501088708013744963",
+          "size": "351609016",
+          "download": "292486672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20584094",
+        "timeupdated": "1761709268"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "TUA Save File/",
+        "pattern": "*"
+      }
     }
   }
 }
