@@ -1,6 +1,5 @@
 {
   "appid": "3695960",
-  "public_only": "1",
   "common": {
     "name": "PirateGate",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "french": "1"
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761757232",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3695960",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -149,6 +149,121 @@
       "15": "4345",
       "16": "4667",
       "17": "15172"
+    }
+  },
+  "extended": {
+    "developer": "FabLab Games",
+    "publisher": "FabLab Games",
+    "homepage": "https://fablabgames.com"
+  },
+  "config": {
+    "installdir": "PirateGate",
+    "launch": {
+      "0": {
+        "executable": "PirateGate.exe",
+        "type": "default",
+        "config": {
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "PirateGate.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "linux"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3695961": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5522422872172321446",
+          "size": "44175592569",
+          "download": "41943937328"
+        }
+      }
+    },
+    "3695962": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4235519327808853478",
+          "size": "46535853838",
+          "download": "42000939648"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20591997",
+        "timeupdated": "1761751543"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PirateGate/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "PirateGate/Saved/Screenshots",
+        "pattern": "*.png"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "PirateGate/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "3": {
+        "root": "gameinstall",
+        "path": "PirateGate/Saved/Screenshots",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Linux"
+        }
+      }
     }
   }
 }
