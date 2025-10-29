@@ -1,10 +1,9 @@
 {
   "appid": "1451220",
-  "public_only": "1",
   "common": {
     "name": "Heistfest",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -121,7 +120,7 @@
         }
       }
     },
-    "store_asset_mtime": "1755202856",
+    "store_asset_mtime": "1761756080",
     "associations": {
       "0": {
         "type": "developer",
@@ -141,7 +140,8 @@
       "0": "1",
       "1": "4",
       "2": "23",
-      "3": "9"
+      "3": "9",
+      "4": "70"
     },
     "category": {
       "category_2": "1",
@@ -156,9 +156,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761062399",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1451220",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "1680",
@@ -181,5 +182,47 @@
       "18": "3810",
       "19": "1716"
     }
+  },
+  "extended": {
+    "developer": "Amilcar Technologies",
+    "publisher": "indie.io",
+    "homepage": "https://www.amilcartek.com/"
+  },
+  "config": {
+    "installdir": "Heistfest",
+    "launch": {
+      "0": {
+        "executable": "Heistfest/Heistfest.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1451222": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "698386492677675411",
+          "size": "893086183",
+          "download": "205835744"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "19969691",
+        "timeupdated": "1757777568"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "200",
+    "sync_while_suspended": "1"
   }
 }
