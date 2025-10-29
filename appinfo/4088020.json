@@ -1,6 +1,5 @@
 {
   "appid": "4088020",
-  "public_only": "1",
   "common": {
     "name": "Boardlike Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "34d77aa3a65ff27a20f5e0bb76d70593ca32b366/capsule_231x87.jpg"
@@ -120,7 +119,42 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4088020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Bozz",
+    "publisher": "Bozz"
+  },
+  "config": {
+    "installdir": "Boardlike Demo",
+    "launch": {
+      "0": {
+        "executable": "BoardlikeDemo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4088021": {
+      "manifests": {
+        "public": {
+          "gid": "7618909117705866663",
+          "size": "484752420",
+          "download": "129754080"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,schinese,russian,japanese,portuguese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20591025",
+        "timeupdated": "1761747434"
+      }
+    }
   }
 }
