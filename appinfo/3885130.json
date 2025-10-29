@@ -1,13 +1,12 @@
 {
   "appid": "3885130",
-  "public_only": "1",
   "common": {
     "name": "中国式地雷女 Demo",
     "type": "Demo",
     "parent": "3782080",
     "clienticon": "a793a231e2de0514a3ced9e5d2875127d141153e",
     "icon": "a793a231e2de0514a3ced9e5d2875127d141153e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -95,11 +94,75 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "gameid": "3885130",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "钟夏游戏（Chronosys Games）",
+    "publisher": "钟夏游戏（Chronosys Games）"
+  },
+  "config": {
+    "installdir": "中国式地雷女 Demo",
+    "launch": {
+      "0": {
+        "executable": "cnJIRAI.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3885131": {
+      "config": {
+        "oslist": "windows",
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9030597713006952783",
+          "size": "1296278070",
+          "download": "428329568"
+        },
+        "beta": {
+          "gid": "9030597713006952783",
+          "size": "1296278070",
+          "download": "428329568"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20312309",
+        "timeupdated": "1761710591"
+      },
+      "beta": {
+        "buildid": "20312309",
+        "description": "Added all the branches that require review and the archivesAdded all the branches and archives that require review",
+        "timeupdated": "1761709249"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Chronos Games\\cnJIRAI\\Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
