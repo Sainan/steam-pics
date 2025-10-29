@@ -1,6 +1,5 @@
 {
   "appid": "3618790",
-  "public_only": "1",
   "common": {
     "name": "Only DWARVES DIG Proper HOLES",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "ba5a9739f927901d467e191b6104aa8663ad8605",
     "clienttga": "a91285c2d9a0a2d82bac67302ca7c1da212befdb",
     "clienticon": "809c7bdf9787d91f1bf99ebd7c9e21366a266e44",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "34de2a6af2c0a5f328dac9312363fd96e208b36a/capsule_231x87.jpg"
@@ -225,9 +224,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761735599",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3618790",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "store_tags": {
       "0": "3834",
@@ -251,5 +251,48 @@
       "18": "21",
       "19": "1684"
     }
+  },
+  "extended": {
+    "developer": "Antoine Verbeek",
+    "publisher": "Antoine Verbeek",
+    "homepage": "https://only-dwarves-dig-proper-holes.web.app/"
+  },
+  "config": {
+    "installdir": "Plot Hole",
+    "launch": {
+      "0": {
+        "executable": "DiggyHole.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default launch"
+        },
+        "description": "Default launch"
+      }
+    }
+  },
+  "depots": {
+    "3618791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5336452114976739717",
+          "size": "1298915072",
+          "download": "267543600"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "20549726",
+        "timeupdated": "1761675803"
+      }
+    },
+    "privatebranches": "1"
   }
 }
