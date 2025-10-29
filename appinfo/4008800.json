@@ -1,12 +1,11 @@
 {
   "appid": "4008800",
-  "public_only": "1",
   "common": {
     "name": "Pew-casso",
     "type": "Game",
     "clienticon": "3e51e9b6ddc839e32cd345ca57d95f5ce991ee21",
     "icon": "3e51e9b6ddc839e32cd345ca57d95f5ce991ee21",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4008800",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4255",
@@ -132,6 +131,63 @@
       "17": "4305",
       "18": "493",
       "19": "3942"
+    }
+  },
+  "extended": {
+    "developer": "Made From Strings",
+    "publisher": "Made From Strings",
+    "homepage": "https://www.madefromstrings.com/"
+  },
+  "config": {
+    "installdir": "Pew-casso",
+    "launch": {
+      "0": {
+        "executable": "Pewcasso.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3591723427": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "4008801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8334491948544714486",
+          "size": "310066121",
+          "download": "299740048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20502143",
+        "timeupdated": "1761163052"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Pew_casso",
+        "pattern": "*.sav"
+      }
     }
   }
 }
