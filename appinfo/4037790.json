@@ -1,6 +1,5 @@
 {
   "appid": "4037790",
-  "public_only": "1",
   "common": {
     "name": "Bloomsome Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "fa220cae9587b4a4706d9c6b98b02a1d9857735d",
     "clienticon": "fa220cae9587b4a4706d9c6b98b02a1d9857735d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7cf7f4f8ea571e6e78d80e28389c257fba0e0362/capsule_231x87.jpg"
     },
@@ -49,5 +48,48 @@
     },
     "gameid": "4037790",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ruofu Sun",
+    "publisher": "Alice Yu"
+  },
+  "config": {
+    "installdir": "Bloomsome Demo",
+    "launch": {
+      "0": {
+        "executable": "Bloomsome.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4037791": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1857748158396977576",
+          "size": "560807471",
+          "download": "74467040"
+        }
+      }
+    },
+    "4037792": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20445081",
+        "timeupdated": "1760762526"
+      }
+    }
   }
 }
