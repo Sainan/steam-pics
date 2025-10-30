@@ -1,6 +1,5 @@
 {
   "appid": "2328840",
-  "public_only": "1",
   "common": {
     "name": "The First Mine",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "db0070fa31b4691c90e8851a1d940e09bbafc66d",
     "clienttga": "92fbf8adca3613bd7f695fea49572b169c3f2efa",
     "clienticns": "2f1b6eee745d8a24c8c6c3f390bba4544db35e9c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1"
@@ -115,9 +114,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761843613",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2328840",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "14139",
@@ -140,5 +140,70 @@
       "18": "4191",
       "19": "6129"
     }
+  },
+  "extended": {
+    "developer": "Stefan Böttcher",
+    "publisher": "Stefan Böttcher",
+    "homepage": "https://www.thefirstmine.com/"
+  },
+  "config": {
+    "installdir": "TheFirstMine",
+    "launch": {
+      "0": {
+        "executable": "TheFirstMine.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "TheFirstMine.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2328841": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7092135061321739377",
+          "size": "1423990020",
+          "download": "265661904"
+        }
+      }
+    },
+    "2328842": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4317560452503976109",
+          "size": "1446362742",
+          "download": "275330528"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "20358423",
+        "timeupdated": "1760284862"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10"
   }
 }
