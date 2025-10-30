@@ -1,6 +1,5 @@
 {
   "appid": "1201270",
-  "public_only": "1",
   "common": {
     "name": "A Space for the Unbound",
     "type": "Game",
@@ -14,9 +13,10 @@
     "osextended": "",
     "releasestate": "released",
     "name_localized": {
-      "schinese": "无垠之心 - A Space for the Unbound",
       "tchinese": "無垠之心 - A Space for the Unbound",
-      "japanese": "A Space for the Unbound 心に咲く花"
+      "japanese": "A Space for the Unbound 心に咲く花",
+      "schinese": "无垠之心",
+      "sc_schinese": "无垠之心"
     },
     "languages": {
       "english": "1",
@@ -31,6 +31,7 @@
       "turkish": "1",
       "brazilian": "1"
     },
+    "releasestatesteamchina": "prerelease",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -86,10 +87,12 @@
     },
     "controller_support": "full",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "capsule_231x87.jpg",
+      "sc_schinese": "32ae7813881da3221425492b0a1c167a6a7b4ce4/capsule_231x87_sc_schinese.jpg"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "header.jpg",
+      "sc_schinese": "c96d87b060084c4883568c881451174db6bad22d/header_sc_schinese.jpg"
     },
     "library_assets": {
       "library_capsule": "en,zh-xc",
@@ -104,10 +107,12 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "library_600x900.jpg",
+          "sc_schinese": "64ed1198cfcc23cdbbbd38b0aeb9e5b1ea0ac7fa/library_capsule_sc_schinese.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "library_600x900_2x.jpg",
+          "sc_schinese": "64ed1198cfcc23cdbbbd38b0aeb9e5b1ea0ac7fa/library_capsule_sc_schinese_2x.jpg"
         }
       },
       "library_hero": {
@@ -117,10 +122,12 @@
       },
       "library_logo": {
         "image": {
-          "english": "logo.png"
+          "english": "logo.png",
+          "sc_schinese": "d2ace88116004357e2054bcebd427e38e24cbf39/logo_sc_schinese.png"
         },
         "image2x": {
-          "english": "logo_2x.png"
+          "english": "logo_2x.png",
+          "sc_schinese": "d2ace88116004357e2054bcebd427e38e24cbf39/logo_sc_schinese_2x.png"
         },
         "logo_position": {
           "pinned_position": "BottomLeft",
@@ -129,7 +136,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760775143",
+    "store_asset_mtime": "1761012699",
     "associations": {
       "0": {
         "type": "developer",
@@ -140,10 +147,14 @@
         "name": "Toge Productions"
       },
       "2": {
+        "type": "publisher",
+        "name": "Cube Game"
+      },
+      "3": {
         "type": "franchise",
         "name": "Toge Productions"
       },
-      "3": {
+      "4": {
         "type": "franchise",
         "name": "Mojiken"
       }
@@ -242,5 +253,92 @@
     },
     "review_score": "9",
     "review_percentage": "97"
+  },
+  "extended": {
+    "developer": "Mojiken",
+    "publisher": "Toge Productions",
+    "listofdlc": "2050830",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "A Space for the Unbound",
+    "launch": {
+      "0": {
+        "executable": "A Space for the Unbound.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "8",
+    "steam_china_only": {
+      "steam_china_enable_duration_control": "1"
+    }
+  },
+  "depots": {
+    "1201271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6189556093350933795",
+          "size": "2518286811",
+          "download": "313048496"
+        },
+        "secondary": {
+          "gid": "6189556093350933795",
+          "size": "2518286811",
+          "download": "313048496"
+        }
+      }
+    },
+    "2050830": {
+      "dlcappid": "2050830",
+      "manifests": {
+        "public": {
+          "gid": "4653805756932442876",
+          "size": "83636718",
+          "download": "81179120"
+        },
+        "secondary": {
+          "gid": "4653805756932442876",
+          "size": "83636718",
+          "download": "81179120"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "11846829",
+        "timeupdated": "1721458217"
+      },
+      "secondary": {
+        "buildid": "11846829",
+        "description": "Secondary branch",
+        "timeupdated": "1721438973"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "6656000",
+    "maxnumfiles": "13",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mojiken/A Space for the Unbound",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
