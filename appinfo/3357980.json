@@ -1,10 +1,9 @@
 {
   "appid": "3357980",
-  "public_only": "1",
   "common": {
     "name": "回ル！ハッカー探偵",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "88468b20ba9e6bc7cdda95ee212fa650259e4eb5",
     "clienttga": "15d35b02c058a97b4bcceb18c6bf5578cc72cd54",
     "clienticon": "70df2500ba989b8d72362994193b62fae1b86e41",
@@ -111,6 +110,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761793200",
     "community_hub_visible": "1",
     "gameid": "3357980",
     "exfgls": "3",
@@ -134,6 +134,61 @@
       "13": "31275",
       "14": "4486",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "総合コンテンツ制作サークル",
+    "publisher": "総合コンテンツ制作サークル",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "回ル！ハッカー探偵",
+    "launch": {
+      "0": {
+        "executable": "HackerDetective.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3357981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7463570138924570033",
+          "size": "408220293",
+          "download": "290350048"
+        }
+      }
+    },
+    "3357982": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20599161",
+        "timeupdated": "1761790186"
+      }
     }
   }
 }
