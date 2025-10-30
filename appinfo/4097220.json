@@ -1,4 +1,187 @@
 {
   "appid": "4097220",
-  "public_only": "1"
+  "common": {
+    "name": "Handmancers Playtest",
+    "type": "Beta",
+    "parent": "2423290",
+    "icon": "8e7d2bf71860dcee70840c2d7a6256637c4ba42c",
+    "clienticon": "8e7d2bf71860dcee70840c2d7a6256637c4ba42c",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "09c37d189ebddbeb38dd80f071a998d69b60ed9b/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "2457671677b0e81289f339597bf5cae2f58a0b5d/header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomCenter",
+        "width_pct": "83.64377182770664",
+        "height_pct": "49.24008549038234"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "83c20471fe94a1478c43f172cb4021d94315197a/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "83c20471fe94a1478c43f172cb4021d94315197a/library_capsule_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image2x": {
+          "english": "2335e0919e7674525797987e49322539a9eff71d/library_hero_2x.jpg"
+        },
+        "image": {
+          "english": "2335e0919e7674525797987e49322539a9eff71d/library_hero.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "2335e0919e7674525797987e49322539a9eff71d/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "46fce78ef0213a45416fb40220d5643ff87b0ccd/logo.png"
+        },
+        "image2x": {
+          "english": "46fce78ef0213a45416fb40220d5643ff87b0ccd/logo_2x.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomCenter",
+          "width_pct": "83.64377182770664",
+          "height_pct": "49.24008549038234"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "2457671677b0e81289f339597bf5cae2f58a0b5d/library_header.jpg"
+        },
+        "image2x": {
+          "english": "2457671677b0e81289f339597bf5cae2f58a0b5d/library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1761321322",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1761828627",
+    "community_hub_visible": "1",
+    "gameid": "4097220",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Handmancers Playtest",
+    "launch": {
+      "0": {
+        "executable": "Handmancers.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Handmancers.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Handmancers.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4097222": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2858582329451113083",
+          "size": "5538622310",
+          "download": "970793248"
+        }
+      }
+    },
+    "4097223": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "226529099723560942",
+          "size": "5577129181",
+          "download": "981807264"
+        }
+      }
+    },
+    "4097224": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5376617892002787184",
+          "size": "5562303631",
+          "download": "982781776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20497363",
+        "timeupdated": "1761141171"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "58BLADES/Handmancers",
+        "pattern": "*.es3"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "58BLADES/Handmancers",
+            "replace": ".config/unity3d/58BLADES/Handmancers"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "58BLADES/Handmancers",
+            "replace": "Library/Application Support/unity.58BLADES.Handmancers"
+          }
+        }
+      }
+    }
+  }
 }
