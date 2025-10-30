@@ -1,6 +1,5 @@
 {
   "appid": "2246670",
-  "public_only": "1",
   "common": {
     "name": "Tales of Xillia Remastered",
     "type": "Game",
@@ -37,7 +36,7 @@
     "clienticon": "4de625636d94b02b88033384c87c980ee62587bf",
     "clienttga": "fee0ad81c9693e6c66d8ac29f233dd0bb28feb53",
     "icon": "3a4d9c9e868601571ba9a2d9bd8b0c8062fbbd4d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "steam_deck_compatibility": {
       "category": "3",
       "steamos_compatibility": "2",
@@ -266,9 +265,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761861614",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2246670",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "122",
@@ -279,6 +279,104 @@
       "6": "1684",
       "7": "4182",
       "8": "3841"
+    }
+  },
+  "extended": {
+    "additional_dependencies": {
+      "0": {
+        "src_os": "windows",
+        "dest_os": "linux",
+        "h264": "1"
+      }
+    },
+    "developer": "DOKIDOKI GROOVEWORKS, Inc.",
+    "publisher": "Bandai Namco Entertainment",
+    "listofdlc": "2833370,3106420,3106430,3106440"
+  },
+  "config": {
+    "installdir": "Tales of Xillia Remastered",
+    "launch": {
+      "0": {
+        "executable": "Tales of Xillia Remastered.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Artbook and SoundTrack\\Digital Artbook and SoundTrack.exe",
+        "config": {
+          "ownsdlc": "2833370"
+        },
+        "description_loc": {
+          "english": "Digital Artbook & Soundtrack",
+          "koreana": "디지털 아트북＆사운드 트랙",
+          "schinese": "数字美术书＆原声带",
+          "tchinese": "數位美術書＆原聲帶",
+          "japanese": "デジタルアートブック & サウンドトラック"
+        },
+        "description": "Digital Artbook & Soundtrack"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2246671": {
+      "manifests": {
+        "public": {
+          "gid": "5470154190148824852",
+          "size": "18271593841",
+          "download": "16699736272"
+        }
+      }
+    },
+    "2246672": {
+      "manifests": {
+        "public": {
+          "gid": "5213202613001802339",
+          "size": "1",
+          "download": "48"
+        }
+      }
+    },
+    "2833370": {
+      "dlcappid": "2833370",
+      "manifests": {
+        "public": {
+          "gid": "3906636434351247684",
+          "size": "925145538",
+          "download": "811566832"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20582652",
+        "timeupdated": "1761809336"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "128",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BANDAI NAMCO Entertainment/Tales of Xillia Remastered/Save/{64BitSteamID}",
+        "pattern": "*.data"
+      }
     }
   }
 }
