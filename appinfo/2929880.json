@@ -1,6 +1,5 @@
 {
   "appid": "2929880",
-  "public_only": "1",
   "common": {
     "name": "Z-Factor",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "7094af5a54272245e805288c60bbd1270b605f9d",
     "clienticon": "c96bbf1601c12b3090c16ecffd66e14edac5cc1b",
     "linuxclienticon": "fb26f82c1ef4985491c369760bacf84a34c15f42",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -112,9 +111,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761807951",
     "community_hub_visible": "1",
     "gameid": "2929880",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -140,6 +139,64 @@
       "17": "492",
       "18": "21",
       "19": "599"
+    }
+  },
+  "extended": {
+    "developer": "The Creator One",
+    "publisher": "Dmitrii Susloparov",
+    "homepage": "http://z-factor.tilda.ws"
+  },
+  "config": {
+    "installdir": "Z-Factor",
+    "launch": {
+      "0": {
+        "executable": "Z_Factor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Standart"
+        },
+        "description": "Standart"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2929881": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4403346548791707522",
+          "size": "11054552058",
+          "download": "5577223600"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20547003",
+        "timeupdated": "1761473624"
+      }
     }
   }
 }
