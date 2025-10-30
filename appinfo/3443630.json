@@ -1,10 +1,9 @@
 {
   "appid": "3443630",
-  "public_only": "1",
   "common": {
     "name": "动友餐厅",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -109,9 +108,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761789603",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3443630",
-    "exfgls": "8",
     "store_tags": {
       "0": "791774",
       "1": "1716",
@@ -133,6 +133,56 @@
       "17": "3839",
       "18": "1654",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "LayDown Games",
+    "publisher": "LayDown Games"
+  },
+  "config": {
+    "installdir": "Builds",
+    "launch": {
+      "0": {
+        "executable": "AnimalCafe.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3443631": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8517103427355769104",
+          "size": "392935152",
+          "download": "215969200"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "19022192",
+        "timeupdated": "1751007112"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
