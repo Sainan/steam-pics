@@ -1,4 +1,53 @@
 {
   "appid": "4022360",
-  "public_only": "1"
+  "common": {
+    "name": "Platypus Reclayed Workshop Tool",
+    "type": "Tool",
+    "parent": "2912430",
+    "clienticon": "2f49b8a0271c6ae0a41a469ca95a822d11e933aa",
+    "icon": "2f49b8a0271c6ae0a41a469ca95a822d11e933aa",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "gameid": "4022360"
+  },
+  "config": {
+    "installdir": "Platypus Reclayed Workshop Tool",
+    "launch": {
+      "0": {
+        "executable": "WorkshopTool.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "A tool to upload new Platypus Reclayed mods to the Steam Workshop."
+        },
+        "description": "A tool to upload new Platypus Reclayed mods to the Steam Workshop."
+      }
+    }
+  },
+  "depots": {
+    "4022361": {
+      "manifests": {
+        "public": {
+          "gid": "1123394608959358319",
+          "size": "1206928331",
+          "download": "1127478656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20604845",
+        "timeupdated": "1761824147"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "100"
+  }
 }
