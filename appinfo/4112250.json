@@ -1,6 +1,5 @@
 {
   "appid": "4112250",
-  "public_only": "1",
   "common": {
     "name": "Asterika: Phantom Rose Refrain Demo",
     "type": "Demo",
@@ -14,7 +13,7 @@
     },
     "clienticon": "aada62bbc74be6368da1e3a6abc1454c13d6dd25",
     "icon": "aada62bbc74be6368da1e3a6abc1454c13d6dd25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -56,5 +55,114 @@
     },
     "gameid": "4112250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "makaroll",
+    "publisher": "Studio Maka",
+    "homepage": "https://phantomrosegame.com"
+  },
+  "config": {
+    "installdir": "Asterika Phantom Rose Refrain Demo",
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3553572588": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      },
+      "3553579559": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "Asterika Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Asterika Demo.app/Contents/MacOS/Asterika Demo",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4112251": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3704134696888347804",
+          "size": "391190807",
+          "download": "205788944"
+        }
+      }
+    },
+    "4112252": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1053813580063226665",
+          "size": "432322501",
+          "download": "219812992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20599505",
+        "timeupdated": "1761792053"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "3",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Asterika",
+        "pattern": "asterika-demo-data.json"
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Asterika",
+        "pattern": "asterika-demo-data2.json"
+      },
+      "2": {
+        "root": "WinAppDataRoaming",
+        "path": "Asterika",
+        "pattern": "asterika-demo-data3.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "Asterika"
+          }
+        }
+      }
+    }
   }
 }
