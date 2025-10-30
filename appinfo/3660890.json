@@ -1,6 +1,5 @@
 {
   "appid": "3660890",
-  "public_only": "1",
   "common": {
     "name": "TitanStar Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "icon": "15edea6b8b6065810f93c16814991ada6537ac01",
     "clienttga": "25ab174683f0c7635eaa27ff747c08c7ba4fdd92",
     "clienticon": "4745f9219c8bdd1da0261e2bcc8e60677de58a71",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -47,5 +46,41 @@
     },
     "gameid": "3660890",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Omega Tier",
+    "publisher": "Omega Tier"
+  },
+  "config": {
+    "installdir": "TitanStarDEMOFolder",
+    "launch": {
+      "0": {
+        "executable": "TheTitanStar.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3660891": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2738443694456169385",
+          "size": "4121329553",
+          "download": "1453074544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20599618",
+        "timeupdated": "1761792794"
+      }
+    }
   }
 }
