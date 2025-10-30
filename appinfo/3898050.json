@@ -1,6 +1,5 @@
 {
   "appid": "3898050",
-  "public_only": "1",
   "common": {
     "name": "Dead By Headshot",
     "type": "Game",
@@ -18,7 +17,7 @@
     "icon": "9776f44d18012ae67c5430fe21610fd49ddb4853",
     "clienttga": "4c40afec9711429a33216daf59b30c6d031c75a3",
     "clienticon": "17f93eee8002e62bfa3e4bebe284c9cc5806511c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -115,9 +114,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761842850",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3898050",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -143,6 +143,39 @@
       "17": "1659",
       "18": "6730",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Bad Cat Studios",
+    "publisher": "Bad Cat Studios"
+  },
+  "config": {
+    "installdir": "Dead By Headshot",
+    "launch": {
+      "0": {
+        "executable": "Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3898051": {
+      "manifests": {
+        "public": {
+          "gid": "5580224681534206780",
+          "size": "3149703362",
+          "download": "2488494320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20607852",
+        "timeupdated": "1761840873"
+      }
     }
   }
 }
