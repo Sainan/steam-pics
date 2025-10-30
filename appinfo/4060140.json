@@ -1,6 +1,5 @@
 {
   "appid": "4060140",
-  "public_only": "1",
   "common": {
     "name": "Anomyeowly: Uncover the anomalies with the cat-eared maid",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "japanese": "1"
@@ -127,9 +126,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761861731",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4060140",
-    "exfgls": "8",
     "store_tags": {
       "0": "17894",
       "1": "21",
@@ -148,6 +148,59 @@
       "14": "5673",
       "15": "7481",
       "16": "6971"
+    }
+  },
+  "extended": {
+    "developer": "Kuro Honeori",
+    "publisher": "Kuro Honeori",
+    "homepage": "https://hone9.github.io/anomyeowly/"
+  },
+  "config": {
+    "installdir": "Anomyeowly",
+    "launch": {
+      "0": {
+        "executable": "Anomyeowly.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "It is an executable file"
+        },
+        "description": "It is an executable file"
+      }
+    }
+  },
+  "depots": {
+    "4060141": {
+      "manifests": {
+        "public": {
+          "gid": "1481820494091116866",
+          "size": "720718371",
+          "download": "189572576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20601591",
+        "timeupdated": "1761806005"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "KuroHoneori/Anomyeowly",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
