@@ -1,6 +1,5 @@
 {
   "appid": "3054820",
-  "public_only": "1",
   "common": {
     "name": "でびるコネクショん",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "8ec374dfa8faa23322606b8d406bd338c015d0e1",
     "clienttga": "c9c98c8dafad3d86e8c69edc7ce6e1bd2d8258d9",
     "clienticon": "8ec374dfa8faa23322606b8d406bd338c015d0e1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "232572c91ef04b4698f180d4cec51f6c8d58a839",
     "oslist": "windows,macos",
     "osarch": "64",
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761836409",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3054820",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -140,6 +140,79 @@
       "17": "1684",
       "18": "4726",
       "19": "15172"
+    }
+  },
+  "extended": {
+    "developer": "ChaoGames",
+    "publisher": "ChaoGames",
+    "homepage": "https://bayachao.com/devil-connection/"
+  },
+  "config": {
+    "installdir": "でびるコネクショん",
+    "launch": {
+      "0": {
+        "executable": "DevilConnection.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "DevilConnection.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3054822": {
+      "config": {
+        "language": "japanese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8584815542923803300",
+          "size": "7083347451",
+          "download": "6672995424"
+        }
+      }
+    },
+    "3054823": {
+      "config": {
+        "language": "japanese",
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2439622649787342106",
+          "size": "7210128991",
+          "download": "6773752720"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20605752",
+        "timeupdated": "1761828592"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2000000000",
+    "maxnumfiles": "1500",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "_storage",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
