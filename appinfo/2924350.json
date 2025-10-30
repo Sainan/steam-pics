@@ -1,6 +1,5 @@
 {
   "appid": "2924350",
-  "public_only": "1",
   "common": {
     "name": "Anna clicker : Shadow of the Pantheon",
     "type": "Game",
@@ -13,7 +12,7 @@
     "name_localized": {
       "french": "Anna clicker : L'Ombre du Pantheon"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "48789bee24e1e5bda0bb4c2b6f847c7b920f5873/capsule_231x87.jpg",
@@ -111,9 +110,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "2924350",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -133,5 +132,62 @@
       "15": "7208",
       "16": "4182"
     }
+  },
+  "extended": {
+    "developer": "FantasmaEtLux",
+    "publisher": "FantasmaEtLux"
+  },
+  "config": {
+    "installdir": "Anna's clicker",
+    "launch": {
+      "0": {
+        "executable": "AnnaClicker.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AnnaClicker.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2924351": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "225107970971809843",
+          "size": "1053756561",
+          "download": "128743040"
+        }
+      }
+    },
+    "2924352": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4094314720376288316",
+          "size": "1048242351",
+          "download": "131120800"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20608239",
+        "timeupdated": "1761839232"
+      }
+    },
+    "privatebranches": "1"
   }
 }
