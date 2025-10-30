@@ -1,6 +1,5 @@
 {
   "appid": "3160560",
-  "public_only": "1",
   "common": {
     "name": "Tale Smiths",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "cad4beb444238c6e8d1c746402a8fcb080e30354",
     "icon": "21efbfef9038d07a22658542c20fb90152e560dd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -124,6 +123,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3160560",
     "exfgls": "3",
@@ -140,6 +140,55 @@
       "9": "597",
       "10": "1742",
       "11": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Clever Simulation Entertainment",
+    "publisher": "Clever Simulation Entertainment",
+    "homepage": "https://www.cleversimulation.com/talesmiths",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "TaleSmiths",
+    "launch": {
+      "0": {
+        "executable": "Nlite.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3160561": {
+      "manifests": {
+        "public": {
+          "gid": "8931404596360578929",
+          "size": "12887185721",
+          "download": "12491848608"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20266015",
+        "timeupdated": "1759733505"
+      }
     }
   }
 }
