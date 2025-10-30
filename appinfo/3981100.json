@@ -1,6 +1,5 @@
 {
   "appid": "3981100",
-  "public_only": "1",
   "common": {
     "name": "Leaf it Alone",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -145,10 +144,11 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761843590",
     "steam_deck_blog_url": "https://steamcommunity.com/app/3981100/eventcomments/600790905291629297/",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3981100",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -157,6 +157,52 @@
       "4": "3839",
       "5": "3968",
       "6": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Eternity",
+    "publisher": "Eternity",
+    "homepage": "https://eternitygames.net"
+  },
+  "config": {
+    "installdir": "Leaf it Alone",
+    "launch": {
+      "0": {
+        "executable": "Leaf it Alone.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3981101": {
+      "manifests": {
+        "public": {
+          "gid": "6285023500040282046",
+          "size": "917357586",
+          "download": "743729120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20605890",
+        "timeupdated": "1761839748"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "64000000",
+    "maxnumfiles": "20",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Eternity/Leaf it Alone/Saves",
+        "pattern": "*"
+      }
     }
   }
 }
