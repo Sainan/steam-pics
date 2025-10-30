@@ -1,6 +1,5 @@
 {
   "appid": "3829340",
-  "public_only": "1",
   "common": {
     "name": "Hotel Hideaway: Avatar & Chat",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "macos64,macosapplesilicon",
     "clienticon": "b3e8f0047dc3692e088e40dc851aec630f07f036",
     "icon": "b3e8f0047dc3692e088e40dc851aec630f07f036",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3829340_eula_0",
@@ -136,6 +135,94 @@
       "13": "6276",
       "14": "3859",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Sulake Oy",
+    "publisher": "Sulake Oy",
+    "homepage": "https://www.hotelhideawaythegame.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Hotel Hideaway",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Hideaway.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "1": {
+        "executable": "Hideaway.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3829342": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8263938984836097817",
+          "size": "339072112",
+          "download": "94335440"
+        },
+        "feature": {
+          "gid": "3144178708714992023",
+          "size": "373372065",
+          "download": "104003824"
+        },
+        "staging": {
+          "gid": "5699184793674444485",
+          "size": "372236725",
+          "download": "103860336"
+        }
+      }
+    },
+    "3829343": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "853682168387387373",
+          "size": "624457613",
+          "download": "147854720"
+        },
+        "feature": {
+          "gid": "7431034179389036392",
+          "size": "764148888",
+          "download": "170305632"
+        },
+        "staging": {
+          "gid": "8177287041255865464",
+          "size": "762939591",
+          "download": "170540288"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20509964",
+        "timeupdated": "1761210153"
+      },
+      "feature": {
+        "buildid": "20386923",
+        "description": "Feature builds",
+        "timeupdated": "1760451183"
+      },
+      "staging": {
+        "buildid": "20414500",
+        "description": "Stage builds",
+        "timeupdated": "1760597601"
+      }
     }
   }
 }
