@@ -1,6 +1,5 @@
 {
   "appid": "4093920",
-  "public_only": "1",
   "common": {
     "name": "精神寄生",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -114,6 +113,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4093920",
     "exfgls": "3",
@@ -137,6 +137,50 @@
       "16": "4175",
       "17": "4094",
       "18": "5372"
+    }
+  },
+  "extended": {
+    "developer": "阿禾",
+    "publisher": "NVLMaker",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "精神寄生",
+    "launch": {
+      "0": {
+        "executable": "MindParasitic.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "tchinese": "遊戲執行檔"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4093921": {
+      "config": {
+        "language": "tchinese",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4272057900085358062",
+          "size": "995777632",
+          "download": "887804752"
+        }
+      }
+    },
+    "baselanguages": "tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20559206",
+        "timeupdated": "1761573732"
+      }
     }
   }
 }
