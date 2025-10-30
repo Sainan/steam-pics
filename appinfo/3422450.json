@@ -1,5 +1,6 @@
 {
   "appid": "3422450",
+  "public_only": "1",
   "common": {
     "name": "Whisker Wanderlust: The Mosaic of Souls",
     "type": "Game",
@@ -163,95 +164,5 @@
     },
     "review_score": "8",
     "review_percentage": "91"
-  },
-  "extended": {
-    "developer": "MEOW STORE GAME",
-    "publisher": "MEOW STORE GAME",
-    "listofdlc": "3463990",
-    "dlcavailableonstore": "1"
-  },
-  "config": {
-    "installdir": "Stray of lost cat",
-    "launch": {
-      "0": {
-        "executable": "Stray of lost cat.exe",
-        "type": "default",
-        "config": {
-          "oslist": "windows"
-        }
-      },
-      "1": {
-        "executable": "Stray of lost cat.app",
-        "type": "default",
-        "config": {
-          "oslist": "macos"
-        }
-      }
-    }
-  },
-  "depots": {
-    "3422451": {
-      "config": {
-        "oslist": "windows",
-        "osarch": "64"
-      },
-      "manifests": {
-        "public": {
-          "gid": "1255980592942900813",
-          "size": "1908845326",
-          "download": "763856112"
-        }
-      }
-    },
-    "3422452": {
-      "config": {
-        "oslist": "macos"
-      },
-      "manifests": {
-        "public": {
-          "gid": "1851333238297331629",
-          "size": "1933411599",
-          "download": "771649696"
-        }
-      }
-    },
-    "3463990": {
-      "dlcappid": "3463990",
-      "manifests": {
-        "public": {
-          "gid": "2508264281014097353",
-          "size": "360410113",
-          "download": "359976848"
-        }
-      }
-    },
-    "baselanguages": "english,schinese,tchinese",
-    "hasdepotsindlc": "1",
-    "branches": {
-      "public": {
-        "buildid": "19257681",
-        "timeupdated": "1752745589"
-      }
-    }
-  },
-  "ufs": {
-    "quota": "10000000000",
-    "maxnumfiles": "100",
-    "savefiles": {
-      "0": {
-        "root": "WinAppDataLocalLow",
-        "path": "UnderLineStudio\\Stray of lost cat",
-        "pattern": "*"
-      }
-    },
-    "rootoverrides": {
-      "0": {
-        "root": "WinAppDataLocalLow",
-        "os": "MacOS",
-        "oscompare": "=",
-        "useinstead": "MacAppSupport",
-        "addpath": ""
-      }
-    }
   }
 }
