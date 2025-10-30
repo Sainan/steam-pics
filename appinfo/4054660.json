@@ -1,16 +1,15 @@
 {
   "appid": "4054660",
-  "public_only": "1",
   "common": {
     "name": "Traíras Demo",
     "type": "Demo",
     "parent": "3335980",
     "clienticon": "97bca92369e94193b45d9b8a5a177d371ee755bd",
     "icon": "97bca92369e94193b45d9b8a5a177d371ee755bd",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -416,7 +415,64 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1759933962",
+    "community_visible_stats": "1",
     "gameid": "4054660",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Marcos Riffel",
+    "publisher": "Riffel Games",
+    "homepage": "https://marcosriffel.com/trairas.html"
+  },
+  "config": {
+    "installdir": "Traíras Demo",
+    "launch": {
+      "0": {
+        "executable": "Trairas Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4054661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3355427812787461291",
+          "size": "316200989",
+          "download": "170992464"
+        },
+        "macosdemo": {
+          "gid": "7648269459899939142",
+          "size": "299795696",
+          "download": "162750016"
+        }
+      }
+    },
+    "4054662": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "4054663": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20174421",
+        "timeupdated": "1759156763"
+      },
+      "macosdemo": {
+        "buildid": "20322350",
+        "description": "macOS",
+        "timeupdated": "1760021446"
+      }
+    }
   }
 }
