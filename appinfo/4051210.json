@@ -1,6 +1,5 @@
 {
   "appid": "4051210",
-  "public_only": "1",
   "common": {
     "name": "ヨルノモリ停留所",
     "type": "Game",
@@ -9,7 +8,7 @@
     "name_localized": {
       "english": "Yorunomori Bus Stop"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -111,9 +110,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4051210",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -124,6 +124,55 @@
       "6": "3839",
       "7": "492",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Gattorocco",
+    "publisher": "Gattorocco"
+  },
+  "config": {
+    "installdir": "Yorunomori",
+    "launch": {
+      "0": {
+        "executable": "Yorunomori.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4051211": {
+      "manifests": {
+        "public": {
+          "gid": "5255876243139651142",
+          "size": "296056785",
+          "download": "196167136"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20605446",
+        "timeupdated": "1761827074"
+      }
     }
   }
 }
