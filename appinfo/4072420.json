@@ -1,6 +1,5 @@
 {
   "appid": "4072420",
-  "public_only": "1",
   "common": {
     "name": "連呪 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "cfc7680bfa8181a05b09b3372a047384b540a048",
     "icon": "cfc7680bfa8181a05b09b3372a047384b540a048",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -60,6 +59,67 @@
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "Orgesta Inc.",
+    "publisher": "Nippon Ichi Software, Inc.",
+    "homepage": "https://nippon1.jp/consumer/lens/"
+  },
+  "config": {
+    "installdir": "連呪 Demo",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "lens_demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steaminputmanifestpath": "lens_demo_Data\\steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4072421": {
+      "manifests": {
+        "public": {
+          "gid": "1170222127711406285",
+          "size": "738438113",
+          "download": "612355632"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "20523323",
+        "timeupdated": "1761279647"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "40",
+    "appidredirect": "3975790",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Nippon Ichi Software\\lens\\SaveData",
+        "pattern": "*.sav"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
