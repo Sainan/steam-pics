@@ -170,10 +170,7 @@
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "BaroxxTech/Creators_Fall",
-        "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        }
+        "pattern": "*.json"
       }
     },
     "rootoverrides": {
@@ -182,7 +179,12 @@
         "os": "Linux",
         "oscompare": "=",
         "useinstead": "LinuxHome",
-        "addpath": "~/.config/unity3d/BaroxxTech/Creators_Fall"
+        "pathtransforms": {
+          "0": {
+            "find": "BaroxxTech/Creators_Fall",
+            "replace": ".config/unity3d/BaroxxTech/Creators_Fall"
+          }
+        }
       }
     }
   }
