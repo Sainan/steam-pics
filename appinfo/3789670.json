@@ -1,6 +1,5 @@
 {
   "appid": "3789670",
-  "public_only": "1",
   "common": {
     "name": "100 Witch Cats",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "e3c5e7daa9b9d1274214346db78a9b1b5c44df24",
     "clienttga": "ed56d21df3e76f2603a0b2a734a7e0315069e618",
     "icon": "38a614effad4fd43edc78c3f2529cb9941de33bb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "dd55db93e25bbbf51ea2c848d8675d6dfa240dd9/capsule_231x87.jpg"
@@ -105,7 +104,8 @@
     },
     "category": {
       "category_2": "1",
-      "category_22": "1"
+      "category_22": "1",
+      "category_62": "1"
     },
     "supported_languages": {
       "english": {
@@ -418,9 +418,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761836442",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3789670",
-    "exfgls": "8",
     "store_tags": {
       "0": "113",
       "1": "597",
@@ -442,6 +443,48 @@
       "17": "3834",
       "18": "5652",
       "19": "5154"
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "publisher": "100 Cozy Games",
+    "listofdlc": "3934900",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "100 Witch Cats",
+    "launch": {
+      "0": {
+        "executable": "100 Witch Cats.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3789671": {
+      "manifests": {
+        "public": {
+          "gid": "2290507080266015979",
+          "size": "433663320",
+          "download": "47526592"
+        }
+      }
+    },
+    "3934900": {
+      "dlcappid": "3934900",
+      "manifests": {
+        "public": {
+          "gid": "2100291334259627938",
+          "size": "21266298",
+          "download": "21267968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19547326",
+        "timeupdated": "1754856723"
+      }
     }
   }
 }
