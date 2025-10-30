@@ -25,17 +25,70 @@
     "content_descriptors": {
       "0": "5"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1761177600",
+      "tested_build_id": "20095631",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "configuration": {
+        "supported_input": "other",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "small_capsule": {
-      "schinese": "2bd9f3532e09ca5a550b538a7887f2d72883cca8/capsule_231x87_schinese.jpg",
-      "english": "e9027309300e3e4ee299a03553b46acefde6f7a4/capsule_231x87.jpg",
-      "thai": "e2ce2aaeca495de1e2aecda2774a0f10af5d4483/capsule_231x87_thai.jpg",
-      "russian": "8561bdc8888564ea3a53c1d6f3bddcb2cd6a1995/capsule_231x87_russian.jpg",
-      "tchinese": "2bd9f3532e09ca5a550b538a7887f2d72883cca8/capsule_231x87_tchinese.jpg",
-      "koreana": "2762f0155fd6dba26a01c0799b0040ec7020ef66/capsule_231x87_koreana.jpg",
-      "japanese": "d944e836646a362484764b5dc89b8f298fd9a419/capsule_231x87_japanese.jpg",
-      "indonesian": "f7308d168a05bdedf50af9a0e56f5e2860080042/capsule_231x87_indonesian.jpg",
-      "vietnamese": "7fbce6434674d31cae362681f6bf3599849783c9/capsule_231x87_vietnamese.jpg"
+      "schinese": "1fab1a99b40a5a8661472394e72693d7fb3325f2/capsule_231x87_schinese.jpg",
+      "english": "842589cf1dca4b87316ec90dbec9edd8440861fb/capsule_231x87.jpg",
+      "thai": "5fea58f6bd0ba69327420e36d7f2b447bd1ecdf3/capsule_231x87_thai.jpg",
+      "russian": "9d37d6c1564db8d82f089ba6f5e374a53e75e928/capsule_231x87_russian.jpg",
+      "tchinese": "1fab1a99b40a5a8661472394e72693d7fb3325f2/capsule_231x87_tchinese.jpg",
+      "koreana": "e05ac3ad2df15dcb1c74a150f73ea8f4e37b6406/capsule_231x87_koreana.jpg",
+      "japanese": "3aaab377ac7263ac35fd4dba95e0e70d4791ed15/capsule_231x87_japanese.jpg",
+      "indonesian": "5fbf349bdcaff3209a53ea84539e29761db97b99/capsule_231x87_indonesian.jpg",
+      "vietnamese": "bfbcb148621c1963dbaba11477ecd97ca61a163f/capsule_231x87_vietnamese.jpg"
     },
     "header_image": {
       "schinese": "e5eb82338bdec3b508c6cc294e155f826e9f8014/header_schinese.jpg",
@@ -177,7 +230,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757220033",
+    "store_asset_mtime": "1761121236",
     "associations": {
       "0": {
         "type": "developer",
