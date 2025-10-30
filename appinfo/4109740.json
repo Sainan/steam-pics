@@ -1,6 +1,5 @@
 {
   "appid": "4109740",
-  "public_only": "1",
   "common": {
     "name": "Feast of Fools",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a4f8a4f9a366b5fc1c01cab60f56d82a3dd0d187/capsule_231x87.jpg"
@@ -100,6 +99,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761867614",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4109740",
     "exfgls": "3",
@@ -121,6 +122,63 @@
       "14": "14139",
       "15": "4182",
       "16": "13782"
+    }
+  },
+  "extended": {
+    "developer": "Goodberry Games",
+    "publisher": "Goodberry Games",
+    "homepage": "https://goodberry.games",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Feast of Fools",
+    "launch": {
+      "0": {
+        "executable": "Feast of Fools.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Feast of Fools.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4109741": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "423806831404901398",
+          "size": "1940444496",
+          "download": "1377277648"
+        }
+      }
+    },
+    "4109742": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7021799577019577791",
+          "size": "1965974359",
+          "download": "1387009376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20613457",
+        "timeupdated": "1761865347"
+      }
     }
   }
 }
