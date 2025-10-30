@@ -1,6 +1,5 @@
 {
   "appid": "3489240",
-  "public_only": "1",
   "common": {
     "name": "Asterix & Obelix - Mission Babylon",
     "type": "Game",
@@ -14,7 +13,7 @@
       "french": "Astérix & Obélix - Mission Babylone",
       "spanish": "Astérix & Obélix - Mission Babylon"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -106,7 +105,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761558371",
+    "store_asset_mtime": "1761732417",
     "associations": {
       "0": {
         "type": "developer",
@@ -163,9 +162,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761814896",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3489240",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -187,6 +187,53 @@
       "17": "1742",
       "18": "1685",
       "19": "3841"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,balioqa,marketingbuilds,productionbuilds,productionbuilds2,silentreview,testqa",
+    "developer": "Balio Studio",
+    "publisher": "Microids"
+  },
+  "config": {
+    "installdir": "Babylon",
+    "launch": {
+      "3": {
+        "executable": "Asterix & Obelix - Babylon mission.exe"
+      }
+    }
+  },
+  "depots": {
+    "3489241": {
+      "manifests": {
+        "public": {
+          "gid": "5424793130183446199",
+          "size": "4030435730",
+          "download": "1930742064"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20404417",
+        "timeupdated": "1761062827"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Microids\\Asterix & Obelix - Babylon mission",
+        "pattern": "save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
