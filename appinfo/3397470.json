@@ -1,6 +1,5 @@
 {
   "appid": "3397470",
-  "public_only": "1",
   "common": {
     "name": "BORZOI",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761850820",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3397470",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -141,6 +141,64 @@
       "17": "4342",
       "18": "3993",
       "19": "6869"
+    }
+  },
+  "extended": {
+    "developer": "Yotam Levanon Games",
+    "publisher": "Bad Dog Studios"
+  },
+  "config": {
+    "installdir": "BORZOI",
+    "launch": {
+      "0": {
+        "executable": "Borzoi_urp.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "3",
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3397471": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7090162631526311870",
+          "size": "10187271185",
+          "download": "4892047120"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20596250",
+        "timeupdated": "1761772465"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Yotam Levanon Games/Borzoi_urp/",
+        "pattern": "savefile.bin"
+      }
     }
   }
 }
