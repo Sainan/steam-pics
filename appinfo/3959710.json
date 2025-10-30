@@ -101,6 +101,7 @@
       "category_77": "1",
       "category_78": "1",
       "category_79": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -116,6 +117,7 @@
       }
     },
     "steam_release_date": "1759493699",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3959710",
     "store_tags": {
@@ -148,23 +150,46 @@
     "launch": {
       "0": {
         "executable": "Samurai by Reiner Knizia.exe"
+      },
+      "1": {
+        "executable": "Samurai_mac_1.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
       }
     }
   },
   "depots": {
     "3959711": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "gid": "2580423349513412328",
-          "size": "188343286",
-          "download": "87540784"
+          "gid": "8976384396665201497",
+          "size": "195821801",
+          "download": "89733216"
         }
       }
     },
+    "3959712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8127111263278624137",
+          "size": "507215445",
+          "download": "125090768"
+        }
+      }
+    },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "20238498",
-        "timeupdated": "1759493300"
+        "buildid": "20497937",
+        "timeupdated": "1761143504"
       }
     }
   }
