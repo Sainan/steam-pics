@@ -1,6 +1,5 @@
 {
   "appid": "3754430",
-  "public_only": "1",
   "common": {
     "name": "Ribbit Ranch",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4e2c89b2aa3088c9ad218cf5871332a203ed2e76/capsule_231x87.jpg"
@@ -142,9 +141,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3754430",
-    "exfgls": "8",
     "store_tags": {
       "0": "916648",
       "1": "615955",
@@ -166,6 +166,62 @@
       "17": "8945",
       "18": "12472",
       "19": "3810"
+    }
+  },
+  "extended": {
+    "developer": "Jack McAllister",
+    "publisher": "Jack McAllister"
+  },
+  "config": {
+    "installdir": "Ribbit Ranch",
+    "launch": {
+      "0": {
+        "executable": "Ribbit Ranch.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Default launch option"
+        },
+        "description": "Default launch option"
+      }
+    }
+  },
+  "depots": {
+    "3754431": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1705239963520886540",
+          "size": "962901353",
+          "download": "60766048"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20602034",
+        "timeupdated": "1761809857"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\Bangus Games\\Ribbit Ranch\\Saved\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
