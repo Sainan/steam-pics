@@ -1,13 +1,15 @@
 {
   "appid": "4087590",
-  "public_only": "1",
   "common": {
     "name": "Type2 Demo",
     "type": "Demo",
     "parent": "4083220",
     "icon": "e93b090456ed133296e449af3dc9a6a240d94892",
     "clienticon": "e93b090456ed133296e449af3dc9a6a240d94892",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b23cd21fe1a81dce5ec57090d63d872d7fd7003a/capsule_231x87.jpg"
@@ -97,5 +99,35 @@
     "community_hub_visible": "1",
     "gameid": "4087590",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Lucas Lázaro",
+    "publisher": "Type 2 Studios"
+  },
+  "config": {
+    "installdir": "Builds",
+    "launch": {
+      "0": {
+        "executable": "Builds/Type 2.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4087591": {
+      "manifests": {
+        "public": {
+          "gid": "1262141638700267989",
+          "size": "549798279",
+          "download": "130565664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20459870",
+        "timeupdated": "1760939303"
+      }
+    }
   }
 }
