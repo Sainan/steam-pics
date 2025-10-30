@@ -1,6 +1,5 @@
 {
   "appid": "3853980",
-  "public_only": "1",
   "common": {
     "name": "名誉の町",
     "type": "Game",
@@ -12,7 +11,7 @@
     "name_localized": {
       "english": "Town of Honor"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -126,7 +125,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3853980",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -135,6 +133,67 @@
       "4": "4182",
       "5": "492",
       "6": "493"
+    }
+  },
+  "extended": {
+    "developer": "Craftsoft",
+    "publisher": "Craftsoft"
+  },
+  "config": {
+    "installdir": "名誉の町",
+    "launch": {
+      "0": {
+        "executable": "meiyonomachi.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3853981": {
+      "manifests": {
+        "public": {
+          "gid": "8364735160732759420",
+          "size": "392708671",
+          "download": "167171296"
+        },
+        "local": {
+          "gid": "331430985475356199",
+          "size": "347746135",
+          "download": "123373376"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20600218",
+        "timeupdated": "1761796813"
+      },
+      "local": {
+        "buildid": "19426661",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1753953788"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "data",
+        "pattern": "save.json"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "data",
+        "pattern": "playlog.json"
+      }
     }
   }
 }
