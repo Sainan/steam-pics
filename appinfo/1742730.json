@@ -1,6 +1,5 @@
 {
   "appid": "1742730",
-  "public_only": "1",
   "common": {
     "name": "Greek Tragedy",
     "type": "Game",
@@ -13,7 +12,7 @@
     "clienttga": "db20d2896b6b237c26b1bc7e10ed82bb12c6e2a0",
     "linuxclienticon": "b2f19ae0021a632e0d095c29b87d11d67e3c5a3e",
     "clienticon": "7adc6e349b12b541000d2f95a4186819b5ad5291",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -120,9 +119,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1742730",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "4004",
@@ -144,6 +144,124 @@
       "17": "4191",
       "18": "4562",
       "19": "4947"
+    }
+  },
+  "extended": {
+    "developer": "Cute Spooks",
+    "publisher": "Pineapple Works",
+    "homepage": "https://arborinteractive.com"
+  },
+  "config": {
+    "installdir": "Greek Tragedy",
+    "launch": {
+      "0": {
+        "executable": "GreekTragedy.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GreekTragedy.app\\Contents\\MacOS\\Greek Tragedy",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "GreekTragedy.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1742731": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1676928834391668131",
+          "size": "1385852248",
+          "download": "685388816"
+        }
+      }
+    },
+    "1742732": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "12791194596517109",
+          "size": "1381603605",
+          "download": "659590912"
+        }
+      }
+    },
+    "1742733": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5885656201954483508",
+          "size": "1344228401",
+          "download": "661467136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20435482",
+        "timeupdated": "1760705099"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Arbor Interactive/Greek Tragedy",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "Arbor Interactive/Greek Tragedy",
+        "pattern": "*.png"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "unity3d/"
+      }
     }
   }
 }
