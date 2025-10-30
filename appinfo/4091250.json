@@ -1,6 +1,5 @@
 {
   "appid": "4091250",
-  "public_only": "1",
   "common": {
     "name": "是男人就坚持半首歌的时间",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -102,8 +101,7 @@
       "category_74": "1",
       "category_75": "1",
       "category_78": "1",
-      "category_44": "1",
-      "category_62": "1"
+      "category_44": "1"
     },
     "supported_languages": {
       "english": {
@@ -116,6 +114,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "4091250",
     "exfgls": "3",
@@ -128,6 +127,64 @@
       "5": "1774",
       "6": "3871",
       "7": "3959"
+    }
+  },
+  "extended": {
+    "developer": "AnG",
+    "publisher": "AnG",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "If you’re a man, hold on for half a song",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4091251": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8410486934015172391",
+          "size": "126816496",
+          "download": "58913872"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20554646",
+        "timeupdated": "1761549171"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot\\app_userdata\\If you’re a man, hold on for half a song",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
