@@ -1,11 +1,10 @@
 {
   "appid": "3988240",
-  "public_only": "1",
   "common": {
     "name": "Overdawn Demo",
     "type": "Demo",
     "parent": "3519070",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
@@ -93,5 +92,67 @@
     },
     "gameid": "3988240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Youngje Park",
+    "publisher": "Overdawn Studio"
+  },
+  "config": {
+    "installdir": "Overdawn Demo",
+    "launch": {
+      "0": {
+        "executable": "Overdawn/Overdawn.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Overdawn.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Mac"
+        },
+        "description": "Mac"
+      }
+    }
+  },
+  "depots": {
+    "3988243": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5469697002636186730",
+          "size": "5359982999",
+          "download": "1163783600"
+        }
+      }
+    },
+    "3988244": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1998442943611918863",
+          "size": "5387644861",
+          "download": "1176093232"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20611127",
+        "timeupdated": "1761852329"
+      }
+    }
   }
 }
