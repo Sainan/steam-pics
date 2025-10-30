@@ -1,6 +1,5 @@
 {
   "appid": "3873100",
-  "public_only": "1",
   "common": {
     "name": "Coffie Simulator - Prologue",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "6a149d7c54c8fed3fc4f441aa425551c200487c8",
     "clienticon": "6a149d7c54c8fed3fc4f441aa425551c200487c8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4e114f8792da2235a4bd9d150555ed37cc77f158/capsule_231x87.jpg"
@@ -151,6 +150,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761832207",
     "community_hub_visible": "1",
     "gameid": "3873100",
     "exfgls": "3",
@@ -175,6 +175,55 @@
       "17": "113",
       "18": "492",
       "19": "7481"
+    }
+  },
+  "extended": {
+    "developer": "SakneDev",
+    "publisher": "PlayWay S.A.",
+    "homepage": "https://www.coffiesimulator.com/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Coffie Simulator - Prologue",
+    "launch": {
+      "0": {
+        "executable": "Coffie Simulator Prologue.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3873101": {
+      "manifests": {
+        "public": {
+          "gid": "6219714965985335558",
+          "size": "4075777896",
+          "download": "1086932960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20595439",
+        "timeupdated": "1761767605"
+      }
     }
   }
 }
