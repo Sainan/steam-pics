@@ -1,6 +1,5 @@
 {
   "appid": "3540650",
-  "public_only": "1",
   "common": {
     "name": "IRON GUARD: Salvation Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "79e1b9e148a0ec3c5da842a0c4cb43114bdba594/capsule_231x87.jpg"
@@ -76,7 +75,7 @@
         }
       }
     },
-    "store_asset_mtime": "1740229302",
+    "store_asset_mtime": "1761862313",
     "associations": {
       "0": {
         "type": "developer",
@@ -110,10 +109,66 @@
         "supported": "true",
         "full_audio": "true",
         "subtitles": "true"
+      },
+      "german": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "latam": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "russian": {
+        "supported": "true",
+        "subtitles": "true"
       }
     },
+    "steam_release_date": "1759948739",
     "gameid": "3540650",
     "exfgls": "6",
     "onlyvrsupport": "1"
+  },
+  "extended": {
+    "developer": "Xlab Digital",
+    "publisher": "Xlab Digital",
+    "homepage": "https://xlabdigital.com/games/"
+  },
+  "config": {
+    "installdir": "IRON GUARD Salvation Demo",
+    "launch": {
+      "0": {
+        "executable": "IRON GUARD Salvation.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3540651": {
+      "manifests": {
+        "public": {
+          "gid": "2415409100158330957",
+          "size": "5999224910",
+          "download": "2220833392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20342545",
+        "timeupdated": "1760128693"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "100"
   }
 }
