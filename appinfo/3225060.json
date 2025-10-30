@@ -1,6 +1,5 @@
 {
   "appid": "3225060",
-  "public_only": "1",
   "common": {
     "name": "Sweet Succubus Home",
     "type": "Game",
@@ -18,7 +17,7 @@
       "koreana": "스위트 서큐버스 홈",
       "schinese": "甜蜜魅魔之家"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -207,9 +206,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761789561",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3225060",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -237,6 +237,50 @@
       "17": "31579",
       "18": "4136",
       "19": "1654"
+    }
+  },
+  "extended": {
+    "developer": "Black Cat Entertainment",
+    "publisher": "Mango Party"
+  },
+  "config": {
+    "installdir": "SweetSuccubusHome",
+    "launch": {
+      "0": {
+        "executable": "SweetSuccubusHome.exe"
+      }
+    }
+  },
+  "depots": {
+    "3225061": {
+      "manifests": {
+        "public": {
+          "gid": "1812943835368122144",
+          "size": "2333817635",
+          "download": "1146846864"
+        }
+      }
+    },
+    "baselanguages": "tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20598662",
+        "timeupdated": "1761788582"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BlackCat\\SweetSuccubusHome\\Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
