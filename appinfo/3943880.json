@@ -1,13 +1,12 @@
 {
   "appid": "3943880",
-  "public_only": "1",
   "common": {
     "name": "GORE",
     "type": "Game",
     "icon": "243fc82fcc70d385799dd40b7517fee8819ff253",
     "clienticon": "4a043528e5b2c61aadafffdbd12422fa2752c00d",
     "clienttga": "509f1e3768498268bcabb11a2f11444ee228e736",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761791588",
     "community_hub_visible": "1",
     "gameid": "3943880",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -136,6 +135,49 @@
       "17": "6691",
       "18": "4004",
       "19": "10808"
+    }
+  },
+  "extended": {
+    "developer": "CosmicArcade",
+    "publisher": "CosmicArcade"
+  },
+  "config": {
+    "installdir": "GORE",
+    "launch": {
+      "0": {
+        "executable": "LighthouseMountain.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3943881": {
+      "manifests": {
+        "public": {
+          "gid": "7314978865452238432",
+          "size": "6861009928",
+          "download": "6668535216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20583574",
+        "timeupdated": "1761705600"
+      }
     }
   }
 }
