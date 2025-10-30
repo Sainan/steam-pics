@@ -6,9 +6,9 @@
     "parent": "4038910",
     "icon": "4f058f15dff4e109f43feebc5ba10a8dfb030805",
     "clienticon": "f36ccf38024be45181e326d7c8eeac6a0b510f1b",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "osarch": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "releasestate": "released",
     "small_capsule": {
       "english": "78399430faa5b3f7ad458e4c571e529a38ea4031/capsule_231x87.jpg"
@@ -47,12 +47,20 @@
   },
   "depots": {
     "4094601": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "gid": "8306464236011683553",
           "size": "2256697550",
           "download": "821913920"
         }
+      }
+    },
+    "4094602": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
