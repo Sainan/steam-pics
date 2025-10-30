@@ -1,6 +1,5 @@
 {
   "appid": "4104690",
-  "public_only": "1",
   "common": {
     "name": "异种突袭",
     "type": "Game",
@@ -28,7 +27,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "2",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -172,7 +171,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4104690",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -192,6 +190,53 @@
       "15": "3942",
       "16": "8122",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "程进",
+    "publisher": "程进"
+  },
+  "config": {
+    "installdir": "异种突袭",
+    "launch": {
+      "0": {
+        "executable": "YZTX\\RGLK.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4104691": {
+      "manifests": {
+        "public": {
+          "gid": "7367876801562041339",
+          "size": "2708192611",
+          "download": "2456231360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20611426",
+        "timeupdated": "1761854014"
+      }
     }
   }
 }
