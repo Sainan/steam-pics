@@ -1,11 +1,9 @@
 {
   "appid": "1808500",
-  "public_only": "1",
   "common": {
     "name": "ARC Raiders",
-    "section_type": "ownersonly",
     "type": "Game",
-    "releasestate": "preloadonly",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -31,7 +29,7 @@
         "id": "1808500_eula_0",
         "name": "ARC Raiders EULA",
         "url": "https://store.steampowered.com//eula/1808500_eula_0",
-        "version": "2"
+        "version": "3"
       }
     },
     "aicontenttype": "1",
@@ -188,6 +186,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761816605",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1808500",
     "store_tags": {
@@ -212,5 +212,53 @@
       "18": "4175",
       "19": "4747"
     }
+  },
+  "extended": {
+    "developer": "Embark Studios",
+    "publisher": "Embark Studios",
+    "homepage": "https://arcraiders.com/"
+  },
+  "config": {
+    "installdir": "Arc Raiders",
+    "launch": {
+      "0": {
+        "executable": "PioneerGame.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1808501": {
+      "manifests": {
+        "public": {
+          "gid": "5836272632481757652",
+          "size": "35070079374",
+          "download": "28801262176"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,polish,turkish,brazilian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20540845",
+        "timeupdated": "1761644824"
+      }
+    },
+    "privatebranches": "1"
   }
 }
