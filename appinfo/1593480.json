@@ -203,5 +203,44 @@
         "timeupdated": "1761361055"
       }
     }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "15",
+    "appidredirect": "1581100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Bittersweet Birthday",
+        "pattern": "*.save"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Bittersweet Birthday",
+            "replace": "Godot/app_userdata/Bittersweet Birthday"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Bittersweet Birthday",
+            "replace": ".local/share/godot/app_userdata/Bittersweet Birthday"
+          }
+        }
+      }
+    }
   }
 }
