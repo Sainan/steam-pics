@@ -1,6 +1,5 @@
 {
   "appid": "3812240",
-  "public_only": "1",
   "common": {
     "name": "Real Vampires",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticns": "b2e54d91387607221fa12bd74622c2ad115ebd45",
     "content_descriptors": {
       "0": "1",
@@ -113,9 +112,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761858463",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3812240",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -136,5 +136,60 @@
       "12": "10808",
       "13": "9541"
     }
+  },
+  "extended": {
+    "developer": "Those Eyes",
+    "publisher": "Those Eyes",
+    "homepage": "https://www.realvampires.eu"
+  },
+  "config": {
+    "installdir": "Real Vampires",
+    "launch": {
+      "0": {
+        "executable": "RealVampires.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RealVampires.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3812241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8180711322261319651",
+          "size": "1565964477",
+          "download": "518605792"
+        }
+      }
+    },
+    "3812242": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6527215949670283678",
+          "size": "1593460973",
+          "download": "527753568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20603767",
+        "timeupdated": "1761819324"
+      }
+    },
+    "privatebranches": "1"
   }
 }
