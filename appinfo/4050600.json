@@ -1,6 +1,5 @@
 {
   "appid": "4050600",
-  "public_only": "1",
   "common": {
     "name": "Darkzan Adventure",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -147,6 +146,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4050600",
     "exfgls": "3",
@@ -171,6 +171,60 @@
       "17": "1684",
       "18": "4840",
       "19": "4172"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "MrBoscheinen",
+    "publisher": "MrBoscheinen",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Darkzan Adventure",
+    "launch": {
+      "0": {
+        "executable": "Darkzan Adventure.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "4050601": {
+      "manifests": {
+        "public": {
+          "gid": "2523684563640294723",
+          "size": "439601561",
+          "download": "393406304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20579658",
+        "timeupdated": "1761681915"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Darkzan_Adventure",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
