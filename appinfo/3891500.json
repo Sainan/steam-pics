@@ -1,6 +1,5 @@
 {
   "appid": "3891500",
-  "public_only": "1",
   "common": {
     "name": "Re : promise ～リナリアの約束～",
     "type": "Game",
@@ -19,7 +18,7 @@
       "english": "Re: promise - Promise of Linaria",
       "tchinese": "Re : promise ～利納利亞的約定～"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -144,9 +143,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761815343",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3891500",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -162,5 +162,102 @@
       "7": "7208",
       "8": "4182"
     }
+  },
+  "extended": {
+    "developer": "JV Studio Inc.",
+    "publisher": "JV Studio Inc.",
+    "homepage": "https://repromise-linaria.jvstudio.jp/top-en/",
+    "listofdlc": "3935360,3935370,3935380,3935390",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Re  promise ～リナリアの約束～",
+    "launch": {
+      "0": {
+        "executable": "RePromiseOfLinaria.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "RePromiseOfLinaria.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3891501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7305307480843288833",
+          "size": "2570246415",
+          "download": "744961920"
+        }
+      }
+    },
+    "3891502": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8011221031449042113",
+          "size": "2586840676",
+          "download": "753618240"
+        }
+      }
+    },
+    "3935360": {
+      "dlcappid": "3935360",
+      "manifests": {
+        "public": {
+          "gid": "8095394844373667082",
+          "size": "21",
+          "download": "80"
+        }
+      }
+    },
+    "3935370": {
+      "dlcappid": "3935370",
+      "manifests": {
+        "public": {
+          "gid": "7929567158342669815",
+          "size": "21",
+          "download": "80"
+        }
+      }
+    },
+    "3935380": {
+      "dlcappid": "3935380",
+      "manifests": {
+        "public": {
+          "gid": "8800014556132618008",
+          "size": "21",
+          "download": "80"
+        }
+      }
+    },
+    "3935390": {
+      "dlcappid": "3935390",
+      "manifests": {
+        "public": {
+          "gid": "8080083490384375288",
+          "size": "21",
+          "download": "80"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20334305",
+        "timeupdated": "1760923498"
+      }
+    },
+    "privatebranches": "1"
   }
 }
