@@ -324,6 +324,37 @@
         "root": "gameinstall",
         "path": "Vein/Saved/SaveGames",
         "pattern": "*.vns"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "Vein/Saved/SaveGames",
+        "pattern": "*.vns"
+      },
+      "2": {
+        "root": "LinuxHome",
+        "path": ".config/Epic/Vein/Saved/SaveGames",
+        "pattern": "*.vns"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "addpath": ".config/Epic/"
+      },
+      "1": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocal",
+        "pathtransforms": {
+          "0": {
+            "find": ".config/Epic/Vein/Saved/SaveGames",
+            "replace": "Vein/Saved/SaveGames"
+          }
+        }
       }
     }
   }
