@@ -1,6 +1,5 @@
 {
   "appid": "2886690",
-  "public_only": "1",
   "common": {
     "name": "Human Sacrifice",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -98,7 +97,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "2886690",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -120,6 +118,48 @@
       "12": "122",
       "13": "4791",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "GameStalker",
+    "publisher": "GameStalker"
+  },
+  "config": {
+    "installdir": "Human Sacrifice",
+    "launch": {
+      "0": {
+        "executable": "HumanSacrificeNew/Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "2886691": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8845320603926850660",
+          "size": "406978488",
+          "download": "314038704"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20610282",
+        "timeupdated": "1761848226"
+      }
     }
   }
 }
