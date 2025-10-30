@@ -1,0 +1,178 @@
+{
+  "appid": "2341900",
+  "common": {
+    "name": "PANEL RABBIT",
+    "type": "Game",
+    "languages": {
+      "english": "1",
+      "japanese": "1"
+    },
+    "icon": "642bd487c652a907a799b224dd43c4811e08eb3c",
+    "clienticon": "1e7e9f481f7618e24364f785456ef7ecbce81c03",
+    "clienttga": "03ba7ab0a6318c4432d3c9f4331e24d23d7ac74b",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg",
+      "japanese": "capsule_231x87_japanese.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg",
+      "japanese": "header_japanese.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en,ja",
+      "library_hero": "en",
+      "library_logo": "en,ja",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "30.21156833229034",
+        "height_pct": "81.94805792074004"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg",
+          "japanese": "library_600x900_japanese.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png",
+          "japanese": "logo_japanese.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "30.21156833229034",
+          "height_pct": "81.94805792074004"
+        }
+      }
+    },
+    "store_asset_mtime": "1689833243",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "StirSystem Inc."
+      },
+      "1": {
+        "type": "publisher",
+        "name": "StirSystem Inc."
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "4",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "supported_languages": {
+      "japanese": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1687827578",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "2341900",
+    "store_tags": {
+      "0": "597",
+      "1": "1664",
+      "2": "5537",
+      "3": "3871",
+      "4": "4726",
+      "5": "4252",
+      "6": "7481",
+      "7": "492",
+      "8": "4182",
+      "9": "6129"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "StirSystem Inc.",
+    "publisher": "StirSystem Inc."
+  },
+  "config": {
+    "installdir": "PANELRABBIT",
+    "steamdecktouchscreen": "1",
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamconfigurator3rdpartynative": "65535",
+    "launch": {
+      "0": {
+        "executable": "PanelRabbit.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2341901": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1697556374708953210",
+          "size": "253517545",
+          "download": "77993392"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "11629143",
+        "timeupdated": "1688692805"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "StirSystem/PanelRabbit",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "StirSystem/PanelRabbit",
+            "replace": ".config/StirSystem/PanelRabbit"
+          }
+        }
+      }
+    }
+  }
+}
