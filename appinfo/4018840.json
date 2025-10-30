@@ -1,6 +1,5 @@
 {
   "appid": "4018840",
-  "public_only": "1",
   "common": {
     "name": "Montage",
     "type": "Application",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "2c4a6033a32375bd2e25e048b3768f3fe5ff246b",
     "icon": "2c4a6033a32375bd2e25e048b3768f3fe5ff246b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f41846abee588a988c82b4c07b7f490982e11a54/capsule_231x87.jpg"
     },
@@ -111,6 +110,42 @@
       "4": "87",
       "5": "8013",
       "6": "8945"
+    }
+  },
+  "extended": {
+    "developer": "QSXW",
+    "publisher": "QSXW",
+    "homepage": "https://github.com/QSXW/Immortal",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Montage",
+    "launch": {
+      "0": {
+        "executable": "Montage.exe",
+        "arguments": "--api=d3d12",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4018841": {
+      "manifests": {
+        "public": {
+          "gid": "1287373952450936431",
+          "size": "474834814",
+          "download": "255808144"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20252973",
+        "timeupdated": "1759588250"
+      }
     }
   }
 }
