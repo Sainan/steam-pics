@@ -1,6 +1,5 @@
 {
   "appid": "4003580",
-  "public_only": "1",
   "common": {
     "name": "RED MACHINA: Revalisco Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "2fb3ee54b77e60e0fa40dda10d3683116ac15278",
     "icon": "2fb3ee54b77e60e0fa40dda10d3683116ac15278",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8d7df85b90c9c54d17e132d1fcef466232a4d7fc/capsule_231x87.jpg"
@@ -97,7 +96,59 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761842813",
     "gameid": "4003580",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dante Esposato",
+    "publisher": "Macronoma"
+  },
+  "config": {
+    "installdir": "RED MACHINA - Revalisco Demo",
+    "launch": {
+      "0": {
+        "executable": "RED MACHINA - Revalisco Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4003585": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2850645801085876373",
+          "size": "954644963",
+          "download": "747152064"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20516370",
+        "timeupdated": "1761239862"
+      }
+    }
   }
 }
