@@ -1,6 +1,5 @@
 {
   "appid": "3454980",
-  "public_only": "1",
   "common": {
     "name": "Mortal Kombat: Legacy Kollection",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3454980_eula_0",
@@ -221,9 +220,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761807513",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3454980",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -250,6 +250,81 @@
       "17": "3916",
       "18": "4004",
       "19": "3993"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "Digital Eclipse",
+    "publisher": "Digital Eclipse",
+    "homepage": "https://atari.com/products/mortal-kombat-legacy-kollection"
+  },
+  "config": {
+    "installdir": "Mortal Kombat Legacy Kollection",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "mk_legacy_kollection.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3454981": {
+      "manifests": {
+        "public": {
+          "gid": "6560034032350423247",
+          "size": "13390184276",
+          "download": "12874609696"
+        }
+      }
+    },
+    "3454982": {
+      "manifests": {
+        "public": {
+          "gid": "2077392766677407254",
+          "size": "16662163715",
+          "download": "14647634784"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "20581988",
+        "timeupdated": "1761695546"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Mortal Kombat Legacy Kollection",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "Mortal Kombat Legacy Kollection/replays",
+        "pattern": "*.replay",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
