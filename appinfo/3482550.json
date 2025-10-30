@@ -1,6 +1,5 @@
 {
   "appid": "3482550",
-  "public_only": "1",
   "common": {
     "name": "A Day's Work",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "13d13aa86eabf6a8c173d8651de23bb7f62683aa",
     "clienticns": "67c6ce3bf5787d41ed3bac2e80ae3e035d78d309",
     "linuxclienticon": "82be054cb6a2637954b194286669e31bcf54f348",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -103,9 +102,9 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3482550",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4234",
@@ -127,6 +126,49 @@
       "17": "30358",
       "18": "492",
       "19": "21"
+    }
+  },
+  "extended": {
+    "developer": "Emanuel Alvgard",
+    "publisher": "Emanuel Alvgard"
+  },
+  "config": {
+    "installdir": "A Day's Work",
+    "launch": {
+      "0": {
+        "executable": "A Day's Work.exe"
+      }
+    }
+  },
+  "depots": {
+    "3482551": {
+      "manifests": {
+        "public": {
+          "gid": "2453419840290673943",
+          "size": "569826072",
+          "download": "370808912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20555151",
+        "timeupdated": "1761553037"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "A Day's Work/cloud",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
