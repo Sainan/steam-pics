@@ -1,6 +1,5 @@
 {
   "appid": "3820130",
-  "public_only": "1",
   "common": {
     "name": "The Dream Globe",
     "type": "Game",
@@ -13,7 +12,7 @@
     "osextended": "",
     "clienticon": "1f7875ed653b2a365a9222e321b9c67ecf16b8d2",
     "clienttga": "437e9f58d20ccf5486b69b3823b1636f60f87a9a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -159,9 +158,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761824121",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3820130",
-    "exfgls": "8",
     "store_tags": {
       "0": "5652",
       "1": "615955",
@@ -181,6 +181,54 @@
       "15": "97376",
       "16": "492",
       "17": "8093"
+    }
+  },
+  "extended": {
+    "developer": "Roaming of Little Hammer",
+    "publisher": "Roaming of Little Hammer"
+  },
+  "config": {
+    "installdir": "The Dream Globe",
+    "launch": {
+      "0": {
+        "executable": "DreamGlobe.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3820131": {
+      "manifests": {
+        "public": {
+          "gid": "9180651386765256861",
+          "size": "229823144",
+          "download": "76115680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20537891",
+        "timeupdated": "1761360677"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "RoamingofLittleHammer\\DreamGlobe",
+        "pattern": "DreamGlobeFull.Sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
