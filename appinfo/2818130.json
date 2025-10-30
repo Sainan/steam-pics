@@ -1,6 +1,5 @@
 {
   "appid": "2818130",
-  "public_only": "1",
   "common": {
     "name": "Silver Bullet",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -75,7 +74,7 @@
         }
       }
     },
-    "store_asset_mtime": "1760699083",
+    "store_asset_mtime": "1761827431",
     "associations": {
       "0": {
         "type": "developer",
@@ -104,9 +103,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761834761",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2818130",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "1773",
@@ -123,6 +123,58 @@
       "12": "7481",
       "13": "4182",
       "14": "1667"
+    }
+  },
+  "extended": {
+    "developer": "1CC Games",
+    "publisher": "Flynn's Arcade",
+    "homepage": "https://www.1ccgames.com/p/silver-bullet.html"
+  },
+  "config": {
+    "installdir": "Silver Bullet",
+    "launch": {
+      "0": {
+        "executable": "SilverBullet.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Silver Bullet"
+        },
+        "description": "Play Silver Bullet"
+      }
+    }
+  },
+  "depots": {
+    "2818131": {
+      "manifests": {
+        "public": {
+          "gid": "3004439727799372382",
+          "size": "79728060",
+          "download": "61618096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19898015",
+        "timeupdated": "1757340136"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "4000",
+    "maxnumfiles": "4",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "SilverBullet",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
