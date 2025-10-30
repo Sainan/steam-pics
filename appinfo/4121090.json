@@ -1,6 +1,5 @@
 {
   "appid": "4121090",
-  "public_only": "1",
   "common": {
     "name": "Croquis Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "clienticns": "71fc42de1a302b25fffe57025a84b379a6be5081",
     "clienticon": "875f348e9b218b719b00ba42f8260eaf16d5bd39",
     "icon": "875f348e9b218b719b00ba42f8260eaf16d5bd39",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "80fe6f31be0420e7f0a752e044d14ec2ab5e9718/capsule_231x87.jpg"
     },
@@ -41,5 +40,79 @@
     },
     "gameid": "4121090",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "minimus",
+    "publisher": "minimus"
+  },
+  "config": {
+    "installdir": "Croquis Demo",
+    "launch": {
+      "0": {
+        "executable": "CroquisDemo.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Croquis.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4121091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4017975145548417077",
+          "size": "135864400",
+          "download": "39261472"
+        },
+        "beta": {
+          "gid": "4017975145548417077",
+          "size": "135864400",
+          "download": "39261472"
+        }
+      }
+    },
+    "4121092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7512941232481896077",
+          "size": "219530295",
+          "download": "58160848"
+        },
+        "beta": {
+          "gid": "7512941232481896077",
+          "size": "219530295",
+          "download": "58160848"
+        }
+      }
+    },
+    "4121093": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20549442",
+        "timeupdated": "1761501508"
+      },
+      "beta": {
+        "buildid": "20549442",
+        "description": "Beta",
+        "timeupdated": "1761502785"
+      }
+    }
   }
 }
