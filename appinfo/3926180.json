@@ -1,6 +1,5 @@
 {
   "appid": "3926180",
-  "public_only": "1",
   "common": {
     "name": "危光",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "b6d4cd313221f9036a4ccd7077daa404589a36a5",
     "icon": "c055ee5a8d3098281f0738b2df083dc19bea7ac7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1"
@@ -130,9 +129,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3926180",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "492",
@@ -153,6 +152,60 @@
       "16": "6815",
       "17": "7250",
       "18": "16094"
+    }
+  },
+  "extended": {
+    "developer": "Maple Toast Studio",
+    "publisher": "Maple Toast Studio",
+    "homepage": "https://www.gcores.com/games/130158"
+  },
+  "config": {
+    "installdir": "Perilous Light",
+    "launch": {
+      "0": {
+        "executable": "PerilousLight.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3926181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "698727207236534158",
+          "size": "802162847",
+          "download": "569818576"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20355390",
+        "timeupdated": "1760249277"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "3",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
