@@ -1,6 +1,5 @@
 {
   "appid": "2849180",
-  "public_only": "1",
   "common": {
     "name": "The Book of Outcasts",
     "type": "Game",
@@ -11,7 +10,7 @@
     "linuxclienticon": "4fba313a42574fafa3c86ad17cc87d56a2049abe",
     "clienticon": "d1c12e01f8a73f4f4ce8090b6ae0e4fa9e2c6597",
     "clienttga": "58d7505c70082a367c6b29f708a8155700f45808",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "schinese": "1",
@@ -126,9 +125,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761845168",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2849180",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -149,6 +149,94 @@
       "10": "14139",
       "11": "4018",
       "12": "122"
+    }
+  },
+  "extended": {
+    "developer": "kamti",
+    "publisher": "kamti",
+    "listofdlc": "4071760,4075120",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "The Book of Outcasts",
+    "launch": {
+      "0": {
+        "executable": "The_Book_of_Outcasts.exe"
+      },
+      "1": {
+        "executable": "The_Book_of_Outcasts.sh",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "The_Book_of_Outcasts.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2849181": {
+      "manifests": {
+        "public": {
+          "gid": "2195388652752038295",
+          "size": "5864551261",
+          "download": "3983775008"
+        }
+      }
+    },
+    "2849182": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1875064258168340768",
+          "size": "5853491729",
+          "download": "4061663232"
+        }
+      }
+    },
+    "2849183": {
+      "manifests": {
+        "public": {
+          "gid": "3035110788380254782",
+          "size": "5885488963",
+          "download": "4073215376"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20604119",
+        "timeupdated": "1761820733"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
