@@ -244,24 +244,30 @@
       "0": {
         "root": "WinAppDataLocal",
         "path": "PirateGate/Saved/SaveGames",
-        "pattern": "*.sav"
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
       },
       "1": {
         "root": "WinAppDataLocal",
         "path": "PirateGate/Saved/Screenshots",
-        "pattern": "*.png"
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        }
       },
       "2": {
-        "root": "gameinstall",
-        "path": "PirateGate/Saved/SaveGames",
+        "root": "LinuxHome",
+        "path": ".config/Epic/PirateGate/Saved/SaveGames",
         "pattern": "*.sav",
         "platforms": {
           "1": "Linux"
         }
       },
       "3": {
-        "root": "gameinstall",
-        "path": "PirateGate/Saved/Screenshots",
+        "root": "LinuxHome",
+        "path": ".config/Epic/PirateGate/Saved/Screenshots",
         "pattern": "*.png",
         "platforms": {
           "1": "Linux"
