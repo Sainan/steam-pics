@@ -219,7 +219,7 @@
         }
       },
       "1": {
-        "executable": "CozySudoku",
+        "executable": "x64/CozySudoku",
         "config": {
           "oslist": "linux"
         }
@@ -285,12 +285,34 @@
       "0": {
         "root": "gameinstall",
         "path": "",
-        "pattern": "*.sav"
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
       },
       "1": {
         "root": "gameinstall",
         "path": "",
-        "pattern": "*.bak"
+        "pattern": "*.bak",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "x64",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
+      },
+      "3": {
+        "root": "gameinstall",
+        "path": "x64",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        }
       }
     }
   }
