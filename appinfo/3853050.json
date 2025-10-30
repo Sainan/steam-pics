@@ -1,6 +1,5 @@
 {
   "appid": "3853050",
-  "public_only": "1",
   "common": {
     "name": "Zomvac Demo",
     "type": "Demo",
@@ -20,7 +19,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -434,7 +433,59 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761862036",
     "gameid": "3853050",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Kodybod Studios",
+    "publisher": "Kodybod Studios"
+  },
+  "config": {
+    "installdir": "Zomvac Prototype Demo",
+    "launch": {
+      "0": {
+        "executable": "Zomvac Prototype Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "uselaunchcommandline": "1",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "11",
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "3853051": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5674797207617185430",
+          "size": "339686016",
+          "download": "126380272"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20538517",
+        "timeupdated": "1761367049"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100",
+    "maxnumfiles": "100",
+    "appidredirect": "3853050",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1"
   }
 }
