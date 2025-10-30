@@ -1,0 +1,175 @@
+{
+  "appid": "2172390",
+  "common": {
+    "name": "Backrooms: Escape Together Playtest",
+    "type": "Beta",
+    "parent": "2141730",
+    "releasestate": "released",
+    "clienticon": "603f7140c94e07e310caba22ca4086d954578ee7",
+    "clienttga": "77c898af750d8434b9496a4d53594d81bce43bf3",
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "icon": "d4b430f9594dcad772f320fe8792b2c94cf99e06",
+    "small_capsule": {
+      "english": "dcc2e9cc8d5c08bae8b72bc266592434ecd24425/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "library_header": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "27.64705798986769",
+        "height_pct": "38.970509459992314"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "27.64705798986769",
+          "height_pct": "38.970509459992314"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "library_header.jpg"
+        },
+        "image2x": {
+          "english": "library_header_2x.jpg"
+        }
+      }
+    },
+    "store_asset_mtime": "1724218369",
+    "associations": {},
+    "primary_genre": "0",
+    "category": {},
+    "steam_release_date": "1724218176",
+    "community_hub_visible": "1",
+    "gameid": "2172390",
+    "exfgls": "6"
+  },
+  "extended": {
+    "betaforappid": "2141730"
+  },
+  "config": {
+    "installdir": "BET_Playtest",
+    "launch": {
+      "0": {
+        "executable": "BETPlaytest.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "BETPlaytest-Mac-Shipping.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "BETPlaytest.exe",
+        "arguments": " -dx11",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Backrooms: Escape Together (Compatibility Mode)"
+        },
+        "description": "Backrooms: Escape Together (Compatibility Mode)"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2141732": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6866044377255604924",
+          "size": "20151449702",
+          "download": "7801338224"
+        }
+      },
+      "depotfromapp": "2141730"
+    },
+    "2172391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6127681075503412520",
+          "size": "10289991555",
+          "download": "9422981552"
+        }
+      }
+    },
+    "2172392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7971636797051246116",
+          "size": "23006923503",
+          "download": "11060562000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "16222166",
+        "timeupdated": "1730210448"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
