@@ -1,6 +1,5 @@
 {
   "appid": "4094110",
-  "public_only": "1",
   "common": {
     "name": "Tai Chi USA",
     "type": "Application",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a9331eea61b65fed264c2a6561325d77447754f8/capsule_231x87.jpg"
@@ -113,6 +112,62 @@
       "0": "1036",
       "1": "113",
       "2": "15277"
+    }
+  },
+  "extended": {
+    "developer": "Kevin Wacknov",
+    "publisher": "Mind Body Aware Games LLC",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Tai Chi USA",
+    "launch": {
+      "0": {
+        "executable": "Tai Chi USA.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Tai Chi USA.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4094111": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1511001753188689838",
+          "size": "202035722",
+          "download": "110526960"
+        }
+      }
+    },
+    "4094112": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5786768018162588824",
+          "size": "217267218",
+          "download": "118333888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20478067",
+        "timeupdated": "1761038203"
+      }
     }
   }
 }
