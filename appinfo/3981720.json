@@ -1,10 +1,9 @@
 {
   "appid": "3981720",
-  "public_only": "1",
   "common": {
     "name": "Voidblade Shadows Of The Realm",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -444,9 +443,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761843508",
     "community_hub_visible": "1",
     "gameid": "3981720",
-    "exfgls": "8",
     "store_tags": {
       "0": "3877",
       "1": "5379",
@@ -468,6 +467,118 @@
       "17": "4604",
       "18": "3952",
       "19": "3968"
+    }
+  },
+  "extended": {
+    "developer": "Sombras De Lumen",
+    "publisher": "Sombras De Lumen"
+  },
+  "config": {
+    "installdir": "Voidblade Shadows Of The Realm",
+    "launch": {
+      "1": {
+        "executable": "My project (1).exe",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Voidblade.app/Contents/MacOS/Voidblade",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "3": {
+        "executable": "Voidblade Shadows Of The Realm.x86_64",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper",
+        "branch": "default"
+      }
+    }
+  },
+  "depots": {
+    "3981721": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2228999429859761226",
+          "size": "143015245",
+          "download": "53598816"
+        }
+      }
+    },
+    "3981722": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5575218693326591513",
+          "size": "118718704",
+          "download": "44532048"
+        }
+      }
+    },
+    "3981723": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7252194919132483337",
+          "size": "120498933",
+          "download": "44025120"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20522722",
+        "timeupdated": "1761275202"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
