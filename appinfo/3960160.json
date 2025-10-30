@@ -1,6 +1,5 @@
 {
   "appid": "3960160",
-  "public_only": "1",
   "common": {
     "name": "Mad Cleaners",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -115,9 +114,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761840087",
     "community_hub_visible": "1",
     "gameid": "3960160",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -142,6 +141,57 @@
       "17": "5923",
       "18": "5794",
       "19": "4342"
+    }
+  },
+  "extended": {
+    "developer": "Lysm",
+    "publisher": "Lysm"
+  },
+  "config": {
+    "installdir": "Mad Cleaners",
+    "launch": {
+      "0": {
+        "executable": "MadCleaners.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3960161": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6979434406820603867",
+          "size": "6213906645",
+          "download": "6014479776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20580450",
+        "timeupdated": "1761686579"
+      }
     }
   }
 }
