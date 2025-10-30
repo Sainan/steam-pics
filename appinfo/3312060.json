@@ -1,6 +1,5 @@
 {
   "appid": "3312060",
-  "public_only": "1",
   "common": {
     "name": "Beast Survivor",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticns": "f99893f7a8c8f35d473f4428cac13b59c9b2cab6",
     "clienticon": "25812b74a79fcc68a6ef4b5c23dc5eb5d9d1971e",
     "clienttga": "0b081d40152ff0150b62ef43069a06d716304f67",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "fd33cc6950641aa32f375a3da63ab4fc5586f996/capsule_231x87.jpg"
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761840033",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3312060",
-    "exfgls": "8",
     "store_tags": {
       "0": "1716",
       "1": "4885",
@@ -127,6 +127,45 @@
       "13": "4182",
       "14": "492",
       "15": "493"
+    }
+  },
+  "extended": {
+    "developer": "Keith Ku",
+    "publisher": "Keith Ku"
+  },
+  "config": {
+    "installdir": "Beast Survivor",
+    "launch": {
+      "0": {
+        "executable": "Beast Survivor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3312061": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4716358990117104314",
+          "size": "329501586",
+          "download": "68504624"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20603316",
+        "timeupdated": "1761816766"
+      }
     }
   }
 }
