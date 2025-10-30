@@ -1,6 +1,5 @@
 {
   "appid": "2893570",
-  "public_only": "1",
   "common": {
     "name": "DRAGON QUEST I & II HD-2D Remake",
     "type": "Game",
@@ -16,7 +15,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -218,9 +217,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761840000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2893570",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4975",
@@ -242,6 +242,110 @@
       "17": "5708",
       "18": "1677",
       "19": "4434"
+    }
+  },
+  "extended": {
+    "developer": "Square Enix",
+    "publisher": "Square Enix"
+  },
+  "config": {
+    "installdir": "DRAGON QUEST I and II HD-2D Remake",
+    "launch": {
+      "0": {
+        "executable": "DQIandIIHD2DRemake.exe",
+        "config": {
+          "betakey": "development_patch1"
+        }
+      },
+      "1": {
+        "executable": "DQIandIIHD2DRemake.exe",
+        "arguments": "-logPSO",
+        "config": {
+          "betakey": "pso_collection"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3451050342": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,development,development_weekly,test,test_weekly,shipping,shipping_weekly,temporary_test,denuvo,fps_test",
+        "use_action_block": "false"
+      },
+      "3451052033": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,development,development_weekly,test,test_weekly,shipping,shipping_weekly,temporary_test,denuvo,fps_test",
+        "use_action_block": "false"
+      },
+      "3451057192": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,development,development_weekly,test,test_weekly,shipping,shipping_weekly,temporary_test,denuvo,fps_test",
+        "use_action_block": "false"
+      },
+      "3451058099": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,development,development_weekly,test,test_weekly,shipping,shipping_weekly,temporary_test,denuvo,fps_test",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2893571": {
+      "manifests": {
+        "public": {
+          "gid": "2485611735242171593",
+          "size": "17042305432",
+          "download": "15876071664"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,latam",
+    "branches": {
+      "public": {
+        "buildid": "19782336",
+        "timeupdated": "1757607566"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1073741824",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "My Games/DRAGON QUEST I and II HD-2D Remake/Steam/{64BitSteamID}",
+        "pattern": "Capture*.sav",
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinMyDocuments",
+        "path": "My Games/DRAGON QUEST I and II HD-2D Remake/Steam/{64BitSteamID}",
+        "pattern": "*SaveData*.sav",
+        "recursive": "1"
+      },
+      "2": {
+        "root": "WinMyDocuments",
+        "path": "My Games/DRAGON QUEST I and II HD-2D Remake/Steam/{64BitSteamID}",
+        "pattern": "SystemData_0.sav",
+        "recursive": "1"
+      }
     }
   }
 }
