@@ -1,6 +1,5 @@
 {
   "appid": "3910440",
-  "public_only": "1",
   "common": {
     "name": "The Remainer",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "26266b53ae28ec94d9582ba29e710eff7b66e810",
     "icon": "26266b53ae28ec94d9582ba29e710eff7b66e810",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -106,9 +105,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3910440",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -133,6 +132,51 @@
       "17": "4166",
       "18": "1667",
       "19": "4342"
+    }
+  },
+  "extended": {
+    "developer": "20100",
+    "publisher": "20100",
+    "homepage": "https://sites.google.com/view/theremainer/home?authuser=0"
+  },
+  "config": {
+    "installdir": "The Remainer",
+    "launch": {
+      "0": {
+        "executable": "The_Remainer.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3910441": {
+      "manifests": {
+        "public": {
+          "gid": "710424769384441044",
+          "size": "4942957528",
+          "download": "4561028784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20597857",
+        "timeupdated": "1761784502"
+      }
     }
   }
 }
