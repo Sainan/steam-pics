@@ -1,6 +1,5 @@
 {
   "appid": "3975790",
-  "public_only": "1",
   "common": {
     "name": "連呪",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -127,9 +126,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3975790",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -150,6 +149,70 @@
       "12": "7481",
       "13": "12057",
       "14": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Orgesta Inc.",
+    "publisher": "Nippon Ichi Software, Inc.",
+    "homepage": "https://nippon1.jp/consumer/lens/"
+  },
+  "config": {
+    "installdir": "連呪",
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "lens.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3578105853": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,debug_check,debug_dev,debug_rel",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "3975791": {
+      "manifests": {
+        "public": {
+          "gid": "7273270700101058804",
+          "size": "1624338322",
+          "download": "1395612688"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20510432",
+        "timeupdated": "1761271872"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "40",
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
+    },
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Nippon Ichi Software\\lens\\SaveData",
+        "pattern": "*.sav"
+      }
     }
   }
 }
