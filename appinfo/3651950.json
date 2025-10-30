@@ -1,6 +1,5 @@
 {
   "appid": "3651950",
-  "public_only": "1",
   "common": {
     "name": "Evil Egg",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -101,6 +100,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761840065",
     "community_hub_visible": "1",
     "gameid": "3651950",
     "exfgls": "3",
@@ -125,6 +125,61 @@
       "17": "4057",
       "18": "19",
       "19": "3964"
+    }
+  },
+  "extended": {
+    "developer": "Ivy Sly",
+    "publisher": "Ivy Sly",
+    "homepage": "https://ivysly.com/games/evil-egg.html",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Evil Egg",
+    "launch": {
+      "0": {
+        "executable": "Evil Egg.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3651951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8604765894498398090",
+          "size": "64822108",
+          "download": "57214224"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20608414",
+        "timeupdated": "1761839996"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "EVIL EGG",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
