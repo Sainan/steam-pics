@@ -1,13 +1,12 @@
 {
   "appid": "3471800",
-  "public_only": "1",
   "common": {
     "name": "Vanguard Galaxy",
     "type": "Game",
     "icon": "57f7d8cc60647b8f8d835a58c7c6d515291dbf61",
     "clienticon": "8e2cea103bacaab712f652a9615a0d41a8a13a43",
     "clienttga": "2696628ad02291cfa3bf08b9a3b0d17a53b6be2e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -107,9 +106,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761843640",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3471800",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "1755",
@@ -131,6 +131,55 @@
       "17": "4166",
       "18": "6276",
       "19": "12472"
+    }
+  },
+  "extended": {
+    "developer": "Bat Roost Games",
+    "publisher": "Bat Roost Games"
+  },
+  "config": {
+    "installdir": "Vanguard Galaxy",
+    "launch": {
+      "0": {
+        "executable": "VanguardGalaxy.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3595155102": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3471801": {
+      "manifests": {
+        "public": {
+          "gid": "6430114852145936921",
+          "size": "245821417",
+          "download": "87117664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20604864",
+        "timeupdated": "1761824207"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Bat Roost Games/VanguardGalaxy/Saves",
+        "pattern": "*.save"
+      }
     }
   }
 }
