@@ -88,12 +88,13 @@
   "ufs": {
     "quota": "10000000",
     "maxnumfiles": "125",
-    "appidredirect": "3658600",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "HippoCube/FoxyTrouble/NaninovelData/Saves/",
-        "pattern": "*.nson",
+        "pattern": "*.json",
         "platforms": {
           "1": "Windows"
         },
@@ -102,13 +103,12 @@
       "1": {
         "root": "LinuxHome",
         "path": ".config/HippoCube/FoxyTrouble/Saves/",
-        "pattern": "*.nson",
+        "pattern": "*.json",
         "platforms": {
           "1": "Linux"
         },
         "recursive": "1"
-      },
-      "copied_from_parent": "1"
+      }
     }
   }
 }
