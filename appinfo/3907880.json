@@ -1,6 +1,5 @@
 {
   "appid": "3907880",
-  "public_only": "1",
   "common": {
     "name": "Thunder Spikes Volleyball",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticon": "13e730fbf1314f23a2109a4e1d43e4dec5fcc110",
     "clienttga": "568e2dacaedad9b85f64457724cc8c3398f5d292",
     "clienticns": "13e730fbf1314f23a2109a4e1d43e4dec5fcc110",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -150,9 +149,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761804612",
     "community_hub_visible": "1",
     "gameid": "3907880",
-    "exfgls": "8",
     "store_tags": {
       "0": "847164",
       "1": "701",
@@ -166,6 +165,84 @@
       "9": "493",
       "10": "492",
       "11": "599"
+    }
+  },
+  "extended": {
+    "developer": "Thunder Bros srl",
+    "publisher": "Thunder Bros srl",
+    "homepage": "https://www.thunderspikesvolleyball.com/"
+  },
+  "config": {
+    "installdir": "Thunder Spikes Volleyball",
+    "launch": {
+      "0": {
+        "executable": "Thunder Spikes.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Thunder Spikes.app\\Contents\\MacOS\\Thunder Spikes",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3907881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1991408107304505420",
+          "size": "316618708",
+          "download": "116946784"
+        }
+      }
+    },
+    "3907882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6128588285662534522",
+          "size": "409565606",
+          "download": "160302352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20580340",
+        "timeupdated": "1761685728"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Thunder Bros/Thunder Spikes",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "path": "Thunder Bros/Thunder Spikes",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        }
+      }
     }
   }
 }
