@@ -1,4 +1,95 @@
 {
   "appid": "4133720",
-  "public_only": "1"
+  "common": {
+    "name": "IRIDESCENT Demo",
+    "type": "Demo",
+    "parent": "2947140",
+    "clienticon": "eb32ba9e1c50d8e603296929c0c03f1d8191902f",
+    "icon": "eb32ba9e1c50d8e603296929c0c03f1d8191902f",
+    "oslist": "windows,macos",
+    "osarch": "",
+    "osextended": "macosapplesilicon",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "d18d29c56cda43277351d9ae6f198196875fe58a/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "7deb35c6ededde13824dfe8936ec6d277423be59/header.jpg"
+    },
+    "store_asset_mtime": "1761287740",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Cup of Crow"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Cup of Crow"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "gameid": "4133720",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Cup of Crow",
+    "publisher": "Cup of Crow"
+  },
+  "config": {
+    "installdir": "IRIDESCENT Demo",
+    "launch": {
+      "0": {
+        "executable": "IRIDESCENT_Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "IRIDESCENT_Demo.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4133721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1685507692103807642",
+          "size": "2638317966",
+          "download": "426665520"
+        }
+      }
+    },
+    "4133722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3648129015565522625",
+          "size": "2648722220",
+          "download": "432737360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20526018",
+        "timeupdated": "1761296562"
+      }
+    }
+  }
 }
