@@ -1,10 +1,9 @@
 {
   "appid": "3997500",
-  "public_only": "1",
   "common": {
     "name": "Banished Souls",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -103,9 +102,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761847227",
     "community_hub_visible": "1",
     "gameid": "3997500",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "9",
@@ -123,6 +122,67 @@
       "13": "4175",
       "14": "4191",
       "15": "6730"
+    }
+  },
+  "extended": {
+    "developer": "Outstretched Gaming",
+    "publisher": "Outstretched Gaming"
+  },
+  "config": {
+    "installdir": "Banished Souls",
+    "launch": {
+      "0": {
+        "executable": "BanishedSouls.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3997501": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5346393198546761348",
+          "size": "2828045159",
+          "download": "2506636432"
+        },
+        "beta": {
+          "gid": "5346393198546761348",
+          "size": "2828045159",
+          "download": "2506636432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20609650",
+        "timeupdated": "1761845132"
+      },
+      "beta": {
+        "buildid": "20609650",
+        "description": "New Features",
+        "timeupdated": "1761845141"
+      }
     }
   }
 }
