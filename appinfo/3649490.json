@@ -1,10 +1,9 @@
 {
   "appid": "3649490",
-  "public_only": "1",
   "common": {
     "name": "Stray Children",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "ストレイチルドレン",
       "english": "Stray Children"
@@ -131,9 +130,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761829339",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3649490",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "492",
@@ -153,6 +153,79 @@
       "15": "4325",
       "16": "1742",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Onion Games",
+    "publisher": "Onion Games",
+    "homepage": "https://straychildren.com/en/index.html"
+  },
+  "config": {
+    "installdir": "StrayChildren",
+    "launch": {
+      "0": {
+        "executable": "StrayChildren.exe"
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollerconfigdetails": {
+      "3515097068": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,beta",
+        "use_action_block": "false"
+      },
+      "3515105176": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,beta",
+        "use_action_block": "false"
+      },
+      "3515107110": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,beta",
+        "use_action_block": "false"
+      },
+      "3515117213": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,beta",
+        "use_action_block": "false"
+      }
+    }
+  },
+  "depots": {
+    "3649491": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8609850941377668753",
+          "size": "3428530884",
+          "download": "2549001552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20598140",
+        "timeupdated": "1761788740"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "2097152",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "oniongames/StrayChildren/dat",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
