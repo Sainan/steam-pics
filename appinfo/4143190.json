@@ -1,6 +1,5 @@
 {
   "appid": "4143190",
-  "public_only": "1",
   "common": {
     "name": "Red Nose Guy Gauntlet Inc. The burnout Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -48,5 +47,60 @@
     },
     "gameid": "4143190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Freya Games",
+    "publisher": "Freya Games"
+  },
+  "config": {
+    "installdir": "Red Nose Guy Gauntlet Inc. The burnout Demo",
+    "launch": {
+      "0": {
+        "executable": "Red Nose Guy Gauntlet Inc.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Red Nose Guy Gauntlet Inc.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4143191": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "927714818280089253",
+          "size": "471656776",
+          "download": "196210800"
+        }
+      }
+    },
+    "4143192": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3602055115647921952",
+          "size": "455198024",
+          "download": "191961936"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20574534",
+        "timeupdated": "1761658945"
+      }
+    }
   }
 }
