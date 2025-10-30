@@ -1,6 +1,5 @@
 {
   "appid": "4071250",
-  "public_only": "1",
   "common": {
     "name": "Make it! Yakiimo",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "clienticon": "4a4d386ee69cf769e65656ff0042a8d0a5187986",
     "icon": "4a4d386ee69cf769e65656ff0042a8d0a5187986",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -124,9 +123,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761801321",
     "community_hub_visible": "1",
     "gameid": "4071250",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -144,6 +143,49 @@
       "13": "4191",
       "14": "4175",
       "15": "5350"
+    }
+  },
+  "extended": {
+    "developer": "SAT-BOX",
+    "publisher": "SAT-BOX"
+  },
+  "config": {
+    "installdir": "Make it! Yakiimo",
+    "launch": {
+      "0": {
+        "executable": "Make_it_Yakiimo.exe",
+        "arguments": "-screen-fullscreen 1",
+        "type": "default",
+        "description_loc": {
+          "english": "FullScreen"
+        },
+        "description": "FullScreen"
+      },
+      "1": {
+        "executable": "Make_it_Yakiimo.exe",
+        "arguments": "-screen-fullscreen 0 -screen-width 1920 -screen-height 1080",
+        "description_loc": {
+          "english": "Windowed (1920 x 1080)"
+        },
+        "description": "Windowed (1920 x 1080)"
+      }
+    }
+  },
+  "depots": {
+    "4071251": {
+      "manifests": {
+        "public": {
+          "gid": "8234412439295499252",
+          "size": "147345399",
+          "download": "95494752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20263757",
+        "timeupdated": "1759710464"
+      }
     }
   }
 }
