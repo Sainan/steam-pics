@@ -1,6 +1,5 @@
 {
   "appid": "3759550",
-  "public_only": "1",
   "common": {
     "name": "The Protagonist",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticns": "c84d4f8df13aea160a7d529c2f23702f6999fdcb",
     "linuxclienticon": "c84d4f8df13aea160a7d529c2f23702f6999fdcb",
     "clienticon": "7d9e3a8579a4bf7ee5d7077ea7d04d8398df0015",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -110,9 +109,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761847075",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3759550",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -137,6 +137,49 @@
       "17": "1714",
       "18": "1710",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "beforeyouknow Games",
+    "publisher": "beforeyouknow Games"
+  },
+  "config": {
+    "installdir": "The Protagonist",
+    "launch": {
+      "0": {
+        "executable": "Windows\\theprotagonisttest.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3759551": {
+      "manifests": {
+        "public": {
+          "gid": "4035141399662626973",
+          "size": "14319927201",
+          "download": "13633580528"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20552325",
+        "timeupdated": "1761529504"
+      }
     }
   }
 }
