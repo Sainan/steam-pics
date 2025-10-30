@@ -1,6 +1,5 @@
 {
   "appid": "4010140",
-  "public_only": "1",
   "common": {
     "name": "BumpBot",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "3c24950ba9f8744e42e7f4186ced5958993e0771",
     "icon": "3c24950ba9f8744e42e7f4186ced5958993e0771",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -116,7 +115,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "4010140",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "699",
@@ -138,6 +136,44 @@
       "17": "7368",
       "18": "5350",
       "19": "1254546"
+    }
+  },
+  "extended": {
+    "developer": "iFFeX",
+    "publisher": "iFFeX"
+  },
+  "config": {
+    "installdir": "Bump Bot",
+    "launch": {
+      "0": {
+        "executable": "BumpBot.exe",
+        "description_loc": {
+          "english": "This is the exe to launch BumpBot"
+        },
+        "description": "This is the exe to launch BumpBot"
+      }
+    }
+  },
+  "depots": {
+    "4010141": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6200394216701051298",
+          "size": "297789906",
+          "download": "212706880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20539824",
+        "timeupdated": "1761382293"
+      }
     }
   }
 }
