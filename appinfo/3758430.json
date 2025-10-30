@@ -26,6 +26,63 @@
       "3": "5"
     },
     "restricted_countries": "CN,DE,SA",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1760140800",
+      "tested_build_id": "20310652",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -119,6 +176,7 @@
       "category_75": "1",
       "category_79": "1",
       "category_28": "1",
+      "category_29": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -189,7 +247,9 @@
   "extended": {
     "developer": "Towndarktales",
     "publisher": "Towndarktales",
-    "homepage": "http://towndarktales.com/"
+    "homepage": "http://towndarktales.com/",
+    "listofdlc": "4039310",
+    "dlcavailableonstore": "1"
   },
   "config": {
     "installdir": "CODE PANDORA 2",
@@ -229,9 +289,9 @@
     "3758431": {
       "manifests": {
         "public": {
-          "gid": "3287446331149369596",
-          "size": "3959822625",
-          "download": "3501052448"
+          "gid": "6085287694290495543",
+          "size": "3961011075",
+          "download": "3500881216"
         }
       }
     },
@@ -248,8 +308,8 @@
     "baselanguages": "english,german,french,spanish,schinese,russian,japanese",
     "branches": {
       "public": {
-        "buildid": "20015333",
-        "timeupdated": "1758113050"
+        "buildid": "20310652",
+        "timeupdated": "1760039828"
       }
     }
   },
