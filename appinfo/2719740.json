@@ -1,10 +1,9 @@
 {
   "appid": "2719740",
-  "public_only": "1",
   "common": {
     "name": "Zero Caliber 2",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "08d59f213781b3e4ab832502e73b470bd094977d",
     "clienticon": "fcd42365d76742f29cd112ef1a77308a7c28f59d",
     "clienttga": "1e423a4d139b7ad9055ccb5441166b75874f6ea4",
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761840041",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2719740",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "2",
@@ -152,6 +152,95 @@
       "17": "1775",
       "18": "1742",
       "19": "4508"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "XREAL Games",
+    "publisher": "XREAL Games"
+  },
+  "config": {
+    "installdir": "Zero Caliber 2",
+    "launch": {
+      "1": {
+        "executable": "ZeroCaliber_2.exe",
+        "arguments": "-dx11",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "ZC2 in dx11 mode"
+        },
+        "description": "ZC2 in dx11 mode"
+      },
+      "2": {
+        "executable": "ZeroCaliber_2.exe",
+        "arguments": "-dx12",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "ZC2 in dx12 mode (less stable, better performance)"
+        },
+        "description": "ZC2 in dx12 mode (less stable, better performance)"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2719741": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6658819637104505189",
+          "size": "23357465384",
+          "download": "21415161760"
+        }
+      }
+    },
+    "2719742": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {}
+    },
+    "branches": {
+      "public": {
+        "buildid": "20434053",
+        "timeupdated": "1760718490"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "30",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "ZeroCaliber_2/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
