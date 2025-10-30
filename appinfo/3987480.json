@@ -1,10 +1,9 @@
 {
   "appid": "3987480",
-  "public_only": "1",
   "common": {
     "name": "Terra's Terrarium",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "d1e728873953322ccbc0241f36f21636e68dc94d",
     "clienticns": "8a7dbb29a57d196b323f2260b5fd44d4200a20b1",
     "linuxclienticon": "2b52510abee4deabb3e5b9c6d56458ef4b183961",
@@ -107,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3987480",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -123,6 +121,77 @@
       "8": "492",
       "9": "1742",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "SJTbriker",
+    "publisher": "SJTbriker"
+  },
+  "config": {
+    "installdir": "Terra's Terrarium",
+    "launch": {
+      "0": {
+        "executable": "Terra_s Terrarium-1_0_0-windows.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Terra_s Terrarium-1_0_0-linux.AppImage",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Terra's Terrarium.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3987482": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6788030739646781617",
+          "size": "137245882",
+          "download": "136912832"
+        }
+      }
+    },
+    "3987483": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3510695074877816029",
+          "size": "113959764",
+          "download": "113952448"
+        }
+      }
+    },
+    "3987484": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "149226199698816777",
+          "size": "244642384",
+          "download": "127929904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20516023",
+        "timeupdated": "1761238256"
+      }
     }
   }
 }
