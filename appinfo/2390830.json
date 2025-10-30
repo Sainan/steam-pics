@@ -1,0 +1,182 @@
+{
+  "appid": "2390830",
+  "common": {
+    "name": "ItsyRealm Demo",
+    "type": "Demo",
+    "parent": "1662510",
+    "icon": "877ceaea9aecb590583682f1355c27e6704df258",
+    "clienttga": "38aab05837d790ed6a1889f738dc639e2dae9d8a",
+    "clienticon": "3c2b184327db3d7ab287fd581da93b381d1e84aa",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "pinned_position": "BottomLeft",
+        "width_pct": "50",
+        "height_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "pinned_position": "BottomLeft",
+          "width_pct": "50",
+          "height_pct": "50"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        }
+      }
+    },
+    "store_asset_mtime": "1716253313",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Erin Maus"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Erin Maus"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_1": "1",
+      "category_9": "1",
+      "category_38": "1",
+      "category_48": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "full_audio": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1681240858",
+    "gameid": "2390830",
+    "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1662510",
+    "developer": "Erin Maus",
+    "publisher": "Erin Maus",
+    "homepage": "https://itsyrealm.com"
+  },
+  "config": {
+    "installdir": "ItsyRealmDemo",
+    "launch": {
+      "0": {
+        "executable": "love.exe",
+        "arguments": "--fused itsyrealm.love /f:anonymous",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "ItsyRealm.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "./AppRun",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout",
+        "branch": "beta"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "4",
+    "steamconfigurator3rdpartynative": "15"
+  },
+  "depots": {
+    "2390831": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3166586378125765720",
+          "size": "1018964880",
+          "download": "324677760"
+        }
+      }
+    },
+    "2390832": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3471614929626965309",
+          "size": "1027603208",
+          "download": "325607328"
+        }
+      }
+    },
+    "2390833": {
+      "config": {
+        "language": "english",
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2759220815636878402",
+          "size": "1116410721",
+          "download": "336749008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "18568930",
+        "timeupdated": "1747938340"
+      }
+    },
+    "privatebranches": "1"
+  }
+}
