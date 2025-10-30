@@ -1,10 +1,9 @@
 {
   "appid": "2488430",
-  "public_only": "1",
   "common": {
     "name": "Nuclear Gladiators 3000",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761836388",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2488430",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "19",
@@ -129,6 +129,69 @@
       "14": "4182",
       "15": "5030",
       "16": "493"
+    }
+  },
+  "extended": {
+    "developer": "Turbo Napalm",
+    "publisher": "RedDeer.Games"
+  },
+  "config": {
+    "installdir": "Nuclear Gladiators 3000",
+    "launch": {
+      "0": {
+        "executable": "Nuclear Gladiators 3000.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "3"
+  },
+  "depots": {
+    "2488431": {
+      "manifests": {
+        "public": {
+          "gid": "7025023779130402509",
+          "size": "420237157",
+          "download": "120877888"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20517193",
+        "timeupdated": "1761297380"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Turbo Napalm/Nuclear Gladiators 3000",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Turbo Napalm/Nuclear Gladiators 3000",
+            "replace": ".config/unity3d/Turbo Napalm/Nuclear Gladiators 3000"
+          }
+        }
+      }
     }
   }
 }
