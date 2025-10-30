@@ -1,6 +1,5 @@
 {
   "appid": "4120330",
-  "public_only": "1",
   "common": {
     "name": "迎风旅人 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a7f2252bdbe00db3a30511e87bb2fd72f515d6f7/capsule_231x87.jpg"
@@ -46,7 +45,46 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761790112",
     "gameid": "4120330",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "小不点儿儿游戏工作室",
+    "publisher": "小不点儿儿游戏工作室"
+  },
+  "config": {
+    "installdir": "迎风旅人 Demo",
+    "launch": {
+      "0": {
+        "executable": "WindwardTraveler_demo/WindwardTraveler.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4120331": {},
+    "4120332": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7038870108366767732",
+          "size": "143838259",
+          "download": "32664208"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20507815",
+        "timeupdated": "1761198175"
+      }
+    }
   }
 }
