@@ -1,6 +1,5 @@
 {
   "appid": "3893070",
-  "public_only": "1",
   "common": {
     "name": "Girl Werewolf Hamlet Saves Christmas",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -108,9 +107,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761930073",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3893070",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -135,6 +135,70 @@
       "17": "6815",
       "18": "4252",
       "19": "1684"
+    }
+  },
+  "extended": {
+    "developer": "Stegaloaurus Game Development",
+    "publisher": "Stegaloaurus Game Development"
+  },
+  "config": {
+    "installdir": "Girl Werewolf Hamlet Saves Christmas",
+    "launch": {
+      "0": {
+        "executable": "GWHamletChristmas.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "GWHamletChristmas.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3893071": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5024194730741958098",
+          "size": "563488703",
+          "download": "373266032"
+        }
+      }
+    },
+    "3893072": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8856621937145164276",
+          "size": "515230473",
+          "download": "356804320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20620494",
+        "timeupdated": "1761908576"
+      }
     }
   }
 }
