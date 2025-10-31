@@ -1,13 +1,12 @@
 {
   "appid": "3774300",
-  "public_only": "1",
   "common": {
     "name": "Jeff The Killer: Horror Game",
     "type": "Game",
     "icon": "50bec0cd6855ef6eeeb2d28944103258935a78ee",
     "clienticon": "3ae10270ef7c0149516fb3820dc01681b9a44224",
     "clienttga": "ef71d150bdda513045e53ce3e554756ee9103472",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -119,9 +118,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761903790",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3774300",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -144,6 +144,59 @@
       "14": "492",
       "15": "19",
       "16": "3859"
+    }
+  },
+  "extended": {
+    "developer": "SU Company Games",
+    "publisher": "SU Company Games",
+    "homepage": "https://play.google.com/store/apps/details?id=com.SUCorporation.JeffTheKiller"
+  },
+  "config": {
+    "installdir": "Jeff The Killer Horror Game",
+    "launch": {
+      "0": {
+        "executable": "Jeff the Killer Horror Game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3774301": {},
+    "3774302": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6443967400881991880",
+          "size": "2626165169",
+          "download": "1303896304"
+        }
+      }
+    },
+    "3774303": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3203925137668107998",
+          "size": "2613978638",
+          "download": "1299094816"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "20610203",
+        "timeupdated": "1761847928"
+      }
     }
   }
 }
