@@ -1,12 +1,11 @@
 {
   "appid": "3942150",
-  "public_only": "1",
   "common": {
     "name": "A Very British Summer",
     "type": "Game",
     "clienticon": "a4d56a027fef2f7e49a1ec66f3f72b6df88a12a0",
     "icon": "a4d56a027fef2f7e49a1ec66f3f72b6df88a12a0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -104,9 +103,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3942150",
-    "exfgls": "8",
     "store_tags": {
       "0": "4486",
       "1": "379975",
@@ -128,6 +127,42 @@
       "17": "6426",
       "18": "6971",
       "19": "597"
+    }
+  },
+  "extended": {
+    "developer": "The Dead Bunny Show",
+    "publisher": "The Dead Bunny Show"
+  },
+  "config": {
+    "installdir": "gameDirectory",
+    "launch": {
+      "0": {
+        "executable": "gameDirectory\\A_Very_British_Summer_v1.01.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3942151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7587325140718786162",
+          "size": "1008995431",
+          "download": "1006184128"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20375285",
+        "timeupdated": "1760385980"
+      }
     }
   }
 }
