@@ -1,6 +1,5 @@
 {
   "appid": "3347090",
-  "public_only": "1",
   "common": {
     "name": "Solomon's Keep: Dreadful Retro Edition",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "1b6903b12a754882595263bcf7b46f75c1aeb505",
     "clienticon": "091bf071e5210b75689ef0a0b038b7a0c181e1a2",
     "linuxclienticon": "d594c90bd9a9ef6d0479a28b25715e5143e0f813",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,9 +112,9 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3347090",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1720",
@@ -137,6 +136,95 @@
       "17": "3993",
       "18": "4342",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Raptisoft",
+    "publisher": "Raptisoft",
+    "homepage": "https://www.solomonskeep.com"
+  },
+  "config": {
+    "installdir": "Solomon's Keep Dreadful Retro Edition",
+    "launch": {
+      "0": {
+        "executable": "SK",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "SK.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "8",
+    "steaminputmanifestpath": "controllers/"
+  },
+  "depots": {
+    "3347091": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3620472843230611659",
+          "size": "58596717",
+          "download": "29657264"
+        }
+      }
+    },
+    "3347092": {
+      "config": {
+        "oslist": "windows",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4624798088047177018",
+          "size": "51340288",
+          "download": "27393136"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20626513",
+        "timeupdated": "1761937000"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".local/share/.raptisoft/Solomon's Keep/_sandbox/",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/.raptisoft/Solomon's Keep/_sandbox/",
+            "replace": "Solomon's Keep/_sandbox/"
+          }
+        }
+      }
     }
   }
 }
