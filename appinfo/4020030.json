@@ -1,6 +1,5 @@
 {
   "appid": "4020030",
-  "public_only": "1",
   "common": {
     "name": "Cardinal Fall",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "be70e2a33273e714823c995e946bd8e808e1866e",
     "icon": "8f3359b2bf0989538139bda9e7f429326d660b01",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -108,6 +107,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761937727",
     "community_hub_visible": "1",
     "gameid": "4020030",
     "exfgls": "3",
@@ -136,6 +136,106 @@
       "17": "4667",
       "18": "3859",
       "19": "3843"
+    }
+  },
+  "extended": {
+    "developer": "Metahusk",
+    "publisher": "Metahusk",
+    "homepage": "https://metahusk.com/",
+    "isfreeapp": "1",
+    "listofdlc": "4094750",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Cardinal Fall",
+    "launch": {
+      "0": {
+        "executable": "Cardinal.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4020031": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6285072093530011464",
+          "size": "2627163317",
+          "download": "1451536352"
+        }
+      }
+    },
+    "4094750": {
+      "dlcappid": "4094750",
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1982501678747857027",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "4094760": {
+      "dlcappid": "4094760",
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1539663785318122549",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "4094770": {
+      "dlcappid": "4094770",
+      "config": {
+        "osarch": "64",
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6236144124997387215",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20545196",
+        "timeupdated": "1761445448"
+      }
     }
   }
 }
