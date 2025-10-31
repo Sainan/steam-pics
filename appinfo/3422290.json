@@ -1,10 +1,9 @@
 {
   "appid": "3422290",
-  "public_only": "1",
   "common": {
     "name": "The Way We All Go",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "dbcc023fae57c00d8aa10d31767667f43e7839f5",
     "clienticon": "0291241a0fb6a0fc0631945c3c91c9aff821beb7",
     "clienttga": "07844204f6c05d9c8eabdaf22ed39c65387207e9",
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3422290",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -133,6 +133,65 @@
       "17": "4182",
       "18": "492",
       "19": "4667"
+    }
+  },
+  "extended": {
+    "developer": "ebi-hime",
+    "publisher": "ebi-hime"
+  },
+  "config": {
+    "installdir": "The Way We All Go",
+    "launch": {
+      "0": {
+        "executable": "TheWayWeAllGoRemake.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "TheWayWeAllGoRemake.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "TheWayWeAllGoRemake.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3422291": {
+      "manifests": {
+        "public": {
+          "gid": "514777756603194086",
+          "size": "921373306",
+          "download": "784047248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20617038",
+        "timeupdated": "1761888661"
+      }
     }
   }
 }
