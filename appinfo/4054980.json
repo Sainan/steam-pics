@@ -1,6 +1,5 @@
 {
   "appid": "4054980",
-  "public_only": "1",
   "common": {
     "name": "Sepulcher",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "9096317d6cb1998d5c2a06351fe9781fc3a7a64a",
     "icon": "9096317d6cb1998d5c2a06351fe9781fc3a7a64a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "97215e040f8bd00b0fa45299569fad86c0a9a343/capsule_231x87.jpg"
@@ -100,9 +99,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4054980",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1646",
@@ -120,6 +119,72 @@
       "13": "4004",
       "14": "3993",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Laughing Cat Studios",
+    "publisher": "Laughing Cat Studios"
+  },
+  "config": {
+    "installdir": "Sepulcher",
+    "launch": {
+      "0": {
+        "executable": "Sepulcher\\ZombieShooterGAS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4054981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3094924720183121535",
+          "size": "1240339476",
+          "download": "1060187856"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20623544",
+        "timeupdated": "1761925718"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
