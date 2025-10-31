@@ -1,6 +1,5 @@
 {
   "appid": "4064790",
-  "public_only": "1",
   "common": {
     "name": "DUSK INDEX: GION -Trial version-",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "4a2857385d6b32be5a5740b11a56c2402b40575c",
     "clienticon": "4a2857385d6b32be5a5740b11a56c2402b40575c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -111,5 +110,45 @@
     },
     "gameid": "4064790",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "mebius.",
+    "publisher": "Bushiroad Inc.",
+    "homepage": "https://duskindexgion.bushiroadgames.com/"
+  },
+  "config": {
+    "installdir": "DIG_Trial",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65533",
+    "launch": {
+      "0": {
+        "executable": "DuskIndexGionDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4064791": {
+      "manifests": {
+        "public": {
+          "gid": "3139827855038088015",
+          "size": "4653131388",
+          "download": "3933220992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20587283",
+        "timeupdated": "1761729883"
+      }
+    }
   }
 }
