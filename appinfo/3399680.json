@@ -1,6 +1,5 @@
 {
   "appid": "3399680",
-  "public_only": "1",
   "common": {
     "name": "Cooking Clash",
     "type": "Game",
@@ -12,7 +11,7 @@
     "icon": "4523fcb23fba41318f1f5fee6aa33822e2d3d199",
     "clienttga": "d5e84a00d648671e37ee9d7f022af42c294a9433",
     "clienticon": "4523fcb23fba41318f1f5fee6aa33822e2d3d199",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openvr_action_manifest_path": "CookingClash_Data\\StreamingAssets\\SteamVR",
     "openvrsupport": "1",
     "controllertagwizard": "1",
@@ -119,7 +118,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3399680",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "3920",
@@ -142,5 +140,52 @@
       "18": "1654",
       "19": "6276"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "ArcaneMiracleEntLtd",
+    "publisher": "ArcaneMiracleEntLtd",
+    "homepage": "https://www.cookclash.com/"
+  },
+  "config": {
+    "installdir": "Cooking Clash",
+    "launch": {
+      "0": {
+        "executable": "CookingClash/CookingClash.exe",
+        "arguments": "-vrmode",
+        "type": "vr",
+        "description_loc": {
+          "english": "Play in VR Mode"
+        },
+        "description": "Play in VR Mode"
+      },
+      "1": {
+        "executable": "CookingClash/CookingClash.exe",
+        "arguments": "-pcmode",
+        "type": "default",
+        "description_loc": {
+          "english": "Play in Non-VR Mode"
+        },
+        "description": "Play in Non-VR Mode"
+      }
+    }
+  },
+  "depots": {
+    "3399681": {
+      "manifests": {
+        "public": {
+          "gid": "7316336941682890960",
+          "size": "3052807301",
+          "download": "825293664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20618626",
+        "timeupdated": "1761899733"
+      }
+    },
+    "privatebranches": "1"
   }
 }
