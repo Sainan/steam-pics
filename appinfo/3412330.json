@@ -1,6 +1,5 @@
 {
   "appid": "3412330",
-  "public_only": "1",
   "common": {
     "name": "The Skeletons Are Fighting",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -117,9 +116,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3412330",
-    "exfgls": "8",
     "store_tags": {
       "0": "4736",
       "1": "19",
@@ -139,6 +139,57 @@
       "15": "4305",
       "16": "12057",
       "17": "7368"
+    }
+  },
+  "extended": {
+    "developer": "SteamyDev",
+    "publisher": "SteamyDev"
+  },
+  "config": {
+    "installdir": "The Skeletons Are Fighting",
+    "launch": {
+      "0": {
+        "executable": "TSAFGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3412331": {
+      "manifests": {
+        "public": {
+          "gid": "258688157188786762",
+          "size": "386413882",
+          "download": "193258640"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20614665",
+        "timeupdated": "1761872532"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
