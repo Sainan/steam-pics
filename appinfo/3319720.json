@@ -1,13 +1,12 @@
 {
   "appid": "3319720",
-  "public_only": "1",
   "common": {
     "name": "心核",
     "type": "Game",
     "icon": "38b131223639fe403b68695067e32c6e779d4612",
     "clienttga": "dd79fdd62f144aa493d6f44514b1f7b86a503372",
     "clienticon": "ddfb4555ac55ea2191c78ca3ad4b7f0eb2b0071d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -125,7 +124,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3319720",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "1666",
@@ -140,5 +138,49 @@
       "10": "493",
       "11": "4711"
     }
+  },
+  "extended": {
+    "developer": "ArchZoDo",
+    "publisher": "ArchZoDo"
+  },
+  "config": {
+    "installdir": "Kernel",
+    "launch": {
+      "0": {
+        "executable": "Kernel.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3319721": {
+      "manifests": {
+        "public": {
+          "gid": "6495421420918344821",
+          "size": "2078511279",
+          "download": "413331792"
+        }
+      }
+    },
+    "3319722": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20511750",
+        "timeupdated": "1761218925"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000"
   }
 }
