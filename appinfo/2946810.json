@@ -1,6 +1,5 @@
 {
   "appid": "2946810",
-  "public_only": "1",
   "common": {
     "name": "Queen Of The Hill",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -94,9 +93,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761883046",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2946810",
-    "exfgls": "8",
     "store_tags": {
       "0": "16689",
       "1": "3871",
@@ -118,6 +118,45 @@
       "17": "599",
       "18": "6971",
       "19": "1742"
+    }
+  },
+  "extended": {
+    "developer": "Veebs22",
+    "publisher": "Veebs22"
+  },
+  "config": {
+    "installdir": "Queen Of The Hill",
+    "launch": {
+      "1": {
+        "executable": "Antics-Game-Beta/QueenOfTheHill.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2946811": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5577276654983117171",
+          "size": "1147533807",
+          "download": "507045280"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20616207",
+        "timeupdated": "1761882470"
+      }
     }
   }
 }
