@@ -1,6 +1,5 @@
 {
   "appid": "3398960",
-  "public_only": "1",
   "common": {
     "name": "MAiZE",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticns": "46cbff96e479401191797a25a1a9abcc42a69946",
     "linuxclienticon": "46cbff96e479401191797a25a1a9abcc42a69946",
     "icon": "cea82f9cc790dc3001e4484291e1d4d545d00fe6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761907754",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3398960",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -143,6 +143,63 @@
       "17": "3978",
       "18": "4064",
       "19": "1687"
+    }
+  },
+  "extended": {
+    "developer": "Absidy Publishing Company",
+    "publisher": "Absidy Publishing Company",
+    "homepage": "https://www.michaeldaniel.net/video-games/maize"
+  },
+  "config": {
+    "installdir": "MAiZE (Demo Version)",
+    "launch": {
+      "0": {
+        "executable": "Windows/MAiZE.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mac/MAiZE.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2"
+  },
+  "depots": {
+    "3398962": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3783251989193183395",
+          "size": "4118100947",
+          "download": "1156635472"
+        }
+      }
+    },
+    "3398963": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7021969327537469076",
+          "size": "4144213891",
+          "download": "1166397856"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20620320",
+        "timeupdated": "1761907659"
+      }
     }
   }
 }
