@@ -1,6 +1,5 @@
 {
   "appid": "4039150",
-  "public_only": "1",
   "common": {
     "name": "Ruins",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -116,9 +115,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4039150",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -144,6 +143,60 @@
       "17": "7368",
       "18": "3859",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Tyler",
+    "publisher": "Tyler"
+  },
+  "config": {
+    "installdir": "Ruins",
+    "launch": {
+      "0": {
+        "executable": "Ruins/Ruins.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "7"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4039151": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6340000354781629806",
+          "size": "6895327556",
+          "download": "6457880976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20615815",
+        "timeupdated": "1761880343"
+      }
     }
   }
 }
