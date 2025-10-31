@@ -1,6 +1,5 @@
 {
   "appid": "4091270",
-  "public_only": "1",
   "common": {
     "name": "Moon and Fang Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "clienticon": "c4142abde789aa8996bd6b66c2e08c179f5f84c0",
     "icon": "c4142abde789aa8996bd6b66c2e08c179f5f84c0",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "63f6a8213674cc442da1c4a34449b7d10ad46ceb/capsule_231x87.jpg"
@@ -102,7 +101,54 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761922619",
     "gameid": "4091270",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "WivernRider",
+    "publisher": "WivernRider"
+  },
+  "config": {
+    "installdir": "Moon and Fang Demo",
+    "launch": {
+      "0": {
+        "executable": "Moon and Fang DEMO.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4091271": {
+      "manifests": {
+        "public": {
+          "gid": "6357406744323762926",
+          "size": "138222744",
+          "download": "68014656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20622218",
+        "timeupdated": "1761917081"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "20",
+    "appidredirect": "4088570",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "\\Godot\\app_userdata\\Moon and Fang DEMO",
+        "pattern": "*.cfg"
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
