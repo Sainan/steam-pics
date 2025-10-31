@@ -1,6 +1,5 @@
 {
   "appid": "3210750",
-  "public_only": "1",
   "common": {
     "name": "Unprotected",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "91ae560a2c9637f2a75d6ed428fe36b610a6a5a5/capsule_231x87.jpg"
@@ -191,9 +190,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761930020",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3210750",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "1663",
@@ -215,6 +215,65 @@
       "17": "4145",
       "18": "4166",
       "19": "19"
+    }
+  },
+  "extended": {
+    "developer": "Manas Games",
+    "publisher": "Manas Games",
+    "homepage": "http://www.manasgames.com"
+  },
+  "config": {
+    "installdir": "Unprotected",
+    "launch": {
+      "0": {
+        "executable": "Unprotected.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3210751": {
+      "manifests": {
+        "public": {
+          "gid": "4149160560795927745",
+          "size": "3024127326",
+          "download": "2730865760"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20624555",
+        "timeupdated": "1761927556"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\Unprotected\\Saved\\SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
