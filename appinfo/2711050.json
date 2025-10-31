@@ -1,10 +1,9 @@
 {
   "appid": "2711050",
-  "public_only": "1",
   "common": {
     "name": "WitchGhost",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "fc001993403d05d6b09cb5fe93ca85b65c060ae9",
     "oslist": "windows",
     "osarch": "64",
@@ -103,6 +102,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761912041",
     "community_hub_visible": "1",
     "gameid": "2711050",
     "exfgls": "3",
@@ -121,6 +121,58 @@
       "11": "597",
       "12": "3834",
       "13": "4106"
+    }
+  },
+  "extended": {
+    "developer": "personalError",
+    "publisher": "personalError",
+    "homepage": "https://www.personalerror.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "WitchGhost",
+    "launch": {
+      "0": {
+        "executable": "WitchGhost.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2711051": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "753326759096595725",
+          "size": "205203032",
+          "download": "93803424"
+        },
+        "witchghost": {
+          "gid": "753326759096595725",
+          "size": "205203032",
+          "download": "93803424"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20582592",
+        "timeupdated": "1761699513"
+      },
+      "witchghost": {
+        "buildid": "20582592",
+        "description": "MainBuild",
+        "timeupdated": "1761699427"
+      }
     }
   }
 }
