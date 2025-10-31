@@ -1,6 +1,5 @@
 {
   "appid": "3531950",
-  "public_only": "1",
   "common": {
     "name": "Medieval Halloween",
     "type": "Game",
@@ -18,7 +17,7 @@
         "version": "1"
       }
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "openxrsupport": "1",
     "content_descriptors": {
       "0": "2",
@@ -120,9 +119,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761954716",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3531950",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "2",
@@ -149,6 +149,76 @@
       "17": "10808",
       "18": "3978",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "Eternal Drift Studio LLC",
+    "publisher": "Eternal Drift Studio LLC",
+    "homepage": "http://www.eternaldriftstudio.com"
+  },
+  "config": {
+    "installdir": "PCVRMedievalHalloween",
+    "launch": {
+      "2": {
+        "executable": "PCMedievalHalloween.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3531951": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2253246039218733500",
+          "size": "12613484178",
+          "download": "11834100816"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20625315",
+        "timeupdated": "1761930933"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
