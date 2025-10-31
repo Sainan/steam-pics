@@ -1,4 +1,90 @@
 {
   "appid": "4132490",
-  "public_only": "1"
+  "common": {
+    "name": "Cyber Breaker Demo",
+    "type": "Demo",
+    "parent": "3933080",
+    "oslist": "windows",
+    "osarch": "",
+    "osextended": "",
+    "clienticon": "9d9c6a640a234ca4a6a99e361457d0a76560c485",
+    "icon": "9d9c6a640a234ca4a6a99e361457d0a76560c485",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "6a0c6e173c3930a59648ce3c774e8bc9fdd9d78a/capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "ee5e2cf5c4fd9ebf44d016ea40dd018645f2652e/header.jpg"
+    },
+    "store_asset_mtime": "1761237005",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "ShadowHawkDragon"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "ShadowHawkDragon"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_79": "1"
+    },
+    "steam_release_date": "1761920258",
+    "gameid": "4132490",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "ShadowHawkDragon",
+    "publisher": "ShadowHawkDragon"
+  },
+  "config": {
+    "installdir": "CyberBreakerDemo",
+    "launch": {
+      "0": {
+        "executable": "CyberBreaker.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4132491": {
+      "manifests": {
+        "public": {
+          "gid": "8998889447030189428",
+          "size": "26492816",
+          "download": "14648752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20622137",
+        "timeupdated": "1761916851"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "30000",
+    "maxnumfiles": "10",
+    "appidredirect": "3933080",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Cyber_Breaker\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }
