@@ -1,6 +1,5 @@
 {
   "appid": "3712340",
-  "public_only": "1",
   "common": {
     "name": "Cosmic Destroyer",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,linux",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -117,10 +116,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761873232",
     "steam_deck_blog_url": "https://steamcommunity.com/games/3712340/announcements/detail/514084275660784682?snr=1_2108_9__2107",
     "community_hub_visible": "1",
     "gameid": "3712340",
-    "exfgls": "8",
     "store_tags": {
       "0": "3798",
       "1": "4885",
@@ -143,5 +142,74 @@
       "18": "3916",
       "19": "4004"
     }
+  },
+  "extended": {
+    "developer": "Coffee Maker Games",
+    "publisher": "Coffee Maker Games",
+    "homepage": "https://www.cosmicdestroyer.com"
+  },
+  "config": {
+    "installdir": "Cosmic Destroyer",
+    "launch": {
+      "0": {
+        "executable": "CosmicDestroyer.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CosmicDestroyer.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3712341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2292065922143075916",
+          "size": "490882815",
+          "download": "212725200"
+        },
+        "local": {
+          "gid": "7858731591781677735",
+          "size": "492504251",
+          "download": "200207152"
+        }
+      }
+    },
+    "3712342": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "357680363525932871",
+          "size": "549683596",
+          "download": "227303056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20614779",
+        "timeupdated": "1761873159"
+      },
+      "local": {
+        "buildid": "20437981",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timeupdated": "1760715790"
+      }
+    },
+    "privatebranches": "1"
   }
 }
