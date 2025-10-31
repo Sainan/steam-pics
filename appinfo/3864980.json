@@ -1,6 +1,5 @@
 {
   "appid": "3864980",
-  "public_only": "1",
   "common": {
     "name": "TilePaper: The Desktop Tile Launcher",
     "type": "Application",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "97a457513aa9286a1e09466f42be3d0fa4cd0297/capsule_231x87.jpg"
     },
@@ -95,12 +94,64 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3864980",
     "exfgls": "6",
     "store_tags": {
       "0": "87",
       "1": "493"
+    }
+  },
+  "extended": {
+    "enablegameoverlayforapp": "1",
+    "developer": "ChoboNew",
+    "publisher": "ChoboNew"
+  },
+  "config": {
+    "installdir": "TilePaper The Desktop Tile Launcher",
+    "launch": {
+      "0": {
+        "executable": "custom_launcher.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3864981": {
+      "manifests": {
+        "public": {
+          "gid": "4462869287156305889",
+          "size": "28774624",
+          "download": "11489408"
+        },
+        "beta": {
+          "gid": "4657182846465694550",
+          "size": "28758024",
+          "download": "11486752"
+        },
+        "prerelease": {
+          "gid": "5520553857540870817",
+          "size": "30157629",
+          "download": "12680240"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20318265",
+        "timeupdated": "1760004615"
+      },
+      "beta": {
+        "buildid": "20621754",
+        "description": "베타 버전",
+        "timeupdated": "1761914870"
+      },
+      "prerelease": {
+        "buildid": "19498761",
+        "description": "출시 전 검토",
+        "timeupdated": "1754486121"
+      }
     }
   }
 }
