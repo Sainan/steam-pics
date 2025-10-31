@@ -1,6 +1,5 @@
 {
   "appid": "3787880",
-  "public_only": "1",
   "common": {
     "name": "Pattern Survivors: Bullet Hell",
     "type": "Game",
@@ -12,7 +11,7 @@
     "clienticns": "9796fb32e1c51a89cbf094b8867ad120d783f654",
     "linuxclienticon": "6481966ebcfe7cea1e6a86949572153d9a3e15aa",
     "icon": "7a6458908386cbfd8ae74fc179274dfd9655f2ab",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -437,9 +436,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761936432",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3787880",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -461,6 +461,131 @@
       "17": "4255",
       "18": "454187",
       "19": "4400"
+    }
+  },
+  "extended": {
+    "developer": "Airem",
+    "publisher": "Airem",
+    "homepage": "http://airem.pl"
+  },
+  "config": {
+    "installdir": "Pattern Survivors Bullet Hell",
+    "steamdecktouchscreen": "1",
+    "launch": {
+      "0": {
+        "executable": "Pattern.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Pattern.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Pattern",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamconfigurator3rdpartynative": "4"
+  },
+  "depots": {
+    "3787881": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3580610452713501597",
+          "size": "594135933",
+          "download": "318596496"
+        }
+      }
+    },
+    "3787882": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1000348473856695155",
+          "size": "562384791",
+          "download": "312127648"
+        }
+      }
+    },
+    "3787883": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "306424575051862846",
+          "size": "1066481029",
+          "download": "306906112"
+        }
+      }
+    },
+    "3787884": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4471854693939306454",
+          "size": "587661532",
+          "download": "309101136"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20626071",
+        "timeupdated": "1761934341"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Pattern Survivors",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": ""
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
