@@ -1,6 +1,5 @@
 {
   "appid": "4077800",
-  "public_only": "1",
   "common": {
     "name": "Silly Survivors",
     "type": "Game",
@@ -13,7 +12,7 @@
       "english": "1",
       "russian": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -113,9 +112,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4077800",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -137,6 +137,39 @@
       "17": "1684",
       "18": "1708",
       "19": "4136"
+    }
+  },
+  "extended": {
+    "developer": "DenaZ",
+    "publisher": "DenaZ"
+  },
+  "config": {
+    "installdir": "Silly Survivors",
+    "launch": {
+      "0": {
+        "executable": "Silly Survivors.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4077801": {
+      "manifests": {
+        "public": {
+          "gid": "5720460095548606863",
+          "size": "295541829",
+          "download": "168496784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20618937",
+        "timeupdated": "1761901551"
+      }
     }
   }
 }
