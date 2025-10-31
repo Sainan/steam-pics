@@ -1,6 +1,5 @@
 {
   "appid": "3877290",
-  "public_only": "1",
   "common": {
     "name": "Shuvani",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "d9bac347c579be66755a6ba80e1592f2cec50285",
     "clienticon": "d9bac347c579be66755a6ba80e1592f2cec50285",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -119,9 +118,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761922011",
     "community_hub_visible": "1",
     "gameid": "3877290",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "19",
@@ -139,6 +138,73 @@
       "13": "4166",
       "14": "3993",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Raging Games",
+    "publisher": "Raging Games"
+  },
+  "config": {
+    "installdir": "Shuvani",
+    "launch": {
+      "0": {
+        "executable": "Shuvani.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3877291": {
+      "manifests": {
+        "public": {
+          "gid": "6232537034129654208",
+          "size": "1595233982",
+          "download": "1463442336"
+        },
+        "principal": {
+          "gid": "9115502842331528678",
+          "size": "1586722228",
+          "download": "1455176384"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20465523",
+        "timeupdated": "1760972008"
+      },
+      "principal": {
+        "buildid": "20080602",
+        "description": "Build principal",
+        "timeupdated": "1759838652"
+      }
     }
   }
 }
