@@ -1,12 +1,11 @@
 {
   "appid": "4022730",
-  "public_only": "1",
   "common": {
     "name": "Checkpoint Inc",
     "type": "Game",
     "clienticon": "36921bd0a7b8e6533154a583c8e4275d2165ad70",
     "icon": "36921bd0a7b8e6533154a583c8e4275d2165ad70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -114,9 +113,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761870869",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4022730",
-    "exfgls": "8",
     "store_tags": {
       "0": "615955",
       "1": "6971",
@@ -138,6 +138,43 @@
       "17": "6310",
       "18": "4191",
       "19": "6129"
+    }
+  },
+  "extended": {
+    "developer": "Punchers",
+    "publisher": "Punchers"
+  },
+  "config": {
+    "installdir": "Checkpoint Inc",
+    "launch": {
+      "0": {
+        "executable": "Checkpoint Inc.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4022731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2607934624491642451",
+          "size": "201425695",
+          "download": "71740464"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20516129",
+        "timeupdated": "1761238885"
+      }
     }
   }
 }
