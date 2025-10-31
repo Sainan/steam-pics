@@ -1,10 +1,9 @@
 {
   "appid": "3639380",
-  "public_only": "1",
   "common": {
     "name": "Super Movie Tycoon",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "",
     "osextended": "macos64",
@@ -172,9 +171,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761883261",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3639380",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -196,6 +196,101 @@
       "17": "4191",
       "18": "1654",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Yuedong Game",
+    "publisher": "Yuedong Game"
+  },
+  "config": {
+    "installdir": "Super Movie Tycoon",
+    "launch": {
+      "0": {
+        "executable": "SuperMovieTycoon.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SuperMovieTycoon.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3639381": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "370873192634368874",
+          "size": "720585402",
+          "download": "610401264"
+        },
+        "inner_test": {
+          "gid": "370873192634368874",
+          "size": "720585402",
+          "download": "610401264"
+        }
+      }
+    },
+    "3639382": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5817588024193451401",
+          "size": "852921371",
+          "download": "643110352"
+        },
+        "inner_test": {
+          "gid": "4908003598477848869",
+          "size": "853501770",
+          "download": "643690384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20614906",
+        "timeupdated": "1761873869"
+      },
+      "inner_test": {
+        "buildid": "20605580",
+        "description": "内部测试",
+        "timeupdated": "1761827638"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "10",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.db"
+      },
+      "1": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.db-shm"
+      },
+      "2": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.db-wal"
+      }
     }
   }
 }
