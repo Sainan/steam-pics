@@ -1,12 +1,11 @@
 {
   "appid": "4107470",
-  "public_only": "1",
   "common": {
     "name": "Goblin Goopmaxxing",
     "type": "Game",
     "icon": "a305fbec19f7f1418c5d9b75719c8cfabdc5bd28",
     "clienticon": "a305fbec19f7f1418c5d9b75719c8cfabdc5bd28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761926309",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4107470",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -143,6 +143,60 @@
       "17": "3968",
       "18": "1742",
       "19": "6426"
+    }
+  },
+  "extended": {
+    "developer": "BugFight Studio",
+    "publisher": "BugFight Studio"
+  },
+  "config": {
+    "installdir": "Goblin Goopmaxxing",
+    "launch": {
+      "0": {
+        "executable": "Goblin Goopmaxxing.exe"
+      }
+    }
+  },
+  "depots": {
+    "4107471": {
+      "manifests": {
+        "public": {
+          "gid": "6214046686198086560",
+          "size": "318404558",
+          "download": "212792576"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20621500",
+        "timeupdated": "1761913734"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "100",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "\\BugFight Studio\\Goblin Goopmaxxing\\",
+        "pattern": "*"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".config/unity3d/BugFight Studio/Goblin Goopmaxxing"
+          }
+        }
+      }
     }
   }
 }
