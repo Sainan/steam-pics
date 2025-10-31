@@ -1,6 +1,5 @@
 {
   "appid": "3234310",
-  "public_only": "1",
   "common": {
     "name": "UNCHAINED",
     "type": "Game",
@@ -9,7 +8,7 @@
     "linuxclienticon": "06e1b102bbe36535904d4e85d6019b8df93d19d0",
     "clienticon": "ba03c2d89a8e5e6f4f3afb19690a6bb22327ab50",
     "clienttga": "425dab83e7529a3363e891ca3d59e79b852d1651",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,6 +107,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761926906",
     "community_hub_visible": "1",
     "gameid": "3234310",
     "exfgls": "3",
@@ -132,6 +132,45 @@
       "13": "3839",
       "14": "4182",
       "15": "21"
+    }
+  },
+  "extended": {
+    "developer": "An Outer Studio",
+    "publisher": "An Outer Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "UNCHAINED",
+    "launch": {
+      "0": {
+        "executable": "Unchained.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3234311": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7329387963921035540",
+          "size": "461998229",
+          "download": "63531024"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "20455722",
+        "timeupdated": "1760897214"
+      }
     }
   }
 }
