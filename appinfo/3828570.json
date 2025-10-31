@@ -1,6 +1,5 @@
 {
   "appid": "3828570",
-  "public_only": "1",
   "common": {
     "name": "Invertinator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -109,9 +108,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761915656",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3828570",
-    "exfgls": "8",
     "store_tags": {
       "0": "5379",
       "1": "1625",
@@ -123,6 +123,47 @@
       "7": "492",
       "8": "1664",
       "9": "5537"
+    }
+  },
+  "extended": {
+    "developer": "froggyrs",
+    "publisher": "froggyrs"
+  },
+  "config": {
+    "installdir": "Invertinator",
+    "launch": {
+      "0": {
+        "executable": "invertinator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3828571": {
+      "manifests": {
+        "public": {
+          "gid": "9049309466165705717",
+          "size": "111608320",
+          "download": "42205072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19426834",
+        "timeupdated": "1753954438"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "froggyrs/invertinator/saves/{64BitSteamID}",
+        "pattern": "*.dat"
+      }
     }
   }
 }
