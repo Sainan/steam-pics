@@ -1,6 +1,5 @@
 {
   "appid": "3954110",
-  "public_only": "1",
   "common": {
     "name": "Grand Sands",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -103,9 +102,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894235",
     "community_hub_visible": "1",
     "gameid": "3954110",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "122",
@@ -127,6 +126,44 @@
       "17": "3993",
       "18": "7481",
       "19": "4325"
+    }
+  },
+  "extended": {
+    "developer": "NecroCatic Games",
+    "publisher": "NecroCatic Games",
+    "homepage": "https://www.necrocaticgames.com"
+  },
+  "config": {
+    "installdir": "Grand Sands",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Grand Sands"
+        },
+        "description": "Grand Sands"
+      }
+    }
+  },
+  "depots": {
+    "3954111": {
+      "manifests": {
+        "public": {
+          "gid": "5376947021734010689",
+          "size": "596026278",
+          "download": "463892192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20606028",
+        "timeupdated": "1761829934"
+      }
     }
   }
 }
