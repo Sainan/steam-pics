@@ -1,6 +1,5 @@
 {
   "appid": "4130680",
-  "public_only": "1",
   "common": {
     "name": "Bedtime Nightmare Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "22d63c3caed0eb35b80351653015b2827f4cecaf/capsule_231x87.jpg"
     },
@@ -34,7 +33,51 @@
       "category_70": "1",
       "category_74": "1"
     },
+    "steam_release_date": "1761943754",
     "gameid": "4130680",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Unseen Cat Studio",
+    "publisher": "Unseen Cat Studio"
+  },
+  "config": {
+    "installdir": "Bedtime Nightmare Demo",
+    "launch": {
+      "0": {
+        "executable": "BedtimeNightmare_HE.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4130681": {
+      "manifests": {
+        "public": {
+          "gid": "3949750460173205543",
+          "size": "1671694275",
+          "download": "1524607312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20613080",
+        "timeupdated": "1761862982"
+      }
+    }
   }
 }
