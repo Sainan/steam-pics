@@ -1,13 +1,12 @@
 {
   "appid": "3369000",
-  "public_only": "1",
   "common": {
     "name": "noox",
     "type": "Game",
     "icon": "107ac914fa24dfafe0790c37655e86ad9a633da7",
     "clienticon": "45b14ceaba243c86bb28f9ada8070df5e8b801c5",
     "clienttga": "b7ec8f680fcb9cf63d8af63b236af29a4c73f712",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -111,9 +110,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3369000",
-    "exfgls": "8",
     "store_tags": {
       "0": "8369",
       "1": "19",
@@ -136,5 +135,54 @@
       "18": "4182",
       "19": "492"
     }
+  },
+  "extended": {
+    "developer": "UdonEngineering",
+    "publisher": "UdonEngineering"
+  },
+  "config": {
+    "installdir": "noox",
+    "launch": {
+      "0": {
+        "executable": "nooxPlusPlus.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3369001": {
+      "manifests": {
+        "public": {
+          "gid": "8982586722652083276",
+          "size": "4214759572",
+          "download": "4038236432"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20621826",
+        "timeupdated": "1761915321"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "appidredirect": "3736020"
   }
 }
