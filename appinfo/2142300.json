@@ -1,6 +1,5 @@
 {
   "appid": "2142300",
-  "public_only": "1",
   "common": {
     "name": "Alquiem",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienttga": "6bc184b4784d9c5afa79dcdc1830365bc6ed91a7",
     "clienticon": "0889ea34ace38cba0362497406ba9ec3a1c6c009",
     "icon": "49c9ab32b19301c59960dd73d587f94988e39f0e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -101,6 +100,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "2142300",
     "exfgls": "3",
@@ -123,6 +123,59 @@
       "15": "4747",
       "16": "5765",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Regalia Project",
+    "publisher": "Regalia Project",
+    "isfreeapp": "1",
+    "listofdlc": "4068020,4068050,4068060,4068070,4068080,4068090",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Alquiem",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2142302": {
+      "manifests": {
+        "public": {
+          "gid": "5623701211224588373",
+          "size": "909112122",
+          "download": "628700608"
+        }
+      }
+    },
+    "baselanguages": "french",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20624927",
+        "timeupdated": "1761929243"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "8000000000",
+    "maxnumfiles": "10000",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav"
+      }
     }
   }
 }
