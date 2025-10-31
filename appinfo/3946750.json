@@ -1,13 +1,12 @@
 {
   "appid": "3946750",
-  "public_only": "1",
   "common": {
     "name": "Syrup 2: Candy Alchemy RPG",
     "type": "Game",
     "icon": "3ad93627c0aa521c86e0d75e848bdac71c05af1d",
     "clienticon": "3ce404c922be610126a5f7b89082c72b49612c38",
     "clienttga": "a446f3d402b3e10ee0baefaf5588a849362aabcd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64",
@@ -122,9 +121,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "community_hub_visible": "1",
     "gameid": "3946750",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "122",
@@ -146,6 +145,66 @@
       "17": "492",
       "18": "493",
       "19": "6815"
+    }
+  },
+  "extended": {
+    "developer": "NomnomNami",
+    "publisher": "NomnomNami",
+    "homepage": "https://nomnomnami.com/"
+  },
+  "config": {
+    "installdir": "Syrup 2 Candy Alchemy RPG",
+    "launch": {
+      "0": {
+        "executable": "Syrup2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "Syrup2.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "Syrup2.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "3946751": {
+      "manifests": {
+        "public": {
+          "gid": "4083652133105366012",
+          "size": "278671817",
+          "download": "153497696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20616623",
+        "timeupdated": "1761885096"
+      }
     }
   }
 }
