@@ -1,12 +1,11 @@
 {
   "appid": "4036850",
-  "public_only": "1",
   "common": {
     "name": "Monster Lab Simulator: Prologue",
     "type": "Game",
     "clienticon": "cbc6b52ff243f4bbe57c717ad46db41c08185832",
     "icon": "cbc6b52ff243f4bbe57c717ad46db41c08185832",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -187,6 +186,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761922809",
     "community_hub_visible": "1",
     "gameid": "4036850",
     "exfgls": "3",
@@ -211,6 +211,53 @@
       "17": "5794",
       "18": "4695",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Round3 Studios",
+    "publisher": "Kiki Games",
+    "homepage": "https://monsterlabsimulator.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "MonsterLabSimulatorPrologue",
+    "launch": {
+      "0": {
+        "executable": "Monster Lab Simulator Prologue.exe"
+      }
+    }
+  },
+  "depots": {
+    "4036851": {
+      "manifests": {
+        "public": {
+          "gid": "3520157459346707172",
+          "size": "2526904759",
+          "download": "1240793984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20359098",
+        "timeupdated": "1760294143"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "2000",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "R3\\Monster Lab Simulator Prologue\\Saves\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
