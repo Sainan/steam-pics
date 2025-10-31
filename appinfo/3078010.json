@@ -1,6 +1,5 @@
 {
   "appid": "3078010",
-  "public_only": "1",
   "common": {
     "name": "Terminal",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "2a1653965d24b255603b532b830e9d7d2b1dfe05",
     "clienttga": "7d7e2264a69a75ce6deda906e4f7b2915325f635",
     "clienticon": "865dd659acb5e4b065b9ae29f4a32053192abab9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6b87ac6af920f4cc1db0e32c59844001ab33493d/capsule_231x87.jpg"
@@ -98,10 +97,11 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761930035",
     "steam_deck_blog_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3295198429",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3078010",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "597",
@@ -120,5 +120,62 @@
       "14": "6971",
       "15": "379975"
     }
+  },
+  "extended": {
+    "developer": "Clueless Dev",
+    "publisher": "Clueless Dev",
+    "homepage": "https://cluelessdigital.com/terminal"
+  },
+  "config": {
+    "installdir": "Terminal",
+    "launch": {
+      "0": {
+        "executable": "Terminal.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Terminal.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3078011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7077134900622219699",
+          "size": "265185588",
+          "download": "110992736"
+        }
+      }
+    },
+    "3078012": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8096729331228418951",
+          "size": "285612689",
+          "download": "61269584"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "18919175",
+        "timeupdated": "1750288476"
+      }
+    },
+    "privatebranches": "1"
   }
 }
