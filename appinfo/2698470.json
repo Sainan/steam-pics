@@ -280,13 +280,14 @@
   "ufs": {
     "quota": "1021600",
     "maxnumfiles": "20",
-    "ignoreexternalfiles": "1",
-    "hidecloudui": "1",
     "savefiles": {
       "0": {
-        "root": "WinAppDataLocal",
-        "path": "KemonoTeatime/Saved/SaveGames/{Steam3AccountID}",
-        "pattern": "*.sav"
+        "root": "WinAppDataLocalLow",
+        "path": "フリュー株式会社/けものティータイム/save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
       },
       "1": {
         "root": "gameinstall",
@@ -298,6 +299,7 @@
         "path": "Win64_Development/KemonoTeatime/Saved/SaveGames/{Steam3AccountID}",
         "pattern": "*.sav"
       }
-    }
+    },
+    "sync_while_suspended": "1"
   }
 }
