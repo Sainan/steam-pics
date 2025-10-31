@@ -1,6 +1,5 @@
 {
   "appid": "3253190",
-  "public_only": "1",
   "common": {
     "name": "RazePact",
     "type": "Game",
@@ -17,7 +16,7 @@
     "name_localized": {
       "brazilian": "RazePact"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -124,9 +123,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761928349",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3253190",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "1646",
@@ -148,6 +148,87 @@
       "17": "4136",
       "18": "4726",
       "19": "4777"
+    }
+  },
+  "extended": {
+    "developer": "Daniel Penha Brasil",
+    "publisher": "YePen Games",
+    "homepage": "https://www.instagram.com/razepact"
+  },
+  "config": {
+    "installdir": "RazePact",
+    "launch": {
+      "0": {
+        "executable": "RazePact/win64/nw.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Windows 64"
+        },
+        "description": "Windows 64"
+      },
+      "1": {
+        "executable": "RazePact/win32/nw.exe",
+        "type": "option1",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "Windows32"
+        },
+        "description": "Windows32"
+      },
+      "2": {
+        "executable": "RazePact\\osx64\\razepact.app\\Contents\\MacOS\\nwjs",
+        "type": "option2",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Mac Os"
+        },
+        "description": "Mac Os"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3253191": {
+      "manifests": {
+        "public": {
+          "gid": "8468684588243576111",
+          "size": "2206788135",
+          "download": "825746960"
+        }
+      }
+    },
+    "4132180": {
+      "dlcappid": "4132180",
+      "manifests": {
+        "public": {
+          "gid": "1826852888251937628",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20612743",
+        "timeupdated": "1761861189"
+      }
     }
   }
 }
