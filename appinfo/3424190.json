@@ -1,6 +1,5 @@
 {
   "appid": "3424190",
-  "public_only": "1",
   "common": {
     "name": "The Golden Tile",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "bb637a747cf61781539dcc086fd1399d08e06fea",
     "clienttga": "efe1aed6b34bff70f46f6208ee6278dbbf22253b",
     "clienticon": "a0eb5e6d51c8e4e63917936041243a923285ef96",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -138,9 +137,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761912791",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3424190",
-    "exfgls": "8",
     "store_tags": {
       "0": "4328",
       "1": "1666",
@@ -158,6 +158,66 @@
       "13": "12472",
       "14": "1643",
       "15": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Alaabale",
+    "publisher": "Alaabale"
+  },
+  "config": {
+    "installdir": "The Golden Tile",
+    "launch": {
+      "0": {
+        "executable": "CityCards.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3424191": {
+      "manifests": {
+        "public": {
+          "gid": "7912096844904032596",
+          "size": "424816349",
+          "download": "275753840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20620680",
+        "timeupdated": "1761912214"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000",
+    "maxnumfiles": "2",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "\\CityCards\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
