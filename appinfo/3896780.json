@@ -1,13 +1,12 @@
 {
   "appid": "3896780",
-  "public_only": "1",
   "common": {
     "name": "Funny Bones",
     "type": "Game",
     "icon": "8c6975aebde7ca1c4d3eb46731504560d5c65911",
     "clienticon": "777eb15f553123d1ca2f053409b3203eb8028ab4",
     "clienttga": "dfdc7b46d7be6080e823d561556e70bb030e155e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -112,6 +111,7 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3896780",
     "exfgls": "3",
@@ -135,5 +135,66 @@
       "16": "17770",
       "17": "4182"
     }
+  },
+  "extended": {
+    "developer": "Red Monkey Studio",
+    "publisher": "Red Monkey Studio",
+    "isfreeapp": "1",
+    "listofdlc": "4143870",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Funny Bones",
+    "launch": {
+      "0": {
+        "executable": "FunnyBones.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FunnyBones.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3896781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1940424030742009988",
+          "size": "327001785",
+          "download": "71142608"
+        }
+      }
+    },
+    "3896782": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2796873355649686395",
+          "size": "367381565",
+          "download": "73670128"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20624628",
+        "timeupdated": "1761927893"
+      }
+    },
+    "privatebranches": "1"
   }
 }
