@@ -1,6 +1,5 @@
 {
   "appid": "1938750",
-  "public_only": "1",
   "common": {
     "name": "Out of Stock!",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "6a2c9b151993fa1aea72ea815d0dfb5d2064042d",
     "clienttga": "32027873c7eb44a92e017f336e3c4db037a66dd7",
     "clienticon": "6a2c9b151993fa1aea72ea815d0dfb5d2064042d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -123,9 +122,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1938750",
-    "exfgls": "8",
     "store_tags": {
       "0": "7178",
       "1": "3859",
@@ -147,6 +147,60 @@
       "17": "1719",
       "18": "1773",
       "19": "4195"
+    }
+  },
+  "extended": {
+    "developer": "Studio Maxi Mini",
+    "publisher": "Rubika Supinfogame"
+  },
+  "config": {
+    "installdir": "OutOfStock!",
+    "launch": {
+      "0": {
+        "executable": "OutOfStock!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "1938752": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5109248801153131474",
+          "size": "1013331820",
+          "download": "315913120"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20624384",
+        "timeupdated": "1761926795"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "40",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MaxiMini",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
