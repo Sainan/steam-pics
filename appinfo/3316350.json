@@ -1,6 +1,5 @@
 {
   "appid": "3316350",
-  "public_only": "1",
   "common": {
     "name": "Flesh Made Fear",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "japanese": "フレッシュ　メイド　フィアー",
       "koreana": "살점으로 빚어낸 공포"
@@ -84,7 +83,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761903580",
+    "store_asset_mtime": "1761910528",
     "associations": {
       "0": {
         "type": "developer",
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761922763",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3316350",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -146,6 +146,66 @@
       "17": "7481",
       "18": "4182",
       "19": "1774"
+    }
+  },
+  "extended": {
+    "developer": "Tainted Pact",
+    "publisher": "Assemble Entertainment"
+  },
+  "config": {
+    "installdir": "FleshMadeFear",
+    "launch": {
+      "0": {
+        "executable": "FleshMadeFear.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3316351": {
+      "manifests": {
+        "public": {
+          "gid": "6976959784543813714",
+          "size": "1168778989",
+          "download": "1011680592"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20564545",
+        "timeupdated": "1761599340"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "25",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Flesh_Made_Fear/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
