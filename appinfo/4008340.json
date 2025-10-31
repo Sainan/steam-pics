@@ -1,6 +1,5 @@
 {
   "appid": "4008340",
-  "public_only": "1",
   "common": {
     "name": "Raise the Colours",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "f822e78473551c147f93dc29a1b93813ae0e74e2",
     "icon": "f822e78473551c147f93dc29a1b93813ae0e74e2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -104,6 +103,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "4008340",
     "exfgls": "3",
@@ -123,6 +123,86 @@
       "12": "4195",
       "13": "1697",
       "14": "5711"
+    }
+  },
+  "extended": {
+    "developer": "Corny Pastiche",
+    "publisher": "Corny Pastiche",
+    "homepage": "https://linktr.ee/cornypastichedev",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Raise the Colours",
+    "launch": {
+      "0": {
+        "executable": "Hoist.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4008341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3809141536273833689",
+          "size": "673598432",
+          "download": "516032608"
+        }
+      }
+    },
+    "4137190": {
+      "dlcappid": "4137190",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8154649012253209045",
+          "size": "1218",
+          "download": "688"
+        }
+      }
+    },
+    "4137200": {
+      "dlcappid": "4137200",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1558654351125032375",
+          "size": "1218",
+          "download": "688"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20624884",
+        "timeupdated": "1761929014"
+      }
     }
   }
 }
