@@ -1,6 +1,5 @@
 {
   "appid": "1609370",
-  "public_only": "1",
   "common": {
     "name": "Caravanners: Co-op Open World Camping",
     "type": "Game",
@@ -13,7 +12,7 @@
     "icon": "2e5b0724e61a99378707f50f6a24cc2aa75eb3b6",
     "clienttga": "1e62454a961e7205e9bebdbfb8c42be609ca94ac",
     "clienticon": "6ff9a914b8fcf92a865772ddc643f5100fc85ad9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "steam_deck_compatibility": {
       "category": "2",
       "steamos_compatibility": "2",
@@ -234,9 +233,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761935996",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "1609370",
-    "exfgls": "8",
     "store_tags": {
       "0": "1695",
       "1": "21",
@@ -258,6 +258,64 @@
       "17": "4486",
       "18": "3854",
       "19": "1100687"
+    }
+  },
+  "extended": {
+    "developer": "Akif Akdemir",
+    "publisher": "PLEXUS GAME",
+    "listofdlc": "3755710",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Caravanners",
+    "launch": {
+      "0": {
+        "executable": "Caravanners.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "1609371": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3880217329546214631",
+          "size": "18642030618",
+          "download": "17713539968"
+        }
+      }
+    },
+    "3755710": {
+      "dlcappid": "3755710",
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20624952",
+        "timeupdated": "1761929359"
+      }
     }
   }
 }
