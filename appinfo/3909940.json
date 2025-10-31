@@ -1,6 +1,5 @@
 {
   "appid": "3909940",
-  "public_only": "1",
   "common": {
     "name": "Sliding Knight Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "112636a07a657be90394f2f8201586583e3f469d/capsule_231x87.jpg"
@@ -125,7 +124,48 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3909940",
     "exfgls": "6"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "VakvakGames",
+    "publisher": "VakvakGames"
+  },
+  "config": {
+    "installdir": "Sliding Knight Demo",
+    "launch": {
+      "0": {
+        "executable": "Sliding Knight.exe",
+        "workingdir": ".",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Run the game"
+        },
+        "description": "Run the game"
+      }
+    }
+  },
+  "depots": {
+    "3909941": {
+      "manifests": {
+        "public": {
+          "gid": "755227638275051386",
+          "size": "435182410",
+          "download": "56304672"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "20503491",
+        "timeupdated": "1761170380"
+      }
+    }
   }
 }
