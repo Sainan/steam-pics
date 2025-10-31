@@ -1,6 +1,5 @@
 {
   "appid": "3563810",
-  "public_only": "1",
   "common": {
     "name": "Unreal Zombies",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "fb7ee03d869881e791b3e6a7492f88616664510f",
     "clienttga": "5258944b733e0b0d455737658df32c21007b5d64",
     "icon": "fb7ee03d869881e791b3e6a7492f88616664510f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761933808",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3563810",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -146,5 +146,95 @@
       "18": "4711",
       "19": "492"
     }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default",
+    "developer": "CatgirlLydia",
+    "publisher": "Phoenix Limit Studios"
+  },
+  "config": {
+    "installdir": "Unreal Zombies",
+    "launch": {
+      "0": {
+        "executable": "TheUnrealStory.exe",
+        "arguments": "-Fullscreen",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "TheUnrealStory.exe",
+        "arguments": "-dx11",
+        "type": "option1",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Unreal Zombies on Dx11"
+        },
+        "description": "Play Unreal Zombies on Dx11"
+      },
+      "2": {
+        "executable": "TheUnrealStory.exe",
+        "arguments": "-vulkan",
+        "type": "option2",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Play Unreal Zombies on Vulkan"
+        },
+        "description": "Play Unreal Zombies on Vulkan"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3563811": {
+      "manifests": {
+        "public": {
+          "gid": "6877355445897041391",
+          "size": "3600096490",
+          "download": "3285467136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20625080",
+        "timeupdated": "1761929842"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10",
+    "maxnumfiles": "5",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "appidredirect": "3563810"
   }
 }
