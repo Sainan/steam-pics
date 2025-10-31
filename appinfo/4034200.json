@@ -1,6 +1,5 @@
 {
   "appid": "4034200",
-  "public_only": "1",
   "common": {
     "name": "Netoo Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "icon": "12191a504367142ba044fbdfbaea3c0336cb4d2d",
     "clienticns": "e3f836167edafd031ab6e922c8a0153a4ac57bf1",
     "linuxclienticon": "34159c79fb1c04498d1be2e62564858394e1ba0f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -427,7 +426,133 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761931329",
     "gameid": "4034200",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Mindlabor",
+    "publisher": "Mindlabor",
+    "homepage": "https://mindlabor.dev/netoo/"
+  },
+  "config": {
+    "installdir": "Netoo Demo",
+    "launch": {
+      "0": {
+        "executable": "Netoo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Netoo.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Netoo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4034201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8412085061981442866",
+          "size": "129201158",
+          "download": "28645136"
+        }
+      }
+    },
+    "4034202": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4157193823805122907",
+          "size": "133589908",
+          "download": "28738528"
+        }
+      }
+    },
+    "4034203": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3871705782275056213",
+          "size": "157557982",
+          "download": "38032560"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "20608649",
+        "timeupdated": "1761840927"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mindlabor/Netoo/",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataLocalLow",
+        "pathtransforms": {
+          "0": {
+            "find": "Mindlabor/Netoo/",
+            "replace": "Mindlabor/Netoo/"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Mindlabor/Netoo/",
+            "replace": ".config/unity3d/Mindlabor/Netoo/"
+          }
+        }
+      },
+      "2": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Mindlabor/Netoo/",
+            "replace": "Mindlabor/Netoo/"
+          }
+        }
+      }
+    }
   }
 }
