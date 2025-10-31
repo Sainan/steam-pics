@@ -1,10 +1,9 @@
 {
   "appid": "3533290",
-  "public_only": "1",
   "common": {
     "name": "迷雾岛屿：9号万能试剂",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
@@ -117,7 +116,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3533290",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -139,6 +137,62 @@
       "13": "4145",
       "14": "4182",
       "15": "492"
+    }
+  },
+  "extended": {
+    "developer": "Bio.no.187",
+    "publisher": "Bio.no.187"
+  },
+  "config": {
+    "installdir": "迷雾岛屿：9号万能试剂",
+    "launch": {
+      "0": {
+        "executable": "Panacea9.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Panacea9.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3533291": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "765658797451421757",
+          "size": "1312347674",
+          "download": "971184288"
+        }
+      }
+    },
+    "3533292": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3178698604094707700",
+          "size": "1312347674",
+          "download": "971184288"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20617924",
+        "timeupdated": "1761895059"
+      }
     }
   }
 }
