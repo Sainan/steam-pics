@@ -1,6 +1,5 @@
 {
   "appid": "1983950",
-  "public_only": "1",
   "common": {
     "name": "萌宠桌面大冒险",
     "type": "Game",
@@ -13,7 +12,7 @@
     "icon": "1263bc7f3fa664f382bd3ceb9e950e69b6227ca2",
     "clienttga": "e3e47f5bac44047bdd11ceea44c9de4ed283820b",
     "clienticon": "40e35f80c91a221db0adacf7d01d8c994604ce5f",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b37e6439ae14df58cca1781478bd42463e2d9942/capsule_231x87.jpg",
@@ -127,7 +126,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "1983950",
-    "exfgls": "8",
     "store_tags": {
       "0": "9",
       "1": "21",
@@ -149,6 +147,49 @@
       "17": "4136",
       "18": "3993",
       "19": "30358"
+    }
+  },
+  "extended": {
+    "developer": "Triple Tails Software",
+    "publisher": "Triple Tails Software"
+  },
+  "config": {
+    "installdir": "DesktopAnimal",
+    "launch": {
+      "0": {
+        "executable": "AnimalFarm.exe"
+      }
+    }
+  },
+  "depots": {
+    "1983951": {
+      "manifests": {
+        "public": {
+          "gid": "5394510674597416723",
+          "size": "918999800",
+          "download": "119410800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20621180",
+        "timeupdated": "1761912079"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "AnimalFarm_Data/MySaves",
+        "pattern": "*.essave3",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
