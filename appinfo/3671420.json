@@ -1,6 +1,5 @@
 {
   "appid": "3671420",
-  "public_only": "1",
   "common": {
     "name": "Pipeworks Puzzle",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -128,9 +127,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761868763",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3671420",
-    "exfgls": "8",
     "store_tags": {
       "0": "492",
       "1": "1664",
@@ -147,6 +147,63 @@
       "12": "4182",
       "13": "4191",
       "14": "1643"
+    }
+  },
+  "extended": {
+    "developer": "NINES™",
+    "publisher": "NINES™"
+  },
+  "config": {
+    "installdir": "Pipeburst Puzzle",
+    "launch": {
+      "0": {
+        "executable": "PipeworksPuzzle.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3671421": {
+      "manifests": {
+        "public": {
+          "gid": "8707729354411182305",
+          "size": "1305012355",
+          "download": "1017351456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19993685",
+        "timeupdated": "1757991477"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PipeworksPuzzle/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
     }
   }
 }
