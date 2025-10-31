@@ -1,6 +1,5 @@
 {
   "appid": "2282770",
-  "public_only": "1",
   "common": {
     "name": "Jack the Ripper: Hunter Clan",
     "type": "Game",
@@ -15,7 +14,7 @@
     "clienticns": "1966576c1bfa3d23bf5b9603e458f667a558fc22",
     "linuxclienticon": "b72bee83a0e10ce84aec2de4e388b73d40a16a70",
     "clienticon": "eb5c5eaba0a2fa693a8bd2ab4be9f9dfa8cdddbd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "koreana": "1"
@@ -120,9 +119,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761889771",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2282770",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "3814",
@@ -138,6 +138,119 @@
       "11": "4182",
       "12": "4791",
       "13": "3993"
+    }
+  },
+  "extended": {
+    "developer": "Plus Alpha Game Studio",
+    "publisher": "Plus Alpha Game Studio"
+  },
+  "config": {
+    "installdir": "Ripper",
+    "launch": {
+      "0": {
+        "executable": "Ripper.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Ripper.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2282771": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6498920624284656474",
+          "size": "459024046",
+          "download": "300430432"
+        },
+        "alpha": {
+          "gid": "7379345982998425157",
+          "size": "459025193",
+          "download": "300430576"
+        }
+      }
+    },
+    "2282772": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3787945904996693773",
+          "size": "594602662",
+          "download": "281239536"
+        },
+        "alpha": {
+          "gid": "4499153513598219449",
+          "size": "594604025",
+          "download": "281201808"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "20615899",
+        "timeupdated": "1761889169"
+      },
+      "alpha": {
+        "buildid": "20617115",
+        "description": "Developer internal testing version",
+        "timeupdated": "1761889119"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Ripper/Saved/SaveGames",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "pathtransforms": {
+          "0": {
+            "find": "Ripper/Saved/SaveGames",
+            "replace": "Saved/SaveGames"
+          }
+        }
+      }
     }
   }
 }
