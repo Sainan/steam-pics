@@ -1,6 +1,5 @@
 {
   "appid": "4106200",
-  "public_only": "1",
   "common": {
     "name": "Twelve Mental Patients Demo",
     "type": "Demo",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -57,11 +56,48 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761937201",
     "gameid": "4106200",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "RybonStudio",
+    "publisher": "RybonStudio"
+  },
+  "config": {
+    "installdir": "Twelve Mental Patients Demo",
+    "launch": {
+      "0": {
+        "executable": "Twelve Mental Patients Demo.exe",
+        "arguments": "~fullscreen ",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4106201": {
+      "manifests": {
+        "public": {
+          "gid": "5280845733673436806",
+          "size": "1724223282",
+          "download": "501168544"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "20574847",
+        "timeupdated": "1761660834"
+      }
     }
   }
 }
