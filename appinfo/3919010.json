@@ -1,13 +1,12 @@
 {
   "appid": "3919010",
-  "public_only": "1",
   "common": {
     "name": "Backrooms: Reminiscence",
     "type": "Game",
     "icon": "0767fc2986c1c0429955434d24abc8cba0d68713",
     "clienticon": "b2cd2993c835119755a5335ed2139809dbfe5533",
     "clienttga": "5946134db1497d5cac6ab0c790d277c75298b436",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -101,9 +100,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761908426",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3919010",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1667",
@@ -122,6 +122,53 @@
       "14": "8369",
       "15": "6426",
       "16": "6971"
+    }
+  },
+  "extended": {
+    "developer": "HNStudios",
+    "publisher": "HNStudios"
+  },
+  "config": {
+    "installdir": "Backrooms Reminiscence",
+    "launch": {
+      "0": {
+        "executable": "Tutorials.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3919011": {
+      "manifests": {
+        "public": {
+          "gid": "2525816712235155443",
+          "size": "6672805517",
+          "download": "6335393280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20593982",
+        "timeupdated": "1761760201"
+      }
     }
   }
 }
