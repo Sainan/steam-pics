@@ -1,13 +1,12 @@
 {
   "appid": "4031040",
-  "public_only": "1",
   "common": {
     "name": "旅居魔女与她的毕业课题 Demo",
     "type": "Demo",
     "parent": "3816020",
     "clienticon": "9d78b4740985c5fec42189b8c90366b080f285da",
     "icon": "6bba25c8db964596d6aa00e18d034e015344b952",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -113,10 +112,76 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "4031040",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "5"
+    }
+  },
+  "extended": {
+    "developer": "331225",
+    "publisher": "331225"
+  },
+  "config": {
+    "installdir": "Delia The wise woman Demo",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4031041": {
+      "config": {
+        "oslist": "windows",
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7165134860028561379",
+          "size": "532327860",
+          "download": "470756720"
+        }
+      }
+    },
+    "4031043": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7890349871992550332",
+          "size": "532475920",
+          "download": "470904448"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20614652",
+        "timeupdated": "1761872494"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1258291200",
+    "maxnumfiles": "150",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "savedata",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
