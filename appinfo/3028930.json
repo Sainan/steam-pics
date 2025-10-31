@@ -1,6 +1,5 @@
 {
   "appid": "3028930",
-  "public_only": "1",
   "common": {
     "name": "FreakShow",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienticns": "c375b9883c9d9e777d8b190dc3dc8af2bb29e8ae",
     "clienticon": "b362f1e846c171c2576b8b68e98f5fdfd3c9c59d",
     "icon": "86d0cb3839c2e51550a02c97b46dd9167cb100fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -130,6 +129,7 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761922258",
     "community_hub_visible": "1",
     "gameid": "3028930",
     "exfgls": "3",
@@ -158,6 +158,68 @@
       "17": "1775",
       "18": "5711",
       "19": "3859"
+    }
+  },
+  "extended": {
+    "developer": "Fast Takedown Studio",
+    "publisher": "Fast Takedown Studio",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "FreakShow",
+    "launch": {
+      "0": {
+        "executable": "FreakShow.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "FreakShow_Release_MacOs_v1.app",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Mac OS"
+        },
+        "description": "Mac OS"
+      }
+    }
+  },
+  "depots": {
+    "3028931": {
+      "config": {
+        "oslist": "windows,linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1398355236139973616",
+          "size": "980337840",
+          "download": "257902656"
+        }
+      }
+    },
+    "3028932": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6831517573488814013",
+          "size": "976310818",
+          "download": "289779920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20623276",
+        "timeupdated": "1761922103"
+      }
     }
   }
 }
