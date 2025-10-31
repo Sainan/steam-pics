@@ -200,7 +200,7 @@
   },
   "ufs": {
     "quota": "100000000",
-    "maxnumfiles": "1",
+    "maxnumfiles": "2",
     "rootoverrides": {
       "0": {
         "root": "WinAppDataLocalLow",
@@ -218,6 +218,13 @@
       }
     },
     "ignoreexternalfiles": "1",
-    "hidecloudui": "1"
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Might and Delight/Twinkleby Demo/steam/{64BitSteamID}/save",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
