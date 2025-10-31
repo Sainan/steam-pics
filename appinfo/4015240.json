@@ -1,6 +1,5 @@
 {
   "appid": "4015240",
-  "public_only": "1",
   "common": {
     "name": "Cursed Soul",
     "type": "Game",
@@ -10,7 +9,7 @@
     "name_localized": {},
     "clienticon": "9d4226867352153164baaecd1ff82e745d42ebbf",
     "icon": "dcdaf0edbaf1851527fc82b18e815365dc9b9d5d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f3a141c469430913d0178247e1088aa609e1d492/capsule_231x87.jpg"
@@ -114,9 +113,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761898521",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4015240",
-    "exfgls": "8",
     "store_tags": {
       "0": "122",
       "1": "4885",
@@ -137,6 +137,52 @@
       "16": "7569",
       "17": "4182",
       "18": "5577"
+    }
+  },
+  "extended": {
+    "developer": "DakeCraft",
+    "publisher": "PsychoFlux Entertainment"
+  },
+  "config": {
+    "installdir": "Cursed Soul",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4015241": {
+      "manifests": {
+        "public": {
+          "gid": "8093883631006952038",
+          "size": "463860352",
+          "download": "446845920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "19880174",
+        "timeupdated": "1757142278"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "52428800",
+    "maxnumfiles": "24",
+    "ignoreexternalfiles": "1",
+    "hidecloudui": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "",
+        "pattern": "*.rvdata2",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
