@@ -1,6 +1,5 @@
 {
   "appid": "3658600",
-  "public_only": "1",
   "common": {
     "name": "Foxy Trouble",
     "type": "Game",
@@ -15,7 +14,7 @@
     "icon": "b430c5d5b899265561d314997ccc17b8bd280f32",
     "clienticon": "a18cb9fd1a338690b172e1268baab3bbcc0f40fd",
     "clienttga": "d8994b861eb9572712bdae924e5b792c0afa283d",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -114,9 +113,9 @@
         "subtitles": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3658600",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
@@ -142,6 +141,60 @@
       "17": "4305",
       "18": "4486",
       "19": "6815"
+    }
+  },
+  "extended": {
+    "developer": "月宅联萌Mootaku Union",
+    "publisher": "月宅联萌Mootaku Union"
+  },
+  "config": {
+    "installdir": "FoxyLove",
+    "launch": {
+      "0": {
+        "executable": "FoxyTrouble.exe"
+      }
+    }
+  },
+  "depots": {
+    "3658601": {
+      "manifests": {
+        "public": {
+          "gid": "3490997649570676637",
+          "size": "1481662065",
+          "download": "518500288"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20611375",
+        "timeupdated": "1761853682"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "125",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "HippoCube/FoxyTrouble/NaninovelData/Saves/",
+        "pattern": "*.nson",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxHome",
+        "path": ".config/HippoCube/FoxyTrouble/Saves/",
+        "pattern": "*.nson",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
