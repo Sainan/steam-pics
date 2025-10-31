@@ -1,0 +1,220 @@
+{
+  "appid": "862160",
+  "common": {
+    "name": "Comet Crasher",
+    "type": "Game",
+    "oslist": "windows",
+    "osarch": "",
+    "clienticon": "85ea6568f63580fd2a53326f8ae21d4f9cdaf356",
+    "clienttga": "19665230619104632279178c1bb7fab20b1245a0",
+    "icon": "a1780cdc7869681a4e07a492c2a62b9c0148720f",
+    "linuxclienticon": "4d78680c341f6cf9c4e3027b3f7c1529cf1a3a30",
+    "clienticns": "7ae1452f68196ec36ffade4bdb61f8d9227bbb69",
+    "logo": "b9fbf00a5f172c8cbed1e02c319596c746716baf",
+    "logo_small": "b9fbf00a5f172c8cbed1e02c319596c746716baf_thumb",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "metacritic_name": "Comet Crasher",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_4309e83529cad55388f4136db04c68bc249054e9.jpg",
+    "store_asset_mtime": "1541866042",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Mika Molenkamp"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Mika Molenkamp"
+      }
+    },
+    "primary_genre": "37",
+    "genres": {
+      "0": "1",
+      "1": "37",
+      "2": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1",
+      "category_25": "1",
+      "category_22": "1",
+      "category_15": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "steam_release_date": "1550051018",
+    "community_visible_stats": "1",
+    "community_hub_visible": "1",
+    "gameid": "862160",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "113",
+      "1": "19",
+      "2": "492",
+      "3": "1773",
+      "4": "1625",
+      "5": "1734",
+      "6": "4182",
+      "7": "4711",
+      "8": "5154"
+    },
+    "review_score": "8",
+    "review_percentage": "90"
+  },
+  "extended": {
+    "developer": "Mika Molenkamp",
+    "publisher": "Mika Molenkamp",
+    "isfreeapp": "1",
+    "listofdlc": "863600",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Comet Crasher",
+    "launch": {
+      "0": {
+        "executable": "CometCrasher.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "CometCrasher.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "CometCrasher.x86",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "32"
+        }
+      },
+      "3": {
+        "executable": "CometCrasher.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "862161": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "714492476527615667",
+          "size": "109674673",
+          "download": "58064592"
+        }
+      }
+    },
+    "862162": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "936599401768680334",
+          "size": "115974321",
+          "download": "60083792"
+        }
+      }
+    },
+    "862163": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7450863909669204626",
+          "size": "129531771",
+          "download": "62391840"
+        }
+      }
+    },
+    "862164": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "728398230726850015",
+          "size": "153361190",
+          "download": "72752496"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "3577723",
+        "timeupdated": "1550661507"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Mika Molenkamp/Comet Crasher",
+        "pattern": "*.sav"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Mika Molenkamp/Comet Crasher",
+            "replace": "nl.syllendel.cometcrasher"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Mika Molenkamp/Comet Crasher",
+            "replace": ".config/unity3d/Mika Molenkamp/Comet Crasher"
+          }
+        }
+      }
+    }
+  }
+}
