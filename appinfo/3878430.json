@@ -1,6 +1,5 @@
 {
   "appid": "3878430",
-  "public_only": "1",
   "common": {
     "name": "MEKANION Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "d41ed01ee9248aa5228b53d644aec01d71cd1ebb/capsule_231x87.jpg"
@@ -111,5 +110,43 @@
     },
     "gameid": "3878430",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "SYW Games",
+    "publisher": "SYW Games"
+  },
+  "config": {
+    "installdir": "MEKANION_Demo",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3878431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7575792416404278872",
+          "size": "114409020",
+          "download": "55080864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20621390",
+        "timeupdated": "1761913106"
+      }
+    }
   }
 }
