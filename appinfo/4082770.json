@@ -1,6 +1,5 @@
 {
   "appid": "4082770",
-  "public_only": "1",
   "common": {
     "name": "Speakeasy Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "825fb71bb1d14da1e31aa837b2be08fa8fb1901e/capsule_231x87.jpg"
@@ -125,5 +124,54 @@
     },
     "gameid": "4082770",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Arcana Games",
+    "publisher": "Bluelily Games"
+  },
+  "config": {
+    "installdir": "Speakeasy Simulator Demo",
+    "launch": {
+      "0": {
+        "executable": "Prohibition.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4082771": {
+      "manifests": {
+        "public": {
+          "gid": "7019396622588948888",
+          "size": "6450924496",
+          "download": "5942423600"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20623495",
+        "timeupdated": "1761923431"
+      }
+    },
+    "privatebranches": "1"
   }
 }
