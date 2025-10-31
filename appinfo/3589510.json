@@ -264,13 +264,14 @@
     "privatebranches": "1"
   },
   "ufs": {
-    "quota": "104857600",
-    "maxnumfiles": "10",
+    "quota": "1048576000",
+    "maxnumfiles": "100",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocalLow",
         "path": "Twisted Twice Games/Returns Outlet Simulator/SaveData",
-        "pattern": "*.sav"
+        "pattern": "*.sav",
+        "recursive": "1"
       }
     },
     "sync_while_suspended": "1"
