@@ -1,6 +1,5 @@
 {
   "appid": "3220280",
-  "public_only": "1",
   "common": {
     "name": "后室迷失之境Backrooms:The Lost Demo",
     "type": "Demo",
@@ -13,7 +12,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -110,5 +109,82 @@
     },
     "gameid": "3220280",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Golden Trees黄金树",
+    "publisher": "Golden Trees黄金树"
+  },
+  "config": {
+    "installdir": "Windows",
+    "launch": {
+      "0": {
+        "executable": "Lost.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229005": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3220281": {
+      "manifests": {
+        "public": {
+          "gid": "170831594934431666",
+          "size": "7753095146",
+          "download": "7274950864"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20627829",
+        "timeupdated": "1761945692"
+      }
+    }
   }
 }
