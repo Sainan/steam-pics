@@ -1,6 +1,5 @@
 {
   "appid": "3362180",
-  "public_only": "1",
   "common": {
     "name": "Solomon's Boneyard: Hideous Retro Edition",
     "type": "Game",
@@ -11,7 +10,7 @@
     "icon": "93602fcd6f0c53afe8ccc47b00b68d4e9c3bb5c0",
     "linuxclienticon": "8ffd8db610b8ea6987ea7209d977d6e0aa80ef51",
     "clienticns": "ab58e1ed6482c697f2e3132df684c0f96aa3903b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -113,7 +112,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3362180",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -135,6 +133,90 @@
       "17": "4604",
       "18": "5923",
       "19": "4057"
+    }
+  },
+  "extended": {
+    "developer": "Raptisoft",
+    "publisher": "Raptisoft",
+    "homepage": "https://www.solomonsboneyard.com"
+  },
+  "config": {
+    "installdir": "Solomon's Boneyard Hideous Retro Edition",
+    "launch": {
+      "0": {
+        "executable": "SB",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "1": {
+        "executable": "SB.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "8"
+  },
+  "depots": {
+    "3362181": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6694020507945176833",
+          "size": "76828441",
+          "download": "54394128"
+        }
+      }
+    },
+    "3362182": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5982116570635848461",
+          "size": "69411878",
+          "download": "52433584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20627322",
+        "timeupdated": "1761941910"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "LinuxHome",
+        "path": ".local/share/.raptisoft/Solomon's Boneyard/_sandbox/",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/.raptisoft/Solomon's Boneyard/_sandbox/",
+            "replace": "Solomon's Boneyard/_sandbox/"
+          }
+        }
+      }
     }
   }
 }
