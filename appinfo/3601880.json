@@ -1,6 +1,5 @@
 {
   "appid": "3601880",
-  "public_only": "1",
   "common": {
     "name": "Forepaper Engine 前景引擎",
     "type": "Application",
@@ -14,7 +13,7 @@
     "clienttga": "58df6d629db7387457dc557ae4544719a32d16b7",
     "clienticon": "4e14e2e300b083a79f93023adc0c455fe9576046",
     "icon": "a565b61bebca7e2eb669949d2a7732bb6caefcdb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "fd3e1cd7ff78d88a0d4092fcc2e5cf25a20641d7/capsule_231x87.jpg"
@@ -146,6 +145,7 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761889142",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3601880",
@@ -166,6 +166,56 @@
       "12": "3964",
       "13": "4191",
       "14": "5379"
+    }
+  },
+  "extended": {
+    "gamedir": "",
+    "developer": "LittleFox",
+    "publisher": "LittleFox"
+  },
+  "config": {
+    "installdir": "ForepaperEngine",
+    "launch": {
+      "0": {
+        "executable": "ForepaperEngine.exe"
+      }
+    }
+  },
+  "depots": {
+    "3601881": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5533010212711880506",
+          "size": "637329556",
+          "download": "270462896"
+        }
+      }
+    },
+    "workshopdepot": "3601880",
+    "branches": {
+      "public": {
+        "buildid": "20598663",
+        "timeupdated": "1761787177"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "ForepaperEngine/PaperConfig",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
