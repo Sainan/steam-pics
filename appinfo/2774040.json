@@ -1,6 +1,5 @@
 {
   "appid": "2774040",
-  "public_only": "1",
   "common": {
     "name": "The Boss Gangsters : Nightlife",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "4cda349ef7656c602c09218614e78d64e5688a22",
     "clienttga": "2e88171df91deef81bd8782e36eb213c9097d7f8",
     "clienticon": "4cda349ef7656c602c09218614e78d64e5688a22",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -146,9 +145,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761950520",
     "community_hub_visible": "1",
     "gameid": "2774040",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -173,6 +172,76 @@
       "17": "5923",
       "18": "5611",
       "19": "9"
+    }
+  },
+  "extended": {
+    "developer": "BEF GAMES",
+    "publisher": "BEF GAMES",
+    "homepage": "https://thebossgangsters.com"
+  },
+  "config": {
+    "installdir": "The Boss Gangsters Nightlife",
+    "launch": {
+      "0": {
+        "executable": "TheBossGangsters.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "2774041": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6158707125348645256",
+          "size": "5114040508",
+          "download": "1117481856"
+        },
+        "beta": {
+          "gid": "6158707125348645256",
+          "size": "5114040508",
+          "download": "1117481856"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20628205",
+        "timeupdated": "1761947765"
+      },
+      "beta": {
+        "buildid": "20628205",
+        "description": "testing for future updates",
+        "timeupdated": "1761947676"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "BefGames/TheBossGangsters/",
+        "pattern": "TBGNL_Slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "path": "BefGames/TheBossGangsters/",
+        "pattern": "TBGNL_General.json",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
