@@ -1,0 +1,182 @@
+{
+  "appid": "915190",
+  "common": {
+    "name": "Cartoony Cars 2",
+    "type": "Game",
+    "oslist": "windows,macos,linux",
+    "osarch": "",
+    "logo": "fb16453785113f5945b84f0737b0dfae516b6d3c",
+    "logo_small": "fb16453785113f5945b84f0737b0dfae516b6d3c_thumb",
+    "icon": "3e19717145a687e1aab4a3ef5f74df793e958e81",
+    "clienticon": "45c2aa4ce64d401d15ff37c813440dac3ca607db",
+    "clienttga": "e53125d74681afeadc4558641308d9c2093de6c7",
+    "releasestate": "released",
+    "clienticns": "3dbc1a14fbee626ac6780d94ca9c8470fd80a060",
+    "linuxclienticon": "940b5e826a2d349c830f2f6f331a3eaafa9679d1",
+    "metacritic_name": "Cartoony Cars 2",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_a5fbb381e77562d3728ee66c26dc29ba09a3cd8b.jpg",
+    "store_asset_mtime": "1536085558",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "PowerBurger"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "PowerBurger"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "23"
+    },
+    "category": {
+      "category_2": "1",
+      "category_17": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1541790021",
+    "community_hub_visible": "1",
+    "gameid": "915190",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "492",
+      "1": "1664",
+      "2": "3968",
+      "3": "1644",
+      "4": "4182",
+      "5": "4195"
+    },
+    "review_score": "7",
+    "review_percentage": "92"
+  },
+  "extended": {
+    "developer": "PowerBurger",
+    "publisher": "PowerBurger",
+    "homepage": "https://gamejolt.com/games/cc2/326226",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Cartoony Cars 2",
+    "launch": {
+      "0": {
+        "executable": "Cartoony Cars 2.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Cartoony Cars 2.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "Cartoony Cars 2.x86",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "915191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2693595030346828179",
+          "size": "643938210",
+          "download": "62611632"
+        }
+      }
+    },
+    "915192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3873255610760297711",
+          "size": "659441803",
+          "download": "66215968"
+        }
+      }
+    },
+    "915193": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7509390714611379763",
+          "size": "642878288",
+          "download": "59886752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "3293430",
+        "timeupdated": "1541782375"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "50000000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "SpeedFrame Games/Cartoony Cars 2",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "SpeedFrame Games/Cartoony Cars 2",
+            "replace": "SpeedFrame Games/Cartoony Cars 2"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "SpeedFrame Games/Cartoony Cars 2",
+            "replace": ".config/unity3d/SpeedFrame Games/Cartoony Cars 2"
+          }
+        }
+      }
+    }
+  }
+}
