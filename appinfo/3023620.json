@@ -1,6 +1,5 @@
 {
   "appid": "3023620",
-  "public_only": "1",
   "common": {
     "name": "Idea Fix",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "0a7c14fbc29e78cbbc21b0fa5669b7d4e6676343",
     "clienttga": "df9d481631de6a1121f0d6beac5aa11594af45bf",
     "icon": "a10b7a42af2007591a95edcd31a67a4be96d826c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "16fa135511bf9ba94688cdddd54770f3fa16952f/capsule_231x87.jpg"
@@ -103,9 +102,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761873612",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3023620",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "1654",
@@ -128,5 +128,49 @@
       "18": "379975",
       "19": "13782"
     }
+  },
+  "extended": {
+    "developer": "ZuitLabs",
+    "publisher": "ZuitLabs"
+  },
+  "config": {
+    "installdir": "Idea Fix",
+    "launch": {
+      "0": {
+        "executable": "Idea Fix.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3023621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2148272117563174696",
+          "size": "601772237",
+          "download": "207671632"
+        }
+      }
+    },
+    "3023622": {},
+    "branches": {
+      "public": {
+        "buildid": "20609552",
+        "timeupdated": "1761844564"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "5",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1"
   }
 }
