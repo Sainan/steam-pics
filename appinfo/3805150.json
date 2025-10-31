@@ -1,6 +1,5 @@
 {
   "appid": "3805150",
-  "public_only": "1",
   "common": {
     "name": "Finding Dragons",
     "type": "Game",
@@ -9,7 +8,7 @@
     "clienticon": "324e40ed3ef88755ebc41ce50173719e49f082ba",
     "clienticns": "e02d099f7b1f661bde19b0ccb4a333030cd20208",
     "linuxclienticon": "3a85132d73f29a246089e5640d4373fce20f7988",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -153,9 +152,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3805150",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "4046",
@@ -172,6 +172,55 @@
       "12": "5350",
       "13": "4182",
       "14": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Akaizergames",
+    "publisher": "Akaizergames"
+  },
+  "config": {
+    "installdir": "Finding Dragons",
+    "launch": {
+      "0": {
+        "executable": "Finding Dragons.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3805151": {
+      "manifests": {
+        "public": {
+          "gid": "1276528068566214930",
+          "size": "173091550",
+          "download": "109213664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20450708",
+        "timeupdated": "1760828148"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "200000",
+    "maxnumfiles": "5",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Akaizer Games/Finding Dragons",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
