@@ -1,6 +1,5 @@
 {
   "appid": "4016850",
-  "public_only": "1",
   "common": {
     "name": "Divine Intervention - Quran Miracles Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "osextended": "",
     "icon": "2bd0dceaa6ff030a504f2c93809a97d2736b12db",
     "clienticon": "7609423c529b3cfff8bb7dba1b9c01d2f53e875b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "linuxclienticon": "576e4ddb28dcb208bf804dbdd03b0f5c8c53bf45",
     "aicontenttype": "1",
     "controllertagwizard": "1",
@@ -152,7 +151,88 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761903719",
     "gameid": "4016850",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Destrakz Studio",
+    "publisher": "Destrakz Studio",
+    "homepage": "https://quranmiraclesgame.com"
+  },
+  "config": {
+    "installdir": "Divine Intervention - Quran Miracles Demo",
+    "launch": {
+      "0": {
+        "executable": "DivineInterventionQuranMiracles.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "DivineInterventionQuranMiracles.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4016851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3975676020631323643",
+          "size": "502707503",
+          "download": "399269360"
+        }
+      }
+    },
+    "4016852": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8248343639658516534",
+          "size": "926431633",
+          "download": "415207552"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,schinese,russian,arabic,latam",
+    "branches": {
+      "public": {
+        "buildid": "20619389",
+        "timeupdated": "1761903566"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "3",
+    "appidredirect": "3631350",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "DestrakzStudio/DivineInterventionQuranMiracles/",
+        "pattern": "*",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxHome",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ".config/unity3d/DestrakzStudio/DivineInterventionQuranMiracles/"
+      }
+    }
   }
 }
