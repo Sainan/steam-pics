@@ -1,10 +1,9 @@
 {
   "appid": "3989570",
-  "public_only": "1",
   "common": {
     "name": "Death in a Party",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienticon": "73bc4d0508b5bf9c46880743ba2d94a0b2a66072",
     "icon": "09ee2efb0f9f1226714003db2743b2c3a8726821",
     "oslist": "windows",
@@ -105,6 +104,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761901006",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3989570",
     "exfgls": "3",
@@ -133,6 +134,56 @@
       "17": "14720",
       "18": "3871",
       "19": "1738"
+    }
+  },
+  "extended": {
+    "developer": "The Function Creep",
+    "publisher": "The Function Creep",
+    "homepage": "https://www.deathinaparty.com",
+    "gamemanualurl": "https://store.steampowered.com/manual/3989570/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Death in a Party",
+    "launch": {
+      "0": {
+        "executable": "Death in a Party.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3989571": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7306220722513520201",
+          "size": "104560392",
+          "download": "62044784"
+        },
+        "testing": {
+          "gid": "7306220722513520201",
+          "size": "104560392",
+          "download": "62044784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20618805",
+        "timeupdated": "1761900662"
+      },
+      "testing": {
+        "buildid": "20618805",
+        "description": "BETA branch",
+        "timeupdated": "1761900674"
+      }
     }
   }
 }
