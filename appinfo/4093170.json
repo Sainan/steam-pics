@@ -1,6 +1,5 @@
 {
   "appid": "4093170",
-  "public_only": "1",
   "common": {
     "name": "Lost Tales: Karai Vosa Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "f704c3c6452f27021b586cc58166740649a1d447/capsule_231x87.jpg"
@@ -110,5 +109,41 @@
     },
     "gameid": "4093170",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Venom Mathi",
+    "publisher": "Venom Mathi"
+  },
+  "config": {
+    "installdir": "Lost Tales Karai Vosa Demo",
+    "launch": {
+      "0": {
+        "executable": "lost-tales-demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4093171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6747964042354929674",
+          "size": "654593536",
+          "download": "445958400"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20568459",
+        "timeupdated": "1761624429"
+      }
+    }
   }
 }
