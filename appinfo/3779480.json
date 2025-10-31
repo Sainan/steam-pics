@@ -1,6 +1,5 @@
 {
   "appid": "3779480",
-  "public_only": "1",
   "common": {
     "name": "The Warrens",
     "type": "Game",
@@ -10,7 +9,7 @@
     "osarch": "",
     "osextended": "",
     "icon": "37aba441041f67e3c634bd319c1df577c736f394",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -116,9 +115,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761894000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3779480",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -144,6 +144,115 @@
       "17": "6869",
       "18": "4182",
       "19": "4191"
+    }
+  },
+  "extended": {
+    "developer": "Haunted Window, LLC",
+    "publisher": "Haunted Window, LLC",
+    "homepage": "https://hauntedwindow.com"
+  },
+  "config": {
+    "installdir": "The Warrens",
+    "launch": {
+      "0": {
+        "executable": "the_warrens_64.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "The Warrens 64 bit"
+        },
+        "description": "The Warrens 64 bit"
+      },
+      "1": {
+        "executable": "the_warrens_32.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        },
+        "description_loc": {
+          "english": "The Warrens 32 bit"
+        },
+        "description": "The Warrens 32 bit"
+      },
+      "2": {
+        "executable": "the_warrens.x86_64",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "The Warrens 64 bit"
+        },
+        "description": "The Warrens 64 bit"
+      }
+    }
+  },
+  "depots": {
+    "3779481": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2310239975545498777",
+          "size": "228836079",
+          "download": "110400512"
+        }
+      }
+    },
+    "3779482": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9109790138428627403",
+          "size": "228794607",
+          "download": "110382176"
+        }
+      }
+    },
+    "3779483": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9045309357543150710",
+          "size": "213022230",
+          "download": "107500224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20616578",
+        "timeupdated": "1761884867"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "200",
+    "savefiles": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "path": "the_warrens/{64BitSteamID}",
+        "pattern": "*.save"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "LinuxXdgDataHome",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "addpath": ""
+      }
     }
   }
 }
