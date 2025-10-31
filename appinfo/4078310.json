@@ -1,6 +1,5 @@
 {
   "appid": "4078310",
-  "public_only": "1",
   "common": {
     "name": "Fur and Void Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "c65adf6e30360191bbc0187fca52bf70f82b0bff/capsule_231x87.jpg"
@@ -93,7 +92,73 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "gameid": "4078310",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "DFS",
+    "publisher": "DFS",
+    "homepage": "https://furandvoid.com"
+  },
+  "config": {
+    "installdir": "Fur and Void Demo",
+    "launch": {
+      "0": {
+        "executable": "ABG\\Binaries\\Win64\\ABG-Win64-Shipping.exe",
+        "arguments": "-ini:Engine:[EpicOnlineServices]:AuthenticationGraph=Steam -windowed",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4078311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5023180800765118176",
+          "size": "3726463961",
+          "download": "2500305520"
+        }
+      }
+    },
+    "4078312": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7581535309312666063",
+          "size": "0",
+          "download": "0"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20603141",
+        "timeupdated": "1761915628"
+      }
+    },
+    "privatebranches": "1"
   }
 }
