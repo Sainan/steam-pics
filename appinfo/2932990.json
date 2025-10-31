@@ -1,10 +1,9 @@
 {
   "appid": "2932990",
-  "public_only": "1",
   "common": {
     "name": "The Zombie Slayers",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "clienttga": "c0113e4e34c7f0c1423a3b29a2651ea980e8e303",
     "linuxclienticon": "04923abd7c37b837934331882d9d80a7fc8a4e2e",
     "clienticon": "40646d65c0b85e9ff637c395578c0eb996c87680",
@@ -70,7 +69,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761074115",
+    "store_asset_mtime": "1761855875",
     "associations": {
       "0": {
         "type": "developer",
@@ -107,9 +106,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761922760",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2932990",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -135,6 +135,65 @@
       "17": "4305",
       "18": "4747",
       "19": "5851"
+    }
+  },
+  "extended": {
+    "developer": "Rashad Ibrahimli",
+    "publisher": "indie.io"
+  },
+  "config": {
+    "installdir": "The Zombie Slayers",
+    "launch": {
+      "0": {
+        "executable": "THE ZOMBIE SLAYERS.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2932996": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8318146996459272352",
+          "size": "1295055097",
+          "download": "267906256"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20293370",
+        "timeupdated": "1760528030"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "gameinstall",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "gameinstall",
+        "addpath": ""
+      }
     }
   }
 }
