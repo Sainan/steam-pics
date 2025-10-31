@@ -1,6 +1,5 @@
 {
   "appid": "3716870",
-  "public_only": "1",
   "common": {
     "name": "Prince of Darkness Jr.",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "335d13fe4337160f4d1f438eff588df928874afd/capsule_231x87.jpg"
@@ -127,9 +126,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761930004",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3716870",
-    "exfgls": "8",
     "store_tags": {
       "0": "1730",
       "1": "1664",
@@ -151,6 +151,82 @@
       "17": "3952",
       "18": "6129",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Pond Area",
+    "publisher": "Pond Area",
+    "homepage": "https://pondarea.com/princeofdarknessjr"
+  },
+  "config": {
+    "installdir": "Prince of Darkness Jr",
+    "launch": {
+      "0": {
+        "executable": "Prince Of Darkness Jr.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3716871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9140324623592712562",
+          "size": "382890380",
+          "download": "65227344"
+        }
+      }
+    },
+    "3716872": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5240200412300833160",
+          "size": "375884847",
+          "download": "62645056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20620215",
+        "timeupdated": "1761907284"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Pond Area/Prince Of Darkness Jr",
+        "pattern": "savedata.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Pond Area/Prince Of Darkness Jr",
+            "replace": "com.Pond-Area.Prince-Of-Darkness-Jr"
+          }
+        }
+      }
     }
   }
 }
