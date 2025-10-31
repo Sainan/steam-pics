@@ -10,6 +10,63 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "steamos_compatibility": "2",
+      "test_timestamp": "1761264000",
+      "tested_build_id": "16748181",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "non_deck_display_glyphs": "0",
+        "small_text": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-10.0-beta",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -132,7 +189,7 @@
       "19": "5030"
     },
     "review_score": "8",
-    "review_percentage": "93"
+    "review_percentage": "94"
   },
   "extended": {
     "developer": "Feperd Games",
@@ -163,6 +220,11 @@
       },
       "manifests": {
         "public": {
+          "gid": "3734710035948884847",
+          "size": "8196418054",
+          "download": "6704421232"
+        },
+        "earlyacess6.2": {
           "gid": "5561541147382520595",
           "size": "6562920656",
           "download": "4901687488"
@@ -196,8 +258,13 @@
     },
     "branches": {
       "public": {
+        "buildid": "20353000",
+        "timeupdated": "1760216463"
+      },
+      "earlyacess6.2": {
         "buildid": "20241068",
-        "timeupdated": "1759503784"
+        "description": "pre-story build",
+        "timeupdated": "1760129235"
       },
       "earlyacess6.1": {
         "buildid": "16605118",
