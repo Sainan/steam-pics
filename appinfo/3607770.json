@@ -1,6 +1,5 @@
 {
   "appid": "3607770",
-  "public_only": "1",
   "common": {
     "name": "Jester: A Foolish Ritual",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -152,9 +151,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761881167",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3607770",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -180,5 +180,42 @@
       "18": "4342",
       "19": "3843"
     }
+  },
+  "extended": {
+    "developer": "Fire Foot Studios",
+    "publisher": "Fire Foot Studios",
+    "homepage": "https://firefootstudios.com/"
+  },
+  "config": {
+    "installdir": "JesteraAFR",
+    "launch": {
+      "0": {
+        "executable": "JesterAFR.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3607771": {
+      "manifests": {
+        "public": {
+          "gid": "8567102242111786887",
+          "size": "1677702511",
+          "download": "845890864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20615982",
+        "timeupdated": "1761881113"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000"
   }
 }
