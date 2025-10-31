@@ -1,13 +1,12 @@
 {
   "appid": "3320020",
-  "public_only": "1",
   "common": {
     "name": "Cats With Standards",
     "type": "Game",
     "icon": "8330259dbd3048fe8f7ddd631b4d164abd08e776",
     "clienttga": "d05a31e5e1584065264aa3dada34459204688466",
     "clienticon": "97376e593271b068ae0ea65594db3ddc2bfb621e",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -108,9 +107,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761930000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3320020",
-    "exfgls": "8",
     "store_tags": {
       "0": "3799",
       "1": "1721",
@@ -132,6 +132,51 @@
       "17": "7948",
       "18": "17894",
       "19": "4166"
+    }
+  },
+  "extended": {
+    "developer": "Jestercraft",
+    "publisher": "Jestercraft",
+    "homepage": "https://jestercraft.com"
+  },
+  "config": {
+    "installdir": "Cats With Standards",
+    "launch": {
+      "0": {
+        "executable": "Cats With Standards.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3320021": {
+      "manifests": {
+        "public": {
+          "gid": "7227619342521239174",
+          "size": "169523646",
+          "download": "164865824"
+        }
+      }
+    },
+    "3320022": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "3320023": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20609037",
+        "timeupdated": "1761842487"
+      }
     }
   }
 }
