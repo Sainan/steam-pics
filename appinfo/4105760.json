@@ -1,6 +1,5 @@
 {
   "appid": "4105760",
-  "public_only": "1",
   "common": {
     "name": "1-DC",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "b2bb63f6e9b685a39237f0c5d53184a2a5c49019",
     "clienticon": "b2bb63f6e9b685a39237f0c5d53184a2a5c49019",
     "linuxclienticon": "952122c4ec71fa02fc0a538ceb38eb6687bf6229",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -116,9 +115,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761910519",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4105760",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -134,6 +134,92 @@
       "8": "8122",
       "9": "3871",
       "10": "4182"
+    }
+  },
+  "extended": {
+    "developer": "89o",
+    "publisher": "89o",
+    "gamemanualurl": "https://store.steampowered.com/manual/4105760/"
+  },
+  "config": {
+    "installdir": "1-DC",
+    "launch": {
+      "0": {
+        "executable": "1dc.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "AppRun",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4105761": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1725631349189304957",
+          "size": "53366819",
+          "download": "47411952"
+        }
+      }
+    },
+    "4105762": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8332274473211807913",
+          "size": "69483388",
+          "download": "52646592"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "20356885",
+        "timeupdated": "1760267996"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "800000",
+    "maxnumfiles": "300",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "_1dc",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "_1dc",
+            "replace": ".config/_1dc"
+          }
+        }
+      }
     }
   }
 }
