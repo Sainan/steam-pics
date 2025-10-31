@@ -1,6 +1,5 @@
 {
   "appid": "4121020",
-  "public_only": "1",
   "common": {
     "name": "Ephemeral Art: Shapeweaver (Demo)",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "3b617f068827e559a54f01ec5558efd8cc7c193b/capsule_231x87.jpg"
@@ -46,5 +45,49 @@
     },
     "gameid": "4121020",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "VelvetCache Interactive",
+    "publisher": "VelvetCache Interactive"
+  },
+  "config": {
+    "installdir": "Ephemeral Art Shapeweaver (Demo)",
+    "launch": {
+      "0": {
+        "executable": "shapeweaver-demo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4121021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6536535870340253059",
+          "size": "303132281",
+          "download": "134364320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20625847",
+        "timeupdated": "1761933188"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "2097152",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "SteamCloudDocuments",
+        "path": "Shapeweaver-Demo",
+        "pattern": "shapeweaver_demo_settings.json"
+      }
+    }
   }
 }
