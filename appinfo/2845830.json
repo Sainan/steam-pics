@@ -1,6 +1,5 @@
 {
   "appid": "2845830",
-  "public_only": "1",
   "common": {
     "name": "Altered Bloodlines",
     "type": "Game",
@@ -12,7 +11,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -42,10 +41,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "ac0378b67fed9def972d36cdc8615b2f9427ffe2/library_capsule.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "ac0378b67fed9def972d36cdc8615b2f9427ffe2/library_capsule_2x.jpg"
         }
       },
       "library_hero": {
@@ -63,10 +62,10 @@
       },
       "library_logo": {
         "image": {
-          "english": "logo.png"
+          "english": "2341bb8ccdb7737c635d501ca7c6dc8c9a0a7c48/logo.png"
         },
         "image2x": {
-          "english": "logo_2x.png"
+          "english": "2341bb8ccdb7737c635d501ca7c6dc8c9a0a7c48/logo_2x.png"
         },
         "logo_position": {
           "pinned_position": "BottomLeft",
@@ -83,7 +82,7 @@
         }
       }
     },
-    "store_asset_mtime": "1757611945",
+    "store_asset_mtime": "1760989501",
     "associations": {
       "0": {
         "type": "developer",
@@ -111,6 +110,8 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2845830",
     "exfgls": "3",
@@ -141,6 +142,72 @@
       "17": "599",
       "18": "4182",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Dream Cloud Entertainment",
+    "publisher": "Dream Cloud Entertainment",
+    "homepage": "https://www.dreamcloudgames.com/altered-bloodlines/",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Altered Bloodlines",
+    "launch": {
+      "0": {
+        "executable": "AlteredBloodlines.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "AlteredBloodlines.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "AlteredBloodlines.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2845831": {
+      "manifests": {
+        "public": {
+          "gid": "8850969040744457401",
+          "size": "1469395287",
+          "download": "1323685728"
+        }
+      }
+    },
+    "4037140": {
+      "dlcappid": "4037140",
+      "manifests": {}
+    },
+    "branches": {
+      "public": {
+        "buildid": "19623737",
+        "timeupdated": "1755359230"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "500000000",
+    "maxnumfiles": "5000",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "game/saves",
+        "pattern": "*",
+        "recursive": "1"
+      }
     }
   }
 }
