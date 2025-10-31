@@ -1,6 +1,5 @@
 {
   "appid": "2601820",
-  "public_only": "1",
   "common": {
     "name": "Escapen't",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "70b5ae2d9302ebd4e19b0e729b2b284dba2f4ec6",
     "clienttga": "3aacd8d9cdcb431b1f74ac1f5b1233bffd495aea",
     "clienticon": "70b5ae2d9302ebd4e19b0e729b2b284dba2f4ec6",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4a98de01e7e944daa62fd01ae2d2f05888ccbb19/capsule_231x87.jpg"
@@ -106,9 +105,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761951540",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2601820",
-    "exfgls": "8",
     "store_tags": {
       "0": "1721",
       "1": "1742",
@@ -130,6 +130,41 @@
       "17": "1719",
       "18": "5716",
       "19": "5186"
+    }
+  },
+  "extended": {
+    "developer": "Kaffeklubben Games",
+    "publisher": "Kaffeklubben Games"
+  },
+  "config": {
+    "installdir": "Escapent",
+    "launch": {
+      "0": {
+        "executable": "Escapen't.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2601821": {
+      "manifests": {
+        "public": {
+          "gid": "441523781779292783",
+          "size": "1202737004",
+          "download": "616201504"
+        }
+      }
+    },
+    "baselanguages": "english,danish",
+    "branches": {
+      "public": {
+        "buildid": "20628740",
+        "timeupdated": "1761951410"
+      }
     }
   }
 }
