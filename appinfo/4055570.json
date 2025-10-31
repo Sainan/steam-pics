@@ -1,6 +1,5 @@
 {
   "appid": "4055570",
-  "public_only": "1",
   "common": {
     "name": "Loser Named Hana",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9e92793c3093b42e52d45d9d0145c443d3c1b6b7/capsule_231x87.jpg"
@@ -105,6 +104,7 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761929883",
     "community_hub_visible": "1",
     "gameid": "4055570",
     "exfgls": "3",
@@ -129,6 +129,54 @@
       "17": "6426",
       "18": "7250",
       "19": "6971"
+    }
+  },
+  "extended": {
+    "developer": "Repurpose Studios",
+    "publisher": "Repurpose Studios",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "LNH",
+    "launch": {
+      "0": {
+        "executable": "LNH.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "LNH.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "LNH.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4055571": {
+      "manifests": {
+        "public": {
+          "gid": "4974592627071457416",
+          "size": "324865561",
+          "download": "177810864"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20469171",
+        "timeupdated": "1760989648"
+      }
     }
   }
 }
