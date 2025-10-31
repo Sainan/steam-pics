@@ -1,6 +1,5 @@
 {
   "appid": "3940230",
-  "public_only": "1",
   "common": {
     "name": "The Cursed Hotel",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "053cec8cfbbc984990756176533b91a6e3e065b1",
     "icon": "053cec8cfbbc984990756176533b91a6e3e065b1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -94,14 +93,14 @@
     "category": {
       "category_2": "1",
       "category_28": "1",
-      "category_74": "1",
-      "category_62": "1"
+      "category_74": "1"
     },
     "supported_languages": {
       "english": {
         "supported": "true"
       }
     },
+    "steam_release_date": "1761913279",
     "community_hub_visible": "1",
     "gameid": "3940230",
     "exfgls": "3",
@@ -119,6 +118,47 @@
       "10": "4004",
       "11": "1659",
       "12": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Team TeraBites",
+    "publisher": "Team TeraBites",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "The Cursed Hotel",
+    "launch": {
+      "0": {
+        "executable": "CursedHotel/The Cursed Hotel.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch The Cursed Hotel"
+        },
+        "description": "Launch The Cursed Hotel"
+      }
+    }
+  },
+  "depots": {
+    "3940231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "941528882346298984",
+          "size": "141707887",
+          "download": "52640784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20182020",
+        "timeupdated": "1759196329"
+      }
     }
   }
 }
