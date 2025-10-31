@@ -1,6 +1,5 @@
 {
   "appid": "4084240",
-  "public_only": "1",
   "common": {
     "name": "Tutien Path Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "partial",
@@ -112,7 +111,55 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894306",
     "gameid": "4084240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Ace",
+    "publisher": "AceKnight97"
+  },
+  "config": {
+    "installdir": "Tutien Path Demo",
+    "launch": {
+      "0": {
+        "executable": "TuTienPath.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4084241": {
+      "manifests": {
+        "public": {
+          "gid": "3416451421444591260",
+          "size": "5254555974",
+          "download": "4851724080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20617646",
+        "timeupdated": "1761894217"
+      }
+    }
   }
 }
