@@ -1,6 +1,5 @@
 {
   "appid": "3829050",
-  "public_only": "1",
   "common": {
     "name": "THE HAUNTING VOICE",
     "type": "Game",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -134,9 +133,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761892951",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3829050",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -161,6 +161,53 @@
       "17": "4182",
       "18": "1667",
       "19": "1721"
+    }
+  },
+  "extended": {
+    "developer": "Yury Romanov",
+    "publisher": "Yury Romanov"
+  },
+  "config": {
+    "installdir": "THE HAUNTING VOICE",
+    "launch": {
+      "0": {
+        "executable": "NP_THV_52.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3829051": {
+      "manifests": {
+        "public": {
+          "gid": "4007234907472792181",
+          "size": "3122781579",
+          "download": "2668382080"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,spanish,russian,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "20605283",
+        "timeupdated": "1761826396"
+      }
     }
   }
 }
