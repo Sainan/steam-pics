@@ -1,6 +1,5 @@
 {
   "appid": "4052970",
-  "public_only": "1",
   "common": {
     "name": "Raid in Galaxy",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "icon": "f60b19bf3ef94b984504fef5dc86d398f14645da",
     "clienticon": "f60b19bf3ef94b984504fef5dc86d398f14645da",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "7f536901085aaea2f1cf01960f59a4ecfdf41134/capsule_231x87.jpg"
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761899947",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4052970",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -126,6 +126,65 @@
       "14": "7250",
       "15": "6730",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Thunustron",
+    "publisher": "Thunustron"
+  },
+  "config": {
+    "installdir": "Raid in Galaxy",
+    "launch": {
+      "0": {
+        "executable": "RIG.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229000": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4052971": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6328892125525417774",
+          "size": "357026735",
+          "download": "265059392"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20365268",
+        "timeupdated": "1760342670"
+      }
     }
   }
 }
