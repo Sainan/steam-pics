@@ -1,13 +1,12 @@
 {
   "appid": "4088240",
-  "public_only": "1",
   "common": {
     "name": "AGERASIA Demo",
     "type": "Demo",
     "parent": "4046410",
     "clienticon": "9178822e9f3509a7ee00f287b0170b040fa16aa1",
     "icon": "9178822e9f3509a7ee00f287b0170b040fa16aa1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -99,7 +98,51 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761922800",
     "gameid": "4088240",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Olivia Westmorland",
+    "publisher": "Olivia Westmorland"
+  },
+  "config": {
+    "installdir": "AGERASIA Demo",
+    "launch": {
+      "0": {
+        "executable": "AGERASIA.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4088241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6366908417853554455",
+          "size": "509672388",
+          "download": "345014240"
+        }
+      }
+    },
+    "4088242": {
+      "config": {
+        "language": "french",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20259361",
+        "timeupdated": "1759665011"
+      }
+    }
   }
 }
