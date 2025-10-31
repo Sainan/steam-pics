@@ -1,6 +1,5 @@
 {
   "appid": "3943990",
-  "public_only": "1",
   "common": {
     "name": "Callana's Misery",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -107,7 +106,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3943990",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "2",
@@ -131,6 +129,43 @@
       "14": "4342",
       "15": "4182",
       "16": "1741"
+    }
+  },
+  "extended": {
+    "developer": "Hookening",
+    "publisher": "Hookening"
+  },
+  "config": {
+    "installdir": "CallanasMisery",
+    "launch": {
+      "0": {
+        "executable": "CallanasMisery.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3943991": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4165622112794405228",
+          "size": "1105941499",
+          "download": "1018877200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20574218",
+        "timeupdated": "1761657869"
+      }
     }
   }
 }
