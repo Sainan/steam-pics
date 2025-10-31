@@ -1,12 +1,11 @@
 {
   "appid": "3862340",
-  "public_only": "1",
   "common": {
     "name": "Halloween Waifu",
     "type": "Game",
     "icon": "305f4365acbf59f7f65d5f317ea367333eb38439",
     "clienticon": "9d31d01bc6f1552ea422859cf6bc55141d9f5b03",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
@@ -405,9 +404,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761899694",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3862340",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -434,6 +434,83 @@
       "16": "615955",
       "17": "4604",
       "18": "4434"
+    }
+  },
+  "extended": {
+    "developer": "Morf Games",
+    "publisher": "Morf Games",
+    "listofdlc": "4022270",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Halloween Waifu",
+    "launch": {
+      "0": {
+        "executable": "game test.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Halloween Waifu.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Contents\\MacOS\\game test",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3862341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4838239279215732172",
+          "size": "182895555",
+          "download": "83744704"
+        }
+      }
+    },
+    "3862342": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5201603277205798816",
+          "size": "181038719",
+          "download": "81611984"
+        }
+      }
+    },
+    "3862343": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3481394071490218857",
+          "size": "206322240",
+          "download": "92438784"
+        }
+      }
+    },
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "19804127",
+        "timeupdated": "1756660944"
+      }
     }
   }
 }
