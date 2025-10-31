@@ -1,13 +1,12 @@
 {
   "appid": "2315100",
-  "public_only": "1",
   "common": {
     "name": "The Great Smog",
     "type": "Game",
     "icon": "558903383f46b23f4c6794420a717030c0d0c28e",
     "clienticon": "558903383f46b23f4c6794420a717030c0d0c28e",
     "clienttga": "6e74f9acb00528e45d4cc27ee562c05d3bae3b01",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -111,9 +110,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "2315100",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -139,6 +138,53 @@
       "17": "353880",
       "18": "4182",
       "19": "3835"
+    }
+  },
+  "extended": {
+    "developer": "JFi Games",
+    "publisher": "JFi Games ",
+    "homepage": "https://linktr.ee/thegreatsmog"
+  },
+  "config": {
+    "installdir": "The Great Smog",
+    "launch": {
+      "0": {
+        "executable": "TheGreatSmog.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2315101": {
+      "manifests": {
+        "public": {
+          "gid": "4904489027607356903",
+          "size": "38968468575",
+          "download": "18431082976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20627969",
+        "timeupdated": "1761945996"
+      }
     }
   }
 }
