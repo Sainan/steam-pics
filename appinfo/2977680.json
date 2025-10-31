@@ -1,10 +1,9 @@
 {
   "appid": "2977680",
-  "public_only": "1",
   "common": {
     "name": "ScanIt!",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -100,9 +99,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761908414",
     "community_hub_visible": "1",
     "gameid": "2977680",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "1773",
@@ -124,6 +123,57 @@
       "17": "1664",
       "18": "3839",
       "19": "12472"
+    }
+  },
+  "extended": {
+    "developer": "Madcake Studios",
+    "publisher": "Madcake Studios",
+    "homepage": "https://www.madcakestudios.com/"
+  },
+  "config": {
+    "installdir": "ScanIt!",
+    "launch": {
+      "0": {
+        "executable": "ScanIt!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2977681": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4640670819937825908",
+          "size": "763038503",
+          "download": "212223840"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20619754",
+        "timeupdated": "1761905014"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000",
+    "maxnumfiles": "8",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Madcake Studios/ScanIt!/saves/{64BitSteamID}/",
+        "pattern": "*.sav"
+      }
     }
   }
 }
