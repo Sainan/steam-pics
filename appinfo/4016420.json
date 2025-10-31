@@ -1,6 +1,5 @@
 {
   "appid": "4016420",
-  "public_only": "1",
   "common": {
     "name": "Liminal:The Forgotten Maze",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "addd348ee7695710fba7c4470060102fc2bf3713",
     "icon": "addd348ee7695710fba7c4470060102fc2bf3713",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -109,9 +108,9 @@
         "full_audio": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4016420",
-    "exfgls": "8",
     "store_tags": {
       "0": "1667",
       "1": "493",
@@ -133,6 +132,60 @@
       "17": "7250",
       "18": "856791",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "King Studio",
+    "publisher": "King Studio",
+    "homepage": "https://www.youtube.com/@KingStudio-z1b"
+  },
+  "config": {
+    "installdir": "LiminalThe Forgotten Maze",
+    "launch": {
+      "0": {
+        "executable": "LiminalTheForgottenMaze.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4016421": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3406051734767476745",
+          "size": "4530452948",
+          "download": "1784865200"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20551461",
+        "timeupdated": "1761523298"
+      }
     }
   }
 }
