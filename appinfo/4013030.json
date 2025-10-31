@@ -1,12 +1,11 @@
 {
   "appid": "4013030",
-  "public_only": "1",
   "common": {
     "name": "Be King",
     "type": "Game",
     "clienticon": "5e7cb9f025f9f7f469896221f0747190a8d2d4d9",
     "icon": "5e7cb9f025f9f7f469896221f0747190a8d2d4d9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -153,9 +152,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761881809",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4013030",
-    "exfgls": "8",
     "store_tags": {
       "0": "791774",
       "1": "14139",
@@ -177,6 +177,57 @@
       "17": "1684",
       "18": "4182",
       "19": "4342"
+    }
+  },
+  "extended": {
+    "developer": "Wending Studio",
+    "publisher": "Wending Studio"
+  },
+  "config": {
+    "installdir": "Be King",
+    "launch": {
+      "0": {
+        "executable": "BeKing.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4013031": {
+      "manifests": {
+        "public": {
+          "gid": "5849554293300384139",
+          "size": "165189168",
+          "download": "93519248"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "20599928",
+        "timeupdated": "1761794813"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "100",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "BeKing",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
