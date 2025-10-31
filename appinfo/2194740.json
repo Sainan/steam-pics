@@ -1,6 +1,5 @@
 {
   "appid": "2194740",
-  "public_only": "1",
   "common": {
     "name": "1v1 Me",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "6b44af67fd17bc501f01c1a8595c806d73368287",
     "clienttga": "e13c1ccf1ca3929cd1558b0277354a80939be361",
     "icon": "9c7909544906198667c78e0935b221bc30871d37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "b99de083b4e85d7618a88e5a4beda98a27a6598f/capsule_231x87.jpg"
@@ -109,9 +108,9 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761896937",
     "community_hub_visible": "1",
     "gameid": "2194740",
-    "exfgls": "8",
     "store_tags": {
       "0": "3859",
       "1": "1775",
@@ -127,6 +126,76 @@
       "11": "4791",
       "12": "19",
       "13": "492"
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "A3 Industries",
+    "publisher": "A3 Industries"
+  },
+  "config": {
+    "installdir": "1v1_Me",
+    "launch": {
+      "0": {
+        "executable": "1v1 Me.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2194741": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5712242431300242156",
+          "size": "2533604177",
+          "download": "885205728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20617771",
+        "timeupdated": "1761894047"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000",
+    "maxnumfiles": "20",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "A3_1v1_Me/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
