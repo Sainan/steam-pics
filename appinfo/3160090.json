@@ -1,13 +1,12 @@
 {
   "appid": "3160090",
-  "public_only": "1",
   "common": {
     "name": "Slot & Dungeons",
     "type": "Game",
     "icon": "9279e111c5ef2bb0a84512c5fa641dc75f3dade7",
     "clienttga": "ea38bc3f0763508fc5521b65d0c7802636adf333",
     "clienticon": "3f01b00d253b979b4c1f557cc5970afe08042d39",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -122,9 +121,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761886917",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3160090",
-    "exfgls": "8",
     "store_tags": {
       "0": "1091588",
       "1": "1716",
@@ -146,6 +146,48 @@
       "17": "1708",
       "18": "4057",
       "19": "492"
+    }
+  },
+  "extended": {
+    "developer": "MUC GAMES",
+    "publisher": "MUC GAMES",
+    "homepage": "https://www.muc-games.co.jp/"
+  },
+  "config": {
+    "installdir": "Slot And Dungeons",
+    "launch": {
+      "0": {
+        "executable": "slot_and_dungeons.exe"
+      }
+    }
+  },
+  "depots": {
+    "3160091": {
+      "manifests": {
+        "public": {
+          "gid": "8293055585336655169",
+          "size": "305798672",
+          "download": "203456464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20616022",
+        "timeupdated": "1761881829"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "Godot/app_userdata/Slot & Dungeons",
+        "pattern": "*.tres"
+      }
     }
   }
 }
