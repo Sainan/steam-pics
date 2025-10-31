@@ -1,10 +1,9 @@
 {
   "appid": "3963650",
-  "public_only": "1",
   "common": {
     "name": "Ethan's Flag Quiz Game",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "1a17b3a88995731ffa4311a16e99ef371a457a80",
     "linuxclienticon": "dd8ea1994d4b348e1bb6068738822f5d88704e5b",
     "clienticon": "dd8ea1994d4b348e1bb6068738822f5d88704e5b",
@@ -100,9 +99,9 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761943827",
     "community_hub_visible": "1",
     "gameid": "3963650",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "1036",
@@ -112,6 +111,50 @@
       "5": "5350",
       "6": "1654",
       "7": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Ignivar Technology Solutions",
+    "publisher": "Ignivar Technology Solutions"
+  },
+  "config": {
+    "installdir": "Ethan's Flag Quiz Game",
+    "launch": {
+      "0": {
+        "executable": "FlagLauncher.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "32"
+        }
+      },
+      "1": {
+        "executable": "FlagLauncher.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3963651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5540954803658945055",
+          "size": "72276333",
+          "download": "49189376"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20260194",
+        "timeupdated": "1759675274"
+      }
     }
   }
 }
