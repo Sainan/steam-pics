@@ -369,13 +369,21 @@
     "privatebranches": "1"
   },
   "ufs": {
-    "quota": "100000000",
+    "quota": "10000000000",
     "maxnumfiles": "10000",
     "savefiles": {
       "0": {
         "root": "WinAppDataLocal",
         "path": "MinigameMadness/Saved/SaveGames/Full",
         "pattern": "SaveServer.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "MinigameMadness/Saved/Condos",
+        "pattern": "*.condo",
         "platforms": {
           "1": "Windows"
         }
