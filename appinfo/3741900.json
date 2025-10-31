@@ -1,6 +1,5 @@
 {
   "appid": "3741900",
-  "public_only": "1",
   "common": {
     "name": "Ghoul Thrasher",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "390f5317eebaa49df7f4db62f401dee805944dcd",
     "icon": "390f5317eebaa49df7f4db62f401dee805944dcd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -107,9 +106,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894000",
     "community_hub_visible": "1",
     "gameid": "3741900",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
@@ -134,6 +133,58 @@
       "17": "21",
       "18": "1759",
       "19": "7743"
+    }
+  },
+  "extended": {
+    "developer": "Magic Quest Media ",
+    "publisher": "Magic Quest Media",
+    "homepage": "https://magicquestmedia.com",
+    "gamemanualurl": "https://store.steampowered.com/manual/3741900/"
+  },
+  "config": {
+    "installdir": "Ghoul Thrasher",
+    "launch": {
+      "0": {
+        "executable": "Ghoul Thrasher.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3741901": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2992790563807216082",
+          "size": "86220848",
+          "download": "27376896"
+        }
+      }
+    },
+    "3741902": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      }
+    },
+    "3741903": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20068933",
+        "timeupdated": "1758494679"
+      }
     }
   }
 }
