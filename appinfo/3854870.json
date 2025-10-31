@@ -1,6 +1,5 @@
 {
   "appid": "3854870",
-  "public_only": "1",
   "common": {
     "name": "ShipCrafter",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "30382f6faacfaad8aeb80e597957833a449efa4e",
     "linuxclienticon": "c3f6aa32a1e7bd1332578ba792c500c95c8cb1ea",
     "clienticon": "c926f55d7bb895d29586bd841278bd6cd5b58f7c",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6d0e66d56b50b7b3cd35bfbdce4464b33b770aaa/capsule_231x87.jpg"
@@ -111,10 +110,11 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761897542",
+    "community_visible_stats": "1",
     "workshop_visible": "1",
     "community_hub_visible": "1",
     "gameid": "3854870",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -136,6 +136,102 @@
       "17": "3968",
       "18": "4150",
       "19": "6730"
+    }
+  },
+  "extended": {
+    "developer": "Myrmecoman",
+    "publisher": "MoreButterGames"
+  },
+  "config": {
+    "installdir": "ShipCrafter",
+    "launch": {
+      "0": {
+        "executable": "ShipCrafter.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "ShipCrafter.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3854872": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2832515282058641308",
+          "size": "628352568",
+          "download": "193949392"
+        },
+        "testing": {
+          "gid": "2832515282058641308",
+          "size": "628352568",
+          "download": "193949392"
+        }
+      }
+    },
+    "3854873": {
+      "config": {
+        "oslist": "macos,linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2980283732284393862",
+          "size": "769927994",
+          "download": "228611648"
+        },
+        "testing": {
+          "gid": "2980283732284393862",
+          "size": "769927994",
+          "download": "228611648"
+        }
+      }
+    },
+    "workshopdepot": "3854870",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20613710",
+        "timeupdated": "1761866942"
+      },
+      "testing": {
+        "buildid": "20613710",
+        "description": "beta branch",
+        "timeupdated": "1761866952"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "MoreButterGames/ShipCrafter/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "LinuxXdgConfigHome",
+        "path": "unity3d/MoreButterGames/ShipCrafter/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
