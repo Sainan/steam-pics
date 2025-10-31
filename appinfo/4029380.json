@@ -1,4 +1,160 @@
 {
   "appid": "4029380",
-  "public_only": "1"
+  "common": {
+    "name": "Pathogenic Demo",
+    "type": "Demo",
+    "parent": "3808690",
+    "name_localized": {
+      "schinese": "致病本源"
+    },
+    "icon": "f2cac253ab8c65be2d7af622685fc98e9ffc6cd5",
+    "clienticon": "6d17df29fd9ce70123159ff999cd893214faffc1",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "releasestate": "released",
+    "controllertagwizard": "1",
+    "controller_support": "full",
+    "small_capsule": {
+      "english": "c1fb23ed745f50aca94993ff0d58889af3ec49fe/capsule_231x87.jpg",
+      "schinese": "7db457eda9b4a8875a25bfe307b882aea630e33a/capsule_231x87_schinese.jpg"
+    },
+    "header_image": {
+      "english": "ebef39d4c9f1fb849480b686f7ec4d7b0d77bae1/header.jpg",
+      "schinese": "f4b70232c521e4deec285e0402e137fca927c885/header_schinese.jpg"
+    },
+    "store_screenshot": "8746ec6bce11b9dac8e6b5ddaed4a39ea636bd5a/ss_8746ec6bce11b9dac8e6b5ddaed4a39ea636bd5a.jpg",
+    "store_asset_mtime": "1757674494",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": " Aberrant Labs"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Slug Disco"
+      },
+      "2": {
+        "type": "franchise",
+        "name": "Slug Disco"
+      }
+    },
+    "primary_genre": "1",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "28"
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_57": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "schinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1761917373",
+    "gameid": "4029380",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": " Aberrant Labs",
+    "publisher": "Slug Disco",
+    "homepage": "https://discord.gg/vKEek8PBA4"
+  },
+  "config": {
+    "installdir": "Pathogenic Demo",
+    "launch": {
+      "0": {
+        "executable": "pathogenic.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "pathogenic.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      },
+      "2": {
+        "executable": "Pathogenic.app/Contents/MacOS/Pathogenic",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4029381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2415758399212564539",
+          "size": "518651496",
+          "download": "420873200"
+        },
+        "prerelease": {
+          "gid": "2415758399212564539",
+          "size": "518651496",
+          "download": "420873200"
+        }
+      }
+    },
+    "4029382": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3450604125381052637",
+          "size": "491344760",
+          "download": "413787024"
+        },
+        "prerelease": {
+          "gid": "3450604125381052637",
+          "size": "491344760",
+          "download": "413787024"
+        }
+      }
+    },
+    "4029383": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4383343849118924227",
+          "size": "613455401",
+          "download": "447302912"
+        },
+        "prerelease": {
+          "gid": "4383343849118924227",
+          "size": "613455401",
+          "download": "447302912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20620888",
+        "timeupdated": "1761910991"
+      },
+      "prerelease": {
+        "buildid": "20620888",
+        "description": "CI Build",
+        "timeupdated": "1761910498"
+      }
+    }
+  }
 }
