@@ -1,11 +1,10 @@
 {
   "appid": "3782160",
-  "public_only": "1",
   "common": {
     "name": "Subliminal Demo",
     "type": "Demo",
     "parent": "2300840",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "忆蚀 Demo",
       "tchinese": "憶蝕 Demo"
@@ -106,7 +105,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761894009",
     "gameid": "3782160",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Accidental Studios",
+    "publisher": "Gone Shootin"
+  },
+  "config": {
+    "installdir": "Subliminal Demo",
+    "launch": {
+      "0": {
+        "executable": "Subliminal.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3782161": {
+      "manifests": {
+        "public": {
+          "gid": "7397011835766148925",
+          "size": "9773613667",
+          "download": "9395154560"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20617591",
+        "timeupdated": "1761892682"
+      }
+    }
   }
 }
