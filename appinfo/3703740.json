@@ -1,6 +1,5 @@
 {
   "appid": "3703740",
-  "public_only": "1",
   "common": {
     "name": "FallingBattle",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "ac77b2f2f002e55b0795de68543406a864384ae0",
     "clienticon": "b622cac9f204657fd5e0a5e98c57e15fd928c0cb",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -131,9 +130,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761926526",
     "community_hub_visible": "1",
     "gameid": "3703740",
-    "exfgls": "8",
     "store_tags": {
       "0": "3859",
       "1": "7108",
@@ -156,5 +155,69 @@
       "18": "1710",
       "19": "3843"
     }
+  },
+  "extended": {
+    "developer": "syhdaniel",
+    "publisher": "OurOwnWayGames"
+  },
+  "config": {
+    "installdir": "FallingBattle",
+    "launch": {
+      "0": {
+        "executable": "FallingBattle.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "FallingBattle.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3703741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4764718161257960710",
+          "size": "376483496",
+          "download": "154675056"
+        }
+      }
+    },
+    "3703742": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4313179302516905417",
+          "size": "400667893",
+          "download": "163840144"
+        }
+      }
+    },
+    "baselanguages": "",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20615239",
+        "timeupdated": "1761876377"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "sync_while_suspended": "1",
+    "appidredirect": "3703740"
   }
 }
