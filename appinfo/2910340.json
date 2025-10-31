@@ -1,6 +1,5 @@
 {
   "appid": "2910340",
-  "public_only": "1",
   "common": {
     "name": "Enough with the Witch",
     "type": "Game",
@@ -18,7 +17,7 @@
     "clienttga": "5aabfa2e6fdc9d4682b54e4f78bd46b2d3b49efd",
     "clienticon": "6e189a410320a2333aa0754427becd16407f6ef0",
     "icon": "9bdb3ce5a498834b330de9517883d0a2d1164d94",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "spanish": "1",
@@ -125,9 +124,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761940800",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "2910340",
-    "exfgls": "8",
     "store_tags": {
       "0": "1084988",
       "1": "5765",
@@ -149,6 +149,56 @@
       "17": "7481",
       "18": "32322",
       "19": "7250"
+    }
+  },
+  "extended": {
+    "developer": "Birdy Games",
+    "publisher": "Birdy Games",
+    "homepage": "https://www.birdygamesargentina.com"
+  },
+  "config": {
+    "installdir": "Enough with the Witch",
+    "launch": {
+      "0": {
+        "executable": "Enough with the Witch.exe",
+        "arguments": "-fullscreen",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2910341": {
+      "manifests": {
+        "public": {
+          "gid": "2853374782860274301",
+          "size": "2309506838",
+          "download": "851404096"
+        }
+      }
+    },
+    "baselanguages": "english,spanish,latam",
+    "branches": {
+      "public": {
+        "buildid": "20616775",
+        "timeupdated": "1761886618"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "5",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "Enough with the Witch",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
