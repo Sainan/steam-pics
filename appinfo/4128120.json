@@ -1,4 +1,56 @@
 {
   "appid": "4128120",
-  "public_only": "1"
+  "common": {
+    "name": "Cardboard Cowboy Playtest",
+    "type": "Beta",
+    "parent": "3856780",
+    "icon": "a857bde001fcb998ee921a6467fc37d317937143",
+    "clienticon": "4951c983f0a8e632847a662e08804e02c05fe10c",
+    "oslist": "windows",
+    "osarch": "64",
+    "osextended": "",
+    "releasestate": "released",
+    "community_hub_visible": "1",
+    "gameid": "4128120",
+    "exfgls": "6"
+  },
+  "config": {
+    "installdir": "Cardboard Cowboy Playtest",
+    "launch": {
+      "0": {
+        "executable": "CardboardCowboys.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4128121": {
+      "manifests": {
+        "public": {
+          "gid": "4721912536771008430",
+          "size": "628519238",
+          "download": "463053840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20542492",
+        "timeupdated": "1761412844"
+      }
+    }
+  }
 }
