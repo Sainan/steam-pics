@@ -1,10 +1,9 @@
 {
   "appid": "3782480",
-  "public_only": "1",
   "common": {
     "name": "Balaball",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -127,9 +126,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761897611",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3782480",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "32322",
@@ -150,6 +150,55 @@
       "16": "4325",
       "17": "4004",
       "18": "3968"
+    }
+  },
+  "extended": {
+    "developer": "ZHR",
+    "publisher": "ZHR"
+  },
+  "config": {
+    "installdir": "Balaball",
+    "launch": {
+      "0": {
+        "executable": "BalaBall.exe"
+      }
+    }
+  },
+  "depots": {
+    "3782481": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "557222886287322230",
+          "size": "198353824",
+          "download": "87170688"
+        }
+      }
+    },
+    "baselanguages": "english,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20427203",
+        "timeupdated": "1760658988"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "sync_while_suspended": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "ZHR/BalaBall",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
