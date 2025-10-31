@@ -1,10 +1,9 @@
 {
   "appid": "3180290",
-  "public_only": "1",
   "common": {
     "name": "Nekomancer of Nowhere",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "2e5a41913b30a07dcf360ce1a3a4d0469ed5def9",
     "clienticon": "c5548548bfc93c58953d98adadd6315a77b66864",
     "clienttga": "189c989b00d6f0cdf4814a6c54cab1887c4ede45",
@@ -100,9 +99,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761926444",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3180290",
-    "exfgls": "8",
     "store_tags": {
       "0": "4191",
       "1": "19",
@@ -124,6 +124,62 @@
       "17": "4182",
       "18": "3993",
       "19": "7948"
+    }
+  },
+  "extended": {
+    "developer": "Standing Cat",
+    "publisher": "Standing Cat"
+  },
+  "config": {
+    "installdir": "Nekomancer of Nowhere",
+    "launch": {
+      "0": {
+        "executable": "Nekomancer of Nowhere.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "1.0 Build Mac\\Nekomancer 1.0 Mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3180291": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8291798252457624946",
+          "size": "1412561948",
+          "download": "401104512"
+        }
+      }
+    },
+    "3180292": {
+      "config": {
+        "oslist": "macos",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4071804688953939550",
+          "size": "1438545871",
+          "download": "410756672"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20614756",
+        "timeupdated": "1761873051"
+      }
     }
   }
 }
