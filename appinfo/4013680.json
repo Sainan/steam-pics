@@ -1,6 +1,5 @@
 {
   "appid": "4013680",
-  "public_only": "1",
   "common": {
     "name": "The Cursed Grave",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "controller_support": "full",
@@ -112,9 +111,10 @@
         "full_audio": "true"
       }
     },
+    "steam_release_date": "1761914611",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4013680",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1687",
@@ -136,6 +136,80 @@
       "17": "16094",
       "18": "4182",
       "19": "3987"
+    }
+  },
+  "extended": {
+    "developer": "GulfPearl",
+    "publisher": "GulfPearl"
+  },
+  "config": {
+    "installdir": "The Cursed Grave",
+    "launch": {
+      "0": {
+        "executable": "TheCursedGrave/Windows/TheCursedGrave.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4013681": {
+      "manifests": {
+        "public": {
+          "gid": "7795362577269745138",
+          "size": "7143806443",
+          "download": "6668305680"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20446850",
+        "timeupdated": "1760782927"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "14",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "TheCursedGrave/Saved/SaveGames",
+        "pattern": "*.sav"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "TheCursedGrave/Saved/SaveGames/MainGame_Sav_1",
+        "pattern": "*.sav"
+      },
+      "2": {
+        "root": "WinAppDataLocal",
+        "path": "TheCursedGrave/Saved/SaveGames/MainGame_Sav_2",
+        "pattern": "*.sav"
+      },
+      "3": {
+        "root": "WinAppDataLocal",
+        "path": "TheCursedGrave/Saved/SaveGames/MainGame_Sav_3",
+        "pattern": "*.sav"
+      }
     }
   }
 }
