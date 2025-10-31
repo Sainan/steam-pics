@@ -1,12 +1,11 @@
 {
   "appid": "3995650",
-  "public_only": "1",
   "common": {
     "name": "Milk Run",
     "type": "Game",
     "icon": "4d592aebc1a485b6592963cd9f9d0a228fbd4cc8",
     "clienticon": "4d592aebc1a485b6592963cd9f9d0a228fbd4cc8",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -160,9 +159,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761924668",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3995650",
-    "exfgls": "8",
     "store_tags": {
       "0": "3877",
       "1": "19",
@@ -184,6 +184,55 @@
       "17": "7481",
       "18": "4182",
       "19": "5923"
+    }
+  },
+  "extended": {
+    "developer": "Ah wu",
+    "publisher": "Ah wu"
+  },
+  "config": {
+    "installdir": "Milk Run",
+    "launch": {
+      "0": {
+        "executable": "Windows\\MilkRun.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3995651": {
+      "manifests": {
+        "public": {
+          "gid": "5216116729994360980",
+          "size": "1712937369",
+          "download": "1340910896"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20567426",
+        "timeupdated": "1761617244"
+      }
     }
   }
 }
