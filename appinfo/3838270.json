@@ -1,6 +1,5 @@
 {
   "appid": "3838270",
-  "public_only": "1",
   "common": {
     "name": "Awurda First Wave",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "controllertagwizard": "1",
     "small_capsule": {
@@ -139,9 +138,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761926438",
     "community_hub_visible": "1",
     "gameid": "3838270",
-    "exfgls": "8",
     "store_tags": {
       "0": "29482",
       "1": "1625",
@@ -156,6 +155,53 @@
       "10": "3993",
       "11": "4182",
       "12": "492"
+    }
+  },
+  "extended": {
+    "developer": "Abdulkerim Yarçın",
+    "publisher": "Abdulkerim Yarçın"
+  },
+  "config": {
+    "installdir": "Awurda First Wave",
+    "launch": {
+      "0": {
+        "executable": "AwurdaFirstWave.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3838271": {
+      "manifests": {
+        "public": {
+          "gid": "8753413412500835308",
+          "size": "1740419420",
+          "download": "1583345344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20244392",
+        "timeupdated": "1759518300"
+      }
     }
   }
 }
