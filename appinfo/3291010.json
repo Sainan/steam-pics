@@ -1,10 +1,9 @@
 {
   "appid": "3291010",
-  "public_only": "1",
   "common": {
     "name": "PAW Patrol™ Rescue Wheels™: Championship",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -139,7 +138,7 @@
         }
       }
     },
-    "store_asset_mtime": "1756300506",
+    "store_asset_mtime": "1760437918",
     "associations": {
       "0": {
         "type": "developer",
@@ -170,6 +169,11 @@
       "category_75": "1",
       "category_78": "1",
       "category_23": "1",
+      "category_37": "1",
+      "category_24": "1",
+      "category_44": "1",
+      "category_1": "1",
+      "category_49": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -252,9 +256,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761901005",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3291010",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -274,6 +279,71 @@
       "15": "7368",
       "16": "3859",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "remoteplaytogethertestingbranches": "default,dailytest,external_review,internal_review,marketing,milestone",
+    "developer": "3DClouds",
+    "publisher": "Outright Games Ltd.",
+    "homepage": "https://outrightgames.com/us/games/paw-patrol-rescue-wheels-championship/"
+  },
+  "config": {
+    "installdir": "Project Paupa",
+    "launch": {
+      "0": {
+        "executable": "PPR.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "5",
+    "steamconfigurator3rdpartynative": "65533"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3291011": {
+      "manifests": {
+        "public": {
+          "gid": "1761257399148513385",
+          "size": "4891613725",
+          "download": "4618670880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20038109",
+        "timeupdated": "1759137924"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "50000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "PPR/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1"
+      }
     }
   }
 }
