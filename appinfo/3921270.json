@@ -1,13 +1,12 @@
 {
   "appid": "3921270",
-  "public_only": "1",
   "common": {
     "name": "Blood & Money",
     "type": "Game",
     "icon": "0c87e07236640036301ccb0861cf98bef1f47bb6",
     "clienttga": "32512e109569192d17bfb56e2811dc0d0964fa55",
     "clienticon": "1a7ad378cd1fe474055ce347e442e56bdb47de68",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,linux",
     "osarch": "",
     "osextended": "",
@@ -117,9 +116,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761920795",
     "community_hub_visible": "1",
     "gameid": "3921270",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
@@ -145,6 +144,69 @@
       "17": "5228",
       "18": "4345",
       "19": "7481"
+    }
+  },
+  "extended": {
+    "developer": "Paradise Multimedia",
+    "publisher": "Paradise Multimedia",
+    "homepage": "https://paradise-multimedia.co.uk/blood-and-money"
+  },
+  "config": {
+    "installdir": "Blood & Money",
+    "launch": {
+      "0": {
+        "executable": "Blood & Money.exe",
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "english": "Main game EXE"
+        },
+        "description": "Main game EXE"
+      },
+      "1": {
+        "executable": "Blood_Money-linux.AppImage",
+        "arguments": " --in-process-gpu --disable-direct-composition",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3921271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1121085808878534432",
+          "size": "346452348",
+          "download": "187295888"
+        }
+      }
+    },
+    "3921272": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8719245739437358054",
+          "size": "193124167",
+          "download": "192835104"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20615137",
+        "timeupdated": "1761875353"
+      }
     }
   }
 }
