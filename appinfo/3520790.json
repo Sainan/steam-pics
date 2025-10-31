@@ -1,6 +1,5 @@
 {
   "appid": "3520790",
-  "public_only": "1",
   "common": {
     "name": "Timothy 3",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "df56435fa0752610360fb7dc11b5253a7716038c",
     "clienttga": "68e6380476992aabd049702e167e13a19b217410",
     "icon": "bffd4fabc6487f5f36c1131f9057a874432950cb",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "1a402c77029d8d69cfbfe72d5027182e0e26656e/capsule_231x87.jpg"
@@ -105,9 +104,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761923090",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3520790",
-    "exfgls": "8",
     "store_tags": {
       "0": "4182",
       "1": "1719",
@@ -123,6 +123,54 @@
       "11": "5395",
       "12": "1625",
       "13": "15277"
+    }
+  },
+  "extended": {
+    "developer": "Harry Hedman",
+    "publisher": "Hail Harry"
+  },
+  "config": {
+    "installdir": "Timothy3",
+    "launch": {
+      "0": {
+        "executable": "Timothy3.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3520791": {
+      "manifests": {
+        "public": {
+          "gid": "755845012587506932",
+          "size": "993515409",
+          "download": "614606464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20178387",
+        "timeupdated": "1759175029"
+      }
     }
   }
 }
