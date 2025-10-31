@@ -1,6 +1,5 @@
 {
   "appid": "3215560",
-  "public_only": "1",
   "common": {
     "name": "Irreversible",
     "type": "Game",
@@ -12,7 +11,7 @@
     "osextended": "",
     "openvrsupport": "1",
     "openxrsupport": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "5"
     },
@@ -110,9 +109,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761932605",
     "community_hub_visible": "1",
     "gameid": "3215560",
-    "exfgls": "8",
     "onlyvrsupport": "1",
     "content_descriptors_including_dlc": {
       "0": "5"
@@ -139,5 +138,63 @@
       "18": "5716",
       "19": "6691"
     }
+  },
+  "extended": {
+    "vrheadsetstreaming": "0",
+    "developer": "Delusional Reality Studio",
+    "publisher": "Delusional Reality Studio"
+  },
+  "config": {
+    "installdir": "Irreversible",
+    "launch": {
+      "0": {
+        "executable": "Irreversible.exe",
+        "type": "vr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Irreversible.exe",
+        "type": "openxr",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3215561": {
+      "manifests": {
+        "public": {
+          "gid": "4999742735605040001",
+          "size": "13003802975",
+          "download": "12781065344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20614556",
+        "timeupdated": "1761873576"
+      }
+    },
+    "privatebranches": "1"
   }
 }
