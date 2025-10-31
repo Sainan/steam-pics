@@ -1,10 +1,9 @@
 {
   "appid": "3204420",
-  "public_only": "1",
   "common": {
     "name": "Alteratio",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "icon": "e3ef0f19516e65465c72e4e38bb9f0232f99d266",
     "clienttga": "a32ee9205d440831657c6e583948ed286d09da21",
     "linuxclienticon": "86bba7c50aa7b0749693e843184c4dde3b5e3474",
@@ -117,9 +116,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761149641",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3204420",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "1667",
@@ -136,5 +136,41 @@
       "12": "4182",
       "13": "4106"
     }
+  },
+  "extended": {
+    "developer": "Tersalos Studios",
+    "publisher": "Tersalos Studios"
+  },
+  "config": {
+    "installdir": "Alteratio",
+    "launch": {
+      "0": {
+        "executable": "Alteratio.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3204421": {
+      "manifests": {
+        "public": {
+          "gid": "5150809245335825898",
+          "size": "4731514462",
+          "download": "1757275904"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20619295",
+        "timeupdated": "1761902901"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "3000000000",
+    "maxnumfiles": "5000"
   }
 }
