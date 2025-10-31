@@ -1,13 +1,12 @@
 {
   "appid": "3657180",
-  "public_only": "1",
   "common": {
     "name": "Skigill",
     "type": "Game",
     "icon": "66df324840bf97671d26c07386826cd530bccb6f",
     "clienttga": "a7844b56a48b585309bab7ea2f19f189ce9c0ee8",
     "clienticon": "f2b6fb359f8279558ed2aafad65a1f4c2e3b2793",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
@@ -423,9 +422,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761920668",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3657180",
-    "exfgls": "8",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -446,6 +446,104 @@
       "16": "4182",
       "17": "493",
       "18": "492"
+    }
+  },
+  "extended": {
+    "developer": "Achromi",
+    "publisher": "Achromi"
+  },
+  "config": {
+    "installdir": "Skigill",
+    "launch": {
+      "0": {
+        "executable": "Skigill.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "skigill.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "skigill.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3657181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8889277241145954857",
+          "size": "142162110",
+          "download": "57813328"
+        }
+      }
+    },
+    "3657182": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7009395521536683545",
+          "size": "139470066",
+          "download": "55976096"
+        }
+      }
+    },
+    "3657183": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8530216557859356024",
+          "size": "159193899",
+          "download": "66157152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20589363",
+        "timeupdated": "1761739842"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Achromi/Skigill",
+        "pattern": "save.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgConfigHome",
+        "addpath": "/unity3d/"
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "addpath": ""
+      }
     }
   }
 }
