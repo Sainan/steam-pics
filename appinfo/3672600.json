@@ -1,10 +1,9 @@
 {
   "appid": "3672600",
-  "public_only": "1",
   "common": {
     "name": "LabyrAInth",
     "type": "Game",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
@@ -185,9 +184,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761937195",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3672600",
-    "exfgls": "8",
     "store_tags": {
       "0": "1023537",
       "1": "5154",
@@ -209,6 +209,88 @@
       "17": "1774",
       "18": "4342",
       "19": "7926"
+    }
+  },
+  "extended": {
+    "vrheadsetstreaming": "1",
+    "developer": "G.U.F.O. Games",
+    "publisher": "G.U.F.O. Games",
+    "homepage": "https://gufo-games.github.io/LandingPage/"
+  },
+  "config": {
+    "installdir": "LabyrAInth",
+    "launch": {
+      "1": {
+        "executable": "LabyrAInth.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "LabyrAInth"
+        },
+        "description": "LabyrAInth"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3672601": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8974060484425210991",
+          "size": "2946728330",
+          "download": "2765603776"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,turkish,brazilian,greek,latam",
+    "branches": {
+      "public": {
+        "buildid": "20626431",
+        "timeupdated": "1761936563"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "1000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "LabyrAInth/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      },
+      "1": {
+        "root": "WinAppDataLocal",
+        "path": "LabyrAInth/Saved/Config",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1"
+      }
     }
   }
 }
