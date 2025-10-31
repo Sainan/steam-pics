@@ -1,6 +1,5 @@
 {
   "appid": "4083290",
-  "public_only": "1",
   "common": {
     "name": "Ghost Shooter Demo",
     "type": "Demo",
@@ -10,14 +9,15 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f2b26532f7abe6fa8a2ecff397da6c54553ba3c8/capsule_231x87.jpg"
     },
     "header_image": {
       "english": "91c8c77ec64f188bf303744a5f0e23ab78bfdc39/header.jpg"
     },
-    "store_asset_mtime": "1759814611",
+    "store_screenshot": "da0fb9433da904701ce74bf1187cc443df884810/ss_da0fb9433da904701ce74bf1187cc443df884810.jpg",
+    "store_asset_mtime": "1761106006",
     "associations": {
       "0": {
         "type": "developer",
@@ -39,7 +39,68 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761092379",
     "gameid": "4083290",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Elefseria",
+    "publisher": "ElefseriaGames",
+    "homepage": "https://www.elefseria.games/ghostshooter/"
+  },
+  "config": {
+    "installdir": "GhostShooterDEMO",
+    "launch": {
+      "0": {
+        "executable": "GhostShooter(DEMO)/GhostShooter!.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        },
+        "description_loc": {
+          "japanese": "起動"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4083291": {
+      "manifests": {
+        "public": {
+          "gid": "8896526399649041078",
+          "size": "920725639",
+          "download": "389305840"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20614561",
+        "timeupdated": "1761872067"
+      }
+    }
   }
 }
