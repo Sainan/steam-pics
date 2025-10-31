@@ -1,6 +1,5 @@
 {
   "appid": "4009430",
-  "public_only": "1",
   "common": {
     "name": "microJAM",
     "type": "Game",
@@ -9,7 +8,11 @@
     "osextended": "",
     "clienticon": "8cab83c7b1f4cc8cacb43e06d1d597a9698e1bb1",
     "icon": "8cab83c7b1f4cc8cacb43e06d1d597a9698e1bb1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "languages": {
+      "english": "1",
+      "latam": "1"
+    },
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "23a9de0db48bbad73da085ad466f821ca922ce3a/capsule_231x87.jpg"
@@ -110,9 +113,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761946108",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4009430",
-    "exfgls": "8",
     "store_tags": {
       "0": "8093",
       "1": "4004",
@@ -134,6 +138,39 @@
       "17": "4166",
       "18": "19",
       "19": "12057"
+    }
+  },
+  "extended": {
+    "developer": "FungalVoiid",
+    "publisher": "Cremini"
+  },
+  "config": {
+    "installdir": "microJAM",
+    "launch": {
+      "0": {
+        "executable": "Microjam.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4009431": {
+      "manifests": {
+        "public": {
+          "gid": "2835568605978551147",
+          "size": "159564271",
+          "download": "134987520"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20313835",
+        "timeupdated": "1759980824"
+      }
     }
   }
 }
