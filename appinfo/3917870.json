@@ -1,4 +1,52 @@
 {
   "appid": "3917870",
-  "public_only": "1"
+  "common": {
+    "name": "HYPERBEAT Mod Creator",
+    "type": "Tool",
+    "parent": "2263360",
+    "clienticon": "6e040560009bf277cfc1d1f7e2d2916952639d45",
+    "icon": "6e040560009bf277cfc1d1f7e2d2916952639d45",
+    "releasestate": "released",
+    "gameid": "3917870"
+  },
+  "config": {
+    "installdir": "HYPERBEAT Mod Creator",
+    "launch": {
+      "0": {
+        "executable": "HBMM.exe",
+        "type": "editor"
+      }
+    }
+  },
+  "depots": {
+    "3917871": {
+      "manifests": {
+        "public": {
+          "gid": "592858909033201459",
+          "size": "100666176",
+          "download": "31745120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20617500",
+        "timeupdated": "1761894925"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "20000000",
+    "maxnumfiles": "1024",
+    "appidredirect": "2263360",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "HYPERBEAT_Data/Saves",
+        "pattern": "*.sav",
+        "recursive": "1"
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }
