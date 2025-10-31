@@ -1,6 +1,5 @@
 {
   "appid": "4069950",
-  "public_only": "1",
   "common": {
     "name": "Missing Pac: Pandemic Adventure Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -54,7 +53,58 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761934637",
     "gameid": "4069950",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Eden Sagasta",
+    "publisher": "ALL INS ",
+    "gamemanualurl": "https://store.steampowered.com/manual/4069950/"
+  },
+  "config": {
+    "installdir": "MPDEMO.exe",
+    "launch": {
+      "0": {
+        "executable": "MPDEMO.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4069951": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4528267391672924542",
+          "size": "6058816782",
+          "download": "5549933808"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20164423",
+        "timeupdated": "1759092668"
+      }
+    }
   }
 }
