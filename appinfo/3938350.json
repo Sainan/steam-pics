@@ -1,6 +1,5 @@
 {
   "appid": "3938350",
-  "public_only": "1",
   "common": {
     "name": "棋界新纪元 三维立体围棋.象棋.国际象棋.五子棋.黑白棋.跳棋.军棋",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "21a8397cebcd72cae73f60865c6fb21e2cd3adf3",
     "clienttga": "c7305409d74e15ab3daf9f2d790dcc53a5ab6450",
     "clienticon": "43aa08a562fe5359ddafd6d2ada38709bb41f383",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "8875623356e6422703b060fb992815422d5c6d05/capsule_231x87.jpg"
@@ -134,6 +133,50 @@
       "12": "3859",
       "13": "3841",
       "14": "7368"
+    }
+  },
+  "extended": {
+    "developer": "超维创客 hyperinventor",
+    "publisher": "超维创客 hyperinventor",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "hyperinventor",
+    "launch": {
+      "0": {
+        "executable": "hyperinventor\\hyperinventor.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "hyperinventor",
+          "schinese": "超维创客"
+        },
+        "description": "hyperinventor"
+      }
+    }
+  },
+  "depots": {
+    "3938351": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2862686321352477540",
+          "size": "170729103",
+          "download": "55267936"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "20338836",
+        "timeupdated": "1760146896"
+      }
     }
   }
 }
