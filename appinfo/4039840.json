@@ -1,6 +1,5 @@
 {
   "appid": "4039840",
-  "public_only": "1",
   "common": {
     "name": "牛马桌面",
     "type": "Game",
@@ -16,7 +15,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "afb4b23962a8194212ea805814ccdd2ff43244f8/capsule_231x87_schinese.jpg",
@@ -99,7 +98,7 @@
       },
       "1": {
         "type": "publisher",
-        "name": "gamepoetics"
+        "name": "Ephra"
       }
     },
     "primary_genre": "4",
@@ -130,9 +129,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761906823",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4039840",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "87918",
@@ -143,6 +143,50 @@
       "6": "1662",
       "7": "8945",
       "8": "4182"
+    }
+  },
+  "extended": {
+    "developer": "guanghangf4",
+    "publisher": "Ephra"
+  },
+  "config": {
+    "installdir": "Workhorse Desktop",
+    "launch": {
+      "0": {
+        "executable": "Workhorse Desktop.exe"
+      }
+    }
+  },
+  "depots": {
+    "4039841": {
+      "manifests": {
+        "public": {
+          "gid": "414041658397843367",
+          "size": "263818301",
+          "download": "116861168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20620039",
+        "timeupdated": "1761906620"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "quota": "10000000000",
+    "maxnumfiles": "10000",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "GuanghangF4/Workhorse Desktop",
+        "pattern": "*.gd",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
     }
   }
 }
