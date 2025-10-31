@@ -1,6 +1,5 @@
 {
   "appid": "3702730",
-  "public_only": "1",
   "common": {
     "name": "Axo Runner",
     "type": "Game",
@@ -10,7 +9,7 @@
     "clienticon": "97f96345103e34255166b3470f02256e21be8786",
     "icon": "97f96345103e34255166b3470f02256e21be8786",
     "linuxclienticon": "97f96345103e34255166b3470f02256e21be8786",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "partial",
     "small_capsule": {
@@ -127,7 +126,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3702730",
-    "exfgls": "8",
     "store_tags": {
       "0": "699",
       "1": "8666",
@@ -143,6 +141,82 @@
       "11": "3859",
       "12": "7368",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Ai Animation Studios",
+    "publisher": "Ai Animation Studios"
+  },
+  "config": {
+    "installdir": "Axo Runner",
+    "launch": {
+      "0": {
+        "executable": "Axo Runner.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Axo Runner.x86_64",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    },
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    }
+  },
+  "depots": {
+    "3702731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3782018208279196993",
+          "size": "5423214086",
+          "download": "983503824"
+        }
+      }
+    },
+    "3702732": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1213747495626587465",
+          "size": "5463421020",
+          "download": "992595216"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20391414",
+        "timeupdated": "1760474145"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Save",
+        "pattern": "save.bin"
+      }
     }
   }
 }
