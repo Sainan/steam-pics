@@ -1,6 +1,5 @@
 {
   "appid": "4080960",
-  "public_only": "1",
   "common": {
     "name": "My Wet Leto Comic : Fan Anthem of Deduction Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -130,7 +129,56 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761876025",
     "gameid": "4080960",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Fusen Studio",
+    "publisher": "Fusen Studio"
+  },
+  "config": {
+    "installdir": "我的勒托物语：侦探的应援歌 Demo",
+    "launch": {
+      "0": {
+        "executable": "MWLC_Fan Anthem of Deduction.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4080961": {
+      "manifests": {
+        "public": {
+          "gid": "3484937007158294263",
+          "size": "776075055",
+          "download": "524378928"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "20553336",
+        "timeupdated": "1761537855"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "500",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "content\\save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    }
   }
 }
