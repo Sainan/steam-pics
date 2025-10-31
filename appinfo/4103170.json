@@ -1,6 +1,5 @@
 {
   "appid": "4103170",
-  "public_only": "1",
   "common": {
     "name": "My Giant Sexy Sensei Bullies Me 8",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -216,9 +215,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761937993",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4103170",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -238,6 +238,65 @@
       "9": "24904",
       "10": "3964",
       "11": "5611"
+    }
+  },
+  "extended": {
+    "developer": "Bully Revenge Studios",
+    "publisher": "Bully Revenge Studios"
+  },
+  "config": {
+    "installdir": "My Giant Sexy Sensei Bullies Me 8",
+    "launch": {
+      "0": {
+        "executable": "MyGiantSexySenseiBulliesMe8.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "1": {
+        "executable": "MyGiantSexySenseiBulliesMe8.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      },
+      "2": {
+        "executable": "MyGiantSexySenseiBulliesMe8.sh",
+        "type": "default",
+        "config": {
+          "oslist": "linux"
+        },
+        "description_loc": {
+          "english": "Launch"
+        },
+        "description": "Launch"
+      }
+    }
+  },
+  "depots": {
+    "4103171": {
+      "manifests": {
+        "public": {
+          "gid": "173496275466479106",
+          "size": "321297937",
+          "download": "144175232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20423828",
+        "timeupdated": "1760640307"
+      }
     }
   }
 }
