@@ -1,6 +1,5 @@
 {
   "appid": "3876210",
-  "public_only": "1",
   "common": {
     "name": "Hermit Demo",
     "type": "Demo",
@@ -11,7 +10,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "eulas": {
       "0": {
         "id": "3876210_eula_1",
@@ -122,11 +121,60 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761958310",
     "gameid": "3876210",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "2",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "Krabworks Game Studios Inc.",
+    "publisher": "Krabworks Game Studios Inc.",
+    "homepage": "https://www.krab.works"
+  },
+  "config": {
+    "installdir": "Hermit Demo",
+    "launch": {
+      "0": {
+        "executable": "GameFile.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3876211": {
+      "manifests": {
+        "public": {
+          "gid": "1492877163997341729",
+          "size": "6272719367",
+          "download": "6064196000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20621165",
+        "timeupdated": "1761912081"
+      }
     }
   }
 }
