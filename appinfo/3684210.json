@@ -1,0 +1,142 @@
+{
+  "appid": "3684210",
+  "common": {
+    "name": "魔法使いの従者 Demo",
+    "type": "Demo",
+    "parent": "3134570",
+    "releasestate": "released",
+    "name_localized": {
+      "english": "Sorcerer's Servant Domo",
+      "japanese": "魔法使いの従者 Demo"
+    },
+    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "icon": "b055e048e4c51ead0759f48b1aa33c55a6000d75",
+    "clienttga": "fe07eb346abbebe3c36139db1376c18a68b2a1a3",
+    "clienticon": "9f8464791b74e36b64012cbff8e512c65dc5db13",
+    "clienticns": "7634e0095f277546b0c05e6d29d11919069fa178",
+    "aicontenttype": "1",
+    "small_capsule": {
+      "english": "2cc88c45f68ab42e4af5c0855b7019548cbc82ad/capsule_231x87.jpg",
+      "japanese": "1a98d81c30bb914960965faa27f11fab58b319d9/capsule_231x87_japanese.jpg"
+    },
+    "header_image": {
+      "english": "347acd4b5886124cb0be79aebda8175bbfa6e520/header.jpg",
+      "japanese": "7dc812165a6c646b60a53f99807de38d7f7798a4/header_japanese.jpg"
+    },
+    "store_asset_mtime": "1761971423",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "2202GAMES,LLC"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "2202GAMES,LLC"
+      }
+    },
+    "primary_genre": "0",
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true",
+        "subtitles": "true"
+      },
+      "tchinese": {
+        "supported": "true",
+        "subtitles": "true"
+      }
+    },
+    "steam_release_date": "1746188400",
+    "gameid": "3684210",
+    "exfgls": "6"
+  },
+  "extended": {
+    "developer": "2202GAMES,LLC",
+    "publisher": "2202GAMES,LLC"
+  },
+  "config": {
+    "installdir": "SorcerersServant Demo",
+    "launch": {
+      "0": {
+        "executable": "SorcerersServant.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "SorcerersServant.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3684211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6662678640918301062",
+          "size": "830894110",
+          "download": "268608544"
+        },
+        "test": {
+          "gid": "6662678640918301062",
+          "size": "830894110",
+          "download": "268608544"
+        }
+      }
+    },
+    "3684212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1281849384324283067",
+          "size": "908765056",
+          "download": "289044912"
+        },
+        "test": {
+          "gid": "1281849384324283067",
+          "size": "908765056",
+          "download": "289044912"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "18458463",
+        "timeupdated": "1747225780"
+      },
+      "test": {
+        "buildid": "18458463",
+        "description": "test用",
+        "timeupdated": "1747218369"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "100",
+    "appidredirect": "3134570",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "SavesDir",
+        "pattern": "*.dat"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}
