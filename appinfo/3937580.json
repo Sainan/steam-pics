@@ -1,6 +1,5 @@
 {
   "appid": "3937580",
-  "public_only": "1",
   "common": {
     "name": "Manipulation",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "fd21e33336457a923ea1cec831f0ed3848e3749a",
     "icon": "fd21e33336457a923ea1cec831f0ed3848e3749a",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "6d775bae4d84cb8342a6fe0a69b6026e41e95060/capsule_231x87.jpg"
@@ -102,7 +101,6 @@
     },
     "community_hub_visible": "1",
     "gameid": "3937580",
-    "exfgls": "8",
     "store_tags": {
       "0": "4474",
       "1": "122",
@@ -124,6 +122,125 @@
       "17": "5716",
       "18": "5372",
       "19": "5537"
+    }
+  },
+  "extended": {
+    "developer": "Creative Guild LLC",
+    "publisher": "Creative Guild LLC"
+  },
+  "config": {
+    "installdir": "Manipulation",
+    "launch": {
+      "2": {
+        "executable": "Manipulation2.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "3": {
+        "executable": "Manipulation.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "4": {
+        "executable": "Manipulation2.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3937581": {
+      "config": {
+        "language": "english",
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6075399679936702284",
+          "size": "206553072",
+          "download": "113093728"
+        }
+      }
+    },
+    "3937582": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "32",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4336552337161047586",
+          "size": "220382704",
+          "download": "113640480"
+        }
+      }
+    },
+    "3937583": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4680208778351049973",
+          "size": "194621440",
+          "download": "103879024"
+        }
+      }
+    },
+    "3937584": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "32",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8361035717494788322",
+          "size": "184783668",
+          "download": "107382608"
+        }
+      }
+    },
+    "3937585": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8912885594475780408",
+          "size": "181370248",
+          "download": "107231296"
+        }
+      }
+    },
+    "3937586": {
+      "config": {
+        "oslist": "macos",
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "gid": "7067265815048306106",
+          "size": "287788817",
+          "download": "135099952"
+        }
+      }
+    },
+    "hasdepotsindlc": "0",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20635825",
+        "timeupdated": "1762031837"
+      }
     }
   }
 }
