@@ -11,7 +11,7 @@
     "clienttga": "dd09938c1ab82c3306e38f59e22ce901a8576fcb",
     "oslist": "windows,macos,linux",
     "osarch": "",
-    "osextended": "macos64",
+    "osextended": "macos64,macosapplesilicon",
     "market_presence": "0",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -133,14 +133,15 @@
     "installdir": "ScreepsArena",
     "launch": {
       "0": {
-        "executable": "arena.exe",
+        "executable": "screeps_arena.exe",
         "type": "default",
         "config": {
           "oslist": "windows"
         }
       },
       "1": {
-        "executable": "arena",
+        "executable": "screeps_arena",
+        "arguments": "--no-sandbox",
         "type": "default",
         "config": {
           "oslist": "linux",
@@ -148,7 +149,7 @@
         }
       },
       "2": {
-        "executable": "arena.app",
+        "executable": "screeps_arena.app",
         "type": "default",
         "config": {
           "oslist": "macos"
