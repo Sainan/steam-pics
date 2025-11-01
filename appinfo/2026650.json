@@ -1,6 +1,5 @@
 {
   "appid": "2026650",
-  "public_only": "1",
   "common": {
     "name": "The Exorcists Demo",
     "type": "Demo",
@@ -17,7 +16,7 @@
       "schinese": "1",
       "tchinese": "1"
     },
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "tchinese": "驅魔師 - 試玩版",
       "schinese": "驱魔师 - 试玩版"
@@ -134,5 +133,53 @@
     },
     "gameid": "2026650",
     "exfgls": "6"
+  },
+  "extended": {
+    "demoofappid": "1160460",
+    "developer": "Kai",
+    "publisher": "WONDERFUL GAIN LTD.",
+    "gamemanualurl": "https://store.steampowered.com/manual/2026650/"
+  },
+  "config": {
+    "installdir": "The_Exorcists_Demo",
+    "launch": {
+      "0": {
+        "executable": "Exorcist.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    },
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "4"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2026651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4001318645173848109",
+          "size": "339333856",
+          "download": "295080368"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20319859",
+        "timeupdated": "1760011840"
+      }
+    }
   }
 }
