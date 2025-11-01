@@ -1,6 +1,5 @@
 {
   "appid": "4069040",
-  "public_only": "1",
   "common": {
     "name": "Survive the Rift Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -19,7 +18,7 @@
     "header_image": {
       "english": "cb9115cf82887b23892635e5a11c639bf0aa163b/header.jpg"
     },
-    "store_asset_mtime": "1759033568",
+    "store_asset_mtime": "1762022581",
     "associations": {
       "0": {
         "type": "developer",
@@ -46,7 +45,58 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1760976802",
     "gameid": "4069040",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Monster Helix Inc.",
+    "publisher": "Monster Helix Inc."
+  },
+  "config": {
+    "installdir": "Survive the Rift Demo",
+    "launch": {
+      "0": {
+        "executable": "Survive the Rift.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4069041": {
+      "manifests": {
+        "public": {
+          "gid": "7506026109356476152",
+          "size": "720324720",
+          "download": "228625600"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20465782",
+        "timeupdated": "1760973228"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "10",
+    "appidredirect": "863970",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Monster Helix Inc_\\Survive the Rift",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "copied_from_parent": "1"
+    }
   }
 }
