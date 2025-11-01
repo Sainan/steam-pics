@@ -1,6 +1,5 @@
 {
   "appid": "3858710",
-  "public_only": "1",
   "common": {
     "name": "Retro Rewind - Video Store Simulator Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "15819b1066ea9f47dcb2e3200874d879b0eead50/capsule_231x87.jpg"
@@ -93,7 +92,57 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761969520",
     "gameid": "3858710",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Blood Pact Studios",
+    "publisher": "Blood Pact Studios",
+    "homepage": "https://discord.com/invite/cgBqUUhCW3"
+  },
+  "config": {
+    "installdir": "RetroRewindDemo",
+    "launch": {
+      "0": {
+        "executable": "RetroRewind.exe",
+        "type": "default",
+        "description_loc": {
+          "english": "Play Retro Rewind"
+        },
+        "description": "Play Retro Rewind"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3858711": {
+      "manifests": {
+        "public": {
+          "gid": "1535264272423374117",
+          "size": "1390565463",
+          "download": "1223891312"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20630648",
+        "timeupdated": "1761969130"
+      }
+    }
   }
 }
