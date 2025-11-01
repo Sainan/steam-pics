@@ -1,6 +1,5 @@
 {
   "appid": "2572310",
-  "public_only": "1",
   "common": {
     "name": "Nick's Saturday Morning Games",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "48c2439ba5bcea810dbb71eb17ac542d90716766",
     "clienticon": "48c2439ba5bcea810dbb71eb17ac542d90716766",
     "clienttga": "c361f6d88a4a64c205573d8608f645f732a7deb7",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "c7812bb9ad4eb018228c6926277e3d6d54a918f1/capsule_231x87.jpg"
@@ -74,7 +73,7 @@
         }
       }
     },
-    "store_asset_mtime": "1761597000",
+    "store_asset_mtime": "1761682912",
     "associations": {
       "0": {
         "type": "developer",
@@ -105,9 +104,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761965395",
     "community_hub_visible": "1",
     "gameid": "2572310",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "255534",
@@ -129,6 +128,85 @@
       "17": "1773",
       "18": "7743",
       "19": "4305"
+    }
+  },
+  "extended": {
+    "developer": "Croaking Kero",
+    "publisher": "Croaking Kero"
+  },
+  "config": {
+    "installdir": "Nicks Saturday Morning Games",
+    "launch": {
+      "0": {
+        "executable": "Heli.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Heli",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      },
+      "2": {
+        "executable": "Heli.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "2572311": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3016521273653605091",
+          "size": "281504",
+          "download": "127152"
+        }
+      }
+    },
+    "2572312": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5205184862948881201",
+          "size": "982384",
+          "download": "302752"
+        }
+      }
+    },
+    "2572313": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9209967054876199942",
+          "size": "299047",
+          "download": "129216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20627482",
+        "timeupdated": "1761942885"
+      }
     }
   }
 }
