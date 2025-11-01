@@ -1,6 +1,5 @@
 {
   "appid": "3400050",
-  "public_only": "1",
   "common": {
     "name": "Medieval StartUp",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "e4c138d9b6b1134c4252be2e3b09abcb953f4472",
     "clienticon": "59a8b1a3bc65bd8028efe3cee755a0e0a1acd061",
     "clienttga": "d3e49eb75f73c78d03f0b5f57a1c46f04ef0f0c9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -136,9 +135,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1762005013",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3400050",
-    "exfgls": "8",
     "store_tags": {
       "0": "91114",
       "1": "599",
@@ -161,5 +161,46 @@
       "18": "493",
       "19": "4191"
     }
+  },
+  "extended": {
+    "developer": "Editions Aspic Games",
+    "publisher": "Editions Aspic Games"
+  },
+  "config": {
+    "installdir": "MedievalStartUp",
+    "launch": {
+      "0": {
+        "executable": "MedievalStartUp.exe"
+      }
+    }
+  },
+  "depots": {
+    "3400051": {
+      "manifests": {
+        "public": {
+          "gid": "6760415805594339849",
+          "size": "2904440407",
+          "download": "819733232"
+        },
+        "development": {
+          "gid": "6760415805594339849",
+          "size": "2904440407",
+          "download": "819733232"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "20628371",
+        "timeupdated": "1761948833"
+      },
+      "development": {
+        "buildid": "20628371",
+        "description": "Development branche",
+        "timeupdated": "1761948826"
+      }
+    },
+    "privatebranches": "1"
   }
 }
