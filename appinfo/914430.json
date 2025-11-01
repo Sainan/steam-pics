@@ -1,0 +1,182 @@
+{
+  "appid": "914430",
+  "common": {
+    "name": "Pro Office Calculator",
+    "type": "Game",
+    "oslist": "windows,macos,linux",
+    "osarch": "64",
+    "logo": "271fc0f1ef01e9bfd0a5ac2d0d92be9b8b5a9984",
+    "logo_small": "271fc0f1ef01e9bfd0a5ac2d0d92be9b8b5a9984_thumb",
+    "icon": "cd468efbd488e9a3827ecb80d1acf0c44b2f5448",
+    "clienticon": "16d7d8b3aaf5efaa506beeaafb714346530d926a",
+    "clienttga": "cba3089b56c9f449da5a45f821b6013ec03763e3",
+    "clienticns": "9a5357e5daee827041bf9d0072241b8901c524e1",
+    "linuxclienticon": "f021df44c778e5423d63e9f7cd2cfc7acab2bfc5",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1713571200",
+      "tested_build_id": "3445799",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "configuration": {
+        "supported_input": "gamepad",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "non_deck_display_glyphs": "1",
+        "small_text": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_voice_files": "0",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0"
+      }
+    },
+    "metacritic_name": "Pro Office Calculator",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "store_screenshot": "ss_bb97e37fcb4d68d32602498123f5233bc541102e.jpg",
+    "store_asset_mtime": "1544526166",
+    "associations": {
+      "0": {
+        "type": "developer",
+        "name": "Rob Jinman"
+      },
+      "1": {
+        "type": "publisher",
+        "name": "Rob Jinman"
+      }
+    },
+    "primary_genre": "23",
+    "genres": {
+      "0": "25",
+      "1": "23"
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "original_release_date": "1531983600",
+    "steam_release_date": "1536146885",
+    "community_hub_visible": "1",
+    "gameid": "914430",
+    "exfgls": "3",
+    "store_tags": {
+      "0": "21",
+      "1": "492",
+      "2": "1721",
+      "3": "12095",
+      "4": "1664",
+      "5": "9130",
+      "6": "29482",
+      "7": "113",
+      "8": "6650"
+    },
+    "review_score": "8",
+    "review_percentage": "91"
+  },
+  "extended": {
+    "developer": "Rob Jinman",
+    "publisher": "Rob Jinman",
+    "homepage": "http://proofficecalculator.com",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Pro Office Calculator",
+    "launch": {
+      "0": {
+        "executable": "procalc.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      },
+      "1": {
+        "executable": "Contents/MacOS/procalc",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "bin/procalc",
+        "type": "default",
+        "config": {
+          "oslist": "linux",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "914431": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2885432820479221121",
+          "size": "115305385",
+          "download": "61921296"
+        }
+      }
+    },
+    "914432": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1972605157661506615",
+          "size": "119060693",
+          "download": "50874064"
+        }
+      }
+    },
+    "914433": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8287977584569626621",
+          "size": "68705865",
+          "download": "37768752"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "3445799",
+        "timeupdated": "1546734467"
+      }
+    }
+  }
+}
