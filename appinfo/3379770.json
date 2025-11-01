@@ -146,20 +146,24 @@
   "config": {
     "installdir": "Quartermain and the Cult of Cthulhu",
     "launch": {
-      "0": {
-        "executable": "Game.exe",
-        "type": "default"
-      },
       "1": {
         "executable": "Quartermain.exe",
         "type": "option1",
         "config": {
-          "betakey": "beta"
+          "osarch": "64"
         },
         "description_loc": {
-          "english": "Latest Beta version of Quartermain"
+          "english": "With Achievements - Requires starting a new game (Old progress still accessible in Legacy mode)"
         },
-        "description": "Latest Beta version of Quartermain"
+        "description": "With Achievements - Requires starting a new game (Old progress still accessible in Legacy mode)"
+      },
+      "2": {
+        "executable": "Game.exe",
+        "type": "option1",
+        "description_loc": {
+          "english": "Legacy - No achievements but keep progress from old versions"
+        },
+        "description": "Legacy - No achievements but keep progress from old versions"
       }
     }
   },
