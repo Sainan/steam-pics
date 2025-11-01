@@ -1,6 +1,5 @@
 {
   "appid": "3610410",
-  "public_only": "1",
   "common": {
     "name": "非幸存者 Not Survivors",
     "type": "Game",
@@ -25,7 +24,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "languages": {
       "english": "1",
       "german": "1",
@@ -187,9 +186,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761969693",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3610410",
-    "exfgls": "8",
     "store_tags": {
       "0": "42804",
       "1": "4637",
@@ -212,5 +212,82 @@
       "18": "3993",
       "19": "4182"
     }
+  },
+  "extended": {
+    "developer": "ClockTower Games",
+    "publisher": "ClockTower Games"
+  },
+  "config": {
+    "installdir": "notsurvivors",
+    "steamdecktouchscreen": "1",
+    "steamconfigurator3rdpartynative": "2",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      },
+      "1": {
+        "executable": "game.exe",
+        "arguments": "--rendering-driver opengl3",
+        "description_loc": {
+          "english": "Run in Compatibility Mode",
+          "german": "Im Kompatibilitätsmodus ausführen",
+          "french": "Exécuter en mode compatible",
+          "koreana": "호환 모드로 실행",
+          "spanish": "Ejecutar en modo compatible",
+          "schinese": "以兼容模式运行",
+          "tchinese": "以相容模式執行",
+          "russian": "Запуск в режиме совместимости",
+          "japanese": "互換モードで実行",
+          "brazilian": "Executar no modo compatível"
+        },
+        "description": "Run in Compatibility Mode"
+      }
+    }
+  },
+  "depots": {
+    "3610411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "6625082759238233769",
+          "size": "160656972",
+          "download": "84790480"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "hasdepotsindlc": "0",
+    "branches": {
+      "public": {
+        "buildid": "20608380",
+        "timeupdated": "1761839857"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10485760",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataRoaming",
+        "path": "notsurvivors",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        }
+      },
+      "1": {
+        "root": "WinAppDataRoaming",
+        "path": "notsurvivors",
+        "pattern": "*.ini",
+        "platforms": {
+          "1": "Windows"
+        }
+      }
+    },
+    "sync_while_suspended": "1"
   }
 }
