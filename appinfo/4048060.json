@@ -1,6 +1,5 @@
 {
   "appid": "4048060",
-  "public_only": "1",
   "common": {
     "name": "Pac-Snec",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "a7bdf731dd225e16b8d926486ffcf4b924c364b4",
     "icon": "a7bdf731dd225e16b8d926486ffcf4b924c364b4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "72ffc894a4ed8a85f7182fd9793f1577dac6238c/capsule_231x87.jpg"
@@ -103,6 +102,7 @@
         "supported": "true"
       }
     },
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4048060",
     "exfgls": "3",
@@ -121,6 +121,44 @@
       "11": "7569",
       "12": "5125",
       "13": "4182"
+    }
+  },
+  "extended": {
+    "developer": "LukeCGG",
+    "publisher": "CGG Industries",
+    "isfreeapp": "1"
+  },
+  "config": {
+    "installdir": "Pac-Snec",
+    "launch": {
+      "0": {
+        "executable": "Pac-Snec.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "english": "Launch Pac-Snec"
+        },
+        "description": "Launch Pac-Snec"
+      }
+    }
+  },
+  "depots": {
+    "4048061": {
+      "manifests": {
+        "public": {
+          "gid": "7162417171993523138",
+          "size": "128660288",
+          "download": "59013136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20045280",
+        "timeupdated": "1758278375"
+      }
     }
   }
 }
