@@ -1,6 +1,5 @@
 {
   "appid": "4086320",
-  "public_only": "1",
   "common": {
     "name": "Vape Simulator",
     "type": "Game",
@@ -9,7 +8,7 @@
     "osextended": "",
     "clienticon": "58000acc869722ae69ed6ffd926ca3e3654f013b",
     "icon": "58000acc869722ae69ed6ffd926ca3e3654f013b",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -117,9 +116,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1762028525",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4086320",
-    "exfgls": "8",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "3",
@@ -145,6 +145,54 @@
       "15": "4835",
       "16": "1695",
       "17": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Ghost_RUS Games",
+    "publisher": "Ghost_RUS Games"
+  },
+  "config": {
+    "installdir": "Vape Simulator",
+    "launch": {
+      "0": {
+        "executable": "vaping.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4086321": {
+      "manifests": {
+        "public": {
+          "gid": "2746832623491748455",
+          "size": "8321970760",
+          "download": "7825862016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20261021",
+        "timeupdated": "1759683919"
+      }
     }
   }
 }
