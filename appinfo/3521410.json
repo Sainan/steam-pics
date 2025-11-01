@@ -1,6 +1,5 @@
 {
   "appid": "3521410",
-  "public_only": "1",
   "common": {
     "name": "Cats & Cups",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos,linux",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "name_localized": {
       "schinese": "喵喵甜品屋",
       "tchinese": "喵喵甜品屋",
@@ -215,9 +214,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761991207",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3521410",
-    "exfgls": "8",
     "store_tags": {
       "0": "597",
       "1": "35079",
@@ -239,6 +239,136 @@
       "17": "4711",
       "18": "492",
       "19": "4182"
+    }
+  },
+  "extended": {
+    "developer": "Rogue Duck Interactive",
+    "publisher": "Rogue Duck Interactive",
+    "homepage": "https://rogueduck.net"
+  },
+  "config": {
+    "installdir": "Cats And Cups",
+    "launch": {
+      "0": {
+        "executable": "Cats And Cups.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "mac.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "app.x86_64",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3521411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "9146641593942028064",
+          "size": "1879728297",
+          "download": "310877280"
+        },
+        "beta": {
+          "gid": "9146641593942028064",
+          "size": "1879728297",
+          "download": "310877280"
+        }
+      }
+    },
+    "3521412": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "712918145518614145",
+          "size": "1904850142",
+          "download": "318047472"
+        },
+        "beta": {
+          "gid": "712918145518614145",
+          "size": "1904850142",
+          "download": "318047472"
+        }
+      }
+    },
+    "3521413": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2434507378593313741",
+          "size": "1881369390",
+          "download": "310568352"
+        },
+        "beta": {
+          "gid": "2434507378593313741",
+          "size": "1881369390",
+          "download": "310568352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20632412",
+        "timeupdated": "1761991149"
+      },
+      "beta": {
+        "buildid": "20632412",
+        "description": "Beta stating branch, usually full of bugs",
+        "timeupdated": "1761991157"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "Rogue Duck Interactive/Cats And Cups",
+        "pattern": "*.json",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Cats And Cups",
+            "replace": "Rogue Duck Interactive/Cats And Cups"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Cats And Cups",
+            "replace": ".config/unity3d/Rogue Duck Interactive/Rogue Duck Interactive/Cats And Cups"
+          }
+        }
+      }
     }
   }
 }
