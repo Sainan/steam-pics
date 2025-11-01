@@ -1,6 +1,5 @@
 {
   "appid": "3909700",
-  "public_only": "1",
   "common": {
     "name": "Rhythm of Annihilation",
     "type": "Game",
@@ -24,7 +23,7 @@
     "icon": "9dc07bb0c532db573458ef16462e74d872936f0d",
     "clienticon": "4869dc119386fae4c5b81afeb39a4d94a011ba2e",
     "clienttga": "d8baff06ff9c9d10a5bd948db03a534d2c2c6ed4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "schinese": "4ef64904e7dfb98cb3bf349f28a4792d214a246e/capsule_231x87_schinese.jpg",
@@ -196,9 +195,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761994976",
     "community_hub_visible": "1",
     "gameid": "3909700",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -217,6 +216,54 @@
       "14": "3993",
       "15": "7250",
       "16": "4182"
+    }
+  },
+  "extended": {
+    "developer": "十年",
+    "publisher": "十年"
+  },
+  "config": {
+    "installdir": "Rhythm of Annihilation",
+    "launch": {
+      "0": {
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3909701": {
+      "manifests": {
+        "public": {
+          "gid": "2255132739473148450",
+          "size": "4816725388",
+          "download": "3536948880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20452305",
+        "timeupdated": "1760851936"
+      }
     }
   }
 }
