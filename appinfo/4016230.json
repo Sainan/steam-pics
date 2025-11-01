@@ -1,6 +1,5 @@
 {
   "appid": "4016230",
-  "public_only": "1",
   "common": {
     "name": "Bannerlands Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows,macos",
     "osarch": "64",
     "osextended": "macos64,macosapplesilicon",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "aicontenttype": "1",
     "small_capsule": {
       "english": "e86b073d8c5f3955fed35510bc2bd4f693babda9/capsule_231x87.jpg"
@@ -46,5 +45,61 @@
     },
     "gameid": "4016230",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "Dark Inertia Studios",
+    "publisher": "Dark Inertia Studios"
+  },
+  "config": {
+    "installdir": "Bannerlands Demo",
+    "launch": {
+      "0": {
+        "executable": "Bannerlands Demo.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Bannerlands Demo.app",
+        "type": "default",
+        "config": {
+          "oslist": "macos"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4016231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3388282930034121411",
+          "size": "467622368",
+          "download": "264785664"
+        }
+      }
+    },
+    "4016232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "gid": "1747320011301474464",
+          "size": "583356011",
+          "download": "290815856"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20543505",
+        "timeupdated": "1761423888"
+      }
+    }
   }
 }
