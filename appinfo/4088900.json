@@ -1,6 +1,5 @@
 {
   "appid": "4088900",
-  "public_only": "1",
   "common": {
     "name": "Cactus Clicker",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "9686b7631bb1a58c0a623f06ae2f23845632b29a/capsule_231x87.jpg"
@@ -137,6 +136,8 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761998426",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4088900",
     "exfgls": "3",
@@ -161,6 +162,60 @@
       "17": "3839",
       "18": "1702",
       "19": "4085"
+    }
+  },
+  "extended": {
+    "developer": "Dynamic Games",
+    "publisher": "Dynamic Games",
+    "isfreeapp": "1",
+    "listofdlc": "4137800,4137870",
+    "dlcavailableonstore": "1"
+  },
+  "config": {
+    "installdir": "Cactus Clicker",
+    "launch": {
+      "0": {
+        "executable": "CactusClicker.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4088901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "8666664616405356843",
+          "size": "454287792",
+          "download": "327836816"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "20632440",
+        "timeupdated": "1761991492"
+      }
     }
   }
 }
