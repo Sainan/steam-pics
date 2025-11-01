@@ -1,6 +1,5 @@
 {
   "appid": "3268870",
-  "public_only": "1",
   "common": {
     "name": "Mercator",
     "type": "Game",
@@ -10,7 +9,7 @@
     "icon": "0c7df3575cff058fecba57026d5b70cb8486588a",
     "clienttga": "3698abdadfab5a68beae77c90e7e98ce3bcbf111",
     "clienticon": "9ab6b79691b71fcd696314b3f78d2893229ad1ee",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "5f35051195d9a6102d7d98536bf49c320ce8b378/capsule_231x87.jpg"
@@ -105,9 +104,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761984411",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3268870",
-    "exfgls": "8",
     "store_tags": {
       "0": "16689",
       "1": "91114",
@@ -129,6 +129,118 @@
       "17": "599",
       "18": "3964",
       "19": "4094"
+    }
+  },
+  "extended": {
+    "developer": "rudderbucky",
+    "publisher": "rudderbucky"
+  },
+  "config": {
+    "installdir": "Mercator",
+    "launch": {
+      "0": {
+        "executable": "bevy_mercator.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      },
+      "1": {
+        "executable": "Mercator.app",
+        "config": {
+          "oslist": "macos"
+        }
+      },
+      "2": {
+        "executable": "bevy_mercator",
+        "config": {
+          "oslist": "linux"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3268871": {
+      "config": {
+        "oslist": "windows",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "203983583149786272",
+          "size": "155523133",
+          "download": "60265248"
+        }
+      }
+    },
+    "3268872": {
+      "config": {
+        "oslist": "macos",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "3754002930072220527",
+          "size": "181979142",
+          "download": "67077728"
+        }
+      }
+    },
+    "3268873": {
+      "config": {
+        "oslist": "linux",
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "gid": "2181016065961150296",
+          "size": "218255485",
+          "download": "73126880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20318459",
+        "timeupdated": "1760005606"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1000000",
+    "maxnumfiles": "25",
+    "savefiles": {
+      "0": {
+        "root": "MacAppSupport",
+        "path": "com.rudderbucky.mercator",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "MacAppSupport",
+        "os": "Windows",
+        "oscompare": "=",
+        "useinstead": "WinAppDataRoaming",
+        "pathtransforms": {
+          "0": {
+            "find": "com.rudderbucky.mercator",
+            "replace": "rudderbucky/mercator/data"
+          }
+        }
+      },
+      "1": {
+        "root": "MacAppSupport",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxXdgDataHome",
+        "pathtransforms": {
+          "0": {
+            "find": "com.rudderbucky.mercator",
+            "replace": "mercator"
+          }
+        }
+      }
     }
   }
 }
