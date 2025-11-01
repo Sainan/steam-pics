@@ -30,32 +30,20 @@
       "tchinese": "Phasmophobia 恐鬼症"
     },
     "steam_deck_compatibility": {
-      "category": "3",
-      "steamos_compatibility": "2",
-      "test_timestamp": "1655510400",
-      "tested_build_id": "8911777",
+      "category": "1",
+      "steamos_compatibility": "1",
+      "test_timestamp": "1761350400",
+      "tested_build_id": "20413900",
       "tests": {
         "0": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-        },
-        "1": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-        },
-        "2": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
-        },
-        "3": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
         }
       },
       "steamos_tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamOS_TestResult_GameStartupFunctional"
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
         }
       },
       "configuration": {
@@ -64,10 +52,10 @@
         "requires_non_controller_launcher_nav": "0",
         "primary_player_is_controller_slot_0": "0",
         "non_deck_display_glyphs": "0",
-        "small_text": "0",
+        "small_text": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "recommended_runtime": "proton-7.0-3",
+        "recommended_runtime": "proton-experimental",
         "requires_h264": "0",
         "requires_voice_files": "0",
         "gamescope_frame_limiter_not_supported": "0",
