@@ -1,6 +1,5 @@
 {
   "appid": "4011250",
-  "public_only": "1",
   "common": {
     "name": "Project DOOOOORS Demo",
     "type": "Demo",
@@ -15,7 +14,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -62,7 +61,52 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761997641",
     "gameid": "4011250",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "agoo",
+    "publisher": "agoo"
+  },
+  "config": {
+    "installdir": "Project.DOOOOORS Demo",
+    "launch": {
+      "0": {
+        "executable": "Project.DOOOOORS Demo.exe",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4011251": {
+      "manifests": {
+        "public": {
+          "gid": "4545365857505193160",
+          "size": "232217576",
+          "download": "111914352"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "20609270",
+        "timeupdated": "1761843377"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "10000000",
+    "maxnumfiles": "10",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "Saves/{64BitSteamID}",
+        "pattern": "*.sav"
+      }
+    }
   }
 }
