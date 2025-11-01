@@ -1,6 +1,5 @@
 {
   "appid": "4086280",
-  "public_only": "1",
   "common": {
     "name": "Witchy Tower",
     "type": "Game",
@@ -9,7 +8,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "controller_support": "full",
     "small_capsule": {
@@ -156,9 +155,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761988633",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "4086280",
-    "exfgls": "8",
     "store_tags": {
       "0": "3798",
       "1": "6730",
@@ -180,6 +180,50 @@
       "17": "5154",
       "18": "4057",
       "19": "1719"
+    }
+  },
+  "extended": {
+    "developer": "Changefairy",
+    "publisher": "Changefairy"
+  },
+  "config": {
+    "installdir": "Witchy Tower",
+    "launch": {
+      "0": {
+        "executable": "Witchy_Tower.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4086281": {
+      "manifests": {
+        "public": {
+          "gid": "2526120987171492897",
+          "size": "143259539",
+          "download": "125175776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20446602",
+        "timeupdated": "1760779482"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "5000",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocal",
+        "path": "Witchy_Tower",
+        "pattern": "wt_score.txt"
+      }
     }
   }
 }
