@@ -1,6 +1,5 @@
 {
   "appid": "3721950",
-  "public_only": "1",
   "common": {
     "name": "Yorda's Quest: A Lighthearted Magic Fantasy RPG",
     "type": "Game",
@@ -11,7 +10,7 @@
     "clienttga": "40795b70da3ccab4c584e57754458176380c7c69",
     "clienticon": "4fc41e74112688ebee0f525961fe8887bfef5074",
     "icon": "a565a1599aee837fe683f5f9e405f8efa0af3342",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
@@ -123,9 +122,9 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761969610",
     "community_hub_visible": "1",
     "gameid": "3721950",
-    "exfgls": "8",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -133,6 +132,72 @@
       "3": "4325",
       "4": "4182",
       "5": "12095"
+    }
+  },
+  "extended": {
+    "developer": "Gold-Mon",
+    "publisher": "Kagura Games",
+    "homepage": "https://www.kaguragames.com/"
+  },
+  "config": {
+    "installdir": "Yorda's Quest A Lighthearted Magic Fantasy RPG",
+    "launch": {
+      "0": {
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3721951": {
+      "manifests": {
+        "public": {
+          "gid": "7834582522167391723",
+          "size": "497699330",
+          "download": "296705920"
+        }
+      }
+    },
+    "3721952": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4189708830392029579",
+          "size": "250162172",
+          "download": "207959776"
+        }
+      }
+    },
+    "3721953": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "gid": "4345618347281813604",
+          "size": "497740547",
+          "download": "296765584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20520230",
+        "timeupdated": "1761260031"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "100000000",
+    "maxnumfiles": "101",
+    "savefiles": {
+      "0": {
+        "root": "gameinstall",
+        "path": "save",
+        "pattern": "*.rmmzsave"
+      }
     }
   }
 }
