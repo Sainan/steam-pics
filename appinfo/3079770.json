@@ -205,7 +205,7 @@
     "installdir": "Kokoro Kitchen",
     "launch": {
       "0": {
-        "executable": "Kokoro Kitchen_1.0.3.1_Updated Launch Version\\Kokoro Kitchen.exe",
+        "executable": "Kokoro Kitchen_1.1.0_Updated 10.31.25\\Kokoro Kitchen.exe",
         "config": {
           "oslist": "windows"
         }
@@ -225,9 +225,9 @@
       },
       "manifests": {
         "public": {
-          "gid": "7289233639343848270",
-          "size": "3127246330",
-          "download": "313380592"
+          "gid": "8527605671119088870",
+          "size": "3145660642",
+          "download": "313692144"
         }
       }
     },
@@ -237,107 +237,53 @@
       },
       "manifests": {
         "public": {
-          "gid": "5197867020895774818",
-          "size": "3151286855",
-          "download": "325863248"
+          "gid": "2473559599610046997",
+          "size": "3151287207",
+          "download": "325863152"
         }
       }
     },
     "baselanguages": "english,schinese,japanese",
     "branches": {
       "public": {
-        "buildid": "20502432",
-        "timeupdated": "1761164698"
+        "buildid": "20630268",
+        "timeupdated": "1761965599"
       }
     }
   },
   "ufs": {
     "quota": "104857600",
     "maxnumfiles": "100",
-    "sync_while_suspended": "1",
-    "ignoreexternalfiles": "1",
-    "hidecloudui": "1",
     "savefiles": {
       "0": {
-        "root": "gameinstall",
-        "path": "SavesDir",
-        "pattern": "*.sav"
+        "root": "WinAppDataLocalLow",
+        "path": "MangoLeafGames/KokoroKitchen",
+        "pattern": "*.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacHome",
+        "pathtransforms": {
+          "0": {
+            "find": "MangoLeafGames/KokoroKitchen",
+            "replace": "Library/Application Support/MangoLeafGames/KokoroKitchen"
+          }
+        }
       },
       "1": {
-        "root": "SteamCloudDocuments",
-        "path": "SavesDir",
-        "pattern": "*.sav"
-      },
-      "2": {
-        "root": "WinMyDocuments",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "3": {
-        "root": "WinAppDataLocal",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "4": {
         "root": "WinAppDataLocalLow",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "5": {
-        "root": "WinAppDataRoaming",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "6": {
-        "root": "WinSavedGames",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "7": {
-        "root": "WindowsHome",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        }
-      },
-      "8": {
-        "root": "MacHome",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "MacOS"
-        }
-      },
-      "9": {
-        "root": "MacAppSupport",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "MacOS"
-        }
-      },
-      "10": {
-        "root": "MacDocuments",
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "platforms": {
-          "1": "MacOS"
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "MangoLeafGames/KokoroKitchen",
+            "replace": ".config/unity3d/MangoLeafGames/KokoroKitchen"
+          }
         }
       }
     }
