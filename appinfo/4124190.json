@@ -1,6 +1,5 @@
 {
   "appid": "4124190",
-  "public_only": "1",
   "common": {
     "name": "Endless Space Scrap Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "4dd9351386ebe2a2dee3e088a23913c3353206a5/capsule_231x87.jpg"
@@ -44,5 +43,38 @@
     },
     "gameid": "4124190",
     "exfgls": "6"
+  },
+  "extended": {
+    "developer": "GESpacecraft",
+    "publisher": "GESpacecraft"
+  },
+  "config": {
+    "installdir": "Endless Space Scrap Demo",
+    "launch": {
+      "0": {
+        "executable": "endless_space_scrap.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "4124191": {
+      "manifests": {
+        "public": {
+          "gid": "1418382371055445762",
+          "size": "144897288",
+          "download": "50179632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20463209",
+        "timeupdated": "1760960498"
+      }
+    }
   }
 }
