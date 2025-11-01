@@ -1,6 +1,5 @@
 {
   "appid": "3977970",
-  "public_only": "1",
   "common": {
     "name": "我非聖賢 Demo",
     "type": "Demo",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "64",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -50,11 +49,41 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1767168000",
     "gameid": "3977970",
     "exfgls": "6",
     "content_descriptors_including_dlc": {
       "0": "1",
       "1": "5"
+    }
+  },
+  "extended": {
+    "developer": "幻象Gal",
+    "publisher": "幻象Gal"
+  },
+  "config": {
+    "installdir": "The Unsainted Demo",
+    "launch": {
+      "1": {
+        "executable": "unsainted.exe"
+      }
+    }
+  },
+  "depots": {
+    "3977971": {
+      "manifests": {
+        "public": {
+          "gid": "3253104969099030244",
+          "size": "1165715193",
+          "download": "1088584880"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20630983",
+        "timeupdated": "1761972940"
+      }
     }
   }
 }
