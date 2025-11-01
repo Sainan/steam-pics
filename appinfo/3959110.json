@@ -1,6 +1,5 @@
 {
   "appid": "3959110",
-  "public_only": "1",
   "common": {
     "name": "Doom Dawn",
     "type": "Game",
@@ -10,7 +9,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "a9c60890e61027dab0b78963055edf07a6f43544/capsule_231x87.jpg"
@@ -221,9 +220,10 @@
         "supported": "true"
       }
     },
+    "steam_release_date": "1761964213",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3959110",
-    "exfgls": "8",
     "store_tags": {
       "0": "1663",
       "1": "1667",
@@ -245,6 +245,58 @@
       "17": "6052",
       "18": "5154",
       "19": "4562"
+    }
+  },
+  "extended": {
+    "developer": "AeonGames",
+    "publisher": "AeonGames"
+  },
+  "config": {
+    "installdir": "DoomDawn",
+    "launch": {
+      "0": {
+        "executable": "DoomsdayDawn\\DoomsdayDawn.exe",
+        "type": "default",
+        "config": {
+          "oslist": "windows"
+        }
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3959111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "gid": "5186168076173016500",
+          "size": "529909780",
+          "download": "408301792"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "hasdepotsindlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "20599497",
+        "timeupdated": "1761792012"
+      }
     }
   }
 }
