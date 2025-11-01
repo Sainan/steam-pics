@@ -1,6 +1,5 @@
 {
   "appid": "3656850",
-  "public_only": "1",
   "common": {
     "name": "Dwarf Brew Master",
     "type": "Game",
@@ -19,7 +18,7 @@
     "oslist": "windows",
     "osarch": "",
     "osextended": "",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "controllertagwizard": "1",
     "small_capsule": {
       "english": "97178a037f8c85be4ee0a2c188ff3d3674955569/capsule_231x87.jpg",
@@ -100,7 +99,7 @@
         }
       }
     },
-    "store_asset_mtime": "1759775033",
+    "store_asset_mtime": "1760016708",
     "associations": {
       "0": {
         "type": "developer",
@@ -117,6 +116,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "supported_languages": {
@@ -133,9 +134,10 @@
         "subtitles": "true"
       }
     },
+    "steam_release_date": "1761050630",
+    "community_visible_stats": "1",
     "community_hub_visible": "1",
     "gameid": "3656850",
-    "exfgls": "8",
     "store_tags": {
       "0": "599",
       "1": "1773",
@@ -157,6 +159,76 @@
       "17": "6971",
       "18": "4182",
       "19": "3798"
+    }
+  },
+  "extended": {
+    "developer": "UralIgroStroy",
+    "publisher": "UralIgroStroy"
+  },
+  "config": {
+    "installdir": "Dwarf Brew Master",
+    "launch": {
+      "0": {
+        "executable": "DwarfBrewMaster.exe",
+        "config": {
+          "oslist": "windows",
+          "osarch": "64"
+        }
+      }
+    }
+  },
+  "depots": {
+    "3656851": {
+      "manifests": {
+        "public": {
+          "gid": "3349653159575014942",
+          "size": "332988025",
+          "download": "99047696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20356032",
+        "timeupdated": "1760257460"
+      }
+    }
+  },
+  "ufs": {
+    "quota": "1048576",
+    "maxnumfiles": "1",
+    "savefiles": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "path": "UralIgroStroy/DwarfBrewMaster",
+        "pattern": "save.json"
+      }
+    },
+    "rootoverrides": {
+      "0": {
+        "root": "WinAppDataLocalLow",
+        "os": "MacOS",
+        "oscompare": "=",
+        "useinstead": "MacAppSupport",
+        "pathtransforms": {
+          "0": {
+            "find": "UralIgroStroy/DwarfBrewMaster",
+            "replace": "unity.UralIgroStroy.DwarfBrewMaster"
+          }
+        }
+      },
+      "1": {
+        "root": "WinAppDataLocalLow",
+        "os": "Linux",
+        "oscompare": "=",
+        "useinstead": "LinuxHome",
+        "pathtransforms": {
+          "0": {
+            "find": "UralIgroStroy/DwarfBrewMaster",
+            "replace": ".config/unity3d/UralIgroStroy/DwarfBrewMaster"
+          }
+        }
+      }
     }
   }
 }
