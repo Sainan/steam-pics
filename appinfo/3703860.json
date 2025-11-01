@@ -88,7 +88,8 @@
     "installdir": "Legend Battles Playtest",
     "launch": {
       "0": {
-        "executable": "LegendBattles.exe"
+        "executable": "LegendBattles.exe",
+        "arguments": "-GameLiftRegion=ap-northeast-2 -GameLiftConfigurationName=arn:aws:gamelift:ap-northeast-2:905418273506:matchmakingconfiguration/MatchConfig-GameLift"
       }
     }
   },
