@@ -93,14 +93,15 @@
     "installdir": "ScreepsArenaDemo",
     "launch": {
       "0": {
-        "executable": "arena.exe",
+        "executable": "screeps_arena.exe",
         "type": "default",
         "config": {
           "oslist": "windows"
         }
       },
       "1": {
-        "executable": "arena",
+        "executable": "screeps_arena",
+        "arguments": "--no-sandbox",
         "type": "default",
         "config": {
           "oslist": "linux",
@@ -108,7 +109,7 @@
         }
       },
       "2": {
-        "executable": "arena.app",
+        "executable": "screeps_arena.app",
         "type": "default",
         "config": {
           "oslist": "macos"
